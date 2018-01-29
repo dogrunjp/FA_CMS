@@ -1,0 +1,65 @@
+# Spreadsheet settings
+# Worksheet name
+spreadsheet: 新着論文レビュー MasterFile # document name
+# target worksheet number (0 start)
+#wks_nums:
+#  - 1 # int
+
+wks:
+  first:
+    num: 0
+    id: FA_ID
+    template: fa_detail.html
+    require: ['Title', 'FA_URL']
+    static_file: fa_contants.json
+    summary_file: fa_summary.json
+    file_name_column: FA_ID
+    file_path: http://first.lifesciencedb.jp/wordpress/wp-content/uploads/2018/01/
+  #leading:
+    #num: 1
+    #id: FA_ID
+    #template: sample_la.html
+    #require: ['post_title', 'LA_URL']
+    #static_file: la_contants.json
+    #summary_file: la_summary.json
+    #file_name_column: FA_ID
+
+
+# Google API Key file
+jsonkey: conf/FirstAuthor-30b6c7309175.json
+# Column name for item id
+id: date
+# Column name for filename
+filename: date
+
+# Directory settings
+static_list_path: contents
+#output_path: /var/www/html
+output_path: html/
+template_path: template
+
+
+# Common Template
+# リストなど共有するテンプレートの記述が必要であればこのセクションを残す
+template:
+  picture_gallery: sub_picture_gallery.html
+  picture_list: sub_picture_list.html
+
+
+# Picture Gallery settings
+picture_tag: picture_tag.json
+picture_category: [モデル生物,実験器具,実験装置,未分類,模式図,次世代シーケンサー,活用事例,細胞,臓器,顕微鏡,生物アイコン]
+
+
+# Domain name
+togotv_domain: http://example.com
+
+# FA keywords annotation
+annotation:
+  wks:
+    num: 5
+  class: anno
+  repl_count: 1
+  flag: 削除候補フラグ
+
+

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>新着論文レビュー</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/blog.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="blog-masthead">
+    <div class="container">
+        <nav class="nav">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#">「新着論文レビューとは」</a>
+        </nav>
+    </div>
+</div>
+
+<div class="blog-header">
+    <div class="container">
+        <h1 class="blog-title">新着論文レビュー</h1>
+        <p class="lead blog-description">An example blog template built with Bootstrap.</p>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+            <div class="blog-post">
+                <h2 class="blog-post-title">{% block title %}{% endblock %}</h2>
+                <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+
+                <p></p>
+
+                <hr>
+
+                {% block post_content %}{% endblock %}
+
+            </div><!-- /.blog-post -->
+        </div>
+
+
+        <div class="col-sm-3 offset-sm-1 blog-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+                <h4>このサイトについて</h4>
+                <p>トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．くわしくは、
+                    「新着論文レビュー」とは をご覧ください．</p>
+            </div>
+            <div class="sidebar-module">
+                <h4>概念とその関連性による検索 (β版)</h4>
+                <ol class="list-unstyled">
+                    <li><a href="#">生体構造</a></li>
+                    <li><a href="#">生物種</a></li>
+                    <li><a href="#">疾患</a></li>
+                </ol>
+            </div>
+            <div class="sidebar-module">
+                <h4>今週よく読まれている記事Top10</h4>
+                <ol class="list-unstyled">
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                </ol>
+            </div>
+            <div class="sidebar-module">
+                <h4>今月よく読まれている記事Top10</h4>
+                <ol class="list-unstyled">
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ol>
+            </div>
+        </div><!-- /.blog-sidebar -->
+
+    </div><!-- /.row -->
+
+</div><!-- /.container -->
+
+<footer class="blog-footer">
+    <p><a href="http://dbcls.rois.ac.jp/">利用機関法人 情報・システム研究機構<br/>
+        ライフサイエンス統合データベースセンター (DBCLS)</a></p>
+    <p>
+        <a href="#">Back to top</a>
+    </p>
+</footer>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="./js/vendor/jquery.min.js"><\/script>')</script>
+<script src="./js/vendor/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="./js/ie10-viewport-bug-workaround.js"></script>
+<script type="text/javascript" src="js/jquery.hovercard.min.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        var aboutKW = {
+            name: "このキーワードを含むその他のエントリー",
+            link: " ",
+            bio: " "
+        };
+        var base_url = "http://ja.dbpedia.org/page/";
+        var cardBase = '<h2><a href="#" class="cb_link">DBpedia japanese:</a></h2><p class="cb_title"><p>';
+        $(".anno").hovercard({
+            customCardJSON: aboutKW,
+            detailsHTML: cardBase,
+            openOnTop: true,
+            width: 400,
+            showCustomCard: true,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var dbpedia_url = `http://ja.dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fja.dbpedia.org&query=select+distinct+*+where+%7B+%3Chttp%3A%2F%2Fja.dbpedia.org%2Fresource%2F${kw}%3E+dbpedia-owl%3Aabstract+%3Fo+.++%7D+LIMIT+1&should-sponge=&format=text%2Fcsv&timeout=0&debug=on`
+                var navi_url = `http://navi.first.lifesciencedb.jp/fanavi/servlet/query?query=PREFIX%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0APREFIX%20owl%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0D%0APREFIX%20ao%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fao%2F%3E%0D%0APREFIX%20aos%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fao%2Fselectors%2F%3E%0D%0APREFIX%20bibo%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fontology%2Fbibo%2F%3E%0D%0APREFIX%20doco%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fspar%2Fdoco%2F%3E%0D%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX%20foaf%3A%20%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0D%0APREFIX%20pav%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fpav%2F%3E%0D%0APREFIX%20nlp%3A%20%3Chttp%3A%2F%2Fnavi.first.lifesciencedb.jp%2Fnlp%2F%3E%0D%0A%0D%0Aselect%20distinct%20(strbefore(substr(str(%3Fs)%2C40)%2C%22%23%22)%20AS%20%3Fid)%20%3Fo%20%3Ft%20%7B%0D%0A%20%20%3Fs%20nlp%3Ayogen%20nlp%3A誘導%20%3B%0D%0A%20%20%20%20%20%3Fp%20%5Brdfs%3Alabel%20%3Fo%5D%20%3B%0D%0A%20%20%20%20%20dcterms%3AisPartOf%7B3%7D%20%2F%20rdfs%3Alabel%20%3Ft%20.%0D%0A%20%20%3Fp%20a%20nlp%3AJoshi%20.%0D%0A%20%20FILTER(lang(%3Fo)%20%3D%20%22ja%22%20%26%26%20contains(%3Fo%2C%20%22${kw}%22))%0D%0A%7D&format=JSON&limit=25&offset=0&inference=false`;
+
+                $.ajax({
+                    type:'GET',
+                    url: dbpedia_url,
+                    dataType: 'text'
+                }).then(function (d) {
+                    var str = d.slice(3);
+                    $(".cb_link").attr("href", base_url + kw).text("DBpedia japanese: " + kw);
+                    $(".cb_title").text(str);
+                });
+
+                $.ajax({
+                    type:'GET',
+                    url: navi_url,
+                    dataType: 'json'
+                }).then(function (d) {
+                     var pages = d["results"]["bindings"];
+
+                    if (pages.length > 0){;
+                        $(".hc-details .s-card").attr("style", "display:block");
+                        for (var i in pages){
+
+                            var c = pages[i];
+                            var p_id = c["id"]["value"];
+                            //var p_id = c["s"]["value"].split(["/"]).slice(4,5)[0].split(["#"]).slice(0,1);
+                            var p_tit = c["t"]["value"];
+                            $(".hc-details .s-card .s-loc").append("<div><a href=" + p_id + ".html>- " + p_tit + "</a></div>");
+                        }
+                    }else{
+                        $(".hc-details .s-card").attr("style", "display:none")
+                    }
+
+                });
+            }
+
+
+
+        })
+
+    });
+
+
+</script>
+
+</body>
+</html>

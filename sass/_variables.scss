@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+$font-family-serif : Georgia, "Times New Roman", Times, serif;
+$font-family-gochic : 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo, 'ＭＳ Ｐゴシック', verdana, sans-serif;
+$font-family-awasome : "Font Awesome 5 Free";
+
+$black : #333;
+$monotone_01 : #999;
+$monotone_02 : #CCC;
+$monotone_03 : #EFEFEF;
+$white : #FFF;
+
+$red_01 : #F40000;
+$red_02 : #886353;
+$red_03 : #A97965;
+$red_04 : #870505;
+$red_05 : #A97965;
+
+$border_01 : solid 1px #999;
+$border_02 : dashed 1px #999;
+$border_03 : solid 1px #EFEFEF;
+$border_04 : solid 1px #CCC;
+$border_05 : solid 5px #CCC;
+$border_06 : solid 5px #333;
+$border_07 : solid 1px #333;
+$border_title : solid 5px #F40000;
+
+$hyperlink_01_link : #886353;
+$hyperlink_01_hover : #4C666A;
+
+
+$max_width_pc : 1200px;
+$max_width_under_1200 : 1199px;
+$max_width_under_900 : 900px;
+$max_width_tablet : 768px;
+$max_width_sp : 667px;
+
+/* base */
+@mixin width_base_pc {
+  width     : 100%;
+  max-width : 1200px;
+  margin    : 0 auto;
+  padding   : 0;
+}
+@mixin width_base_pc_under_1200 {
+  width     : calc(100% - 20px);
+  max-width : 1180px;
+  margin    : 0 auto;
+  padding   : 0 10px;
+}
+@mixin width_base_tablet {
+  width     : calc(100% - 20px);
+  max-width : 748px;
+  margin    : 0 10px;
+  padding   : 0;
+}
+@mixin width_base_sp {
+  width     : calc(100% - 10px);
+  max-width : 647px;
+  margin    : 0 auto;
+  padding   : 0 5px;
+}
+
+/* content */
+@mixin width_content_pc {
+  float      : left;
+  max-width  : 960px;
+  width      : 80%;
+  margin     : 0;
+  padding    : 0 0 20px 0;
+  text-align : left;
+}
+@mixin width_content_pc_under_1200 {
+  float      : left;
+  max-width  : 900px;
+  width      : 75%;
+}
+@mixin width_content_tablet {
+  float      : left;
+  max-width  : 538px;
+  width      : 70%;
+}
+@mixin width_content_sp {
+  float      : none;
+  max-width  : 657px;
+  width      : calc(100% - 10px);
+  margin     : 0 5px;
+}
+
+/* sidebar */
+@mixin width_sidebar_pc {
+  float      : right;
+  max-width  : 238px;
+  width      : calc(20% - 2px);
+  margin     : 40px 0 0 0;
+  padding    : 0 0 10px 0;
+  text-align : center;
+}
+@mixin width_sidebar_pc_under_1200 {
+  float      : right;
+  max-width  : 298px;
+  width      : calc(25% - 2px);
+}
+@mixin width_sidebar_tablet {
+  float      : right;
+  max-width  : 230px;
+  width      : calc(30% - 2px);
+}
+@mixin width_sidebar_sp {
+  float      : none;
+  max-width  : 657px;
+  width      : calc(100% - 10px);
+  margin     : 20px 5px;
+}
