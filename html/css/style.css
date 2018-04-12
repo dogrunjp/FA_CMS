@@ -285,16 +285,18 @@ a:hover, a:active {
 #content p {
   padding: 0 0 15px 0;
   margin: 0;
-  line-height: 1.4rem; }
+  line-height: 1.25rem;
+  font-size: 12px; }
 #content h1 {
-  font-size: 25px;
+  font-size: 16px;
   font-weight: normal;
   letter-spacing: 0;
   margin-top: 42px;
   padding-left: 5px;
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.33;
-  border-left: solid 5px #F40000; }
+  border-left: solid 5px #F40000;
+  min-height: 69px; }
   #content h1 a {
     color: #333;
     text-decoration: none; }
@@ -338,11 +340,13 @@ a:hover, a:active {
     display: flex;
     flex-wrap: wrap; }
   #contentleft .article {
-    flex-basis: 45%;
+    flex-basis: 28%;
     margin-right: 5%; }
   #contentleft .article_thumb {
+    position: relative;
     margin-left: 2px;
     padding-left: 7px;
+    padding-bottom: 8px;
     border-left: solid 1px #999; }
   #contentleft ol {
     margin: 0 0 0 20px;
@@ -377,7 +381,67 @@ a:hover, a:active {
     background: #EFEFEF;
     border: solid 1px #CCC;
     margin: 10px 0;
-    padding: 10px 0 10px 15px; }
+    padding: 10px 0 10px 15px;
+    position: absolute;
+    bottom: 0; }
+
+#contentleft_main {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 20px 0;
+  text-align: left; }
+  #contentleft_main .autopagerize_page_element {
+    display: flex;
+    flex-wrap: wrap; }
+  #contentleft_main .article {
+    flex-basis: 28%;
+    margin-right: 5%; }
+  #contentleft_main .article_thumb {
+    position: relative;
+    height: 460px;
+    margin-left: 2px;
+    padding-left: 7px;
+    padding-bottom: 8px;
+    border-left: solid 1px #999; }
+  #contentleft_main ol {
+    margin: 0 0 0 20px;
+    padding: 0 0 10px; }
+    #contentleft_main ol li {
+      margin: 0 0 6px 20px;
+      padding: 0;
+      line-height: 1.2em; }
+  #contentleft_main ul {
+    margin: 0 0 0 20px;
+    padding: 0 0 10px 0; }
+    #contentleft_main ul li {
+      margin: 0;
+      padding: 0 0 0 18px; }
+  #contentleft_main .single {
+    margin: 42px 0 15px;
+    padding: 20px 0 0 0; }
+  #contentleft_main blockquote {
+    margin: 0 25px 10px;
+    padding: 0 25px 0 10px;
+    background: #333;
+    border-top: solid 1px #EFEFEF;
+    border-bottom: solid 1px #EFEFEF; }
+  #contentleft_main #content blockquote p {
+    color: #FFF;
+    margin: 0 0 10px 0;
+    padding: 10px 0 0 0; }
+  #contentleft_main .date {
+    color: #A97965;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-bottom: 8px; }
+  #contentleft_main .bt-links {
+    background: #EFEFEF;
+    border: solid 1px #CCC;
+    margin: 10px 0;
+    padding: 10px 0 10px 15px;
+    position: absolute;
+    bottom: 0;
+    font-size: 11px; }
 
 @media screen and (max-width: 1199px) {
   #contentleft {
@@ -570,7 +634,8 @@ a:hover, a:active {
   .bottom_indexes .widget_categories ul {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 10px; }
+    padding-left: 10px;
+    list-style-type: none; }
     .bottom_indexes .widget_categories ul li {
       flex-basis: 33.333%; }
 
@@ -651,5 +716,72 @@ a:hover, a:active {
 
 .hc-details-open-left .hc-refers {
   text-align: left; }
+
+/************************************************
+*	Drawer
+************************************************/
+.drawer-nav ul li.widget_search {
+  background-color: #CCC;
+  padding: 10px 5px;
+  margin-top: 40px; }
+  .drawer-nav ul li.widget_search #searchform {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+  .drawer-nav ul li.widget_search #s {
+    width: calc(100% - 60px);
+    height: 20px;
+    color: #333;
+    font-size: 0.8rem;
+    padding: 4px;
+    margin: 0;
+    border: solid 1px #333; }
+  .drawer-nav ul li.widget_search #searchsubmit {
+    width: 45px;
+    background: #333;
+    color: #FFF;
+    font-size: 0.8rem;
+    padding: 5px;
+    border: solid 1px #333; }
+  .drawer-nav ul li.widget_search ul {
+    padding: 0 5px;
+    width: calc(100% - 10px);
+    text-align: left; }
+    .drawer-nav ul li.widget_search ul li {
+      display: table-row; }
+      .drawer-nav ul li.widget_search ul li::before {
+        display: table-cell;
+        font-family: "Font Awesome 5 Free";
+        content: '\f105';
+        color: #870505;
+        padding-right: 5px; }
+
+.drawer-nav h2 {
+  border-left: solid 5px #CCC;
+  border-right: solid 5px #CCC;
+  border-bottom: none;
+  background-color: #333;
+  color: #FFF;
+  font-size: 0.8rem;
+  font-weight: normal;
+  line-height: 1.8rem;
+  padding: 0;
+  margin: 15px 0 10px; }
+.drawer-nav .textwidget {
+  padding: 0 5px;
+  width: calc(100% - 10px);
+  text-align: left; }
+  .drawer-nav .textwidget .img_item {
+    text-align: center;
+    display: block; }
+  .drawer-nav .textwidget .about_text {
+    padding: 10px 0;
+    line-height: 1.2rem; }
+  .drawer-nav .textwidget.text-center {
+    text-align: center; }
+
+#nav-menu button {
+  width: 1.25rem;
+  height: 10px; }
 
 /*# sourceMappingURL=style.css.map */

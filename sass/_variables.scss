@@ -70,6 +70,13 @@ $max_width_sp : 667px;
   padding    : 0 0 20px 0;
   text-align : left;
 }
+@mixin width_content_pc_main {
+  float      : left;
+  width      : 100%;
+  margin     : 0;
+  padding    : 0 0 20px 0;
+  text-align : left;
+}
 @mixin width_content_pc_under_1200 {
   float      : left;
   max-width  : 900px;
