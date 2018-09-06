@@ -1,0 +1,10 @@
+<{{ item.name }}>
+<div>
+<h2 class="widgettitle">{{ item.title }}</h2>
+ <ul class="drawer-menu local-menu">
+  {% for l in li %}
+  <li><a href="./{{ item.target }}.htm?val={{ l.name }}">{{ l.name }}  ({{ l.val }})</a></li>
+   {% endfor %}
+ </ul>
+</div>
+</{{ item.name }}>

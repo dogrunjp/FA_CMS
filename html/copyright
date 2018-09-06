@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 著作権・クレジット: ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+
+    <link rel="stylesheet" href="./css/multibox.css" type="text/css" media="screen">
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body cz-shortcut-listen="true" class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger">
+                <span class="sr-only">toggle navigation</span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+        <div id="contentleft">
+            <div class="article">
+            <h2>著作権・クレジット</h2>
+            <p>「新着論文レビュー」の各記事の<strong>著作権はそれぞれの著者が保持します</strong>．</p>
+            <p>「新着論文レビュー」は，サイエンスコミュニティの共有物として，<strong>クレジットの明記を条件に，転載・改変・再利用（営利目的での二次利用も含め）を自由に行えます</strong>．</p>
+            <p>「新着論文レビュー」は，<a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">クリエイティブコモンズ・ライセンス（CC）表示
+                2.1 日本</a> のもとでライセンスされています．このライセンスのもとで可能な利用方法は以下の３つです．</p>
+            <ol>
+                <li>このコンテンツの全部または一部に自由にアクセスし，データを取得することができます．</li>
+                <li>このコンテンツの全部または一部のデータを自由に再配布することができます．</li>
+                <li>このコンテンツの全部または一部のデータを利用した，二次的著作物を自由に作成し，配布することができます．</li>
+            </ol>
+            <p>上記の標準利用許諾に基づいて「新着論文レビュー」を利用する際に，従うべき条件は以下です．</p>
+            <ol>
+                <li>このコンテンツの全部または一部，あるいは二次的著作物の配布に際しては，このコンテンツの作成者のクレジットを表示しなければなりません．</li>
+            </ol>
+            <p>「新着論文レビュー」の利用にあたっては，下記の<strong>クレジットを必ず表示してください</strong>．</p>
+            <p style="text-align: center;">© 20xx 著者名 Licensed under <a
+                    href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a><br>
+                あるいは<br>
+                © 20xx 著者名 Licensed under a Creative Commons 表示 2.1 日本 License</p>
+            <p>クレジットは，それぞれのコンテンツの最後に表記されています．</p>
+            <p>
+                高解像度の図をJPEGファイルとしてダウンロード可能です．講義や講演，論文などの著作物に自由に利用することができますが，この場合も必ずクレジットを表示してください．クレジットは，それぞれの図にも表記されています．</p>
+            <p>あわせて、<a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy" target="_blank">「統合データベースプロジェクト」のサイトポリシー</a>もご覧ください．
+            </p>
+            <div style="float: right; margin-left: 10px;">
+                <iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true"
+                        class="twitter-share-button twitter-share-button-rendered twitter-tweet-button"
+                        title="Twitter Tweet Button"
+                        src="https://platform.twitter.com/widgets/tweet_button.32d6c6b4cb1ed84df04e7f9705a90c47.en.html#dnt=false&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=http%3A%2F%2Ffirst.lifesciencedb.jp%2Fcopyright&amp;size=m&amp;text=%E8%91%97%E4%BD%9C%E6%A8%A9%E3%83%BB%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%20%3A%20%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%20%E6%96%B0%E7%9D%80%E8%AB%96%E6%96%87%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC&amp;time=1536159799372&amp;type=share&amp;url=http%3A%2F%2Ffirst.lifesciencedb.jp%2Fcopyright"
+                        data-url="http://first.lifesciencedb.jp/copyright"
+                        style="position: static; visibility: visible; width: 61px; height: 20px;"></iframe>
+            </div>
+            <div class="wp_social_bookmarking_light">
+                <div class="wsbl_twitter">
+                    <iframe id="twitter-widget-2" scrolling="no" frameborder="0" allowtransparency="true"
+                            class="twitter-share-button twitter-share-button-rendered twitter-tweet-button"
+                            title="Twitter Tweet Button"
+                            src="https://platform.twitter.com/widgets/tweet_button.32d6c6b4cb1ed84df04e7f9705a90c47.ja.html#dnt=false&amp;id=twitter-widget-2&amp;lang=ja&amp;original_referer=http%3A%2F%2Ffirst.lifesciencedb.jp%2Fcopyright&amp;size=m&amp;text=%E8%91%97%E4%BD%9C%E6%A8%A9%E3%83%BB%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88&amp;time=1536159799372&amp;type=share&amp;url=http%3A%2F%2Ffirst.lifesciencedb.jp%2Fcopyright"
+                            data-url="http://first.lifesciencedb.jp/copyright"
+                            style="position: static; visibility: visible; width: 75px; height: 20px;"></iframe>
+                </div>
+                <div class="wsbl_facebook_like">
+                    <div id="fb-root" class=" fb_reset">
+                        <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+                            <div>
+                                <iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true"
+                                        allowfullscreen="true" scrolling="no" allow="encrypted-media"
+                                        id="fb_xdm_frame_https" aria-hidden="true"
+                                        title="Facebook Cross Domain Communication Frame" tabindex="-1"
+                                        src="https://staticxx.facebook.com/connect/xd_arbiter/r/0P3pVtbsZok.js?version=42#channel=f5f3b4c5655aa4&amp;origin=http%3A%2F%2Ffirst.lifesciencedb.jp"
+                                        style="border: none;"></iframe>
+                            </div>
+                        </div>
+                        <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+                            <div></div>
+                        </div>
+                    </div>
+                    <fb:like href="http://first.lifesciencedb.jp/copyright" layout="button_count" action="like"
+                             width="100" share="false" show_faces="false" class=" fb_iframe_widget"
+                             fb-xfbml-state="rendered"
+                             fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=0&amp;href=http%3A%2F%2Ffirst.lifesciencedb.jp%2Fcopyright&amp;layout=button_count&amp;locale=ja_JP&amp;sdk=joey&amp;share=false&amp;show_faces=false&amp;width=100">
+                        <span style="vertical-align: bottom; width: 83px; height: 20px;"><iframe name="f12a6574d4809a8"
+                                                                                                 width="100px"
+                                                                                                 height="1000px"
+                                                                                                 frameborder="0"
+                                                                                                 allowtransparency="true"
+                                                                                                 allowfullscreen="true"
+                                                                                                 scrolling="no"
+                                                                                                 allow="encrypted-media"
+                                                                                                 title="fb:like Facebook Social Plugin"
+                                                                                                 src="https://www.facebook.com/v2.7/plugins/like.php?action=like&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F0P3pVtbsZok.js%3Fversion%3D42%23cb%3Df220479beb0fb%26domain%3Dfirst.lifesciencedb.jp%26origin%3Dhttp%253A%252F%252Ffirst.lifesciencedb.jp%252Ff5f3b4c5655aa4%26relation%3Dparent.parent&amp;container_width=0&amp;href=http%3A%2F%2Ffirst.lifesciencedb.jp%2Fcopyright&amp;layout=button_count&amp;locale=ja_JP&amp;sdk=joey&amp;share=false&amp;show_faces=false&amp;width=100"
+                                                                                                 class=""
+                                                                                                 style="border: none; visibility: visible; width: 83px; height: 20px;"></iframe></span>
+                    </fb:like>
+                </div>
+                <div class="wsbl_google_plus_one">
+                    <div id="___plusone_0"
+                         style="text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 32px; height: 20px; background-position: initial initial; background-repeat: initial initial;">
+                        <iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0"
+                                scrolling="no"
+                                style="position: static; top: 0px; width: 32px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;"
+                                tabindex="0" vspace="0" width="100%" id="I0_1536159799337" name="I0_1536159799337"
+                                src="https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;annotation=none&amp;hl=ja&amp;origin=http%3A%2F%2Ffirst.lifesciencedb.jp&amp;url=http%3A%2F%2Ffirst.lifesciencedb.jp%2Fcopyright&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.2FiduWTITgY.O%2Fam%3DwQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCN0S2wpLbyH4iIFnsuCaz0-HLlSKg%2Fm%3D__features__#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I0_1536159799337&amp;_gfid=I0_1536159799337&amp;parent=http%3A%2F%2Ffirst.lifesciencedb.jp&amp;pfname=&amp;rpctoken=39478801"
+                                data-gapiattached="true" title="G+"></iframe>
+                    </div>
+                </div>
+            </div>
+            <br class="wp_social_bookmarking_light_clear">
+            <div style="clear:both;"></div>
+
+            <!--
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                    xmlns:dc="http://purl.org/dc/elements/1.1/"
+                    xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+                <rdf:Description rdf:about="http://first.lifesciencedb.jp/copyright"
+            dc:identifier="http://first.lifesciencedb.jp/copyright"
+            dc:title="著作権・クレジット"
+            trackback:ping="http://first.lifesciencedb.jp/copyright/trackback" />
+        </rdf:RDF>	-->
+
+
+        </div>
+        </div>
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+<!-- Hovercardに表示するDBを選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new
+        Set(this)
+    ]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+<
+/body>
+< /html>

@@ -1,0 +1,52 @@
+# Spreadsheet settings
+# Worksheet name
+spreadsheet: 新着論文レビュー MasterFile # document name
+# target worksheet number (0 start)
+#wks_nums:
+#  - 1 # int
+
+wks:
+  first:
+    num: 0
+    id: FA_ID
+    template: fa_detail.html
+    require: ['Title', 'FA_URL']
+    static_file: fa_contants.json
+    summary_file: fa_summary.json
+    file_name_column: FA_ID
+    file_path:
+  #leading:
+    #num: 1
+    #id: FA_ID
+    #template: sample_la.html
+    #require: ['post_title', 'LA_URL']
+    #static_file: la_contants.json
+    #summary_file: la_summary.json
+    #file_name_column: FA_ID
+
+
+# Google API Key file
+jsonkey: conf/FirstAuthor-xxx.json
+# Column name for item id
+id: date
+# Column name for filename
+filename: date
+
+# Directory settings
+static_list_path: contents
+#output_path: /var/xx/xx
+output_path: html/
+template_path: template
+
+# Domain name
+togotv_domain: http://example.com
+
+# FA keywords annotation
+annotation:
+  wks:
+    num: 5
+  class: anno
+  repl_count: 1
+  flag: 削除候補フラグ
+
+
