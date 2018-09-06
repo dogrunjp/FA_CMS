@@ -186,3 +186,67 @@ SPARQLでcsvを取得する場合（例：対立遺伝子）
 ```
 http://ja.dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fja.dbpedia.org&query=select+distinct+*+where+%7B+%3Chttp%3A%2F%2Fja.dbpedia.org%2Fresource%2F対立遺伝子%3E+dbpedia-owl%3Aabstract+%3Fo+.++%7D+LIMIT+1&should-sponge=&format=text%2Fcsv&timeout=0&debug=on
 ```
+
+## githubにpushする際に Google cloud api key, aws iamの情報、aws s3のfull＿access_confを一旦コミットしてしまった
+
+GitGurdian (GCP)、AWS、Google-cloud-complianceから警告が届く
+
+- GoogleのAPI key conf/FirstAuthor-30b6c7309175.json を作り直した方が良い
+- awsのiamを作り直す
+- aws s3のfullaccess confを作り直す（fa-bmu-jp）
+
+### 対応
+
+ユーザから削除＆新規作成
+- pyss_testを削除した（コピーはpyss-test-2）
+- fa-bmu-jpを削除fa-bmu-jp-２をコピー、aws configureを登録し直した。
+- GCP にユーザを作り直し（famanager2）jsonkeyを取得。テスト環境は"famanager2@firstauthor-176006.iam.gserviceaccount.com"で実験中（先ずはローカルで）
+
+未実施だがテストすみ次第対応すること
+- FAのconfigをfamanager2で対応
+- LAのconfigもfamanager2に変更
+- famanagerをspreadsheetのユーザから削除
+
+
+## S3
+
+テストサイト用のバケットと同期する
+
+```
+aws s3 sync html/ s3://fa.bmu.jp --profile fa-bmu-jp --content-type "text/html"
+aws s3 sync s3://leading.lifesciencedb.jp/d3 --profile la-s3
+```
+
+バケットから特定のファイルを削除する
+
+```
+aws s3 rm s3://fa.bmu.jp/{file name} d3 --profile la-s3
+```
+
+バケットのファイル一覧取得
+```
+$ aws s3 ls s3://fa.bmu.jp/ --profile fa-bmu-jp
+
+```
+
+## gitのリモートからのみファイルを削除する
+
+- git rm --cached hoge.json
+- git add -u
+- git commit -m "delete some file"
+- git push origin master
+
+# gitの履歴を削除する
+
+- 指定したファイルを消す
+git filter-branch --tree-filter "rm -f [消したいファイルパス]" HEAD
+
+- 指定したディレクトり以下を消す
+git filter-branch --tree-filter "rm -f -r [消したいディレクトリパス] " HEAD
+
+- リポジトリを最適化
+git gc --aggressive --prune=now
+
+で、git push -f
+
+[Git リポジトリに上が
