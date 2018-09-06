@@ -55,3 +55,25 @@ Download link や画像パスはlifesciencedbを指すようにする
 http://first.lifesciencedb.jp/wordpress/wp-content/uploads/2018/08/Eto-Cell-18.7.12-Fig.1.jpg
 これは
 https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Eto-Cell-18.7.12-Fig.1.jpg
+
+## gitのリモートからのみファイルを削除する
+
+- git rm --cached hoge.json
+- git add -u
+- git commit -m "delete some file"
+- git push origin master
+
+# gitの履歴を削除する
+
+- 指定したファイルを消す
+git filter-branch --tree-filter "rm -f [消したいファイルパス]" HEAD
+
+- 指定したディレクトり以下を消す
+git filter-branch --tree-filter "rm -f -r [消したいディレクトリパス] " HEAD
+
+- リポジトリを最適化
+git gc --aggressive --prune=now
+
+で、git push -f
+
+[Git リポジトリに上がっているファイルを履歴ごと消すには？](https://qiita.com/go_astrayer/items/6e39d3ab16ae8094496c)
