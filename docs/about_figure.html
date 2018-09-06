@@ -1,0 +1,141 @@
+// 原簿(17710.html 改行は見やすいように適宜挿入した)
+<a name="F1"></a>
+<div id="fig1-caption-text" style="display: none;"><strong>図1　ヒトの胎盤の構造</strong><br>
+    <a href="http://first.lifesciencedb.jp/wordpress/wp-content/uploads/2018/01/Okae-Cell-Stem-Cell-18.1.4-Fig.1.jpg" target="_blank">
+        [Download]
+    </a>
+</div>
+[hs_figure id=1&amp;image=/wordpress/wp-content/uploads/2018/01/Okae-Cell-Stem-Cell-18.1.4-Fig.1.png&amp;caption=fig1-caption-text]<br><br>
+
+　胎盤を構成するすべての栄養膜細胞は胚盤胞期の栄養外胚葉に由来する．マウスにおいては，栄養外胚葉あるいは着床後胚の胚体外外胚葉をFGF4の存在下において培養することにより栄養膜幹細胞が樹立されることが報告されている
+<a href="#R1"><sup>1)</sup></a>．
+
+マウスの栄養膜幹細胞は半永久的に増殖が可能で，胚盤胞に注入すると胎盤を構成するすべての栄養膜細胞に分化する能力をもつ．マウスにおける栄養膜幹細胞の樹立をうけ，これまで，多くの研究者がヒトにおいて栄養膜幹細胞の樹立を試みたが成功したという報告はない．<br><br>
+
+
+
+// pyssに取り込まれてレンダリングされたHTML (17710.html) 原簿と等しいはず
+
+<a name="F1"></a>
+
+<div id="fig1-caption-text" style="display: none;"><strong>図1　ヒトの胎盤の構造</strong><br>
+    <a href="http://first.lifesciencedb.jp/wordpress/wp-content/uploads/2018/01/Okae-Cell-Stem-Cell-18.1.4-Fig.1.jpg" target="_blank">
+        [Download]
+    </a>
+</div>
+[hs_figure id=1&amp;image=/wordpress/wp-content/uploads/2018/01/Okae-Cell-Stem-Cell-18.1.4-Fig.1.png&amp;caption=fig1-caption-text]<br><br>　
+
+
+
+
+// 現状の要素
+<p><a name="F1"></a></p>
+
+<div id="fig1-caption-text" style="display: none;"><strong>図1　ヒトの胎盤の構造</strong><br>
+<a href="http://first.lifesciencedb.jp/wordpress/wp-content/uploads/2018/01/Okae-Cell-Stem-Cell-18.1.4-Fig.1.jpg" target="_blank">
+[Download]
+</a>
+</div>
+
+<div id="figure1" class="hs-figure">
+
+<div class="hs-figure-box">
+<a class="highslide" title="$(fig1-caption-text)" onclick="return hs.expand(this, {captionText: $('fig1-caption-text').innerHTML})" href="/wordpress/wp-content/uploads/2018/01/Okae-Cell-Stem-Cell-18.1.4-Fig.1.png" target="_blank">
+<img src="/wordpress/wp-content/uploads/2018/01/Okae-Cell-Stem-Cell-18.1.4-Fig.1.png" alt="figure1" width="200px">
+</a>
+</div>
+
+<div id="fig1-caption" class="hs-figure-caption">
+<strong>図1　ヒトの胎盤の構造</strong><br>
+<a href="http://first.lifesciencedb.jp/wordpress/wp-content/uploads/2018/01/Okae-Cell-Stem-Cell-18.1.4-Fig.1.jpg" target="_blank">
+[Download]
+</a>
+</div>
+
+</div>
+
+<script type="text/javascript">$('fig1-caption').innerHTML = $('fig1-caption-text').innerHTML;</script>
+<div style="clear:both;"></div>
+
+
+// 現状のソース
+<p><a name="F1"></a></p>
+
+<div id="fig1-caption-text" style="display: none;"><strong>図1　ヒトの胎盤の構造</strong><br />
+<a href="http://first.lifesciencedb.jp/wordpress/wp-content/uploads/2018/01/Okae-Cell-Stem-Cell-18.1.4-Fig.1.jpg" target="_blank">
+    [Download]
+</a>
+</div>
+
+<div id="figure1" class="hs-figure">
+    <div class="hs-figure-box"><a class="highslide" title="$(fig1-caption-text)" onclick="return hs.expand(this, {captionText: $('fig1-caption-text').innerHTML})" href="/wordpress/wp-content/uploads/2018/01/Okae-Cell-Stem-Cell-18.1.4-Fig.1.png" target="_blank">
+    <img src="/wordpress/wp-content/uploads/2018/01/Okae-Cell-Stem-Cell-18.1.4-Fig.1.png" alt="figure1" width="200px" /></a>
+</div>
+
+    <div id="fig1-caption" class="hs-figure-caption"></div></div><script type='text/javascript'>$('fig1-caption').innerHTML = $('fig1-caption-text').innerHTML;</script>
+<div style='clear:both;'></div>
+
+// 置き換える要素
+[hs_figure id=1&amp;image=/wordpress/wp-content/uploads/2018/01/Okae-Cell-Stem-Cell-18.1.4-Fig.1.png&amp;caption=fig1-caption-text]
+
+コンテンツの要素を変数にして考えると
+[hs_figure id=1&amp;image={ image_path+Fig1_jpg }&amp;caption=fig1-caption-text]
+
+/^\[hs_figure .＊caption＝fig1-caption-text]$/
+この正規表現で削除& id=1の時はFig1_jpg, Fig1_captionを使って下記のタグを生成すれば良いのかも
+
+// 生成すべき要素
+
+<div id="figure1" class="hs-figure">
+    <div class="hs-figure-box">
+        <a class="highslide" title="$(fig1-caption-text)" onclick="return hs.expand(this, {captionText: $('fig1-caption-text').innerHTML})" href="./uploads/Okae-Cell-Stem-Cell-18.1.4-Fig.1.png" target="_blank">
+            <img src="./uploads/Okae-Cell-Stem-Cell-18.1.4-Fig.1.png"  alt="figure1" width="200px" />
+        </a>
+    </div>
+    <div id="fig1-caption" class="hs-figure-caption"></div>
+</div>
+
+<script type='text/javascript'>$('fig1-caption').innerHTML = $('fig1-caption-text').innerHTML;</script>
+<div style='clear:both;'></div>
+
+// 生成すべき要素　変数に置き換え
+// Fig1とFig2でポリモフィスム
+'''
+<div id="figure{id_num}" class="hs-figure">
+    <div class="hs-figure-box">
+        <a class="highslide" title="$(fig1-caption-text)" onclick="return hs.expand(this, {captionText: $('fig1-caption-text').innerHTML})" href="{file_path}/{fig}" target="_blank">
+            <img src="{file_path}/{Fig1_jpg}" alt="figure{id_num}" width="200px" />
+        </a>
+    </div>
+    <div id="fig{id_num}-caption" class="hs-figure-caption"></div>
+</div>
+
+<script type='text/javascript'>$('fig1-caption').innerHTML = $('fig1-caption-text').innerHTML;</script>
+<div style='clear:both;'></div>
+'''.format(id_num=id_num, file_path=file_path, fig=Fig1_jpg)
+
+
+
+// highslideが動的に追加される??? (<div class="highslide-containder">...</div>の部分）
+
+<div class="highslide-container" style="padding: 0px; border: none; margin: 0px; position: absolute; left: 0px; top: 0px; width: 100%; z-index: 1001; direction: ltr;"><a class="highslide-loading" title="Click to cancel" href="javascript:;" style="position: absolute; top: -9999px; opacity: 0.75; z-index: 1;">Loading...</a><div style="display: none;"></div><div class="highslide-viewport highslide-viewport-size" style="padding: 0px; border: none; margin: 0px; visibility: hidden;"></div><table cellspacing="0" style="padding: 0px; border: none; margin: 0px; visibility: visible; position: absolute; border-collapse: collapse; width: 350.688px; z-index: 1004; left: 637px; top: 1389px;"><tbody style="padding: 0px; border: none; margin: 0px;"><tr style="padding: 0px; border: none; margin: 0px; height: auto;"><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/outlines/rounded-white.png&quot;) 0px 0px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/outlines/rounded-white.png&quot;) 0px -40px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/outlines/rounded-white.png&quot;) -20px 0px; height: 20px; width: 20px;"></td></tr><tr style="padding: 0px; border: none; margin: 0px; height: auto;"><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/outlines/rounded-white.png&quot;) 0px -80px; height: 20px; width: 20px;"></td><td class="rounded-white highslide-outline" style="padding: 0px; border: none; margin: 0px; position: relative; width: 310.688px; height: 391px;"></td><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/outlines/rounded-white.png&quot;) -20px -80px; height: 20px; width: 20px;"></td></tr><tr style="padding: 0px; border: none; margin: 0px; height: auto;"><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/outlines/rounded-white.png&quot;) 0px -20px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/outlines/rounded-white.png&quot;) 0px -60px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/outlines/rounded-white.png&quot;) -20px -20px; height: 20px; width: 20px;"></td></tr></tbody></table><div id="highslide-wrapper-0" class="highslide-wrapper wide-border" style="padding: 0px; border: none; margin: 0px; visibility: visible; position: absolute; z-index: 1005; left: 647px; top: 1399px; width: 330.688px; height: 411px; opacity: 1;"><img class="highslide-image" title="Click to close image, click and drag to move. Use arrow keys for next and previous." src="http://first.lifesciencedb.jp/wordpress/wp-content/uploads/2018/01/Okae-Cell-Stem-Cell-18.1.4-Fig.1.png" style="visibility: visible; display: block; position: absolute; max-width: 9999px; z-index: 3; width: 310.688px; height: 343px; left: 0px; top: 0px; cursor: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/zoomout.cur&quot;), pointer;"><div class="" style="padding: 0px; border: none; margin: 0px; position: absolute; width: 310.688px; height: 343px; visibility: visible; overflow: visible; z-index: auto; top: 10px; left: 10px;"><div id="hsId0" style="padding: 0px; border: none; margin: 10px 0px 0px; position: absolute; visibility: visible; width: auto; direction: ltr; opacity: 1; height: auto; left: -10px; right: -10px; top: 100%; z-index: 4;"><div class="highslide-caption" style="display: block;"><strong>図1　ヒトの胎盤の構造</strong><br>
+<a href="http://first.lifesciencedb.jp/wordpress/wp-content/uploads/2018/01/Okae-Cell-Stem-Cell-18.1.4-Fig.1.jpg" target="_blank">[Download]</a></div></div><div id="hsId1" style="padding: 0px; border: none; margin: 0px; position: absolute; visibility: visible; width: auto; direction: ltr; opacity: 1; right: 0px; height: auto; bottom: 0px; z-index: 4;"><a href="javascript:hs.expanders[0].doFullExpand();" title="Expand to actual size (f)" class="highslide-full-expand" style="display: block;"></a></div></div></div><table cellspacing="0" style="padding: 0px; border: none; margin: 0px; visibility: hidden; position: absolute; border-collapse: collapse; width: 0px;"><tbody style="padding: 0px; border: none; margin: 0px;"><tr style="padding: 0px; border: none; margin: 0px; height: auto;"><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/outlines/rounded-white.png&quot;) 0px 0px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/outlines/rounded-white.png&quot;) 0px -40px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/outlines/rounded-white.png&quot;) -20px 0px; height: 20px; width: 20px;"></td></tr><tr style="padding: 0px; border: none; margin: 0px; height: auto;"><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/outlines/rounded-white.png&quot;) 0px -80px; height: 20px; width: 20px;"></td><td class="rounded-white highslide-outline" style="padding: 0px; border: none; margin: 0px; position: relative;"></td><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/outlines/rounded-white.png&quot;) -20px -80px; height: 20px; width: 20px;"></td></tr><tr style="padding: 0px; border: none; margin: 0px; height: auto;"><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/outlines/rounded-white.png&quot;) 0px -20px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/outlines/rounded-white.png&quot;) 0px -60px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://first.lifesciencedb.jp/wp-content/plugins/slidezoom/highslide/graphics/outlines/rounded-white.png&quot;) -20px -20px; height: 20px; width: 20px;"></td></tr></tbody></table></div>
+
+
+// 可能性のあるプラグイン
+slidezoom/highslide
+  easing_eauation.js
+  highslide-with-gallery.packed.js
+
+table-of-contents-plus
+  front.min.js
+
+wordpress-multibox-plugin
+  mtv111
+    mootools.js
+	multibox.js
+	oberlays.js
+
+
+// 現状の画像パスの例　このパスは設定に含めたい
+http://first.lifesciencedb.jp/wordpress/wp-content/uploads/2018/01/Okae-Cell-Stem-Cell-18.1.4-Fig.1.png
