@@ -17,7 +17,7 @@ import re
 import subprocess
 from feedgenerator import Rss201rev2Feed as Feed
 
-__version__ = "0.2.0"
+__version__ = "0.3.0"
 config_yaml = "./conf/config.yaml"
 
 parser = argparse.ArgumentParser(description='how to use puppy')
@@ -437,18 +437,20 @@ def multiple_replace(st, fig, path, img_p):
 
 
 # 生成したhtmlファイルをS3とシンクする。Content-type=text/htmlが指定される
-def sync_pages(bucket, profile):
+def sync_pages(bucket, source, profile):
     b = bucket
+    s = source
     p = profile
-    command = 'aws s3 sync /var/www/la/ s3://"{b}" --profile {p} --content-type "text/html"'.format(b=b, p=p)
+    command = 'aws s3 sync {s} s3://"{b}" --profile {p} --content-type "text/html"'.format(b=b, s=s, p=p)
     subprocess.call(command, shell=True)
 
 
 # htmlファイル以外のファイルを更新した際に呼ぶ
-def sync_binary(bucket, profile):
+def sync_binary(bucket, source, profile):
     b = bucket
+    s = source
     p = profile
-    command = 'aws s3 sync /var/www/la/ s3://"{b}" --profile {p}'.format(b=b, p=p)
+    command = 'aws s3 sync {s} s3://"{b}" --profile {p}'.format(b=b, s=s, p=p)
     subprocess.call(command, shell=True)
 
 
@@ -512,9 +514,9 @@ def update_controller():
     # config.yamlに複数のwksが登録されていた場合処理を繰り返す
     for k, v in conf['wks'].items():
         if args.sync:
-            sync_pages(v['bucket'], v['bucket_profile'])
+            sync_pages(v['bucket'], v['output_source'], v['bucket_profile'])
         elif args.binary:
-            sync_binary(v['bucket'], v['bucket_profile'])
+            sync_binary(v['bucket'], v['output_source'], v['bucket_profile'])
         elif args.update:
             update = Update(v)
             update.add_contents()
