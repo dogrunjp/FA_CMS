@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> チロシンキナーゼBtkはヒトの好中球において活性酸素種の産生および刺激により誘導されるアポトーシスを負に制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/4536" rel="bookmark">チロシンキナーゼBtkはヒトの好中球において活性酸素種の産生および刺激により誘導されるアポトーシスを負に制御する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>本田富美子・森尾友宏</strong><br>（東京医科歯科大学大学院医歯学総合研究科 発生発達病態学）<br>email：<a href="mailto:hhonda.ped@tmd.ac.jp">本田富美子</a>，<a href="mailto:tmorio.ped@tmd.ac.jp">森尾友宏</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.036">10.7875/first.author.2012.036</a><br><div class="reference"><br><span class="ti">The kinase Btk negatively regulates the production of reactive oxygen species and stimulation-induced apoptosis in human neutrophils.</span><br><span class="au">Fumiko Honda, Hirotsugu Kano, Hirokazu Kanegane, Shigeaki Nonoyama, Eun-Sung Kim, Sang-Kyou Lee, Masatoshi Takagi, Shuki Mizutani, Tomohiro Morio</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22366891" target="_blank"><em>Nature Immunology</em>, <strong>13</strong>, 369-378 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　X連鎖無γ<a href="#" class="anno グロブリン">グロブリン</a>血症は<em><a href="#" class="anno BTK">BTK</a></em>遺伝子の異常により<a href="#" class="anno B細胞">B細胞</a>の欠損する<a href="#" class="anno 免疫不全">免疫不全</a>症である．この疾患では軽い細菌<a href="#" class="anno 感染症">感染症</a>によって<a href="#" class="anno も">も</a><a href="#" class="anno 好中球">好中球</a>の減少が起こり，場合によっては生命の危険になることが知られている．この研究において，筆者らは，<em>BTK</em>遺伝子によりコードされている<a href="#" class="anno チロシン">チロシン</a><a href="#" class="anno キナーゼ">キナーゼ</a><a href="#" class="anno Btk">Btk</a>が好中球において特別のはたらきをしていて，刺激の入るまえには<a href="#" class="anno Mal">Mal</a>が<a href="#" class="anno 細胞膜">細胞膜</a>へと移動するのを抑え，好中球による<a href="#" class="anno <a href="#" class="anno 活性酸素">活性酸素</a>種">活性酸素種</a>の<a href="#" class="anno 産生">産生</a>における<a href="#" class="anno プライミング">プライミング</a>の段階を<a href="#" class="anno 微調整">微調整</a>し，軽い刺激に反応して活性酸素種を過剰に産生しないよう制御していることを明らかにした．また，好中球においてMalを制御する詳細な<a href="#" class="anno シグナル伝達">シグナル伝達</a>機構をはじめて示した．さらに，好中球にBtkを効率よく導入したりその機能を抑えたりすることで，好中球からの活性酸素種の産生や<a href="#" class="anno アポトーシス">アポトーシス</a>を制御できることがわかった．<br/><br/><h2>はじめに</h2><br/>　好中球は微生物の感染の初期に動員され貪食や殺傷を行う，<a href="#" class="anno 生体防御">生体防御</a>において重要な細胞である<a href="#R1"><sup>1)</sup></a>．取り込んだ<a href="#" class="anno 病原体">病原体</a>はさまざまな機構により殺傷されるが，その<a href="#" class="anno 中心的">中心的</a>な役割をするのが活性酸素種である．活性酸素種は<a href="#" class="anno <a href="#" class="anno 細胞毒">細胞毒</a>性">細胞毒性</a>をもち自らの細胞を傷つけるなどのおそれがあるため，これらの反応は適切な場所において迅速また正確に起こる必要があり，通常はこれらの機能は厳密に制御されている．貪<a href="#" class="anno 食細胞">食細胞</a>では<a href="#" class="anno NAD">NAD</a>PHオキシダーゼという酵素がこの活性酸素種の産生にかかわっている．<br/>　活性酸素種の不適切な産生はさまざまな疾患や炎症の病態において問題となっている．たとえば，<a href="#" class="anno NADPHオキシダーゼ">NADPHオキシダーゼ</a>の<a href="#" class="anno 構成タンパク質">構成タンパク質</a>をコードする遺伝子に異常をもつ慢性<a href="#" class="anno 肉芽腫">肉芽腫</a>症の患者の好中球は，活性酸素種を産生できないため病原体の殺傷能がきわめて低く患者は<a href="#" class="anno 重篤">重篤</a>な感染症をくり返す．一方，いくつかの慢性の<a href="#" class="anno 炎症疾患">炎症疾患</a>では好中球の機能の亢進により組織の損傷や<a href="#" class="anno DNA損傷">DNA損傷</a>，アポトーシスや<a href="#" class="anno 好中球の減少">好中球の減少</a>をひき起こすことがある<a href="#R2"><sup>2)</sup></a>．<br/>　この研究では，Tecファミリーに属する<a href="#" class="anno チロシンキナーゼ">チロシンキナーゼ</a>のひとつBtk（Burton’s tyrosine k<a href="#" class="anno ina">ina</a>se）をコードする<em>BTK</em>遺伝子の異常により起こる，<a href="#" class="anno X連鎖無γグロブリン血症">X連鎖無γグロブリン血症</a>（X-<a href="#" class="anno lin">lin</a>ked agammaglobulinemia：<a href="#" class="anno XLA">XLA</a>）の患者において好中球の減少が起こるという現象に着目した．X連鎖無γグロブリン血症の患者の11～30％では初発時あるいは<a href="#" class="anno 細菌感染">細菌感染</a>症にともない好中球の減少を呈し，場合によっては生命の危険になることが知られている．しかし，その原因は長らく不明であった<a href="#R3"><sup>3,4)</sup></a>．<br/>　Btkは<a href="#" class="anno T細胞">T細胞</a>には発現を認めないが，<a href="#" class="anno 形質細胞">形質細胞</a>を除くB細胞，<a href="#" class="anno 単球">単球</a>，<a href="#" class="anno 顆粒球">顆粒球</a>，血小板など<a href="#" class="anno 血球系細胞">血球系細胞</a>の全般に発現している．とくに，<a href="#" class="anno プレB細胞">プレB細胞</a><a href="#" class="anno 受容体">受容体</a>における機能が重要で，B細胞の<a href="#" class="anno 初期分化">初期分化</a>に重要な役割をはたしている．X連鎖無γグロブリン血症の患者はBtkの<a href="#" class="anno 機能不全">機能不全</a>のため<a href="#" class="anno 成熟B細胞">成熟B細胞</a>が欠損し，抗体の産生がないため重篤な<a href="#" class="anno 細菌感染症">細菌感染症</a>にくり返しかかりやすく，肺炎，気管支炎，中耳炎，<a href="#" class="anno <a href="#" class="anno 副鼻<a href="#" class="anno 腔">腔</a>">副鼻腔</a>炎">副鼻腔炎</a>，<a href="#" class="anno 皮膚化膿症">皮膚化膿症</a>，<a href="#" class="anno 髄膜">髄膜</a>炎，敗血症などを起こす<a href="#R5"><sup>5,6)</sup></a>．<br/>　近年，BtkはB細胞以外でも<a href="#" class="anno 自然免疫">自然免疫</a>系のシグナル伝達，あるいは，<a href="#" class="anno 貪食細胞">貪食細胞</a>系のシグナル伝達に重要であることがわかってきた<a href="#R7"><sup>7)</sup></a>．しかし，ヒトにおける検討は少なく，また，好中球におけるシグナル伝達については不明な点が多い．この研究では，X連鎖無γグロブリン血症の患者における好中球の減少の<a href="#" class="anno 分子機構">分子機構</a>を明らかにすることを目的とした．解析を進めるなかで，Btkはヒトの好中球において活性酸素の産生やアポトーシスを制御する重要なタンパク質であることが明らかになり，その分子機構を深く掘り下げた．<br/><br/><h2>1．Btkを欠損した好中球では活性酸素種の過剰な産生により早期にアポトーシスを起こす</h2><br/>　Btkの<a href="#" class="anno 自然変異">自然変異</a>体であるXIDマウスの単球や好中球は刺激ののちの活性酸素種の産生が低いとの報告がある<a href="#R8"><sup>8)</sup></a>．そこでまず，X連鎖無γグロブリン血症患者の<a href="#" class="anno 末梢血">末梢血</a>よりBtkを欠損した好中球を分離し，<a href="#" class="anno <a href="#" class="anno ホルボール">ホルボール</a>エステル">ホルボールエステル</a>により刺激して，活性酸素種の産生について検討した．ヒトの好中球ではマウスでの報告とは異なり，活性酸素種の過剰な産生が起こっていた．好中球における活性酸素種の産生にはプライミングと<a href="#" class="anno 活性化">活性化</a>という2つの経路が必要である．そこで，リポ<a href="#" class="anno 多糖">多糖</a>など<a href="#" class="anno Toll様受容体">Toll様受容体</a>の<a href="#" class="anno アゴニスト">アゴニスト</a>あるいは<a href="#" class="anno TNF">TNF</a>（tumor necrosis fac<a href="#" class="anno tor">tor</a>，<a href="#" class="anno 腫瘍壊死因子">腫瘍壊死因子</a>）によるプライミングの刺激ののち，合成<a href="#" class="anno ペプチド">ペプチド</a><a href="#" class="anno f<a href="#" class="anno ML">ML</a>P">fMLP</a>により活性化の刺激をあたえると，Btkを欠損した好中球では活性酸素種の過剰な産生が観察された．このような活性酸素種の過剰な産生は<a href="#" class="anno 好酸">好酸</a>球においても認められたが，単球における活性酸素種の産生は<a href="#" class="anno 健常人">健常人</a>とほぼ<a href="#" class="anno 同じ">同じ</a>程度であった．したがって，これらはおそらく顆粒球系の細胞に<a href="#" class="anno 特徴的">特徴的</a>な現象ではないかと思われた．<br/>　活性酸素種の過剰な産生はアポトーシスをひき起こす<a href="#" class="anno 可能性">可能性</a>がある<a href="#R2"><sup>2)</sup></a>．そこで，活性化刺激ののちのアポトーシスについて検討したところ，Btkを欠損した好中球ではホルボールエステルやTNF + fMLPなどさまざまな刺激により誘導される<a href="#" class="anno 細胞死">細胞死</a>が亢進していた．ミトコンドリア<a href="#" class="anno 膜電位">膜電位</a>の変動や<a href="#" class="anno 活性型">活性型</a><a href="#" class="anno <a href="#" class="anno カ">カ</a>スパーゼ">カスパーゼ</a>3の検出などから，この細胞死はアポトーシスによるものであることがわかった．これらの現象は，健常人の好中球をBtkの<a href="#" class="anno 阻害剤">阻害剤</a>と<a href="#" class="anno 前培養">前培養</a>しても同様に観察され，また，膜<a href="#" class="anno 透過性">透過性</a>のペプチドであるHph-1を用いたタンパク質導入系によりBtkを欠損した好中球に正常なBtkを発現させると，活性酸素種の産生およびアポトーシスは正常な好中球のレベルにまで回復した．したがって，観察された活性酸素種の産生の亢進およびそれにともなうアポトーシスの亢進はBtkの欠損によるものであり，おそらく，X連鎖無γグロブリン血症の患者で観察される好中球の減少も好中球の分化障害によってではなく，末梢の好中球でのBtkの欠損そのものが関与していることが示唆された．<br/><br/><h2>2．Btkを欠損した好中球は<a href="#" class="anno 休止期">休止期</a>にすでにプライミングの状態にある</h2><br/>　Btkが欠損するとどうして活性酸素種の産生が亢進するのだろうか？　好中球による活性酸素種の産生には，<a href="#" class="anno シトクロム">シトクロム</a><em>b</em><sub>558</sub>とよばれるgp91<sup><a href="#" class="anno phox">phox</a></sup>とp22<sup>phox</sup>からなる“細胞膜成分”と，<a href="#" class="anno p47">p47</a><sup>phox</sup>，<a href="#" class="anno p40">p40</a><sup>phox</sup>，p67<sup>phox</sup>と<a href="#" class="anno 低分子">低分子</a>タンパク質<a href="#" class="anno Rac">Rac</a>2の4つの“<a href="#" class="anno 細胞質">細胞質</a>成分”から構成されるNADPHオキシダーゼの活性化が必要である．NADPHオキシダーゼは細胞質成分すべてが細胞膜に移行しそこで細胞膜成分と会合することにより活性化され，その結果，活性酸素種を産生する<a href="#R9"><sup>9)</sup></a>．その過程で，細胞質成分はチロシンキナーゼなどにより<a href="#" class="anno <a href="#" class="anno リン酸">リン酸</a>化">リン酸化</a>をうける．そこでまず，NADPHオキシダーゼ構成タンパク質の細胞質や細胞膜における分布および発現，および，細胞質成分のリン酸化について調べた．その結果，Btkを欠損した好中球では<a href="#" class="anno 静止期">静止期</a>にてすでにgp91<sup>phox</sup>と<a href="#" class="anno Rac2">Rac2</a>が細胞膜において<a href="#" class="anno 共局在">共局在</a>しており，一方，細胞質成分であるp47<sup>phox</sup>やp40<sup>phox</sup>のリン酸化，p67<sup>phox</sup>を含めたその局在は刺激の前と後のいずれにおいても正常な好中球とほぼ同じ程度であった．<br/>　なぜBtkが欠損すると<a href="#" class="anno 未刺激">未刺激</a>の状態でもRac2が細胞膜に移行しているかについて検討した．NADPHオキシダーゼのプライミングおよび活性化の段階において，さまざまなチロシンキナーゼが関与していることが知られている．そこで，Btkを欠損した好中球における<a href="#" class="anno 細胞内">細胞内</a>での<a href="#" class="anno チロシンリン酸化">チロシンリン酸化</a>の状態を検討すると，Btkを欠損した好中球では未刺激の状態（<a href="#" class="anno 定常状態">定常状態</a>）においていくつかのタンパク質の過剰なリン酸化を認めた．単球ではこのようなチロシンリン酸化はまったく観察されなかった．したがって，活性酸素種の過剰な産生と同様に，この現象は顆粒球（好中球）に特徴的であることが示唆された．これらBtkを欠損した好中球で認められた過剰にリン酸化されたタンパク質は，<a href="#" class="anno PI3">PI3</a>K（<a href="#" class="anno ホスファチジル">ホスファチジル</a><a href="#" class="anno イノシトール">イノシトール</a>-3-キナーゼ）<a href="#" class="anno p85">p85</a><a href="#" class="anno 調節<a href="#" class="anno サブユニット">サブユニット</a>">調節サブユニット</a>や，Vav，<a href="#" class="anno Lyn">Lyn</a>，<a href="#" class="anno Syk">Syk</a>，c-<a href="#" class="anno Src">Src</a>，Fakなどのキナーゼであることが証明された．さらに，Btkを欠損した好中球では定常状態でも<a href="#" class="anno ホスファチジルイノシトール">ホスファチジルイノシトール</a>3,4,5-トリスリン酸の産生が増加していたことから，X連鎖無γグロブリン血症の患者の好中球ではクラス1Aの<a href="#" class="anno PI3K">PI3K</a>が<a href="#" class="anno 機能的">機能的</a>に活性化しており，それによりその下流のRac2が細胞膜成分に結合できるようになっていることが示された．また，Btkを欠損した好中球はfMLPのみの刺激でも顕著な活性酸素種の<a href="#" class="anno 過剰産生">過剰産生</a>を認め，これはPI3Kの阻害剤を処理すると正常な好中球のレベルにまで回復することがわかった．<br/>　これらの結果より，Btkを欠損した好中球ではNADPHオキシダーゼが<a href="#" class="anno 無刺激">無刺激</a>の状態においてすでにプライミングの状態にあり，それにはPI3Kの活性化が強く関与していることが明らかになった．<br/><br/><h2>3．BtkはMalを細胞質にとどめることで活性酸素種の産生を微調整している</h2><br/>　Btkの欠損によりなぜPI3Kの活性化が起こるのだろうか？　BtkとPI3Kとをつなぐタンパク質としてMal（<a href="#" class="anno MyD88">MyD88</a>-ada<a href="#" class="anno pto">pto</a><a href="#" class="anno r-l">r-l</a>ike）に着目した．MalはToll様受容体の下流ではたらきToll様受容体への刺激ののちBtkによりリン酸化をうけることや，Btkと125番目のPro<a href="#" class="anno 残基">残基</a>において結合していることが知られている<a href="#R7"><sup>7)</sup></a>．また，<a href="#" class="anno 単球系">単球系</a>の<a href="#" class="anno 細胞株">細胞株</a>においてMalは刺激ののち細胞膜に局在し，PI3Kの細胞膜への移行と活性化を促進するはたらきがあるとの報告がある<a href="#R10"><sup>10)</sup></a>．しかしこれまで，ヒトの好中球におけるMalとBtk，また，MalとPI3Kとの関係についてはほとんど知られていない．そこでまず，健常人の好中球におけるMalとBtkの局在や会合について<a href="#" class="anno 共<a href="#" class="anno 免疫沈降">免疫沈降</a>">共免疫沈降</a>法や<a href="#" class="anno 免疫染色">免疫染色</a>法により調べたところ，<a href="#" class="anno 予想外">予想外</a>にも，正常な好中球では未刺激の状態においてBtkはMalと細胞質において会合していることがわかった．一方，Btkを欠損した好中球ではMalはすでに細胞膜に局在しており，また，細胞膜においてMalとPI3Kとの会合が認められた．健常人においてMalは細胞質にあり，刺激をうけてはじめてMalとPI3Kとが細胞膜に共局在するようになった．これらの結果は，BtkがMalを細胞質にとどめるはたらきをしていることを示唆した．BtkがないとMalは細胞膜へと移行しやすくなり，細胞膜においてPI3Kとの会合をひき起こすようであった．<br/>　MalがBtkと会合する様式は知られているが，Btkのどの領域がMalと結合しているのかは明らかになっていない．そこで，Btkのそれぞれの<a href="#" class="anno 機能ドメイン">機能ドメイン</a>（<a href="#" class="anno PHドメイン">PHドメイン</a>，THドメイン，<a href="#" class="anno SH3ドメイン">SH3ドメイン</a>，<a href="#" class="anno SH2ドメイン">SH2ドメイン</a>，<a href="#" class="anno キナーゼドメイン">キナーゼドメイン</a>）を欠損させた<a href="#" class="anno 変異体">変異体</a>を<a href="#" class="anno 組換え">組換え</a>タンパク質として用意し，Malとの会合に必要な領域について検討した．その結果，Malとの結合にはBtkのPHドメインとキナーゼドメインとが必要であり，MalはBtkの構造を認識しているであろうことがわかった．<br/>　さらに，PI3Kの活性化には<a href="#" class="anno Srcファミリーキナーゼ">Srcファミリーキナーゼ</a>およびSykの活性化が関与していることがそれぞれの阻害剤を用いた実験から示された．また，SrcファミリーキナーゼはPI3Kのリン酸化やMalの細胞膜への<a href="#" class="anno ターゲティング">ターゲティング</a>にも重要であることが明らかになった．また，Srcファミリーキナーゼ，Syk，Btk，Malはヒトの正常な好中球において通常は細胞質に共局在していた．BtkがないとSrcファミリーキナーゼの活性化によりMalは細胞膜へと移行しPI3Kを活性化する．なぜBtkが欠損するとSrcファミリーキナーゼが活性化するのかは不明で，いくつかの仮説を検証しているところである．Btkが<a href="#" class="anno Csk">Csk</a>やCsk<a href="#" class="anno 結合タンパク質">結合タンパク質</a>，<a href="#" class="anno ホスファターゼ">ホスファターゼ</a>などの負の<a href="#" class="anno 制御タンパク質">制御タンパク質</a>の活性を制御している可能性についてはいまのところ<a href="#" class="anno 否定的">否定的</a>である．一方，SrcファミリーキナーゼはMalと会合しているが，Btkの非<a href="#" class="anno 存在下">存在下</a>における会合がSrcファミリーキナーゼを活性化することも考えられ今後の<a href="#" class="anno 検討課題">検討課題</a>である．また，正常な好中球においてSrcファミリーキナーゼが好中球のプライミングにどのような役割をはたしているかについても検討していく必要がある．<br/><br/><h2>おわりに</h2><br/>　この研究により，Btkは細胞質においてMalと結合しこれを細胞質にとどめることで，好中球の反応を制御する<a href="#" class="anno ゲートキーパー">ゲートキーパー</a>の役割をはたしていることが示された．また，X連鎖無γグロブリン血症の患者において好中球の減少の起こる分子機構は，過剰な活性酸素種を介した好中球のアポトーシスによるものであることも明らかにされた（<a href="#F1">図1</a>）．X連鎖無γグロブリン血症の患者に対してはγグロブリンの補充により好中球の減少が起こりにくくなるが，これは感染症の頻度が低下するためと考えられた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Btkによる好中球の初期反応の制御</strong><br/>（a）健常人の好中球．未刺激の状態においてBtkはMalと細胞質にて会合している．MalはSrcファミリーキナーゼやSykとも会合している．BtkはToll様受容体やそのほかの自然免疫系の受容体による刺激をうけるとリン酸化され，Malとともに細胞膜へと移行する．<br/>（b）X連鎖無γグロブリン血症の患者のBtkを欠損した好中球．未刺激の状態においてMalはすでに細胞膜へと移行しており，PI3KやSrcファミリーキナーゼ，Sykと細胞膜にて会合している．また，Srcファミリーキナーゼ，Syk，PI3Kは未刺激の状態でもリン酸化しており，SykおよびSrcファミリーキナーゼの活性化はPI3Kの活性化をひき起こす．一方，Malの細胞膜への移行にSykの関与はなく，Srcファミリーキナーゼが重要である．未刺激の状態においても活性化したPI3Kはホスファチジルイノシトール3,4,5-トリスリン酸を産生することで，細胞膜に存在するgp91<sup>phox</sup>とp22<sup>phox</sup>へのRac2のターゲティングをひき起こし，その結果，Btkを欠損した好中球は未刺激の状態においてもプライミングの状態となる．<br/>SFK：Srcファミリーキナーゼ，PIP<sub>2</sub>：ホスファチジルイノシトール4,5-ビスリン酸，PIP<sub>3</sub>：ホスファチジルイノシトール3,4,5-トリスリン酸．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/03/Morio-Nature-Immunology-12.3.16-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Btkによる好中球の初期反応の制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Morio-Nature-Immunology-12.3.16-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Morio-Nature-Immunology-12.3.16-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　好中球の活性化により活性酸素種が過剰に産生され臓器が損傷をうけるさまざまな疾患が知られている．活性酸素種の過剰な産生は<a href="#" class="anno 動脈硬化">動脈硬化</a>や老化にも関与する．また，重症な感染症では好中球がつぎつぎとアポトーシスを起こし肺などの臓器を障害するとともに，好中球の減少により感染症の制御がさらにむずかしくなることがある．今回の<a href="#" class="anno 研究成果">研究成果</a>を生かすことで，好中球からの活性酸素種の産生の制御が可能になるとともに，さまざまな疾患において問題となる好中球の過剰な反応を抑えることが可能になることが期待される．<br/>　Btkの欠損においてはB細胞の初期分化が障害されていて，Btkはとくにプレ<a href="#" class="anno B細胞受容体">B細胞受容体</a>のシグナル伝達において重要とされているが，プレB細胞の段階で分化のとまる詳細な分子機構はい<a href="#" class="anno まだ">まだ</a>不明である．たとえば，プレB細胞では受容体の発現自体がシグナル伝達につながるとされている．もしかすると，特定の分化の段階ではBtkが欠損すると好中球で観察されたように活性化の刺激ののちのアポトーシスが亢進するのかもしれない．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Flannagan, R. S., Cosio, G. & Grinstein, S.</span>: <span class="ti">Antimicrobial mechanisms of phagocytes and bacterial evasion strategies.</span> <span class='so'>Nat. Rev. Microbiol., 7, 355-366 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19369951" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Finkel, T.</span>: <span class="ti">Radical medicine: treating ageing to cure disease.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 6, 971-976 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16227974" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Winkelstein, J. A., Marino. M. C., Lederman, H. M. et al.</span>: <span class="ti">X-linked agammaglobulinemia: report on a United States registry of 201 patients.</span> <span class='so'>Medicine, 85, 193-202 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16862044" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Conley, M. E., Broides, A., Hernandez-Trujillo, V. et al.</span>: <span class="ti">Genetic analysis of patients with defects in early B-cell development.</span> <span class='so'>Immunol. Rev., 203, 216-234 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15661032" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Mohamed, A. J., Yu, L., Backesjo, C. M. et al.</span>: <span class="ti">Bruton's tyrosine kinase (Btk): function, regulation, and transformation with special emphasis on the PH domain.</span> <span class='so'>Immunol. Rev., 228, 58-73 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19290921" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Doyle, S. L., Jefferies, C. A., Feighery, C. et al.</span>: <span class="ti">Signaling by Toll-like receptors 8 and 9 requires Bruton's tyrosine kinase.</span> <span class='so'>J. Biol. Chem., 282, 36953-36960 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17932028" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>O'Neill, L. A. & Bowie, A. G.</span>: <span class="ti">The family of five: TIR-domain-containing adaptors in Toll-like receptor signalling.</span> <span class='so'>Nat. Rev. Immunol., 7, 353-364 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17457343" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Mangla, A., Khare, A., Vineeth, V. et al.</span>: <span class="ti">Pleiotropic consequences of Bruton tyrosine kinase deficiency in myeloid lineages lead to poor inflammatory responses.</span> <span class='so'>Blood, 104, 1191-1197 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15117762" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Babior, B. M.</span>: <span class="ti">NADPH oxidase.</span> <span class='so'>Curr. Opin. Immunol., 16, 42-47 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14734109" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Santos-Sierra, S., Deshmukh, S. D., Kalnitski, J. et al.</span>: <span class="ti">Mal connects TLR2 to PI3Kinase activation and phagocyte polarization.</span> <span class='so'>EMBO J., 28, 2018-2027 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19574958" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_02.html" target="_blank">14.2 Basic Mechanisms of Intracellular Signal Transduction</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_05.html" target="_blank">12.5 Exocytosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/15_01.html" target="_blank">15.1 Receptor-Mediated Intracellular Signaling Pathways</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_04.html" target="_blank">12.4 Protein Transport in Prokaryotic Cells</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_01.html" target="_blank">14.1 What is Signal Transduction?</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">本田 富美子（Fumiko Honda）</span><br>略歴：東京医科歯科大学大学院博士後期課程 在学中．<br>研究テーマ：先天性免疫不全症候群の病態の解析および治療法の探索．<br>抱負：免疫不全症候群の病態の解析をとおして，新たな免疫の機能を知り，患者さんの治療に貢献していきたい．<br><br><strong>森尾 友宏（Tomohiro Morio）</strong><br>東京医科歯科大学大学院医歯学総合研究科 准教授．<br>研究室URL：<a href="http://www.tmd.ac.jp/med/ped/" target="_blank">http://www.tmd.ac.jp/med/ped/</a><br></div><br>© 2012 本田富美子・森尾友宏 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

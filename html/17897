@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 前頭極は未経験の出来事に対するメタ認知判断をつかさどる : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/17897" rel="bookmark">前頭極は未経験の出来事に対するメタ認知判断をつかさどる</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>宮本健太郎・長田貴宏・宮下保司</strong><br>（東京大学大学院医学系研究科 生理学）<br>email：<a href="mailto:kentaro.miyamoto@psy.ox.ac.uk">宮本健太郎</a>，<a href="mailto:tosada@juntendo.ac.jp">長田貴宏</a>，<a href="mailto:yasushi.miyashita@m.u-tokyo.ac.jp">宮下保司</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2018.022">10.7875/first.author.2018.022</a><br><div class="reference"><br><span class="ti">Reversible silencing of the frontopolar cortex selectively impairs metacognitive judgment on non-experience in primates.</span><br><span class="au">Kentaro Miyamoto, Rieko Setsuie, Takahiro Osada, Yasushi Miyashita</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/29395916" target="_blank"><em>Neuron</em>, <strong>97</strong>, 980-989.e6 (2018)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　古代ギリシアの哲学者ソクラテスのとなえた“無知の知”に代表される，経験したことのない出来事を評価する心のはたらきは<a href="#" class="anno 抽象的">抽象的</a>かつ概念的な思考のために重要である．しかし，われわれの脳がどのようなしくみにより“無知の知”の意識を生むのかについてはまったくわかっていなかった．この研究において，筆者らは，<a href="#" class="anno マ<a href="#" class="anno カ">カ</a>ク">マカク</a>サルにおける行動<a href="#" class="anno 生理学的">生理学的</a>な実験によりこの問題の解決を試みた．まず，<a href="#" class="anno 脳機能">脳機能</a><a href="#" class="anno イメージング">イメージング</a>により，前頭<a href="#" class="anno 極">極</a>とよばれる前頭葉の<a href="#" class="anno 先端部">先端部</a>に位置する領域が未知の図形の記憶に対する確信度を判断することが明らかにされた．さらに，前頭極に対する<a href="#" class="anno 薬理学的">薬理学的</a>な不<a href="#" class="anno 活性化">活性化</a>により，前頭極は“無知の知”の自覚を生む神経中枢であることが示唆された．<br/><br/><h2>はじめに</h2><br/>　われわれは日々の生活において未知の人や物に出会うと，それを経験したことがないという事実を認識し，その認識に<a href="#" class="anno も">も</a>とづき行動を変えることができる．たとえば，パーティーや学会において初めて会う人に対し挨拶する際には，“その人と過去に会ったことがない”という事実に対する確信の程度により挨拶の仕方を変えることがあるだろう．このように，自分自身の認知の過程を<a href="#" class="anno 主観的">主観的</a>にとらえて内省的に評価する能力は“メタ認知”とよばれる<a href="#R1"><sup>1,2)</sup></a>．われわれはメタ認知のはたらきにより自分自身の<a href="#" class="anno 意思決定">意思決定</a>に対し確信をもつことができる<a href="#R3"><sup>3)</sup></a>．しかし，とくに古代ギリシアの哲学者ソクラテスがとなえた“無知の知”の概念につうじる，未知の出来事に関するメタ認知に関しては，どのような脳のはたらきにより実現されるのかまったくわかっていなかった．筆者らは，これまでに，<a href="#" class="anno <a href="#" class="anno 生物学">生物学</a>的">生物学的</a>にヒトと近いマカクサルが自らの記憶に対し確信している程度を<a href="#" class="anno 客観的">客観的</a>かつ<a href="#" class="anno 行動学的">行動学的</a>に評価する方法を確立していた<a href="#R4"><sup>4)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/15131" target="_blank">新着論文レビュー</a> でも掲載）．そこで，この研究においては，マカクサルが未経験の出来事について確信度を判断する際の脳のはたらきを脳<a href="#" class="anno 機能イメージング">機能イメージング</a>および薬理学的な<a href="#" class="anno <a href="#" class="anno 不活性">不活性</a>化">不活性化</a>により調べた．<br/><br/><h2>1．前頭極における<a href="#" class="anno 神経活動">神経活動</a>は未知の出来事に対するメタ認知判断の成績を予測する</h2><br/>　マカクサルに対し<a href="#" class="anno 記憶課題">記憶課題</a>を課し，さらに，記憶課題における自らの回答に対しどのくらい自信があるのか確信度を判断するように要求した（<a href="#F1">図1</a>）．確信度が記憶にもとづき適切に判断されているかを言語をもたないマカクサルにおいて裏づけるため，賭け<a href="#" class="anno パラダイム">パラダイム</a>を用いた<a href="#R5"><sup>5)</sup></a>．マカクサルは4枚の図形を見てこれを記憶し（<a href="#" class="anno 記銘">記銘</a>），記憶した図形のリストをもとに再認記憶課題<a href="#R6"><sup>6,7)</sup></a> を遂行した（想起）．この記憶課題においては，呈示された図形が記銘のときに記憶した図形のなかに含まれない未知のものであった場合，“見ていない”と回答することが求められる．この際，正解あるいは不正解のフィードバックおよび報酬はいっさいあたえられない．つづいて，再認記憶課題の自らの回答に対し自信があるかどうかの確信度を判断させた．確信度の判断は，正解だった場合には多量の報酬がもらえるが不正解だった場合には報酬はまったくもらえない<a href="#" class="anno 高リスク">高リスク</a>選択肢と，正解あるいは不正解にかかわらず少量の報酬がもらえる<a href="#" class="anno 低リスク">低リスク</a>選択肢のどちらかを選ぶ“賭け”の形式で行われた．もし，マカクサルが自らの確信度にもとづきこの“賭け”を適切に行うことができれば，再認記憶課題に正解していたときは，不正解だったときに比べ，より高い頻度で高リスク選択肢を選び<a href="#" class="anno 最終的">最終的</a>にもらえる報酬の総量を<a href="#" class="anno 最適化">最適化</a>できると予想される．自らの再認記憶課題の成績にもとづき，どの程度の割合の試行において最適な“賭け”を行うことができたかをファイ係数とよばれる指標により評価した．このファイ係数がゼロよりも大きければ大きいほどメタ認知判断の成績がよいことを意味する．すべてのマカクサルにおいてファイ係数はゼロより有意に大きかったことから，マカクサルは自らの記憶に対する自信にもとづき確信度を適切に判断していることが裏づけられた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　メタ認知課題</strong><br/>マカクサルに記憶の記銘，保持，想起からなる再認記憶課題を遂行させ（記憶処理），その回答に対する確信度を判断させた（メタ認知）．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyashita-Neuron-18.2.21-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　メタ認知課題" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyashita-Neuron-18.2.21-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyashita-Neuron-18.2.21-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　この課題を遂行しているマカクサルの脳の神経活動を磁気共鳴機能画像法による<a href="#" class="anno 脳機能イメージング">脳機能イメージング</a>により計測した．この手法は，脳の全体の神経活動を同時かつ<a href="#" class="anno 非<a href="#" class="anno 侵襲的">侵襲的</a>"><a href="#" class="anno 非侵襲">非侵襲</a>的</a>に計測できるため，ヒトを対象とした研究において広く用いられている．記憶の想起にかかわる脳の神経活動を脳の全体の<a href="#" class="anno ボクセル">ボクセル</a>（画像素子）において計算し，メタ認知判断の成績との<a href="#" class="anno <a href="#" class="anno 相">相</a>関係数">相関係数</a>を計算して脳のどの領域の神経活動がメタ認知判断の成績を予測するのか調べた．すると，前頭葉の先端部にあたる前頭極（<a href="#" class="anno 細胞構築">細胞構築</a>学的な分類における10野）とよばれる領域の神経活動のみが，未経験の出来事に対するメタ認知判断の成績を予測することがわかった．また，前頭極の神経活動は，過去に経験した出来事に対するメタ認知判断の成績を予測しなかったほか，未経験の出来事を正しく未経験だと判断する記憶課題の成績とも相関しなかった．一方で，筆者らによる過去の研究の知見のとおり<a href="#R4"><sup>4,6)</sup></a>，<a href="#" class="anno 背側">背側</a>前頭葉（9野）の神経活動は過去に経験した出来事に対するメタ認知判断の成績，海馬の神経活動は記憶課題の成績を予測することが確かめられた．<br/><br/><h2>2．前頭極における神経活動を薬理学的に不活性化すると未知の出来事に対するメタ認知判断のみができなくなる</h2><br/>　マカクサルに対し，神経活動が未経験の出来事に対するメタ認知判断の成績と相関する前頭極にGABA<sub>A</sub><a href="#" class="anno 受容体">受容体</a>の<a href="#" class="anno 作動薬">作動薬</a>である<a href="#" class="anno ムシモール">ムシモール</a>を<a href="#" class="anno 微量注入">微量注入</a>し，前頭極の神経活動のみを<a href="#" class="anno 可逆的">可逆的</a>に抑制した．その結果，未経験の出来事に対するメタ認知判断の成績のみが悪化した．過去に経験した出来事に対するメタ認知判断の成績，あるいは，記憶課題の成績に変化はみられなかった．また，同量の<a href="#" class="anno 生理<a href="#" class="anno 食塩水">食塩水</a>">生理食塩水</a>を微量注入する<a href="#" class="anno 対照実験">対照実験</a>においては，メタ認知判断の成績あるいは記憶課題の成績のいずれも変化しなかった．これらの実験により，前頭極が未経験の出来事に対するメタ認知判断のみを<a href="#" class="anno 特異的">特異的</a>に担い，無知であるという判断に対し<a href="#" class="anno 自己評価">自己評価</a>をくだす役割をはたすことが明らかにされた．<br/><br/><h2>おわりに</h2><br/>　この研究により，未知の出来事に対するメタ認知判断の神経中枢は前頭極（10野）にあり，過去に経験した出来事に対するメタ認知判断の神経中枢（9野）とは異なることがはじめて明らかにされた．さらに，脳機能イメージングの結果，未知の出来事に対するメタ認知判断の成績がよいときほど，前頭極と海馬の神経活動が同期を強めることが見い出された．これらの結果から，前頭葉の<a href="#" class="anno 神経ネットワーク">神経ネットワーク</a>が未知の事象と既知の事象とを異なる情報<a href="#" class="anno 伝達系">伝達系</a>にもとづいて処理し，その両方が統合されて既知感および未知感の意識体験を生むことが示唆された（<a href="#F2">図2</a>）．前頭極は<a href="#" class="anno 進化的">進化的</a>にもっとも新しい領域のひとつであり，ヒトをはじめとした<a href="#" class="anno 霊長類">霊長類</a>のみで発達している<a href="#R8"><sup>8)</sup></a>．近年，ヒトを対象とした脳機能イメージングによる知見から，前頭葉の前側に近い領域ほど抽象度の高い情報を処理し，もっとも先端にあたる前頭極は課題の解決のために前頭葉のほかの領域における認知の過程を制御するという仮説が提唱されている<a href="#R9"><sup>9,10)</sup></a>．また，筆者らの過去の研究による，時間順序記憶課題を遂行しているマカクサルの神経ネットワークが前頭極を最上位とした階<a href="#" class="anno 層構造">層構造</a>を<a href="#" class="anno かた">かた</a>ちづくるという知見<a href="#R11"><sup>11)</sup></a> をあわせると，前頭極は前頭葉におけるネットワーク的にも，担う認知<a href="#" class="anno 機能的">機能的</a>にも，最上位に位置すると考えられる．<a href="#" class="anno 最近の研究">最近の研究</a>により，前頭極は新しいルールの習得や<a href="#R12"><sup>12)</sup></a>，<a href="#" class="anno 実際">実際</a>に得ていない報酬に関する情報の処理など<a href="#R13"><sup>13)</sup></a>，さまざまな課題の遂行に関与することが示されてきた．しかし，前頭極がこれらの課題を達成するために<a href="#" class="anno 具体的">具体的</a>にどのような役割を担うのかについてはよくわかっていなかった．この研究により，前頭極は未知の環境に適応するための基礎となる能力である“無知の知”を生むことに貢献することがはじめて明らかにされた．前頭極の機能をさらに調べることにより，“無知の知”の自覚にもとづき，自分自身の知らない情報を集めたり新しいアイ<a href="#" class="anno デ">デ</a>アを着想したりする際にはたらく高度な思考がどのように生じるのかが解明されるのではないかと期待される．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　“無知の知”を生む脳のはたらき</strong><br/>前頭極（10野）は記憶の想起を担う海馬と相互作用することにより，未知の出来事への確信度の判断に貢献することがわかった．さらに，前頭極は過去に経験した出来事への確信度の判断を担う背側前頭葉（9野）とは異なっていた．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyashita-Neuron-18.2.21-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　“無知の知”を生む脳のはたらき" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyashita-Neuron-18.2.21-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyashita-Neuron-18.2.21-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Dehaene, S. (ed.)</span>: <span class="ti">The Cognitive Neuroscience of Consciousness.</span> <span class='so'>MIT Press, Cambridge (2001)</span></li><br><li id="R2"><span class='au'>Miyashita, Y.</span>: <span class="ti">Cognitive memory: cellular and network machineries and their top-down control.</span> <span class='so'>Science, 306, 435-440 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15486288" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Kiani, R. & Shadlen, M. N.</span>: <span class="ti">Representation of confidence associated with a decision by neurons in the parietal cortex.</span> <span class='so'>Science, 324, 759-764 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19423820" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Miyamoto, K., Osada, T., Setsuie, R. et al.</span>: <span class="ti">Causal neural network of metamemory for retrospection in primates.</span> <span class='so'>Science, 355, 188-193 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28082592" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/15131" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R5"><span class='au'>Hampton, R. R., Zivin, A. & Murray, E. A.</span>: <span class="ti">Rhesus monkeys (<em>Macaca mulatta</em>) discriminate between knowing and not knowing and collect information as needed before acting.</span> <span class='so'>Anim. Cogn., 7, 239-246 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15105996" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Miyamoto, K., Osada, T., Adachi, Y. et al.</span>: <span class="ti">Functional differentiation of memory retrieval network in macaque posterior parietal cortex.</span> <span class='so'>Neuron, 77, 787-799 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23439129" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Miyamoto, K., Adachi, Y., Osada, T. et al.</span>: <span class="ti">Dissociable memory traces within the macaque medial temporal lobe predict subsequent recognition performance.</span> <span class='so'>J. Neurosci., 34, 1988-1997 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24478378" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Petrides, M. & Pandya, D. N.</span>: <span class="ti">Dorsolateral prefrontal cortex: comparative cytoarchitectonic analysis in the human and the macaque brain and corticocortical connection patterns.</span> <span class='so'>Eur. J. Neurosci., 11, 1011-1036 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10103094" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Badre, D. & D'Esposito, M.</span>: <span class="ti">Is the rostro-caudal axis of the frontal lobe hierarchical?</span> <span class='so'>Nat. Rev. Neurosci., 10, 659-669 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19672274" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Passingham, R. E. & Wise, S. P.</span>: <span class="ti">The Neurobiology of the Prefrontal Cortex: Anatomy, Evolution, and the Origin of Insight.</span> <span class='so'>Oxford University Press, Oxford (2012)</span></li><br><li id="R11"><span class='au'>Osada, T., Adachi, Y., Miyamoto, K. et al.</span>: <span class="ti">Dynamically allocated hub in task-evoked network predicts the vulnerable prefrontal locus for contextual memory retrieval in macaques.</span> <span class='so'>PLoS Biol., 13, e1002177 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26125513" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Boschin, E. A., Piekema, C. & Buckley, M. J.</span>: <span class="ti">Essential functions of primate frontopolar cortex in cognition.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 112, E1020-E1027 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25691741" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Boorman, E. D., Behrens, T. E., Woolrich, M. W. et al.</span>: <span class="ti">How green is the grass on the other side? Frontopolar cortex and the evidence in favor of alternative courses of action.</span> <span class='so'>Neuron, 62, 733-743 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19524531" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=プログラミング" target="_blank">プログラミング</a></li><br></ul><br><div class="au-profile"><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_01.html" target="_blank">3.1 Traits</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/07_01.html" target="_blank">7.1 Transmission and Expression of Genetic Information</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_07.html" target="_blank">3.7 Chromosomes and the Genome</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_04.html" target="_blank">3.4 Genetic Factors and Chromosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/22_08.html" target="_blank">22.8 Formation of Floral Organs</a></li><br></ul><br><h2>著者プロフィール</h2><br><span class="author">宮本 健太郎（Kentaro Miyamoto）</span><br>略歴：2014年 東京大学大学院医学系研究科博士課程 修了，同 博士研究員を経て，2017年より英国Oxford大学 博士研究員．<br>研究テーマ：不確定性をともなう環境における意思決定の神経機構．<br>抱負：これまで哲学や文学が対象としてきた人間の複雑な“こころ”のはたらきを，自然科学的な手法を用いて解明していきたい．<br><br><strong>長田 貴宏（Takahiro Osada）</strong><br>順天堂大学大学院医学研究科 助教．<br><br><strong>宮下 保司（Yasushi Miyashita）</strong><br>順天堂大学大学院医学研究科 特任教授．<br>研究室URL：<a href="http://www.physiol.m.u-tokyo.ac.jp/" target="_blank">http://www.physiol.m.u-tokyo.ac.jp/</a><br></div><br>© 2018 宮本健太郎・長田貴宏・宮下保司 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

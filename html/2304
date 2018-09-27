@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ERK5はSp1およびKlf2，Klf4を介して筋細胞の融合を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/2304" rel="bookmark">ERK5はSp1およびKlf2，Klf4を介して筋細胞の融合を制御する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>砂留一範・西田栄介</strong><br>（京都大学大学院生命科学研究科 統合生命科学専攻シグナル伝達学分野）<br>email：<a href="mailto:nishida@lif.kyoto-u.ac.jp">西田栄介</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.042">10.7875/first.author.2011.042</a><br><div class="reference"><br><span class="ti">ERK5 regulates muscle cell fusion through Klf transcription factors.</span><br><span class="au">Kazunori Sunadome, Takuya Yamamoto, Miki Ebisuya, Kunio Kondoh, Atsuko Sehara-Fujisawa, Eisuke Nishida</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21316587" target="_blank"><em>Developmental Cell</em>, <strong>20</strong>, 192-205 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　筋肉は動物の運動に必須の組織であり，収縮能を<a href="#" class="anno も">も</a>つ繊維状の<a href="#" class="anno 多核細胞">多核細胞</a>から構成されている．このような多核細胞は筋<a href="#" class="anno 芽細胞">芽細胞</a>とよばれる<a href="#" class="anno 単核">単核</a>の<a href="#" class="anno 前駆細胞">前駆細胞</a>が分化をつうじて融合し筋<a href="#" class="anno 特異的">特異的</a>な遺伝子を発現することにより形成される．これら一連の分化は<a href="#" class="anno MyoD">MyoD</a>ファミリーやM<a href="#" class="anno EF">EF</a>2ファミリーなど少数の<a href="#" class="anno 転写因子">転写因子</a>により制御されていることが知られている．この研究において筆者らは，<a href="#" class="anno 筋分化">筋分化</a>において<a href="#" class="anno MA">MA</a>P<a href="#" class="anno キナーゼ">キナーゼ</a>経路のひとつである<a href="#" class="anno ERK">ERK</a>5経路がKlfファミリーおよび<a href="#" class="anno Sp1">Sp1</a>ファミリーを介して細胞の融合を特異的に制御していることを明らかにした．マウス<a href="#" class="anno 筋芽細胞">筋芽細胞</a><a href="#" class="anno C2">C2</a><a href="#" class="anno C1">C1</a>2に筋分化を誘導すると<a href="#" class="anno ERK5">ERK5</a>経路は<a href="#" class="anno 活性化">活性化</a>し，その活性は細胞の融合が起こる前後にわたって持続していた．ERK5の活性をその上流タンパク質である<a href="#" class="anno MEK">MEK</a>5の優勢阻害型を<a href="#" class="anno 過剰発現">過剰発現</a>することにより阻害すると融合は顕著に抑制された．一方，恒常<a href="#" class="anno 活性型">活性型</a>の<a href="#" class="anno MEK5">MEK5</a>を過剰発現させると融合は促進された．つぎに，<a href="#" class="anno マイクロアレイ">マイクロアレイ</a>を用い筋分化の過程においてERK5により<a href="#" class="anno 発現制御">発現制御</a>をうける遺伝子189個を同定したが，これらの遺伝子のなかにはMyoDファミリーや<a href="#" class="anno MEF">MEF</a>2ファミリー，また，それらの下流にある<a href="#" class="anno 筋特異的">筋特異的</a>な遺伝子は含まれていなかった．一方で，189個の遺伝子の<a href="#" class="anno プロモーター領域">プロモーター領域</a>にはKlfファミリーおよびSp1ファミリーの<a href="#" class="anno 結合配列">結合配列</a>が非常に高い頻度で存在した．189個の遺伝子のなかにはKlfファミリーに属する<a href="#" class="anno Klf2">Klf2</a>と<a href="#" class="anno Klf4">Klf4</a>が含まれていた．<a href="#" class="anno siRNA">siRNA</a>による<a href="#" class="anno ノックダウン">ノックダウン</a>や<a href="#" class="anno クロマチン">クロマチン</a><a href="#" class="anno 免疫沈降">免疫沈降</a><a href="#" class="anno アッセイ">アッセイ</a>などによる結果から，ERK5はSp1を介してKlf2およびKlf4の発現を制御することにより<a href="#" class="anno 筋細胞">筋細胞</a>の融合を制御していることが示唆された．さらに，ERK5-Klf経路の下流にいくつかの遺伝子を同定した．<br/><br/><h2>はじめに</h2><br/>　筋肉の正常な形成は個体の発生や生存に必須のプロセスである．筋肉は収縮能をもつ繊維状の多核細胞の<a href="#" class="anno 集合体">集合体</a>であるが，これは筋芽細胞とよばれる単核の前駆細胞が分化することにより形成される（<a href="#F1">図1a</a>）．筋分化は<a href="#" class="anno 多段階">多段階</a>からなり，その過程において筋芽細胞は<a href="#" class="anno 細胞周期">細胞周期</a>を離脱し筋特異的な遺伝子を発現して互いに融合することにより繊維状の多核細胞（<a href="#" class="anno <a href="#" class="anno 筋管">筋管</a>細胞">筋管細胞</a>）を形成する．筋分化はおもにMyoDファミリー（MyoD，<a href="#" class="anno Myf5">Myf5</a>，<a href="#" class="anno ミオゲニン">ミオゲニン</a>，<a href="#" class="anno <a href="#" class="anno MR">MR</a>F">M<a href="#" class="anno RF">RF</a></a>4）と<a href="#" class="anno MEF2">MEF2</a>ファミリー（MEF2A，MEF2B，<a href="#" class="anno MEF2C">MEF2C</a>，MEF2D）とよばれる2つの転写因子ファミリーによって制御されている<a href="#R1"><sup>1,2)</sup></a>．これらの転写因子やそのほかの<a href="#" class="anno 転写<a href="#" class="anno 共役因子">共役因子</a>">転写共役因子</a>が適切なタイミングで<a href="#" class="anno 協調的">協調的</a>に機能し，筋特異的な遺伝子を転写することにより筋分化を制御している．しかし，筋肉は<a href="#" class="anno 融合細胞">融合細胞</a>という独特の構造をとっており<a href="#R3"><sup>3)</sup></a>，このことはひとつの疑問を提起する．<a href="#" class="anno つまり">つまり</a>，筋分化における細胞の融合という現象は，MyoDやMEF2ファミリーによって制御される<a href="#" class="anno 分化プログラム">分化プログラム</a>の一部にすぎないのだろうか？　この研究において筆者らは，ERK5経路がMyoDやMEF2の活性とは非<a href="#" class="anno 依存的">依存的</a>に活性化され，転写因子であるSp1およびKlf2，Klf4を介して細胞の融合を特異的に制御していることを見い<a href="#" class="anno 出し">出し</a>た．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　ERK5経路は筋細胞の融合を制御する</strong><br/>（a）筋芽細胞C2C12の分化．<br/>（b）分化の過程においてERK5経路を優勢阻害型MEK5の過剰発現により抑制，あるいは，恒常活性型MEK5の過剰発現により活性化し，抗MyHC抗体で染色した．緑色の部分が細胞質，黒抜きになっている部分が核．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/Nishida-Developmental-Cell-11.2.14-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　ERK5経路は筋細胞の融合を制御する" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nishida-Developmental-Cell-11.2.14-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nishida-Developmental-Cell-11.2.14-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><h2>1．筋分化における<a href="#" class="anno ERK1">ERK1</a>/2経路ならびにERK5経路の機能</h2><br/>　<a href="#" class="anno MAPキナーゼ">MAPキナーゼ</a>経路は進化において高度に保存された<a href="#" class="anno 細胞内">細胞内</a><a href="#" class="anno <a href="#" class="anno シグナル伝達">シグナル伝達</a>経路">シグナル<a href="#" class="anno 伝達経路">伝達経路</a></a>であり，<a href="#" class="anno 細胞外">細胞外</a>からの刺激と核での<a href="#" class="anno 遺伝子発現">遺伝子発現</a>の変化を結びつけることに必須の役割をはたしている<a href="#R4"><sup>4,5)</sup></a>．<a href="#" class="anno MAPキナーゼ経路">MAPキナーゼ経路</a>のうち，筋肉においては<a href="#" class="anno p38">p38</a>経路，<a href="#" class="anno ERK1/2">ERK1/2</a>経路，ERK5経路の3つが分化の過程に関与していることが報告されている．p38経路は筋分化を促進することが知られておりその<a href="#" class="anno 分子機構">分子機構</a>についても詳細な報告がなされている<a href="#R6"><sup>6)</sup></a>．一方で，ERK1/2経路とERK5経路に関しては明確な役割が示されていない．筋分化において正に機能するあるいは負に機能するという異なる報告がなされているが<a href="#R7"><sup>7,8)</sup></a>，考えられる要因として，ERK1/2経路を抑制する薬剤は濃度によってERK5経路も抑制することが関係している<a href="#" class="anno 可能性">可能性</a>がある．<br/>　筋分化におけるERK1/2経路およびERK5経路のそれぞれの機能を解析するためマウス筋芽細胞C2C12を用いた．<a href="#" class="anno 分化誘導">分化誘導</a>ののち，ERK1あるいは<a href="#" class="anno ERK2">ERK2</a>の活性は変化しなかったが，ERK5の活性は増加し融合の起こる前後において持続していた．最初に，異なる<a href="#" class="anno 特異性">特異性</a>をもつ2種類のMEK<a href="#" class="anno 阻害剤">阻害剤</a>，U0126と<a href="#" class="anno PD1">PD1</a>84352のそれぞれを，分化を誘導したあとで融合を開始するまえの<a href="#" class="anno C2C12細胞">C2C12細胞</a>に添加した．U0126（20μM）はERK1あるいはERK2とERK5の活性のどちらも阻害する一方で，PD184352（2μM）はERK5の活性を抑制することなくERK1あるいはERK2の活性のみを抑制した．U0126で処理した細胞では筋管の形成はほぼ完全に阻害され，多数の単核の<a href="#" class="anno 筋肉細胞">筋肉細胞</a>が観察された．しかし，U0126の添加はミオゲニンや<a href="#" class="anno ミオシン">ミオシン</a><a href="#" class="anno 重鎖">重鎖</a>などの筋特異的な遺伝子の発現にほとんど影響を及ぼさなかった．それゆえ，これらU0126で処理された細胞は融合以外の筋分化の過程を正常に進行させているものと考えられた．PD184352で細胞を処理しても筋管の形成や筋特異的な遺伝子の発現の抑制されることはなかったことから，これらの結果をあわせると，ERK1/2経路は筋分化に関与しない一方，ERK5経路は筋分化において細胞の融合に必須の役割をはたしていることが示唆された．<br/><br/><h2>2．ERK5は筋細胞の融合に必須の機能をはたす</h2><br/>　つぎに，ERK5経路を<a href="#" class="anno 選択的">選択的</a>に抑制するため<a href="#" class="anno ア<a href="#" class="anno デ">デ</a>ノウイルス">アデノウイルス</a>を用いてERK5の上流タンパク質であるMEK5の優勢阻害型をC2C12細胞に過剰発現させた．優勢阻害型MEK5の過剰発現はERK1あるいはERK2の活性を阻害することなくERK5の活性を選択的に阻害した．ERK5経路が抑制された細胞は筋管細胞のように細長く伸長した形態を示したが，融合は顕著に阻害され大半の細胞は単核の状態でとどまっていた（<a href="#F1">図1b</a>）．一方で，ERK5経路を抑制しても，MyoD，Mef2a，<a href="#" class="anno p21">p21</a>，<a href="#" class="anno ミオシン重鎖">ミオシン重鎖</a>，筋<a href="#" class="anno クレアチン">クレアチン</a>キナーゼなどの筋<a href="#" class="anno マー<a href="#" class="anno カ">カ</a>ー遺伝子">マーカー遺伝子</a>の発現の抑制されることはなかった．同様の結果は，マウスの腓腹筋から<a href="#" class="anno 単離">単離</a>した<a href="#" class="anno 筋衛星細胞">筋衛星細胞</a>においても得られた．また，<a href="#" class="anno 恒常活性型">恒常活性型</a>MEK5をC2C12細胞に過剰発現させてERK5経路の活性を強めたところ，細胞の融合は促進しより多くの核を含む巨大な筋管細胞が多く観察された（<a href="#F1">図1b</a>）．しかし，これらERK5経路を活性化させた細胞において筋マーカー遺伝子の発現は対照と変わらなかった．以上の結果をまとめると，ERK5経路は筋特異的な遺伝子の発現にほとんど関与しない一方，筋細胞の融合の制御に必須の機能をはたしているものと考えられた．<br/><br/><h2>3．ERK5により制御される遺伝子はMyoDファミリーならびにMEF2ファミリーの<a href="#" class="anno 標的遺伝子">標的遺伝子</a>とは重複しない</h2><br/>　C2C12<a href="#" class="anno 細胞の分化">細胞の分化</a>の過程においてERK5経路により発現が制御される遺伝子を同定するため<a href="#" class="anno マイクロアレイ解析">マイクロアレイ解析</a>を行った．分化誘導ののち発現が1.<a href="#" class="anno 5倍">5倍</a>以上に上昇する遺伝子のうち，優勢阻害型MEK5の過剰発現によりその発現の上昇が半分以下に抑えられた遺伝子として189個の遺伝子（208<a href="#" class="anno プローブ">プローブ</a>）を同定した．これらERK5によって制御される遺伝子と，ほかの<a href="#" class="anno 研究グループ">研究グループ</a>によって同定されたMyoDファミリーやMEF2ファミリーの直接の標的遺伝子<a href="#R9"><sup>9)</sup></a> とのあいだにほとんど重複はみられなかった．このことは，ERK5経路がMyoDやMEFによって誘導される分化プログラムにほとんど影響をあたえ<a href="#" class="anno ないこと">ないこと</a>を示唆していた．<br/><br/><h2>4．ERK5はSp1とKlf2，Klf4を介して筋細胞の融合を制御する</h2><br/>　つぎに，ERK5経路の下流の遺伝子の発現を制御する転写因子を同定するため，モチーフ検索アルゴリズムW<a href="#" class="anno eed">eed</a>er <a href="#R10"><sup>10)</sup></a>，ならびに，T<a href="#" class="anno RA">RA</a><a href="#" class="anno NSF">NSF</a>ACデータベース <a href="#R11"><sup>11)</sup></a> を用いて189個の遺伝子のプロモーター領域を解析した．その結果，189遺伝子の発現制御に関与する転写因子の候補としてKlfファミリーならびにSp1ファミリーが見い出された．KlfファミリーのうちKlf2，Klf3，Klf4，<a href="#" class="anno Klf6">Klf6</a>が189遺伝子に含まれていた．Klf2に対しては3つ，Klf4に対しては4つのSp1結合配列がプロモーター領域に存在し，<a href="#" class="anno クロマチン免疫沈降">クロマチン免疫沈降</a>アッセイによりSp1がこれらの領域に結合することがわかった．また，Sp1をノックダウンするとKlf2およびKlf4の<a href="#" class="anno mRNA">mRNA</a>量が顕著に抑制されたことから，Sp1はKlf2およびKlf4の発現を直接に制御しているものと考えられた．さらに，<a href="#" class="anno レポーターアッセイ">レポーターアッセイ</a>の結果からERK5はSp1の活性を調節していることが示唆された．以上の結果は，ERK5はSp1を介してKlf2およびKlf4の発現を制御していることを示すものであった．<br/>　<a href="#" class="anno 重要なこと">重要なこと</a>に，Sp1あるいはKlf2またはKlf4をノックダウンすると，ミオゲニンやミオシン重鎖などの筋マーカー遺伝子の発現に影響はみられなかったものの，細胞の融合は顕著に抑制された．これは，Sp1とKlf2またはKlf4が，ERK5と同様に筋細胞の融合に重要な役割をはたしていることを示していた．興味深いことに，筋分化を抑制することが知られている<a href="#" class="anno BMP">BMP</a>2やb<a href="#" class="anno FGF">FGF</a>で細胞を処理しMyoDやMEF2の発現を抑制してもERK5-Klf経路は活性化したることから，これらの筋細胞の融合を調節するシグナル伝達経路はMyoDやMEF2が誘導する分化プログラムには依存せずに活性化されるものであると考えられた．<br/><br/><h2>5．ERK5-Klf経路の標的遺伝子</h2><br/>　ERK5経路が抑制されたC2C12細胞にKlf2またはKlf4を導入することで筋細胞の融合の抑制が回復した．このことは，Klf2およびKlf4がERK5経路の下流にあり筋細胞の融合を制御するという結論を支持するものであった．ERK5経路の下流の遺伝子には筋細胞の融合を制御することが報告されている<a href="#" class="anno Cdh1">Cdh1</a>5が含まれていた．また新たに，<a href="#" class="anno 接着分子">接着分子</a>である<a href="#" class="anno Npnt">Npnt</a>が筋細胞の融合に関与するという結果を得た．Npntはほかの組織において筋細胞の融合の<a href="#" class="anno 制御タンパク質">制御タンパク質</a>のひとつであるβ1<a href="#" class="anno インテグリン">インテグリン</a>と<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>することが報告されている<a href="#R12"><sup>12)</sup></a>．Npntと<a href="#" class="anno β1インテグリン">β1インテグリン</a>との筋芽細胞における相互作用が筋細胞の融合に重要である可能性がある．Klf2またはKlf4のノックダウンにより<a href="#" class="anno Cdh15">Cdh15</a>やNpntの発現が抑制されたことから，ERK5-Klf経路が筋細胞の融合を制御する作用<a href="#" class="anno 機序">機序</a>としてCdh15やNpntのような<a href="#" class="anno 接着因子">接着因子</a>の発現の関与していることが考えられた．<br/><br/><h2>おわりに</h2><br/>　この研究では，筋肉の分化に機能する新たなシグナル伝達経路としてERK5-Klf経路を同定した．ERK5-Klf経路はMyoDのような分化の最終<a href="#" class="anno 調節タンパク質">調節タンパク質</a>に関与することなく，筋細胞の融合を特異的に制御しているものと考えられた（<a href="#F2">図2</a>）．一方，筋細胞以外の細胞にERK5の活性やKlf2またはKlf4の発現を誘導しても細胞の融合は誘導されなかった．ERK5-Klf経路のみでは細胞の融合をひき起こすのに十分ではなく，ERK5-Klf経路の下流の遺伝子とMyoDなどの転写因子の下流の遺伝子の発現がすべて誘導されたときにはじめて細胞の融合をひき起こすことができるのであろう．このような細胞の融合に対する厳密な制御は，不適切な細胞が融合して異常な機能をもたない細胞を形成することを防いでいるのかもしれない．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ERK5経路による筋細胞の融合のモデル</strong><br/>ERK5経路の下流のSp1およびKlf2またはKlf4は，MyoDやMEF2のような分化の最終調節タンパク質に関与することなく，筋細胞の融合を特異的に制御している．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/Nishida-Developmental-Cell-11.2.14-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ERK5経路による筋細胞の融合のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nishida-Developmental-Cell-11.2.14-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nishida-Developmental-Cell-11.2.14-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Weintraub, H., Tapscott, S. J., Davis, R. L. et al.</span>: <span class="ti">Activation of muscle-specific genes in pigment, nerve, fat, liver, and fibroblast cell lines by forced expression of MyoD.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 86, 5434-5438 (1989)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2748593" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Molkentin, J. & Olson, E.</span>: <span class="ti">Combinatorial control of muscle development by basic helix-loop-helix and MADS-box transcription factors.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 93, 9366-9373 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8790335" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Richardson, B., Nowak, S. & Baylies, M.</span>: <span class="ti">Myoblast fusion in fly and vertebrates: new genes, new processes and new perspectives.</span> <span class='so'>Traffic, 9, 1050-1059 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18435820" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Chang, L. & Karin, M.</span>: <span class="ti">Mammalian MAP kinase signalling cascades.</span> <span class='so'>Nature, 410, 37-40 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11242034" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Nishimoto, S. & Nishida, E.</span>: <span class="ti">MAPK signalling: ERK5 versus ERK1/2.</span> <span class='so'>EMBO Rep., 7, 782-786 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16880823" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Lluis, F., Perdiguero, E., Nebreda, A. R. et al.</span>: <span class="ti">Regulation of skeletal muscle gene expression by p38 MAP kinases.</span> <span class='so'>Trends Cell Biol., 16, 36-44 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16325404" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Rommel, C., Clarke, B. A., Zimmermann, S. et al.</span>: <span class="ti">Differentiation stage-specific inhibition of the Raf-MEK-ERK pathway by Akt.</span> <span class='so'>Science, 286, 1738-1741 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10576741" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Dinev, D., Jordan, B. W., Neufeld, B. et al.</span>: <span class="ti">Extracellular signal regulated kinase 5 (ERK5) is required for the differentiation of muscle cells.</span> <span class='so'>EMBO Rep., 2, 829-834 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11520859" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Blais, A., Tsikitis, M., Acosta-Alvear, D. et al.</span>: <span class="ti">An initial blueprint for myogenic differentiation.</span> <span class='so'>Genes Dev., 19, 553-569 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15706034" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Pavesi, G., Mauri, G. & Pesole, G.</span>: <span class="ti">An algorithm for finding signals of unknown length in DNA sequences.</span> <span class='so'>Bioinformatics, 17 (Suppl.1), S207-214 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11473011" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Kel, A., Gossling, E., Reuter, I. et al.</span>: <span class="ti">MATCH: A tool for searching transcription factor binding sites in DNA sequences.</span> <span class='so'>Nucleic Acids Res., 31, 3576-3579 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12824369" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Brandenberger, R., Schmidt, A., Linton, J. et al.</span>: <span class="ti">Identification and characterization of a novel extracellular matrix protein nephronectin that is associated with integrin α8β1 in the embryonic kidney.</span> <span class='so'>J. Cell Biol., 154, 447-458 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11470831" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/17_03.html" target="_blank">17.3 Control of muscle contraction</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">砂留 一範（Kazunori Sunadome）</span><br>略歴：京都大学生命科学研究科博士課程 在学中，2009年より日本学術振興会 特別研究員．<br>研究テーマ：細胞分化の制御機構．<br><br><strong>西田 栄介（Eisuke Nishida）</strong><br>京都大学大学院生命科学研究科 教授．<br>研究室URL：<a href="http://www.lif.kyoto-u.ac.jp/labs/signal/" target="_blank">http://www.lif.kyoto-u.ac.jp/labs/signal/</a><br></div><br>© 2011 砂留一範・西田栄介 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

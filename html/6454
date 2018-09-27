@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> iPS細胞への初期化と再分化の誘導により抗原特異的なT細胞を若返らせる : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/6454" rel="bookmark">iPS細胞への初期化と再分化の誘導により抗原特異的なT細胞を若返らせる</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>西村聡修・中内啓光</strong><br>（東京大学医科学研究所 幹細胞治療研究センター幹細胞治療分野）<br>email：<a href="mailto:n-toshi@ims.u-tokyo.ac.jp">西村聡修</a>，<a href="mailto:nakauchi@ims.u-tokyo.ac.jp">中内啓光</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.009">10.7875/first.author.2013.009</a><br><div class="reference"><br><span class="ti">Generation of rejuvenated antigen-specific T cells by reprogramming to pluripotency and redifferentiation.</span><br><span class="au">Toshinobu Nishimura, Shin Kaneko, Ai Kawana-Tachikawa, Yoko Tajima, Haruo Goto, Dayong Zhu, Kaori Nakayama-Hosoya, Shoichi Iriguchi, Yasushi Uemura, Takafumi Shimizu, Naoya Takayama, Daisuke Yamada, Ken Nishimura, Manami Ohtaka, Nobukazu Watanabe, Satoshi Takahashi, Aikichi Iwamoto, Haruhiko Koseki, Mahito Nakanishi, Koji Eto, Hiromitsu Nakauchi</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23290140" target="_blank"><em>Cell Stem Cell</em>, <strong>12</strong>, 114-126 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　体外において増幅した患者自身の抗原<a href="#" class="anno 特異的">特異的</a>な<a href="#" class="anno T細胞">T細胞</a>を用いてがんや<a href="#" class="anno 感染症">感染症</a>を治療する試みは，T細胞の<a href="#" class="anno も">も</a>つ<a href="#" class="anno 抗原認識">抗原認識</a>能と<a href="#" class="anno 細胞傷害">細胞傷害</a>能を利用した<a href="#" class="anno 効率的">効率的</a>な<a href="#" class="anno 治療法">治療法</a>である反面，<a href="#" class="anno 慢性疾患">慢性疾患</a>における何回もの<a href="#" class="anno 抗原刺激">抗原刺激</a>，および，体外増幅の過程における抗原刺激によりT細胞が疲弊し老化して低機能状態におちいってしまうため，期待しているほどの<a href="#" class="anno 治療効果">治療効果</a>を得られていないのが現状である．筆者らは，HIV-1患者の体内に存在していた疲弊し老化した<a href="#" class="anno CD8">CD8</a><a href="#" class="anno 陽<a href="#" class="anno 性細胞">性細胞</a>">陽性細胞</a><a href="#" class="anno 傷害性">傷害性</a>T細胞を<a href="#" class="anno iPS細胞">iPS細胞</a>に<a href="#" class="anno 初期化">初期化</a>し，そのiPS細胞から再び<a href="#" class="anno CD8陽性細胞">CD8陽性細胞</a>傷害性T細胞を<a href="#" class="anno 分化誘導">分化誘導</a>することに成功した．この過程において，T細胞のもっていた抗原<a href="#" class="anno 特異性">特異性</a>を保持することも可能になり，初期化したiPS細胞から目的の抗原に反応する<a href="#" class="anno <a href="#" class="anno 細胞傷害性">細胞傷害性</a>T細胞">細胞傷害性T細胞</a>を大量に得られるようになった．また，<a href="#" class="anno 再分化">再分化</a>の誘導により得られた細胞傷害性T細胞には<a href="#" class="anno 増殖能">増殖能</a>の回復と<a href="#" class="anno テロメア">テロメア</a>の伸長が認められた．この研究の成果は，さまざまな病態に対し，iPS細胞の特性を活かして“<a href="#" class="anno 抗原特異的">抗原特異的</a>なT細胞を若返らせて再生する”という，まったく新しい<a href="#" class="anno 免疫細胞">免疫細胞</a>療法につながると期待される．<br/><br/><h2>はじめに</h2><br/>　われわれのからだはさまざまなウイルスや細菌，寄生虫などの外敵およびがんなどから身を守る<a href="#" class="anno 免疫系">免疫系</a>をもっており，そのなかでT細胞は主たる役割を担っている．T細胞はその表面にT細胞<a href="#" class="anno 受容体">受容体</a>を発現しており，これを用いて外来抗原および<a href="#" class="anno がん抗原">がん抗原</a>を認識する．ひとつのT細胞はある特定の抗原を認識する<a href="#" class="anno T細胞受容体">T細胞受容体</a>を発現し，これによりT細胞の<a href="#" class="anno 抗原特異性">抗原特異性</a>が形成されている．無限ともいえるほどさまざまな<a href="#" class="anno かた">かた</a>ちをとる抗原を認識するため，さまざまなかたちのT細胞受容体が用意されており，それに比例して体内には膨大な種類のT細胞が存在している．慢性<a href="#" class="anno ウイルス感染">ウイルス感染</a>症やがんの患者は異常な細胞を完全に駆逐できないため，特定のウイルスやがんに特異性をもつT細胞が何度も抗原を認識し<a href="#" class="anno 活性化">活性化</a>するという行動をくり返し，これらのT細胞は<a href="#" class="anno 攻撃性">攻撃性</a>や<a href="#" class="anno 増殖性">増殖性</a>などが弱まった疲弊および老化した状態におちいっている．<br/>　近年，iPS細胞（induced pluripotent stem <a href="#" class="anno c<a href="#" class="anno ell">ell</a>">cell</a>，人工<a href="#" class="anno <a href="#" class="anno 多能性">多能性</a><a href="#" class="anno 幹細胞">幹細胞</a>">多能性幹細胞</a>）の技術の開発により，<a href="#" class="anno 体細胞">体細胞</a>を<a href="#" class="anno ES細胞">ES細胞</a>（embryonic stem cell，<a href="#" class="anno 胚性">胚性</a>幹細胞）とほぼ同等の能力をもつ多能性幹細胞に初期化することが可能になり，免疫拒絶の心配がなく<a href="#R1"><sup>1)</sup></a>，さまざまな疾患により機能不良あるいは<a href="#" class="anno 機能不全">機能不全</a>を起こした細胞や臓器を置き換えてしまう<a href="#" class="anno 再生医療">再生医療</a>の実現に大きな期待がよせられている．細胞の<a href="#" class="anno 幼若">幼若</a>性という側面からiPS細胞をみると，iPS細胞は受精まもない細胞と<a href="#" class="anno 同じ">同じ</a>性質をもつため，細胞としてはきわめて若い状態にある．iPS細胞をつくることは，分化してしまった細胞に<a href="#" class="anno 万能性">万能性</a>をもたせることのみならず，このきわめて若い状態へと変化させることでもある．すなわち，iPS細胞からもういちどその由来となった細胞をつくりだすことができれば，それらは材料となった細胞からみて<a href="#" class="anno <a href="#" class="anno 相">相</a>対的">相対的</a>に若い状態にあることが予想されていた．<br/>　今回，筆者らは，HIV-1抗原に特異的なT細胞からiPS細胞（T-iPS細胞と名づけた）を作製し，そのT-iPS細胞から再びT細胞を誘導することを試みた．この一連の操作により，疲弊し老化した状態にあるT細胞を抗原特異性を維持したまま若々しい状態へと回復させることができるのではないかと仮説をたて，研究に取り組んだ（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　抗原特異的なT-iPS細胞を介したT細胞の再生のモデル</strong><br/>T-iPS細胞からの再分化の誘導はくり返し行うことが可能であるため，同じ性質をもつT細胞をくり返し作出することが可能になる．これは，同じ患者へのくり返しの注入および多数の患者への注入を可能とし，患者の体内のT細胞免疫の再生を実現する可能性をひめる．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/01/Nakauchi-Cell-Stem-Cell-13.1.3-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　抗原特異的なT-iPS細胞を介したT細胞の再生のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakauchi-Cell-Stem-Cell-13.1.3-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakauchi-Cell-Stem-Cell-13.1.3-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．HIV患者の<a href="#" class="anno 末梢血">末梢血</a>からT-iPS細胞を樹立する</h2><br/>　慢性HIV-1感染症の患者の血液を採取し，そこからNef <a href="#R2"><sup>2)</sup></a> に由来する抗原<a href="#" class="anno ペプチド">ペプチド</a>Nef-138-8（<a href="#" class="anno Cl">Cl</a>ass I HLAである<a href="#" class="anno HLA-A">HLA-A</a>24に提示される）に特異的な<a href="#" class="anno CD8陽性T細胞">CD8陽性T細胞</a>を分離し<a href="#" class="anno クローン">クローン</a>化した．このT細胞をもとの由来となるT細胞としてのちの実験を行うにあたり，HLA-A24-Nef-138-8<a href="#" class="anno 四量体">四量体</a>への<a href="#" class="anno 反応性">反応性</a>，<a href="#" class="anno インターフェロンγ">インターフェロンγ</a>など<a href="#" class="anno サイト<a href="#" class="anno カ">カ</a>イン">サイトカイン</a>の<a href="#" class="anno 産生">産生</a>能，細胞傷害能をもつ正常な細胞傷害性T細胞であること，を確認した．<br/>　つづいて，このT細胞を<a href="#" class="anno センダイウイルス">センダイウイルス</a>を用いた<a href="#" class="anno <a href="#" class="anno 遺伝子導入">遺伝子導入</a>法">遺伝子導入法</a>によりiPS細胞へと初期化した<a href="#R3"><sup>3)</sup></a>．樹立されたiPS細胞は<a href="#" class="anno <a href="#" class="anno 自己複製">自己複製</a>能">自己<a href="#" class="anno 複製能">複製能</a></a>や<a href="#" class="anno 多分化能">多分化能</a>をもつES細胞と同等の性質を示した．また，遺伝子導入に用いたセンダイウイルスのRNAゲノムはiPS細胞となったのち<a href="#" class="anno 細胞質">細胞質</a>から除去されていることを確認し，以後の過程における<a href="#" class="anno 外来遺伝子">外来遺伝子</a>の影響（<a href="#" class="anno 腫瘍化">腫瘍化</a>を含む）を排除することが可能であることを確認した．<br/><br/><h2>2．樹立されたT-iPS細胞は<a href="#" class="anno 組換え">組換え</a>の起こったT細胞<a href="#" class="anno 受容体遺伝子">受容体遺伝子</a>を保持している</h2><br/>　ヒト末梢血のほとんどすべてのT細胞は<a href="#" class="anno α鎖">α鎖</a>と<a href="#" class="anno β鎖">β鎖</a>の<a href="#" class="anno ヘテロ">ヘテロ</a><a href="#" class="anno 二量体">二量体</a>からなるT細胞受容体を発現しており，α鎖およびβ鎖は<em><a href="#" class="anno TC">TC</a><a href="#" class="anno RA">RA</a></em>遺伝子および<em><a href="#" class="anno <a href="#" class="anno TCR">TCR</a>B">TCRB</a></em>遺伝子によりコードされている．この2つの遺伝子は胸腺における<a href="#" class="anno 発生段階">発生段階</a>において遺伝子<a href="#" class="anno 再構成">再構成</a>を起こし，それらは樹立されたiPS細胞がもとのT細胞に由来するかどうかをあとから知る指標ともなりうる．膨大な数の<em>V</em>セグメント，<em>D</em>セグメント，<em>J</em>セグメントとそれらの組合せにより形成されるT細胞受容体<a href="#" class="anno 遺伝子の再構成">遺伝子の再構成</a>を解析するため，<a href="#" class="anno 縮重">縮重</a><a href="#" class="anno プライマー">プライマー</a>とマルチプレックス<a href="#" class="anno PCR">PCR</a>法による<em>V</em>(<em>D</em>)<em>J</em><a href="#" class="anno 結合領域">結合領域</a>の配列<a href="#" class="anno 解析法">解析法</a>を開発した<a href="#R4"><sup>4)</sup></a>．この手法により，樹立されたiPS細胞の<a href="#" class="anno ゲノムDNA">ゲノムDNA</a>における<a href="#" class="anno T細胞受容体遺伝子">T細胞受容体遺伝子</a>の再構成を解析したところ，由来となったT細胞と同一の<a href="#" class="anno 遺伝子再構成">遺伝子再構成</a>をもっていることがわかり，T-iPS細胞には由来となったT細胞と同じ抗原特異性の保持されることが明らかになった．<br/><br/><h2>3．再分化の誘導により得られたCD8陽性T細胞は起源となったT細胞と同一のT細胞受容体を発現する</h2><br/>　ES細胞およびiPS細胞は<a href="#" class="anno C3">C3</a>H10T1/2<a href="#" class="anno 支持細胞">支持細胞</a>との<a href="#" class="anno 共培養">共培養</a>により，<a href="#" class="anno <a href="#" class="anno CD3">CD3</a>4"><a href="#" class="anno CD34">CD34</a></a>陽性の<a href="#" class="anno 造血幹細胞">造血幹細胞</a>および造血<a href="#" class="anno 前駆細胞">前駆細胞</a>に分化誘導することが可能で<a href="#R5"><sup>5)</sup></a>，つづいて，それら造血幹細胞および<a href="#" class="anno 造血前駆細胞">造血前駆細胞</a>をOP9-D<a href="#" class="anno L1">L1</a>支持細胞と共培養することにより，T<a href="#" class="anno 細胞系">細胞系</a>統へと分化誘導することが可能である<a href="#R6"><sup>6)</sup></a>（<a href="#F2">図2</a>）．ただし，この方法では<a href="#" class="anno CD4">CD4</a>陽性CD8陽性の段階までの細胞しか得られない．<a href="#" class="anno 実際">実際</a>に，樹立されたT-iPS細胞を用いて同様の分化誘導を試みたところ，<a href="#" class="anno CD45">CD45</a>陽性，<a href="#" class="anno CD38">CD38</a>陽性，<a href="#" class="anno CD7">CD7</a>陽性，<a href="#" class="anno CD5">CD5</a>陽性，<a href="#" class="anno <a href="#" class="anno CD45R">CD45R</a>A">CD45RA</a>陽性，CD3陽性，<a href="#" class="anno T細胞受容体α鎖">T細胞受容体α鎖</a>β鎖<a href="#" class="anno ヘテロ二量体">ヘテロ二量体</a>陽性など，各種のT細胞系統のマーカーを発現する細胞が得られた．しかし，<a href="#" class="anno 一点">一点</a>のみ正常な<a href="#" class="anno 胸腺細胞">胸腺細胞</a>の発生とは異なっており，CD4陰性CD8陰性の段階の細胞においても完全なT細胞受容体α鎖β鎖ヘテロ二量体が発現していた．通常の胸腺細胞の発生では，CD4陰性CD8陰性の段階で<em>TCRB</em>遺伝子の再構成が，<a href="#" class="anno CD4陽性">CD4陽性</a>CD8陽性の段階で<em><a href="#" class="anno TCRA">TCRA</a></em>遺伝子の再構成が起こるが，T-iPS細胞から再分化した細胞はすでに完成した<em>TCRA</em>遺伝子および<em>TCRB</em>遺伝子をもっているため，通常は<a href="#" class="anno T細胞受容体β鎖">T細胞受容体β鎖</a>が発現しはじめるくらいの早い段階においても，完全なT細胞受容体α鎖β鎖ヘテロ二量体が発現してしまうものと考えられた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　抗原特異的なT-iPS細胞からの抗原特異的なT細胞の再分化の誘導法</strong><br/>最後の末梢血単核球との共培養法は数回にわたりくり返し行うことが可能であるため，再分化の誘導されたCD8陽性T細胞を大量に増幅することが可能である．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/01/Nakauchi-Cell-Stem-Cell-13.1.3-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　抗原特異的なT-iPS細胞からの抗原特異的なT細胞の再分化の誘導法" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakauchi-Cell-Stem-Cell-13.1.3-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakauchi-Cell-Stem-Cell-13.1.3-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　さきに述べたとおり，CD4陰性CD8陰性の段階およびCD4陽性CD8陽性の段階の細胞でT細胞受容体遺伝子の再構成が起こる．それらのうち，<em>TCRB</em>遺伝子には正常な再構成が起こると発現したタンパク質からの<a href="#" class="anno 負のフィードバック">負のフィードバック</a>制御によりそれ以上の組換えを抑止するしくみがある．一方，<em>TCRA</em>遺伝子にはそのような<a href="#" class="anno 制御機構">制御機構</a>は存在せず，いちど組換えの起こったあとから追加の組換えの起こる場合がある<a href="#R7"><sup>7)</sup></a>．T-iPS細胞からの分化誘導系においても，再構成の行われたT細胞受容体遺伝子，とくに，<em>TCRA</em>遺伝子に追加の遺伝子再構成の起こる<a href="#" class="anno 可能性">可能性</a>が危惧された．実際に，CD4陰性CD8陰性の段階およびCD4陽性CD8陽性段階の細胞を<a href="#" class="anno 分取">分取</a>しT細胞受容体遺伝子の再構成を解析したところ，予想どおり，CD4陽性CD8陽性の段階において<em>TCRA</em>遺伝子に追加の組換えの起こることが明らかになった．この事象はT-iPS細胞の段階において保存されていた抗原特異性を変化させてしまうため不都合なことであった．<br/>　T細胞受容体α鎖β鎖ヘテロ二量体からのシグナルが遺伝子<a href="#" class="anno 組換え酵素">組換え酵素</a>である<a href="#" class="anno RAG">RAG</a>1と<a href="#" class="anno RAG2">RAG2</a>の発現を消失させることが知られていたため<a href="#R8"><sup>8)</sup></a>，これに習い，<em>TCRA</em>遺伝子において追加の再構成の起こりはじめるまえの段階の細胞にT細胞受容体からのシグナルを<a href="#" class="anno 誘起">誘起</a>させた．また，シグナルの誘起と同時にT細胞の<a href="#" class="anno 標準的">標準的</a>な<a href="#" class="anno 培養系">培養系</a>である末梢血<a href="#" class="anno 単核">単核</a>球を支持細胞とした共<a href="#" class="anno 培養法">培養法</a>に切り替えたところ，OP9-<a href="#" class="anno DL1">DL1</a>支持細胞との共培養法では得られなかった完熟段階であるCD4陰性CD8陽性細胞を誘導することに成功した（<a href="#F2">図2</a>）．マーカーの発現や<a href="#" class="anno 遺伝子発現">遺伝子発現</a>の解析により，これらCD4陰性CD8陽性細胞はCD8陽性T細胞とほとんど同一の性質をもつ細胞であることが明らかになった．再分化の誘導されたCD8陽性T細胞の発現するT細胞受容体の解析を行ったところ，追加の再構成の起こることなく，樹立されたT-iPS細胞および由来となったT細胞と同一の配列であることが明らかになった．<br/><br/><h2>4．再分化の誘導されたCD8陽性T細胞は抗原特異的なT細胞の機能を発揮する</h2><br/>　再分化の誘導されたCD8陽性T細胞の<a href="#" class="anno 機能解析">機能解析</a>を行うにあたり，HLA-A24-Nef-138-8四量体への<a href="#" class="anno 結合能">結合能</a>を解析したところ反応性を保持していることが確認された．つづいて，HLA-A24に提示されるNef以外の<a href="#" class="anno 抗原ペプチド">抗原ペプチド</a>を陰性対照とし，また，<a href="#" class="anno <a href="#" class="anno 抗原提示">抗原提示</a>細胞">抗原提示細胞</a>としてHLA-A24を発現する<a href="#" class="anno 不死化">不死化</a><a href="#" class="anno B細胞">B細胞</a>を用いて，再分化の誘導されたCD8陽性T細胞の抗原特異的な機能解析を行った．<a href="#" class="anno リソソーム">リソソーム</a>膜および<a href="#" class="anno エンドソーム">エンドソーム</a>膜に存在する<a href="#" class="anno CD1">CD1</a>07aの表面への<a href="#" class="anno 一時的">一時的</a>な露出を指標とした<a href="#" class="anno 脱顆粒">脱顆粒</a>の検証，EL<a href="#" class="anno IS">IS</a><a href="#" class="anno PO">PO</a>T法によるインターフェロンγの産生と放出の検証，51Crリリース法による細胞傷害能の検証のすべてにおいて，陰性対照において反応はみられず，Nef-138-8に特異的にT細胞の機能を発揮することが示された．<br/><br/><h2>5．再分化の誘導されたCD8陽性T細胞は幼若性を獲得している</h2><br/>　T-iPS細胞を介することにより，由来となったT細胞と再分化の誘導されたCD8陽性T細胞とに幼若性の違いがあるかどうかを検証した．幼若性の指標のひとつであるテロメアの<a href="#" class="anno 長さ">長さ</a>を測定したところ，再分化の誘導されたCD8陽性T細胞はより長いテロメアをもっていることが確認され，これはiPS細胞のもつ高い<a href="#" class="anno テロメラーゼ">テロメラーゼ</a>活性によるものであると考えられた<a href="#R9"><sup>9)</sup></a>．<a href="#" class="anno メモリーT細胞">メモリーT細胞</a>は長いテロメアをもつものほど高いメモリー機能を発揮する．再分化の誘導されたCD8陽性T細胞も，<a href="#" class="anno CCR7">CCR7</a>陽性，<a href="#" class="anno CD2">CD2</a>7陽性，<a href="#" class="anno CD28">CD28</a>陽性というメモリーT細胞のマーカーを発現しており，よいメモリーT細胞と考えられた．実際に，再分化の誘導されたCD8陽性T細胞の増殖性を検証したところ，由来となったT細胞と比較して10～100倍も高い増殖性が示された．<br/>　6 cm<a href="#" class="anno デ">デ</a>ィッシュ1枚分に相当する3×10<sup>5</sup>個のT-iPS細胞からは，OP9-DL1支持細胞との共培養の段階までに10<sup>5</sup>個程度のT細胞系統しか得ることができなかったが，末梢血<a href="#" class="anno 単核球">単核球</a>との共培養法および<a href="#" class="anno 増殖率">増殖率</a>をもとにした推定では，完熟した再分化の誘導されたCD8陽性T細胞を10<sup>8</sup>～10<sup>9</sup>個のレベルまで増やすことが可能であると思われた．また，スタートのT-iPS細胞の量および全体の培養スケールを<a href="#" class="anno 数倍">数倍</a>にすることも容易であることから，成人ひとりに数回の輸血注入を行う細胞量としては十分であると考えられた．<br/><br/><h2>おわりに</h2><br/>　筆者らは，この研究により，特定の抗原を認識し攻撃する細胞傷害性T細胞を若返らせる手法の基礎が確立されたものと考えている．再分化の誘導された細胞傷害性T細胞が患者の体内において機能するのか，さらには，よりよい機能を発揮するのかどうかは，これからの検証の待たれる部分ではあるが，この手法が<a href="#" class="anno 慢性感染">慢性感染</a>症やがん<a href="#R10"><sup>10)</sup></a> に対する画期的な治療法を提供する可能性も大いに期待できる．また，若返った細胞傷害性T細胞は<a href="#" class="anno 自家移植">自家移植</a>のみならずHLAの適合する別の患者にも注入することが可能であると考えられるため，さまざまな疾患に対する抗原特異的なT-iPS細胞バンクによる，すばやい<a href="#" class="anno 免疫療法">免疫療法</a>も実現するものと期待している．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Araki, R., Uda, M., Hoki, Y. et al.</span>: <span class="ti">Negligible immunogenicity of terminally differentiated cells derived from induced pluripotent or embryonic stem cells.</span> <span class='so'>Nature, 494, 100-104 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23302801" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Fujiwara, M., Tanuma, J., Koizumi, H. et al.</span>: <span class="ti">Different abilities of escape mutant-specific cytotoxic T cells to suppress replication of escape mutant and wild-type human immunodeficiency virus type 1 in new hosts.</span> <span class='so'>J. Virol., 82, 138-147 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17959671" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Nishimura, K., Sano, M., Ohtaka, M. et al.</span>: <span class="ti">Development of defective and persistent Sendai virus vector: a unique gene delivery/expression system ideal for cell reprogramming.</span> <span class='so'>J. Biol. Chem., 286, 4760-4771 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21138846" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>van Dongen, J. J., Langerak, A. W., Bruggemann, M. et al.</span>: <span class="ti">Design and standardization of PCR primers and protocols for detection of clonal immunoglobulin and T-cell receptor gene recombinations in suspect lymphoproliferations: report of the BIOMED-2 Concerted Action BMH4-CT98-3936.</span> <span class='so'>Leukemia, 17, 2257-2317 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14671650" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Takayama, N., Nishikii, H., Usui ,J. et al.</span>: <span class="ti">Generation of functional platelets from human embryonic stem cells in vitro via ES-sacs, VEGF-promoted structures that concentrate hematopoietic progenitors.</span> <span class='so'>Blood, 111, 5298-5306 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18388179" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Timmermans, F., Velghe, I., Vanwalleghem, L. et al.</span>: <span class="ti">Generation of T cells from human embryonic stem cell-derived hematopoietic zones.</span> <span class='so'>J. Immunol., 182, 6879-6888 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19454684" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Krangel, M. S.</span>: <span class="ti">Mechanics of T cell receptor gene rearrangement.</span> <span class='so'>Curr. Opin. Immunol., 21, 133-139 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19362456" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Turka, L. A., Schatz, D. G., Oettinger, M. A. et al.</span>: <span class="ti">Thymocyte expression of RAG-1 and RAG-2: termination by T cell receptor cross-linking.</span> <span class='so'>Science, 253, 778-781 (1991)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1831564" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Marion, R. M., Strati, K., Li, H. et al.</span>: <span class="ti">Telomeres acquire embryonic stem cell characteristics in induced pluripotent stem cells.</span> <span class='so'>Cell Stem Cell, 4, 141-154 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19200803" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Vizcardo, R., Masuda, K., Yamada, D. et al.</span>: <span class="ti">Regeneration of human tumor antigen-specific T cells from iPSCs derived from mature CD8<sup>+</sup> T cells.</span> <span class='so'>Cell Stem Cell, 12, 31-36 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23290135" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/19_04.html" target="_blank">19.4 Cell Differentiation and Stem Cells</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_04.html" target="_blank">12.4 Protein Transport in Prokaryotic Cells</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">西村 聡修（Toshinobu Nishimura）</span><br>略歴：2012年 東京大学大学院新領域創成科学研究科博士課程 修了，同年より東京大学医科学研究所 研究員．<br>研究テーマ：iPS細胞からの血球細胞の分化誘導および再生医療への応用．<br>関心事：美味しい梅干しを通販で買うこと．<br><br><strong>中内 啓光（Hiromitsu Nakauchi）</strong><br>東京大学医科学研究所 教授．<br>研究室URL：<a href="http://stemcell-u-tokyo.org/sct/" target="_blank">http://stemcell-u-tokyo.org/sct/</a><br></div><br>© 2013 西村聡修・中内啓光 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

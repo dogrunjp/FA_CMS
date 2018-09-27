@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> キネトコアの形成を促進する分子スイッチ : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/9046" rel="bookmark">キネトコアの形成を促進する分子スイッチ</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>堀 哲也・商 維昊・深川竜郎</strong><br>（国立遺伝学研究所 分子遺伝研究部門）<br>email：<a href="mailto:thori@nig.ac.jp">堀 哲也</a>，<a href="mailto:wshang@nig.ac.jp">商 維昊</a>，<a href="mailto:tfukagaw@nig.ac.jp">深川竜郎</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.096">10.7875/first.author.2014.096</a><br><div class="reference"><br><span class="ti">Histone H4 Lys 20 monomethylation of the CENP-A nucleosome is essential for kinetochore assembly.</span><br><span class="au">Tetsuya Hori, Wei-Hao Shang, Atsushi Toyoda, Sadahiko Misu, Norikazu Monma, Kazuho Ikeo, Oscar Molina, Giulia Vargiu, Asao Fujiyama, Hiroshi Kimura, William C. Earnshaw, Tatsuo Fukagawa</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24960696" target="_blank"><em>Developmental Cell</em>, <strong>29</strong>, 740-749 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 染色体">染色体</a>が<a href="#" class="anno 娘細胞">娘細胞</a>に正確に分配されるためには，複数のタンパク質が<a href="#" class="anno セントロメア">セントロメア</a>とよばれる<a href="#" class="anno ゲノムDNA">ゲノムDNA</a>の領域に集合し，<a href="#" class="anno キネトコア">キネトコア</a>という構造を形成しなければならない．たいていの<a href="#" class="anno 真核生物">真核生物</a>では，1本の染色体に1<a href="#" class="anno カ">カ</a>所のセントロメアが規定されるが，このセントロメア領域の規定はDNAの配列情報によらない<a href="#" class="anno エピジェネティック">エピジェネティック</a>な<a href="#" class="anno 分子機構">分子機構</a>によることが知られている．このセントロメア領域の規定において重要なはたらきを担うのが，セントロメアに<a href="#" class="anno 特異的">特異的</a>に存在する<a href="#" class="anno ヒストン">ヒストン</a>H3の<a href="#" class="anno <a href="#" class="anno バリア">バリア</a>ント">バリアント</a>であるC<a href="#" class="anno ENP">ENP</a>-Aである．<a href="#" class="anno CENP-A">CENP-A</a>が重要であることは明白であるが，CENP-Aがセントロメアに取り込まれたのち，どのような制御によりキネトコアが形成されるのかについては未知な点が多かった．この研究では，CENP-Aを含む<a href="#" class="anno ヌクレオソーム">ヌクレオソーム</a>において<a href="#" class="anno ヒストンH4">ヒストンH4</a>の<a href="#" class="anno Lys">Lys</a>20がモノ<a href="#" class="anno メチル">メチル</a>化されることを見い<a href="#" class="anno 出し">出し</a>た．さらに，<a href="#" class="anno ゲノム工学">ゲノム工学</a>を駆使してヒストンH4の<a href="#" class="anno Lys2">Lys2</a>0の<a href="#" class="anno モノメチル">モノメチル</a>化の意義について解析した結果，セントロメア領域におけるこの<a href="#" class="anno メチル化">メチル化</a>修飾がキネトコアの形成を促進する<a href="#" class="anno 分子スイッチ">分子スイッチ</a>として機能していることが明らかにされた．<br/><br/><h2>はじめに</h2><br/>　生物のすべてのゲノムの情報は染色体に担われており，染色体は<a href="#" class="anno 細胞周期">細胞周期</a>の過程において正確に複製されて分配される必要がある．染色体の複製や分配の異常は染色体の不正確な伝達をひき起こす（染色体の不<a href="#" class="anno 安定性">安定性</a>）．その結果，正常でない染色体を<a href="#" class="anno も">も</a>つ細胞には<a href="#" class="anno 細胞死">細胞死</a>や<a href="#" class="anno がん化">がん化</a>が起こる．したがって，正常な染色体の分配を保障する分子機構を解明することは，<a href="#" class="anno 基礎<a href="#" class="anno 生物学">生物学</a>">基礎生物学</a>および<a href="#" class="anno 医科学">医科学</a>の両面から重要である．<br/>　染色体は細胞周期の<a href="#" class="anno S期">S期</a>において複製され，<a href="#" class="anno M期">M期</a>において両方の<a href="#" class="anno 極">極</a>から延びた紡<a href="#" class="anno 錘体">錘体</a>にとらえられて娘細胞へと分配される．この染色体の分配において，<a href="#" class="anno 紡錘体">紡錘体</a>は染色体にある特殊な構造と強固に結合する必要がある．この構造はキネトコア（<a href="#" class="anno 動原体">動原体</a>）とよばれ，染色体のセントロメア領域に形成される．興味深いことに，キネトコアが形成されるセントロメア領域の<a href="#" class="anno DNA配列">DNA配列</a>に<a href="#" class="anno 特異性">特異性</a>はなく，セントロメア領域はエピジェネティックな分子機構により規定されると考えられている<a href="#R1"><sup>1)</sup></a>．すなわち，どのようなDNA配列もセントロメア領域としての機能を獲得しうるが，いったん，その領域がセントロメアになると次世代の細胞にもその情報は安定に受け継がれてゆく．これまでの多くの研究から，セントロメア領域の規定に関与するエピジェネティックなマーカーとして，<a href="#" class="anno ヒストンH3">ヒストンH3</a>のバリアントであるCENP-Aが有力な候補であると考えられている<a href="#R1"><sup>1,2)</sup></a>．セントロメアがどのようなDNA配列から構成されていても，すべてのセントロメアには必ずCENP-Aが存在するので，CENP-Aがセントロメア領域の規定に重要なはたらきを担うことはまちがいない．その一方で，一部の生物を除き<a href="#R3"><sup>3)</sup></a>，CENP-Aのみで<a href="#" class="anno 機能的">機能的</a>なキネトコアの構造を形成することは<a href="#" class="anno かなり">かなり</a>困難である<a href="#R4"><sup>4)</sup></a>．したがって，CENP-Aが取り込まれたのちにキネトコアの形成を促進する<a href="#" class="anno 制御機構">制御機構</a>の存在することが予想される．<br/>　この研究では，CENP-Aが取り込まれたのちに起こる<a href="#" class="anno クロマチン">クロマチン</a>の修飾に注目した．その結果，セントロメア領域にはヒストンH4のLys20のモノメチル化が存在すること，この<a href="#" class="anno メチル化修飾">メチル化修飾</a>はCENP-Aを含むヌクレオソームにおいて起こること，このメチル化修飾を<a href="#" class="anno 欠失">欠失</a>させるとキネトコアの集合に異常が生じることを見い出した．これらの結果より，CENP-Aを含むヌクレオソームにおいて起こるヒストンH4のLys20のモノメチル化がキネトコアの形成を促進する分子スイッチになるというモ<a href="#" class="anno デ">デ</a>ルを提出した．<br/><br/><h2>1．通常のセントロメアに対する<a href="#" class="anno ゲノム解析">ゲノム解析</a>は困難である</h2><br/>　一般に，セントロメアを構成するゲノムの領域は<a href="#" class="anno くり返し配列">くり返し配列</a>から構成されている．この性質がセントロメア領域の詳細なゲノム解析を遅らせている原因である．たとえばヒトのセントロメア領域には，171 bpのαサテライトとよばれる配列を1ユニットとしてこの配列が何回もくり返して存在しており，<a href="#" class="anno 最終的">最終的</a>にメガ<a href="#" class="anno 塩基対">塩基対</a>ほどの<a href="#" class="anno 長さ">長さ</a>になっている．現在のゲノム解析の技術では，このような高度なくり返し配列を正確につなぎあわせて全体の配列を明らかにすることはきわめて困難である．このような事情から，たとえ<a href="#" class="anno 全ゲノム">全ゲノム</a><a href="#" class="anno 塩基配列">塩基配列</a>が決定されたといわれている<a href="#" class="anno 生物種">生物種</a>であっても，データベースに収載された<a href="#" class="anno ゲノム配列">ゲノム配列</a>情報からは高度なくり返し構造をもつセントロメア領域の情報は除かれている．これまでの知見から，<a href="#" class="anno 実際">実際</a>にキネトコアの形成される領域はこの長大なくり返し配列のごく一部であることがわかっている．しかし，実際にくり返し配列のどこにキネトコアが形成されているのかを特定することは，DNA配列が<a href="#" class="anno 同じ">同じ</a>であることから容易ではない．<br/>　近年，あるタンパク質と結合するDNA配列を同定する方法として，対象となるタンパク質に対する抗体を用いて<a href="#" class="anno 免疫沈降">免疫沈降</a>を行い，<a href="#" class="anno <a href="#" class="anno 共沈">共沈</a>降">共沈降</a>してくるDNAの配列を次世代<a href="#" class="anno シークエンサー">シークエンサー</a>により解析してゲノム配列にマッ<a href="#" class="anno ピン">ピン</a>グする，<a href="#" class="anno クロマチン免疫沈降">クロマチン免疫沈降</a>-<a href="#" class="anno シークエンシング">シークエンシング</a>法（ChIP-<a href="#" class="anno seq">seq</a>法）がよく活用されている．セントロメアタンパク質に対する抗体を用いて免疫沈降を行うと，セントロメア領域を構成するくり返し配列のDNAが回収される．しかし，このくり返し配列のDNA配列を解読してゲノム配列にマッピングしようとしても，さきの理由により正確にはマッピングできない．<br/>　一般に，クロマチンの修飾としてはヒストンの修飾がよく知られており，各種のヒストン修飾がさまざまな<a href="#" class="anno 生命現象">生命現象</a>を制御していることが知られている<a href="#R5"><sup>5)</sup></a>．セントロメア領域の機能の制御がある種のヒストン修飾により行われている<a href="#" class="anno 可能性">可能性</a>の高いことは予想されたものの，各種のヒストン修飾に対する抗体を用いてChIP-seq法を行ってもヒストン修飾の位置をくり返し配列を含むセントロメア領域に正確にマッピングすることは困難であり，セントロメア領域においてどのようなヒストン修飾が起こっているのかを知ることは不可能であった．<br/><br/><h2>2．ニワトリにはくり返し配列をもたないセントロメアがある</h2><br/>　これまで，筆者らの<a href="#" class="anno 研究室">研究室</a>では，ニワトリの細胞を対象にセントロメア領域の詳細なゲノム解析を行い，ニワトリには，くり返し配列から構成されるセントロメアをもつ染色体と，くり返し配列をもたないセントロメアから構成される染色体とが存在することを見い出していた<a href="#R6"><sup>6)</sup></a>．驚くべきことに，くり返し配列をもたないセントロメアを含むニワトリの<a href="#" class="anno Z染色体">Z染色体</a>，<a href="#" class="anno 第5染色体">第5染色体</a>，第27染色体を解析したところ，セントロメアの<a href="#" class="anno 大きさ">大きさ</a>は3本の染色体に共通して40 kb程度であった<a href="#R6"><sup>6)</sup></a>．さらに，このくり返し配列をもたないセントロメアを対象として，ニワトリD<a href="#" class="anno T4">T4</a>0細胞においてセントロメアを取り除くことにも成功していた．たいていの細胞はセントロメアを取り除くと染色体の分配に遅延をひき起こして死滅してしまうが，そのなかから生存してくる細胞を選別して解析した．その結果，生存した細胞ではセントロメアを取り除いた染色体の別の場所に新しいセントロメア（ネオセントロメア）が形成されていることが明らかになった<a href="#R7"><sup>7)</sup></a>．これらのネオセントロメアを詳細に解析したところ，くり返し配列のない40 kb程度の領域に新たにセントロメアが形成されていた．このくり返し配列をもたないセントロメアは，セントロメアに特異的なヒストン修飾を見い出すためにすぐれた材料であると考えられた．この研究では，これらくり返し配列をもたないセントロメアを対象として，セントロメアに特異的なヒストン修飾を探索した．<br/><br/><h2>3．セントロメアにはヒストンH4のLys20のモノメチル化が存在する</h2><br/>　各種のヒストン修飾を認識する約20種類の抗体を用いてChIP-seq法を行ない，セントロメアに特異的なヒストン修飾を探索した．その結果，ヒストンH4のLys20のモノメチル化を特異的に認識する抗体によるChIP-seqプロファイルと，セントロメアタンパク質であるCENP-Aに対する抗体によるChIP-seqプロファイルがきわめて類似していることが判明した（<a href="#F1">図1a</a>）．また，これらの抗体を用いて<a href="#" class="anno 免疫染色">免疫染色</a>を行うと，ニワトリの細胞だけなくヒトの細胞においても，くり返し配列を含むすべてのセントロメアにおいてヒストンH4のLys20のモノメチル化の存在を示すシグナルが検出された（<a href="#F1">図1b</a>）．これらChIP-seq法および<a href="#" class="anno 抗体染色">抗体染色</a>法の結果から，セントロメア領域にはLys20がモノメチル化されたヒストンH4が濃縮されていることが明らかになった．<br/>　これまで，ヒストンH4のLys20のモノメチル化は転写の制御にかかわることが知られており，実際に，筆者らの研究においても，セントロメア領域以外のさまざま遺伝子の領域においてこのメチル化修飾は濃縮されていた．しかしながら，これらの遺伝子の領域にはCENP-Aは濃縮されていなかった．さらに，ヒストンH4のLys20にモノメチル化を導入する酵素であるpr<a href="#" class="anno SET">SET</a>7を非セントロメア領域に局在させたところ，その領域にこのメチル化修飾の濃縮は見い出せたもののCENP-Aの集積は確認できなかった．<a href="#" class="anno つまり">つまり</a>，セントロメア領域にはまずCENP-Aが集積し，そのうえでヒストンH4のLys20のモノメチル化の起こることが示唆された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　セントロメア領域にはヒストンH4のLys20のモノメチル化が存在する</strong><br/>（a）抗CENP-A抗体あるいはヒストンH4のLys20のモノメチル化に対する抗体によるニワトリのZ染色体のChIP-seqプロファイル．<br/>（b）抗CENP-A抗体およびヒストンH4のLys20のモノメチル化に対する抗体を用いたヒトHeLa細胞の免疫染色．矢印は典型的な共局在を示す．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/07/Fukagawa-Developmental-Cell-14.6.23-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　セントロメア領域にはヒストンH4のLys20のモノメチル化が存在する" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukagawa-Developmental-Cell-14.6.23-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukagawa-Developmental-Cell-14.6.23-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>4．ヒストンH4のLys20のモノメチル化はCENP-Aヌクレオソームにおいて起こる</h2><br/>　CENP-AはヒストンH3のバリアントのひとつであり，ヒストン<a href="#" class="anno H2A">H2A</a>，ヒストン<a href="#" class="anno H2B">H2B</a>，ヒストンH4と<a href="#" class="anno 複合体">複合体</a>を形成してDNAとともにヌクレオソームを形成すると考えられている．CENP-Aを含むヌクレオソームが，通常のヒストンH3を含むヌクレオソームと同様にヒストン<a href="#" class="anno 八量体">八量体</a>の構造をとるのか，それとも，別の構造をとるのかという点については多くの議論があるが<a href="#R1"><sup>1,2)</sup></a>，CENP-Aがほかのヒストンとともにヌクレオソームを形成することはまちがいない．一方で，セントロメア領域にはCENP-Aを含むヌクレオソームにくわえ，ヒストンH3を含むヌクレオソームも多く存在している<a href="#R8"><sup>8)</sup></a>．そこで，セントロメア領域において検出されたヒストンH4のLys20のモノメチル化が，CENP-Aを含むヌクレオソームにおいて起こっているのか，それとも，ヒストンH3を含むヌクレオソームにおいて起こっているのかを解析することはきわめて重要である．<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>な手法によりCENP-Aを含むヌクレオソームとヒストンH3を含むヌクレオソームとを<a href="#" class="anno 分画">分画</a>して解析した結果，ヒストンH4のLys20のモノメチル化はおもにCENP-Aを含むヌクレオソームにおいて起こっていることが明らかになった．<br/><br/><h2>5．ヒストンH4のLys20のモノメチル化はキネトコアの形成に必須である</h2><br/>　ヒストンH4のLys20のモノメチル化がキネトコアの形成にどのようにかかわっているかについて<a href="#" class="anno 細胞レベル">細胞レベル</a>で解析した．この解析のため，ゲノム工学を用いた新しい<a href="#" class="anno 実験系">実験系</a>を構築した．ヒストンH4のLys20のモノメチル化はセントロメア領域だけでなくゲノムのほかの領域でも起こり，これまで，さまざまな生命現象への関与が指摘されていたことから，単純にゲノムの全体でこのメチル化修飾のレベルを低下させると細胞が死滅してしまい，セントロメア領域への直接的な影響を解析できない可能性があると考えられた．そこで，ヒストンH4のLys20のモノメチル化に対する<a href="#" class="anno 脱メチル化">脱メチル化</a>酵素であるPHF8をセントロメアタンパク質CENP-Uと融合させ，CENP-Uの性質によりこの<a href="#" class="anno 融合タンパク質">融合タンパク質</a>をセントロメア領域に<a href="#" class="anno 強制的">強制的</a>に局在させた．その結果，セントロメア領域のヒストンH4のLys20のモノメチル化のレベルを<a href="#" class="anno 人為的">人為的</a>に低下させることに成功した．セントロメア領域においてヒストンH4のLys20のモノメチル化のレベルを低下させた細胞では，CENP-Aは存在していたが，CENP-HやCENP-Tといったキネトコアの形成に必須なタンパク質<a href="#R8"><sup>8)</sup></a> の局在が大きく減少していた．さらに，これらの細胞では染色体の整列の異常や<a href="#" class="anno 細胞分<a href="#" class="anno 裂">裂</a>">細胞分裂</a>の異常が<a href="#" class="anno 高頻度">高頻度</a>に観察された．これらの実験により，ヒストンH4のLys20のモノメチル化は機能的なキネトコアの形成に必須であると結論された．<br/><br/><h2>おわりに</h2><br/>　ここまでのゲノム解析，生化学的な実験，ゲノム工学を活用した細胞<a href="#" class="anno 生物学的">生物学的</a>な手法の結果から，セントロメア領域にCENP-Aが取り込まれたのち，CENP-Aを含むヌクレオソームにおいてヒストンH4のLys20がモノメチル化され，このメチル化修飾はCENP-TやCENP-Hの集合を促進するための分子スイッチとしてはたらき，その結果，機能的なキネトコアが形成される，というモデルが提出された（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　キネトコアの形成におけるヒストンH4のLys20のモノメチル化の分子スイッチとしての役割</strong><br/>1）セントロメア領域のクロマチンはMis18複合体というタンパク質複合体によりライセンス化され，CENP-AはG1期にHJUPPというヒストンシャペロンの介在によりセントロメア領域に取り込まれる．2）セントロメア領域のクロマチンに取り込まれたCENP-Aを含むヌクレオソームにおいて，ヒストンH4のLys20がモノメチル化修飾をうける．3）ヒストンH4のLys20のモノメチル化が分子スイッチとなり，セントロメアタンパク質の集合を促進し機能的なキネトコアが形成される．<br/>CA：CENP-A，K20Me1：Lys20のモノメチル化．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/07/Fukagawa-Developmental-Cell-14.6.23-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　キネトコアの形成におけるヒストンH4のLys20のモノメチル化の分子スイッチとしての役割" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukagawa-Developmental-Cell-14.6.23-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukagawa-Developmental-Cell-14.6.23-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　<a href="#" class="anno 最近の研究">最近の研究</a>から，セントロメアあるいはキネトコアの形成においてCENP-Aが重要であることは明白である．したがって，セントロメアの<a href="#" class="anno 研究分野">研究分野</a>においては，CENP-Aがどのようにセントロメアに取り込まれるかという分子機構を明らかにしようとする研究が主流である<a href="#R9"><sup>9,10)</sup></a>．これらの研究からは，セントロメア領域のクロマチンは<a href="#" class="anno G1期">G1期</a>のまえにMis18複合体という<a href="#" class="anno タンパク質複合体">タンパク質複合体</a>によりライセンス化され，CENP-Aは<a href="#" class="anno HJURP">HJURP</a>という特異的なヒストン<a href="#" class="anno シャペロン">シャペロン</a>によりセントロメア領域に取り込まれることが明らかになっている<a href="#R9"><sup>9,10)</sup></a>．しかしながら，CENP-Aが取り込まれるだけではキネトコアの形成は十分には起こらない．今回の研究から，CENP-Aを含むヌクレオソームにおいてヒストンH4のLys20がモノメチル化するという仕上げの分子スイッチがオンになることにより，キネトコアの形成が促進されることが明らかになった．今後は，ヒストンH4のLys20のモノメチル化がどのようにキネトコアの形成を促進させるのかという分子機構の理解をめざしたい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Black, B. E. & Cleveland, D. W.</span>: <span class="ti">Epigenetic centromere propagation and the nature of CENP-A nucleosomes.</span> <span class='so'>Cell, 144, 471-479 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21335232" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Perpelescu, M. & Fukagawa, T.</span>: <span class="ti">The ABCs of CENPs.</span> <span class='so'>Chromosoma, 120, 425-446 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21751032" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Mendiburo, M. J., Padeken, J., Fulop, S. et al.</span>: <span class="ti"><em>Drosophila</em> CENH3 is sufficient for centromere formation.</span> <span class='so'>Science, 334, 686-690 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22053052" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Gascoigne, K. E., Takeuchi, K., Suzuki, A. et al.</span>: <span class="ti">Induced ectopic kinetochore assembly bypasses the requirement for CENP-A nucleosomes.</span> <span class='so'>Cell, 145, 410-422 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21529714" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Ruthenburg, A. J., Li, H., Patel, D. J. et al.</span>: <span class="ti">Multivalent engagement of chromatin modifications by linked binding modules.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 8, 983-994 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18037899" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Shang, W. H., Hori, T., Toyoda, A. et al.</span>: <span class="ti">Chickens possess centromeres with both extended tandem repeats and short non-tandem-repetitive sequences.</span> <span class='so'>Genome Res., 20, 1219-1228 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20534883" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Shang, W. H., Hori, T., Martins, N. M. et al.</span>: <span class="ti">Chromosome engineering allows the efficient isolation of vertebrate neocentromeres.</span> <span class='so'>Dev. Cell, 24, 635-648 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23499358" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Hori, T., Amano, M., Suzuki, A. et al.</span>: <span class="ti">CCAN makes multiple contacts with centromeric DNA to provide distinct pathways to the outer kinetochore.</span> <span class='so'>Cell, 135, 1039-1052 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19070575" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Foltz, D. R., Jansen, L. E., Bailey, A. O. et al.</span>: <span class="ti">Centromere-specific assembly of CENP-A nucleosomes is mediated by HJURP.</span> <span class='so'>Cell, 137, 472-484 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19410544" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Dunleavy, E. M., Roche, D., Tagami, H. et al.</span>: <span class="ti">HJURP is a cell-cycle-dependent maintenance and deposition factor of CENP-A at centromeres.</span> <span class='so'>Cell, 137, 485-497 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19410545" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_04.html" target="_blank">3.4 Genetic Factors and Chromosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_07.html" target="_blank">3.7 Chromosomes and the Genome</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/18_02.html" target="_blank">18.2 Somatic Cell Division (mitosis) and Meiosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/18_03.html" target="_blank">18.3 Significance of Meiosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_09.html" target="_blank">3.9 Linkage</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">堀  哲也（Tetsuya Hori）</span><br>略歴：2000年 東北大学大学院農学研究科 修了，国立遺伝学研究所 特任研究員を経て，2009年より同 助教．<br>研究テーマ：セントロメアの形成の分子機構．<br>関心事：セントロメアの機能と“核酸”との未知の関係．<br><br><strong>商  維昊（Wei-Hao Shang）</strong><br>国立遺伝学研究所 特任研究員．<br><br><strong>深川 竜郎（Tatsuo Fukagawa）</strong><br>国立遺伝学研究所 教授．<br>研究室URL：<a href="http://www.nig.ac.jp/labs/MolGene/index_j.html" target="_blank">http://www.nig.ac.jp/labs/MolGene/index_j.html</a><br></div><br>© 2014 堀 哲也・商 維昊・深川竜郎 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

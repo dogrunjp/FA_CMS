@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> オートファジー始動複合体における高等生物に固有なタンパク質Atg101の構造と機能 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/10350" rel="bookmark">オートファジー始動複合体における高等生物に固有なタンパク質Atg101の構造と機能</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>鈴木浩典・野田展生</strong><br>（微生物化学研究所 分子構造解析部）<br>email：<a href="mailto:hi-suzuki@bikaken.or.jp">鈴木浩典</a>，<a href="mailto:nn@bikaken.or.jp">野田展生</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.078">10.7875/first.author.2015.078</a><br><div class="reference"><br><span class="ti">Structure of the Atg101-Atg13 complex reveals essential roles of Atg101 in autophagy initiation.</span><br><span class="au">Hironori Suzuki, Takeshi Kaizuka, Noboru Mizushima, Nobuo N. Noda</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26030876" target="_blank"><em>Nature Structural & Molecular Biology</em>, <strong>22</strong>, 572-580 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 出芽酵母">出芽酵母</a>においては<a href="#" class="anno Atg1">Atg1</a>，<a href="#" class="anno Atg13">Atg13</a>，<a href="#" class="anno Atg17">Atg17</a>，<a href="#" class="anno Atg2">Atg2</a>9，<a href="#" class="anno Atg3">Atg3</a>1の5者からなるAtg1<a href="#" class="anno 複合体">複合体</a>が<a href="#" class="anno オートファジー">オートファジー</a>の始動を担うのに対し，ヒトなど<a href="#" class="anno 高等生物">高等生物</a>においてはAtg1の<a href="#" class="anno <a href="#" class="anno 相">相</a>同">相同</a>タンパク質である<a href="#" class="anno ULK1">ULK1</a>/2，Atg13，Atg17の機能<a href="#" class="anno 類縁体">類縁体</a>である<a href="#" class="anno FIP2">FIP2</a>00，<a href="#" class="anno Atg10">Atg10</a>1の4者から構成されるULK複合体がオートファジーの始動を担う．すなわち，高等生物と出芽酵母とではオートファジーの始動にかかわるタンパク質に相違のあることから，それぞれのオートファジーの始動の機構は異なることが予想された．筆者らは，高等生物に固有のタンパク質であるAtg101について，Atg13との複合体としてX線<a href="#" class="anno 結晶構造">結晶構造</a>解析を行った．Atg101はAtg13<a href="#" class="anno 結合面">結合面</a>と名づけた領域においてAtg13と結合することにより，Atg13の<a href="#" class="anno 安定化">安定化</a>に寄与していることが明らかにされた．一方，Atg13結合面とは反対の側にはWFフィンガーと名づけた<a href="#" class="anno 特徴的">特徴的</a>な<a href="#" class="anno ループ構造">ループ構造</a>が存在し，この構造が下流のAtgタンパク質の集積において必須の役割をはたすことが明らかにされた．<br/><br/><h2>はじめに</h2><br/>　生物が生きるためには，細胞において必要な成分を合成するだけでなく，不要な<a href="#" class="anno も">も</a>のあるいは有害なものを分解することも非常に重要である．オートファジーはこのような細胞の機能を維持するため，酵母からヒトにいたる<a href="#" class="anno 真核生物">真核生物</a>において広く保存された分解系である<a href="#R1"><sup>1)</sup></a>．ヒトにおいては，オートファジーの異常により神経<a href="#" class="anno 変性疾患">変性疾患</a>，<a href="#" class="anno 感染症">感染症</a>，<a href="#" class="anno 代謝性">代謝性</a>疾患など<a href="#" class="anno 重篤">重篤</a>な疾患がひき起こされる<a href="#R2"><sup>2)</sup></a>（<a href="http://leading.lifesciencedb.jp/3-e006/" target="_blank">蔭山 俊・小松雅明, 領域融合レビュー, <strong>3</strong>, e006, 2014</a> も参照されたい）．オートファジーが誘導されると，<a href="#" class="anno 細胞質">細胞質</a>に隔離膜とよばれる膜構造が出現し，湾曲，伸長しながら被<a href="#" class="anno 分解物">分解物</a>をとりかこむ．隔離膜の末端がつながることにより形成された<a href="#" class="anno 二重">二重</a>膜の<a href="#" class="anno 構造体">構造体</a>が<a href="#" class="anno オート<a href="#" class="anno ファゴソーム">ファゴソーム</a>">オートファゴソーム</a>であり，このオートファゴソームは<a href="#" class="anno 最終的">最終的</a>に<a href="#" class="anno リソソーム">リソソーム</a>（出芽酵母においては，<a href="#" class="anno 液胞">液胞</a>）と融合し，被分解物は<a href="#" class="anno リソソーム酵素">リソソーム酵素</a>により分解される．出芽酵母においてはオートファゴソームの形成の過程において18種類ものオートファジー<a href="#" class="anno 関連タンパク質">関連タンパク質</a>（Atgタンパク質）が必須であり<a href="#R3"><sup>3)</sup></a>，その多くはヒトなど哺乳類においても保存されている（出芽酵母におけるオートファジーの研究については，<a href="http://leading.lifesciencedb.jp/1-e005/" target="_blank">荒木保弘・大隅良典, 領域融合レビュー, <strong>1</strong>, e005, 2012</a> も参照されたい）．オートファゴソームの形成の<a href="#" class="anno 分子機構">分子機構</a>を解明することを目的として，これまで，出芽酵母およびその<a href="#" class="anno 近縁">近縁</a>種に由来するAtgタンパク質を中心にその構造および機能が研究されてきた<a href="#R4"><sup>4)</sup></a>（Atg<a href="#" class="anno タンパク質の構造">タンパク質の構造</a>と<a href="#" class="anno 分子機能">分子機能</a>については，<a href="http://leading.lifesciencedb.jp/3-e012/" target="_blank">野田展生・稲垣冬彦, 領域融合レビュー, <strong>3</strong>, e012, 2014</a> も参照されたい）．一方で，高等生物に固有のタンパク質も存在し，高等生物におけるオートファゴソームの形成の分子機構を理解するうえでは，それらのタンパク質の構造と機能を明らかにする必要もある．<br/>　出芽酵母とヒトなど高等生物とのあいだの<a href="#" class="anno 相違点">相違点</a>のひとつとして，オートファジー始動複合体におけるAtg29，Atg31，Atg101の存在があげられる．出芽酵母においてはAtg1，Atg13，Atg17，Atg29，Atg31の5者からなるAtg1複合体がオートファジーの始動を担うのに対し，ヒトなど高等生物においてはAtg1の<a href="#" class="anno 相同タンパク質">相同タンパク質</a>であるULK1/2，Atg13，Atg17の機能類縁体であるFIP200，Atg101の4者から構成されるULK複合体がオートファジーの始動を担う．出芽酵母のAtg1複合体に固有の<a href="#" class="anno 構成タンパク質">構成タンパク質</a>であるAtg29およびAtg31はAtg17と直接に<a href="#" class="anno 相互作用">相互作用</a>するがAtg13とは結合しない．一方，高等生物のULK複合体に固有の構成タンパク質であるAtg101はAtg17の機能類縁体であるFIP200とは結合せず，Atg13と相互作用してその安定化に寄与する<a href="#R5"><sup>5-7)</sup></a>．また，Atg29およびAtg31とAtg101とのあいだには<a href="#" class="anno アミノ">アミノ</a>酸配列の<a href="#" class="anno 相同性">相同性</a>はない．<a href="#" class="anno そのため">そのため</a>，Atg101はAtg29およびAtg31の機能類縁体とは考えにくい．その一方，これまで，Atg29およびAtg31とAtg101の両者をもつ<a href="#" class="anno 生物種">生物種</a>は報告されておらず<a href="#R7"><sup>7)</sup></a>，その<a href="#" class="anno 相互排他">相互排他</a>性の理由は明らかにされていなかった．<br/>　今回，筆者らは，Atg101とAtg13との複合体についてX線結晶<a href="#" class="anno 構造解析">構造解析</a>を行った．得られた<a href="#" class="anno 立体構造">立体構造</a>の情報をもとに<em><a href="#" class="anno in vitro">in vitro</a></em>および<em>in vivo</em>においてそれらの<a href="#" class="anno 変異体">変異体</a>を解析し，なぜ高等生物のオートファジーにはAtg101が必要なのかを明らかにした．<br/><br/><h2>1．Atg101とAtg13との複合体の<a href="#" class="anno X線<a href="#" class="anno 結晶構造解析">結晶構造解析</a>"><a href="#" class="anno X線結晶構造">X線結晶構造</a>解析</a></h2><br/>　Atg101は出芽酵母やその<a href="#" class="anno 近縁種">近縁種</a>には存在せず，<a href="#" class="anno 分<a href="#" class="anno 裂">裂</a>酵母">分裂酵母</a>からヒトなど高等生物にのみ存在し，それらのオートファジーにおいて必須のタンパク質である．当初，ヒトに由来するAtg101の構造解析を試みたが<a href="#" class="anno 結晶化">結晶化</a>に難航した．そこで，進化のうえで哺乳類に近い分裂酵母に着目し，分裂酵母に由来するAtg101を<a href="#" class="anno G<a href="#" class="anno ST">ST</a>">GST</a>との<a href="#" class="anno 融合タンパク質">融合タンパク質</a>として大腸菌を用いて発現させ精製した．性質は非常に良好であったため単独での結晶化を試みたが，結晶を得るにはいたらなかった．そこで，相互作用の相手であるAtg13との複合体の結晶化へと方針を切り替えた．Atg13は<a href="#" class="anno <a href="#" class="anno N末端">N末端</a>側">N<a href="#" class="anno 末端側">末端側</a></a>にHOR<a href="#" class="anno MA">MA</a>ドメインをもち，それ以外の領域は単独では構造をとらない天然変性状態として存在すると予想された．Atg101はAtg13のN末端側と相互作用することがわかっていたため<a href="#R5"><sup>5)</sup></a>，分裂酵母に由来するAtg13のN末端側の断片を調製することにした．Atg13のN末端側の断片をGSTとの融合タンパク質として大腸菌を用いて発現させたものの，GSTによる<a href="#" class="anno アフィニティ">アフィニティ</a>ー精製ののちの試料は90％程度が凝集しており，GSTタグの除去ができなかった．タグの変更あるいは<a href="#" class="anno 共発現">共発現</a>を試みたものの発現させることはで<a href="#" class="anno きず">きず</a>，結局，GST融合タンパク質として単独で発現させ，状態のよさそうな10％程度を精製することにした．得られたAtg13のN末端側の断片は単独では濃縮がむずかしいなど性質が悪かったが，Atg101と複合体を形成させたところ性質が劇的に改善し，<a href="#" class="anno 再現性">再現性</a>よく結晶を得ることに成功した．大型放射光施設SP<a href="#" class="anno rin">rin</a>g-8にて<a href="#" class="anno X線回折">X線回折</a>強度<a href="#" class="anno デ">デ</a>ータを収集し，水銀を導入した結晶を用いた単波長<a href="#" class="anno 異常分散">異常分散</a>法により，Atg101とAtg13のN末端側の断片との複合体の結晶構造を分解能3.0Åで決定した（<a href="#F1">図1</a>，PDB ID：<a href="http://service.pdbj.org/mine/Det<a href="#" class="anno ail">ail</a>2?PDBID=4yk8&amp;PAGEID=Summary" target="_blank">4YK8</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Atg101とAtg13のN末端側の断片との複合体の結晶構造</strong><br/>WFフィンガーを構成するTrp94およびPhe95を緑色のスティックモデルで示した．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Noda-Nature-Structural-Molecular-Biology-15.7.1-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Atg101とAtg13のN末端側の断片との複合体の結晶構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Noda-Nature-Structural-Molecular-Biology-15.7.1-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Noda-Nature-Structural-Molecular-Biology-15.7.1-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．Atg101とAtg13との複合体はHORMA-HORMA複合体を形成する</h2><br/>　構造解析の結果，Atg101もまたHORMA<a href="#" class="anno ドメイン構造">ドメイン構造</a>をとり，Atg13と互いのHORMAドメインどうしでHORMA-HORMA複合体を形成していることがわかった．HORMAドメインの<a href="#" class="anno 構造的">構造的</a>な特徴はその<a href="#" class="anno 代表的">代表的</a>なタンパク質である<a href="#" class="anno Mad">Mad</a>2に関して詳細に調べられていた．<a href="#" class="anno Mad2">Mad2</a>は3つのαへリックスと3つの<a href="#" class="anno β<a href="#" class="anno ストランド">ストランド</a>">βストランド</a>を安定な<a href="#" class="anno コア構造">コア構造</a>としてもつが，N末端側の領域と<a href="#" class="anno <a href="#" class="anno C末端">C末端</a>側">C末端側</a>の領域は<a href="#" class="anno 大規模">大規模</a>な<a href="#" class="anno 構造変化">構造変化</a>をうけ，結晶構造としては開いた型と閉じた型の少なくとも2つの構造をとることが明らかにされていた<a href="#R8"><sup>8)</sup></a>（<a href="#" class="anno N<a href="#" class="anno MR">MR</a>法">NMR法</a>による解析から，2つの構造の<a href="#" class="anno 中間体">中間体</a>のような構造の存在も示唆されていた）．Mad2は開いた型と閉じた型とが互いに結合して非対称な<a href="#" class="anno 二量体">二量体</a>を形成するが，Atg101とAtg13との複合体は，Atg101のHORMAドメインが開いた型の構造，Atg13のHORMAドメインが閉じた型の構造をとることにより，Mad2の非対称な二量体と類似した二量体の構造をとることが明らかにされた．開いた型のMad2は非対称な二量体を形成することにより閉じた型のMad2の構造を安定化することが知られていた．すなわち，Atg101のHORMAドメインもまた類似した様式でAtg13のHORMAドメインと結合することにより，その閉じた型の構造を安定化していると考えられた．<br/>　これまで，出芽酵母の近縁種である<em>Lachancea th<a href="#" class="anno erm">erm</a>otole<a href="#" class="anno ran">ran</a>s</em>に由来するAtg13の結晶構造が報告されており<a href="#R9"><sup>9)</sup></a>，閉じた型のHORMAドメイン構造をとることが示されていた．この<em>L</em>. <em>thermotolerans</em>に由来するAtg13においてはHORMAドメインに挿入された領域が“帽子”のような構造をとってHORMAドメインにかぶさることにより，閉じた型のHORMAドメインを<a href="#" class="anno 固定化">固定化</a>していた．この“帽子”の領域は出芽酵母の近縁種に由来するAtg13において高度に保存されていることから，それらのHORMAドメインは単独で安定に存在することが示唆された．それに対し，分裂酵母に由来するAtg13は，配列のうえではこの“帽子”に相当する領域をもつものの<a href="#" class="anno アミノ酸<a href="#" class="anno 残基">残基</a>">アミノ酸残基</a>の<a href="#" class="anno 保存性">保存性</a>の低さから“帽子”状の構造はとらず，HORMAドメインは閉じた型に固定化されていない不安定な状態にあることが明らかにされた．さきに述べたように，試料の調製の際にAtg13のN末端側の断片が凝集する傾向にあったのはこの点に起因していたのかもしれない．<a href="#" class="anno アミノ酸配列">アミノ酸配列</a>を比較したところ，そもそもヒトなど高等生物のAtg13には“帽子”に相当する領域は存在しなかった．<a href="#" class="anno つまり">つまり</a>，高等生物のAtg13は単独では不安定であり，それを安定化するタンパク質としてAtg101を必要とすることが明らかにされた．<br/><br/><h2>3．Atg101のオートファジーにおける役割</h2><br/>　Atg101のオートファジーにおける役割を明らかにするため，マウスのAtg101<a href="#" class="anno 欠損細胞">欠損細胞</a>を用いて<a href="#" class="anno 機能解析">機能解析</a>を行った．結晶においてみられたAtg101におけるAtg13との相互<a href="#" class="anno 作用部位">作用部位</a>をAtg13結合面と名づけた．細胞<a href="#" class="anno 抽出液">抽出液</a>を<a href="#" class="anno ゲルろ過">ゲルろ過</a><a href="#" class="anno クロマトグラフィー">クロマトグラフィー</a>に供したところ，<a href="#" class="anno 野生型">野生型</a>のAtg101を発現させたAtg101欠損細胞においてULK複合体は安定な4者複合体を形成した．構造の情報をもとにAtg13結合面に変異を導入したAtg101をAtg101欠損細胞に発現させたところ，Atg101以外のULK複合体の構成タンパク質は3者複合体を形成したが，<a href="#" class="anno 変<a href="#" class="anno 異型">異型</a>">変異型</a>のAtg101は単独で挙動した．<a href="#" class="anno 実際">実際</a>に，顕微鏡による観察において，変異型のAtg101はULK複合体の構成タンパク質であるFIP200と細胞において<a href="#" class="anno 共局在">共局在</a>しなかった．また，哺乳類のオートファジーにおける<a href="#" class="anno 選択的">選択的</a>な基質である<a href="#" class="anno p62">p62</a>が蓄積するなど，オートファジーの活性が顕著に低下していた．以上のことから，Atg101のAtg13結合面はAtg101それ自体がAtg13を介してULK複合体に組み込まれオートファジーにおいて機能するために必須であることが明らかにされた．<br/>　一方，Atg101はAtg13結合面とは<a href="#" class="anno 反<a href="#" class="anno 対側">対側</a>">反対側</a>に特徴的なループ構造をもっていた．このループは通常のHORMAドメインをもつタンパク質には存在せず，この構造がAtg101の単独での結晶化をさまたげていたと考えられた．このループには2つの<a href="#" class="anno 芳香族">芳香族</a>アミノ酸残基TrpおよびPheが存在し，結晶におけるパッキングにより隣接するAtg13のHORMAドメインのもつポケットにはまり込んでいた．この2つの残基はすべての生物種のAtg101において保存されており，<a href="#" class="anno 側鎖">側鎖</a>を外につきだす構造をとっていたことから，なんらかの重要な機能を担うのではないかと推測された．そこで，このTrpおよびPheを含むループをWFフィンガーと名づけた．WFフィンガーのTrpおよびPheをAlaに置換したAtg101を作製し，<em>in vitro</em>における<a href="#" class="anno プルダウン">プルダウン</a>実験を行ったところ，変異型のAtg101は野生型のAtg101と同様にAtg13と結合すること，また，<a href="#" class="anno 哺乳類細胞">哺乳類細胞</a>を用いた<a href="#" class="anno 免疫沈降">免疫沈降</a>実験からも同様に，変異型のAtg101はAtg13と結合することが観察された．顕微鏡による観察においても，変異型のAtg101は細胞においてFIP200と共局在した．つまり，WFフィンガーに変異をもつAtg101は野生型のAtg101と同様にULK複合体を形成することが可能であった．しかしながら，WFフィンガーに変異をもつAtg101を発現させた細胞では，Atg101欠損細胞やAtg13結合面に変異を導入したAtg101を発現させた細胞と同様に，オートファジーの活性が顕著に低下していた．ULK複合体は下流のAtgタンパク質のオートファゴソームを形成する部位への集積にかかわる．そこで，いくつかの下流のAtgタンパク質の挙動を観察したところ，野生型のAtg101を発現させた細胞においてはその集積が観察されたのに対し，WFフィンガーに変異を導入したAtg101を発現させた細胞においてはその集積が顕著に阻害された．すなわち，Atg101はWFフィンガーを用いて下流のAtgタンパク質をオートファゴソームを形成する部位に集積する機能を担うことが明らかにされた．<br/>　出芽酵母においては，Atg29およびAtg31が下流のAtgタンパク質の集積に関与することが報告されていた<a href="#R10"><sup>10)</sup></a>．また最近，出芽酵母のAtg13はHORMAドメインを介し単独で下流のAtgタンパク質のひとつである<a href="#" class="anno Atg9">Atg9</a>と相互作用することが明らかにされた<a href="#R11"><sup>11)</sup></a>（<a href="#F2">図2a</a>）．高等生物がAtg101をもちAtg29およびAtg31をもた<a href="#" class="anno ないこと">ないこと</a>の現時点での解釈として，高等生物では進化の過程においてなぜか不安定になったAtg13を安定化するためAtg101が必須になる一方，Atg101がAtg29およびAtg31の機能を兼ね備えることによりAtg29およびAtg31が不要になったと考えられる．下流のAtgタンパク質の集積に際し，Atg101により安定化したAtg13がAtg101と<a href="#" class="anno 協働">協働</a>的にはたらく<a href="#" class="anno 可能性">可能性</a>も考えられる（<a href="#F2">図2b</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　オートファジー始動複合体のモデル</strong><br/>（a）出芽酵母のAtg1複合体．Atg13のHORMAドメインはそれ自体の“帽子”の領域により安定化され，独立にあるいはAtg29-Atg31複合体と協働で下流のAtgタンパク質の集積に関与する．最近，Xに相当するタンパク質としてAtg9が同定された．<br/>（b）哺乳類など高等生物のULK複合体．Atg101はAtg13のHORMAドメインを安定化するとともに，WFフィンガーを用いて下流のAtgタンパク質の集積に関与する．その際，Atg101により安定化されたAtg13が協働してはたらく可能性がある．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Noda-Nature-Structural-Molecular-Biology-15.7.1-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　オートファジー始動複合体のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Noda-Nature-Structural-Molecular-Biology-15.7.1-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Noda-Nature-Structural-Molecular-Biology-15.7.1-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　Atg101とAtg13との複合体の結晶構造の決定，さらに，<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>および細胞<a href="#" class="anno <a href="#" class="anno 生物学">生物学</a>的">生物学的</a>なアプローチにより，高等生物のオートファジーにおいて固有のタンパク質であるAtg101の担う機能の一端が明らかにされた．これまで，Atg101はAtg13を安定化することが唯一の機能とされてきた．Atg101の不要な<em>L</em>. <em>thermotolerans</em>に由来するAtg13の構造と，Atg101の必要な分裂酵母に由来するAtg13の構造とを比較することにより，なぜ高等な生物ではAtg101のようなAtg13の安定化にはたらくタンパク質が必要になるのか説明された．また，構造解析を出発点として，WFフィンガーを介し下流のAtgタンパク質の集積を担うというAtg101のもつ新たな機能の存在が提唱された．ただし，現時点で，WFフィンガーと直接に相互作用するタンパク質は判明しておらず，Atg101がどのような分子機構によりその機能をはたすのかはわかっていない．WFフィンガーと結合するタンパク質の同定とさらなる構造機能解析を進めることにより，高等生物に特有のオートファジーの始動の機構を明らかにすることが今後の課題である．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Mizushima, N. & Komatsu, M.</span>: <span class="ti">Autophagy: renovation of cells and tissues.</span> <span class='so'>Cell, 147, 728-741 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22078875" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Mizushima, N., Levine, B., Cuervo, A. M. et al.</span>: <span class="ti">Autophagy fights disease through cellular self-digestion.</span> <span class='so'>Nature, 451, 1069-1075 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18305538" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Mizushima, N., Yoshimori, T. & Ohsumi, Y.</span>: <span class="ti">The role of Atg proteins in autophagosome formation.</span> <span class='so'>Annu. Rev. Cell Dev. Biol., 27, 107-132 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21801009" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Noda, N. N. & Inagaki, F.</span>: <span class="ti">Mechanisms of autophagy.</span> <span class='so'>Annu. Rev. Biophys., 44, 101-122 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25747593" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Mercer, C. A., Kaliappan, A. & Dennis, P. B.</span>: <span class="ti">A novel, human Atg13 binding protein, Atg101, interacts with ULK1 and is essential for macroautophagy.</span> <span class='so'>Autophagy, 5, 649-662 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19287211" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Hosokawa, N., Sasaki, T., Iemura, S. et al.</span>: <span class="ti">Atg101, a novel mammalian autophagy protein interacting with Atg13.</span> <span class='so'>Autophagy, 5, 973-979 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19597335" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Mizushima, N.</span>: <span class="ti">The role of the Atg1/ULK1 complex in autophagy regulation.</span> <span class='so'>Curr. Opin. Cell Biol., 22, 132-139 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20056399" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Mapelli, M., Massimiliano, L., Santaguida, S. et al.</span>: <span class="ti">The Mad2 conformational dimer: structure and implications for the spindle assembly checkpoint.</span> <span class='so'>Cell, 131, 730-743 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18022367" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Jao, C. C., Ragusa, M. J., Stanley, R. E. et al.</span>: <span class="ti">A HORMA domain in Atg13 mediates PI 3-kinase recruitment in autophagy.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 110, 5486-5491 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23509291" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Kawamata, T., Kamada, Y., Kabeya, Y. et al.</span>: <span class="ti">Organization of the pre-autophagosomal structure responsible for autophagosome formation.</span> <span class='so'>Mol. Biol. Cell, 19, 2039-2050 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18287526" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Suzuki, S. W., Yamamoto, H., Oikawa, Y. et al.</span>: <span class="ti">Atg13 HORMA domain recruits Atg9 vesicles during autophagosome formation.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 112, 3350-3355 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25737544" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_08.html" target="_blank">12.8 Autophagy</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_06.html" target="_blank">3.6 Gain-of-Function Mutations</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/07_03.html" target="_blank">7.3 Genes and DNA</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/01_05.html" target="_blank">1.5 Unicellular and Multicellular Organisms</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_01.html" target="_blank">3.1 Traits</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">鈴木 浩典（Hironori Suzuki）</span><br>略歴：2011年 東京大学大学院薬学系研究科博士課程 修了，同年 同 特任研究員を経て，2013年より微生物化学研究所 博士研究員．<br>研究テーマ：オートファジーの構造生物学．<br>抱負：少水常流如穿石．<br><br><strong>野田 展生（Nobuo N. Noda）</strong><br>微生物化学研究所 主席研究員．<br></div><br>© 2015 鈴木浩典・野田展生 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Werner症候群のモデル細胞を用いて明らかにされたヒトの老化に関連するヘテロクロマチン構造の変化 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/10192" rel="bookmark">Werner症候群のモデル細胞を用いて明らかにされたヒトの老化に関連するヘテロクロマチン構造の変化</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>鈴木啓一郎・Juan Carlos Izpisua Belmonte</strong><br>（米国Salk Institute for Biological Studies，Gene Expression Laboratory）<br>email：<a href="mailto:ksuzuki@salk.edu">鈴木啓一郎</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.064">10.7875/first.author.2015.064</a><br><div class="reference"><br><span class="ti">A Werner syndrome stem cell model unveils heterochromatin alterations as a driver of human aging.</span><br><span class="au">Weiqi Zhang, Jingyi Li, Keiichiro Suzuki, Jing Qu, Ping Wang, Junzhi Zhou, Xiaomeng Liu, Ruotong Ren, Xiuling Xu, Alejandro Ocampo, Tingting Yuan, Jiping Yang, Ying Li, Liang Shi, Dee Guan, Huize Pan, Shunlei Duan, Zhichao Ding, Mo Li, Fei Yi, Ruijun Bai, Yayu Wang, Chang Chen, Fuquan Yang, Xiaoyu Li, Zimei Wang, Emi Aizawa, April Goebl, Rupa Devi Soligalla, Pradeep Reddy, Concepcion Rodriguez Esteban, Fuchou Tang, Guang-Hui Liu, Juan Carlos Izpisua Belmonte</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25931448" target="_blank"><em>Science</em>, <strong>348</strong>, 1160-1163 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno Werner症候群">Werner症候群</a>は<a href="#" class="anno WRN">WRN</a>の機能の欠損によりひき起こされる<a href="#" class="anno 早老症">早老症</a>である．この研究においては，ヒトの<a href="#" class="anno ES細胞">ES細胞</a>からWerner症候群のモ<a href="#" class="anno デ">デ</a>ル細胞を作製し<a href="#" class="anno <a href="#" class="anno 間葉">間葉</a>系<a href="#" class="anno 幹細胞">幹細胞</a>"><a href="#" class="anno 間葉系">間葉系</a>幹細胞</a>へと分化させることにより，<a href="#" class="anno ヒストン">ヒストン</a>の<a href="#" class="anno メチル">メチル</a>化の欠損や<a href="#" class="anno ヘテロ">ヘテロ</a><a href="#" class="anno クロマチン">クロマチン</a>構造の変化など，早老症の<a href="#" class="anno 細胞レベル">細胞レベル</a>での疾患の<a href="#" class="anno 機序">機序</a>が解明された．また，WRNは<a href="#" class="anno ヘテロクロマチン">ヘテロクロマチン</a>構造に関連する<a href="#" class="anno SUV3">SUV3</a>9H1，<a href="#" class="anno HP1">HP1</a>α，LAB2βと結合してはたらくことが明らかにされた．さらに，ヒストンの<a href="#" class="anno メチル化">メチル化</a>活性を<a href="#" class="anno も">も</a>つSUV39H1を不<a href="#" class="anno 活性化">活性化</a>した間葉系幹細胞はWerner症候群と同様の<a href="#" class="anno 細胞老化">細胞老化</a>を示した．興味深いことに，WRNの減少やヘテロ<a href="#" class="anno クロマチン構造">クロマチン構造</a>の変化は高齢の<a href="#" class="anno 健常者">健常者</a>に由来する間葉系幹細胞においても観察された．以上の結果から，WRNはヘテロクロマチン構造の維持において重要な役割をはたし，ヒトにおける老化の機構の一端を担う<a href="#" class="anno 可能性">可能性</a>が示唆された．<br/><br/><h2>はじめに</h2><br/>　Werner症候群は<a href="#" class="anno 加齢">加齢</a>が通常より早く進む早老症のひとつであり，ゲノムの<a href="#" class="anno 安定性">安定性</a>の維持にかかわるWRNの機能が欠損することによりひき起こされる<a href="#" class="anno 遺伝性">遺伝性</a>の疾患である．Werner症候群の患者はゲノムが不安定になることにより早老の症状をひき起こすと考えられているが，そのくわしい原因は解明されていない<a href="#R1"><sup>1)</sup></a>．ゲノムの<a href="#" class="anno 不安定性">不安定性</a>のほか老化をひき起こす原因のひとつとして，さまざまなモデル生物において<a href="#" class="anno エピゲノム">エピゲノム</a>の変化が示されている<a href="#R2"><sup>2-4)</sup></a>．ヒトにおいても，早老症の患者においてヘテロクロマチンのマー<a href="#" class="anno カ">カ</a>ーが消失していることが明らかにされた<a href="#R5"><sup>5-7)</sup></a>．しかしながら，Werner症候群とエピゲノムの関係については明らかにされていない．<br/>　この研究においては，ゲノムを自由に改変できる<a href="#" class="anno ゲノム編集">ゲノム編集</a>技術を用いて，ヒトのES細胞において<em>WRN</em>遺伝子の両方の<a href="#" class="anno 対立遺伝子">対立遺伝子</a>を破壊することによりWerner症候群のモデル細胞を作製した．<a href="#" class="anno 培養皿">培養皿</a>において<a href="#" class="anno 継代">継代</a>をくり返すことで老化を模倣することにより，これまで考えられていた<a href="#" class="anno ゲノムの不安定性">ゲノムの不安定性</a>とは別に，エピゲノムの変化が細胞老化をひき起こすことが示唆された．また，このエピゲノムの変化はWerner症候群のみならず，健常者の老化にも関連することが明らかにされた．<br/><br/><h2>1．Werner症候群のモデルES細胞の作製</h2><br/>　<a href="#" class="anno iPS細胞">iPS細胞</a>はES細胞と同様にあらゆる細胞に分化できる<a href="#" class="anno 多能性">多能性</a>を保ちつつ無限に増殖させることのできる<a href="#" class="anno 多能性幹細胞">多能性幹細胞</a>である．このため，患者の<a href="#" class="anno 体細胞">体細胞</a>からiPS細胞を作製することにより患者に由来するさまざまな細胞を大量に分化させることができるようになり，疾患の機序の解明や<a href="#" class="anno <a href="#" class="anno 創薬">創薬</a>スクリーニング">創薬スクリーニング</a>への応用が期待されている．Werner症候群の患者の体細胞からiPS細胞を作製することによりモデル細胞を作製することも可能であったが，Werner症候群の<a href="#" class="anno 原因遺伝子">原因遺伝子</a>にコードされるWRNはゲノムの安定性の維持に重要なはたらきをもつことからWerner症候群の患者に由来する体細胞はすでに<a href="#" class="anno 染色体">染色体</a>異常やほかの変異をもつことが多く，そこから作製したiPS細胞はモデル細胞としてはあまり適さなかった．そこで，ヒトの<a href="#" class="anno 野生型">野生型</a>のES細胞を用い，<em>WRN</em>遺伝子の両方の対立遺伝子を<a href="#" class="anno <a href="#" class="anno 相">相</a>同">相同</a><a href="#" class="anno 組換え">組換え</a>により破壊することによりWRNの機能を欠損させたWerner症候群のモデル細胞を作製した（<a href="#F1">図1</a>）．ゲノム編集技術によるES細胞の<a href="#" class="anno 相同組換え">相同組換え</a>には安全な<a href="#" class="anno アデノウイルス">アデノウイルス</a><a href="#" class="anno ベクター">ベクター</a>による<a href="#" class="anno 高効率">高効率</a>な遺伝子<a href="#" class="anno ターゲッティング">ターゲッティング</a>法を用いた<a href="#R8"><sup>8)</sup></a>．野生型のES細胞とそこから作製したWerner症候群のモデル細胞は<a href="#" class="anno 遺伝的">遺伝的</a>な背景が同一であるため厳密な対照になる．これらの2つの<a href="#" class="anno 細胞株">細胞株</a>を比較することにより，<em>WRN</em>遺伝子の欠損によるWerner症候群の<a href="#" class="anno 表現型">表現型</a>を培養皿において再現した．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　実験の方法</strong><br/>ヒトの野生型のES細胞においてゲノム編集技術により<em>WRN</em>遺伝子の両方の対立遺伝子を破壊しWerner症候群のモデルES細胞を作製する．これを間葉系幹細胞に分化させ，継代をくり返すことにより培養皿において老化を模倣した．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Science-15.5.29-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　実験の方法" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Science-15.5.29-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Science-15.5.29-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．Werner症候群のモデル間葉系幹細胞の作製</h2><br/>　Werner症候群の患者は骨粗鬆症や<a href="#" class="anno アテローム性<a href="#" class="anno 動脈硬化">動脈硬化</a>症">アテローム性<a href="#" class="anno 動脈硬化症">動脈硬化症</a></a>など，おもに<a href="#" class="anno 中胚葉">中胚葉</a>に由来する組織において加齢にともなう症状を示す<a href="#R1"><sup>1)</sup></a>．Werner症候群の患者は加齢にともない間葉系幹細胞が枯渇することによりさまざまな表現型を示すと考え，Werner症候群のモデルES細胞から間葉系幹細胞を分化させた．モデルES細胞は継代をくり返しても細胞老化をひき起こさず明らかな表現型は示さなかったが，そこから分化させたモデル間葉系幹細胞は継代とともに<a href="#" class="anno 増殖能">増殖能</a>が低下し，細胞老化の指標である<a href="#" class="anno βガラクトシダーゼ">βガラクトシダーゼ</a><a href="#" class="anno 陽<a href="#" class="anno 性細胞">性細胞</a>">陽性細胞</a>の増加，<a href="#" class="anno p16">p16</a><sup>I<a href="#" class="anno NK4">NK4</a></sup>および<a href="#" class="anno p21">p21</a><sup><a href="#" class="anno Waf1">Waf1</a></sup>の<a href="#" class="anno 高発現">高発現</a>がみられた．また，モデル間葉系幹細胞を<a href="#" class="anno <a href="#" class="anno 免疫不全">免疫不全</a>マウス">免疫不全マウス</a>の<a href="#" class="anno 筋組織">筋組織</a>に移植したところ，野生型のES細胞から分化させた間葉系幹細胞に比べ，<a href="#" class="anno 生着">生着</a>したのちの増殖能が低下していた．以上の結果から，間葉系幹細胞においてはWRNの欠損により細胞老化が促進されることが明らかにされた．<br/><br/><h2>3．Werner症候群のモデル間葉系幹細胞におけるヘテロクロマチン構造の変化</h2><br/>　エピゲノムの変化は老化のひとつの指標として知られている<a href="#R2"><sup>2)</sup></a>．そこで，Werner症候群のモデル間葉系幹細胞においてエピゲノムの変化を調べたところ，継代とともにヘテロクロマチンを<a href="#" class="anno 核膜">核膜</a>に局在させるL<a href="#" class="anno AP2">AP2</a>βや<a href="#" class="anno LBR">LBR</a>の発現の低下および核の膨張がみられ，さらに，ヘテロクロマチン構造が変化することが明らかにされた．モデル間葉系幹細胞において，ヘテロクロマチンのマーカーである<a href="#" class="anno ヒストンH3">ヒストンH3</a>の<a href="#" class="anno Lys">Lys</a>9の<a href="#" class="anno トリメチル">トリメチル</a>化は減少していた一方，DNAの<a href="#" class="anno CpG">CpG</a>配列のメチル化および<a href="#" class="anno ユークロマチン">ユークロマチン</a>のマーカーであるヒストンH3のLys4のトリメチル化は野生型のES細胞から分化させた間葉系幹細胞と<a href="#" class="anno 同じ">同じ</a>程度であった．ChIP-<a href="#" class="anno seq">seq</a>法により，野生型の間葉系幹細胞において20 kb以上もの大きな73カ所のヘテロクロマチン領域が同定されたが，モデル間葉系幹細胞ではそのうち28カ所（38％）が消失していた．興味深いことに，消失したヘテロクロマチン領域の86％はサブ<a href="#" class="anno テロメア">テロメア</a>領域およびサブ<a href="#" class="anno セントロメア">セントロメア</a>領域にあった．RNA-seq法により，モデル間葉系幹細胞において発現の変化していた1047個の遺伝子のうちもっとも発現が低下していたのはセントロメアの<a href="#" class="anno パッケージング">パッケージング</a>にかかわるタンパク質の遺伝子および核膜<a href="#" class="anno 構成タンパク質">構成タンパク質</a>の遺伝子であることがわかった．WRNは<a href="#" class="anno テロメア長">テロメア長</a>の維持にかかわることが知られていたが<a href="#R9"><sup>9)</sup></a>，モデル間葉系幹細胞においてテロメアを維持する<a href="#" class="anno テロメラーゼ">テロメラーゼ</a>の活性が低下しテロメアは短くなっていた．以上の結果から，Werner症候群のモデル間葉系幹細胞では継代とともに核膜およびセントロメアを構成するタンパク質の発現が低下し，<a href="#" class="anno サブテロメア">サブテロメア</a>領域およびサブセントロメア領域を中心にヘテロクロマチン構造が消失することが明らかにされた．<br/><br/><h2>4．セントロメア領域のヘテロクロマチン構造におけるWRNの役割</h2><br/>　ChIP-定量<a href="#" class="anno PCR">PCR</a>法により，WRNはヒストンH3のLys9のトリメチル化の集積するセントロメア領域にある<a href="#" class="anno くり返し配列">くり返し配列</a>であるαSat領域および<a href="#" class="anno Sat2">Sat2</a>領域と結合することが明らかにされた．Werner症候群のモデル間葉系幹細胞ではこれらの結合がなくなりセントロメア領域においてヘテロクロマチン構造が消失することから，継代とともにαSat領域およびSat2領域からの遺伝子の発現が上昇し，また，クロマチンの構造がゆるむことにより<a href="#" class="anno 2本鎖DNA">2本鎖DNA</a>切断が起こりやすくなりその指標であるヒストンγ<a href="#" class="anno H2A">H2A</a>Xのシグナルがセントロメア領域において観察されるようになった．また，<a href="#" class="anno 共<a href="#" class="anno 免疫沈降">免疫沈降</a>">共免疫沈降</a>法により，WRNは，ヒストンH3のLys9のトリメチル化活性をもつ<a href="#" class="anno ヒストン<a href="#" class="anno メチル<a href="#" class="anno トランスフェラーゼ">トランスフェラーゼ</a>">メチルトランスフェラーゼ</a>">ヒストンメチルトランスフェラーゼ</a>であるSUV39H1，ヘテロクロマチン領域においてヒストンH3のLys9のトリメチル化と結合する<a href="#" class="anno HP1α">HP1α</a>，核膜構成タンパク質でHP1αとの結合を介してヘテロクロマチン領域を核膜に局在させる<a href="#" class="anno LAP">LAP</a>2βと結合することが明らかにされた．これらのことから，WRNはSUV39H1やHP1αとともにヘテロクロマチン構造の<a href="#" class="anno 安定化">安定化</a>にかかわることが示唆された．<br/><br/><h2>5．ヘテロクロマチン構造の変化の細胞老化への影響</h2><br/>　ヘテロクロマチン構造の変化が細胞老化をひき起こす直接の原因を調べるため，野生型のES細胞から分化させた間葉系幹細胞においてSUV39H1あるいはHP1αを<a href="#" class="anno shRNA">shRNA</a>により<a href="#" class="anno ノックダウン">ノックダウン</a>した．その結果，ヒストンH3のLys9のトリメチル化は低下し，細胞老化の指標であるβガラクトシダーゼ陽性細胞の増加，p16<sup>INK4</sup>およびp21<sup>Waf1</sup>の高発現がみられ，Werner症候群のモデル間葉系幹細胞と同様の表現型を示した．逆に，モデル間葉系幹細胞においてHP1αを過剰に発現させると細胞老化は軽減された．さらに，ヒトのES細胞においてゲノム編集技術により<em>SUV39H1</em>遺伝子のメチル化<a href="#" class="anno 活性部位">活性部位</a>に<a href="#" class="anno 点変異">点変異</a>を導入し，間葉系幹細胞に分化させて継代をくり返したところ，モデル間葉系幹細胞と同様のヘテロクロマチン構造の変化および細胞老化を示した．ES細胞においては<a href="#" class="anno 生殖細胞">生殖細胞</a>系列に<a href="#" class="anno 特異的">特異的</a>なヒストンメチルトランスフェラーゼであるSUV39H2の発現が高いが，間葉系幹細胞においてSUV39H2は発現していない．このため，<em>SUV39H1</em>遺伝子に変異を導入したES細胞においてはSUV39H2がこれを相補するためヘテロクロマチン構造に変化はみられなかったが，SUV39H2が発現しない間葉系幹細胞においてはヘテロクロマチン構造の変化とそれにともなう細胞老化がみられたと考えられた．<br/><br/><h2>6．細胞老化の分子指標としてのヘテロクロマチン構造の変化</h2><br/>　Werner症候群のモデル細胞の培養皿におけるヘテロクロマチン構造の変化は，健常者の老化にともないみられる<a href="#" class="anno 一般的">一般的</a>な現象であるかどうかを調べるため，さまざまな年齢の健常者から間葉系幹細胞を作製した．その結果，年齢の高い健常者に由来する間葉系幹細胞ではWRNの発現が低く，モデル間葉系幹細胞においてみられたような，ヒストンH3のLys9のトリメチル化の低下，および，SUV39H1，HP1α，<a href="#" class="anno LAP2">LAP2</a>βの発現の低下が観察され，ヘテロクロマチン構造が変化していることが示唆された．<a href="#" class="anno つまり">つまり</a>，間葉系幹細胞におけるヘテロクロマチン構造の変化はWerner症候群および健常者の老化の両方にみられる共通の現象であることが明らかにされた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　へテロクロマチン構造の安定化にかかわるWRNの役割</strong><br/>（a）若年の健常者の間葉系幹細胞．WRNはヘテロクロマチン構造に重要なHP1αやSUV39H1と結合し，ヒストンH3のLys9をトリメチル化（me3）することによりヘテロクロマチン化し，核膜に局在させる．<br/>（b）高齢の健常者の間葉系幹細胞あるいはWRNを欠損した間葉系幹細胞．SUV39H1あるいはWRNが機能しなくなることにより，おもにセントロメア領域およびテロメア領域のヘテロクロマチン構造が消失し，核は膨張して，細胞老化がひき起こされる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Science-15.5.29-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　へテロクロマチン構造の安定化にかかわるWRNの役割" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Science-15.5.29-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Science-15.5.29-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究において，ヒトのES細胞にゲノム編集技術を適応することによりWerner症候群のモデル細胞を作製し，Werner症候群の患者のみならず健常者においても，WRNのヘテロクロマチン構造の維持をとおした老化に対する役割が明らかにされた．今回は間葉系幹細胞において<a href="#" class="anno 老化現象">老化現象</a>の一端が明らかにされたが，これを新たな足がかりとして，今後，複雑なヒトの老化現象の<a href="#" class="anno 全体像">全体像</a>や老化に<a href="#" class="anno 依存的">依存的</a>な疾患の機序の解明が期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Kudlow, B. A., Kennedy, B. K. & Monnat, R. J. Jr.</span>: <span class="ti">Werner and Hutchinson-Gilford progeria syndromes: mechanistic basis of human progeroid diseases.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 8, 394-404 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17450177" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Lopez-Otin, C., Blasco, M. A., Partridge, L. et al.</span>: <span class="ti">The hallmarks of aging.</span> <span class='so'>Cell, 153, 1194-1217 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23746838" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Pegoraro, G., Kubben, N., Wickert, U. et al.</span>: <span class="ti">Ageing-related chromatin defects through loss of the NURD complex.</span> <span class='so'>Nat. Cell Biol., 11, 1261-1267 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19734887" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Greer, E. L., Maures, T. J., Hauswirth, A. G. et al.</span>: <span class="ti">Members of the H3K4 trimethylation complex regulate lifespan in a germline-dependent manner in <em>C</em>. <em>elegans</em>.</span> <span class='so'>Nature, 466, 383-387 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20555324" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Liu, G. H., Barkho, B. Z., Ruiz, S. et al.</span>: <span class="ti">Recapitulation of premature ageing with iPSCs from Hutchinson-Gilford progeria syndrome.</span> <span class='so'>Nature, 472, 221-225 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21346760" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Shumaker, D. K., Dechat, T., Kohlmaier, A. et al.</span>: <span class="ti">Mutant nuclear lamin A leads to progressive alterations of epigenetic control in premature aging.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 103, 8703-8708 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16738054" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Miller, J. D., Ganat, Y. M., Kishinevsky, S. et al.</span>: <span class="ti">Human iPSC-based modeling of late-onset disease via progerin-induced aging.</span> <span class='so'>Cell Stem Cell, 13, 691-705 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24315443" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Suzuki, K., Mitsui, K., Aizawa, E. et al.</span>: <span class="ti">Highly efficient transient gene expression and gene targeting in primate embryonic stem cells with helper-dependent adenoviral vectors.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 105, 13781-13786 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18768795" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Multani, A. S. & Chang, S.</span>: <span class="ti">WRN at telomeres: implications for aging and cancer.</span> <span class='so'>J. Cell Sci., 120, 713-721 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17314245" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_06.html" target="_blank">3.6 Gain-of-Function Mutations</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/10_04.html" target="_blank">10.4 Epigenetic Regulation of Gene Expression</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_01.html" target="_blank">3.1 Traits</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/24_03.html" target="_blank">24.3 Changes in the Genome</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/07_03.html" target="_blank">7.3 Genes and DNA</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">鈴木 啓一郎（Keiichiro Suzuki）</span><br>略歴：2005年 埼玉大学大学院理工学研究科 修了，2006年 埼玉医科大学 特任研究員，2009年 同 助教を経て，2010年より米国Salk Institute for Biological StudiesにてResearch Associate．<br>研究テーマ：ヒトの遺伝性疾患のゲノム編集技術を用いた分子機構の解明，および，新規のゲノム編集技術の開発．<br><br><strong>Juan Carlos Izpisua Belmonte</strong><br>米国Salk Institute for Biological StudiesにてProfessor．<br>研究室URL：<a href="http://www.salk.edu/labs/belmonte/" target="_blank">http://www.salk.edu/labs/belmonte/</a><br></div><br>© 2015 鈴木啓一郎・Juan Carlos Izpisua Belmonte Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

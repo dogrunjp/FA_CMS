@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 真核生物の翻訳開始因子eIF2Bの結晶構造 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/12209" rel="bookmark">真核生物の翻訳開始因子eIF2Bの結晶構造</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>柏木一宏<sup>1</sup>・伊藤拓宏<sup>1</sup>・横山茂之<sup>2</sup></strong><br>（<sup>1</sup>理化学研究所ライフサイエンス技術基盤研究センター 翻訳因子構造解析研究ユニット，<sup>2</sup>理化学研究所 横山構造生物学研究室）<br>email：<a href="mailto:kazuhiro.kashiwagi@riken.jp">柏木一宏</a>，<a href="mailto:takuhiro.ito@riken.jp">伊藤拓宏</a>，<a href="mailto:yokoyama@riken.jp">横山茂之</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.019">10.7875/first.author.2016.019</a><br><div class="reference"><br><span class="ti">Crystal structure of eukaryotic translation initiation factor 2B.</span><br><span class="au">Kazuhiro Kashiwagi, Mari Takahashi, Madoka Nishimoto, Takuya B. Hiyama, Toshiaki Higo, Takashi Umehara, Kensaku Sakamoto, Takuhiro Ito, Shigeyuki Yokoyama</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26901872" target="_blank"><em>Nature</em>, <strong>531</strong>, 122-125 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ストレス環境において，<a href="#" class="anno 真核生物">真核生物</a>ではお<a href="#" class="anno も">も</a>に<a href="#" class="anno 翻訳開始">翻訳開始</a>因子<a href="#" class="anno eIF">eIF</a>2Bの活性が阻害されることによりタンパク質の<a href="#" class="anno 生合成">生合成</a>は<a href="#" class="anno 全体的">全体的</a>に抑制される．<a href="#" class="anno e<a href="#" class="anno IF2">IF2</a>B"><a href="#" class="anno eIF2">eIF2</a>B</a>は<a href="#" class="anno 翻訳<a href="#" class="anno 開始因子">開始因子</a>">翻訳開始因子</a>eIF2に対する<a href="#" class="anno グアニン">グアニン</a><a href="#" class="anno ヌクレオチド">ヌクレオチド</a>交換因子であり，eIF2の<a href="#" class="anno γ<a href="#" class="anno サブユニット">サブユニット</a>">γサブユニット</a>と結合したGDPをG<a href="#" class="anno TP">TP</a>へと交換する．ストレス環境において，eIF2の<a href="#" class="anno αサブユニット">αサブユニット</a>が<a href="#" class="anno <a href="#" class="anno リン酸">リン酸</a>化">リン酸化</a>されることによりeIF2Bのヌクレオチド交換活性は阻害される．eIF2Bはα，β，γ，δ，εの5種類のサブユニット2分子ずつから構成される<a href="#" class="anno ヘテロ">ヘテロ</a><a href="#" class="anno 十量体">十量体</a>であるが，その全体構造は未知であり，eIF2Bの<a href="#" class="anno 活性制御">活性制御</a>の<a href="#" class="anno 具体的">具体的</a>な<a href="#" class="anno 分子機構">分子機構</a>は不明であった．筆者らは，<a href="#" class="anno 分<a href="#" class="anno 裂">裂</a>酵母">分裂酵母</a>に由来するeIF2B十量体の<a href="#" class="anno 立体構造">立体構造</a>をX線<a href="#" class="anno 結晶構造">結晶構造</a>解析により3.0Åの分解能で決定した．さらに，<a href="#" class="anno 非天然">非天然</a><a href="#" class="anno <a href="#" class="anno アミノ">アミノ</a>酸<a href="#" class="anno 残基">残基</a>">アミノ酸残基</a>の導入による光<a href="#" class="anno 架橋法">架橋法</a>により，eIF2のαサブユニットおよびγサブユニットに対するeIF2Bの結合表面が明らかにされた．これらの結果から，eIF2のリン酸化は“<a href="#" class="anno 非<a href="#" class="anno 生産的">生産的</a>">非生産的</a>”なeIF2-eIF2B<a href="#" class="anno 複合体">複合体</a>を形成させることにより，eIF2Bのヌクレオチド交換活性をさまたげていることが示唆された．<br/><br/><h2>はじめに</h2><br/>　α，β，γの3種類のサブユニットからなる翻訳開始因子eIF2は，開始<a href="#" class="anno tRNA">tRNA</a>を<a href="#" class="anno リボソーム">リボソーム</a>へと輸送する役割を担う．GTP<a href="#" class="anno 結合型">結合型</a>のeIF2はリボソームにおいて開始<a href="#" class="anno コドン">コドン</a>を認識したのち，<a href="#" class="anno GDP結合型">GDP結合型</a>になり<a href="#" class="anno 開始tRNA">開始tRNA</a>を残してリボソームから解離する．eIF2のγサブユニットと結合したGDPは，eIF2に対する<a href="#" class="anno グアニンヌクレオチド">グアニンヌクレオチド</a>交換因子である翻訳開始因子eIF2BによりGTPへと交換され，<a href="#" class="anno GTP結合型">GTP結合型</a>になったeIF2はふたたび翻訳の開始の過程に利用される<a href="#R1"><sup>1)</sup></a>．このように，リボソームへの開始tRNAの供給はeIF2Bのヌクレオチド交換活性の影響をうける．eIF2Bはα，β，γ，δ，εの5種類のサブユニット2分子ずつから構成されるヘテロ十量体であるが<a href="#R2"><sup>2)</sup></a>，十分なヌクレオチド交換活性を発揮するためには，εサブユニットの<a href="#" class="anno C末端">C末端</a>のH<a href="#" class="anno EAT">EAT</a>ドメイン，εサブユニットの<a href="#" class="anno N末端">N末端</a>ドメインのNFモチーフ，γサブユニットとεサブユニットから構成される触媒複合体の形成が最低限必要とされる<a href="#R3"><sup>3-5)</sup></a>．一方，eIF2Bのαサブユニット，<a href="#" class="anno βサブユニット">βサブユニット</a>，δサブユニットは<a href="#" class="anno 制御性">制御性</a>複合体を形成しヌクレオチド交換活性の制御に関与する<a href="#R6"><sup>6)</sup></a>．ストレス環境においては，eIF2のαサブユニットの<a href="#" class="anno Ser">Ser</a>51がリン酸化されることによりeIF2Bとの結合が強固なものとなり，eIF2Bのヌクレオチド交換活性がさまたげられる．その結果，細胞におけるGTP結合型のeIF2が減少し，全体的な<a href="#" class="anno タンパク質の生合成">タンパク質の生合成</a>は抑制され<a href="#" class="anno <a href="#" class="anno ストレス応答">ストレス応答</a>遺伝子">ストレス応答遺伝子</a>が<a href="#" class="anno 選択的">選択的</a>に発現される<a href="#R7"><sup>7)</sup></a>．しかしながら，eIF2Bのヌクレオチド交換活性およびeIF2のリン酸化による阻害の具体的な分子機構は不明であり，これらの解明のためにはeIF2Bの全体の構造情報が必要とされた．また，ヒトにおいては，eIF2Bのいずれかのサブユニットの変異は神経<a href="#" class="anno 変性疾患">変性疾患</a>である<a href="#" class="anno 白質">白質</a>消失病の原因であることが知られている．この疾患は頭部の外傷やウイルスの感染にともなう発熱などのストレスののちに急速に症状が悪化することが特徴であり<a href="#R8"><sup>8)</sup></a>，それゆえ，eIF2のリン酸化によるeIF2Bを介したストレス応答機構の異常との<a href="#" class="anno 関連性">関連性</a>が示唆されるものの，発症の機構の詳細は不明であった．eIF2Bの構造情報はこの疾患の理解に寄与することも期待された．<br/><br/><h2>1．eIF2B十量体の立体構造</h2><br/>　分裂酵母<em>Schizossaccha<a href="#" class="anno rom">rom</a>yces pombe</em>に由来するeIF2Bを大腸菌<a href="#" class="anno <a href="#" class="anno 組換え">組換え</a>発現">組換え発現</a>系を用いて5種類のサブユニットすべてを<a href="#" class="anno 共発現">共発現</a>することにより調製した．この<a href="#" class="anno 組換え型">組換え型</a>eIF2BはeIF2に対するヌクレオチド交換活性をもち，eIF2のリン酸化によりその活性は阻害された．そのほか，リン酸化eIF2と安定な複合体を形成するといった<a href="#" class="anno 内在性">内在性</a>のeIF2Bと同様の<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>な性質が確認された．<br/>　この組換えeIF2Bを<a href="#" class="anno 結晶化">結晶化</a>し，X線結晶<a href="#" class="anno 構造解析">構造解析</a>により3.0Åの分解能でその立体構造を決定した（PDB ID：<a href="http://service.pdbj.org/mine/Det<a href="#" class="anno ail">ail</a>2?PDBID=5b04&amp;PAGEID=Summary" target="_blank">5B04</a>，<a href="#F1">図1a</a>）．位<a href="#" class="anno 相">相</a>の決定は<a href="#" class="anno <a href="#" class="anno セレノ">セレノ</a>メチオニン">セレノメチオニン</a>置換体結晶を用いた単波長<a href="#" class="anno 異常分散">異常分散</a>法によった．εサブユニットのC末端に存在するHEATドメインを除くほぼすべての領域について<a href="#" class="anno 分子モ<a href="#" class="anno デ">デ</a>ル">分子モデル</a>が構築され，eIF2B十量体の全体構造がはじめて明らかにされた．eIF2B十量体の<a href="#" class="anno 中心部">中心部</a>にはα<sub>2</sub>β<sub>2</sub>δ<sub>2</sub><a href="#" class="anno 六量体">六量体</a>から構成される制御性複合体が位置し，その両側にγε<a href="#" class="anno 二量体">二量体</a>からなる触媒複合体が結合するというサブユニットの配置をとり，制御性複合体および触媒複合体はおもにβサブユニット-ε<a href="#" class="anno サブユニット間">サブユニット間</a>およびδサブユニット-γサブユニット間の<a href="#" class="anno 相互作用">相互作用</a>により結合していた．これまでに，ヒトのeIF2Bをコードするおのおのの遺伝子には白質消失病の原因変異として120<a href="#" class="anno カ">カ</a>所以上の<a href="#" class="anno ミスセンス">ミスセンス</a>変異が同定されていたが，制御性複合体と触媒複合体とが相互作用する面に多数の変異が確認された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　eIF2Bの構造およびeIF2との光架橋の部位</strong><br/>（a）分裂酵母に由来するeIF2B十量体の結晶構造．<br/>（b）eIF2B十量体におけるeIF2のαサブユニットあるいはγサブユニットと光架橋を形成する光反応性残基の部位．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yokoyama-Nature-16.3.3-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　eIF2Bの構造およびeIF2との光架橋の部位" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yokoyama-Nature-16.3.3-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yokoyama-Nature-16.3.3-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．eIF2のγサブユニットはeIF2B十量体の外側の面において相互作用する</h2><br/>　eIF2Bのヌクレオチド交換活性にはεサブユニットの2つの領域，HEATドメインおよびNFモチーフが重要であるが，NFモチーフはeIF2B十量体の外側をむいた面に位置していた（<a href="#F1">図1a</a>）．また，HEATドメインについても，その<a href="#" class="anno 電子密度">電子密度</a>は確認されなかったものの，εサブユニットのほかの領域の配置からeIF2B十量体の外側の領域に位置すると判断された．また，eIF2B十量体の外側の面には白質消失病の原因変異も位置していた．これらのことから，eIF2のγサブユニットはeIF2B十量体の外側の面と結合し，NFモチーフおよびHEATドメインによりGDPがGTPへと交換されると考えられた．<br/>　この相互作用を直接的に検出するため，表面スキャン光架橋法により解析した．この方法は，表面のひとつのアミノ酸残基を光<a href="#" class="anno 反応性">反応性</a>の<a href="#" class="anno 非天然アミノ酸">非天然アミノ酸</a>である<em>p</em>-<a href="#" class="anno ベンゾ">ベンゾ</a>イル<a href="#" class="anno フェニル">フェニル</a><a href="#" class="anno アラニン">アラニン</a>残基に置換した多数の<a href="#" class="anno 変異体">変異体</a>を作製し，標的となる分子との光架橋の有無を調べることによりその分子との結合表面を同定するものである<a href="#R9"><sup>9)</sup></a>．eIF2B十量体の外側の面に<a href="#" class="anno 光反応性">光反応性</a>残基を導入した32種類のeIF2B変異体を作製してeIF2と光架橋をさせたところ，eIF2BのNFモチーフの周辺においてeIF2のγサブユニットとの光架橋が確認された（<a href="#F1">図1b</a>）．eIF2のγサブユニットとの光架橋はeIF2BのNFモチーフの周辺にとどまらず，eIF2Bのγサブユニットを含む広範な領域が相互作用していることも示された．また，リン酸化eIF2と光架橋をさせたところ，NFモチーフの周辺に光反応性残基を導入したeIF2B変異体において，eIF2のγサブユニットとの光架橋の形成速度が低下した．このことから，eIF2のリン酸化によりeIF2BのNFモチーフとの相互作用は起こりにくくなると考えられた．<br/><br/><h2>3．eIF2のαサブユニットはeIF2B十量体の<a href="#" class="anno 中央部">中央部</a>のくぼみにより認識される</h2><br/>　eIF2B十量体とリン酸化eIF2のαサブユニットとが相互作用する領域を明らかにするため，同様に，eIF2Bのαサブユニット，βサブユニット，δサブユニットの80カ所に光反応性残基を導入しリン酸化<a href="#" class="anno eIF2α">eIF2α</a>と光架橋をさせた．その結果，リン酸化eIF2のαサブユニットとの光架橋は，αサブユニット，βサブユニット，δサブユニットの<a href="#" class="anno N末端ドメイン">N末端ドメイン</a>に光反応性残基を導入したeIF2B変異体とのあいだに形成された．この部位はαサブユニット，βサブユニット，δサブユニットによりかこまれたeIF2B十量体の中央部のくぼんだ領域にあり，eIF2Bのαサブユニット，βサブユニット，δサブユニットのすべてがリン酸化eIF2のαサブユニットの認識に直接的に関与していることが明らかにされた（<a href="#F1">図1b</a>）．また，リン酸化されていないeIF2のαサブユニットを用いた実験においてもほとんど同様の光架橋のパターンが得られ，eIF2B十量体の中央部のくぼみはeIF2のαサブユニットとリン酸化の有無にかかわらず結合しうることがわかった．eIF2B十量体の中央部のくぼみにはeIF2のリン酸化による<a href="#" class="anno 翻訳抑制">翻訳抑制</a>が消失する変異残基が位置しており，この変異体においてはこの部位でのリン酸化eIF2のαサブユニットとの強固な結合がさまたげられeIF2Bによる阻害が生じなくなっていると考えられた．一方，eIF2のγサブユニットと相互作用する領域の場合とは<a href="#" class="anno 対照的">対照的</a>に，eIF2B十量体の中央部のくぼみには白質消失病の原因変異はほとんど位置しておらず，白質消失病の発症に関してリン酸化eIF2のαサブユニットの認識の過程における異常は主要な要因ではないと考えられた．<br/>　eIF2のαサブユニットがどのような配向でeIF2B十量体の中央部のくぼみと結合するのかを明らかにするため，eIF2のαサブユニットに光反応性残基を導入してeIF2Bと光架橋をさせた．その結果，eIF2Bと光架橋する残基はeIF2のαサブユニットのN末端ドメインの先端に位置しており，立体構造においてリン酸化残基であるSer51の近傍に位置していた．これらの光架橋の結果をもとに，eIF2Bの構造とeIF2のαサブユニットの構造<a href="#R10"><sup>10)</sup></a> との手動でのドッキングを試みたところ，eIF2のαサブユニットのN末端ドメインがeIF2Bのβサブユニットとδサブユニットのあいだから中央部のくぼみへと入り込むよう配置することにより，eIF2BとeIF2のαサブユニットとのあいだの光架橋の結果がよく説明されるような複合体のモデルが構築された．<br/><br/><h2>4．eIF2Bのヌクレオチド交換活性は“非生産的”なeIF2-eIF2B複合体の形成により阻害される</h2><br/>　以上の結果を総合すると，eIF2のリン酸化によりeIF2のαサブユニットのN末端ドメインはeIF2B十量体の中央部のくぼみと強く結合し，eIF2のγサブユニットとeIF2BのNFモチーフとの接触は減少した．また，eIF2Bにおいて，eIF2のαサブユニットとの結合表面とeIF2のγサブユニットとの結合表面は離れて位置していた．さきのドッキングモデルとeIF2の<a href="#" class="anno 古細菌">古細菌</a><a href="#" class="anno ホモログ">ホモログ</a>aIF2の構造<a href="#R11"><sup>11)</sup></a> をもとにeIF2-eIF2B複合体のモデルを構築したところ（<a href="#F2">図2a</a>），eIF2のαサブユニットがeIF2B十量体の中央部のくぼみに結合している状態では，eIF2のγサブユニットはeIF2BのNFモチーフの位置する外側の面まで到達することができない位置関係にあった．このことから，eIF2B十量体の中央部のくぼみにおいてeIF2のαサブユニットを介して形成されたeIF2-eIF2B複合体は，eIF2BのNFモチーフおよびHEATドメインにより<a href="#" class="anno 効率的">効率的</a>にヌクレオチド<a href="#" class="anno 交換反応">交換反応</a>の起こる“生産的”な状態とは異なる，“非生産的”な状態であると考えられた．eIF2がリン酸化されていない場合には，eIF2のαサブユニットとeIF2B十量体の中央部のくぼみとの結合は安定ではないため“生産的”な状態へと移行しヌクレオチド交換反応が起こる（<a href="#F2">図2b</a>）．一方，eIF2がリン酸化されると，eIF2のαサブユニットとeIF2B十量体の中央部のくぼみとの結合が強固になるため“生産的”な状態をとりにくくなりヌクレオチド交換反応は抑制される（<a href="#F2">図2c</a>）．それにくわえ，eIF2とeIF2Bが安定な複合体を形成しているため，異なるeIF2分子がeIF2Bと結合することも抑制されると考えられた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　eIF2とeIF2Bとのあいだの相互作用のモデル</strong><br/>（a）eIF2とeIF2BがeIF2のαサブユニットを介して結合した状態のモデル．eIF2のβサブユニットは省略した．<br/>（b）eIF2がリン酸化されていない通常の環境におけるeIF2とeIF2Bとのあいだの相互作用のモデル．<br/>（c）eIF2がリン酸化されたストレス環境におけるeIF2とeIF2Bとのあいだの相互作用のモデル．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yokoyama-Nature-16.3.3-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　eIF2とeIF2Bとのあいだの相互作用のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yokoyama-Nature-16.3.3-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yokoyama-Nature-16.3.3-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　eIF2のリン酸化によるeIF2Bの抑制は真核生物における<a href="#" class="anno 翻訳制御">翻訳制御</a>の<a href="#" class="anno 中心的">中心的</a>な機構として知られており，おもに<a href="#" class="anno <a href="#" class="anno 遺伝学">遺伝学</a>的">遺伝学的</a>な解析により多くの知見が蓄積されている．その一方で，構造<a href="#" class="anno <a href="#" class="anno 生物学">生物学</a>的">生物学的</a>な見地からは，これまでいくつかの<a href="#" class="anno 部分構造">部分構造</a>が知られているのみであり，サブユニットの配置についてもさまざまな議論があった．今回のeIF2B十量体の構造解析はeIF2Bの<a href="#" class="anno 全体像">全体像</a>をはじめて明らかにし，eIF2Bを介した翻訳制御の分子機構について構造にもとづく議論が可能になった．今後，eIF2のαサブユニットのリン酸化によるeIF2B十量体の中央部のくぼみへの<a href="#" class="anno 親和性">親和性</a>の変化や，eIF2BのHEATドメインおよびNFモチーフによるヌクレオチド交換反応の分子機構といった，eIF2Bの関与する過程の詳細な理解へむけて，eIF2-eIF2B複合体の構造解析が待たれる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Jackson, R. J., Hellen, C. U. T. & Pestova, T. V.</span>: <span class="ti">The mechanism of eukaryotic translation initiation and principles of its regulation.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 11, 113-127 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20094052" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Wortham, N. C. & Proud, C. G.</span>: <span class="ti">eIF2B: recent structural and functional insights into a key regulator of translation.</span> <span class='so'>Biochem. Soc. Trans., 43, 1234-1240 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26614666" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Pavitt, G. D., Ramaiah, K. V. A., Kimball, S. R. et al.</span>: <span class="ti">eIF2 independently binds two distinct eIF2B subcomplexes that catalyze and regulate guanine-nucleotide exchange.</span> <span class='so'>Genes Dev., 12, 514-526 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9472020" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Gomez, E., Mohammad, S. S. & Pavitt, G. D.</span>: <span class="ti">Characterization of the minimal catalytic domain within eIF2B: the guanine-nucleotide exchange factor for translation initiation.</span> <span class='so'>EMBO J., 21, 5292-5301 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12356745" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Gomez, E. & Pavitt, G. D.</span>: <span class="ti">Identification of domains and residues within the ε subunit of eukaryotic translation initiation factor 2B (eIF2Bε) required for guanine nucleotide exchange reveals a novel activation function promoted by eIF2B complex formation.</span> <span class='so'>Mol. Cell. Biol., 20, 3965-3976 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10805739" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Yang, W. & Hinnebusch, A. G.</span>: <span class="ti">Identification of a regulatory subcomplex in the guanine nucleotide exchange factor eIF2B that mediates inhibition by phosphorylated eIF2.</span> <span class='so'>Mol. Cell. Biol., 16, 6603-6616 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8887689" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Wek, R. C., Jiang, H. Y. & Anthony, T. G.</span>: <span class="ti">Coping with stress: eIF2 kinases and translational control.</span> <span class='so'>Biochem. Soc. Trans., 34, 7-11 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16246168" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Pavitt, G. D. & Proud, C. G.</span>: <span class="ti">Protein synthesis and its control in neuronal cells with a focus on vanishing white matter disease.</span> <span class='so'>Biochem. Soc. Trans., 37, 1298-1310 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19909266" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Mukai, T., Yanagisawa, T., Ohtake, K. et al.</span>: <span class="ti">Genetic-code evolution for protein synthesis with non-natural amino acids.</span> <span class='so'>Biochem. Biophys. Res. Commun., 411, 757-761 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21782790" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Ito, T., Marintchev, A. & Wagner, G.</span>: <span class="ti">Solution structure of human initiation factor eIF2α reveals homology to the elongation factor eEF1B.</span> <span class='so'>Structure, 12, 1693-1704 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15341733" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Yatime, L., Mechulam, Y., Blanquet, S. et al.</span>: <span class="ti">Structure of an archaeal heterotrimeric initiation factor 2 reveals a nucleotide state between the GTP and the GDP states.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 104, 18445-18450 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18000047" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_02.html" target="_blank">14.2 Basic Mechanisms of Intracellular Signal Transduction</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_06.html" target="_blank">3.6 Gain-of-Function Mutations</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/13_02.html" target="_blank">13.2 Cell Cycle Regulation Factors: Cyclin-CDK Complex</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_06.html" target="_blank">9.6 Formation of Higher-order Structure and Post-translational Modification</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/02_05.html" target="_blank">2.5 Proliferation and Growth of Organisms and Environment</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">柏木 一宏（Kazuhiro Kashiwagi）</span><br>略歴：2014年 東京大学大学院理学系研究科 修了，同年より理化学研究所ライフサイエンス技術基盤研究センター 特別研究員．<br>研究テーマ：eIF2Bを介した翻訳制御の分子機構．<br><br><strong>伊藤 拓宏（Takuhiro Ito）</strong><br>理化学研究所ライフサイエンス技術基盤研究センター ユニットリーダー．<br><br><strong>横山 茂之（Shigeyuki Yokoyama）</strong><br>理化学研究所 上席研究員．<br></div><br>© 2016 柏木一宏・伊藤拓宏・横山茂之 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Mcm8とMcm9は複合体を形成しDNA二本鎖間架橋のひき起こす相同組換え修復において機能する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/5309" rel="bookmark">Mcm8とMcm9は複合体を形成しDNA二本鎖間架橋のひき起こす相同組換え修復において機能する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>西村浩平・鐘巻将人</strong><br>（国立遺伝学研究所 新分野創造センター分子機能研究室）<br>email：<a href="mailto:konishim@nig.ac.jp">西村浩平</a>，<a href="mailto:mkanemak@nig.ac.jp">鐘巻将人</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.092">10.7875/first.author.2012.092</a><br><div class="reference"><br><span class="ti">Mcm8 and Mcm9 form a complex that functions in homologous recombination repair induced by DNA interstrand crosslinks.</span><br><span class="au">Kohei Nishimura, Masamichi Ishiai, Kazuki Horikawa, Tatsuo Fukagawa, Minoru Takata, Haruhiko Takisawa, Masato T. Kanemaki</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22771115" target="_blank"><em>Molecular Cell</em>, <strong>47</strong>, 511-522 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　遺伝子をコードしているDNAは<a href="#" class="anno 化学物質">化学物質</a>や紫外線といった<a href="#" class="anno 環境要因">環境要因</a>によりさまざまな損傷をうける．<a href="#" class="anno DNA損傷">DNA損傷</a>のひとつであるDNA<a href="#" class="anno 二本鎖">二本鎖</a>間架橋は，複製や転写といった細胞の増殖に必須な機能を阻害してしまうため，増殖している細胞に対する毒性は非常に高い．<a href="#" class="anno そのため">そのため</a>，DNA二本<a href="#" class="anno 鎖間">鎖間</a>架橋を形成する<a href="#" class="anno シスプラチン">シスプラチン</a>などの薬剤は<a href="#" class="anno <a href="#" class="anno 抗がん">抗がん</a>剤">抗がん剤</a>として利用されている．これまでの研究により，DNA二本鎖間架橋の修復はお<a href="#" class="anno も">も</a>に<a href="#" class="anno 細胞周期">細胞周期</a>の<a href="#" class="anno S期">S期</a>において<a href="#" class="anno DNA複製">DNA複製</a>と共役して起こっており，<a href="#" class="anno ファンコニ貧血症">ファンコニ貧血症</a><a href="#" class="anno 原因遺伝子">原因遺伝子</a>産物，<a href="#" class="anno TLS">TLS</a><a href="#" class="anno ポリメラーゼ">ポリメラーゼ</a>，<a href="#" class="anno <a href="#" class="anno 相">相</a>同">相同</a><a href="#" class="anno 組換え">組換え</a>タンパク質など多くのタンパク質の関与した複雑な機構であることが明らかになりつつある．この研究では，DNA複製に必須の複製<a href="#" class="anno ヘリ<a href="#" class="anno カ">カ</a>ーゼ">ヘリカーゼ</a>である<a href="#" class="anno Mcm2">Mcm2</a>-7<a href="#" class="anno 複合体">複合体</a>の<a href="#" class="anno 構成タンパク質">構成タンパク質</a>の<a href="#" class="anno ファミリータンパク質">ファミリータンパク質</a>である<a href="#" class="anno Mcm8">Mcm8</a>と<a href="#" class="anno Mcm9">Mcm9</a>が，脊椎動物においてMcm2-7複合体と類似した複合体を形成し，そのMcm8-9複合体がDNA二本鎖間架橋の修復のときに必要とされる<a href="#" class="anno 相同組換え">相同組換え</a>修復反応の促進に作用していることを示した．<br/><br/><h2>はじめに</h2><br/>　Mcm2-7複合体は同一の祖先タンパク質から進化したMcm2から<a href="#" class="anno Mcm7">Mcm7</a>までの6つの構成タンパク質からなるリング状の<a href="#" class="anno 六量体">六量体</a>であり，複製ヘリカーゼとして機能するため<a href="#" class="anno 真核生物">真核生物</a>のDNA複製において必須である．近年のめざましい<a href="#" class="anno ゲノム解析">ゲノム解析</a>により新たに，多くの真核生物のゲノムにおいて<a href="#" class="anno 同じ">同じ</a>祖先タンパク質から進化した2つの<em><a href="#" class="anno MCM">MCM</a></em>遺伝子の存在していることが明らかになり，<em><a href="#" class="anno MCM8">MCM8</a></em>遺伝子，<em><a href="#" class="anno MCM9">MCM9</a></em>遺伝子と命名された（<a href="#F1">図1</a>）．興味深いことに，すべての真核生物は<em>M<a href="#" class="anno CM2">CM2</a></em>遺伝子から<em><a href="#" class="anno MCM7">MCM7</a></em>遺伝子までを保持しているのに対し，<em>MCM8</em>遺伝子と<em>MCM9</em>遺伝子は酵母や<a href="#" class="anno 線虫">線虫</a>など一部の真核生物には存在しない．さらに，ほとんどの<a href="#" class="anno 生物種">生物種</a>において<em>MCM8</em>遺伝子と<em>MCM9</em>遺伝子は<a href="#" class="anno 共進化">共進化</a>しているようにみられる<a href="#R1"><sup>1)</sup></a>．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　真核生物の保持するMcmファミリータンパク質</strong><br/>脊椎動物を含む多くの真核生物は<em>MCM2</em>遺伝子から<em>MCM9</em>遺伝子の8つの<em>MCM</em>ファミリー遺伝子を保持している．それぞれの遺伝子からつくられるタンパク質には，多量体の形成に寄与すると考えられるジンクフィンガードメイン（緑色），ATPase活性に関与するWalker AモチーフとWalker Bモチーフ（紫色），および，Argフィンガーモチーフ（青色），Mcmへリカーゼドメイン（ピンク色）が高度に保存されている．Mcm2からMcm7はヘテロ六量体を形成し複製へリカーゼとして機能するためDNA複製に必須である．一方，Mcm8およびMcm9については，その機能はよく理解されていなかった．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/07/Kanemaki-Molecular-Cell-12.7.26-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　真核生物の保持するMcmファミリータンパク質" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kanemaki-Molecular-Cell-12.7.26-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kanemaki-Molecular-Cell-12.7.26-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　アフリカ<a href="#" class="anno ツメガエル">ツメガエル</a>卵<a href="#" class="anno 母細胞">母細胞</a>の<a href="#" class="anno 無細胞">無細胞</a>複製系や<a href="#" class="anno 培養細胞">培養細胞</a>を用いた過去の研究において，Mcm8とMcm9は別個にDNA複製反応に関与すると報告されていた<a href="#R2"><sup>2-4)</sup></a>．一方で，ショウジョウバエMcm8は<a href="#" class="anno 減数分<a href="#" class="anno 裂">裂</a>">減数分裂</a>組換えに機能することや，ヒト女性の閉経時期に<em>MCM8</em>遺伝子の変異が影響していることも報告されている<a href="#R5"><sup>5-7)</sup></a>．筆者らは，Mcm8とMcm9の<a href="#" class="anno 機能的">機能的</a>な<a href="#" class="anno 関係性">関係性</a>に焦点をあて，<a href="#" class="anno <a href="#" class="anno 遺伝学">遺伝学</a>的">遺伝学的</a>な改変が可能なニワトリD<a href="#" class="anno T4">T4</a>0細胞を用いてその<a href="#" class="anno 機能解析">機能解析</a>を行った．<br/><br/><h2>1．Mcm8とMcm9はMcm2-7複合体とは独立した複合体を形成する</h2><br/>　細胞におけるMcm8およびMcm9の機能を解析するため，<em>MCM8</em>遺伝子の<a href="#" class="anno ノックアウト細胞">ノックアウト細胞</a>および<em>MCM9</em>遺伝子のノックアウト細胞を作製した．この2つのノックアウト細胞におけるタンパク質の発現を解析したところ，<em>MCM8</em><a href="#" class="anno 遺伝子ノックアウト">遺伝子ノックアウト</a>細胞においてはMcm9の減少が，また，<em>MCM9</em>遺伝子ノックアウト細胞においてもMcm8の弱い減少が確認された．この結果から，Mcm8とMcm9とが相互の<a href="#" class="anno 安定性">安定性</a>を保つために<a href="#" class="anno 物理的">物理的</a>な<a href="#" class="anno 相互作用">相互作用</a>をもつことが示唆されたので，<a href="#" class="anno 免疫沈降">免疫沈降</a>実験を行った．その結果，Mcm8あるいはMcm9を免疫沈降すると，互いの<a href="#" class="anno 大部分">大部分</a>は<a href="#" class="anno <a href="#" class="anno 共沈">共沈</a>降">共沈降</a>した．しかしながら，同じ<a href="#" class="anno タンパク質ファミリー">タンパク質ファミリー</a>であるにもかかわらず，Mcm2-7複合体の構成タンパク質には共沈降はまったく認められなかった．この結果は，Mcm8とMcm9はMcm2-7複合体とは独立した複合体を形成していることを示していた．さらに，Mcm8-9複合体の<a href="#" class="anno 大きさ">大きさ</a>を調べるため細胞<a href="#" class="anno 抽出液">抽出液</a>を<a href="#" class="anno ゲルろ過">ゲルろ過</a>により<a href="#" class="anno 分画">分画</a>したところ，その大きさはMcm2-7複合体とほぼ同じであり，おそらく，類似の六量体を構成しているものと推察された．Mcm2-7複合体の個々の構成タンパク質はDNA複製に必須であるためノックアウト細胞を作製することはできないが，Mcm8とMcm9はそれぞれノックアウト細胞を作製することが可能であった．この結果は，Mcm8とMcm9はDNA複製に必須では<a href="#" class="anno ないこと">ないこと</a>を示していた．さらに，Mcm8とMcm9は複合体として機能し，Mcm2-7複合体とは異なるはたらきをもつことが示唆された．<br/><br/><h2>2．<em>MCM8</em>遺伝子ノックアウト細胞および<em>MCM9</em>遺伝子ノックアウト細胞は<a href="#" class="anno DNA鎖">DNA鎖</a><a href="#" class="anno 架橋剤">架橋剤</a>に高い感受性を示す</h2><br/>　脊椎動物の培養細胞においてMcm8-9複合体がどのような機能をもつかを確かめるため，<em>MCM8</em>遺伝子ノックアウト細胞および<em>MCM9</em>遺伝子ノックアウト細胞がどのような<a href="#" class="anno 表現型">表現型</a>を示すかを解析した．それぞれのノックアウト細胞において細胞周期におけるステージを比較したところ，<em>MCM8</em>遺伝子ノックアウト細胞および<em>MCM9</em>遺伝子ノックアウト細胞では<a href="#" class="anno 野生型">野生型</a>の細胞と比べ<a href="#" class="anno G2期">G2期</a>/<a href="#" class="anno M期">M期</a>にある細胞の割合が増加していた．さらにくわしく調べたところ，DNA<a href="#" class="anno 含量">含量</a>が2C未満の<a href="#" class="anno 死細胞">死細胞</a>の割合も増加していることがわかった．以上の結果は，なんらかのDNA損傷が蓄積していることが原因として考えられたため，さまざまなDNA損傷に対する感受性を調べた．<em>MCM8</em>遺伝子ノックアウト細胞および<em>MCM9</em>遺伝子ノックアウト細胞は放射線，紫外線，<a href="#" class="anno メチル">メチル</a>メタンスルホン酸に対して弱い感受性しか示さなかったが，シスプラチンや<a href="#" class="anno マイトマイシンC">マイトマイシンC</a>といったDNA鎖架橋剤に対し高い感受性を示した．さらに，レポータータンパク質である<a href="#" class="anno GFP">GFP</a>を結合させたMcm8あるいはMcm9を発現させ細胞における局在を観察したところ，マイトマイシンCで処理するとMcm8およびMcm9は核においてフォーカスを形成し，<a href="#" class="anno Rad51">Rad51</a>と<a href="#" class="anno 部分的">部分的</a>に<a href="#" class="anno 共局在">共局在</a>することがわかった．Rad51は<a href="#" class="anno DNAの損傷">DNAの損傷</a>部位に集積し相同組換え修復を行うことが知られている．そのため，Mcm8-9複合体もDNA二本鎖間架橋の修復にかかわるのではないかと考えられた．<br/><br/><h2>3．Mcm8-9複合体は<a href="#" class="anno A<a href="#" class="anno TP">TP</a><a href="#" class="anno ase">ase</a>">ATPase</a>およびヘリカーゼとして機能する</h2><br/>　Mcm8とMcm9を含むすべてのMcmファミリータンパク質は<a href="#" class="anno AAA">AAA</a><sup>+</sup> ATPaseファミリーに属しており，ファミリーのあいだで保存されたMcmヘリカーゼドメインをその<a href="#" class="anno 中心部">中心部</a>に保持している．Mcmヘリカーゼドメインの内部にはATPの結合および<a href="#" class="anno 加水分解">加水分解</a>に必要なWalker AモチーフとWalker Bモチーフ，そして，となりあった<a href="#" class="anno サブユニット">サブユニット</a>のATPase<a href="#" class="anno 活性化">活性化</a>に必要なArgフィンガーモチーフが含まれている．これらのモチーフがDNA鎖架橋剤に対する<a href="#" class="anno 抵抗性">抵抗性</a>に必要であるかどうかを解析した．<em>MCM8</em>遺伝子ノックアウト細胞および<em>MCM9</em>遺伝子ノックアウト細胞にそれぞれの野生型の遺伝子をコードする<a href="#" class="anno cDNA">cDNA</a>を導入するとシスプラチンに対する感受性は回復したが，Walker AモチーフあるいはArgフィンガーモチーフに変異をもつそれぞれの遺伝子をコードするcDNAを導入したときにはシスプラチンに対する感受性を回復させることはできなかった．以上の結果は，DNA鎖架橋剤に対する抵抗性を発揮するときにはMcm8とMcm9のもつATPase活性が必要であり，Mcm8-9複合体はヘリカーゼとして機能していることを示唆していた．<br/><br/><h2>4．Mcm8-9複合体はFAN<a href="#" class="anno CD2">CD2</a>とRad51の下流において相同組換え修復反応の促進に関与する</h2><br/>　脊椎動物においてDNA二本鎖間架橋の修復には，ファンコニ貧血症原因<a href="#" class="anno 遺伝子産物">遺伝子産物</a>，TLSポリメラーゼ，Rad51など，多岐にわたるタンパク質が機能していることが明らかになっている<a href="#R8"><sup>8)</sup></a>．この<a href="#" class="anno 修復経路">修復経路</a>においては，ファンコニ貧血症原因遺伝子産物のひとつ<a href="#" class="anno FANCD2">FANCD2</a>のモノ<a href="#" class="anno ユビ<a href="#" class="anno キチン">キチン</a>">ユビキチン</a>化とRad51の損傷部位への結合の必要であることがすでにわかっている．そこで，Mcm8-9複合体がDNA二本鎖間架橋の修復にどのようにかかわっているのかを調べるため，<em>MCM8</em>遺伝子ノックアウト細胞および<em>MCM9</em>遺伝子ノックアウト細胞においてFANCD2のモノ<a href="#" class="anno ユビキチン化">ユビキチン化</a>やRad51の<a href="#" class="anno フォーカス形成">フォーカス形成</a>および<a href="#" class="anno クロマチン">クロマチン</a>への結合量を確認したが，野生型の細胞との違いは観察されなかった．しかしながら，FANCD2を<a href="#" class="anno 欠失">欠失</a>させた細胞やRad51の損傷部位への結合が阻害される変異をもつ細胞においては，野生型の細胞と比較してDNA二本鎖間架橋に<a href="#" class="anno 依存的">依存的</a>なMcm9のフォーカス形成が減少していた．この結果は，FANCD2の<a href="#" class="anno モノユビキチン化">モノユビキチン化</a>とRad51の損傷部位への集積ののちにMcm8-9複合体は呼び込まれることを示しており，Mcm8-9複合体はそのあとの相同組換え修復のときにはたらくことが予想された．<a href="#" class="anno 実際">実際</a>に，<em>MCM8</em>遺伝子ノックアウト細胞および<em>MCM9</em>遺伝子ノックアウト細胞において相同組換えの効率が大幅に減少していただけでなく，DNA二本鎖間架橋によりひき起こされる相同組換えによる娘<a href="#" class="anno 染色体">染色体</a>のあいだの交差の頻度が大きく低下していたことから，Mcm8-9複合体は相同組換えに機能することが明らかになった．以上の結果から，Mcm8-9複合体はDNA二本鎖間架橋のひき起こす相同組換え修復反応を促進する機能をもつと結論された（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　DNA二本鎖間架橋の修復におけるMcm8-9複合体の作用機構のモデル</strong><br/>DNA二本鎖間架橋はS期におけるDNA複製のとき，複製フォークにおいてヘリカーゼとして機能するMcm2-7複合体の進行を阻害する．そののち，ユビキチンリガーゼ複合体であるFANCコア複合体がFANCD2-FANCI複合体をモノユビキチン化することにより，ヌクレアーゼであるXPF-ERCC1，Mus81-Eme1，FAN1が呼び込まれるものと考えられる．その結果，DNAの切断が起こり，同時に，TLSポリメラーゼにより架橋の部分がバイパスされる．一方，BRCA2に依存的にRad51が損傷部位へと呼び込まれ，相同組換え修復が開始する．Mcm8-9複合体はこの相同組換え修復の過程でヘリカーゼとして機能していると考えられる．<br/>Ub：ユビキチン．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/07/Kanemaki-Molecular-Cell-12.7.26-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　DNA二本鎖間架橋の修復におけるMcm8-9複合体の作用機構のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kanemaki-Molecular-Cell-12.7.26-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kanemaki-Molecular-Cell-12.7.26-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究では，ニワトリの<a href="#" class="anno DT40細胞">DT40細胞</a>を用いてMcm8およびMcm9の解析を行い，この2つのタンパク質が複合体を形成し，DNA二本鎖間架橋を修復するときの相同組換え修復においてはたらくことを示した．ショウジョウバエMcm8が減数<a href="#" class="anno 分裂期">分裂期</a>における交差型の組換えに必要であるという報告，<em>MCM9</em>遺伝子の<a href="#" class="anno ノックアウトマウス">ノックアウトマウス</a>においては，がんが生じやすいだけでなく<a href="#" class="anno 生殖細胞">生殖細胞</a>の形成に影響がみられるという報告，ヒト<em>MCM8</em>遺伝子と閉経時期との関連などは，非常に興味深い<a href="#R5"><sup>5-7,9)</sup></a>．筆者らが明らかにしたMcm8-9複合体が相同組換え修復に関与するという事実は，Mcm8-9複合体が<a href="#" class="anno 減数分裂組換え">減数分裂組換え</a>にも関与する<a href="#" class="anno 可能性">可能性</a>を示唆している．実際に，同じ時期に発表された論文は，マウスのMcm8およびMcm9が減数分裂組換えに機能していることを示している<a href="#R10"><sup>10)</sup></a>．今後は，Mcm8-9複合体のより詳細な<a href="#" class="anno 分子機能">分子機能</a>ならびに<a href="#" class="anno 立体構造">立体構造</a>の明らかにされることが期待される．真核生物の祖先と考えられている<a href="#" class="anno 古細菌">古細菌</a>にはMcm8およびMcm9の祖先と考えられるタンパク質を保持しているものもあり，Mcm8-9複合体による組換えの制御は真核生物への進化の初期過程から保存されているものと考えられる．酵母や線虫などいくつかの生物種は<em>MCM8</em>遺伝子および<em>MCM9</em>遺伝子をもたないことから，組換え修復反応の進化なども明らかになるであろう．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Liu, Y., Richards, T. A. & Aves, S. J.</span>: <span class="ti">Ancient diversification of eukaryotic MCM DNA replication proteins.</span> <span class='so'>BMC Evol. Biol., 9, 60 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19292915" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Volkening, M. & Hoffmann, I.</span>: <span class="ti">Involvement of human MCM8 in prereplication complex assembly by recruiting hcdc6 to chromatin.</span> <span class='so'>Mol. Cell. Biol., 25, 1560-1568 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15684404" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Maiorano, D., Cuvier, O., Danis, E. et al.</span>: <span class="ti">MCM8 is an MCM2-7-related protein that functions as a DNA helicase during replication elongation and not initiation.</span> <span class='so'>Cell, 120, 315-328 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15707891" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Lutzmann, M. & Mechali, M.</span>: <span class="ti">MCM9 binds Cdt1 and is required for the assembly of prereplication complexes.</span> <span class='so'>Mol. Cell, 31, 190-200 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18657502" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Matsubayashi, H. & Yamamoto, M. T.</span>: <span class="ti">REC, a new member of the MCM-related protein family, is required for meiotic recombination in <em>Drosophila</em>.</span> <span class='so'>Genes Genet. Syst., 78, 363-371 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14676427" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Blanton, H. L., Radford, S. J., McMahan, S. et al.</span>: <span class="ti">REC, <em>Drosophila</em> MCM8, drives formation of meiotic crossovers.</span> <span class='so'>PLoS Genet., 1, e40 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16189551" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>He, C., Kraft, P., Chen, C. et al.</span>: <span class="ti">Genome-wide association studies identify loci associated with age at menarche and age at natural menopause.</span> <span class='so'>Nat. Genet., 41, 724-728 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19448621" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Deans, A. J. & West, S. C.</span>: <span class="ti">DNA interstrand crosslink repair and cancer.</span> <span class='so'>Nat. Rev. Cancer, 11, 467-480 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21701511" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Hartford, S. A., Luo, Y., Southard, T. L. et al.</span>: <span class="ti">Minichromosome maintenance helicase paralog MCM9 is dispensible for DNA replication but functions in germ-line stem cells and tumor suppression.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 108, 17702-17707 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21987787" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Lutzmann, M., Grey, C., Traver, S. et al.</span>: <span class="ti">MCM8- and MCM9-deficient mice reveal gametogenesis defects and genome instability due to impaired homologous recombination.</span> <span class='so'>Mol. Cell, 47, 523-534 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22771120" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_06.html" target="_blank">3.6 Gain-of-Function Mutations</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/13_03.html" target="_blank">13.3 Checkpoint mechanisms in the cell cycle</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/07_03.html" target="_blank">7.3 Genes and DNA</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_05.html" target="_blank">3.5 Genetic Mutations and Dominance/Recession</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_07.html" target="_blank">12.7 Proteasomes and Ubiquitination</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">西村 浩平（Kohei Nishimura）</span><br>略歴：2010年 大阪大学大学院理学研究科博士課程 修了，同年 同 特任研究員を経て，2011年より国立遺伝学研究所 研究員．<br><br><strong>鐘巻 将人（Masato Kanemaki）</strong><br>国立遺伝学研究所 准教授．<br>研究室URL：<a href="http://www.nig.ac.jp/labs/MolFunc/Molecular_Function_HP/Home.html" target="_blank">http://www.nig.ac.jp/labs/MolFunc/Molecular_Function_HP/Home.html</a><br></div><br>© 2012 西村浩平・鐘巻将人 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> エンドサイトーシス経路によるNotchシグナルの温度補償 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/8896" rel="bookmark">エンドサイトーシス経路によるNotchシグナルの温度補償</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>志水 英之</strong><br>（英国Manchester大学Faculty of Life Sciences）<br>email：<a href="mailto:hideyuki.shimizu@manchester.ac.uk">志水英之</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.080">10.7875/first.author.2014.080</a><br><div class="reference"><br><span class="ti">Compensatory flux changes within an endocytic trafficking network maintain thermal robustness of Notch signaling.</span><br><span class="au">Hideyuki Shimizu, Simon A. Woodcock, Marian B. Wilkin, Barbora Trubenová, Nicholas A.M. Monk, Martin Baron</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24855951" target="_blank"><em>Cell</em>, <strong>157</strong>, 1160-1174 (2014)</a></span></div><br><!--more--><br><h2>要 約</h2><br/>　発生にかかわるシグナルは温度をはじめとしたさまざまな環境の変化に対し高い<a href="#" class="anno 堅牢性">堅牢性</a>を示す．たとえば，変温動物であるショウジョウバエの<a href="#" class="anno <a href="#" class="anno Not">Not</a>ch">Notch</a>シグナルは，広い温度範囲において一定の機能を維持している．筆者らは，<a href="#" class="anno 実験的">実験的</a>な手法と<a href="#" class="anno 理論的">理論的</a>な手法とを組み合わせることにより，多様な<a href="#" class="anno エンドサイトーシス">エンドサイトーシス</a>経路によるNotchの<a href="#" class="anno 活性化">活性化</a>と<a href="#" class="anno リガンド">リガンド</a>に<a href="#" class="anno 依存的">依存的</a>なNotchの活性化をあわせた<a href="#" class="anno も">も</a>のが，<a href="#" class="anno Notchシグナル">Notchシグナル</a>の温度補償をはたしていることを示した．これは<a href="#" class="anno 相">相</a>反するNotchのエンドサイトーシス経路が温度によりバランスを変化させることによるものであった．低温ではNotchシグナルを亢進し高温では抑制するエンドサイトーシス経路のアンサンブルが，リガンドに依存的なNotchシグナルの活性化に備わる温度に対する<a href="#" class="anno 依存性">依存性</a>をおぎなっていた．その結果，正常な発生の起こりうる<a href="#" class="anno 生理的">生理的</a>な温度の範囲が広がることになる．ほかのシグナルにおいても，同様の機構が温度に対する堅牢性に貢献しているのかもしれない．<br/><br/><h2>はじめに</h2><br/>　生物の発生はある程度の内的あるいは外的な差異に影響されず正常に起こり，この概念は堅牢性（robustness）とよばれる<a href="#R1"><sup>1,2)</sup></a>．いい換えれば，個々の<a href="#" class="anno 細胞内">細胞内</a>シグナルはつねに一定の強度を保つよう<a href="#" class="anno デ">デ</a>ザインされていると考えられる．とくに，ショウジョウバエなどの変温動物は広い範囲の温度のもと正常に発生するが，その過程において，温度補償の機構がさまざまな<a href="#" class="anno <a href="#" class="anno シグナル伝達">シグナル伝達</a>経路">シグナル<a href="#" class="anno 伝達経路">伝達経路</a></a>をどのように一定の結果に導くのかについてはほとんど明らかにされていない．<br/>　Notchシグナルは発生の過程においてさまざまな<a href="#" class="anno 細胞運命">細胞運命</a>の決定に機能している<a href="#R3"><sup>3)</sup></a>．<a href="#" class="anno Delta">Delta</a>（Dl）や<a href="#" class="anno Ser">Ser</a>rateなどのリガンドがNotchに結合すると，Notch<a href="#" class="anno 細胞外">細胞外</a>ドメイン（Notch ex<a href="#" class="anno tra">tra</a><a href="#" class="anno c<a href="#" class="anno ell">ell</a>">cell</a>ular d<a href="#" class="anno oma">oma</a>in：NECD）およびNotch<a href="#" class="anno 細胞内ドメイン">細胞内ドメイン</a>（Notch <a href="#" class="anno int">int</a>r<a href="#" class="anno ace">ace</a>llular <a href="#" class="anno dom">dom</a>ain：<a href="#" class="anno NICD">NICD</a>）がそれぞれ<a href="#" class="anno Ku">Ku</a>zbanian（Kuz）およびPreseni<a href="#" class="anno lin">lin</a>により<a href="#" class="anno 段階的">段階的</a>に切り離され，このNICDが<a href="#" class="anno 活性型">活性型</a>のNotchとして核においてSup<a href="#" class="anno pre">pre</a>ssor of HairlessやMas<a href="#" class="anno <a href="#" class="anno ter">ter</a>m">t<a href="#" class="anno erm">erm</a></a>indと<a href="#" class="anno 複合体">複合体</a>を形成し<a href="#" class="anno 標的遺伝子">標的遺伝子</a>の転写を制御する．一方，Deltex（Dx）によるNotchの活性化はリガンドを必要とせずエンドサイトーシスを介して行われ，<a href="#" class="anno エンドソーム">エンドソーム</a>の表面にてNICDが<a href="#" class="anno Presenilin">Presenilin</a>によりNICDが切り離されることによりNotchは活性化する．Su(dx) はH<a href="#" class="anno E<a href="#" class="anno CT">CT</a>">ECT</a>型<a href="#" class="anno <a href="#" class="anno ユビ<a href="#" class="anno キチン">キチン</a>">ユビキチン</a><a href="#" class="anno リガーゼ">リガーゼ</a>">ユビキチンリガーゼ</a>であり，Notchをエンドソームの内部に導くことによりDxによる活性化をさまたげる<a href="#R4"><sup>4)</sup></a>．Notchシグナルは温度の変化に対し高い<a href="#" class="anno 安定性">安定性</a>を示すが<a href="#R5"><sup>5)</sup></a>，<em>dx</em><a href="#" class="anno 変異体">変異体</a>や<em>Su(dx)</em> 変異体など<a href="#" class="anno 小胞">小胞</a>輸送にかかわる変異体ではそれが損なわれることがある<a href="#R6"><sup>6)</sup></a>．この研究では，DxとSu(dx) によるNotchのエンドサイトーシス経路の正と負のネットワークが存在し，それぞれが異なる<a href="#" class="anno 分子機構">分子機構</a>および<a href="#" class="anno 温度感受性">温度感受性</a>をもつことを明らかにした．このエンドサイトーシス経路のネットワークがNotchシグナルの温度補償性に貢献し，ショウジョウバエが正常に発生できる温度の範囲を広げていると考えられた．<br/><br/><h2>1．Notchの活性化における複数のシグナル伝達経路と相反する<a href="#" class="anno 温度依存性">温度依存性</a></h2><br/>　Notchの活性化はリガンドとの結合，あるいは，エンドソームへのエンドサイトーシスにより起こる．まず，ショウジョウバエの<a href="#" class="anno 培養細胞">培養細胞</a>である<a href="#" class="anno S2細胞">S2細胞</a>を用いた<a href="#" class="anno ルシフェラーゼ">ルシフェラーゼ</a><a href="#" class="anno アッセイ">アッセイ</a>により，これらを再現することに成功した．さらに，Dxあるいはリガンドの<a href="#" class="anno 過剰発現">過剰発現</a>，および，それぞれの<a href="#" class="anno 結合部">結合部</a>位の変異体を用いることにより，これら2つのNotchの活性化の経路は互いに独立したものであることがわかった．<br/>　それぞれのNotchの活性化の経路について温度感受性を調べてみたところ，Dxは低温において，リガンドは高温において，より高くシグナルを活性化することがわかった．本来，Notchシグナルは広い温度範囲のもと安定しているが，<em>dx</em>変異体ではNotchの活性化が十分ではなく，その影響は高温でより大きくなる．これは，Su(dx) がNotchシグナル（Dxあるいはリガンドに依存的なものを含め）を高温でより<a href="#" class="anno 効果的">効果的</a>に<a href="#" class="anno <a href="#" class="anno 不活性">不活性</a>化">不活性化</a>するためであることが明らかになり，Su(dx) には高温におけるNotchの過剰な活性化を防止する機能があると考えられた．すなわち，ここで見い出されたものは，異なる温度依存性をもつNotchシグナルの正と負の<a href="#" class="anno 制御機構">制御機構</a>であり，それらが組み合わさることにより，さまざまな条件のもとでも一定のNotchシグナルを維持できる温度補償の機構がなりたっていると思われた（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Notchの活性化とエンドサイトーシスの経路</strong><br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/06/Shimizu-Cell-14.5.22-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Notchの活性化とエンドサイトーシスの経路" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shimizu-Cell-14.5.22-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shimizu-Cell-14.5.22-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．DxあるいはSu(dx) によるNotchエンドサイトーシスの異なる温度依存性</h2><br/>　Notchが単独で存在するときにもそのエンドサイトーシスはゆるやかに起こるが，Su(dx) の過剰発現によりNotchのエンドサイトーシスは大きく促進される．これらの速度はともに高温においてより速くなるが，Dxに依存的なNotchのエンドサイトーシスは温度の変化の影響をうけない．DxあるいはSu(dx) によるエンドサイトーシスはどちらも<a href="#" class="anno 初期エンドソーム">初期エンドソーム</a>および<a href="#" class="anno 後期エンドソーム">後期エンドソーム</a>を通過するという点は共通している．しかし，DxはNotchをシグナルの活性化の起こるエンドソームの表面に局在させ，一方，Su(dx) はNotchを分解が起こるエンドソームの内部へと誘導する．このDxおよびSu(dx) の機能は温度に依存的であり，それぞれ高温および低温で失われることがわかった．また，Su(dx) の機能はDxに対し優先された．<br/>　Su(dx) はHECT型ユビキチンリガーゼであり，NotchはSu(dx) のHECTドメインにより<a href="#" class="anno ユビキチン化">ユビキチン化</a>されエンドソームの内部へと誘導される．この機能は温度に依存していたことから，HECTドメインによるNotchのエンドソームの内部への移行は，温度に依存的なもうひとつの現象であることがわかった．HECTドメインが機能しない<em>Su(dx)</em> 変異体はNotchをユビキチン化することができなかった．その結果，Notchはエンドソームの表面にとどまり，逆に，Notchシグナルを活性化した．これが，Su(dx) が低温においてNotchを活性化する理由と思われた．<br/>　以上の結果から，DxおよびSu(dx) によるNotchのエンドサイトーシスの経路は互いに異なることが示唆された．<a href="#" class="anno RNAi">RNAi</a>法を用いた解析により，これらのエンドサイトーシスはともに<a href="#" class="anno ダイナミン">ダイナミン</a>に依存的であったが，Dxによるエンドサイトーシス経路のみが<a href="#" class="anno クラスリン">クラスリン</a>に依存的であることがわかった（<a href="#F1">図1</a>）．<br/><br/><h2>3．DxとSu(dx) によるNotchの2つのエンドサイトーシス経路</h2><br/>　<a href="#" class="anno GPI">GPI</a><a href="#" class="anno アン<a href="#" class="anno カ">カ</a>ー型タンパク質">アンカー型タンパク質</a>は<a href="#" class="anno ラフト">ラフト</a>のような膜ドメインのマーカーとして用いられる．25℃において，NotchはSu(dx) によりGPI陽性の膜ドメインにエンドサイトーシスされ，一方，DxはNotchをGPI陰性の膜ドメインに局在させることがわかった．また，DxとSu(dx) を<a href="#" class="anno 共発現">共発現</a>する細胞ではNotchはGPI陽性の膜ドメインにエンドサイトーシスされた．このようなDxあるいはSu(dx) に依存した異なるNotchの局在は<a href="#" class="anno 翅">翅</a><a href="#" class="anno 原基">原基</a>においても観察された．このようなラフト様膜ドメインの機能はコレステロールに依存することが知られている．Dxに依存的なNotchのエンドサイトーシスはコレステロールを必要としなかったが，過剰なコレステロールはDxの機能を阻害した．一方，コレステロールの除去はSu(dx) に依存的なエンドサイトーシスを阻害し，これはコレステロールの添加によりレスキューされた．<br/>　Dxの機能とSu(dx) の機能との<a href="#" class="anno 競合性">競合性</a>と温度変化との<a href="#" class="anno 関連性">関連性</a>をより詳細に調べた．25℃ではNotchのエンドサイトーシスは一貫して，Su(dx) によりGPI陽性の膜ドメインへの経路，DxによりGPI陰性の膜ドメインへの経路をとった．DxとSu(dx) を共発現した場合，最初はおもにGPI陰性の膜ドメインへの経路をとったが，そののち，GPI陽性の膜ドメインへの経路に移行することがわかった．このことは，Notchのエンドサイトーシスの経路は途中で転換可能であることを示していた．<a href="#" class="anno 実際">実際</a>に，DxによるNotchのエンドサイトーシスは，<a href="#" class="anno 同じ">同じ</a>エンドソームにおいてGPI陽性の膜ドメインに隣接することがあった．さらに，温度の変化はこのDxの機能とSu(dx) の機能とのバランスに影響し，18℃ではSu(dx) によるNotchのGPI陽性の膜ドメインへの経路への移行はほとんど起こらなかった一方で，29℃ではこの移行はより速く進んだ．すなわち，Dxの機能とSu(dx) の機能が温度に依存して競合し，その結果，Notchの<a href="#" class="anno 最終的">最終的</a>な運命，<a href="#" class="anno つまり">つまり</a>，エンドソームの表面における活性化あるいは内部における不活性化が決定されると思われた（<a href="#F1">図1</a>）．<br/><br/><h2>4．Notchの活性化のそれぞれの経路と異なる分子機構</h2><br/>　Notch単独での活性化とDxに依存的なNotchの活性化とでは逆の温度依存性がみられたことから，異なる活性化の機構の関与が予測された．コレステロールの枯渇はNotch単独での活性化を抑制したが，Dxの機能には影響をあたえず，すなわち，Notch単独での活性化はGPI陽性の膜ドメインへの経路によると考えられた．さらに，リガンドによるNotchの活性化はコレステロールには依存しなかった．<br/>　<a href="#" class="anno RNAi法">RNAi法</a>による<a href="#" class="anno ノックダウン">ノックダウン</a>，<a href="#" class="anno 特異的">特異的</a>な<a href="#" class="anno 阻害剤">阻害剤</a>，<a href="#" class="anno <a href="#" class="anno ドミナント">ドミナント</a>ネガティブ">ドミナントネガティブ</a>変異体により，それぞれの分子機構を調べた．エンドサイトーシスに関して，Dxに依存的なNotchの活性化にはエンドサイトーシスの初期過程および後期過程に必須のタンパク質が必要とされた．一方，Notch単独での活性化あるいはリガンドによるNotchの活性化には，エンドサイトーシスの初期過程に必須なタンパク質はかかわっていたがエンドサイトーシスの後期過程に必須なタンパク質は必要では<a href="#" class="anno ないこと">ないこと</a>がわかった．スフィンゴ<a href="#" class="anno 糖脂質">糖脂質</a>はラフト様膜ドメインの構成因子である．そこで，スフィンゴ糖<a href="#" class="anno 脂質合成">脂質合成</a>酵素の関与について調べてみた．その結果，<a href="#" class="anno スフィンゴ糖脂質">スフィンゴ糖脂質</a><a href="#" class="anno 合成酵素">合成酵素</a>はNotch単独の活性化には必要であったが，DxあるいはリガンドによるNotchの活性化には必要ではないことが明らかになった．Kuzの関与については，Dxに依存的なNotchの活性化は必要とせず，Notchでの活性化単独あるいはリガンドによるNotchの活性化には必要であることが示された．このように，3つの経路にはそれぞれ独自の機構が備わっていると思われた（<a href="#F1">図1</a>）．<br/><br/><h2>5．Notchシグナルの温度補償の<a href="#" class="anno 数理モデル">数理モデル</a></h2><br/>　Notchのエンドサイトーシス経路のネットワークのさらなる<a href="#" class="anno 可能性">可能性</a>を探るため，その数理モデルを確立した．これは，リガンドによるNotchの活性化に，DxおよびSu(dx) によるエンドサイトーシスの効果を組み入れたものになった．おのおののパラメーターは29℃における<em>dx</em>変異体および<em>Su(dx)</em> 変異体の翅での<a href="#" class="anno 表現型">表現型</a>をもとに<a href="#" class="anno 最適化">最適化</a>した．<br/>　このNotchシグナルの数理モデルが温度感受性を再現できるかどうか調べてみた．この数理モデルでは，Notchの活性化の3つの経路のバランスの変化による広い温度範囲におけるNotchシグナルの安定性，および，翅における<em>dx</em>変異体および<em>Su(dx)</em> 変異体の表現型とその温度依存性が再現された．また，ある一定の温度以下では<em>dx</em>変異体における温度依存性が逆転する，また，低温においては<em>dx</em>単独の変異体より<em>dx</em>と<em>Su(dx)</em> の<a href="#" class="anno 二重">二重</a>変異体のほうがNotchシグナルが大きく減少する，といった意外と思える結果も予測され，これらはともに<em>in vivo</em>において証明された．以上のように，このNotchシグナルの数理モデルは，おのおのの温度において表現型や<a href="#" class="anno 遺伝的">遺伝的</a>な<a href="#" class="anno 相互作用">相互作用</a>を予測あるいは説明することが可能であった（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　Notchシグナルの制御の数理モデル</strong><br/>（a）Notchシグナルの温度補償の数理モデルの構築．<br/>（b）温度の変化により変化するNotchの活性化のバランス．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/06/Shimizu-Cell-14.5.22-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　Notchシグナルの制御の数理モデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shimizu-Cell-14.5.22-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shimizu-Cell-14.5.22-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>6．パラメーターの変化により予測されるDxとSu(dx) によるNotchの不活性化</h2><br/>　<em>dx</em>遺伝子および<em>Su(dx)</em> 遺伝子をともに欠損した場合，その結果はエンドソームにおけるNotchの活性化あるいは不活性化の効率しだいであることが予測された．パラメーターを操作することにより，エンドソームにおけるNotchの活性化への寄与が高い場合，中間の場合，低い場合のモデルを検討した．翅にみられたように，<em>dx</em>遺伝子と<em>Su(dx)</em> 遺伝子とが互いに抑制しあうのはNotchの活性化への寄与が中間のモデルのみであった．<br/>　Notchの活性化への寄与が低い場合のモデルでは，DxのNotchの活性化への寄与はむしろマイナスになり，<em>dx</em>と<em>Su(dx)</em> の<a href="#" class="anno <a href="#" class="anno 二重変異">二重変異</a>体">二重変異体</a>は<em>Su(dx)</em> 単独の変異体よりもNotchの活性化が高くなった．そこで，実際にこのような表現型の観察される組織が存在するかどうかを探索し，成虫の脚関節に注目したところ，<em>Su(dx)</em> 単独の変異体あるいは<em>dx</em>単独の変異体ではほぼ正常であった一方，<em>dx</em>と<em>Su(dx)</em> の二重変異体ではNotchの過剰な活性化による<a href="#" class="anno 異所的">異所的</a>な関節の形成がみられた．さらに，これは数理モデルにより予測されたように温度に依存的な表現型であった．脚と翅について比較してみると，脚ではエンドソームにおけるNotchの活性化が<a href="#" class="anno 限定的">限定的</a>であることが示された．<br/>　Su(dx) およびDxの機能の<a href="#" class="anno 多様性">多様性</a>について，ほかの組織において検討した．ショウジョウバエの胚の<a href="#" class="anno 中枢<a href="#" class="anno 神経系">神経系</a>"><a href="#" class="anno 中枢神経">中枢神経</a>系</a>において，<em>Su(dx)</em> 単独の変異体あるいは<em>dx</em>単独の変異体では，それぞれ，弱い<a href="#" class="anno 神経欠損">神経欠損</a>あるいは神経形成の表現型がみられたが，<em>dx</em>と<em>Su(dx)</em> の二重変異体では非常に強い神経欠損が起こり，これはNotchの活性化への寄与が低い場合のモデルで予測された現象であった．<em>dx</em>の過剰発現により強い神経欠損が起こったこともこれを支持した．胚の<a href="#" class="anno 正中線">正中線</a>の形成におけるNotchシグナルについても調べてみたが，Notchの活性化は<em>dx</em>変異や<em>HOPS</em>変異により温度に依存的に減少した．これが<em>Su(dx)</em> 変異により抑制されなかったことは，Notchの活性化への寄与が高い場合のモデルの予測と一致していた．このように，<em>dx</em>と<em>Su(dx)</em> の二重変異の結果には多様性があり，場合によっては機能が重複することがわかった．<br/><br/><h2>おわりに</h2><br/>　多くのシグナルは<a href="#" class="anno 細胞膜">細胞膜</a>において生じると理解されているが，エンドサイトーシスを介した別の経路も数多く報告されている．これらにはNotchシグナルにくわえ，<a href="#" class="anno EGF">EGF</a>シグナル，<a href="#" class="anno TGFβ">TGFβ</a>シグナル，<a href="#" class="anno Wnt">Wnt</a>シグナルなど，多様なシグナルが含まれる<a href="#R7"><sup>7,8)</sup></a>．細胞膜においてはより急速なシグナルの活性化が可能である一方，エンドソームは核により近いというそれぞれの利点も議論されているが，複数の活性化の機構が存在する理由はわかっていない．この研究では，2つの機構によるNotchシグナルの温度補償性の確立と，組織や状況によりシグナルを柔軟に変化できる多様性の獲得という，2つの可能性について論じた．エンドサイトーシスは外的あるいは内的な多くの因子を感知し変化することができる．Notchシグナルは温度をはじめとして，<a href="#" class="anno 栄養状態">栄養状態</a>，脂質の構成，<a href="#" class="anno 低酸素">低酸素</a>，老化，<a href="#" class="anno 細胞密度">細胞密度</a>など多様な因子により影響をうけるが，これらはエンドサイトーシス，あるいは，DxおよびSu(dx) の機能のバランスに作用しているのかもしれない．<br/>　今回，高い温度感受性について，ラフト様の膜ドメインの<a href="#" class="anno 流動性">流動性</a>という脂質の性質にもとづくものと，Su(dx) のもつHECTドメインの機能というタンパク質の性質に起因するものの2つの分子機構が示唆された．現在，筆者らは，より詳細な分子機構について研究を進めている．たとえば，Notchは<a href="#" class="anno 糖鎖">糖鎖</a>の付加，<a href="#" class="anno <a href="#" class="anno リン酸">リン酸</a>化">リン酸化</a>，ユビキチン化など多くの<a href="#" class="anno <a href="#" class="anno 翻訳後">翻訳後</a>修飾">翻訳後修飾</a>をうけているが，なかでもとくに，<a href="#" class="anno チロシン">チロシン</a>リン酸化，そして，<a href="#" class="anno モノユビキチン化">モノユビキチン化</a>あるいは<a href="#" class="anno ポリユビキチン">ポリユビキチン</a>化により<a href="#" class="anno 小胞輸送">小胞輸送</a>が変化することがすでに見い出されている．また，Notchの変異によるシグナルの異常はがんを含む多くの疾病の原因となりうるが，そのなかにはNotchのエンドサイトーシスに影響を及ぼす変異も知られている．これらの影響をより詳細に観察し解析するため，現在，ライブ<a href="#" class="anno イメージング">イメージング</a>法によるNotchのエンドサイトーシスとシグナル活性化の<a href="#" class="anno 可視化">可視化</a>のプロジェクトが進めている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Waddington, C. H.</span>: <span class="ti">Canalization of development and genetic assimilation of acquired characters.</span> <span class='so'>Nature, 183, 1654-1655 (1959)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/13666847" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Kitano, H.</span>: <span class="ti">Biological robustness.</span> <span class='so'>Nat. Rev. Genet., 5, 826-837 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15520792" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Guruharsha, K. G., Kankel, M. W. & Artavanis-Tsakonas, S.</span>: <span class="ti">The Notch signalling system: recent insights into the complexity of a conserved pathway.</span> <span class='so'>Nat. Rev. Genet., 13, 654-666 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22868267" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Baron, M.</span>: <span class="ti">Endocytic routes to Notch activation.</span> <span class='so'>Semin. Cell Dev. Biol., 23, 437-442 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22285298" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Mazaleyrat, S. L., Fostier, M., Wilkin, M. B. et al.</span>: <span class="ti">Down-regulation of Notch target gene expression by Suppressor of deltex.</span> <span class='so'>Dev. Biol., 255, 363-372 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12648496" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Wilkin, M., Tongngok, P., Gensch, N. et al.</span>: <span class="ti"><em>Drosophila</em> HOPS and AP-3 complex genes are required for a Deltex-regulated activation of notch in the endosomal trafficking pathway.</span> <span class='so'>Dev. Cell, 15, 762-772 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19000840" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Seto, E. S., Bellen, H. J. & Lloyd, T. E.</span>: <span class="ti">When cell biology meets development: endocytic regulation of signaling pathways.</span> <span class='so'>Genes Dev., 16, 1314-1336 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12050111" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Sorkin, A. & von Zastrow, M.</span>: <span class="ti">Endocytosis and signalling: intertwining molecular networks.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 10, 609-622 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19696798" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_06.html" target="_blank">12.6 Endocytosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_06.html" target="_blank">3.6 Gain-of-Function Mutations</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_01.html" target="_blank">12.1 Protein Synthesis and Basis of Intracellular Transport</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_04.html" target="_blank">12.4 Protein Transport in Prokaryotic Cells</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_05.html" target="_blank">3.5 Genetic Mutations and Dominance/Recession</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">志水 英之（Hideyuki Shimizu）</span><br>略歴：英国Manchester大学Research Associate．<br>研究テーマ：エンドサイトーシスによるシグナルの制御．<br></div><br>© 2014 志水 英之 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

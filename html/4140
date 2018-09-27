@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> TRPA1チャネルはアストロサイトにおいて静止時の細胞質でのCa2+濃度を調節しGABAトランスポーターを介し抑制性シナプス伝達を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/4140" rel="bookmark">TRPA1チャネルはアストロサイトにおいて静止時の細胞質でのCa2+濃度を調節しGABAトランスポーターを介し抑制性シナプス伝達を制御する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>繁冨英治・Xiaoping Tong・Baljit S. Khakh</strong><br>（米国California大学Los Angeles校David Geffen School of Medicine，Department of Physiology）<br>email：<a href="mailto:eshigetomi@mednet.ucla.edu">繁冨英治</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.005">10.7875/first.author.2012.005</a><br><div class="reference"><br><span class="ti">TRPA1 channels regulate astrocyte resting calcium and inhibitory synapse efficacy through GAT-3.</span><br><span class="au">Eiji Shigetomi, Xiaoping Tong, Kelvin Y. Kwan, David P. Corey, Baljit S. Khakh</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22158513" target="_blank"><em>Nature Neuroscience</em>, <strong>15</strong>, 70-80 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　脳の<a href="#" class="anno グリア">グリア</a>細胞の一種である<a href="#" class="anno アストロサイト">アストロサイト</a>は<a href="#" class="anno シナプス形成">シナプス形成</a>の制御や<a href="#" class="anno シナプス機能">シナプス機能</a>の維持などの役割を担っている．アストロサイトは<a href="#" class="anno 電気的">電気的</a>に非<a href="#" class="anno 興奮性">興奮性</a>であるが，<a href="#" class="anno 細胞内">細胞内</a>Ca<sup>2+</sup>濃度をダイナミックに変化させることにより“Ca<sup>2+</sup>興奮”を起こすことが知られている．これまでの研究の多くは，細胞内Ca<sup>2+</sup>ストアからのCa<sup>2+</sup>放出を介したCa<sup>2+</sup>濃度の変化とその<a href="#" class="anno 機能的">機能的</a>な役割に焦点をあててきた．近年，筆者らは，新規の膜<a href="#" class="anno 移行型">移行型</a>Ca<sup>2+</sup>感受性<a href="#" class="anno 蛍光タンパク質">蛍光タンパク質</a>を開発し，海馬培養アストロサイトの<a href="#" class="anno 細胞膜">細胞膜</a>の近傍で<a href="#" class="anno 自発的">自発的</a>に起こる<a href="#" class="anno マイクロドメイン">マイクロドメイン</a>様の<a href="#" class="anno 局所的">局所的</a>なCa<sup>2+</sup>シグナルの存在をはじめて明らかにした．今回の研究において，<a href="#" class="anno 薬理学的">薬理学的</a>な解析および<a href="#" class="anno <a href="#" class="anno 遺伝学">遺伝学</a>的">遺伝学的</a>な解析の結果はこの局所的なCa<sup>2+</sup>シグナルはTR<a href="#" class="anno PA1">PA1</a>チャネルを介したCa<sup>2+</sup>流入によることを示した．さらに，T<a href="#" class="anno RPA">RPA</a>1チャネルを介し流入したCa<sup>2+</sup>は<a href="#" class="anno 細胞質">細胞質</a>に拡散することで静止時の細胞質でのCa<sup>2+</sup>濃度を調節し，アストロサイトの細胞膜に存在するGABA<a href="#" class="anno トランスポーター">トランスポーター</a>の機能を制御することにより<a href="#" class="anno 細胞外">細胞外</a>のGABAレベルを調節し，その結果，<a href="#" class="anno 抑制性">抑制性</a><a href="#" class="anno シナプス伝達">シナプス伝達</a>を制御していることが示された．<br/><br/><h2>はじめに</h2><br/>　<a href="#" class="anno 中枢<a href="#" class="anno 神経系">神経系</a>"><a href="#" class="anno 中枢神経">中枢神経</a>系</a>の<a href="#" class="anno グリア細胞">グリア細胞</a>の一種であるアストロサイトは，ニューロンの<a href="#" class="anno 構造的">構造的</a>な支持，ニューロンへの栄養の供給，<a href="#" class="anno 神経活動">神経活動</a>にと<a href="#" class="anno も">も</a>ない放出された<a href="#" class="anno 伝達物質">伝達物質</a>やイオンの除去など，ニューロンを保護しその活動を助ける役割を担う，いわゆる“ハウスキー<a href="#" class="anno ピン">ピン</a>グ細胞”として考えられてきた．アストロサイトは<a href="#" class="anno 活動電位">活動電位</a>を発生しないが<a href="#" class="anno 神経伝達">神経伝達</a>物質を感受する<a href="#" class="anno 受容体">受容体</a>の<a href="#" class="anno 活性化">活性化</a>を介して，細胞内Ca<sup>2+</sup>ストアからのCa<sup>2+</sup>放出を介し細胞内Ca<sup>2+</sup>濃度を上昇させる，いわゆる“Ca<sup>2+</sup>興奮”を起こす．近年，アストロサイトが細胞内Ca<sup>2+</sup>濃度に応じニューロンに作用する物質（グリア伝達物質）を放出することが報告され<a href="#R1"><sup>1)</sup></a>，ニューロンとアストロサイトとが<a href="#" class="anno 双方向的">双方向的</a>に<a href="#" class="anno シグナル伝達">シグナル伝達</a>物質を放出することで互いを制御しあっている<a href="#" class="anno 可能性">可能性</a>が提唱されている<a href="#R2"><sup>2)</sup></a>．しかし，<a href="#" class="anno 生理的">生理的</a>な条件におけるCa<sup>2+</sup>濃度に<a href="#" class="anno 依存的">依存的</a>なグリア伝達物質の放出に疑問を呈する報告もあり<a href="#R3"><sup>3)</sup></a>，アストロサイトにおけるCa<sup>2+</sup>シグナルの<a href="#" class="anno 生理学的">生理学的</a>な意義はい<a href="#" class="anno まだ">まだ</a>明らかではない<a href="#R4"><sup>4)</sup></a>．この問題が<a href="#" class="anno 未解決">未解決</a>である原因のひとつに，従来の方法ではアストロサイトの細胞内の局所におけるCa<sup>2+</sup>濃度の変化の測定は困難なことがあげられる<a href="#R5"><sup>5)</sup></a>．アストロサイトは微細突起を介しシナプスと直接に接触する．この微細突起における局所的なCa<sup>2+</sup>シグナルの理解は，アストロサイトがニューロンの興奮に対しどう応答し，それに応じどのようにニューロンにシグナルを伝達するかという，ニューロンとの機能の連関を理解するうえで必須である．近年，筆者らは，微細突起におけるCa<sup>2+</sup>濃度の変化を<a href="#" class="anno 効率的">効率的</a>かつ鋭敏に検出する新規のCa<sup>2+</sup>感受性蛍光タンパク質<a href="#" class="anno Lck">Lck</a>-G<a href="#" class="anno CaM">CaM</a>P2 <a href="#R6"><sup>6)</sup></a> およびLck-GCaMP3 <a href="#R7"><sup>7)</sup></a> を開発した．今回は，このLck-GCaMP3を用いて観察されたアストロサイトの細胞膜の近傍における局所的なCa<sup>2+</sup>の動態に着目し，その詳細な解析から<a href="#" class="anno TRP">TRP</a>A1チャネルを介したCa<sup>2+</sup>流入の存在をはじめて明らかにし，さらに，この<a href="#" class="anno T<a href="#" class="anno RPA1">RPA1</a>">TRPA1</a>チャネルによるCa<sup>2+</sup>流入の生理学的な役割のひとつを明らかにした．<br/><br/><h2>1．膜移行型Ca<sup>2+</sup>感受性蛍光タンパク質は海馬培養アストロサイトにおける新規のCa<sup>2+</sup>シグナルを明らかにした</h2><br/>　細胞膜の近傍におけるCa<sup>2+</sup>濃度の変化を測定するため，Ca<sup>2+</sup>感受性蛍光タンパク質GCaMP3の<a href="#" class="anno N末端">N末端</a>に膜<a href="#" class="anno 移行シグナル">移行シグナル</a>Lckを融合した膜移行型Ca<sup>2+</sup>感受性蛍光タンパク質Lck-GCaMP3を海馬培養アストロサイト（ニューロンとの<a href="#" class="anno 共培養">共培養</a>）に発現させたところ，静止時に細胞膜において局所的に発生するCa<sup>2+</sup>濃度の変化が観察された．この局所的なCa<sup>2+</sup>シグナルは半値全幅が5<a href="#" class="anno μm">μm</a>程度であり，細胞膜のさまざまな箇所でランダムに，また，<a href="#" class="anno 同じ">同じ</a>箇所で<a href="#" class="anno 頻回">頻回</a>に発生した．この局所的なCa<sup>2+</sup>シグナルを<a href="#" class="anno spo">spo</a><a href="#" class="anno tty">tty</a> Ca<sup>2+</sup>シグナルと名づけた．spotty Ca<sup>2+</sup>シグナルの頻度およびその<a href="#" class="anno 大きさ">大きさ</a>は<a href="#" class="anno ニューロン活動">ニューロン活動</a>の抑制および<a href="#" class="anno 神経伝達物質">神経伝達物質</a>であるグルタミン酸あるいはA<a href="#" class="anno TP">TP</a>の受容体の<a href="#" class="anno 遮断薬">遮断薬</a>に影響されなかったことから，アストロサイトに<a href="#" class="anno 内因性">内因性</a>の機構を介し発生するものと考えられた．spotty Ca<sup>2+</sup>シグナルは細胞外のCa<sup>2+</sup>の除去により消失し細胞内Ca<sup>2+</sup>ストアの枯渇の影響をうけなかったことから，細胞外からのCa<sup>2+</sup>流入により生じるものと解釈された．<br/><br/><h2>2．局所的なCa<sup>2+</sup>シグナルはTRPA1チャネルを介していた</h2><br/>　spotty Ca<sup>2+</sup>シグナルは<a href="#" class="anno TRPチャネル">TRPチャネル</a>の非<a href="#" class="anno 選択的">選択的</a>な遮断薬により消失したことから，TRPチャネルの開口により惹起されるものと考えられた．薬理学的な特性の解析および<a href="#" class="anno 遺伝子<a href="#" class="anno ノックダウン">ノックダウン</a>法"><a href="#" class="anno 遺伝子ノックダウン">遺伝子ノックダウン</a>法</a>による解析を行ったところ，TRPチャネルのうちTRPA1チャネルの遮断薬である<a href="#" class="anno HC">HC</a>-030031によりspotty Ca<sup>2+</sup>シグナルは<a href="#" class="anno 可逆的">可逆的</a>に消失し，<a href="#" class="anno siRNA">siRNA</a>による<em><a href="#" class="anno Trpa1">Trpa1</a></em>遺伝子のノックダウンによりspotty Ca<sup>2+</sup>シグナルを生じる<a href="#" class="anno 細胞数">細胞数</a>は減少した．さらに，<a href="#" class="anno 低濃度">低濃度</a>のTRPA1チャネルの<a href="#" class="anno アゴニスト">アゴニスト</a>の投与およびTRPA1チャネルの<a href="#" class="anno 強制発現">強制発現</a>によりアストロサイトにおけるspotty Ca<sup>2+</sup>シグナルの発生数は増加し，HEK<a href="#" class="anno 293細胞">293細胞</a>へのTRPA1チャネルの強制発現によりspotty Ca<sup>2+</sup>シグナルと類似した局所的なCa<sup>2+</sup>シグナルが惹起されたことから，spotty Ca<sup>2+</sup>シグナルはTRPA1チャネルの開口により発生しているものと考えられた．近年に行われたアストロサイトのトランス<a href="#" class="anno クリプト">クリプト</a>ーム解析では<em>Trpa1</em> <a href="#" class="anno mRNA">mRNA</a><a href="#" class="anno 発現レベル">発現レベル</a>は<a href="#" class="anno <a href="#" class="anno 検出限界">検出限界</a>以下">検出限界以下</a>ではあったが<a href="#R8"><sup>8)</sup></a>，<a href="#" class="anno <a href="#" class="anno ウェスタン">ウェスタン</a>ブロッティング">ウェスタンブロッティング</a>法によりTRPA1チャネルのおよそ130 kDのバンドが検出されたこと，TRPA1チャネルのアゴニストは<a href="#" class="anno 外向き">外向き</a>の<a href="#" class="anno 整流性">整流性</a>を示す電流を誘発したがこの電流は<em>Trpa1</em>遺伝子のノックダウンにより<a href="#" class="anno 減弱">減弱</a>したこと，さまざまなTRPA1チャネルのアゴニストはアストロサイトにおけるCa<sup>2+</sup>濃度を上昇させたこと（ニューロンでは，ほぼ影響なし），TRPA1チャネルのアゴニストによるCa<sup>2+</sup>濃度の上昇はTRPA1チャネル遮断薬および<em>Trpa1</em>遺伝子ノックダウンによりほぼ完全に消失したことから，海馬培養アストロサイトにおけるTRPA1チャネルの発現が強く示唆された．TRPA1チャネルはCa<sup>2+</sup><a href="#" class="anno 透過性">透過性</a>が非常に高く（およそ17％），ポアダイレーションによりさらに高いCa<sup>2+</sup>透過性を示し，細胞内においてCa<sup>2+</sup>自体がTRPA1チャネルを活性化できるなどの性質をもつことから<a href="#R9"><sup>9)</sup></a>，発現レベルが低くてもこの研究で検出できたようなCa<sup>2+</sup>シグナルを発生することが十分に可能であると考えられた．急性<a href="#" class="anno 脳スライス">脳スライス</a>標本における海馬放射状層アストロサイトはTRPA1チャネルのアゴニストによるCa<sup>2+</sup>濃度の上昇を示し，これはTRPA1チャネルの遮断薬により減弱した．以上の結果は，アストロサイトは<em><a href="#" class="anno in vitro">in vitro</a></em>および<em>in <a href="#" class="anno sit">sit</a>u</em>においてTRPA1チャネルを機能的に発現し，このTRPA1チャネルの開口を介しspotty Ca<sup>2+</sup>シグナルが発生しているものと解釈された．<br/><br/><h2>3．TRPA1チャネルによるCa<sup>2+</sup>流入はアストロサイトの静止時の細胞質でのCa<sup>2+</sup>濃度を調節した</h2><br/>　HC-030031によるTRPA1チャネルの遮断は，Fluo-4あるいはFura-2により測定された海馬培養アストロサイトにおける細胞質の全体のCa<sup>2+</sup>濃度をおよそ120 nMから50 nMに低下させた．TRPA1チャネルの遮断によるCa<sup>2+</sup>濃度の低下はニューロンでは観察されなかった．TRPA1チャネルの遮断による<a href="#" class="anno 全体的">全体的</a>なCa<sup>2+</sup>濃度の低下はマウスおよびラットの急性脳スライス標本における海馬アストロサイトにおいても惹起され，TRPA1チャネル<a href="#" class="anno ノックアウトマウス">ノックアウトマウス</a>では減弱した．以上の結果は，TRPA1チャネルを介した局所的なCa<sup>2+</sup>流入はマイクロドメイン様のCa<sup>2+</sup>シグナルを形成し，さらに，これが細胞質に拡散することにより静止時の細胞質でのCa<sup>2+</sup>濃度を調節していることを示唆した（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　TRPA1チャネルを介した局所的なCa<sup>2+</sup>シグナルの形成</strong><br/>TPRA1チャネルを介したCa<sup>2+</sup>流入はマイクロドメイン様のCa<sup>2+</sup>シグナルを形成する．流入したCa<sup>2+</sup>は細胞質に拡散し，静止時の細胞質でのCa<sup>2+</sup>濃度を調節する．TRPA1チャネルは選択的なアゴニストAITCにより活性化され，選択的な遮断薬HC-030031により遮断される．青色の点はTRPA1チャネルを介し流入したCa<sup>2+</sup>，緑色の点は細胞質に拡散したCa<sup>2+</sup>を示す．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/01/Shigetomi-Nature-Neuroscience-11.12.23-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　TRPA1チャネルを介した局所的なCa<sup>2+</sup>シグナルの形成" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shigetomi-Nature-Neuroscience-11.12.23-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shigetomi-Nature-Neuroscience-11.12.23-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>4．TRPA1チャネルの抑制はGABA<a href="#" class="anno 作動性">作動性</a>シナプス伝達を抑制した</h2><br/>　アストロサイトの細胞質でのCa<sup>2+</sup>濃度の変化が<a href="#" class="anno 興奮性シナプス">興奮性シナプス</a>に及ぼす影響についてはこれまで多く報告されている．一方，<a href="#" class="anno 抑制性シナプス">抑制性シナプス</a>伝達に及ぼす影響についての報告はあまりない．そこで，Ca<sup>2+</sup>の選択的な<a href="#" class="anno キレート">キレート</a>剤であるB<a href="#" class="anno APT">APT</a>Aを<a href="#" class="anno ホールセル">ホールセル</a>パッチ<a href="#" class="anno クランプ">クランプ</a>法により急性脳スライス標本における海馬放射状層アストロサイトに負荷してアストロサイトの細胞内Ca<sup>2+</sup>濃度を緩衝し，これがニューロンの<a href="#" class="anno 抑制性シナプス伝達">抑制性シナプス伝達</a>に及ぼす影響について検討した．BA<a href="#" class="anno PTA">PTA</a>と同時に<a href="#" class="anno 蛍光物質">蛍光物質</a>を負荷すると負荷したアストロサイトの周囲およそ60個の細胞から蛍光が観察された．これは，隣接するアストロサイトに<a href="#" class="anno ギャップ結合">ギャップ結合</a>を介し蛍光物質が拡散したためと考えられ，この方法により複数の細胞にBAPTAを同時に負荷することが可能であった．この<a href="#" class="anno 実験条件">実験条件</a>においてBAPTAを負荷したアストロサイトの近傍100μm以内のニューロンへのGABAの入力を<a href="#" class="anno ホールセル<a href="#" class="anno パッチクランプ">パッチクランプ</a>">ホールセルパッチクランプ</a>法により検<a href="#" class="anno 出し">出し</a>たところ，<a href="#" class="anno 錐体">錐体</a>ニューロンでは影響がなかったのに対し，放射状層<a href="#" class="anno 介在ニューロン">介在ニューロン</a>においては<a href="#" class="anno GABA作動性">GABA作動性</a>シナプス伝達の効率が低下した．BAPTAを用い<a href="#" class="anno 緩衝液">緩衝液</a>により細胞内Ca<sup>2+</sup>濃度をさまざまに変化させたところ，Ca<sup>2+</sup>濃度を静止時の濃度（およそ120 nM）から上昇させたときにはGABA作動性シナプス伝達は変化しなかったのに対し，Ca<sup>2+</sup>濃度を低下したときにはGABA作動性シナプス伝達は抑制された．BAPTAよりもCa<sup>2+</sup>との結合速度の遅いCa<sup>2+</sup>選択的<a href="#" class="anno キレート剤">キレート剤</a>E<a href="#" class="anno GTA">GTA</a>の負荷ではGABA作動性シナプス伝達の効率は低下しなかったことから，Ca<sup>2+</sup>は局所的に作用するものと解釈された．<br/>　TRPA1チャネルの遮断薬であるHC-030031により介在ニューロンにおけるGABA作動性シナプス伝達の効率は低下した．一方，<a href="#" class="anno 錐体ニューロン">錐体ニューロン</a>ではHC-030031による影響はなかった．Ca<sup>2+</sup>選択的キレート剤BAPTAをアストロサイトに負荷したときにはHC-030031は作用しなかった．<a href="#" class="anno そのため">そのため</a>，HC-030031はアストロサイトの細胞内Ca<sup>2+</sup>濃度を低下させることでその作用を発揮したものと考えられた．一方，TRPA1チャネルのアゴニストは抑制性シナプス伝達に影響しなかった．以上の結果は，アストロサイトにおけるTRPA1チャネルを介した自発的なCa<sup>2+</sup>流入の遮断は介在ニューロンにおけるGABA作動性シナプス伝達の効率を低下させるものと解釈された．さらに，TRPA1チャネルノックアウトマウスではBAPTAによるアストロサイトにおけるCa<sup>2+</sup>濃度の緩衝，および，TRPA1チャネルの遮断による抑制性シナプス伝達に及ぼす影響が観察されなかったことから，HC-030031はTRPA1チャネルに<a href="#" class="anno 実際">実際</a>に作用していること，および，アストロサイトへのBAPTAの負荷の抑制性シナプス伝達に及ぼす影響はアストロサイトのTRPA1チャネルを介し流入したCa<sup>2+</sup>濃度を緩衝した結果であることが示された．<br/><br/><h2>5．アストロサイトの細胞内においてCa<sup>2+</sup>は<a href="#" class="anno GABAトランスポーター">GABAトランスポーター</a>の機能を制御していた</h2><br/>　Ca<sup>2+</sup>選択的キレート剤BAPTAによるアストロサイトにおけるCa<sup>2+</sup>濃度の緩衝は，細胞の周囲の存在するシナプスからもれ出したGABAにより起こる<a href="#" class="anno 持続性">持続性</a>のGABA<sub>A</sub>電流の増大，GABAの局所的な投与に誘発される電流の減少，<a href="#" class="anno 電気刺激">電気刺激</a>に誘発されるGABA<sub>A</sub>電流の減少をひき起こした．これらの結果から，アストロサイトへのBAPTAの負荷が細胞外のGABA濃度を上昇させ，これによりGABA<sub>A</sub>受容体が脱<a href="#" class="anno 感作">感作</a>したため，抑制性シナプス伝達は抑制されたと考えられた．それでは，どのようにして細胞外のGABA濃度は上昇したのであろうか？　細胞外のGABAはGABAトランスポーターにより細胞内に取り込まれることが知られており，GABAトランスポーターの<a href="#" class="anno 機能障害">機能障害</a>は細胞外のGABA濃度の上昇をひき起こすものと考えられた．BAPTAの負荷によりGABAトランスポーターの機能が障害されるという仮説をたて，GABAトランスポーターを薬理学的に阻害することにより同様の抑制性シナプス伝達の効率の低下が観察されるかどうかを検討した．GABAトランスポーターは現在まで4種類が同定されており，そのうち，<a href="#" class="anno GAT">GAT</a>-1およびGAT-3が海馬を含め脳に広範に発現していることが報告されている．GAT-1およびGAT-2の<a href="#" class="anno 阻害薬">阻害薬</a>は抑制性シナプス伝達に影響しなかったのに対し，GAT-3の選択的な阻害薬は抑制性シナプス伝達を抑制した．さらに，このGAT-3による抑制性シナプス伝達の<a href="#" class="anno 抑制作用">抑制作用</a>はアストロサイトへのBAPTAの負荷またはHC-030031の投与の条件では観察されなかった．以上の結果から，この抑制性シナプス伝達の抑制はアストロサイトにおけるTRPA1チャネルの遮断によりGABAトランスポーターGAT-3の機能が障害されたことによりひき起こされたと解釈された．GABAトランスポーターの機能が抑制される機構を検討したところ，アストロサイトへのBAPTAの負荷はGAT-3の<a href="#" class="anno 発現量">発現量</a>を減少させることが明らかになった．さらに，アストロサイトにおける<a href="#" class="anno エンドサイトーシス">エンドサイトーシス</a>の薬理学的な阻害はBAPTAの負荷による抑制性シナプス伝達の抑制作用を消失させ，GAT-3の発現量の減少を阻害した．これらの結果より，アストロサイトの細胞膜におけるGAT-3の量は細胞内Ca<sup>2+</sup>濃度に依存しており，エンドサイトーシスを介し制御されていることが示唆された（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　TRPA1チャネルを介したCa<sup>2+</sup>流入はGABAトランスポーターGAT-3の細胞膜における量を制御し細胞外のGABAレベルを維持する</strong><br/>（a）TRPA1チャネルを介し流入したCa<sup>2+</sup>は局所的にはたらきGAT-3による細胞外のGABAの取り込みを制御する．<br/>（b）TRPA1チャネルを介したCa<sup>2+</sup>流入を遮断すると，細胞膜におけるGAT-3の量がエンドサイトーシスにより減少し，その結果，細胞外のGABA濃度が上昇する．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/01/Shigetomi-Nature-Neuroscience-11.12.23-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　TRPA1チャネルを介したCa<sup>2+</sup>流入はGABAトランスポーターGAT-3の細胞膜における量を制御し細胞外のGABAレベルを維持する" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shigetomi-Nature-Neuroscience-11.12.23-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shigetomi-Nature-Neuroscience-11.12.23-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　今回の研究は，アストロサイトにおいてTRPA1チャネルを介したCa<sup>2+</sup>流入経路の存在をはじめて示し，GABAトランスポーターGAT-3を介した細胞外のGABAの取り込みというアストロサイトにおけるハウスキーピング機能のひとつが，このTRPA1チャネルを介し流入したCa<sup>2+</sup>により制御されていることを示した．GABAの取り込み能の障害によるGABA作動性シナプス伝達の効率の低下はアストロサイトの細胞内におけるCa<sup>2+</sup>濃度の低下により惹起されたが，細胞内でのCa<sup>2+</sup>濃度の上昇による影響はなかった．この結果から，静止時の細胞質におけるCa<sup>2+</sup>濃度においては細胞外のGABAを取り込み制御するうえで十分な量のGAT-3が存在しているものと考えられた．<br/>　ここで紹介した新規のCa<sup>2+</sup>感受性蛍光タンパク質によりアストロサイトにおける局所的なCa<sup>2+</sup>シグナルについて詳細に検討することが可能になった．しかしながら，いまださまざまな疑問が残されている．TRPA1チャネルの開口はどのように制御されているのか？　それは，ニューロンやアストロサイトの<a href="#" class="anno 産生">産生</a>する<a href="#" class="anno メ<a href="#" class="anno デ">デ</a>ィエーター">メディエーター</a>を介し活性化されているのか？　TRPA1チャネルを介したCa<sup>2+</sup>シグナルは細胞外のGABAレベルの調節のみに必要なのか？　なぜ，介在ニューロンのみが<a href="#" class="anno 特異的">特異的</a>に制御されるのか？　海馬以外の<a href="#" class="anno 脳部位">脳部位</a>でも同様のTRPA1チャネルを介したシナプスの制御はあるのか？　アストロサイトにおけるCa<sup>2+</sup>シグナルは完全に理解されているのか？　今後の研究により，細胞内Ca<sup>2+</sup>ストアからのCa<sup>2+</sup>放出経路にくわえ，今回の研究で示したような細胞膜を介したCa<sup>2+</sup>流入経路<a href="#R10"><sup>10)</sup></a> を含めたアストロサイトにおけるCa<sup>2+</sup>シグナルの詳細についての理解が深まり，その生理学的な意義がさらに解明されることが期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Henneberger, C., Papouin, T., Oliet, S. H. et al.</span>: <span class="ti">Long-term potentiation depends on release of D-serine from astrocytes.</span> <span class='so'>Nature, 463, 232-236 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20075918" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Halassa, M. M. & Haydon, P. G.</span>: <span class="ti">Integrated brain circuits: astrocytic networks modulate neuronal activity and behavior.</span> <span class='so'>Annu. Rev. Physiol., 72, 335-355 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20148679" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Agulhon, C., Fiacco, T. A. & McCarthy, K. D.</span>: <span class="ti">Hippocampal short- and long-term plasticity are not modulated by astrocyte Ca<sup>2+</sup> signaling.</span> <span class='so'>Science, 327, 1250-1254 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20203048" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Hamilton, N. B. & Attwell, D.</span>: <span class="ti">Do astrocytes really exocytose neurotransmitters?</span> <span class='so'>Nat. Rev. Neurosci., 11, 227-238 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20300101" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Reeves, A. M., Shigetomi, E. & Khakh, B. S.</span>: <span class="ti">Bulk loading of calcium indicator dyes to study astrocyte physiology: key limitations and improvements using morphological maps.</span> <span class='so'>J. Neurosci., 31, 9353-9358 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21697385" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Shigetomi, E., Kracun, S., Sofroniew, M. V. et al.</span>: <span class="ti">A genetically targeted optical sensor to monitor calcium signals in astrocyte processes.</span> <span class='so'>Nat. Neurosci., 13, 759-766 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20495558" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Shigetomi, E., Kracun, S. & Khakh, B. S.</span>: <span class="ti">Monitoring astrocyte calcium microdomains with improved membrane targeted GCaMP reporters.</span> <span class='so'>Neuron Glia Biol., 6, 183-191 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21205365" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Cahoy, J. D., Emery, B., Kaushal, A. et al.</span>: <span class="ti">A transcriptome database for astrocytes, neurons, and oligodendrocytes: a new resource for understanding brain development and function.</span> <span class='so'>J. Neurosci., 28, 264-278 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18171944" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Nilius, B., Prenen, J. & Owsianik, G.</span>: <span class="ti">Irritating channels: the case of TRPA1.</span> <span class='so'>J. Physiol., 589, 1543-1549 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21078588" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Golovina, V. A.</span>: <span class="ti">Visualization of localized store-operated calcium entry in mouse astrocytes. Close proximity to the endoplasmic reticulum.</span> <span class='so'>J. Physiol., 564, 737-749 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15731184" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/17_02.html" target="_blank">17.2 Excitation of Nerve Cells and Transmission of Excitation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_05.html" target="_blank">12.5 Exocytosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/05_03.html" target="_blank">5.3 The Autonomic Nervous System</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_03.html" target="_blank">12.3 Transport of Proteins Synthesized by Free Polysomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_04.html" target="_blank">12.4 Protein Transport in Prokaryotic Cells</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">繁冨 英治（Eiji Shigetomi）</span><br>略歴：2005年 東京慈恵会医科大学大学院医学研究科博士課程 修了，同年 同 研究員，2007年 米国California大学Los Angeles校David Geffen School of Medicine博士研究員を経て，2010年より同Assistant Researcher．<br>研究テーマ：アストロサイトにおけるCa<sup>2+</sup>の動態とその生理学的な意義．<br>抱負：脳の情報処理および中枢神経系疾患におけるグリア細胞の役割に着目し研究をしていきたい．<br><br><strong>Xiaoping Tong</strong><br>米国California大学Los Angeles校David Geffen School of Medicine博士研究員<br><br><strong>Baljit S. Khakh</strong><br>米国California大学Los Angeles校David Geffen School of MedicineにてAssociate Professor．<br>研究室URL：<a href="http://www.physiology.ucla.edu/Labs/khakh/index.htm" target="_blank">http://www.physiology.ucla.edu/Labs/khakh/index.htm</a><br></div><br>© 2012 繁冨英治・Xiaoping Tong・Baljit S. Khakh Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

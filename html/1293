@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 低温電子顕微鏡像の解析によりアクチン繊維の構造を6.6Å分解能で解明 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/1293" rel="bookmark">低温電子顕微鏡像の解析によりアクチン繊維の構造を6.6Å分解能で解明</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>藤井高志・難波啓一</strong><br>（大阪大学大学院生命機能研究科 プロトニックナノマシン研究室）<br>email：<a href="mailto:keiichi@fbs.osaka-u.ac.jp">難波啓一</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2010.045">10.7875/first.author.2010.045</a><br><div class="reference"><br><span class="ti">Direct visualization of secondary structures of F-actin by electron cryomicroscopy.</span><br><span class="au">Takashi Fujii, Atsuko H. Iwane, Toshio Yanagida, Keiichi Namba</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/20844487" target="_blank"><em>Nature</em>, <strong>467</strong>, 724-728 (2010)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno <a href="#" class="anno アクチン">アクチン</a>繊維">アクチン繊維</a>は<a href="#" class="anno 筋細胞">筋細胞</a>において<a href="#" class="anno ミオシン">ミオシン</a>繊維と<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>し力を発生して<a href="#" class="anno 筋収縮">筋収縮</a>をひき起こすだけでなく，<a href="#" class="anno 細胞骨格">細胞骨格</a>としてあらゆる細胞の<a href="#" class="anno 形態形成">形態形成</a>や運動に関与し，脳<a href="#" class="anno 神経回路">神経回路</a>の形成に<a href="#" class="anno も">も</a>重要な役割をはたしている．しかし，幅<a href="#" class="anno わずか">わずか</a>10 nmときわめて細いリボン状の繊維構造をもち曲がりやすくねじれやすいため，その<a href="#" class="anno 立体構造">立体構造</a>を<a href="#" class="anno 高分解能">高分解能</a>で解析するのはたいへん困難であった．今回，急速凍結により立体構造を保持したまま低温<a href="#" class="anno 電子顕微鏡">電子顕微鏡</a>で観察する方法を用い，その立体構造を6.6Å分解能で解明した．要した時間は電子顕微像の収集と解析計算を含めて5日間であった．さまざまな<a href="#" class="anno 技術的">技術的</a>くふうにより像質とコントラストとを大幅に改善し，画像収集と解析の効率化および高速化を進めた成果であった．この3次元密度マップにはα<a href="#" class="anno ヘリックス">ヘリックス</a>や<a href="#" class="anno β構造">β構造</a>など<a href="#" class="anno 2次構造">2次構造</a>のみならず，線維の形成に重要なループや外側に突き<a href="#" class="anno 出し">出し</a>た<a href="#" class="anno N末端">N末端</a>などが観察され，<a href="#" class="anno 繊維形成">繊維形成</a>の際に起こるアクチン分子の<a href="#" class="anno 構造変化">構造変化</a>や<a href="#" class="anno 分子間">分子間</a>相互作用など，繊維形成の<a href="#" class="anno 分子機構">分子機構</a>が明らかになった．<br/><br/><h2>はじめに</h2><br/>　アクチンは筋細胞の主要な<a href="#" class="anno 構成成分">構成成分</a>として発見されたが，あらゆる<a href="#" class="anno 真核細胞">真核細胞</a>に存在し，しかも，もっとも大量に存在するタンパク質のひとつである．その<a href="#" class="anno アミノ">アミノ</a>酸配列の<a href="#" class="anno 種間">種間</a>での<a href="#" class="anno 保存性">保存性</a>の<a href="#" class="anno 高さ">高さ</a>は驚くべきものであり，ヒトと酵母のあいだですら87％の<a href="#" class="anno <a href="#" class="anno 相同">相同</a>性">相同性</a>がある．このことは，アクチンがいかに重要な<a href="#" class="anno 生命活動">生命活動</a>の基盤を担い，細胞での分子間相互作用ネットワークのハブとしてはたらいているか，そのわずかな変化がいかに大きな影響を及ぼすかという事実を物語っている．<a href="#" class="anno 実際">実際</a>，アクチンはミオシンを代表とする150種類以上のタンパク質と相互作用し，細胞のさまざまな機能の基盤としてはたらいている．<br/>　<a href="#" class="anno 単量体">単量体</a>のアクチンはGアクチンとよばれ，細胞では<a href="#" class="anno Fアクチン">Fアクチン</a>とよばれる<a href="#" class="anno らせん状">らせん状</a>の<a href="#" class="anno 重合体">重合体</a>として繊維構造を形成してはたらく．筋細胞においては<a href="#" class="anno ミオシン繊維">ミオシン繊維</a>と相互作用して筋<a href="#" class="anno 収縮力">収縮力</a>を発生する．また，あらゆる<a href="#" class="anno 真核生物">真核生物</a>の細胞骨格としてはたらき，さまざまなタンパク質と相互作用して細胞の形態形成，運動や分<a href="#" class="anno 裂">裂</a>を駆動する．アクチン繊維の両端では重合能が異なり，一端で重合しつつもう一端で解離することで，あたかもキャタピラーの接地面のようにみかけの移動<a href="#" class="anno 推進力">推進力</a>を生み出す過程は<a href="#" class="anno トレッドミル">トレッドミル</a>ともよばれ，これが細胞の形態形成，運動や分裂を駆動する<a href="#R1"><sup>1)</sup></a>．これらの機能特性はアクチン分子の立体構造とそのダイナミックな変化によるものであり，よって，その構造を知ることは，アクチン機能の<a href="#" class="anno 発現機構">発現機構</a>を知るうえで欠かすことのできないものである．<br/>　アクチンの構造については，1990年に，DN<a href="#" class="anno ase">ase</a> Iとの<a href="#" class="anno 複合体">複合体</a>としての<a href="#" class="anno 結晶構造">結晶構造</a>がX線解析により明らかにされて以来<a href="#R2"><sup>2)</sup></a>，約25種類のさまざまな複合体として結晶構造が明らかにされてきたが，アクチン繊維の構造解明はあまり進まなかった．繊維状の重合体は<a href="#" class="anno 長さ">長さ</a>に分布があるため結晶にならず，原子分解能での<a href="#" class="anno 構造解析">構造解析</a>法としてもっとも強力なX線結晶<a href="#" class="anno 解析法">解析法</a>が適用できないためであった．アクチン繊維の構造はこれまで<a href="#" class="anno 電子<a href="#" class="anno 顕微鏡法">顕微鏡法</a>">電子顕微鏡法</a>とX線繊維回折法により解析されてきた．1990年には，結晶構造を解いたHolmesらにより，アクチン繊維の配向液晶からのX線繊維回折像の層線回折強度にあわせたモ<a href="#" class="anno デ">デ</a>ル構造が提案され<a href="#R3"><sup>3)</sup></a>，2009年には，Odaらが，電子顕微鏡法の助けも借りてより高分解能のX線繊維回折データにあわせたモデル構造を発表した<a href="#R4"><sup>4)</sup></a>．しかしながら，これらのモデルは観測強度とモデル計算強度との一致度に依存しているため正しいモデルである保証がなくその<a href="#" class="anno 信頼性">信頼性</a>に限界があった．<a href="#" class="anno 分子構造">分子構造</a>の3次元密度分布を<a href="#" class="anno 再構成">再構成</a>するためにはその回折（フーリエ）データの強度（振幅）と位相とが必要であるが，強度データだけではいくとおりにも解釈が可能でその構造に一意性がない．<br/>　それに対して<a href="#" class="anno 低温電子顕微鏡">低温電子顕微鏡</a>法では，画像を解析するため<a href="#" class="anno 当然">当然</a>ながら位相情報も得られる．ただし，これまでに報告されたアクチン繊維構造の最高分解能は13Åで<a href="#R4"><sup>4,5)</sup></a>，アクチン分子の<a href="#" class="anno かた">かた</a>ちがぼんやりとみえる程度にとどまっていた．幅わずか10 nmときわめて細いリボン状の繊維構造であるため，無染色の凍結氷<a href="#" class="anno 包埋">包埋</a>試料では<a href="#" class="anno 電子顕微<a href="#" class="anno 鏡像">鏡像</a>">電子顕微鏡像</a>のコントラストがきわめて低く，多くの像を整列して平均することで高分解能の解析を実現する画像解析法がうまくはたらかないためであった．曲がりやすくねじれやすい構造も高分解能の達成をさまたげていた．今回，筆者らは，長年にわたって開発してきた低温電子顕微鏡法の新しい技術をアクチン繊維の構造解析に応用し，2次構造がみえる6.6Å分解能でその3次元密度分布を明らかにし，信頼性の高い原子モデルを構築した．<br/><br/><h2>1．低温電子顕微鏡による高分解能の構造解析</h2><br/>　低温電子顕微鏡法では，直<a href="#" class="anno 径">径</a>1<a href="#" class="anno μm">μm</a>ほどの穴が無数に開いた<a href="#" class="anno カ">カ</a>ーボン薄膜を載せた試料グリッドのうえに，<a href="#" class="anno 生体分子">生体分子</a>の水溶液を載せその大半をろ紙で吸い取り，グリッドを液体エタンに突入させて急速凍結し電子顕微鏡の低温試料とする．こうして生体分子を50～100 nm厚の<a href="#" class="anno 非晶質">非晶質</a>の氷薄膜に閉じ込め，電子線による投影像を撮影する（<a href="#F1">図1</a>）．電子顕微鏡の分解能自体は個々の原子の並びを解像できるほどに高いが，生体分子は<a href="#" class="anno 水素結合">水素結合</a>などの弱い結合で立体構造を保持しているため電子線による損傷がきわめて大きく，損傷をさけるために電子線の<a href="#" class="anno 照射量">照射量</a>を低く抑えざるをえないため，ノイズレベルが高くコントラストの低い像しか得られず個々の分子像の分解能はきわめて低い．高分解能の像情報が記録されているにもかかわらず，高いノイズレベルによりその情報は埋もれてしまうのである．ノイズを抑えて高分解能の像情報をうかびあがらせるには，均一な構造の生体分子から<a href="#" class="anno 数千">数千</a><a href="#" class="anno 数万">数万</a>もの数多くの像を収集し，その投影方向ごとに分類して整列し平均する必要がある．この分類・整列・平均により十分に多くの方向で高分解能の投影像が得られれば，<a href="#" class="anno 原理的">原理的</a>には病院で行われているX線<a href="#" class="anno CT">CT</a>と<a href="#" class="anno 同じ">同じ</a>計算法で<a href="#" class="anno 立体像">立体像</a>を再構成することができる．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　低温電子顕微鏡における試料の作製方法</strong><br/>試料グリッドのうえに生体分子の水溶液を載せ，それをろ紙でぎりぎりまで吸い取って液体エタンで急速凍結することにより試料を作製する．試料グリッドの0.6μmの穴に厚さ30～100 nmの非晶質の氷薄膜を張りそのなかに試料を包埋する．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2010/11/Namba-Nature-10.10.7-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　低温電子顕微鏡における試料の作製方法" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Namba-Nature-10.10.7-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Namba-Nature-10.10.7-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　直径が50 nm以上の大きな球形ウイルスや直径25 nmの太めのチューブ構造である細菌<a href="#" class="anno べん毛">べん毛</a>繊維などでは，タンパク質の<a href="#" class="anno 主鎖">主鎖</a>や<a href="#" class="anno 側鎖">側鎖</a>などの<a href="#" class="anno 微細構造">微細構造</a>がみえる分解能（3～4Å）が達成されている<a href="#R6"><sup>6,7)</sup></a>．大きな分子<a href="#" class="anno 集合体">集合体</a>では投影像の<a href="#" class="anno 高精度">高精度</a>での分類と整列に必要な高い像コントラストが得られるためである．<a href="#" class="anno X線<a href="#" class="anno 結晶解析">結晶解析</a>">X線結晶解析</a>に必要な良質の結晶を得ることの困難さを考えれば，球形ウイルスの構造解析は，近い将来，低温電子顕微鏡法の独壇場となることは想像にかたくない．それほど強力な手法になった低温電子顕微鏡法でも，小さな分子や細い繊維の高分解能での構造解析は依然として困難である．生体分子と非晶質氷との密度差が小さいために像コントラストが低いからである．<br/>　筆者らは，種々のくふうにより像コントラストを大幅に向上することに成功した<a href="#R8"><sup>8)</sup></a>（<a href="#F2">図2a</a>）．氷薄膜の<a href="#" class="anno 厚さ">厚さ</a>を制御して試料の立体構造を保持したままできるかぎり薄い氷薄膜を作製することに成功し，約1.6倍のコントラストを得た．また，試料温度を電子線の照射損傷をもっとも抑制することが可能な4 Kから50 Kに昇温することで非晶質氷の<a href="#" class="anno <a href="#" class="anno 極">極</a>低温">極低温</a>での高密度化をさけ，1.7倍のコントラストを実現した．さらに，エネルギー分光器による非弾性散乱電子の除去により，1.8倍のコントラストを実現した．これらを積算すると約<a href="#" class="anno 5倍">5倍</a>ものコントラスト向上になった．同時に，電気や熱の伝導度のきわめて低い4 Kの極低温では試料の帯電などにより高分解能の像の得られる歩留まりは1％程度ときわめて低かったが，50 Kに試料温度を昇温することでこれが95％以上と改善し，<a href="#" class="anno データ収集">データ収集</a>効率が劇的に高まった．このようにして得られた高コントラスト像，すなわち，シグナル/ノイズ比の高い像を解析に使うことによって像の分類と整列がより正確にできるようになり，これがアクチン繊維の高分解能での立体像の再構成に結びついた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　アクチン繊維の電子顕微鏡像と画像解析によって得られた立体像</strong><br/>（a）急速凍結により氷包埋したアクチン繊維の電子顕微鏡像．<br/>（b）3次元密度マップとアクチン繊維の原子モデル．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2010/11/Namba-Nature-10.10.7-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　アクチン繊維の電子顕微鏡像と画像解析によって得られた立体像" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Namba-Nature-10.10.7-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Namba-Nature-10.10.7-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．アクチン繊維の原子モデルの構築と<a href="#" class="anno 精密化">精密化</a></h2><br/>　こうして得られた6.6Å分解能の密度マップ（PDB ID：<a href="http://service.pdbj.org/mine/Det<a href="#" class="anno ail">ail</a>2?PDBID=3mfp&amp;PAGEID=Summary" target="_blank">3MFP</a>）では，<a href="#" class="anno アクチン単量体">アクチン単量体</a>の結晶構造<a href="#R9"><sup>9)</sup></a> にみられる<a href="#" class="anno αヘリックス">αヘリックス</a>やβ構造などの2次構造をすべて鮮明に解像することができた（<a href="#F2">図2b</a>）．特筆すべき点は，DNase I結合ループ（<a href="#" class="anno Dループ">Dループ</a>）とよばれ結晶構造ごとにαヘリックスやループなど異なるかたちをとる部分や，これまでみえたことのない<a href="#" class="anno N末端部分">N末端部分</a>の密度を明確に解像できたことである．このDループは，結合相手をもたないアクチンの結晶ではαヘリックスであるが，アクチン繊維ではアクチン素繊維にそったアクチン分子間の相互作用を保つために大きく伸びたループとなっている．<br/>　一般に，タンパク質は複数の<a href="#" class="anno ドメイン構造">ドメイン構造</a>からできており，各ドメインは<a href="#" class="anno 疎水性">疎水性</a><a href="#" class="anno アミノ酸<a href="#" class="anno 残基">残基</a>">アミノ酸残基</a>が内部に密集することで安定な立体構造を保持するため，X線結晶解析により解かれた構成ドメインの原子モデルの存在する場合，その集合体の電子顕微鏡像による<a href="#" class="anno 解析結果">解析結果</a>がたとえ主鎖や側鎖のみえない分解能であっても，2次構造の配置と方位が明確にみえればドメインごとにモデルをあてはめることで信頼性の高い原子モデルの構築が可能である．アクチン繊維では，6.6Å分解能の3次元マップにアクチンの4つのドメイン（<a href="#F3">図3a</a>）のモデルを個別にあてはめ，<a href="#" class="anno 分子動力学">分子動力学</a>にもとづいたフレキシブル<a href="#" class="anno フィッティング">フィッティング</a>のプログラムを使用して各ドメインの<a href="#" class="anno コンフォメーション">コンフォメーション</a>を精密化あるいは改変した．<br/><br/><a name="F3"></a><div id="fig3-caption-text" style="display: none;"><strong>図3　繊維の形成にともなうアクチン分子の構造変化</strong><br/>（a）アクチン単量体の4つのドメイン（D1～D4）．<br/>（b）アクチン繊維の構造（ピンク色）とアクチン単量体の結晶構造（青色）について，D3ドメインおよびD4ドメインを重ね合わせて比較した．D1ドメインとD2ドメインはD3ドメインおよびD4ドメインに対して大きく回転していた．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2010/11/Namba-Nature-10.10.7-Fig.3.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure3" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図3　繊維の形成にともなうアクチン分子の構造変化" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Namba-Nature-10.10.7-Fig.3.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Namba-Nature-10.10.7-Fig.3.jpg" alt="figure3" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig3-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig3-caption').innerHTML = document.getElementById('fig3-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．繊維の形成にともなうアクチンの構造変化</h2><br/>　繊維の形成にともなうアクチンの構造変化は4つのドメインの<a href="#" class="anno 相対的">相対的</a>な移動と回転であり，各ドメインの構造は結晶構造とほぼ一致した．このこと自体が今回の解析によって得られた立体像の高い信頼性を示すものである．ただし，ドメインD2のDループはαヘリックスからループに変化していた（<a href="#F3">図3b</a>）．また，ドメインのあいだの変化ではドメインD1とドメインD3とのあいだの動きがもっとも大きかった．この相対的なドメインの回転によりドメインD1のGln137がA<a href="#" class="anno TP">TP</a>のγ<a href="#" class="anno リン酸">リン酸</a>部位に接近しており，アクチン繊維の形成にともなうATP<a href="#" class="anno 加水分解">加水分解</a>活性の40,000倍もの上昇が説明できた．<br/><br/><h2>4．アクチン繊維のねじれの<a href="#" class="anno ダイナミクス">ダイナミクス</a></h2><br/>　アクチン繊維は2本の素繊維が束ねられたリボン状の構造で，<a href="#" class="anno そのため">そのため</a>にねじれやすく曲がりやすいといわれてきた<a href="#R5"><sup>5)</sup></a>．電子顕微鏡像の解析による分解能が低いのはさまざまなねじれをもつ構造が混ざっているからであると解釈され，そのこと自体がアクチン繊維の<a href="#" class="anno 生理的">生理的</a>な機能に重要な構造ダイナミクスの特徴であると考えられてきた<a href="#R5"><sup>5)</sup></a>．しかし，今回の高分解能の解析結果から，熱運動によるねじれの振幅はさほど大きく<a href="#" class="anno ないこと">ないこと</a>が推察された．そこで，得られたアクチン繊維の原子モデルをもとに，左巻き一重らせんにそって隣接するアクチン分子の回転角が0.2度ずつ異なる40種類のモデル構造を作成し，構造解析に用いたすべての電子顕微鏡像をねじれによって分類した結果，約90％の像は平均角度166.6度から±1度の範囲におさまった．<br/>　低温電子顕微鏡像はそもそも高いノイズレベルをもつため，実際より大きなねじれをもつ構造として分類される<a href="#" class="anno 可能性">可能性</a>がある．<a href="#" class="anno つまり">つまり</a>，ねじれの分布は像のノイズに依存して広くなる傾向をもつ．よって，これまでの電子顕微鏡像の解析により広い分布をもつとされてきたアクチン繊維のねじれは，像のノイズレベルの高さか，あるいは，凍結グリッド試料の作製のときの<a href="#" class="anno 機械的">機械的</a>な擾乱による可能性が高い．アクチン繊維のねじれはさまざまなアクチン結合蛋<a href="#" class="anno 白質">白質</a>との結合により大きく変化するが，繊維自体の生理的なねじれのダイナミクスはこれまでいわれてきたほど大きくはないようである．<br/><br/><h2>5．繊維形成に重要なアクチンの分子間相互作用</h2><br/>　素繊維は<a href="#" class="anno 塩橋">塩橋</a>を含む多くの親水的な分子間相互作用で形成されており，その<a href="#" class="anno 接触面積">接触面積</a>は<a href="#" class="anno 比較的">比較的</a>大きい．ドメインD2のDループは相手分子の<a href="#" class="anno C末端">C末端</a>の周辺にあるドメインD1-ドメインD3ポケットに伸びて入り込み，ドメインD4といっしょになって相手分子のドメインD3をはさみ込んでいる．そのため，分子間の接触面積は広く素繊維にそった相互作用は強い．この相互作用に関与するのは，Ile64-<a href="#" class="anno Tyr">Tyr</a>166，<a href="#" class="anno Lys">Lys</a>61-<a href="#" class="anno Glu">Glu</a>167，Arg62-A<a href="#" class="anno sp2">sp2</a>88，Glu205-Asp286，Asp244-<a href="#" class="anno Arg2">Arg2</a>90，Asp241-Thr324，<a href="#" class="anno Gly">Gly</a>245-Pro322などで，その多くは親水的なものであった．<br/>　それに比べて素繊維のあいだの相互作用はきわめて弱くみえた．実際には安定な素繊維のあいだの相互作用を説明するため，Holmesらは，1990年のモデルで疎水性プラグの存在を提案した<a href="#R3"><sup>3)</sup></a>．結晶構造にあったコンパクトなプラグ構造（P<a href="#" class="anno he2">he2</a>62～Ile274）がほどけて隣接する素繊維にむかって大きく伸び，その際に露出した疎水性側鎖と相手側の<a href="#" class="anno 疎水的">疎水的</a>ポケットとのあいだで強い<a href="#" class="anno 疎水性相互作用">疎水性相互作用</a>が形成されるというもので，モデルにおける素繊維のあいだの相互作用があまりに小さいことをおぎなうために提案された．しかし，今回の構造解析により，プラグ構造は結晶構造のままで<a href="#" class="anno 親水性">親水性</a>プラグとして素繊維のあいだの結合に関与していることが明らかになった．素繊維のあいだの相互作用に関与するのは，Dループから伸びるArg39とプラグ構造のGlu270との塩橋，それに，His40-<a href="#" class="anno Ser">Ser</a>265，His40-Gly268，Ile267主鎖のCOと<a href="#" class="anno His1">His1</a>73との相互作用など，<a href="#" class="anno 極性基">極性基</a>のあいだの相互作用であった．<br/>　このように，素繊維のあいだの相互作用も素繊維にそった相互作用も親水的なもので，数多くの相互作用が<a href="#" class="anno 協同的">協同的</a>にはたらいてアクチン繊維の構造を<a href="#" class="anno 安定化">安定化</a>していた．このことは，比較的小さな<a href="#" class="anno 環境変化">環境変化</a>や<a href="#" class="anno アクチン結合<a href="#" class="anno 蛋白質">蛋白質</a>">アクチン結合蛋白質</a>との相互作用による構造変化により繊維構造の<a href="#" class="anno 安定性">安定性</a>を制御できることを示唆しており，アクチン繊維形成のダイナミクスをささえるしくみが明らかになったといえる．<br/><br/><h2>おわりに</h2><br/>　アクチン繊維のように細くて曲がりやすい構造を低温電子顕微鏡法で解析し，アクチン分子の2次構造までを<a href="#" class="anno 可視化">可視化</a>することに成功したことは，この構造解析技術の<a href="#" class="anno 細胞<a href="#" class="anno 生物学">生物学</a>">細胞生物学</a>分野における幅広い応用可能性とその高いポテンシャルを示すものである．アクチン繊維や<a href="#" class="anno 微小管">微小管</a>など，多くの繊維構造が多くのタンパク質と相互作用することで，その繊維の形成や解離がダイナミックに制御され，発生や分化における細胞の形態形成や運動などに必須な役割をはたしている．そういったタンパク質と繊維との複合体の構造を原子レベルで解明することは，さまざまな<a href="#" class="anno 生命機能">生命機能</a>の分子機構を解明するうえできわめて重要である．今回のアクチン繊維の高分解能での構造解析は，その方向への展開にむけて大きな扉を開いた．アクチン<a href="#" class="anno 結合タンパク質">結合タンパク質</a>との複合体の構造はアクチン繊維よりも実<a href="#" class="anno 質的">質的</a>に太いため，低温電子顕微鏡法にとってはアクチン繊維自体の解析より簡単である．そして，低温電子顕微鏡法の到達分解能が現在のレベルにとどまる原理的な理由はなく，さらなる技術開発によりタンパク質や核酸の主鎖や側鎖のみえる3Å分解能を達成することも夢ではない．そうすれば，構成因子のX線結晶解析にたよることなく複合体の原子モデルを構築し，<a href="#" class="anno 原子間">原子間</a>相互作用やその変化を詳細に議論して，細胞シ<a href="#" class="anno ステム">ステム</a>の動態をささえる分子機構にせまることも可能になるであろう．現在，それをめざしてさらなる技術開発を進めている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Pollard, T. D. & Borisy, G. G.</span>: <span class="ti">Cellular motility driven by assembly and disassembly of actin filaments.</span> <span class='so'>Cell, 112, 453-465 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12600310" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Kabsch, W., Mannherz, H. G., Suck, D. et al.</span>: <span class="ti">Atomic model of the actin:DNase I complex.</span> <span class='so'>Nature, 347, 37-44 (1990)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2395459" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Holmes, K. C., Popp, D., Gebhard, W. et al.</span>: <span class="ti">Atomic model of the actin filament.</span> <span class='so'>Nature, 347, 44-49 (1990)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2395461" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Oda, T., Iwasa, M., Aihara, T. et al.</span>: <span class="ti">The nature of the globular- to fibrous-actin transition.</span> <span class='so'>Nature, 457, 441-445 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19158791" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Galkin, V. E., Orlova, A., Cherepanova, O. et al.</span>: <span class="ti">High-resolution cryo-EM structure of the F-actin-fimbrin/plastin ABD2 complex.</span> <span class='so'>Proc. Natl Acad. Sci. USA, 105, 1494-1498 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18234857" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Zhang, X., Jin, L., Fang, Q. et al.</span>: <span class="ti">3.3Å cryo-EM structure of a nonenveloped virus reveals a priming mechanism for cell entry.</span> <span class='so'>Cell, 141, 472-482 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20398923" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Yonekura, K., Maki-Yonekura, S. & Namba, K.</span>: <span class="ti">Complete atomic model of the bacterial flagellar filament by electron cryomicroscopy.</span> <span class='so'>Nature, 424, 643-650 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12904785" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Fujii, T., Kato, T. & Namba, K.</span>: <span class="ti">Specific Arrangement of α-helical coiled coils in the core domain of the bacterial flagellar hook for the universal joint function.</span> <span class='so'>Structure, 17, 1-9 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19913483" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Otterbein, L. R., Graceffa, P. & Dominguez, R.</span>: <span class="ti">The crystal structure of uncomplexed actin in the ADP state.</span> <span class='so'>Science, 293, 708-711 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11474115" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_04.html" target="_blank">11.4 Cytoskeleton</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/17_03.html" target="_blank">17.3 Control of muscle contraction</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/01_07.html" target="_blank">1.7 Major Classification of Organisms</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/17_01.html" target="_blank">17.1 Cell Motility</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_02.html" target="_blank">11.2 Characteristic Structures in Prokaryotes</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">藤井 高志（Takashi Fujii）</span><br>略歴：2009年 大阪大学大学院生命機能研究科博士課程 修了（工学博士），2010年より同 研究員．<br>研究テーマ：低温電子顕微鏡による生体分子の高分解能での構造解析と生物物理学．<br>関心事：低温電子顕微鏡法で生体分子の原子構造を決定する．<br><br><strong>難波 啓一（Keiichi Namba）</strong><br>大阪大学大学院生命機能研究科 教授．<br>研究室URL：<a href="http://www.fbs.osaka-u.ac.jp/labs/namba/index.html" target="_blank">http://www.fbs.osaka-u.ac.jp/labs/namba/index.html</a><br></div><br>© 2010 藤井高志・難波啓一 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 酵素と基質との相互作用に対するシミュレーションをオペロンに適用することによるタンパク質の機能および代謝経路の解明 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/7744" rel="bookmark">酵素と基質との相互作用に対するシミュレーションをオペロンに適用することによるタンパク質の機能および代謝経路の解明</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>酒井 綾乃</strong><br>（米国Illinois大学Urbana-Champaign校Institute for Genomic Biology）<br>email：<a href="mailto:ayano.sakai@gmail.com">酒井綾乃</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.126">10.7875/first.author.2013.126</a><br><div class="reference"><br><span class="ti">Discovery of new enzymes and metabolic pathways by using structure and genome context.</span><br><span class="au">Suwen Zhao, Ritesh Kumar, Ayano Sakai, Matthew W. Vetting, B. McKay Wood, Shoshana Brown, Jeffery B. Bonanno, Brandan S. Hillerich, Ronald D. Seidel, Patricia C. Babbitt, Steven C. Almo, Jonathan V. Sweedler, John A. Gerlt, John E. Cronan, Matthew P. Jacobson</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24056934" target="_blank"><em>Nature</em>, <strong>502</strong>, 698-702 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 同じ">同じ</a><a href="#" class="anno 代謝経路">代謝経路</a>にある複数のタンパク質に<a href="#" class="anno メタボライト">メタボライト</a>ドッキング法を適用した結果，これまで報告のなかった<a href="#" class="anno ヒドロキシ">ヒドロキシ</a><a href="#" class="anno プロリン">プロリン</a><a href="#" class="anno ベタイン">ベタイン</a>-2-<a href="#" class="anno エピメラーゼ">エピメラーゼ</a>という酵素，および，<a href="#" class="anno ヒドロキシプロリン">ヒドロキシプロリン</a>ベタインをα<a href="#" class="anno ケト">ケト</a><a href="#" class="anno グルタル酸">グルタル酸</a>へと異化する代謝経路が解明された．機能が<a href="#" class="anno 未解明">未解明</a>であり<a href="#" class="anno リガンド">リガンド</a>との結合のないタンパク質のX線<a href="#" class="anno 結晶構造">結晶構造</a>回折法により決定された構造とと<a href="#" class="anno も">も</a>に，<a href="#" class="anno <a href="#" class="anno <a href="#" class="anno 相">相</a>同">相同</a>性">相同性</a>モ<a href="#" class="anno デ">デ</a>リング法により決定した構造から，ヒドロキシプロリンベタイン-2-エピメラーゼの機能，および，その代謝経路の下流に存在する酵素の機能を解明することに成功した．<br/><br/><h2>はじめに</h2><br/>　<a href="#" class="anno ゲノム解析">ゲノム解析</a>により見い出だされた新規のタンパク質の機能を<em><a href="#" class="anno in silico">in silico</a></em>解析のみにたより推測することは，データベースによる<a href="#" class="anno 機械的">機械的</a>な<a href="#" class="anno アノテーション">アノテーション</a>におけるエラーの問題もあり，い<a href="#" class="anno まだ">まだ</a>大きな課題である<a href="#R1"><sup>1)</sup></a>．これまでの筆者らの研究において<a href="#R2"><sup>2)</sup></a>，<a href="#" class="anno X線結晶構造">X線結晶構造</a>回折法あるいは相同性モデリング法によるタンパク質の<a href="#" class="anno 立体構造">立体構造</a>に対し<a href="#R3"><sup>3,4)</sup></a>，メタボライトドッキング法という酵素と基質との<a href="#" class="anno 相互作用">相互作用</a>のシミュレーションにより，タンパク質の機能をより正確に予測する方法を確立させてきた<a href="#R5"><sup>5)</sup></a>．細菌のゲノムでは<a href="#" class="anno オペロン">オペロン</a>とよばれる遺伝子の<a href="#" class="anno 集合体">集合体</a>にコードされるタンパク質が一連の代謝経路を担うことがよく確認されており，このオペロンがタンパク質の機能を知るうえで重要な手がかりとなりうることは周知である．代謝経路において<a href="#" class="anno 産生">産生</a>する<a href="#" class="anno 中間体">中間体</a>は<a href="#" class="anno 化学構造">化学構造</a>が類似しているため，一連の代謝経路に関与していると考えられるオペロンにコードされる複数のタンパク質に対しこのメタボライトドッキング法を適用することにより，コンピューターによる<a href="#" class="anno 機能予測">機能予測</a>の精度をあげることが可能と考えられた．<br/><br/><h2>1．<em><a href="#" class="anno hpb">hpb</a>D</em>を含むオペロンの解析</h2><br/>　海洋性細菌<em>Pelagibaca b<a href="#" class="anno erm">erm</a>udensis</em>のもつ<a href="#" class="anno エノラーゼ">エノラーゼ</a><a href="#" class="anno スーパーファミリー">スーパーファミリー</a><a href="#R6"><sup>6)</sup></a> に属する機能の未解明のタンパク質<a href="#" class="anno Hpb">Hpb</a>Dは，<a href="#" class="anno T<a href="#" class="anno IM">IM</a>">TIM</a>バレル構造をとり<a href="#" class="anno 活性中心">活性中心</a>には2つの<a href="#" class="anno Lys">Lys</a>があることがわかっていて，また，その立体構造はすでに解明されていた（PDB ID：<a href="http://service.pdbj.org/mine/Det<a href="#" class="anno ail">ail</a>2?PDBID=2pmq&amp;PAGEID=Summary" target="_blank">2PMQ</a>）．しかし，その<a href="#" class="anno 活性部位">活性部位</a>には，触媒反応によるα<a href="#" class="anno プロト">プロト</a>ンの除去ののち，<a href="#" class="anno 陰電荷">陰電荷</a>を帯びたエノラーゼ<a href="#" class="anno 反応中間体">反応中間体</a>を<a href="#" class="anno 安定化">安定化</a>させるMg<sup>2+</sup>が認められるだけで，機能の解明のための手がかりは得られないでいた．HpbDをコードする<em>hpbD</em>を含むオペロン（<a href="#F1">図1</a>）については，機械的にアノテーションされたデータベースであるTr<a href="#" class="anno EM">EM</a>BLによる予測では，<em><a href="#" class="anno in vitro">in vitro</a></em>における機能も，また，その代謝経路も決定することは不可能であった．<em>P</em>. <em>bermudensis</em>は<a href="#" class="anno 遺伝子操作">遺伝子操作</a>が不可能であったため，<a href="#" class="anno 土壌細菌">土壌細菌</a>であり類似のオペロンをもつ<em>Paracoccus denitrificans</em>を使い研究を進めることにした．この<em>P</em>. <em>denitrificans</em>には<em>hpbD</em>の<a href="#" class="anno オルソログ">オルソログ</a>の遺伝子と<em>P</em>. <em>bermudensis</em>の<em>hpbD</em>遺伝子に近接する遺伝子のオルソログの遺伝子からなるオペロンの存在が確認された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　<em>P</em>. <em>bermudensis</em>のゲノムに存在する<em>hpbD</em>を含むオペロンと<em>trans</em>-ヒドロキシプロリンベタインの代謝経路</strong><br/>代謝経路に関する遺伝子がオペロンとして存在することを確認できる．それぞれの反応にかかわるタンパク質とその遺伝子を同色で示した．HpbD，HpbJ，HpbB1にメタボライトドッキング法を適用した結果，上位スコアに<em>trans</em>-ヒドロキシプロリンベタインが共通してみられた．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/10/Sakai-Nature-13.10.24-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　<em>P</em>. <em>bermudensis</em>のゲノムに存在する<em>hpbD</em>を含むオペロンと<em>trans</em>-ヒドロキシプロリンベタインの代謝経路" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sakai-Nature-13.10.24-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sakai-Nature-13.10.24-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．メタボライトドッキング法によるHpbDの基質の特定</h2><br/>　<a href="#" class="anno KE">KE</a>GGメタボライトライブラリー<a href="#R7"><sup>7)</sup></a> に登録されている<a href="#" class="anno 化学物質">化学物質</a>だけでなく，エノラーゼスーパーファミリーの基質であるジ<a href="#" class="anno ペプチド">ペプチド</a>，<em>N</em>-<a href="#" class="anno サクシニル">サクシニル</a><a href="#" class="anno アミノ">アミノ</a>酸，酸性糖，また，<a href="#" class="anno 高エネルギー">高エネルギー</a>物質であるエノラーゼ反応中間体を含む87,098種の物質を含む基質のライブラリーを用いて，HpbDの活性部位に対しメタボライトドッキング法を適用した．結合<a href="#" class="anno アフィニティ">アフィニティ</a>ーの結果によりスコアを定めたところ，上位にはアミノ酸に類似した物質，とくに，プロリン類似物質と<a href="#" class="anno アミノ基">アミノ基</a>修飾のあるアミノ酸がランクインした．この結果により，HpbDはアミノ基修飾されたアミノ酸の<a href="#" class="anno ラセマーゼ">ラセマーゼ</a>あるいはエピメラーゼであると推測された．<br/>　<a href="#" class="anno グ<a href="#" class="anno リシン">リシン</a>">グリシン</a>ベタインおよびプロリンと結合すると推測されたABC<a href="#" class="anno トランスポーター">トランスポーター</a>であるHpbJの遺伝子もこのオペロンに確認された．相同性モデリング法により，このHpbJの構造を48％の相同性を示す<a href="#" class="anno グリシンベタイン">グリシンベタイン</a><a href="#" class="anno 結合タンパク質">結合タンパク質</a>（PDB ID：<a href="http://service.pdbj.org/mine/De<a href="#" class="anno tail">tail</a>2?PDBID=1r9l&amp;PAGEID=Summary" target="_blank">1R9L</a>）をモデルとして作製したところ，その活性部位においてベタインの陽電荷を帯びたアンモニウム基をπ<a href="#" class="anno 陽イオン">陽イオン</a>の相互作用でかこむよう3つのTrpが位置していたようすから，ベタインが基質である<a href="#" class="anno 可能性">可能性</a>があると思われた．ベタインと似た31の<a href="#" class="anno 化合物">化合物</a>を収集してこのモデルに対し新たにメタボライトドッキング法を適用したところ，<em><a href="#" class="anno tra">tra</a>ns</em>-ヒドロキシプロリンベタインが高いスコアを示したためHpbJはその輸送に関与すると推測された．また，HpbDの活性部位にはこのHpbJのモデルと同様にTrpが確認されたため（<a href="#F2">図2a</a>），HpbDの基質も<em>t<a href="#" class="anno ran">ran</a>s</em>-ヒドロキシプロリンベタインのようなプロリンベタインであろうと推測された．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　HpbDに対するメタボライトドッキング法によるプロリンベタインの結合とX線結晶構造回折法によるヒドロキシプロリンベタインの結合との比較</strong><br/>（a）メタボライトドッキング法による構造（ピンク色）と，X線結晶構造回折法により決定された構造（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=4h2h&amp;PAGEID=Summary" target="_blank">4H2H</a>，水色）の両方に，エピマー化を行う2つのLysと，ベタインのもつアンモニア基と相互作用を示すTrp，また，エノラーゼ反応における中間体の安定化を担うMg<sup>2+</sup>（緑色）がみられた．この比較により，メタボライトドッキング法が基質だけでなく活性部位における基質の結合のようすもほぼ正確に予測したことが判明した．<br/>（b）HpbDによる触媒反応．HpbDは<em>cis</em>-ヒドロキシプロリンベタインと<em>trans</em>-ヒドロキシプロリンベタインとのエピマー化を触媒するヒドロキシプロリンベタイン-2-エピメラーゼ活性をもつ．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/10/Sakai-Nature-13.10.24-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　HpbDに対するメタボライトドッキング法によるプロリンベタインの結合とX線結晶構造回折法によるヒドロキシプロリンベタインの結合との比較" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sakai-Nature-13.10.24-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sakai-Nature-13.10.24-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　HpbB1と60％の相同性を示すタンパク質（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=3n0q&amp;PAGEID=Summary" target="_blank">3N0Q</a>）をモデルとし，相同性モデリング法によりHpbB1の構造を求めた．HpbB1にはベタイン結合タンパク質にみられる特徴のある活性部位が確認された．また<a href="#" class="anno 実際">実際</a>に，HpbB1の属するRieske型タンパク質のメンバーにはベタインの脱<a href="#" class="anno メチル">メチル</a>化活性が報告されている．これらの情報より，HpbB1の基質もベタインであると推測した．<br/>　X線結晶構造回折法によるHpbDのアポ構造（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=2pmq&amp;PAGEID=Summary" target="_blank">2PMQ</a>）と，相同性モデリング法により作製したHpbJおよびHpbB1の構造に対し適用したメタボライトドッキング法の結果から，HpbDはヒドロキシプロリンベタインおよびプロリンベタインに対し1,1-プロトン<a href="#" class="anno 交換反応">交換反応</a>を行うものと推測した．グリシンベタインおよび<a href="#" class="anno <a href="#" class="anno カ">カ</a>ルニチン">カルニチン</a>も同じく基質になりうるという結果も得られたが，この2つのアミノ酸は<a href="#" class="anno 光学的">光学的</a>に<a href="#" class="anno 不活性">不活性</a>なためプロトン交換反応ののち基質と産物とで変化は観察できない．<br/><br/><h2>3．実験によるコンピューター予測の証明</h2><br/>　<em>trans</em>-ヒドロキシプロリンベタイン，プロリンベタイン，グリシンベタイン，カルニチンの4つのアミノ酸をHpbDとともに重水において<a href="#" class="anno インキュベーション">インキュベーション</a>した．<em>trans</em>-ヒドロキシプロリンベタイン，プロリンベタイン，グリシンベタインのαプロトンは溶媒の重水素と交換されたことがプロトン<a href="#" class="anno N<a href="#" class="anno MR">MR</a>法">NMR法</a>により確かめられた．それにくわえ，<em>trans</em>-ヒドロキシプロリンベタインの2-エピマー<a href="#" class="anno 異性体">異性体</a>である<em><a href="#" class="anno cis">cis</a></em>-ヒドロキシプロリンベタインも，<em>trans</em>-ヒドロキシプロリンベタインとHpbDとの反応において確認された（<a href="#F2">図2b</a>）．これらは，活性部位に位置する2つのLysの2位炭素における1,1-プロトン交換によるものであった．<br/>　<em>trans</em>-ヒドロキシプロリンベタインおよびプロリンベタインを用いてHpbDのヒドロキシプロリンベタイン-2-エピメラーゼ活性およびプロリンベタイン-2-ラセマーゼ活性について<a href="#" class="anno <a href="#" class="anno 酵<a href="#" class="anno 素反応">素反応</a>">酵素反応</a>速度">酵素<a href="#" class="anno 反応速度">反応速度</a></a>を測定した．<em>k</em><sub>cat</sub>値は高かったが<em>K</em><sub>m</sub>値も高かったため，<a href="#" class="anno 触媒効率">触媒効率</a><em>k</em><sub>cat</sub>/<em>K</em><sub>m</sub>は10<sup>2</sup>～10<sup>3</sup> M<sup>-1</sup> s<sup>-1</sup>であった．海洋性細菌や植物<a href="#" class="anno 寄生性">寄生性</a>細菌は周辺の環境により<em>trans</em>-ヒドロキシプロリンベタインを含むベタインを浸透<a href="#" class="anno 圧">圧</a>の制御物質として必要とするため，ベタインは<a href="#" class="anno 細胞内">細胞内</a>において<a href="#" class="anno 高濃度">高濃度</a>に維持されている<a href="#R8"><sup>8)</sup></a>．0.5 M Na<a href="#" class="anno Cl">Cl</a>および20 mM <em>trans</em>-ヒドロキシプロリンベタインを含む<a href="#" class="anno グルコース">グルコース</a>培養において，<em>P</em>. <em>denitrificans</em>の細胞内におけるヒドロキシプロリンベタインの濃度は170 mMであった．このような高濃度の<em>trans</em>-ヒドロキシプロリンベタインの存在する細胞内においては，HpbDによる触媒効率の<a href="#" class="anno 測定値">測定値</a>も<a href="#" class="anno 生理学的">生理学的</a>に妥当であると考えられた．実験は<em>trans</em>-ヒドロキシプロリンベタイン，プロリンベタイン，グリシンベタイン，カルニチンの4つのアミノ酸に対してのみ行ったが，そのうち2つが生理学的に妥当な測定値を示したことから，このメタボライトドッキング法は酵素の機能を的確に予測したものと考えられた．<br/>　<em>trans</em>-ヒドロキシプロリンベタインがリガンドとして結合したHpbDの構造を分解能1.7Åで解明した（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=4h2h&amp;PAGEID=Summary" target="_blank">4H2H</a>，<a href="#F2">図2a</a>）．リガンドは<a href="#" class="anno 電子密度">電子密度</a>から<em>trans</em>-ヒドロキシプロリンベタイン（基質）と<em>cis</em>-ヒドロキシプロリンベタイン（産物）との<a href="#" class="anno 混合物">混合物</a>であると推測された．この活性部位に確認されるベタインは，グリシンベタイン結合タンパク質と似たようなTrp320とのπ陽イオンの相互作用を示した．活性部位にプロリンベタインの結合したメタボライトドッキング法による結果と，実際のX線結晶構造回折法により確認された結合とはほぼ同じであり，コンピューターによる予測は正しかったことが確認された．<br/><br/><h2>4．<em>in vivo</em>におけるHpbDの機能</h2><br/>　<em>in vitro</em>においてだけではなく，<em>in vivo</em>においてもHpbDは<em>trans</em>-ヒドロキシプロリンベタインから<em>cis</em>-ヒドロキシプロリンベタインへの<a href="#" class="anno エピマー化">エピマー化</a>を触媒しているのではないか，また，この反応は<em>hpbD</em>に近接する遺伝子とともに<em>trans</em>-ヒドロキシプロリンベタインから<a href="#" class="anno αケトグルタル酸">αケトグルタル酸</a>への代謝経路の最初の反応を担っているのではないかと推測した．この代謝経路は，HpbDによるエピマー化につづき，HpbB1およびHpb<a href="#" class="anno C1">C1</a>が<em>cis</em>-ヒドロキシプロリンベタインをメチル-<em>cis</em>-ヒドロキシプロリンへと脱<a href="#" class="anno メチル化">メチル化</a>し，<a href="#" class="anno フラビン">フラビン</a><a href="#" class="anno 依存性">依存性</a>酵素であるHpbAがメチル-<em>cis</em>-ヒドロキシプロリンを<em>cis</em>-ヒドロキシプロリンへと変換して，D-アミノ酸<a href="#" class="anno 酸化酵素">酸化酵素</a>であるHpbEが<em>cis</em>-ヒドロキシプロリンを<a href="#" class="anno ピロリン">ピロリン</a>-4-ヒドロキシ-2-<a href="#" class="anno カルボン酸">カルボン酸</a>へと酸化，<a href="#" class="anno ジヒドロ">ジヒドロ</a>ジピコ<a href="#" class="anno リン酸">リン酸</a><a href="#" class="anno シンターゼ">シンターゼ</a>スーパーファミリーのメンバーである酵素HpbGがαケトグルタル酸セミ<a href="#" class="anno アルデヒド">アルデヒド</a>への脱水反応を担い，そして，アルデヒド<a href="#" class="anno デ<a href="#" class="anno ヒドロゲナーゼ">ヒドロゲナーゼ</a>">デヒドロゲナーゼ</a>がαケトグルタル酸<a href="#" class="anno セミアルデヒド">セミアルデヒド</a>をαケトグルタル酸へと酸化するものである（<a href="#F1">図1</a>）．この代謝経路は，<em>trans</em>-ヒドロキシプロリンベタインの<a href="#" class="anno 炭素源">炭素源</a>および<a href="#" class="anno 窒素源">窒素源</a>としての利用を可能にする．<br/>　海水の<a href="#" class="anno 塩濃度">塩濃度</a>は0.6 M NaClであるが，そのような高い塩濃度においては細胞内における<a href="#" class="anno 浸透圧">浸透圧</a>の制御のために<em>trans</em>-ヒドロキシプロリンベタインが必要とされ，その<a href="#" class="anno 異化反応">異化反応</a>は抑制されるはずである．しかし反対に，そのような浸透圧の制御が必要とされないのであれば，<em>trans</em>-ヒドロキシプロリンベタインは代謝の対象となり細菌の炭素源および窒素源となる．ここまでのオペロンの解析による仮説が正しければ，低い塩濃度においては<em>trans</em>-ヒドロキシプロリンベタインおよび<em>cis</em>-ヒドロキシプロリンベタインが<em>P</em>. <em>denitrificans</em>の炭素源および窒素源となるはずである．さらに，グルコースを炭素源として補給してやれば，高い塩濃度において<em>trans</em>-ヒドロキシプロリンベタインが浸透圧の制御物質として使われたとしても<em>P</em>. <em>denitrificans</em>の増殖は抑制されないだろう．この仮説を確かめるため，<em>hpbA</em>遺伝子を欠損した<a href="#" class="anno 変異株">変異株</a>を用いた．この<em>hpbA</em>変異株はメチルヒドロキシプロリンベタインの異性体を<a href="#" class="anno 脱メチル化">脱メチル化</a>できないため，<em>trans</em>-ヒドロキシプロリンベタインおよび<em>cis</em>-ヒドロキシプロリンベタインを炭素源とできない．<em>hpbA</em>変異株は<em>trans</em>-ヒドロキシプロリンベタインあるいは<em>cis</em>-ヒドロキシプロリンベタインのどちらかを含むグルコース<a href="#" class="anno 培地">培地</a>では塩濃度にかかわらず増殖が可能であったが，<em>trans</em>-ヒドロキシプロリンベタインおよび<em>cis</em>-ヒドロキシプロリンベタインのどちらも含まないグルコース培地において，高い塩濃度のもとでは増殖が抑制された．この結果から，<em>trans</em>-ヒドロキシプロリンベタインおよび<em>cis</em>-ヒドロキシプロリンベタインが浸透圧の制御物質としての役割をはたしていることが明らかになった．<br/><br/><h2>5．<em>trans</em>-ヒドロキシプロリンベタインの代謝経路の解析</h2><br/>　低い塩濃度における<em>trans</em>-ヒドロキシプロリンベタインの異化反応から得られる<a href="#" class="anno 代謝産物">代謝産物</a>も，<a href="#" class="anno メタボローム">メタボローム</a>解析により解明された．この解析により，ヒドロキシプロリンベタインのほか，メチルヒドロキシプロリン，ヒドロキシプロリン，そして，推測された代謝経路の下流に存在するピロリン-4-ヒドロキシ-2-カルボン酸，αケトグルタル酸セミアルデヒド，αケトグルタル酸が確認された．これらの代謝産物は<a href="#" class="anno コハク酸">コハク酸</a>を炭素源として用いた場合は検出されなかった．また，高い塩濃度におけるグルコース培養においては，<em>trans</em>-ヒドロキシプロリンベタインの濃度を170 mMとしても<em>trans</em>-ヒドロキシプロリンベタインの異化反応により生じるこれらの代謝産物は検出されなかった．この結果からも，<em>trans</em>-ヒドロキシプロリンベタインが浸透圧の制御物質として必要であるときには，この代謝経路は抑制されることが判明した．<br/><br/><h2>6．HpbDの遺伝子スイッチ</h2><br/>　<a href="#" class="anno 定量的">定量的</a>RT-<a href="#" class="anno PCR">PCR</a>法により<em>P</em>. <em>denitrificans</em>においてこの代謝経路にかかわる遺伝子の発現を解析したところ，<em>trans</em>-ヒドロキシプロリンベタインの輸送を担うオルソログの遺伝子と，この代謝経路に関与するオルソログの遺伝子は，<em>trans</em>-ヒドロキシプロリンベタインおよび<em>cis</em>-ヒドロキシプロリンベタインにより発現が上昇することが確認された．これらの結果より，<em>hpbD</em>を含むオペロンがこの代謝経路に関係していることが明らかになった．<br/>　同様の実験を高い塩濃度において<em>trans</em>-ヒドロキシプロリンベタインあるいは<em>cis</em>-ヒドロキシプロリンベタインの一方とグルコースによる培養のもと行ったところ，<em>trans</em>-ヒドロキシプロリンベタインの輸送を担うHpbHおよびHpbJの発現の上昇が確認されると同時に，ヒドロキシプロリンベタインの2-エピマー化を担うHpbD，<em>cis</em>-ヒドロキシプロリンベタインの脱メチル化を担うHpbB1およびHpbC1，メチルヒドロキシプロリンの脱メチル化を担うHpbAの遺伝子は発現が抑制された．この結果は，<em>trans</em>-ヒドロキシプロリンベタインおよび<em>cis</em>-ヒドロキシプロリンベタインの輸送は炭素源および窒素源の補給と同時に，浸透圧の制御物質として機能する際にも必要であることを示しており，異化反応の下流の遺伝子とは異なり，高い塩濃度においても<em>trans</em>-ヒドロキシプロリンベタインの輸送を担うHpbHおよびHpbJの発現は上昇した．<br/><br/><h2>おわりに</h2><br/>　この研究においては，遺伝子がオペロンを構成する複数のタンパク質に相同性モデリング法およびメタボライトドッキング法を適用することにより，機能の未知であったタンパク質HpbDについてヒドロキシプロリンベタイン-2-エピメラーゼという新規の機能を解明することに成功した．また，このHpbDの属するスーパーファミリーのもつ触媒反応の特徴から，<em>cis</em>-ヒドロキシプロリンベタインからαケトグルタル酸への代謝経路の存在を推測し，<a href="#" class="anno メタボローム解析">メタボローム解析</a>とゲノム解析からこれらの仮説が実際の機能と合致することを証明した．さらに，トランス<a href="#" class="anno クリプト">クリプト</a>ーム解析によりHpbDが<em>trans</em>-ヒドロキシプロリンベタインを浸透圧の制御物質として利用するか，あるいは，炭素源および窒素源として利用するかを制御するスイッチとして機能することも明らかにした．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Schnoes, A. M., Brown, S. D., Dodevski, I. et al.</span>: <span class="ti">Annotation error in public databases: misannotation of molecular function in enzyme superfamilies.</span> <span class='so'>PLOS Comput. Biol., 5, e1000605 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20011109" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Gerlt, J. A., Allen, K. N., Almo, S. C. et al.</span>: <span class="ti">The Enzyme Function Initiative.</span> <span class='so'>Biochemistry, 50, 9950-9962 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21999478" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Hermann, J. C., Marti-Arbona, R., Fedorov, A. A. et al.</span>: <span class="ti">Structure-based activity prediction for an enzyme of unknown function.</span> <span class='so'>Nature, 448, 775-779 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17603473" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Song, L., Kalyanaraman, C., Fedorov, A. A. et al.</span>: <span class="ti">Prediction and assignment of function for a divergent <em>N</em>-succinyl amino acid racemase.</span> <span class='so'>Nat. Chem. Biol., 3, 486-491 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17603539" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kalyanaraman, C. & Jacobson, M. P.</span>: <span class="ti">Studying enzyme-substrate specificity in silico: a case study of the <em>Escherichia coli</em> glycolysis pathway.</span> <span class='so'>Biochemistry, 49, 4003-4005 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20415432" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Babbitt, P. C., Hasson, M. S., Wedekind, J. E. et al.</span>: <span class="ti">The enolase superfamily: a general strategy for enzymecatalyzed abstraction of the a-protons of carboxylic acids.</span> <span class='so'>Biochemistry, 35, 16489-16501 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8987982" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Tanabe, M. & Kanehisa, M.</span>: <span class="ti">Using the KEGG database resource.</span> <span class='so'>Curr. Protoc. Bioinformatics, Chapter 1:Unit1.12 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22700311" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Hermann, J. C., Ghanem, E., Li, Y. et al.</span>: <span class="ti">Predicting substrates bydockinghigh-energy intermediates to enzyme structures.</span> <span class='so'>J. Am. Chem. Soc., 128, 15882-15891 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17147401" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_05.html" target="_blank">11.5 ECM</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/04_01.html" target="_blank">4.1 Enzyme Sets Determine the Organism’s Way of Life</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/04_05.html" target="_blank">4.5 Basic Properties of Enzymes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/16_02.html" target="_blank">16.2 Respiration and Fermentation: Glycolysis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/10_02.html" target="_blank">10.2 Regulation of Gene Expression in Prokaryotes</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">酒井 綾乃（Ayano Sakai）</span><br>略歴：2009年 米国Illinois大学Urbana-Champaign校にて博士号取得，同年 同Postdoctoral Research Fellow，2011年より同Research Specialist．<br>研究テーマ：新規の酵素の機能を<em>in silico</em>解析からより正確に推測するアルゴリズムをつくりあげること，また，酵素の反応機構とその進化の過程を解明することによりタンパク質工学にその結果を応用していくこと．<br></div><br>© 2013 酒井 綾乃 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

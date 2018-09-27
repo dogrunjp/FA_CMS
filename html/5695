@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> T細胞性急性リンパ性白血病におけるコア転写制御回路 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/5695" rel="bookmark">T細胞性急性リンパ性白血病におけるコア転写制御回路</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>三田 貴臣</strong><br>（米国Harvard Medical School，Dana-Farber Cancer Institute）<br>email：<a href="mailto:takaomi_sanda@dfci.harvard.edu">三田貴臣</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.113">10.7875/first.author.2012.113</a><br><div class="reference"><br><span class="ti">Core transcriptional regulatory circuit controlled by the TAL1 complex in human T cell acute lymphoblastic leukemia.</span><br><span class="au">Takaomi Sanda, Lee N. Lawton, M. Inmaculada Barrasa, Zi Peng Fan, Holger Kohlhammer, Alejandro Gutierrez, Wenxue Ma, Jessica Tatarek, Yebin Ahn, Michelle A. Kelliher, Catriona H.M. Jamieson, Louis M. Staudt, Richard A. Young, A. Thomas Look</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22897851" target="_blank"><em>Cancer Cell</em>, <strong>22</strong>, 209-221 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno がん原性">がん原性</a>の<a href="#" class="anno 転写因子">転写因子</a>TA<a href="#" class="anno L1">L1</a>は<a href="#" class="anno 染色体">染色体</a>の<a href="#" class="anno 転座">転座</a>などを介し<a href="#" class="anno T細胞">T細胞</a>性<a href="#" class="anno 急性リンパ性白血病">急性リンパ性白血病</a>の症例の約40％に異常に発現しており，その<a href="#" class="anno 分子病態">分子病態</a>において重要な役割をはたしている．今回，筆者らは，<a href="#" class="anno TAL1">TAL1</a>およびTAL1<a href="#" class="anno 複合体">複合体</a>の<a href="#" class="anno 構成タンパク質">構成タンパク質</a>により形成されるコア<a href="#" class="anno 転写制御">転写制御</a>回路の存在を明らかにした．TAL1は<a href="#" class="anno <a href="#" class="anno GAT">GAT</a>A">GATA</a>3，<a href="#" class="anno RUNX1">RUNX1</a>とと<a href="#" class="anno も">も</a>に“<a href="#" class="anno 相">相</a>互に接続した”正の<a href="#" class="anno 自己制御">自己制御</a>ループを形成するとともに，<a href="#" class="anno がん遺伝子">がん遺伝子</a>である<em><a href="#" class="anno MYB">MYB</a></em>遺伝子の発現を誘導し正の<a href="#" class="anno フィードフォワード">フィードフォワード</a>ループを形成した．さらに，TAL1は一部の<a href="#" class="anno 標的遺伝子">標的遺伝子</a>の転写制御に関し<a href="#" class="anno ヘテロ">ヘテロ</a><a href="#" class="anno 二量体">二量体</a>化のパートナーであるEタンパク質の機能を抑制した．これらの結果は，TAL1は正常のT細胞には認められない異常な転写制御プログラムをひき起こすことにより，T細胞の<a href="#" class="anno 腫瘍化">腫瘍化</a>および生存の維持にはたらくことを示すものであった．<br/><br/><h2>はじめに</h2><br/>　<a href="#" class="anno T<a href="#" class="anno 細胞性">細胞性</a>急性リンパ性白血病"><a href="#" class="anno T細胞性">T細胞性</a>急性リンパ性白血病</a>（T-<a href="#" class="anno c<a href="#" class="anno ell">ell</a>">cell</a> acute lymphoblastic <a href="#" class="anno leu">leu</a>kemia：T-<a href="#" class="anno ALL">ALL</a>）は胸腺のT細胞に由来する悪性の腫瘍であり，小児にも成人にも共通して認められる．T細胞性急性リンパ性白血病ではT細胞<a href="#" class="anno 受容体">受容体</a>をコードする<a href="#" class="anno 遺伝子領域">遺伝子領域</a>における染色体の転座が20～35％の症例において認められ，その相手となる遺伝子は，TAL1/<a href="#" class="anno SCL">SCL</a>，<a href="#" class="anno TLX1">TLX1</a>/<a href="#" class="anno HOX1">HOX1</a>1，<a href="#" class="anno TLX3">TLX3</a>/HOX11L2，<a href="#" class="anno LYL1">LYL1</a>，<a href="#" class="anno LMO1">LMO1</a>，<a href="#" class="anno LMO2">LMO2</a>などの転写因子をコードする遺伝子が90％以上をしめる<a href="#R1"><sup>1,2)</sup></a>．これらの遺伝子は，それぞれ<a href="#" class="anno T細胞受容体">T細胞受容体</a>遺伝子のもつ<a href="#" class="anno エンハンサー">エンハンサー</a>活性のもと異常な発現を起こし，胸腺T細胞の白血病化の過程にがん遺伝子として密接にかかわっている．このうち，<em>TAL1</em>遺伝子は<a href="#" class="anno 染色体転座">染色体転座</a>のほかにも<a href="#" class="anno 染色体内">染色体内</a><a href="#" class="anno 組換え">組換え</a>などにより異常な発現を起こし，あわせて約40％のT細胞性急性リンパ性白血病の症例において<a href="#" class="anno 高発現">高発現</a>が認められ，この疾患におけるもっとも<a href="#" class="anno 高頻度">高頻度</a>な<a href="#" class="anno 遺伝子異常">遺伝子異常</a>のひとつとなっている．<br/>　TAL1は<a href="#" class="anno 塩基性">塩基性</a><a href="#" class="anno ヘリックス">ヘリックス</a>-ループ-ヘリックス型の転写因子であり，別の塩基性ヘリックス-ループ-ヘリックス型転写因子であるEタンパク質（HEBあるいは<a href="#" class="anno E2A">E2A</a>）と<a href="#" class="anno ヘテロ二量体">ヘテロ二量体</a>を形成し，さらに，LMO1あるいはLMO2との結合を介し<a href="#" class="anno GATA3">GATA3</a>と巨大な<a href="#" class="anno 転写因子複合体">転写因子複合体</a>を形成する（<a href="#F1">図1a</a>）．最近では，正常な<a href="#" class="anno 造血細胞">造血細胞</a>においてRUNX1もTAL1と<a href="#" class="anno 相互作用">相互作用</a>することが報告されている．しかしながら，胸腺T細胞の腫瘍化の過程におけるTAL1複合体の詳細な役割についてはこれまで明らかでなかった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　TAL1複合体とコア転写制御回路</strong><br/>（a）TAL1はEタンパク質（HEBあるいはE2A）とヘテロ二量体を形成するとともに，LMO1あるいはLMO2との結合を介しGATA3と巨大な転写因子複合体を形成する．RUNX1もこの複合体に含まれる．<br/>（b）TAL1はGATA3，RUNX1と“相互に接続した”正の自己制御ループを形成し（第1階層），さらに，転写因子であるMYB（第2階層）の発現を誘導して正のフィードフォワードループを形成する．これらの転写制御構造をとおして下流の標的遺伝子の発現を制御し，T細胞性急性リンパ性白血病細胞の増殖，生存，分化を異常に制御する．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/09/Sanda-Cancer-Cell-12.8.13-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　TAL1複合体とコア転写制御回路" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sanda-Cancer-Cell-12.8.13-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sanda-Cancer-Cell-12.8.13-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　今回，筆者らは，T細胞性急性リンパ性<a href="#" class="anno 白血病細胞">白血病細胞</a>を用いた<a href="#" class="anno 網羅的">網羅的</a>な標的遺伝子の解析および<a href="#" class="anno 遺伝子発現">遺伝子発現</a>解析により，TAL1およびTAL1複合体の構成タンパク質により制御される“コア転写制御回路”の存在を明らかにした．同様の回路はこれまで<a href="#" class="anno ES細胞">ES細胞</a>や<a href="#" class="anno 造血<a href="#" class="anno 幹細胞">幹細胞</a>">造血幹細胞</a>において報告されており，今回の報告は，このような回路が白血病細胞あるいは<a href="#" class="anno がん細胞">がん細胞</a>にも認められることを明らかにしたはじめての例であった．<br/><br/><h2>1．TAL1複合体はT細胞の<a href="#" class="anno ホメオ">ホメオ</a>スタシスにかかわる遺伝子の発現を制御する</h2><br/>　TAL1に対する<a href="#" class="anno 特異的">特異的</a>な抗体を用いて<a href="#" class="anno クロマチン">クロマチン</a><a href="#" class="anno 免疫沈降">免疫沈降</a>-<a href="#" class="anno シークエンス">シークエンス</a>（chr<a href="#" class="anno oma">oma</a>tin immuno<a href="#" class="anno pre">pre</a>ci<a href="#" class="anno pit">pit</a>ation coupled to <a href="#" class="anno mas">mas</a>sively parallel DNA <a href="#" class="anno seq">seq</a>uencing：ChIP-seq）解析を行い，T細胞性急性リンパ性白血病細胞におけるTAL1の標的遺伝子を網羅的に同定した．検体としては，TAL1を発現しているT細胞性急性リンパ性白血病の患者に由来する細胞2種類と，T細胞性急性リンパ性白血病の<a href="#" class="anno 細胞株">細胞株</a>2種類を用いた．その結果，これら4つの検体のあいだでTAL1の結合プロファイルに高い一致が認められ，TAL1がT細胞性急性リンパ性白血病細胞において固有の標的遺伝子をもつことが示された．DNA<a href="#" class="anno 結合モチーフ">結合モチーフ</a>解析の結果，TAL1の<a href="#" class="anno 結合部">結合部</a>位から200 bp以内に<a href="#" class="anno Eボックス">Eボックス</a>，GATA<a href="#" class="anno 結合配列">結合配列</a>，RUNX結合配列，<a href="#" class="anno E<a href="#" class="anno TS">TS</a>">ETS</a>結合配列の4つのモチーフが有意に認められ，それぞれEタンパク質，GATA，RUNX，ETSが転写因子としてTAL1と<a href="#" class="anno 同じ">同じ</a>部位あるいはその近くで結合していることが示唆された．<br/>　つぎに，TAL1複合体の構成タンパク質であるHEB，E2A，GATA3，LMO1，LMO2，RUNX1それぞれに対してもChIP-seq解析を行いそのプロファイルを比較した．その結果，<a href="#" class="anno 実際">実際</a>にT細胞性急性リンパ性白血病細胞において，TAL1とTAL1複合体の構成タンパク質が標的遺伝子を高い頻度で共有していることが確認された．それらの標的遺伝子には細胞の増殖あるいは生存や<a href="#" class="anno がん化">がん化</a>にかかわる遺伝子が多く含まれるとともに，T<a href="#" class="anno 細胞の分化">細胞の分化</a>や<a href="#" class="anno 活性化">活性化</a>に関与する遺伝子も多く含まれていた．これらの結果から，TAL1複合体はT細胞性急性リンパ性白血病細胞においても正常の造血幹細胞と同様に転写因子複合体としてはたらいており，一方で，T細胞の<a href="#" class="anno ホメオスタシス">ホメオスタシス</a>にかかわる遺伝子の発現を制御していることが示された．<br/><br/><h2>2．TAL1，GATA3，RUNX1は“相互に接続した”正の自己制御ループを形成する</h2><br/>　TAL1複合体によりその標的遺伝子がどのように制御されているのかを検討するため，TAL1複合体の構成タンパク質それぞれに対し<a href="#" class="anno shRNA">shRNA</a>を用いた<a href="#" class="anno ノックダウン">ノックダウン</a>を行い，そののちの<a href="#" class="anno 遺伝子<a href="#" class="anno 発現プロファイル">発現プロファイル</a>">遺伝子発現プロファイル</a>を<a href="#" class="anno <a href="#" class="anno マイクロアレイ">マイクロアレイ</a>法">マイクロアレイ法</a>により解析した．その結果，T細胞性急性リンパ性白血病細胞においてはTAL1のノックダウンにより多くの遺伝子の<a href="#" class="anno 発現低下">発現低下</a>が認められ，TAL1はおもに転写の活性化にはたらいていることが示唆された．<a href="#" class="anno 重要なこと">重要なこと</a>に，TAL1，GATA3，RUNX1の3つの転写因子は，その遺伝子自体をも含むそれぞれ3つの遺伝子の<a href="#" class="anno エンハンサー領域">エンハンサー領域</a>に結合しており，いずれか1つの転写因子をノックダウンすることにより3つの転写因子の遺伝子すべてに発現低下が認められた．この結果は，TAL1，GATA3，RUNX1が“po<a href="#" class="anno sit">sit</a>ive in<a href="#" class="anno ter">ter</a>connected auto-regula<a href="#" class="anno tor">tor</a>y l<a href="#" class="anno oop">oop</a>”（“相互に接続した”正の自己制御ループ）とよばれる転写制御構造を形成し，互いに遺伝子発現を正に制御していることを示すものであった（<a href="#F1">図1b</a>）．このような構造はこれまでES細胞などで観察されており，下流の遺伝子<a href="#" class="anno 発現制御">発現制御</a>の<a href="#" class="anno 安定化">安定化</a>および細胞状態の維持に必要と考えられている<a href="#R3"><sup>3)</sup></a>．実際に，T細胞性急性リンパ性白血病においてTAL1，GATA3，RUNX1をそれぞれノックダウンすると<a href="#" class="anno アポトーシス">アポトーシス</a>の誘導が認められ，これらの3つの転写因子がT細胞性急性リンパ性白血病細胞の生存に対し<a href="#" class="anno 促進的">促進的</a>にはたらいていることが考えられた．<br/><br/><h2>3．TAL1，GATA3，RUNX1は下流の遺伝子の発現制御に対しても<a href="#" class="anno 協調的">協調的</a>にはたらく</h2><br/>　TAL1の標的遺伝子がGATA3やRUNX1によりどのように制御されているのかを検討した．この解析にあたり，ChIP-seq解析および<a href="#" class="anno マイクロアレイ解析">マイクロアレイ解析</a>の結果にもとづき約300の<a href="#" class="anno 代表的">代表的</a>なTAL1の標的遺伝子を選定し，GATA3とRUNX1をそれぞれノックダウンした際にこれらの遺伝子の発現がどのように変動するのかを検討した．その結果，TAL1のノックダウンにより発現の低下する遺伝子の多くがGATA3およびRUNX1のノックダウンによっても発現低下し，逆に，TAL1のノックダウンにより発現の上昇する遺伝子はGATA3およびRUNX1のノックダウンによっても<a href="#" class="anno 発現上昇">発現上昇</a>した．この結果は，TAL1，GATA3，RUNX1が単に互いを正に制御しているだけでなく，その下流の遺伝子についても協調的に制御していることを示していた．なお，GATA3とRUNX1は正常なT細胞の<a href="#" class="anno 分化過程">分化過程</a>においてそれぞれ<a href="#" class="anno CD4">CD4</a>陽性T細胞あるいは<a href="#" class="anno CD8">CD8</a>陽性T細胞へのコミットメントに関与しており，互いに<a href="#" class="anno 排他的">排他的</a>にはたらくことが知られている．しかし今回の結果は，TAL1が異常に発現している状況ではGATA3とRUNX1とが協調的にはたらく<a href="#" class="anno 可能性">可能性</a>を示していた．さらには，<em>RUNX1</em>遺伝子は<a href="#" class="anno 急性<a href="#" class="anno 骨髄性">骨髄性</a>白血病">急性<a href="#" class="anno 骨髄性白血病">骨髄性白血病</a></a>や骨髄<a href="#" class="anno 異型">異型</a>性症候群，最近では，初期胸腺<a href="#" class="anno 前駆細胞">前駆細胞</a>型のT細胞性急性リンパ性白血病において<a href="#" class="anno がん抑制">がん抑制</a>遺伝子としてはたらくことが報告されているが，TAL1複合体の構成タンパク質という文脈においてはRUNX1が腫瘍化に対し促進的にはたらくことが示唆された．<br/><br/><h2>4．TAL1複合体はがん遺伝子<em>MYB</em>の発現を誘導し正のフィードフォワードループを形成する</h2><br/>　興味深いことに，TAL1複合体により発現の制御される標的遺伝子には多数の転写因子をコードする遺伝子が含まれていた．そのうち，<em>MYB</em>遺伝子はがん遺伝子として知られており，T細胞性急性リンパ性白血病においても遺伝子の増幅が高頻度に認められる<a href="#R4"><sup>4)</sup></a>．そこで，TAL1を発現しているT細胞性急性リンパ性白血病細胞におけるMYBの役割を検討するため，MYBに対しshRNAを用いたノックダウンおよびマイクロアレイ法による遺伝子<a href="#" class="anno 発現解析">発現解析</a>を行い，TAL1の標的遺伝子への影響について検討した．その結果，TAL1により発現の制御される遺伝子の多くはMYBによっても同様に制御されることが明らかになった．すなわち，TAL1複合体は直接の標的としてMYBの発現を誘導するとともに，MYBも転写因子として共通の標的遺伝子を制御していた．いわば，第1階層に位置するTAL1とその下の第2階層に位置するMYBとが正のフィードフォワードループを形成しており，そのほか多くの第2階層の標的遺伝子を協調的に制御していた（<a href="#F1">図1b</a>）．このような転写制御構造もこれまで幹細胞において報告されており<a href="#R5"><sup>5)</sup></a>，このような構造は下流の転写制御プログラムを強化しその<a href="#" class="anno 安定性">安定性</a>を増加させると考えられている<a href="#R6"><sup>6)</sup></a>．<br/><br/><h2>5．TAL1とHEB，E2Aは一部の標的遺伝子の発現を<a href="#" class="anno 逆方向">逆方向</a>に制御する</h2><br/>　Eタンパク質（HEBあるいはE2A）はTAL1のヘテロ二量体のパートナーとしてその転写制御において不可欠である（<a href="#F1">図1a</a>）．しかし，正常な胸腺T細胞の分化過程ではこれらは異なる<a href="#" class="anno 発現パターン">発現パターン</a>を示す<a href="#R7"><sup>7)</sup></a>．<a href="#" class="anno 具体的">具体的</a>には，TAL1は<a href="#" class="anno リンパ球">リンパ球</a><a href="#" class="anno 共通前駆細胞">共通前駆細胞</a>の段階では発現しているが分化にともない発現は抑制されDN4段階あるいはDP段階で発現は認められなくなる．一方，HEBあるいはE2Aは分化にともない発現が亢進しDN4段階あるいはDP段階で<a href="#" class="anno 発現量">発現量</a>は最大となる．興味深いことに，HEBあるいはE2Aを<a href="#" class="anno 遺伝的">遺伝的</a>に欠損したマウスをTAL1<a href="#" class="anno トランスジェニック">トランスジェニック</a>マウスと交配させると，T細胞性急性リンパ性白血病におけるTAL1による腫瘍化がさらに促進されることが報告されており，<em>HEB</em>遺伝子および<em>E2A</em>遺伝子はTAL1に対しがん<a href="#" class="anno 抑制遺伝子">抑制遺伝子</a>としてはたらくことが示唆されている<a href="#R8"><sup>8)</sup></a>．しかし，これまでその<a href="#" class="anno 分子機構">分子機構</a>については明らかではなかった．そこで，HEBあるいはE2Aに対しshRNAを用いたノックダウンおよび<a href="#" class="anno マクロアレイ">マクロアレイ</a>法による<a href="#" class="anno 遺伝子発現解析">遺伝子発現解析</a>を行ったところ，TAL1の標的遺伝子の約40％についてはTAL1とHEBあるいはE2Aは協調的に遺伝子発現を制御するが，約30％については<a href="#" class="anno 逆向き">逆向き</a>に遺伝子発現を制御することが明らかになった．その場合，TAL1により遺伝子発現は活性化され，HEBあるいはE2Aにより遺伝子発現は抑制されていた．これら逆向きの制御をうける遺伝子には，<a href="#" class="anno ケラチン">ケラチン</a>の遺伝子など通常はT細胞において発現しない遺伝子が含まれていた．このような遺伝子はおそらくDN4段階やDP段階のT細胞においてEタンパク質二量体により転写が抑制されているが，染色体転座などによりTAL1が<a href="#" class="anno 異所性">異所性</a>に発現するとTAL1-Eタンパク質ヘテロ二量体が形成され，Eタンパク質<a href="#" class="anno ホモ二量体">ホモ二量体</a>のはたらきを<a href="#" class="anno 質的">質的</a>および量的に抑制することにより，その標的遺伝子の発現が亢進に転じているのではないかと予想された．<br/><br/><h2>おわりに</h2><br/>　今回，筆者らは，白血病細胞においてもES細胞と同様のコア転写制御回路が存在することを明らかにした．通常，分化の途中の胸腺T細胞ではTAL1は発現していないためこのような回路は形成されていないと考えられるが，染色体転座などでTAL1が異常に発現することにより幹細胞に類似した回路がT細胞において形成される．さらに，TAL1はEタンパク質の本来もつ機能を阻害することでもT細胞における転写制御プログラムに異常をもたらす．TAL1はいわば転写制御ヒエラルキーの<a href="#" class="anno 最上部">最上部</a>に位置しており，筆者らの報告は，一遺伝子の異常により正常な細胞における転写制御プログラムが書き換えられ，それが白血病につながることを示すものであった．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Look, A. T.</span>: <span class="ti">Oncogenic transcription factors in the human acute leukemias.</span> <span class='so'>Science, 278, 1059-1064 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9353180" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Aifantis, I., Raetz, E. & Buonamici, S.</span>: <span class="ti">Molecular pathogenesis of T-cell leukaemia and lymphoma.</span> <span class='so'>Nat. Rev. Immunol., 8, 380-390 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18421304" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Young, R. A.</span>: <span class="ti">Control of the embryonic stem cell state.</span> <span class='so'>Cell, 144, 940-954 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21414485" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>O'Neil, J., Tchinda, J., Gutierrez, A. et al.</span>: <span class="ti">Alu elements mediate <em>MYB</em> gene tandem duplication in human T-ALL.</span> <span class='so'>J. Exp. Med., 204, 3059-3066 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18070937" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Novershtern, N., Subramanian, A., Lawton, L. N. et al.</span>: <span class="ti">Densely interconnected transcriptional circuits control cell states in human hematopoiesis.</span> <span class='so'>Cell, 144, 296-309 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21241896" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Alon, U.</span>: <span class="ti">Network motifs: theory and experimental approaches.</span> <span class='so'>Nat. Rev. Genet., 8, 450-461 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17510665" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Herblot, S., Steff, A. M., Hugo, P. et al.</span>: <span class="ti">SCL and LMO1 alter thymocyte differentiation: inhibition of E2A-HEB function and pre-Tα chain expression.</span> <span class='so'>Nat. Immunol., 1, 138-144 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11248806" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>O'Neil, J., Shank, J., Cusson, N. et al.</span>: <span class="ti">TAL1/SCL induces leukemia by inhibiting the transcriptional activity of E47/HEB.</span> <span class='so'>Cancer Cell, 5, 587-596 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15193261" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_04.html" target="_blank">3.4 Genetic Factors and Chromosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/15_02.html" target="_blank">15.2 Cancer</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/13_04.html" target="_blank">13.4 Regulation of Cell Proliferation</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">三田 貴臣（Takaomi Sanda）</span><br>略歴：2006年 名古屋市立大学大学院医学研究科博士課程 修了，同年 米国Harvard Medical SchoolにてPostdoctoral research fellowを経て，2010年より同Instructor．<br>研究テーマ：リンパ球系腫瘍における転写因子の異常あるいはチロシンキナーゼの異常の解析，および，それらを標的とした分子標的療法の開発．<br>抱負：リンパ球系腫瘍に対する新たな分子標的療法の確立をめざし日々研究に励んでいます．<br></div><br>© 2012 三田 貴臣 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

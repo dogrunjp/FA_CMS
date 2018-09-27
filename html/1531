@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ユビキチンリガーゼTRIM56は2本鎖DNAに対する自然免疫応答を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/1531" rel="bookmark">ユビキチンリガーゼTRIM56は2本鎖DNAに対する自然免疫応答を制御する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>河合太郎・審良静男</strong><br>（大阪大学免疫学フロンティア研究センター 自然免疫学研究室）<br>email：<a href="mailto:tkawai@biken.osaka-u.ac.jp">河合太郎</a>，<a href="mailto:sakira@biken.osaka-u.ac.jp">審良静男</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2010.055">10.7875/first.author.2010.055</a><br><div class="reference"><br><span class="ti">The ubiquitin ligase TRIM56 regulates innate immune responses to intracellular double-stranded DNA.</span><br><span class="au">Tetsuo Tsuchida, Jian Zou, Tatsuya Saitoh, Himanshu Kumar, Takayuki Abe, Yoshiharu Matsuura, Taro Kawai, Shizuo Akira</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21074459" target="_blank"><em>Immunity</em>, <strong>33</strong>, 765-776 (2010)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ウイルスや細菌の<a href="#" class="anno も">も</a>つDNAは<a href="#" class="anno 自然免疫">自然免疫</a>系により認識される．この認識により<a href="#" class="anno I型">I型</a>インターフェロンや<a href="#" class="anno 炎症性">炎症性</a><a href="#" class="anno サイト<a href="#" class="anno カ">カ</a>イン">サイトカイン</a>の<a href="#" class="anno 産生">産生</a>が誘導され，感染<a href="#" class="anno 病原体">病原体</a>に対する適切な<a href="#" class="anno 生体防御">生体防御</a>が行われる．しかしながら，DNAを認識する<a href="#" class="anno 分子機構">分子機構</a>については不明な点が多い．今回，筆者らは，発現スクリーニングにより<a href="#" class="anno 2本鎖DNA">2本鎖DNA</a>に対する自然<a href="#" class="anno 免疫応答">免疫応答</a>を制御する<a href="#" class="anno 細胞内">細胞内</a>タンパク質として<a href="#" class="anno TRI">TRI</a>M56を同定した．この<a href="#" class="anno TR<a href="#" class="anno IM">IM</a>">TRIM</a>56は<a href="#" class="anno <a href="#" class="anno ユビ<a href="#" class="anno キチン">キチン</a>">ユビキチン</a><a href="#" class="anno リガーゼ">リガーゼ</a>">ユビキチンリガーゼ</a>として機能し，<a href="#" class="anno <a href="#" class="anno ST">ST</a>ING">STING</a>とよばれる<a href="#" class="anno アダプタータンパク質">アダプタータンパク質</a>のK6<a href="#" class="anno 3型">3型</a><a href="#" class="anno ユビキチン化">ユビキチン化</a>を促進した．この修飾により<a href="#" class="anno <a href="#" class="anno リン酸">リン酸</a>化">リン酸化</a>酵素<a href="#" class="anno TBK1">TBK1</a>がリクルートされ，<a href="#" class="anno 最終的">最終的</a>に<a href="#" class="anno I型インターフェロン">I型インターフェロン</a>の発現が誘導された．以上のことから，DNAに対する<a href="#" class="anno 自然免疫応答">自然免疫応答</a>において，<a href="#" class="anno TRIM56">TRIM56</a>によるユビキチン化を軸とした新たな<a href="#" class="anno <a href="#" class="anno シグナル伝達">シグナル伝達</a>経路">シグナル<a href="#" class="anno 伝達経路">伝達経路</a></a>が存在することが明らかとなった．<br/><br/><h2>はじめに</h2><br/>　自然免疫は細菌，ウイルス，寄生虫といった<a href="#" class="anno 感染病原体">感染病原体</a>の初期認識ならびにそののちの<a href="#" class="anno 炎症反応">炎症反応</a>の惹起や<a href="#" class="anno 獲得免疫">獲得免疫</a>の誘導に重要な役割をはたす生体<a href="#" class="anno 防御機構">防御機構</a>である．自然免疫をつかさどる細胞である<a href="#" class="anno マクロ<a href="#" class="anno ファージ">ファージ</a>">マクロファージ</a>や<a href="#" class="anno 樹状">樹状</a>細胞は病原体に固有に存在する構造（pathogen-associated molecular pat<a href="#" class="anno ter">ter</a>n：<a href="#" class="anno PAM">PAM</a>P，病原体<a href="#" class="anno 特異的">特異的</a>分子パターン）を認識する<a href="#" class="anno パターン認識">パターン認識</a><a href="#" class="anno 受容体">受容体</a>（pattern-recognition recep<a href="#" class="anno tor">tor</a>：PRR）を発現しており，この<a href="#" class="anno パターン認識受容体">パターン認識受容体</a>を介して<a href="#" class="anno 活性化">活性化</a>シグナルが伝達される．<a href="#" class="anno 代表的">代表的</a>なパターン認識受容体として<a href="#" class="anno Toll様受容体">Toll様受容体</a>（Toll-like rece<a href="#" class="anno pto">pto</a>r：<a href="#" class="anno TLR">TLR</a>）ファミリーが知られている<a href="#R1"><sup>1)</sup></a>．Toll様<a href="#" class="anno 受容体ファミリー">受容体ファミリー</a>はヒトで13種類，マウスで10種類が報告されており，それぞれが細菌，ウイルス，寄生虫などのタンパク質，脂質，核酸といった異なる<a href="#" class="anno PAMP">PAMP</a>を認識して<a href="#" class="anno 自然<a href="#" class="anno 免疫系">免疫系</a>">自然免疫系</a>を活性化する．一方，Toll様受容体ファミリーは<a href="#" class="anno 膜型">膜型</a>受容体であるため，細胞内へと遊離したPAMPを認識することは困難であると考えられている．これらの細胞内PAMPを認識するパターン認識受容体としてRIG-I様受容体（RIG-I-like receptor：RLR）ファミリーとN<a href="#" class="anno OD">OD</a>様受容体（NOD-like receptor：<a href="#" class="anno NLR">NLR</a>）ファミリーが知られている<a href="#R2"><sup>2)</sup></a>．RIG-I様受容体ファミリーはウイルスの複製産物であるRNAを認識し，I型インターフェロンや<a href="#" class="anno 炎症性サイトカイン">炎症性サイトカイン</a>の産生を誘導することでウイルスに対する<a href="#" class="anno 免疫反応">免疫反応</a>を誘導する．一方，多くの<a href="#" class="anno NOD様受容体">NOD様受容体</a>ファミリーの機能は<a href="#" class="anno まだ">まだ</a>不明であるものの，そのなかのいくつか（たとえば，<a href="#" class="anno NLRP3">NLRP3</a>）はさまざまな病原体の成分の刺激に応じて<a href="#" class="anno カスパーゼ">カスパーゼ</a>1を活性化し，炎症性サイトカインである<a href="#" class="anno インターロイキン">インターロイキン</a>1βの<a href="#" class="anno 前駆体">前駆体</a>を<a href="#" class="anno 活性化型">活性化型</a>へと変換させる<a href="#" class="anno インフラマソーム">インフラマソーム</a>として機能している<a href="#R2"><sup>2)</sup></a>．さらに近年，Toll様受容体ファミリー，RIG-I様受容体ファミリー，NOD様受容体ファミリー以外の新規のパターン認識受容体の存在も明らかにされつつある．<br/><br/><h2>1．自然免疫によるDNA認識</h2><br/>　<a href="#" class="anno DNAウイルス">DNAウイルス</a>や細菌のゲノムに存在する2本鎖DNAは自然免疫系により認識され，I型インターフェロンや炎症性サイトカインの産生を誘導することが報告されている<a href="#R3"><sup>3,4)</sup></a>．Toll様受容体ファミリーのうち<a href="#" class="anno TLR9">TLR9</a>は<a href="#" class="anno エンドソーム">エンドソーム</a>内に遊離した病原体に由来するDNAを認識してI型インターフェロンを誘導することが示されている<a href="#R1"><sup>1,2)</sup></a>（<a href="#F1">図1</a>）．とくに，<a href="#" class="anno <a href="#" class="anno 形質細胞">形質細胞</a>様<a href="#" class="anno 樹状細胞">樹状細胞</a>">形質<a href="#" class="anno 細胞様">細胞様</a>樹状細胞</a>とよばれる樹状細胞における<a href="#" class="anno ウイルスDNA">ウイルスDNA</a>の認識にこの経路は主要な役割をはたしている<a href="#R1"><sup>1,2)</sup></a>．また，ある種の合成2本鎖DNAを<a href="#" class="anno リポフェクション">リポフェクション</a>により<a href="#" class="anno 細胞質">細胞質</a>へと導入するとTLR9非<a href="#" class="anno 依存的">依存的</a>に自然免疫系が活性化される<a href="#R3"><sup>3,4)</sup></a>．この活性化にはRIG-I様受容体ファミリーのメンバーであるRIG-Iのかかわっていることが示唆されている．この場合，RIG-IはDNA自体ではなくRNA<a href="#" class="anno ポリメラーゼ">ポリメラーゼ</a><a href="#" class="anno III">III</a>により転写されたRNAの5’末端の<a href="#" class="anno 三リン酸">三リン酸</a>を含む部分を認識しているものと考えられている<a href="#R5"><sup>5)</sup></a>（<a href="#F1">図1</a>）．DNAを直接に認識する細胞内のRIG-I様受容体ファミリーとしてDAIや<a href="#" class="anno AIM2">AIM2</a>が知られている．ただし，DAI<a href="#" class="anno ノックアウトマウス">ノックアウトマウス</a>に由来する細胞ではDNA刺激によるI型インターフェロンの産生に異常が認められてい<a href="#" class="anno ないこと">ないこと</a>から，さらに別の<a href="#" class="anno DNAセンサー">DNAセンサー</a>の存在が示唆されている<a href="#R6"><sup>6,7)</sup></a>．一方，AIM2は<a href="#" class="anno AS">AS</a>Cと<a href="#" class="anno カスパーゼ1">カスパーゼ1</a>とともにAIM2インフラマソームを形成しており，I型インターフェロンではなく<a href="#" class="anno <a href="#" class="anno インターロイキン1">インターロイキン1</a>β">インターロイキン1β</a>の産生に必須の役割をはたしている<a href="#R8"><sup>8)</sup></a>（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　自然免疫によるDNAの認識</strong><br/>DNA認識にかかわるRIG-I様受容体ファミリーとして，TLR9，RIG-I，AIM2インフラマソーム，DAI，そして，未知のDNAセンサーが知られている．TLR9はエンドソーム内に遊離したDNAの認識にともないアダプタータンパク質MyD88を介して転写因子IRF7を活性化しI型インターフェロンの産生を誘導する．細胞質においてRIG-IはRNAポリメラーゼIII（Pol III）により転写された2本鎖RNAの5’末端の三リン酸を含む部分を認識し，アダプタータンパク質IPS-1を介してリン酸化酵素TBK1と転写因子IRF3を活性化したのちI型インターフェロンの産生を誘導する．AIM2インフラマソームによるDNAの認識はカスパーゼ1の活性化と，それにともなうインターフェロン1β前駆体の切断と活性化型インターフェロン1βの放出を誘導する．I型インターフェロン誘導にかかわるDNAセンサーとしてDAIが同定されている．また，未知のDNAセンサーの存在も示唆されている．STINGはDNAによるI型インターフェロンの誘導に必須の細胞内タンパク質である．STINGはTBK1の活性化をとおしてIRF3を活性化する．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2010/11/Akira-Immunity-10.11.25-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　自然免疫によるDNAの認識" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Akira-Immunity-10.11.25-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Akira-Immunity-10.11.25-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　興味深いことに，DNAセンサーは<a href="#" class="anno 細胞障害">細胞障害</a>などにともなって<a href="#" class="anno 細胞外">細胞外</a>へと放出された自己DNAが自然<a href="#" class="anno 免疫細胞">免疫細胞</a>により取り込まれた際の認識にも関与していることが示唆されている<a href="#R9"><sup>9)</sup></a>．<a href="#" class="anno 重要なこと">重要なこと</a>に，この異常認識が<a href="#" class="anno 炎症性疾患">炎症性疾患</a>や<a href="#" class="anno <a href="#" class="anno 自己免疫">自己免疫</a>疾患">自己<a href="#" class="anno 免疫疾患">免疫疾患</a></a>の引き金となっていると考えられている．また，<a href="#" class="anno DNAワクチン">DNAワクチン</a>による自然免疫の発動と獲得免疫の誘導にはDNAセンサーからのシグナルの必要であることも示唆されている<a href="#R7"><sup>7)</sup></a>．さらに，腫瘍<a href="#" class="anno 血管系">血管系</a>を破壊する<a href="#" class="anno <a href="#" class="anno 抗がん">抗がん</a>剤">抗がん剤</a>の一種5,6-<a href="#" class="anno ジ<a href="#" class="anno メチル">メチル</a>">ジメチル</a>キサンテノン-4-酢酸（DMXAA）はI型インターフェロンの産生を誘導する活性をもっているが，この誘導はToll様受容体ファミリーおよびRIG-I様受容体ファミリーに<a href="#" class="anno 非依存的">非依存的</a>であり，おそらくDNAセンサーを介しているものと考えられている<a href="#R10"><sup>10)</sup></a>．このように，DNAセンサーは感染や腫瘍に対する生体防御に必要である一方，炎症性疾患や自己免疫疾患の原因にもなりうる側面をあわせもっている．<br/><br/><h2>2．DNAセンサーを介するシグナル伝達経路</h2><br/>　DNA刺激に応じたI型インターフェロンの産生には<a href="#" class="anno リン<a href="#" class="anno 酸化酵素">酸化酵素</a>">リン酸化酵素</a>TBK1が主要なはたらきをしている．TBK1は刺激に応じて転写<a href="#" class="anno 因子I">因子I</a><a href="#" class="anno RF">RF</a>3をリン酸化する．リン酸化をうけた<a href="#" class="anno IRF">IRF</a>3は<a href="#" class="anno 核内">核内</a>へと移行し，I型インターフェロンである<a href="#" class="anno インターフェロンβ">インターフェロンβ</a>の遺伝子を含む一連の<a href="#" class="anno 標的遺伝子">標的遺伝子</a>の発現を制御する．DNAセンサーの下流に位置しTBK1と結合してこれを活性化する<a href="#" class="anno シグナル伝達タンパク質">シグナル伝達タンパク質</a>としてSTING（別名MITA，MPYS，ER<a href="#" class="anno IS">IS</a>）が同定されている<a href="#R11"><sup>11)</sup></a>．STINGは，<a href="#" class="anno 過剰発現">過剰発現</a>によってインターフェロンβの発現やI<a href="#" class="anno SR">SR</a>Eプロモーター（<a href="#" class="anno <a href="#" class="anno ISR">ISR</a>E">ISRE</a>：<a href="#" class="anno int">int</a>erferon-stimu<a href="#" class="anno lat">lat</a>ed res<a href="#" class="anno pon">pon</a>se e<a href="#" class="anno lem">lem</a>ent，インターフェロン刺激<a href="#" class="anno 応答配列">応答配列</a>）の活性化をひき起こすことのできるようなタンパク質の発現スクリーニングにより同定された．STINGノックアウトマウスでは合成<a href="#" class="anno B型">B型</a>DNA（ポリdA:dT・ポリdT:dA）による刺激や<a href="#" class="anno HSV">HSV</a>-1といったDNAウイルスの感染によるI型インターフェロンの産生が顕著に減少しており，DNAワクチンに対する効果も減少している<a href="#R12"><sup>12)</sup></a>．したがって，STINGはDNAセンサーの下流に位置するシグナル伝達タンパク質であると考えられる．<br/><br/><h2>3．ユビキチンリガーゼTRIM56の同定</h2><br/>　筆者らは，DNAセンサーおよびそのシグナル伝達経路にかかわるタンパク質を得るため発現スクリーニングを行った．HEK<a href="#" class="anno 293細胞">293細胞</a>に<a href="#" class="anno cDNA">cDNA</a><a href="#" class="anno 発現ライブラリー">発現ライブラリー</a>由来<a href="#" class="anno プラスミド">プラスミド</a>をインターフェロンβ<a href="#" class="anno 遺伝子プロモーター">遺伝子プロモーター</a>により制御される<a href="#" class="anno ルシフェラーゼ">ルシフェラーゼ</a><a href="#" class="anno レポータープラスミド">レポータープラスミド</a>とともに導入したのち，合成<a href="#" class="anno B型DNA">B型DNA</a>で刺激し，ルシフェラーゼの発現をライブラリープラスミドのあいだで比較した．最終的に，TRIM（tripartite motif）<a href="#" class="anno タンパク質ファミリー">タンパク質ファミリー</a>のメンバーのひとつTRIM56を同定した（<a href="#F2">図2a</a>）．TRIMタンパク質ファミリーはヒトやマウスで60種類ほど同定されており，その多くは<a href="#" class="anno RING">RING</a>フィンガー型<a href="#" class="anno ユビキチンリガーゼ活性">ユビキチンリガーゼ活性</a>をもつ．TRIM56を細胞に発現させると合成DNAや抗がん剤の一種DMXAAによる刺激にともなうI型インターフェロンの産生誘導を上昇させた．その一方，TRIM56を<a href="#" class="anno ノックダウン">ノックダウン</a>した細胞ではI型インターフェロンの産生が減少した．興味深いことに，TRIM56をSTINGとともに発現させると<a href="#" class="anno <a href="#" class="anno 相">相</a>乗的">相乗的</a>にインターフェロンβ遺伝子プロモーターを活性化した．くわしく調べてみると，TRIM56はユビキチンリガーゼとして機能し，STINGをK63型ユビキチン化（ユビキチンの63番目の<a href="#" class="anno リジン">リジン</a><a href="#" class="anno 残基">残基</a>を介するユビキチン化）していることがわかった．TRIM56はSTINGの150番目の<a href="#" class="anno リジン残基">リジン残基</a>のユビキチン化を誘導するが，このリジン残基を<a href="#" class="anno アルギニン">アルギニン</a>残基に置換した<a href="#" class="anno 変異体">変異体</a>はインターフェロンβ遺伝子プロモーターを活性化することができなかった．さらに，この部位の修飾はSTINGの<a href="#" class="anno 2量体">2量体</a>形成に必要であった．また，この変異体はリン酸化酵素TBK1と結合することができなかった．以上のことから，TRIM56によるSTINGのユビキチン化は，STINGの2量<a href="#" class="anno 体形成">体形成</a>とTBK1のリクルートを促すものと考えられた（<a href="#F2">図2b</a>）．一方，<em><a href="#" class="anno in vitro">in vitro</a></em>においてTRIM56とDNAとのあいだに<a href="#" class="anno 結合活性">結合活性</a>が認められないことから，TRIM56自体はDNAセンサーとして機能しているわけではなく，STINGの<a href="#" class="anno 調節タンパク質">調節タンパク質</a>として機能しているものと予想された．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　TRIM56の構造とSTINGの制御</strong><br/>（a）TRIM56の構造．RINGフィンガードメイン，Bボックスドメイン，コイルドコイルドメインをもつ．<br/>（b）TRIM56によるSTINGの制御．ユビキチンリガーゼTRIM56はSTINGのK63ユビキチン化を誘導する．この修飾によりSTINGは2量体を形成してリン酸化酵素TBK1をリクルートする．その結果，TBK1が活性化され転写因子IRF3のリン酸化しI型インターフェロンの産生が誘導される．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2010/11/Akira-Immunity-10.11.25-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　TRIM56の構造とSTINGの制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Akira-Immunity-10.11.25-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Akira-Immunity-10.11.25-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　STINGは<a href="#" class="anno 未刺激">未刺激</a>では<a href="#" class="anno 小胞">小胞</a>体膜に局在しているが，DNA刺激にともないエクソ<a href="#" class="anno シスト">シスト</a><a href="#" class="anno 複合体">複合体</a>の構成<a href="#" class="anno タンパク質S">タンパク質S</a>ec5（別名EXO<a href="#" class="anno C2">C2</a>）を含む<a href="#" class="anno 核膜">核膜</a>の周辺の小胞へと移行する<a href="#R12"><sup>12)</sup></a>．この小胞にはTBK1も含まれ，このSTINGとTBK1との<a href="#" class="anno 小胞内">小胞内</a>での複合体の形成が<a href="#" class="anno 転写因子">転写因子</a><a href="#" class="anno IRF3">IRF3</a>の活性化を誘導するものと考えられた．TRIM56は未刺激状態では細胞質に存在していたが，DNAや抗がん剤DMXAAによる刺激にともないドット状の構造へと移行し，一部はSTINGと局在をともにした．このドット状の構造は<a href="#" class="anno 小胞体">小胞体</a>やミトコンドリアとは異なるものであった．興味深いことに，DNA刺激にともない150番目のリジン残基を<a href="#" class="anno アルギニン残基">アルギニン残基</a>に置換したSTING変異体はSTING<a href="#" class="anno 野生型">野生型</a>と同様にTBK1を含む小胞へと移行した．このことから，STINGのユビキチン化はTBK1を含む小胞への移行には影響をあたえず，むしろ，この小胞内でのTBK1との直接の結合とそれにともなうTBK1の活性化に必要であるものと考えられた．今後は，STINGの小胞での移行を制御する分子機構の解明が必要である．<br/>　また，TRIM56を細胞内に発現させるとDNA刺激にはじまる経路のみならず，RNA刺激によりRIG-I様受容体ファミリーの活性化をへるインターフェロンβ遺伝子プロモーターの活性化も増強した．また，RIG-I様受容体ファミリーのアダプタータンパク質IPS-1 <a href="#R13"><sup>13)</sup></a>（別名<a href="#" class="anno MA">MA</a>VS，VISA，Cardif）の過剰発現によるインターフェロンβ遺伝子プロモーターの活性も上昇させた．しかしながら，TRIM56とIPS-1との結合やIPS-1のユビキチン化は認められなかった．これまで，STINGがRIG-I様受容体ファミリーの下流に位置していることも示唆されていたことから，TRIM56によるIPS-1の機能増強はSTINGを介した<a href="#" class="anno 間接的">間接的</a>なものである<a href="#" class="anno 可能性">可能性</a>がある．<br/>　Shuらのグループは，STINGのユビキチン化を誘導する別のユビキチンリガーゼとして<a href="#" class="anno RNF5">RNF5</a>を同定している<a href="#R14"><sup>14)</sup></a>．RNF5はTRIM56と異なり，K48型ユビキチン化（ユビキチンの48番目のリジン残基を介するユビキチン化）をとおしてSTINGの分解を導くことから，DNAセンサーシグナル伝達経路の負の<a href="#" class="anno 制御タンパク質">制御タンパク質</a>であると考えられる．RNF5はTRIM56と<a href="#" class="anno 同じ">同じ</a>くSTINGの150番目のリジン残基を標的としていることから，このリジン残基はK48型ユビキチン化およびK63型ユビキチン化をとおして正と負の両方の制御をうけているものと考えられた．STINGの一部はミトコンドリアに局在していることが報告されており，同様に，RNF5もミトコンドリアに局在している<a href="#R14"><sup>14)</sup></a>．したがって，DNA刺激やRNA刺激によりSTINGは最終的にはミトコンドリアの近辺で分解され，これがDNA刺激による自然免疫応答の収束につながっている可能性がある．<br/><br/><h2>おわりに</h2><br/>　今回，TRIM56の同定をとおしてDNAセンサーのシグナル伝達経路の一部が明らかとなった．しかしながら，DNAセンサー自体の同定にはいたっておらず，今後のさらなる解析が待たれる．DNAセンサーの同定やそのシグナル伝達経路のさらなる解明は，DNAウイルスや細菌に対する免疫応答の理解にとどまらず，DNAが起因する種々の疾患の発症<a href="#" class="anno 機序">機序</a>やDNA<a href="#" class="anno ワクチン効果">ワクチン効果</a>の発揮機構，また，DMXAAといった抗がん剤の<a href="#" class="anno 作用機序">作用機序</a>を理解するうえで非常に重要であるものと考えられる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Kawai, T. & Akira, S.</span>: <span class="ti">The role of pattern-recognition receptors in innate immunity: update on Toll-like receptors.</span> <span class='so'>Nat. Immunol., 11, 373-384 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20404851" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Kawai, T. & Akira, S.</span>: <span class="ti">The roles of TLRs, RLRs and NLRs in pathogen recognition.</span> <span class='so'>Int. Immunol., 21, 317-337 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19246554" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Ishii, K. J., Coban, C., Kato, H. et al.</span>: <span class="ti">A Toll-like receptor-independent antiviral response induced by double-stranded B-form DNA.</span> <span class='so'>Nat. Immunol., 7, 40-48 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16286919" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Stetson, D. B. & Medzhitov, R.</span>: <span class="ti">Recognition of cytosolic DNA activates an IRF3-dependent innate immune response.</span> <span class='so'>Immunity, 24, 93-103 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16413926" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Chiu, Y. H., Macmillan, J. B. & Chen, Z. J.</span>: <span class="ti">RNA polymerase III detects cytosolic DNA and induces type I interferons through the RIG-I pathway.</span> <span class='so'>Cell, 138, 576-591 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19631370" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Yanai, H., Savitsky, D., Tamura, T. et al.</span>: <span class="ti">Regulation of the cytosolic DNA-sensing system in innate immunity: a current view.</span> <span class='so'>Curr. Opin. Immunol., 21, 17-22 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19362700" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Ishii, K. J., Kawagoe, T., Koyama, S. et al.</span>: <span class="ti">TANK-binding kinase-1 delineates innate and adaptive immune responses to DNA vaccines.</span> <span class='so'>Nature, 451, 725-729 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18256672" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Bauernfeind, F., Ablasser, A., Bartok, E. et al.</span>: <span class="ti">Inflammasomes: current understanding and open questions.</span> <span class='so'>Cell. Mol. Life Sci., 68, 765-783 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21072676" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Stetson, D. B.</span>: <span class="ti">Connections between antiviral defense and autoimmunity.</span> <span class='so'>Curr. Opin. Immunol., 21,244-250 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19497722" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Roberts, Z. J., Goutagny, N., Perera, P. Y. et al.</span>: <span class="ti">The chemotherapeutic agent DMXAA potently and specifically activates the TBK1-IRF-3 signaling axis.</span> <span class='so'>J. Exp. Med., 204, 1559-1569 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17562815" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Ishikawa, H., Ma, Z. & Barber, G. N.</span>: <span class="ti">STING regulates intracellular DNA-mediated, type I interferon-dependent innate immunity.</span> <span class='so'>Nature, 461, 788-792 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19776740" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Ishikawa, H. & Barber, G. N.</span>: <span class="ti">STING is an endoplasmic reticulum adaptor that facilitates innate immune signalling.</span> <span class='so'>Nature, 455,674-678 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18724357" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Kawai, T., Takahashi, K., Sato, S. et al.</span>: <span class="ti">IPS-1, an adaptor triggering RIG-I- and Mda5-mediated type I interferon induction.</span> <span class='so'>Nat. Immunol., 6, 981-988 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16127453" target="_blank">PubMed</a>]</span></li><br><li id="R14"><span class='au'>Zhong, B. Zhang, L., Lei, C. et al.</span>: <span class="ti">The ubiquitin ligase RNF5 regulates antiviral responses by mediating degradation of the adaptor protein MITA.</span> <span class='so'>Immunity, 30, 397-407 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19285439" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_07.html" target="_blank">12.7 Proteasomes and Ubiquitination</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_01.html" target="_blank">14.1 What is Signal Transduction?</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_03.html" target="_blank">14.3 Intercellular Signal Transduction</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/15_01.html" target="_blank">15.1 Receptor-Mediated Intracellular Signaling Pathways</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/21_01.html" target="_blank">21.1 Immunity and Biophylaxis</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">河合 太郎（Taro Kawai）</span><br>略歴：2000年 大阪大学大学院医学系研究科博士課程 修了，同年 米国Burnham Medical Research Institute，2003年ERATO審良自然免疫プロジェクト グループリーダーを経て，2006年 大阪大学微生物病研究所 助教授（現 大阪大学免疫学フロンティア研究センター 准教授）．<br>研究テーマ：自然免疫．<br><br><strong>審良 静男（Shizuo Akira）</strong><br>大阪大学免疫学フロンティア研究センター 教授．<br>研究室URL：<a href="http://hostdefense.ifrec.osaka-u.ac.jp/ja/index.html" target="_blank">http://hostdefense.ifrec.osaka-u.ac.jp/ja/index.html</a><br></div><br>© 2010 河合太郎・審良静男 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

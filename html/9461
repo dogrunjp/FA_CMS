@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 網膜のニューロンはVEGFを希釈することにより血管の新生を制限する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/9461" rel="bookmark">網膜のニューロンはVEGFを希釈することにより血管の新生を制限する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>岡部圭介・久保田義顕</strong><br>（慶應義塾大学医学部 機能形態学研究室）<br>email：<a href="mailto:ykubo33@a3.keio.jp">久保田義顕</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.137">10.7875/first.author.2014.137</a><br><div class="reference"><br><span class="ti">Neurons limit angiogenesis by titrating VEGF in retina.</span><br><span class="au">Keisuke Okabe, Sakiko Kobayashi, Toru Yamada, Toshihide Kurihara, Ikue Tai-Nagara, Takeshi Miyamoto, Yoh-suke Mukouyama, Thomas N. Sato, Toshio Suda, Masatsugu Ema, Yoshiaki Kubota</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25417109" target="_blank"><em>Cell</em>, <strong>159</strong>, 584-596 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　生体において血管と<a href="#" class="anno 神経系">神経系</a>は<a href="#" class="anno <a href="#" class="anno 解剖学">解剖学</a>的">解剖学的</a>に伴走していることが多く，<a href="#" class="anno 機能的">機能的</a>に<a href="#" class="anno も">も</a>密接に<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>している．この研究において，筆者らは，V<a href="#" class="anno EGF">EGF</a>の主要かつ<a href="#" class="anno <a href="#" class="anno 血管内">血管内</a>皮細胞">血管<a href="#" class="anno 内皮細胞">内皮細胞</a></a>において<a href="#" class="anno 特異的">特異的</a>な<a href="#" class="anno 受容体">受容体</a>として知られる<a href="#" class="anno VEGF">VEGF</a>受容体2が，<a href="#" class="anno 発生期">発生期</a>の網膜においては<a href="#" class="anno 血管内皮">血管内皮</a>細胞よりむしろニューロンに豊富に存在することを見い<a href="#" class="anno 出し">出し</a>た．ニューロンにおいて特異的にV<a href="#" class="anno EGF受容体">EGF受容体</a>2を欠損させたところ，通常は網膜の水平面にそって進行する血管の新生が，一部がニューロンの存在する深部へむけ垂直に進入するようになった．この<a href="#" class="anno 血管新生">血管新生</a>の方向の異常は，<a href="#" class="anno <a href="#" class="anno VEGF受容体">VEGF受容体</a>2">VEGF受容体2</a>を欠損したニューロンがVEGFを取り込まなくなることにより，ニューロンの周囲のVEGFの濃度が上昇することでひき起こされていた．さらに，<a href="#" class="anno <a href="#" class="anno 虚血">虚血</a>性<a href="#" class="anno 網膜症">網膜症</a>"><a href="#" class="anno 虚血性">虚血性</a>網膜症</a>のモ<a href="#" class="anno デ">デ</a>ルにおいても，ニューロンに特異的なVEGF受容体2の欠損により血管新生の方向が変化することが見い出された．この研究により，ニューロンはVEGFを取り込むことによりその濃度を制御し，血管の新生を規定するという新たな<a href="#" class="anno 分子機構">分子機構</a>が明らかになった．<br/><br/><h2>はじめに</h2><br/>　血管と神経系は哺乳類の体内をくまなくめぐる二大ネットワークであるが，両者は<a href="#" class="anno 生理的">生理的</a>に<a href="#R1"><sup>1)</sup></a>，また，病的な状態において<a href="#R2"><sup>2)</sup></a>，密接に相互作用し，共通の<a href="#" class="anno 誘導因子">誘導因子</a>をもつことが報告されている<a href="#R3"><sup>3)</sup></a>．<a href="#" class="anno 網膜の血管">網膜の血管</a>は出生ののち発芽による血管新生により形成される．<a href="#" class="anno げっ歯類">げっ歯類</a>の場合，生後1週のうちにもっとも内側の<a href="#" class="anno <a href="#" class="anno 神経節">神経節</a>細胞">神経節細胞</a>層にそって血管が放射状に成長し浅部<a href="#" class="anno 血管叢">血管叢</a>を形成するが，この段階では，より深部の網膜に血管が進入することはない．生後2週目以降に深部血管叢ついで<a href="#" class="anno 中間部">中間部</a>血管叢が<a href="#" class="anno 段階的">段階的</a>に形成され，生後3週までには3層の血管叢が形成される．<br/>　神経節<a href="#" class="anno 細胞層">細胞層</a>においては，<a href="#" class="anno 血管の発生">血管の発生</a>よりまえに<a href="#" class="anno アストロサイト">アストロサイト</a>が<a href="#" class="anno 網目状">網目状</a>の構造を成し，VEGF（vascular <a href="#" class="anno end">end</a>othel<a href="#" class="anno ial">ial</a> growth fac<a href="#" class="anno tor">tor</a>，血管内皮<a href="#" class="anno 増殖因子">増殖因子</a>）および<a href="#" class="anno 細胞外">細胞外</a>マトリックスを供給することにより血管内皮の形成を誘導することが知られている<a href="#R4"><sup>4)</sup></a>．生後1週目に血管が深層へと進入しないのはこのアストロサイトの誘導によることが想定されていたが，薬物あるいは<a href="#" class="anno 遺伝的">遺伝的</a>な操作によりアストロサイトを欠損させても血管が深層へと進入することはなかった<a href="#R4"><sup>4)</sup></a>．したがって，発生期の網膜には血管新生の方向を規定する未知の分子機構が存在するものと考えられてきた．この研究において，筆者らは，網膜のニューロンが周囲におけるVEGFの濃度を制御することにより血管新生の方向を決定する新たな分子機構を見い出した．<br/><br/><h2>1．出生ののちの網膜のニューロンにはVEGF受容体2が豊富に存在する</h2><br/>　<a href="#" class="anno VEGF受容体1">VEGF受容体1</a>およびVEGF受容体2の局在を調べるため，VEGF受容体1およびVEGF受容体2のそれぞれに異なる<a href="#" class="anno 蛍光タンパク質">蛍光タンパク質</a>を融合させた<a href="#" class="anno コンストラクト">コンストラクト</a>をもつ<a href="#" class="anno トランスジェニック">トランスジェニック</a>マウス<a href="#R5"><sup>5)</sup></a> を用い解析した．新生マウスの網膜においてVEGF受容体1は血管内皮細胞に限局していたが，VEGF受容体2は血管内皮細胞よりむしろ網膜のニューロンに豊富に存在すること，さらに，ニューロンにおけるVEGF受容体2の発現はマウスの発達にともない低下し，生後2週目にはほとんど認められなくなることがわかった．網膜以外の組織，<a href="#" class="anno 耳介">耳介</a>の皮膚，気管，脂肪，大脳皮質，骨髄では，VEGF受容体1およびVEGF受容体2のいずれもが血管内皮細胞に限局して認められたが，<a href="#" class="anno 例外的">例外的</a>に，肺の<a href="#" class="anno Cl">Cl</a>ara細胞にはVEGF受容体2の発現が認められた．<br/>　発達にともないVEGF受容体2の発現が低下する分子機構について，VEGF受容体2をコードする遺伝子の<a href="#" class="anno エンハンサー">エンハンサー</a>であるD<a href="#" class="anno MME">MME</a> <a href="#R6"><sup>6)</sup></a> を用い解析した．DMME-<a href="#" class="anno GFP">GFP</a>レポーターマウスの網膜を解析したところ，出生ののち早期にはDMMEの<a href="#" class="anno エンハンサー活性">エンハンサー活性</a>が認められたが，生後7日目よりのちに消失することがわかった．<br/>　以上の結果から，VEGF受容体2は血管が進入するよりまえの網膜のニューロンに豊富に存在し，エンハンサーDMMEの活性の低下とともに発現が低下することが示された．<br/><br/><h2>2．ニューロンに特異的にVEGF受容体2を欠損させると血管新生の方向に異常が生じる</h2><br/>　網膜のニューロンにおけるVEGF受容体2の機能を解析する目的で，ニューロンにおいて特異的にVEGF受容体2を欠損するマウスにおいて，網膜の血管をホールマウント染色により解析した．すると，生後6日目の網膜において，通常と異なり，血管の一部が垂直に深部へむかい進入するという非常に<a href="#" class="anno 特徴的">特徴的</a>な<a href="#" class="anno 表現型">表現型</a>を呈した．ここで観察された<a href="#" class="anno 垂直方向">垂直方向</a>への血管新生は，VEGFに<a href="#" class="anno 依存性">依存性</a>で血管先<a href="#" class="anno 端細胞">端細胞</a>における<a href="#" class="anno フィロポディア">フィロポディア</a>の形成をともなう正常な血管の発芽と同様の<a href="#" class="anno 形態的">形態的</a>な特徴をもち，また，蛍光<a href="#" class="anno セルソーター">セルソーター</a>を用いて計測した血管内皮細胞の数は対照となるマウスと同等であったことから，血管新生の量は変わらず方向の変化が生じたものと考えられた．また，対照となるマウスが垂直方向への血管新生を開始する生後9日目の時点で，<a href="#" class="anno ニューロン特異的">ニューロン特異的</a>VEGF受容体2<a href="#" class="anno ノックアウトマウス">ノックアウトマウス</a>においてはすでに深部血管叢および中間部血管叢が形成されており，さらに，生後28日目にはその<a href="#" class="anno 分枝">分枝</a>の数が顕著に増加していた．<br/><br/><h2>3．ニューロン特異的VEGF受容体2ノックアウトマウスの網膜のニューロンは正常に発生する</h2><br/>　VEGF受容体2は<a href="#" class="anno 神経<a href="#" class="anno 栄養因子">栄養因子</a>">神経栄養因子</a>として機能するため，さきに述べた，ニューロン特異的VEGF受容体2ノックアウトマウスの表現型は，VEGF受容体2を欠損したニューロンの変性にともなう血管の2次的な変化である<a href="#" class="anno 可能性">可能性</a>が考えられた．しかし，<a href="#" class="anno 免疫染色">免疫染色</a>の結果，ニューロンの<a href="#" class="anno 厚さ">厚さ</a>，形態，増殖，<a href="#" class="anno アポトーシス">アポトーシス</a>に異常は認められず，また，透過型<a href="#" class="anno 電子顕微鏡">電子顕微鏡</a>により垂直方向に進入する血管が正常な神経節細胞のあいだを通過しているようすが観察された．網膜の血管の形成はアストロサイトや神経節細胞により誘導されることが報告されているが，ニューロン特異的VEGF受容体2ノックアウトマウスの網膜ではアストロサイトおよび神経節細胞の形態に異常は認められず，さらに，網膜電図においても<a href="#" class="anno 視機能">視機能</a>の異常は認められなかった．<br/>　このように，ニューロン特異的VEGF受容体2ノックアウトマウスの網膜のニューロンは正常であり，ほかの神経栄養因子がVEGF受容体2の欠損をおぎなっているものと考えられた．<br/><br/><h2>4．ニューロンにおけるVEGF受容体2の欠損はVEGFの取り込みの低下および周囲のVEGFの増加をきたす</h2><br/>　ニューロン特異的VEGF受容体2ノックアウトマウスの網膜において<a href="#" class="anno 血管新生因子">血管新生因子</a>あるいは血管新生<a href="#" class="anno 抑制因子">抑制因子</a>の<a href="#" class="anno 発現量">発現量</a>が変化していると仮定し，定量<a href="#" class="anno PCR">PCR</a>法によりそれらの発現について解析したが有意な変化は認められなかった．しかし，VEGF-Aのタンパク質定量により，ニューロン特異的VEGF受容体2ノックアウトマウスの網膜では細胞外<a href="#" class="anno 画分">画分</a>と<a href="#" class="anno 細胞内">細胞内</a>画分との比が有意に増加していることがわかった．<br/>　血管内皮細胞においてはVEGF受容体2が<a href="#" class="anno エンドサイトーシス">エンドサイトーシス</a>により細胞に取り込まれる機構が報告されており<a href="#R7"><sup>7)</sup></a>，ニューロンにおいても同様の機構の存在する可能性が考えられた．<a href="#" class="anno 実際">実際</a>に，<a href="#" class="anno 野生型">野生型</a>マウスの網膜では，ニューロンにおいて初期<a href="#" class="anno エンドソーム">エンドソーム</a>のマー<a href="#" class="anno カ">カ</a>ーである<a href="#" class="anno EEA1">EEA1</a>とVEGF-Aとが共存する複数のスポットが観察された．さらに，取り込まれたVEGFを追跡する目的で，網膜のニューロンを蛍光セルソーターにより選別して<a href="#" class="anno 蛍光標識">蛍光標識</a>したVEGFを投与したところ，VEGFの取り込みは投与ののち10分に開始し，そののち，VEGFに陽性を示すエンドソームは<a href="#" class="anno 徐々">徐々</a>に消失した．この結果から，取り込まれたVEGFは細胞において即座に分解され，貯蔵や<a href="#" class="anno 再利用">再利用</a>は起こっていないと考えられた．ニューロン特異的VEGF受容体2ノックアウトマウスの網膜においては，このようなVEGFの取り込みはほとんど検出されなかった．<br/>　以上の結果から，ニューロン特異的VEGF受容体2ノックアウトマウスの網膜においては，ニューロンによるVEGFの取り込みが低下し，ニューロンの周囲におけるVEGFの濃度が上昇することにより垂直方向への血管の新生が早期に起こることが示唆された．<br/><br/><h2>5．VEGF受容体2にくわえVEGF-Aを欠損させると血管新生の方向の異常は消失する</h2><br/>　VEGFの濃度と血管新生との関連について調べるため，ニューロンにおいてVEGF受容体2およびVEGF-Aを欠損する<a href="#" class="anno ダブルノックアウト">ダブルノックアウト</a>マウスにおいて，網膜での血管新生を観察したところ，早期の垂直方向への血管新生は認められなかった．さらに，網膜の切片においてVEGF-Aを免疫染色した結果，VEGF受容体2の欠損により増強した網膜のニューロンにおけるVEGF-Aの発現は，VEGF-Aを同時に欠損させることにより著明に低下しており，この仮説がさらに裏づけられた．<br/><br/><h2>6．ニューロンにおけるエンドサイトーシスの欠陥により血管新生の方向の異常がひき起こされる</h2><br/>　ニューロンの周囲においてVEGFの濃度が上昇するほかの機構として，VEGF受容体2の<a href="#" class="anno スプライシング">スプライシング</a><a href="#" class="anno 変<a href="#" class="anno 異型">異型</a>">変異型</a>である<a href="#" class="anno 可溶">可溶</a>性VEGF受容体2がなくなることにより，VEGFを捕捉する効果が低下している可能性が考えられた．そこで，膜<a href="#" class="anno 結合型">結合型</a>のVEGF受容体2は欠損しないが可溶性VEGF受容体2を欠損するマウスを作製したが，血管新生の方向の異常は認められなかった．可溶性VEGF受容体2によるVEGFの捕捉の効果は微々たるもので，VEGFの濃度を有意に変化させるにはいたら<a href="#" class="anno ないこと">ないこと</a>が推測された．<br/>　VEGF受容体2のエンドサイトーシスが血管新生の方向の異常に関与していることをさらに明らかにするため，細胞のエンドサイトーシスにおいて共同ではたらくことが報告されているDynamin 1およびDynamin 2 <a href="#R8"><sup>8)</sup></a> をニューロンにおいて特異的に欠損するマウスを作製したところ，予想どおり，早期の垂直方向への血管新生が認められた．さらに，この<a href="#" class="anno ダブルノックアウトマウス">ダブルノックアウトマウス</a>においてVEGF-Aを同時に欠損させることにより，血管新生の方向の異常は認められなくなることも確認された．<br/><br/><h2>7．ニューロンに特異的なVEGF受容体2の欠損により病的な血管新生は異常をきたす</h2><br/>　ニューロンに特異的なVEGF受容体2の欠損が虚血性網膜症モデル<a href="#R9"><sup>9)</sup></a> における病的な血管新生に及ぼす影響について検討した．ニューロン特異的VEGF受容体2ノックアウトマウスにおいては，病的な血管新生の程度に変化は認められなかったものの，無血管領域への<a href="#" class="anno 血管再生">血管再生</a>の程度が対照となるマウスと比べ遅延した．その先進部をよく観察したところ，血管再生が深部へと進入することはなかったが，毛細血管の間隙への異常な血管新生が進行しているようすが認められた．虚血性網膜症においては，通常と異なり，VEGF受容体2に陽性を示すニューロンはおもに網膜の浅い層の神経節細胞層において多層化していた．これらの結果から，虚血性網膜症モデルにおいては，ニューロンによるVEGFの濃度の制御はおもに網膜の水平面にそった方向にはたらくものと考えられた．<br/><br/><h2>おわりに</h2><br/>　発生期の網膜において，アストロサイトの<a href="#" class="anno 産生">産生</a>するVEGFの<a href="#" class="anno 濃度勾配">濃度勾配</a>にしたがいVEGF受容体2に依存して血管内皮の形成が誘導されることが知られているが<a href="#R4"><sup>4)</sup></a>，この研究の結果から，網膜のニューロンもVEGF受容体2を強く発現し，VEGFをさかんに取り込むことによりニューロンの周囲のVEGFの濃度を制御し，血管の新生を規定していることが明らかになった．ニューロンにおいて特異的にVEGF受容体2を欠損させると，VEGFのエンドサイトーシスが起こらなくなる結果，ニューロンの周囲のVEGFの濃度が上昇し，ニューロンの存在する網膜の深部へむけた血管新生の起こることが示された（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　ニューロンがVEGFの取り込みを介して血管新生を規定する機構</strong><br/>（a）野生型の網膜のニューロン．ニューロンがVEGF受容体2のエンドサイトーシスによりVEGFを取り込むため，ニューロンの周囲のVEGFの濃度は低く保たれている．<br/>（b）VEGF受容体2を欠損した網膜のニューロン．VEGF受容体2によるVEGFの取り込みが起こらなくなると，ニューロンの周囲のVEGFの濃度が高くなり，網膜の深部へむけた血管新生が誘導される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kubota-Cell-14.10.23-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　ニューロンがVEGFの取り込みを介して血管新生を規定する機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kubota-Cell-14.10.23-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kubota-Cell-14.10.23-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　ニューロンによりVEGFが多量に分泌されることの<a href="#" class="anno <a href="#" class="anno 生物学">生物学</a>的">生物学的</a>な意義についてはさらなる検討が必要であるが，<a href="#" class="anno 硝子体">硝子体</a>血管の維持に寄与していることが推測される．<a href="#" class="anno 胎生期">胎生期</a>の網膜や出生ののちの網膜の末梢領域にはアストロサイトが存在しないため，ニューロンが唯一のVEGFの産生源となっている可能性がある．実際に，ニューロンにおいてVEGFを過剰に発現させると硝子体血管が<a href="#" class="anno 遺残">遺残</a>するようになる<a href="#R10"><sup>10)</sup></a>．<br/>　この研究において明らかになったニューロンによる血管新生の<a href="#" class="anno 制御機構">制御機構</a>をさらに解析することにより，<a href="#" class="anno <a href="#" class="anno 加齢">加齢</a><a href="#" class="anno 黄斑変性">黄斑変性</a>">加齢黄斑変性</a>や<a href="#" class="anno 糖尿病">糖尿病</a>性網膜症など，網膜における血管新生をともなう疾患に対する新たな知見が得られるものと考えられる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Mukouyama, Y. S., Shin, D., Britsch, S. et al.</span>: <span class="ti">Sensory nerves determine the pattern of arterial differentiation and blood vessel branching in the skin.</span> <span class='so'>Cell, 109, 693-705 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12086669" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Lambrechts, D., Storkebaum, E., Morimoto, M. et al.</span>: <span class="ti">VEGF is a modifier of amyotrophic lateral sclerosis in mice and humans and protects motoneurons against ischemic death.</span> <span class='so'>Nat. Genet., 34, 383-394 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12847526" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Lu, X., Le Noble, F., Yuan, L. et al.</span>: <span class="ti">The netrin receptor UNC5B mediates guidance events controlling morphogenesis of the vascular system.</span> <span class='so'>Nature, 432, 179-186 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15510105" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Gerhardt, H., Golding, M., Fruttiger, M. et al.</span>: <span class="ti">VEGF guides angiogenic sprouting utilizing endothelial tip cell filopodia.</span> <span class='so'>J. Cell. Biol., 161, 1163-1177 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12810700" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Ishitobi, H., Matsumoto, K., Azami, T. et al.</span>: <span class="ti"><em>Flk1-GFP</em> BAC Tg mice: an animal model for the study of blood vessel development.</span> <span class='so'>Exp. Anim., 59, 615-622 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21030789" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Ishitobi, H., Wakamatsu, A., Liu, F. et al.</span>: <span class="ti">Molecular basis for <em>Flk1</em> expression in hemato-cardiovascular progenitors in the mouse.</span> <span class='so'>Development, 138, 5357-5368 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22071109" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Lampugnani, M. G., Orsenigo, F., Gagliani, M. C. et al.</span>: <span class="ti">Vascular endothelial cadherin controls VEGFR-2 internalization and signaling from intracellular compartments.</span> <span class='so'>J. Cell. Biol., 174, 593-604 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16893970" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Ferguson, S. M., Raimondi, A., Paradise, S. et al.</span>: <span class="ti">Coordinated actions of actin and BAR proteins upstream of dynamin at endocytic clathrin-coated pits.</span> <span class='so'>Dev. Cell., 17, 811-822 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20059951" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Smith, L. E., Wesolowski, E., McLellan, A. et al.</span>: <span class="ti">Oxygen-induced retinopathy in the mouse.</span> <span class='so'>Invest. Ophthalmol. Vis. Sci., 35, 101-111 (1994)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7507904" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Kurihara, T., Kubota, Y., Ozawa, Y. et al.</span>: <span class="ti">von Hippel-Lindau protein regulates transition from the fetal to the adult circulatory system in retina.</span> <span class='so'>Development, 137, 1563-1571 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20388654" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/17_02.html" target="_blank">17.2 Excitation of Nerve Cells and Transmission of Excitation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/05_03.html" target="_blank">5.3 The Autonomic Nervous System</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_01.html" target="_blank">20.1 Sensation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_02.html" target="_blank">20.2 Central Nervous System and Control</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_03.html" target="_blank">20.3 Control of output to effectors</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">岡部 圭介（Keisuke Okabe）</span><br>略歴：2014年 慶應義塾大学大学院医学研究科 修了，同年より同 助教．<br>研究テーマ：中枢神経系における血管の発生のダイナミクス．<br>抱負：地に足の着いた研究．当たり前のことを当たり前にやる．<br><br><strong>久保田 義顕（Yoshiaki Kubota）</strong><br>慶應義塾大学医学部 准教授．<br>研究室URL：<a href="http://www.keiovascular.com/" target="_blank">http://www.keiovascular.com/</a><br></div><br>© 2014 岡部圭介・久保田義顕 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

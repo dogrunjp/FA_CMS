@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 線虫において増殖因子SVH-1はJNK型MAPキナーゼカスケードを介して軸索の再生を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/4605" rel="bookmark">線虫において増殖因子SVH-1はJNK型MAPキナーゼカスケードを介して軸索の再生を制御する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>久本直毅・松本邦弘</strong><br>（名古屋大学大学院理学研究科 生命理学専攻生体応答論講座）<br>email：<a href="mailto:i45556a@nucc.cc.nagoya-u.ac.jp">久本直毅</a>，<a href="mailto:g44177a@nucc.cc.nagoya-u.ac.jp">松本邦弘</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.043">10.7875/first.author.2012.043</a><br><div class="reference"><br><span class="ti">The growth factor SVH-1 regulates axon regeneration in <em>C</em>. <em>elegans</em> via the JNK MAPK cascade.</span><br><span class="au">Chun Li, Naoki Hisamoto, Paola Nix, Shuka Kanao, Tomoaki Mizuno, Michael Bastiani, Kunihiro Matsumoto</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22388962" target="_blank"><em>Nature Neuroscience</em>, <strong>15</strong>, 551-557 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ニューロンは<a href="#" class="anno 軸索">軸索</a>という長い突起を<a href="#" class="anno も">も</a>っており，外傷などによりそれが切断された場合，その切断部分の先端から<a href="#" class="anno 成長円錐">成長円錐</a>を形成して伸長することにより<a href="#" class="anno 機能的">機能的</a>な軸索を<a href="#" class="anno 再形成">再形成</a>する．この再生の過程を<a href="#" class="anno 軸索再生">軸索再生</a>とよぶが，この過程がどのように制御されているかについては<a href="#" class="anno 未解明">未解明</a>の部分が多い．軸索再生の機構は種をこえて保存されており，<a href="#" class="anno モ<a href="#" class="anno デ">デ</a>ル動物">モデル動物</a>である<a href="#" class="anno 線虫">線虫</a>においても軸索再生の起こることが報告されている．最近，<a href="#" class="anno JNK">JNK</a>型の<a href="#" class="anno MA">MA</a>P<a href="#" class="anno キナーゼ">キナーゼ</a><a href="#" class="anno カ">カ</a>スケードが<a href="#" class="anno 運動ニューロン">運動ニューロン</a>の切断ののちの軸索再生を正に制御することが明らかになった．しかし，このカスケードがどのようなシグナルにより<a href="#" class="anno 活性化">活性化</a>されているのかはわかっていない．筆者らは，線虫の全遺伝子に対する<a href="#" class="anno 網羅的">網羅的</a>な<a href="#" class="anno RNAi">RNAi</a>スクリーニングにより，軸索再生に関与する遺伝子として新たに<em>svh-1</em>遺伝子と<em>svh-2</em>遺伝子を同定した．<em>svh-1</em>遺伝子は新規の<a href="#" class="anno 増殖因子">増殖因子</a>を，<em>svh-2</em>遺伝子は増殖因子<a href="#" class="anno 受容体">受容体</a>型<a href="#" class="anno チロシン">チロシン</a>キナーゼをコードしていた．それぞれの遺伝子の<a href="#" class="anno 欠失">欠失</a><a href="#" class="anno 変異体">変異体</a>を用いた解析から，SVH-1はSVH-2の上流かつ同一のカスケードにおいて機能しており，ともに軸索再生に重要であることが示された．SVH-1は頭部の<a href="#" class="anno 感覚ニューロン">感覚ニューロン</a>である<a href="#" class="anno ADL">ADL</a>ニューロンにおいて<a href="#" class="anno 特異的">特異的</a>に発現し，そこから細胞の外に分泌されることにより機能した．一方，SVH-2は通常はニューロンにおいて発現していなかったが，軸索の切断をうけるとそのニューロンにおいて発現が誘導されることで軸索再生において機能していた．また，SVH-1からSVH-2へのシグナルを過剰に活性化させると軸索の再生能が顕著に亢進した．さらに，SVH-1からSVH-2へのシグナルがJNK型MAP<a href="#" class="anno キナーゼカスケード">キナーゼカスケード</a>の上流において機能していることも明らかになった．以上の結果より，SVH-1からSVH-2へのシグナルは軸索の損傷に応じてJNK型<a href="#" class="anno MAPキナーゼ">MAPキナーゼ</a>カスケードを活性化し，軸索の再生を制御することが示唆された．<br/><br/><h2>はじめに</h2><br/>　ニューロンにおける軸索の再生の研究は，事故や<a href="#" class="anno 外科的">外科的</a>な手術などにより切断をうけた神経を修復し機能的な状態まで回復させるために必要であり，<a href="#" class="anno 社会的">社会的</a>にも喫緊の課題である．<a href="#" class="anno 哺乳動物">哺乳動物</a>のニューロンを用いた研究から，ニューロンの損傷ののち軸索を再生する能力は，ニューロン自体にもともと備わっている<a href="#" class="anno 内在性">内在性</a>の促進シグナルと，ニューロンの外部からの抑制シグナルにより制御されていることがわかっている<a href="#R1"><sup>1)</sup></a>．内在性の促進シグナルとして，軸索の切断のときのCa<sup>2+</sup>の流入やcAMPの上昇，軸索から<a href="#" class="anno 細胞体">細胞体</a>への<a href="#" class="anno 逆行性">逆行性</a>輸送や<a href="#" class="anno 微小管">微小管</a><a href="#" class="anno 結合タンパク質">結合タンパク質</a><a href="#" class="anno GAP">GAP</a>-43の<a href="#" class="anno 発現誘導">発現誘導</a>などが示唆されている．一方，外部からの抑制シグナルとして<a href="#" class="anno Nog">Nog</a>o，MAG，OMgpなどが知られている<a href="#R2"><sup>2)</sup></a>．しかし，軸索再生の制御に関する情報は<a href="#" class="anno 断片的">断片的</a>であり，<a href="#" class="anno 中心的">中心的</a>な役割を担うシグナルの実体および<a href="#" class="anno 制御機構">制御機構</a>の<a href="#" class="anno 大部分">大部分</a>は未解明のままである．<br/>　軸索再生は哺乳動物だけではなく線虫<em><a href="#" class="anno Caenorhabditis elegans">Caenorhabditis elegans</a></em>のような単純な生物でも起こることが示されている<a href="#R1"><sup>1)</sup></a>．最近，線虫においてDLK-1，<a href="#" class="anno MKK">MKK</a>-4，PMK-3からなる<a href="#" class="anno p38">p38</a>型<a href="#" class="anno MAPキナーゼカスケード">MAPキナーゼカスケード</a>が軸索再生に必須であることが報告された<a href="#R3"><sup>3,4)</sup></a>．さらに，<a href="#" class="anno ML">ML</a>K-1，<a href="#" class="anno MEK">MEK</a>-1，KGB-1から構成されるJNK型M<a href="#" class="anno APK">APK</a>カスケードも，軸索の切断ののちの<a href="#" class="anno 効率的">効率的</a>な再生に必要であることが明らかになっている<a href="#R5"><sup>5)</sup></a>．DLKやJNKはマウスの<a href="#" class="anno 後根<a href="#" class="anno 神経節">神経節</a>">後根神経節</a>の再生に必要であることから<a href="#R6"><sup>6,7)</sup></a>，これらのタンパク質は線虫から哺乳動物まで種をこえて軸索再生を促進する役割をもつものと考えられる．しかし，線虫の軸索再生において，どのようなシグナルによりMAPキナーゼカスケードが活性化されるのかについては不明であった．そこで，筆者らは，<a href="#" class="anno <a href="#" class="anno 遺伝学">遺伝学</a>的">遺伝学的</a>な方法を用いたスクリーニングによりMAPキナーゼカスケードの上流で機能するタンパク質の探索を試みた．<br/><br/><h2>1．軸索再生を制御するタンパク質のスクリーニング</h2><br/>　筆者らは以前に，線虫のJNK型およびp38型のMAPキナーゼカスケードが，MAPキナーゼの<a href="#" class="anno ホスファターゼ">ホスファターゼ</a>であるVHP-1により負に制御されることを明らかにしていた<a href="#R8"><sup>8)</sup></a>．<em>vhp-1</em><a href="#" class="anno <a href="#" class="anno 欠失変異">欠失変異</a>体">欠失変異体</a>ではMAPキナーゼカスケードが過剰に活性化されるため幼虫致死の<a href="#" class="anno 表現型">表現型</a>を示す．事実，JNK型およびp38型のMAPキナーゼカスケードの<a href="#" class="anno 構成タンパク質">構成タンパク質</a>を欠損させると<em>vhp-1</em>欠失変異体は正常に生育する．そこで，この性質を利用してJNK型およびp38型のMAPキナーゼカスケードにおいて機能する新たなタンパク質の同定を試みた．<a href="#" class="anno 具体的">具体的</a>には，線虫のRNAiライブラリーを用いた<a href="#" class="anno ゲノムワイド">ゲノムワイド</a>な網羅的<a href="#" class="anno ノックダウン">ノックダウン</a>スクリーニングにより<em>vhp-1</em>変異体の<a href="#" class="anno 致死性">致死性</a>を抑<a href="#" class="anno 圧">圧</a>する遺伝子を探索した．その結果，MLK-1，DLK-1をはじめとする既知のJNK型およびp38型のMAPキナーゼカスケードの構成タンパク質の遺伝子にくわえて10個の遺伝子が新たに同定され，それらを<em>svh-1</em>から<em>svh-10</em>と命名した（<em>svh</em>：sup<a href="#" class="anno pre">pre</a>ssor of <em>vhp-1</em>）．今回は，そのうち<em>svh-1</em>遺伝子と<em>svh-2</em>遺伝子について解析を行った．<br/>　SVH-1は<a href="#" class="anno N末端">N末端</a>に<a href="#" class="anno シグナル<a href="#" class="anno ペプチド">ペプチド</a>">シグナルペプチド</a>をもち，さらにK<a href="#" class="anno rin">rin</a>gleドメイン，Nドメイン，<a href="#" class="anno セリン">セリン</a><a href="#" class="anno プロテアーゼ">プロテアーゼ</a>ドメインなどをもつ新規の<a href="#" class="anno 分泌タンパク質">分泌タンパク質</a>であった（<a href="#F1">図1a</a>）．これらのドメインは，ヒトの<a href="#" class="anno HGF">HGF</a>（hep<a href="#" class="anno ato">ato</a>cyte growth fac<a href="#" class="anno tor">tor</a> rece<a href="#" class="anno pto">pto</a>r，<a href="#" class="anno <a href="#" class="anno 肝細胞">肝細胞</a>増殖因子">肝<a href="#" class="anno 細胞増殖">細胞増殖</a>因子</a>）や<a href="#" class="anno MSP">MSP</a>（macrophage activating factor，<a href="#" class="anno マクロ<a href="#" class="anno ファージ">ファージ</a>">マクロファージ</a><a href="#" class="anno 活性化因子">活性化因子</a>），<a href="#" class="anno プラスミノーゲン">プラスミノーゲン</a>に存在することから，SVH-1はHGFおよびMSPを含むプラスミノーゲン<a href="#" class="anno スーパーファミリー">スーパーファミリー</a>に属するものと考えられた．一方，SVH-2はSemaドメイン，PSIドメイン，<a href="#" class="anno IPT">IPT</a>ドメイン，チロシン<a href="#" class="anno キナーゼドメイン">キナーゼドメイン</a>をもつ1回<a href="#" class="anno 膜貫通">膜貫通</a><a href="#" class="anno 受容体型">受容体型</a><a href="#" class="anno チロシンキナーゼ">チロシンキナーゼ</a>で（<a href="#F1">図1b</a>），ヒトのHGF受容体であるc-<a href="#" class="anno Met">Met</a>やMSP受容体であるRonと高い<a href="#" class="anno <a href="#" class="anno <a href="#" class="anno 相">相</a>同">相同</a>性">相同性</a>を示した．つぎに，SVH-1とSVH-2が軸索再生に関与するのかどうかを調べる目的で，<em>svh-1</em>遺伝子と<em>svh-2</em>遺伝子の欠失変異体をそれぞれ作製し軸索再生に対する効果を調べた．なお，軸索の再生率は<a href="#" class="anno GFP">GFP</a>で<a href="#" class="anno 可視化">可視化</a>した<a href="#" class="anno D型">D型</a>運動ニューロンの軸索をレーザーで切断することにより検討した．<a href="#" class="anno 野生型">野生型</a>の若い成虫の線虫では切断された軸索のうち約80％の軸索が再生した．一方，<em>svh-1</em>変異体および<em>svh-2</em>変異体ではどちらも軸索の再生率が約20％まで低下した．ちなみに，軸索を切断しない通常の状態では<em>svh-1</em>欠失変異および<em>svh-2</em>欠失変異は軸索の走行に影響しなかった．これらのことから，SVH-1とSVH-2はともに，発生の過程における軸索の走行には必要ないが，切断された軸索の再生に重要であることが示された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　SVH-1およびSVH-2の構造</strong><br/>（a）SVH-1の構造．HGFおよびMSPの構造をあわせて示した．N：Nドメイン，K：Kringleドメイン，L：LDL受容体ドメイン，SP：セリンプロテアーゼドメイン．<br/>（b）SVH-2の構造．MetおよびRonの構造をあわせて示した．Sema：Semaドメイン，P：PSIドメイン，I：IPTドメイン，キナーゼ：チロシンキナーゼドメイン，TM：膜貫通領域．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/03/Matsumoto-Nature-Neuroscience-12.3.27-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　SVH-1およびSVH-2の構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsumoto-Nature-Neuroscience-12.3.27-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsumoto-Nature-Neuroscience-12.3.27-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．<em>svh-1</em>遺伝子と<em>svh-2</em>遺伝子の<a href="#" class="anno 発現パターン">発現パターン</a></h2><br/>　SVH-1とSVH-2がどの細胞で機能しているのか調べる目的で，これらの遺伝子の発現パターンについて検討した．まず，<em>svh-1</em>遺伝子の発現パターンについて，<em>svh-1</em>遺伝子のプロモーターの下流に蛍光蛋<a href="#" class="anno 白質">白質</a>Venusをコードする遺伝子を融合した<a href="#" class="anno コンストラクト">コンストラクト</a>を作製し解析を行った．その結果，ADLニューロンとよばれる頭部の感覚ニューロンにおいて特異的に発現がみられた．そこで，SVH-1はADLニューロンにおいて発現するだけで軸索再生の機能に十分なのかどうかを調べる目的で，<em>svh-1</em>遺伝子をADLニューロンにおいて特異的に発現するプロモーターにつないで<em>svh-1</em>変異体に導入したところ，軸索再生の低下の表現型が回復した．さらに，野生型の線虫においてADLニューロンをレーザー照射により殺した場合，軸索の再生率は<em>svh-1</em>変異体と<a href="#" class="anno 同じ">同じ</a>レベルにまで低下した．これらのことから，SVH-1はADLニューロンにおいて発現することで軸索再生を制御することが明らかになった．同様に，<em>svh-2</em>遺伝子の発現パターンを調べたところ，筋肉や腸などでの発現はみられたが，D型運動ニューロンでは発現はみられなかった．しかし，軸索を切断されたD型運動ニューロンにおいて<em>svh-2</em>遺伝子の発現が特異的に誘導されることが判明した．さらに，<em>svh-2</em>遺伝子をD型運動ニューロンにおいて特異的に発現するプロモーターにより発現させると，<em>svh-2</em>変異体の軸索再生の低下の表現型が回復した．したがって，SVH-2は切断されたD型運動ニューロンにおいて<a href="#" class="anno 自律的">自律的</a>に機能していた．以上の結果から，SVH-2は通常はD型運動ニューロンにおいて発現していないが，軸索を切断されると発現が誘導され，ADLニューロンから分泌されたSVH-1のシグナルを受け取り軸索再生を制御するものと考えられた．<br/><br/><h2>3．SVH-1からSVH-2へのシグナルの過剰な活性化は軸索再生を促進する</h2><br/>　SVH-1とSVH-2を過剰に活性化した場合の軸索再生への効果について検討した．野生型の線虫では軸索再生は約80％の割合で起こるが，そのうち，標的である<a href="#" class="anno 背側">背側</a>にまで到達するものは約5％しかない．ところが，野生型の線虫においてSVH-1を多量に発現させると，再生した軸索の背側への到達率は40～60％まで促進された．このときの成長円錐のようすを観察したところ，野生型の線虫と比べ明らかに大きく活発であった．また，線虫の軸索の再生率は<a href="#" class="anno 加齢">加齢</a>とともに低下するが，SVH-1の多量の発現はその低下も抑えた．同様な表現型はSVH-2を多量に発現させたときにも観察された．さらに，<em>svh-1</em>欠失変異体においてSVH-2を多量に発現させると軸索再生が促進されるのに対し，<em>svh-2</em>欠失変異体においてSVH-1を多量に発現させても軸索再生は回復しなかった．この結果は，増殖因子であるSVH-1から受容体であるSVH-2へのシグナルという関係で軸索再生を制御していることを示していた．これらのことから，SVH-1からSVH-2へのシグナルの過剰な活性化は軸索の再生能を高め，加齢による軸索の再生率の低下を抑えることが明らかになった．<br/><br/><h2>4．SVH-2はJNK型MAPキナーゼカスケードの上流において機能する</h2><br/>　SVH-1とSVH-2は，MLK-1→MEK-1→KGB-1からなるJNK型<a href="#" class="anno MAPK">MAPK</a>カスケードと，DLK-1→1-MKK-4→PMK-3からなるp38型<a href="#" class="anno MAPKカスケード">MAPKカスケード</a>のどちらで機能しているのだろうか？　この問題を<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>な解析により検討した結果，SVH-2はMLK-1と直接に結合し，そのチロシン<a href="#" class="anno 残基">残基</a>を<a href="#" class="anno <a href="#" class="anno リン酸">リン酸</a>化">リン酸化</a>することを見い<a href="#" class="anno 出し">出し</a>た．一方，SVH-2とDLK-1とのあいだに生化学的な関連は見い出せなかった．さらに，<em>svh-2</em>欠失変異体においてKGB-1が顕著に活性の低下していることが明らかになった．以上の結果から，SVH-2はJNK型MAPKカスケードの上流において機能していると考えられた．<br/><br/><h2>おわりに</h2><br/>　今回の研究から，増殖因子であるSVH-1と受容体であるSVH-2は線虫の軸索再生に必要なタンパク質であり，JNK型MAPKカスケードを介して軸索再生を制御していることが明らかになった．軸索を切断されたニューロンは<em>svh-2</em>遺伝子の発現を誘導し，それによりつくられたSVH-2に対し頭部のニューロンより分泌されたSVH-1が結合することによりSVH-2が活性化する．活性化したSVH-2はMLK-1のリン酸化によりMLK-1→MEK-1→KGB-1からなるJNK型MAPKカスケードを活性化し軸索再生が起こると考えられた（<a href="#F2">図2</a>）．哺乳動物では軸索再生を外部から促進するタンパク質の候補として，発生の過程において軸索のガイダンスを外部から制御するタンパク質である<a href="#" class="anno NGF">NGF</a>（nerve growth factor，神経<a href="#" class="anno 成長因子">成長因子</a>）やニューロトロフィン3，<a href="#" class="anno BDNF">BDNF</a>（brain-derived <a href="#" class="anno <a href="#" class="anno neu">neu</a>ro">neuro</a>trophic factor，脳由来<a href="#" class="anno 神経<a href="#" class="anno 栄養因子">栄養因子</a>">神経栄養因子</a>）などが検討されてきた<a href="#R1"><sup>1)</sup></a>．しかし，これらの研究の多くは<a href="#" class="anno 培養皿">培養皿</a>に分離されたニューロンへの投与という<a href="#" class="anno かた">かた</a>ちで行われた実験によるものであり，これらの候補タンパク質が生体においてニューロンの切断ののちの軸索再生を制御しているのか，それとも，単にガイダンスタンパク質として作用しているだけなのかは定かでなかった．さらに，<a href="#" class="anno 実験系">実験系</a>，ニューロンの種類，<a href="#" class="anno 研究者">研究者</a>により異なる結果が報告されているため，ニューロンの切断ののちの軸索再生において，<a href="#" class="anno 細胞外">細胞外</a>からの促進シグナルが<em>in vivo</em>において本当に存在するのかどうかははっきりしていなかった．この研究は，軸索再生の誘導に細胞外のタンパク質が必要であることを明確に示し，その<a href="#" class="anno 分子実体">分子実体</a>を明らかにしただけでなく，その下流のカスケードまで同定した点で軸索再生の研究における重要な知見のひとつになると思われる．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　線虫の軸索再生におけるJNK型MAPキナーゼカスケードを介するシグナル伝達</strong><br/>MAPK：MAPキナーゼ，MAPKK：MAPキナーゼキナーゼ，MAPKKK：MAPキナーゼキナーゼキナーゼ．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/03/Matsumoto-Nature-Neuroscience-12.3.27-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　線虫の軸索再生におけるJNK型MAPキナーゼカスケードを介するシグナル伝達" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsumoto-Nature-Neuroscience-12.3.27-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsumoto-Nature-Neuroscience-12.3.27-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　線虫のSVH-1はHGF，MSP，プラスミノーゲンに相同性をもち，SVH-2はMetおよびRonと相同性のあることから，哺乳動物においてもこれらと相同なタンパク質が軸索再生において重要な役割をはたしていることが推測される．現在のところ，哺乳動物においてSVH-1に相当するタンパク質がHGF，MSP，プラスミノーゲンのうちのどれなのか，あるいは，また別にあるのかについてははっきりしない．ただ興味深いことに，脊髄の損傷した<a href="#" class="anno マーモセット">マーモセット</a>にHGFを投与すると損傷による<a href="#" class="anno 運動障害">運動障害</a>からの回復が顕著に促進されるという報告のあることから<a href="#R9"><sup>9)</sup></a>，HGFからMetへのシグナルそのもの，あるいは，それに類似したシグナルが<a href="#" class="anno 霊長類">霊長類</a>を含む哺乳動物においても軸索再生を正に制御するシグナルとして機能する<a href="#" class="anno 可能性">可能性</a>が考えられる．今後，さらに研究を進めることにより，種をこえて保存された軸索再生の機構を明らかにできるのではないかと期待している．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Liu, K., Tedeschi, A., Park, K. K. et al.</span>: <span class="ti">Neuronal intrinsic mechanisms of axon regeneration.</span> <span class='so'>Annu. Rev. Neurosci., 34, 131-152 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21438684" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>山下俊英</span>: <span class="ti">軸索再生阻害機構とその制御による中枢神経再生治療.</span> <span class='so'>蛋白質 核酸 酵素, 53, 406-410 (2008)</span></li><br><li id="R3"><span class='au'> Hammarlund, M., Nix, P., Hauth, L. et al.</span>: <span class="ti">Axon regeneration requires a conserved MAP kinase pathway.</span> <span class='so'>Science, 323, 802-806 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19164707" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Yan, D., Wu, Z., Chisholm, A. D. et al.</span>: <span class="ti">The DLK-1 kinase promotes mRNA stability and local translation in <em>C</em>. <em>elegans</em> synapses and axon regeneration.</span> <span class='so'>Cell, 138, 1005-1018 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19737525" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Nix, P., Hisamoto, N., Matsumoto, K. et al.</span>: <span class="ti">Axon regeneration requires coordinate activation of p38 and JNK MAPK pathways.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 108, 10738-10743 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21670305" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Itoh, A., Horiuchi, M., Bannerman, P. et al.</span>: <span class="ti">Impaired regenerative response of primary sensory neurons in ZPK/DLK gene-trap mice.</span> <span class='so'>Biochem. Biophys. Res. Commun., 383, 258-262 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19358824" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Barnat, M., Enslen, H., Propst, F. et al.</span>: <span class="ti">Distinct roles of c-Jun N-terminal kinase isoforms in neurite initiation and elongation during axonal regeneration.</span> <span class='so'>J. Neurosci., 30, 7804-7816 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20534829" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Mizuno, T., Hisamoto, N., Terada, T. et al.</span>: <span class="ti">The <em>Caenorhabditis elegans</em> MAPK phosphatase VHP-1 mediates a novel JNK-like signaling pathway in stress response.</span> <span class='so'>EMBO J., 23, 2226-2234 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15116070" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Kitamura, K., Fujiyoshi, K., Yamane, J. et al.</span>: <span class="ti">Human hepatocyte growth factor promotes functional recovery in primates after spinal cord injury.</span> <span class='so'>PLoS One, 6, e27706 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22140459" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/17_02.html" target="_blank">17.2 Excitation of Nerve Cells and Transmission of Excitation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_01.html" target="_blank">20.1 Sensation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/05_03.html" target="_blank">5.3 The Autonomic Nervous System</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_02.html" target="_blank">20.2 Central Nervous System and Control</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/08_03.html" target="_blank">8.3 Post-transcriptional Modification</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">久本 直毅（Naoki Hisamoto）</span><br>略歴：名古屋大学大学院理学研究科 准教授．<br>研究テーマ：線虫をモデルとした神経疾患および再生．<br><br><strong>松本 邦弘（Kunihiro Matsumoto）</strong><br>名古屋大学大学院理学研究科 教授．<br>研究室URL：<a href="http://bunshi3.bio.nagoya-u.ac.jp/~bunshi6/matsumoto_new/index.html" target="_blank">http://bunshi3.bio.nagoya-u.ac.jp/~bunshi6/matsumoto_new/index.html</a><br></div><br>© 2012 久本直毅・松本邦弘 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

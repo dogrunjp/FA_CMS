@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> イネの栽培化の起源がゲノムの全域における変異比較解析により判明した : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/6056" rel="bookmark">イネの栽培化の起源がゲノムの全域における変異比較解析により判明した</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>倉田のり・久保貴彦</strong><br>（国立遺伝学研究所 系統生物研究センター植物遺伝研究室）<br>email：<a href="mailto:nkurata@nig.ac.jp">倉田のり</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.139">10.7875/first.author.2012.139</a><br><div class="reference"><br><span class="ti">A map of rice genome variation reveals the origin of cultivated rice.</span><br><span class="au">Xuehui Huang, Nori Kurata, Xinghua Wei, Zi-Xuan Wang, Ahong Wang, Qiang Zhao, Yan Zhao, Kunyan Liu, Hengyun Lu, Wenjun Li, Yunli Guo, Yiqi Lu, Congcong Zhou, Danlin Fan, Qijun Weng, Chuanrang Zhu, Tao Huang, Lei Zhang, Yongchun Wang, Lei Feng, Hiroyasu Furuumi, Takahiko Kubo, Toshie Miyabayashi, Xiaoping Yuan, Qun Xu, Guojun Dong, Qilin Zhan, Canyang Li, Asao Fujiyama, Atsushi Toyoda, Tingting Lu, Qi Feng, Qian Qian, Jiayang Li, Bin Han</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23034647" target="_blank"><em>Nature</em>, <strong>490</strong>, 497-501 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　イネの<a href="#" class="anno 栽培化">栽培化</a>は人類の歴史において<a href="#" class="anno も">も</a>っとも重要な進歩のひとつであるが，その起源地や栽培化のプロセスについては長いあいだ論争がつづいていた．今回，筆者らは，世界各地から収集した栽培イネ<em><a href="#" class="anno Oryza">Oryza</a> sativa</em> 1083品種と，その起源種とされる野生イネ<em>O</em>. <em>rufipogon</em> 446系統のゲノムの解読を行い，<a href="#" class="anno 包括的">包括的</a>なゲノム変異マップを作成した．また，<a href="#" class="anno 遺伝的">遺伝的</a>な変異パターンにもとづき，栽培化の過程で強い<a href="#" class="anno 選択的">選択的</a>な<a href="#" class="anno スイープ">スイープ</a>の起こった55箇所の<a href="#" class="anno ゲノム領域">ゲノム領域</a>を検<a href="#" class="anno 出し">出し</a>た．これらの領域には，<a href="#" class="anno 脱粒性">脱粒性</a>，<a href="#" class="anno 草型">草型</a>，粒幅など，栽培化にかかわる重要な遺伝子が存在していた．選択的なスイープの起こったゲノム領域，および，<a href="#" class="anno 全ゲノム">全ゲノム</a>の精密な解析から，イネの栽培化は中国の珠江中流域ではじまり，<em>O</em>. <em>rufipogon</em>のかぎられた集団からジャポニ<a href="#" class="anno カ">カ</a>（<em>O</em>. <em>sativa ja<a href="#" class="anno pon">pon</a>ica</em>）の生まれたことが明らかになった．また，ジャポニカの誕生につづいて，東南アジアや南アジアの野生イネ系統とジャポニカとの交配によりイン<a href="#" class="anno デ">デ</a>ィカ（<em>O</em>. <em>sativa indica</em>）の生まれたことが判明した．今回，得られた，遺伝的に多様なイネの<a href="#" class="anno ゲノム情報">ゲノム情報</a>と栽培化遺伝子に関する知見は今後の研究の発展と応用に重要な成果となる．<br/><br/><h2>はじめに</h2><br/>　イネは主要な<a href="#" class="anno 栄養源">栄養源</a>として世界中で栽培されている重要な作物であり，また，<a href="#" class="anno モデル植物">モデル植物</a>のひとつでもある．栽培イネ（学名<em><a href="#" class="anno Oryza sativa">Oryza sativa</a></em> L.）は<a href="#" class="anno 数千">数千</a>年前に<a href="#" class="anno 近縁">近縁</a>の野生イネ<em>O</em>. <em>rufipogon</em>から栽培化されたといわれている．この2つの種は遺伝的に近縁であるものの，<a href="#" class="anno 生理的">生理的</a>および<a href="#" class="anno 形態的">形態的</a>な特徴は大きく異なっている．これまで，<a href="#" class="anno 遺伝学">遺伝学</a>や考古学などさまざまな視点からイネ系統間の進化関係や栽培化に関する研究が進められてきたが，栽培イネの起源や<a href="#" class="anno 具体的">具体的</a>な栽培化のプロセスについては論争がつづいていた．争点の中心は，1）<a href="#" class="anno 地理的">地理的</a>な起源はどこであるか，2）遺伝的な変異の多様な<em>O</em>. <em>rufipogon</em>の集団のなかでどの系統が直接的な起源であるか，3）<em>O</em>. <em>sativa</em>の2つの<a href="#" class="anno 亜種">亜種</a>であるインディカ（<em>O</em>. <em>sativa indica</em>，タイ米などの長粒米）とジャポニカ（<em>O</em>. <em>sativa j<a href="#" class="anno apo">apo</a>nica</em>，日本米などの短粒米）はどのように分化したか，などである．分子<a href="#" class="anno 系統解析">系統解析</a>はインディカとジャポニカは独立に栽培化の過程をへて成立したという“二元説”を支持している<a href="#R1"><sup>1,2)</sup></a>．一方，すでに<a href="#" class="anno 単離">単離</a>同定された栽培化<a href="#" class="anno 関連遺伝子">関連遺伝子</a>の解析は，いずれの遺伝子もインディカとジャポニカのあいだで同一の<a href="#" class="anno 遺伝子型">遺伝子型</a>で固定していたことから，2つの亜種が<a href="#" class="anno 同じ">同じ</a>起源をもつこと（一元説）を示唆している<a href="#R3"><sup>3,4)</sup></a>．最近，報告された630個の遺伝子における<a href="#" class="anno SNP">SNP</a>（single <a href="#" class="anno nucl">nucl</a>eot<a href="#" class="anno ide">ide</a> polymorphism，<a href="#" class="anno 一塩基">一塩基</a><a href="#" class="anno 多型">多型</a>）を用いた<a href="#" class="anno 集団構造">集団構造</a>の解析は，一元説をサポートする結果であった<a href="#R5"><sup>5)</sup></a>．このように起源についてはさまざまな見解があり，直接的な起源系統や集団構造の変遷についてはい<a href="#" class="anno まだ">まだ</a>に明らかにされていない．このような研究背景のもとでは，遺伝的に幅広い多数の系統を用いて<a href="#" class="anno 系統関係">系統関係</a>の解析を行うと同時に，栽培化遺伝子の周辺領域について遺伝子型構造（<a href="#" class="anno ハプロタイプ">ハプロタイプ</a>）の精密な<a href="#" class="anno 比較解析">比較解析</a>を進めることが，重要なステップであると考えられる．筆者らの共同<a href="#" class="anno 研究グループ">研究グループ</a>は，さきの報告において，栽培イネの保存品種のゲノム<a href="#" class="anno 塩基配列">塩基配列</a>の解読と，収量形質にかかわるGW<a href="#" class="anno AS">AS</a>（genome-wide association study，<a href="#" class="anno ゲノムワイド">ゲノムワイド</a><a href="#" class="anno 相">相</a>関解析）を進めた<a href="#R3"><sup>3,6)</sup></a>．この研究では，野生イネ<em>O</em>. <em>rufipogon</em> 446系統のゲノム塩基配列の解読を行い，栽培イネとの系統関係を調べて栽培進化とその起源についての解析を行った．<br/><br/><h2>1．野生イネの集団の<a href="#" class="anno ゲノム解析">ゲノム解析</a></h2><br/>　栽培イネの分類される<a href="#" class="anno イネ属">イネ属</a><em>Oryza</em>は23種からなり，そのなかでも栽培イネ<em>O</em>. <em>sativa</em>の直接的な起源となる野生種とされているのが<em>O</em>. <em>rufipogon</em>である．中国および日本の遺伝子バンクにおいて保存されていた野生イネの系統保存品種より446系統の<em>O</em>. <em>rufipogon</em>を選びゲノム解析に用いた．この446の系統は1年で世代をおえる一年生の系統と栄養体で繁殖をつづける多年生の系統を含んでおり，地理的にはアジアからオセアニアと広範囲に分布する変異に富んだ系統であった．これらすべての系統について，ゲノム塩基配列の薄<a href="#" class="anno 読み">読み</a>の解読（ゲノム<a href="#" class="anno カバー度">カバー度</a>は約2倍）を行い，ゲノム全長の塩基配列（398 Mb）の決定されている日本晴（ジャポニカ）を<a href="#" class="anno 参照配列">参照配列</a>として解読した塩基配列を整理し，日本晴とのあいだで5,037,497個のSNPを同定した．これらのSNPから算出した<em>O</em>. <em>rufipogon</em>における塩基<a href="#" class="anno 多様性">多様性</a>は0.003以下と見積もられ，この値は<em>O</em>. <em>sativa</em>における塩基多様性（0.0024）よりも高かった．これは，栽培種では<a href="#" class="anno 人為的">人為的</a>な選抜において一部の個体のみが選択的に利用されるため起源種における遺伝的な変異は失われていくという見解<a href="#R7"><sup>7)</sup></a> とよく一致していた．<br/>　つぎに，検出したSNPをもとに<em>O</em>. <em>rufipogon</em>の遺伝的な集団構造の解析を行った．<a href="#" class="anno <a href="#" class="anno 系統樹">系統樹</a>解析">系統樹解析</a>と<a href="#" class="anno 主成分分析">主成分分析</a>により，<em>O</em>. <em>rufipogon</em>は3つの<a href="#" class="anno サブグループ">サブグループ</a>Or-I，Or-II，Or-<a href="#" class="anno III">III</a>に分類された．これら3つのサブグループは採集地の地理的な分布の位置関係とおおむね一致していた．また興味深いことに，中国南方から採集した系統の多くはOr-IIIグループに属していた．おのおののサブグループのあいだの遺伝的な分化の指標となる<em>F<sub>st</sub></em>値は0.18であり，これは<em>O</em>. <em>sativa</em>における値（0.55以下）と比べると低い値であった．<a href="#" class="anno 染色体">染色体</a>における遺伝的な変異の分布は均一ではなく，染色体の部位により大小の差違がみられた．染色体において<a href="#" class="anno 変異率">変異率</a>の高い領域は68箇所あり，この領域には雑種<a href="#" class="anno 不和合">不和合</a>性にかかわる<em>D<a href="#" class="anno PL2">PL2</a></em>遺伝子や，<a href="#" class="anno 出穂期">出穂期</a>遺伝子の<em>OsSO<a href="#" class="anno C1">C1</a></em>遺伝子と<em>Ghd7</em>遺伝子，耐冷性遺伝子の<em>q<a href="#" class="anno CT">CT</a>S12</em>遺伝子が含まれていた．これらの遺伝子はいずれもインディカとジャポニカとの分化に関係することが知られている．したがって，今回，検出された遺伝的な変異に富む68箇所の<a href="#" class="anno 染色体領域">染色体領域</a>は，地域<a href="#" class="anno 適応性">適応性</a>にかかわる遺伝子の探索において足がかりとなる情報を提供するものと考えられた．<br/>　野生イネ<em>O</em>. <em>rufipogon</em>は<a href="#" class="anno 他殖性">他殖性</a>であるため，<a href="#" class="anno 自殖">自殖</a>性の栽培イネと比較して<a href="#" class="anno 連鎖不平衡">連鎖不平衡</a>ブロックは小さいと予測される．<a href="#" class="anno 実際">実際</a>の<a href="#" class="anno 解析結果">解析結果</a>によると，<em>O</em>. <em>rufipogon</em>では平均して20 kbから急速な連鎖不平衡の減衰がみられ，栽培イネであるインディカの123 kb，ジャポニカの167 kbと比較するときわめて早い減衰が観察された．この結果をふまえて<a href="#" class="anno 葉鞘">葉鞘</a>色と草型の2つの形質に関して<a href="#" class="anno GWAS">GWAS</a>を行ったところ，既知の出穂期遺伝子<em>OsC1</em>と草型遺伝子<em><a href="#" class="anno PRO">PRO</a>G1</em>の領域に高い相関を検出した．<em>O</em>. <em>sativa</em>の集団のみでのGWASの結果と比較すると，平均で3倍以上もの<a href="#" class="anno 高解像度">高解像度</a>でのマッ<a href="#" class="anno ピン">ピン</a>グが可能であることがわかった．この結果，野生イネの集団を用いた<a href="#" class="anno 農業形質">農業形質</a>のGWASでは高い解像度での関与遺伝子の領域の同定が可能となることが実証された．<br/><br/><h2>2．野生イネと栽培イネの系統関係</h2><br/>　野生イネと栽培イネとの系統関係を詳細に調べるため，<em>O</em>. <em>rufipogon</em> 446系統と<em>O</em>. <em>sativa</em> 1083品種のゲノムワイドな<a href="#" class="anno SNP解析">SNP解析</a>を行った．<em>O</em>. <em>sativa</em>の1083品種は，<em>O</em>. <em>rufipogon</em> 446系統と同様，世界各地から収集した保存品種である．<em>O</em>. <em>rufipogon</em>と<em>O</em>. <em>sativa</em>の合計1529系統から7,970,359個のSNPを同定した．さらに，これらSNPの起源を探る目的で，Aゲノム起源種である4種の野生イネ<em>O</em>. <em>g<a href="#" class="anno lab">lab</a>errima</em>，<em>O</em>. <em>b<a href="#" class="anno arth">arth</a>ii</em>，<em>O</em>. <em><a href="#" class="anno lon">lon</a>gi<a href="#" class="anno sta">sta</a>m<a href="#" class="anno ina">ina</a>ta</em>，<em>O</em>. <em><a href="#" class="anno mer">mer</a>idio<a href="#" class="anno nal">nal</a>is</em>のゲノム塩基配列の解読と比較を行い，6,119,311個のSNPの起源を明らかにした．これらのSNPを利用して1529系統の系統関係について系統樹解析と主成分分析を行ったところ，インディカとジャポニカはそれぞれOr-IグループとOr-IIIグループを起源にもつことが判明した（<a href="#F1">図1</a>）．Or-Iグループとインディカ，および，Or-IIIグループとジャポニカのそれぞれ個別の関係について調べたところ，Or-Iグループに属するインディカの遺伝的な変異は小さく，インディカはOr-Iグループにおける変異の75％を含むことがわかった．また，一部のインディカとOr-Iグループの系統はこの2つのグループの<a href="#" class="anno 中間型">中間型</a>として位置づけられた．<a href="#" class="anno 対照的">対照的</a>に，ジャポニカはひとつの<a href="#" class="anno ク<a href="#" class="anno ラスター">ラスター</a>">クラスター</a>にまとまり，中国南方の<em>O</em>. <em>rufipogon</em>（サブ<a href="#" class="anno クレード">クレード</a>Or-<a href="#" class="anno IIIa">IIIa</a>）に起源をもつことが判明した．ジャポニカとサブクレードOr-IIIaとのあいだには明確な集団変異が含まれていた．驚いたことに，ジャポニカにおける変異はOr-IIIグループにおける変異の<a href="#" class="anno わずか">わずか</a>33％しか含まれていなかった．この強い<a href="#" class="anno ボトルネック効果">ボトルネック効果</a>はOr-IIIグループのごく一部の個体が栽培化に用いられたことを示すものであった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　栽培イネとその起源とされる野生イネの遺伝的な関係と変異の大きさ</strong><br/>栽培イネ<em>O</em>. <em>sativa</em>のうちジャポニカは野生イネ<em>O</em>. <em>rufipogon</em>のOr-IIIグループ（多年生）を起源とし，インディカはOr-Iグループ（一年生）を起源にもつ．円のサイズはおのおののグループの遺伝的な変異の大きさ（π）を表し，グループのあいだの数値は遺伝的な分化の程度（<em>F<sub>st</sub></em>）を示す．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/11/Kurata-Nature-12.10.25-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　栽培イネとその起源とされる野生イネの遺伝的な関係と変異の大きさ" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kurata-Nature-12.10.25-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kurata-Nature-12.10.25-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　ジャポニカとインディカとのあいだにみられたSNPはこの2つが数千年前に分化したことを示していたが，これらは起源種である<em>O</em>. <em>rufipogon</em>においてすでに分化していたことがわかった．しかしながら，<em>O</em>. <em>rufipogon</em>の集団のあいだと比べ，ジャポニカとインディカとのあいだでは変異の広がりは強化されていた（<a href="#F1">図1</a>）．この栽培化による変異の広がりは，野生イネの集団のあいだですでに存在していた変異にくわえ，近代育種のボトルネック効果が組み合わさった結果であろうと考えられた．粒形遺伝子<em><a href="#" class="anno GS3">GS3</a></em>を例としてあげると，<em>GS3</em>遺伝子の<a href="#" class="anno 欠失">欠失</a>型は野生イネの集団ではおもに中国南方の広西地区と広東省にみられたが，ジャポニカではそれが急速に広がり集団の98％をしめるにいたっていった．その結果，今日の丸い粒のジャポニカと細長い粒のインディカとの<a href="#" class="anno 典型的">典型的</a>な<a href="#" class="anno 表現型">表現型</a>の違いがもたらされたものと推察された．<br/>　さらに，インディカとジャポニカのそれぞれの集団で固定していた213,188個のSNPに着目した．これらSNPの<em>O</em>. <em>rufipogon</em>の集団のあいだでの分布の違いと，ジャポニカ，および，インディカでの栽培化のボトルネック効果の割合は，それぞれ50％，40％以下，10％以下であった．ジャポニカとインディカとのあいだにみられたSNPのAゲノム起源種に由来する遺伝子型の頻度は55％がインディカのSNP，45％がジャポニカのSNPであり，dN/dS比は0.34でSNP全体におけるdN/dS比と類似していた．一方，<em>O</em>. <em>rufipogon</em>と<em>O</em>. <em>sativa</em>とのあいだにみられたSNPに関しては93.3％のAゲノム起源種に由来するSNPが<em>O</em>. <em>rufipogon</em>と同じであり，このことは<em>O</em>. <em>rufipogon</em>がよりAゲノム起源種に近く，<em>O</em>. <em>sativa</em>の起源が<em>O</em>. <em>rufipogon</em>であることをサポートしていた．dN/dS比は1.04であり，栽培化における正の淘汰のあることが示唆された．<br/><br/><h2>3．栽培化遺伝子のゲノムワイドな解析</h2><br/>　人為的な選抜による爪痕は<a href="#" class="anno 遺伝子変異">遺伝子変異</a>の減少と栽培化遺伝子における遺伝子頻度の<a href="#" class="anno かた">かた</a>よりとして表われる<a href="#R8"><sup>8,9)</sup></a>．選択的なスイープの痕跡を<a href="#" class="anno ゲノム全体">ゲノム全体</a>にわたり検索し，インディカで60座，ジャポニカで62座，全体で55座を同定した．強い淘汰をうけたゲノム領域はジャポニカとインディカでほぼ同じであり，<em>F<sub>st</sub></em>値の低いことから多くのケースは交配による<a href="#" class="anno 遺伝子導入">遺伝子導入</a>により生じたともの推察された．この55座のなかには既知の遺伝子として，<em>Bh4</em>遺伝子（<a href="#" class="anno 果皮色">果皮色</a>），<em>PRG1</em>遺伝子（分けつ角度），<em>sh4</em>遺伝子（脱粒性），<em>qSW5</em>遺伝子（粒幅），<em>OsC1</em>遺伝子（葉鞘色とふ先色）が含まれていた．既知の3つの遺伝子，<em>qSH1</em>遺伝子（脱粒性），<em>wx</em>遺伝子（糯性），<em>Rc</em>遺伝子（果皮色）は，ジャポニカでは強い選択をうけていたがインディカでは同様の選択はうけていなかった．これらの55座の栽培化遺伝子に焦点をあてSNPにより系統樹を作成したところ，ジャポニカとインディカは同じクラスターに分類され，また，中国南方に由来するOr-IIIのサブクレードは<em>O</em>. <em>rufipogon</em>のなかでも<em>O</em>. <em>sativa</em>にもっとも近い関係にあった．さきに述べたゲノム全体での系統解析ではインディカはOr-Iグループに近かったが，この55座におけるSNPの系統解析に着目した結果ではOr-IIIグループに近いという結果になった．さらに，この55座に関して野生イネ系統を採集地別に分類したうえで<em>O</em>. <em>sativa</em>との<a href="#" class="anno 遺伝距離">遺伝距離</a>を算出した結果，栽培化は中国広西地区の珠江中流域においてはじめられたことが明らかになった．以上の結果から，最初に中国南方のOr-IIIグループよりジャポニカが生まれ，つづいて，東南アジアや南アジア地域の<em>O</em>. <em>rufipogon</em>とジャポニカとの交配をへてインディカが誕生した，という栽培化の流れがもっとも矛盾の少ない説明であることが明らかになった（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　野生イネのグループ別の生息域と栽培化の起源地</strong><br/>野生イネ<em>O</em>. <em>rufipogon</em>の生息域をグループごとに示した．オレンジ色の円は栽培化の起源地である珠江中流域を示す．これまで，起源地としてのもっとも有力な候補は，紫色の丸で示した長江と珠江の上流域のあいだの長江谷（雲南省）といわれていた．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/11/Kurata-Nature-12.10.25-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　野生イネのグループ別の生息域と栽培化の起源地" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kurata-Nature-12.10.25-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kurata-Nature-12.10.25-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　これらの<a href="#" class="anno 遺伝子座">遺伝子座</a>が栽培化のなかでどのようにして選抜されたのかを知る目的で，Guangluai-4（インディカ）とW1943（Or-IIIaグループ）の交雑後代を用いて栽培化関連形質の<a href="#" class="anno QTL">QTL</a>（quantitative <a href="#" class="anno <a href="#" class="anno tra">tra</a>i">trai</a>t locus，<a href="#" class="anno 量的形質遺伝子座">量的形質遺伝子座</a>）解析を進めた．271系統からなる<a href="#" class="anno 組換え">組換え</a>自殖系統についてゲノム塩基配列の解読を行い，おのおのの系統の遺伝子型を決定した．15種類の栽培化関連形質にかかわる58個のQTLを検出し，そのうち10個は既知の遺伝子であることがわかった．これら既知遺伝子は約200 kbの精度で特定できたことから，この分離集団を用いて高解像度で<a href="#" class="anno 遺伝子マッピング">遺伝子マッピング</a>が可能であることがわかった．58個のうち32個のQTLは栽培化において選択的なスイープの起こった染色体領域に位置しており，両者の<a href="#" class="anno 位置的">位置的</a>な<a href="#" class="anno 重なり">重なり</a>は<a href="#" class="anno 統計的">統計的</a>に有意であった．検出されたQTLのうち，柱頭露出度（<a href="#" class="anno 交配様式">交配様式</a>に関係）と粒サイズ（収量性）に関しては，<em>sh4</em>遺伝子（脱粒性）および<em>P<a href="#" class="anno ROG1">ROG1</a></em>遺伝子（草型）と比較してもきわめて強い選択をうけていた．柱頭露出度のような交配様式の変化は<a href="#" class="anno 作物育種">作物育種</a>における重要なターゲットであることが示唆されている．今回の解析から，柱頭露出にかかわる3つの主働QTLと微働QTLが同定され，これら5つのQTLはいずれも選択的なスイープの起こった染色体領域に位置することが見い出された．<br/><br/><h2>4．栽培化関連遺伝子の配列変異</h2><br/>　栽培化関連遺伝子の詳細を調べるためには，栽培イネだけでなく野生イネについても精度の高いゲノム塩基配列情報が必要である．そこで，<em>O</em>. <em>rufipogon</em>の1系統であるW1943について，100倍のゲノムカバー度でゲノム塩基配列の詳細な解読を行った．W1943のゲノム全長は406 Mbで，2,621,077個のSNPと619,132箇所の<a href="#" class="anno 挿入欠失">挿入欠失</a>変異，140,075箇所の微細<a href="#" class="anno 染色体構造">染色体構造</a>変異を見い出した．W1943のゲノム塩基配列情報にもとづいて予測タンパク質<a href="#" class="anno コード領域">コード領域</a>におけるSNPの影響を調べたところ，128,010個の非同義置換SNPと49,236個のタンパク質の大きな構造変異をもたらす変異<a href="#" class="anno アリル">アリル</a>を見い出した．つぎに，すべての栽培イネ系統と野生イネ系統においてこれら変異<a href="#" class="anno アレル">アレル</a>の頻度を求めた．すでに<a href="#" class="anno 機能解析">機能解析</a>が進んでいる栽培化遺伝子について機能に影響を及ぼすと思われるSNPを絞り込むことができた．栽培化にかかわる204個の<a href="#" class="anno 未同定">未同定</a>遺伝子に関しては273個の<a href="#" class="anno 機能的">機能的</a>なSNPを同定した．くわえて，<em>O</em>. <em>rufipogon</em>と<em>O</em>. <em>sativa</em>とのあいだで<a href="#" class="anno プロモーター配列">プロモーター配列</a>における305個の変異を，インディカとジャポニカとのあいだで1120個の機能変異を見い出した．<br/><br/><h2>おわりに</h2><br/>　この研究は，イネが<a href="#" class="anno どこか">どこか</a>ら，そして，どのように栽培化されてきたかという長年の疑問にひとつの答えを出した．また，栽培化において選択的なスイープの起こった染色体領域とその原因となる遺伝子を特定することができた．動物と比べ，植物では機能未知のタンパク質がたくさんあるため，今後，遺伝子の変異と機能特性をさらに詳細に調べることがイネの生理と栽培進化の成り立ちを深く理解することにつながると考えている．また，今回の結果で示されたように，<a href="#" class="anno 栽培品種">栽培品種</a>で利用されている遺伝的な変異は野生イネにみられる変異のごく一部にすぎない．野生資源の多様な変異を開発しこれらを<a href="#" class="anno 積<a href="#" class="anno 極">極</a>的">積極的</a>かつ<a href="#" class="anno 効率的">効率的</a>に利用することは，イネの育種の<a href="#" class="anno 飛躍的">飛躍的</a>な発展につながるものと期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Londo, J. P., Chiang, Y. C., Hung, K. H. et al.</span>: <span class="ti">Phylogeography of Asian wild rice, <em>Oryza rufipogon</em>, reveals multiple independent domestications of cultivated rice, <em>Oryza sativa</em>.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 103, 9578-9583 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16766658" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Ma, J. & Bennetzen, J. L.</span>: <span class="ti">Rapid recent growth and divergence of rice nuclear genomes.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 101, 12404-12410 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15240870" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Li, C., Zhou, A. & Sang, T.</span>: <span class="ti">Rice domestication by reducing shattering.</span> <span class='so'>Science, 311, 1936-1939 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16527928" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Jin, J., Huang, W., Gao, J. P. et al.</span>: <span class="ti">Genetic control of rice plant architecture under domestication.</span> <span class='so'>Nat. Genet., 40, 1365-1369 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18820696" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Molina, J., Sikora, M., Garud, N. et al.</span>: <span class="ti">Molecular evidence for a single evolutionary origin of domesticated rice.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 108, 8351-8356 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21536870" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Huang, X., Zhao, Y., Wei, X. et al.</span>: <span class="ti">Genome-wide association study of flowering time and grain yield traits in a worldwide collection of rice germplasm.</span> <span class='so'>Nat. Genet., 44, 32-39 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22138690" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Novembre, J. & Stephens, M.</span>: <span class="ti">Interpreting principal component analyses of spatial population genetic variation.</span> <span class='so'>Nat. Genet., 40, 646-649 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18425127" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Xu, X., Liu, X., Ge, S. et al.</span>: <span class="ti">Resequencing 50 accessions of cultivated and wild rice yields markers for identifying agronomically important genes.</span> <span class='so'>Nat. Biotechnol., 30, 105-111 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22158310" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Doebley, J. F., Gaut, B. S. & Smith, B. D.</span>: <span class="ti">The molecular genetics of crop domestication.</span> <span class='so'>Cell, 127, 1309-1321 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17190597" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_06.html" target="_blank">3.6 Gain-of-Function Mutations</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_07.html" target="_blank">9.7 Mutations and Polymorphisms</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_05.html" target="_blank">3.5 Genetic Mutations and Dominance/Recession</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/24_03.html" target="_blank">24.3 Changes in the Genome</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/23_03.html" target="_blank">23.3 Biological Interaction and Population Dynamics</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">倉田 のり（Nori Kurata）</span><br>略歴：1981年 九州大学大学院農学研究科 修了，1983年 三菱化成生命科学研究所 ポスドク，1985年 藤田保健衛生大学 助手，1989年 同 講師，1991年 農業生物資源研究所 主任研究官，1996年 国立遺伝学研究所 助教授を経て，2003年より同 教授．<br>研究テーマ：植物のゲノム機能の進化と，生殖にはたす役割．<br>関心事：細胞遺伝学，細胞生物学，ゲノムマッピングと染色体の機能，植物の形態発生とゲノム機能との連関，などの分野を彷徨って今日にいたり，残りの年月で何ができるかを思案中．ゲノムの構造と機能の多様性がおもしろい．<br>研究室URL：<a href="http://www.nig.ac.jp/labs/PlantGen/japanese/home-j.html" target="_blank">http://www.nig.ac.jp/labs/PlantGen/japanese/home-j.html</a><br><br><strong>久保 貴彦（Takahiko Kubo）</strong><br>国立遺伝学研究所 助教．<br></div><br>© 2012 倉田のり・久保貴彦 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

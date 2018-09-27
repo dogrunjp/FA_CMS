@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> コンデンシンIによる染色体の軸構造の形成機構 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/10028" rel="bookmark">コンデンシンIによる染色体の軸構造の形成機構</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>木下和久・平野達也</strong><br>（理化学研究所 平野染色体ダイナミクス研究室）<br>email：<a href="mailto:kinoshita@riken.jp">木下和久</a>，<a href="mailto:hiranot@riken.jp">平野達也</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.047">10.7875/first.author.2015.047</a><br><div class="reference"><br><span class="ti">Balancing acts of two HEAT subunits of condensin I support dynamic assembly of chromosome axes.</span><br><span class="au">Kazuhisa Kinoshita, Tetsuya J. Kobayashi, Tatsuya Hirano</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25850674" target="_blank"><em>Developmental Cell</em>, <strong>33</strong>, 94-106 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno コン<a href="#" class="anno デ">デ</a>ンシン">コンデンシン</a>Iは<a href="#" class="anno 真核生物">真核生物</a>において<a href="#" class="anno M期">M期</a><a href="#" class="anno 染色体">染色体</a>の形成に<a href="#" class="anno 中心的">中心的</a>な役割をはたすタンパク質<a href="#" class="anno 複合体">複合体</a>である．筆者らは，その作用<a href="#" class="anno 機序">機序</a>を明らかにする目的で，<a href="#" class="anno 組換え">組換え</a>体を用いて<a href="#" class="anno 野生型">野生型</a>のコンデンシンIおよび<a href="#" class="anno 変<a href="#" class="anno 異型">異型</a>">変異型</a>のコンデンシンIを<a href="#" class="anno 再構成">再構成</a>した．この再構成コンデンシンIとアフリ<a href="#" class="anno カ">カ</a><a href="#" class="anno ツメガエル">ツメガエル</a>卵<a href="#" class="anno 抽出液">抽出液</a>の<a href="#" class="anno 無細胞">無細胞</a>系を組み合わせた<a href="#" class="anno アッセイ">アッセイ</a>系を確立し，<a href="#" class="anno SM">SM</a>C<a href="#" class="anno サブユニット">サブユニット</a>によるA<a href="#" class="anno TP">TP</a>との結合およびATPの<a href="#" class="anno 加水分解">加水分解</a>がコンデンシンIの機能に対し異なる貢献をすること，<a href="#" class="anno ATP加水分解">ATP加水分解</a>サイクルがM期染色体の形成だけでなくその構造の維持に<a href="#" class="anno も">も</a>必要であることを明らかにした．また，2つのH<a href="#" class="anno EAT">EAT</a>サブユニットは異なる機能をもち，染色体の軸構造の形成において<a href="#" class="anno 拮抗的">拮抗的</a>にはたらくことを見い<a href="#" class="anno 出し">出し</a>た．以上の結果から，コンデンシンIはSMCサブユニットのATP加水分解サイクル，および，2つのHEATサブユニットの拮抗的な作用をとおして，M期染色体におけるダイナミックな軸構造の形成および維持を担うと考えられた．<br/><br/><h2>はじめに</h2><br/>　真核生物におけるM期染色体の形成の過程は，早くも19世紀後半の細胞学者により詳細に観察されており，130年以上の長きにわたり<a href="#" class="anno 科学者">科学者</a>たちを魅了しつづけてきた<a href="#" class="anno 生物学">生物学</a>における大きな問題のひとつである<a href="#R1"><sup>1)</sup></a>．その長い研究の歴史にもかかわらず，長大なDNAからいかにして棒状の染色体が形成されるのか，その<a href="#" class="anno 分子機構">分子機構</a>はい<a href="#" class="anno まだ">まだ</a>多くの謎につつまれている．しかし，近年の研究により，コンデンシンIとよばれる<a href="#" class="anno タンパク質複合体">タンパク質複合体</a>がこの過程において中心的な役割を担うというコンセンサスが確立しつつある<a href="#R2"><sup>2)</sup></a>．コンデンシンIはもともと<a href="#" class="anno アフリカツメガエル">アフリカツメガエル</a>の<a href="#" class="anno 卵抽出液">卵抽出液</a>から同定されたものであるが，のちの<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>および<a href="#" class="anno <a href="#" class="anno 遺伝学">遺伝学</a>的">遺伝学的</a>な研究から，あらゆる真核生物におけるM期染色体の形成に必須であることが示されている．<br/>　コンデンシンIはユニークな性質をもつ5つのサブユニットから構成されている（<a href="#F1">図1a</a>）．2つのSMCサブユニット<a href="#" class="anno SM<a href="#" class="anno C2">C2</a>">SMC2</a>および<a href="#" class="anno SM<a href="#" class="anno C4">C4</a>">SMC4</a>はV字型のコア<a href="#" class="anno 二量体">二量体</a>を形成する．SMCサブユニットはヘッドドメインにABC型のATP<a href="#" class="anno 結合部">結合部</a>位をもつ<a href="#" class="anno ATP<a href="#" class="anno ase">ase</a>">ATPase</a>である（<a href="#F1">図1b</a>）．SMC2とSMC4のそれぞれのヘッドドメインを橋渡しするようにkleisinサブユニット<a href="#" class="anno CAP">CAP</a>-Hが結合する<a href="#R3"><sup>3)</sup></a>．CAP-Hには2つのHEATサブユニット<a href="#" class="anno CAP-D2">CAP-D2</a>およびCAP-Gが結合する．HEATサブユニットのもつ<a href="#" class="anno リピート">リピート</a>配列は<a href="#" class="anno 可塑的">可塑的</a>な<a href="#" class="anno ソレノイド">ソレノイド</a>状の構造を形成し，結合パートナーや環境に応じてその<a href="#" class="anno コンホメーション">コンホメーション</a>を大きく変化させるユニークな<a href="#" class="anno 両親媒性">両親媒性</a>の性質をもつと考えられている<a href="#R4"><sup>4-6)</sup></a>．このように，興味深い<a href="#" class="anno サブユニット構成">サブユニット構成</a>およびジオメトリーが明らかにされているものの，コンデンシンIがいかにしてM期染色体の形成にかかわるのか，その<a href="#" class="anno 作用機序">作用機序</a>についてはよくわかっていない．これは，コンデンシンIのおのおののサブユニットが細胞の生育に必須であり，ひとつのサブユニットに変異を導入するとコンデンシンIの全体としての<a href="#" class="anno 安定性">安定性</a>が低下してしまうため，通常の遺伝学的な解析により個々のサブユニットの機能を検定するのが困難だからである．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　コンデンシンIの基本構造とSMCサブユニットによるATP加水分解サイクル</strong><br/>（a）コンデンシンIの基本構造．<br/>（b）SMC2-SMC4コア二量体のヘッドドメインの会合および解離とATP加水分解サイクル．ヘッドドメインはSMC2とSMC4それぞれのN末端側（N）とC末端側（C）からなる．ATPとの結合およびATP加水分解により，それぞれ，ヘッドドメインの会合および解離が起こる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirano-Developmental-Cell-15.4.6-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　コンデンシンIの基本構造とSMCサブユニットによるATP加水分解サイクル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirano-Developmental-Cell-15.4.6-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirano-Developmental-Cell-15.4.6-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　筆者らは，この<a href="#" class="anno 技術的">技術的</a>な困難をのりこえるため，<a href="#" class="anno 組換え体">組換え体</a>のサブユニットからなるコンデンシンIをアフリカツメガエルの卵抽出液に導入することにより，変異型のサブユニットを含むコンデンシンIによるM期染色体の形成能を検定することのできる強力な<a href="#" class="anno アッセイ系">アッセイ系</a>を確立することに成功した．この系では，変異型サブユニットを含むコンデンシンIも野生型のコンデンシンIと同様に卵抽出液において安定に存在するため，個々のサブユニットの機能や<a href="#" class="anno 点変異">点変異</a>の影響を<a href="#" class="anno 組織的">組織的</a>に調べることが可能になる．その結果，これまで未知であったSMCサブユニットによるATPとの結合およびATP加水分解のコンデンシンIの作用への貢献，および，M期染色体のダイナミックな軸構造の形成における2つのHEATサブユニットの役割が明らかにされた．<br/><br/><h2>1．組換え体のサブユニットからなる<a href="#" class="anno 機能的">機能的</a>なコンデンシンIの再構成</h2><br/>　コンデンシンIを構成する個々のサブユニットの<a href="#" class="anno 分子機能">分子機能</a>を理解するためには，組換え体のサブユニットから出発して機能的なコンデンシンIを再構成することが必須である．以前に筆者らは，<a href="#" class="anno バキュロウイルス">バキュロウイルス</a>の<a href="#" class="anno 昆虫細胞">昆虫細胞</a><a href="#" class="anno 発現系">発現系</a>を用いて組換え体のサブユニットからヒトのコンデンシンIを再構成した<a href="#R7"><sup>7)</sup></a>．しかし，この系ではSMCサブユニットの<a href="#" class="anno 発現量">発現量</a>が乏しく生化学的なアッセイに用いるのに十分な量のコンデンシンIを再構成することができなかった．そこで，異なる<a href="#" class="anno 生物種">生物種</a>のSMCサブユニットの発現<a href="#" class="anno コンストラクト">コンストラクト</a>を再設計した結果，マウスのSMC2とSMC4の遺伝子を1つの発現用コンストラクトから<a href="#" class="anno 共発現">共発現</a>させる方法により，SMCサブユニットの発現を劇的に改善できることを見い出した．この共発現コンストラクトを用いて発現および精製の方法を<a href="#" class="anno 最適化">最適化</a>した結果，<a href="#" class="anno 高純度">高純度</a>かつ高収量のコンデンシンIの再構成に成功した．さらに，マウスに由来するSMC2およびSMC4とヒトに由来するCAP-D2，CAP-G，CAP-HからなるコンデンシンIが<a href="#" class="anno 実際">実際</a>に<a href="#" class="anno 生理的">生理的</a>な活性をもつことは，アフリカツメガエル卵抽出液の<a href="#" class="anno 無<a href="#" class="anno 細胞系">細胞系</a>">無細胞系</a>を用いた機能アッセイ系により確かめられた．このアッセイ系では，<a href="#" class="anno 内在性">内在性</a>のコンデンシンIを完全に除去した卵抽出液に再構成されたコンデンシンIを添加し，精子核の<a href="#" class="anno クロマチン">クロマチン</a>がM期染色体を形成できるかどうか検定する．この結果，再構成されたコンデンシンIは内在性のコンデンシンIと<a href="#" class="anno 同じ">同じ</a>程度のM期染色体の形成能をもつことが確かめられた．<br/><br/><h2>2．コンデンシンIの作用におけるSMCサブユニットによるATP加水分解サイクルの貢献</h2><br/>　SMCサブユニットによるATPとの結合とATP加水分解の役割について調べた．SMCコア二量体のヘッドドメインはABC型ATPaseの触媒するATP加水分解により会合と解離のサイクルをくり返す（<a href="#F1">図1b</a>）．SMCサブユニットのヘッドドメインにATP結合のステップを阻害する変異，あるいは，ATP加水分解のステップを遅延させる変異を導入し，2種類の変異型コンデンシンIを再構成した．この再構成コンデンシンIをさきに述べたアッセイ系により調べてみると，いずれの変異型コンデンシンIもM期染色体を形成する能力を失っていた．しかし，ATP結合のステップを阻害する変異を導入したコンデンシンIはクロマチンにほとんど局在しなかったのに対し，ATP加水分解のステップを遅延させる変異を導入したコンデンシンIは野生型のコンデンシンIと同様にクロマチンに局在しており，ATPとの結合のステップとATP加水分解のステップはコンデンシンIの機能に対し異なる貢献をしていることが示唆された．<br/>　SMCサブユニットのもつATPase活性の機能についてさらに調べるため，さきのアッセイ系を拡張し新たな<a href="#" class="anno 実験系">実験系</a>を構築した．<a href="#" class="anno 逐次">逐次</a>添加法とよぶこのアッセイ系では，<a href="#" class="anno 蛍光タンパク質">蛍光タンパク質</a><a href="#" class="anno mCherry">mCherry</a>あるいは<a href="#" class="anno EGF">EGF</a>PをCAP-Hに融合させた2種類の再構成コンデンシンIを用いる．mCherryにより標識した第1のコンデンシンIの存在のもとでM期染色体を形成させ，そこにE<a href="#" class="anno GFP">GFP</a>により標識した第2のコンデンシンIをあとから添加することにより，2種類のコンデンシンIのふるまいを同一の試料において追跡することができる．興味深いことに，野生型のコンデンシンIにより形成させた正常なM期染色体にあとからATP加水分解のステップを遅延させる変異を導入したコンデンシンIを添加すると，染色体の構造が崩壊していくことが観察された．すなわち，ATP加水分解のステップを遅延させる変異をもつコンデンシンIは，染色体においてはたらく野生型のコンデンシンIに対し強い<a href="#" class="anno <a href="#" class="anno ドミナント">ドミナント</a>ネガティブ">ドミナントネガティブ</a>効果をもつと考えられた．この結果から，コンデンシンIのATP加水分解サイクルは染色体の形成のみならず，のちの染色体の構造の維持においても必須であることが示された．<br/><br/><h2>3．染色体の軸構造の形成および維持における2つのHEATサブユニットのもつ役割</h2><br/>　コンデンシンIを構成するおのおののサブユニットの機能について調べるため，1つまたは複数のサブユニットを<a href="#" class="anno 欠失">欠失</a>させたコンデンシンIを再構成した．これら4種類の再構成コンデンシンIを内在性のコンデンシンIを除去したアフリカツメガエル卵抽出液に添加しても，いずれも正常なM期染色体は形成されなかった．2つのHEATサブユニットのいずれか一方を欠失したコンデンシンIはそれぞれ<a href="#" class="anno 特徴的">特徴的</a>なふるまいを示したため，これらに注目して解析を進めた．CAP-D2を欠くコンデンシンIは<a href="#" class="anno わずか">わずか</a>にクロマチンに<a href="#" class="anno 形態変化">形態変化</a>を起こしたが明確な1本の染色体の構造を形成することはで<a href="#" class="anno きず">きず</a>，クロマチンに<a href="#" class="anno 点状">点状</a>にランダムに分布した（<a href="#F2">図2</a>）．一方，CAP-Gを欠くコンデンシンIはきわめて特徴的な異常な染色体の構造を形成した．すなわち，<a href="#" class="anno DAP">DAP</a>I染色により，雲状のクロマチン領域の中心に，よりDNA密度の高い軸様の構造が観察されたが，CAP-Gを欠くコンデンシンIは，まさにこの構造に集中して局在した（<a href="#F2">図2</a>）．クロマチンループの形成が不完全な状況においても軸構造は独立に形成されるという意味において，この<a href="#" class="anno 表現型">表現型</a>は興味深いものであった．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　コンデンシンIによる染色体の軸構造の動的な形成のモデル</strong><br/>1）野生型のコンデンシンI．2）CAP-Gを欠くコンデンシンI．3）CAP-D2を欠くコンデンシンI．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirano-Developmental-Cell-15.4.6-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　コンデンシンIによる染色体の軸構造の動的な形成のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirano-Developmental-Cell-15.4.6-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirano-Developmental-Cell-15.4.6-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　2つのHEATサブユニットの役割をさらに調べるため逐次添加法により調べたところ，CAP-D2を欠くコンデンシンIおよびCAP-Gを欠くコンデンシンIは，野生型のコンデンシンIの形成する染色体の軸構造に対しきわめて<a href="#" class="anno 対照的">対照的</a>な効果を及ぼすことがわかった．あとから添加したCAP-Gを欠くコンデンシンIは染色体の軸構造に<a href="#" class="anno 選択的">選択的</a>に取り込まれ，その結果，染色体は全体が劇的に伸長した（<a href="#F2">図2</a>）．一方，CAP-D2を欠くコンデンシンIをあとから添加すると染色体の軸構造が崩壊してしまったことから，CAP-D2を欠くコンデンシンIは野生型のコンデンシンIに対しドミナントネガティブな効果を及ぼしていると考えられた（<a href="#F2">図2</a>）．<br/>　以上の結果から，コンデンシンIの作用において，CAP-D2が染色体の軸構造を<a href="#" class="anno 安定化">安定化</a>させる方向にはたらくのに対し，CAP-Gは染色体の軸構造を<a href="#" class="anno 不安定化">不安定化</a>する方向にはたらくことが示唆された．これらのことから，この2つのHEATサブユニットが拮抗してはたらくことにより，はじめて染色体においてダイナミックな軸構造が形成され維持されるというモデルを提唱した（<a href="#F2">図2</a>）．<br/><br/><h2>おわりに</h2><br/>　コンデンシンIの2つのHEATサブユニットが染色体の軸構造の形成に必須であるという知見は，M期染色体の形態を<a href="#" class="anno 進化的">進化的</a>な観点から考えるうえできわめて重要である．細菌のコンデンシン様複合体にはSMCサブユニットおよびkleisinサブユニットは保存されているが，HEATサブユニットに<a href="#" class="anno 相">相</a>当するサブユニットは存在しない．すなわち，真核生物はコンデンシンがHEATサブユニットを獲得したことにより染色体の軸構造を形成できるようになり，その結果，真核生物に特有の細長い棒状のM期染色体の構造が実現したのではないかと推測された．HEATサブユニットのはたらきにより形成される染色体の軸構造を理解することは，真核生物におけるM期染色体の形成を理解するためのまさに本質である．今後は，さらにこのアッセイ系を駆使してコンデンシンIおよびHEATサブユニットの作用機序を明らかにし，染色体の軸構造の<a href="#" class="anno 分子的">分子的</a>な実体を解明したい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Flemming, W.</span>: <span class="ti">Zellsubstantz, Kern und Zelltheilung.</span> <span class='so'>F. C. W. Vogel, Leipzig (1882)</span></li><br><li id="R2"><span class='au'>Hirano, T.</span>: <span class="ti">Condensins: universal organizers of chromosomes with diverse functions.</span> <span class='so'>Genes Dev., 26, 1659-1678 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22855829" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Schleiffer, A., Kaitna, S., Maurer-Stroh, S. et al.</span>: <span class="ti">Kleisins: a superfamily of bacterial and eukaryotic SMC protein partners.</span> <span class='so'>Mol. Cell, 11, 571-575 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12667442" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Forwood, J. K., Lange, A., Zachariae, U. et al.</span>: <span class="ti">Quantitative structural analysis of importin-β flexibility: paradigm for solenoid protein structures.</span> <span class='so'>Structure, 18, 1171-1183 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20826343" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Grinthal, A., Adamovic, I., Weiner, B. et al.</span>: <span class="ti">PR65, the HEAT-repeat scaffold of phosphatase PP2A, is an elastic connector that links force and catalysis.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 107, 2467-2472 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20133745" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Yoshimura, S. H., Kumeta, M. & Takeyasu, K.</span>: <span class="ti">Structural mechanism of nuclear transport mediated by importin β and flexible amphiphilic proteins.</span> <span class='so'>Structure, 22, 1699-1710 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25435324" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Onn, I., Aono, N., Hirano, M. et al.</span>: <span class="ti">Reconstitution and subunit geometry of human condensin complexes.</span> <span class='so'>EMBO J., 26, 1024-1034 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17268547" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_04.html" target="_blank">3.4 Genetic Factors and Chromosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_07.html" target="_blank">3.7 Chromosomes and the Genome</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/18_03.html" target="_blank">18.3 Significance of Meiosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_09.html" target="_blank">3.9 Linkage</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/18_02.html" target="_blank">18.2 Somatic Cell Division (mitosis) and Meiosis</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">木下 和久（Kazuhisa Kinoshita）</span><br>略歴：1998年 京都大学大学院理学研究科 修了，同年 ドイツEuropean Molecular Biology Laboratory，2000年 ドイツMax Planck Institute of Molecular Cell Biology and Genetics，2006年 京都大学大学院生命科学研究科を経て，2007年より理化学研究所 専任研究員．<br><br><strong>平野 達也（Tatsuya Hirano）</strong><br>理化学研究所 主任研究員．<br>研究室URL：<a href="http://www.riken.jp/chromdyna/index.html" target="_blank">http://www.riken.jp/chromdyna/index.html</a><br></div><br>© 2015 木下和久・平野達也 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

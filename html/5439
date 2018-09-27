@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> バイオセンサーにより明らかにされた染色体分離におけるセパラーゼの異なる2つの役割 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/5439" rel="bookmark">バイオセンサーにより明らかにされた染色体分離におけるセパラーゼの異なる2つの役割</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>進藤軌久・広田 亨</strong><br>（がん研究会がん研究所 実験病理部）<br>email：<a href="mailto:norihisa.shindo@jfcr.or.jp">進藤軌久</a>，<a href="mailto:thirota@jfcr.or.jp">広田 亨</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.104">10.7875/first.author.2012.104</a><br><div class="reference"><br><span class="ti">Separase sensor reveals dual roles for separase coordinating cohesin cleavage and cdk1 inhibition.</span><br><span class="au">Norihisa Shindo, Kazuki Kumada, Toru Hirota</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22814604" target="_blank"><em>Developmental Cell</em>, <strong>23</strong>, 112-123 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 染色体">染色体</a>が正常に分離するためには，<a href="#" class="anno 姉妹<a href="#" class="anno 染色分体">染色分体</a>">姉妹染色分体</a>の結合の解除と，それにつづく，姉妹染色分体の<a href="#" class="anno 紡<a href="#" class="anno 錘体">錘体</a><a href="#" class="anno 極">極</a>"><a href="#" class="anno 紡錘体">紡錘体</a>極</a>の方向への引き離しが<a href="#" class="anno 協調的">協調的</a>に起こる必要がある．筆者らは，姉妹染色分体の結合の解除に必須の<a href="#" class="anno プロテアーゼ">プロテアーゼ</a>である<a href="#" class="anno セパラーゼ">セパラーゼ</a>の活性を<a href="#" class="anno 可視化">可視化</a>する<a href="#" class="anno バイオセンサー">バイオセンサー</a>を開発することにより，この2つのイベントが協調して起こる機構の一端を明らかにした．まず，セパラーゼの活性は<a href="#" class="anno 染色体分離">染色体分離</a>の直前に急激に上昇し，その急激な上昇は染色体に限局していることを見い<a href="#" class="anno 出し">出し</a>た．このようなセパラーゼの<a href="#" class="anno 活性化">活性化</a>の特徴は，セパラーゼの<a href="#" class="anno 抑制タンパク質">抑制タンパク質</a>であるsecu<a href="#" class="anno rin">rin</a>と<a href="#" class="anno サイクリン">サイクリン</a>B1に依存していることがわかった．さらに，セパラーゼはプロテアーゼとして活性化したのち，<a href="#" class="anno <a href="#" class="anno サイクリンB">サイクリンB</a>1">サイクリンB1</a>-<a href="#" class="anno cdk">cdk</a>1<a href="#" class="anno 複合体">複合体</a>の<a href="#" class="anno キナーゼ">キナーゼ</a>活性を抑制することにより，姉妹染色分体の紡錘体極の方向への引き離しを促進していた．したがって，染色体分離の際にセパラーゼが異なる2つの役割をはたすことにより，姉妹染色分体の結合の解除とその紡錘体極の方向への引き離しが適切なタイミングで協調的に起こっている<a href="#" class="anno も">も</a>のと考えられた．<br/><br/><h2>はじめに</h2><br/>　哺乳類の染色体の分離は<a href="#" class="anno 同期性">同期性</a>が非常に高い．<a href="#" class="anno つまり">つまり</a>，すべての姉妹染色分体がほぼ同時に分離しはじめ，約1分間のごく短時間のうちに分離を完了する．染色体の分離は複雑でダイナミックな現象だが，その過程は姉妹染色分体の結合の解除と，それにつづく，姉妹染色分体の紡錘体極の方向への引き離しという2つの<a href="#" class="anno 素過程">素過程</a>に分解して考えることができる<a href="#R1"><sup>1)</sup></a>．姉妹染色分体の結合はセパラーゼ（separ<a href="#" class="anno ase">ase</a>）とよばれるプロテアーゼが染色体をつなぎとめている<a href="#" class="anno コヒーシン">コヒーシン</a>を分解することにより解除され<a href="#R2"><sup>2)</sup></a>，一方の姉妹染色分体の紡錘体極の方向への引き離しはサイクリン<a href="#" class="anno 依存性">依存性</a>キナーゼ<a href="#" class="anno cdk1">cdk1</a>の活性の低下に依存していることが知られている<a href="#R3"><sup>3)</sup></a>．<a href="#" class="anno 同期的">同期的</a>で<a href="#" class="anno 瞬間的">瞬間的</a>な染色体の分離を可能にするためには，この2つのイベントが協調的に，すべての染色体において同時多発的に進行する必要がある．<br/>　コヒーシンを分解するセパラーゼはsecurinとサイクリンB1により制御されている．このsecurinとサイクリンB1は，10分間ほど持続する<a href="#" class="anno 分<a href="#" class="anno 裂">裂</a>期">分裂期</a>中期をつうじ<a href="#" class="anno APC">APC</a>/C（anaphase-<a href="#" class="anno pro">pro</a>moting complex/<a href="#" class="anno cyc">cyc</a>losome，後期促進複合体/サイクロソーム）によりゆっくりと分解されている<a href="#R4"><sup>4)</sup></a>．このように抑制タンパク質がゆっくりと分解される過程において，セパラーゼの活性もゆっくりと上昇しているのだろうか．あるいは，抑制タンパク質が分解されている状態であっても，セパラーゼの活性は抑制されつづけているのだろうか．哺乳類の染色体分離の同期性の<a href="#" class="anno 高さ">高さ</a>を考慮すると後者の<a href="#" class="anno 可能性">可能性</a>が高いが，もしそうだとしたら，それを可能にしている機構はどのようなものなのか．このような問題を整理するため，まず，セパラーゼのバイオセンサーを開発し，<a href="#" class="anno 実際">実際</a>に細胞においてセパラーゼの活性を可視化することにした．<br/><br/><h2>1．セパラーゼの活性の可視化</h2><br/>　細胞においてセパラーゼの活性を可視化するためのバイオセンサーを開発した（<a href="#F1">図1</a>）．セパラーゼの基質であるS<a href="#" class="anno cc1">cc1</a>の<a href="#" class="anno 部分配列">部分配列</a>を赤色の<a href="#" class="anno 蛍光タンパク質">蛍光タンパク質</a><a href="#" class="anno mCherry">mCherry</a>と緑色の蛍光タンパク質<a href="#" class="anno EGF">EGF</a>Pとのあいだに挿入し，さらに，この<a href="#" class="anno 融合タンパク質">融合タンパク質</a>の局在を規定する局在規定配列をmCherryの側に融合させた．局在規定配列として<a href="#" class="anno ヒストン">ヒストン</a><a href="#" class="anno H2B">H2B</a>を使用すると染色<a href="#" class="anno 体全体">体全体</a>におけるセパラーゼ活性が測定でき，C<a href="#" class="anno ENP">ENP</a>-Bを用いると<a href="#" class="anno セントロメア">セントロメア</a>におけるセパラーゼ活性が測定できる．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　セパラーゼのバイオセンサー</strong><br/>セパラーゼの基質であるScc1の部分配列を赤色蛍光タンパク質mCherryと緑色蛍光タンパク質EGFPとのあいだに挿入し，さらにその局在を規定する局在規定配列をmCherry側に融合させた．セパラーゼの活性を検出するとこの融合タンパク質は切断されてEGFPが遊離するため，局在部位から緑色の蛍光が消失する．局在規定配列としてヒストンH2Bを使用すると染色体全体におけるセパラーゼ活性が測定でき，CENP-Bを用いるとセントロメアにおけるセパラーゼ活性が測定できる．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/08/Hirota-Developmental-Cell-12.7.16-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　セパラーゼのバイオセンサー" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirota-Developmental-Cell-12.7.16-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirota-Developmental-Cell-12.7.16-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　このバイオセンサーを用いた解析の結果，セパラーゼは染色体分離の直前に，セントロメアだけでなく<a href="#" class="anno 染色体全体">染色体全体</a>において急激に活性化していた．一方，染色体以外の領域に局在するようにしたバイオセンサーでは，染色体分離の前後で強い活性は検出されなかった．以上の結果から，分裂期中期のあいだセパラーゼの活性は抑制されつづけており，染色体分離の直前に急激に活性化し，しかも，その活性化は染色体に限局していることが明らかになった．<br/><br/><h2>2．分裂期中期におけるセパラーゼの活性抑制</h2><br/>　セパラーゼの抑制タンパク質であるsecurinとサイクリンB1が<a href="#" class="anno APC/C">APC/C</a>によりゆっくりと分解される分裂期中期において，セパラーゼの活性が抑制されつづける機構はどのようなものなのだろうか．分裂期の細胞<a href="#" class="anno 抽出液">抽出液</a>に対し抗セパラーゼ抗体を用いて<a href="#" class="anno 免疫沈降">免疫沈降</a>実験を行ったところ，セパラーゼにはsecurinがおもに結合しており，サイクリンB1はあまり結合していなかった．さらに，<a href="#" class="anno 上清">上清</a>には大量のsecurinが残っていたことから，分裂期の細胞にはセパラーゼに対し<a href="#" class="anno 過剰量">過剰量</a>のsecurinが存在していることが示唆された．つぎに，分裂期中期から後期にかけて同調<a href="#" class="anno 培養系">培養系</a>を用いて同様の免疫沈降実験を行ったところ，上清のsecurinはゆっくりと分解されていたが，セパラーゼと結合しているsecurinは後期の開始まで分解されず安定に存在していた．同様の結果は<a href="#" class="anno ゲルろ過">ゲルろ過</a><a href="#" class="anno クロマトグラフィー">クロマトグラフィー</a>によっても確認された．したがって，過剰量のsecurinがAPC/Cに対する“緩衝剤”のような役割をはたし，安定してセパラーゼに結合しつづける少量のsecurinによりセパラーゼの活性抑制が保たれているものと考えられた．<br/><br/><h2>3．染色体分離の以前のサイクリンB1によるセパラーゼの活性抑制の意義</h2><br/>　以上の結果はsecurinの<a href="#" class="anno 重要性">重要性</a>を示唆していたが，<a href="#" class="anno 哺乳類細胞">哺乳類細胞</a>はsecurinがなくても問題なく生存できるという報告も数多くある．もうひとつのセパラーゼの抑制タンパク質であるサイクリンB1については，詳細な<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>な解析により，ヒトのセパラーゼに対してその<a href="#" class="anno Ser">Ser</a>1126（マウスでは，<a href="#" class="anno Ser1">Ser1</a>121）の<a href="#" class="anno <a href="#" class="anno リン酸">リン酸</a>化">リン酸化</a>に依存してサイクリンB1が結合し活性を抑制することが報告されている<a href="#R5"><sup>5)</sup></a>．しかし，サイクリンB1によるセパラーゼの活性抑制が重要になるのは<a href="#" class="anno 限定的">限定的</a>な条件においてのみという報告も多数あり，その<a href="#" class="anno 生理学的">生理学的</a>な意義には議論の余地があった．<br/>　筆者らは，これまでの報告がセパラーゼの活性化を姉妹染色分体の分離により評価していた点に着目し，開発したバイオセンサーを用いてセパラーゼの活性を評価することによりこの問題に決着をつけることができるのではないかと考えた．サイクリンB1によるセパラーゼの活性抑制の意義を調べるため，サイクリンB1に結合できないセパラーゼの<a href="#" class="anno 変異体">変異体</a>を発現する<a href="#" class="anno 細胞株">細胞株</a>を樹立した．このとき，この変異セパラーゼの<a href="#" class="anno 発現レベル">発現レベル</a>を<a href="#" class="anno 生理的">生理的</a>な条件に近づけるために<a href="#" class="anno BAC">BAC</a><a href="#" class="anno トランスジーン">トランスジーン</a>法を用いた．バイオセンサーにより変異セパラーゼのみを発現する細胞（<a href="#" class="anno 内在性">内在性</a>のセパラーゼは<a href="#" class="anno RNAi">RNAi</a>法により除去した）の染色体におけるセパラーゼ活性を測定したところ，<a href="#" class="anno 野生型">野生型</a>のセパラーゼを発現した細胞と<a href="#" class="anno 同じ">同じ</a>キネティックスを示し，染色体分離のまえの分裂期中期において活性はみられなかった．したがって，染色体分離の以前のサイクリンB1によるセパラーゼの活性抑制は，securinが存在しているかぎり重要ではないと考えられた．<br/><br/><h2>4．securinとサイクリンB1の結合していないセパラーゼの染色体への局在</h2><br/>　さらに，サイクリンB1に結合できない変異セパラーゼのみを発現する細胞において，securinを<a href="#" class="anno RNAi法">RNAi法</a>により除去すると正常な染色体の分離は阻害され，長い分裂期中期をへて姉妹染色分体がバラバラに散在するという現象がみられた．この細胞におけるセパラーゼ活性をバイオセンサーにより測定したところ，<a href="#" class="anno 核膜">核膜</a>の崩壊の直後からすでに染色体において弱い活性が検出されはじめ，そのまま活性は上昇することなく一定のままであり，正常な染色体分離のときのセパラーゼ活性の約2％にしかならなかった．セパラーゼの染色体への局在量を調べたところ，securinもサイクリンB1も結合していないセパラーゼは染色体への局在量が極端に低下しており，これが染色体において検出された非常に弱いセパラーゼ活性の一因と考えられた．securinとサイクリンB1のいずれか片方がセパラーゼと結合している条件ではセパラーゼの染色体への局在は正常であったので，セパラーゼの活性抑制と染色体への局在は，securinの<a href="#" class="anno 存在下">存在下</a>ではsecurin，securinの<a href="#" class="anno <a href="#" class="anno 非存在">非存在</a>下">非存在下</a>ではサイクリンB1が制御しているものと考えられた．<br/><br/><h2>5．染色体分離ののちのセパラーゼとサイクリンB1との結合の重要性</h2><br/>　securinの存在のもとではセパラーゼとサイクリンB1との結合は必要ないのだろうか．興味深いことに，サイクリンB1と結合できない変異セパラーゼのみを発現する細胞では，染色体分離ののちの紡錘体極の方向への引き離しの速度が遅くなっていることがわかった．さらに，通常の細胞において，セパラーゼとサイクリンB1との結合は染色体分離ののち増加していることがわかった．紡錘体極の方向への引き離しはサイクリンB1-cdk1複合体の<a href="#" class="anno キナーゼ活性">キナーゼ活性</a>の低下に依存していること，また，セパラーゼがサイクリンB1-cdk1複合体の活性を抑制するという<em><a href="#" class="anno in vitro">in vitro</a></em>における解析の報告があることを考慮すると<a href="#R6"><sup>6)</sup></a>，染色体分離ののちセパラーゼがサイクリンB1と結合することによりcdk1の活性を抑制している可能性が考えられた．染色体分離ののちの<a href="#" class="anno 細胞抽出液">細胞抽出液</a>において，セパラーゼと結合しているサイクリンB1はごく一部であったが，セパラーゼと結合しているサイクリンB1-cdk1複合体の活性は抑制されていた．また，cdk1の基質であり染色体分離の際に<a href="#" class="anno <a href="#" class="anno 脱リン酸">脱リン酸</a>化">脱リン酸化</a>されることの知られている基質の<a href="#" class="anno リン<a href="#" class="anno 酸化状態">酸化状態</a>">リン酸化状態</a>を調べたところ，サイクリンB1と結合できない変異セパラーゼのみを発現した細胞では高いリン酸化状態のままであった．また，この細胞をcdk1の<a href="#" class="anno 阻害剤">阻害剤</a>により処理すると，染色体分離ののちの紡錘体極の方向への染色体の移動速度は正常にもどった．したがって，セパラーゼは染色体分離の際にコヒーシンの分解のみならず，サイクリンB1-cdk1複合体のキナーゼ活性の抑制を行うことにより染色体の紡錘体極の方向への引き離しを促進していることが明らかになった．<br/><br/>おわりに<br/>　この研究では，染色体をつなぎとめているコヒーシンを染色体分離の際に分解するプロテアーゼとして知られていたセパラーゼの活性化のキネティックスを，セパラーゼの活性を可視化するバイオセンサーを用いて詳細に調べた．その過程で，セパラーゼが染色体分離の際に，コヒーシンの分解という役割のほか，もうひとつの重要な役割を担っていることをつきとめた．サイクリンB1と結合できない変異セパラーゼについてはいくつかの<a href="#" class="anno 先行研究">先行研究</a>が存在していたが，内在性の野生型セパラーゼが発現したままであったり，変異セパラーゼが<a href="#" class="anno 過剰発現">過剰発現</a>したりしていたため，セパラーゼがサイクリンB1-cdk1複合体のキナーゼ活性を抑制する効果を見落としてしまっていたものと考えられる．この研究では，BACトランスジーン法を用いて内在性のプロモーターにより変異セパラーゼの発現を制御し，さらに，RNAi法により内在性のセパラーゼを除去したうえで解析を行ったため，セパラーゼによるcdk1の活性抑制の効果を見い出すことができた．さらに，セパラーゼとサイクリンB1との結合が染色体の分離ののち増加することを見い出した点も重要であり，この研究をまとめるうえでの大きな<a href="#" class="anno 推進力">推進力</a>となった．<br/>　染色体分離の開始はAPC/CによるサイクリンB1の分解と密接な関係があるが，哺乳類細胞においては染色体分離の開始の際には分解開始の時点の約2割のサイクリンB1が残存している．この研究では，この残存したサイクリンB1-cdk1複合体の活性をセパラーゼが直接かつ<a href="#" class="anno 局所的">局所的</a>に抑制することにより，染色体の紡錘体極の方向への移動を促進していることを示した．サイクリンB1-cdk1複合体の活性抑制を染色体分離の際にセパラーゼがア<a href="#" class="anno シスト">シスト</a>する機構は，<a href="#" class="anno 出芽酵母">出芽酵母</a>においても<a href="#" class="anno FE">FE</a>AR経路として知られており，<a href="#" class="anno ホスファターゼ">ホスファターゼ</a>である<a href="#" class="anno Cdc14">Cdc14</a>がセパラーゼに依存して<a href="#" class="anno 核小体">核小体</a>から放出されることによりcdk1の基質の脱リン酸化を促進している．しかし，この出芽酵母のCdc14と同じ役割をもつタンパク質は哺乳類においてみつかっていない．おそらく，哺乳類においては，<a href="#" class="anno ゲノムサイズ">ゲノムサイズ</a>と<a href="#" class="anno 細胞サイズ">細胞サイズ</a>の増大とともに，コヒーシンの分解とcdk1の活性抑制とをひとつのタンパク質が担当することに利点があったのかもしれない．そして，染色体分離の2つの素過程をひとつのタンパク質が制御することにより，確実で同期的な染色体の分離が可能になったのであろう（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　セパラーゼのもつ2つの異なる役割</strong><br/>染色体の分離は複雑でダイナミックな現象だが，その過程は姉妹染色分体の結合の解除と，それにつづく，姉妹染色分体の紡錘体極の方向への引き離しの2つの素過程に分解して考えることができる．この2つの素過程をセパラーゼが制御することにより，確実で同期的な染色体の分離が可能になっているものと考えられる．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/08/Hirota-Developmental-Cell-12.7.16-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　セパラーゼのもつ2つの異なる役割" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirota-Developmental-Cell-12.7.16-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirota-Developmental-Cell-12.7.16-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　今後は，セパラーゼの活性がすべての染色体において瞬時に上昇する機構と，<a href="#" class="anno がん細胞">がん細胞</a>においてセパラーゼの制御の異常が染色体の不<a href="#" class="anno 安定性">安定性</a>をひき起こす機構の解明が，課題になると考えている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Oliveira, R. A. & Nasmyth, K.</span>: <span class="ti">Getting through anaphase: splitting the sisters and beyond.</span> <span class='so'>Biochem. Soc. Trans., 38, 1639-1644 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21118140" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Uhlmann, F., Wernic, D., Poupart, M. A. et al.</span>: <span class="ti">Cleavage of cohesin by the CD clan protease separin triggers anaphase in yeast.</span> <span class='so'>Cell 103, 375-386 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11081625" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Wolf, F., Wandke, C., Isenberg, N. et al.</span>: <span class="ti">Dose-dependent effects of stable cyclin B1 on progression through mitosis in human cells.</span> <span class='so'>EMBO J., 25, 2802-2813 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16724106" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Clute, P. & Pines, J.</span>: <span class="ti">Temporal and spatial control of cyclin B1 destruction in metaphase.</span> <span class='so'>Nat. Cell Biol., 1, 82-87 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10559878" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Stemmann, O., Zou, H., Gerber, S. A. et al.</span>: <span class="ti">Dual inhibition of sister chromatid separation at metaphase.</span> <span class='so'>Cell, 107, 715-726 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11747808" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Gorr, I. H., Boos, D. & Stemmann, O.</span>: <span class="ti">Mutual inhibition of separase and Cdk1 by two-step complex formation.</span> <span class='so'>Mol. Cell, 19, 135-141 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15989971" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_04.html" target="_blank">3.4 Genetic Factors and Chromosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_07.html" target="_blank">3.7 Chromosomes and the Genome</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/18_03.html" target="_blank">18.3 Significance of Meiosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_09.html" target="_blank">3.9 Linkage</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_06.html" target="_blank">3.6 Gain-of-Function Mutations</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">進藤 軌久（Norihisa Shindo）</span><br>略歴：2005年 早稲田大学大学院理工学研究科 修了，同年 オーストラリアAdelaide大学 博士研究員を経て，2008年よりがん研究会がん研究所 博士研究員．<br>研究テーマ：染色体分離の機構．<br>抱負：どうしたらこんなおもしろい研究ができるの？と，いわれるくらいおもしろい研究ができるようになりたい．<br><br><strong>広田  亨（Toru Hirota）</strong><br>がん研究会がん研究所 部長．<br>研究室URL：<a href="http://www.jfcr.or.jp/tci/exppathol/index.html" target="_blank">http://www.jfcr.or.jp/tci/exppathol/index.html</a><br></div><br>© 2012 進藤軌久・広田 亨 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ZucchiniはpiRNAの産生に必須のエンドリボヌクレアーゼである : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/5850" rel="bookmark">ZucchiniはpiRNAの産生に必須のエンドリボヌクレアーゼである</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>西増弘志・石津大嗣・塩見美喜子・濡木 理</strong><br>（東京大学大学院理学系研究科 生物化学専攻）<br>email：<a href="mailto:nisimasu@biochem.s.u-tokyo.ac.jp">西増弘志</a>，<a href="mailto:hishizu@biochem.s.u-tokyo.ac.jp">石津大嗣</a>，<a href="mailto:siomim@biochem.s.u-tokyo.ac.jp">塩見美喜子</a>，<a href="mailto:nureki@biochem.s.u-tokyo.ac.jp">濡木 理</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.124">10.7875/first.author.2012.124</a><br><div class="reference"><br><span class="ti">Structure and function of Zucchini endoribonuclease in piRNA biogenesis.</span><br><span class="au">Hiroshi Nishimasu, Hirotsugu Ishizu, Kuniaki Saito, Satoshi Fukuhara, Miharu K. Kamatani, Luc Bonnefond, Naoki Matsumoto, Tomohiro Nishizawa, Keita Nakanaga, Junken Aoki, Ryuichiro Ishitani, Haruhiko Siomi, Mikiko C. Siomi, Osamu Nureki</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23064230" target="_blank"><em>Nature</em>, <strong>491</strong>, 284-287 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno piRNA">piRNA</a>はPIWIサブ<a href="#" class="anno ファミリータンパク質">ファミリータンパク質</a>と結合し<a href="#" class="anno 生殖細胞">生殖細胞</a>のゲノムを<a href="#" class="anno トランスポゾン">トランスポゾン</a>による損傷から保護する役割を担っている．約30<a href="#" class="anno 塩基長">塩基長</a>の<a href="#" class="anno 成熟型">成熟型</a>piRNAは，特定の<a href="#" class="anno ゲノム領域">ゲノム領域</a>から転写される長い<a href="#" class="anno 一本鎖">一本鎖</a>RNAがなんらかのリボ<a href="#" class="anno ヌクレアーゼ">ヌクレアーゼ</a>により切断されることによって<a href="#" class="anno 産生">産生</a>されると考えられていた．しかし，piRNAの産生にかかわる<a href="#" class="anno リボヌクレアーゼ">リボヌクレアーゼ</a>の正体は長いあいだ不明であった．今回，筆者らは，Zucc<a href="#" class="anno hin">hin</a>iがpiRNAの産生に必須なリボヌクレアーゼであることを明らかにした．X線<a href="#" class="anno 結晶構造">結晶構造</a>解析により，Zucchiniは<a href="#" class="anno 一本鎖RNA">一本鎖RNA</a>が結合するのに適した形状の酵素<a href="#" class="anno 活性部位">活性部位</a>を<a href="#" class="anno も">も</a>つことが明らかになった．<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>な解析により，Zucchiniは一本鎖RNAを切断する<a href="#" class="anno 酵素活性">酵素活性</a>をもつことが明らかになった．さらに，細胞<a href="#" class="anno <a href="#" class="anno 生物学">生物学</a>的">生物学的</a>な解析により，Zucchiniのもつリボ<a href="#" class="anno ヌクレアーゼ活性">ヌクレアーゼ活性</a>はpiRNAの産生とトランスポゾンの抑制に必須であることが確かめられた．以上の結果から，Zucchiniは動物の生殖細胞においてpiRNAの産生にかかわる<a href="#" class="anno エンドリボヌクレアーゼ">エンドリボヌクレアーゼ</a>であることが示された．<br/><br/><h2>はじめに</h2><br/>　動物のゲノムにはトランスポゾンとよばれる“<a href="#" class="anno 動く遺伝子">動く遺伝子</a>”が存在する．<a href="#" class="anno 遺伝情報">遺伝情報</a>を次世代に正確に受け継ぐ必要のある生殖細胞では，piRNA（PIWI-in<a href="#" class="anno ter">ter</a><a href="#" class="anno actin">actin</a>g RNA）とよばれる約30塩基長の<a href="#" class="anno s<a href="#" class="anno mal">mal</a>">smal</a>l RNAが生殖細胞に<a href="#" class="anno 特異的">特異的</a>な<a href="#" class="anno Argonaute">Argonaute</a>であるPIWI<a href="#" class="anno サブファミリー">サブファミリー</a>タンパク質と結合し，生殖細胞のゲノムをトランスポゾンによる損傷から保護している<a href="#R1"><sup>1)</sup></a>．piRNAは，piRNA<a href="#" class="anno ク<a href="#" class="anno ラスター">ラスター</a>">クラスター</a>とよばれる特定のゲノム領域から転写される長い一本鎖RNAがなんらかのリボヌクレアーゼにより切断されることによって産生されると考えられていた<a href="#R2"><sup>2-5)</sup></a>．また，piRNA経路にはZucchini（Zuc）をふくむ複数のタンパク質が関与している<a href="#R6"><sup>6,7)</sup></a>．<br/>　<em><a href="#" class="anno zuc">zuc</a></em>遺伝子は，もともと雌不妊の<a href="#" class="anno 原因遺伝子">原因遺伝子</a>としてショウジョウバエの<a href="#" class="anno <a href="#" class="anno 遺伝学">遺伝学</a>的">遺伝学的</a>なスクリーニングにより同定された<a href="#R8"><sup>8)</sup></a>．ショウジョウバエやマウスにおいてZucは生殖細胞に発現しており，ミトコンドリア<a href="#" class="anno 外膜">外膜</a>に局在する<a href="#R6"><sup>6,9-11)</sup></a>．<em>zuc</em>遺伝子の変異はpiRNA産生の低下，トランスポゾンの<a href="#" class="anno 脱抑制">脱抑制</a>，<a href="#" class="anno 精子形成">精子形成</a>や<a href="#" class="anno 卵形成">卵形成</a>の異常をひき起こす<a href="#R3"><sup>3,5-7,10,12)</sup></a>．Zucは<a href="#" class="anno N末端">N末端</a>にあるミトコンドリア局在シグナル，<a href="#" class="anno <a href="#" class="anno 膜貫通">膜貫通</a><a href="#" class="anno ヘリックス">ヘリックス</a>">膜貫通ヘリックス</a>，および，<a href="#" class="anno ホスホ">ホスホ</a><a href="#" class="anno リパーゼ">リパーゼ</a>D<a href="#" class="anno スーパーファミリー">スーパーファミリー</a>に属する<a href="#" class="anno 触媒ドメイン">触媒ドメイン</a>からなる．<a href="#" class="anno ホスホリパーゼ">ホスホリパーゼ</a>Dスーパーファミリータンパク質はHKDモチーフを共通にもち，基質のホスホジ<a href="#" class="anno エステル結合">エステル結合</a>を<a href="#" class="anno 加水分解">加水分解</a>する．その基質<a href="#" class="anno 特異性">特異性</a>は多様で，脂質を基質とする<a href="#" class="anno ホスホリパーゼD">ホスホリパーゼD</a>や核酸を基質とする<a href="#" class="anno Nuc">Nuc</a> <a href="#R13"><sup>13)</sup></a> などが含まれる（Nucはリパーゼではなくヌクレアーゼであるが，<a href="#" class="anno アミノ">アミノ</a>酸配列にもとづきホスホリパーゼDスーパーファミリーに分類されている）．ZucはNucともっとも高い配列<a href="#" class="anno 同一性">同一性</a>（26％）をもつことから，ZucはpiRNAの産生にかかわるリボヌクレアーゼの候補と考えられていた<a href="#R12"><sup>12)</sup></a>．一方，マウスのZuc<a href="#" class="anno ホモログ">ホモログ</a>であるMmZuc（<a href="#" class="anno Pld6">Pld6</a>やMitoPLDともよばれる）はミトコンドリアに存在する脂質<a href="#" class="anno <a href="#" class="anno カ">カ</a>ルジオリ<a href="#" class="anno ピン">ピン</a>">カルジオリピン</a>を加水分解し<a href="#" class="anno シグナル分子">シグナル分子</a>である<a href="#" class="anno ホスファチジン酸">ホスファチジン酸</a>を産生することから<a href="#R9"><sup>9)</sup></a>，Zucは脂質シグナルを介して<a href="#" class="anno 間接的">間接的</a>にpiRNAの産生にかかわるというモ<a href="#" class="anno デ">デ</a>ルも提唱されていた<a href="#R10"><sup>10,11)</sup></a>．しかし，Zucのもつヌクレアーゼ活性をていねいに調べた報告はなく，Zucがリボヌクレアーゼとして直接的にpiRNAの産生にかかわる<a href="#" class="anno 可能性">可能性</a>も残されていた．<br/><br/><h2>1．Zucの<a href="#" class="anno X線結晶構造">X線結晶構造</a></h2><br/>　Zucの機能解明の第一歩として，ショウジョウバエに由来するZuc（DmZuc）のX線結晶<a href="#" class="anno 構造解析">構造解析</a>を行った．N末端のミトコンドリア局在シグナルと膜貫通ヘリックスを削除したDmZuc（<a href="#" class="anno 残基">残基</a>41～253）の結晶構造を1.75Å分解能で決定した（<a href="#F1">図1a</a>）．DmZucは触媒ドメイン（残基49～62，残基89～245）とZn<sup>2+</sup><a href="#" class="anno 結合ドメイン">結合ドメイン</a>（残基63～88）からなり，<a href="#" class="anno 二量体">二量体</a>を形成していた．触媒ドメインは8つの<a href="#" class="anno β<a href="#" class="anno ストランド">ストランド</a>">βストランド</a>からなる<a href="#" class="anno βシート">βシート</a>とその両側をかこむ<a href="#" class="anno αヘリックス">αヘリックス</a>からなり，NucなどのホスホリパーゼDスーパーファミリータンパク質とよく似ていた．HKDモチーフを構成する3つの残基のうち，<a href="#" class="anno His1">His1</a>69と<a href="#" class="anno Lys">Lys</a>171は酵素活性部位を形成し，A<a href="#" class="anno sp1">sp1</a>76は<a href="#" class="anno 立体構造">立体構造</a>の<a href="#" class="anno 安定化">安定化</a>に寄与していた．<a href="#" class="anno Cys">Cys</a>63，His67，Cys83，Cys88はZn<sup>2+</sup>と結合しZn<sup>2+</sup>結合ドメインを形成していた．<a href="#" class="anno <a href="#" class="anno 二次">二次</a><a href="#" class="anno 構造予測">構造予測</a>"><a href="#" class="anno 二次構造">二次構造</a>予測</a>から，DmZucは既知のホスホリパーゼDスーパーファミリータンパク質とは異なり，触媒ドメインの1番目のβストランドとαヘリックスとのあいだに30残基の一定の構造をとらないディスオーダー領域をもつことが示唆されていたが，この領域がZn<sup>2+</sup>結合ドメインを形成していたことは<a href="#" class="anno 予想外">予想外</a>の発見だった．Zn<sup>2+</sup>結合ドメインのほとんどの部分は結晶構造においても一定の構造をとっておらず，この領域は<a href="#" class="anno 実際">実際</a>にディスオーダー領域であると考えられた．Zn<sup>2+</sup>と結合すると考えられた残基はほかの動物においても保存されていたことから，Zn<sup>2+</sup>結合ドメインはZucの<a href="#" class="anno 構造的">構造的</a>な特徴であると考えられた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Zucの結晶構造</strong><br/>（a）DmZucのリボンモデル．DmZucは二量体を形成し，その界面に酵素活性部位をもつ．2つのプロトマーを緑色と黄緑色で示した．Zn<sup>2+</sup>結合ドメインを黄色で示し，Zn<sup>2+</sup>を灰色の球で示した．<br/>（b）DmZucとNucの分子表面モデル．正に帯電した表面を青色で示し，負に帯電した表面を赤色で示した．酵素活性部位を黄色の破線で示した．また，一本鎖RNA，二本鎖RNA，カルジオリピンの分子構造を示した．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/10/Nureki-Nature-12.10.18-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Zucの結晶構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-12.10.18-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-12.10.18-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　酵素活性部位は二量体の界面に存在し，保存された残基（<a href="#" class="anno Tyr">Tyr</a>112，His169，Lys171，<a href="#" class="anno Ser">Ser</a>204，Asn206，<a href="#" class="anno Trp2">Trp2</a>07，Thr208，Asn215，<a href="#" class="anno Glu">Glu</a>217）により形成されていた．これらの残基はNucにおいてもよく保存されており同様の<a href="#" class="anno 立体配置">立体配置</a>をとっている．したがって，ZucはNucと同様の<a href="#" class="anno 反応機構">反応機構</a>により基質を加水分解すると考えられた．しかし，DmZucとNucの酵素活性部位の形状には顕著な違いが存在した（<a href="#F1">図1b</a>）．Nucは一本鎖の核酸と<a href="#" class="anno 二本鎖">二本鎖</a>の核酸の両方を切断し，二本鎖の核酸が結合するのに適した広い溝からなる酵素活性部位をもつ<a href="#R13"><sup>13)</sup></a>（PDB ID：<a href="http://service.pdbj.org/mine/Det<a href="#" class="anno ail">ail</a>2?PDBID=1byr&amp;PAGEID=Summary" target="_blank">1BYR</a>）．一方，DmZucの酵素活性部位はNucに比べ狭く，二本鎖の核酸は結合できないようにみえた．さらに，マウスのZucホモログであるMmZucはカルジオリピンを加水分解することが報告されていたが<a href="#R9"><sup>9)</sup></a>，DmZucの酵素活性部位にはカルジオリピンのようなかさ高い脂質分子は結合できないようにみえた．DmZucの酵素活性部位の<a href="#" class="anno 反<a href="#" class="anno 対側">対側</a>">反対側</a>にはN末端にあるヘリックスが位置し，正に帯電した分子表面が存在していた．この構造的な特徴は，DmZucは<a href="#" class="anno ミトコンドリア外膜">ミトコンドリア外膜</a>に局在するというモデルとよく一致していた<a href="#R6"><sup>6,9-11)</sup></a>．以上の<a href="#" class="anno 結晶構造解析">結晶構造解析</a>の結果，Zucはミトコンドリア外膜において一本鎖の核酸を切断するヌクレアーゼであることが示唆された．<br/><br/><h2>2．Zucは一本鎖RNAを切断する<a href="#" class="anno エンドヌクレアーゼ">エンドヌクレアーゼ</a>である</h2><br/>　Zucがヌクレアーゼであるかどうかを検証するため，<a href="#" class="anno 結晶化">結晶化</a>純度にまで精製したDmZucと<a href="#" class="anno <a href="#" class="anno 放射性">放射性</a><a href="#" class="anno 同位体">同位体</a>">放射性同位体</a>により標識した合成RNAを用いてリボヌクレアーゼ活性を測定した．その結果，DmZucは一本鎖RNAを切断することがわかった．一方，酵素活性部位の<a href="#" class="anno 変異体">変異体</a>（4種類）はいずれもリボヌクレアーゼ活性を示さなかった．この結果から，酵素活性部位にある保存された残基はリボヌクレアーゼ活性に必須であること，ならびに，リボヌクレアーゼ活性は大腸菌に由来する夾雑タンパク質によるものではないと考えられた．Zn<sup>2+</sup>結合ドメインを削除したDmZuc変異体のリボヌクレアーゼ活性は著しく低下していたことから，Zn<sup>2+</sup>結合ドメインはリボヌクレアーゼ活性に重要であることがわかった．<a href="#" class="anno 一般的">一般的</a>な<a href="#" class="anno ジンクフィンガー">ジンクフィンガー</a>と同様に，Zn<sup>2+</sup>結合ドメインは基質であるRNAとの結合にかかわると考えられた．DmZucは環状の一本鎖RNAを切断したことから，エンドヌクレアーゼであると考えられた．酵素活性部位の形状から予想されたように，DmZucは<a href="#" class="anno 二本鎖RNA">二本鎖RNA</a>を切断しなかった．さまざまな配列をもつ一本鎖RNAを用いて切断実験を行ったところ，DmZucは厳密な塩基特異性をもた<a href="#" class="anno ないこと">ないこと</a>が示唆された．DmZucは<a href="#" class="anno 一本鎖DNA">一本鎖DNA</a>も切断したが，<a href="#" class="anno 生理的">生理的</a>には一本鎖RNAの切断活性が重要だと考えられた．つぎに，DmZucにより切断された一本鎖RNAの5’末端の構造を調べた．5’末端に<a href="#" class="anno リン酸">リン酸</a>基をもつ一本鎖RNAに特異的な末端<a href="#" class="anno エキソ">エキソ</a>ヌクレアーゼはDmZucによる<a href="#" class="anno 切断産物">切断産物</a>を分解したのに対し，これをアルカリ<a href="#" class="anno ホスファターゼ">ホスファターゼ</a>により処理したものは分解しなかった．したがって，DmZucにより切断された一本鎖RNAは5’末端に<a href="#" class="anno リン酸基">リン酸基</a>をもつと考えられた．PIWIサブファミリータンパク質に結合した成熟型piRNAは5’末端にリン酸基をもつ<a href="#R2"><sup>2,14)</sup></a>．したがって，DmZucはpiRNAの5’末端を規定するリボヌクレアーゼであることが示唆された．最後に，Zucがカルジオリピンを分解するかどうかを検証した．DmZucとカルジオリピンを<a href="#" class="anno インキュベーション">インキュベーション</a>したのち反応溶液の脂質を<a href="#" class="anno 質量分析">質量分析</a>により定量したところ，カルジオリピンの減少およびそれにともなうホスファチジン酸の増加は観察されなかった．この結果から，DmZucはカルジオリピンに対する分解活性をもたないことが示唆された．さらに，マウスのZucホモログであるMmZuc（残基35～221）もリボヌクレアーゼ活性を示したが，カルジオリピン分解活性は示さなかった．これらの結果は，さきにも述べた，MmZucはカルジオリピン<a href="#" class="anno 分解酵素">分解酵素</a>であるという過去の報告と一致しなかった<a href="#R9"><sup>9)</sup></a>．この理由は不明だが，酵素活性測定に用いたタンパク質の純度の違いによるのかもしれない．以上の生化学的な解析の結果，Zucは一本鎖の核酸に特異的なエンドヌクレアーゼであることが明らかになった．<br/><br/><h2>3．Zucのリボヌクレアーゼ活性はpiRNAの産生とトランスポゾンの抑制にかかわる</h2><br/>　ショウジョウバエの卵巣の<a href="#" class="anno 体細胞">体細胞</a>に由来する<a href="#" class="anno 培養細胞">培養細胞</a>を用いて，DmZucのリボヌクレアーゼ活性がトランスポゾンの抑制にかかわっているかどうかを検証した．この細胞に発現する<a href="#" class="anno 内在性">内在性</a>のDmZucを<a href="#" class="anno RNAi">RNAi</a>により<a href="#" class="anno ノックダウン">ノックダウン</a>したところ，piRNA<a href="#" class="anno 中間体">中間体</a>の蓄積と成熟型piRNAの減少，および，それにともなうトランスポゾンの発現の上昇が観察された．そこで，内在性のDmZucをノックダウンした卵巣の体細胞に由来する培養細胞にRNAiに耐性となる変異をもつ<a href="#" class="anno 野生型">野生型</a>DmZucを発現させ，トランスポゾンの<a href="#" class="anno 発現量">発現量</a>を定量RT-<a href="#" class="anno PCR">PCR</a>法により定量したところ，トランスポゾンの発現は抑制されることがわかった．一方，野生型DmZucの代わりに酵素活性部位の変異体（8種類）を発現させてもトランスポゾンの発現は抑制されなかった．Zn<sup>2+</sup>に結合するCys63あるいはHis67をAlaに置換した変異体や，Zn<sup>2+</sup>結合ドメインを欠損した変異体はトランスポゾンの発現を抑制した．これは，酵素活性部位の変異体はリボヌクレアーゼ活性をまったく示さなかったのに対し，Zn<sup>2+</sup>結合ドメインを欠損した変異体は<a href="#" class="anno わずか">わずか</a>にリボヌクレアーゼ活性を保持していたためであると考えられた．酵素活性部位に存在する保存された残基His169，Lys171，Asn206，Asn215のそれぞれをAlaに置換した変異体はリボヌクレアーゼ活性およびトランスポゾン抑制能の両方を示さなかったことから，DmZucのリボヌクレアーゼ活性はトランスポゾンの抑制に必須であると考えられた．さらに，内在性のDmZucをノックダウンした卵巣の体細胞に由来する培養細胞に野生型DmZucを発現させると，piRNA中間体が減少し成熟型piRNAが増加した．一方，酵素活性部位の変異体を発現させてもpiRNAの産生は回復しなかった．したがって，Zucのリボヌクレアーゼ活性はpiRNAの産生にかかわることが示唆された．<br/><br/><h2>4．piRNAの産生モデル</h2><br/>　今回の結果を総合すると，ZucはpiRNAの産生にかかわるエンドリボヌクレアーゼであると考えられた．ショウジョウバエのもつPIWIサブファミリータンパク質のひとつである<a href="#" class="anno Piwi">Piwi</a>に結合した成熟型piRNAの1番目の塩基はUに<a href="#" class="anno かた">かた</a>よっており<a href="#R2"><sup>2,14)</sup></a>，Argonauteの結晶構造からもPiwiはpiRNAの5’末端の塩基を認識していることが示唆されている<a href="#R15"><sup>15)</sup></a>．今回の生化学的な解析の結果から，Zucは厳密な塩基特異性をもたずに一本鎖RNAを切断し，5’末端のリン酸基を産生することが示された．したがって，ZucはpiRNA中間体を配列に非<a href="#" class="anno 依存的">依存的</a>に切断することにより5’末端にリン酸基をもつpiRNA断片を産生し，Piwiはそのうち1番目の塩基がUのpiRNA断片を<a href="#" class="anno 選択的">選択的</a>に取り込んでいるという可能性が考えられた．そののち，PiwiからはみだしたpiRNAの3’末端が別のヌクレアーゼ<a href="#R16"><sup>16)</sup></a> によりトリミングされることで，成熟型のpiRNAが産生されると考えられた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　piRNA産生のモデル</strong><br/>piRNAクラスターとよばれるゲノム領域からpiRNA前駆体が転写される．piRNA前駆体はなんらかのリボヌクレアーゼにより切断され，数百塩基長のpiRNA中間体が産生される．piRNA中間体はさらにZucにより切断され，約30塩基長のpiRNAが産生される．Ybボディとよばれる顆粒構造体において，ArmiやYbのはたらきによりPiwiにpiRNAが組み込まれる．形成されたPiwi-piRNA複合体は核へと移行し，トランスポゾンの発現を抑制する．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/10/Nureki-Nature-12.10.18-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　piRNA産生のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-12.10.18-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-12.10.18-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究には多くの紆余曲折があった．二次構造予測を行ってディスオーダー領域を削除するのは結晶構造解析の定石のひとつである．そこで，DmZucの二次構造予測を行いさまざまな<a href="#" class="anno コンストラクト">コンストラクト</a>を検討したところ，膜貫通ヘリックスの直後にあるディスオーダー領域（さきに述べたとおり，この領域はZn<sup>2+</sup>結合ドメインに対応し，この直前にある1本のβストランドが<a href="#" class="anno 二量体化">二量体化</a>に必須だった）までを削除したコンストラクトは大腸菌でよく発現し<a href="#" class="anno 高純度">高純度</a>に精製できることがわかった．また，結晶化スクリーニングを行うなかで，<a href="#" class="anno C末端">C末端</a>にあるディスオーダー領域が結晶化に影響をあたえていることがわかったので，試行錯誤のすえ，DmZuc（残基89～250）の結晶構造を決定することに成功した．しかし，このDmZuc（残基89～250）はNucと異なり二量体を形成していなかった．あとになって，生化学的な解析からこのDmZuc<a href="#" class="anno 単量体">単量体</a>はリボヌクレアーゼ活性をもたないことが判明し，DmZucの二量体化は酵素活性に必須であることが明らかになった．DmZucとNucの結晶構造を比較したところ，DmZuc（残基89～250）ではNucにおいて二量体化に寄与しているβストランドがひとつ欠けていることがわかった．二次構造予測の結果からも，DmZucは膜貫通ヘリックスとディスオーダー領域とのあいだに1本のβストランドをもつことが予想された．そこで，βストランドをふくむDmZuc（残基41～253）を大腸菌で発現させ，4段階のカラム<a href="#" class="anno クロマトグラフィー">クロマトグラフィー</a>により精製した．<a href="#" class="anno ゲルろ過">ゲルろ過</a>の結果からも，このDmZuc（残基41～253）は二量体を形成していることが示唆された．しかしながら，その発現量はきわめて低く，十分に結晶化スクリーニングを行うことができなかった（10リットルの大腸菌<a href="#" class="anno 培養液">培養液</a>から約0.02 mgしか精製できなかった）．しかし，幸運なことに，<a href="#" class="anno 機能解析">機能解析</a>のため変異体を調製している過程で，Lys171をAlaに置換した変異をもつDmZuc（残基41～253）は大腸菌においてよく発現することを見い<a href="#" class="anno 出し">出し</a>た（この変異体のほかの変異体はどれも発現量が低く，酵素活性測定のためそれぞれ5リットルの大腸菌培養液から精製した）．このK171A変異体を用いて結晶化スクリーニングをやり直しその結晶構造を決定したところ，この変異体はNucと同様に二量体を形成していることがわかった．しかし，K171A変異体の酵素活性部位は負に帯電しており核酸が結合しそうにはみえなかった．たった1残基の置換により構造が変化しているとは思っていなかったが，野生型のDmZucも同様の結晶化条件により結晶化することができたので，念のためその結晶構造を決定した．その結果，驚くべきことに，野生型とK171A変異体では酵素活性部位においてループの構造が大きく変化しており，野生型DmZucは正に帯電した酵素活性部位をもつことがわかった．<br/>　米国の<a href="#" class="anno 研究グループ">研究グループ</a>による同様の論文も，<em>Nature</em>誌に同時に掲載された<a href="#R17"><sup>17)</sup></a>．この研究グループも生化学的な解析を行い，マウスのZucホモログMmZucは一本鎖の核酸を切断する一方で，カルジオリピンを切断しないことを示していた．さらに，このMmZucの結晶構造を決定し，MmZucのもつ酵素活性部位はNucに比べ狭いことに着目し，Zucは一本鎖の核酸に特異的なリボヌクレアーゼであると結論づけていた．2つの独立した研究が同様の結論にいたったことからも，Zucはリボヌクレアーゼとして直接的にpiRNAの産生にかかわると考えられた．実は，この研究の裏にはこの米国の研究グループとのし烈な競争があった．筆者らが“正しい”結晶構造にたどりつき，さらに，構造解析と同時並行で進んでいた生化学的な解析によりDmZucがリボヌクレアーゼであることを見い出したのは，論文投稿の3週間前のことだった．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Siomi, M. C., Sato, K., Pezic, D. et al.</span>: <span class="ti">PIWI-interacting small RNAs: the vanguard of genome defence.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 12, 246-258 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21427766" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Brennecke, J., Aravin, A. A., Stark, A. et al.</span>: <span class="ti">Discrete small RNA-generating loci as master regulators of transposon activity in <em>Drosophila</em>.</span> <span class='so'>Cell, 128, 1089-1103 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17346786" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Malone, C. D., Brennecke, J., Dus, M. et al.</span>: <span class="ti">Specialized piRNA pathways act in germline and somatic tissues of the <em>Drosophila</em> ovary.</span> <span class='so'>Cell, 137, 522-535 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19395010" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Li, C., Vagin, V. V., Lee, S. et al.</span>: <span class="ti">Collapse of germline piRNAs in the absence of Argonaute3 reveals somatic piRNAs in flies.</span> <span class='so'>Cell, 137, 509-521 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19395009" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Saito, K., Inagaki, S., Mituyama, T. et al.</span>: <span class="ti">A regulatory circuit for <em>piwi</em> by the large Maf gene <em>traffic jam</em> in <em>Drosophila</em>.</span> <span class='so'>Nature, 461, 1296-1299 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19812547" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Saito, K., Ishizu, H., Komai, M. et al.</span>: <span class="ti">Roles for the Yb body components Armitage and Yb in primary piRNA biogenesis in <em>Drosophila</em>.</span> <span class='so'>Genes Dev., 24, 2493-2498 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20966047" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Olivieri, D., Sykora, M. M., Sachidanandam, R. et al.</span>: <span class="ti">An <em>in vivo</em> RNAi assay identifies major genetic and cellular requirements for primary piRNA biogenesis in <em>Drosophila</em>.</span> <span class='so'>EMBO J., 29, 3301-3317 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20818334" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Schupbach, T. & Wieschaus, E.</span>: <span class="ti">Female sterile mutations on the second chromosome of <em>Drosophila melanogaster</em>. II. Mutations blocking oogenesis or altering egg morphology.</span> <span class='so'>Genetics, 129, 1119-1136 (1991)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1783295" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Choi, S. Y., Huang, P., Jenkins, G. M. et al.</span>: <span class="ti">A common lipid links Mfn-mediated mitochondrial fusion and SNARE-regulated exocytosis.</span> <span class='so'>Nat. Cell Biol., 8, 1255-1262 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17028579" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Watanabe, T., Chuma, S., Yamamoto, Y. et al.</span>: <span class="ti">MITOPLD is a mitochondrial protein essential for nuage formation and piRNA biogenesis in the mouse germline.</span> <span class='so'>Dev. Cell, 20, 364-375 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21397847" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/2596" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R11"><span class='au'>Huang, H., Gao, Q., Peng, X. et al.</span>: <span class="ti">piRNA-associated germline nuage formation and spermatogenesis require MitoPLD profusogenic mitochondrial-surface lipid signaling.</span> <span class='so'>Dev. Cell, 20, 376-387 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21397848" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Pane, A., Wehr, K. & Schupbach, T.</span>: <span class="ti"><em>zucchini</em> and <em>squash</em> encode two putative nucleases required for rasiRNA production in the <em>Drosophila</em> germline.</span> <span class='so'>Dev. Cell, 12, 851-862 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17543859" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Stuckey, J. A. & Dixon, J. E.</span>: <span class="ti">Crystal structure of a phospholipase D family member.</span> <span class='so'>Nat. Struct. Biol., 6, 278-284 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10074947" target="_blank">PubMed</a>]</span></li><br><li id="R14"><span class='au'>Saito, K., Nishida, K. M., Mori, T. et al.</span>: <span class="ti">Specific association of Piwi with rasiRNAs derived from retrotransposon and heterochromatic regions in the <em>Drosophila</em> genome.</span> <span class='so'>Genes Dev., 20, 2214-2222 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16882972" target="_blank">PubMed</a>]</span></li><br><li id="R15"><span class='au'>Frank, F., Sonenberg, N. & Nagar, B.</span>: <span class="ti">Structural basis for 5'-nucleotide base-specific recognition of guide RNA by human AGO2.</span> <span class='so'>Nature, 465, 818-822 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20505670" target="_blank">PubMed</a>]</span></li><br><li id="R16"><span class='au'>Kawaoka, S., Izumi, N., Katsuma, S. et al.</span>: <span class="ti">3' end formation of PIWI-interacting RNAs in vitro.</span> <span class='so'>Mol. Cell, 43, 1015-1022 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21925389" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/3672" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R17"><span class='au'>Ipsaro, J. J., Haase, A. D., Knott, S. R. et al.</span>: <span class="ti">The structural biochemistry of Zucchini implicates it as a nuclease in piRNA biogenesis.</span> <span class='so'>Nature, 491, 279-283 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23064227" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/08_03.html" target="_blank">8.3 Post-transcriptional Modification</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">西増 弘志（Hiroshi Nishimasu）</span><br>略歴：2007年 東京大学大学院農学生命科学研究科 修了，2010年より東京大学大学院理学系研究科 特任助教．<br>研究テーマ：RNAサイレンシング，疾患にかかわるタンパク質．<br>抱負：立体構造から新しいコンセプトを創出していきたい．<br><br><strong>石津 大嗣（Hirotsugu Ishizu）</strong><br>略歴：2012年 慶應義塾大学大学院医学研究科 修了，同年より 東京大学大学院理学系研究科 助教．<br>研究テーマ：RNAサイレンシング．<br>抱負：piRNAによる遺伝子発現抑制の作用機構を明らかにする．<br><br><strong>塩見 美喜子（Mikiko C. Siomi）</strong><br>東京大学大学院理学系研究科 教授．<br>研究テーマ：RNAメタボリズム，RNAサイレンシング．<br>抱負：RNA研究をとおして生命のしくみを分子レベルで理解したい．<br><br><strong>濡木  理（Osamu Nureki）</strong><br>東京大学大学院理学系研究科 教授．<br>研究テーマ：遺伝暗号の翻訳，膜輸送，自然炎症．<br>抱負：細胞の生理機構を原子分解能で解明したい．<br>研究室URL：<a href="http://www.nurekilab.net/" target="_blank">http://www.nurekilab.net/</a><br></div><br>© 2012 西増弘志・石津大嗣・塩見美喜子・濡木 理 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

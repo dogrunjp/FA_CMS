@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 膜電位感受性蛍光タンパク質による脳機能のイメージング : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/616" rel="bookmark">膜電位感受性蛍光タンパク質による脳機能のイメージング</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>武藤弘樹・Thomas Knöpfel</strong><br>（理化学研究所脳科学総合研究センター 神経回路ダイナミクス研究チーム）<br>email：<a href="mailto:mutoh@brain.riken.jp">武藤弘樹</a>，<a href="mailto:tknopfel@brain.riken.jp">Thomas Knöpfel</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2010.006">10.7875/first.author.2010.006</a><br><div class="reference"><br><span class="ti">Imaging brain electric signals with genetically targeted voltage-sensitive fluorescent proteins.</span><br><span class="au">Walther Akemann, Hiroki Mutoh, Amélie Perron, Jean Rossier, Thomas Knöpfel</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/20622860" target="_blank"><em>Nature Methods</em>, <strong>7</strong>, 643-649 (2010)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　筆者らの<a href="#" class="anno 研究室">研究室</a>では，特定かつ複数の<a href="#" class="anno 神経細胞">神経細胞</a>における<a href="#" class="anno 膜電位">膜電位</a>の変化を同時かつリアルタイムに観察するため，膜<a href="#" class="anno 電位感受性">電位感受性</a><a href="#" class="anno 蛍光タンパク質">蛍光タンパク質</a>の開発と実験への応用を行っている．タンパク質をベースとしたセンサーは神経細胞へ<a href="#" class="anno 遺伝的">遺伝的</a>に導入することができるため，目的の神経細胞を<a href="#" class="anno 非<a href="#" class="anno 侵襲的">侵襲的</a>"><a href="#" class="anno 非侵襲">非侵襲</a>的</a>に観察することができる．今回，大脳皮質<a href="#" class="anno <a href="#" class="anno 体性感覚">体性感覚</a>野">体性<a href="#" class="anno 感覚野">感覚野</a></a>に膜電位感受性蛍光タンパク質V<a href="#" class="anno SFP2">SFP2</a>を発現させることで，1本のヒゲを刺激することで生じる神経細胞の膜電位の変化を画像化することに成功した．このVSFP2を新たな光<a href="#" class="anno <a href="#" class="anno 遺伝学">遺伝学</a>的">遺伝学的</a>ツールとして用いることにより，<a href="#" class="anno 脳機能">脳機能</a>の研究の<a href="#" class="anno 飛躍的">飛躍的</a>な進展に貢献することが期待される．さらには，<a href="#" class="anno 神経科学">神経科学</a>だけでなく<a href="#" class="anno <a href="#" class="anno 創薬">創薬</a>スクリーニング">創薬スクリーニング</a>の効率化<a href="#" class="anno も">も</a>期待できるだろう．<br/><br/><h2>はじめに</h2><br/>　われわれの脳では，いくつもの神経細胞が同時にコミュニケーションをとりあいさまざまな情報処理を行なっている．この<a href="#" class="anno 脳内">脳内</a>での情報処理を理解するためには，神経細胞どうしのコミュニケーションをリアルタイムで観察する必要がある．<br/>　従来から，神経細胞の活動を観察するのに，神経細胞の膜電位の変化や<a href="#" class="anno 細胞内">細胞内</a>Ca<sup>2+</sup>濃度の変動を記録する手法がよく用いられている．膜電位の変化を記録する場合，<a href="#" class="anno 微小電<a href="#" class="anno 極">極</a>">微小電極</a>法やパッチ<a href="#" class="anno クランプ">クランプ</a>法などの<a href="#" class="anno 電気<a href="#" class="anno 生理学的">生理学的</a>"><a href="#" class="anno 電気生理">電気生理</a>学的</a>な手法を用いれば，<a href="#" class="anno 活動電位">活動電位</a>など約1ミリ秒の速い変化を正確に記録することはできるが，同時に記録できる神経細胞の数に限りがある．別な手法として，膜電位感受性色素をもちいることでも速い変化を記録することができるが，これは<a href="#" class="anno 不特定">不特定</a>多数の細胞を染色してしまうため，どの細胞から記録された変化なのか特定することは困難である．<br/>　一方，細胞内におけるCa<sup>2+</sup>濃度の変動の記録についてはさまざまな技術が発達している．とくに，蛍光タンパク質をベースとしたG<a href="#" class="anno CaM">CaM</a>PなどのCa<sup>2+</sup>センサーを，<a href="#" class="anno 遺伝子工学">遺伝子工学</a>的な手法を用いて特定の神経細胞にのみ発現させた<a href="#" class="anno 遺伝子改変">遺伝子改変</a>動物は，さまざまな<a href="#" class="anno 研究分野">研究分野</a>で使用されている<a href="#R1"><sup>1)</sup></a>．しかしながら，Ca<sup>2+</sup>濃度の変動の多くは膜電位の変化に付随して生じるものであり，さらに，Ca<sup>2+</sup>の流入から流出・取り込みへとつづく一連の変動には時間を要するため，神経細胞のコミュニケーションをリアルタイムで観察するには<a href="#" class="anno 反応速度">反応速度</a>が遅い．<br/>　これらの<a href="#" class="anno 時空間">時空間</a>解像度の問題を解決するため，筆者らの研究室では，蛍光タンパク質<a href="#" class="anno GFP">GFP</a>をベースとした膜電位感受性蛍光タンパク質（vol<a href="#" class="anno tag">tag</a>e sen<a href="#" class="anno sit">sit</a>ive fluorescence <a href="#" class="anno pro">pro</a>tein：VSFP）の開発，および，機能の確認と実験への応用を行っている．<br/><br/><h2>1．膜電位感受性蛍光<a href="#" class="anno タンパク質の構造">タンパク質の構造</a>と機能</h2><br/>　FlaSh <a href="#R2"><sup>2)</sup></a>，V<a href="#" class="anno SFP1">SFP1</a> <a href="#R3"><sup>3)</sup></a>，<a href="#" class="anno SPA">SPA</a>RC <a href="#R4"><sup>4)</sup></a> などの初期の膜電位感受性蛍光タンパク質は，K<sup>+</sup>チャネルやNa<sup>+</sup>チャネルといった機能や構造などについて研究がよく行われていた<a href="#" class="anno イオンチャネル">イオンチャネル</a>を用い，電位感受性領域の<a href="#" class="anno 構造変化">構造変化</a>などを蛍光タンパク質の<a href="#" class="anno 蛍<a href="#" class="anno 光強度">光強度</a>">蛍光強度</a>の変化としてとらえるものであった．しかしながら，これらのセンサーは発現ののちの<a href="#" class="anno 細胞膜">細胞膜</a>への移行が十分には起こらず細胞内の<a href="#" class="anno オルガネラ">オルガネラ</a>や<a href="#" class="anno サイトゾル">サイトゾル</a>にとどまってしまう．このことは，バックグラウンドノイズの増加とシグナルの減少をひき起こしていた<a href="#R5"><sup>5)</sup></a>．<br/>　2005年，岡村康司らは，イオンチャネルと異なり電位感受性領域と酵素<a href="#" class="anno 活性部位">活性部位</a>とで独立して機能する電位<a href="#" class="anno 依存性">依存性</a>酵素Ci-<a href="#" class="anno VSP">VSP</a>を発見した<a href="#R6"><sup>6)</sup></a>．このタンパク質は，イオンを通すためのポアを形成せず，膜電位の変化に応じて細胞内の<a href="#" class="anno 酵素活性">酵素活性</a>を調節するシンプルな構造であった（<a href="#F1">図1a</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Ci-VSPとVSFP2の構造</strong><br/>（a）Ci-VSPの膜電位の変化による構造変化と，それにともなう酵素活性の変化．<br/>（b）VSFP2の膜電位の変化による構造変化と，それにともなう蛍光タンパク質のペアの相対的な位置関係の変化（FRET）．<br/>VSD：電位感受性領域．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2010/09/Mutoh-Nature-Methods-10.7.31-Fig.1.jpg" target="_blank">[Download]</a></div><br/>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Ci-VSPとVSFP2の構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mutoh-Nature-Methods-10.7.31-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mutoh-Nature-Methods-10.7.31-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　筆者らの研究室では，このCi-VSPをベースに膜電位感受性蛍光タンパク質のさらなる改良を行った．神経細胞の活動を感知するのにCi-VSPの電位感受性領域を用い，酵素活性部位の代わりにGFPの改変型である<a href="#" class="anno CFP">CFP</a>と<a href="#" class="anno YFP">YFP</a>の蛍光タンパク質のペアを付加した．この原型に改良を重ねることで，神経細胞が活動することで生じる膜電位の変化をF<a href="#" class="anno RET">RET</a>（fluorescence resonance energy <a href="#" class="anno tra">tra</a>nsfer，<a href="#" class="anno 蛍光共鳴<a href="#" class="anno エネルギー移動">エネルギー移動</a>">蛍光共鳴エネルギー移動</a>）によって観察できる膜電位感受性蛍光タンパク質VSFP2の開発にいたった（<a href="#F1">図1b</a>）．<a href="#" class="anno 培養細胞">培養細胞</a>（P<a href="#" class="anno C1">C1</a>2細胞）で行ったVSFP2の特徴と機能の確認実験では，センサーの細胞膜への移行が著しく改善されており，また，このことにより膜電位の変化により得られるシグナルの大幅な向上もみられた．さらに，神経細胞の活動を模した刺激を<a href="#" class="anno PC12細胞">PC12細胞</a>へあたえたところ，活動電位など神経細胞の<a href="#" class="anno 電気的">電気的</a>な活動をVSFP2の蛍光強度の変化として記録できることが実証された<a href="#R7"><sup>7)</sup></a>．<br/><br/><h2>2．VSFP2.3による神経細胞と大脳皮質の活動の<a href="#" class="anno 可視化">可視化</a></h2><br/>　VSFP2が<a href="#" class="anno 機能的">機能的</a>に神経細胞の活動を可視化できることが実証されたので，今回，<a href="#" class="anno 実際">実際</a>の神経細胞に最新型の膜電位感受性蛍光タンパク質VSFP2.3 <a href="#R8"><sup>8)</sup></a> およびVSFP2.42を発現させ，<em><a href="#" class="anno in vitro">in vitro</a></em>と<em>in vivo</em>での膜電位の変化の記録を行った．<br/>　まず，蛍光タンパク質のペアとして<a href="#" class="anno 供与体">供与体</a>に水色のCerulean，<a href="#" class="anno 受容体">受容体</a>に黄色の<a href="#" class="anno Cit">Cit</a><a href="#" class="anno rin">rin</a>eをもつVSFP2.3を海馬<a href="#" class="anno 初代培養">初代培養</a>神経細胞に発現させたところ，VSFP2.3は<a href="#" class="anno 細胞体">細胞体</a>と<a href="#" class="anno 樹状">樹状</a>突起を縁どるように細胞膜にきれいに発現することが確認された．これは，神経細胞の膜電位の変化を蛍光強度の変化へと正確に変換するための，膜電位感受性蛍光タンパク質の重要な性質である．また，<a href="#" class="anno パッチクランプ">パッチクランプ</a>法による電位の変化とVSFP2.3の蛍光強度の変化とを同時に記録したところ，<a href="#" class="anno 培養神経細胞">培養神経細胞</a>が<a href="#" class="anno 自発的">自発的</a>に生じる活動電位をVSFP2.3の蛍光強度の変化としても記録できることがわかった．<br/>　つぎに，マウスの生体脳でVSFP2.3の機能確認を行うため，マウス<a href="#" class="anno 胎<a href="#" class="anno 仔">仔</a>">胎仔</a>（胎生15.5日）の側<a href="#" class="anno 脳室">脳室</a>にVSFP2.3を<a href="#" class="anno 子宮内">子宮内</a><a href="#" class="anno エレクトロポレーション">エレクトロポレーション</a>法により<a href="#" class="anno 遺伝子導入">遺伝子導入</a>した．生後，成熟したマウスの大脳皮質の急性<a href="#" class="anno 脳切片">脳切片</a>標本を作製したところ，おもに大脳皮質体性感覚野（いわゆる，バレル野付近）の第2層，<a href="#" class="anno 第3">第3</a>層または第5層にある錐<a href="#" class="anno 体細胞">体細胞</a>においてVSFP2.3の発現が観察された．これらVSFP2.3を発現している<a href="#" class="anno <a href="#" class="anno 錐体">錐体</a>細胞">錐体細胞</a>に<a href="#" class="anno パッチクランプ法">パッチクランプ法</a>と蛍光測定とを同時に行ったところ，VSFP2.3の蛍光強度の変化と膜電位の変化とが一致し，VSFP2.3がマウス生体脳の神経細胞で機能していることが確認された．<br/>　さらに，このマウスを用いて，ヒゲを刺激したときのバレル野の錐体<a href="#" class="anno 細胞集団">細胞集団</a>の活動をどのように記録できるのか，<em>in vivo</em>で検証してみた．VSFP2.3を発現させたマウスを麻酔で眠らせ，バレル野付近の頭皮を取り除き，さらに，頭蓋骨を薄く削り<a href="#" class="anno 開頭">開頭</a>することなく大脳皮質表層が直接に測定できる状態にした．胎仔のときに膜電位感受性蛍光タンパク質を遺伝子導入しておけば開頭手術は必要ない．このため，<em>in vivo</em>記録のときにとくに問題となる心拍や呼吸の動きによる<a href="#" class="anno アーティファクト">アーティファクト</a>を最小限に抑え，さらに，FRET技術と組み合わせることでさまざまなノイズを除外することができる．1本のヒゲを正確に刺激するため，電<a href="#" class="anno 圧">圧</a>変化によって動くピエゾ素子により刺激の<a href="#" class="anno 大きさ">大きさ</a>とタイミングとをコントロールした（<a href="#F2">図2</a>）．1本のヒゲを1回たわませたところ，供与体と受容体の両方のチャネルで心拍や呼吸によるノイズにまじってVSFP2.3のシグナルが記録された．このノイズは供与体と受容体との比をとることで除去され，ヒゲを刺激したことによる膜電位の変化は1回の測定でも十分に記録することができた．また，加算平均することでシグナル/ノイズ比は改善され，1本のヒゲによって活動するバレル野の一部を膜電位の変化としてより鮮明に可視化することができた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　VSFP2.3を大脳皮質体性感覚野に発現させたマウスを用いた<em>in vivo</em>実験のセットアップ</strong><br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2010/09/Mutoh-Nature-Methods-10.7.31-Fig.2.jpg" target="_blank">[Download]</a></div><br/>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　VSFP2.3を大脳皮質体性感覚野に発現させたマウスを用いた<em>in vivo</em>実験のセットアップ" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mutoh-Nature-Methods-10.7.31-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mutoh-Nature-Methods-10.7.31-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　さらに，蛍光タンパク質のペアとして，供与体を水色のCeruleanから黄色のCitrineに，受容体をCitrineから赤色のmkate2に置き換えたVSFP2.42を発現させたマウスにおいて，<em>in vitro</em>と<em>in vivo</em>での実験を行ったところ，VSFP2.42はVSFP2.3と<a href="#" class="anno 同じ">同じ</a>性能をもっていることが確認された．このVSFP2.42は受容体の蛍光を赤外光にシフトさせており，ヘモ<a href="#" class="anno グロビン">グロビン</a>の吸収波長の影響をうけにくく，また，皮膚などへの浸透深度があるため，<a href="#" class="anno 生体内">生体内</a>の深い組織の<a href="#" class="anno 蛍光観察">蛍光観察</a>も可能である．<br/>　最後に，VSFP2の空間解像度を調べるため6つのヒゲを順番に刺激してみたところ，それぞれのヒゲに対応する蛍光変化がバレル野のうえでオーバーラップせずに観察された．これは，以前より知られていた大脳皮質体性感覚野におけるヒゲの投射性地図と一致したため<a href="#R9"><sup>9)</sup></a>，VSFP2の空間解像度が<a href="#" class="anno 高精度">高精度</a>であることが実証された．<br/><br/><h2>おわりに</h2><br/>　近年，<a href="#" class="anno チャネル<a href="#" class="anno ロドプシン">ロドプシン</a>">チャネルロドプシン</a>などを用いた神経細胞の<a href="#" class="anno 光刺激">光刺激</a>を利用した研究によって，光により神経細胞の活動をコントロールする技術が非常に発達してきた<a href="#R10"><sup>10)</sup></a>．今回，光によって神経細胞の活動をリアルタイムで観察する技術に，新たに膜電位感受性蛍光タンパク質がくわわった．これら<a href="#" class="anno 光遺伝学">光遺伝学</a>的な技術の特徴は，タンパク質をベースに作製するためセンサーを目的の神経細胞へ遺伝的に導入することができ，<em>in vivo</em>実験への応用が容易であることにある．光遺伝学的ツールをさらに開発し，また，応用していくことで，脳機能の研究の飛躍的な発展が期待できるだろう．筆者らの研究室では，現在も，さらに高い時空間解像度レベルで細胞の膜電位の変化を可視化する膜電位感受性蛍光タンパク質の開発・改良を進めている．また，開発した膜電位感受性蛍光タンパク質を実験に応用し，<a href="#" class="anno 神経回路">神経回路</a>の<a href="#" class="anno ダイナミクス">ダイナミクス</a>を解明することもめざしている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Fletcher, M. L., Masurkar, A. V., Xing, J. et al.</span>: <span class="ti">Optical imaging of postsynaptic odor representation in the glomerular layer of the mouse olfactory bulb.</span> <span class='so'>J. Neurophysiol., 102, 817-830 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19474178" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Siegel, M. S & Isacoff, E. Y.</span>: <span class="ti">A genetically encoded optical probe of membrane voltage.</span> <span class='so'>Neuron, 19, 735-741 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9354320" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Sakai, R., Repunte-Canonigo, V., Raj, C. D. et al.</span>: <span class="ti">Design and characterization of a DNA-encoded, voltage-sensitive fluorescent protein.</span> <span class='so'>Eur. J. Neurosci., 13, 2314-2318 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11454036" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Ataka, K. & Pieribone, V. A.</span>: <span class="ti">A genetically targetable fluorescent probe of channel gating with rapid kinetics.</span> <span class='so'>Biophys. J., 82, 509-516 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11751337" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Baker, B. J, Lee, H., Pieribone, V. A. et al.</span>: <span class="ti">Three fluorescent protein voltage sensors exhibit low plasma membrane expression in mammalian cells.</span> <span class='so'>J. Neurosci. Methods, 161, 32-38 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17126911" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Murata, Y., Iwasaki, H., Sasaki, M. et al.</span>: <span class="ti">Phosphoinositide phoshatase activity coupled to an intrinsic voltage sensor.</span> <span class='so'>Nature, 435, 1239-1243 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15902207" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Dimitrov, D., He, Y., Mutoh, H. et al.</span>: <span class="ti">Engineering and characterization of an enhanced fluorescent protein voltage sensor.</span> <span class='so'>PLoS One, 2, e440 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17487283" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Mutoh, H., Perron, A., Dimitrov, D. et al.</span>: <span class="ti">Spectrally-resolved response properties of the three most advanced FRET based fluorescent protein voltage probes.</span> <span class='so'>PLoS One, 4, e4555 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19234605" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Petersen, C. C. Grinvald, A., Sakmann, B.</span>: <span class="ti">Spatiotemporal dynamics of sensory responses in layer 2/3 of rat barrel cortex measured <em>in vivo</em> by voltage-sensitive dye imaging combined with whole-cell voltage recording and neuron reconstructions.</span> <span class='so'>J. Neurosci., 23, 1298-1309 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12598618" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Boyden, E. S., Zhang, F., Bamberg, E. et al.</span>: <span class="ti">Millisecond-timescale, genetically targeted optical control of neural activity.</span> <span class='so'>Nat. Neurosci., 8, 1263-1268 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16116447" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/17_02.html" target="_blank">17.2 Excitation of Nerve Cells and Transmission of Excitation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_01.html" target="_blank">20.1 Sensation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/05_03.html" target="_blank">5.3 The Autonomic Nervous System</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_02.html" target="_blank">20.2 Central Nervous System and Control</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_04.html" target="_blank">12.4 Protein Transport in Prokaryotic Cells</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">武藤 弘樹（Hiroki Mutoh）</span><br>略歴：2002年 東京学芸大学大学院教育学研究科修士課程 修了，同年 理化学研究所脳科学総合研究センター リサーチアソシエイト，2007年 医学博士（浜松医科大学），同年より理化学研究所脳科学総合研究センター 博士研究員．<br>研究テーマ：蛍光タンパク質プローブを用いた脳機能イメージング．<br><br><strong>Thomas Knöpfel（トーマス クヌェッフェル）</strong><br>理化学研究所脳科学総合研究センター チームチームリーダー．<br>研究室URL：<a href="http://neurodynamics.brain.riken.jp/" target="_blank">http://neurodynamics.brain.riken.jp/</a><br></div><br>© 2010 武藤弘樹・Thomas Knöpfel Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

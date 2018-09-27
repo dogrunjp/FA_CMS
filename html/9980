@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 時計タンパク質は臨界期のタイミングを制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/9980" rel="bookmark">時計タンパク質は臨界期のタイミングを制御する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>小林洋平・ヘンシュ貴雄</strong><br>（米国Harvard大学Center for Brain Science）<br>email：<a href="mailto:yohei.kobayashi@childrens.harvard.edu">小林洋平</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.042">10.7875/first.author.2015.042</a><br><div class="reference"><br><span class="ti">Clock genes control cortical critical period timing.</span><br><span class="au">Yohei Kobayashi, Zhanlei Ye, Takao K. Hensch</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25801703" target="_blank"><em>Neuron</em>, <strong>86</strong>, 264-275 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 時計タンパク質">時計タンパク質</a>が発振する<a href="#" class="anno 概日リズム">概日リズム</a>はさまざまな<a href="#" class="anno 生理機能">生理機能</a>を制御しているが，脳における役割は時計中枢である<a href="#" class="anno 視交叉上核">視交叉上核</a>を除き不明な点が多い．筆者らは，<a href="#" class="anno <a href="#" class="anno 幼若">幼若</a>期">幼若期</a>の大脳皮質において神経の<a href="#" class="anno 可塑性">可塑性</a>が亢進する<a href="#" class="anno 臨界期">臨界期</a>の决定に時計タンパク質が関与することを明らかにした．時計タンパク質のひとつである<a href="#" class="anno C<a href="#" class="anno LOC">LOC</a>K">CLOCK</a>を欠損したマウスは，大脳皮質の<a href="#" class="anno 1次<a href="#" class="anno 視覚野">視覚野</a>">1次視覚野</a>において臨界期が遅延した．これは，<a href="#" class="anno 抑制性">抑制性</a>ニューロンのひとつである<a href="#" class="anno パルブ<a href="#" class="anno アルブミン">アルブミン</a>">パルブアルブミン</a>陽性ニューロンが形成する<a href="#" class="anno 神経回路">神経回路</a>が<a href="#" class="anno 未成熟">未成熟</a>であることに起因し，GABA伝達の促進により解消された．また，パルブアルブミン陽性ニューロンに存在するCLOCKおよびそのパートナータンパク質であるB<a href="#" class="anno MA">MA</a><a href="#" class="anno L1">L1</a>が，パルブアルブミン陽性ニューロンが形成する神経回路の形成および臨界期の决定において重要であり，それらの下流の遺伝子としてシナプスの機能や細胞の<a href="#" class="anno 恒常性">恒常性</a>にかかわる遺伝子の関与が示唆された．この研究は，時計タンパク質が脳の発達および神経の可塑性を制御することを示したはじめての報告である．<br/><br/><h2>はじめに</h2><br/>　地球に暮らすわれわれの生活は約24時間周期の概日リズムにより支配されている．菌類から植物および動物にいたるまで，ほとんどの生物は概日リズムに適応するように進化し，個体を構成する<a href="#" class="anno 大部分">大部分</a>の細胞は概日リズムを発振している．この体内時計は睡眠および覚醒，<a href="#" class="anno ホルモン分泌">ホルモン分泌</a>，体温および血<a href="#" class="anno 圧">圧</a>の調節，代謝の制御など，さまざまな生理機能を制御しており，概日リズムの異常は<a href="#" class="anno 睡眠障害">睡眠障害</a>，<a href="#" class="anno <a href="#" class="anno 生活習慣">生活習慣</a>病">生活習慣病</a>，<a href="#" class="anno 精神疾患">精神疾患</a>などにかかわると考えられている<a href="#R1"><sup>1)</sup></a>．<br/>　1972年の哺乳類の時計中枢である<a href="#" class="anno 視床下部">視床下部</a>の視交叉上核の発見に端を発し<a href="#R2"><sup>2,3)</sup></a>，脳における概日リズムの研究は視交叉上核を主体として研究されてきた．視交叉上核は網膜から受け取った光の情報を<a href="#" class="anno も">も</a>とに概日リズムを発振し，全身の概日リズムを同調させる<a href="#" class="anno 中心的">中心的</a>な役割をもつと考えられている．また，1997年の<em><a href="#" class="anno Cl">Cl</a>ock</em>遺伝子の発見以来，哺乳類において概日リズムの形成にかかわる多くの時計タンパク質が同定された<a href="#R4"><sup>4)</sup></a>．時計の進行を正に制御するCLOCK-<a href="#" class="anno BMAL1">BMAL1</a><a href="#" class="anno 複合体">複合体</a>，また，CLOCK-BMAL1複合体により発現が制御され時計の進行を負に制御する<a href="#" class="anno PER">PER</a>および<a href="#" class="anno CRY">CRY</a>が負の<a href="#" class="anno フィードバックループ">フィードバックループ</a>を形成し，約24時間周期のリズムを発振する．これらの時計タンパク質は視交叉上核のみならず脳のほとんどの領域に存在しているが<a href="#R5"><sup>5)</sup></a>，それらの役割はよくわかっていない．とりわけ，概日リズムの異常と精神疾患との<a href="#" class="anno 関連性">関連性</a>をふまえると，高次の<a href="#" class="anno 脳機能">脳機能</a>をつかさどる大脳皮質に存在する時計タンパク質の役割を理解することは重要である．<br/>　筆者らは，時計タンパク質が哺乳類の大脳皮質の発達および神経の可塑性を制御することを見い<a href="#" class="anno 出し">出し</a>た．時計タンパク質のひとつCLOCKを欠損したマウスでは，経験に<a href="#" class="anno 依存的">依存的</a>に神経の可塑性が誘導される時期である臨界期のタイミングが遅延した．また，<a href="#" class="anno 抑制性ニューロン">抑制性ニューロン</a>のひとつであるパルブアルブミン陽性ニューロンに内在する時計タンパク質が，パルブアルブミン陽性ニューロンが形成する神経回路の形成および臨界期の决定において必要であった．幼若期におけるパルブアルブミン陽性ニューロンの成熟は<a href="#" class="anno 興奮性">興奮性</a>の<a href="#" class="anno 神経伝達">神経伝達</a>および抑制性の神経伝達のバランスを<a href="#" class="anno 最適化">最適化</a>し，臨界期の開始を誘導することが知られている<a href="#R6"><sup>6)</sup></a>．この研究により，パルブアルブミン陽性ニューロンに存在する時計タンパク質がパルブアルブミン陽性ニューロンが形成する適切な神経回路の形成を促進し，脳における可塑性の時期を决定していることが明らかにされた．<br/><br/><h2>1．大脳皮質における<a href="#" class="anno 時計遺伝子">時計遺伝子</a>の発現の振動は幼若期に形成される</h2><br/>　視交叉上核における概日リズムは出生の直前より観察されるが，大脳皮質における概日リズムの発達についてはよくわかっていない．そこで，マウスの大脳皮質の1次視覚野における概日リズムの形成を，CLOCK-BMAL1複合体により転写の誘導される時計遺伝子，<em>Dbp</em>遺伝子，<em><a href="#" class="anno Per">Per</a>1</em>遺伝子，<em>Per2</em>遺伝子の発現をもとに調べた．これら時計遺伝子の発現の振動は開眼ののち（生後12日）から観察されはじめ，成体（生後60日以降）になるまでに確立された．とくに，時計遺伝子の発現の振動の形成は1次視覚野における臨界期の開始と時期を<a href="#" class="anno 同じ">同じ</a>くしていたことから，概日リズムの形成が臨界期に影響を及ぼすとの仮説をたてた．<br/><br/><h2>2．CLOCKは臨界期のタイミングを决定する</h2><br/>　CLOCK-BMAL1複合体に起因する概日リズムが臨界期にあたえる影響について調べるため，CLOCK<a href="#" class="anno ノックアウトマウス">ノックアウトマウス</a><a href="#R7"><sup>7)</sup></a> を解析に用いた．CLOCKノックアウトマウスでは大脳皮質の1次視覚野における時計遺伝子<em>Dbp</em>遺伝子の発現は顕著に低下しており，概日リズムの<a href="#" class="anno 減弱">減弱</a>が<a href="#" class="anno 分子レベル">分子レベル</a>において確認された．<br/>　CLOCKの欠損が臨界期の形成にあたえる影響について調べるため，臨界期のマウスおよび成体のマウスにおいて4日間にわたり<a href="#" class="anno 片眼">片眼</a>を遮蔽し，視力を測定することにより大脳皮質の1次視覚野における神経の可塑性の有無を解析した．臨界期における片眼の遮蔽ののち，<a href="#" class="anno 野生型">野生型</a>マウスでは<a href="#" class="anno 視力の低下">視力の低下</a>が認められ神経の可塑性の存在が確認されたが，CLOCKノックアウトマウスでは視力に変化はなかった．一方，成体における片眼の遮蔽により，<a href="#" class="anno 野生型マウス">野生型マウス</a>では視力の変化は認められなかったが，CLOCKノックアウトマウスでは視力はいちじるしく低下した．これらの結果から，CLOCKノックアウトマウスでは臨界期が遅れて誘導されることが示された．興味深いことに，臨界期のCLOCKノックアウトマウスにGABA<a href="#" class="anno 受容体">受容体</a>の機能を促進する<a href="#" class="anno <a href="#" class="anno ベンゾ">ベンゾ</a>ジアゼ<a href="#" class="anno ピン">ピン</a>">ベンゾジアゼピン</a>を注入したところ，野生型マウスと同様に臨界期においてのみ神経の可塑性が認められた．以上の結果から，CLOCKノックアウトマウスで観察される臨界期の遅延は抑制性の神経伝達の低下によりひき起こされていると考えられた．<br/><br/><h2>3．CLOCKはパルブアルブミン陽性ニューロンが形成する神経回路の成熟を制御する</h2><br/>　CLOCKの欠損がどの神経回路に影響をあたえているかを調べるため，CLOCKノックアウトマウスにおいて<a href="#" class="anno 興奮性ニューロン">興奮性ニューロン</a>および抑制性ニューロンの各種のマー<a href="#" class="anno カ">カ</a>ーの発現を定量した．その結果，抑制性ニューロンのマーカーのひとつであるパルブアルブミンの発現のみが臨界期および成体において顕著に低下していた．パルブアルブミンそれ自体の発現に概日リズムは認められなかったことから，パルブアルブミンはCLOCK-BMAL1複合体の直接の標的ではないと考えられた．パルブアルブミン陽性ニューロンが形成する神経回路を<a href="#" class="anno 免疫染色">免疫染色</a>法により<a href="#" class="anno 可視化">可視化</a>したところ，パルブアルブミン陽性ニューロンの数およびパルブアルブミン陽性ニューロンから興奮性ニューロンへの入力が減少していた．また，パルブアルブミン陽性ニューロンをとりかこむペリニューロナルネットの成熟も遅延していた．ペリニューロナルネットは成体において神経の可塑性を制限することが知られていることから<a href="#R8"><sup>8)</sup></a>，ペリニューロナルネットの減少は成体のCLOCKノックアウトマウスにおいて確認された神経の可塑性の一因であると考えられた．さらに，パッチ<a href="#" class="anno クランプ">クランプ</a>法により神経伝達を<a href="#" class="anno 電気<a href="#" class="anno 生理学的">生理学的</a>"><a href="#" class="anno 電気生理">電気生理</a>学的</a>に解析したところ，CLOCKノックアウトマウスにおいては興奮性ニューロンに対する微小<a href="#" class="anno 抑制性シナプス">抑制性シナプス</a>後電流が減少しており，<a href="#" class="anno 機能的">機能的</a>にも抑制性の神経伝達の低下が示された．<br/><br/><h2>4．CLOCKはパルブアルブミン陽性ニューロンにおいて特定の遺伝子の発現を制御する</h2><br/>　パルブアルブミン陽性ニューロンおよびほかの抑制性ニューロンにおけるCLOCKに依存的な時計タンパク質の発現の制御について調べるため，1次視覚野におけるCLOCKおよびその標的である<a href="#" class="anno PER1">PER1</a>の発現を<a href="#" class="anno 免疫<a href="#" class="anno 染色法">染色法</a>">免疫染色法</a>により可視化した．CLOCKは80％以上のパルブアルブミン陽性ニューロンにおいて発現していた一方，ほかの抑制性ニューロンである<a href="#" class="anno ソマトスタチン">ソマトスタチン</a>陽性ニューロンおよびカルレチニン陽性ニューロンではその約40％にしか発現していなかった．また，パルブアルブミン陽性ニューロンにおいてCLOCKに依存的なPER1の概日リズムが認められた．<br/>　パルブアルブミン陽性ニューロンが形成する神経回路の成熟をCLOCKに依存的に制御する遺伝子を特定するため，野生型マウスおよびCLOCKノックアウトマウスのパルブアルブミン陽性ニューロンにおける<a href="#" class="anno 遺伝子発現">遺伝子発現</a>を<a href="#" class="anno <a href="#" class="anno マイクロアレイ">マイクロアレイ</a>法">マイクロアレイ法</a>により<a href="#" class="anno 網羅的">網羅的</a>に解析したところ，シナプスの機能，ミトコンドリアの機能，<a href="#" class="anno A<a href="#" class="anno TP">TP</a><a href="#" class="anno ase">ase</a>">ATPase</a>活性に関与する遺伝子の発現が有意に変化していた．この結果から，パルブアルブミン陽性ニューロンにおいてシナプスおよび恒常性に関与する遺伝子がCLOCKにより制御され，パルブアルブミン陽性ニューロンが形成する神経回路の成熟および維持にかかわっていることが示唆された．<br/><br/><h2>5．パルブアルブミン陽性ニューロンに内在するCLOCKが臨界期のタイミングを决定する</h2><br/>　CLOCKのはたらきがパルブアルブミン陽性ニューロンに内在するものによるかどうかを調べるため，パルブアルブミン陽性ニューロンに<a href="#" class="anno 特異的">特異的</a>なCLOCKノックアウトマウスを作製した．このノックアウトマウスでは<a href="#" class="anno 全身性">全身性</a>のCLOCKノックアウトマウスと同様にパルブアルブミン陽性ニューロンが形成する神経回路が未成熟となり，それにともない臨界期の遅延が認められた．また，CLOCKのパートナータンパク質であるBMAL1のパルブアルブミン陽性ニューロンに特異的なノックアウトマウスにおいても同様の結果が得られた．一方で，興奮性ニューロンに特異的なBMAL1ノックアウトマウスではこのような<a href="#" class="anno 表現型">表現型</a>は認められなかった．以上の結果から，パルブアルブミン陽性ニューロンに存在するCLOCK-BMAL1複合体がパルブアルブミン陽性ニューロンが形成する神経回路の成熟を制御し臨界期を决定していることが明らかにされた（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　時計タンパク質CLOCK-BMAL1複合体による臨界期の制御</strong><br/>（a）野生型マウス．パルブアルブミン陽性ニューロンの成熟にともない臨界期が誘導される．<br/>（b）パルブアルブミン陽性ニューロンにおいてCLOCKあるいはBMAL1を欠損したマウス．パルブアルブミン陽性ニューロンが形成する神経回路の成熟が遅れ，それにともない臨界期が遅延する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kobayashi-Neuron-15.4.8-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　時計タンパク質CLOCK-BMAL1複合体による臨界期の制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kobayashi-Neuron-15.4.8-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kobayashi-Neuron-15.4.8-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究は，視交叉上核の外部の時計タンパク質が脳の発達および神経の可塑性に関与していることをはじめて示した点で重要である．時計タンパク質による遺伝子発現の制御は強い<a href="#" class="anno 光刺激">光刺激</a>や睡眠遮断など周囲の環境により影響されることが知られていることから，<a href="#" class="anno 環境要因">環境要因</a>がCLOCKに依存的な遺伝子発現を変化させることにより神経の可塑性に影響をあたえることが示唆された．マイクロアレイ法による網羅的な解析によりCLOCKノックアウトマウスのパルブアルブミン陽性ニューロンにおいて発現が変化していた遺伝子としてシナプスの入力および出力，細胞の恒常性にかかわる遺伝子が同定され，これらが独立あるいは<a href="#" class="anno 協調的">協調的</a>にパルブアルブミン陽性ニューロンが形成する神経回路の成熟にかかわっていると考えられた．興味深いことに，さまざまな精神疾患において時計遺伝子の変異が認められている<a href="#R9"><sup>9)</sup></a>．くわえて，パルブアルブミン陽性ニューロンに起因する抑制性の神経伝達もまた自閉症や<a href="#" class="anno 統合失調症">統合失調症</a>といった精神疾患において変調していること<a href="#R10"><sup>10)</sup></a>，また，この研究において同定されたCLOCKノックアウトマウスのパルブアルブミン陽性ニューロンにおいて発現が変化していた遺伝子の多くもまたこれらの精神疾患において変異が確認されている<a href="#R11"><sup>11,12)</sup></a>．パルブアルブミン陽性ニューロンにおける時計タンパク質の役割を明らかにすることにより，精神疾患の原因を<a href="#" class="anno 根本的">根本的</a>に理解する一歩になればと思う．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Takahashi, J. S., Hong, H. K., Ko, C. H. et al.</span>: <span class="ti">The genetics of mammalian circadian order and disorder: implications for physiology and disease.</span> <span class='so'>Nat. Rev. Genet., 9, 764-775 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18802415" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Moore, R. Y. & Eichler, V. B.</span>: <span class="ti">Loss of a circadian adrenal corticosterone rhythm following suprachiasmatic lesions in the rat.</span> <span class='so'>Brain Res., 42, 201-206 (1972)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/5047187" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Stephan, F. K. & Zucker, I.</span>: <span class="ti">Circadian rhythms in drinking behavior and locomotor activity of rats are eliminated by hypothalamic lesions.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 69, 1583-1586 (1972)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/4556464" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Lowrey, P. L. & Takahashi, J. S.</span>: <span class="ti">Genetics of circadian rhythms in mammalian model organisms.</span> <span class='so'>Adv. Genet., 74, 175-230 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21924978" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Yan, L., Miyake, S. & Okamura, H.</span>: <span class="ti">Distribution and circadian expression of <em>dbp</em> in SCN and extra-SCN areas in the mouse brain.</span> <span class='so'>J. Neurosci. Res., 59, 291-295 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10650888" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Hensch, T. K.</span>: <span class="ti">Critical period plasticity in local cortical circuits.</span> <span class='so'>Nat. Rev. Neurosci., 6, 877-888 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16261181" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Debruyne, J. P., Noton, E., Lambert, C. M. et al.</span>: <span class="ti">A clock shock: mouse CLOCK is not required for circadian oscillator function.</span> <span class='so'>Neuron, 50, 465-477 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16675400" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Pizzorusso, T., Medini, P., Berardi, N. et al.</span>: <span class="ti">Reactivation of ocular dominance plasticity in the adult visual cortex.</span> <span class='so'>Science, 298, 1248-1251 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12424383" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Wulff, K., Gatti, S., Wettstein, J. G. et al.</span>: <span class="ti">Sleep and circadian rhythm disruption in psychiatric and neurodegenerative disease.</span> <span class='so'>Nat. Rev. Neurosci., 11, 589-599 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20631712" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Marin, O.</span>: <span class="ti">Interneuron dysfunction in psychiatric disorders.</span> <span class='so'>Nat. Rev. Neurosci., 13, 107-120 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22251963" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Basu, S. N., Kollu, R., Banerjee-Basu, S.</span>: <span class="ti">AutDB: a gene reference resource for autism research.</span> <span class='so'>Nucleic Acids Res., 37, D832-D836 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19015121" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Allen, N. C., Bagade, S., McQueen, M. B. et al.</span>: <span class="ti">Systematic meta-analyses and field synopsis of genetic association studies in schizophrenia: the SzGene database.</span> <span class='so'>Nat. Genet., 40, 827-834 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18583979" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/17_02.html" target="_blank">17.2 Excitation of Nerve Cells and Transmission of Excitation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/05_03.html" target="_blank">5.3 The Autonomic Nervous System</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_01.html" target="_blank">20.1 Sensation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_02.html" target="_blank">20.2 Central Nervous System and Control</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_03.html" target="_blank">20.3 Control of output to effectors</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">小林 洋平（Yohei Kobayashi）</span><br>略歴：2008年 京都大学大学院生命科学研究科博士課程 修了，同年 同 博士研究員を経て，2010年より米国Harvard大学 ポストドクトラルフェロー．<br>研究テーマ：脳の発達期における臨界期の分子機構．<br>関心事：2歳になる息子と遊びながら，この子の脳のなかでいったい何が起こっているのだろうと考えをめぐらすこと．<br><br><strong>ヘンシュ 貴雄（Takao Hensch）</strong><br>米国Harvard大学 教授．<br>研究室URL：<a href="http://henschlab.mcb.harvard.edu/" target="_blank">http://henschlab.mcb.harvard.edu/</a><br></div><br>© 2015 小林洋平・ヘンシュ貴雄 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

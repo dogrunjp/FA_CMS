@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Rhoと微小管がひき起こす対称性の破れによる細胞壁パターンの形成 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/5832" rel="bookmark">Rhoと微小管がひき起こす対称性の破れによる細胞壁パターンの形成</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>小田祥久・福田裕穂</strong><br>（東京大学大学院理学系研究科 生物科学専攻生体制御研究室）<br>email：<a href="mailto:oda@biol.s.u-tokyo.ac.jp">小田祥久</a>，<a href="mailto:fukuda@biol.s.u-tokyo.ac.jp">福田裕穂</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.122">10.7875/first.author.2012.122</a><br><div class="reference"><br><span class="ti">Initiation of cell wall pattern by a Rho- and microtubule-driven symmetry breaking.</span><br><span class="au">Yoshihisa Oda, Hiroo Fukuda</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22984069" target="_blank"><em>Science</em>, <strong>337</strong>, 1333-1336 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　植物において細胞の形態や機能は<a href="#" class="anno 細胞壁">細胞壁</a>に大きく依存しているが，細胞壁のパターンをつくりだす<a href="#" class="anno 分子機構">分子機構</a>は明らかにされていない．筆者らは，<a href="#" class="anno 特徴的">特徴的</a>なパターンの細胞壁を沈着する木部道管をモ<a href="#" class="anno デ">デ</a>ルとして細胞壁のパターンをつくりだす分子機構を解析した．その結果，<a href="#" class="anno Rho">Rho</a>タイプの<a href="#" class="anno 低分子">低分子</a>量<a href="#" class="anno G<a href="#" class="anno TP">TP</a><a href="#" class="anno ase">ase</a>">GTPase</a>である<a href="#" class="anno ROP1">ROP1</a>1がR<a href="#" class="anno OPG">OPG</a><a href="#" class="anno EF">EF</a>4およびROPG<a href="#" class="anno AP3">AP3</a>により<a href="#" class="anno 局所的">局所的</a>に<a href="#" class="anno 活性化">活性化</a>され，<a href="#" class="anno 微小管">微小管</a>の<a href="#" class="anno 脱重合">脱重合</a>を促進するタンパク質MIDD1と結合することにより，細胞壁の合成においてレールとなる表層微小管の脱重合を促進していることがわかった．一方，表層微小管はMIDD1を介し<a href="#" class="anno 活性型">活性型</a>ROP11の<a href="#" class="anno 細胞膜">細胞膜</a>ドメインの拡散を抑制していた．この表層微小管と活性型ROP11との<a href="#" class="anno 排他的">排他的</a>な<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>が木部道管における特徴的な細胞壁パターンをつくりだしている<a href="#" class="anno も">も</a>のと考えられた．MIDD1はほかの細胞でも発現していることから，同様の分子機構がほかの細胞においてもはたらいている<a href="#" class="anno 可能性">可能性</a>が考えられた．<br/><br/><h2>はじめに</h2><br/>　植物において細胞はセルロース微繊維をおもな成分とする細胞壁によりおおわれている．これが“たが”となって細胞の成長を制限するため，セルロース微繊維の位置と方向が細胞の<a href="#" class="anno かた">かた</a>ちを決定しているものと考えられている．セルロース微繊維は細胞膜に埋め込まれたセルロース合成<a href="#" class="anno 酵素<a href="#" class="anno 複合体">複合体</a>">酵素複合体</a>が表層微小管にそって移動することにより合成される．<a href="#" class="anno そのため">そのため</a>，表層微小管の配向にしたがってセルロース微繊維が形成され，そのセルロース微繊維に依存して細胞壁のパターンが形成される．表層微小管は重合，脱重合，束化，切断などの制御をうけている<a href="#R1"><sup>1)</sup></a>．<br/>　筆者らは，表層微小管の配向を制御し細胞壁のパターンをつくりだす分子機構を明らかにするため，特徴的なパターンの細胞壁をつくる木部道管に着目し研究を行った．木部道管の細胞は強固で<a href="#" class="anno 疎水的">疎水的</a>な<a href="#" class="anno <a href="#" class="anno 二次">二次</a>細胞壁">二次細胞壁</a>を沈着し，そののち，<a href="#" class="anno プログラム<a href="#" class="anno 細胞死">細胞死</a>">プログラム細胞死</a>を起こすことにより中空の管となる．木部道管は，らせん，網目，孔紋様など，特徴的な二次細胞壁パターンをもつ<a href="#R2"><sup>2)</sup></a>．孔紋様のパターンでは二次細胞壁の沈着しない孔状の構造（<a href="#" class="anno 壁孔">壁孔</a>）が散在する（<a href="#F1">図1</a>）．これまでに，筆者らは，<a href="#" class="anno シロイヌナズナ">シロイヌナズナ</a>（<em>Arabidopsis thaliana</em>）の<a href="#" class="anno 培養細胞">培養細胞</a>を用いて，孔紋様のパターンをもつ二次細胞壁を沈着する木部道管の<a href="#" class="anno 高頻度">高頻度</a>かつ<a href="#" class="anno 同調的">同調的</a>な<a href="#" class="anno 分化誘導">分化誘導</a>系を確立した<a href="#R3"><sup>3)</sup></a>．そして，この<a href="#" class="anno 実験系">実験系</a>を用いた<a href="#" class="anno <a href="#" class="anno マイクロアレイ">マイクロアレイ</a>解析">マイクロアレイ解析</a><a href="#R4"><sup>4)</sup></a> と<a href="#" class="anno 細胞内">細胞内</a>局在の<a href="#" class="anno 網羅的">網羅的</a>な解析により，新規の微小管付随タンパク質MIDD1を見い<a href="#" class="anno 出し">出し</a>た．MIDD1は未知の細胞膜ドメインにアン<a href="#" class="anno カ">カ</a>ーされ，表層微小管の脱重合を局所的に促進することにより壁孔の形成を誘導していた<a href="#R3"><sup>3)</sup></a>．MIDD1は植物に<a href="#" class="anno 特異的">特異的</a>なRhoタイプの低<a href="#" class="anno 分子量">分子量</a>GTPaseであるROP GTPaseの活性型と<a href="#" class="anno C末端">C末端</a>の近傍にあるモチーフを介し結合することから<a href="#R5"><sup>5)</sup></a>，ROP GTPaseがMIDD1を細胞膜ドメインにアンカーしている可能性が考えられた．そこで，今回の研究では，ROP GTPaseに着目し二次細胞壁パターンを確立する分子機構を解析した．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　木部道管の分化における孔紋様の二次細胞壁パターンの形成過程</strong><br/>はじめに，ROPGEF4の周囲においてROP11が活性化し，活性化したROP11によりMIDD1が細胞膜にアンカーされる．ROPGAP3はROPGEF4の周囲においてROP11を不活性化しているものと考えられる．つぎに，MIDD1が局所的に表層微小管の脱重合を促進することにより，表層微小管の消失した領域に壁孔が形成される．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/10/Fukuda-Science-12.9.14-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　木部道管の分化における孔紋様の二次細胞壁パターンの形成過程" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukuda-Science-12.9.14-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukuda-Science-12.9.14-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．局所的なROP11の活性化がMIDD1を介し壁孔の形成を誘導する</h2><br/>　まず，MIDD1とともにはたらくROP GTPaseを探索した．シロイヌナズナには11種のROP GTPaseの遺伝子が存在する．このうち，どのROP GTPaseが壁孔の形成に関与しているかを木部道管における特異的な発現と<a href="#" class="anno 細胞内局在">細胞内局在</a>から探索した．その結果，ROP11が木部道管の壁孔において繊維状の構造に顕著に蓄積することが明らかになった．さらなる解析から，MIDD1とROP11とが壁孔の表層微小管において<a href="#" class="anno 共局在">共局在</a>していることがわかった．つぎに，MIDD1とROP11とが壁孔において直接に相互作用しているかどうかを，<a href="#" class="anno BiFC">BiFC</a>（bimolecular fluorescence comp<a href="#" class="anno lem">lem</a>entation，二分子蛍光<a href="#" class="anno 相補性">相補性</a>）法およびF<a href="#" class="anno RET">RET</a>（fluorescence resonance energy <a href="#" class="anno tra">tra</a>nsfer，<a href="#" class="anno 蛍光共鳴<a href="#" class="anno エネルギー移動">エネルギー移動</a>">蛍光共鳴エネルギー移動</a>）法により検証した．その結果，ROP11は壁孔において活性型として細胞膜ドメインに局在し，MIDD1と相互作用していることが示唆された．<a href="#" class="anno 恒常的">恒常的</a>な活性型のROP11を発現させると細胞の細胞壁の全体にMIDD1が分布し，二次細胞壁も細胞の全体に形成され壁孔の形成は起こらなかった．この結果は，局所的なROP11の活性化がMIDD1を介した壁孔の形成に必須であることを示唆した．<br/><br/><h2>2．ROP<a href="#" class="anno GEF">GEF</a>4とROP<a href="#" class="anno GAP">GAP</a>3が壁孔における局所的なROP11活性化を制御する</h2><br/>　ROP GTPaseはROPGEF（GEF：guanine <a href="#" class="anno nucl">nucl</a>eot<a href="#" class="anno ide">ide</a> exc<a href="#" class="anno hang">hang</a>e fac<a href="#" class="anno tor">tor</a>，<a href="#" class="anno グアニン">グアニン</a><a href="#" class="anno ヌクレオチド">ヌクレオチド</a>交換因子）により活性型（GTP<a href="#" class="anno 結合型">結合型</a>）に，ROPGAP（GAP：GTPase-activating <a href="#" class="anno pro">pro</a>tein，GTPase<a href="#" class="anno 活性化タンパク質">活性化タンパク質</a>）により<a href="#" class="anno 不活性">不活性</a>型（<a href="#" class="anno GDP結合型">GDP結合型</a>）に変換される．そこで，壁孔においてROP11の局所的な活性化にはたらくROPGEFとROPGAPを探索した．木部道管において発現するROPGEFおよびROPGAPのなかから壁孔に局在するものを調べたところ，ROPGAP3が壁孔の細胞膜に局在していた．植物のROPGEFは，保存されたGEF活性ドメインである<a href="#" class="anno PRO">PRO</a>NEと，<a href="#" class="anno N末端">N末端</a>およびC末端の<a href="#" class="anno 可変領域">可変領域</a>からなり，可変領域はそれ自体のGEF活性を抑制することが報告されている<a href="#R6"><sup>6)</sup></a>．そこでPRONEの細胞内局在を観察した．その結果，<a href="#" class="anno ROPGEF4">ROPGEF4</a>のPRONE（ROPGEF4<sup>PRONE</sup>）が壁孔の細胞膜に局在することを見い出した．興味深いことに，ROPGEF4<sup>PRONE</sup>は壁孔の中央付近に，ROPGAP3はROPGEF4<sup>PRONE</sup>の局在する領域を含め壁孔の全体に局在していた．このようなROPGEF4<sup>PRONE</sup>の局在は二次細胞壁の形成にさきだち観察されたことから，ROPGEF4が壁孔の形成を誘導するROP11の局所的な活性化を担っている可能性が考えられた．ROPGEF4の<a href="#" class="anno T-DNA挿入">T-DNA挿入</a><a href="#" class="anno 変異体">変異体</a>である<em>ropgef4-1</em>変異体，および，<a href="#" class="anno RNAi">RNAi</a>による<a href="#" class="anno 発現抑制">発現抑制</a>体である<em>ropgef4-KD</em>変異体において，根の木部道管では壁孔の密度が著しく低下していた．これらの結果は，ROPGEF4は壁孔の形成に必要であり，ROP11の局所的な活性化を介し壁孔の形成を誘導している可能性を示唆した（<a href="#F1">図1</a>）．<br/><br/><h2>3．局所的なROP11活性化の<a href="#" class="anno 再構築">再構築</a></h2><br/>　局所的にROP11が活性化されるしくみを明らかにするため再構築実験を試みた．道管に分化しないシロイヌナズナ培養<a href="#" class="anno 細胞株">細胞株</a>に，<a href="#" class="anno エストロゲン">エストロゲン</a>による<a href="#" class="anno 発現誘導">発現誘導</a>系<a href="#R7"><sup>7)</sup></a> を用いてROP11，ROPGAP3，ROPGEF4<sup>PRONE</sup>をすべて<a href="#" class="anno 共発現">共発現</a>させた．その結果，ROPGEF4<sup>PRONE</sup>は壁孔に似た<a href="#" class="anno パッチ状">パッチ状</a>の局在を示した．このパッチ状に局在したROPGEF4<sup>PRONE</sup>が局所的にROP11を活性化しているかどうかを調べた．活性型ROP11はMIDD1をリクルートすることから，MIDD1を共発現させその局在を調べた．その結果，MIDD1はROPGEF4<sup>PRONE</sup>の周囲に局在していた．さらに，ROPGEF4<sup>PRONE</sup>の周囲において表層微小管は消失し，道管においてみられるような表層微小管のパターンが形成されていた．これらの結果は，ROPGEF4<sup>PRONE</sup>とROPGAP3が局所的なROP11の活性化を誘導し，MIDD1による表層微小管の脱重合をひき起こすのに十分であることを示していた．同様に，<a href="#" class="anno 遺伝子導入">遺伝子導入</a>の容易なタバコ（<em>Nicotiana benthamiana</em>）の葉の表皮を用いて<a href="#" class="anno 定量的">定量的</a>な解析を行った．その結果も，局所的なROP11の活性化にはROPGEF4<sup>PRONE</sup>，ROPGAP3，ROP11がすべて必要であり，ROP11のGTP/GDP<a href="#" class="anno サイクリン">サイクリン</a>グがROP11の局所的な活性化に必須であることを証明した．また，<a href="#" class="anno 細胞骨格">細胞骨格</a>の構築に対する<a href="#" class="anno 阻害剤">阻害剤</a>を用いることにより，この現象は微小管および<a href="#" class="anno <a href="#" class="anno アクチン">アクチン</a>繊維">アクチン繊維</a>を必要とし<a href="#" class="anno ないこと">ないこと</a>がわかった．これらの結果から，ROPGEF4<sup>PRONE</sup>とROPGAP3によるROP11のGTP/GDPサイクリングにより，<a href="#" class="anno 自発的">自発的</a>に局所的なROP11の活性化がひき起こされているものと考えられた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ROP GTPaseと表層微小管による二次細胞壁パターンの構築モデル</strong><br/>ROPGEF4とROPGAP3によるROP11のGTP/GDPサイクリングから自発的に活性型ROP11の細胞膜ドメインが形成される．活性型ROP11はMIDD1を介し表層微小管の脱重合を促進し，表層微小管はMIDD1を介し活性型ROP11の局在を制限することにより，表層微小管と活性型ROP11の細胞膜ドメインとが排他的に相互作用する．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/10/Fukuda-Science-12.9.14-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ROP GTPaseと表層微小管による二次細胞壁パターンの構築モデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukuda-Science-12.9.14-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukuda-Science-12.9.14-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>4．表層微小管はMIDD1を介し活性型ROP11の細胞膜ドメインを<a href="#" class="anno 局在化">局在化</a>する</h2><br/>　一方で，表層微小管が活性型ROP11の細胞膜ドメインを制御していることが明らかになった．微小管を<a href="#" class="anno 安定化">安定化</a>する<a href="#" class="anno タキソール">タキソール</a>を投与したところ，細胞膜ドメインの形態が細長くなり，<a href="#" class="anno 網目状">網目状</a>の二次細胞壁パターンが形成された．一方，微小管の重合阻害剤であるオリザリンを投与した場合には，活性型ROP11の細胞膜ドメインは拡散し消失した．そこで，表層微小管と活性型ROP11の細胞膜ドメインの局在との関係を，表層微小管の密度の低い成熟したタバコの葉の表皮を用いて調査した．さきと同様の再構築系を用いて解析したところ，表層微小管にかこまれた<a href="#" class="anno 多角形">多角形</a>の領域に活性型ROP11の細胞膜ドメインが閉じ込められていることが明らかになった．薬剤処理により微小管を破壊すると細胞膜ドメインは円形になった．<a href="#" class="anno 微小管結合">微小管結合</a>領域を除いたMIDD1とROP11をタバコの葉の表皮に共発現させたところ，ROP11がMIDD1に<a href="#" class="anno 依存的">依存的</a>に表層微小管の近傍から排除された．以上の結果から，表層微小管はMIDD1を介し活性型ROP11の細胞膜ドメインを制限していることが示された（<a href="#F2">図2</a>）．<br/><br/><h2>おわりに</h2><br/>　今回の研究により，ROP11のGTP/GDPサイクリングにより自発的に局所的なROP11の活性化が誘導されること，このROP11の活性化がMIDD1による表層微小管の脱重合をひき起こすのに十分であることが明らかになった．ROP11が局所的に活性化するしくみの詳細は<a href="#" class="anno 未解明">未解明</a>だが，ROPGEF4を<a href="#" class="anno アクチベーター">アクチベーター</a>，ROPGAP3を<a href="#" class="anno インヒビター">インヒビター</a>として考えれば，Tu<a href="#" class="anno rin">rin</a>gの反応拡散モデル<a href="#R8"><sup>8)</sup></a> により説明できるかもしれない．この反応拡散モデルにより説明するには正のフィードバックが必要であるが，<a href="#" class="anno 出芽酵母">出芽酵母</a>ではスカ<a href="#" class="anno フォールド">フォールド</a>タンパク質がRhoとGEFとのあいだの正のフィードバックを仲介することが報告されており<a href="#R9"><sup>9)</sup></a>，壁孔の形成でも類似した現象が起こっているのかもしれない．今回の研究では，活性型ROP11の細胞膜ドメインがMIDD1を介し表層微小管の脱重合を促進するだけでなく，表層微小管もまたMIDD1を介し活性型ROP11の細胞膜ドメインの拡散を制限することにより，表層微小管と活性型ROP11の細胞膜ドメインとが相互に排他的な作用をしていることが明らかになった（<a href="#F2">図2</a>）．この相互作用をつうじ二次細胞壁のパターンをつくりだしているものと考えられた．興味深いことに，MIDD1は道管のほかの細胞にも発現しており，表層微小管とROP GTPaseとの相互作用を仲介することにより道管のほかでも細胞壁の<a href="#" class="anno パターン形成">パターン形成</a>にかかわっている可能性が示唆された．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Wasteneys, G. O. & Ambrose, J. C.</span>: <span class="ti">Spatial organization of plant cortical microtubules: close encounters of the 2D kind.</span> <span class='so'>Trends Cell Biol., 19, 62-71 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19144522" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Oda, Y. & Fukuda, H.</span>: <span class="ti">Secondary cell wall patterning during xylem differentiation.</span> <span class='so'>Curr. Opin. Plant Biol., 15, 38-44 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22078063" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Oda, Y., Iida, Y., Kondo, Y. et al.</span>: <span class="ti">Wood cell-wall structure requires local 2D-microtubule disassembly by a novel plasma membrane-anchored protein.</span> <span class='so'>Curr. Biol., 20, 1197-1202 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20619818" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Ohashi-Ito, K., Oda, Y. & Fukuda, H.</span>: <span class="ti"><em>Arabidopsis</em> VASCULAR-RELATED NAC-DOMAIN6 directly regulates the genes that govern programmed cell death and secondary wall formation during xylem differentiation.</span> <span class='so'>Plant Cell, 22, 3461-3473 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20952636" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Mucha, E., Hoefle, C., Huckelhoven, R. et al.</span>: <span class="ti">RIP3 and AtKinesin-13A: a novel interaction linking Rho proteins of plants to microtubules.</span> <span class='so'>Eur. J. Cell Biol., 89, 906-916 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20832900" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Zhang, Y. & McCormick, S.</span>: <span class="ti">A distinct mechanism regulating a pollen-specific guanine nucleotide exchange factor for the small GTPase Rop in <em>Arabidopsis thaliana</em>.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 104, 18830-18835 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18000057" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Zuo, J., Niu, Q. W. & Chua, N. H.</span>: <span class="ti">Technical advance: An estrogen receptor-based transactivator XVE mediates highly inducible gene expression in transgenic plants.</span> <span class='so'>Plant J., 24, 265-273 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11069700" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Turing, A. M.</span>: <span class="ti">The chemical basis of morphogenesis.</span> <span class='so'>Proc. R. Soc. Lond. B. Biol. Sci., 237, 37-72 (1952)</span></li><br><li id="R9"><span class='au'>Kozubowski, L., Saito, K., Johnson, J. M. et al.</span>: <span class="ti">Symmetry-breaking polarization driven by a Cdc42p GEF-PAK complex.</span> <span class='so'>Curr. Biol., 18, 1719-1726 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19013066" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_04.html" target="_blank">11.4 Cytoskeleton</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_05.html" target="_blank">12.5 Exocytosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/22_05.html" target="_blank">22.5 Stem Growth and Branching</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_02.html" target="_blank">11.2 Characteristic Structures in Prokaryotes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_04.html" target="_blank">12.4 Protein Transport in Prokaryotic Cells</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">小田 祥久（Yoshihisa Oda）</span><br>略歴：2007年 東京大学大学院新領域創成科学研究科博士課程 修了，同年 東京大学大学院理学系研究科 研究員を経て，2011年より同 助教．科学技術振興機構さきがけ研究者 兼任．<br><br><strong>福田 裕穂（Hiroo Fukuda）</strong><br>東京大学大学院理学系研究科 教授．<br>研究室URL：<a href="http://www.biol.s.u-tokyo.ac.jp/users/seigyo/lab.html" target="_blank">http://www.biol.s.u-tokyo.ac.jp/users/seigyo/lab.html</a><br></div><br>© 2012 小田祥久・福田裕穂 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

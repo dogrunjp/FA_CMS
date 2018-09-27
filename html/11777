@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 階層的な多振動子からなるネットワークがシロイヌナズナの概日時計を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/11777" rel="bookmark">階層的な多振動子からなるネットワークがシロイヌナズナの概日時計を制御する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>高橋 望・Paloma Mas</strong><br>（スペインCentre for Research in Agricultural Genomics，Molecular Genetics Department）<br>email：<a href="mailto:nozomu.takahashi@cragenomica.es">高橋 望</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.116">10.7875/first.author.2015.116</a><br><div class="reference"><br><span class="ti">A hierarchical multi-oscillator network orchestrates the <em>Arabidopsis</em> circadian system.</span><br><span class="au">Nozomu Takahashi, Yoshito Hirata, Kazuyuki Aihara, Paloma Mas</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26406375" target="_blank"><em>Cell</em>, <strong>163</strong>, 148-159 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　約24時間の地球の自転の周期に適応するため，生物は体内に<a href="#" class="anno 概日時計">概日時計</a>を<a href="#" class="anno も">も</a>つ．そして，自己の時間の情報を統合するため，体内における概日時計のあいだのコミュニケーションが不可欠である．しかし，植物において，個々の細胞における概日時計がどのように<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>し，全体として<a href="#" class="anno 概日リズム">概日リズム</a>を刻んでいるかについての研究はあまり進んでいない．筆者らは，<a href="#" class="anno シロイヌナズナ">シロイヌナズナ</a>を用いて，器官ごとの概日時計の機能および器官どうしの概日時計のコミュニケーションについて調べ，<a href="#" class="anno 茎頂">茎頂</a>において細胞の個々の概日時計が互いに同調して器官の概日リズムを構成し，さらに，根における概日リズムを制御していることを明らかにした．<a href="#" class="anno 生細胞">生細胞</a><a href="#" class="anno イメージング">イメージング</a>，分散した<a href="#" class="anno プロト">プロト</a>プラストの脱同調，高次元空間での重心座標を用いた<a href="#" class="anno 数学的">数学的</a>な解析などから，おのおのの器官の概日時計には<a href="#" class="anno 階層的">階層的</a>な差異があり，そのなかでも，茎頂にある概日時計どうしがもっとも強く共役していることが見い出され，同調の<a href="#" class="anno 強さ">強さ</a>が概日時計に<a href="#" class="anno 頑強性">頑強性</a>および<a href="#" class="anno 特異的">特異的</a>な位相の制御能をもたらしていることが示された．また，茎頂の切除および接ぎ木が根における概日リズムに影響を及ぼしたことから，茎頂が離れた場所の概日時計を制御していることがわかった．哺乳類における<a href="#" class="anno 視交叉上核">視交叉上核</a>と同様に，植物においても茎頂を頂点とした概日時計の階層的な構造が存在すると考えられた．<br/><br/><h2>はじめに</h2><br/>　約24時間の地球の自転がもたらす周期による環境の変化に適応するため，およそすべての生物は体内に概日時計とよばれる<a href="#" class="anno 分子機構">分子機構</a>をもち，<a href="#" class="anno 生理的">生理的</a>な機能の<a href="#" class="anno 最適化">最適化</a>をはかっている．哺乳類では<a href="#" class="anno 視床下部">視床下部</a>にある視交叉上核に<a href="#" class="anno 中枢時計">中枢時計</a>が存在し，全身の<a href="#" class="anno 末梢時計">末梢時計</a>を制御する階層的な構造のあることが認められている<a href="#R1"><sup>1)</sup></a>．一方，植物の概日時計は個々の細胞において<a href="#" class="anno 自律的">自律的</a>に機能していると考えられてきたため，多くの研究は植物の全体を単位としていた．しかし，近年，植物においても，葉において<a href="#" class="anno 維管束">維管束</a>の概日時計が特異的に機能して<a href="#" class="anno 葉肉">葉肉</a>の概日時計を制御していることや<a href="#R2"><sup>2)</sup></a>，シュートと根では概日時計の機能に差異があり両者のあいだでシグナルが伝達されていることなどが報告され<a href="#R3"><sup>3)</sup></a>，植物の概日時計における器官あるいは組織ごとの<a href="#" class="anno 特異性">特異性</a>が認識されてきた．筆者らは，概日時計の器官ごとの機能をより深く知るため，<a href="#" class="anno モ<a href="#" class="anno デ">デ</a>ル植物">モデル植物</a>であるシロイヌナズナを用いた．<br/><br/><h2>1．分離された器官には概日リズムの<a href="#" class="anno 頑健性">頑健性</a>および精度に差異がある</h2><br/>　器官を分離し，概日時計において中心振動体を担う2つの<a href="#" class="anno 時計遺伝子">時計遺伝子</a>，朝に発現する<em><a href="#" class="anno CCA">CCA</a>1</em>遺伝子および夜に発現する<em>TO<a href="#" class="anno C1">C1</a></em>遺伝子について，それぞれの遺伝子の<a href="#" class="anno プロモーター領域">プロモーター領域</a>と<a href="#" class="anno ルシフェラーゼ">ルシフェラーゼ</a>遺伝子とを連結したレポーター系をもつ<a href="#" class="anno 形質転換">形質転換</a>体を用いて，恒明条件において器官ごとの概日リズムを観察した．その結果，<a href="#" class="anno 胚軸">胚軸</a>においては周期の延長および振幅のゆるやかな減衰がみられ，根においては2日ほどで概日リズムが消失した．根における概日リズムの消失はシュートからの栄養分の供給が失われたためである<a href="#" class="anno 可能性">可能性</a>が考えられたことから，<a href="#" class="anno スクロース">スクロース</a>を添加した<a href="#" class="anno 培地">培地</a>において同様に実験したところ，概日リズムは継続したものの周期の大幅な延長がみられた．スクロースの存在のもとでは概日リズムが継続したことから，器官の分離それ自体により概日リズムが失われたのでは<a href="#" class="anno ないこと">ないこと</a>が示唆された．また，概日リズムの消失した根にスクロースを添加してもその回復は観察されなかった．葉においてはスクロースの有無にかかわらず平均として位相の前進がみられた．<br/><br/><h2>2．茎頂の概日時計は同期および位相の制御において特異な性質をもつ</h2><br/>　分離された茎頂を観察したところ，植物の全体と非常に近い概日リズムがみられ，周期，位相，振幅において<a href="#" class="anno 均一性">均一性</a>の高いことがわかった．この結果は，試料のあいだで概日リズムに大きな差のあった葉とは<a href="#" class="anno 対照的">対照的</a>であった．茎頂と葉の<a href="#" class="anno 大きさ">大きさ</a>の違いが影響をあたえた可能性を考慮し，葉の一部を茎頂と似た大きさに切り取って同様に実験したが，葉の全体を用いたときと結果は同様であった．これにより，茎頂における概日リズムの均一性の<a href="#" class="anno 高さ">高さ</a>は，大きさが小さいことによるものではないことが示された．<br/>　概日時計は恒明条件において概日リズムを維持できる頑健性だけでなく，環境の変化に適応する<a href="#" class="anno 柔軟性">柔軟性</a>ももちあわせている<a href="#R4"><sup>4)</sup></a>．茎頂の概日時計と葉の概日時計とのあいだで光の位相の変化への適応に差があるかどうか調べるため，明暗条件から暗明条件へと位相を12時間ずらした．茎頂においては<em><a href="#" class="anno TOC1">TOC1</a></em>遺伝子については夜間に急速な発現の低下，<em>C<a href="#" class="anno CA1">CA1</a></em>遺伝子については夜明けに急速な発現の上昇を示しながら，植物の全体と似たタイミングで再同調した．葉においては，はじめの2日間はピークが<a href="#" class="anno 二重">二重</a>になり，位相が安定するのに3日間を要した．以上の結果から，茎頂と葉では同調へのふるまいが異なることが明らかにされた．また，植物の全体と比較して茎頂において特異な波形がみられたことから，夜明けおよび夕暮れにおいて概日時計を同調するシグナルに対する茎頂の感受性の高さが示唆された．<br/><br/><h2>3．概日時計の分子ネットワークの構造は茎頂においても保持されている</h2><br/>　概日時計が器官ごとに<a href="#" class="anno 特徴的">特徴的</a>な分子ネットワークをもつのかどうか明らかにするため，概日時計の出力系を担う遺伝子の概日リズム，および，中心振動体を担う遺伝子に変異のある場合の概日リズムが，茎頂あるいは葉において示差的に制御されるのかどうか調べた．朝において出力系を担う<em><a href="#" class="anno CAB2">CAB2</a></em>遺伝子の茎頂における発現は植物の全体に似ており，葉においては<a href="#" class="anno 平均的">平均的</a>に位相の前進および試料のあいだでの不均質性がみられた．<em><a href="#" class="anno cca">cca</a>1</em><a href="#" class="anno 変異体">変異体</a>においては概日時計の周期が短くなることが知られており，茎頂および葉において植物の全体と同様に<em>CAB2</em>遺伝子の概日リズムの周期が短縮した．<a href="#" class="anno 同じ">同じ</a>く概日リズムの周期が短くなる<em>TOC1</em>遺伝子を<a href="#" class="anno RNAi">RNAi</a>法により<a href="#" class="anno ノックダウン">ノックダウン</a>した植物にて，夜において出力系を担う<em>C<a href="#" class="anno CR2">CR2</a></em>遺伝子も茎頂および葉において概日リズムの周期が短縮した．よって，茎頂および葉における時計遺伝子の発現に大きな差異は認められなかった．<br/>　茎頂における<a href="#" class="anno 遺伝子発現">遺伝子発現</a>プロファイルを得るため，JTK_<a href="#" class="anno CYC">CYC</a><a href="#" class="anno LE">LE</a>アルゴリズム<a href="#R5"><sup>5)</sup></a> を用いたRNA-<a href="#" class="anno seq">seq</a>解析を行った結果，既知の時計遺伝子すべてを含む約1400遺伝子の発現が概日リズムを示し，位相および振幅も植物の全体において報告されているものと同様であった．このことから，茎頂と植物の全体とでは概日時計のグローバルな<a href="#" class="anno 転写ネットワーク">転写ネットワーク</a>において大きな差異はないことが示唆された．また，茎頂においては光質，温度，放射線などの環境の変化に反応する遺伝子に強い発現がみられた．明暗条件から暗明条件へと位相をずらす実験において観察された，茎頂の概日時計の特徴的な再<a href="#" class="anno 同期性">同期性</a>との関連も考えられた．<br/><br/><h2>4．細胞の概日時計は器官あるいは組織のあいだで<a href="#" class="anno 同調性">同調性</a>に差異がある</h2><br/>　茎頂の概日リズムを細胞のレベルにおいてより深く調べるため，<em>CCA1</em>遺伝子に<a href="#" class="anno 蛍光タンパク質">蛍光タンパク質</a>をコードする遺伝子を連結したレポーター系を用い<a href="#R6"><sup>6)</sup></a>，分離した茎頂の細胞を共焦点レーザー走査型顕微鏡により観察した．その結果，恒明条件における3日後においても個々の細胞の<em>CCA1</em>遺伝子の概日リズムは明瞭に観察され波形の均一性も高かった．別の時計遺伝子である<em>PRR7</em>遺伝子を用いたレポーター系<a href="#R7"><sup>7)</sup></a> でも同様の結果であった．一方，葉肉の細胞においては，過去の報告<a href="#R6"><sup>6)</sup></a> と同様に，波形にばらつきがみられた．また，共役が報告されていた葉の<a href="#" class="anno 維管束系">維管束系</a>の細胞<a href="#R2"><sup>2)</sup></a> において観察したところ，同調性は葉肉の細胞より高く茎頂の細胞より低かった．維管束系には位相が前進する細胞と後退する細胞とがあり，位相が後退する細胞のほうが同調性の高いこともわかった．夜に発現する<em>E<a href="#" class="anno LF3">LF3</a></em>遺伝子を用いたレポーター系では維管束系の細胞における位相の前進および後退はそれほど顕著ではなかったが<a href="#R8"><sup>8)</sup></a>，茎頂の細胞のほうが維管束系の細胞より高い同調性を示した点は同様であった．以上の結果から，個々の細胞の概日リズムの同調性は茎頂，葉肉，維管束系においてそれぞれ異なることが確認された．<br/><br/><h2>5．茎頂における概日時計は細胞のあいだで共役している</h2><br/>　茎頂における概日時計の同調性の高さが細胞のあいだの結びつきによるものだとすれば，細胞のあいだのコミュニケーションが阻害された場合，概日リズムに影響するのではないかと考え，茎頂から<a href="#" class="anno 単離">単離</a>した<a href="#" class="anno プロトプラスト">プロトプラスト</a>を用い細胞の密度を変えて実験した．プロトプラストにおいては2～3日ほどで概日リズムの減衰が起こり，細胞の密度の低い試料ほど減衰の起こるのが早かった．これは，プロトプラストが分散するとともに細胞のあいだのコミュニケーションが失われ，同調性を維持できなくなったためではないかと考えられた．<br/>　哺乳類では視交叉上核から単離された細胞や末梢の組織が概日リズムを維持するために<a href="#" class="anno 時計タンパク質">時計タンパク質</a>である<a href="#" class="anno PER">PER</a>1および<a href="#" class="anno CRY">CRY</a>1が必須であるが，視交叉上核においてはこれらをコードする遺伝子が欠損していても概日リズムは保たれる<a href="#R9"><sup>9)</sup></a>．植物においても類似のケースが見い出され，時計遺伝子である<em>lux</em>遺伝子の変異体では概日リズムの消失が報告されているが，茎頂ではある程度まで概日リズムが維持されていることが確認された．<em>lux</em>変異体の茎頂から単離したプロトプラストでは概日リズムは失われていたことから．茎頂における概日リズムの維持は細胞のあいだのコミュニケーションによる可能性が示唆された．<br/>　茎頂の概日時計における細胞のあいだコミュニケーションの<a href="#" class="anno 重要性">重要性</a>を数学的に検証するため，高次元空間での重心座標を用いた<a href="#" class="anno 予測モデル">予測モデル</a>を構築した<a href="#R10"><sup>10)</sup></a>．さきに述べた，細胞のレベルの観察の結果をこの予測モデルにより解析した結果，茎頂の概日時計は葉肉あるいは維管束系の概日時計よりも細胞どうしが強く共役していることが明らかにされ，植物の器官ごとに階層的な差異の存在することが確認された．<br/><br/><h2>6．茎頂の概日時計は根の概日リズムの制御にかかわる</h2><br/>　茎頂の概日時計がほかの器官の概日リズムを制御している可能性について検証するため，<a href="#" class="anno レーザーマイクロダイセクション">レーザーマイクロダイセクション</a>法により植物から茎頂だけを切除し，シュートおよび根を分離することなく<a href="#" class="anno 別々">別々</a>に観察した．これまで，恒明条件におかれた植物の全体の概日リズムは<a href="#" class="anno 徐々">徐々</a>に減衰し波形に広がりがみられることが報告されていたが<a href="#R6"><sup>6)</sup></a>，茎頂の概日リズムは7日間以上も恒明条件においても維持され，茎頂における細胞のあいだの共役が恒明条件において概日リズムの頑健性をもたらしていることが考えられた．茎頂を切除した植物のシュートの概日リズムにおいては，単離された葉のような位相の前進がみられた．一方，葉を切除した植物と切除していない植物とでは概日リズムにほとんど差異はみられなかった．<br/>　光合成に由来するスクロースが概日時計の制御にかかわるという報告から<a href="#R11"><sup>11)</sup></a>，光合成の<a href="#" class="anno 阻害剤">阻害剤</a>を用いて実験したところ，シュートにおける概日リズムに遅れが生じ，<a href="#" class="anno 最終的">最終的</a>には概日リズムが消失することが観察された．また，シュートのみに光合成の阻害剤を添加しても，シュートおよび根の両方の概日リズムに遅れおよび消失がみられた．この結果より，光合成によるシュートからのシグナルが根の概日時計にとっても重要であることが示された．分離した茎頂に光合成の阻害剤を添加すると概日リズムに減衰がみられたが，シュートあるいは根において観察されたような概日リズムの遅れは観察されなかった．茎頂は試薬による光合成の阻害への頑健性が高いことが示された．<br/>　また，原形質連絡が狭められ細胞のあいだの物質輸送が阻害された<em>cals3-d</em>変異体<a href="#R12"><sup>12)</sup></a> と<a href="#" class="anno 野生型">野生型</a>の植物とのあいだでは，根の概日リズムに明らかな差異がみられた．この結果からも，シュートと根との<a href="#" class="anno シグナル伝達">シグナル伝達</a>が根の概日リズムに影響を及ぼすことが示された．<br/>　シュートから根を途中で切り離すと根の概日リズムに変化がみられ，茎頂を切除した植物では根の概日リズムに遅れおよび減衰のみられることもわかった．また，明暗条件から暗明条件へと位相をずらす実験において，植物の全体から分離されていない根における概日リズムの再同調のパターンは，葉よりも茎頂のパターンに近いことも確認された．これらの結果から，茎頂の概日時計が根の概日リズムにかかわることが示された．<br/><br/><h2>7．シロイヌナズナの概日時計のコアには階層的な構造がある</h2><br/>　植物の概日時計の系が階層的であることをはっきり確かめるため，シロイヌナズナの芽生えに対し接ぎ木をした．<a href="#" class="anno 野生株">野生株</a>の茎頂と野生株の根とを接ぎ木したところ，接ぎ木していない植物と同様の概日リズムが観察され，接ぎ木それ自体は概日リズムに大きな変化を及ぼさないことが示された．茎頂に概日時計の機能の異常があると根の概日リズムにも影響するのではないかと考え，概日リズムの失われた<em>c<a href="#" class="anno ca1">ca1</a></em>/<em>lhy</em><a href="#" class="anno <a href="#" class="anno 二重変異">二重変異</a>体">二重変異体</a>あるいは<em><a href="#" class="anno elf">elf</a>3</em>変異体の茎頂を野生株の根に接ぎ木したところ，根の概日リズムが不明瞭になった．逆に，野生株の茎頂を<em>cca1</em>/<em>lhy</em>二重変異体あるいは<em><a href="#" class="anno elf3">elf3</a></em>変異体の根に接ぎ木したところ，根の概日リズムに回復がみられた．回復の程度には幅があったが，接ぎ木していない変異体の根において観察される無周期の状態とは明らかに異なるものであった．以上の結果から，茎頂からのシグナルが根の概日リズムにとり非常に重要であることが明らかにされた．<br/><br/><h2>おわりに</h2><br/>　この研究により，シロイヌナズナにも哺乳類のような概日時計の階層的な構造が存在し，茎頂がその頂点を担うことが示された（<a href="#F1">図1</a>）．今後，概日時計どうしの結びつきのしくみ，茎頂からおのおのの器官への<a href="#" class="anno シグナル<a href="#" class="anno 伝達経路">伝達経路</a>">シグナル伝達経路</a>およびシグナル<a href="#" class="anno 伝達物質">伝達物質</a>が明らかになり，植物の生理的な機能や発達についての時<a href="#" class="anno 空間的">空間的</a>な知見が深まることを期待している．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　シロイヌナズナにおける概日時計の器官特異性</strong><br/>細胞どうしの強い共役により高い同調性をもつ茎頂の概日時計は，根の概日時計にシグナルを伝達し概日リズムを制御している．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Cell-15.9.24-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　シロイヌナズナにおける概日時計の器官特異性" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Cell-15.9.24-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Cell-15.9.24-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Aton, S. J. & Herzog, E. D.</span>: <span class="ti">Come together, right...now: synchronization of rhythms in a mammalian circadian clock.</span> <span class='so'>Neuron, 48, 531-534 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16301169" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Endo, M., Shimizu, H., Nohales, M. A. et al.</span>: <span class="ti">Tissue-specific clocks in <em>Arabidopsis</em> show asymmetric coupling.</span> <span class='so'>Nature, 515, 419-422 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25363766" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/9444" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R3"><span class='au'>James, A. B., Monreal, J. A., Nimmo, G. A. et al.</span>: <span class="ti">The circadian clock in <em>Arabidopsis</em> roots is a simplified slave version of the clock in shoots.</span> <span class='so'>Science, 322, 1832-1835 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19095940" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Harrington, M.</span>: <span class="ti">Location, location, location: important for jet-lagged circadian loops.</span> <span class='so'>J. Clin. Invest., 120, 2265-2267 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20577055" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Hughes, M. E., Hogenesch, J. B. & Kornacker, K.</span>: <span class="ti">JTK_CYCLE: an efficient nonparametric algorithm for detecting rhythmic components in genome-scale data sets.</span> <span class='so'>J. Biol. Rhythms, 25, 372-380 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20876817" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Yakir, E., Hassidim, M., Melamed-Book, N. et al.</span>: <span class="ti">Cell autonomous and cell-type specific circadian rhythms in Arabidopsis.</span> <span class='so'>Plant J., 68, 520-531 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21781194" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Nakamichi, N., Kiba, T., Henriques et al.</span>: <span class="ti">PSEUDO-RESPONSE REGULATORS 9, 7, and 5 are transcriptional repressors in the <em>Arabidopsis</em> circadian clock.</span> <span class='so'>Plant Cell, 22, 594-605 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20233950" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Dixon, L. E., Knox, K., Kozma-Bognar, L. et al.</span>: <span class="ti">Temporal repression of core circadian genes is mediated through EARLY FLOWERING 3 in <em>Arabidopsis</em>.</span> <span class='so'>Curr. Biol., 21, 120-125 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21236675" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Welsh, D. K., Takahashi, J. S. & Kay, S. A.</span>: <span class="ti">Suprachiasmatic nucleus: cell autonomy and network properties.</span> <span class='so'>Annu. Rev. Physiol., 72, 551-577 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20148688" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Hirata, Y., Shiro, M., Takahashi, N. et al.</span>: <span class="ti">Approximating high-dimensional dynamics by barycentric coordinates with linear programming.</span> <span class='so'>Chaos, 25, 013114 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25637925" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Haydon, M. J., Mielczarek, O., Robertson, F. C. et al.</span>: <span class="ti">Photosynthetic entrainment of the <em>Arabidopsis thaliana</em> circadian clock.</span> <span class='so'>Nature, 502, 689-692 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24153186" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Vaten, A., Dettmer, J., Wu, S. et al.</span>: <span class="ti">Callose Callose biosynthesis regulates symplastic trafficking during root development.</span> <span class='so'>Dev. Cell, 21, 1144-1155 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22172675" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/02_05.html" target="_blank">2.5 Proliferation and Growth of Organisms and Environment</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/22_06.html" target="_blank">22.6 Formation of Leaves</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/22_04.html" target="_blank">22.4 Root Growth and Branching</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_03.html" target="_blank">20.3 Control of output to effectors</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/22_07.html" target="_blank">22.7 Flowering</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">高橋  望（Nozomu Takahashi）</span><br>略歴：スペインCentre for Research in Agricultural Genomics博士課程 在学中．<br>研究テーマ：植物における概日時計の器官特異性および組織特異性．<br>関心事：カタルーニャ文化．<br><br><strong>Paloma Mas</strong><br>スペインConsejo Superior de Investigaciones CientíficasにてResearch Professor．<br>研究室URL：<br><a href="http://www.cragenomica.es/research-groups/molecular-mechanisms-of-circadian-clock-function" target="_blank">http://www.cragenomica.es/research-groups/molecular-mechanisms-of-circadian-clock-function</a><br></div><br>© 2015 高橋 望・Paloma Mas Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

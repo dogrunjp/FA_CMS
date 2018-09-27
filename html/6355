@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 組換えにより再開したDNAの複製は誤りがちで逆位反復配列において染色体の再編成をひき起こす : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/6355" rel="bookmark">組換えにより再開したDNAの複製は誤りがちで逆位反復配列において染色体の再編成をひき起こす</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>水野 健一</strong><br>（英国Sussex大学Genome Damage and Stability Centre）<br>email：<a href="mailto:k.mizuno@sussex.ac.uk">水野健一</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.001">10.7875/first.author.2013.001</a><br><div class="reference"><br><span class="ti">Recombination-restarted replication makes inverted chromosome fusions at inverted repeats.</span><br><span class="au">Ken’Ichi Mizuno, Izumi Miyabe, Stephanie A. Schalbetter, Antony M. Carr, Johanne M. Murray</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23178809" target="_blank"><em>Nature</em>, <strong>493</strong>, 246-249 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　DNAの複製は増殖している細胞にとり必須であり，通常の状態において複製装置は非常に精度の高いコピーマシンである．複製の効率あるいは精度の低下はゲノムの<a href="#" class="anno 安定性">安定性</a>に影響を及ぼす．そして，ゲノムの<a href="#" class="anno 恒常性">恒常性</a>の破綻は<a href="#" class="anno がん化">がん化</a>や<a href="#" class="anno ヒトゲノム">ヒトゲノム</a>の<a href="#" class="anno 構造変化">構造変化</a>に起因するゲノム障害につながる．しかし，複製の停止によるゲノム恒常性の破綻の<a href="#" class="anno 分子機構">分子機構</a>については明らかでない部分が多い．複製の停止からの複製の再開には<a href="#" class="anno <a href="#" class="anno 相">相</a>同">相同</a><a href="#" class="anno 組換え">組換え</a>の必要とされる場合がある．筆者らは，再開した複製の性質を<a href="#" class="anno 分子レベル">分子レベル</a>において解析するため，<a href="#" class="anno 分<a href="#" class="anno 裂">裂</a>酵母">分裂酵母</a>を用い部位<a href="#" class="anno 特異的">特異的</a>に複製を停止したのち<a href="#" class="anno 相同組換え">相同組換え</a>により複製を再開する系を開発した．そして，この再生複製は，通常の複製とは異なり誤りがちであることを明らかにした．再生複製は<a href="#" class="anno <a href="#" class="anno 逆位">逆位</a><a href="#" class="anno 反復配列">反復配列</a>">逆位反復配列</a>において高い頻度で<a href="#" class="anno 染色体">染色体</a>の<a href="#" class="anno 再編成">再編成</a>をひき起こした．この再生複製の誤りがちな性質は遺伝子の増幅や<a href="#" class="anno 欠失">欠失</a>の起因となり，がん化やゲノム障害の原因になると考えられた．<br/><br/><h2>はじめに</h2><br/>　DNAの複製は増殖している細胞にとり欠かせない<a href="#" class="anno 細胞周期">細胞周期</a>の一過程であり，複製の適切な制御はゲノムの安定性にとり必須である．通常は，<a href="#" class="anno 複製フォーク">複製フォーク</a>が他方からくる別の複製フォークと融合することで複製は完了する．がん化の<a href="#" class="anno 初期段階">初期段階</a>では，<a href="#" class="anno 原<a href="#" class="anno がん遺伝子">がん遺伝子</a>">原がん遺伝子</a>の<a href="#" class="anno 活性化">活性化</a>または<a href="#" class="anno がん抑制">がん抑制</a>遺伝子の<a href="#" class="anno <a href="#" class="anno 不活性">不活性</a>化">不活性化</a>により，細胞周期の制御が撹乱される．それが<a href="#" class="anno DNA合成">DNA合成</a>の効率を低下させ，しばしば複製フォークを停止させる．このような<a href="#" class="anno 複製ストレス">複製ストレス</a>の<a href="#" class="anno も">も</a>とでは休眠している<a href="#" class="anno 複製<a href="#" class="anno 開始点">開始点</a>"><a href="#" class="anno 複製開始">複製開始</a>点</a>の活性化が複製完了の手段であるが，複製開始点はゲノムにおいて均一には分布していない．複製開始点のほとんど存在しない染色体の<a href="#" class="anno 脆弱部位">脆弱部位</a>では<a href="#R1"><sup>1,2)</sup></a>，停止した複製フォークの再始動が複製完了の手段となる．染色体の脆弱部位をはじめとするさまざまな部位は，複製ストレスのもとで染色体の再編成，<a href="#" class="anno 遺伝子増幅">遺伝子増幅</a>，<a href="#" class="anno 遺伝子欠失">遺伝子欠失</a>をひき起こす<a href="#R1"><sup>1,3)</sup></a>．<br/>　複製フォークはいろいろな要因により停止する．<a href="#" class="anno 転写装置">転写装置</a>あるいはDNAに強く結合したタンパク質との衝突，基質であるdN<a href="#" class="anno TP">TP</a>の枯渇，<a href="#" class="anno DNA損傷">DNA損傷</a>による進行の阻害などである．停止した複製フォークは大きく3つに分類できる<a href="#R4"><sup>4)</sup></a>（<a href="#F1">図1</a>）．休止複製フォーク（paused <a href="#" class="anno for">for</a>k），剥離複製フォーク（collapsed fork），切断複製フォーク（broken fork）である．休止複製フォークとは，複製フォークの進行は停止しているがDNAフォークに<a href="#" class="anno レプリソーム">レプリソーム</a>が滞在したままの状態をいう（<a href="#F1">図1b</a>）．複製フォークの進行を停止させた障害が取り除かれるまで，<a href="#" class="anno <a href="#" class="anno S期">S期</a>チェックポイント">S期チェックポイント</a>によりレプリソームはDNAフォークにおいて保護される．障害が取り除かれたのち，レプリソームはDNAフォークに会合しているので，すぐにDNA合成を再開できる．休止複製フォークにおける複製の再開に相同組換えは必要ない．一方，剥離複製フォークと切断複製フォークは複製の再開に相同組換えを必要とする．剥離複製フォークとは，レプリソームがDNAフォークから解離した状態をいう<a href="#R4"><sup>4)</sup></a>（<a href="#F1">図1c</a>）．DNAフォークがあらわになるため，動的な構造変化が頻繁に起こりやすくなる．DNAフォークの後退が<a href="#" class="anno 一時的">一時的</a>にチキンフット状の<a href="#" class="anno DNA構造">DNA構造</a>を形成する．その構造において露<a href="#" class="anno 出し">出し</a>た新生<a href="#" class="anno 一本鎖">一本鎖</a>DNAに相同<a href="#" class="anno 組換えタンパク質">組換えタンパク質</a>が結合する．切断複製フォークとは，<a href="#" class="anno DNA鎖">DNA鎖</a>が切断され複製フォーク自体が壊れた状態をいう（<a href="#F1">図1d</a>）．複製フォークがニック（切れ目）のある<a href="#" class="anno 二本鎖">二本鎖</a>DNAに直面したときに起こる．このとき，レプリソームはDNAフォークから解離する．<a href="#" class="anno DNA切断">DNA切断</a>末端が加工されることによりあらわになった<a href="#" class="anno 一本鎖DNA">一本鎖DNA</a>に相同組換えタンパク質が結合する．一本鎖DNAと相同組換えタンパク質との<a href="#" class="anno 複合体">複合体</a>が二本鎖の<a href="#" class="anno 鋳型DNA">鋳型DNA</a>に侵入し<a href="#" class="anno 相補DNA">相補DNA</a>鎖と会合する．その会合の末端から新生DNA鎖が伸長することによりDNA合成は再開する．以下，相同組換えにより複製フォークが再始動した複製を再生複製とよぶ．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　複製フォークとその停止状態からの回復</strong><br/>（a）通常，複製フォークは複製のときのY字状のDNAのことをさすが，ここでは，Y字状DNA（DNAフォーク）と複製装置（レプリソーム）との複合体とする．<br/>（b）休止複製フォーク．<br/>（c）剥離複製フォーク．<br/>（d）切断複製フォーク．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/01/Mizuno-Nature-13.1.10-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　複製フォークとその停止状態からの回復" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mizuno-Nature-13.1.10-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mizuno-Nature-13.1.10-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　分裂酵母の<a href="#" class="anno 接合型">接合型</a><a href="#" class="anno 遺伝子座">遺伝子座</a>の近傍には複製フォークの停止配列であるR<a href="#" class="anno TS">TS</a>1配列が存在する．<a href="#" class="anno RTS1">RTS1</a>配列は<a href="#" class="anno 方向性">方向性</a>をもって複製フォークを停止させる．DNA<a href="#" class="anno 結合タンパク質">結合タンパク質</a><a href="#" class="anno Rtf1">Rtf1</a>はRTS1配列の複製フォーク停止活性に必要である．RTS1配列において停止した複製フォークは剥離複製フォークとなり複製の再開には相同組換えが必要となる<a href="#R5"><sup>5,6)</sup></a>．複製フォークの停止と再始動の分子機構と，その再始動した複製フォークの性質を解明するため，RTS1配列を用いた<a href="#" class="anno 部位特異的">部位特異的</a>な複製フォークの停止系を開発した<a href="#R5"><sup>5-7)</sup></a>．操作が安易な分裂酵母を使ったこの系の利点は，<em>rtf1</em><sup>+</sup>遺伝子の転写発現の制御により，RTS1配列の複製フォーク停止活性を自由自在に制御できることである．これが，複製過程の分子レベルでの解析を可能にした．<br/><br/><h2>1．再生複製は誤りがちで逆位反復配列において<a href="#" class="anno 姉妹染色体">姉妹染色体</a>を逆位融合する</h2><br/>　1つのRTS1配列を用いてRTS1配列から再始動した複製フォークが逆位反復配列を複製するような系を構築した．用いた逆位反復配列の中央に14<a href="#" class="anno 塩基対">塩基対</a>の介入配列を挿入した．この逆位反復配列はRTS1配列とはまったく異なる配列とした．RTS1配列の<a href="#" class="anno セントロメア">セントロメア</a>側にある強力な複製開始点からの複製フォークは，RTS1配列において停止する．相同組換えを介し元来の鋳型DNA（相補DNA鎖）を用いて，停止した複製フォークは再始動する．<br/>　RTS1配列の下流に逆位反復配列が存在する場合，再生複製は染色体の再編成をひき起こした．複製フォークがRTS1配列において停止しない場合，この染色体の再編成は起こらなかった．この染色体の再編成は再生複製に依存した．また，この染色体の再編成は反復配列の<a href="#" class="anno 長さ">長さ</a>に依存した．しかし，RTS1配列の下流に反復配列が存在しない場合は，再生複製は<a href="#" class="anno サザンブロッティング">サザンブロッティング</a>法により検出の可能なレベルの染色体の再編成を起こさなかった．この再編成した染色体の構造は，再生複製が逆位反復配列の中央において複製の方向を転換（Uターン）して逆位融合した構造に相当した（<a href="#F2">図2a</a>）．この逆位融合した染色体は余分なセントロメアをもつ染色体（dicent<a href="#" class="anno ric">ric</a> ch<a href="#" class="anno rom">rom</a>osome，<a href="#" class="anno 二連">二連</a>セントロメア染色体）であった（<a href="#F2">図2b</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　再生複製のUターンとそれによる染色体の逆位融合</strong><br/>（a）RTS1配列において停止した剥離複製フォークは，相同組換えにより複製を再始動する（再生複製）．その再生複製は誤りがちで，逆位反復配列において鋳型DNA鎖を切換える．逆位反復配列における誤った鋳型の選択の結果，複製方向は逆行（Uターン）し，姉妹染色体のあいだに逆位融合が生じる．<br/>（b）この産物が，余分なセントロメアをもつ染色体（二連セントロメア染色体）とセントロメアを欠く染色体（無セントロメア染色体）である．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/01/Mizuno-Nature-13.1.10-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　再生複製のUターンとそれによる染色体の逆位融合" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mizuno-Nature-13.1.10-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mizuno-Nature-13.1.10-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．逆位融合した染色体の形成はDNA<a href="#" class="anno 二次">二次</a>構造の形成能に依存する</h2><br/>　逆位反復配列における介入配列の長さを変えて，染色体の再編成に対するその効果を観察した．介入配列が短いと逆位反復配列はDNA<a href="#" class="anno 二次構造">二次構造</a>を形成しやすくなる．逆に，介入配列が長いとDNA二次構造を形成しにくい．予想されたとおり，介入配列が短いと染色体の逆位融合が頻発した．一方，介入配列が長いと染色体の逆位融合の頻度は低下した．しかしながら，それでもサザンブロッティング法により検出の可能な頻度であった．したがって，再生複製による染色体の再編成は，DNA二次構造を形成しやすい配列においてより頻繁に起こること，しかし，反復配列の<a href="#" class="anno 相同性">相同性</a>も染色体の再編成に寄与していることが明らかになった．<br/><br/><h2>3．複製フォークの進行距離にしたがい再生複製の精度は改善する</h2><br/>　RTS1配列と逆位反復配列とのあいだに無関係な<a href="#" class="anno DNA配列">DNA配列</a>を挿入し，染色体の再編成に対するRTS1配列から逆位反復配列までの距離の効果を観察した．逆位反復配列がRTS1配列に隣接しているとき，染色体の逆位融合の頻度は<a href="#" class="anno 最高値">最高値</a>を示した．距離を長くすると，その頻度は<a href="#" class="anno 徐々">徐々</a>に低下した．しかし，その距離が2400塩基対長であってもサザンブロッティング法により検出の可能な頻度であった．<br/><br/><h2>4．再生複製のUターンが染色体の逆位融合のおもな機構である</h2><br/>　2つのRTS1配列が近傍に存在すると，その相同な配列を鋳型として相同組換えの起こることがある．この誤った鋳型の選択により非<a href="#" class="anno 対立遺伝子">対立遺伝子</a>座の相同組換えが生じ染色体の再編成を起こす<a href="#R5"><sup>5)</sup></a>．2つのRTS1配列が近傍で逆位にある場合は，誤った鋳型での再生複製は逆進し，姉妹染色体はRTS1配列において逆位融合する．生じた逆位融合した染色体は，セントロメアをもたない染色体（<a href="#" class="anno ace">ace</a>ntric chromosome，無セントロメア染色体）と二連セントロメア染色体となる（<a href="#F2">図2b</a>）．セントロメアは正確な染色体の分配に必須であるため，これら<a href="#" class="anno 構造的">構造的</a>に異常な染色体は染色体の分配に支障をきたし，<a href="#" class="anno 一倍体">一倍体</a>である分裂酵母は生存に必須な遺伝子を失い死にいたる<a href="#R5"><sup>5)</sup></a>．筆者らは，すでに，この相同組換えによる誤った鋳型の選択の機構について報告している<a href="#R5"><sup>5,6)</sup></a>．<br/>　2つのRTS1配列が近傍において逆位にあり，なおかつ，そのあいだに逆位反復配列のある場合，染色体の逆位融合には2つの機構が考えられる．<a href="#" class="anno 1つ目">1つ目</a>は，複製の再始動のときの相同組換えによる誤った鋳型の選択，2つ目は，再生複製のUターンである．そのどちらがおもな染色体の逆位融合の機構であるかを区別するため，サザンブロッティング法において反復配列でない2つのRTS1配列のあいだの配列を<a href="#" class="anno プローブ">プローブ</a>として解析した．その結果，再生複製のUターンが染色体の逆位融合のおもな機構であることが判明した（<a href="#F2">図2</a>）．<br/><br/><h2>おわりに</h2><br/>　筆者らの研究は，元来の正しい鋳型DNAからの複製フォークの再始動は染色体の再編成をひき起こすことを明らかにした．再生複製は反復配列のあいだで鋳型DNAを変えながらDNA合成を進めていく．おそらく，新生DNA鎖は一時的な相補DNA鎖からの剥離と相補DNA鎖への再会合をくり返しているものと考えられる．染色体の逆位融合のモ<a href="#" class="anno デ">デ</a>ルは以下のとおりである（<a href="#F3">図3</a>）．逆位反復配列における再生複製の誤った鋳型の選択が，反復配列の中央において“閉じられたY構造”を形成する．これに端を発して2つの逆位融合した染色体が生じる．その詳細な機構は今後の課題である．事実，二連セントロメア染色体の形成と同時に，無セントロメア染色体も形成された．近年，再生複製は短い<a href="#" class="anno 相同配列">相同配列</a>のあいだでの重複や欠失も<a href="#" class="anno 高頻度">高頻度</a>で起こすことが報告された<a href="#R8"><sup>8,9)</sup></a>．<a href="#" class="anno ヒトの染色体">ヒトの染色体</a>の脆弱部位は複製開始点が非常に疎である<a href="#R1"><sup>1,2)</sup></a>．複製フォークが停止するような環境では，複製開始点の活性化だけでは複製の完了はむずかしく，停止した複製フォークの再始動が必要である．その結果，再生複製の誤りがちな性質が染色体の再編成を起こし，遺伝子増幅と遺伝子欠失を促すと考えられる．<br/><br/><a name="F3"></a><div id="fig3-caption-text" style="display: none;"><strong>図3　誤りがちな再生複製のUターンによる閉じられたY構造の形成のモデル</strong><br/>1）誤りがちな再生複製により逆位反復配列が合成される．2）新生DNA鎖がはがれ，別の相補DNA鎖に会合する．3）新生DNA鎖が誤った相補DNA鎖を用いてDNA鎖を伸長することにより，閉じられたY構造を形成する．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/01/Mizuno-Nature-13.1.10-Fig.3.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure3" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図3　誤りがちな再生複製のUターンによる閉じられたY構造の形成のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mizuno-Nature-13.1.10-Fig.3.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mizuno-Nature-13.1.10-Fig.3.jpg" alt="figure3" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig3-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig3-caption').innerHTML = document.getElementById('fig3-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　逆位融合した染色体は不安定である<a href="#R4"><sup>4,5)</sup></a>．哺乳類の<a href="#" class="anno がん細胞">がん細胞</a>やヒトのゲノム障害細胞では，逆位融合の痕跡が染色体の逆位重複末端欠失として観察される<a href="#R3"><sup>3,10)</sup></a>．逆位重複した二連セントロメア染色体は染色体の分配のとき染色体の架橋という問題をかかえるが，染色体の分断は異常な組換えと複製をひき起こし二連セントロメア染色体を<a href="#" class="anno 再形成">再形成</a>する<a href="#R4"><sup>4,5)</sup></a>（これをbreakage-fusion-bridgeサイクルとよぶ）．がん細胞ではこのサイクルを介する染色体の分断と重複が遺伝子増幅を促す<a href="#R4"><sup>4)</sup></a>．染色体の分断ののち，セントロメアの1つの喪失と切断末端における<a href="#" class="anno テロメア">テロメア</a>の付加がその染色体を<a href="#" class="anno 安定化">安定化</a>する<a href="#R3"><sup>3,4,10)</sup></a>．これが逆位重複末端の欠失である<a href="#R3"><sup>3,10)</sup></a>．多くの逆位重複は複製フォークが前方または後方にスキップした痕跡をともなうため，逆位反復配列における複製の鋳型の切換えが原因と考えられている<a href="#R3"><sup>3,10)</sup></a>．筆者らの発見は，ヒトのゲノム障害やがんで観察される染色体の逆位重複末端の欠失の発生機構をうまく説明するものと考えられる．<br/>　今後は，複製がどのように相同組換えを介し再生するのか？　再生複製はどのようにしてDNAを複製するのか？　再生複製はなぜ誤りがちなのか？　再生複製にどの<a href="#" class="anno ヘリ<a href="#" class="anno カ">カ</a>ーゼ">ヘリカーゼ</a>，どのDNA<a href="#" class="anno ポリメラーゼ">ポリメラーゼ</a>が用いられているのか？　を明らかにしていきたい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Arlt, M. F., Wilson, T. E. & Glover, T. W.</span>: <span class="ti">Replication stress and mechanisms of CNV formation.</span> <span class='so'>Curr. Opin. Genet. Dev., 22, 204-210 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22365495" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Letessier, A., Millot, G. A., Koundrioukoff, S. et al.</span>: <span class="ti">Cell-type-specific replication initiation programs set fragility of the <em>FRA3B</em> fragile site.</span> <span class='so'>Nature, 470, 120-123 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21258320" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Liu, P., Carvalho, C. M., Hastings, P. J. et al.</span>: <span class="ti">Mechanisms for recurrent and complex human genomic rearrangements.</span> <span class='so'>Curr. Opin. Genet. Dev., 22, 211-220 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22440479" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Carr, A. M., Paek, A. L. & Weinert, T.</span>: <span class="ti">DNA replication: failures and inverted fusions.</span> <span class='so'>Semin. Cell Dev. Biol., 22, 866-874 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22020070" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Mizuno, K., Lambert, S., Baldacci, G. et al.</span>: <span class="ti">Nearby inverted repeats fuse to generate acentric and dicentric palindromic chromosomes by a replication template exchange mechanism.</span> <span class='so'>Genes Dev., 23, 2876-2886 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20008937" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Lambert, S., Mizuno, K., Blaisonneau, J. et al.</span>: <span class="ti">Homologous recombination restarts blocked replication forks at the expense of genome rearrangements by template exchange.</span> <span class='so'>Mol. Cell, 39, 346-359 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20705238" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Lambert, S., Watson, A., Sheedy, D. M. et al.</span>: <span class="ti">Gross chromosomal rearrangements and elevated recombination at an inducible site-specific replication fork barrier.</span> <span class='so'>Cell, 121, 689-702 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15935756" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Iraqui, I., Chekkal, Y., Jmari, N. et al.</span>: <span class="ti">Recovery of arrested replication forks by homologous recombination is error-prone.</span> <span class='so'>PLoS Genet., 8, e1002976 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23093942" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Malkova, A. & Haber J. E.</span>: <span class="ti">Mutations arising during repair of chromosome breaks.</span> <span class='so'>Annu. Rev. Genet., 46, 455-73 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23146099" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Carvalho, C. M., Ramocki, M. B., Pehlivan, D. et al.</span>: <span class="ti">Inverted genomic segments and complex triplication rearrangements are mediated by inverted repeats in the human genome.</span> <span class='so'>Nat. Genet., 43, 1074-1081 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21964572" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_04.html" target="_blank">3.4 Genetic Factors and Chromosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_07.html" target="_blank">3.7 Chromosomes and the Genome</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/18_03.html" target="_blank">18.3 Significance of Meiosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_09.html" target="_blank">3.9 Linkage</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/18_02.html" target="_blank">18.2 Somatic Cell Division (mitosis) and Meiosis</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">水野 健一（Ken’Ichi Mizuno）</span><br>略歴：1995年 総合研究大学院大学大学院生命科学研究科 修了，1996年 理化学研究所遺伝生化学研究室 ポスドクを経て，2004年より英国Sussex大学 ポスドク．<br>研究テーマ：誤りがちな複製によるゲノム恒常性の破綻の分子機構．<br>抱負：誤りがちな複製によるゲノム恒常性の破綻の分子機構を解明することからの創薬．<br></div><br>© 2013 水野 健一 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

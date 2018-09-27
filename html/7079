@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ADAR1はDicerと複合体を形成しmiRNAのプロセシングおよびmiRNAに依存するRNAサイレンシングを促進する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/7079" rel="bookmark">ADAR1はDicerと複合体を形成しmiRNAのプロセシングおよびmiRNAに依存するRNAサイレンシングを促進する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>太田博允・櫻井雅之・西倉和子</strong><br>（米国Wistar Institute，Gene Expression and Regulation Program）<br>email：<a href="mailto:hota@wistar.org">太田博允</a>，<a href="mailto:msakurai@wistar.org">櫻井雅之</a>，<a href="mailto:kazuko@wistar.org">西倉和子</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.062">10.7875/first.author.2013.062</a><br><div class="reference"><br><span class="ti">ADAR1 forms a complex with Dicer to promote microRNA processing and RNA-induced gene silencing.</span><br><span class="au">Hiromitsu Ota, Masayuki Sakurai, Ravi Gupta, Louis Valente, Bjorn-Erik Wulff, Kentaro Ariyoshi, Hisashi Iizasa, Ramana V. Davuluri, Kazuko Nishikura</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23622242" target="_blank"><em>Cell</em>, <strong>153</strong>, 575-589 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno ADAR">ADAR</a>は<a href="#" class="anno 二本鎖">二本鎖</a>RNAにおいて<a href="#" class="anno ア<a href="#" class="anno デ">デ</a>ノシン">アデノシン</a>を<a href="#" class="anno イノシン">イノシン</a>に<a href="#" class="anno 特異的">特異的</a>に脱<a href="#" class="anno アミノ">アミノ</a>化する<a href="#" class="anno RNA編集">RNA編集</a>を行う．この研究では，<a href="#" class="anno ADAR1">ADAR1</a>がこれまで知られてきたRNA編集能のほか，Dicerと<a href="#" class="anno ヘテロ">ヘテロ</a><a href="#" class="anno 二量体">二量体</a>を形成して<a href="#" class="anno miRNA">miRNA</a>の<a href="#" class="anno プロセシング">プロセシング</a>を加速しR<a href="#" class="anno IS">IS</a>Cの形成を促進する<a href="#" class="anno RNAi">RNAi</a>促進能を<a href="#" class="anno も">も</a>つことを証明した．ADAR1を欠損したマウスの胚では，ADAR1のもつRNAi促進能の不全のためmiRNAの発現がグローバルに阻害され，miRNAにより抑制されるべき遺伝子の<a href="#" class="anno 発現上昇">発現上昇</a>が観察された．ADAR1<a href="#" class="anno ノックアウトマウス">ノックアウトマウス</a>が<a href="#" class="anno 胎生致死">胎生致死</a>となるのは，このRNAi促進能の不全に起因するものと思われた．<br/><br/><h2>はじめに</h2><br/>　ADAR（adenosine deam<a href="#" class="anno ina">ina</a>ses <a href="#" class="anno actin">actin</a>g on RNA）は<a href="#" class="anno 二本鎖RNA">二本鎖RNA</a>に含まれるアデノシンをイノシンへと塩基修飾するRNA編集酵素である．<a href="#" class="anno mRNA">mRNA</a>に存在するイノシンは翻訳の際に<a href="#" class="anno グアノシン">グアノシン</a>として認識されるため，いくつかの遺伝子においてはRNA編集により<a href="#" class="anno 翻訳産物">翻訳産物</a>の<a href="#" class="anno アミノ酸配列">アミノ酸配列</a>に変化が生じる<a href="#R1"><sup>1)</sup></a>．しかし，このような遺伝子は少数であり，RNA編集の多くは<em><a href="#" class="anno LINE">LINE</a></em>や<em><a href="#" class="anno Alu">Alu</a></em>など<a href="#" class="anno くり返し配列">くり返し配列</a>をもつ<a href="#" class="anno 非コード">非コード</a>RNA領域に起こる<a href="#R2"><sup>2)</sup></a>．哺乳類では3種類の<em>ADAR</em>遺伝子が知られており，そのうち，<em>ADAR1</em>遺伝子はインターフェロン<a href="#" class="anno 誘導型">誘導型</a>の<a href="#" class="anno p15">p15</a>0と，恒常発現型であり<a href="#" class="anno N末端">N末端</a>を<a href="#" class="anno 欠失">欠失</a>している<a href="#" class="anno p110">p110</a>の2つの<a href="#" class="anno ア<a href="#" class="anno イソ">イソ</a>フォーム">アイソフォーム</a>をコードする．ADAR1ノックアウトマウスは胎生致死を示すが，その原因はい<a href="#" class="anno まだ">まだ</a>解明されていない<a href="#R3"><sup>3)</sup></a>．<br/>　DicerはRN<a href="#" class="anno ase">ase</a> <a href="#" class="anno III">III</a>グループに属し，miRNA（<a href="#" class="anno mic">mic</a>roRNA，<a href="#" class="anno マイクロRNA">マイクロRNA</a>）の<a href="#" class="anno 産生">産生</a>において重要なはたらきをしている．ゲノムから転写された1次<a href="#" class="anno 前駆体">前駆体</a>である<a href="#" class="anno pri">pri</a>-miRNAは核において<a href="#" class="anno <a href="#" class="anno Dro">Dro</a>sha">Drosha</a>-<a href="#" class="anno DGCR8">DGCR8</a><a href="#" class="anno 複合体">複合体</a>により切断され2次前駆体であるmi<a href="#" class="anno RNA前駆体">RNA前駆体</a>となる．miRNA前駆体は<a href="#" class="anno 細胞質">細胞質</a>へと輸送され，Dicerによる切断をうけて<a href="#" class="anno 成熟型">成熟型</a>のmiRNAとなる（<a href="#F1">図1a</a>）．二本鎖RNA<a href="#" class="anno 結合タンパク質">結合タンパク質</a>であるT<a href="#" class="anno RBP">RBP</a>はDicerと複合体を形成し，DicerのもつmiRNA前駆体の切断活性を促進する<a href="#R4"><sup>4)</sup></a>．さらに，Dicer-<a href="#" class="anno TRB">TRB</a>P複合体は<a href="#" class="anno Ago2">Ago2</a>（Ago：<a href="#" class="anno Argonaute">Argonaute</a>）への成熟miRNAの取り込みを促進し，<a href="#" class="anno RISC">RISC</a>（RNA-induced silencing complex）の形成にも関与する<a href="#R5"><sup>5)</sup></a>．Ago2は成熟型miRNAのガイドにより<a href="#" class="anno 標的遺伝子">標的遺伝子</a>の<a href="#" class="anno 転写産物">転写産物</a>に対し翻訳阻害や切断を行う（RNA<a href="#" class="anno サイレンシング">サイレンシング</a>の<a href="#" class="anno 分子機構">分子機構</a>については，<a href="http://leading.lifesciencedb.jp/1-e001/" target="_blank">佐々木 浩・泊 幸秀, 領域融合レビュー, <strong>1</strong>, e001, 2012</a> も参照されたい）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　RNA編集によるmiRNA経路の制御機構</strong><br/>（a）miRNA経路．pri-miRNAはDrosha-DGCR8複合体により切断され，miRNA前駆体となり核の外へと輸送される．細胞質へと輸送されたmiRNA前駆体はDicer-TRBP複合体による切断をうけ成熟型のmiRNAとなり，RISCへと取り込まれる．<br/>（b）Drosha-DGCR8複合体による切断部位の付近におけるRNA編集はpri-miRNAの切断を阻害する．また，Dicer-TRBP複合体による切断部位の付近におけるRNA編集はmiRNA前駆体の切断を阻害する．<br/>（c）miRNAの2番目から8番目の塩基はmiRNAが標的遺伝子を認識する際に重要なシード配列とよばれる．この領域にRNA編集が起こると，本来の標的遺伝子とは別の遺伝子が標的となる．<br/>（d）Epstein-BarrウイルスのゲノムにコードされるmiRNAであるmiR-BART-6は，RNA編集をうけるとRISCへの取り込みが抑制される．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/05/Nishikura-Cell-13.4.25-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　RNA編集によるmiRNA経路の制御機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nishikura-Cell-13.4.25-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nishikura-Cell-13.4.25-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　<a href="#" class="anno 線虫">線虫</a>では<a href="#" class="anno 内在性">内在性</a>の二本鎖RNAがADARによりRNA編集をうけることでRNAi（RNA in<a href="#" class="anno ter">ter</a>ference，<a href="#" class="anno RNA干渉">RNA干渉</a>）経路に進むことが阻害され<a href="#R6"><sup>6)</sup></a>，また，ヒトおよびマウスではpri-miRNAがADARの基質となることが報告されている．RNA編集により，miRNAの成熟過程の阻害<a href="#R7"><sup>7,8)</sup></a>（<a href="#F1">図1b</a>），miRNAの標的遺伝子の変換<a href="#R9"><sup>9)</sup></a>（<a href="#F1">図1c</a>），miRNAのRISCへの取り込みの阻害<a href="#R10"><sup>10)</sup></a>（<a href="#F1">図1d</a>），などの影響があることが知られている．<br/>　このような<a href="#" class="anno 最近の研究">最近の研究</a>が示唆するように，RNA編集はRNAiに対し<a href="#" class="anno 拮抗的">拮抗的</a>に作用していると考えられてきた．しかし，この研究では，これまでの知見とはまったく異なる，RNAiに<a href="#" class="anno 促進的">促進的</a>なADAR1の機能を明らかにした．<br/><br/><h2>1．DicerはADAR1と複合体を形成する</h2><br/>　ADARとRNAi機構との関係を調べるため，RISCを構成するタンパク質であるDicer，TRBP，Ago2とADAR1の<a href="#" class="anno 組換え">組換え</a>体をそれぞれ<a href="#" class="anno 培養細胞">培養細胞</a>HEK<a href="#" class="anno 293<a href="#" class="anno T細胞">T細胞</a>">293T細胞</a>において発現させ，免疫<a href="#" class="anno 共沈">共沈</a>実験を行った．その結果，ADAR1はこれらのRISC<a href="#" class="anno 構成タンパク質">構成タンパク質</a>と共沈することが観察されたが，とくに，Dicerとの強い<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>が観察された．このADAR1とRISC構成タンパク質との相互作用をさらにくわしく確認するため，昆虫培養細胞Sf9細胞においてADAR1とRISC構成タンパク質をそれぞれ<a href="#" class="anno 共発現">共発現</a>させ，その相互作用を調べた．その結果，ADAR1はDicerとは直接に複合体を形成する一方，Ago2とはDicerを介し<a href="#" class="anno 間接的">間接的</a>に相互作用していることが明らかになった．さらに，<a href="#" class="anno ゲルろ過">ゲルろ過</a><a href="#" class="anno クロマトグラフィー">クロマトグラフィー</a>を使った解析により，Dicer-ADAR1複合体はDicerとADAR1とが<a href="#" class="anno 1対1">1対1</a>で構成される<a href="#" class="anno ヘテロ二量体">ヘテロ二量体</a>を形成していることが明らかになった．DicerおよびADAR1の欠失<a href="#" class="anno 変異体">変異体</a>を使った実験により，ADAR1では2つ目の二本鎖<a href="#" class="anno RNA結合">RNA結合</a>ドメインが，また，DicerではDEADボックスRNA<a href="#" class="anno ヘリ<a href="#" class="anno カ">カ</a>ーゼ">ヘリカーゼ</a>ドメインと<a href="#" class="anno DUF2">DUF2</a>83ドメインが，この相互作用にかかわっていることがわかった．<br/><br/><h2>2．ADAR1はDicerに結合し<a href="#" class="anno siRNA">siRNA</a>やmiRNAの産生を促進する</h2><br/>　ADAR1との相互作用がDicerにどのような影響をあたえているのかを調べるため，Dicerのみ，Dicer-TRBP複合体，Dicer-ADAR1複合体をそれぞれ調製し，<em><a href="#" class="anno in vitro">in vitro</a></em>においてmiRNAあるいはsiRNAの産生反応を解析した．その結果，TRBPと<a href="#" class="anno 同じ">同じ</a>く，ADAR1の2つのアイソフォームp150とp110とも，miRNAおよびsiRNAの産生においてDicerの活性を促進することがわかった．つぎに，ADAR1のもつ二本鎖RNA<a href="#" class="anno 結合能">結合能</a>とRNA編集能のどちらがDicerを<a href="#" class="anno 活性化">活性化</a>しているかを特定するため，それぞれの機能を担う部位に変異を導入してこれを<a href="#" class="anno <a href="#" class="anno 不活性">不活性</a>化">不活性化</a>したADAR1変異体とDicerとの複合体を調製し，その<a href="#" class="anno 酵素活性">酵素活性</a>を調べた．その結果，どちらの部位の変異体も<a href="#" class="anno 野生型">野生型</a>のADAR1と同じ程度にDicerの活性を促進することが確認された．これらの結果から，ADAR1はDicerに結合すること自体によって，Dicerの活性を促進していると考えられた．Dicerに対するADAR1の影響をより詳細に調べるため，Dicer-ADAR1 p110複合体によるsiRNAおよびmiRNAの産生においてMichaelis-Menten式を用いた<a href="#" class="anno 酵<a href="#" class="anno 素反応">素反応</a>">酵素反応</a>解析を行った．その結果，Dicer-ADAR 1p110複合体ではDicer単独のときと比べ，最大<a href="#" class="anno 反応速度">反応速度</a><em>V<sub><a href="#" class="anno max">max</a></sub></em>が4倍に増加していることがわかった．<br/><br/><h2>3．ADAR1はmiRNAのRISCへの取り込みと標的RNAの切断を促進する</h2><br/>　Dicer-ADAR1複合体により産生されたsiRNAやmiRNAがRISCへと取り込まれるかどうか調べた．miRNA前駆体である<a href="#" class="anno let-7">let-7</a>a前駆体およびAgo2を，Dicer，Dicer-TRBP複合体，Dicer-ADAR1複合体のそれぞれと反応させたのち，let-7aの標的となるRNAをくわえてその切断を観察した．その結果，Dicer-ADAR1複合体により産生されたlet-7aはAgo2を含むRISCに取り込まれ機能することが判明した．さらに，標的RNAに対する切断効率はDicer単独のときと比べ2倍以上も亢進しており，これはDicer-TRBP複合体の活性に匹敵することが判明した．つぎに，Dicer-ADAR1複合体によるmiRNAのAgo2への取り込み能をさらにくわしく調べるため，let-7a前駆体の代わりに，Dicerによりすでに切断された二本鎖let-7aおよび<a href="#" class="anno 一本鎖">一本鎖</a>のガイド鎖let-7aを用いてRISCへの取り込みを解析した．その結果，Dicer-ADAR1複合体ではどちらの場合も，Ago2単独，あるいは，DicerとAgo2の組合せのみに比較して，より高い効率で標的RNAを切断することが判明した．これらの結果から，ADAR1はDicerによるmiRNA前駆体あるいはsiRNA前駆体の切断だけでなく，Ago2を含むRISCへのガイド鎖RNAの取り込みも促進することが示された．<br/><br/><h2>4．ADAR1の機能はヘテロ二量体と<a href="#" class="anno ホモ二量体">ホモ二量体</a>の<a href="#" class="anno 選択的">選択的</a>な形成により決定される</h2><br/>　ADAR1はどのようにしてRNA編集能とRNAi促進能とを使い分けているのだろうか？　miRNAのうちmiR-151の+3位と-1位のアデノシンは高い効率でイノシンへと変換されることが報告されている<a href="#R7"><sup>7)</sup></a>．そこで，Dicer-ADAR1複合体のRNA編集能をmiR-151前駆体を基質として解析した．miR-151前駆体をDicer-ADAR1複合体により切断したのち，切断されていないmiR-151前駆体と切断されたmiR-151を調べたところ，どちらにもRNA編集は検出されなかった．このことから，Dicer-ADAR1ヘテロ二量体はRNA編集能をもた<a href="#" class="anno ないこと">ないこと</a>がわかった．ADAR1は単独でホモ二量体を形成するか，あるいは，Dicerとヘテロ二量体を形成するかを選択することにより，RNA編集酵素とRNAi促進タンパク質としての機能を使い分けているものと推測された．<br/><br/><h2>5．ADAR1の欠損はマウスの<a href="#" class="anno 胚発生">胚発生</a>の過程においてグローバルなmiRNA<a href="#" class="anno 産生量">産生量</a>の低下をひき起こす</h2><br/>　ADAR1ノックアウトマウスでは胎生12日ごろに全身に<a href="#" class="anno アポトーシス">アポトーシス</a>が生じ死にいたる<a href="#R3"><sup>3)</sup></a>．<em>in vivo</em>でのmiRNA産生機構におけるADAR1の寄与の程度をはかるため，胎生11日および胎生11.5日の<a href="#" class="anno 野生型マウス">野生型マウス</a>およびADAR1ノックアウトマウスの胚においてmiRNA<a href="#" class="anno 発現プロファイル">発現プロファイル</a>を次世代<a href="#" class="anno シークエンサー">シークエンサー</a>により解析した．その結果，胎生11.5日においてはADAR1ノックアウトマウスおよび野生型マウスともに変化はなかったが，胎生11.5日のADAR1ノックアウトマウスにおいてmiRNA量のグローバルな減少がみられた．また，野生型マウスでは胎生11日から胎生11.5日にかけてmiRNA量の顕著な増加がみられた．また，定量RT-<a href="#" class="anno PCR">PCR</a>法による解析の結果，野生型マウスでは胎生11日から胎生11.5日にかけてmiRNAの産生が2～3倍も増加したが，ADAR1ノックアウトマウスではそのようなmiRNA産生の増加は観察されなかった．<br/>　野生型マウスの胚において胎生11日から胎生11.5日にかけてmiRNAが増加していたことから，とくにこの時期において，miRNA産生機構が活性化しているのではないかと推測された．そこで，胎生9日から胎生12日にかけて野生型マウスの胚においてDicer，ADAR1，TRBP，PA<a href="#" class="anno CT">CT</a>の<a href="#" class="anno 発現量">発現量</a>を比較したところ，胎生11日から胎生12日にかけてDicerの発現量は3～<a href="#" class="anno 5倍">5倍</a>に増加しており，さらに，ADAR1 p110もDicerの増加にともない4～5倍に増加していることが判明した．一方，TRBPおよびPACTは胎生9日から胎生11日にかけて変化なく，胎生12日において1.5倍ほど増加しただけであった．この結果は，胎生11日から胎生12日にかけてのmiRNAのグローバルな発現量の上昇は，DicerおよびADAR1 p110の発現量の増加により促進されていることを示唆しており，少なくとも，マウスの胎生11日から胎生12日における胚発生の過程においては，ADAR1はPACTやTRBPよりも，Dicerの<a href="#" class="anno 補因子">補因子</a>としてmiRNAの産生に寄与していると考えられた．<br/>　減少の確認されたmiRNAであるmiR-1，miR-103-3p，miR-181aの標的<a href="#" class="anno 遺伝子産物">遺伝子産物</a>として知られるFOXP1，IRX5，Dicer，c-<a href="#" class="anno FOS">FOS</a>のタンパク質発現量を解析した結果，これらは胎生11.5日のADAR1ノックアウトマウスでは2～2.5倍に増加しており，これらmiRNAの発現量の減少が<a href="#" class="anno ターゲット遺伝子">ターゲット遺伝子</a>の発現の上昇をひき起こしていることが確認された．そこで，胎生11.5日のADAR1ノックアウトマウスにおいて，<a href="#" class="anno 次世代シークエンサー">次世代シークエンサー</a>を用いて<a href="#" class="anno ポリA">ポリA</a>をもつRNAのグローバルな<a href="#" class="anno 遺伝子発現">遺伝子発現</a>プロファイルを解析した．その結果，発現が2倍以上も上昇したmRNAの<a href="#" class="anno 大部分">大部分</a>は，ADAR1ノックアウトマウスにおいて発現の低下がみられたmiRNAの標的遺伝子と予測されることが，<em><a href="#" class="anno in silico">in silico</a></em>での解析により判明した．遺伝子の傾向として，<a href="#" class="anno 細胞死">細胞死</a>，<a href="#" class="anno 血球新生">血球新生</a>，<a href="#" class="anno 心臓発生">心臓発生</a>に関与するものが多くみられ，ADAR1ノックアウトマウスではADAR1の欠損によりmiRNAが十分に供給されなかったため，胚の正常な発生に必要な遺伝子<a href="#" class="anno 発現抑制">発現抑制</a>が起こらなかったことが示唆された．<br/><br/><h2>6．培養細胞においてもADAR1はmiRNAの産生に寄与する</h2><br/>　ADAR1が培養細胞においてもmiRNA産生機構に関与しているかどうか検証するため，<a href="#" class="anno HeLa細胞">HeLa細胞</a>において<a href="#" class="anno RNAi法">RNAi法</a>を用いてADAR1およびTRBPの<a href="#" class="anno ノックダウン">ノックダウン</a>，および，ADAR1とTRBPの<a href="#" class="anno 二重">二重</a>ノックダウンを行い，miRNAとしてlet-7e，let-7c，miR-103-3p，miR-181b-5pの発現量を定量<a href="#" class="anno RT-<a href="#" class="anno PCR法">PCR法</a>">RT-PCR法</a>により解析した．その結果，TRBPのノックダウンによりmiRNAの産生量が40～70％ほど低下するのに対し，ADAR1のノックダウンでも30～40％の低下が観察された．さらに，TRBPとADAR1をともにノックダウンすると，TRBP単独でのノックダウンよりさらに10％～20％ほどmiRNAの産生量は低下した．また，次世代シークエンサーを用いた解析でも，ADAR1をノックダウンすることによりグローバルなmiRNAの減少が起こっていることが確認された．以上の結果から，発生している<a href="#" class="anno 胎<a href="#" class="anno 仔">仔</a>">胎仔</a>のみならず，培養細胞においてもADAR1がmiRNAの産生に寄与していることが示された．<br/><br/><h2>おわりに</h2><br/>　これまで，アデノシンからイノシンへのRNA編集がRNAi機構やmiRNA産生機構に対し<a href="#" class="anno 拮抗作用">拮抗作用</a>をもつことが報告されてきた．しかし，この研究では，RNA編集酵素としてよく知られるADAR1が，Dicerと複合体を形成しmiRNAの産生およびRISCへの取り込みを活性化するRNAi促進能をもつことが発見された（<a href="#F2">図2</a>）．この2つの機能は，ADAR1がADAR1ホモ二量体を形成するかADAR1-Dicer二量体を形成するかを選択する過程において制御されているものと考えられた．マウスの胎生11日から胎生12日の胚ではADAR1によるRNA編集の効率は<a href="#" class="anno 全体的">全体的</a>に非常に低く，ごくかぎられたmiRNAやmRNAのみが<a href="#" class="anno 低頻度">低頻度</a>でRNA編集されていることが知られており，胚発生の過程ではADAR1はADAR1-Dicerヘテロ二量体として，miRNA産生機構の補因子としておもにRNAi機構に関与していると思われた．ADAR1ノックアウトマウスの胎生致死という<a href="#" class="anno 表現型">表現型</a>は，TRBPノックアウトマウスの表現型（生育遅滞および雄の不妊）やPACTノックアウトマウスの表現型（難聴）に比べ劇的であることからも，胚発生の過程におけるmiRNA産生機構において，ADAR1の寄与がもっとも重要であることがうかがえた．以上の知見から，Dicerとのヘテロ二量体としてADAR1のもつRNAi促進能の欠失が，ADAR1ノックアウトマウスの胎生致死をひき起こす大きな要因となっていると推察された．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　RNAi機構におけるADAR1の異なる2つの機能</strong><br/>（a）RNAエディター．長鎖二本鎖RNA，siRNA前駆体，miRNA前駆体に対し，RNA編集能をもつADAR1ホモ二量体が作用してmiRNAプロセシングに対し拮抗的にはたらき，siRNAおよびmiRNAの最終的な産生量を減少させる．<br/>（b）RNAサイレンサー．長鎖二本鎖RNA，siRNA前駆体，miRNA前駆体に対し，ADAR1-Dicerヘテロ二量体が作用してDicerによる二本鎖RNA切断を活性化し，siRNAおよびmiRNAの産生量を増加させRISCへの取り込み効率を上昇させて，最終的にRNAサイレンシングを促進する．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/05/Nishikura-Cell-13.4.25-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　RNAi機構におけるADAR1の異なる2つの機能" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nishikura-Cell-13.4.25-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nishikura-Cell-13.4.25-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hood, J. L. & Emeson, R. B.</span>: <span class="ti">Editing of neurotransmitter receptor and ion channel RNAs in the nervous system.</span> <span class='so'>Curr. Top. Microbiol. Immunol., 353, 61-90 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21796513" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Ramaswami, G., Lin, W., Piskol, R. et al.</span>: <span class="ti">Accurate identification of human <em>Alu</em> and non-<em>Alu</em>RNA editing sites.</span> <span class='so'>Nat. Methods, 9, 579-581 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22484847" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Wang, Q., Miyakoda, M., Yang, W. et al.</span>: <span class="ti">Stress-induced apoptosis associated with null mutation of <em>ADAR1</em> RNA editing deaminase gene.</span> <span class='so'>J. Biol. Chem., 279, 4952-4961 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14613934" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Chakravarthy, S., Sternberg, S. H., Kellenberger, C. A. et al.</span>: <span class="ti">Substrate-specific kinetics of Dicer-catalyzed RNA processing.</span> <span class='so'>J. Mol. Biol., 404, 392-402 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20932845" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Chendrimada, T. P., Gregory, R. I., Kumaraswamy, E. et al.</span>: <span class="ti">TRBP recruits the Dicer complex to Ago2 for microRNA processing and gene silencing.</span> <span class='so'>Nature, 436, 740-744 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15973356" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Wu, D., Lamm, A. T. & Fire, A. Z.</span>: <span class="ti">Competition between ADAR and RNAi pathways for an extensive class of RNA targets.</span> <span class='so'>Nat. Struct. Mol. Biol., 18, 1094-1101 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21909095" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Kawahara, Y., Zinshteyn, B., Chendrimada, T. P. et al.</span>: <span class="ti">RNA editing of the microRNA-151 precursor blocks cleavage by the Dicer-TRBP complex.</span> <span class='so'>EMBO Rep., 8, 763-769 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17599088" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Yang, W., Chendrimada, T. P., Wang, Q. et al.</span>: <span class="ti">Modulation of microRNA processing and expression through RNA editing by ADAR deaminases.</span> <span class='so'>Nat. Struct. Mol. Biol., 13, 13-21 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16369484" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Kawahara, Y., Zinshteyn, B., Sethupathy, P. et al.</span>: <span class="ti">Redirection of silencing targets by adenosine-to-inosine editing of miRNAs.</span> <span class='so'>Science, 315, 1137-1140 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17322061" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Iizasa, H., Wulff, B. E., Alla, N. R. et al.</span>: <span class="ti">Editing of Epstein-Barr virus-encoded BART6 microRNAs controls their dicer targeting and consequently affects viral latency.</span> <span class='so'>J. Biol. Chem., 285, 33358-33370 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20716523" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/02_04.html" target="_blank">2.4 Formation of Multicellular Organisms by Embryogenesis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/08_03.html" target="_blank">8.3 Post-transcriptional Modification</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/19_03.html" target="_blank">19.3 Morphogenetic Movement</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">太田 博允（Hiromitsu Ota）</span><br>略歴：2008年 九州大学大学院理学府博士課程 修了，同年 九州大学大学院システム生命科学府 特別研究員を経て，2009年より米国Wistar Instituteポストドクトラルフェロー．<br>研究テーマ：ADAR1と相互作用するタンパク質の同定と機能解析．<br><br><strong>櫻井 雅之（Masayuki Sakurai）</strong><br>略歴：2006年 東京大学大学院新領域創成科学研究科博士課程 修了，同年 東京大学大学院工学系研究科 特別研究員，2010年 米国Wistar Instituteポストドクトラルフェローを経て，2012年より同Staff Scientist．<br>研究テーマ：ADAR1およびRNA編集の介する遺伝子発現の制御機構．<br><br><strong>西倉 和子（Kazuko Nishikura）</strong><br>米国Wistar Institute教授．<br>研究室URL：<a href="http://www.wistar.org/lab/kazuko-nishikura-phd" target="_blank">http://www.wistar.org/lab/kazuko-nishikura-phd</a><br></div><br>© 2013 太田博允・櫻井雅之・西倉和子 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

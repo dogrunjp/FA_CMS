@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> IRF4は脂肪細胞の脂肪分解、脂質生合成を制御する転写因子である : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/2444" rel="bookmark">IRF4は脂肪細胞の脂肪分解、脂質生合成を制御する転写因子である</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>江口 潤・Evan D. Rosen</strong><br>（米国Harvard Medical School，Beth Israel Deaconess Medical Center）<br>email：<a href="mailto:jjeguchi@gmail.com">江口 潤</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.055">10.7875/first.author.2011.055</a><br><div class="reference"><br><span class="ti">Transcriptional control of lipid handling by IRF4.</span><br><span class="au">Jun Eguchi, Xun Wang, Songtao Yu, Erin E. Kershaw, Patricia C. Chiu, Joanne Dushay, Jennifer L. Estall, Ulf Klein, Eleftheria Maratos-Flier, Evan D. Rosen</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21356515" target="_blank"><em>Cell Metabolism</em>, <strong>13</strong>, 249-259 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 脂肪組織">脂肪組織</a>は<a href="#" class="anno 摂食">摂食</a>時に脂質の<a href="#" class="anno 生合成">生合成</a>を促進することにより<a href="#" class="anno トリアシル<a href="#" class="anno グリセロール">グリセロール</a>">トリアシルグリセロール</a>を蓄積し，<a href="#" class="anno 絶食時">絶食時</a>に脂肪の融解を促進することにより脂肪酸を遊離し多くの臓器に供給することが知られている．しかし，この作用を制御する<a href="#" class="anno 転写因子">転写因子</a>についてはほとんど知られていない．筆者らは，まず，絶食時の脂肪組織において転写因子<a href="#" class="anno <a href="#" class="anno I<a href="#" class="anno RF">RF</a>">IRF</a>4">IRF4</a>の発現が誘導され，この発現の上昇はインスリンおよびその下流の転写因子<a href="#" class="anno FoxO">FoxO</a>1により制御されていることを明らかにした．つぎに，<a href="#" class="anno 不死化">不死化</a>したIRF4ノックアウト<a href="#" class="anno 脂肪細胞">脂肪細胞</a>を用いて，IRF4は脂肪細胞におけるお<a href="#" class="anno も">も</a>な<a href="#" class="anno リパーゼ">リパーゼ</a>である<a href="#" class="anno <a href="#" class="anno ATG">ATG</a>L">ATGL</a>および<a href="#" class="anno HSL">HSL</a>の<a href="#" class="anno 遺伝子発現">遺伝子発現</a>を制御することにより脂肪融解を促進し<a href="#" class="anno 脂質生合成">脂質生合成</a>を抑制していることを明らかにした．さらに，脂肪細胞に<a href="#" class="anno 特異的">特異的</a>なIRF4<a href="#" class="anno ノックアウトマウス">ノックアウトマウス</a>を解析することにより，脂肪細胞におけるIRF4の欠損が脂肪融解を抑制することで全身の脂肪重量の増加をひき起こしていることを示した．以上の結果より，IRF4は脂肪組織の脂肪融解と脂質生合成とのバランスを制御することにより全身の脂肪重量を調整する転写因子であることを示した．<br/><br/><h2>はじめに</h2><br/>　脂肪組織は，現在，<a href="#" class="anno レプチン">レプチン</a>や<a href="#" class="anno ア<a href="#" class="anno デ">デ</a>ィポネクチン">アディポネクチン</a>をはじめとする<a href="#" class="anno 生理活性">生理活性</a>物質を分泌し全身の<a href="#" class="anno 糖代謝">糖代謝</a>や<a href="#" class="anno インスリン感受性">インスリン感受性</a>を制御する内分泌臓器として注目されているが，古くから食事で摂取された余剰なエネルギーの貯蔵庫としても知られている．脂肪組織におけるトリアシルグリセロールの量は脂質生合成と脂肪融解とのバランスによって規定されており，摂食時には新規に生成された脂肪酸が脂肪細胞に取り込まれこれが<a href="#" class="anno エステル結合">エステル結合</a>をすることによってトリアシルグリセロールが合成され，絶食時には脂肪細胞においてトリアシルグリセロールが<a href="#" class="anno 遊離脂肪酸">遊離脂肪酸</a>とグリセロールとに分解され多くの臓器における<a href="#" class="anno エネルギー源">エネルギー源</a>として遊離される<a href="#R1"><sup>1-3)</sup></a>．このような摂食時および絶食時の<a href="#" class="anno 脂質代謝">脂質代謝</a>は摂取された栄養素（炭水化物や<a href="#" class="anno 多価">多価</a>不<a href="#" class="anno 飽和脂肪酸">飽和脂肪酸</a>）あるいはインスリンや<a href="#" class="anno <a href="#" class="anno カ">カ</a>テコ<a href="#" class="anno ラミン">ラミン</a>">カテコラミン</a>といったホルモンにより制御されている．さらに，摂食時においてインスリンは転写因子<a href="#" class="anno SR">SR</a><a href="#" class="anno EBP">EBP</a>1cを介して脂質生合成を促進し，炭水化物の効果は転写因子ChREBP，多価<a href="#" class="anno 不飽和脂肪酸">不飽和脂肪酸</a>の効果は転写因子<a href="#" class="anno LXR">LXR</a>により制御されていることが報告されている<a href="#R4"><sup>4-7)</sup></a>（<a href="#F1">図1</a>）．しかし一方，脂肪融解を制御する転写因子についてはほとんど知られていない．IRFファミリーは<a href="#" class="anno 免疫応答">免疫応答</a>や<a href="#" class="anno 免疫細胞">免疫細胞</a>の<a href="#" class="anno 分化増殖">分化増殖</a>などにおける重要な転写因子として知られているが<a href="#R8"><sup>8,9)</sup></a>，筆者らは以前，IRFを脂肪<a href="#" class="anno 細胞の分化">細胞の分化</a>を制御する新規の転写因子として同定した<a href="#R10"><sup>10)</sup></a>．IRFファミリーのなかでもIRF4はその発現が免疫細胞と脂肪細胞とに限局しており脂肪細胞の分化にともなってその発現が上昇するため，分化ののちの成熟した脂肪細胞でなんらかの役割をはたしていることが推測された．この研究では，IRF4の成熟脂肪細胞での機能に焦点をあてて研究を行った．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　摂食時および絶食時の脂肪組織における脂質代謝</strong><br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/Eguchi-Cell-Metabolism-11.3.1-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　摂食時および絶食時の脂肪組織における脂質代謝" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Eguchi-Cell-Metabolism-11.3.1-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Eguchi-Cell-Metabolism-11.3.1-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．脂肪細胞におけるIRF4の発現は絶食により誘導される</h2><br/>　脂肪細胞におけるIRF4の<a href="#" class="anno 機能解析">機能解析</a>をはじめるにあたって，まず，摂食状態および絶食状態におけるIRF4の発現の変化を調べた．<a href="#" class="anno 野生型">野生型</a>マウスを絶食状態にすると脂肪組織においてIRF4の発現は劇的に上昇し，ふたたび摂食させるとすみやかに発現の低下することがわかった．この<a href="#" class="anno 発現調節">発現調節</a>はインスリン感受性の臓器である脂肪組織のみで認められ，IRF4を発現するもうひとつの臓器である<a href="#" class="anno 脾">脾</a>臓ではこのような発現調節は認められなかった．また，72時間の絶食の前後でヒトの<a href="#" class="anno 皮下脂肪組織">皮下脂肪組織</a>を採取しIRF4の発現を検討した結果，絶食のまえに比べ絶食のあとに有意なIRF4の<a href="#" class="anno 発現上昇">発現上昇</a>を認めた．<br/><br/><h2>2．インスリンは転写因子<a href="#" class="anno FoxO1">FoxO1</a>を介してIRF4の発現を抑制する</h2><br/>　絶食によるIRF4の発現<a href="#" class="anno 調節因子">調節因子</a>を探索するため3<a href="#" class="anno T3">T3</a>-<a href="#" class="anno L1">L1</a>細胞を用いて検討した結果，インスリンがIRF4の<a href="#" class="anno 発現抑制">発現抑制</a>因子であることがわかった．インスリンの濃度の増減がIRF4の発現を調節していることが推測されたため，<a href="#" class="anno ストレプトゾトシン">ストレプトゾトシン</a>の投与により誘導した<a href="#" class="anno 全身性">全身性</a><a href="#" class="anno インスリン欠乏性<a href="#" class="anno 糖尿病">糖尿病</a>">インスリン欠乏性糖尿病</a>マウスおよび脂肪組織に特異的なインスリン<a href="#" class="anno 受容体">受容体</a>ノックアウトマウスの脂肪組織におけるIRF4の発現を検討した．その結果，いずれのマウスにおいても<a href="#" class="anno 野生型マウス">野生型マウス</a>と比較してIRF4の発現上昇を認めた．また，<a href="#" class="anno インスリンシグナル">インスリンシグナル</a>の下流の重要な転写因子であるFoxO1の<a href="#" class="anno 恒常的">恒常的</a>活性<a href="#" class="anno 変異体">変異体</a>あるいは機能<a href="#" class="anno 抑制型">抑制型</a>変異体を培養脂肪細胞に導入することにより，インスリンによるIRF4の発現の<a href="#" class="anno 抑制作用">抑制作用</a>はFoxO1を介して行われていることが確認された．<br/><br/><h2>3．IRF4は脂肪融解を促進し脂質生合成を抑制する</h2><br/>　絶食時の脂肪細胞におけるIRF4の発現上昇が脂肪融解や脂質生合成に影響をあたえるかどうかを検討するため，不死化したIRF4ノックアウト<a href="#" class="anno 胎<a href="#" class="anno 仔">仔</a>">胎仔</a>線維<a href="#" class="anno 芽細胞">芽細胞</a>を樹立し，脂肪細胞の強力な<a href="#" class="anno 分化誘導">分化誘導</a>因子である<a href="#" class="anno C/EBP">C/EBP</a>αを<a href="#" class="anno 強制発現">強制発現</a>させることによってIRF4ノックアウト脂肪細胞を作製した．IRF4ノックアウト脂肪細胞では野生型の脂肪細胞と比較し<a href="#" class="anno イソ">イソ</a>プレテレノール<a href="#" class="anno 刺激性">刺激性</a>の脂肪融解が有意に抑制されていた．IRF4ノックアウト脂肪細胞における遺伝子発現を検討したところ，脂肪細胞におけるおもなリパーゼであるATGLおよびHSLの遺伝子発現が減少しており，<a href="#" class="anno プロモーター解析">プロモーター解析</a>や<a href="#" class="anno クロマチン">クロマチン</a><a href="#" class="anno 免疫沈降">免疫沈降</a><a href="#" class="anno アッセイ">アッセイ</a>によりIRF4が直接にATGLおよびHSLの遺伝子発現を制御していることが明らかになった．以上の結果により，この現象は少なくともIRF4の発現欠損によるATGLおよびHSLの<a href="#" class="anno 発現量">発現量</a>の低下が関与している<a href="#" class="anno 可能性">可能性</a>が示唆された．また，脂肪細胞における脂肪融解は脂質生合成と<a href="#" class="anno 機能的">機能的</a>に拮抗しているため，IRF4ノックアウト脂肪細胞の脂質生合成への影響を検討した．IRF4ノックアウト脂肪細胞では野生型の脂肪細胞と比較しインスリン<a href="#" class="anno 誘導性">誘導性</a>の脂質生合成が有意に増<a href="#" class="anno 強さ">強さ</a>れていた．さらに，IRF4を<a href="#" class="anno 過剰発現">過剰発現</a>する脂肪細胞では野生型の脂肪細胞と比較しインスリン誘導性の脂質生合成が有意に抑制されていた．以上の結果から，IRF4は脂肪融解と脂質生合成とのバランスを調整している可能性が示唆された．<br/><br/><h2>4．脂肪<a href="#" class="anno 細胞特異的">細胞特異的</a>なIRF4ノックアウトマウスは脂肪組織の重量の増加を呈する</h2><br/>　IRF4ノックアウト脂肪細胞で認められた<a href="#" class="anno 表現型">表現型</a>が<em>in vivo</em>においてもみられるかどうかを検討するため，脂肪細胞に特異的なIRF4ノックアウトマウスを作製した．従来，脂肪細胞に特異的なノックアウトマウスを作製する際には脂肪酸<a href="#" class="anno 結合タンパク質">結合タンパク質</a>である<a href="#" class="anno aP2">aP2</a>の<a href="#" class="anno 遺伝子プロモーター">遺伝子プロモーター</a>により<a href="#" class="anno 発現制御">発現制御</a>される<a href="#" class="anno Cre">Cre</a><a href="#" class="anno リコンビナーゼ">リコンビナーゼ</a>発現マウスを使っていたが，このマウスは脂肪細胞だけでなく<a href="#" class="anno マクロ<a href="#" class="anno ファージ">ファージ</a>">マクロファージ</a>でも<a href="#" class="anno Creリコンビナーゼ">Creリコンビナーゼ</a>を発現するため，免疫細胞に強い影響をもつIRF4の脂肪細胞での機能を検討するには不都合であった．<a href="#" class="anno そのため">そのため</a>，<a href="#" class="anno アディポネクチン遺伝子">アディポネクチン遺伝子</a>のプロモーターにより発現制御されるCreリコンビナーゼ発現マウスを作製した．このマウスにおけるCreリコンビナーゼの発現は脂肪細胞のみに限局しておりほかの臓器では発現を認めなかった．この脂肪細胞に特異的なIRF4ノックアウトマウスは野生型マウスと比較し脂肪の重量および脂肪細胞のサイズの有意な増大を認めた．<br/><br/><h2>5．脂肪細胞に特異的なIRF4ノックアウトマウスは脂肪融解能の低下を呈する</h2><br/>　IRF4ノックアウト脂肪細胞で認められた表現型と脂肪細胞に特異的なIRF4ノックアウトマウスにおける脂肪重量の増加との関連を検討するため，<a href="#" class="anno イソプロテレノール">イソプロテレノール</a>刺激による脂肪融解を検討した．イソプレテノールの<a href="#" class="anno 全身投与">全身投与</a>実験，分離脂肪細胞を用いたイソプレテノール刺激実験ともに，脂肪細胞に特異的なIRF4ノックアウトマウスは野生型マウスと比較しイソプロテレノール誘導性の脂肪融解の低下を認めた．分離脂肪細胞における遺伝子発現を検討したところ，脂肪細胞に特異的なIRF4ノックアウトマウスにおいて，絶食時にATGLおよびHSLの遺伝子発現の上昇，摂食時に脂肪酸の取り込みや脂質生合成に関連する遺伝子発現の上昇を認めた．さらに，脂肪融解を必要とする2つの状況にマウスをおき<a href="#" class="anno 反応性">反応性</a>の脂肪融解について検討した．まず，脂肪細胞に特異的なIRF4ノックアウトマウスと野生型マウスに48時間の絶食を行い，<a href="#" class="anno 体重減少">体重減少</a>率，遊離脂肪酸の<a href="#" class="anno 血中">血中</a>濃度，<a href="#" class="anno 細胞内">細胞内</a>の<a href="#" class="anno <a href="#" class="anno ケト">ケト</a>ン">ケトン</a>体濃度を反映するβ<a href="#" class="anno ヒドロキシ">ヒドロキシ</a>ブチリル<a href="#" class="anno カルニチン">カルニチン</a>の<a href="#" class="anno 血中濃度">血中濃度</a>を測定したところ，脂肪細胞に特異的なIRF4ノックアウトマウスにおいてこれらは有意に低下していた．つぎに，脂肪細胞に特異的なIRF4ノックアウトマウスと野生型マウスに寒冷刺激をくわえたところ，脂肪細胞に特異的なIRF4ノックアウトマウスにおいて熱<a href="#" class="anno 産生">産生</a>の低下，および，寒冷刺激により誘導される<a href="#" class="anno <a href="#" class="anno UC">UC</a>P">U<a href="#" class="anno CP">CP</a></a>1およびPG<a href="#" class="anno C1">C1</a>αの発現上昇についてその低下を認めた．<br/><br/><h2>おわりに</h2><br/>　IRFファミリーは免疫応答および免疫細胞の分化増殖に広く関与する転写因子として知られている<a href="#R8"><sup>8,9)</sup></a>．哺乳類には9種類のIRFファミリーのメンバーが存在し，すべてが脂肪細胞に発現していて，そのうち，IRF1，<a href="#" class="anno IRF3">IRF3</a>，IRF4は脂肪細胞の分化の抑制に関与していることを以前に報告した．9つのうちIRF4のみがその発現を免疫細胞と脂肪細胞とに限局しているため，この研究は成熟した脂肪細胞におけるIRF4の機能に焦点をあてて行われた．その結果，摂食および絶食といった<a href="#" class="anno 栄養状態">栄養状態</a>の変化が脂肪細胞にひき起こす脂質代謝を制御する<a href="#" class="anno 分子機構">分子機構</a>としてIRF4による<a href="#" class="anno 転写制御">転写制御</a>を明らかにした（<a href="#F2">図2</a>）．また，<a href="#" class="anno <a href="#" class="anno 高脂肪">高脂肪</a>食">高脂肪食</a>をあたえた脂肪組織においてIRF4の<a href="#" class="anno 発現低下">発現低下</a>が認められたため，脂肪細胞でのIRF4の発現低下が及ぼすインスリン感受性への影響や，脂肪細胞に特異的なIRF4過剰発現マウスが高脂肪食誘導性のインスリン<a href="#" class="anno 抵抗性">抵抗性</a>に影響をあたえるかどうかを検討していく予定である．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　IRF4は脂質生合成と脂肪融解とのバランスを制御している</strong><br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/Eguchi-Cell-Metabolism-11.3.1-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　IRF4は脂質生合成と脂肪融解とのバランスを制御している" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Eguchi-Cell-Metabolism-11.3.1-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Eguchi-Cell-Metabolism-11.3.1-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Bouchard, C., Despres, J. P. & Mauriege, P.</span>: <span class="ti">Genetic and nongenetic determinants of regional fat distribution.</span> <span class='so'>Endocr. Rev., 14, 72-93 (1993)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8491156" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Lafontan, M.</span>: <span class="ti">Advances in adipose tissue metabolism.</span> <span class='so'>Int. J. Obes., 32(Suppl.7), S39-S51 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19136990" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Duncan, R. E., Ahmadian, M., Jaworski, K. et al.</span>: <span class="ti">Regulation of lipolysis in adipocytes.</span> <span class='so'>Annu. Rev. Nutr., 27, 79-101 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17313320" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Kersten, S.</span>: <span class="ti">Mechanisms of nutritional and hormonal regulation of lipogenesis.</span> <span class='so'>EMBO Rep., 2, 282-286 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11306547" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Darimont, C., Avanti, O., Zbinden, I. et al.</span>: <span class="ti">Liver X receptor preferentially activates de novo lipogenesis in human preadipocytes.</span> <span class='so'>Biochimie, 88, 309-318 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16298468" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Eberle, D., Hegarty, B., Bossard, P. et al.</span>: <span class="ti">SREBP transcription factors: master regulators of lipid homeostasis.</span> <span class='so'>Biochimie, 86, 839-848 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15589694" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Uyeda, K., Yamashita, H. & Kawaguchi, T.</span>: <span class="ti">Carbohydrate responsive element-binding protein (ChREBP): a key regulator of glucose metabolism and fat storage.</span> <span class='so'>Biochem. Pharmacol., 63, 2075-2080 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12110366" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Tamura, T., Yanai, H., Savitsky, D. et al.</span>: <span class="ti">The IRF family transcription factors in immunity and oncogenesis.</span> <span class='so'>Annu. Rev. Immunol., 26, 535-584 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18303999" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Honda, K. & Taniguchi, T.</span>: <span class="ti">Toll-like receptor signaling and IRF transcription factors.</span> <span class='so'>IUBMB Life, 58, 290-295 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16754320" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Eguchi, J., Yan, Q. W., Schones, D. E. et al.</span>: <span class="ti">Interferon regulatory factors are transcriptional regulators of adipogenesis.</span> <span class='so'>Cell Metab., 7, 86-94 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18177728" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/06_03.html" target="_blank">6.3 Lipids</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/06_01.html" target="_blank">6.1 Components of Life</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">江口  潤（Jun Eguchi）</span><br>略歴：2005年 岡山大学大学院医歯薬学総合研究科博士課程 修了，同年 米国Harvard Medical Schoolリサーチフェローを経て，2011年より岡山大学大学院医歯薬学総合研究科 研究員．<br>研究テーマ：脂肪細胞の機能を制御する新規の転写因子の探索，肥満における脂肪組織の炎症の分子機構の解明．<br>抱負：脂肪細胞の機能異常の分子機構を解明するような研究が肥満やインスリン抵抗性の治療につながることを夢みて研究に励みたいと思います．<br><br><strong>Evan D. Rosen</strong><br>米国Harvard Medical SchoolにてAssociate Professor．<br></div><br>© 2011 江口 潤・Evan D. Rosen Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

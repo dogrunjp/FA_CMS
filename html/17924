@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 大規模なゲノムワイド関連解析による58項目の臨床検査値に影響する遺伝的な背景の解明 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/17924" rel="bookmark">大規模なゲノムワイド関連解析による58項目の臨床検査値に影響する遺伝的な背景の解明</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>金井仁弘<sup>1</sup>・岡田随象<sup>2</sup>・鎌谷洋一郎<sup>1</sup></strong><br>（<sup>1</sup>理化学研究所統合生命医科学研究センター 統計解析研究チーム，<sup>2</sup>大阪大学大学院医学系研究科 遺伝統計学）<br>email：<a href="mailto:yokada@sg.med.osaka-u.ac.jp">岡田随象</a>，<a href="mailto:yoichiro.kamatani@riken.jp">鎌谷洋一郎</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2018.025">10.7875/first.author.2018.025</a><br><div class="reference"><br><span class="ti">Genetic analysis of quantitative traits in the Japanese population links cell types to complex human diseases.</span><br><span class="au">Masahiro Kanai, Masato Akiyama, Atsushi Takahashi, Nana Matoba, Yukihide Momozawa, Masashi Ikeda, Nakao Iwata, Shiro Ikegawa, Makoto Hirata, Koichi Matsuda, Michiaki Kubo, Yukinori Okada, Yoichiro Kamatani</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/29403010" target="_blank"><em>Nature Genetics</em>, <strong>50</strong>, 390-400 (2018)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 医療機関">医療機関</a>において日々実施される<a href="#" class="anno 臨床検査">臨床検査</a>の結果は，検査時の<a href="#" class="anno 健康状態">健康状態</a>だけでなく，個人の<a href="#" class="anno 遺伝的">遺伝的</a>な背景に<a href="#" class="anno も">も</a>影響されることが知られており，その遺伝的な背景をつうじて疾患への<a href="#" class="anno 罹患性">罹患性</a>や病態の解明につながることが期待されている．日本人の集団については，筆者らが2010年に，約1万5千人を対象にした<a href="#" class="anno ゲノムワイド">ゲノムワイド</a><a href="#" class="anno 関連解析">関連解析</a>について報告したが，より<a href="#" class="anno 大規模">大規模</a>な解析の実施が望まれていた．この研究において，筆者らは，<a href="#" class="anno バイオバンク">バイオバンク</a>・ジャパンにより集められた日本人の集団16万人の<a href="#" class="anno 遺伝情報">遺伝情報</a>および58項目の<a href="#" class="anno 臨床検査値">臨床検査値</a>を用いて大規模な<a href="#" class="anno ゲノムワイド関連解析">ゲノムワイド関連解析</a>を実施し，臨床検査値に影響をおよぼす1407<a href="#" class="anno カ">カ</a>所の<a href="#" class="anno 遺伝的変異">遺伝的変異</a>を同定した．そのうち679カ所は新規のものであった．さらに，32の疾病のゲノムワイド関連解析の結果とあわせ，220種の細胞あるいは組織に<a href="#" class="anno 特異的">特異的</a>なエピ<a href="#" class="anno ゲノム情報">ゲノム情報</a>を統合した分野<a href="#" class="anno 横断的">横断的</a>な<a href="#" class="anno オミクス">オミクス</a>解析を実施し，複数の臨床検査値が<a href="#" class="anno <a href="#" class="anno 生活習慣">生活習慣</a>病">生活習慣病</a>や<a href="#" class="anno <a href="#" class="anno 自己免疫">自己免疫</a>疾患">自己<a href="#" class="anno 免疫疾患">免疫疾患</a></a>などと共通する遺伝的な背景を示すことや，同一の関連する細胞あるいは組織をもつことが明らかにされた．<br/><br/><h2>はじめに</h2><br/>　ゲノムワイド関連解析（genome-w<a href="#" class="anno ide">ide</a> association study：GW<a href="#" class="anno AS">AS</a>）はヒトの形質に感受性をもつ<a href="#" class="anno 遺伝子座">遺伝子座</a>を<a href="#" class="anno 網羅的">網羅的</a>に同定する<a href="#" class="anno 代表的">代表的</a>な手法のひとつである．ヒトの<a href="#" class="anno ゲノム全体">ゲノム全体</a>に存在する<a href="#" class="anno 数百">数百</a>万から<a href="#" class="anno 数千">数千</a>万の<a href="#" class="anno 1塩基<a href="#" class="anno 多型">多型</a>">1塩基多型</a>を対象として，その<a href="#" class="anno 遺伝子型">遺伝子型</a>と形質との関連を遺伝<a href="#" class="anno 統計解析">統計解析</a>により評価する．2002年に理化学研究所が世界にさきがけて報告して以来<a href="#R1"><sup>1)</sup></a>，数百にのぼる形質に対しのべ5万以上の<a href="#" class="anno 関連遺伝子">関連遺伝子</a>座が同定されている<a href="#R2"><sup>2)</sup></a>．<br/>　ヒトの数ある形質のうち，臨床検査値はもっともさかんに研究されているもののひとつである．医療機関において日々実施される臨床検査の結果は，検査時の健康状態だけでなく，個人の遺伝的な背景にも影響されることが知られており，その遺伝的な背景の解明をつうじて，疾患への罹患性や病態の解明につながることが期待されている．今日まで，臨床検査値に関する多くのゲノムワイド関連解析について報告されてきたが，その大半は欧米人の集団を中心とした研究であった．日本人の集団に対しては，筆者らが2010年に，約1万5千人を対象にしたゲノムワイド関連解析について報告したが<a href="#R3"><sup>3)</sup></a>，より大規模な解析の実施が望まれていた．<br/>　また近年，数多くのゲノムワイド関連解析の結果を互いに比較したり<a href="#R4"><sup>4)</sup></a>，複数の細胞あるいは組織から得られた<a href="#" class="anno エピゲノム">エピゲノム</a>情報を統合した分野横断的なオミクス解析を実施したりすることにより<a href="#R5"><sup>5)</sup></a>，形質どうしの遺伝的な<a href="#" class="anno <a href="#" class="anno 相">相</a>関関係">相関関係</a>や<a href="#" class="anno 感受性遺伝子">感受性遺伝子</a>座の細胞や組織の<a href="#" class="anno 特異性">特異性</a>を定量することが可能になった．2017年に筆者らは，肥満にかかわる疾患や細胞あるいは組織の同定に成功しており<a href="#R6"><sup>6)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/17238" target="_blank">新着論文レビュー</a> でも掲載），より広範な臨床情報に対し<a href="#" class="anno 包括的">包括的</a>な解析の実施が望まれていた．<br/><br/><h2>1．58項目の臨床検査値を用いたゲノムワイド関連解析</h2><br/>　日本人の集団における臨床検査値の遺伝的な背景について包括的に解明するため，バイオバンク・ジャパンにより集められた日本人の集団16万人の遺伝情報および58項目の臨床検査値を用いて大規模なゲノムワイド関連解析を実施した．58項目の臨床検査値は，採血による血液学的な検査（<a href="#" class="anno 血球数">血球数</a>など13項目），生化学検査（血糖・脂質関連，<a href="#" class="anno 血清タンパク質">血清タンパク質</a>，<a href="#" class="anno 腎機能">腎機能</a>，<a href="#" class="anno 電解質">電解質</a>，<a href="#" class="anno 肝機能">肝機能</a>など31項目），<a href="#" class="anno <a href="#" class="anno 生理機能">生理機能</a>検査">生理機能検査</a>（血<a href="#" class="anno 圧">圧</a>および<a href="#" class="anno 心エコー">心エコー</a>など14項目）から構成された．ヒトのゲノムの全体をカバーする約610万カ所の遺伝的変異を網羅的に解析した結果，これらの臨床検査値に影響をおよぼす1407カ所の遺伝的変異が同定され，そのうち679カ所は新規のものであった．<br/>　同定された遺伝的変異の<a href="#" class="anno アレル">アレル</a>頻度を1000 <a href="#" class="anno Gen">Gen</a>omes Projectにおける欧米人の集団および東<a href="#" class="anno アジア人">アジア人</a>の集団とのあいだで比較したところ，全体としてはおおむね共通していた．一方，新規に同定された遺伝的変異にしぼって解析してみると，60カ所の遺伝的変異が東アジア人の集団において広く共有されていたのに対し，欧米人の集団においては希少であった．とくに，うち15の領域における変異は東アジア人の集団においては高い頻度で共有されていた一方，欧米人の集団には存在しなかった．これらの事実から，非欧米人の集団においてゲノムワイド関連解析を実施する意義が明確にされただけでなく，同定された遺伝的変異の一部は<a href="#" class="anno 進化的">進化的</a>な<a href="#" class="anno 選択圧">選択圧</a>といった人種に特異的な影響をうけてきたことが示唆された．<br/><br/><h2>2．同定された感受性領域の<a href="#" class="anno 多面的">多面的</a>な作用</h2><br/>　同定された遺伝的変異と複数の臨床検査値との関係について明らかにするため，多面的な作用について検討した．多面的な作用とは，共通の遺伝的変異が複数の形質に影響をおよぼす現象のことであり，複数の形質のあいだの遺伝的な背景の共有関係を解明するうえで重要である<a href="#R7"><sup>7)</sup></a>．同定された感受性領域のなかから複数の臨床検査値に影響をおよぼす領域について調べたところ，およそ半数が多面的な作用を示すことが明らかにされた．さらに，うち88の領域は複数の臨床検査値のカテゴリー（脂質と肝機能など）と関連を示し，異なる<a href="#" class="anno <a href="#" class="anno 生物学">生物学</a>的">生物学的</a>な経路に対し多面的に作用するなどして複数の臨床検査値に影響をおよぼす遺伝的変異の存在が示唆された．<br/>　とくに<em>ALDH2</em>遺伝子の変異は最多の形質との関連を示し，7つの臨床検査値のカテゴリー（血糖・脂質関連，血清タンパク質，腎機能，電解質，肝機能，血球数，血圧）の21の臨床検査値に影響をおよぼすことが明らかにされた．ALDH2はエチルアルコールの代謝により生じるアセト<a href="#" class="anno アル<a href="#" class="anno デ">デ</a>ヒド">アルデヒド</a>を酢酸に分解する<a href="#" class="anno 代謝酵素">代謝酵素</a>のひとつであり，東アジア人の集団に特異的にその活性が弱い<a href="#" class="anno 遺伝子多型">遺伝子多型</a>が存在することが知られている．<a href="#" class="anno 実際">実際</a>に，<em>ALDH2</em>遺伝子の変異がもっとも強い関連を示した形質は，アルコール性<a href="#" class="anno 肝障害">肝障害</a>などの診断に広く活用される肝機能の指標のひとつであるγ-<a href="#" class="anno グルタミル">グルタミル</a><a href="#" class="anno トランスフェラーゼ">トランスフェラーゼ</a>であった．<br/><br/><h2>3．32の疾病との遺伝的な相関</h2><br/>　多面的な作用の解析は，個々の遺伝的変異の影響が形質のあいだでどのように共有されているのかを明らかにする一方，ゲノムの全体における形質のあいだの遺伝的な相関（原因変異の効果量の相関）を推定することはできない．そこで，<a href="#" class="anno 二変量">二変量</a>LDスコア回帰法を用いて<a href="#R4"><sup>4)</sup></a>，多因子遺伝モデルのもとで遺伝的な相関解析を実施した．日本人の集団に対しバイオバンク・ジャパンを中心に別途実施された32の疾病（生活習慣病，自己免疫疾患，<a href="#" class="anno 悪性腫瘍">悪性腫瘍</a>，<a href="#" class="anno 精神<a href="#" class="anno 神経疾患">神経疾患</a>">精神神経疾患</a>，骨関節疾患）におけるゲノムワイド関連解析の結果を，58項目の臨床検査値のゲノムワイド関連解析の結果とあわせたうえで，疾患あるいは臨床検査値の組合せにおける形質のあいだの遺伝的な相関を網羅的に推定した．その結果，270組の<a href="#" class="anno 統計的">統計的</a>に有意な遺伝的な相関関係が同定された．同定された遺伝的な相関の多くはこれまでの<a href="#" class="anno 疫学調査">疫学調査</a>において指摘されていたものであり，複数の臨床検査値と疾患が実際に遺伝的な背景を共有することが明確にされた．<br/>　臨床検査値のあいだでは，肥満の指標のひとつである<a href="#" class="anno BMI">BMI</a>（<a href="#" class="anno bod">bod</a>y <a href="#" class="anno mas">mas</a>s index）が最多の7つの臨床検査値のカテゴリー（血糖・脂質関連，血清タンパク質，腎機能，肝機能，血球数，血圧，心エコー）にまたがる22の臨床検査値と遺伝的な相関を示した．肥満は多くの疾患の<a href="#" class="anno 危険因子">危険因子</a>として知られており<a href="#R6"><sup>6)</sup></a>，複数の臨床検査値と共通する遺伝的な背景の存在が示唆された．また，白血球数と肝機能の指標のひとつである総<a href="#" class="anno ビリルビン">ビリルビン</a>とは疫学調査の結果から負の相関を示すことが知られていたが，両者の遺伝的な背景の共有関係については解明されていなかった．今回，疫学調査と一致する負の遺伝的な相関が見い出され，ビリルビンの<a href="#" class="anno <a href="#" class="anno 抗炎症">抗炎症</a>作用">抗炎症作用</a>仮説<a href="#R8"><sup>8)</sup></a> をはじめて<a href="#" class="anno <a href="#" class="anno 遺伝学">遺伝学</a>的">遺伝学的</a>に支持するものとなった．<br/>　疾患と臨床検査値のあいだでは，生活習慣病（<a href="#" class="anno 2型">2型</a><a href="#" class="anno 糖尿病">糖尿病</a>や<a href="#" class="anno 心血管">心血管</a>障害）との遺伝的な相関が多く同定された．血圧や脂質マーカー（<a href="#" class="anno 中性脂肪">中性脂肪</a>やコレステロール値）といった遺伝学的にも既知の臨床検査値との相関にくわえ，<a href="#" class="anno 虚血">虚血</a>性脳卒中と<a href="#" class="anno 尿酸">尿酸</a>値との正の相関や，心筋梗塞と<a href="#" class="anno アルブミン">アルブミン</a>/<a href="#" class="anno グロブリン">グロブリン</a>比との負の相関など，疫学調査で示唆されていた生活習慣病と臨床検査値とのあいだに遺伝的な相関のあることが示された．さらに，同定された68組の疾患と臨床検査値とのあいだの遺伝的な相関についてメンデル<a href="#" class="anno 無作為">無作為</a>化解析により<a href="#" class="anno 因果関係">因果関係</a>を推定したところ，うち24組に統計的に有意な因果関係が認められた．<br/>　得られた疾患あるいは臨床検査値の組合せにおける遺伝的な相関関係をもとに，形質のあいだの遺伝的な相関ネットワークを構築した．遺伝的な相関の<a href="#" class="anno 強さ">強さ</a>を距離としたネットワークは多数の疾患とその<a href="#" class="anno バイオマーカー">バイオマーカー</a>の集積を明確に示し，<a href="#" class="anno ゲノム解析">ゲノム解析</a>は事前の生物学的な知識を必要とせずに形質のあいだの複雑な関係を遺伝的な背景の共有をつうじて解明できることが明らかにされた．<br/><br/><h2>4．エピゲノム情報との統合による細胞あるいは組織の特異性の解析</h2><br/>　疾患や臨床検査値に関連する細胞や組織を同定することにより，原因となる変異の正確なマッ<a href="#" class="anno ピン">ピン</a>グに役だつだけでなく，有力な治療の標的の同定や，<a href="#" class="anno 最終的">最終的</a>には疾患の病態の完全な解明へとつながることが期待される．そこで，Road<a href="#" class="anno map">map</a> Epigeno<a href="#" class="anno mic">mic</a>sプロジェクトによりヒトの身体のさまざまな部位から得られた細胞あるいは組織におけるエピゲノム情報を用いて，臨床検査値および疾患のゲノムワイド関連解析の結果と分野横断的に統合するオミクス解析を実施した．<a href="#" class="anno 具体的">具体的</a>には，<a href="#" class="anno 層別">層別</a>化LDスコア回帰法を用いて<a href="#R5"><sup>5)</sup></a>，それぞれの細胞あるいは組織において得られた<a href="#" class="anno ヒストン">ヒストン</a>修飾領域における<a href="#" class="anno 遺伝率">遺伝率</a>の集積を定量し，臨床検査値および疾患のおのおのの細胞あるいは組織における特異性を推定した．<br/>　細胞あるいは組織を10のおおまかなカテゴリー（<a href="#" class="anno 内<a href="#" class="anno 分泌細胞">分泌細胞</a>">内分泌細胞</a>，心<a href="#" class="anno 血管細胞">血管細胞</a>，骨・<a href="#" class="anno 結合組織">結合組織</a>，<a href="#" class="anno 免疫細胞">免疫細胞</a>，肝臓組織，<a href="#" class="anno 消化管">消化管</a>組織，筋骨格組織，<a href="#" class="anno 中枢<a href="#" class="anno 神経系">神経系</a>"><a href="#" class="anno 中枢神経">中枢神経</a>系</a>，そのほかの組織）に分類したうえで，臨床検査値および疾患のゲノムワイド関連解析の結果と関連するカテゴリーの同定を試みた．その結果，身長についてのゲノムワイド関連解析の結果における骨・結合組織との関連，腎機能の指標についてのゲノムワイド関連解析の結果における腎臓組織との関連，肝機能の指標についてのゲノムワイド関連解析の結果における肝臓組織との関連など，臨床検査値や疾患の<a href="#" class="anno 生理学的">生理学的</a>な意義に合致した細胞あるいは組織における関連が確認された．<br/>　さらに，220種類の細胞あるいは組織に<a href="#" class="anno 細分化">細分化</a>したうえで，臨床検査値および疾患のゲノムワイド関連解析の結果と関連する細胞あるいは組織の同定を試みた．その結果，50の臨床検査値および疾患に対し計384の統計的に有意な細胞あるいは組織の特異性が同定された．そこで，臨床検査値，疾患，細胞，組織から構成される包括的な細胞あるいは組織の特異性のネットワークを構築したところ，その多くがこれまでの生物学的な知見と広く一致した（<a href="#F1">図1</a>）．たとえば，造血<a href="#" class="anno 前駆細胞">前駆細胞</a>のマーカーとして知られる<a href="#" class="anno <a href="#" class="anno CD3">CD3</a>4"><a href="#" class="anno CD34">CD34</a></a>はヘモ<a href="#" class="anno グロビン">グロビン</a>濃度と<a href="#" class="anno ヘマトクリット値">ヘマトクリット値</a>を除くすべての血球数についてのゲノムワイド関連解析の結果と有意な関連を示し，<a href="#" class="anno 造血前駆細胞">造血前駆細胞</a>の<a href="#" class="anno 遺伝子発現">遺伝子発現</a>を制御する領域に存在する変異が<a href="#" class="anno 造血細胞">造血細胞</a>の分化の過程に影響し最終的な血球数に変化をおよぼす<a href="#" class="anno 可能性">可能性</a>が示唆された．また，<a href="#" class="anno 免疫系">免疫系</a>において重要な役割をはたす<a href="#" class="anno 制御性">制御性</a><a href="#" class="anno T細胞">T細胞</a>は甲状腺の機能に異常を生じる<a href="#" class="anno バセドウ病">バセドウ病</a><a href="#R9"><sup>9)</sup></a> と有意な関連を示し，実際に，<a href="#" class="anno 制御性T細胞">制御性T細胞</a>を除去したマウスは甲状腺炎を発症することから<a href="#R10"><sup>10)</sup></a>，バセドウ病の病態に制御性T細胞が重要な役割をはたすことが統合オミクス解析からも明らかにされた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　臨床検査値，疾患，細胞，組織から構成される細胞あるいは組織の特異性のネットワーク</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kamatani-Nature-Genetics-18.2.28-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　臨床検査値，疾患，細胞，組織から構成される細胞あるいは組織の特異性のネットワーク" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kamatani-Nature-Genetics-18.2.28-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kamatani-Nature-Genetics-18.2.28-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　このように，ゲノム情報およびエピゲノム情報にもとづくオミクス解析により，複雑な<a href="#" class="anno 生体シ<a href="#" class="anno ステム">ステム</a>">生体システム</a>を構成する細胞あるいは組織と臨床検査値や疾患の遺伝的な背景との関連が解明され，疾患の病態のより深い理解へとつながる可能性が示された．<br/><br/><h2>おわりに</h2><br/>　日本人の集団において臨床検査値の遺伝的な背景を大規模かつ包括的に解析することにより，複数の臨床検査値が疾患と共通した遺伝的な背景を示すことや，同一の関連する細胞あるいは組織をもつことが明らかにされた．この研究は，今日までに東アジア人について報告された最大規模のゲノムワイド関連解析であり，日本人の集団における<a href="#" class="anno ゲノム研究">ゲノム研究</a>の発展や<a href="#" class="anno <a href="#" class="anno 個別化">個別化</a>医療">個別化医療</a>の実現に広く寄与することが期待される．また，ゲノム情報とエピゲノム情報を統合するオミクス解析により，臨床検査値，疾患，細胞，組織のかかわりが明らかになるにつれ，複数のオミクス領域を統合した解析の<a href="#" class="anno 重要性">重要性</a>がよりいっそう増すものと考えられる．<br/>　この研究により得られたゲノムワイド関連解析の結果は，<a href="#" class="anno バイオサイエンス">バイオサイエンス</a>データベースセンターから（URL：<a href="https://<a href="#" class="anno hum">hum</a>andbs.biosciencedbc.jp/hum0014-v6" target="_blank">https://hu<a href="#" class="anno man">man</a>dbs.biosciencedbc.jp/hum0014-v6</a>），また，理化学研究所統合生命<a href="#" class="anno 医科学">医科学</a>研究センター 統計解析研究チームによる<a href="#" class="anno 日本人集団">日本人集団</a>ゲノム関連解析情報データベースJENGER（URL：<a href="http://jenger.riken.jp/" target="_blank">http://jenger.riken.jp/</a>）をつうじ，一般に公開されている．また，JENGERにおいては，これらの結果を<a href="#" class="anno ブラウザ">ブラウザ</a>にてインタラクティブに閲覧できるPheWeb<a href="#" class="anno インターフェイス">インターフェイス</a>も公開している．こうしたリソースが広く活用されることにより，非欧米人の集団における疾患ゲノム研究が進展すること，また，遺伝統計解析の新規の手法が開発されることが望まれる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Ozaki, K., Ohnishi, Y., Iida, A. et al.</span>: <span class="ti">Functional SNPs in the lymphotoxin-α gene that are associated with susceptibility to myocardial infarction.</span> <span class='so'>Nat. Genet., 32, 650-654 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12426569" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>MacArthur, J., Bowler, E., Cerezo, M. et al.</span>: <span class="ti">The new NHGRI-EBI Catalog of published genome-wide association studies (GWAS Catalog).</span> <span class='so'>Nucleic Acids Res., 45, D896-D901 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27899670" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Kamatani, Y., Matsuda, K., Okada, Y. et al.</span>: <span class="ti">Genome-wide association study of hematological and biochemical traits in a Japanese population.</span> <span class='so'>Nat. Genet., 42, 210-215 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20139978" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Bulik-Sullivan, B., Finucane, H. K., Anttila, V. et al.</span>: <span class="ti">An atlas of genetic correlations across human diseases and traits.</span> <span class='so'>Nat. Genet., 47, 1236-1241 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26414676" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Finucane, H. K., Bulik-Sullivan, B., Gusev, A. et al.</span>: <span class="ti">Partitioning heritability by functional annotation using genome-wide association summary statistics.</span> <span class='so'>Nat. Genet., 47, 1228-1235 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26414678" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Akiyama, M., Okada, Y., Kanai, M. et al.</span>: <span class="ti">Genome-wide association study identifies 112 new loci for body mass index in the Japanese population.</span> <span class='so'>Nat. Genet., 49, 1458-1467 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28892062" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/17238" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R7"><span class='au'>Sivakumaran, S., Agakov, F., Theodoratou, E. et al.</span>: <span class="ti">Abundant pleiotropy in human complex diseases and traits.</span> <span class='so'>Am. J. Hum. Genet., 89, 607-618 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22077970" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Liu, Y., Li, P., Lu, J. et al.</span>: <span class="ti">Bilirubin possesses powerful immunomodulatory activity and suppresses experimental autoimmune encephalomyelitis.</span> <span class='so'>J. Immunol., 181, 1887-1897 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18641326" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Okada, Y., Momozawa, Y., Ashikawa, K. et al.</span>: <span class="ti">Construction of a population-specific HLA imputation reference panel and its application to Graves’ disease risk in Japanese.</span> <span class='so'>Nat. Genet., 47, 798-802 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26029868" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/10377" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R10"><span class='au'>Sakaguchi, S., Sakaguchi, N., Asano, M. et al.</span>: <span class="ti">Immunologic self-tolerance maintained by activated T cells expressing IL-2 receptor alpha-chains (CD25). Breakdown of a single mechanism of self-tolerance causes various autoimmune diseases.</span> <span class='so'>J. Immunol., 155, 1151-1164 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7636184" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=UCSC" target="_blank">UCSC</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=EBI" target="_blank">EBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NBDC" target="_blank">NBDC</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=変異解析" target="_blank">変異解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=多型" target="_blank">多型解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=パスウェイ解析" target="_blank">パスウェイ解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=ChIP-seq" target="_blank">ChIP-seq</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=可視化" target="_blank">可視化</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=疾患情報" target="_blank">疾患情報</a></li><br></ul><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_06.html" target="_blank">3.6 Gain-of-Function Mutations</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_10.html" target="_blank">3.10 Gene Pool as a Population</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_01.html" target="_blank">3.1 Traits</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_05.html" target="_blank">3.5 Genetic Mutations and Dominance/Recession</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/18_04.html" target="_blank">18.4 Genetic Recombination</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">金井 仁弘（Masahiro Kanai）</span><br>略歴：米国Harvard Medical School博士課程 在学中．<br>研究テーマ：大規模なオミクス解析をつうじた疾患の多様性の解明．<br>抱負：多人種の集団における研究の成果を個別化医療の実現に役だてたい．<br><br><strong>岡田 随象（Yukinori Okada）</strong><br>大阪大学大学院医学系研究科 教授．<br>研究室URL：<a href="http://www.sg.med.osaka-u.ac.jp/index.html" target="_blank">http://www.sg.med.osaka-u.ac.jp/index.html</a><br><br><strong>鎌谷 洋一郎（Yoichiro Kamatani）</strong><br>理化学研究所統合生命医科学研究センター チームリーダー．<br>研究室URL：<a href="http://www.riken.jp/research/labs/ims/stat_anl/" target="_blank">http://www.riken.jp/research/labs/ims/stat_anl/</a><br></div><br>© 2018 金井仁弘・岡田随象・鎌谷洋一郎 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

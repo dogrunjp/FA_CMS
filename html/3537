@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> マウスの胚において細胞膜表面のヘパラン硫酸鎖はFGFシグナルの局所的な受容にはたらく : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/3537" rel="bookmark">マウスの胚において細胞膜表面のヘパラン硫酸鎖はFGFシグナルの局所的な受容にはたらく</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>下川佳世・木村-吉田千春・松尾 勲</strong><br>（大阪府立母子保健総合医療センター研究所 病因病態部門）<br>email：<a href="mailto:imatsuo@mch.pref.osaka.jp">松尾 勲</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.140">10.7875/first.author.2011.140</a><br><div class="reference"><br><span class="ti">Cell surface heparan sulfate chains regulate local reception of FGF signaling in the mouse embryo.</span><br><span class="au">Kayo Shimokawa, Chiharu Kimura-Yoshida, Naoko Nagai, Kazuhiro Mukai, Kazumi Matsubara, Hideto Watanabe, Yoichi Matsuda, Kyoko Mochida, Isao Matsuo</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21839920" target="_blank"><em>Developmental Cell</em>, <strong>21</strong>, 257-272 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno ヘパラン">ヘパラン</a>硫酸プロテオ<a href="#" class="anno グリ<a href="#" class="anno カ">カ</a>ン">グリカン</a>は<a href="#" class="anno 細胞膜">細胞膜</a>の表面や<a href="#" class="anno 細胞外">細胞外</a>マトリックスにおいてさまざまな<a href="#" class="anno 拡散性">拡散性</a>の<a href="#" class="anno 成長因子">成長因子</a>の活性を調節していることが知られている．しかし，<a href="#" class="anno 哺乳動物">哺乳動物</a>の<a href="#" class="anno 形態形成">形態形成</a>の過程において，成長因子の<a href="#" class="anno 標的細胞">標的細胞</a>への移動や受容にヘパラン<a href="#" class="anno 硫酸鎖">硫酸鎖</a>がどのようにはたらいているのかについては不明な点が多い．この研究では，<a href="#" class="anno ヘパラン硫酸">ヘパラン硫酸</a>鎖を合成できない<em><a href="#" class="anno Ext">Ext</a>2</em>遺伝子を欠損した<a href="#" class="anno マウス胚">マウス胚</a>は<a href="#" class="anno <a href="#" class="anno 胚体">胚体</a>外<a href="#" class="anno 外胚葉">外胚葉</a>"><a href="#" class="anno 胚体外">胚体外</a>外胚葉</a>の<a href="#" class="anno 形成不全">形成不全</a>を示すこと，その原因は<a href="#" class="anno FGF">FGF</a>シグナルの伝達能の不全によることを見い<a href="#" class="anno 出し">出し</a>た．さらに，<a href="#" class="anno 分子マーカー">分子マーカー</a>を用いた<a href="#" class="anno 発現解析">発現解析</a>から，ヘパラン硫酸鎖は胚体外外胚葉における<a href="#" class="anno FGF4">FGF4</a><a href="#" class="anno リガンド">リガンド</a>および<a href="#" class="anno FGF8">FGF8</a>リガンドの<a href="#" class="anno 局所的">局所的</a>な保持に必須であることがわかった．単一<a href="#" class="anno 細胞レベル">細胞レベル</a>での<a href="#" class="anno キメラ">キメラ</a>解析，および，ヘパラン硫酸鎖の移動の過程を<a href="#" class="anno 特異的">特異的</a>に阻害する薬剤を用いた解析から，ヘパラン硫酸<a href="#" class="anno プロテオグリカン">プロテオグリカン</a>の<a href="#" class="anno コアタンパク質">コアタンパク質</a>の側が切断されることにより隣接した細胞にFGFシグナルが伝達されていることが示唆された．また，<a href="#" class="anno 機能的">機能的</a>なヘパラン硫酸鎖は<a href="#" class="anno 細胞外マトリックス">細胞外マトリックス</a>ではなく，細胞膜の表面に局在するタイプであることがわかった．以上の結果から，哺乳動物の胚の<a href="#" class="anno 発生過程">発生過程</a>において，細胞膜の表面に係留されたヘパラン硫酸鎖の時<a href="#" class="anno 空間的">空間的</a>な発現はFGFの標的細胞への局所的な受容に必須であり，FGFシグナルを<a href="#" class="anno 安定的">安定的</a>に伝達する重要な<a href="#" class="anno 分子機構">分子機構</a>となっていることが想定された．<br/><br/><h2>はじめに</h2><br/>　<a href="#" class="anno ヘパラン硫酸プロテオグリカン">ヘパラン硫酸プロテオグリカン</a>は発生や成長の過程にある細胞膜の表面や細胞外マトリックスにおいて，FGF，<a href="#" class="anno BMP">BMP</a>，<a href="#" class="anno TGFβ">TGFβ</a>，<a href="#" class="anno SHH">SHH</a>，WNTといった拡散性の成長因子の<a href="#" class="anno 安定性">安定性</a>，移動，受容を制御していることが示唆されている<a href="#R1"><sup>1-3)</sup></a>．ヘパラン硫酸プロテオグリカンはコアタンパク質から複数の<a href="#" class="anno 糖鎖">糖鎖</a><a href="#" class="anno 付加反応">付加反応</a>および修飾反応をへて合成される．とくに，<a href="#" class="anno EXT1">EXT1</a>と<a href="#" class="anno EXT2">EXT2</a>は<a href="#" class="anno ヘテロ">ヘテロ</a><a href="#" class="anno 二量体">二量体</a>として，ヘパラン硫酸鎖の2糖くり返し構造を20～150個付加するという<a href="#" class="anno 酵素活性">酵素活性</a>を担っている<a href="#R4"><sup>4)</sup></a>．合成されたヘパラン硫酸プロテオグリカンはコアタンパク質の側の局在に依存して，シン<a href="#" class="anno デ">デ</a>カンやグリピカンなどのように細胞膜の表面に係留されるか，あるいは，パーレカンや<a href="#" class="anno アグリン">アグリン</a>などのように細胞外マトリックスに局在する（<a href="#F1">図1</a>）．ヘパラン硫酸鎖の合成過程に影響をあたえるような<a href="#" class="anno 遺伝子変異">遺伝子変異</a>は，<a href="#" class="anno 優性遺伝">優性遺伝</a>または<a href="#" class="anno 劣性遺伝">劣性遺伝</a>により<a href="#" class="anno ヒトの疾患">ヒトの疾患</a>をひき起こす．<a href="#" class="anno 実際">実際</a>に，<em>EXT1</em>遺伝子と<em>EXT2</em>遺伝子はヒト<a href="#" class="anno 遺伝性">遺伝性</a>多発性外骨腫の<a href="#" class="anno 原因遺伝子">原因遺伝子</a>である<a href="#R5"><sup>5,6)</sup></a>．また，マウスにおいて<a href="#" class="anno も">も</a><em>Ext1</em>遺伝子や<em><a href="#" class="anno Ext2">Ext2</a></em>遺伝子を欠損した胚では<a href="#" class="anno 原条">原条</a>の<a href="#" class="anno 形成異常">形成異常</a>を示す<a href="#R7"><sup>7,8)</sup></a>．このように，ヘパラン硫酸プロテオグリカンは哺乳動物の発生および成長に必須な機能をはたしている．しかし一方で，哺乳動物の形態形成の過程において，拡散性の成長因子の標的細胞への移動や受容にヘパラン硫酸鎖がどのようにはたらいているのか，その詳細はまったく明らかにされていない．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　ヘパラン硫酸プロテオグリカンの構造と局在</strong><br/>ヘパラン硫酸プロテオグリカンは糖鎖部分とコアタンパク質部分から構成されている．コアタンパク質の側の局在により，シンデカンやグリピカンなどのように細胞膜の表面に分布されるタイプと，パーレカンなどのように細胞外マトリックス（基底膜）に分泌されるタイプとに分類される．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2011/09/Matsuo-Developmental-Cell-11.8.15-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　ヘパラン硫酸プロテオグリカンの構造と局在" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuo-Developmental-Cell-11.8.15-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuo-Developmental-Cell-11.8.15-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　この研究では，ヘパラン硫酸鎖による拡散性の成長因子のシグナル活性の<a href="#" class="anno 制御機構">制御機構</a>を明らかにするため，<em>Ext2</em>遺伝子を欠損したマウス胚の<a href="#" class="anno 表現型">表現型</a>を詳細に解析した．その結果，マウスの発生過程において，細胞膜の表面に係留されたヘパラン硫酸鎖の<a href="#" class="anno 時空間">時空間</a>特異的な発現が局所的なFGFリガンドの受容およびFGFシグナルの<a href="#" class="anno 活性化">活性化</a>にはたらいていることが明らかになった．<br/><br/><h2>1．Ext2に依存して合成されるヘパラン硫酸鎖は胚体外外胚葉の発生に必要である</h2><br/>　まず，劣性<a href="#" class="anno 胚性">胚性</a>致死の表現型を示す<a href="#" class="anno トランス遺伝子">トランス遺伝子</a><a href="#" class="anno 挿入変異">挿入変異</a>マウスについて，その表現型の解析を行った．<a href="#" class="anno 形態学的">形態学的</a>な解析およびマーカーを用いた解析から，ホモ<a href="#" class="anno 変異胚">変異胚</a>では胚体外外胚葉の形成不全を示した．実際，受精後6.5日目のホモ変異胚では胚体外外胚葉に特異的なマーカーである<a href="#" class="anno ERR">ERR</a>βや<a href="#" class="anno CDX2">CDX2</a>の発現がみられなかった．つぎに，このトランス遺伝子挿入<a href="#" class="anno 変異マウス">変異マウス</a>の原因遺伝子を特定するため<a href="#" class="anno 染色体">染色体</a>解析ならびにゲノムの<a href="#" class="anno クローニング">クローニング</a>などを行った結果，ヘパラン硫酸鎖<a href="#" class="anno 合成酵素">合成酵素</a>のひとつであるExt2をコードする<a href="#" class="anno 遺伝子座">遺伝子座</a>にトランス遺伝子が挿入されていることがわかった．実際，<a href="#" class="anno 野生型">野生型</a>胚の胚体外外胚葉では<em>Ext2</em>遺伝子の発現は顕著に認められたが，ホモ変異胚ではまったくみられなかった．さらに，この異常が<em>Ext2</em>遺伝子の欠損によるのかどうかを明らかにするため<em>Ext2</em>遺伝子の<a href="#" class="anno cDNA">cDNA</a>を<a href="#" class="anno ユビキタス">ユビキタス</a>に発現させたところ，胚の劣性致死はレスキューされ発生は正常となった．以上の結果から，このトランス遺伝子挿入変異マウスのホモ変異は<em>Ext2</em>遺伝子の<a href="#" class="anno ヌル">ヌル</a>変異であることがわかった．<br/>　Ext2はヘパラン硫酸鎖の合成に関与することから，ヘパラン硫酸鎖を特異的に認識する抗体を用いて発現を検討した．受精後5.5日目の野生型胚ではヘパラン硫酸鎖は細胞膜の表面（細胞膜）および細胞外マトリックス（<a href="#" class="anno 基底膜">基底膜</a>）に認められた．とくに<em>Ext2</em> <a href="#" class="anno mRNA">mRNA</a>の発現と呼応して胚体外外胚葉の細胞膜の表面において顕著に観察されたが，エピ<a href="#" class="anno ブラスト">ブラスト</a>側の細胞膜の表面にはほとんどみられなかった．受精後6.25日目以降は，<em>Ext2</em> mRNAの発現およびヘパラン硫酸鎖の発現とも<a href="#" class="anno 中胚葉">中胚葉</a>を含む<a href="#" class="anno エピブラスト">エピブラスト</a>領域で昂進していた．一方，<em>Ext2</em>遺伝子を欠損した胚ではヘパラン硫酸鎖の発現はほとんどみられなかった．しかし，<a href="#" class="anno コンドロイチン">コンドロイチン</a>硫酸については<em>Ext2</em>遺伝子を欠損した胚でも野生型胚とほぼ<a href="#" class="anno 同じ">同じ</a>程度の発現が観察された．糖鎖の合成状態をより正確に調べるため，<a href="#" class="anno 高感度">高感度</a><a href="#" class="anno HPL">HPL</a>C法を用いて2糖の解析を行った．その結果，野生型胚では6種類のヘパラン硫酸鎖が検出されたが，<em>Ext2</em>遺伝子を欠損した胚ではその全種類ともまったく検出されなかった．しかし，<a href="#" class="anno コンドロイチン硫酸">コンドロイチン硫酸</a>については<em>Ext2</em>遺伝子を欠損した胚でも野生型と同種すべてが検出された．さらに，<a href="#" class="anno シンデカン1">シンデカン1</a>やパーレカンといったプロテオグリカンのコアタンパク質は<em>Ext2</em>遺伝子を欠損した胚でもほぼ正常に局在していた．以上の結果から，<em>Ext2</em>遺伝子を欠損した胚ではプロテオグリカンのもつヘパラン硫酸鎖に特異的に合成不全を示していることがわかった．<br/><br/><h2>2．ヘパラン硫酸鎖はFGFシグナルが細胞において適正に活性化するため必要である</h2><br/>　<em>Ext2</em>遺伝子を欠損した胚でみられた胚体外外胚葉の形成不全の表現型に関してはFGFシグナルがはたらいていることが知られているため，FGFシグナルの下流のマーカーについて発現解析を行った．野生型胚では胚体外外胚葉において<a href="#" class="anno <a href="#" class="anno リン酸">リン酸</a>化">リン酸化</a><a href="#" class="anno ERK">ERK</a>の発現が認められるが，<em>Ext2</em>遺伝子を欠損した胚ではその発現は失われていた．同様に，<em><a href="#" class="anno Spry4">Spry4</a></em>遺伝子や<em>Du<a href="#" class="anno sp6">sp6</a></em>/<em>Mkp3</em>遺伝子といったほかのFGF標的マーカーの発現も<em>Ext2</em>遺伝子を欠損した胚では顕著に低下していることがわかった．つぎに，<em>Ext2</em>遺伝子を欠損した胚で観察されたFGFシグナルの不全がヘパラン硫酸鎖の欠損によるものかどうかを検討するため，<em><a href="#" class="anno in vitro">in vitro</a></em>において全胚培養を行い，FGFの下流の遺伝子の発現解析を行った．その結果，受精後5.5日目の<em>Ext2</em>遺伝子を欠損した胚では，野生型胚では維持されている胚体外外胚葉マーカーの発現が顕著に低下していた．一方，ヘパラン硫酸鎖と<a href="#" class="anno 構造的">構造的</a>にも機能的にも類似している<a href="#" class="anno ヘパリン">ヘパリン</a>を添加して培養を行うと，<em>Ext2</em>遺伝子を欠損した胚における胚体外外胚葉マーカーの発現が回復することがわかった．<br/>　さらに，ヘパラン硫酸鎖がFGFリガンドに対する<a href="#" class="anno 反応性">反応性</a>に関与しているかどうかを詳細に検討するため，受精後7.5日目の胚の<a href="#" class="anno 外植体">外植体</a>とFGFを含むビーズとの共<a href="#" class="anno 培養実験">培養実験</a>を行った．野生型胚に由来する外植体ではFGF4リガンドおよびFGF8リガンドを含むビーズによりFGF標的マーカーである<em>Spry4</em>遺伝子やリン酸化ERKが誘導された．一方，<em>Ext2</em>遺伝子を欠損した胚ではいずれのFGFリガンドによってもFGF標的マーカーは誘導されなかった．しかし，<a href="#" class="anno 培養液">培養液</a>にヘパリンを添加することにより<em>Ext2</em>遺伝子を欠損した胚であってもFGF標的マーカーの発現が誘導されるようになった．以上の結果により，<em>Ext2</em>遺伝子を欠損した胚でみられたFGFシグナルの伝達不全はヘパラン硫酸鎖の合成異常が原因であること，また，<em>Ext2</em>遺伝子を欠損した胚ではFGFリガンドに対する反応性が顕著に低下していることが示唆された．<br/><br/><h2>3．細胞膜の表面のヘパラン硫酸鎖は胚体外外胚葉に局所的にFGFリガンドを保持させる</h2><br/>　ヘパラン硫酸鎖がどのようにFGFシグナルに関与しているのかを明らかにするため，受精後5.5日目の胚体外外胚葉の<a href="#" class="anno 形成期">形成期</a>において，FGFリガンド，FGF<a href="#" class="anno 受容体">受容体</a>，ヘパラン硫酸鎖，および，細胞膜の表面に係留されるタイプのプロテオグリカンであるシンデカン1の発現解析を行った．野生型胚では<em><a href="#" class="anno Fgf4">Fgf4</a></em> mRNAと<em><a href="#" class="anno Fgf8">Fgf8</a></em> mRNAは<a href="#" class="anno 胚性外胚葉">胚性外胚葉</a>（エピブラスト）の側でのみ発現が認められるのに対し，<a href="#" class="anno タンパク質レベル">タンパク質レベル</a>では胚体外外胚葉のみで顕著に発現が検出され，むしろ，エピブラストではほとんど発現がみられなかった．また，<em>Ext2</em>遺伝子を欠損した胚では<em>Fgf4</em> mRNAと<em>Fgf8</em> mRNAの発現は野生型胚と同じだが，タンパク質レベルでは発現がまったくみられなかった．<br/>　さらに，これらのFGFリガンドの局在がコアタンパク質の側での発現ではなくヘパラン硫酸鎖の胚体外外胚葉における特異的な発現に依存しているかどうかを検討するため，細胞膜の表面に係留されるシンデカン1の発現を解析した．その結果，ヘパラン硫酸鎖は胚体外外胚葉でより顕著に発現するのに対し，シンデカン1は野生型胚では胚体外外胚葉だけでなくエピブラスト側の細胞膜の表面でも発現がみられた．ちなみに，<em>Ext2</em>遺伝子を欠損した胚でもシンデカン1の発現は野生型胚と同様なパターンであった．以上の結果から，コアタンパク質ではなく，むしろ，細胞膜の表面に係留されたヘパラン硫酸鎖がFGFリガンドの保持と<a href="#" class="anno 細胞内">細胞内</a>におけるFGFシグナルの活性化に必須な機能をはたしていることが示唆された．<br/><br/><h2>4．細胞膜の表面のヘパラン硫酸鎖は隣接する細胞にFGFシグナルを拡散させる</h2><br/>　ヘパラン硫酸鎖は細胞<a href="#" class="anno 自律的">自律的</a>および細胞非自律的に拡散性の成長因子の活性を制御しているものと考えられている<a href="#R1"><sup>1)</sup></a>．そこで，胚体外外胚葉の形成過程においてヘパラン硫酸鎖のFGFシグナル活性化は，細胞自律的または細胞非自律的のどちらのシ<a href="#" class="anno ステム">ステム</a>により制御されているのか検討を行った．方法としては，<em>Ext2</em>遺伝子を欠損した<a href="#" class="anno 胚盤胞">胚盤胞</a>と野生型<a href="#" class="anno ES細胞">ES細胞</a>とのあいだでの<a href="#" class="anno インジェクション">インジェクション</a>キメラ，および，8<a href="#" class="anno 細胞期">細胞期</a>の<em>Ext</em>遺伝子を欠損した胚と野生型胚とのあいだでの凝集キメラを作製することで行った．とくに，野生型の細胞（ヘパラン硫酸鎖をもつ細胞）に対し，同じ野生型の細胞，隣接する<em>Ext</em>遺伝子を欠損した細胞，より遠方の<em>Ext</em>遺伝子を欠損した細胞のうち，どの細胞でFGFシグナルが活性化されるのかを検討した．実際，これらのキメラ解析により細胞膜の表面に係留されたヘパラン硫酸鎖と細胞外マトリックス（基底膜）に局在するヘパラン硫酸鎖とを区別することが可能になり，野生型の細胞で発現するヘパラン硫酸鎖がヘパラン硫酸鎖を欠損する細胞において機能しうるのかどうかを特定できる．<br/>　まず，インジェクションキメラ法を用いて解析を行った．野生型胚に<a href="#" class="anno βガラクトシダーゼ">βガラクトシダーゼ</a>で標識したES細胞を導入し受精後6.5日目に解析したところ，導入したES細胞はエピブラスト領域にのみに分布し胚体外外胚葉などには分布していなかった．<em>Ext2</em>遺伝子を欠損した胚にβガラクトシダーゼで標識したES細胞を導入すると，細胞膜の表面に係留されたヘパラン硫酸鎖の発現はβガラクトシダーゼ<a href="#" class="anno 陽<a href="#" class="anno 性細胞">性細胞</a>">陽性細胞</a>のみに限定されていたが，細胞外マトリックス（基底膜）における発現はβガラクトシダーゼ陽性細胞から分泌および拡散されて胚全体に広く分布していた．細胞自律的あるいは細胞非自律的にヘパラン硫酸鎖が機能しているかどうかを検討するため，FGFシグナルの標的であるERRβおよびリン酸化ERKの発現をキメラ胚において解析した．その結果，<em>Ext2</em>遺伝子を欠損した胚におけるERRβの発現は胚体外外胚葉において完全に失われるのに対し，キメラ胚ではβガラクトシダーゼ陽性のエピブラスト細胞に近接する胚体外外胚葉の細胞において発現が回復した．同様に，<em>Ext2</em>遺伝子を欠損した胚ではみられなかったリン酸化ERKの発現も，βガラクトシダーゼ陽性のエピブラスト細胞に近接した胚体外外胚葉の細胞において発現がみられた．以上の結果は，ヘパラン硫酸鎖はエピブラストと近接した胚体外外胚葉の細胞に対しFGFシグナルを活性化できることを示唆していた．<br/>　つぎに，凝集キメラ法を用いてどれくらい離れた細胞においてまでFGFシグナルを活性化できるかを解析した．<a href="#" class="anno GFP">GFP</a>で標識した野生型の8細胞期胚と<em>Ext2</em>遺伝子を欠損した8細胞期胚とを用いた場合，2種類の細胞は完全に混ざり合いごま塩状に分布した．インジェクションキメラ法と同様にERRβとリン酸化ERKの発現を解析したところ，野生型の胚体外外胚葉の細胞と隣接した<em>Ext2</em>遺伝子を欠損した細胞でのみFGF標的マーカーの発現が観察され，遠くに離れて存在する<em>Ext2</em>遺伝子を欠損した細胞ではFGF標的マーカーの発現はみられなかった．キメラ胚では細胞外マトリックス（基底膜）においてヘパラン硫酸鎖が胚全体に広く認められていたにもかかわらず，野生型の細胞に近接した細胞しかレスキューはされなかった．以上の結果から，ヘパラン硫酸鎖をもつ野生型の細胞により隣接した細胞のFGFシグナルが細胞非自律的に活性化され，さらに，細胞外マトリックス（基底膜）に局在するヘパラン硫酸鎖よりも細胞膜の表面に係留されたヘパラン硫酸鎖のほうがFGFシグナルの活性化に重要な機能をはたしていることが示唆された．<br/><br/><h2>5．胚体外外胚葉におけるFGFシグナルの伝達にはタンパク質の切断が関与する</h2><br/>　キメラ解析からヘパラン硫酸鎖が近接した細胞に対し細胞非自律的にFGFシグナルを活性化できることがわかった．そこで，この細胞非自律的な現象がどのような分子機構を介しているのか明らかにするため，ヘパラン硫酸鎖の移動の過程を特異的に阻害する薬剤を用いて発現解析を行った．現在，ヘパラン硫酸鎖の移動には，平面性の<a href="#" class="anno トランスサイトーシス">トランスサイトーシス</a>，サイトネーメ（<a href="#" class="anno フィロポディア">フィロポディア</a>），<a href="#" class="anno プロテアーゼ">プロテアーゼ</a>や<a href="#" class="anno ヘパラナーゼ">ヘパラナーゼ</a>による酵素切断，などの機構が関与しているものと提唱されている<a href="#R1"><sup>1-3)</sup></a>（<a href="#F2">図2</a>）．平面性のトランスサイトーシスおよびサイトネーメについては<a href="#" class="anno <a href="#" class="anno アクチン">アクチン</a><a href="#" class="anno 細胞骨格">細胞骨格</a>">アクチン細胞骨格</a>に依存しているので，<a href="#" class="anno アクチン重合">アクチン重合</a>を阻害する薬剤である<a href="#" class="anno サイトカラシンD">サイトカラシンD</a>を用いて影響を解析した．しかし，受精後6.5日目の野生型胚をサイトカラシンDにより処理したのち胚体外外胚葉におけるリン酸化ERKの発現を解析したが，<a href="#" class="anno 発現低下">発現低下</a>はみられなかった．このことは，ヘパラン硫酸鎖によるFGFシグナルの活性化にはアクチン細胞骨格に依存するタイプの<a href="#" class="anno シグナル伝達">シグナル伝達</a>は関与してい<a href="#" class="anno ないこと">ないこと</a>を意味していた．そこで，コアタンパク質を切断するプロテアーゼ（<a href="#" class="anno セリン">セリン</a>プロテアーゼ）に対して特異的な2種類の<a href="#" class="anno 阻害剤">阻害剤</a>により処理したのち胚体外外胚葉におけるリン酸化ERKの発現解析を行ったところ，発現は顕著に失われた．一方で，ヘパラン硫酸鎖を切断するヘパラナーゼの阻害剤や，<a href="#" class="anno セリンプロテアーゼ">セリンプロテアーゼ</a>以外のプロテアーゼである<a href="#" class="anno メタロプロテアーゼ">メタロプロテアーゼ</a>，<a href="#" class="anno <a href="#" class="anno システイン">システイン</a>プロテアーゼ">システインプロテアーゼ</a>，<a href="#" class="anno アスパラギン酸">アスパラギン酸</a>プロテアーゼ，<a href="#" class="anno カルパイン">カルパイン</a>などに対する阻害剤を用いて<a href="#" class="anno 特異性">特異性</a>を検討したが，これらの阻害剤ではリン酸化ERKの発現はまったく低下しなかった．セリンプロテアーゼ阻害剤についてFGFシグナル以外のシグナル，BMPシグナルやTGFβシグナルに対する影響を検討したが，これらの<a href="#" class="anno シグナル経路">シグナル経路</a>の標的マーカーである<a href="#" class="anno Smad">Smad</a>1，<a href="#" class="anno Smad5">Smad5</a>，Smad8，あるいは，<a href="#" class="anno Smad2">Smad2</a>のリン酸化については顕著な低下はみられなかった．以上の結果から，ヘパラン硫酸プロテオグリカンはプロテアーゼによりコアタンパク質が切断されることにより適切なFGFシグナルの活性化をひき起こすこと，このタンパク質の切断機構が細胞非自律的なFGFシグナルの活性化に関与していることが示唆された（<a href="#F3">図3</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　FGFリガンドの移動や輸送におけるヘパラン硫酸鎖のはたす役割</strong><br/>（a）アクチン細胞骨格に依存するモデル．<br/>（b）酵素切断モデル．コアタンパク質を切断するプロテアーゼ（ここで示す例），あるいは，ヘパラン硫酸鎖を切断するヘパラナーゼによる．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2011/09/Matsuo-Developmental-Cell-11.8.15-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　FGFリガンドの移動や輸送におけるヘパラン硫酸鎖のはたす役割" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuo-Developmental-Cell-11.8.15-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuo-Developmental-Cell-11.8.15-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><a name="F3"></a><div id="fig3-caption-text" style="display: none;"><strong>図3　ヘパラン硫酸鎖を介したFGFリガンドの産生，結合，移動とFGFシグナルの活性化</strong><br/>1）FGFリガンドは産生された細胞からFGF受容体を発現する標的細胞まで拡散する．2）FGFリガンドはFGF受容体とともに複合体として細胞膜の表面に係留されたヘパラン硫酸鎖に結合し，細胞自律的にFGFシグナルを活性化する．3）細胞膜の表面に存在するプロテアーゼによりヘパラン硫酸プロテオグリカンのコアタンパク質の側が切断されると，FGFリガンドはヘパラン硫酸鎖とともに，ヘパラン硫酸鎖を発現していない近接した細胞に移動する．4）隣接した細胞においてFGFリガンドとヘパラン硫酸鎖はFGF受容体と複合体を形成し，細胞非自律的にFGFシグナルを活性化する．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2011/09/Matsuo-Developmental-Cell-11.8.15-Fig.3.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure3" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図3　ヘパラン硫酸鎖を介したFGFリガンドの産生，結合，移動とFGFシグナルの活性化" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuo-Developmental-Cell-11.8.15-Fig.3.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuo-Developmental-Cell-11.8.15-Fig.3.jpg" alt="figure3" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig3-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig3-caption').innerHTML = document.getElementById('fig3-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究では，哺乳動物の<a href="#" class="anno 初期胚">初期胚</a>の発生過程においてExt2に依存して合成されるヘパラン硫酸鎖がFGFシグナルの局所的な受容を制御していることを明らかにした．また，基底膜など細胞外マトリックスに局在するヘパラン硫酸鎖より，むしろ，細胞膜の表面に係留されたヘパラン硫酸鎖が，マウス胚の発生過程においてFGFシグナルを<a href="#" class="anno 時空間特異的">時空間特異的</a>に活性化するはたらきを担っていることも示された．実際，詳細は示さなかったがこの研究において，ヘパラン硫酸鎖に特異的な種々のモノクロナール抗体を用いた染色から，細胞膜の表面に係留されたヘパラン硫酸鎖の<a href="#" class="anno 微細構造">微細構造</a>は基底膜に局在するヘパラン硫酸鎖とは異なることも明らかになった．また，ヘパラン硫酸鎖とFGFリガンドとのあいだの<a href="#" class="anno アフィニティ">アフィニティ</a>ーが<em>O</em>-6-<a href="#" class="anno 硫酸化">硫酸化</a>などヘパラン硫酸鎖の微細構造により調整されうることも示唆されている<a href="#R9"><sup>9,10)</sup></a>．さらに，特定の脱硫酸化反応は<a href="#" class="anno ゴルジ体">ゴルジ体</a>ではなく細胞膜の表面で起こることからも，細胞膜の表面に係留されたヘパラン硫酸鎖が基底膜に局在するヘパラン硫酸鎖とは異なる機能を担いうることが想定される．これまで，FGFシグナルの活性化の<a href="#" class="anno 時空間的">時空間的</a>な制御はおもにFGFリガンドと<a href="#" class="anno FGF受容体">FGF受容体</a>とが<a href="#" class="anno 複合体">複合体</a>を形成することによりなされているものと考えられてきた．今回の<a href="#" class="anno 研究成果">研究成果</a>は，FGFリガンドやFGF受容体にくわえ，ヘパラン硫酸鎖が標的細胞の細胞膜の表面で局所的に発現することにより，（哺乳動物の形態形成の過程などで）適切な場所に適切なタイミングでFGFシグナルを活性化するという重要な機能をはたしていることを強く示唆した．また，この機構はFGFシグナルをより安定的に供給および伝達するための<a href="#" class="anno 機序">機序</a>であると考えられ，FGFを介して形態形成を進行するための重要な分子機構となっていることが想定される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Haecker, U., Nybakken, K. & Perrimon, N.</span>: <span class="ti">Heparan sulphate proteoglycans: the sweet side of development.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 6, 530-541 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16072037" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Yan, D. & Lin, X.</span>: <span class="ti">Shaping morphogen gradients by proteoglycans.</span> <span class='so'>Cold Spring Harb. Perspect. Biol., 1, a002493 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20066107" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Bishop, J. R., Schuksz, M. & Esko, J. D.</span>: <span class="ti">Heparan sulphate proteoglycans fine-tune mammalian physiology.</span> <span class='so'>Nature, 446, 1030-1037 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17460664" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Lind, T., Tufaro, F., McCormick, C. et al.</span>: <span class="ti">The putative tumor suppressors EXT1 and EXT2 are glycosyltransferases required for the biosynthesis of heparan sulfate.</span> <span class='so'>J. Biol. Chem., 273, 26265-26268 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9756849" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Wuyts, W., Van Hul, W., Wauters, J. et al.</span>: <span class="ti">Positional cloning of a gene involved in hereditary multiple exostoses.</span> <span class='so'>Hum. Mol. Genet., 5, 1547-1557 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8894688" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Stickens, D., Clines, G., Burbee, D. et al.</span>: <span class="ti">The EXT2 multiple exostoses gene defines a family of putative tumour suppressor genes.</span> <span class='so'>Nat. Genet., 14, 25-32 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8782816" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Stickens, D., Zak, B. M., Rougier, N. et al.</span>: <span class="ti">Mice deficient in Ext2 lack heparan sulfate and develop exostoses.</span> <span class='so'>Development, 132, 5055-5068 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16236767" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Lin, X., Wei, G., Shi, Z. et al.</span>: <span class="ti">Disruption of gastrulation and heparan sulfate biosynthesis in EXT1-deficient mice.</span> <span class='so'>Dev. Biol., 224, 299-311 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10926768" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Nakato, H. & Kimata, K.</span>: <span class="ti">Heparan sulfate fine structure and specificity of proteoglycan functions.</span> <span class='so'>Biochim. Biophys. Acta, 1573, 312-318 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12417413" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Lai, J. P., Sandhu, D. S., Yu, C. et al.</span>: <span class="ti">Sulfatase 2 up-regulates glypican 3, promotes fibroblast growth factor signaling, and decreases survival in hepatocellular carcinoma.</span> <span class='so'>Hepatology, 47, 1211-1222 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18318435" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/19_03.html" target="_blank">19.3 Morphogenetic Movement</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/22_06.html" target="_blank">22.6 Formation of Leaves</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/19_02.html" target="_blank">19.2 Early Development</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_05.html" target="_blank">12.5 Exocytosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/19_01.html" target="_blank">19.1 Animal Morphology and Classification</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">下川 佳世（Kayo Shimokawa）</span><br>略歴：2006年より大阪府立母子保健総合医療センター研究所 研究技術員．<br><br><strong>木村-吉田千春（Chiharu Kimura-Yoshida）</strong><br>大阪府立母子保健総合医療センター研究所 研究員，大阪大学大学院歯学系研究科 招へい准教授 兼任．<br><br><strong>松尾  勲（Isao Matsuo）</strong><br>大阪府立母子保健総合医療センター研究所 部長，大阪大学大学院 医学系研究科 招へい教授 兼任．<br>研究室URL：<a href="http://www.med.osaka-u.ac.jp/pub/inst-mch/Byo/Byo.html" target="_blank">http://www.med.osaka-u.ac.jp/pub/inst-mch/Byo/Byo.html</a><br></div><br>© 2011 下川佳世・木村-吉田千春・松尾 勲 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> リボソームおよび新規のペプチドリガーゼによる協同的なペプチドの生成 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/9536" rel="bookmark">リボソームおよび新規のペプチドリガーゼによる協同的なペプチドの生成</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>大利 徹<sup>1</sup>・森田洋行<sup>2</sup></strong><br>（<sup>1</sup>北海道大学大学院工学研究院 生物機能高分子部門応用生物化学研究室，<sup>2</sup>富山大学和漢医薬学総合研究所 資源開発部門天然物化学分野）<br>email：<a href="mailto:dairi@eng.hokudai.ac.jp">大利 徹</a>，<a href="mailto:hmorita@inm.u-toyama.ac.jp">森田洋行</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.149">10.7875/first.author.2014.149</a><br><div class="reference"><br><span class="ti">A peptide ligase and the ribosome cooperate to synthesize the peptide pheganomycin.</span><br><span class="au">Motoyoshi Noike, Takashi Matsui, Koichi Ooya, Ikuo Sasaki, Shouta Ohtaki, Yoshimitsu Hamano, Chitose Maruyama, Jun Ishikawa, Yasuharu Satoh, Hajime Ito, Hiroyuki Morita, Tohru Dairi</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25402768" target="_blank"><em>Nature Chemical Biology</em>, <strong>11</strong>, 71-76 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 放線菌">放線菌</a>の生産する<a href="#" class="anno ペプチド">ペプチド</a>系<a href="#" class="anno 抗生物質">抗生物質</a>フェガノマイシンは，非<a href="#" class="anno タンパク質性">タンパク質性</a>の<a href="#" class="anno アミノ">アミノ</a>酸からなるL-ジ<a href="#" class="anno ヒドロキシ">ヒドロキシ</a><a href="#" class="anno アミジノ">アミジノ</a><a href="#" class="anno フェニル">フェニル</a><a href="#" class="anno グ<a href="#" class="anno リシン">リシン</a>">グリシン</a>と，タンパク質性のアミノ酸からなるAsn-Val-<a href="#" class="anno Lys">Lys</a>-Asp-ArgあるいはAsn-Val-Lys-Asp-<a href="#" class="anno Gly">Gly</a>-Pro-Thrとが<a href="#" class="anno ペプチド結合">ペプチド結合</a>した2種類が知られている．フェガノマイシンは非<a href="#" class="anno リボソーム">リボソーム</a>ペプチド<a href="#" class="anno 合成酵素">合成酵素</a>により<a href="#" class="anno 生合成">生合成</a>されると推定されていたが，<a href="#" class="anno <a href="#" class="anno 非リボソーム">非リボソーム</a>ペプチド合成酵素">非リボソームペプチド合成酵素</a>による基質の認識は厳密であり，2種類の配列および<a href="#" class="anno 長さ">長さ</a>からなるペプチドを生成する機構は説明できなかった．解析の結果，新規のペプチド<a href="#" class="anno リガーゼ">リガーゼ</a>P<a href="#" class="anno GM1">GM1</a>が，まず，L-<a href="#" class="anno ジヒドロ">ジヒドロ</a>キシアミジノ<a href="#" class="anno フェニルグリシン">フェニルグリシン</a>を<a href="#" class="anno <a href="#" class="anno リン酸">リン酸</a>化">リン酸化</a>により<a href="#" class="anno 活性化">活性化</a>し，ついで，リボソームにより生合成されたAsn-Val-Lys-Asp-ArgあるいはAsn-Val-Lys-Asp-Gly-Pro-Thrが<a href="#" class="anno <a href="#" class="anno 求核">求核</a>剤">求核剤</a>としてはたらきペプチド結合を形成することが明らかになった．この<a href="#" class="anno PGM1">PGM1</a>はペプチドを求核剤として用いるはじめての例であり，また，リボソームとそれ以外の機構とが協同してペプチドの<a href="#" class="anno 基本骨格">基本骨格</a>を形成するはじめての例で<a href="#" class="anno も">も</a>あった．PGM1は幅広い基質<a href="#" class="anno 特異性">特異性</a>を示し，2<a href="#" class="anno 残基">残基</a>から18残基までの多様なペプチドを求核剤として利用することができた．<a href="#" class="anno 結晶構造">結晶構造</a>解析の結果，活性残基の周辺に大きな<a href="#" class="anno 基質認識">基質認識</a>ポケットが存在した．また，L-<a href="#" class="anno ジヒドロキシ">ジヒドロキシ</a>アミジノフェニルグリシンおよびタンパク質性のアミノ酸からなるペプチドの認識に重要な残基を見い出すことに成功し，<a href="#" class="anno 変異導入">変異導入</a>実験によりこれらの関与が確認された．<br/><br/><h2>はじめに</h2><br/>　天然における<a href="#" class="anno ペプチド系抗生物質">ペプチド系抗生物質</a>の生合成においては，リボソームの関与するペプチドの生合成機構にくわえ<a href="#R1"><sup>1)</sup></a>，非リボソームペプチド合成酵素に代表されるリボソームの関与しない生合成機構も用いられている<a href="#R2"><sup>2)</sup></a>．リボソームの関与するものとしては，乳酸菌が生産し<a href="#" class="anno 特徴的">特徴的</a>なアミノ酸であるランチオニンを含むランチビオテックに関する先駆的な研究がある<a href="#R3"><sup>3)</sup></a>．また，放線菌においては内部に<a href="#" class="anno Ser">Ser</a>あるいは<a href="#" class="anno Cys">Cys</a>に由来する<a href="#" class="anno オキサゾール">オキサゾール</a>環骨格あるいは<a href="#" class="anno チアゾール環">チアゾール環</a>骨格をもつものや，<a href="#" class="anno ペプチド骨格">ペプチド骨格</a>が<a href="#" class="anno 環化">環化</a>修飾，プレニル化修飾，グリコシル化修飾されている例もある．また最近，<a href="#" class="anno カ">カ</a>イメンの<a href="#" class="anno メタゲノム">メタゲノム</a>からポリセオナミドの<a href="#" class="anno 生<a href="#" class="anno 合成遺伝子">合成遺伝子</a>">生合成遺伝子</a>が<a href="#" class="anno クローニング">クローニング</a>され，<a href="#" class="anno わずか">わずか</a>6つの酵素が<a href="#" class="anno エピメリ化">エピメリ化</a>を含む48もの修飾反応を行うことが示され<a href="#R4"><sup>4)</sup></a>，新たな生合成機構として注目されている．他方，非リボソームペプチド合成酵素によるものでは，タンパク質性あるいは非タンパク質性のアミノ酸を<a href="#" class="anno ア<a href="#" class="anno デ">デ</a>ニル化">アデニル化</a>したのち，<a href="#" class="anno 縮合">縮合</a>反応によりペプチド結合を形成する．多くの場合，エピメリ化，<a href="#" class="anno ヘテロ">ヘテロ</a>環化，<a href="#" class="anno メチル">メチル</a>化などペプチド骨格の修飾や，<a href="#" class="anno ポリケチド">ポリケチド</a>や脂質などほかの骨格との結合をともなう．さらに近年，A<a href="#" class="anno TP">TP</a><a href="#" class="anno 依存性">依存性</a>のアミノ酸リガーゼや<a href="#R5"><sup>5)</sup></a>，<a href="#" class="anno tRNA">tRNA</a>に依存する環状<a href="#" class="anno ジペプチド">ジペプチド</a>の生合成機構も報告されている<a href="#R6"><sup>6)</sup></a>．しかし，ペプチド骨格そのものはリボソームあるいは非リボソームペプチド合成酵素のいずれかにより生合成される．<br/>　放線菌の生産するペプチド系抗生物質フェガノマイシン（<a href="#F1">図1a</a>）は，非タンパク質性のアミノ酸からなるL-ジヒドロキシアミジノフェニルグリシンに，タンパク質性のアミノ酸からなるAsn-Val-Lys-Asp-ArgあるいはAsn-Val-Lys-Asp-Gly-Pro-Thrが結合した2種類が知られている．フェガノマイシンは非タンパク質性のアミノ酸をもつことから非リボソームペプチド合成酵素により生合成されると推定されていたが，一般に，非リボソームペプチド合成酵素による基質アミノ酸の認識は厳密であり，どのように2種類の配列および長さからなるペプチドが生合成されるのか興味がもたれていた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　フェガノマイシンの構造およびフェガノマイシン生合成遺伝子クラスター</strong><br/>（a）フェガノマイシンの構造．<br/>（b）フェガノマイシン生合成遺伝子クラスターの構造．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Dairi-Nature-Chemical-Biology-14.12.19-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　フェガノマイシンの構造およびフェガノマイシン生合成遺伝子クラスター" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Dairi-Nature-Chemical-Biology-14.12.19-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Dairi-Nature-Chemical-Biology-14.12.19-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．フェガノマイシン生合成<a href="#" class="anno 遺伝子<a href="#" class="anno ク<a href="#" class="anno ラスター">ラスター</a>">クラスター</a>">遺伝子クラスター</a>のクローニング</h2><br/>　放線菌において抗生物質生合成遺伝子はクラスターを形成することが知られている．そこで，フェガノマイシンの生合成機構を推定するため，フェガノマイシン生合成遺伝子クラスターをクローニングした．<a href="#" class="anno バンコマイシン">バンコマイシン</a>のもつL-ジヒドロキシアミジノフェニルグリシン骨格はII<a href="#" class="anno I型">I型</a>ポリケチド<a href="#" class="anno 生合成酵素">生合成酵素</a>および<a href="#" class="anno 修飾酵素">修飾酵素</a>であるDpgA，DpgB，DpgCにより生合成されることが報告されている<a href="#R7"><sup>7)</sup></a>．そこで，それらの<a href="#" class="anno オーソログ">オーソログ</a>の遺伝子を放線菌のド<a href="#" class="anno ラフト">ラフト</a><a href="#" class="anno ゲノム配列">ゲノム配列</a>において探索した結果，フェガノマイシン生合成遺伝子クラスターを見い出すことに成功した（<a href="#F1">図1b</a>）．この遺伝子クラスターにはL-ジヒドロキシアミジノフェニルグリシンの修飾に関与すると推定される酵素の遺伝子が存在したが，フェガノマイシンを生合成するのに必要な最大で8つのAドメインをもつ非リボソームペプチド合成酵素の遺伝子は存在しなかった．そこで，この遺伝子クラスターには<a href="#" class="anno ペプチダーゼ">ペプチダーゼ</a>の遺伝子が存在したことも考慮し，タンパク質性のアミノ酸からなるペプチドがリボソームにより生合成される<a href="#" class="anno 可能性">可能性</a>を考え配列を精査した結果，38残基をコードする遺伝子を見い<a href="#" class="anno 出し">出し</a>た．この遺伝子にコードされる<a href="#" class="anno 前駆体">前駆体</a>ペプチドはAsn-Val-Lys-Asp-ArgおよびAsn-Val-Lys-Asp-Gly-Pro-Thrの両方の配列を含んでおり，フェガノマイシンの<a href="#" class="anno 多様性">多様性</a>を矛盾なく説明できた．<a href="#" class="anno 実際">実際</a>に，この遺伝子を<a href="#" class="anno 欠失">欠失</a>させた<a href="#" class="anno 変異株">変異株</a>ではフェガノマイシンの<a href="#" class="anno 産生">産生</a>が消失したことから，Asn-Val-Lys-Asp-ArgおよびAsn-Val-Lys-Asp-Gly-Pro-Thrはリボソームによる生合成により供給されると結論づけた．<br/><br/><h2>2．ペプチド結合の形成を触媒する酵素の探索</h2><br/>　フェガノマイシン生合成遺伝子クラスターにはL-ジヒドロキシアミジノフェニルグリシンとタンパク質性のアミノ酸からなるペプチドとのペプチド結合を触媒する酵素の候補として，非リボソームペプチド合成酵素のAドメイン（1つ），Tドメイン，Cドメインをコードする遺伝子が存在した（<a href="#F1">図1b</a>）．これまで，非リボソームペプチド合成酵素のAドメインにより活性化されたアミノ酸に対し，ペプチドが求核剤となり非リボソームペプチド合成酵素のCドメインにより縮合されてペプチド結合が形成されたという報告はなかったが，その可能性を確かめるため，非リボソームペプチド合成酵素のCドメインを含む遺伝子を破壊した．その結果，この<a href="#" class="anno 破壊株">破壊株</a>はフェガノマイシンの産生を維持したことから，非リボソームペプチド合成酵素はフェガノマイシンの生合成には関与しないと結論づけた．<br/>　そこで，フェガノマイシン生合成遺伝子クラスターに存在する機能未知の遺伝子がフェガノマイシンの生合成に関与する可能性について検討した．既知のペプチドリガーゼはATPを基質の活性化に用いる場合が多いことから，ATP<a href="#" class="anno 結合モチーフ">結合モチーフ</a>をもつ<a href="#" class="anno O<a href="#" class="anno RF">RF</a>">ORF</a>を探索し，前駆体ペプチドをコードする遺伝子のとなりにATP-<a href="#" class="anno grasp">grasp</a>モチーフをもつ遺伝子を見い出した．この遺伝子を破壊したところフェガノマイシンの産生が消失したことから，この遺伝子がフェガノマイシンの生合成に関与することがわかった．そこで，この遺伝子にコードされるPGM1の<a href="#" class="anno 組換え">組換え</a>タンパク質を調製し，<a href="#" class="anno 化学合成">化学合成</a>したL-アミジノフェニルグリシン（本来の基質は市販されていないため，構造<a href="#" class="anno 類縁体">類縁体</a>を<a href="#" class="anno 有機合成">有機合成</a>した）とAsn-Val-Lys-Asp-ArgあるいはAsn-Val-Lys-Asp-Gly-Pro-ThrをMg<sup>2+</sup>およびATPの存在のもとで反応させた結果，この2つの基質がペプチド結合した<a href="#" class="anno 化合物">化合物</a>が生成した．また，ATP-graspモチーフの存在から予想されたように，このPGM1は基質をATPを用いたリン酸化により活性化し，ペプチドが求核剤となりペプチド結合を形成することがわかった．これまで，ATP-graspモチーフをもついくつかの酵素の<a href="#" class="anno 機能解析">機能解析</a>が行われているが，PGM1はペプチドを求核剤として用いるはじめての例であり，また，リボソームとそれ以外の機構とが協同してペプチドの基本骨格を形成するはじめての例でもあった．<br/><br/><h2>3．PGM1は幅広い<a href="#" class="anno 基質特異性">基質特異性</a>をもつ</h2><br/>　PGM1の<a href="#" class="anno 組換えタンパク質">組換えタンパク質</a>を用いてその<a href="#" class="anno 酵素学的">酵素学的</a>な性質について検討した結果，PGM1は幅広い基質特異性をもつことがわかった．D-アミジノフェニルグリシン，2-グアニジノ酢酸，<a href="#" class="anno クレアチン">クレアチン</a>も基質となった．求核剤に関してはさらに幅広い基質特異性を示し，2残基から18残基までの多様なペプチドを求核剤として利用することができ，フェガノマイシンとはまったく関連のない，人工甘味料であるアスパルテームや昆虫に由来する<a href="#" class="anno 抗菌ペプチド">抗菌ペプチド</a>であるアピダエシンなど多様なペプチドが基質になることがわかった．逆の見方をすれば，PGM1は種々のペプチドの<a href="#" class="anno N末端">N末端</a><a href="#" class="anno キャッ<a href="#" class="anno ピン">ピン</a>グ">キャッピング</a>酵素であるといえた．したがって，PGM1により多様なペプチドのN末端に非タンパク質性のアミノ酸からなるL-アミジノフェニルグリシンを付加することにより，種々の<a href="#" class="anno エキソ">エキソ</a>型のペプチド<a href="#" class="anno 分解酵素">分解酵素</a>からペプチドを保護できる可能性が示唆された．<br/><br/><h2>4．PGM1の結晶構造</h2><br/>　PGM1の示す幅広い基質特異性について理解するため結晶<a href="#" class="anno 構造解析">構造解析</a>を行った．種々の基質との<a href="#" class="anno 結晶化">結晶化</a>を試みた結果，AMPとの<a href="#" class="anno 複合体">複合体</a>として結晶を得ることができた．<a href="#" class="anno 結晶構造解析">結晶構造解析</a>の結果（PDB ID：<a href="http://service.pdbj.org/mine/Det<a href="#" class="anno ail">ail</a>2?PDBID=3wvr&amp;PAGEID=Summary" target="_blank">3WVR</a>），配列<a href="#" class="anno <a href="#" class="anno <a href="#" class="anno 相">相</a>同">相同</a>性">相同性</a>は18％と低いが，<a href="#" class="anno 同じ">同じ</a>くATP-graspモチーフをもつグリシン<a href="#" class="anno アミド">アミド</a><a href="#" class="anno リボ<a href="#" class="anno ヌクレオチド">ヌクレオチド</a>">リボヌクレオチド</a>シンテターゼと<a href="#" class="anno 構造的">構造的</a>に類似していることがわかった．また，ペプチドという<a href="#" class="anno 巨大分子">巨大分子</a>を基質として認識しうる，ほかの酵素にはみられないような大きな空洞と長い割れ目からなる<a href="#" class="anno 活性中心">活性中心</a>，および，L-アミジノフェニルグリシンの認識およびタンパク質性のアミノ酸からなるペプチドの認識に重要な残基を見い出すことができ，変異酵素を用いた<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>な解析によりこれらの関与が確認された．<br/><br/><h2>おわりに</h2><br/>　放線菌の生産するペプチド系抗生物質フェガノマイシンの生合成について，非タンパク質性のアミノ酸からなるL-アミジノフェニルグリシンを認識し，リン酸化により活性化したのち，リボソームにより生合成された前駆体ペプチドに由来するペプチドを求核剤として用い，この2つの基質のあいだでペプチド結合を形成する新規の酵素を見い出した（<a href="#F2">図2</a>）．また，結晶構造解析および変異導入実験により活性中心および反応に関与する残基を同定した．この酵素は幅広い基質特異性をもつことから，種々のペプチドのN末端キャッピング酵素であるともいえ，医薬品として<a href="#" class="anno 生理活性">生理活性</a>ペプチドを使用する場合の欠点のひとつであるエキソ型ペプチド分解酵素からの保護，あるいは，液体<a href="#" class="anno クロマトグラフィー">クロマトグラフィー</a>-<a href="#" class="anno 質量分析">質量分析</a>計を用いた<a href="#" class="anno プロテオーム">プロテオーム</a>解析において<a href="#" class="anno 内部標準">内部標準</a>の作成などにも応用が可能と考えられた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　フェガノマイシンの生合成機構</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Dairi-Nature-Chemical-Biology-14.12.19-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　フェガノマイシンの生合成機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Dairi-Nature-Chemical-Biology-14.12.19-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Dairi-Nature-Chemical-Biology-14.12.19-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Arnison, P. G., Bibb, M. J., Bierbaum, G. et al.</span>: <span class="ti">Ribosomally synthesized and post-translationally modified peptide natural products: overview and recommendations for a universal nomenclature.</span> <span class='so'>Nat. Prod. Rep., 30, 108-160 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23165928" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Koglin, A. & Walsh, C. T.</span>: <span class="ti">Structural insights into nonribosomal peptide enzymatic assembly lines.</span> <span class='so'>Nat. Prod. Rep., 26, 987-1000 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19636447" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Asaduzzaman, S. M. & Sonomoto, K.</span>: <span class="ti">Lantibiotics: diverse activities and unique modes of action.</span> <span class='so'>J. Biosci. Bioeng., 107, 475-487 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19393544" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Freeman, M. F., Gurgui, C., Helf, M. J. et al.</span>: <span class="ti">Metagenome mining reveals polytheonamides as posttranslationally modified ribosomal peptides.</span> <span class='so'>Science, 338, 387-390 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22983711" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Tabata, K., Ikeda, H. & Hashimoto, S.</span>: <span class="ti"><em>ywfE</em> in <em>Bacillus subtilis</em> codes for a novel enzyme, L-mino acid ligase.</span> <span class='so'>J. Bacteriol., 187, 5195-5202 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16030213" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Gondry, M., Sauguet, L., Belin, P. et al.</span>: <span class="ti">Cyclodipeptide synthases are a family of tRNA-dependent peptide bond-forming enzymes.</span> <span class='so'>Nat. Chem. Biol., 5, 414-420 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19430487" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Chen, H., Tseng, C. C., Hubbard, B. K.: et al.</span>: <span class="ti">Glycopeptide antibiotic biosynthesis: enzymatic assembly of the dedicated amino acid monomer (<em>S</em>)-3,5-dihydroxyphenylglycine.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 98, 14901-14906 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11752437" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_02.html" target="_blank">9.2 Ribosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_04.html" target="_blank">9.4 Protein Synthesis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/04_05.html" target="_blank">4.5 Basic Properties of Enzymes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/06_02.html" target="_blank">6.2 Proteins</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_01.html" target="_blank">9.1 Aminoacyl-tRNA Synthesis</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">大利  徹（Tohru Dairi）</span><br>略歴：1992年 東京大学大学院農学系研究科にて博士号取得，協和発酵工業，1994年 富山県立大学工学部 助手，1995年同 助教授を経て，2010年より北海道大学大学院工学研究院 教授．<br>研究テーマ：微生物のもつ新規の生合成経路および代謝経路．<br><br><strong>森田 洋行（Hiroyuki Morita）</strong><br>富山大学和漢医薬学総合研究所 教授．<br></div><br>© 2014 大利 徹・森田洋行 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

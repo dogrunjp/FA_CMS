@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 生細胞の超解像イメージングにより明らかにされたクロマチンドメインのダイナミックな構造 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/16866" rel="bookmark">生細胞の超解像イメージングにより明らかにされたクロマチンドメインのダイナミックな構造</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>野崎 慎・前島一博</strong><br>（国立遺伝学研究所 構造遺伝学研究センター生体高分子研究室）<br>email：<a href="mailto:tadasu@nig.ac.jp">野崎 慎</a>，<a href="mailto:kmaeshim@nig.ac.jp">前島一博</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.075">10.7875/first.author.2017.075</a><br><div class="reference"><br><span class="ti">Dynamic organization of chromatin domains revealed by super-resolution live-cell imaging.</span><br><span class="au">Tadasu Nozaki, Ryosuke Imai, Mai Tanbo, Ryosuke Nagashima, Sachiko Tamura, Tomomi Tani, Yasumasa Joti, Masaru Tomita, Kayo Hibino, Masato T. Kanemaki, Kerstin S. Wendt, Yasushi Okada, Takeharu Nagai, Kazuhiro Maeshima</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28712725" target="_blank"><em>Molecular Cell</em>, <strong>67</strong>, 282-293.e7 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ヒトのからだを構成する細胞のなかには全長2メートルにおよぶDNAが収められている．DNAは<a href="#" class="anno ヒストン">ヒストン</a>に巻きつくことにより<a href="#" class="anno ヌクレオソーム">ヌクレオソーム</a>を形成し，さらに3次元的に折りたたまれることにより<a href="#" class="anno クロマチン">クロマチン</a>を形成する．これまで長いあいだ，ヌクレオソームが<a href="#" class="anno らせん状">らせん状</a>に規則正しく折りたたまれてクロマチン線維ができ，これがさらにらせん状の構造を形成するという階<a href="#" class="anno 層構造">層構造</a>が定説とされてきた．しかし，2008年以降，筆者らは，生きた状態に近い細胞を観察することにより，規則正しく束ねられた<a href="#" class="anno クロマチン構造">クロマチン構造</a>は存在せず，ヌクレオソームは細胞のなかに不規則に収納されることを明らかにしてきた．クロマチンは転写，複製，修復をはじめとする各種の生命反応にかかわるため，生きた細胞におけるクロマチンの実体のさらなる理解が<a href="#" class="anno も">も</a>とめられている．この研究において，筆者らは，細胞のなかをタンパク質1分子のレベルで観察することのできる超解像顕微法を用いることにより，<a href="#" class="anno 生細胞">生細胞</a>においてクロマチンを観察した．その結果，多数のヌクレオソームが集まって不規則に折りたたまれることにより“クロマチンドメイン”とよばれるコンパクトな<a href="#" class="anno かた">かた</a>まりが形成されることが明らかにされた．さらに，<a href="#" class="anno 間期">間期</a>においては，このクロマチンドメインはヌクレオソームのあいだの<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>や<a href="#" class="anno コヒーシン">コヒーシン</a>とよばれるクロマチンを束ねるリング状のタンパク質により維持されていた．クロマチンドメインはマウスの<a href="#" class="anno ES細胞">ES細胞</a>において分化をとおして変化した．また，<a href="#" class="anno 細胞周期">細胞周期</a>をつうじ<a href="#" class="anno 分<a href="#" class="anno 裂">裂</a>期">分裂期</a>の<a href="#" class="anno 染色体">染色体</a>においても観察されたことから，<a href="#" class="anno 遺伝情報">遺伝情報</a>の検索，<a href="#" class="anno 読み">読み</a><a href="#" class="anno 出し">出し</a>，維持に重要な染色体の<a href="#" class="anno 機能単位">機能単位</a>としてはたらくことが示唆された．<br/><br/><h2>はじめに</h2><br/>　ヒトのからだは約40兆個の細胞からつくられている．それぞれの細胞には全長2メートルにもおよぶDNAがクロマチンを形成して収納されている．このDNAは直<a href="#" class="anno 径">径</a>2 nmのとても細い糸で，ヒストンという樽状のタンパク質に巻きつくことにより直径11 nmのヌクレオソームを形成する（<a href="#F1">図1a</a>）．いまから40年以上まえ，ヌクレオソームがらせん状に規則正しく折りたたまれることにより直径30 nmのクロマチン線維ができ，これがさらにらせん状に巻かれることにより階層構造が形成されるというモ<a href="#" class="anno デ">デ</a>ルが提唱され，これまで，広く受け入れられてきた．しかしながら，2008年ごろより，筆者らは，<a href="#" class="anno クライオ">クライオ</a><a href="#" class="anno 電子顕微鏡">電子顕微鏡</a>やX線散乱法により，この定説のような規則正しいクロマチン線維は存在せず，ヌクレオソームは細胞のなかに不規則に収められていることを明らかにしてきた<a href="#R1"><sup>1,2)</sup></a>（<a href="#F1">図1a</a>）．そして，ヌクレオソームは不規則に折りたたまれることにより“クロマチンドメイン”とよばれるかたまりを形成するのではないかと推測してきた．また，最近では，DNAどうしの近接性を調べる3C（ch<a href="#" class="anno rom">rom</a>osome con<a href="#" class="anno for">for</a>mation capture）法やそれを応用したHi-C法により，TAD（to<a href="#" class="anno polo">polo</a>gically associating d<a href="#" class="anno oma">oma</a>in）とよばれる同様のクロマチンのかたまりの存在が示唆されている<a href="#R3"><sup>3)</sup></a>．現在，生きた細胞のクロマチン，とりわけ，クロマチンドメインの実体についてさらなる理解がもとめられているが，その構造は<a href="#" class="anno 数十">数十</a>nmから<a href="#" class="anno 数百">数百</a>nmと非常に小さく，回折限界に起因する問題から従来の<a href="#" class="anno 光学顕微鏡">光学顕微鏡</a>を用いて200 nm以下の構造を調べることは困難であった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　細胞におけるDNAの構造</strong><br/>（a）細胞へのDNAの収納に関するこれまでの定説と新しいモデル．<br/>（b）生細胞におけるクロマチンの超解像画像．細部の構造がはっきりとわかり，クロマチンドメインが観察される．ヌクレオソームはかたまりをつくりクロマチンドメインを形成すると考えられる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Maeshima-Molecular-Cell-17.7.20-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　細胞におけるDNAの構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Maeshima-Molecular-Cell-17.7.20-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Maeshima-Molecular-Cell-17.7.20-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．生細胞におけるクロマチンの超解像<a href="#" class="anno イメージング">イメージング</a>法の開発</h2><br/>　<a href="#" class="anno 実際">実際</a>にクロマチンドメインを観察するためには，回折限界の壁をこえて，さらに，生きた細胞のクロマチンを観察する必要がある．<a href="#" class="anno そのため">そのため</a>，生細胞におけるクロマチンの超解像イメージング法を確立することが必須であった．超解像イメージング法には複数の方法があるが，ヌクレオソームの1<a href="#" class="anno 分子イメージング">分子イメージング</a>を軸にした<a href="#" class="anno PALM">PALM</a>（photoactivated localization <a href="#" class="anno mic">mic</a>ros<a href="#" class="anno cop">cop</a>y）法を選択した<a href="#R4"><sup>4)</sup></a>．これまで，PALM法によるクロマチンのイメージングは2つの問題から困難とされていた．<a href="#" class="anno 1つ目">1つ目</a>は，DNAが折りたたまれている核や染色体は細胞がはりついているディッシュの底であるガラスの表面から高い位置にある点，2つ目は，微小な空間に多量のヌクレオソームが存在する点である．1つ目の問題は，従来の1分子イメージング法に用いられるガラスの表面を観察する<a href="#" class="anno 全反射">全反射</a>照明法に代えて，ガラスの表面から離れた領域を観察することのできる斜光照明法<a href="#R5"><sup>5)</sup></a> を用いることで解決した．2つ目の問題については，一般に光<a href="#" class="anno 活性化">活性化</a>の可能な<a href="#" class="anno 蛍光タンパク質">蛍光タンパク質</a>は波長405 nmのレーザーにより活性化するが，それに代えて，PA-<a href="#" class="anno mCherry">mCherry</a>に波長561 nmの<a href="#" class="anno レーザー光">レーザー光</a>を直接に照射するとランダムかつ<a href="#" class="anno 自発的">自発的</a>に活性化し蛍光を発する性質を利用した．これらにより，ヌクレオソームが非常に多量で混雑している状態においても1<a href="#" class="anno 分子レベル">分子レベル</a>での観察が可能になった．クロマチンの標識のためヒストン<a href="#" class="anno H2B">H2B</a>とPA-mCherryの<a href="#" class="anno 融合タンパク質">融合タンパク質</a>を発現する<a href="#" class="anno HeLa細胞">HeLa細胞</a>を作製し，超解像イメージングを実施した結果，生きたHeLa細胞の核の内部において約100個のヌクレオソームをフレームごとに撮影することに成功した．撮影した輝点が1段階の退色を示したことから，それぞれの輝点は1分子の蛍光タンパク質に起因することが確かめられた．おのおののフレームにおける輝点の重心を決定し，<a href="#" class="anno 数万">数万</a>個の輝点を平面にマップすることにより，クロマチンの超解像画像を得ることができた（<a href="#F1">図1b</a>）．<br/><br/><h2>2．クロマチンドメインの観察および解析</h2><br/>　クロマチンの超解像イメージング法の確立により，<a href="#" class="anno 一般的">一般的</a>な光学系では観ることのできないクロマチンの非常に細やかな部分まで観察することができるようになった．クロマチンの超解像画像は，ヌクレオソームが不規則なかたまり，すなわち，クロマチンドメインを形成しているようにみえた（<a href="#F1">図1b</a>）．ヌクレオソームがどのようなかたまりを形成しているのか，その<a href="#" class="anno 大きさ">大きさ</a>や性質を<a href="#" class="anno 定量的">定量的</a>に調べるため，空間に配置された物体の分布について，かたまりの大きさおよびその度合いを評価することができる<em>L</em>関数とよばれる空間統計学の指標を導入した．その結果，クロマチンの超解像画像におけるヌクレオソームの分布はランダムではなくかたまりを形成しており，その大きさは直径160 nm程度であると推定された．これらのことから，生きた細胞の核において，ヌクレオソームが不規則に折りたたまれることにより形成されるクロマチンドメインが存在することが示された．そして，これらのクロマチンドメインは間期のあいだ維持されており，また，分裂期の染色体においても観察された（<a href="#F2">図2</a>）．このことから，クロマチンドメインは細胞周期をとおして維持され，レゴブロックのように染色体を形成するために非常に重要な構造としてはたらくことが示された．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　クロマチンドメインは細胞周期をつうじて維持される</strong><br/>間期においては，ヌクレオソームどうしの結合およびコヒーシンがクロマチンドメインの維持にはたらく．分裂期の染色体においてもクロマチンドメインは観察される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Maeshima-Molecular-Cell-17.7.20-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　クロマチンドメインは細胞周期をつうじて維持される" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Maeshima-Molecular-Cell-17.7.20-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Maeshima-Molecular-Cell-17.7.20-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　これまで述べてきたPALM法によるイメージングと1分子ヌクレオソームイメージングによる<a href="#" class="anno 動態解析">動態解析</a>を組み合わせ，ヌクレオソームの動きをフレームのあいだで追跡した結果，ヌクレオソームはとどまっているわけではなく，ゆらゆらとゆらいでおり，50 msのあいだに約60 nmも動いていることが示された（<a href="#F1">図1b</a>）．さらに，超解像画像を構築する際に，付近のヌクレオソームの動きを平均化して色分けすることによりクロマチンの動態に関するヒートマップを作成し，クロマチンの<a href="#" class="anno ダイナミクス">ダイナミクス</a>の<a href="#" class="anno 局所性">局所性</a>を評価した．その結果，クロマチンの動態は一様ではなく，核の内部においては大きな動きを示したが，<a href="#" class="anno 核膜">核膜</a>の付近や<a href="#" class="anno 核小体">核小体</a>の縁の付近などでは動きが抑えられていた．このことから，クロマチンの動態には局所性があり，とくに転写の活発な部分とそうではない部分とで動きに差のあることが示唆され，このような動態のばらつきはゲノムの機能と直結すると考えられた．<br/><br/><h2>3．クロマチンドメインの形成におけるヌクレオソームのあいだの相互作用およびコヒーシンの関与</h2><br/>　ここまで，超解像イメージング法によるクロマチンドメインの観察について記述してきたが，このクロマチンドメインの性質を構成するものは何だろうか．これを明らかにするため，クロマチンの状態を変化させるヒストン修飾およびクロマチン<a href="#" class="anno 関連タンパク質">関連タンパク質</a>に注目した．ヒストン修飾は<a href="#" class="anno エピジェネティック">エピジェネティック</a>な制御の根幹を担い，クロマチンに大きく関与することが予想される．そこで，ヒストン脱<a href="#" class="anno アセチル">アセチル</a>化酵素の<a href="#" class="anno 阻害剤">阻害剤</a>である<a href="#" class="anno トリコスタチンA">トリコスタチンA</a> <a href="#R6"><sup>6)</sup></a> により処理したクロマチンに対し超解像イメージングを実施した．トリコスタチンAは核においてヒストンテールの<a href="#" class="anno アセチル化">アセチル化</a>を<a href="#" class="anno 大規模">大規模</a>に促進し，このアセチル化はヌクレオソームのあいだの相互作用を弱めることが知られている．その結果，クロマチンは<a href="#" class="anno 脱凝縮">脱凝縮</a>を起こし，それにともない動きも大きくなった．このことから，エピジェネティクな制御に強くかかわるヒストンのアセチル化によりクロマチンドメインの性質は大きく変化することが示された．<br/>　クロマチン構造にはクロマチン関連タンパク質が重要であることが過去の研究により示唆されている．そこで，クロマチン関連タンパク質の代表として，コヒーシン<a href="#R7"><sup>7)</sup></a>，<a href="#" class="anno CT">CT</a>CF <a href="#R7"><sup>7)</sup></a>，<a href="#" class="anno コンデンシン">コンデンシン</a>II <a href="#R8"><sup>8)</sup></a> の3つを選び，それらを<a href="#" class="anno ノックダウン">ノックダウン</a>したうえでクロマチンの超解像イメージングを実施した．コヒーシンのノックダウンによりクロマチンドメインは脱凝縮し，動きも大きくなった．コヒーシンをクロマチンにリクルートする<a href="#" class="anno NIPBL">NIPBL</a>をノックダウンした場合にも同様の結果が得られたことから，コヒーシンはクロマチンドメインの形成に重要な役割をはたすと考えられた（<a href="#F2">図2</a>）．一方，C<a href="#" class="anno TC">TC</a>Fあるいは<a href="#" class="anno コンデンシンII">コンデンシンII</a>をノックダウンしてもクロマチンドメインに変化はみられなかった．これらの結果から，ヒストンテールを介したヌクレオソームのあいだの相互作用，また，コヒーシンがクロマチンドメインの形成に重要であることが示された．<br/><br/><h2>4．分化によりクロマチンドメインは変化する</h2><br/>　クロマチンドメインは核においてさまざまな性質をもち，また，ヒストンのアセチル化などにより変化したことから，転写や複製にかかわる機能をもつと考えられた．クロマチンドメインの機能について調べるため，マウスのES細胞において<a href="#" class="anno 培養液">培養液</a>から<a href="#" class="anno LIF">LIF</a>を除去し，<a href="#" class="anno 胚様体">胚様体</a>に分化する前後においてクロマチンドメインの性質を比較した．<a href="#" class="anno 未分化">未分化</a>マー<a href="#" class="anno カ">カ</a>ーである<a href="#" class="anno Sox2">Sox2</a>が強く発現している分化まえのES細胞においては，クロマチンドメインはすこし脱凝縮している状態で動きも大きかった．一方，胚様体に分化したのちの細胞においては，クロマチンドメインが明確になり動きも小さかった．このクロマチンドメインの変化はES<a href="#" class="anno 細胞の分化">細胞の分化</a>にともなう発現の可能な遺伝子の限定に影響するのではないかと考えられた．もちろん，ここでのES細胞の分化は<a href="#" class="anno 限定的">限定的</a>なものであり，分化するさきも限定されていない．ES細胞をさまざまな誘導により分化させクロマチンを観察することにより，分化とクロマチンドメインとの<a href="#" class="anno 関係性">関係性</a>をさらに明らかにすることができると考えられる．<br/><br/><h2>おわりに</h2><br/>　この研究において，ヌクレオソームが折りたたまれることにより形成されるクロマチンドメインが生細胞において存在することが示された．しかし，その機能についてはい<a href="#" class="anno まだ">まだ</a>不明な部分が多い．分化によりその性質が変化することから，<a href="#" class="anno 遺伝子発現">遺伝子発現</a>の変化などに直接的な影響をおよぼすことが示唆される．筆者らは，生細胞におけるクロマチンの超解像イメージング法の強みはまだ完全には発揮されていないと考えている．このイメージング法はほかのタンパク質の1分子イメージングと同時に実施することができ，生きたクロマチンと生きたタンパク質との相互作用を直接的に観察することができる．<a href="#" class="anno 転写因子">転写因子</a>，修復因子，<a href="#" class="anno 複製因子">複製因子</a>とクロマチンを同時にイメージングすることにより，クロマチンドメインの機能を明らかにする研究がこれから進むと考えられる．そして，クロマチンを中心とした核におけるさまざまな生命反応の秘密が明らかにされていくと思われる．<br/>　筆者のひとり（野崎）は，以前，<a href="#" class="anno バイオインフォ<a href="#" class="anno マテ">マテ</a>ィクス">バイオインフォマティクス</a>を専攻しており，DNAは<a href="#" class="anno ATG">ATG</a>Cの集まりとしかとらえていなかった．しかし，細胞においてDNAは単なる1次元の文字列ではなく，その3次元的な構造やゆらぎにより新たな機能をもちうるとことを，生細胞におけるクロマチンのイメージングにより身をもって理解した．近年，Hi-C法の進歩によりクロマチンの直接的な観察を必要としないクロマチン構造の研究が増えているが，筆者らは，生きたクロマチンを観ることを大事にして研究を進めていきたい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Maeshima, K., Ide, S., Hibino, K. et al.</span>: <span class="ti">Liquid-like behavior of chromatin.</span> <span class='so'>Curr. Opin. Genet. Dev., 37, 36-45 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26826680" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Maeshima, K., Imai, R., Tamura, S. et al.</span>: <span class="ti">Chromatin as dynamic 10-nm fibers.</span> <span class='so'>Chromosoma, 123, 225-237 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24737122" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Dekker, J. & Heard, E.</span>: <span class="ti">Structural and functional diversity of topologically associating domains.</span> <span class='so'>FEBS Lett., 589, 2877-2884 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26348399" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Betzig, E., Patterson, G. H., Sougrat, R. et al.</span>: <span class="ti">Imaging intracellular fluorescent proteins at nanometer resolution.</span> <span class='so'>Science, 313, 1642-1645 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16902090" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Tokunaga, M., Imamoto, N. & Sakata-Sogawa, K.</span>: <span class="ti">Highly inclined thin illumination enables clear single-molecule imaging in cells.</span> <span class='so'>Nat. Methods, 5, 159-161 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18176568" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Yoshida, M., Kijima, M., Akita, M. et al.</span>: <span class="ti">Potent and specific inhibition of mammalian histone deacetylase both in vivo and in vitro by trichostatin A.</span> <span class='so'>J. Biol. Chem., 265, 17174-17179 (1990)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2211619" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Wendt, K. S., Yoshida, K., Itoh, T. et al.</span>: <span class="ti">Cohesin mediates transcriptional insulation by CCCTC-binding factor.</span> <span class='so'>Nature, 451, 796-801 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18235444" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Ono, T., Yamashita, D. & Hirano, T.</span>: <span class="ti">Condensin II initiates sister chromatid resolution during S phase.</span> <span class='so'>J. Cell Biol., 200, 429-441 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23401001" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=KEGG" target="_blank">KEGG</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=PDB" target="_blank">PDB</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=クリエイティブ・コモンズ" target="_blank">クリエイティブ・コモンズ</a></li><br></ul><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/02_01.html" target="_blank">2.1 Cell Multiplication Through Cell Division</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_04.html" target="_blank">3.4 Genetic Factors and Chromosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/10_04.html" target="_blank">10.4 Epigenetic Regulation of Gene Expression</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_03.html" target="_blank">11.3 Eukaryotic Structures</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/01_03.html" target="_blank">1.3 Cells and Cell Membrane</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">野崎  慎（Tadasu Nozaki）</span><br>略歴：2016年 慶應義塾大学大学院政策・メディア研究科 修了，同年より国立遺伝学研究所 研究員．<br>研究テーマ：細胞におけるDNAのデータ構造およびその検索アルゴリズム．<br>関心事：細胞においてDNAの情報はどのように収納され検索されるのか．おいしいカレーうどんを作りたい．<br><br><strong>前島 一博（Kazuhrio Maeshima）</strong><br>国立遺伝学研究所 教授．<br>研究室URL：<a href="http://maeshima-lab.sakura.ne.jp/" target="_blank">http://maeshima-lab.sakura.ne.jp/</a><br></div><br>? 2017 野崎 慎・前島一博 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

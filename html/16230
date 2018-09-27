@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ペルオキシソームはミトコンドリアに由来する前駆小胞と小胞体に由来する前駆小胞とのハイブリッドとして新たに形成される : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/16230" rel="bookmark">ペルオキシソームはミトコンドリアに由来する前駆小胞と小胞体に由来する前駆小胞とのハイブリッドとして新たに形成される</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>杉浦  歩</strong><br>（カナダMcGill大学Montreal Neurological Institute）<br>email：<a href="mailto:ayumu@toyaku.ac.jp">杉浦 歩</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.020">10.7875/first.author.2017.020</a><br><div class="reference"><br><span class="ti">Newly born peroxisomes are a hybrid of mitochondrial and ER-derived pre-peroxisomes.</span><br><span class="au">Ayumu Sugiura, Sevan Mattie, Julien Prudent, Heidi M. McBride</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28146471" target="_blank"><em>Nature</em>, <strong>542</strong>, 251-254 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno ペルオキシソーム">ペルオキシソーム</a>は細胞における代謝において<a href="#" class="anno 中心的">中心的</a>な<a href="#" class="anno オルガネラ">オルガネラ</a>のひとつであり，その<a href="#" class="anno 代謝経路">代謝経路</a>の多くをミトコンドリアと共有する．ペルオキシソームの数は既存のペルオキシソームからの分<a href="#" class="anno 裂">裂</a>，あるいは，<em>de n<a href="#" class="anno ovo">ovo</a></em>合成により維持される．<a href="#" class="anno 出芽酵母">出芽酵母</a>を用いた研究において<a href="#" class="anno 小胞">小胞</a>体がペルオキシソームの<em>de novo</em>合成における膜の<a href="#" class="anno 供給源">供給源</a>であるとするモ<a href="#" class="anno デ">デ</a>ルが確立されつつあるが，<a href="#" class="anno 哺乳類細胞">哺乳類細胞</a>においてはその理解は遅れている．この研究において，Z<a href="#" class="anno ell">ell</a>weger症候群の患者に由来するペルオキシソームを欠損した線維<a href="#" class="anno 芽細胞">芽細胞</a>を用いてペルオキシソームの<em>de novo</em>合成の過程を解析した．顕微鏡によりペルオキシソームの前駆小胞はミトコンドリアの表面において形成されて<a href="#" class="anno 細胞質">細胞質</a>に放出されることが観察され，この過程は<a href="#" class="anno 小胞体">小胞体</a>に由来するペルオキシソームの前駆小胞を必要とした．この研究により，ペルオキシソームはミトコンドリアに由来する前駆小胞と小胞体に由来する前駆小胞のハイブリッドとして新たに形成されることが示され，哺乳類細胞におけるペルオキシソームの<em>de novo</em>合成について新規のモデルが提唱された．<br/><br/><h2>はじめに</h2><br/>　ペルオキシソームは<a href="#" class="anno 真核生物">真核生物</a>のほぼすべての細胞に存在する，脂質<a href="#" class="anno 二重">二重</a>膜にかこまれたオルガネラである．その機能のうち脂肪酸の<a href="#" class="anno β酸化">β酸化</a>および<a href="#" class="anno 過酸化">過酸化</a>水素の分解についてはよく保存されているが，脂質や<a href="#" class="anno アミノ">アミノ</a>酸の合成および分解などの機能は<a href="#" class="anno 生物種">生物種</a>や組織により<a href="#" class="anno 多様性">多様性</a>を<a href="#" class="anno も">も</a>つ．また，ペルオキシソームは細胞の内部を<a href="#" class="anno 細胞骨格">細胞骨格</a>に依存して動きまわり，細胞の内外の環境に応じて数の変動する，非常にダイナミックなオルガネラでもある．ペルオキシソームの数は既存のペルオキシソームからの成長および分裂，あるいは，<em>de novo</em>合成により維持される<a href="#R1"><sup>1)</sup></a>．ペルオキシソームの形成および維持にかかわる一連の遺伝子として<em>PEX</em>遺伝子が知られており，その変異はペルオキシソームの機能や構造の欠損をひき起こす．このような異常が原因となる疾患はペルオキシソーム<a href="#" class="anno 形成異常">形成異常</a>症とよばれ，とくに<a href="#" class="anno 重篤">重篤</a>な<a href="#" class="anno Zellweger症候群">Zellweger症候群</a>においては複数の器官に異常をきたし<a href="#" class="anno 乳児期">乳児期</a>の早期に死亡する．<br/>　ペルオキシソームの<em>de novo</em>合成については酵母のペルオキシソーム欠損<a href="#" class="anno 変異株">変異株</a>を用いた研究がさかんである．出芽酵母（<em>Saccha<a href="#" class="anno rom">rom</a>yces cerevisiae</em>）のペルオキシソーム<a href="#" class="anno <a href="#" class="anno 欠損変異">欠損変異</a>株">欠損変異株</a>においては小胞体にいくつかのペルオキシソーム<a href="#" class="anno 膜タンパク質">膜タンパク質</a>が局在し<a href="#R2"><sup>2)</sup></a>，それらがペルオキシソームの前駆小胞として細胞質に放出されるという，小胞体がペルオキシソーム膜の起源であるとするモデルが確立されつつある<a href="#R3"><sup>3)</sup></a>．一方，<em>Hansenula polymorpha</em>のペルオキシソーム<a href="#" class="anno 欠損細胞">欠損細胞</a>株においてはペルオキシソームの<a href="#" class="anno 前駆体">前駆体</a>となる膜構造が存在し，小胞体を介さずにペルオキシソームの<em>de novo</em>合成の起こることが報告されており<a href="#R4"><sup>4)</sup></a>，ペルオキシソームの<em>de novo</em>合成における膜の起源の多様性も示唆されている．哺乳類細胞においては，一部のペルオキシソーム膜タンパク質が小胞体を経由してペルオキシソームへと輸送されるという報告もあり<a href="#R5"><sup>5)</sup></a>，哺乳類においてもペルオキシソームは小胞体を起源とするとする説が広く受け入れられている．しかし，哺乳類のペルオキシソーム欠損<a href="#" class="anno 培養細胞">培養細胞</a>においては複数のペルオキシソーム膜タンパク質がミトコンドリアに局在することが報告されているにもかかわらず<a href="#R6"><sup>6)</sup></a>，それは<a href="#" class="anno アーティファクト">アーティファクト</a>と解釈され，哺乳類細胞におけるペルオキシソームの<em>de novo</em>合成については未知の部分が多く残されている．この研究においては，哺乳類細胞におけるペルオキシソームの<em>de novo</em><a href="#" class="anno 合成経路">合成経路</a>について明らかにするため，Zellweger症候群の患者に由来するペルオキシソームを欠損した<a href="#" class="anno 線維芽細胞">線維芽細胞</a>を用いてペルオキシソームの<em>de novo</em>合成の過程を<a href="#" class="anno 段階的">段階的</a>に解析した．<br/><br/><h2>1．<a href="#" class="anno アデノウイルス">アデノウイルス</a><a href="#" class="anno 発現系">発現系</a>によりペルオキシソームを欠損した線維芽細胞においてペルオキシソームの<em>de novo</em>合成が回復する</h2><br/>　ペルオキシソームの<em>de novo</em>合成は，膜構造の形成，膜タンパク質の取り込み．<a href="#" class="anno マトリックスタンパク質">マトリックスタンパク質</a>の取り込み，と段階的に起こる．<a href="#" class="anno Pex3">Pex3</a>，<a href="#" class="anno Pex16">Pex16</a>，<a href="#" class="anno Pex19">Pex19</a>はペルオキシソーム膜の形成および維持に必須のタンパク質であり，これらをコードする遺伝子のうちいずれかの欠損はペルオキシソームの欠損をひき起こす．そこで，<em>Pex3</em>遺伝子に変異をもつZellweger症候群の患者に由来する線維芽細胞に，アデノウイルス発現系を用いてPex3と<a href="#" class="anno 蛍光タンパク質">蛍光タンパク質</a><a href="#" class="anno YFP">YFP</a>との<a href="#" class="anno 融合タンパク質">融合タンパク質</a>を発現させ，ペルオキシソームの<em>de novo</em>合成の過程を解析した．<a href="#" class="anno 定量的">定量的</a>な評価のため，Pex3-YFP融合タンパク質，膜タンパク質である<a href="#" class="anno PMP70">PMP70</a>，マトリックスタンパク質である<a href="#" class="anno <a href="#" class="anno カ">カ</a>タラーゼ">カタラーゼ</a>を<a href="#" class="anno 免疫<a href="#" class="anno 蛍光染色">蛍光染色</a>">免疫蛍光染色</a>し，<a href="#" class="anno 蛍光顕微鏡">蛍光顕微鏡</a>により観察した．その結果，ペルオキシソームの<em>de novo</em>合成の過程が段階的に観察され，時間の経過とともに成熟したペルオキシソームの数が増加した．この結果により，アデノウイルス発現系を用いたPex3の発現により<em>Pex3</em>遺伝子に変異をもつ線維芽細胞においてペルオキシソームの<em>de novo</em>合成が回復することが確認された．<br/><br/><h2>2．Pex3はミトコンドリアの表面において小胞様の構造を形成しペルオキシソームの前駆小胞として細胞質に放出される</h2><br/>　これまでの報告にあるように，ペルオキシソームを欠損した細胞においてPex3-YFP融合タンパク質の発現の初期における局在はミトコンドリア様の形態を示した．Pex3-YFP融合タンパク質の局在を確認するため，ミトコンドリアのマーカーである抗<a href="#" class="anno Tom">Tom</a>20抗体および小胞体のマーカーである抗KDEL抗体を用いて免疫蛍光染色したところ，Pex3-YFP融合タンパク質はミトコンドリアと<a href="#" class="anno 共局在">共局在</a>を示し，小胞体への局在は確認されなかった．<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>な解析により，Pex3-YFP融合タンパク質は翻訳ののちミトコンドリア<a href="#" class="anno 外膜">外膜</a>に挿入され，その<a href="#" class="anno トポ">トポ</a>ロジーは<a href="#" class="anno 野生型">野生型</a>におけるペルオキシソーム膜と同様に，<a href="#" class="anno N末端">N末端</a>はオルガネラの内側，<a href="#" class="anno C末端">C末端</a>は外側をむくことが明らかにされた．<a href="#" class="anno 内在性">内在性</a>の<a href="#" class="anno Pex14">Pex14</a>もペルオキシソームを欠損した細胞においては<a href="#" class="anno ミトコンドリア外膜">ミトコンドリア外膜</a>に挿入され，そのトポロジーは野生型におけるペルオキシソーム膜と<a href="#" class="anno 同じ">同じ</a>であった．<em>Pex3</em>遺伝子に変異をもつ線維芽細胞にPex3-YFP融合タンパク質を発現させると，その局在は時間の経過とともにミトコンドリアからペルオキシソームへと移行し，ペルオキシソームの<em>de novo</em>合成の段階的な進行と一致した．このことから，Pex3はミトコンドリアからペルオキシソームの合成を直接的に制御することが示された．<a href="#" class="anno 生細胞">生細胞</a><a href="#" class="anno イメージング">イメージング</a>法によりPex3-YFP融合タンパク質のミトコンドリアからペルオキシソームへの局在の移行がひとつの細胞において起こることが確認され，さらに，高速の<a href="#" class="anno 生細胞イメージング">生細胞イメージング</a>法によりミトコンドリアの表面においてPex3-YFP融合タンパク質が小胞様の構造を形成し放出されることが確認された．このときの小胞はミトコンドリアを染色する<a href="#" class="anno 蛍光色素">蛍光色素</a>MitoTrackerに陰性であった．また，ミトコンドリアの表面に存在するペルオキシソームの前駆小胞は，免疫蛍光染色により，Pex3-YFP融合タンパク質および内在性のPex14については陽性，ミトコンドリア<a href="#" class="anno 外膜タンパク質">外膜タンパク質</a>である<a href="#" class="anno Tom20">Tom20</a>については陰性であった．これらの結果より，ミトコンドリアに由来するペルオキシソームの前駆小胞は<a href="#" class="anno カーゴ">カーゴ</a>に<a href="#" class="anno 選択的">選択的</a>に形成され細胞質に放出されることが明らかにされた．<br/><br/><h2>3．ミトコンドリアに由来するペルオキシソームの前駆小胞はこれまでに報告されてきたミトコンドリアに由来する小胞とは異なる特徴を示す</h2><br/>　これまでに，筆者らの<a href="#" class="anno 研究グループ">研究グループ</a>は，いくつかの<a href="#" class="anno ミトコンドリアタンパク質">ミトコンドリアタンパク質</a>はカーゴに選択的に小胞としてミトコンドリアから放出され<a href="#" class="anno リソソーム">リソソーム</a>やペルオキシソームといったほかのオルガネラへと輸送されることを報告してきた<a href="#R7"><sup>7,8)</sup></a>．この研究において観察されたPex3-YFP融合タンパク質陽性の小胞と，これまでに報告されたミトコンドリアに由来する小胞との<a href="#" class="anno 関連性">関連性</a>について調べるため，いくつかのタンパク質の<a href="#" class="anno ノックダウン">ノックダウン</a>しその影響について調べた．ミトコンドリアは<a href="#" class="anno 生理的">生理的</a>な条件において分裂と融合とをくり返しており，分裂には高<a href="#" class="anno 分子量">分子量</a><a href="#" class="anno G<a href="#" class="anno TP">TP</a><a href="#" class="anno ase">ase</a>">GTPase</a>である<a href="#" class="anno Drp1">Drp1</a>が必須である<a href="#R9"><sup>9)</sup></a>．これまでに報告されたミトコンドリアに由来する小胞はDrp1に非<a href="#" class="anno 依存的">依存的</a>に形成されミトコンドリアから放出されることがわかっていたが，Drp1のノックダウンはPex3-YFP融合タンパク質のミトコンドリアからの放出に影響しなかった．ミトコンドリアに由来する小胞のミトコンドリアからペルオキシソームへの輸送は<a href="#" class="anno Vps35">Vps35</a>を含む<a href="#" class="anno レトロ">レトロ</a>マー<a href="#" class="anno 複合体">複合体</a>により制御されることが報告されていたが<a href="#R10"><sup>10)</sup></a>，Vps35のノックダウンもPex3-YFP融合タンパク質のミトコンドリアからの放出に影響しなかった．Pex19は細胞質の<a href="#" class="anno シャペロン">シャペロン</a>であり新規に合成されたペルオキシソーム膜タンパク質をペルオキシソーム膜へと輸送するが<a href="#R6"><sup>6)</sup></a>，Pex19のノックダウンはペルオキシソーム前駆体へのPMP70の輸送を阻害したが，Pex3-YFP融合タンパク質のミトコンドリアへの局在およびミトコンドリアからの放出には影響しなかった．<br/>　<a href="#" class="anno 薬理学的">薬理学的</a>なアプローチによりペルオキシソームの<em>de novo</em>合成の<a href="#" class="anno 分子機構">分子機構</a>の解明を試みた．Pex3-YFP融合タンパク質は<a href="#" class="anno タンパク質合成">タンパク質合成</a><a href="#" class="anno 阻害剤">阻害剤</a>である<a href="#" class="anno シクロヘキシミド">シクロヘキシミド</a>の存在のもと3時間以内に半分以下になった．Pex3-YFP融合タンパク質の<a href="#" class="anno ターンオーバー">ターンオーバー</a>の<em>de novo</em>合成における<a href="#" class="anno 必要性">必要性</a>について調べるため，<em>Pex3</em>遺伝子に変異をもつ線維芽細胞にリソソームの<a href="#" class="anno ATPase">ATPase</a>ポンプの阻害剤である<a href="#" class="anno バフィロマイシンA">バフィロマイシンA</a>あるいは<a href="#" class="anno プロテアソーム">プロテアソーム</a>の阻害剤であるMG132を処理し，Pex3-YFP融合タンパク質の量およびペルオキシソームの<em>de novo</em>合成への影響について調べた．バフィロマイシンAはPex3-YFP融合タンパク質の量およびペルオキシソームの<em>de novo</em>合成には影響しなかったことから，Pex3-YFP融合タンパク質は<a href="#" class="anno 機能的">機能的</a>な小胞としてミトコンドリアから放出されることの証拠になった．もしPex3-YFP融合タンパク質が不要なタンパク質としてミトコンドリアから放出されるなら，Pex3-YFP融合タンパク質陽性の小胞が細胞質に蓄積することが予想されるからである．一方，MG132の処理によりPex3-YFP融合タンパク質はミトコンドリアに過剰に蓄積しペルオキシソームの<em>de novo</em>合成は阻害されたことから，Pex3の関与するペルオキシソームの<em>de novo</em>合成にはPex3の<a href="#" class="anno ユビ<a href="#" class="anno キチン">キチン</a>">ユビキチン</a>-<a href="#" class="anno プロテアソーム系">プロテアソーム系</a>による分解が必要であることが示唆された．このようにPex3-YFP融合タンパク質がミトコンドリアに過剰に蓄積する条件においても，Pex3-YFP融合タンパク質が小胞体に局在する証拠は得られなかった．<br/>　ペルオキシソームの<em>de novo</em>合成における細胞<a href="#" class="anno 骨格系">骨格系</a>の関与について調べた．<a href="#" class="anno 膜輸送">膜輸送</a>における小胞の放出には<a href="#" class="anno <a href="#" class="anno アクチン">アクチン</a>骨格">アクチン骨格</a>の重合が必要とされることがあるが，<a href="#" class="anno アクチン重合">アクチン重合</a>阻害剤である<a href="#" class="anno サイトカラシンD">サイトカラシンD</a>の影響は観察されなかった．一方，<a href="#" class="anno <a href="#" class="anno 微小管">微小管</a>重合">微小管重合</a>阻害剤である<a href="#" class="anno ノコダゾール">ノコダゾール</a>の処理によりPex3-YFP融合タンパク質はミトコンドリアに蓄積しペルオキシソームの<em>de novo</em>合成は阻害された．しかし，ノコダゾールによる阻害は<a href="#" class="anno Rho">Rho</a><a href="#" class="anno キナーゼ">キナーゼ</a>阻害剤であるY-27632によりキャンセルされたことから，<a href="#" class="anno Rhoキナーゼ">Rhoキナーゼ</a>の<a href="#" class="anno 活性化">活性化</a>による影響であると考えられた．一連の薬理学的な実験においてはペルオキシソームの<em>de novo</em>合成の分子機構の解明にはいたらなかったが，これらの結果から，ペルオキシソームの<em>de novo</em>合成においてはPex3がミトコンドリアから細胞質に放出される必要のあることが示され，ミトコンドリアがペルオキシソーム膜の供給源であることがさらに支持された．<br/>　ミトコンドリアの表面において形成されるペルオキシソームの前駆小胞のより詳細な構造を透過型<a href="#" class="anno 電子顕微鏡">電子顕微鏡</a>により観察した．<em>Pex3</em>遺伝子に変異をもつ線維芽細胞の<a href="#" class="anno クリステ">クリステ</a>構造に異常は観察されなかったが，ミトコンドリア外膜に小胞様の<a href="#" class="anno 特徴的">特徴的</a>な構造が観察された．ミトコンドリアから出芽するような小胞様の構造はミトコンドリアマトリックスや細胞質と比べ<a href="#" class="anno 電子密度">電子密度</a>が低く，Pex3-YFP融合タンパク質を発現させることにより有意に大きくなり，その直<a href="#" class="anno 径">径</a>は既知のミトコンドリアに由来する小胞よりも大きかった．金コロイドを用いた<a href="#" class="anno 免疫電子顕微鏡">免疫電子顕微鏡</a>による解析によりPex3-YFP融合タンパク質がこれらの構造に蓄積することも確認された．電子顕微鏡により観察されたミトコンドリアの表面の特徴的な小胞様の構造は，生細胞イメージング法により放出が確認されたミトコンドリアに由来するペルオキシソームの前駆小胞と同一の構造であると考えられた．<br/>　これらの結果より，ミトコンドリアに由来するペルオキシソームの前駆小胞は，これまでに報告されてきたミトコンドリアに由来する小胞とは<a href="#" class="anno 構造的">構造的</a>にも分子機構においても異なる新規の膜構造であることが示された．<br/><br/><h2>4．成熟したペルオキシソームの形成はミトコンドリアに由来する前駆小胞と小胞体に由来する前駆小胞を必要とする</h2><br/>　これまでの結果より，Pex3の関与するペルオキシソームの<em>de novo</em>合成はミトコンドリアを起点とすることが示された．ミトコンドリアに由来するペルオキシソームの<em>de novo</em>合成経路と小胞体との関係について調べるため，<em>Pex16</em>遺伝子に変異をもつZellweger症候群の患者に由来する線維芽細胞を用いた．Pex16はPex3の<a href="#" class="anno 受容体">受容体</a>と報告されており，Pex16の欠損はペルオキシソームの欠損をひき起こす．<em>Pex16</em>遺伝子に変異をもつ線維芽細胞にアデノウイルス発現系を用いてPex16とYFPとの融合タンパク質を発現させると，発現の初期には小胞体に観察されたが，時間の経過とともにカタラーゼ陽性の成熟したペルオキシソームに観察され，これまでに考えられていたように，Pex16の関与するペルオキシソームの<em>de novo</em>合成は小胞体を起源とすることが示された．さらに，内在性のPex14はPex3と同様にミトコンドリアから小胞様の構造として出芽すること，免疫電子顕微鏡によりPex16-YFP融合タンパク質陽性の小胞はミトコンドリアと接着もしくは融合するように観察されたことから，Pex3の関与するミトコンドリアからのペルオキシソームの<em>de novo</em>合成と，Pex16の関与する小胞体からのペルオキシソームの<em>de novo</em>合成は，それぞれ独立した経路ではなく同一の経路であることが示唆された．<br/>　Pex3陽性のペルオキシソームの前駆小胞とPex16陽性のペルオキシソームの前駆小胞との関係について詳細に解析するため，<em>Pex3</em>遺伝子に変異をもつ線維芽細胞にPex3-YFP融合タンパク質とPex16-m<a href="#" class="anno <a href="#" class="anno RF">RF</a>P">RFP</a>融合タンパク質とを<a href="#" class="anno 共発現">共発現</a>させた．すると，Pex3-YFP融合タンパク質はPex16-mRFP融合タンパク質と強い<a href="#" class="anno 親和性">親和性</a>を示して小胞体に局在した．小胞体に局在するPex3-YFP融合タンパク質はPex16-mRFP融合タンパク質とともに小胞様の構造を形成したが，Pex14やPMP70といった内在性のほかの膜タンパク質の取り込みはいちじるしく低下した．このことから，ペルオキシソームの前駆小胞が膜タンパク質を取り込むためにはPex3やPex16だけでは不十分であり，さらに，ミトコンドリアから放出されたPex3陽性のペルオキシソームの前駆小胞は膜タンパク質を取り込むことが示唆された．このPex3-YFP融合タンパク質の局在についての問題を解決するため，Pex3-YFP融合タンパク質を<em>Pex16</em>遺伝子に変異をもつ線維芽細胞に，Pex16-mRFP融合タンパク質を<em>Pex3</em>遺伝子に変異をもつ線維芽細胞に<a href="#" class="anno 別々">別々</a>に発現させ，それらの細胞をポリ<a href="#" class="anno エチレングリコール">エチレングリコール</a>により融合させ高速の生細胞イメージング法により解析した．その結果，細胞の融合から3時間ほど経過したところでPex16-mRFP融合タンパク質陽性の小胞様の構造が形成されはじめ，さらに，一部のPex16-mRFP融合タンパク質陽性の小胞がミトコンドリアの表面に形成されたPex3-YFP融合タンパク質陽性の小胞様の構造と融合しミトコンドリアから放出されたのが観察された．<br/>　これらの結果より，哺乳類におけるペルオキシソームの<em>de novo</em>合成は，小胞体からPex16を含む前駆小胞が放出され，ミトコンドリアの表面において形成されたPex3およびPex14を含む前駆小胞と融合し細胞質に放出されるというハイブリッドモデルが提唱された．細胞質に放出されたのち，ペルオキシソームはほかの膜タンパク質やマトリックスタンパク質を取り込むことにより成熟し，成長および分裂により数を増加させる（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　哺乳類におけるペルオキシソームの<em>de novo</em>合成のハイブリッドモデル</strong><br/>1）小胞体からPex16を含むペルオキシソームの前駆小胞が放出され，ミトコンドリアに由来するPex3およびPex14を含むペルオキシソームの前駆小胞と融合する．2）細胞質に放出されたハイブリッドなペルオキシソームの前駆小胞は，3）PMP70などのほかの膜タンパク質，4）カタラーゼなどのマトリックスタンパク質を取り込み成熟したペルオキシソームになる．5）成熟したペルオキシソームは成長および分裂によりその数を増加させる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sugiura-Nature-17.2.9-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　哺乳類におけるペルオキシソームの<em>de novo</em>合成のハイブリッドモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sugiura-Nature-17.2.9-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sugiura-Nature-17.2.9-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　ミトコンドリアおよびペルオキシソームは脂質のβ酸化や<a href="#" class="anno <a href="#" class="anno 活性酸素">活性酸素</a>種">活性酸素種</a>の除去などの代謝経路だけでなく，<a href="#" class="anno 転写因子">転写因子</a>，形態<a href="#" class="anno 制御タンパク質">制御タンパク質</a>，<a href="#" class="anno シグナル伝達">シグナル伝達</a>タンパク質など多くのタンパク質も共有する<a href="#R11"><sup>11)</sup></a>．さらに，<a href="#" class="anno プロテオーム">プロテオーム</a>解析によりペルオキシソームに含まれる酵素の多くはミトコンドリアと同じくαプロテオバクテリオに由来することが明らかにされるなど<a href="#R12"><sup>12)</sup></a>，非常に多くの共通点をもつにもかかわらず，その<a href="#" class="anno <a href="#" class="anno 相">相</a>互関係">相互関係</a>や<a href="#" class="anno 制御機構">制御機構</a>についてはほとんどわかっていなかった．この研究により，ミトコンドリアがペルオキシソームの形成に直接的に関与することが明らかにされ，ミトコンドリアとペルオキシソームとのあいだの<a href="#" class="anno 関係性">関係性</a>の理解について，今後のさらなる発展が期待される．<br/>　出芽酵母はこれまでのペルオキシソームの<em>de novo</em>合成の研究においてよく用いられているが，<em>Pex16</em>遺伝子はもたない．ペルオキシソームの機能は生物種のあいだでの多様性も高く，<em>de novo</em>合成経路の違いからも<a href="#" class="anno 可塑性">可塑性</a>の高いオルガネラであるといえる．近年，真核生物のオルガネラの進化において，ミトコンドリアが種々の膜成分の起源であるという説が提唱されている<a href="#R13"><sup>13)</sup></a>．この研究において<a href="#" class="anno 実験的">実験的</a>に明らかにされたハイブリッドモデルは，生物種のあいだのペルオキシソームの多様性について新たな説明をあたえるかもしれない．<br/>　哺乳類細胞におけるペルオキシソームの<em>de novo</em>合成に関しては，ながらく，その存在も含め生理的な意義の解明などが遅れをとっていた．この研究において，哺乳類細胞においてはペルオキシソームの“<em>de novo</em>合成が起こるなら”小胞体とミトコンドリアとのハイブリッドとして形成されることが明らかにされた．しかし，なんの処理もしていない野生型の培養細胞においてペルオキシソームの<em>de novo</em>合成が起こるという証拠はい<a href="#" class="anno まだ">まだ</a>得られていない．今後は，哺乳類を中心として<a href="#" class="anno 個体レベル">個体レベル</a>における解析を進め，ペルオキシソームの<em>de novo</em>合成の生理的な意義について明らかにしたい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Lazarow, P. B. & Fujiki, Y.</span>: <span class="ti">Biogenesis of peroxisomes.</span> <span class='so'>Annu. Rev. Cell Biol., 1, 489-530 (1985)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/3916321" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>van der Zand, A., Braakman, I. & Tabak, H. F.</span>: <span class="ti">Peroxisomal membrane proteins insert into the endoplasmic reticulum.</span> <span class='so'>Mol. Biol. Cell, 21, 2057-2065 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20427571" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Hoepfner, D., Schildknegt, D., Braakman, I. et al.</span>: <span class="ti">Contribution of the endoplasmic reticulum to peroxisome formation.</span> <span class='so'>Cell, 122, 85-95 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16009135" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Knoops, K., Manivannan, S., Cepinska, M. N. et al.</span>: <span class="ti">Preperoxisomal vesicles can form in the absence of Pex3.</span> <span class='so'>J. Cell Biol., 204, 659-668 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24590171" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kim, P. K., Mullen, R. T., Schumann, U. et al.</span>: <span class="ti">The origin and maintenance of mammalian peroxisomes involves a de novo PEX16- dependent pathway from the ER.</span> <span class='so'>J. Cell Biol., 173, 521-532 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16717127" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Sacksteder, K. A., Jones, J. M., South, S. T. et al.</span>: <span class="ti">PEX19 binds multiple peroxisomal membrane proteins, is predominantly cytoplasmic, and is required for peroxisome membrane synthesis.</span> <span class='so'>J. Cell Biol., 148, 931-944 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10704444" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Neuspiel, M., Schauss, A. C., Braschi, E. et al.</span>: <span class="ti">Cargo-selected transport from the mitochondria to peroxisomes is mediated by vesicular carriers.</span> <span class='so'>Curr. Biol., 18, 102-108 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18207745" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Soubannier, V., McLelland, G. L., Zunino, R. et al.</span>: <span class="ti">A vesicular transport pathway shuttles cargo from mitochondria to lysosomes.</span> <span class='so'>Curr. Biol., 22, 135-141 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22226745" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Smirnova, E., Griparic, L., Shurland, D. et al.</span>: <span class="ti">Dynamin-related protein Drp1 is required for mitochondrial division in mammalian cells.</span> <span class='so'>Mol. Biol. Cell, 12, 2245-2256 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11514614" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Braschi, E., Goyon, V., Zunino, R. et al.</span>: <span class="ti">Vps35 mediates vesicle transport between the mitochondria and peroxisomes.</span> <span class='so'>Curr. Biol., 21, 1310-1315 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20619655" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Schrader, M., Costello, J., Godinho, L. F. et al.</span>: <span class="ti">Peroxisome-mitochoncdria interplay and disease.</span> <span class='so'>J. Inherit. Metab. Dis., 681, 681-702 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25687155" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Gabaldon, T., Snel, B., van Zimmeren, F. et al.</span>: <span class="ti">Origin and evolution of the peroxisomal proteome.</span> <span class='so'>Biol. Direct, 1, 8 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16556314" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Gould, S. B., Garg, S. G. & Martin, W. F.</span>: <span class="ti">Bacterial vesicle secretion and the evolutionary origin of the eukaryotic endomembrane system.</span> <span class='so'>Trends Microbiol., 24, 525-534 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27040918" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=EBI" target="_blank">EBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=KEGG" target="_blank">KEGG</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アミノ酸" target="_blank">アミノ酸配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=抗体" target="_blank">抗体解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=系統樹" target="_blank">系統樹</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=疾患情報" target="_blank">疾患情報</a></li><br></ul><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_03.html" target="_blank">12.3 Transport of Proteins Synthesized by Free Polysomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_03.html" target="_blank">11.3 Eukaryotic Structures</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/16_05.html" target="_blank">16.5 Topology of Mitochondria and Chloroplasts</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_08.html" target="_blank">12.8 Autophagy</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/01_04.html" target="_blank">1.4 Prokaryotes and Eukaryotes</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">杉浦  歩（Ayumu Sugiura）</span><br>略歴：2012年 東京薬科大学大学院生命科学研究科 修了，同年 カナダMcGill大学 ポストドクトラルフェローを経て，2016年より東京薬科大学生命科学部 プロジェクト研究員．<br>研究テーマ：オルガネラのダイナミクス，ミトコンドリア，ペルオキシソーム．<br>抱負：本質にせまりたい．<br></div><br>© 2017 杉浦  歩 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

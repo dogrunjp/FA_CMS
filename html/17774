@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 作業記憶を担う海馬および歯状回による神経機構 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/17774" rel="bookmark">作業記憶を担う海馬および歯状回による神経機構</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>佐々木拓哉・Jill K. Leutgeb</strong><br>（米国California大学San Diego校Division of Biological Sciences）<br>email：<a href="mailto:tsasaki@mol.f.u-tokyo.ac.jp">佐々木拓哉</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2018.011">10.7875/first.author.2018.011</a><br><div class="reference"><br><span class="ti">Dentate network activity is necessary for spatial working memory by supporting CA3 sharp-wave ripple generation and prospective firing of CA3 neurons.</span><br><span class="au">Takuya Sasaki, Verónica C. Piatti, Ernie Hwaun, Siavash Ahmadi, John E. Lisman, Stefan Leutgeb, Jill K. Leutgeb</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/29335604" target="_blank"><em>Nature Neuroscience</em>, <strong>21</strong>, 258-269 (2018)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　記憶の保持や将来の行動の設計には海馬のニューロンの同期した<a href="#" class="anno 神経活動">神経活動</a>が重要である．このような同期した神経活動においては，海馬リップル波とよばれる脳波が発生する．この研究において，筆者らは，<a href="#" class="anno 歯状回">歯状回</a>から海馬への神経の投射が海馬リップル波の発生とどのように関連し<a href="#" class="anno 作業記憶">作業記憶</a>を担うかについて調べた．作業記憶の課題を遂行しているラットにおいて神経活動を記録した結果，報酬をあたえたときに，歯状回の<a href="#" class="anno 顆粒細胞">顆粒細胞</a>における神経発火の頻度の顕著な上昇，および，海馬リップル波の発生の頻度の上昇が観察された．歯状回から海馬<a href="#" class="anno CA3">CA3</a>野への入力線維を消失させると，海馬リップル波の発生の頻度の上昇は観察されなくなかった．また，このようなニューロンの同期した神経活動には海馬の<a href="#" class="anno 場所細胞">場所細胞</a>の前向き発火が含まれており，これが歯状回からの神経の入力に依存することが明らかにされた．以上の結果から，歯状回と海馬<a href="#" class="anno CA3野">CA3野</a>との<a href="#" class="anno 協調的">協調的</a>な神経活動のパターンが適切な作業記憶に寄与することが示唆された．<br/><br/><h2>はじめに</h2><br/>　海馬の錐<a href="#" class="anno 体細胞">体細胞</a>とその上流に位置する歯状回の顆粒細胞は密な<a href="#" class="anno 神経回路">神経回路</a>を形成しており，こうした<a href="#" class="anno 連合性">連合性</a>の神経回路が記憶の保持において重要な役割を担うと考えられている<a href="#R1"><sup>1,2)</sup></a>．作業記憶は作業の実行に必要な情報を短期的に保存する記憶である．これまでの研究により，海馬あるいは歯状回を破壊すると作業記憶を必要とする行動課題の成績がいちじるしく低下することが示されてきた<a href="#R3"><sup>3,4)</sup></a>．<br/>　<a href="#" class="anno げっ歯類">げっ歯類</a>において金属電<a href="#" class="anno 極">極</a>を用いて海馬における神経活動を測定すると，歯状回から直接の投射をうける海馬CA3野において，ときおり，多数のニューロンの同期した神経活動が検出される．ニューロンの集合した神経活動を反映する脳波を解析すると，このような同期した神経活動は150～250 Hzの周波数を<a href="#" class="anno も">も</a>つ海馬リップル波として検出される．すなわち，海馬リップル波はこの領域の同期した神経活動の指標になる．さらに詳細な解析により，海馬リップル波とともに生じるニューロンの同期した神経活動には，動物が行動しているときに生じる<a href="#" class="anno 連続的">連続的</a>な神経発火のパターンが再生されることが示されている<a href="#R5"><sup>5)</sup></a>．こうした<a href="#" class="anno 特徴的">特徴的</a>な神経活動は，<a href="#" class="anno 記憶の固定">記憶の固定</a>や想起などの基礎となる機構として重要だと考えられてきた<a href="#R6"><sup>6)</sup></a>．<a href="#" class="anno 最近の研究">最近の研究</a>においては，覚醒した状態において海馬リップル波を<a href="#" class="anno 選択的">選択的</a>に排除すると<a href="#" class="anno 空間記憶">空間記憶</a>の課題が正しく遂行されないという知見も得られている<a href="#R7"><sup>7)</sup></a>．海馬リップル波とそれにともなう同期した神経活動は，作業記憶の保持と適切な行動の設計に重要な<a href="#" class="anno 神経機構">神経機構</a>であると考えられる．<br/>　以上2つの知見をまとめると，作業記憶には，歯状回における神経活動，および，海馬のニューロンの同期した神経活動が必要であることがわかる．この2つをつなげると，海馬における同期した神経活動を制御するのが歯状回であり，歯状回と海馬との連絡が作業記憶に重要な役割を担う<a href="#" class="anno 可能性">可能性</a>が考えられる．この仮説を検証するため，歯状回における神経活動が必須となる作業記憶の課題をラットに遂行させ，そのときの歯状回および海馬CA3野の神経活動を測定し2つの領域がどのように関連するかを検討した．<br/><br/><h2>1．作業記憶にかかわる課題の遂行には歯状回の顆粒細胞が必要である</h2><br/>　ラットの作業記憶について評価するため，8方向への放射状の迷路を用いた行動課題を構築した．ここでは，8方向すべてのアームの末端に報酬がおかれ，ラットはこれらの報酬をすべて得るように訓練される．はじめに，ランダムに選択された4つのアームがひとつずつ順番に提示される（強制選択フェーズ）．これらのアームは<a href="#" class="anno 実験者">実験者</a>により決定される．4つのアームにおいて報酬を得たのち，すべてのアームに対しアクセスが可能になる（自由選択フェーズ）．この行動課題における最適な戦略は，1回の試行においてすべてのアームを1回ずつ訪問することであり，自由選択フェーズにて残り4つのアームをまちがわずに選択することである．すでに訪問していたアームにふたたび訪問することがあった場合，その行動は失敗になる．このような状況では，ラットはすでに訪問したアームと<a href="#" class="anno まだ">まだ</a>訪問していないアームとを記憶する必要がある．こうした<a href="#" class="anno 一時的">一時的</a>に場所を覚えるような記憶を作業記憶として評価した．まずは，行動課題の平均の成功率が50％以上になるまでラットを訓練した．そののち，これらのラットにおいて<a href="#" class="anno コルヒチン">コルヒチン</a>の投与により歯状回の顆粒細胞を死滅させた．このような歯状回を損傷したラットは歯状回の約72％において<a href="#" class="anno 細胞層">細胞層</a>の体積が減少していた．歯状回を損傷させたのち行動課題を提示したところ，すべてラットにおいて正しいアームの選択能は顕著に低下した．この結果から，歯状回がこの行動課題を正しく遂行するために必要であることが確認された．<br/><br/><h2>2．報酬を獲得したときの歯状回および海馬CA3野における神経活動</h2><br/>　歯状回における神経活動について調べるため，歯状回を損傷していない正常なラットの歯状回に金属電極を埋め込み，行動課題を遂行しているときの神経発火のパターンについて解析した．その結果，歯状回の顆粒細胞の多くにおいて，行動課題において報酬を獲得したときに神経発火の頻度が上昇した．この上昇は，報酬を獲得するまえと比較して4倍以上であり，知るかぎり，報酬を獲得したときにこれほどいちじるしく神経活動が増加する脳の領域は存在せず，歯状回は報酬シグナルの情報処理において重要な役割を担うことが示唆された．<br/>　報酬を獲得したときに増加した歯状回の顆粒細胞の神経活動が，投射先である海馬CA3野における神経活動とどのように関連するかを調べた．正常なラットの海馬CA3野に金属電極を<a href="#" class="anno 刺入">刺入</a>し，脳波の変動の周波数を解析したところ，報酬を獲得したときには150～250 Hzの周波数帯をもつ海馬リップル波の発生の頻度が有意に上昇することがわかった（<a href="#F1">図1a</a>）．こうした報酬に選択的な海馬リップル波の発生しているときには，海馬CA3野において個々のニューロンの神経発火の頻度が5.2倍に上昇した．すなわち，おのおののニューロンの神経活動が同期しやすくなっていた．さらに，こうした報酬に選択的な海馬リップル波の発生の頻度は，正しい試行を選択したときには，まちがった試行を選択したときと比較して有意に高かった．すなわち，報酬を獲得したときの海馬リップル波は作業記憶の正確な処理と<a href="#" class="anno 相">相</a>関することがわかった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　報酬を獲得したときの歯状回の顆粒細胞の神経活動と海馬CA3野における神経活動との関連</strong><br/>（a）正常なラット．歯状回の顆粒細胞における神経発火の頻度の上昇，および，海馬リップル波の発生の頻度の上昇が観察された．<br/>（b）歯状回を損傷したラット．歯状回からの神経の入力が存在しない部位において海馬リップル波の発生の頻度が有意に低下した．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasaki-Nature-Neuroscience-18.1.29-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　報酬を獲得したときの歯状回の顆粒細胞の神経活動と海馬CA3野における神経活動との関連" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasaki-Nature-Neuroscience-18.1.29-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasaki-Nature-Neuroscience-18.1.29-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．報酬に選択的な海馬リップル波の発生は歯状回からの神経の入力に依存する</h2><br/>　海馬CA3野においてみられた報酬に選択的な海馬リップル波が，投射元である歯状回からの神経の入力に依存するかどうか調べた．<a href="#" class="anno そのため">そのため</a>，歯状回を損傷したラットにおいても同様に海馬CA3野から神経活動を記録した．歯状回を損傷したラットについては，歯状回の顆粒細胞をできるだけすべて死滅させるよう試みたが，コルヒチンの効果は十分ではなく，一部に顆粒細胞が残存する領域が散見された．このような領域においては，歯状回の顆粒細胞から海馬CA3野への入力線維である<a href="#" class="anno 苔状">苔状</a>線維がいくらか残存しており，海馬CA3野は歯状回からの神経の入力をうけていた．このような<a href="#" class="anno 実験<a href="#" class="anno デ">デ</a>ータ">実験データ</a>を<a href="#" class="anno 定量的">定量的</a>に評価するため，海馬CA3野のおのおのの電極の記録部位において残存する<a href="#" class="anno 苔状線維">苔状線維</a>の量を測定した．<a href="#" class="anno 具体的">具体的</a>には，苔状線維を<a href="#" class="anno T<a href="#" class="anno IM">IM</a>">TIM</a>M<a href="#" class="anno 染色法">染色法</a>により染色し，海馬において電極が存在するおのおのの部位における量を0～3の値でスコア化し，スコア0およびスコア1の部位を<a href="#" class="anno 低密度">低密度</a>での入力部位，スコア2の部位を高密度での入力部位とした．海馬CA3野における海馬リップル波の発生の頻度を調べたところ，低密度での入力部位においては報酬に選択的な海馬リップル波の発生はみられなかった（<a href="#F1">図1b</a>）．より厳密には，報酬を獲得したときに上昇するべき海馬リップル波の発生の頻度が，苔状線維の入力の少ない部位では観察されなくなったということである．一方，高密度での入力部位においては，報酬を獲得したときの海馬リップル波の発生の頻度の上昇は正常なラットと同様に観察された．<br/><br/><h2>4．歯状回に<a href="#" class="anno 依存的">依存的</a>な海馬リップル波に含まれる場所細胞の神経表象</h2><br/>　海馬CA3野の個々のニューロンにおける神経発火のパターンは歯状回からの神経の入力にどのように依存するか，詳細に解析した．海馬CA3野の個々のニューロンは，動物が特定の位置を移動しているときに選択的に発火する“場所細胞”であり，空間の認識に重要な脳の機構であると考えられている．このような場所に選択的な海馬CA3野における神経活動を解析したところ，歯状回を損傷したラットの低密度での入力部位においては，正常なラットと比較して，場所に対する<a href="#" class="anno 選択性">選択性</a>は有意に低く，神経発火の頻度は有意に高かった．したがって，海馬CA3野の場所に選択的な神経発火には歯状回からの神経の入力が重要であることが示唆された．<br/>　これらはこの研究の主要な発見である報酬に依存的な神経活動とは関係しない神経発火であったが，この海馬CA3野の場所細胞が，報酬に依存的な海馬リップル波が発生しているあいだどのような神経発火のパターンを示すかについて解析した．海馬CA3野のそれぞれの場所細胞は，場所<a href="#" class="anno 受容野">受容野</a>に入ると選択的な神経発火を示すことがよく知られている．しかし，こうした場所受容野における神経発火にくわえて，場所受容野の外においても海馬リップル波に神経発火が観察されることがある．このような海馬リップル波の神経発火のパターンについて，動物が場所受容野に入るまえ（前向き発火）と入ったあと（後向き発火）とに分けて解析した．その結果，正常なラットにおいては，前向き発火のほうが後向き発火よりも神経発火の頻度が有意に高いことがわかった（<a href="#F2">図2a</a>）．この結果は，迷路における行動課題を進めるにつれて，いまだ訪問していない場所に受容野をもつ海馬CA3野の場所細胞が，今後の先<a href="#" class="anno 読み">読み</a>を実行するかのように将来に訪問すべき標的の位置を表象することを意味する．こうした前向き発火の有意な増加は，動物が正しく課題を遂行した試行において顕著であった．以上の結果をまとめると，海馬CA3野の場所細胞における報酬を獲得したときの神経発火のパターンは，動物が将来に訪問すべき場所を表象するような神経活動であること，および，このような神経表象が行動の成績と相関すること，が示された．歯状回を損傷したラットにおいてもこの前向き発火が観察されるかどうか検証したところ，低密度での入力部位においては前向き発火と後向き発火の頻度に<a href="#" class="anno 有意差">有意差</a>はなく（<a href="#F2">図2b</a>），前向き発火は明確には生じていなかった．行動課題を正しく遂行できない歯状回を損傷したラットにおいて前向き発火が顕著に生じないという結果から，将来，訪問すべき場所を表象する神経活動が行動の成績と相関することがあらためて示された．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　海馬CA3野の場所細胞が報酬に依存的な海馬リップル波が発生しているあいだに示す神経発火のパターン</strong><br/>8方向への放射状の迷路において報酬をたどる経路を簡略化するため，動物の軌跡を左から右に一直線で表し，アームは1番目から8番目まで存在する．ここでは，場所細胞が6番目のアームにおいて場所受容野をもつとし，場所細胞の発火する位置を赤色の丸で示した．<br/>（a）正常なラット．場所受容野を訪問するまえから神経発火（前向き発火）が検出され，この神経発火の頻度は，場所受容野を訪問したあとの神経発火（後向き発火）よりも有意に高かった．<br/>（b）歯状回を損傷したラット．前向き発火と後向き発火の発生の頻度はほぼ同じになった．つまり，前向き発火が優先的に生じる機構が破綻していることが示唆された．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasaki-Nature-Neuroscience-18.1.29-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　海馬CA3野の場所細胞が報酬に依存的な海馬リップル波が発生しているあいだに示す神経発火のパターン" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasaki-Nature-Neuroscience-18.1.29-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasaki-Nature-Neuroscience-18.1.29-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　歯状回は海馬の神経回路において情報処理の最初の段階にあり，記憶の保持に重要であると考えられてきた．しかし，歯状回の神経活動に関する従来の研究においては，空間の表象やパターンの分離などの情報の表現に焦点があてられ，記憶の機能との関連は明確ではなかった<a href="#R8"><sup>8,9)</sup></a>．この研究においては，歯状回の顆粒細胞の新しい神経表象として，報酬に対する神経発火の頻度の上昇が見い出された．さらに，海馬のニューロンの同期した神経発火を促進し，前向き発火のような特徴的な神経活動に必要な神経の入力を歯状回が供給することが示された．これらの知見から，パターンの分離など従来の知見のほかにも歯状回の役割が明らかにされ，歯状回が作業記憶をはじめとする目標指向型の行動をサポートする神経発火のパターンの生成に必要であることが示唆された．<br/>　この研究は，作業記憶に必要な海馬の神経機構の一端を解明し，この結果は，適切かつ<a href="#" class="anno 効率的">効率的</a>に複数の作業を進めるための脳における情報処理の機構の解明への布石になる．今後は，この研究により解明された神経活動が，<a href="#" class="anno 前頭皮質">前頭皮質</a>など脳のほかの領域とどのように<a href="#" class="anno 相互作用">相互作用</a>するか調べる必要がある．また，見い出された神経活動の<a href="#" class="anno 時空間">時空間</a>パターンを<a href="#" class="anno 人為的">人為的</a>に操作し，行動課題の成績の変化を調べる必要がある．今後の検証を重ねることにより，作業記憶をつかさどる神経活動がより詳細に解明されることが期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Amaral, D. G. & Witter, M. P.</span>: <span class="ti">The three-dimensional organization of the hippocampal formation: a review of anatomical data.</span> <span class='so'>Neuroscience, 31, 571-591 (1989)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2687721" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Lisman, J. E., Talamini, L. M. & Raffone, A.</span>: <span class="ti">Recall of memory sequences by interaction of the dentate and CA3: a revised model of the phase precession.</span> <span class='so'>Neural Netw., 18, 1191-1201 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16233972" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Niewoehner, B., Single, F. N., Hvalby, O. et al.</span>: <span class="ti">Impaired spatial working memory but spared spatial reference memory following functional loss of NMDA receptors in the dentate gyrus.</span> <span class='so'>Eur. J. Neurosci., 25, 837-846 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17313573" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>McLamb, R. L., Mundy, W. R. & Tilson, H. A.</span>: <span class="ti">Intradentate colchicine disrupts the acquisition and performance of a working memory task in the radial arm maze.</span> <span class='so'>Neurotoxicology, 9, 521-528 (1988)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/3200514" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Pfeiffer, B. E. & Foster, D. J.</span>: <span class="ti">Hippocampal place-cell sequences depict future paths to remembered goals.</span> <span class='so'>Nature, 497, 74-79 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23594744" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Carr, M. F., Jadhav, S. P. & Frank, L. M.</span>: <span class="ti">Hippocampal replay in the awake state: a potential substrate for memory consolidation and retrieval.</span> <span class='so'>Nat. Neurosci., 14, 147-153 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21270783" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Jadhav, S. P., Kemere, C., German, P. W. et al.</span>: <span class="ti">Awake hippocampal sharp-wave ripples support spatial memory.</span> <span class='so'>Science, 336, 1454-1458 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22555434" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Leutgeb, J. K., Leutgeb, S., Moser, M. B. et al.</span>: <span class="ti">Pattern separation in the dentate gyrus and CA3 of the hippocampus.</span> <span class='so'>Science, 315, 961-966 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17303747" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Senzai, Y. & Buzsaki, G.</span>: <span class="ti">Physiological properties and behavioral correlates of hippocampal granule cells and mossy cells.</span> <span class='so'>Neuron, 93, 691-704.e5 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28132824" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br></ul><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/17_02.html" target="_blank">17.2 Excitation of Nerve Cells and Transmission of Excitation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_02.html" target="_blank">20.2 Central Nervous System and Control</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">佐々木 拓哉（Takuya Sasaki）</span><br>略歴：2010年 東京大学大学院薬学系研究科博士課程 修了，2011年 埼玉大学脳科学融合研究センター 研究員，2012年 生理学研究所 研究員，2013年 米国California大学San Diego校 研究員を経て，2014年より東京大学大学院薬学系研究科 助教，2017年より科学技術振興機構 さきがけ研究員を兼任．<br>研究テーマ：神経生理学，神経回路学．<br>抱負：脳の機能にひそむ神経回路のコードを解読したい．<br><br><strong>Jill K. Leutgeb</strong><br>米国California大学San Diego校Associate Professor．<br></div><br>© 2018 佐々木拓哉・Jill K. Leutgeb Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

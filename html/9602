@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 神経活動を可視化する超高感度・超高速赤色カルシウムセンサーの開発 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/9602" rel="bookmark">神経活動を可視化する超高感度・超高速赤色カルシウムセンサーの開発</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>井上昌俊・尾藤晴彦</strong><br>（東京大学大学院医学系研究科 神経生化学分野）<br>email：<a href="mailto:m-inoue@m.u-tokyo.ac.jp">井上昌俊</a>，<a href="mailto:hbito@m.u-tokyo.ac.jp">尾藤晴彦</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.156">10.7875/first.author.2014.156</a><br><div class="reference"><br><span class="ti">Rational design of a high-affinity, fast, red calcium indicator R-CaMP2.</span><br><span class="au">Masatoshi Inoue, Atsuya Takeuchi, Shin-ichiro Horigane, Masamichi Ohkura, Keiko Gengyo-Ando, Hajime Fujii, Satoshi Kamijo, Sayaka Takemoto-Kimura, Masanobu Kano, Junichi Nakai, Kazuo Kitamura, Haruhiko Bito</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25419959" target="_blank"><em>Nature Methods</em>, <strong>12</strong>, 64-70 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　生きている哺乳類の脳における<a href="#" class="anno 神経活動">神経活動</a>および<a href="#" class="anno シナプス活動">シナプス活動</a>を計測するため，蛍光Ca<sup>2+</sup>センサーが利用されるようになってきた．しかし，これまでの<a href="#" class="anno 実用的">実用的</a>な蛍光Ca<sup>2+</sup>センサーは計測波長域が緑色域に限定されており，生体において神経活動を<a href="#" class="anno 高感度">高感度</a>かつ高速に計測できる赤色Ca<sup>2+</sup>センサーの開発が望まれていた．また，従来の蛍光Ca<sup>2+</sup>センサーには<a href="#" class="anno 高頻度">高頻度</a>の神経発火を<a href="#" class="anno 読み">読み</a>解くことができないという問題があった．筆者らは，Ca<sup>2+</sup>との<a href="#" class="anno 結合領域">結合領域</a>に新規の配列を用いることによりCa<sup>2+</sup>に対する<a href="#" class="anno 結合能">結合能</a>を上げ，高頻度の神経発火の計測に可能な超高感度かつ超高速の赤色Ca<sup>2+</sup>センサー“R-<a href="#" class="anno CaM">CaM</a>P2”を開発した．その応用として，R-Ca<a href="#" class="anno MP2">MP2</a>と従来の緑色Ca<sup>2+</sup>センサーとを組み合わせることにより，マウスの大脳皮質における<a href="#" class="anno 興奮性">興奮性</a>と<a href="#" class="anno 抑制性">抑制性</a>の2つの異なる種のニューロンの神経活動を同時に計測することに成功した．さらに，自由行動している<a href="#" class="anno 線虫">線虫</a>において，光<a href="#" class="anno <a href="#" class="anno 遺伝学">遺伝学</a>的">遺伝学的</a>な手法との組合せ<a href="#" class="anno も">も</a>可能であることが示された．今後，<a href="#" class="anno 神経回路">神経回路</a>ネットワークの動作原理の解明が<a href="#" class="anno 飛躍的">飛躍的</a>に進むことが期待される．<br/><br/><h2>はじめに</h2><br/>　Ca<sup>2+</sup>は<a href="#" class="anno 神経機能">神経機能</a>や<a href="#" class="anno 筋収縮">筋収縮</a>をはじめとして，さまざまな<a href="#" class="anno 細胞機能">細胞機能</a>を制御する重要な分子である<a href="#R1"><sup>1)</sup></a>．また，脳は複数の異なる種のニューロンからなり，それぞれが<a href="#" class="anno 協調的">協調的</a>にはたらくことにより正常な<a href="#" class="anno 脳機能">脳機能</a>を発揮すると考えられている<a href="#R2"><sup>2,3)</sup></a>．近年，神経発火により<a href="#" class="anno 細胞内">細胞内</a>のCa<sup>2+</sup>濃度が上昇することから，神経発火を検出する方法として蛍光Ca<sup>2+</sup>センサーを用いて神経活動を<a href="#" class="anno イメージング">イメージング</a>できるようになった<a href="#R4"><sup>4-6)</sup></a>．これを応用して，<a href="#" class="anno 数百">数百</a>～<a href="#" class="anno 数千">数千</a>個のニューロンの活動を同時に記録することにより，脳のはたらき方の原理をはじめとして，<a href="#" class="anno 記憶障害">記憶障害</a>や<a href="#" class="anno 精神疾患">精神疾患</a>の原因を解明することが重要な課題となっている．<br/>　とくに，遺伝子にコードされた蛍光Ca<sup>2+</sup>センサーは特定の種のニューロンに発現させることができ長期にわたる観察が可能であることから，広く用いられつつある<a href="#R7"><sup>7,8)</sup></a>．しかしながら，赤色Ca<sup>2+</sup>センサーは開発されてはいたものの感度が十分に高くないため<a href="#R9"><sup>9-11)</sup></a>，生きた動物の個体におけるイメージングにおいて実用化されているのは緑色Ca<sup>2+</sup>センサーのみであり，従来の蛍光Ca<sup>2+</sup>センサーのみでは2つの種のニューロンのあいだの関係を検討することは困難であった（<a href="#F1">図1</a>）．また，記憶が成立する際に高頻度の神経発火が重要な役割をはたすことから，脳機能の解明には神経発火の頻度を読み解くことが重要であると考えられていた．しかし，従来の蛍光Ca<sup>2+</sup>センサーは神経入力の有無もしくは強度のみを検<a href="#" class="anno 出し">出し</a>ており，高頻度の神経発火のときにどのような入力（神経発火の頻度および回数）が起こっているのかを計測するには不十分であった（<a href="#F2">図2</a>）．この<a href="#" class="anno 問題点">問題点</a>を解決するため，<a href="#" class="anno 反応速度">反応速度</a>（<a href="#" class="anno キネティクス">キネティクス</a>）が速く，神経発火の回数と<a href="#" class="anno 蛍<a href="#" class="anno 光強度">光強度</a>">蛍光強度</a>の変化とのあいだに線形関係を示す，遺伝子にコードされた蛍光Ca<sup>2+</sup>センサーの開発が望まれていた．神経発火の回数と蛍光強度の変化とのあいだに線形関係を示すという条件を実現するためには，Ca<sup>2+</sup>濃度と蛍光強度の変化との関係を示す<a href="#" class="anno Hill係数">Hill係数</a>が1に近づいた蛍光Ca<sup>2+</sup>センサーを作出することが必要であった．しかし，従来の高感度な蛍光Ca<sup>2+</sup>センサーはHill係数が2付近またはそれ以上であったことから，複数の<a href="#" class="anno 活動電位">活動電位</a>に対し蛍光強度が非線形的に変化し，また，広範囲のCa<sup>2+</sup>濃度を検出するのが困難であった．したがって，生きた動物の個体において神経入力の検出が可能な赤色Ca<sup>2+</sup>センサーの開発をとおし，異なる種のニューロンのあいだで反応の検出を可能にする系の構築が望まれていた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　赤色Ca<sup>2+</sup>センサーを作製する意義</strong><br/>これまで，生きた動物の個体において計測を行えるのは緑色Ca<sup>2+</sup>センサーのみだったため，複数の異なる種のニューロンも含めた集団の活動，あるいは，1つの種のニューロンの活動を計測するモノクロの世界であった．赤色Ca<sup>2+</sup>センサーの開発により，異なる種のニューロンにおける神経活動を同時に計測することができるようになる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Bito-Nature-Methods-14.12.25-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　赤色Ca<sup>2+</sup>センサーを作製する意義" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Bito-Nature-Methods-14.12.25-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Bito-Nature-Methods-14.12.25-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　高速の蛍光Ca<sup>2+</sup>センサーを作製する意義</strong><br/>従来の蛍光Ca<sup>2+</sup>センサーはキネティクスが遅いため，どのような入力があったかを検出するには不十分であった．高速の蛍光Ca<sup>2+</sup>センサーの開発により，どのような入力があったかを読み取ることが容易になる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Bito-Nature-Methods-14.12.25-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　高速の蛍光Ca<sup>2+</sup>センサーを作製する意義" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Bito-Nature-Methods-14.12.25-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Bito-Nature-Methods-14.12.25-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．高感度な赤色Ca<sup>2+</sup>センサーの開発</h2><br/>　これまで困難であった高頻度の神経発火の計測を可能にするには，複数の活動電位シグナルが生じた際に起こる蛍光強度の増強に線形性を確保することが重要であった．また，緑色Ca<sup>2+</sup>センサーの改良はこの数年で飛躍的に進んだにもかかわらず，多色による同時計測や脳の深部などへの応用が期待される赤色Ca<sup>2+</sup>センサーの開発は遅れていた．これまでに，筆者らの<a href="#" class="anno 研究グループ">研究グループ</a>は，Ca<sup>2+</sup>/<a href="#" class="anno <a href="#" class="anno カ">カ</a>ルモジュリン">カルモジュリン</a><a href="#" class="anno 依存性">依存性</a>プロテイン<a href="#" class="anno キナーゼ">キナーゼ</a>キナーゼはCa<sup>2+</sup>とカルモジュリンとの<a href="#" class="anno 複合体">複合体</a>に対し高<a href="#" class="anno 親和性">親和性</a>であることを示唆する結果を見い出していた<a href="#R12"><sup>12,13)</sup></a>．そこで，Ca<sup>2+</sup>/カルモジュリン依存性<a href="#" class="anno プロテインキナーゼ">プロテインキナーゼ</a>キナーゼのCa<sup>2+</sup>/カルモジュリン<a href="#" class="anno 結合配列">結合配列</a>であるckkap配列は，従来の遺伝子にコードされた蛍光Ca<sup>2+</sup>センサーに広く用いられているCa<sup>2+</sup>/カルモジュリン結合配列であるM13配列よりも，Ca<sup>2+</sup>に対し<a href="#" class="anno 高親和性">高親和性</a>であるとの仮説をたてた．このアイ<a href="#" class="anno デ">デ</a>ィアを直接的に検証するため，遺伝子にコードされた蛍光Ca<sup>2+</sup>センサーのひとつR-Ca<a href="#" class="anno MP1">MP1</a>.07 <a href="#R10"><sup>10)</sup></a> を骨格として用い，M13配列をckkap配列と置換した．さらに，カルモジュリン配列およびckkap配列に変異を導入した，合計で150個の候補となる<a href="#" class="anno 変異体">変異体</a>をHEK<a href="#" class="anno 293<a href="#" class="anno T細胞">T細胞</a>">293T細胞</a>に発現させ，Ca<sup>2+</sup>に対して低い<em>K</em><sub>d</sub>値と高い<a href="#" class="anno ダイナミックレンジ">ダイナミックレンジ</a>をもつという観点から<em><a href="#" class="anno in vitro">in vitro</a></em>においてスクリーニングをした．その結果，既存の赤色Ca<sup>2+</sup>センサーに比べ感度が3倍も向上し，かつ，Hill係数が1付近であることから線形性が<a href="#" class="anno 圧">圧</a>倒的に高い赤色Ca<sup>2+</sup>センサーを作出し，R-CaMP2と命名した（<a href="#F3">図3</a>）．<br/><br/><a name="F3"></a><div id="fig3-caption-text" style="display: none;"><strong>図3　高感度かつHill係数が1付近の赤色Ca<sup>2+</sup>センサー“R-CaMP2”の開発</strong><br/>（a）従来の赤色Ca<sup>2+</sup>センサーR-CaMP1.07のCa<sup>2+</sup>/カルモジュリン結合配列であるM13配列を，R-CaMP2ではCa<sup>2+</sup>/カルモジュリン依存性プロテインキナーゼキナーゼのCa<sup>2+</sup>/カルモジュリン結合配列であるckkap配列と置換した．三角は変異を導入した部位．<br/>（b）R-CaMP1.07およびR-CaMP2の滴定曲線．Ca<sup>2+</sup>に対し高親和性かつHill係数が1付近の赤色Ca<sup>2+</sup>センサーを作出することに成功した．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Bito-Nature-Methods-14.12.25-Fig.3.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure3" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図3　高感度かつHill係数が1付近の赤色Ca<sup>2+</sup>センサー“R-CaMP2”の開発" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Bito-Nature-Methods-14.12.25-Fig.3.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Bito-Nature-Methods-14.12.25-Fig.3.jpg" alt="figure3" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig3-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig3-caption').innerHTML = document.getElementById('fig3-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．急性<a href="#" class="anno 脳切片">脳切片</a>におけるR-CaMP2の性能の評価</h2><br/>　急性脳切片での神経活動の測定におけるR-CaMP2の<a href="#" class="anno 有用性">有用性</a>を検証するため，<a href="#" class="anno 子宮内">子宮内</a><a href="#" class="anno 電気穿孔法">電気穿孔法</a>により大脳皮質バレル野第2/3層にR-CaMP2あるいはR-CaMP1.07を<a href="#" class="anno 強制発現">強制発現</a>させ，成体になったのち急性脳皮質切片においてイメージングを実施した．<a href="#" class="anno 2光子">2光子</a>顕微鏡を用いて<a href="#" class="anno ホールセル">ホールセル</a>パッチ<a href="#" class="anno クランプ">クランプ</a>記録のもと高速のラインスキャンを行った．急性脳皮質切片において最小の活動単位である単一の活動電位を発生させると，従来のR-CaMP1.07を発現したニューロンに比べR-CaMP2を発現したニューロンにおいて有意に大きい蛍光強度の応答が生じた．シグナル/ノイズ比は4.0倍に上昇し，立ち上がり時間は2.6倍も短く，減衰<a href="#" class="anno 時定数">時定数</a>は3.4倍も大きいなど，複数のパラメーターに改善が示された．これら改善されたパラメーターと一致して，4回までの連続した発火に対しても蛍光強度の変化およびシグナル/ノイズ比において改善がみられた．さらに，従来のR-CaMP1.07を発現したニューロンに比べ4～8倍に<a href="#" class="anno 相">相</a>当する20～40 Hzという高い周波数の発火にも追従した．このことは，遺伝子にコードされたすべての蛍光Ca<sup>2+</sup>センサーのなかでR-CaMP2が世界最高速であることを意味していた．<br/><br/><h2>3．生きた動物の個体におけるR-CaMP2の性能の評価</h2><br/>　生きた動物の個体での神経活動の測定におけるR-CaMP2の有用性を検証するため，麻酔し頭部を固定したマウスの大脳皮質バレル野第2/3層のニューロンにおいて<em>in vivo</em>におけるCa<sup>2+</sup>イメージングを行った．その結果，<a href="#" class="anno 自発的">自発的</a>な蛍光強度の増大（Ca<sup>2+</sup>スパイク）が確実に記録された．触覚情報の表象はニューロンにまばらにコードされていることと一致して，ヒゲへのエアパフ刺激はかぎられたニューロンでしかCa<sup>2+</sup>の変動を生じなかった．また，生きたマウスの大脳皮質バレル野第2/3層における<a href="#" class="anno 樹状">樹状</a>突起<a href="#" class="anno スパイン">スパイン</a>のCa<sup>2+</sup>イメージングを行った．スパインにおける活動電位の発生の<a href="#" class="anno 閾値">閾値</a>より下における興奮性<a href="#" class="anno ポストシナプス">ポストシナプス</a>Ca<sup>2+</sup>変動，および，<a href="#" class="anno 樹状突起">樹状突起</a>のCa<sup>2+</sup>スパイクを検出できるかどうかを検討した．その結果，興奮性ポストシナプスCa<sup>2+</sup>変動はよく観察され，あるスパインでは樹状突起シャフトにおいて有意な<a href="#" class="anno 蛍光シグナル">蛍光シグナル</a>の上昇が存在しないにもかかわらず興奮性ポストシナプスCa<sup>2+</sup>変動が生じ，別のスパインにおける興奮性ポストシナプスCa<sup>2+</sup>変動は隣接する樹状突起シャフトにおいて発生した興奮性ポストシナプスCa<sup>2+</sup>変動に先行した．さらに，<em>in vivo</em>における活動電位とCa<sup>2+</sup>の変動との関係を検証するため，セルアタッチ記録とCa<sup>2+</sup>イメージングを同時に行った．その結果，R-CaMP2は入力回数と蛍光強度の変化とのあいだに強い線形の関係をもつことが見い出され，単一の活動電位を鋭敏に記録することが可能な赤色Ca<sup>2+</sup>センサーであることが示された．<br/><br/><h2>4．R-CaMP2と緑色Ca<sup>2+</sup>センサーを用いた2つの種のニューロンにおける神経活動の同時イメージング</h2><br/>　生きた動物の個体における神経活動およびシナプス活動をモニターすることの可能な赤色Ca<sup>2+</sup>センサーを開発したことより，従来の蛍光Ca<sup>2+</sup>センサーのみでは不可能であった2つの異なる種のニューロンにおける神経活動の同時計測が可能かどうか検証した．<a href="#" class="anno アデノ随伴ウイルス">アデノ随伴ウイルス</a>を用いて，<a href="#" class="anno ソマトスタチン">ソマトスタチン</a>陽性の<a href="#" class="anno 抑制性ニューロン">抑制性ニューロン</a>にR-CaMP2を，それと同時に，Ca<sup>2+</sup>/<a href="#" class="anno カルモジュリン依存性プロテインキナーゼII">カルモジュリン依存性プロテインキナーゼII</a>陽性の<a href="#" class="anno 興奮性ニューロン">興奮性ニューロン</a>に緑色Ca<sup>2+</sup>センサーを発現させた．その結果，<em>in vivo</em>においてソマトスタチン陽性の抑制性ニューロンとCa<sup>2+</sup>/カルモジュリン依存性プロテインキナーゼII陽性の興奮性ニューロンの神経活動の同時イメージングに成功した．また，これまで<a href="#" class="anno 電気<a href="#" class="anno 生理学的">生理学的</a>"><a href="#" class="anno 電気生理">電気生理</a>学的</a>な手法により見い出されていた知見と一致して，抑制性ニューロンどうしには活動パターンに強い<a href="#" class="anno 同期性">同期性</a>が示されたのに対し，近接している興奮性ニューロンどうしでは活動パターンの同期性に大きなばらつきがあることが示された．このことより，2色の蛍光Ca<sup>2+</sup>センサーを用いた同時イメージングにより，はじめて2つの種の異なるニューロンのあいだの関係を明らかにできることが示された．<br/>　光のみによる行動の制御および神経活動の計測が可能であるかどうか検証するため，自由行動している線虫においてイメージングを試みた．GABA<a href="#" class="anno 作動性">作動性</a>抑制性<a href="#" class="anno 運動ニューロン">運動ニューロン</a>に<a href="#" class="anno チャネル<a href="#" class="anno ロドプシン">ロドプシン</a>">チャネルロドプシン</a>および緑色Ca<sup>2+</sup>センサーを発現させ，一方，その投射先である<a href="#" class="anno 体壁">体壁</a>筋にR-CaMP2を発現させて，それぞれの神経活動を同時に計測した．光の照射により，<a href="#" class="anno GABA作動性">GABA作動性</a>抑制性運動ニューロンでは活動が上昇する一方，標的である体壁筋の細胞ではCa<sup>2+</sup>濃度の急速な低下にともない弛緩が生じ，それまで動いていた線虫を停止させることに成功した．<br/><br/><h2>おわりに</h2><br/>　この研究は，従来の遺伝子にコードされた蛍光Ca<sup>2+</sup>センサーで用いられていたM13配列をckkap配列に置換することを着想したことが<a href="#" class="anno ブレークスルー">ブレークスルー</a>になった．また，これまでのスクリーニングは大きなダイナミックレンジをもつ蛍光Ca<sup>2+</sup>センサーを得ることに注力していた．一方，筆者らは，<a href="#" class="anno 生理的">生理的</a>に小さなCa<sup>2+</sup>変動を検出する小さい<em>K</em><sub>d</sub>値および1に近いHill係数をもつ蛍光Ca<sup>2+</sup>センサーを見い出すためのスクリーニングをしたことが，超高感度かつ超高速の赤色Ca<sup>2+</sup>センサーの開発につながったと考えられた．<a href="#" class="anno N<a href="#" class="anno MR">MR</a>法">NMR法</a>による<a href="#" class="anno 構造解析">構造解析</a>によりckkap配列はM13配列とはまったく異なる様式でCa<sup>2+</sup>とカルモジュリンとの複合体と結合することが知られていることから<a href="#R14"><sup>14)</sup></a>，Ca<sup>2+</sup>に対しきわめて高親和性であるにもかかわらず超高速のCa<sup>2+</sup>センサーが実現したと考えられた．なお，R-CaMP2の超高速性は，ニューロンにおける実測のほかにも，精製したタンパク質のキネティクスをストップドフロー法にて確認した．筆者らがデザインし作出したR-CaMP2の性能は，これまでの高親和性の蛍光Ca<sup>2+</sup>センサーはキネティクスが遅いという定説あるいは常識をくつがえすものであり，今後の蛍光Ca<sup>2+</sup>センサーの改良において新たな発展の<a href="#" class="anno 可能性">可能性</a>を示したという点でも意義深い．<br/>　この研究により，はじめて生きた動物の個体において計測を行える赤色Ca<sup>2+</sup>センサーが作出された．<a href="#" class="anno 赤色光">赤色光</a>の特徴として，光の波長が長くなると組織の散乱がより少なくなるため<a href="#" class="anno 励起光">励起光</a>が組織の深部に到達することがある．また，組織の深部からの蛍光も波長が長いほど散乱されにくいことから，従来の井戸状に大脳皮質を除去していた<a href="#" class="anno 海馬<a href="#" class="anno CA1">CA1</a>領域">海馬<a href="#" class="anno CA1領域">CA1領域</a></a>のイメージングを<a href="#" class="anno 非侵襲">非侵襲</a>にすることが期待される．しかしながら，改良の余地は<a href="#" class="anno まだ">まだ</a>残されている．たとえば，より高速な赤色Ca<sup>2+</sup>センサーの開発をめざすため，<a href="#" class="anno 基底状態">基底状態</a>においてより明るい赤色の<a href="#" class="anno 蛍光タンパク質">蛍光タンパク質</a>“mApple”をベースに設計したが，mAppleには非常に強い光の照射により光<a href="#" class="anno 活性化">活性化</a>するという性質が報告されており<a href="#R11"><sup>11)</sup></a>，<a href="#" class="anno 赤色蛍光タンパク質">赤色蛍光タンパク質</a>それ自体の改善が強く望まれる．また，この研究では40 Hzの周波数まで分解能のあることが示されたが，神経活動は100 Hz以上の高頻度で発火することがあるので，さらなる高速の蛍光Ca<sup>2+</sup>センサーの開発が望まれる．<br/>　この研究により，従来は不可能であった，生きた動物の個体において2つの異なる<a href="#" class="anno 神経ネットワーク">神経ネットワーク</a>のあいだの関係を解明することが可能になった．この方法を用いることにより，行動あるいは記憶の過程において正常な脳がどのようにはたらいているのかを調べることが可能になり，<a href="#" class="anno 将来的">将来的</a>には，精神疾患や<a href="#" class="anno アルツハイマー病">アルツハイマー病</a>などの高次の脳機能の障害の解明に<a href="#" class="anno 役立つこと">役立つこと</a>が期待される．この研究は<a href="#" class="anno 脳活動">脳活動</a>の計測に着目したが，Ca<sup>2+</sup>の動態はすべての細胞また<a href="#" class="anno 生命現象">生命現象</a>において重要であることから，Ca<sup>2+</sup>シグナルの変化の関連する生理的な事象や<a href="#" class="anno 恒常性">恒常性</a>の維持の機構の理解，および，Ca<sup>2+</sup>の動態の異常あるいは破綻が起因となる<a href="#" class="anno 循環器">循環器</a>疾患，<a href="#" class="anno 免疫疾患">免疫疾患</a>，<a href="#" class="anno 内分泌疾患">内分泌疾患</a>などの原因の解明やこれを標的とした<a href="#" class="anno 創薬">創薬</a>の探索にもつながることが期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Berridge, M. J., Bootman, M. D. & Lipp, P.</span>: <span class="ti">Calcium: a life and death signal.</span> <span class='so'>Nature, 395, 645-648 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9790183" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Yizhar, O., Fenno, L. E., Prigge, M. et al.</span>: <span class="ti">Neocortical excitation/inhibition balance in information processing and social dysfunction.</span> <span class='so'>Nature, 477, 171-178 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21796121" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Xue, M., Atallah, B. V. & Scanziani, M.</span>: <span class="ti">Equalizing excitation-inhibition ratios across visual cortical neurons.</span> <span class='so'>Nature, 511, 596-600 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25043046" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Miyawaki, A., Llopis, J., Heim, R. et al.</span>: <span class="ti">Fluorescent indicators for Ca<sup>2+</sup> based on green fluorescent proteins and calmodulin.</span> <span class='so'>Nature, 388, 882-887 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9278050" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Nakai, J., Ohkura, M. & Imoto, K.</span>: <span class="ti">A high signal-to-noise Ca<sup>2+</sup> probe composed of a single green fluorescent protein.</span> <span class='so'>Nat. Biotechnol., 19, 137-141 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11175727" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Tada, M., Takeuchi, A., Hashizume, M. et al.</span>: <span class="ti">A highly sensitive fluorescent indicator dye for calcium imaging of neural activity <em>in vitro</em> and <em>in vivo</em>.</span> <span class='so'>Eur. J. Neurosci., 39, 1720-1728 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24405482" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Tian, L., Hires, S. A., Mao, T. et al.</span>: <span class="ti">Imaging neural activity in worms, flies and mice with improved GCaMP calcium indicators.</span> <span class='so'>Nat. Methods, 6, 875-881 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19898485" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Chen, T. W., Wardill, T. J., Sun, Y. et al.</span>: <span class="ti">Ultrasensitive fluorescent proteins for imaging neuronal activity.</span> <span class='so'>Nature, 499, 295-300 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23868258" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Zhao, Y., Araki, S., Wu, J. et al.</span>: <span class="ti">An expanded palette of genetically encoded Ca<sup>2+</sup> indicators.</span> <span class='so'>Science, 333, 1888-1891 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21903779" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Ohkura, M., Sasaki, T., Kobayashi, C. et al.</span>: <span class="ti">An improved genetically encoded red fluorescent Ca<sup>2+</sup> indicator for detecting optically evoked action potentials.</span> <span class='so'>PLoS One, 7, e39933 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22808076" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Akerboom, J., Carreras Calderon, N., Tian, L. et al.</span>: <span class="ti">Genetically encoded calcium indicators for multi-color neural activity imaging and combination with optogenetics.</span> <span class='so'>Front. Mol. Neurosci. 6, 2 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23459413" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Bito, H., Deisseroth, K. & Tsien, R. W.</span>: <span class="ti">CREB phosphorylation and dephosphorylation: a Ca<sup>2+</sup>- and stimulus duration-dependent switch for hippocampal gene expression.</span> <span class='so'>Cell, 87, 1203-1214 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8980227" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Takemoto-Kimura, S., Ageta-Ishihara, N., Nonaka, M. et al.</span>: <span class="ti">Regulation of dendritogenesis via a lipid-raft-associated Ca<sup>2+</sup>/calmodulin-dependent protein kinase CLICK-III/CaMKIγ.</span> <span class='so'>Neuron 54, 755-770 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17553424" target="_blank">PubMed</a>]</span></li><br><li id="R14"><span class='au'>Osawa, M., Tokumitsu, H., Swindells, M. B. et al.</span>: <span class="ti">A novel target recognition revealed by calmodulin in complex with Ca<sup>2+</sup>-calmodulin-dependent kinase kinase.</span> <span class='so'>Nat. Struct. Biol., 6, 819-824 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10467092" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/17_02.html" target="_blank">17.2 Excitation of Nerve Cells and Transmission of Excitation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_01.html" target="_blank">20.1 Sensation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_02.html" target="_blank">20.2 Central Nervous System and Control</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/05_03.html" target="_blank">5.3 The Autonomic Nervous System</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_09.html" target="_blank">3.9 Linkage</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">井上 昌俊（Masatoshi Inoue）</span><br>略歴：2013年 東京大学大学院医学系研究科 修了，同年より同 特任研究員．<br>研究テーマ：神経活動のイメージング法の開発．シナプスから核へのシグナル伝達の機構．<br>関心事：山歩き．イメージングによる脳活動の計測および制御．<br><br><strong>尾藤 晴彦（Haruhiko Bito）</strong><br>東京大学大学院医学系研究科 教授．<br>研究室URL：<a href="http://www.neurochem.m.u-tokyo.ac.jp" target="_blank">http://www.neurochem.m.u-tokyo.ac.jp</a><br></div><br>© 2014 井上昌俊・尾藤晴彦 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

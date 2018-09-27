@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> アポトーシスにより生じた酸化ミトコンドリアDNAがNLRP3インフラマソームを活性化する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/4428" rel="bookmark">アポトーシスにより生じた酸化ミトコンドリアDNAがNLRP3インフラマソームを活性化する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>島田 賢一</strong><br>（米国Cedars-Sinai Medical Center，Division of Pediatrics Infectious Disease and Immunology）<br>email：<a href="mailto:kenichi.shimada@cshs.org">島田賢一</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.026">10.7875/first.author.2012.026</a><br><div class="reference"><br><span class="ti">Oxidized mitochondrial DNA activates the NLRP3 inflammasome during apoptosis.</span><br><span class="au">Kenichi Shimada, Timothy R. Crother, Justin Karlin, Jargalsaikhan Dagvadorj, Norika Chiba, Shuang Chen, V. Krishnan Ramanujan, Andrea J. Wolf, Laurent Vergnes, David M. Ojcius, Altan Rentsendorj, Mario Vargas, Candace Guerrero, Yinsheng Wang, Katherine A. Fitzgerald, David M. Underhill, Terrence Town, Moshe Arditi</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22342844" target="_blank"><em>Immunity</em>, <strong>36</strong>, 401-414 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 炎症性">炎症性</a><a href="#" class="anno サイト<a href="#" class="anno カ">カ</a>イン">サイトカイン</a>である<a href="#" class="anno インターロイキン">インターロイキン</a>1βは<a href="#" class="anno インフラマソーム">インフラマソーム</a>とよばれるタンパク<a href="#" class="anno 複合体">複合体</a>によりその分泌が制御されている．<a href="#" class="anno NLR">NLR</a>P3インフラマソームは細菌やウイルスなどの<a href="#" class="anno 病原体">病原体</a>を<a href="#" class="anno パターン認識">パターン認識</a>して感染に対する<a href="#" class="anno 防御応答">防御応答</a>を担っている<a href="#" class="anno も">も</a>のと考えられていたが，のちにA<a href="#" class="anno TP">TP</a>など非<a href="#" class="anno 感染性">感染性</a>の刺激によっても<a href="#" class="anno 活性化">活性化</a>されることがわかり，その活性化の<a href="#" class="anno 分子機構">分子機構</a>は不明であった．この研究では，<a href="#" class="anno プライミング">プライミング</a>された<a href="#" class="anno マクロ<a href="#" class="anno ファージ">ファージ</a>">マクロファージ</a>がATPにより2次刺激をうける際，ミトコンドリアは損傷をうけ細胞は<a href="#" class="anno アポトーシス">アポトーシス</a>へといたるが，そのときミトコンドリアにおいて<a href="#" class="anno 活性酸素">活性酸素</a>が生じ<a href="#" class="anno ミトコンドリアDNA">ミトコンドリアDNA</a>が酸化され，この酸化ミトコンドリアDNAが<a href="#" class="anno 細胞質">細胞質</a>に移行し<a href="#" class="anno NLRP3">NLRP3</a>と結合することでNLRP3インフラマソームを活性化していることを解明した．<br/><br/><h2>はじめに</h2><br/>　<a href="#" class="anno 炎症性サイトカイン">炎症性サイトカイン</a>である<a href="#" class="anno <a href="#" class="anno インターロイキン1">インターロイキン1</a>β">インターロイキン1β</a>の分泌は細胞質にあるインフラマソームとよばれる<a href="#" class="anno タンパク質複合体">タンパク質複合体</a>により制御されている．インターロイキン1β<a href="#" class="anno 前駆体">前駆体</a>はToll様<a href="#" class="anno 受容体">受容体</a>などからの<a href="#" class="anno NF-κB">NF-κB</a>シグナルにより合成される（プライミング）が，<a href="#" class="anno カスパーゼ">カスパーゼ</a>1が活性化しないと<a href="#" class="anno 分泌型">分泌型</a>インターロイキン1βへの変換は行われず分泌はされない．<a href="#" class="anno カスパーゼ1">カスパーゼ1</a>はNLRP3と<a href="#" class="anno アダプタータンパク質">アダプタータンパク質</a>である<a href="#" class="anno AS">AS</a>Cにより活性化されるが，このカスパーゼ1の活性化に必要となるタンパク質複合体を総称してNLRP3インフラマソームとよぶ．NLRP3インフラマソームの活性化はβ<a href="#" class="anno アミロイド">アミロイド</a>結晶，<a href="#" class="anno <a href="#" class="anno 尿酸">尿酸</a>結晶">尿酸結晶</a>，<a href="#" class="anno 細胞外">細胞外</a>のATP，<a href="#" class="anno 細菌性">細菌性</a>毒素により誘導されることから，さまざまな<a href="#" class="anno ストレス性">ストレス性</a>のシグナルを認識しているとされていたが，その分子機構は明らかにされていなかった．<br/>　これまでNLRP3インフラマソームの活性化においてもっとも有力だったのは，活性酸素によるという説，細胞からのK<sup>+</sup>の流出によるという説，<a href="#" class="anno リソソーム">リソソーム</a>の崩壊による<a href="#" class="anno 分解酵素">分解酵素</a>流出によるという説であったが，どの仮説にも反証が報告され<a href="#" class="anno 未解明">未解明</a>のままであった．2011年，ミトコンドリアとミトコンドリアにおける活性酸素がNLRP3インフラマソームの活性化に重要であると報告されたが<a href="#R1"><sup>1,2)</sup></a>，<a href="#" class="anno やはり">やはり</a>，その分子機構まではつきとめられずにおわっていた．筆者らも，別の角度からミトコンドリアが重要であることをつきとめており，さらなる真<a href="#" class="anno 相">相</a>究明に邁進した．そして，ミトコンドリアに損傷をあたえる<a href="#" class="anno アポトーシス誘導">アポトーシス誘導</a>の条件において，ミトコンドリアが活性酸素を生じミトコンドリアDNAが酸化され，これが細胞質に移行してNLRP3と結合していること，酸化<a href="#" class="anno ヌクレオチド">ヌクレオチド</a>を<a href="#" class="anno 前処理">前処理</a>することでNLRP3が酸化ミトコンドリアDNAと結合できなくなりインフラマソームを活性化できなくなることを解明した．<br/><br/><h2>1．ミトコンドリアの<a href="#" class="anno 機能低下">機能低下</a>がインターロイキン1βの分泌を促す</h2><br/>　筆者らはさきの研究において，<a href="#" class="anno クラミジア">クラミジア</a>がマクロファージに感染するとNLRP3インフラマソームが活性化されることを報告した<a href="#R3"><sup>3)</sup></a>．そして，<a href="#" class="anno 抗生物質">抗生物質</a>のひとつ<a href="#" class="anno クロラムフェニコール">クロラムフェニコール</a>がクラミジアの増殖を抑制し，クラミジアが誘導するインフラマソームの活性化を阻害することを認めた．しかしながら驚くべきことに，エンド<a href="#" class="anno トキシン">トキシン</a>のプライミングおよびATPの刺激によるNLRP3インフラマソーム活性化の誘導もクロラムフェニコールにより阻害をうけることを見い<a href="#" class="anno 出し">出し</a>た．クロラムフェニコールは細菌のもつ<a href="#" class="anno リボソーム">リボソーム</a>に作用してタンパク質の合成を阻害しその増殖を防ぐわけだが，この<a href="#" class="anno エンドトキシン">エンドトキシン</a>とATPによる刺激においては細菌に由来するリボソームなど存在していないにもかかわらず，クロラムフェニコールによる阻害をうけたのである．そこで，ミトコンドリアのリボソームに対するクロラムフェニコールの作用に気づいた．細胞は<a href="#" class="anno タンパク質合成">タンパク質合成</a>の場として細胞質にリボソームをもつほか，ミトコンドリアにも異なるリボソームをもちミトコンドリアに独自のタンパク質合成を行っている．ミトコンドリアのリボソームは<a href="#" class="anno 原核生物">原核生物</a>のリボソームにより<a href="#" class="anno <a href="#" class="anno 相同">相同</a>性">相同性</a>が高いため，ミトコンドリアのリボソームも細菌のもつリボソームと同様にクロラムフェニコールによる影響をうける．そこで，この発見をもとにNLRP3インフラマソームとミトコンドリアの機能との<a href="#" class="anno 相互関係">相互関係</a>を調べることにした．既知のさまざまなNLRP3インフラマソーム活性化の誘導条件では，みごとにミトコンドリアの機能低下（ミトコンドリアの<a href="#" class="anno 膜電位">膜電位</a>の低下，および，ミトコンドリアの呼吸の低下）が認められた．細胞へのK<sup>+</sup>流入の阻害がNLRP3インフラマソームの活性化を阻害することが報告されていたが，これもミトコンドリアの機能低下とかかわっていることを認めた．以上から，ミトコンドリアの機能低下がNLRP3インフラマソームの活性化に密接にかかわっていることが明らかになった．<br/><br/><h2>2．ミトコンドリアの損傷によるアポトーシスがNLRP3インフラマソームを活性化する</h2><br/>　ミトコンドリアに損傷が認められたのであれば，アポトーシスにつながるであろうと考えた．ミトコンドリアは細胞の<a href="#" class="anno 生命活動">生命活動</a>に必須なエネルギーを生み出すほか，アポトーシスにも重要な役割を担っているからである．NLRP3インフラマソーム活性化の誘導条件では乳酸<a href="#" class="anno <a href="#" class="anno 脱水素">脱水素</a>酵素">脱水素酵素</a>の遊離や<a href="#" class="anno 細胞核">細胞核</a>の凝集といったアポトーシスの特徴が認められた．そこで，アポトーシスの誘導剤として広く知られるス<a href="#" class="anno タウ">タウ</a>ロスポリンについて調べたところ，NLRP3インフラマソームの活性化を誘導することが見い出された．<br/>　<a href="#" class="anno 根本的">根本的</a>なことであるが，このエンドトキシンによるプライミングとATPというNLRP3インフラマソームの2段階の刺激は，そもそも，なぜ2次的な刺激でなければならないのだろうか．細胞にATPや<a href="#" class="anno スタウロスポリン">スタウロスポリン</a>をエンドトキシンと同時にくわえてみたが，やはりインターロイキン1βは分泌されなかった．これは，2次刺激は<a href="#" class="anno 細胞死">細胞死</a>を誘導することにほかならないからであろうと考えられた．インフラマソームの誘導する刺激に対して危険シグナル（danger <a href="#" class="anno sig">sig</a><a href="#" class="anno nal">nal</a>）というあいまいな表現が定着しつつあるが，これは死のシグナルというべきだろうことが示唆された．<br/><br/><h2>3．Bcl-2はNLRP3インフラマソームの活性化を阻害する</h2><br/>　ミトコンドリアの機能低下とアポトーシスによりNLRP3インフラマソームの活性化が誘導されることが明らかになったが，さらなる確信を得るため，<a href="#" class="anno <a href="#" class="anno 抗アポトーシス">抗アポトーシス</a>タンパク質">抗アポトーシスタンパク質</a>の代表としてもっとも知られるBcl-2の<a href="#" class="anno 過剰発現">過剰発現</a>を試みた．Bcl-2を過剰に発現した細胞ではインターロイキン1βの分泌阻害にともない，<a href="#" class="anno ミトコンドリア膜">ミトコンドリア膜</a>電位の低下の阻害およびアポトーシスの阻害が認められ，反対に，Bcl-2の発現が低下した細胞においてはインターロイキン1βの分泌亢進およびアポトーシスの亢進が認められた．以上の結果から，Bcl-2によりアポトーシスを阻害するとNLRP3インフラマソーム活性化の誘導も阻害されることが明らかになった．<br/><br/><h2>4．ミトコンドリアDNAのNLRP3インフラマソーム活性化への関与</h2><br/>　ミトコンドリアは原核生物に近い環状の独自のDNAをもつこと，ある種のアポトーシスではミトコンドリアDNAが細胞質に移行することが報告されていたこと，また，NLRP3がヌクレオチド<a href="#" class="anno 結合部">結合部</a>位をもつことから，ミトコンドリアDNAはNLRP3に結合しているのではないかと考えた．そこで，マクロファージを<a href="#" class="anno エチジウム">エチジウム</a><a href="#" class="anno ブロミド">ブロミド</a>の<a href="#" class="anno 存在下">存在下</a>で培養することでミトコンドリアDNAの著しく<a href="#" class="anno 欠失">欠失</a>したマイクロファージを樹立した．分子<a href="#" class="anno 生物学">生物学</a>の実験においてエチジウムブロミドは<a href="#" class="anno 2本鎖DNA">2本鎖DNA</a>にはまり込む性質を利用してDNA染色に広く用いられているが，培養している細胞にくわえると核のDNAとミトコンドリアDNAの両方にはまり込む．核は<a href="#" class="anno DNA修復">DNA修復</a>能が高いため<a href="#" class="anno 核DNA">核DNA</a>は大きな影響をうけないが，DNA修復能が低いミトコンドリアではDNAはもろに影響をうけるためミトコンドリアDNAだけが減少していく．ひとつのミトコンドリアには数コピーのミトコンドリアDNAが存在しているため，これが完全に消失しないかぎりミトコンドリアの機能は維持される．樹立されたミトコンドリアDNA欠失マイクロファージでは明らかにNLRP3インフラマソーム活性化の<a href="#" class="anno 誘導能">誘導能</a>が欠損していた．また，NLRP3インフラマソーム活性化を誘導するATPやナイジェ<a href="#" class="anno リシン">リシン</a>（K<sup>+</sup>チャネル<a href="#" class="anno 阻害剤">阻害剤</a>）の刺激によりミトコンドリアDNAが細胞質へと遊離することを認めた．HEK<a href="#" class="anno 293<a href="#" class="anno T細胞">T細胞</a>">293T細胞</a>にNLRP3を強制<a href="#" class="anno 安定発現">安定発現</a>させ，あらかじめ標識したミトコンドリアDNAを細胞に導入すると，NLRP3とミトコンドリアDNAとの<a href="#" class="anno 共局在">共局在</a>が認められた．<a href="#" class="anno 同じ">同じ</a>条件において<a href="#" class="anno 免疫沈降">免疫沈降</a>法によりNLRP3とミトコンドリアDNAとが<a href="#" class="anno 共沈">共沈</a>することも明らかになった．ここまで，ミトコンドリアDNAがNLRP3と結合していることが示唆されたが，しかしながら，マクロファージにおいて<a href="#" class="anno 外来性">外来性</a>のミトコンドリアDNAはNLRP3インフラマソームではなくA<a href="#" class="anno IM">IM</a>2インフラマソームという別のタンパク質複合体により認識され，<a href="#" class="anno そのため">そのため</a>インターロイキン1βの分泌が優勢的に誘導されてしまい，マクロファージではミトコンドリアDNAがNLRP3に結合することは証明できなかった．別の報告では，<a href="#" class="anno DNA分解酵素">DNA分解酵素</a>を細胞に導入することでNLRP3インフラマソーム活性化が阻害されたことが示されているが<a href="#R2"><sup>2)</sup></a>，マクロファージにおいてミトコンドリアDNAがNLRP3インフラマソームの活性化を誘導するという直接的な<a href="#" class="anno デ">デ</a>ータは得られていない．<br/><br/><h2>5．酸化ミトコンドリアDNAによるNLRP3インフラマソーム活性化の誘導</h2><br/>　<a href="#" class="anno 内在性">内在性</a>のミトコンドリアDNAとNLRP3とのかかわりを調べるため，マクロファージに<a href="#" class="anno ブロモ">ブロモ</a><a href="#" class="anno ウ<a href="#" class="anno リジン">リジン</a>">ウリジン</a>を取り込ませてミトコンドリアDNAを標識し，免疫沈降によりNLRP3インフラマソームを沈降したのち，<a href="#" class="anno ドットブロット">ドットブロット</a>を用い抗ブロモウリジン抗体によりDNAの検出を試みた．その結果，NLRP3インフラマソームの活性化ののちミトコンドリアDNAがNLRP3と結合しているという直接的なデータが得られた．筆者らはすでに，細胞質に由来する活性酸素はNLRP3インフラマソームの活性化にはまったく関与していないというデータを得ていたが，ミトコンドリアに由来する活性酸素の関与は謎であった．これまで，ミトコンドリアに<a href="#" class="anno 特異的">特異的</a>とされる活性酸素阻害剤を用いてミトコンドリアに由来する活性酸素が重要であることが示されていたが<a href="#R1"><sup>1)</sup></a>，筆者らは，この阻害剤がNF-κBの活性に影響しインフラマソームの活性化だけでなくインターロイキン1β前駆体自体をも阻害してしまっていることをつきとめていた．そこで，<a href="#" class="anno 特異性">特異性</a>の低い阻害剤によるアプローチではなく，“測定”を用いてこれを証明することを試みた．その結果，NLRP3インフラマソームの活性化を誘導するATPの刺激ののち，ミトコンドリアに由来する活性酸素が顕著に増加するのを<a href="#" class="anno 生細胞">生細胞</a><a href="#" class="anno イメージング">イメージング</a>により示すことができた．さらに，このミトコンドリアに由来する活性酸素がミトコンドリアDNAとNLRP3との結合に関与しているかどうか，その直接的なデータを得るよう試みたところ，NLRP3に結合していたミトコンドリアDNAは酸化による損傷をうけていることが明らかになった．また，酸化<a href="#" class="anno ヌクレオシド">ヌクレオシド</a>による前処理は酸化されたミトコンドリアDNAがNLRP3に結合するのを防ぎ，インターロイキン1βの分泌を阻害することを見い出した．以上のことから，アポトーシスによるミトコンドリアの損傷によりミトコンドリアから活性酸素が生じ，これにより酸化されたミトコンドリアDNAが細胞質に遊離し，NLRP3と結合してインフラマソームを活性化していることが明らかになった（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　NLRP3インフラマソームの活性化の機序</strong><br/>危険シグナル，メタボリックストレス，感染などにより損傷をうけたミトコンドリアは活性酸素を生じミトコンドリアDNAを酸化する．細胞質に移行した酸化ミトコンドリアDNAはNLRP3と結合しNLRP3インフラマソームを活性化する．あらかじめプライミングにより生じていたインターロイキン1β前駆体は活性化されたカスパーゼ1により分解をうけ，分泌型インターロイキン1βへと変換される．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/02/Shimada-Immunity-12.3.23-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　NLRP3インフラマソームの活性化の機序" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shimada-Immunity-12.3.23-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shimada-Immunity-12.3.23-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究において<a href="#" class="anno 学術的">学術的</a>に重要な概念が提唱された．インターロイキン1βの分泌は“ダイイングメッセージ”として炎症の惹起をつかさどること，アポトーシスは<a href="#" class="anno ネクローシス">ネクローシス</a>とは異なり炎症をともなわない細胞死と考えられていたが，細菌の感染や微生物の<a href="#" class="anno 菌体">菌体</a>成分などプライミングの起こる条件では炎症を誘導しうること，<a href="#" class="anno 自然免疫">自然免疫</a>は<a href="#" class="anno DNAの損傷">DNAの損傷</a>や変異を認識する機構を備えていること，インフラマソームが<a href="#" class="anno 感染防御">感染防御</a>だけでなく<a href="#" class="anno アルツハイマー病">アルツハイマー病</a>，<a href="#" class="anno 2型">2型</a><a href="#" class="anno 糖尿病">糖尿病</a>，<a href="#" class="anno 動脈硬化">動脈硬化</a>といった慢性型の疾患の炎症にかかわっていたのも，<a href="#" class="anno 加齢">加齢</a>にともないミトコンドリアDNAの酸化による損傷が蓄積して“インフラマソーム<a href="#" class="anno 高リスク">高リスク</a>”であった<a href="#" class="anno 可能性">可能性</a>があったこと，である．<br/>　現在すでに，<a href="#" class="anno インターロイキン1受容体">インターロイキン1受容体</a>の<a href="#" class="anno 拮抗阻害剤">拮抗阻害剤</a>はリウマチ患者に対し認可されており，ヒト抗インターロイキン1β抗体は糖尿病と動脈硬化の両方を対象に<a href="#" class="anno 臨床試験">臨床試験</a>が行われている．カスパーゼ1阻害剤はインターロイキン1βと<a href="#" class="anno インターロイキン18">インターロイキン18</a>の両方を阻害することからより高い効果が期待され米国において臨床試験が行われていたが，第2相で肝臓への副作用が認められ中止に終わった．筆者らは，酸化ヌクレオシドを用いたまったく新しいNLRP3インフラマソームの阻害剤の開発の可能性に期待をよせている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Zhou, R., Yazdi, A. S., Menu, P. et al.</span>: <span class="ti">A role for mitochondria in NLRP3 inflammasome activation.</span> <span class='so'>Nature, 469, 221-225 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21124315" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Nakahira, K., Haspel, J. A., Rathinam, V. A. et al.</span>: <span class="ti">Autophagy proteins regulate innate immune responses by inhibiting the release of mitochondrial DNA mediated by the NALP3 inflammasome.</span> <span class='so'>Nat. Immunol., 12, 222-230 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21151103" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Shimada, K., Crother, T. R., Karlin, J. et al.</span>: <span class="ti">Caspase-1 dependent IL-1β secretion is critical for host defense in a mouse model of <em>Chlamydia pneumoniae</em> lung infection.</span> <span class='so'>PLoS One, 6, e21477 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21731762" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_02.html" target="_blank">9.2 Ribosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_08.html" target="_blank">12.8 Autophagy</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_03.html" target="_blank">12.3 Transport of Proteins Synthesized by Free Polysomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/16_05.html" target="_blank">16.5 Topology of Mitochondria and Chloroplasts</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_03.html" target="_blank">11.3 Eukaryotic Structures</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">島田 賢一（Kenichi Shimada）</span><br>略歴：2006年 北里大学大学院基礎生命科学研究科博士課程 修了，同年 米国Cedars-Sinai Medical CenterにてPost Doctoral Fellow，2009年 同Research Scientistを経て，2012年より同Assistant Professor．<br>研究テーマ：感染免疫，アレルギー，動脈硬化．<br></div><br>© 2012 島田 賢一 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

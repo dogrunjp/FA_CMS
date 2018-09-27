@@ -16,6 +16,7 @@ import itertools
 import re
 import subprocess
 from feedgenerator import Rss201rev2Feed as Feed
+from bs4 import BeautifulSoup
 
 __version__ = "0.3.0"
 config_yaml = "./conf/config.yaml"
@@ -55,11 +56,6 @@ class Update:
         update_file = UpdateFile()
         update_file.update(current_list, static_file, summary_file, required)
 
-        # tagリストを取得
-        # get_pic_tagmember = GetPicTagMember()
-        # tag_list = get_pic_tagmember.get_create_taglist()
-        # pg_category_list = get_pic_tagmember.create_category_list()
-
         # レンダリングするコンテンツを生成
         contents = self.filter_contents(current_list, list_diffs)
 
@@ -67,12 +63,8 @@ class Update:
         render_page = RenderPage()  # HTMLをレンダリング＆ファイル生成
         render_page.render(contents, template, name, file_path, img_path)
 
-        # draw navのriot custom tagを書き出す
+        # drawer-navに表示するcustom tagを書き出す
         render_menu_list(current_list, menu_template)
-
-
-        #render_page.render_gallery(item_list, list_diffs, tag_list)
-        #render_page.render_list(pg_category_list)
 
     def filter_contents(self, contents, diffs):
         wks_id = self.wks['id']
@@ -100,6 +92,9 @@ class UpdateItemList:
     def contentAsJson(self, title, ws):
         wks_num = ws
         scope = ['https://spreadsheets.google.com/feeds/']
+        # versionによっては（ubuntu 最新のauth）以下のようにscoprを設定する必要がある
+        # scope = ['https://spreadsheets.google.com/feeds',
+        # 'https://www.googleapis.com/auth/drive']
         credentials = ServiceAccountCredentials.from_json_keyfile_name(conf['jsonkey'], scope)
         gc = gspread.authorize(credentials)
         sht = gc.open(title)
@@ -178,21 +173,40 @@ class RenderPage:
                 for i in range(1, len_lst + 1):
                     figs["fig"+str(i)] = {"caption": entry["Fig{}_caption".format(str(i))], "img": entry["Fig{}_jpg".format(str(i))]}
 
-                # 本文（entry["post_content"]）を<要約＞パート、<文献＞パートで分割する
+                # 本文（entry["post_content"]）を<要約＞パート、<文献＞パートで分割する。本文部分をtxtに。
                 doc = split_entry(entry["Post_Content"])
                 txt = doc[2]
                 # Annotationしない場合はコンテンツ全体を取得
                 #txt = entry["Post_Content"]
 
-                # 画像部分のテキスト置き換え
-                # pathはwks[file_path]
-                body = multiple_replace(txt, figs, path, img_p)
-                entry["Post_Content"] = body
+                # Figureのcaptionを取得
+                # リストcapsの長さがfigの数
+                caps = [entry.get("Fig{}_caption".format(i)) for i in range(1, 4) if entry.get("Fig{}_caption".format(i), None) is not ""]
+
+                # 画像のキャプションを一時的に<tmp>タグに置き換える
+                soup = BeautifulSoup(txt, "html.parser")
+                captions = []
+                for i in range(len(caps)):
+                    idx = i + 1
+                    try:
+                        captions.append(soup.find(id="fig{}-caption-text".format(idx)))
+                        soup.find(id="fig{}-caption-text".format(idx)).replace_with("tmp_fig{}".format(idx))
+                    except:
+                        pass
+                txt = str(soup)
 
                 # Hovercardアノテーションに関する機能
                 # itemの本文にself.keywordsに一致する単語があればマークアップする。
                 # マークアップ箇所のDOMのクラスは conf.annotation.class
-                body = add_tag(body, self.match_list)
+                txt = add_tag(txt, self.match_list)
+
+                # 一時置換したタグをcaptionsから復元する
+                for i in range(len(caps)):
+                    idx = i + 1
+                    txt = re.sub("tmp_fig{}".format(idx), str(captions[i]), txt)
+
+                # 画像部分のテキストをHTMLに置き換え
+                body = replace_figures(txt, figs, path, img_p, caps)
 
                 # 分解した記事を結合
                 entry["Post_Content"] = doc[0] + doc[1] + body + doc[3] + doc[4]
@@ -211,30 +225,6 @@ class RenderPage:
 
 
 """
-def render_gallery(self, picture_list, list_diffs, tag_list):
-    # pictures = [x["original_png"]for x in picture_list]
-    if len(list_diffs):
-        picture_info = []
-        for item in picture_list:
-            picture_dict = {k: v for k, v in item.iteritems() if k in ["original_png", "picture_id", "doi", "title_jp", "title_en", "tag", "apng"]}
-            # picture_dictに新規更新分のコンテンツであればnewフラグを追加する{is_new: true}
-            if picture_dict["picture_id"] in list_diffs:
-                picture_dict["is_new"] = True
-
-            if picture_dict["apng"] != '':
-                picture_dict["apng"] = True
-
-            picture_info.append(picture_dict)
-
-        env = Environment(loader=FileSystemLoader(conf["template_path"], encoding="utf8"))
-        env.filters["list2string"] = list2string
-        template = conf["template"]["picture_gallery"]
-        tmpl = env.get_template(template)
-        htm = tmpl.render(item=picture_info, tags=tag_list).encode("utf-8")  # コンテンツの情報とタグリストを渡す。
-        gallery_info = {}
-        gallery_info["filename"] = "pics"
-        WriteStaticFile(gallery_info, htm)
-
 def render_list(self, pg_list):
     categories = conf["picture_category"]
     env = Environment(loader=FileSystemLoader(conf["template_path"], encoding="utf8"))
@@ -361,25 +351,38 @@ def get_keywords(cf):
 
 # タグ付けする単語リストを返す
 def word_filter(lst):
-    lst = [x['用語(FA見出し語)'] for x in lst if x['文字数'] != 1 and x['文字数'] != 2]
+    col_terms = conf["annotation"]["terms"]
+    feature = conf["annotation"]["feature"]
+    dictionary = conf["annotation"]["dictionary"]
+    #lst = [x[col_terms] for x in lst if x['文字数'] != 1 and x['文字数'] != 2]
+    lst = [(x[col_terms], x[feature], x[dictionary]) for x in lst if x[feature] != "名詞" and x["削除フラグ"] != 1]
+
+    # 優先度を決めソート
+    # feature: multiword, unknown , dictionary: MeSH, Gene, 文字数でsortする
+    l = sorted(lst,  key = lambda x: (x[1], x[2]))
+    # （タイプ, term)のリストを生成
+
+    lst = [x[0] for x in l]
     return lst
 
 
 # アノテーションタグを付加する
 def add_tag(txt, m_lst):
+    #置き換えリスト
+    rep = r'<a href="#" class="anno \g<0>">\g<0></a>'
+    cnt = conf["annotation"]["repl_count"]
     for p in m_lst:
-        rep = r'<a href="#" class="anno">\g<0></a>'
-        cnt = conf["annotation"]["repl_count"]
         txt = p.sub(rep, txt, count=cnt)
     return txt
 
 
 def create_regex_pattern(lst):
-    pttns = [re.compile(x) for x in lst]
-    return pttns
+    protect = ["dis", "org", "PDF", "arc", "bar", "ank", "pla", "ral", "lec"]
+    ptn = [re.compile(x) for x in lst if x not in protect]
+    return ptn
 
 
-def multiple_replace(st, fig, path, img_p):
+def replace_figures(st, fig, path, img_p, caps):
     txt = st
 
     # [hs_figure]を変換
@@ -394,7 +397,7 @@ def multiple_replace(st, fig, path, img_p):
             tmp = '''
                         <div id="figure{id_num}" class="hs-figure">
                             <div class="hs-figure-box">
-                                <a class="highslide" title="$(fig1-caption-text)" href="{img_p}{fig}" target="_blank">
+                                <a class="highslide" title="{caption}" href="{img_p}{fig}" target="_blank">
                                     <img src="{img_p}{fig}" alt="figure{id_num}" width="200px" />
                                 </a>
                             </div>
@@ -410,7 +413,8 @@ def multiple_replace(st, fig, path, img_p):
             try:
                 # fig
                 f = fig["fig{}".format(i)]["img"]
-                txt = re.sub(pat, tmp.format(id_num=i, img_p=img_p, fig=f), txt)
+                c = caps[int(i) - 1]
+                txt = re.sub(pat, tmp.format(caption=c, id_num=i, img_p=img_p, fig=f), txt) # Fig1-caption
             except:
                 txt = re.sub(pat, "", txt)
 
@@ -488,12 +492,14 @@ def render_menu_list(item, template):
     lst_tag = []
     for t in Counter(category_lst).most_common():
         lst_tag.append({"name": t[0], "val": t[1]})
+    lst_tag = [x for x in lst_tag if int(x["val"]) >= 10]
     dct_tag = {"title": "タグ別", "li": lst_tag, "name": "drawer-category", "target": "category"}
 
     lst_year = []
     for t in Counter(years).most_common():
         lst_year.append({"name": t[0], "val": t[1]})
-    dct_year = {"title": "公開年別", "li": lst_year, "name": "drawer-date", "target": "date"}
+    lst = sorted(lst_year, key=lambda x: int(x["name"]), reverse=True)
+    dct_year = {"title": "公開年別", "li": lst, "name": "drawer-date", "target": "date"}
 
     for obj in [dct_tag, dct_journal, dct_year]:
         env = Environment(loader=FileSystemLoader(conf["template_path"], encoding="utf8"))

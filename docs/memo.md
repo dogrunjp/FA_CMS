@@ -201,11 +201,10 @@ GitGurdian (GCP)、AWS、Google-cloud-complianceから警告が届く
 - pyss_testを削除した（コピーはpyss-test-2）
 - fa-bmu-jpを削除fa-bmu-jp-２をコピー、aws configureを登録し直した。
 - GCP にユーザを作り直し（famanager2）jsonkeyを取得。テスト環境は"famanager2@firstauthor-176006.iam.gserviceaccount.com"で実験中（先ずはローカルで）
-
-未実施だがテストすみ次第対応すること
+- famanagerのrollをeditorからviewerに変更
 - FAのconfigをfamanager2で対応
 - LAのconfigもfamanager2に変更
-- famanagerをspreadsheetのユーザから削除
+
 
 
 ## S3

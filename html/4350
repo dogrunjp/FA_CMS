@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> セントロメアにおける新しいヒストン様の構造 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/4350" rel="bookmark">セントロメアにおける新しいヒストン様の構造</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>西野達哉・深川竜郎</strong><br>（国立遺伝学研究所 分子遺伝研究部門）<br>email：<a href="mailto:tnishino@lab.nig.ac.jp">西野達哉</a>，<a href="mailto:tfukagaw@lab.nig.ac.jp">深川竜郎</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.021">10.7875/first.author.2012.021</a><br><div class="reference"><br><span class="ti">CENP-T-W-S-X forms a unique centromeric chromatin structure with a histone-like fold.</span><br><span class="au">Tatsuya Nishino, Kozo Takeuchi, Karen E. Gascoigne, Aussie Suzuki, Tetsuya Hori, Takuji Oyama, Kosuke Morikawa, Iain M. Cheeseman, Tatsuo Fukagawa</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22304917" target="_blank"><em>Cell</em>, <strong>148</strong>, 487-501 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 染色体">染色体</a>が<a href="#" class="anno 娘細胞">娘細胞</a>へ正確に分配されるためには，複数のタンパク質<a href="#" class="anno 複合体">複合体</a>が<a href="#" class="anno セントロメア">セントロメア</a>とよばれる<a href="#" class="anno ゲノムDNA">ゲノムDNA</a>領域に集合し<a href="#" class="anno キネトコア">キネトコア</a>という構造をつくらなければならない．このキネト<a href="#" class="anno コア構造">コア構造</a>が形成されるため，どのようなタンパク質がどのように集合してセントロメアDNAと結合しているのかという<a href="#" class="anno 分子機構">分子機構</a>に関しては不明な点が多い．この研究では，<a href="#" class="anno 高等動物">高等動物</a>のキネトコアに局在するC<a href="#" class="anno ENP">ENP</a>-T-W複合体とCENP-S-X複合体に注目し，構造<a href="#" class="anno <a href="#" class="anno 生物学">生物学</a>的">生物学的</a>，<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>，<a href="#" class="anno <a href="#" class="anno 細胞生物学">細胞生物学</a>的">細胞生物学的</a>な解析を行った．その結果，<a href="#" class="anno 試験管内">試験管内</a>で<a href="#" class="anno 再構成">再構成</a>したニワトリのCENP-T-W複合体とCENP-S-X複合体は，結合してCENP-T-W-S-X複合体という安定な<a href="#" class="anno ヘテロ">ヘテロ</a><a href="#" class="anno 四量体">四量体</a>を形成することが明らかになった．X線<a href="#" class="anno 結晶構造">結晶構造</a>解析により明らかにされたCENP-T-W複合体，CENP-S-X複合体，および，CENP-T-W-S-X複合体の構造は<a href="#" class="anno ヒストン">ヒストン</a>と類似していた．CENP-T-W-S-X複合体はDNAに<a href="#" class="anno 超らせん">超らせん</a>を導入する活性を示し，ヒストンと似たDNAとの結合特性のあること<a href="#" class="anno も">も</a>明らかになった．さらに，DNAとの結合にかかわる<a href="#" class="anno <a href="#" class="anno アミノ">アミノ</a>酸<a href="#" class="anno 残基">残基</a>">アミノ酸残基</a>および<a href="#" class="anno ヘテロ四量体">ヘテロ四量体</a>の形成に必要なアミノ酸残基に変異を導入したCENP-T-W-S-X複合体を発現するニワトリD<a href="#" class="anno T4">T4</a>0細胞では，正常なキネトコアが形成され<a href="#" class="anno ないこと">ないこと</a>がわかった．以上の結果から，CENP-T-W-S-X複合体が通常のヒストンのようにDNAと結合し<a href="#" class="anno ヌクレオソーム">ヌクレオソーム</a>と似た構造をセントロメア領域において形成することが，キネトコア構造の構築に必須であると結論した．<br/><br/><h2>はじめに</h2><br/>　生物の<a href="#" class="anno 全ゲノム">全ゲノム</a>情報を担う染色体は<a href="#" class="anno 細胞周期">細胞周期</a>の過程をつうじ正確に複製され分配される．染色体の複製機構や分配機構の異常は<a href="#" class="anno 遺伝情報">遺伝情報</a>の不正確な伝達につながり，その結果，<a href="#" class="anno がん化">がん化</a>をはじめとする細胞への悪影響が生じる．したがって，染色体の複製や分配の分子機構を解明することは<a href="#" class="anno 基礎生物学">基礎生物学</a>および<a href="#" class="anno 医科学">医科学</a>の両面から大切である．細胞周期の<a href="#" class="anno S期">S期</a>において複製された染色体は，<a href="#" class="anno M期">M期</a>になると両<a href="#" class="anno 極">極</a>から延びた紡<a href="#" class="anno 錘体">錘体</a>にとらえられて娘細胞へと分配される．この<a href="#" class="anno 染色体分配">染色体分配</a>の際に<a href="#" class="anno 紡錘体">紡錘体</a>が結合する染色体の特殊な構造がキネトコア（<a href="#" class="anno 動原体">動原体</a>）である．このキネトコアはセントロメアとよばれるゲノムDNA領域に形成される．興味深いことに，キネトコアが形成されるセントロメア領域の<a href="#" class="anno DNA配列">DNA配列</a>に<a href="#" class="anno 特異性">特異性</a>はなく，セントロメア領域は<a href="#" class="anno エピジェネティック">エピジェネティック</a>な機構により決定されている．<a href="#" class="anno つまり">つまり</a>，どのような配列をもつDNA領域もセントロメアになりうるが，いったん，その領域がセントロメアになると次世代の細胞にもその情報が受け継がれる．これまでの多くの研究から，セントロメア領域の決定に関与するエピジェネティックマー<a href="#" class="anno カ">カ</a>ーとしては<a href="#" class="anno ヒストンH3">ヒストンH3</a>の<a href="#" class="anno <a href="#" class="anno バリア">バリア</a>ント">バリアント</a>である<a href="#" class="anno CENP-A">CENP-A</a>が有力候補であると考えられている<a href="#R1"><sup>1,2)</sup></a>．どのようなDNA配列をもつセントロメアにもCENP-Aが存在するのでCENP-Aがセントロメアの形成において重要なはたらきを担っていることはまちがいないが，CENP-Aのみで<a href="#" class="anno 機能的">機能的</a>なキネトコア構造をつくることはできない<a href="#R2"><sup>2)</sup></a>．したがって，CENP-Aとともにキネトコアの形成に関与するタンパク質の役割を解明することが必須である．<br/>　キネトコアはセンロメアDNA上に形成されるので，キネトコア形成の基礎となるタンパク質はDNAと直接に結合している<a href="#" class="anno 可能性">可能性</a>が高い．筆者らの<a href="#" class="anno 研究室">研究室</a>では，キネトコアに存在するDNA<a href="#" class="anno 結合タンパク質">結合タンパク質</a>としてCENP-T-W複合体を同定している<a href="#R3"><sup>3)</sup></a>．さらに最近，CENP-Tを非セントロメア領域に異所<a href="#" class="anno 局在化">局在化</a>させると，その領域にキネトコア様の構造が形成されることも報告している<a href="#R4"><sup>4)</sup></a>．これらの事実はCENP-T-W複合体がキネトコア形成の基盤として機能している可能性を示唆している．しかしながら，CENP-T-W複合体がどのようにセントロメア領域を認識してセントロメアDNAと結合しキネトコアの形成に関与しているのかについては不明な点が多い．CENP-Tがキネトコアの形成にどのようにかかわっているのかを明らかにする目的で，<a href="#" class="anno 構造生物学">構造生物学</a>的，生化学的，細胞生物学的な手法を駆使して研究を行った．その結果，CENP-T-W複合体はCENP-S-X複合体というほかのキネトコア<a href="#" class="anno タンパク質複合体">タンパク質複合体</a>とヘテロ四量体を形成していることが明らかになった．また，CENP-T-W-S-X複合体はヒストンに類似した構造をとり，通常のヒストンのようにDNAと結合し，セントロメア領域においてヌクレオソームに似た構造を形成している可能性を示した．<br/><br/><h2>1．CENP-T-W複合体はヒストンに構造が類似した<a href="#" class="anno 二量体">二量体</a>からなる複合体である</h2><br/>　CENP-T-W複合体のDNAへの<a href="#" class="anno 結合様式">結合様式</a>を理解する目的で，ニワトリのCENP-Tの<a href="#" class="anno DNA結合">DNA結合</a>にかかわる<a href="#" class="anno <a href="#" class="anno C末端">C末端</a>側">C<a href="#" class="anno 末端側">末端側</a></a>の領域と<a href="#" class="anno 完全長">完全長</a>のCENP-Wを大腸菌において発現させ，精製ののち再構成した．得られたCENP-T-W複合体を<a href="#" class="anno 結晶化">結晶化</a>しX線<a href="#" class="anno 構造解析">構造解析</a>した結果，分解能2.2Åで<a href="#" class="anno 構造決定">構造決定</a>に成功した（PDB ID：3B0C，3B0D）．決定された結晶構造から，二量体からなるCENP-T-W複合体の構造はヌクレオソームにおけるヒストン<a href="#R5"><sup>5)</sup></a> の二量体の部分の構造と類似していることが明らかになった．ヒストンとの構造の<a href="#" class="anno 類似性">類似性</a>，および，ヒストンのDNAとの結合に重要な領域を参考にして，CENP-TおよびCENP-WのDNAとの結合にかかわる領域を予想した．この領域のアミノ酸残基に変異を導入したCENP-T-W複合体を精製してDNA<a href="#" class="anno 結合活性">結合活性</a>を解析した結果，活性の低下が確認された．また，ニワトリ<a href="#" class="anno DT40細胞">DT40細胞</a>を用いて<a href="#" class="anno 野生型">野生型</a>CENP-Wとこの<a href="#" class="anno DNA結合活性">DNA結合活性</a>が低下したCENP-W<a href="#" class="anno 変異体">変異体</a>とを置換したところ，このCENP-W変異体は機能しないことが明らかになった．以上の結果から，ヒストンに類似したCENP-T-W複合体のDNA結合活性はキネトコアの形成に必須であると結論した．<br/><br/><h2>2．CENP-S-X複合体もヒストンと類似しDNA結合活性を示す四量体を形成する</h2><br/>　筆者らは，<a href="#" class="anno 以前の研究">以前の研究</a>において，CENP-T-W複合体と関連するタンパク質複合体としてCENP-S-X複合体を同定していた<a href="#R6"><sup>6)</sup></a>．CENP-T-W複合体の機能を理解するにはCENP-S-X複合体との関連をより詳細に解析する<a href="#" class="anno 必要性">必要性</a>があると考え，ニワトリCENP-S-X複合体を大腸菌で発現し精製したのち構造生物学的な解析を行った．精製したCENP-S-X複合体の<a href="#" class="anno ゲルろ過">ゲルろ過</a>パターンからCENP-S-X複合体は四量体を形成することが示唆されたが，<a href="#" class="anno 実際">実際</a>に分解能2.15Åで結晶構造を決定したCENP-S-X複合体は四量体の構造をとっていた（PDB ID：3B0B）．CENP-S-X複合体の構造はヒストンと類似しており，CENP-T-W複合体とも類似していた．CENP-S-X複合体はCENP-T-W複合体と同様にDNA結合活性をもっており，<a href="#" class="anno やはり">やはり</a>，ヒストンとの構造の類似性からDNA結合に関与する領域を予想した．この領域のアミノ酸残基に変異を導入しDNAへの<a href="#" class="anno 結合性">結合性</a>を低下させた<a href="#" class="anno 変<a href="#" class="anno 異型">異型</a>">変異型</a>のCENP-S-X複合体はキネトコアに局在したが，ほかのキネト<a href="#" class="anno コアタンパク質">コアタンパク質</a>の集合が不全になっていた．したがって，DNA結合活性はCENP-S-X複合体の機能に重要であると考えられた．<br/>　CENP-S-X複合体とCENP-T-W複合体の構造は<a href="#" class="anno 全体的">全体的</a>には類似していたものの，CENP-SのC末端側に存在する伸びたα<a href="#" class="anno ヘリックス">ヘリックス</a>（α4ヘリックスとよぶ）はCENP-Tには存在せず，2つの<a href="#" class="anno αヘリックス">αヘリックス</a>構造が折り返した<a href="#" class="anno かた">かた</a>ちで存在していた（α4ヘリックスおよびα5ヘリックスとよぶ）．この構造の違いがCENP-Tの機能に重要である可能性を考え，α4ヘリックスおよびα5ヘリックスを<a href="#" class="anno 欠失">欠失</a>させたCENP-T変異体をニワトリDT40細胞において発現させた結果，このCENP-T変異体はキネトコアへは局在しないことがわかった．したがって，CENP-TのC末端側にある2つのαヘリックス領域がCENP-T-W複合体のキネトコアへの局在に必須であると結論された．<br/><br/><h2>3．CENP-T-W複合体とCENP-S-X複合体は結合してヘテロ四量体を形成する</h2><br/>　CENP-T-W複合体の構造とCENP-S-X複合体の構造には<a href="#" class="anno 部分的">部分的</a>に違いはみられるものの全体的な構造は類似している．機能的にも<a href="#" class="anno 構造的">構造的</a>にも両者が類似していることから，これらが協調して機能している可能性が考えられた．そこで，CENP-T-W複合体とCENP-S-X複合体とが<a href="#" class="anno 物理的">物理的</a>に結合する可能性を考え，両者を混合してゲルろ過解析を行った．CENP-T-W複合体は二量体の構造を，CENP-S-X複合体は四量体の構造をとるので，当初，両者が結合するのであればより<a href="#" class="anno 分子量">分子量</a>の大きい場所に新しいゲルろ過ピークが検出されるものと予想した．しかし意外なことに，1本のピークがCENP-S-X複合体のピークより分子量のやや小さい場所に検出された．このピークに含まれるタンパク質を<a href="#" class="anno SDS">SDS</a>-ポリアクリル<a href="#" class="anno アミド">アミド</a>ゲル電気<a href="#" class="anno 泳動">泳動</a>により解析するとCENP-T，CENP-W，CENP-S，CENP-Xがほぼ<a href="#" class="anno 同じ">同じ</a>量ずつ検出された．これらの結果より，CENP-S-X複合体とCENP-T-W複合体とを混合するとCENP-S-X四量体の一部がCENP-T-W二量体と交換しCENP-T-W-S-Xヘテロ四量体が形成されることが示唆された．<br/>　このCENP-T-W-S-X複合体の構造をより詳細に知るためにその構造解析を試み，分解能2.4Åで結晶構造を決定した（<a href="#F1">図1</a>，PDB ID：3VH5，3VH6）．構造解析の結果，CENP-T-W-S-X複合体はCENP-S-X複合体よりも四量体の形成に必要な<a href="#" class="anno 自由エネルギー">自由エネルギー</a>が低く，より安定な構造をとることがわかった．さらに，ヘテロ四量体の形成にかかわる領域を詳細に解析した結果，その形成に必須なCENP-SおよびCENP-Tのアミノ酸残基を同定した．これらのアミノ酸残基に変異を導入したCENP-S変異体あるいはCENP-T変異体は，それぞれ野生型CENP-Xあるいは野生型CENP-Wと二量体を形成するものの，CENP-T-W-S-Xヘテロ四量体を形成しないことが示された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　CENP-T-W-S-Xヘテロ四量体の構造のリボン図</strong><br/>CENP-S，CENP-X，CENP-T，CENP-Wは，それぞれ，ピンク色，青色，緑色，黄色で表した．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/02/Fukagawa-Cell-12.2.2-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　CENP-T-W-S-Xヘテロ四量体の構造のリボン図" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukagawa-Cell-12.2.2-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukagawa-Cell-12.2.2-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>4．CENP-T-W-S-X複合体のヘテロ四量体の構造はキネトコアの形成に必須である</h2><br/>　<a href="#" class="anno 組換え">組換え</a>タンパク質を用いた構造生物学的および生化学的な解析からCENP-T-W-S-X複合体がヘテロ四量体を形成することが示されたが，このヘテロ四量体の形成が<a href="#" class="anno 細胞内">細胞内</a>におけるキネトコアの構築にどのようにかかわっているかを明らかにすることが重要であった．そこで，ヘテロ四量体が形成されないような変異体を細胞内で発現させてその意義について解析を行った．はじめに，ヘテロ四量体が形成されないCENP-S変異体をニワトリDT40細胞において発現させると核に拡散した局在を示し，キネトコアには局在しなかった．これは，CENP-T-W-S-X複合体のヘテロ四量体の構造の形成がCENP-Sのキネトコアへの局在に必須であること意味していた．つぎに，ヘテロ四量体が形成されないCENP-T変異体をCENP-T<a href="#" class="anno ノックアウト細胞">ノックアウト細胞</a>へ導入した．野生型CENP-Tの発現がCENP-T変異体の発現に置き換わったこの細胞において，キネトコアにおけるCENP-Tのシグナルは観察されたものの，本来の20％程度の<a href="#" class="anno 強さ">強さ</a>であった．また，<a href="#" class="anno Ndc80">Ndc80</a>という<a href="#" class="anno 微小管">微小管</a>と結合するキネトコアタンパク質の局在も大きく失われていた．これらのタンパク質の<a href="#" class="anno 局在性">局在性</a>の異常にともない，<a href="#" class="anno 分<a href="#" class="anno 裂">裂</a>期">分裂期</a>に異常を示す多数の細胞が存在しこれらの細胞は死滅した．以上のニワトリDT40細胞を用いた研究から，CENP-T-W-S-X複合体のヘテロ四量体の構造はキネトコアの形成に必須であることが明確に示された．<br/><br/><h2>5．DNA-CENP-T-W-S-X複合体はヌクレオソームに似た特性をもつ</h2><br/>　CENP-T-W複合体もCENP-S-X複合体もそれぞれの複合体のみでDNA結合活性を示すが，タンパク質-<a href="#" class="anno DNA複合体">DNA複合体</a>をゲル<a href="#" class="anno 電気泳動">電気泳動</a>により解析したところそれぞれ異なる泳動パターンが得られた．DNA-CENP-T-W複合体は巨大な複合体をつくりやすくゲルの内部に入らないような巨大な複合体が形成された．一方，DNA-CENP-S-X複合体では複数のバンドが<a href="#" class="anno ラダー">ラダー</a>状に観察され，これは，DNAに一定の間隔で複数個のCENP-S-X複合体が結合していることを意味していた．そこで，CENP-T-W-S-X複合体とDNAとの結合様式を解析した結果，等量のDNAとCENP-T-W-S-X複合体とが結合したと考えられる1本のバンドが検出された．このことは，DNA-CENP-T-W-S-X複合体が安定な複合体を形成していることを示唆していた．<br/>　DNAはヒストンのまわりにまきついてヌクレオソームという構造をとることが知られている<a href="#R5"><sup>5)</sup></a>．CENP-T-W-S-X複合体もヒストンと構造が類似しており，また，DNA<a href="#" class="anno 結合部">結合部</a>位が類似していることから，DNAがCENP-T-W-S-X複合体の周辺を巻くように結合する可能性が考えられた．その点を明らかにするためDNA超らせん化<a href="#" class="anno アッセイ">アッセイ</a>を行った．このアッセイは，<a href="#" class="anno 環状DNA">環状DNA</a>を<a href="#" class="anno トポ">トポ</a><a href="#" class="anno イソ">イソ</a>メラーゼIにより弛緩型に変換させたのち，タンパク質とともに反応させDNAのトポロジーの変化を<a href="#" class="anno アガロース">アガロース</a>電気泳動により検出する方法である．ヒストンを用いてこのアッセイを行うと，ヌクレオソームの形成に準じて環状DNAのトポ<a href="#" class="anno アイソマー">アイソマー</a>が検出される．CENP-T-W-S-X複合体を用いてDNA超らせん化アッセイを行った結果，ヒストンより活性は弱いもののトポアイソマーが検出され，この複合体がDNAに超らせんを導入する活性をもつことが明らかになった．DNA<a href="#" class="anno 結合部位">結合部位</a>に変異を導入した変異型のCENP-T-W-S-X複合体では超らせん化活性が減少したこともあわせて，DNAはCENP-T-W-S-X複合体のまわりを巻くように結合していると結論した．<br/>　つぎに，<a href="#" class="anno 長さ">長さ</a>の異なるDNAとCENP-T-W-S-X複合体との<a href="#" class="anno 結合実験">結合実験</a>を行ったところ，この複合体は100 bpの長さのDNAともっとも効率よく1本のバンドを形成した．また，100 bpより長いDNAとCENP-T-W-S-X複合体を結合させたのちこのDNA-タンパク質複合体をマイクロコッカル<a href="#" class="anno ヌクレアーゼ">ヌクレアーゼ</a>で消化した結果，約100 bpのDNAがヌクレアーゼによる消化から保護された．この消化実験およびDNA超らせん化アッセイの結果を<a href="#" class="anno 総合的">総合的</a>に考察すると，約100 bpのDNAがCENP-T-W-S-X複合体の周辺を巻くように結合しヌクレオソーム様の構造を形成していると考えられた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　キネトコアに存在するCENP-T-W-S-X複合体とDNAからなるユニークなクロマチン構造</strong><br/>CENP-S-X四量体とCENP-T-W二量体が結合してCENP-T-W-S-Xヘテロ四量体を形成する．このCENP-T-W-S-X複合体はヒストンに似た構造をとっており，通常のヒストンのまわりをDNAが巻いているように，CENP-T-W-S-X複合体もDNAがそのまわりを巻いた独自の構造を形成する．この構造が正常なキネトコア形成の種となる．CENP-S-X複合体をはたらかないようにするとDNAに適切に結合せず正常なキネトコアは形成されない．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/02/Fukagawa-Cell-12.2.2-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　キネトコアに存在するCENP-T-W-S-X複合体とDNAからなるユニークなクロマチン構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukagawa-Cell-12.2.2-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukagawa-Cell-12.2.2-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究では，キネトコア形成の足場となることが予想されたCENP-Tが<a href="#R3"><sup>3,4)</sup></a>，セントロメアの<a href="#" class="anno クロマチン">クロマチン</a>においてCENP-T-W-S-X複合体というユニークな<a href="#" class="anno ヒストン様">ヒストン様</a>の構造を形成していることを示した．これまで，セントロメアのクロマチンに関する研究というとセントロメアに<a href="#" class="anno 特異的">特異的</a>なヒストンのバリアントであるCENP-Aの機能<a href="#R1"><sup>1,2)</sup></a> と構造<a href="#R7"><sup>7)</sup></a> が中心であったが，CENP-Aの存在だけでは説明できない点が多くあった．この研究により提唱されたCENP-T-W-S-X複合体を含む<a href="#" class="anno クロマチン構造">クロマチン構造</a>は，今後，セントロメアの機能を解析するうえで重要な<a href="#" class="anno 方向性">方向性</a>をあたえており，学問的な意義は高いと考えられた．さらに，ヒストンと類似したタンパク質がヌクレオソーム様の構造をとる可能性を示した点は，セントロメアだけでなくクロマチンのかかわる生物学の全体に大きなインパクトをあたえた．ヒストンには多くのバリアントが存在し，クロマチンはこのバリアントの組合せにより独自の機能をはたすことが知られている．たとえば，転写の活発なクロマチン領域と活発でないクロマチン領域とでヒストンの構成が異なっていることはよく知られており，近年，ヒストンのコードする遺伝情報として注目されている．今回の研究は，ヒストンと類似したタンパク質の組合せによってもクロマチンは独自の機能をはたす可能性を示唆した．CENP-S-X複合体はセントロメア領域にくわえ<a href="#" class="anno DNA損傷">DNA損傷</a>部位にも存在することが知られている<a href="#R8"><sup>8,9)</sup></a>．DNA損傷部位にはCENP-T-W複合体は存在しないことから，そこではCENP-S-X複合体が単独あるいはほかのタンパク質と結合してDNAと結合している可能性が考えられる．しかしながら，CENP-S-X複合体がCENP-T-W複合体と結合するとセントロメアに局在し独自のクロマチン構造を形成するようになる（<a href="#F2">図2</a>）．ヒストンと類似したタンパク質の組合せで独自の機能を発揮するというモ<a href="#" class="anno デ">デ</a>ルは，通常のヒストンのバリアントの組合せからなる，いわゆる“<a href="#" class="anno ヒストンコード">ヒストンコード</a>”を広げた新しいクロマチンコードといえる<a href="#R10"><sup>10)</sup></a>．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Black, B.E. & Cleveland, D.W.</span>: <span class="ti">Epigenetic centromere propagation and the nature of CENP-A nucleosomes.</span> <span class='so'>Cell, 144, 471-479 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21335232" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Perpelescu, M. & Fukagawa, T.</span>: <span class="ti">The ABCs of CENPs.</span> <span class='so'>Chromosoma, 120, 425-446 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21751032" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Hori, T., Amano, M., Suzuki, A. et al.</span>: <span class="ti">CCAN makes multiple contacts with centromeric DNA to provide distinct pathways to the outer kinetochore.</span> <span class='so'>Cell, 135, 1039-1052 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19070575" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Gascoigne, K. E., Takeuchi, K., Suzuki, A. et al.</span>: <span class="ti">Induced ectopic kinetochore assembly bypasses the requirement for CENP-A nucleosomes.</span> <span class='so'>Cell, 145, 410-422 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21529714" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Luger, K., Mader, A. W., Richmond, R. K. et al.</span>: <span class="ti">Crystal structure of the nucleosome core particle at 2.8Å resolution.</span> <span class='so'>Nature, 389, 251-260 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9305837" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Amano, M., Suzuki, A., Hori, T. et al.</span>: <span class="ti">The CENP-S complex is essential for the stable assembly of outer kinetochore structure.</span> <span class='so'>J. Cell Biol., 186, 173-182 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19620631" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Tachiwana, H., Kagawa, W., Shiga, T. et al.</span>: <span class="ti">Crystal structure of the human centromeric nucleosome containing CENP-A.</span> <span class='so'>Nature, 476, 232-235 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21743476" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Singh, T. R., Saro, D., Ali, A. M. et al.</span>: <span class="ti">MHF1-MHF2, a histone-fold-containing protein complex, participates in the Fanconi anemia pathway via FANCM.</span> <span class='so'>Mol. Cell, 37, 879-886 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20347429" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Yan, Z., Delannoy, M., Ling, C. et al.</span>: <span class="ti">A histone-fold complex and FANCM form a conserved DNA-remodeling complex to maintain genome stability.</span> <span class='so'>Mol. Cell, 37, 865-878 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20347428" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Foltz, D. R. & Stukenberg, P. T.</span>: <span class="ti">A new histone at the centromere?</span> <span class='so'>Cell, 148, 394-396 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22304909" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/18_02.html" target="_blank">18.2 Somatic Cell Division (mitosis) and Meiosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_04.html" target="_blank">3.4 Genetic Factors and Chromosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_06.html" target="_blank">3.6 Gain-of-Function Mutations</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_07.html" target="_blank">3.7 Chromosomes and the Genome</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/10_04.html" target="_blank">10.4 Epigenetic Regulation of Gene Expression</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">西野 達哉（Tatsuya Nishino）</span><br>略歴：2001年 大阪大学大学院医学系研究科 修了，2003年 オーストリアResearch Institute of Molecular Pathology研究員，2006年 英国Oxford大学 研究員，2008年 大阪大学蛋白質研究所 招聘研究員を経て，2009年より国立遺伝学研究所 助教．<br>研究テーマ：真核生物の染色体分配装置の構造生物学．<br><br><strong>深川 竜郎（Tatsuo Fukagawa）</strong><br>国立遺伝学研究所 教授．<br>研究室URL：<a href="http://www.nig.ac.jp/labs/MolGene/index_j.html" target="_blank">http://www.nig.ac.jp/labs/MolGene/index_j.html</a><br></div><br>© 2012 西野達哉・深川竜郎 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

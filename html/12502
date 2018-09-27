@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 生細胞におけるリアルタイムでの1分子のmRNAからの翻訳のダイナミクスの可視化および定量 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/12502" rel="bookmark">生細胞におけるリアルタイムでの1分子のmRNAからの翻訳のダイナミクスの可視化および定量</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>森崎達也・Timothy J. Stasevich</strong><br>（米国Colorado州立大学Department of Biochemistry and Molecular Biology）<br>email：<a href="mailto:tatsuya.morisaki@colostate.edu">森崎達也</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.049">10.7875/first.author.2016.049</a><br><div class="reference"><br><span class="ti">Real-time quantification of single RNA translation dynamics in living cells.</span><br><span class="au">Tatsuya Morisaki, Kenneth Lyon, Keith F. DeLuca, Jennifer G. DeLuca, Brian P. English, Zhengjian Zhang, Luke D. Lavis, Jonathan B. Grimm, Sarada Viswanathan, Loren L. Looger, Timothee Lionnet, Timothy J. Stasevich</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27313040" target="_blank"><em>Science</em>, <strong>352</strong>,1425-1429 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　RNAからタンパク質への翻訳は遺伝子の発現において<a href="#" class="anno も">も</a>っとも重要な過程のひとつであるが，翻訳の過程を<a href="#" class="anno 生細胞">生細胞</a>において1<a href="#" class="anno 分子レベル">分子レベル</a>の精度で<a href="#" class="anno 可視化">可視化</a>することに成功した例はない．筆者らは，複数の<a href="#" class="anno エピトープ">エピトープ</a>タグおよび抗体をもとにした蛍光<a href="#" class="anno プローブ">プローブ</a>を用いることにより，生細胞において1分子の<a href="#" class="anno mRNA">mRNA</a>からの翻訳を可視化しその<a href="#" class="anno ダイナミクス">ダイナミクス</a>を定量する技術を開発し，N<a href="#" class="anno CT">CT</a>法と命名した．このNCT法を用いることにより，翻訳は毎秒約10<a href="#" class="anno <a href="#" class="anno アミノ">アミノ</a>酸<a href="#" class="anno 残基">残基</a>">アミノ酸残基</a>を伸長する速度で進むこと，また，30秒ごとに<a href="#" class="anno 確率的">確率的</a>に開始することが明らかにされた．また，mRNAは200～900塩基ごとにひとつの<a href="#" class="anno リボソーム">リボソーム</a>を含む<a href="#" class="anno ポリソーム">ポリソーム</a>を形成することがわかった．さらに，多色の<a href="#" class="anno 蛍光プローブ">蛍光プローブ</a>を開発し2つの異なるタンパク質を標識することにより，ほとんどのポリソームは独立して機能するが，一部のポリソームは2つの異なるmRNAを同時に翻訳する高次<a href="#" class="anno 複合体">複合体</a>を形成しうることが見い出された．NCT法はすぐれた感度と<a href="#" class="anno 多様性">多様性</a>をもち，今後，生細胞における1分子のmRNAからの翻訳のダイナミクスを定量する強力なツールとして期待される．<br/><br/><h2>はじめに</h2><br/>　遺伝子の発現はDNAからRNAへの転写，および，RNAからタンパク質への翻訳という2つの過程からなり，この2つの過程が遺伝子<a href="#" class="anno 発現制御">発現制御</a>の根幹をなす．現在，転写の過程は，生細胞においてリアルタイムでの1遺伝子の精度の可視化および定量が実現されているが<a href="#R1"><sup>1)</sup></a>，翻訳の過程に関してはい<a href="#" class="anno まだ">まだ</a>実例がない．<a href="#" class="anno 原理的">原理的</a>には，<a href="#" class="anno GFP">GFP</a>に代表される<a href="#" class="anno 蛍光タンパク質">蛍光タンパク質</a>を用いることにより翻訳の可視化は可能であるが，<a href="#" class="anno 現実的">現実的</a>には，蛍光タンパク質は蛍光を発するまでに<a href="#" class="anno フォール<a href="#" class="anno デ">デ</a>ィング">フォールディング</a>および蛍光団の形成に時間を必要とすることから，蛍光タンパク質を用いて1分子のmRNAからの翻訳をリアルタイムで可視化することはきわめて困難である<a href="#R2"><sup>2)</sup></a>．近年，翻訳反応をつかさどるリボソームがmRNAを通過することでmRNAから解離するRNA<a href="#" class="anno バイオセンサー">バイオセンサー</a>を用いることにより生細胞における翻訳の過程を可視化した研究が報告されたが，この系では1回の翻訳の過程でシグナルが失われるため，継続した翻訳の過程のダイナミクスを可視化し定量することは不可能である<a href="#R3"><sup>3)</sup></a>．筆者らは，複数のエピトープタグおよび抗体をもとにした蛍光プローブ，および，きわめて明るく退色に強い<a href="#" class="anno 蛍光色素">蛍光色素</a>を組み合わせることにより，生細胞における1分子のmRNAからの翻訳ダイナミクスの可視化および定量に取り組んだ．<br/><br/><h2>1．生細胞において1分子のmRNAからの翻訳を可視化する手法の開発</h2><br/>　1分子のmRNAからの翻訳をリアルタイムで可視化するのに<a href="#" class="anno 抗原抗体反応">抗原抗体反応</a>を利用した．<a href="#" class="anno N末端">N末端</a>に複数のエピトープタグを融合させた対象となるタンパク質の遺伝子をコードするDNA，および，蛍光色素により標識したそのエピトープタグを認識する抗体のFab領域を細胞に導入することにより，対象となるタンパク質がリボソームにおいて翻訳されるやいなや，そのフォールディングを待つことなく<a href="#" class="anno 蛍光標識">蛍光標識</a>されたFab領域がそのエピトープタグを認識し集積するため，翻訳されてすぐの新生<a href="#" class="anno ペプチド">ペプチド</a>鎖を可視化することができるのではないかと考えたのである．<br/>　このアイデアの実現<a href="#" class="anno 可能性">可能性</a>を確認するため，エピトープタグとして10×<a href="#" class="anno FLAG">FLAG</a>タグ <a href="#R4"><sup>4)</sup></a> を，対象となるタンパク質として1544アミノ酸残基と<a href="#" class="anno 比較的">比較的</a>大きい<a href="#" class="anno 核タンパク質">核タンパク質</a><a href="#" class="anno KDM5B">KDM5B</a>を選択し，これに，mRNAを可視化するために3’側<a href="#" class="anno 非<a href="#" class="anno 翻訳領域">翻訳領域</a>">非翻訳領域</a>に24×<a href="#" class="anno MS2">MS2</a><a href="#" class="anno ステム">ステム</a><a href="#" class="anno ループ構造">ループ構造</a><a href="#R5"><sup>5)</sup></a> を組み込んだDNAを作製し，ヒト<a href="#" class="anno <a href="#" class="anno 骨肉腫">骨肉腫</a>細胞">骨肉腫細胞</a>である<a href="#" class="anno U2OS細胞">U2OS細胞</a>に導入した（<a href="#F1">図1</a>）．つづいて，蛍光色素Cy3により標識した抗<a href="#" class="anno FLAGタグ">FLAGタグ</a>抗体のFab領域，および，蛍光色素JF646 <a href="#R6"><sup>6)</sup></a> により標識したMS2<a href="#" class="anno ステムループ">ステムループ</a>構造に結合するタンパク質<a href="#" class="anno M<a href="#" class="anno CP">CP</a>">MCP</a>を細胞に導入した（<a href="#F1">図1</a>）．24時間後，MCPは<a href="#" class="anno 細胞質">細胞質</a>に存在するmRNAを，Fab領域は核に存在するKDM5Bを標識し，複数のエピトープタグおよびFab領域の存在はKDM5Bの翻訳および局在に干渉し<a href="#" class="anno ないこと">ないこと</a>が確認された．Fab領域がどれだけ早くタンパク質を標識できるか確認するため，DNAの導入から6時間後に観察したところ，まだ多くのKDM5Bが翻訳されていないため，Fab領域は核をうっすらと標識するのみで，多くのFab領域はMCPにより標識された細胞質のmRNAと<a href="#" class="anno 共局在">共局在</a>し，mRNAとともに細胞質において移動していた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　生細胞において1分子のmRNAからの翻訳を可視化する系</strong><br/>DNAが転写されると，MCPがmRNAの3’側非翻訳領域に組み込まれた複数のMS2ステムループ構造を認識し標識する．つづいて，このmRNAが翻訳されると，抗エピトープタグ抗体のFab領域が翻訳産物のN末端に存在する複数のエピトープタグを認識し標識する．翻訳中のmRNAとその翻訳産物は細胞質において共局在スポットとして可視化される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Morisaki-Science-16.6.4-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　生細胞において1分子のmRNAからの翻訳を可視化する系" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Morisaki-Science-16.6.4-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Morisaki-Science-16.6.4-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　このmRNAとFab領域の共局在したスポットが，翻訳中のmRNAとその<a href="#" class="anno 翻訳産物">翻訳産物</a>のスポットであるかどうかを2種類の翻訳<a href="#" class="anno 阻害剤">阻害剤</a>を用いて確かめた．翻訳中のタンパク質をリボソームから放出することの知られる翻訳阻害剤<a href="#" class="anno ピューロマイシン">ピューロマイシン</a>を添加したところ，mRNAに共局在していたFab領域のシグナルが失われた．また，翻訳伸長速度を低下させmRNAあたりのリボソームの数を増加させることの知られる翻訳阻害剤<a href="#" class="anno シクロヘキシミド">シクロヘキシミド</a>を添加したところ，共局在したスポットにおけるFab領域のシグナルが増加した．これらの結果より，このスポットはまさに翻訳中のmRNAとその翻訳産物であると考えられた．<br/>　より小さなタンパク質の翻訳の観察が可能かどうか調べるため，KDM5Bを<a href="#" class="anno β<a href="#" class="anno アクチン">アクチン</a>">βアクチン</a>（374アミノ酸残基），あるいは，<a href="#" class="anno ヒストン">ヒストン</a><a href="#" class="anno H2B">H2B</a>（125アミノ酸残基）に置き換えて同様に実験した．その結果，24時間後にβアクチンは細胞質にフィラメント様の局在，<a href="#" class="anno <a href="#" class="anno ヒストンH2">ヒストンH2</a>B">ヒストンH2B</a>は核に局在を示していたが，6時間後の時点においてはβアクチンおよびヒストンH2BともKDM5Bと同様に，細胞質においてmRNAとその翻訳産物が共局在したスポットを示した．以上より，この系により，さまざまな<a href="#" class="anno 大きさ">大きさ</a>のタンパク質の翻訳が1分子レベルで可視化できることが示唆された（<a href="#F1">図1</a>）．<br/><br/><h2>2．NCT法によるポリソームの<a href="#" class="anno 移動性">移動性</a>および大きさの定量</h2><br/>　<a href="#" class="anno タイムラプス">タイムラプス</a><a href="#" class="anno イメージング">イメージング</a>により翻訳中の1分子のmRNAとその翻訳産物の共局在したスポットを追跡する，新生<a href="#" class="anno ペプチド鎖">ペプチド鎖</a>追跡（nascent chain <a href="#" class="anno <a href="#" class="anno tra">tra</a>c">trac</a><a href="#" class="anno kin">kin</a>g：NCT）法に取り組んだ．翻訳中のタンパク質のイメージングに特化するため，翻訳済みのタンパク質を可視化せず，mRNAと共局在するタンパク質のみを可視化できるようレーザーの強度を調整した．この条件では，ポリソーム（1分子のmRNAとそれを翻訳する複数のリボソーム，さらに，これらのリボソームにより翻訳され新規に合成中のタンパク質）のみが可視化される．このNCT法を用いることにより，KDM5B，βアクチン，ヒストンH2BをコードするmRNAの翻訳の頻度およびその程度，ポリソームの移動性，ポリソームの大きさの測定を試みた．<br/>　細胞におけるすべてのmRNAおよびポリソームの数を定量し，その比率を計算することにより翻訳の頻度を調べた．約90％のKDM5BのmRNAが翻訳中であったのに対し，βアクチンは約20％，ヒストンH2Bは約5％のmRNAが翻訳中であった（ひとつのリボソームにより翻訳されるmRNAはこの割合には含まれない）．さらに，ポリソームにおけるFab領域のシグナルは，KDM5Bはβアクチンに比べ約1.<a href="#" class="anno 5倍">5倍</a>強く，βアクチンはヒストンH2Bに比べ約1.5倍強かった．Fab領域のシグナルの<a href="#" class="anno 蛍<a href="#" class="anno 光強度">光強度</a>">蛍光強度</a>を較正することにより，KDM5Bのポリソームは約5個，βアクチンのポリソームは約3個，ヒストンH2Bのポリソームは約2個のリボソームをもつことが見い出された．それぞれのmRNAの<a href="#" class="anno 長さ">長さ</a>をリボソームの数で割ることにより，mRNAは200～900塩基ごとにひとつのリボソームを含むポリソームを形成することがわかった．<br/>　追跡したポリソームの移動性を平均2乗変異（mean-square displ<a href="#" class="anno ace">ace</a>ment：<a href="#" class="anno MSD">MSD</a>）法により定量した．核タンパク質であるKDM5BおよびヒストンH2Bのポリソームはその平均2乗変異が時間に対し線形に増加したことから，細胞質において通常拡散をしていることがわかった．また，KDM5Bのポリソームに比べて小さいヒストンH2Bのポリソームの多くは，KDM5Bより顕著に速く拡散した．βアクチンのポリソームは非線形拡散をしていたが，βアクチンはKDM5BやヒストンH2Bと異なり細胞質において機能するため，翻訳されたそばからほかのタンパク質と<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>する可能性があり，その結果，非線形拡散を示すことが考えられた．これらの傾向とは別に，個々のポリソームの移動性はきわめて多様であり，非常に速く拡散するKDM5Bのポリソームや，ほぼ動かないヒストンH2Bのポリソームもみられた．これまで，翻訳中のmRNAの移動性は低下すると考えられていたが，mRNAの移動性のみからその翻訳の状態を知ることはきわめて困難であることがわかった．<br/>　これまで，<a href="#" class="anno 電子顕微鏡">電子顕微鏡</a>により，<a href="#" class="anno ヘア<a href="#" class="anno ピン">ピン</a>">ヘアピン</a>構造や球状構造をとるポリソームが観察されている<a href="#R7"><sup>7)</sup></a>．生細胞におけるポリソームの大きさおよび形に関する情報を得るため，KDM5B，βアクチン，ヒストンH2Bのポリソームにおいて，翻訳中のタンパク質の平均位置（Fab領域のシグナル）とmRNAの3’側非翻訳領域（MCPのシグナル）との距離を調べた．もし，ポリソームがヘアピン構造をとるなら，mRNAの長さに比例してこの距離は増加しているはずである．しかし，<a href="#" class="anno 実際">実際</a>はKDM5Bのポリソームにおける距離がもっとも短く，このことより，観察されたポリソームはより球状に近い構造をしていることが示唆された．このことは，最近の<a href="#" class="anno <a href="#" class="anno 原子間">原子間</a>力顕微鏡">原子間力顕微鏡</a>による観察とも一致した<a href="#R8"><sup>8)</sup></a>．<br/><br/><h2>3．<a href="#" class="anno 蛍光相関分光法">蛍光相関分光法</a>および<a href="#" class="anno 光退色">光退色</a>後蛍光回復法による翻訳のダイナミクスの定量</h2><br/>　ポリソームの<a href="#" class="anno 基本的">基本的</a>な性質に関する情報が得られたところで，ポリソームにおける翻訳のダイナミクスを明らかにすることに取り組んだ．DNAからRNAへの<a href="#" class="anno 転写伸長">転写伸長</a>速度を定量する<a href="#" class="anno 非<a href="#" class="anno 侵襲的">侵襲的</a>"><a href="#" class="anno 非侵襲">非侵襲</a>的</a>な方法として，蛍光相関分光法（fluorescence <a href="#" class="anno cor">cor</a>re<a href="#" class="anno lat">lat</a>ion spectros<a href="#" class="anno cop">cop</a>y：FCS）を用いてシグナルのゆらぎの相関から算出する方法が報告されている<a href="#R9"><sup>9)</sup></a>．翻訳伸長速度を定量するため，ポリソームにおけるFab領域のシグナルのゆらぎの相関を蛍光相関分光法により調べた．これにさきだち，抗FLAGタグ抗体のFab領域はFLAGタグと数秒で結合すること，また，結合すると5分以上も解離しないことを確認した．以上の結果より，翻訳<a href="#" class="anno 伸長反応">伸長反応</a>が数秒から5分以内であれば，抗FLAGタグ抗体のFab領域のFLAGタグへの結合のダイナミクスは翻訳のダイナミクスの定量に影響をあたえないと考えられた．<br/>　KDM5BのポリソームにおけるFabシグナルの蛍光相関より，KDM5Bの翻訳伸長反応には約150秒を要することが見い出された．翻訳阻害剤であるシクロヘキシミドを添加したところこの蛍光相関は失われた．<a href="#" class="anno 光退色後蛍光回復">光退色後蛍光回復</a>（fluorescence reco<a href="#" class="anno ver">ver</a>y af<a href="#" class="anno ter">ter</a> photobleac<a href="#" class="anno hin">hin</a>g：F<a href="#" class="anno RA">RA</a>P）法を用いてKDM5Bのポリソームにおける翻訳伸長速度を定量することを試みた．レーザーの強度を調整することにより，MCPのシグナルを維持しFab領域のシグナルのみを光退色させたのち，mRNAを追跡しFab領域のシグナルの蛍光強度が回復するまでの時間を測定したところ，蛍光強度の回復には125秒～180秒を要し，蛍光相関分光法による結果とほぼ<a href="#" class="anno 同じ">同じ</a><a href="#" class="anno タイムスケール">タイムスケール</a>であることが確認された．さらに，蛍光相関分光法により，βアクチンおよびヒストンH2Bは翻訳伸長反応にそれぞれ約32秒および約16秒を要することが明らかにされた．それぞれのタンパク質のアミノ酸残基数を翻訳伸長反応に要した時間で割ることにより翻訳伸長速度を算<a href="#" class="anno 出し">出し</a>たところ，3つのタンパク質の翻訳伸長速度に顕著な差はなく，1秒あたり約10アミノ酸残基を伸長することがわかった．<a href="#" class="anno 全ゲノム">全ゲノム</a>を対象としたリボソーム<a href="#" class="anno プロファイリング">プロファイリング</a>において翻訳伸長速度は1秒あたり5.6アミノ酸残基と算出されており<a href="#R10"><sup>10)</sup></a>，算出された翻訳伸長速度とは大きな差はなく，このことからも蛍光相関分光法を用いた翻訳のダイナミクスの定量の<a href="#" class="anno 有用性">有用性</a>が確認された．さらに，蛍光相関分光法により，翻訳の過程において翻訳のバーストおよび記憶は観察されず，翻訳の開始は確率的に起こると考えられ，また，毎秒10アミノ酸残基の翻訳伸長速度でKDM5BのmRNAに約5個のリボソームが含まれたことから，翻訳は30秒ごとに確率的に開始すると算出された．<br/><br/><h2>4．多色のイメージングによる2つの異なるmRNAの翻訳の同時観察</h2><br/>　翻訳の可視化に抗体を用いる利点のひとつとして，異なるエピトープタグを高い<a href="#" class="anno 親和性">親和性</a>で認識するさまざまな抗体が存在するため，多色のイメージングに応用できることがあげられる．この応用例として，KDM5Bのタグを10×FLAGタグから10×<a href="#" class="anno HA">HA</a>タグ<a href="#R4"><sup>4)</sup></a> に変更し，蛍光色素Cy3により標識した抗FLAGタグ抗体のFab領域および蛍光色素Alexa488により標識した抗HAタグ抗体のFab領域により，2つの異なるmRNAの翻訳を単一の生細胞において同時に観察した．ほとんどすべてのポリソームはFLAGタグを付加したKDM5BあるいはHAタグを付加したKDM5Bのどちらかを翻訳したが，約5％のポリソームは両方を翻訳する高次複合体を形成しうることが見い出された．この高次複合体の機能は謎であるが，2つの異なる遺伝子の発現を翻訳の段階において同時に制御したり，翻訳中のタンパク質がその場で<a href="#" class="anno 多量体">多量体</a>化するのを促進したりといった，より<a href="#" class="anno 一般的">一般的</a>な<a href="#" class="anno 遺伝子発現">遺伝子発現</a>制御の機能をもつのかもしれない．<br/><br/><h2>おわりに</h2><br/>　複数のエピトープタグおよび抗体をもとにした蛍光プローブを用いたNCT法は，生細胞においてリアルタイムで1分子のmRNAからの翻訳を可視化し定量することを可能にした．<em>Science</em>誌にこの論文と同時に掲載されたSunタグ <a href="#R11"><sup>11)</sup></a> を使った技術によっても，筆者らの得た翻訳伸長速度および<a href="#" class="anno 翻訳開始">翻訳開始</a>速度ときわめて近い値が算出されており<a href="#R12"><sup>12)</sup></a>，異なる<a href="#" class="anno 研究室">研究室</a>のあいだでも<a href="#" class="anno 再現性">再現性</a>の得られることが示された．Sunタグを使った技術とNCT法は類似しているが，抗体を用いたNCT法はSunタグを使った技術では不可能な多色のイメージングへの応用が即座に可能であり，また，エピトープタグが1/3ほどの短さであるため時<a href="#" class="anno 空間分解能">空間分解能</a>が約3倍であること，翻訳への影響が小さいこと，などの利点があげられる．今後，NCT法は翻訳の過程における遺伝子発現ネットワークの制御の解明，および，翻訳の過程の制御のミスに起因する疾病の解明に貢献すると考えられる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hager, G. L., McNally, J. G. & Misteli, T.</span>: <span class="ti">Transcription dynamics.</span> <span class='so'>Mol. Cell, 35, 741-753 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19782025" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Chao, J. A., Yoon, Y. J. & Singer, R. H.</span>: <span class="ti">Imaging translation in single cells using fluorescent microscopy.</span> <span class='so'>Cold Spring Harb. Perspect. Biol., 4, a012310 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22960595" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Halstead, J. M., Lionnet, T., Wilbertz, J. H. et al.</span>: <span class="ti">An RNA biosensor for imaging the first round of translation from single cells to living animals.</span> <span class='so'>Science, 347, 1367-1671 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25792328" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Viswanathan, S., Williams, M. E., Bloss, E. B. et al.</span>: <span class="ti">High-performance probes for light and electron microscopy.</span> <span class='so'>Nat. Methods, 12, 568-576 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25915120" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Bertrand, E., Chartrand, P., Schaefer, M. et al.</span>: <span class="ti">Localization of ASH1 mRNA particles in living yeast.</span> <span class='so'>Mol. Cell, 2, 437-445 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9809065" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Grimm, J. B., English, B. P., Chen, J. et al.</span>: <span class="ti">A general method to improve fluorophores for live-cell and single-molecule microscopy.</span> <span class='so'>Nat. Methods, 12, 244-250 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25599551" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Christensen, A. K. & Bourne, C. M.</span>: <span class="ti">Shape of large bound polysomes in cultured fibroblasts and thyroid epithelial cells.</span> <span class='so'>Anat. Rec., 255, 116-129 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10359513" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Viero, G., Lunelli, L., Passerini, A. et al.</span>: <span class="ti">Three distinct ribosome assemblies modulated by translation are the building blocks of polysomes.</span> <span class='so'>J. Cell Biol., 208, 581-596 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25713412" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Larson, D. R., Zenklusen, D., Wu, B. et al.</span>: <span class="ti">Real-time observation of transcription initiation and elongation on an endogenous yeast gene.</span> <span class='so'>Science, 332, 475-478 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21512033" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Ingolia, N. T., Ghaemmaghami, S., Newman, J. R. et al.</span>: <span class="ti">Genome-wide analysis in vivo of translation with nucleotide resolution using ribosome profiling.</span> <span class='so'>Science, 324, 218-223 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19213877" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Tanenbaum, M. E., Gilbert, L. A., Qi, L. S. et al.</span>: <span class="ti">A protein-tagging system for signal amplification in gene expression and fluorescence imaging.</span> <span class='so'>Cell, 159, 635-646 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25307933" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Wu, B., Eliscovich, C., Yoon, Y. J. et al.</span>: <span class="ti">Translation dynamics of single mRNAs in live cells and neurons.</span> <span class='so'>Science, 352, 1430-1435 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27313041" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br></ul><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_05.html" target="_blank">9.5 Cooperation between Transcription and Translation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_02.html" target="_blank">9.2 Ribosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_04.html" target="_blank">9.4 Protein Synthesis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_01.html" target="_blank">9.1 Aminoacyl-tRNA Synthesis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/08_01.html" target="_blank">8.1 Gene Transcription and Expression</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">森崎 達也（Tatsuya Morisaki）</span><br>略歴：2010年 京都大学大学院薬学研究科博士課程 修了，同年 米国NIH National Cancer Instituteポスドクを経て，2014年より米国Colorado州立大学Research Scientist．<br>研究テーマ：遺伝子発現のダイナミクス．<br>抱負：新規のイメージング技術の開発をつうじて遺伝子発現制御の理解を深め，関連した疾病の治療の基礎開発に貢献したい．<br><br><strong>Timothy J. Stasevich</strong><br>米国Colorado州立大学Assistant Professor．<br>研究室URL：<a href="http://sites.bmb.colostate.edu/stasevichlab/" target="_blank">http://sites.bmb.colostate.edu/stasevichlab/</a><br></div><br>© 2016 森崎達也・Timothy J. Stasevich Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a><br>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

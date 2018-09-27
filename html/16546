@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Eタンパク質-Idタンパク質の制御軸がT細胞のアイデンティティを規定し胸腺における自然リンパ球の分化を抑制する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/16546" rel="bookmark">Eタンパク質-Idタンパク質の制御軸がT細胞のアイデンティティを規定し胸腺における自然リンパ球の分化を抑制する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>宮崎正輝<sup>1</sup>・宮崎和子<sup>1</sup>・河本 宏<sup>1</sup>・Cornelis Murre <sup>2</sup></strong><br>（<sup>1</sup>京都大学ウイルス・再生医科学研究所 再生免疫学分野，<sup>2</sup>米国California大学San Diego校Department of Molecular Biology）<br>email：<a href="mailto:mmiyazaki@infront.kyoto-u.ac.jp">宮崎正輝</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.047">10.7875/first.author.2017.047</a><br><div class="reference"><br><span class="ti">The E-Id protein axis specifies adaptive lymphoid cell identity and suppresses thymic innate lymphoid cell development.</span><br><span class="au">Masaki Miyazaki, Kazuko Miyazaki, Kenian Chen, Yi Jin, Jacob Turner, Amanda J. Moore, Rintaro Saito, Kenichi Yoshida, Seishi Ogawa, Hans-Reimer Rodewald, Yin C. Lin, Hiroshi Kawamoto, Cornelis Murre</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28514688" target="_blank"><em>Immunity</em>, <strong>46</strong>, 818-834.e4 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 獲得免疫">獲得免疫</a>は<a href="#" class="anno B細胞">B細胞</a>と<a href="#" class="anno T細胞">T細胞</a>による抗原に<a href="#" class="anno 特異的">特異的</a>な反応により惹起される．Eタンパク質のひとつ<a href="#" class="anno E2A">E2A</a>はB<a href="#" class="anno 細胞の分化">細胞の分化</a>において必須の機能を<a href="#" class="anno も">も</a>つが，T細胞の分化における機能については明らかではなかった．また，Eタンパク質の拮抗タンパク質である<a href="#" class="anno Idタンパク質">Idタンパク質</a>のひとつ<a href="#" class="anno Id2">Id2</a>は<a href="#" class="anno 自然<a href="#" class="anno リンパ球">リンパ球</a>">自然リンパ球</a>や<a href="#" class="anno 樹状">樹状</a>細胞の分化に必須であるが，これらの分化とEタンパク質の機能との関連についてはまったく解明されていなかった．今回の研究において，Eタンパク質のうちE2AおよびHEBが<a href="#" class="anno 協調的">協調的</a>にはたらくことにより胸腺におけるT細胞への分化が決定すること，同時に，胸腺における自然リンパ球の<a href="#" class="anno 異所性">異所性</a>の分化が抑制されることが見い出された．また，<a href="#" class="anno ノックアウトマウス">ノックアウトマウス</a>の解析により，自然リンパ球への分化はE2AおよびHEBの活性の低下により起こり，Id2の機能がなくても起こることが証明された．その<a href="#" class="anno 分子機構">分子機構</a>として，Eタンパク質はT細胞への分化の決定に必須であるタンパク質をコードする遺伝子の発現を直接に制御すること，さらに，これらの遺伝子の発現を制御する<a href="#" class="anno エンハンサー">エンハンサー</a>に対するアクセシビリティの維持に必要であることが示された．以上の結果から，<a href="#" class="anno リンパ球系">リンパ球系</a>の<a href="#" class="anno 前駆細胞">前駆細胞</a>において獲得<a href="#" class="anno 免疫系">免疫系</a>のリンパ球へと分化するのか，それとも，<a href="#" class="anno 自然免疫">自然免疫</a>系のリンパ球へと分化するかという<a href="#" class="anno 運命決定">運命決定</a>は，Eタンパク質-Idタンパク質の制御軸により規定されることが示唆された．<br/><br/><h2>はじめに</h2><br/>　<a href="#" class="anno 免疫応答">免疫応答</a>は獲得免疫と自然免疫との協調によりなりたつ．T細胞は獲得免疫において<a href="#" class="anno 中心的">中心的</a>な役割を担うリンパ球であり，<a href="#" class="anno 感染防御">感染防御</a>，<a href="#" class="anno アレル">アレル</a>ギー炎症，<a href="#" class="anno がん免疫">がん免疫</a>などにおいて重要であることが知られている．最近，<a href="#" class="anno 自然免疫系">自然免疫系</a>における新たなリンパ球として自然リンパ球が同定された．自然リンパ球は<a href="#" class="anno アレルギー疾患">アレルギー疾患</a>，<a href="#" class="anno 炎症性">炎症性</a><a href="#" class="anno 腸疾患">腸疾患</a>，<a href="#" class="anno 糖尿病">糖尿病</a>などの<a href="#" class="anno 代謝性">代謝性</a>の疾患に関連すると考えられ，おもに炎症性<a href="#" class="anno サイト<a href="#" class="anno カ">カ</a>イン">サイトカイン</a>を分泌することにより免疫応答を増強する．自然リンパ球は分泌するサイトカインにより大きく3つに分類される．<a href="#" class="anno 転写因子">転写因子</a>T-<a href="#" class="anno bet">bet</a>を発現し<a href="#" class="anno インターフェロンγ">インターフェロンγ</a>を分泌する<a href="#" class="anno 1型">1型</a>自然リンパ球，転写因子<a href="#" class="anno Gata3">Gata3</a>に依存し<a href="#" class="anno インターロイキン">インターロイキン</a>4，<a href="#" class="anno インターロイキン5">インターロイキン5</a>，<a href="#" class="anno インターロイキン1">インターロイキン1</a>3を分泌する<a href="#" class="anno 2型">2型</a>自然リンパ球，転写因子<a href="#" class="anno Ror">Ror</a>γtを発現し<a href="#" class="anno インターロイキン17">インターロイキン17</a>および<a href="#" class="anno <a href="#" class="anno インターロイキン2">インターロイキン2</a>2">インターロイキン22</a>を分泌する<a href="#" class="anno 3型">3型</a>自然リンパ球である<a href="#R1"><sup>1)</sup></a>．T細胞と自然リンパ球は分泌するサイトカインや鍵となる転写因子などを共有しており，<a href="#" class="anno 機能的">機能的</a>にも<a href="#" class="anno 類似性">類似性</a>が高い．また，ともに共通<a href="#" class="anno リンパ球前駆細胞">リンパ球前駆細胞</a>から分化する．とくに，<a href="#" class="anno Tcf">Tcf</a>1，<a href="#" class="anno Bcl11b">Bcl11b</a>，Gata3，<a href="#" class="anno Nfil3">Nfil3</a>，<a href="#" class="anno Tox">Tox</a>，Id2といったT細胞の分化において重要な機能をもつ転写因子は，自然リンパ球の分化の過程においても高く発現し重要な機能をはたす．T細胞と自然リンパ球との最大の違いは，T細胞が抗原に特異的な<a href="#" class="anno 受容体">受容体</a>により<a href="#" class="anno 活性化">活性化</a>されるのに対し，自然リンパ球はサイトカインの刺激により活性化されることである．いい換えると，<a href="#" class="anno 遺伝子の<a href="#" class="anno 再構成">再構成</a>">遺伝子の再構成</a>による受容体の形成こそがT細胞と自然リンパ球との違いを決定する．これまで，T細胞と自然リンパ球の分化の分岐点についてはまったく研究されていなかった．それは，正常な状態においては胸腺に自然リンパ球が存在しないためであろう．<br/>　哺乳類のEタンパク質は，<em>E2A</em>遺伝子にコードされるE47およびE12，HEB，E2-2の4つからなる．E2Aは<a href="#" class="anno EBF">EBF</a>1や<a href="#" class="anno Foxo1">Foxo1</a>とともにB細胞への分化の決定に必須であるが<a href="#R2"><sup>2)</sup></a>，T細胞への分化の決定における機能は不明であった．それは，E2Aノックアウトマウスにおいては胸腺におけるT細胞の分化は維持されたためである．一方，Idタンパク質としては<a href="#" class="anno Id1">Id1</a>～<a href="#" class="anno Id4">Id4</a>があり，Id2および<a href="#" class="anno Id3">Id3</a>は胸腺におけるT細胞の選択，活性化，<a href="#" class="anno メモリーT細胞">メモリーT細胞</a>の維持，<a href="#" class="anno 濾胞">濾胞</a>性<a href="#" class="anno ヘルパーT細胞">ヘルパーT細胞</a>の分化，<a href="#" class="anno <a href="#" class="anno 制御性">制御性</a>T細胞">制御性T細胞</a>による炎症の抑制に重要であることが，筆者らも含む多くの<a href="#" class="anno 研究グループ">研究グループ</a>により報告されている<a href="#R3"><sup>3-5)</sup></a>．Id2は自然リンパ球の分化およびその機能に重要であることが広く知られているが，Id2がいったい何を制御するのかはまったく不明であった．<br/>　今回，筆者らは，Eタンパク質のうちE2AとHEBが協調的に機能し，生体におけるT細胞の分化に決定的に必要であること，また，胸腺における自然リンパ球の分化を抑制することを見い<a href="#" class="anno 出し">出し</a>た．<br/><br/><h2>1．E2Aの発現とId2の発現は自然リンパ球の分化において<a href="#" class="anno <a href="#" class="anno 逆<a href="#" class="anno 相">相</a>">逆相</a>関">逆相関</a>を示す</h2><br/>　自然リンパ球の分化におけるE2AおよびId2による<a href="#" class="anno 転写制御">転写制御</a>の詳細について，E2AのレポーターマウスおよびId2のレポーターマウスを解析した．その結果，自然リンパ球の前駆細胞は，E2A<a href="#" class="anno 高発現">高発現</a>かつId2<a href="#" class="anno 低発現">低発現</a>，および，E2A低発現かつId2高発現，という2つの細胞の集団に分けられた．このことは，E2Aの活性が低下してからId2の発現が上昇することを意味し，従来のId2がE2Aの活性を抑制することにより自然リンパ球の分化を決定するという考えとは異なる結果であった．さらに，転写因子<a href="#" class="anno PLZF">PLZF</a>は自然リンパ球の前駆細胞において<a href="#" class="anno 一過性">一過性</a>に発現することが報告されていたことから<a href="#R6"><sup>6)</sup></a>，Id2とPLZFのダブルリポーターマウスを作製しId2とPLZFの発現の順序についても検討した．その結果，PLZFの発現はId2の発現よりも先行し，そののち，PLZFの発現が低下してもId2は高発現を維持した．これらの結果から，自然リンパ球への分化の過程におけるE2A，Id2，PLZFの発現の順序が明らかにされ，E2Aの発現とId2の発現の逆相関が示された．<br/><br/><h2>2．E2AおよびHEBは胸腺におけるT細胞の分化に必須である</h2><br/>　T細胞への分化の決定におけるEタンパク質の機能について検討するため，E2AとHEBのダブル<a href="#" class="anno コン<a href="#" class="anno デ">デ</a>ィショナル">コンディショナル</a>ノックアウトを作製した．E2AおよびHEBを後天的に欠損，あるいは，リンパ球の系列に分化してから欠損させた結果，いずれも，胸腺においてもっとも初期のT前駆細胞の段階で分化は障害された．また，<a href="#" class="anno αβT細胞">αβT細胞</a>だけでなく<a href="#" class="anno γδT細胞">γδT細胞</a>も顕著に減少し，T細胞の系列全体に重度な障害が認められた．くわえて，<a href="#" class="anno 胎<a href="#" class="anno 仔">仔</a>">胎仔</a>の胸腺から採取したT前駆細胞を用いた<em><a href="#" class="anno in vitro">in vitro</a></em>における分化の誘導においても，E2AとHEBの<a href="#" class="anno ダブルノックアウト">ダブルノックアウト</a>マウスのT前駆細胞には顕著な障害が認められた．以上の結果から，T細胞の分化の決定においてE2AおよびHEBは必須であり<a href="#" class="anno 相補的">相補的</a>に機能することが示された．<br/><br/><h2>3．E2AおよびHEBの欠損は胸腺において自然リンパ球の異所性の分化を起こす</h2><br/>　胸腺に存在するT前駆細胞においてE2AおよびHEBを欠損させた結果，<a href="#" class="anno 野生型">野生型</a>のマウスの胸腺において自然リンパ球はほとんど認められなかったが，E2AとHEBの<a href="#" class="anno ダブルノックアウトマウス">ダブルノックアウトマウス</a>の胸腺においては2型自然リンパ球および<a href="#" class="anno リンパ組織">リンパ組織</a>誘導<a href="#" class="anno 細胞様">細胞様</a>細胞が顕著に増加していた．また，自然リンパ球の前駆細胞であるPLZF発現前駆細胞も胸腺において顕著に増加していた．これら異所性に分化した2型自然リンパ球は転写因子Gata3を発現し，刺激により<a href="#" class="anno インターロイキン4">インターロイキン4</a>，インターロイキン5，<a href="#" class="anno インターロイキン13">インターロイキン13</a>を発現したことから，機能的にも2型自然リンパ球と考えられた．この2型自然リンパ球は胸腺にて増殖していたことから，ほかの臓器において増殖したものが胸腺に2次的に移入した<a href="#" class="anno 可能性">可能性</a>は低いと考えられた．E2AおよびHEBの欠損によりT細胞およびB細胞が顕著に減少したことから，<a href="#" class="anno リンパ球の減少">リンパ球の減少</a>した環境により2型自然リンパ球が2次的に増加した可能性も否定できなかった．そこで，E2AとHEBのダブルノックアウトマウスを<a href="#" class="anno Rag2">Rag2</a>ノックアウトマウスと交配したところ自然リンパ球の異所性の分化に大きな影響はなく，また，Rag2ノックアウトマウスの胸腺において自然リンパ球の異所性の分化は認められなかった．これらのことから，リンパ球の減少した環境により自然リンパ球が2次的に増加したのでは<a href="#" class="anno ないこと">ないこと</a>が証明された．<br/><br/><h2>4．E2AおよびHEBの活性がT細胞と自然リンパ球の分岐を規定する</h2><br/>　ドキシ<a href="#" class="anno サイクリン">サイクリン</a>の添加によりId2を高発現するマウスを作製した．その結果，Id2の短期間の<a href="#" class="anno 強制発現">強制発現</a>は，E2AとHEBのダブルノックアウトマウスと同様に，生体におけるT細胞およびB細胞の初期の分化に強い障害をひき起こし，さらに，胸腺における2型自然リンパ球の異所性の分化も起こした．このことから，Id2によるE2AおよびHEBのDNAに対する<a href="#" class="anno 結合能">結合能</a>の低下がT細胞の分化を抑制し自然リンパ球の分化を誘導することが強く示唆された．<a href="#" class="anno つまり">つまり</a>，E2AおよびHEBの活性がT細胞と自然リンパ球の分岐を規定すると考えられた．このことを明確に証明するため，E2A，HEB，Id2のトリプル<a href="#" class="anno <a href="#" class="anno コンディショナルノックアウト">コンディショナルノックアウト</a>マウス">コンディショナルノックアウトマウス</a>を作製したところ，E2AとHEBのダブルノックアウトマウスと同様に，自然リンパ球の異所性の分化が認められた．このことから，Id2が自然リンパ球の分化に必須なのではなく，E2AおよびHEBの活性の低下が自然リンパ球への分化をひき起こすことが明確に示された（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Eタンパク質-Idタンパク質の制御軸によるT細胞および自然リンパ球の分化の制御</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyazaki-Immunity-17.5.26-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Eタンパク質-Idタンパク質の制御軸によるT細胞および自然リンパ球の分化の制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyazaki-Immunity-17.5.26-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyazaki-Immunity-17.5.26-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>5．E2AおよびHEBはT細胞への分化に必須のタンパク質をコードする遺伝子のエンハンサーを制御する</h2><br/>　E2AおよびHEBの欠損による自然リンパ球の異所性の分化の分子機構について解明するためトランス<a href="#" class="anno クリプト">クリプト</a>ームを解析した．外部の環境の影響を排除するため，胎仔の胸腺から初期のT前駆細胞を採取し，RNA-<a href="#" class="anno seq">seq</a>法により解析した．その結果，およそ1800の遺伝子の発現の変化が認められ，とくに，T細胞に必須のタンパク質である<a href="#" class="anno Rag1">Rag1</a>，Rag2，<a href="#" class="anno <a href="#" class="anno Not">Not</a>ch">Notch</a>1，<a href="#" class="anno Notch3">Notch3</a>，<a href="#" class="anno Ptcra">Ptcra</a>，<a href="#" class="anno CD3">CD3</a>e，CD3dなどをコードする遺伝子の発現が顕著に低下していた．一方，<a href="#" class="anno Tcf7">Tcf7</a>，Bcl11b，Gata3などをコードする遺伝子の発現の低下は認められなかった．さらに，<a href="#" class="anno Met">Met</a>ascape解析により，発現の上昇した遺伝子は<a href="#" class="anno 炎症反応">炎症反応</a>，サイトカイン，活性化など<a href="#" class="anno エフェクター">エフェクター</a>細胞様の機能に関与することが示された．PLZF，Tox，Gata3など，自然リンパ球の分化に関与するタンパク質をコードする遺伝子の発現が上昇していた一方，成熟した自然リンパ球のマーカーとなる遺伝子の発現は認められなかった．以上の結果から，E2AおよびHEBの欠損により，T前駆細胞から自然リンパ球への系列へと変化することが考えられた．<br/>　最近の報告から，細胞の分化あるいは活性化において遺伝子の発現にさきだちエンハンサーの<a href="#" class="anno レパトア">レパトア</a>が確立しており，こうした遺伝子<a href="#" class="anno 制御領域">制御領域</a>のレパトアの形成が分化に必須であることがわかっている．<a href="#" class="anno そのため">そのため</a>，A<a href="#" class="anno TAC">TAC</a>-seq（assay <a href="#" class="anno for">for</a> <a href="#" class="anno tra">tra</a>n<a href="#" class="anno spo">spo</a>s<a href="#" class="anno ase">ase</a>-accessible chr<a href="#" class="anno oma">oma</a>tin sequencing）法を用いてレギュロームを解析した<a href="#R7"><sup>7)</sup></a>．さらに，野生型のマウスとE2AとHEBのダブルノックアウトマウスのT前駆細胞のレギュロームを，<a href="#" class="anno 血液<a href="#" class="anno 幹細胞">幹細胞</a>">血液幹細胞</a>から成熟したリンパ球までのレギュロームと比較した．開いた構造をとる<a href="#" class="anno クロマチン">クロマチン</a>領域をプロモーターとエンハンサーとに分けたうえで<a href="#" class="anno 階層的">階層的</a>にクラスタリングしたところ，プロモーターにおいては野生型のマウスのT前駆細胞とE2AとHEBのダブルノックアウトマウスのT前駆細胞は<a href="#" class="anno 同じ">同じ</a>くクラスタリングされた一方，エンハンサーにおいては野生型のマウスのT前駆細胞は共通リンパ球前駆細胞や血液幹細胞などの近くにクラスタリングされたが，E2AとHEBのダブルノックアウトマウスのT前駆細胞は<a href="#" class="anno 未熟">未熟</a>な2型自然リンパ球ともっとも近くクラスタリングされた．くわえて，開いた構造をとるクロマチン領域において転写因子の<a href="#" class="anno 結合モチーフ">結合モチーフ</a>の頻度を解析したところ，<a href="#" class="anno やはり">やはり</a>，E2AとHEBのダブルノックアウトマウスのT前駆細胞は未熟な2型自然リンパ球の近くにクラスタリングされた．E2AおよびHEBの欠損が<a href="#" class="anno 実際">実際</a>に標的となる<a href="#" class="anno 遺伝子座">遺伝子座</a>にどのような影響を及ぼすのか検討したところ，<em><a href="#" class="anno Notch1">Notch1</a></em>遺伝子座，<em>Rag1</em>遺伝子座，<em>Rag2</em>遺伝子座において，プロモーターにはあまり影響がなかったにもかかわらず，E2Aと結合するエンハンサーに対するアクセシビリティが顕著に障害されていた．このことは，E2AおよびHEBがT細胞への分化に必須のタンパク質をコードする遺伝子のエンハンサーの機能を維持することによりその発現を制御することを示した結果であった．<br/><br/><h2>おわりに</h2><br/>　今回の論文は，2011年に<em>Nature Immunology</em>に発表した論文<a href="#R3"><sup>3)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/3505" target="_blank">新着論文レビュー</a> でも掲載）の内容を発展させたものである．数年前からE2AおよびHEBがT細胞への分化に必須であることはわかっていたが，自然リンパ球の分化と関連するとは想定していなかった．自然リンパ球に関する多くの論文からT細胞と自然リンパ球との類似性に気づき，T細胞と自然リンパ球の分化には分岐点が存在するのではないかと疑問をもち研究をはじめた．つまり，数年間にわたりずっとその答を探してきたのである．この研究から，リンパ球の分化と<a href="#" class="anno 系統発生">系統発生</a>に関してさらに多くの謎が感じられる．もし，こうした疑問の答にほんの少しでも近づけたらうれしく思う．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Diefenbach, A., Colonna, M. & Koyasu, S.</span>: <span class="ti">Development, differentiation, and diversity of innate lymphoid cells.</span> <span class='so'>Immunity, 41, 354-365 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25238093" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Lin, Y. C., Jhunjhunwala, S., Benner, C. et al.</span>: <span class="ti">A global network of transcription factors, involving E2A, EBF1 and Foxo1, that orchestrates B cell fate.</span> <span class='so'>Nat. Immunol., 11, 635-643 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20543837" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Miyazaki, M., Rivera, R. R., Miyazaki, K. et al.</span>: <span class="ti">The opposing roles of the transcription factor E2A and its antagonist Id3 that orchestrate and enforce the naive fate of T cells.</span> <span class='so'>Nat. Immunol., 12, 992-1001 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21857655" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/3505" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R4"><span class='au'>Omilusik, K. D., Shaw, L. A. & Goldrath, A. W.</span>: <span class="ti">Remembering one’s ID/E-ntity: E/ID protein regulation of T cell memory.</span> <span class='so'>Curr. Opin. Immunol., 25, 660-666 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24094885" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Miyazaki, M., Miyazaki, K., Chen, S. et al.</span>: <span class="ti">Id2 and Id3 maintain the regulatory T cell pool to suppress inflammatory disease.</span> <span class='so'>Nat. Immunol., 15, 767-776 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24973820" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/9069" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R6"><span class='au'>Constantinides, M. G., McDonald, B. D., Verhoef, P. A. et al.</span>: <span class="ti">A committed precursor to innate lymphoid cells.</span> <span class='so'>Nature, 508, 397-401 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24509713" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Buenrostro, J. D., Giresi, P. G., Zaba, L. C. et al.</span>: <span class="ti">Transposition of native chromatin for fast and sensitive epigenomic profiling of open chromatin, DNA-binding proteins and nucleosome position.</span> <span class='so'>Nat. Methods, 10, 1213-1218 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24097267" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=GEO" target="_blank">GEO</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=UCSC" target="_blank">UCSC</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=KEGG" target="_blank">KEGG</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=パスウェイ解析" target="_blank">パスウェイ解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=RNA-seq" target="_blank">RNA-seq</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=ChIP-seq" target="_blank">ChIP-seq</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=R" target="_blank">R</a></li><br></ul><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/21_01.html" target="_blank">21.1 Immunity and Biophylaxis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/10_01.html" target="_blank">10.1 Gene Types in Terms of Their Expression</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/21_02.html" target="_blank">21.2 Immune cells and structure</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/21_03.html" target="_blank">21.3 Initiation of Immune Responses</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/10_03.html" target="_blank">10.3 Regulation of Gene Expression in Eukaryotes</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">宮崎 正輝（Masaki Miyazaki）</span><br>略歴：2005年 広島大学大学院医歯薬学総合研究科博士課程 修了，同年 同 助教，2009年 米国California大学San Diego校 研究員，2010年 同Assistant Project Scientist，2015年 京都大学再生医科学研究所 助教を経て，2016年より京都大学ウイルス・再生医科学研究所 准教授．<br>研究テーマ：T細胞の分化および活性化における転写の制御機構．<br>抱負：人生は短いので，Scienceを楽しむことを一番に！<br><br><strong>宮崎 和子（Kazuko Miyazaki）</strong><br>京都大学ウイルス・再生医科学研究所 特定研究員．<br><br><strong>河本  宏（Hiroshi Kawamoto）</strong><br>京都大学ウイルス・再生医科学研究所 教授．<br><br><strong>Cornelis Murre</strong><br>米国California大学San Diego校 特別教授．<br></div><br>© 2017 宮崎正輝・宮崎和子・河本 宏・Cornelis Murre Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

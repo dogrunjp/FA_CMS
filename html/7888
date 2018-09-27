@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> フラビン酵素による酸化反応がFavorskii転位反応をひき起こす : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/7888" rel="bookmark">フラビン酵素による酸化反応がFavorskii転位反応をひき起こす</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>宮永 顕正</strong><br>（米国California大学San Diego校Scripps Institute of Oceanography）<br>email：<a href="mailto:miyanaga.a.aa@m.titech.ac.jp">宮永顕正</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.141">10.7875/first.author.2013.141</a><br><div class="reference"><br><span class="ti">Flavin-mediated dual oxidation controls an enzymatic Favorskii-type rearrangement.</span><br><span class="au">Robin Teufel, Akimasa Miyanaga, Quentin Michaudel, Frederick Stull, Gordon Louie, Joseph P. Noel, Phil S. Baran, Bruce Palfey, Bradley S. Moore</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24162851" target="_blank"><em>Nature</em>, <strong>503</strong>, 552-556 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno <a href="#" class="anno フラビン">フラビン</a>酵素">フラビン酵素</a>は多様な<a href="#" class="anno 酸化還元">酸化還元</a>反応にかかわり，<a href="#" class="anno も">も</a>っともよく研究されてきた酵素ファミリーのひとつである．これまで，フラビン酵素のかかわる<a href="#" class="anno 酸素添加">酸素添加</a>反応には，フラビンペル<a href="#" class="anno オキシド">オキシド</a>がかかわると考えられてきた．今回，筆者らは，<a href="#" class="anno ポリケタイド">ポリケタイド</a><a href="#" class="anno 抗生物質">抗生物質</a>である<a href="#" class="anno エンテロシン">エンテロシン</a>の<a href="#" class="anno 生合成">生合成</a>にかかわるフラビン酵素<a href="#" class="anno Enc">Enc</a>Mが，フラビン<a href="#" class="anno ペルオキシド">ペルオキシド</a>に非<a href="#" class="anno 依存的">依存的</a>に，水酸化反応と<a href="#" class="anno 脱水素">脱水素</a>化反応の2回の酸化反応を触媒することを明らかにした．EncMとその<a href="#" class="anno 合成基質">合成基質</a>アナログとの<a href="#" class="anno 複合体">複合体</a>のX線<a href="#" class="anno 結晶構造">結晶構造</a>解析と<a href="#" class="anno 安定<a href="#" class="anno 同位体">同位体</a>">安定同位体</a>による標識を用いた解析により，これまでの報告とは異なる，新しいフラビンの<a href="#" class="anno 酸化還元反応">酸化還元反応</a>が明らかにされた．EncMはフラビン-N5-オキシドと考えられる安定なフラビン酸素<a href="#" class="anno 付加体">付加体</a>をもち，これがエンテロシンの生合成において重要な，基質の酸化とFavorskii<a href="#" class="anno 転位反応">転位反応</a>をひき起こしていると考えられた．<br/><br/><h2>はじめに</h2><br/>　微生物の生産する天然<a href="#" class="anno 化合物">化合物</a>は多様な構造を示し，そのなかには有用な<a href="#" class="anno 生理活性">生理活性</a>を示すものも多く存在する．抗生物質エンテロシンは<em>S<a href="#" class="anno tre">tre</a><a href="#" class="anno pto">pto</a>myces maritimus</em>などの<a href="#" class="anno 放線菌">放線菌</a>により生産され，ユニークなかご状の骨格をもつのが特徴である．その構造から生合成の機構に興味がもたれ，これまで研究が進められてきた．約40年前に行われた<a href="#" class="anno 同位体標識">同位体標識</a>した化合物の投与実験の結果からは，エンテロシンの生合成にはFavorskii転位反応のかかわることが予想された<a href="#R1"><sup>1)</sup></a>．さらに近年，エンテロシン生合成<a href="#" class="anno 遺伝子<a href="#" class="anno ク<a href="#" class="anno ラスター">ラスター</a>">クラスター</a>">遺伝子クラスター</a>が<a href="#" class="anno クローニング">クローニング</a>され，その生合成にI<a href="#" class="anno I型">I型</a>ポリケタイド<a href="#" class="anno 合成酵素">合成酵素</a>のかかわることが明らかになった<a href="#R2"><sup>2)</sup></a>．エンテロシンの生<a href="#" class="anno 合成経路">合成経路</a>（<a href="#F1">図1</a>）においては，まず，<a href="#" class="anno アシルキャリアータンパク質">アシルキャリアータンパク質</a>であるEncCのうえで開始基質である安息香酸に7分子の<a href="#" class="anno マロニルCoA">マロニルCoA</a>が<a href="#" class="anno 縮合">縮合</a>しオクタケタイド<a href="#" class="anno 中間体">中間体</a>が生成する．<a href="#" class="anno 一般的">一般的</a>な<a href="#" class="anno II型">II型</a><a href="#" class="anno ポリケタイド合成酵素">ポリケタイド合成酵素</a>の反応では，このような中間体は<a href="#" class="anno 環化">環化</a>酵素により適切な<a href="#" class="anno 環化反応">環化反応</a>をうけ<a href="#" class="anno 芳香族">芳香族</a>ポリケタイドが生成する．しかし，エンテロシンの<a href="#" class="anno 生合成経路">生合成経路</a>に<a href="#" class="anno 環化酵素">環化酵素</a>は存在せず，別の酵素により環化反応が制御されていることが示唆された．<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>な実験の結果などから，フラビン酵素EncMがその役割を担うことが明らかになった<a href="#R3"><sup>3,4)</sup></a>．すなわち，EncMが生合成経路に存在しない場合には非<a href="#" class="anno 酵素的">酵素的</a>に環化が起こり<a href="#" class="anno 芳香族化合物">芳香族化合物</a>が生成したのに対し，EncMが存在した場合には<a href="#" class="anno 最終的">最終的</a>にエンテロシンが生成した．おそらく，EncMが<a href="#" class="anno C4">C4</a>位の酸化およびFavorskii転位反応を起こしたあと，環化が起こっていると考えられた．このように，EncMというたった1つの酵素がかかわることにより，芳香族化合物を生成するという一般的なII型ポリケタイド合成酵素の反応においてみられる反応経路からはずれ，まったく異なる<a href="#" class="anno 骨格構造">骨格構造</a>をもつ化合物へと変換されていることになる．しかし，このような複雑な反応をEncMがどのように触媒しているかという<a href="#" class="anno 分子機構">分子機構</a>については謎につつまれていた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　エンテロシンの生合成機構</strong><br/>エンテロシンの生合成における各反応を示す．まず，EncNのはたらきにより安息香酸がアシルキャリアータンパク質であるEncCに結合し，つぎに，II型ポリケタイド合成酵素であるEncABにより7分子のマロニルCoAが縮合しオクタケタイド中間体が生成される．その際，EncDにより7位が水酸基へと還元される．さらに，EncMにより反応が進み，特徴的なかご状の骨格が構築される．最終的に，EncKとEncRによる修飾反応によりエンテロシンが生成される．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/11/Miyanaga-Nature-13.11.21-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　エンテロシンの生合成機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyanaga-Nature-13.11.21-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyanaga-Nature-13.11.21-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．フラビン酵素EncMのX線結晶<a href="#" class="anno 構造解析">構造解析</a></h2><br/>　EncMの詳細な機能の解明のため，まず，EncMの<a href="#" class="anno 組換え">組換え</a>タンパク質を大腸菌において発現させ精製した．これを<a href="#" class="anno 結晶化">結晶化</a>し，<a href="#" class="anno X線結晶構造">X線結晶構造</a>を1.95Å分解能にて決定した（PDB ID：<a href="http://service.pdbj.org/mine/Det<a href="#" class="anno ail">ail</a>2?PDBID=3w8w&amp;PAGEID=Summary" target="_blank">3W8W</a>，<a href="#F2">図2</a>）．6-<a href="#" class="anno ヒドロキシ">ヒドロキシ</a>-D-ニコチン<a href="#" class="anno 酸化酵素">酸化酵素</a><a href="#R5"><sup>5)</sup></a> などほかのフラビン<a href="#" class="anno 依存性">依存性</a>の酸化酵素と同様に，EncMは<a href="#" class="anno 基質結合">基質結合</a>ドメインとフラビン<a href="#" class="anno 結合ドメイン">結合ドメイン</a>の2つのドメインからなり，内部に<a href="#" class="anno 補酵素">補酵素</a>フラビンをもっていた．しかし，<a href="#" class="anno 単量体">単量体</a>として存在するほかの<a href="#" class="anno フラビン依存性">フラビン依存性</a>の酸化酵素とは異なり，EncMはホモ<a href="#" class="anno 二量体">二量体</a>を形成しており，また，フラビンを含む<a href="#" class="anno 活性中心">活性中心</a>につながるユニークな基質結合トンネルをもっていた．この基質結合トンネルはフラビンの近くにまで進んだのち，L字型に曲がってフラビン活性中心と<a href="#" class="anno 疎水性">疎水性</a>ポケットを形成しており，全長は30Å程度であった．このような基質結合トンネルの<a href="#" class="anno かた">かた</a>ちや<a href="#" class="anno 長さ">長さ</a>から判断すると，基質結合トンネルにアシルキャリアータンパク質から延びる<a href="#" class="anno ホスホ">ホスホ</a>パンテニル鎖，さらには，基質のオクタケタイド鎖および<a href="#" class="anno フェニル">フェニル</a>基を<a href="#" class="anno <a href="#" class="anno 直鎖">直鎖</a>状">直<a href="#" class="anno 鎖状">鎖状</a></a>にうまくおさめることができると考えられた．また，<a href="#" class="anno ホモ二量体">ホモ二量体</a>の界面の近くに基質結合トンネルの入り口が存在し，その周辺には<a href="#" class="anno Arg1">Arg1</a>07や<a href="#" class="anno Arg2">Arg2</a>10で構成される正に荷電した領域をもつことから，負に荷電したアシルキャリアータンパク質との結合に適しているように思われた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　EncMの活性中心の構造</strong><br/>正に荷電した領域を青色で，負に荷電した領域を赤色で示す．基質が結合すると考えられる領域をそれぞれの色の線で示す．また，基質アナログ，オクタケタイド中間体，フラビン-N5-オキシドの分子構造を示す．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/11/Miyanaga-Nature-13.11.21-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　EncMの活性中心の構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyanaga-Nature-13.11.21-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyanaga-Nature-13.11.21-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　基質との<a href="#" class="anno 結合様式">結合様式</a>を調べるため，EncMと基質との<a href="#" class="anno <a href="#" class="anno 共結晶">共結晶</a>化">共結晶化</a>を試みた．<a href="#" class="anno 実際">実際</a>の基質と考えられるアシルキャリアータンパク質に結合したオクタケタイド化合物は不安定と考えられたため，代わりに，オクタケタイド化合物の<a href="#" class="anno C8">C8</a>位までを含んだ<a href="#" class="anno C7">C7</a>,O4-<a href="#" class="anno ジヒドロ">ジヒドロ</a>テトラケタイドを基質アナログとして合成した．EncMとこの合成基質アナログとの複合体のX線結晶構造を1.8Å分解能にて決定した結果，フラビン活性中心および<a href="#" class="anno 疎水性ポケット">疎水性ポケット</a>に基質アナログに対応する<a href="#" class="anno 電子密度">電子密度</a>を確認することができた（PDB ID：<a href="http://service.pdbj.org/mine/De<a href="#" class="anno tail">tail</a>2?PDBID=3w8z&amp;PAGEID=Summary" target="_blank">3W8Z</a>）．トンネルの奥に位置する疎水性ポケットには合成基質アナログの<a href="#" class="anno フェニル基">フェニル基</a>が位置していた．また，合成基質アナログの<a href="#" class="anno C1">C1</a>位の<a href="#" class="anno エノール">エノール</a>はフラビンと<a href="#" class="anno 水素結合">水素結合</a>していた一方で，<a href="#" class="anno C3">C3</a>位の<a href="#" class="anno <a href="#" class="anno ケト">ケト</a>ン">ケトン</a>はフラビンとは<a href="#" class="anno 反<a href="#" class="anno 対側">対側</a>">反対側</a>をむいており，<a href="#" class="anno Glu">Glu</a>355および<a href="#" class="anno Tyr">Tyr</a>249と水素結合を形成していた．酸化をうけるC4位はフラビンの<a href="#" class="anno C4a">C4a</a>位やN5位から近い位置にあり，反応に適した場所に配置されていると考えられた．そして，C7位の水酸基は基質結合トンネルがちょうどL字型に曲がる部分に位置していたことから，実際に結合する基質もC7位においてほぼ直角に曲がっていると考えられた．このようなEncMの基質結合トンネルの構造により，反応の起こる部分であるC1位から<a href="#" class="anno C6">C6</a>位までのトリケタイド鎖の部分を，そのほかのC8位からC15位までのテトラケタイド鎖の部分から分離し，それらのあいだで起こりうる不要な環化反応をふせぐことにより，EncMが触媒する酸化反応とFavorskii転位反応を起こりやすくしていると考えられた．<br/><br/><h2>2．EncMの触媒するFavorskii転位反応の機構</h2><br/>　このようにEncMに関する構造情報が得られたところで，実際の<a href="#" class="anno 反応機構">反応機構</a>を考えることにした．EncMは基質のC4位を水酸化し，そののち，生じた水酸基を脱<a href="#" class="anno 水素化">水素化</a>する反応を触媒することにより，基質の3,5-ジケトンの部分を3,4,5-トリケトンへと変換すると予想した．この反応機構モ<a href="#" class="anno デ">デ</a>ルならば，C4位は<a href="#" class="anno 求電子的">求電子的</a>な環化をうけFavorskii転位反応が起こりやすくなると考えられた．<br/>　EncMの反応機構についてさらに知見を得るため，EncMと合成基質アナログC7,O4-ジヒドロテトラケタイドとを反応させ，<a href="#" class="anno 生成物">生成物</a>を<a href="#" class="anno HPL">HPL</a>Cにより分析した．その結果，反応が進行し生成物の生じることが確認できた．一般的に，酸素添加反応を行うフラビン依存性の酵素は補酵素<a href="#" class="anno NAD">NAD</a>(P)Hにより還元をうけたのち<a href="#" class="anno 酸素分子">酸素分子</a>をトラップし，フラビン-C4a-ペルオキドを形成して反応を行うが<a href="#R6"><sup>6)</sup></a>，興味深いことに，EncMはNAD(P)Hの非<a href="#" class="anno 存在下">存在下</a>においても同様の生成物を生成した．N<a href="#" class="anno MR">MR</a>や<a href="#" class="anno 質量分析">質量分析</a>により生成物の<a href="#" class="anno 構造決定">構造決定</a>を行った結果，予想していたエンテロシン様の<a href="#" class="anno ラクトン">ラクトン</a>化合物ではなく，<a href="#" class="anno ラクトン環">ラクトン環</a>が<a href="#" class="anno 開環">開環</a>した類縁化合物であった．おそらく，合成基質アナログが<a href="#" class="anno 酸化的">酸化的</a>なFavorskii転位反応をうけてラクトン化合物が生じ，さらに<a href="#" class="anno 非酵素的">非酵素的</a>な<a href="#" class="anno レトロ">レトロ</a><a href="#" class="anno Cl">Cl</a>aisen反応によるラクトン環の開<a href="#" class="anno 裂">裂</a>が起こったと考えられた．一方，実際のエンテロシンの生合成においては，さらに<a href="#" class="anno C9">C9</a>位からC15位までのテトラケタイド鎖が存在し，それらとのあいだにアルドール縮合の起こることから，ラクトン環の<a href="#" class="anno 開裂">開裂</a>は起こらないと考えられた．<br/>　EncMの活性を評価するため，安定同位体により標識した酸素分子<sup>18</sup>O<sub>2</sub>の存在のもとで反応を行った．その結果，予想どおり，生成物のC4位に<sup>18</sup>Oが取り込まれた．一方，重酸素水H<sub>2</sub><sup>18</sup>Oのなかで反応を行ったところ，<sup>18</sup>Oは<a href="#" class="anno C5">C5</a>位の<a href="#" class="anno <a href="#" class="anno カ">カ</a>ルボキシル">カルボキシル</a>基にしか取り込まれなかったことから，<a href="#" class="anno 水分子">水分子</a>はラクトン環の開裂にのみかかわっていることが明らかになった．このことから，Favorskii転位反応の際に生じる三員環は水分子の攻撃をうけて開環するのではなく，C7位の水酸基の攻撃により開環し，結果としてラクトン環が形成していると考えられた．<br/><br/><h2>3．EncMの触媒反応にかかわるフラビン-N5-オキシド</h2><br/>　NAD(P)Hの<a href="#" class="anno <a href="#" class="anno 非存在">非存在</a>下">非存在下</a>におけるEncMの反応を詳細に調べたところ，EncMは<a href="#" class="anno 触媒サイクル">触媒サイクル</a>が1回転するごとに少しずつ不<a href="#" class="anno 活性型">活性型</a>になっていき，触媒サイクルが約10回転したのちには完全に活性を失った．不<a href="#" class="anno 活性化">活性化</a>したEncMは，活性型のEncMと比べやや異なった<a href="#" class="anno 吸収スペクトル">吸収スペクトル</a>を示した．この結果から，活性型EncMが酸素を付加した<a href="#" class="anno 酸化型">酸化型</a>フラビンを完全に失った結果，吸収スペクトルに変化が起こったのではないかと推測した．このEncM-酸素付加酸化型フラビンは触媒サイクルを1回転したのち<a href="#" class="anno 大部分">大部分</a>が回復したことから，EncMはNAD(P)Hのような<a href="#" class="anno 外因性">外因性</a>の<a href="#" class="anno 還元剤">還元剤</a>を必要とせずに<a href="#" class="anno 触媒活性">触媒活性</a>を示すことの説明がついた．活性中心<a href="#" class="anno 残基">残基</a>がフラビンに対し影響をあたえている<a href="#" class="anno 可能性">可能性</a>を考え，活性中心に存在する<a href="#" class="anno Tyr2">Tyr2</a>49やGlu355に変異を導入してみたが，それらの<a href="#" class="anno 変異体">変異体</a>は依然としてEncM-酸素付加酸化型フラビンと同様の吸収スペクトルを示した．このことから，フラビンが酸素付加体のキャリアーとして機能しているとの仮説をたてた．その吸収スペクトルから，EncMと結合している酸素付加酸化型フラビンは既知のフラビン-C4a-ペルオキシドとは異なることがわかった．さらに，この酸素付加酸化型フラビンは4度における1週間の<a href="#" class="anno インキュベーション">インキュベーション</a>ののちも安定に存在しており，<a href="#" class="anno 安定性">安定性</a>ではフラビン-C4a-ペルオキシド<a href="#R7"><sup>7)</sup></a> をはるかにうわまっていた．<a href="#" class="anno そのため">そのため</a>，大腸菌を用いてEncMの<a href="#" class="anno 組換えタンパク質">組換えタンパク質</a>を得た際に，大腸菌において生成したEncM-酸素付加酸化型フラビンが酵素の精製ののちもそのまま維持されたと考えられた．<br/>　EncM-酸素付加酸化型フラビンの触媒機能についてさらに調べるため，フラビンを<a href="#" class="anno 嫌気的">嫌気的</a>に還元したのちに再酸化を試みた．その結果，酸素分子の存在下においてEncM-酸素付加酸化型フラビンは蓄積されることがわかった．<sup>18</sup>O<sub>2</sub>を用いてEncM-酸素付加酸化型フラビンを調製したのち合成基質アナログと反応させたところ，1モル<a href="#" class="anno 当量">当量</a>の合成基質アナログに<sup>18</sup>Oが取り込まれたことから，酸化型フラビンに付加している酸素により基質は直接に水酸化されることが示された．以上の構造<a href="#" class="anno 機能解析">機能解析</a>の結果をふまえ，EncMの結合している酸素付加酸化型フラビンはフラビン-N5-オキシド<a href="#R8"><sup>8)</sup></a> の状態で存在していると考えた．EncM-酸素付加酸化型フラビンと化学的に合成したフラビン-N5-オキシドとを比較したところ，スペクトルがほぼ一致した．また，そのほかの化学的な性質も一致したことから，EncMがフラビン-N5-オキシドと結合している証拠が得られた．ただし，このフラビン-N5-オキシドの存在をX線結晶構造において確認することはできなかった．原因として，X線を照射したときフラビン-N5-オキシドがダメージをうけ変換してしまったことが考えられた．<br/><br/><h2>4．EncMの反応モデル</h2><br/>　これまでの結果を総合して，以下のようにEncMの反応機構を考えた．最初に，フラビン-N5-オキシドが基質のC5位のエノールにより<a href="#" class="anno <a href="#" class="anno プロト">プロト</a>ン化">プロトン化</a>される．そののち，フラビン-N5-ヒドロキシ<a href="#" class="anno アミン">アミン</a>から<a href="#" class="anno 異性化">異性化</a>した求電子的な<a href="#" class="anno オキソ">オキソ</a>アンモニウムにより基質のエノラートの部位に酸素が添加されて，酸化型フラビンと基質のC4位が水酸化された中間体が生成する．さらに，酸化型フラビンにより中間体のC4位の水酸基が脱水素化をうけ，<a href="#" class="anno 還元型">還元型</a>フラビンとC4位がケトンになった中間体が生成する．EncM-酸素付加酸化型フラビンと合成基質アナログとを<a href="#" class="anno 嫌気条件">嫌気条件</a>において反応させたところ，まず酸化型フラビンが生じたのちに還元型フラビンが生成したことがスペクトルにより確認されたことから，この反応機構は支持された．そのあとは，基質においてはFavorskii転位反応が起こるとともに，還元型フラビンが酸素分子と反応してフラビン-N5-オキシドと結合したEncMが再生し，つぎの反応サイクルがはじまる．<br/><br/><h2>おわりに</h2><br/>　今回，筆者らは，合成した基質アナログを用いてEncMの<a href="#" class="anno X線構造解析">X線構造解析</a>と生化学的な解析を行うことにより，酵素的な酸化がひき起こすFavorskii転位の反応機構に関する深い知見を得た．Favorskii転位反応が酵素的に起こる例はほとんど知られておらず，その反応機構が明らかになったことによる<a href="#" class="anno 学術的">学術的</a>な価値は高いと考えている．このように興味深い反応を行うEncMであるが，そこにはフラビン-N5-オキシドをもつという性質がかくされていた．研究をはじめた当初は，このようにフラビン-N5-オキシドが存在するとは予想もしておらず，EncMもほかのフラビン酵素と同様にNAD(P)Hに依存性であり，フラビンペルオキシドを用いて反応を行っていると考えていた．このときは，1μM程度の<a href="#" class="anno 低濃度">低濃度</a>のEncMを<a href="#" class="anno 酵<a href="#" class="anno 素反応">素反応</a>">酵素反応</a>に用いており，NAD(P)Hの存在下では反応が進行しNAD(P)Hの非存在下では反応は進行しないと考えられる結果が得られていた．あとから考えると，NAD(P)Hの非存在下において<em><a href="#" class="anno in vitro">in vitro</a></em>の条件では触媒サイクルが何回転かすると酵素がすべて<a href="#" class="anno 不活性">不活性</a>型になるため，少量の酵素を用いただけでは生成物の量が少なくて検出できなかったのだろう．一方，NAD(P)Hの存在下においては，反応により生じた<a href="#" class="anno 不活性型">不活性型</a>のフラビンをおそらくNAD(P)Hがなんらかのかたちで活性型の酸化型フラビンへともどし，反応が停止しなかったため生成物を検出できたと考えられる．しかし，EncMの吸収スペクトルを注意深くみると既知のものとは少し異なっており，また，20μMと<a href="#" class="anno 高濃度">高濃度</a>のEncMを用いた場合にはNAD(P)Hが存在しない場合にも反応の進行を検出できた．これらの知見をもとに，フラビン-N5-オキシドの存在にたどりつくことができたのである．このように，フラビンペルオキシドではなく安定なフラビン-N5-オキシドを酸素添加反応に使うフラビン酵素は，これまでみすごされているだけでEncMのほかにも存在するかもしれない．また，フラビン-N5-オキシドがどのように生成するのかは現時点では不明であり，今後，明らかにしていく必要があると考えている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Seto, H., Sato, T., Urano, S. et al.</span>: <span class="ti">Utilization of 13C-13C coupling in structural and biosynthetic studies. VII. The structure and biosynthesis of vulgamycin.</span> <span class='so'>Tetrahedron Lett., 48, 4367-4370 (1976)</span></li><br><li id="R2"><span class='au'>Piel, J., Hertweck, C., Shipley, P. R. et al.</span>: <span class="ti">Cloning, sequencing and analysis of the enterocin biosynthesis gene cluster from the marine isolate ‘<em>Streptomyces maritimus</em>’: evidence for the derailment of an aromatic polyketide synthase.</span> <span class='so'>Chem. Biol., 7, 943-955 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11137817" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Xiang, L., Kalaitzis, J. A. & Moore, B. S.</span>: <span class="ti">EncM, a versatile enterocin biosynthetic enzyme involved in Favorskii oxidative rearrangement, aldol condensation, and heterocycle-forming reactions.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 101, 15609-15614 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15505225" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Cheng, Q., Xiang, L., Izumikawa, M. et al.</span>: <span class="ti">Enzymatic total synthesis of enterocin polyketides.</span> <span class='so'>Nat. Chem. Biol., 3, 557-558 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17704772" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Koetter, J. W. & Schulz, G. E.</span>: <span class="ti">Crystal structure of 6-hydroxy-D-nicotine oxidase from <em>Arthrobacter nicotinovorans</em>.</span> <span class='so'>J. Mol. Biol., 352, 418-428 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16095622" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Palfey, B. A. & McDonald, C. A.</span>: <span class="ti">Control of catalysis in flavin-dependent monooxygenases.</span> <span class='so'>Arch. Biochem. Biophys., 493, 26-36 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19944667" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Thotsaporn, K., Chenprakhon, P., Sucharitakul, J. et al.</span>: <span class="ti">Stabilization of C4a-hydroperoxyflavin in a two-component flavin-dependent monooxygenase is achieved through interactions at flavin N5 and C4a atoms.</span> <span class='so'>J. Biol. Chem., 286, 28170-28180 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21680741" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Rastetter, W. H., Gadek, T. R., Tane, J. P. et al.</span>: <span class="ti">Oxidations and oxygen transfers effected by a flavin N(5)-oxide. A model for flavin-dependent monooxygenases.</span> <span class='so'>J. Am. Chem. Soc., 101, 2228-2231 (1979)</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/04_05.html" target="_blank">4.5 Basic Properties of Enzymes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/04_01.html" target="_blank">4.1 Enzyme Sets Determine the Organism’s Way of Life</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">宮永 顕正（Akimasa Miyanaga）</span><br>略歴：2006年 東京大学大学院農学生命科学研究科 修了，同年 同 博士研究員，2009年 米国California大学San Diego校 博士研究員，2011年 東京理科大学理工学部 助教を経て，2012年より東京工業大学大学院理工学研究科 助教．<br>テーマ：天然化合物の生合成にかかわる酵素の構造と機能．<br>抱負：酵素のもつ新しい機構を，立体構造から明らかにしていきたい．<br></div><br>© 2013 宮永 顕正 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

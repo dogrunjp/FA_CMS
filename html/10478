@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> シナプス接着分子Sdk2は網膜において物体の動きを検出する神経回路の形成に機能する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/10478" rel="bookmark">シナプス接着分子Sdk2は網膜において物体の動きを検出する神経回路の形成に機能する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>山形 方人</strong><br>（米国Harvard大学Center for Brain Science）<br>email：<a href="mailto:yamagatm@mcb.harvard.edu">山形方人</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.100">10.7875/first.author.2015.100</a><br><div class="reference"><br><span class="ti">Sidekick 2 directs formation of a retinal circuit that detects differential motion.</span><br><span class="au">Arjun Krishnaswamy, Masahito Yamagata, Xin Duan, Y. Kate Hong, Joshua R. Sanes</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26287463" target="_blank"><em>Nature</em>, <strong>524</strong>, 466-470 (2015)</a></span></div><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 視覚情報">視覚情報</a>をうけとり最初にそれを処理するのは網膜の<a href="#" class="anno 神経回路">神経回路</a>である．網膜では，約30種類の網膜<a href="#" class="anno <a href="#" class="anno 神経節">神経節</a>細胞">神経節細胞</a>と<a href="#" class="anno 双<a href="#" class="anno 極">極</a>細胞">双極細胞</a>および<a href="#" class="anno アマクリン細胞">アマクリン細胞</a>からなる約70種類の<a href="#" class="anno 介在性">介在性</a>ニューロンの<a href="#" class="anno 神経突起">神経突起</a>が<a href="#" class="anno 内網状層">内網状層</a>において<a href="#" class="anno 神経ネットワーク">神経ネットワーク</a>を形成している．<a href="#" class="anno <a href="#" class="anno 網膜神経">網膜神経</a>節細胞">網膜神経節細胞</a>は脳にむけ視神経を伸長し網膜においてうけとった視覚情報を伝達する．この研究においては，W3<a href="#" class="anno B細胞">B細胞</a>と名づけられた網膜神経節細胞の形成する<a href="#" class="anno 特徴的">特徴的</a>な神経回路に着目した．W3B細胞は目のまえの物体の動きが背景の動きと異なったときだけ応答する．W3B細胞はVG3細胞と名づけらけたアマクリン細胞から強力かつ<a href="#" class="anno 選択的">選択的</a>な入力をうける．VG3細胞は<a href="#" class="anno 抑制性">抑制性</a>である通常のアマクリン細胞とは異なり，W3B細胞において<a href="#" class="anno 興奮性">興奮性</a>シナプスを形成する．筆者らは，W3B細胞およびVG3細胞が免疫<a href="#" class="anno グロブリン">グロブリン</a><a href="#" class="anno スーパーファミリー">スーパーファミリー</a>に属するシナプス<a href="#" class="anno 接着分子">接着分子</a><a href="#" class="anno Sdk2">Sdk2</a>を発現していることを見い<a href="#" class="anno 出し">出し</a>た．光<a href="#" class="anno <a href="#" class="anno 遺伝学">遺伝学</a>的">遺伝学的</a>な手法を含む<a href="#" class="anno 電気<a href="#" class="anno 生理学的">生理学的</a>"><a href="#" class="anno 電気生理">電気生理</a>学的</a>な解析により，Sdk2はVG3細胞を介したW3B細胞の視覚応答に必須であることが判明した．通常，網膜神経節細胞は双極細胞からの入力を直接にうけとるのに対し，W3B細胞は双極細胞からの入力をVG3細胞を介し<a href="#" class="anno 間接的">間接的</a>にうけとる．このような神経回路においては，W3B細胞は<a href="#" class="anno 受容野">受容野</a>の<a href="#" class="anno 中心部">中心部</a>にある光<a href="#" class="anno 受容体">受容体</a>からタイミングの少し遅い入力が存在することにより，目のまえの物体の動きが背景の動きと異なったときだけ応答することが可能になると考えられた．Sdk2<a href="#" class="anno ノックアウトマウス">ノックアウトマウス</a>においてはこの神経回路がなくなるため，その機能が劇的に弱まったと思われた．Sdk2は<a href="#" class="anno ホモフィリック">ホモフィリック</a>なシナプス接着分子であることから，W3B細胞とVG3細胞のあいだのシナプスの形成あるいは維持に必須であると解釈された．<br/><br/><h2>はじめに</h2><br/>　動物において目で見た視覚情報をうけとりその情報を最初に処理するのは，目のなかの<a href="#" class="anno 神経組織">神経組織</a>である網膜である．多種多数のニューロンとそれらが<a href="#" class="anno 化学シナプス">化学シナプス</a>および<a href="#" class="anno 電気シナプス">電気シナプス</a>によりつながった神経回路を<a href="#" class="anno も">も</a>つ網膜は，大脳と<a href="#" class="anno 同じ">同じ</a><a href="#" class="anno 中枢<a href="#" class="anno 神経系">神経系</a>"><a href="#" class="anno 中枢神経">中枢神経</a>系</a>であり，シンプルな構造ながら多様なニューロンが複雑かつ<a href="#" class="anno 機能的">機能的</a>な神経回路を形成している<a href="#R1"><sup>1)</sup></a>．網膜は，光をうけとる<a href="#" class="anno 視細胞">視細胞</a>にくわえ，網膜からの出力細胞である網膜神経節細胞，視細胞から網膜神経節細胞までの<a href="#" class="anno シグナル伝達">シグナル伝達</a>およびシグナル処理のために必要な介在性ニューロンから構成される．とくに，約30種類の網膜神経節細胞と双極細胞およびアマクリン細胞からなる約70種類の介在性ニューロンが<a href="#" class="anno 特異的">特異的</a>なシナプスを形成する内網状層は，それらの神経突起が層状に入り組み視覚情報をたくみに処理する神経回路を形成している（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　W3B細胞とVG3細胞の網膜における形態</strong><br/>W3B細胞およびVG3細胞は内網状層の第3層に樹状突起を広げている．また，ホモフィリックなシナプス接着分子であるSdk2を発現している．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamagata-Nature-15.7.16-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　W3B細胞とVG3細胞の網膜における形態" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamagata-Nature-15.7.16-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamagata-Nature-15.7.16-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　網膜神経節細胞には特徴的な視覚情報に対し異なる応答を示す多数のタイプが報告されている<a href="#R2"><sup>2)</sup></a>．異なるタイプの網膜神経節細胞は<a href="#" class="anno 電気生理学">電気生理学</a>的に区別されるだけでなく，形態，神経<a href="#" class="anno 化学的">化学的</a>な特徴，<a href="#" class="anno 遺伝子発現">遺伝子発現</a>プロファイルによっても区別される．特定の機能をもつ網膜神経節細胞のひとつであるW3B細胞は<a href="#R3"><sup>3)</sup></a>，電気生理学的な測定によると，目のまえの物体の動きが背景の動きと異なったときに特徴的に応答する．この応答は網膜だけをとりだし直接に測定されることから，網膜にはこうした視覚情報をうけとり処理する神経回路が<a href="#" class="anno 内在的">内在的</a>に存在すると考えられる<a href="#R3"><sup>3,4)</sup></a>．近年，特定のタイプの網膜神経節細胞の<a href="#" class="anno 分子マー<a href="#" class="anno カ">カ</a>ー">分子マーカー</a>が報告され，その情報を利用して網膜神経節細胞のタイプを区別したり，発現する遺伝子を<a href="#" class="anno 人為的">人為的</a>に操作したりすることが可能になり，哺乳類の神経回路の構造，はたらき，発達を理解するため絶好のモ<a href="#" class="anno デ">デ</a>ルになっている．<br/>　シナプスに局在しその形成にかかわる<a href="#" class="anno 細胞表面">細胞表面</a>タンパク質はシナプス接着分子とよばれ，神経回路の形成や機能に直接に関与する<a href="#" class="anno 可能性">可能性</a>が高い<a href="#R5"><sup>5)</sup></a>．<a href="#" class="anno <a href="#" class="anno 免疫グロブリン">免疫グロブリン</a>スーパーファミリー">免疫グロブリンスーパーファミリー</a>に属するS<a href="#" class="anno ide">ide</a>kick1（<a href="#" class="anno Sdk1">Sdk1</a>）およびSidekick2（Sdk2）は<a href="#R6"><sup>6,7)</sup></a>（<a href="#F2">図2</a>）．2002年，筆者らにより，ニワトリの網膜において異なる種類の網膜神経節細胞に特異的に発現するシナプス接着分子として発見された<a href="#R6"><sup>6)</sup></a>．6個の<a href="#" class="anno 免疫グロブリンドメイン">免疫グロブリンドメイン</a>，13個の<a href="#" class="anno フィブロネクチン">フィブロネクチン</a>II<a href="#" class="anno I型">I型</a>ドメイン，1つの<a href="#" class="anno <a href="#" class="anno 膜貫通">膜貫通</a>ドメイン">膜貫通ドメイン</a>，<a href="#" class="anno <a href="#" class="anno 細胞質">細胞質</a>ドメイン">細胞質ドメイン</a>をもつ巨大なタンパク質である．細胞質ドメインにはシナプスに局在するタンパク質にしばしばみられる<a href="#" class="anno PDZ">PDZ</a>ドメインと結合するPDZ<a href="#" class="anno 結合モチーフ">結合モチーフ</a>があり，<a href="#" class="anno 実際">実際</a>に，<a href="#" class="anno PDZドメイン">PDZドメイン</a>をもつある種の<a href="#" class="anno 足場タンパク質">足場タンパク質</a>と結合する<a href="#R8"><sup>8)</sup></a>．さらに，Sdk1はSdk1と，Sdk2はSdk2と特異的に接着し，Sdk1とSdk2とは結合しないホモフィリック（同種親和的）な性質をもつ．したがって，2つのニューロンが同じSdkを発現していれば，神経突起どうしがホモフィリックな接着を起こし接続にいたると考えられる．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ホモフィリックなシナプス接着分子Sdkの構造</strong><br/>6個の免疫グロブリンドメイン，13個のフィブロネクチンIII型ドメイン，1つの膜貫通領域をもつ比較的大きなタンパク質である．C末端側の細胞質ドメインにはPDZ結合モチーフがある．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamagata-Nature-15.7.16-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ホモフィリックなシナプス接着分子Sdkの構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamagata-Nature-15.7.16-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamagata-Nature-15.7.16-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　これまで，Sdkに関する研究はニワトリの網膜において行われてきた<a href="#R6"><sup>6,7)</sup></a>．今回の研究においては，マウスの網膜においてSdk1およびSdk2の遺伝子の発現を解析し，W3B細胞およびその結合の<a href="#" class="anno 相">相</a>手であるVG3細胞において発現していることを見い出した．そして，Sdk1およびSdk2のノックアウトマウスを作製し，W3B細胞がかかわる神経回路の機能にあたえる影響について調べた．<br/><br/><h2>1．Sdk2は網膜においてW3B細胞およびVG3細胞に発現している</h2><br/>　<em>in <a href="#" class="anno sit">sit</a>u</em><a href="#" class="anno ハイブリダイゼーション">ハイブリダイゼーション</a>法により，マウスの網膜においてSdk1およびSdk2が<a href="#" class="anno 相補的">相補的</a>に異なるタイプの網膜神経節細胞において発現していることが見い出された．これは，ニワトリの網膜における発現と酷似していたが，マウスの網膜ではSdk1およびSdk2を発現する網膜神経節細胞も存在する点が異なっていた．また，<a href="#" class="anno 免疫染色">免疫染色</a>により，Sdk1およびSdk2は網膜の内網状層において特異的な層に濃縮されていることがわかった．<br/>　Sdk1あるいはSdk2に<a href="#" class="anno Cre">Cre</a>ERを<a href="#" class="anno ノックイン">ノックイン</a>したマウスを作製した．これらのマウスにおいてCreERを染色したところ，<em>in situ</em>ハイブリダイゼーション法と同様の結果がえられた．また，このSdk2<a href="#" class="anno ノックインマウス">ノックインマウス</a>においてSdk2を発現しているニューロンの形態を観察したところ，Sdk2はW3B細胞という網膜神経節細胞のタイプにおいて発現していること，さらに，VG3細胞とよばれるV<a href="#" class="anno Glu">Glu</a>t3を発現するアマクリン細胞も発現していることがわかった．W3B細胞およびVG3細胞は5つの層からなる内網状層の<a href="#" class="anno 第3">第3</a>層を中心に<a href="#" class="anno 樹状">樹状</a>突起を広げている（<a href="#F1">図1</a>）．<br/><br/><h2>2．W3B細胞とVG3細胞の結合の<a href="#" class="anno 強さ">強さ</a>は“Pe<a href="#" class="anno ter">ter</a>s則”により説明できない</h2><br/>　W3B細胞とVG3細胞は互いに<a href="#" class="anno シナプス結合">シナプス結合</a>を形成しているのだろうか．このことを明らかにするため，<a href="#" class="anno 光遺伝学">光遺伝学</a>的な手法を用いた．<a href="#" class="anno そのため">そのため</a>に，VG3細胞において<a href="#" class="anno <a href="#" class="anno RF">RF</a>P">RFP</a>と<a href="#" class="anno チャネル<a href="#" class="anno ロドプシン">ロドプシン</a>">チャネルロドプシン</a>2との<a href="#" class="anno 融合タンパク質">融合タンパク質</a>を特異的に発現し，W3B細胞において<a href="#" class="anno GFP">GFP</a>を発現するマウスを作製した．このマウスから網膜をとりだし，光の照射により<a href="#" class="anno チャネルロドプシン2">チャネルロドプシン2</a>を刺激してW3B細胞とVG3細胞のシナプス結合のようすを調べた結果，VG3細胞はW3B細胞に対しシナプス結合を直接に形成していることがわかった．これは，抑制性の<a href="#" class="anno 神経伝達">神経伝達</a>物質のみをもつ通常のアマクリン細胞とは異なり，VG3細胞は興奮性の神経<a href="#" class="anno 伝達物質">伝達物質</a>であるグルタミン酸を介する興奮性のシナプスをW3B細胞に形成していた．また，W3B細胞とVG3細胞はそれぞれの<a href="#" class="anno 細胞体">細胞体</a>からの距離に反比例する強度をもってシナプス結合していた．<br/>　“Peters則”は，シナプス結合の強度は<a href="#" class="anno 前シナプス">前シナプス</a>部のアーバーと<a href="#" class="anno 後シナプス">後シナプス</a>部の<a href="#" class="anno 樹状突起">樹状突起</a>との近接度に比例する，<a href="#" class="anno つまり">つまり</a>，シナプス結合するニューロンどうしの神経突起の距離という<a href="#" class="anno 物理的">物理的</a>な因子の<a href="#" class="anno 重要性">重要性</a>を主張する単純な経験則である<a href="#R9"><sup>9)</sup></a>．網膜において，W3B細胞のほかにもVG3細胞の樹状突起と近接する樹状突起をもつ網膜神経節細胞が知られている．そのいくつかについて同じ方法によりVG3細胞とのシナプス結合の強度を調べたところ，それらのなかでVG3細胞とW3B細胞とのシナプス結合は群をぬいて強かった．つまり，神経突起どうしが近い距離にあるとシナプス結合しやすいという“Peters則”により，VG3細胞とW3B細胞のあいだのシナプス結合の強さおよび<a href="#" class="anno 特異性">特異性</a>は説明できなかった．つまり，近接だけではなく別の因子が存在すると結論され，VG3細胞およびW3B細胞に特異的に発現していたSdk2はその候補と考えられた．<br/><br/><h2>3．目のまえの物体の動きが背景の動きと異なったときだけ応答する神経回路におけるSdk2の機能</h2><br/>　Sdk2を完全に<a href="#" class="anno 欠失">欠失</a>した機能<a href="#" class="anno 欠損型">欠損型</a>のSdk2ノックアウトマウスを作製したところ，外見は正常で網膜の形状も正常であった．しかし，光遺伝学的な手法による電気生理学的な解析を行ったところ，VG3細胞とW3B細胞とのあいだのシナプス結合の強度が約1/20に低下していることが明らかにされた．<br/>　Sdk2ノックアウトマウスの網膜においてVG3細胞およびW3B細胞の形態を観察したところ，アーバーの<a href="#" class="anno 大きさ">大きさ</a>および形状はおお<a href="#" class="anno かた">かた</a>正常であった．しかし，ニワトリにおいて<a href="#" class="anno RNAi">RNAi</a>法によりSdkを<a href="#" class="anno ノックダウン">ノックダウン</a>したときに観察されたのと同様に<a href="#R7"><sup>7)</sup></a>，その樹状突起は内網状層からはみでて発芽していた．このことから，Sdk2ノックアウトマウスにおいてはW3B細胞とVG3細胞との接着になんらかの障害があると思われた．<br/>　目のまえの物体の動きが背景の動きと異なったときに特徴的に発火するというW3B細胞の応答を，Sdk2ノックアウトマウスからとりだした網膜に対し<a href="#" class="anno 視覚刺激">視覚刺激</a>をすることにより調べた．<a href="#" class="anno 野生型">野生型</a>のマウスの網膜からとりだしたW3B細胞の受容野の中心に光を照射したところ，<a href="#" class="anno 光照射">光照射</a>の開始時および光照射の停止時に大きな<a href="#" class="anno 活動電位">活動電位</a>が観察された．Sdk2ノックアウトマウスにおいては，光照射の開始時の応答に変化はなかったが，光照射の停止時の活動電位は消失した．<a href="#" class="anno シナプス電流">シナプス電流</a>を測定したところ，Sdk2ノックアウトマウスでは，光照射の開始時のシナプス電流に異常はみられなかったが，光照射の停止時のシナプス電流は消失していた．W3B細胞にはほかのアマクリン細胞からも抑制性の入力があるが，これにはSdk2の有無の影響はなかった．通常の網膜神経節細胞は双極細胞からの入力を直接にうけとるのに対し，W3B細胞は双極細胞からの入力をVG3細胞を介し間接的に受容すると推定されている（<a href="#F3">図3</a>）．Sdk2の欠損により応答が消失するのは，この神経回路においてVG3細胞とW3B細胞のあいだの少し遅れたタイミングで入力する興奮性のシナプスに問題があるためと考えられた．そして，網膜では非標準型であるこの特殊な神経回路の存在が，目のまえの物体の動きが背景の動きと異なったときだけ応答することを可能にしていると思われた．実際に，Sdk2の欠損，さらに，Sdk2を発現するVG3細胞それ自体を除去すると，この応答も劇的に消失した．<br/><br/><a name="F3"></a><div id="fig3-caption-text" style="display: none;"><strong>図3　神経回路におけるSdk2の機能</strong><br/>（a）通常の神経回路．双極細胞は網膜神経節細胞に直接に入力する．<br/>（b）VG3細胞およびW3B細胞の関与する神経回路．双極細胞は網膜神経節細胞に直接に入力せず，あいだにVG3細胞を介する．その結果，W3B細胞は受容野の中心部にある光受容体からタイミングの少し遅い入力が存在することにより，目のまえの物体の動きが背景の動きと異なったときだけ応答することが可能になると考えられる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamagata-Nature-15.7.16-Fig.3.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure3" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図3　神経回路におけるSdk2の機能" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamagata-Nature-15.7.16-Fig.3.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamagata-Nature-15.7.16-Fig.3.jpg" alt="figure3" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig3-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig3-caption').innerHTML = document.getElementById('fig3-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　ホモフィリックなシナプス接着分子Sdk2は，Sdk2を発現するVG3細胞とW3B細胞とのあいだの選択的かつ強い結合に必須であることが明らかにされた．適切なシナプス結合にはSdk2によるホモフィリックな<a href="#" class="anno 相互作用">相互作用</a>が重要であり，Sdk2を欠損するとシナプス結合ができにくくなったり維持できなくなったりすることにより<a href="#" class="anno シナプス強度">シナプス強度</a>が劇的に低下すると考えられた．筆者らを含むこれまでの一連の研究から，網膜の内網状層において正しく機能する神経回路が形成されるには複数のステップがあると考えられている．最初のステップとして，<a href="#" class="anno プレキシン">プレキシン</a>のようなガイダンスタンパク質により神経突起どうしが近接すると“Peters則”により弱い結合ができる．しかし，<a href="#" class="anno 最終的">最終的</a>に特異的なシナプス結合を機能的になるまで強めているのは，今回，実証されたSdk2，そしておそらくSdk1，さらに，ほかの免疫グロブリンスーパーファミリーを含めたタンパク質の存在が重要なのではないかと考えられる<a href="#R7"><sup>7,10)</sup></a>．これは，これまで考えられてきた特異的なシナプス結合の形成機構に関する議論に対し<a href="#R11"><sup>11)</sup></a>，新たな概念を提供した．<br/>　また，この研究において用いた戦略は，昨今の<a href="#" class="anno 神経科学">神経科学</a>研究においてトピックスになっているニューロンのあいだの<a href="#" class="anno 結合性">結合性</a>マッ<a href="#" class="anno ピン">ピン</a>グ（<a href="#" class="anno コネクトーム">コネクトーム</a>），神経回路における情報のコーディング，神経回路の形成といった問題へのアプローチとしても有効であろう．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Dowling，J. E.</span>: <span class="ti">The Retina: An Approachable Part of the Brain, Revised Ed.</span> <span class='so'>Belknap Press, Cambridge (2012)</span></li><br><li id="R2"><span class='au'>Sanes, J. R. & Masland, R. H.</span>: <span class="ti">The types of retinal ganglion cells: current status and implications for neuronal classification.</span> <span class='so'>Annu. Rev. Neurosci., 38, 221-246 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25897874" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Zhang, Y., Kim, I. J., Sanes, J. R. et al.</span>: <span class="ti">The most numerous ganglion cell type of the mouse retina is a selective feature detector.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 109, 2391-2398 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22891316" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Kim, T., Soto, F. & Kerschensteiner, D.</span>: <span class="ti">An excitatory amacrine cell detects object motion and provides feature-selective input to ganglion cells in the mouse retina.</span> <span class='so'>eLife, 4, e08025 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25988808" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Yamagata, M.</span>: <span class="ti">Synaptic adhesion molecule.</span> <span class='so'><em>in</em> Encyclopedia of Neuroscience (Binder, M. D., Hirokawa, N., Windhorst, U. eds.), pp.3945-3948, Springer, Berlin (2009)</span></li><br><li id="R6"><span class='au'>Yamagata, M., Weiner, J. A. & Sanes, J. R.</span>: <span class="ti">Sidekicks: synaptic adhesion molecules that promote lamina-specific connectivity in the retina.</span> <span class='so'>Cell, 110, 649-660 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12230981" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Yamagata, M. & Sanes, J. R.</span>: <span class="ti">Dscam and Sidekick proteins direct lamina-specific synaptic connections in vertebrate retina.</span> <span class='so'>Nature, 451, 465-469 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18216854" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Yamagata, M. & Sanes, J. R.</span>: <span class="ti">Synaptic localization and function of Sidekick recognition molecules require MAGI scaffolding proteins.</span> <span class='so'>J. Neurosci., 30, 3579-3588 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20219992" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Peters, A. & Feldman, M. L.</span>: <span class="ti">The projection of the lateral geniculate nucleus to area 17 of the rat cerebral cortex. I. General description.</span> <span class='so'>J. Neurocytol., 5, 63-84 (1976)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1249593" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Yamagata, M. & Sanes, J. R.</span>: <span class="ti">Expanding the Ig superfamily code for laminar specificity in retina: expression and role of contactins.</span> <span class='so'>J. Neurosci., 32, 14402-14414 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23055510" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Sanes, J. R. & Yamagata, M.</span>: <span class="ti">Many paths to synaptic specificity.</span> <span class='so'>Annu. Rev. Cell Dev. Biol., 25, 161-195 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19575668" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/17_02.html" target="_blank">17.2 Excitation of Nerve Cells and Transmission of Excitation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_01.html" target="_blank">20.1 Sensation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/05_03.html" target="_blank">5.3 The Autonomic Nervous System</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_04.html" target="_blank">12.4 Protein Transport in Prokaryotic Cells</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_02.html" target="_blank">20.2 Central Nervous System and Control</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">山形 方人（Masahito Yamagata）</span><br>略歴：1988年 名古屋大学大学院理学研究科 修了，京都大学大学院理学研究科，愛知医科大学，米国Washington大学，基礎生物学研究所などを経て，米国Harvard大学 研究員．<br>研究テーマ：シナプス結合の形成．コネクトミクス．<br>関心事：神経科学の研究および教育の推進のための施策の研究および活動．<br></div><br>© 2015 山形 方人 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -34,8 +34,6 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
           type="text/css">
 
-    <link rel="stylesheet" href="./css/multibox.css" type="text/css" media="screen">
-
     <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/print.css">
@@ -49,57 +47,56 @@
 </head>
 
 <body class="drawer drawer--left">
-<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js" style="display:block;" id="common-header-and-footer__script" data-page-type="2.1"></script>
 
 
 <!-- drawer menu -->
 
 <nav class="drawer-nav">
     <div class="inner">
-    <ul class="drawer-menu l_sidebarwidgeted">
+        <ul class="drawer-menu l_sidebarwidgeted">
 
-        <li class="widget widget_search">
-            <form id="searchform" class="searchform">
-                <label class="screen-reader-text">検索:</label>
-                <input type="text" ref="search_val" id="search_val" maxlength="20" />
-                <input type="button" id="searchsubmit" value="検索" />
-            </form>
-        </li>
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
 
-        <drawer-journal></drawer-journal>
-        <drawer-category></drawer-category>
-        <drawer-date></drawer-date>
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
 
-        <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
-            <div class="textwidget">
-                <a href="http://dbcls.rois.ac.jp/" class="img_item">
-                    <img alt="DBCLS" style="border-width:0"
-                         height="71" width="158"
-                         src="images/logo_en_c.png"
-                         class="logo">
-                </a>
-                <p class="about_text">
-                    トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
-                    論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
-                    くわしくは、 「新着論文レビュー」とは をご覧ください．
-                </p>
-                <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
-                    <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
-                </a><br>
-                <a href="http://togotv.dbcls.jp/">統合TV</a>にて
-                <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+            <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                <div class="textwidget">
+                    <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                        <img alt="DBCLS" style="border-width:0"
+                             height="71" width="158"
+                             src="images/logo_en_c.png"
+                             class="logo">
+                    </a>
+                    <p class="about_text">
+                        トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                        論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                        くわしくは、 「新着論文レビュー」とは をご覧ください．
+                    </p>
+                    <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                        <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                    </a><br>
+                    <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                    <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
 
-            </div>
-        </li>
-        <li class="drawer-nav-menu">
-            <ul class="nav-menu">
-                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
-                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
-                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
-                <li class="page_item"><a href="./editor">編集人</a></li>
-            </ul>
-        </li>
-    </ul>
+                </div>
+            </li>
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
     </div>
 </nav>
 
@@ -107,12 +104,12 @@
 <div id="wrap">
     <div id="nav">
         <div class="nav-inner">
-            <button type="button" class="drawer-toggle drawer-hamburger">
-                <span class="sr-only">toggle navigation</span>
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
                 <span class="drawer-hamburger-icon"></span>
             </button>
             <ul class="nav-menu" id="nav-menu">
-                <li><a href="./index.htm">ホーム</a></li>
+                <li><a href="./">ホーム</a></li>
                 <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
                 <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
                 <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
@@ -122,7 +119,7 @@
     </div>
 
     <div id="masthead">
-        <a href="./index.htm">
+        <a href="/">
             <h1>ライフサイエンス新着論文レビュー</h1>
             <h3>First author's</h3>
         </a>
@@ -139,7 +136,9 @@
 <!-- begin footer -->
 <div class="bottom_indexes"></div>
 
-<div class="pager"><ul id="pagination-demo" class="pagination-sm"></ul></div>
+<div class="pager">
+    <ul id="pagination-demo" class="pagination-sm"></ul>
+</div>
 
 <div id="footer">
     <ul id="footer-navi">
@@ -160,22 +159,11 @@
 <script type="riot/tag" src="js/drawer-journal.tag"></script>
 <script type="riot/tag" src="js/drawer-date.tag"></script>
 <script>
-    $(document).ready(function(){
-        $('#search_val').keypress(function (e) {
-            if (e.keyCode == 13){
-                e.preventDefault()
-               var url = "./search.htm?val=" + $("#search_val").val();
-                location.href = url
-            }
-        });
-        $("#searchsubmit").click(function () {
-            var url = "./search.htm?val=" + $("#search_val").val();
-            location.href = url
-        })
-    });
+
     var tags;
+
     function renderPagination() {
-         $('#pagination-demo').twbsPagination({
+        $('#pagination-demo').twbsPagination({
             totalPages: 9,
             visiblePages: 6,
             next: 'Next',
@@ -191,15 +179,6 @@
         renderPagination()
     });
 
-    $(document).ready(function () {
-        $('.drawer').drawer();
-        $('.drawer').on('drawer.opened', function(){
-            $('body,html').css({"overflow":"hidden","height":"100%"});
-        });
-        $('.drawer').on('drawer.closed', function(){
-            $('body,html').css({"overflow":"visible","height":"auto"});
-        });
-    });
 
     const store = new riotx.Store({
         state: {
@@ -210,7 +189,7 @@
                 return context.state
             }
         },
-        mutations:{
+        mutations: {
             updatePages: (context, n) => {
                 context.state.page = n
                 return ['changed']
@@ -229,8 +208,35 @@
 
     riotx.add(store);
 
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+
+    });
+
 
 </script>
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
 
 </body>
 </html>

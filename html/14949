@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 恐怖記憶の強さを制御するフィードバック機構 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/14949" rel="bookmark">恐怖記憶の強さを制御するフィードバック機構</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>小澤貴明・Joshua P. Johansen</strong><br>（理化学研究所脳科学総合研究センター 記憶神経回路研究チーム）<br>email：<a href="mailto:takaaki.ozawa@unige.ch">小澤貴明</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.126">10.7875/first.author.2016.126</a><br><div class="reference"><br><span class="ti">A feedback neural circuit for calibrating aversive memory strength.</span><br><span class="au">Takaaki Ozawa, Edgar A. Ycu, Ashwani Kumar, Li-Feng Yeh, Touqeer Ahmed, Jenny Koivumaa, Joshua P. Johansen</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27842071" target="_blank"><em>Nature Neuroscience</em>, <strong>20</strong>, 90-97 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　恐怖に代表される嫌悪的な情動体験は<a href="#" class="anno 恐怖記憶">恐怖記憶</a>の形成をひき起こし，この恐怖記憶の<a href="#" class="anno 強さ">強さ</a>は体験の強さに比例することが知られている．このような体験の強さに応じた恐怖学習は，恐怖の体験を事前に予測することにより恐怖信号を伝達する<a href="#" class="anno 神経回路">神経回路</a>が抑制されることにより実現されると仮定されてきたが，その実態は明らかにされていない．筆者らは，恐怖の体験の到来を予測する聴覚の刺激が，<a href="#" class="anno 扁桃">扁桃</a>体<a href="#" class="anno 中心核">中心核</a>およびその下流の<a href="#" class="anno 中脳">中脳</a>水道周囲灰<a href="#" class="anno 白質">白質</a>における痛みの制御に関与するニューロンからなる，下向性の<a href="#" class="anno フィードバック機構">フィードバック機構</a>を<a href="#" class="anno 活性化">活性化</a>させることを示した．光<a href="#" class="anno <a href="#" class="anno 遺伝学">遺伝学</a>的">遺伝学的</a>な手法を用いてこの経路を抑制すると，恐怖記憶の貯蔵領域である<a href="#" class="anno 扁桃体">扁桃体</a><a href="#" class="anno 外側核">外側核</a>においてあらかじめ予測された恐怖の体験に対する<a href="#" class="anno 神経応答">神経応答</a>の<a href="#" class="anno 脱抑制">脱抑制</a>がひき起こされ，さらに恐怖学習が増加した．この研究の結果から，恐怖学習の適切な制御に必要な学習信号の修正の機構が明らかにされた．この機構における機能の不全は，過剰な<a href="#" class="anno 恐怖反応">恐怖反応</a>と関連した<a href="#" class="anno 精神疾患">精神疾患</a>に関与する<a href="#" class="anno 可能性">可能性</a>が考えられる．<br/><br/><h2>はじめに</h2><br/>　恐怖や報酬などの情動体験は，脳において記憶の貯蔵領域に<a href="#" class="anno 可塑性">可塑性</a>を<a href="#" class="anno も">も</a>たらす教師信号回路を活性化させることにより個体の学習行動をひき起こす<a href="#R1"><sup>1)</sup></a>．一方で，学習が進むにつれ，恐怖や報酬などの到来を事前に予測する視覚，聴覚，嗅覚など別の<a href="#" class="anno 感覚刺激">感覚刺激</a>がこの神経回路の活動を抑制することが，学習と関連した多くの神経回路において確認されている．<a href="#" class="anno つまり">つまり</a>，教師信号回路は情動体験に対して一定の反応をするというよりは，予測されたものより強い情動体験が起こったときに強く活性化される．この神経応答の変化は予測誤差とよばれる<a href="#R1"><sup>1)</sup></a>．ある情動体験がひき起こしうる学習の強度は情動体験の強さに応じて頭打ちになることが知られているが<a href="#R2"><sup>2)</sup></a>，この学習の漸近は教師信号回路の予測誤差と類似した<a href="#" class="anno 神経活動">神経活動</a>により決定されると考えられてきた．この予測による教師神経回路の神経応答の減少をつくりだすためには，情動体験の到来を予測する感覚刺激に反応する，脳の複数の領域から構成されるフィードバック機構が必要であると仮定されてきたが，その実態はほとんど明らかにされていない．<br/>　聴覚による<a href="#" class="anno 恐怖<a href="#" class="anno 条件づけ">条件づけ</a>">恐怖条件づけ</a>は<a href="#" class="anno げっ歯類">げっ歯類</a>における恐怖学習の観察に適した課題である．この課題において，ラットは音の刺激につづいて電撃などの嫌悪的な出来事を経験することにより，音の刺激により電撃の到来が予測されることを学習する．すると，ラットは音のみの提示に対し動きを停止するフリージング反応などの恐怖反応を示すようになり，この反応の強さは記憶の強さの指標になる（<a href="#F1">図1a</a>）．恐怖記憶の中枢である扁桃体外側核においては，電撃が教師信号となり，同時に入力した音の刺激が<a href="#" class="anno 同じ">同じ</a>扁桃体外側核の錐<a href="#" class="anno 体細胞">体細胞</a>を活性化させることにより，音の入力による扁桃体外側核の<a href="#" class="anno <a href="#" class="anno 錐体">錐体</a>細胞">錐体細胞</a>の活性化が条件づけの前後で強化されると考えられている<a href="#R3"><sup>3)</sup></a>．この<a href="#" class="anno 神経可塑性">神経可塑性</a>が生じたのち，音の刺激の入力は扁桃体外側核にくわえ，その主要な出力部位である<a href="#" class="anno 扁桃体中心核">扁桃体中心核</a>，そして，下流の中脳水道周囲<a href="#" class="anno 灰白質">灰白質</a>を活性化するようになり，恐怖反応がひき起こされる<a href="#R4"><sup>4)</sup></a>．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　聴覚による恐怖条件づけ</strong><br/>（a）ラットは音の刺激により電撃の到来が予測されることを学習する．<br/>（b）恐怖条件づけの漸近を観察するための課題．音+弱い電撃により十分に条件づけしたのち，音のみを単独で提示して恐怖反応を観察する（試験1）．音+弱い電撃あるいは音+強度を上げた電撃による2回目の条件づけののち，ふたたび，音のみを単独で提示する（試験2）．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ozawa-Nature-Neuroscience-16.12.27-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　聴覚による恐怖条件づけ" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ozawa-Nature-Neuroscience-16.12.27-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ozawa-Nature-Neuroscience-16.12.27-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　筆者らは，この研究において，恐怖条件づけの漸近をモ<a href="#" class="anno デ">デ</a>ルとし，扁桃体外側核における電撃に対する神経応答の減少（予測誤差様の神経活動）の機構<a href="#R5"><sup>5)</sup></a> およびその機能の解明を試みた．<a href="#" class="anno 先行研究">先行研究</a>において，扁桃体中心核-<a href="#" class="anno 中脳水道周囲灰白質">中脳水道周囲灰白質</a>経路の音に対する神経応答が恐怖条件づけにともない増加することが示されている<a href="#R6"><sup>6)</sup></a>．また，中脳水道周囲灰白質の下位領域のひとつである<a href="#" class="anno 腹外側">腹外側</a>中脳水道周囲灰白質は，脊髄において痛み信号を弱める疼痛抑制回路の一部である<a href="#" class="anno <a href="#" class="anno 吻">吻</a>側">吻側</a><a href="#" class="anno 延髄腹内側部">延髄腹内側部</a>に投射する<a href="#R7"><sup>7)</sup></a>．今回の研究においては，電撃の到来を予測する音による扁桃体中心核-中脳水道周囲灰白質経路の活動が<a href="#" class="anno 負のフィードバック">負のフィードバック</a>機構としてはたらき，恐怖信号が扁桃体外側核に到達するまえに抑制をかけることにより扁桃体外側核における予測誤様差の神経活動を生みだし，結果として恐怖条件づけの漸近をひき起こす，という仮説について検証した．<br/><br/><h2>1．扁桃体中心核-腹外側中脳水道周囲灰白質経路による扁桃体外側核における嫌悪的な刺激に対する神経応答の制御</h2><br/>　あらかじめ予測された電撃に対する扁桃体外側核の神経応答におよぼす扁桃体中心核-腹外側中脳水道周囲灰白質経路の<a href="#" class="anno <a href="#" class="anno 不活性">不活性</a>化">不活性化</a>の効果について検討した．<a href="#" class="anno 光遺伝学">光遺伝学</a>的な手法として，<a href="#" class="anno アデノ随伴ウイルス">アデノ随伴ウイルス</a><a href="#" class="anno ベクター">ベクター</a>を用いて扁桃体中心核の神経<a href="#" class="anno 細胞体">細胞体</a>および<a href="#" class="anno 軸索">軸索</a>の末端に<a href="#" class="anno 光感受性">光感受性</a>の<a href="#" class="anno 外向き">外向き</a><a href="#" class="anno <a href="#" class="anno プロト">プロト</a>ンポンプ">プロトンポンプ</a>であるアーキオ<a href="#" class="anno ロドプシン">ロドプシン</a>Tを発現させ，腹外側中脳水道周囲灰白質にレーザーを照射することにより腹外側中脳水道周囲灰白質に投射する扁桃体中心核のニューロンの軸索の末端を<a href="#" class="anno 特異的">特異的</a>に抑制した．ラットに対し十分に恐怖条件づけしたのち，“予測なし条件”（電撃のみの提示）および“予測あり条件”（音+電撃の提示）において扁桃体外側核の電撃に対する神経応答を測定したところ，予測なし条件と比べて予測あり条件において神経応答の低下するニューロンが確認された．さらに，音+電撃の提示中に限局して扁桃体中心核-腹外側中脳水道周囲灰白質経路を抑制したところ，この“予測誤差ニューロン”の予測あり条件における電撃に対する神経応答が増加し（脱抑制），予測なし条件と同じ程度の電撃に対する神経応答が認められた．この結果から，音を提示中に扁桃体中心核-腹外側中脳水道周囲灰白質経路が活動することにより扁桃体外側核の電撃に対する神経応答が減少することが示された．<br/><br/><h2>2．扁桃体中心核-中脳水道周囲灰白質経路による恐怖条件づけの漸近</h2><br/>　聴覚性の恐怖条件づけの漸近を観察するための課題を確立した（<a href="#F1">図1b</a>）．この課題は，条件づけ（音+電撃の提示）と試験（音のみの提示）を交互に2回ずつ行う計4日間からなる．弱い電撃により十分に条件づけすると，音を提示中にラットの示すフリージング反応の割合は漸近値に達し，同じ強度の電撃により2回目の条件づけをしてもフリージング反応の割合は変化し<a href="#" class="anno ないこと">ないこと</a>，一方で，電撃の強度を上げて2回目の条件づけをするとフリージング反応の割合が上昇することが確認された．この課題を用いて，通常は恐怖学習の進行をひき起こさない弱い電撃による2回目の条件づけにおいて，音+電撃の提示中に限局した扁桃体中心核-腹外側中脳水道周囲灰白質経路の抑制の効果について検討した．その結果，抑制によりフリージング反応の割合が上昇すること，すなわち，通常の漸近値をこえて恐怖学習が進行することが明らかにされた．また，この経路の抑制によりひき起こされる過剰な恐怖学習は，扁桃体外側核を<a href="#" class="anno 薬理学的">薬理学的</a>に抑制すると認められなくなった．さらに，この経路を抑制しなくても，電撃の瞬間に限局して扁桃体外側核を<a href="#" class="anno 人工的">人工的</a>に活性化するだけで過剰な恐怖学習がひき起こされた．これら一連の結果から，電撃の予測により扁桃体中心核-腹外側中脳水道周囲灰白質経路がはたらき，のちに到来する電撃による扁桃体外側核の活性化を抑制することにより，恐怖条件づけの漸近がひき起こされることが示唆された．<br/><br/><h2>3．恐怖を予測する聴覚の刺激は扁桃体中心核-中脳水道周囲灰白質経路の活動を介して中脳水道周囲灰白質のニューロンを活性化させる</h2><br/>　扁桃体中心核-腹外側中脳水道周囲灰白質経路の抑制により腹外側中脳水道周囲灰白質における音に対する神経応答は減少した．このことから，恐怖を予測する音が，<a href="#" class="anno 実際">実際</a>に扁桃体中心核-腹外側中脳水道周囲灰白質経路の活動を介して腹外側中脳水道周囲灰白質を活性化していることが明らかにされた．<br/>　腹外側中脳水道周囲灰白質はこの研究において検討した負のフィードバック機構としての役割にくわえ，動物の示す恐怖反応に重要な役割をはたすことが知られている<a href="#R4"><sup>4)</sup></a>．しかし，それぞれの役割を同じニューロンが担うのか<a href="#" class="anno 別々">別々</a>のニューロンが担うのかは明らかにされていない．音の提示中およびフリージング反応の開始時において腹外側中脳水道周囲灰白質のニューロンの活動を調べたところ，音およびフリージング反応の開始のそれぞれに対し別々に反応するニューロンが確認された．一方で，音およびフリージング反応の開始時のどちらに対しても活動の上昇するニューロンも存在した．この結果から，腹外側中脳水道周囲灰白質において<a href="#" class="anno 部分的">部分的</a>に異なるニューロンが恐怖を予測する音およびフリージング反応に対し別々に反応することが示唆された．<br/><br/><h2>4．恐怖を予測する聴覚の刺激は腹外側中脳水道周囲灰白質における特定のニューロンのはたらきを介して恐怖条件づけの漸近をひき起こす</h2><br/>　腹外側中脳水道周囲灰白質は疼痛抑制回路の一部である吻側延髄腹内側部に投射することから，扁桃体中心核-腹外側中脳水道周囲灰白質経路が吻側延髄腹内側部を介して恐怖条件づけの漸近をひき起こすかどうか検討した．吻側延髄腹内側部に<a href="#" class="anno 逆行性">逆行性</a>トレーサーを注入することにより吻側延髄腹内側部に投射する腹外側中脳水道周囲灰白質のニューロンを標識し，恐怖条件づけののちに音を単独で提示したところ，標識されたニューロンにおいて神経活動のマー<a href="#" class="anno カ">カ</a>ーであるc-<a href="#" class="anno Fos">Fos</a>陽性のニューロンの数が増加した．さらに，音を提示中に扁桃体中心核-腹外側中脳水道周囲灰白質経路を光遺伝学的な手法により抑制したところ，このc-Fos陽性のニューロンの増加は認められなくなった．この結果から，恐怖を予測する音は扁桃体中心核-腹外側中脳水道周囲灰白質経路を介して吻側延髄腹内側部に投射する腹外側中脳水道周囲灰白質のニューロンを活性化することが示唆された．<br/>　恐怖条件づけの漸近における腹外側中脳水道周囲灰白質のニューロンの役割について検討した．<a href="#" class="anno イヌ科">イヌ科</a><a href="#" class="anno アデノウイルス">アデノウイルス</a><a href="#" class="anno 2型">2型</a>ベクターを吻側延髄腹内側部に導入し腹外側中脳水道周囲灰白質のニューロンに逆行性に<a href="#" class="anno Cre">Cre</a>を発現させた．さらに，アデノ随伴<a href="#" class="anno ウイルスベクター">ウイルスベクター</a>を腹外側中脳水道周囲灰白質に導入し吻側延髄腹内側部に投射する腹外側中脳水道周囲灰白質のニューロンにCreに<a href="#" class="anno 依存的">依存的</a>にアーキオロドプシンTを発現させた．通常は学習を促進する効果をもたない2回目の条件づけにおいて音の提示中に吻側延髄腹内側部に投射する腹外側中脳水道周囲灰白質のニューロンを光遺伝学的な手法により抑制したところ，通常の漸近値をこえて恐怖学習が進行した．しかし，それにつづいて3回目の条件づけをしたのち，ここでは試験において扁桃体中心核-腹外側中脳水道周囲灰白質経路を抑制したところ，音に対するフリージング反応に変化は認められなかった．このことから，吻側延髄腹内側部に投射する腹外側中脳水道周囲灰白質のニューロンの活動により恐怖条件づけの漸近がひき起こされるが，このニューロンの活動は恐怖反応には重要ではないことが示唆された．<br/><br/><h2>おわりに</h2><br/>　情動体験により活性化される神経の教師信号に対する予測による下方性の制御は，学習にかかわるさまざまな<a href="#" class="anno 神経系">神経系</a>において確認されてきた現象である<a href="#R1"><sup>1)</sup></a>．この研究の結果から，恐怖体験の到来を事前に予測する刺激により扁桃体中心核-腹外側中脳水道周囲灰白質-吻側延髄腹内側部経路が活性化されると，恐怖記憶の中枢である扁桃体外側核において電撃に対する神経応答が減少し（予測誤差様の神経活動の生成），恐怖条件づけの漸近がひき起こされることが示唆された（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　予測により恐怖信号を抑制する負のフィードバック機構</strong><br/>（a）恐怖の予測がないと，恐怖の体験は恐怖記憶の中枢である扁桃体外側核を強く活性化し，恐怖記憶が形成される．<br/>（b）音により恐怖の体験の到来が予測されると，扁桃体中心核→中脳水道周囲灰白質→吻側延髄腹内側部という経路が活性化され，のちの恐怖の体験がひき起こす扁桃体外側核の活性化が抑制されて，新たな恐怖記憶の形成がふせがれる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ozawa-Nature-Neuroscience-16.12.27-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　予測により恐怖信号を抑制する負のフィードバック機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ozawa-Nature-Neuroscience-16.12.27-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ozawa-Nature-Neuroscience-16.12.27-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　この研究の結果から，予測による恐怖信号の抑制がその入力の早い段階で起こる可能性が示唆された．中脳水道周囲灰白質-吻側延髄腹内側部経路はストレスによる下向性の疼痛<a href="#" class="anno 抑制系">抑制系</a>の一部であり，脊髄あるいは<a href="#" class="anno 三叉神経">三叉神経</a>において痛覚の刺激を抑制することが知られている<a href="#R7"><sup>7)</sup></a>．しかし，恐怖を喚起する刺激にはさまざまな種類があり，必ずしも痛みをともなうとはかぎらない．また，痛覚に依存しない恐怖学習の場面においても予測により学習の下方性の制御が起こるとの報告もある<a href="#R8"><sup>8)</sup></a>．これらをふまえると，今回の研究において示唆された以外にもさまざまなフィードバック機構の存在する可能性は十分に考えられる．<br/>　また，異なる神経系における予測誤差様の神経活動が，類似したフィードバック機構により生成される可能性も考えられる．たとえば，<a href="#" class="anno 腹側">腹側</a>被蓋野の<a href="#" class="anno <a href="#" class="anno <a href="#" class="anno ドーパ">ドーパ</a>ミン">ドーパミン</a>ニューロン">ドーパミンニューロン</a>において認められる報酬性の予測誤差様の神経活動はこの領域に存在する<a href="#" class="anno GABAニューロン">GABAニューロン</a>により<a href="#" class="anno 局所的">局所的</a>に制御されているが<a href="#R9"><sup>9)</sup></a>，一方で，ドーパミンニューロンに投射する脳の別の領域のニューロンが同様の予測誤差様の神経活動を示すこともわかっている<a href="#R10"><sup>10)</sup></a>．このことと今回の研究の結果をふまえると，<a href="#" class="anno 報酬系">報酬系</a>においても<a href="#" class="anno 腹側被蓋野">腹側被蓋野</a>に到達するまえ，すなわち，入力の初期の段階において教師信号が予測による抑制をうけている可能性が示唆される．このように考えると，入力した刺激の<a href="#" class="anno 情報伝達">情報伝達</a>における初期と後期それぞれにおける抑制は，脳における予測誤差様の神経活動を生成する神経回路における<a href="#" class="anno 普遍的">普遍的</a>な機構なのかもしれない．<br/>　<a href="#" class="anno 心的外傷後ストレス障害">心的外傷後ストレス障害</a>などの<a href="#" class="anno 不安症">不安症</a>は，過剰で消去しづらい恐怖記憶に特徴づけられるとともに，心的外傷の複数回の経験がその<a href="#" class="anno 罹患率">罹患率</a>を増加させることが知られている<a href="#R11"><sup>11)</sup></a>．この研究においては，恐怖条件づけの漸近を制御するフィードバック機構の機能の不全により，恐怖学習が通常は起こらないレベルにまで過剰に増加した．このことから，この研究において示された負のフィードバック機構と類似した機構の破綻が，不安症の傾向のあるヒトにおいて過剰かつ<a href="#" class="anno 持続的">持続的</a>な恐怖記憶をひき起こすという，疾患の理解と治療にむけた新たな仮説が示唆される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Schultz, W.</span>: <span class="ti">Neuronal reward and decision signals: from theories to data.</span> <span class='so'>Physiol. Rev., 95, 853-951 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26109341" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Rescorla, R. A. & Wagner, A. R.</span>: <span class="ti">A theory of Pavlovian conditioning: variations in the effectiveness of reinforcement and nonreinforcement.</span> <span class='so'> <em>in</em> Classical Conditioning II: Current Research and Theory (Prokasy, W. F. & Black, A. H. eds.), pp. 64-99, Appleton-Century-Crofts, New York (1972)</span></li><br><li id="R3"><span class='au'>LeDoux, J. E.</span>: <span class="ti">Emotion circuits in the brain.</span> <span class='so'>Annu. Rev. Neurosci., 23, 155-184 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10845062" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Tovote, P., Esposito, M. S., Botta, P. et al.</span>: <span class="ti">Midbrain circuits for defensive behaviour.</span> <span class='so'>Nature, 534, 206-212 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27279213" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Johansen, J. P., Tarpley, J. W., LeDoux, J. E. et al.</span>: <span class="ti">Neural substrates for expectation-modulated fear learning in the amygdala and periaqueductal gray.</span> <span class='so'>Nat. Neurosci., 13, 979-986 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20601946" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Ciocchi, S., Herry, C., Grenier, F. et al.</span>: <span class="ti">Encoding of conditioned fear in central amygdala inhibitory circuits.</span> <span class='so'>Nature, 468, 277-282 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21068837" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Fields, H. L.</span>: <span class="ti">Pain modulation: expectation, opioid analgesia and virtual pain.</span> <span class='so'>Prog. Brain Res., 122, 245-253 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10737063" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Bakal, C. W., Johnson, R. D. & Rescorla, R. A.</span>: <span class="ti">The effect of change in US quality on the blocking effect.</span> <span class='so'>Pavlov. J. Biol. Sci., 9, 97-103 (1974)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/4220369" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Eshel, N., Tian, J., Bukwich, M. et al.</span>: <span class="ti">Arithmetic and local circuitry underlying dopamine prediction errors.</span> <span class='so'>Nature, 525, 243-246 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26322583" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Tian, J., Huang, R., Cohen, J. Y. et al.</span>: <span class="ti">Distributed and mixed information in monosynaptic inputs to dopamine neurons.</span> <span class='so'>Neuron, 91, 1374-1389 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27618675" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Reger, M. A., Gahm, G. A., Swanson, R. D. et al.</span>: <span class="ti">Association between number of deployments to Iraq and mental health screening outcomes in US Army soldiers.</span> <span class='so'>J. Clin. Psychiatry, 70, 1266-1272 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19689917" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=プログラミング" target="_blank">プログラミング</a></li><br></ul><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/17_02.html" target="_blank">17.2 Excitation of Nerve Cells and Transmission of Excitation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_01.html" target="_blank">20.1 Sensation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/05_03.html" target="_blank">5.3 The Autonomic Nervous System</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_02.html" target="_blank">20.2 Central Nervous System and Control</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_04.html" target="_blank">12.4 Protein Transport in Prokaryotic Cells</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">小澤 貴明（Takaaki Ozawa）</span><br>略歴：2011年 筑波大学大学院人間総合科学研究科 修了，同年 理化学研究所脳科学総合研究センター 研究員を経て，2016年よりスイスGeneva大学 研究員．<br>研究テーマ：快あるいは不快をともなう経験による行動の変容とその神経基盤．<br><br><strong>Joshua P. Johansen</strong><br>理化学研究所脳科学総合研究センター チームリーダー．<br>研究室URL：<a href="http://jlab.brain.riken.jp/" target="_blank">http://jlab.brain.riken.jp/</a><br></div><br>© 2016 小澤貴明・Joshua P. Johansen Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

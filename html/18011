@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 糖転移酵素EarPによる翻訳因子EF-PのArgのラムノシル化の構造的な基盤 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/18011" rel="bookmark">糖転移酵素EarPによる翻訳因子EF-PのArgのラムノシル化の構造的な基盤</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>仙石 徹・横山茂之・柳沢達男</strong><br>（理化学研究所 横山構造生物学研究室）<br>email：<a href="mailto:tatsuo.yanagisawa@riken.jp">柳沢達男</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2018.033">10.7875/first.author.2018.033</a><br><div class="reference"><br><span class="ti">Structural basis of protein arginine rhamnosylation by glycosyltransferase EarP.</span><br><span class="au">Toru Sengoku, Takehiro Suzuki, Naoshi Dohmae, Chiduru Watanabe, Teruki Honma, Yasushi Hikida, Yoshiki Yamaguchi, Hideyuki Takahashi, Shigeyuki Yokoyama, Tatsuo Yanagisawa</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/29440735" target="_blank"><em>Nature Chemical Biology</em>, <strong>14</strong>, 368-374 (2018)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno リボソーム">リボソーム</a>はタンパク質を合成する際にProを多く含む配列においてしばしば停止する．<a href="#" class="anno EF">EF</a>-Pは停止したリボソームを正常に<a href="#" class="anno も">も</a>どしタンパク質の合成を再開させる<a href="#" class="anno 翻訳因子">翻訳因子</a>である．近年，<a href="#" class="anno <a href="#" class="anno 髄膜">髄膜</a>炎菌"><a href="#" class="anno 髄膜炎">髄膜炎</a>菌</a>などの細菌において，新規の<a href="#" class="anno 糖<a href="#" class="anno 転移酵素">転移酵素</a>">糖転移酵素</a>EarPがd<a href="#" class="anno TDP">TDP</a>-<a href="#" class="anno ラムノース">ラムノース</a>を<a href="#" class="anno 補因子">補因子</a>としてEF-PのArg32をラムノシル化し，それによりEF-Pを<a href="#" class="anno 活性化">活性化</a>させることが明らかにされた．この研究において，筆者らは，EarPによるEF-Pの<a href="#" class="anno 認識機構">認識機構</a>およびArgのラムノシル化の<a href="#" class="anno 反応機構">反応機構</a>について解明するため，髄膜炎菌に由来するEarPの<a href="#" class="anno 結晶構造">結晶構造</a>を，アポ型，dTDP-ラムノースとの<a href="#" class="anno 複合体">複合体</a>，EF-PのドメインIとの複合体の3つの状態について解析した．EarPは糖転移酵素<a href="#" class="anno スーパーファミリー">スーパーファミリー</a>Bに<a href="#" class="anno 特徴的">特徴的</a>な2個の<a href="#" class="anno タン<a href="#" class="anno デ">デ</a>ム">タンデム</a>にならんだロスマン<a href="#" class="anno フォールド">フォールド</a>ドメインをもっていた．EF-PのドメインIはEarPの<a href="#" class="anno N末端">N末端</a>ドメインと結合し，その<a href="#" class="anno βシート">βシート</a>構造の全域にわたりEarPと多くの親水的な<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>および<a href="#" class="anno 疎水的">疎水的</a>な相互作用を形成していた．dTDP-ラムノースはEarPの2つのドメインのあいだの溝と結合しており，ラムノースの部分は糖<a href="#" class="anno 転移反応">転移反応</a>に適さない“いす型”の<a href="#" class="anno コンフォメーション">コンフォメーション</a>をとっていた．EF-Pとの結合にともないEarPのラムノース<a href="#" class="anno 結合ポケット">結合ポケット</a>の形状が変化し，“いす型”でなく糖転移反応に適した“ねじれ舟型”を収納することができるようになった．以上の結果から，EF-Pとの結合がこのようなラムノースのコンフォメーションの変化を<a href="#" class="anno 誘起">誘起</a>してEarPによるラムノシル化を進行させるという新たな機構が提唱された．EarPは淋菌，<a href="#" class="anno 緑膿菌">緑膿菌</a>，<a href="#" class="anno 百日咳菌">百日咳菌</a>など<a href="#" class="anno 臨床的">臨床的</a>に重要な一部の病原菌にも保存されており，この研究において解析された<a href="#" class="anno 立体構造">立体構造</a>および反応機構の知見は，これらEarPをもつ細菌のみを狙い撃つ<a href="#" class="anno 狭域性">狭域性</a>の<a href="#" class="anno 抗菌剤">抗菌剤</a>の開発に道を開くことが期待される．<br/><br/><h2>はじめに</h2><br/>　<a href="#" class="anno 遺伝暗号">遺伝暗号</a>の翻訳装置であるリボソームは，合成中の<a href="#" class="anno ポリ<a href="#" class="anno ペプチド">ペプチド</a>">ポリペプチド</a>にProが連続する配列が含まれるとしばしば停滞してタンパク質の合成を停止する．EF-Pおよびその<a href="#" class="anno 真核生物">真核生物</a>の<a href="#" class="anno オーソログ">オーソログ</a>である<a href="#" class="anno eIF">eIF</a>-5Aは，そのような停滞したリボソームにはたらきかけタンパク質の合成を再開させる翻訳因子である<a href="#R1"><sup>1-3)</sup></a>．<a href="#" class="anno ペプチド転移反応">ペプチド転移反応</a>はリボソームの奥まった内部において起こっており，EF-P/<a href="#" class="anno eIF-5A">eIF-5A</a>はそこにアクセスするため<a href="#" class="anno <a href="#" class="anno 翻訳後">翻訳後</a>修飾">翻訳後修飾</a>をうけた非常に長い<a href="#" class="anno アミノ">アミノ</a>酸<a href="#" class="anno 側鎖">側鎖</a>を用いる．たとえば，大腸菌やサルモネラ菌のEF-Pにおいては<a href="#" class="anno Lys">Lys</a>がβ<a href="#" class="anno リジル">リジル</a>化され<a href="#R4"><sup>4-6)</sup></a>，酵母やヒトなどの真核生物のeIF-5AにおいてはLysが<a href="#" class="anno ハイプシン">ハイプシン</a>化される<a href="#R7"><sup>7)</sup></a>．近年，筆者らの<a href="#" class="anno 研究グループ">研究グループ</a>およびほかの研究グループにより，シェワネラ菌，緑膿菌，髄膜炎菌などの一部の<a href="#" class="anno 真正細菌">真正細菌</a>においてEF-Pは特定のArg（髄膜炎菌においてはArg32）がラムノシル化をされて機能することが明らかにされた<a href="#R8"><sup>8-10)</sup></a>．これは，Argのラムノシル化についての最初の報告であり，この反応は新規の糖転移酵素EarPにより触媒される．<br/>　タンパク質はさまざまな糖により修飾されてその機能が制御され，それに対応して多くの糖転移酵素が存在する．これまで，いくつかの糖転移酵素については<a href="#" class="anno 基質タンパク質">基質タンパク質</a>との複合体として構造が決定されているが，それらは複数のタンパク質を基質とする，すなわち，幅広い基質<a href="#" class="anno 特異性">特異性</a>をもつものであった．これらの複合体の構造において，糖転移酵素はおもに基質タンパク質の<a href="#" class="anno 主鎖">主鎖</a>と相互作用を形成しており，基質タンパク質の<a href="#" class="anno かた">かた</a>ちのみを認識するものであった<a href="#R11"><sup>11)</sup></a>．一方で，EarPは知られているかぎりEF-Pのみを基質とするが，そのような厳密な<a href="#" class="anno 基質特異性">基質特異性</a>の<a href="#" class="anno 構造的">構造的</a>な基盤は明らかにされていなかった．<br/>　糖転移酵素はその<a href="#" class="anno 生成物">生成物</a>において糖の<a href="#" class="anno アノマー">アノマー</a>型（<a href="#" class="anno C1">C1</a>炭素における<a href="#" class="anno 立体化学">立体化学</a>）が変化するin<a href="#" class="anno ver">ver</a>ting酵素と変化しない<a href="#" class="anno ret">ret</a>aining酵素とに分類され<a href="#R12"><sup>12)</sup></a>，EarPはinverting酵素と考えられる<a href="#R13"><sup>13)</sup></a>．ほとんどのinverting酵素はSN2反応機構を用い，糖<a href="#" class="anno 受容体">受容体</a>が<a href="#" class="anno 糖<a href="#" class="anno 供与体">供与体</a>">糖供与体</a>のC1炭素を<a href="#" class="anno <a href="#" class="anno 求核">求核</a>攻撃">求核攻撃</a>することにより反応が進行する．多くの糖供与体はSN2反応の<a href="#" class="anno 脱離">脱離</a>基が<a href="#" class="anno アキシアル">アキシアル</a>位置をしめており<a href="#" class="anno 立体障害">立体障害</a>なく反応が進行する．ところが，ラムノースの供与体であるdTDP-ラムノースにおいては，ラムノースの部分が<a href="#" class="anno エネルギー的">エネルギー的</a>に最安定な<sup>1</sup>C<sub>4</sub>コンフォメーションをとると，SN2反応の<a href="#" class="anno 脱離基">脱離基</a>となるdTDPの部分はエ<a href="#" class="anno カ">カ</a>トリアル位置をしめる．このコンフォメーションにおいては，ラムノース環の立体障害により求核基はC1炭素を攻撃することができない．EarPがどのようにラムノース供与体と結合するのか，また，どのような反応機構によりラムノースを転移するのかは不明であった．<br/><br/><h2>1．糖転移酵素EarPの構造およびその比較</h2><br/>　EarPによるEF-Pの認識機構およびArgのラムノシル化の反応機構について明らかにするため，髄膜炎菌に由来するEarPの結晶構造を，アポ型（PDB ID：<a href="http://service.pdbj.org/mine/Det<a href="#" class="anno ail">ail</a>2?PDBID=5wxj&amp;PAGEID=Summary" target="_blank">5WXJ</a>）およびdTDP-ラムノースとの複合体（PDB ID：<a href="http://service.pdbj.org/mine/De<a href="#" class="anno tail">tail</a>2?PDBID=5xvr&amp;PAGEID=Summary" target="_blank">5XVR</a>，<a href="#F1">図1a</a>）として決定した．EarPは2つの<a href="#" class="anno ロスマンフォールド">ロスマンフォールド</a>ドメインをタンデムにもつ糖転移酵素スーパーファミリーBに属しており，なかでも，GT1ファミリーと構造<a href="#" class="anno 類似度">類似度</a>がもっとも高かった．dTDP-ラムノースはEarPの2つのドメインのあいだの溝と結合していた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　EarPの構造</strong><br/>（a）EarPとdTDP-ラムノースとの複合体の構造．<br/>（b）EarPとEF-PのドメインIとの複合体の構造．結晶化の条件に含まれないにもかかわらず，dTDPがEarPの活性中心に結合していた．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yanagisawa-Nature-Chemical-Biology-18.3.16-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　EarPの構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　EF-Pは3つのドメインをもつが，そのうちArg32を含むドメインIは単独でEarPによりラムノシル化されることがわかった．そこで，EarPとEF-PのドメインIとの複合体を共<a href="#" class="anno 結晶化">結晶化</a>しその立体構造を決定した（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=5wxk&amp;PAGEID=Summary" target="_blank">5WXK</a>，<a href="#F1">図1b</a>）．EF-PのドメインIはEarPの<a href="#" class="anno N末端ドメイン">N末端ドメイン</a>と結合しており，EF-PのArg32の側鎖はドメインIから突き出てEarPのAs<a href="#" class="anno p16">p16</a>やA<a href="#" class="anno sp2">sp2</a>0などと相互作用していた．これにくわえ，EF-PのドメインIはその<a href="#" class="anno βシート構造">βシート構造</a>の全域にわたりEarPと多くの親水的な相互作用および疎水的な相互作用を形成していた．すなわち，EarPはEF-PのドメインIのかたちと配列の両方を認識することにより高い特異性を実現していることがわかった．これは，これまでに報告された，ゆるい特異性をもつ糖転移酵素の基質の認識機構と<a href="#" class="anno 対照的">対照的</a>であった．<br/><br/><h2>2．EarPの<a href="#" class="anno 変異体">変異体</a>の解析</h2><br/>　EarPは多くの保存された<a href="#" class="anno 残基">残基</a>を介してEF-Pと相互作用を形成していた．これらの残基の<a href="#" class="anno 重要性">重要性</a>および機能について調べるため，EarPの変異体を作製してEF-Pとの<a href="#" class="anno 結合活性">結合活性</a>およびラムノシル化活性について調べた．その結果，EF-PのArg32からはなれた位置でEF-Pと相互作用を形成するEarPの残基は，EF-Pとの結合およびラムノシル化の両方に重要であることが明らかにされた．一方，EF-PのArg32と相互作用するEarPの残基に置換が導入された場合，EF-Pとの結合活性についてはさほど大きな影響はみられなかったのに対し，ラムノシル化活性は大きく低下した．とくに，EF-PのArg32の<a href="#" class="anno グアニジン">グアニジン</a>の部分と相互作用するEarPのAsp20については，Ala置換体とAsn置換体のいずれについても活性が完全に消失した．構造的に<a href="#" class="anno 相同">相同</a>な糖転移酵素においてEarPのAsp20に相当する位置にはSN2反応における<a href="#" class="anno 一般塩基触媒">一般塩基触媒</a>としてはたらく残基が存在する<a href="#R12"><sup>12)</sup></a>．これらの結果から，EarPもAsp20を一般塩基触媒とするSN<a href="#" class="anno 2型">2型</a>の反応機構を用いることが明らかにされた．<br/><br/><h2>3．dTDP-ラムノースとの結合</h2><br/>　dTDP-ラムノースはEarPの2つのドメインのあいだの溝と結合しており，おもに<a href="#" class="anno C末端">C末端</a>ドメインの残基と相互作用を形成していた．dTDPの部分はEarPと多くの<a href="#" class="anno 水素結合">水素結合</a>を形成し，<a href="#" class="anno チミジン">チミジン</a>塩基に<a href="#" class="anno 特異的">特異的</a>に認識されていた．一方，ラムノースの部分はEarPとただひとつの水素結合しか形成しておらず，もっともエネルギー的に安定な“いす型”の<sup>1</sup>C<sub>4</sub>コンフォメーションをとっていた．<br/><br/><h2>4．EF-PのArg32のラムノシル化の反応機構</h2><br/>　EarP，dTDP-ラムノース，EF-Pからなる三重複合体のモデル構造を構築した．単純にEarPとdTDP-ラムノースとの複合体とEarPとEF-Pとの複合体を<a href="#" class="anno 重ね合わせ">重ね合わせ</a>たところ，EF-PのArg32とラムノースが<a href="#" class="anno 立体的">立体的</a>に衝突してしまった．すなわち，EF-PとdTDP-ラムノースとの結合にはなんらかのコンフォメーションの変化が必要であった．<a href="#" class="anno 実際">実際</a>に，EarPのAsp20を含む<a href="#" class="anno ループ領域">ループ領域</a>の構造はEF-Pとの複合体とdTDP-ラムノースとの複合体とで異なっており，それにともない，ラムノース結合ポケットのかたちも変化していた．そこで，EF-Pとの複合体においてラムノース結合ポケットに収まりうるラムノースのコンフォメーションを探索し，<a href="#" class="anno 分子動力学">分子動力学</a>計算により構造を<a href="#" class="anno 最適化">最適化</a>したところ，“ねじれ舟型”の<sup>5</sup>S<sub>1</sub>コンフォメーションとその類似型のみが見い出された．これらのコンフォメーションにおいて，SN2反応における脱離基であるdTDPはアキシアル位置をしめており，EF-PのArg32はラムノース環との立体障害なしにC1炭素を求核攻撃することが可能であった．dTDP-ラムノースとの複合体においては，EarPのAsp20を含むループ領域との立体障害により，ラムノースは<sup>5</sup>S<sub>1</sub>コンフォメーションをとりえ<a href="#" class="anno ないこと">ないこと</a>が明らかにされた．<br/>　以上の結果から，以下のような反応機構が提唱された（<a href="#F2">図2</a>）．EarPはまずdTDP-ラムノースと結合し，その際にラムノース環はエネルギー的に安定な<sup>1</sup>C<sub>4</sub>コンフォメーションをとる．このコンフォメーションにおいてSN2反応は起こりにくく，それによりEarPは<a href="#" class="anno 非特異的">非特異的</a>なArgのラムノシル化やdTDP-ラムノースのむだな<a href="#" class="anno 加水分解">加水分解</a>をふせいでいる．EF-PがEarPと結合する際に，EF-PのArg32との立体障害およびEarPのループ領域の<a href="#" class="anno 構造変化">構造変化</a>によりラムノースは<sup>5</sup>S<sub>1</sub>コンフォメーションへと変化する．これによりEF-PのArg32によるラムノースのC1炭素に対する求核攻撃が立体<a href="#" class="anno 化学的">化学的</a>に可能になり，SN2反応によるEF-PのArg32のラムノシル化が起こる．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　EarPによるEF-PのArg32に特異的なラムノシル化の反応機構のモデル</strong><br/>1）EarPはまずdTDP-ラムノースと結合する．このとき，ラムノースはエネルギー的に最安定な<sup>1</sup>C<sub>4</sub>コンフォメーションをとっている．EarPのAsp16やAsp20を含むループ領域はラムノース結合ポケットの一部を形成する．2）EarPとdTDP-ラムノースとの複合体の構造をEarPとEF-Pとの複合体と重ね合わせると，EF-PのArg32とラムノースが衝突してしまう．また，EarPのループ領域が構造変化を起こしてラムノースとの水素結合が保てなくなる．3）ラムノースが反転し<sup>5</sup>S<sub>1</sub>コンフォメーションをとった構造．脱離基であるdTDPはアキシアル位置にあり，EF-PのArg32による求核反応が可能になる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yanagisawa-Nature-Chemical-Biology-18.3.16-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　EarPによるEF-PのArg32に特異的なラムノシル化の反応機構のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yanagisawa-Nature-Chemical-Biology-18.3.16.doc" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yanagisawa-Nature-Chemical-Biology-18.3.16.doc" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究において，筆者らは，従来の糖転移酵素にはみられない，“いす型”から“ねじれ舟型”への反転をともなうArgのラムノシル化の新たな反応機構を提唱した．EarPの構造<a href="#" class="anno <a href="#" class="anno 生物学">生物学</a>的">生物学的</a>な研究は，厳密な基質特異性を示す糖転移酵素による基質の認識機構および反応機構を詳細に説明した最初の例である．<br/>　Arg32をもつEF-Pは細菌全体の10％前後であるが，それらの細菌においてほとんどの場合EarPが保存されている．EF-Pのラムノシル化は緑膿菌においては<a href="#" class="anno 感染性">感染性</a>や<a href="#" class="anno 抗生物質">抗生物質</a>に対する耐性にかかわり<a href="#R8"><sup>8,9)</sup></a>，髄膜炎菌においては正常な増殖に必要であることが確かめられている<a href="#R10"><sup>10)</sup></a>．EarPは緑膿菌，髄膜炎菌のほか淋菌や百日咳菌などの臨床において重要な病原菌にも存在するが，ヒトには存在しない．<a href="#" class="anno そのため">そのため</a>，EarPに特異的な<a href="#" class="anno 阻害剤">阻害剤</a>が開発されれば，これらの病原菌にのみはたらき<a href="#" class="anno 耐性菌">耐性菌</a>の出現を抑える狭域性の抗生物質につながるかもしれない．この研究において明らかにされたEarPによる独特なラムノシル化の反応機構は，特異的な阻害剤の開発に有用な手がかりをあたえるであろう．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Ude, S., Lassak, J. & Starosta, A. L. et al.</span>: <span class="ti">Translation elongation factor EF-P alleviates ribosome stalling at polyproline stretches.</span> <span class='so'>Science, 339, 82-85 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23239623" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Doerfel, L. K., Wohlgemuth, I., Kothe, C. et al.</span>: <span class="ti">EF-P is essential for rapid synthesis of proteins containing consecutive proline residues.</span> <span class='so'>Science, 339, 85-88 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23239624" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Lassak, J., Wilson, D. N. & Jung, K.</span>: <span class="ti">Stall no more at polyproline stretches with the translation elongation factors EF-P and IF-5A.</span> <span class='so'>Mol. Microbiol., 99, 219-235 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26416626" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Navarre, W. W., Zou, S. B., Roy, H. et al.</span>: <span class="ti">PoxA, YjeK, and elongation factor P coordinately modulate virulence and drug resistance in <em>Salmonella enterica</em>.</span> <span class='so'>Mol. Cell, 39, 209-221 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20670890" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Yanagisawa, T., Sumida, T., Ishii, R. et al.</span>: <span class="ti">A paralog of lysyl-tRNA synthetase aminoacylates a conserved lysine residue in translation elongation factor P.</span> <span class='so'>Nat. Struct. Mol. Biol., 17, 1136-1143 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20729861" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/1110" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R6"><span class='au'>Roy, H., Zou, S. B., Bullwinkle, T. J. et al.</span>: <span class="ti">The tRNA synthetase paralog PoxA modifies elongation factor-P with (<em>R</em>)-β-lysine.</span> <span class='so'>Nat. Chem. Biol., 7, 667-669 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21841797" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Park, M. H.</span>: <span class="ti">The post-translational synthesis of a polyamine-derived amino acid, hypusine, in the eukaryotic translation initiation factor 5A (eIF5A).</span> <span class='so'>J. Biochem., 139, 161-169 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16452303" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Lassak, J., Keilhauer, E. C., Furst, M. et al.</span>: <span class="ti">Arginine-rhamnosylation as new strategy to activate translation elongation factor P.</span> <span class='so'>Nat. Chem. Biol., 11, 266-270 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25686373" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Rajkovic, A., Erickson, S., Witzky, A. et al.</span>: <span class="ti">Cyclic rhamnosylated elongation factor P establishes antibiotic resistance in <em>Pseudomonas aeruginosa</em>.</span> <span class='so'>MBio, 6, e00823 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26060278" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Yanagisawa, T., Takahashi, H., Suzuki, T. et al.</span>: <span class="ti"><em>Neisseria meningitidis</em> translation elongation factor P and its active-site arginine residue are essential for cell viability.</span> <span class='so'>PLoS One, 11, e0147907 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26840407" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Hurtado-Guerrero, R. & Davies, G. J.</span>: <span class="ti">Recent structural and mechanistic insights into post-translational enzymatic glycosylation.</span> <span class='so'>Curr. Opin. Chem. Biol., 16, 479-487 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23142486" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Lairson, L. L., Henrissat, B., Davies, G. J. et al.</span>: <span class="ti">Glycosyltransferases: structures, functions, and mechanisms.</span> <span class='so'>Annu. Rev. Biochem., 77, 521-555 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18518825" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Li, X., Krafczyk, R., Macosek, J. et al.</span>: <span class="ti">Resolving the α-glycosidic linkage of arginine-rhamnosylated translation elongation factor P triggers generation of the first Arg<sup>Rha</sup> specific antibody.</span> <span class='so'>Chem. Sci., 7, 6995-7001 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28451135" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=DDBJ" target="_blank">DDBJ</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=PDBj" target="_blank">PDBj</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=メタゲノム" target="_blank">メタゲノム</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=塩基配列" target="_blank">塩基配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=オーソログ" target="_blank">オーソログ解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アミノ酸" target="_blank">アミノ酸配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=構造解析" target="_blank">構造解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=系統樹" target="_blank">系統樹</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=創薬" target="_blank">創薬</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=UNIX" target="_blank">UNIX</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=Linux" target="_blank">Linux</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=シェルスクリプト" target="_blank">シェルスクリプト</a></li><br></ul><br><div class="au-profile"><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_02.html" target="_blank">9.2 Ribosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_04.html" target="_blank">9.4 Protein Synthesis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_05.html" target="_blank">9.5 Cooperation between Transcription and Translation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_02.html" target="_blank">11.2 Characteristic Structures in Prokaryotes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/06_04.html" target="_blank">6.4 Carbohydrates</a></li><br></ul><br><h2>著者プロフィール</h2><br><span class="author">仙石  徹（Toru Sengoku）</span><br>略歴：2004年 東京大学大学院理学系研究科博士課程 修了，同年 理化学研究所ゲノム科学総合研究センター リサーチアソシエイト，2007年 米国Rockefeller大学 博士研究員，2010年 理化学研究所生命分子システム基盤研究領域 研究員を経て，2013年より理化学研究所 研究員．<br>研究テーマ：遺伝子の発現制御の構造生物学．<br><br><strong>横山 茂之（Shigeyuki Yokoyama）</strong><br>理化学研究所 上席研究員．<br><br><strong>柳沢 達男（Tatsuo Yanagisawa）</strong><br>理化学研究所 研究員．<br></div><br>© 2018 仙石 徹・横山茂之・柳沢達男 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

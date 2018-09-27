@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> パイオニア軸索との接触がニューロンの極性化を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/8447" rel="bookmark">パイオニア軸索との接触がニューロンの極性化を制御する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>難波隆志・貝淵弘三</strong><br>（名古屋大学大学院医学系研究科 神経情報薬理学講座）<br>email：<a href="mailto:nambatk@med.nagoya-u.ac.jp">難波隆志</a>，<a href="mailto:kaibuchi@med.nagoya-u.ac.jp">貝淵弘三</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.032">10.7875/first.author.2014.032</a><br><div class="reference"><br><span class="ti">Pioneering axons regulate neuronal polarization in the developing cerebral cortex.</span><br><span class="au">Takashi Namba, Yuji Kibe, Yasuhiro Funahashi, Shinichi Nakamuta, Tetsuya Takano, Takuji Ueno, Akiko Shimada, Sachi Kozawa, Mayumi Okamoto, Yasushi Shimoda, Kanako Oda, Yoshino Wada, Tomoyuki Masuda, Akira Sakakibara, Michihiro Igarashi, Takaki Miyata, Catherine Faivre-Sarrailh, Kosei Takeuchi, Kozo Kaibuchi</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24559674" target="_blank"><em>Neuron</em>, <strong>81</strong>, 814-829 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ニューロンは高度に<a href="#" class="anno <a href="#" class="anno 極">極</a>性化">極性化</a>した細胞のひとつであり，通常は1本の<a href="#" class="anno 軸索">軸索</a>と複数の<a href="#" class="anno 樹状">樹状</a>突起を<a href="#" class="anno も">も</a>つ．現在までに，ニューロンの極性化，なかでも，軸索の形成を制御するさまざまな<a href="#" class="anno 細胞内">細胞内</a><a href="#" class="anno シグナルタンパク質">シグナルタンパク質</a>が，おもに<a href="#" class="anno 培養ニューロン">培養ニューロン</a>を用いた<a href="#" class="anno 実験系">実験系</a>により同定されてきた．しかしながら，生体においてニューロンがどのように軸索を形成し極性化するのかに関しては<a href="#" class="anno 未解明">未解明</a>な点が多い．今回，筆者らは，<a href="#" class="anno 胎生期">胎生期</a>の<a href="#" class="anno 大脳<a href="#" class="anno 新皮質">新皮質</a>">大脳新皮質</a>の<a href="#" class="anno 興奮性">興奮性</a>ニューロンをモ<a href="#" class="anno デ">デ</a>ルとして用い，生体においてどのようなタンパク質がニューロンの極性化を制御しているのかについて解析した．その結果，<a href="#" class="anno 未熟">未熟</a>なニューロンとすでに成熟したニューロンの軸索であるパイオニア軸索とのあいだに免疫<a href="#" class="anno グロブリン">グロブリン</a>様の細胞<a href="#" class="anno 接着分子">接着分子</a>であるTAG-1を介した密接な<a href="#" class="anno 細胞間">細胞間</a><a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>があり，これが軸索の形成において重要な役割をはたしていることを見い<a href="#" class="anno 出し">出し</a>た．さらに，TAG-1の下流において<a href="#" class="anno Src">Src</a>ファミリー<a href="#" class="anno キナーゼ">キナーゼ</a><a href="#" class="anno Lyn">Lyn</a>がはたらき，ニューロンの極性化を制御していることも明らかにした．この研究は，これまでの培養ニューロンを用いた極性化の研究においては明らかにすることのできなかった，生体でのニューロンの極性化におけるニューロンどうしの相互作用による<a href="#" class="anno 制御機構">制御機構</a>をはじめて解明したものといえる．<br/><br/><h2>はじめに</h2><br/>　われわれの身体のなかでもっとも複雑かつ高度に極性化した細胞のひとつがニューロンである<a href="#R1"><sup>1,2)</sup></a>．通常，ニューロンは1本の軸索と複数の<a href="#" class="anno 樹状突起">樹状突起</a>という2種類の異なった突起をもつ．ニューロンは極性化することにより，樹状突起より入力をうけ軸索を介し出力するという，一方向の<a href="#" class="anno 情報伝達">情報伝達</a>を行うことが可能になっている．現在までに，さまざまなニューロンの極性化の機構が，おもに培養ニューロンを用いた研究から明らかにされてきている．しかし，それらの<a href="#" class="anno 研究結果">研究結果</a>をそのまま“<a href="#" class="anno 生体内">生体内</a>”におけるニューロンの極性化の機構にあてはめることはできない．なぜならば，細胞どうしの直接的な接触のない培養ニューロンとは違い，生体においてニューロンは<a href="#" class="anno 多種多様">多種多様</a>な細胞にかこまれ，これらと接しながら極性化すると考えられるからである．この研究において，筆者らは，生体においてニューロンの極性化を制御する<a href="#" class="anno 微小環境">微小環境</a>とその下流のシグナルの実態を明らかにするため，胎生期の大脳新皮質の<a href="#" class="anno 興奮性ニューロン">興奮性ニューロン</a>をモデルとして用い解析を行った．<br/>　胎生期のマウスの大脳新皮質の興奮性ニューロンは，以下の過程をへて極性化すると考えられている<a href="#R3"><sup>3-5)</sup></a>（<a href="#F1">図1</a>）．<a href="#" class="anno 脳室">脳室</a>帯に位置する<a href="#" class="anno <a href="#" class="anno 神経幹">神経幹</a>細胞">神経<a href="#" class="anno 幹細胞">幹細胞</a></a>である放射状<a href="#" class="anno グリア">グリア</a>細胞は，<a href="#" class="anno 中間型">中間型</a>神経<a href="#" class="anno 前駆細胞">前駆細胞</a>を生み出す．そののち，<a href="#" class="anno 脳室下帯">脳室下帯</a>に存在する中間型<a href="#" class="anno 神経前駆細胞">神経前駆細胞</a>は，ニューロンを生み出す．未熟なニューロンはまず<a href="#" class="anno 中間帯">中間帯</a>において複数の短い突起をもつ<a href="#" class="anno <a href="#" class="anno 多極">多極</a>性">多極性</a>の形態をとる多極<a href="#" class="anno 性細胞">性細胞</a>となり，そののち，先導突起および後方突起を伸ばした<a href="#" class="anno 双極性">双極性</a>の形態をとる双極性細胞となる．そして，双極性細胞は<a href="#" class="anno 皮質板">皮質板</a>へと移動し，<a href="#" class="anno 最終的">最終的</a>に，樹状突起および軸索をもつニューロンへと成熟する．このとき，先導突起は樹状突起に，後方突起は軸索になると考えられている．この研究では，多極性細胞から双極性細胞への形態の変化および未熟な軸索の形成に着目し解析を行った．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　胎生期の大脳新皮質におけるニューロンの極性化の過程とパイオニア軸索の関与</strong><br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/02/Kaibuchi-Neuron-14.2.19-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　胎生期の大脳新皮質におけるニューロンの極性化の過程とパイオニア軸索の関与" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kaibuchi-Neuron-14.2.19-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kaibuchi-Neuron-14.2.19-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．多極性細胞は中間帯の下方において極性化する</h2><br/>　ニューロンの<a href="#" class="anno 経時的">経時的</a>な<a href="#" class="anno 形態変化">形態変化</a>について詳細に解析するため，<a href="#" class="anno 子宮内">子宮内</a><a href="#" class="anno 電気穿孔法">電気穿孔法</a>を用いて胎生13日目の大脳新皮質のニューロンを標識した．そののち，胎生15日目に培養切片を作製し，<a href="#" class="anno 共焦点顕微鏡">共焦点顕微鏡</a>により<a href="#" class="anno タイムラプス">タイムラプス</a><a href="#" class="anno イメージング">イメージング</a>を行った．その結果，過半数の多極性細胞はまず軸索を伸ばし，そののち，先導突起を伸ばして双極性細胞へと変化することがわかった．この結果は，生体においても培養ニューロンと同様に，軸索の形成がニューロンの極性化の最初の段階であることを示唆した．つづいて，ニューロンの極性化の<a href="#" class="anno 空間的">空間的</a>な解析を行った．胎生13日目に標識されたニューロンの<a href="#" class="anno 大部分">大部分</a>は，胎生15日目には中間帯に存在していた．中間帯の上方では過半数のニューロンが軸索をもつ双極性細胞であったが，中間帯の下方では軸索をもつ双極性細胞と軸索をもつ多極性細胞との割合はほぼ<a href="#" class="anno 同じ">同じ</a>であった．以上の結果より，中間帯の下方において多極性細胞は軸索を伸ばし極性化し，そののち，双極性細胞へと形態を変化させ皮質板へむかい移動することが判明した．<br/><br/><h2>2．多極性細胞のもつ未熟な突起はパイオニア軸索と密に接触し軸索へと分化する</h2><br/>　ニューロンの極性化の起こる領域である中間帯の下方には，早生まれのニューロンに由来するパイオニア軸索が走行していることが知られている．そこで，多極性細胞とパイオニア軸索とのあいだの関係を<a href="#" class="anno <a href="#" class="anno 組織学">組織学</a>的">組織学的</a>に解析した．1回目の子宮内電気穿孔法によりパイオニア軸索を標識し，2回目の電気穿孔法により多極性細胞を標識した．その結果，多極性細胞のもつ複数の突起のうちの1本がパイオニア軸索と接触し，最終的にその突起が軸索へと分化することが確認された．<br/><br/><h2>3．軸索の形成には<a href="#" class="anno <a href="#" class="anno 細胞接着">細胞接着</a>分子">細胞接着分子</a>TAG-1が必要である</h2><br/>　ニューロンどうしの接触にはさまざまな細胞接着分子の関与が知られ，なかでも，<a href="#" class="anno <a href="#" class="anno 免疫グロブリン">免疫グロブリン</a>様">免疫グロブリン様</a>の細胞接着分子がよく知られる<a href="#R6"><sup>6)</sup></a>．さまざまな免疫グロブリン様細胞接着分子のなかで，多極性細胞が極性を獲得する“場”である中間帯の下方に非常に強く局在している細胞接着分子としてTAG-1を同定した．また，TAG-1は多極性細胞にも強く発現していることが確認された．これらの結果は，TAG-1を介した多極性細胞とパイオニア軸索とのあいだの接触が軸索の形成を制御している<a href="#" class="anno 可能性">可能性</a>を示唆した．そこで，軸索の形成におけるTAG-1の機能について解析した．子宮内電気穿孔法および<a href="#" class="anno RNAi">RNAi</a>法を用いてTAG-1の発現を抑制したところ，軸索の形成が有意に阻害された．また，この<a href="#" class="anno 表現型">表現型</a>は<a href="#" class="anno 野生型">野生型</a>TAG-1の<a href="#" class="anno 強制発現">強制発現</a>により救済されたが，細胞接着能を<a href="#" class="anno 欠失">欠失</a>したTAG-1<a href="#" class="anno 変異体">変異体</a>の強制発現では救済されなかった．以上のことから，TAG-1を介した<a href="#" class="anno 細胞間相互作用">細胞間相互作用</a>が多極性細胞における軸索の形成を制御していることが示唆された．<br/><br/><h2>4．TAG-1は<a href="#" class="anno Srcファミリーキナーゼ">Srcファミリーキナーゼ</a>Lynを<a href="#" class="anno 活性化">活性化</a>し軸索の形成を制御する</h2><br/>　これまでの研究から，TAG-1は脂質<a href="#" class="anno ラフト">ラフト</a>を介してSrcファミリーキナーゼLynを活性化することが知られていた<a href="#R7"><sup>7)</sup></a>．<a href="#" class="anno 実際">実際</a>に，胎生期15日目の大脳新皮質に対し抗TAG-1抗体を用いて<a href="#" class="anno 免疫沈降">免疫沈降</a>を行うとLynが<a href="#" class="anno <a href="#" class="anno 共沈">共沈</a>降">共沈降</a>すること，また，抗TAG-1抗体による架橋によりLynが活性化することが確認された．さらに，TAG-1の<a href="#" class="anno 発現抑制">発現抑制</a>による軸索の<a href="#" class="anno 形成異常">形成異常</a>の表現型は，Lynの強制発現により<a href="#" class="anno 部分的">部分的</a>に救済されることも確認された．また，Lynが<a href="#" class="anno 低分子">低分子</a>量<a href="#" class="anno <a href="#" class="anno Gタンパク">Gタンパク</a>質">Gタンパク質</a>である<a href="#" class="anno Rac">Rac</a>1を<a href="#" class="anno 間接的">間接的</a>に活性化することも見い出した．以上の結果から，TAG-1を介した細胞接着はLynを活性化し，それにひきつづき<a href="#" class="anno Rac1">Rac1</a>を活性化することにより，ニューロンにおける軸索の形成および極性化を制御していることが示唆された．<br/><br/><h2>おわりに</h2><br/>　この研究より，生体におけるニューロンの極性化においては，すでに存在しているパイオニア軸索との接触が重要な役割をはたすことが明らかになった．これまでの研究から，生体において<a href="#" class="anno 神経<a href="#" class="anno 栄養因子">栄養因子</a>">神経栄養因子</a>や<a href="#" class="anno TGFβ">TGFβ</a>などの液<a href="#" class="anno 性因子">性因子</a>がニューロンの極性化を制御している可能性が提示されている．しかしながら，これらの<a href="#" class="anno <a href="#" class="anno 液性">液性</a>因子">液性因子</a>では，どのようにして複数の突起のうちの1本が軸索として選択されるのかという問題を解決することはできない．筆者らは，今回の結果をもとに，パイオニア軸索との細胞間相互作用により，多極性細胞の特定の突起が効率よく軸索へと分化することが可能になっていると考えている（<a href="#F1">図1</a>）．<br/>　一方で，今回の研究結果は新たな疑問を生み出した．ニューロンが軸索を伸ばすためにすでに存在する軸索を使用するならば，“最初”の軸索の形成はどのような<a href="#" class="anno 分子機構">分子機構</a>により制御されているのであろうか<a href="#R8"><sup>8)</sup></a>（<a href="#F2">図2</a>）．<a href="#" class="anno 神経発生">神経発生</a>の過程を丹念にながめると，この問いに対する回答がみえてくる．胎生中期のニューロンは神経幹細胞である<a href="#" class="anno 神経上皮">神経上皮</a>細胞から直接に生み出されると考えられている．神経<a href="#" class="anno 上皮細胞">上皮細胞</a>は名前のとおり<a href="#" class="anno 上皮様">上皮様</a>の極性をもつ．<a href="#" class="anno そのため">そのため</a>，<a href="#" class="anno 神経上皮細胞">神経上皮細胞</a>から直接に生み出されたニューロンは<a href="#" class="anno 母細胞">母細胞</a>の極性をうけつぐことができると考えられる．一方で，胎生後期のニューロンは神経幹細胞である<a href="#" class="anno 放射状グリア">放射状グリア</a>細胞から直接には<a href="#" class="anno 産生">産生</a>されず，中間型前駆細胞をへて産生されることが知られている．放射状<a href="#" class="anno グリア細胞">グリア細胞</a>は<a href="#" class="anno 基底膜">基底膜</a>と接した上皮様の極性をもつが，中間型前駆細胞はそのような明確な極性をもたない．そのため，中間型前駆細胞より生じたニューロンは母細胞の極性をうけつぐことがで<a href="#" class="anno きず">きず</a>，極性を<a href="#" class="anno 再獲得">再獲得</a>する必要がある．そのような状況において，パイオニア軸索はニューロンが極性化するための微小<a href="#" class="anno 環境因子">環境因子</a>として多極性細胞にはたらきかけ，効率のよい軸索の形成および極性化を可能にしていると推測される．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ニューロンの極性化に関する2つの概念</strong><br/>（a）母細胞の極性を相続する．<br/>（b）極性を再獲得する．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/02/Kaibuchi-Neuron-14.2.19-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ニューロンの極性化に関する2つの概念" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kaibuchi-Neuron-14.2.19-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kaibuchi-Neuron-14.2.19-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　この研究は，生体においてニューロンが極性化するのに必要な“微小環境”にはじめて着目し解析したものである．今後，このような視点のみならず，さらなる新しい観点からニューロンの極性化の研究が進められていくことを願っている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Arimura, N. & Kaibuchi, K.</span>: <span class="ti">Neuronal polarity: from extracellular signals to intracellular mechanisms.</span> <span class='so'>Nat. Rev. Neurosci., 8, 194-205 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17311006" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Barnes, A. P. & Polleux, F.</span>: <span class="ti">Establishment of axon-dendrite polarity in developing neurons.</span> <span class='so'>Annu. Rev. Neurosci., 32, 347-381 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19400726" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Kriegstein, A. R. & Noctor, S. C.</span>: <span class="ti">Patterns of neuronal migration in the embryonic cortex.</span> <span class='so'>Trends Neurosci., 27, 392-399 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15219738" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Nakamuta, S., Funahashi, Y., Namba, T. et al.</span>: <span class="ti">Local application of neurotrophins specifies axons through inositol 1,4,5-trisphosphate, calcium, and Ca<sup>2+</sup>/calmodulin-dependent protein kinases.</span> <span class='so'>Sci. Signal., 4, ra76 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22087032" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Hatanaka, Y. & Yamauchi, K.</span>: <span class="ti">Excitatory cortical neurons with multipolar shape establish neuronal polarity by forming a tangentially oriented axon in the intermediate zone.</span> <span class='so'>Cereb. Cortex, 23, 105-113 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22267309" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Shimoda, Y. & Watanabe, K.</span>: <span class="ti">Contactins: emerging key roles in the development and function of the nervous system.</span> <span class='so'>Cell Adh. Migr., 3, 64-70 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19262165" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Kasahara, K., Watanabe, K., Takeuchi, K. et al.</span>: <span class="ti">Involvement of gangliosides in glycosylphosphatidylinositol-anchored neuronal cell adhesion molecule TAG-1 signaling in lipid rafts.</span> <span class='so'>J. Biol. Chem., 275, 34701-34709 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10944523" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Kriegstein, A. & Alvarez-Buylla, A.</span>: <span class="ti">The glial nature of embryonic and adult neural stem cells.</span> <span class='so'>Annu. Rev. Neurosci., 32, 149-184 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19555289" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/17_02.html" target="_blank">17.2 Excitation of Nerve Cells and Transmission of Excitation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_01.html" target="_blank">20.1 Sensation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/05_03.html" target="_blank">5.3 The Autonomic Nervous System</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_02.html" target="_blank">20.2 Central Nervous System and Control</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_03.html" target="_blank">20.3 Control of output to effectors</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">難波 隆志（Takashi Namba）</span><br>略歴：2007年 早稲田大学大学院理工学研究科 修了，同年 国立精神・神経センター神経研究所 流動研究員を経て，2009年より名古屋大学大学院医学系研究科 特任助教．<br>抱負：目に見えるもの（発生や進化）を，目に見えないもの（分子）により説明したい．<br><br><strong>貝淵 弘三（Kozo Kaibuchi）</strong><br>名古屋大学大学院医学系研究科 教授．<br>研究室URL：<a href="http://www.med.nagoya-u.ac.jp/Yakuri/" target="_blank">http://www.med.nagoya-u.ac.jp/Yakuri/</a><br></div><br>© 2014 難波隆志・貝淵弘三 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

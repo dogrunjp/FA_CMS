@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> レプリソームの構成タンパク質であるCtf4は複製が阻害された際に生じるDNA 2本鎖切断の修復に重要である : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/16603" rel="bookmark">レプリソームの構成タンパク質であるCtf4は複製が阻害された際に生じるDNA 2本鎖切断の修復に重要である</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>佐々木真理子・小林武彦</strong><br>（東京大学分子細胞生物学研究所 ゲノム再生研究分野）<br>email：<a href="mailto:sasakim@iam.u-tokyo.ac.jp">佐々木真理子</a>，<a href="mailto:tako2015@iam.u-tokyo.ac.jp">小林武彦</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.051">10.7875/first.author.2017.051</a><br><div class="reference"><br><span class="ti">Ctf4 prevents genome rearrangements by suppressing DNA double-strand break formation and its end resection at arrested replication forks.</span><br><span class="au">Mariko Sasaki, Takehiko Kobayashi</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28525744" target="_blank"><em>Molecular Cell</em>, <strong>66</strong>, 533-545.e5 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　複製が阻害され<a href="#" class="anno 複製フォーク">複製フォーク</a>が停止するとDNA 2本鎖切断が生じるが，その際のDNA 2本鎖切断の修復の機構については不明であった．筆者らは，<a href="#" class="anno 出芽酵母">出芽酵母</a>の<a href="#" class="anno リボソーム">リボソーム</a>RNA遺伝子（<a href="#" class="anno rDNA">rDNA</a>）領域において複製の阻害にと<a href="#" class="anno も">も</a>ない生じるDNA 2本鎖切断は，複製が起こっていないときにDNA 2本鎖切断を修復する<a href="#" class="anno <a href="#" class="anno 相">相</a>同">相同</a><a href="#" class="anno 組換え">組換え</a>経路には依存しない，新規の経路により修復されることを明らかにした．一方で，<a href="#" class="anno レプリソーム">レプリソーム</a>の<a href="#" class="anno 構成タンパク質">構成タンパク質</a>である<a href="#" class="anno C<a href="#" class="anno tf4">tf4</a>">Ctf4</a>が欠損すると，DNA 2本鎖切断の末端は削り込みをうけて<a href="#" class="anno 相同組換え">相同組換え</a>経路により修復されるようになり，さらに，rDNAの<a href="#" class="anno コピー数">コピー数</a>が異常に増幅した．このことから，Ctf4は複製が阻害された際に生じるDNA 2本鎖切断を正しく修復するために重要であることが判明した．複製が阻害されたときには相同組換え経路を抑制することによりゲノムの<a href="#" class="anno 再編成">再編成</a>をふせぎ，ゲノムの<a href="#" class="anno 安定性">安定性</a>を維持することが重要であることが明らかにされた．<br/><br/><h2>はじめに</h2><br/>　DNAを正確に複製することは，たったひとつの受精卵からまったく<a href="#" class="anno 同じ">同じ</a><a href="#" class="anno 遺伝情報">遺伝情報</a>をもつ<a href="#" class="anno 数十">数十</a>兆個もの細胞をつくるために重要である．しかし，複製はさまざまなストレスにより阻害される．たとえば，<a href="#" class="anno DNA損傷">DNA損傷</a>剤，DNA<a href="#" class="anno 架橋剤">架橋剤</a>，<a href="#" class="anno ヌクレオチド">ヌクレオチド</a>の量を減少させる<a href="#" class="anno ヒドロキシ">ヒドロキシ</a>尿素などを細胞に添加すると，ゲノムの全体にわたり複製が阻害される．さらに，複製フォークはDNAに存在する損傷や強固に結合したタンパク質などによっても停止する．<br/>　レプリソームは，<a href="#" class="anno 鋳型DNA">鋳型DNA</a>を巻きもどすCMG<a href="#" class="anno ヘリ<a href="#" class="anno カ">カ</a>ーゼ">ヘリカーゼ</a>，<a href="#" class="anno リー<a href="#" class="anno デ">デ</a>ィング鎖">リーディング鎖</a>の合成を担うDNA<a href="#" class="anno ポリメラーゼ">ポリメラーゼ</a>ε，<a href="#" class="anno ラギング鎖">ラギング鎖</a>の合成を開始する<a href="#" class="anno DNAポリメラーゼ">DNAポリメラーゼ</a>α-<a href="#" class="anno プライマー">プライマー</a>ゼ<a href="#" class="anno 複合体">複合体</a>，ラギング鎖の伸長を担う<a href="#" class="anno DNAポリメラーゼδ">DNAポリメラーゼδ</a>，さらに，<a href="#" class="anno アクセサリータンパク質">アクセサリータンパク質</a>から構成される．アクセサリータンパク質のひとつであるCtf4（<a href="#" class="anno 分<a href="#" class="anno 裂">裂</a>酵母">分裂酵母</a>においては<a href="#" class="anno Mcl1">Mcl1</a>，哺乳類においてはAND-1）はホモ<a href="#" class="anno 三量体">三量体</a>を形成し，CMGヘリカーゼおよび<a href="#" class="anno DNAポリメラーゼα">DNAポリメラーゼα</a>と結合することにより鋳型DNAの巻きもどしとラギング鎖の合成とを共役させると考えられている<a href="#R1"><sup>1-3)</sup></a>．Ctf4はそのほかにも多くのタンパク質と結合することから<a href="#R3"><sup>3,4)</sup></a>，これらのタンパク質をレプリソームにリクルートし複製と<a href="#" class="anno 染色体">染色体</a>におけるさまざまなイベントとを共役させる重要なタンパク質として注目されている．<br/>　複製が阻害されると，レプリソームをDNAに<a href="#" class="anno 安定的">安定的</a>に維持することにより複製の再開が促進されるが，複製の再開に失敗するとDNA 2本鎖切断が生じる．DNA 2本鎖切断はゲノムの再編成をひき起こし細胞の<a href="#" class="anno がん化">がん化</a>やさまざまな疾患の原因になるだけでなく，ゲノムの<a href="#" class="anno 多様性">多様性</a>にも影響をおよぼす<a href="#R5"><sup>5)</sup></a>．減数<a href="#" class="anno 分裂期">分裂期</a>や<a href="#" class="anno <a href="#" class="anno 体細胞">体細胞</a>分裂">体<a href="#" class="anno 細胞分裂">細胞分裂</a></a>期の<a href="#" class="anno G2期">G2期</a>/<a href="#" class="anno M期">M期</a>に生じたDNA 2本鎖切断は相同組換え経路により修復される．複製が阻害された際に生じるDNA 2本鎖切断も相同組換え経路により修復されると信じられてきたが，それを示す直接的な証拠はなかった．そのおもな理由として，複製の阻害はゲノムにおいてランダムに起こるためDNA 2本鎖切断の生じた部位を予測することが困難であり，DNA 2本鎖切断の修復の過程をDNAレベルで解析できなかったことがあげられる．<br/>　出芽酵母の<a href="#" class="anno リボソームRNA">リボソームRNA</a>遺伝子（rDNA）領域は<a href="#" class="anno 第12染色体">第12染色体</a>にあり，約150コピーのrDNAが縦列に並んでいる（<a href="#F1">図1</a>）．ひとつのコピーには転写ユニットのほか<a href="#" class="anno 複製<a href="#" class="anno 開始点">開始点</a>"><a href="#" class="anno 複製開始">複製開始</a>点</a>および複製阻害点が存在する．複製が開始されると複製フォークは両方向に進んでいくが，一方の複製フォークは複製阻害点に到達すると<a href="#" class="anno Fob1">Fob1</a>により進行が阻害されDNA 2本鎖切断が生じる．また，DNA 2本鎖切断の修復にともないrDNAのコピー数が増減することがわかっていた．しかし，DNA 2本鎖切断の修復の機構については不明であった．この研究においては，出芽酵母のrDNA領域を用いて複製が阻害された際に生じるDNA 2本鎖切断の修復の機構を明らかにすることを目的とした．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　出芽酵母のrDNA領域における複製の阻害</strong><br/>出芽酵母のrDNA領域には約150コピーのrDNAが縦列に並んでいる．ひとつのコピーには転写ユニットのほか複製開始点および複製阻害点が存在する．複製が開始すると，右方向に進行する複製フォークは複製阻害点に結合しているFob1により進行が阻害される結果，DNA 2本鎖切断が生じる．Ctf4はDNA 2本鎖切断の末端の削り込みを抑制し相同組換え経路を抑制することにより異常なコピー数の増減をふせぐ．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kobayashi-Molecular-Cell-17.5.18-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　出芽酵母のrDNA領域における複製の阻害" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kobayashi-Molecular-Cell-17.5.18-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kobayashi-Molecular-Cell-17.5.18-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2> 1．Ctf4は複製の阻害によりrDNAが異常に増幅することをふせぐ</h2><br/>　<a href="#" class="anno 以前の研究">以前の研究</a>において筆者らは，複製の阻害およびその結果として生じるDNA 2本鎖切断に正しく応答できない細胞はrDNAのコピー数の異常な増減を起こすという仮説をたて，rDNAのコピー数の異常な遺伝子<a href="#" class="anno 欠損株">欠損株</a>を<a href="#" class="anno 網羅的">網羅的</a>に探索した<a href="#R6"><sup>6,7)</sup></a>．出芽酵母は約6000個の遺伝子をもつが，そのうち約4800個は増殖には必須でない．そして，これらの非<a href="#" class="anno 必須遺伝子">必須遺伝子</a>をそれぞれ破壊した<a href="#" class="anno 遺伝子欠損">遺伝子欠損</a>株のライブラリーが構築されている．このライブラリーのおのおのの遺伝子欠損株からDNAを<a href="#" class="anno 単離">単離</a>し，<a href="#" class="anno パルスフィールド">パルスフィールド</a>電気<a href="#" class="anno 泳動">泳動</a>法により染色体を分離してrDNAのある第12染色体の<a href="#" class="anno 大きさ">大きさ</a>の変化について調べた結果，rDNAが不安定になる約700個もの遺伝子欠損株が同定された<a href="#R6"><sup>6,7)</sup></a>．さらに，<em>ctf4</em>遺伝子の欠損株は，すべての遺伝子欠損株のなかでも群をぬいて巨大なrDNA領域をもっていた．<br/>　<em>ctf4</em>欠損株においてrDNAの異常な増幅の起こる原因について探るため，この増幅はFob1に<a href="#" class="anno 依存的">依存的</a>な複製の阻害により起こるのかどうかを調べた．すると，<em>ctf4</em>遺伝子の単独での欠損株においてはrDNAのコピー数は<a href="#" class="anno 野生型">野生型</a>の約2倍にも増加していたが，<em>ctf4 fob1</em><a href="#" class="anno 二重">二重</a><a href="#" class="anno 変異株">変異株</a>においてはrDNAのコピー数は増加していなかった．このことから，rDNAの異常な増幅は複製の阻害により起こることが示された．<a href="#" class="anno つまり">つまり</a>，Ctf4は複製の阻害によりrDNAが異常に増幅するのをふせぐのに重要であることが明らかにされた．<br/><br/><h2> 2．Ctf4はDNA 2本鎖切断を生じにくくする</h2><br/>　Ctf4の欠損によりrDNAの異常な増幅が起こる原因として，DNA 2本鎖切断がより多く生じる<a href="#" class="anno 可能性">可能性</a>と，DNA 2本鎖切断があやまった経路により修復されやすくなる可能性とが考えられた．これらの可能性について確かめるため，進行の阻害された複製フォーク，DNA 2本鎖切断，DNA 2本鎖切断の修復<a href="#" class="anno 中間体">中間体</a>の量を<a href="#" class="anno 経時的">経時的</a>かつ<a href="#" class="anno 定量的">定量的</a>に解析できる<a href="#" class="anno 実験系">実験系</a>を構築した．<br/>　進行が阻害された複製フォークの量はCtf4の有無により変わらなかった．Ctf4が存在するときには，停止した複製フォークのうち約10％が切断されDNA 2本鎖切断を生じた．また，rDNAにおいては複製期において少なくとも1個のDNA 2本鎖切断が生じると推定された．細胞にDNA 2本鎖切断が修復されないままひとつでも残ると<a href="#" class="anno 細胞死">細胞死</a>が誘導される．rDNAにおいて生じたDNA 2本鎖切断は複製のたびにゲノムの安定性および細胞の生存をあやうくする可能性のあることから，このDNA 2本鎖切断は正確に修復される必要がある．Ctf4が欠損したときには，このDNA 2本鎖切断はCtf4が存在するときよりも1.6倍も多く生じた．このことから，Ctf4が欠損すると停止した複製フォークが崩壊しDNA 2本鎖切断が生じやすくなることがわかった．<br/><br/><h2> 3．Ctf4はDNA 2本鎖切断の末端の削り込みを制限することにより相同組換え経路を抑制する</h2><br/>　Ctf4が欠損したときには，Ctf4が存在するときにはほとんどみられなかったDNA 2本鎖切断の修復中間体が約13倍も多く蓄積した．この修復中間体を2次元<a href="#" class="anno 電気泳動">電気泳動</a>法により同定したところ，相同組換え経路に必要な，DNA 2本鎖切断の末端が削り込みをうけたものであった．相同組換えによるDNA 2本鎖切断の修復の経路において，DNA 2本鎖切断は5’-3’方向に削り込みをうけ，3’末端の<a href="#" class="anno 1本鎖">1本鎖</a>DNAを露<a href="#" class="anno 出し">出し</a>たDNAが形成され組換えがはじまる．つまり，DNA 2本鎖切断の末端の削り込みはDNA 2本鎖切断が相同組換え経路により修復されるかどうかを決定する重要な過程である．<br/>　Ctf4が存在するときにはDNA 2本鎖切断の末端はほとんど削り込みをうけていなかった．このことから，複製が阻害されたときにはDNA 2本鎖切断は相同組換えに依存しない経路により修復される可能性が示唆された．一方で，Ctf4が欠損したときにはDNA 2本鎖切断の末端は削り込みをうけていたことから，DNA 2本鎖切断は相同組換え経路により修復されると考えられた．つまり，Ctf4はDNA 2本鎖切断の削り込みを抑制することにより，DNA 2本鎖切断が相同組換え経路により修復されるかどうかを決定すると考えられた．<br/><br/><h2> 4．Ctf4が存在するときDNA 2本鎖切断は<a href="#" class="anno MR">MR</a>X複合体に依存するが相同組換えに依存しない経路により修復される</h2><br/>　MRX複合体は<a href="#" class="anno DNA損傷応答">DNA損傷応答</a>において<a href="#" class="anno 中心的">中心的</a>な役割をはたすことが知られている．Ctf4が存在するときにはMRX複合体の構成タンパク質が欠損するとDNA 2本鎖切断は修復されなかったことから，MRX複合体はDNA 2本鎖切断の修復に必要であった．MRX複合体はDNA 2本鎖切断の修復において，Sae2とともにDNA 2本鎖切断の末端を削り込み相同組換えを開始する役割と，Sae2には依存せずにDNA 2本鎖切断の末端をつなぎとめる役割とをもつ．このどちらの役割が重要なのか，Sae2が欠損したときのDNA 2本鎖切断の修復について調べたところ，Sae2の欠損によりDNA 2本鎖切断の末端の削り込みが起こらなくてもDNA 2本鎖切断は修復された．さらに，相同組換え経路の後半にはたらく<a href="#" class="anno Rad51">Rad51</a>あるいは<a href="#" class="anno Rad52">Rad52</a>が欠損してもDNA 2本鎖切断は修復された．これらのことから，Ctf4が存在するときには，DNA 2本鎖切断はMRX複合体に依存するが相同組換え経路に依存しない，新規の経路により修復されることが明らかにされた．<br/><br/><h2> 5．Ctf4が欠損するとDNA 2本鎖切断は削り込みをうけ相同組換え経路により修復される</h2><br/>　Ctf4が欠損した際にもMRX複合体はDNA 2本鎖切断の修復に必要であった．しかし，Ctf4が存在するときとは<a href="#" class="anno 対照的">対照的</a>に，Ctf4が欠損した際にはDNA 2本鎖切断の修復にはSae2も必要であった．さらに，Ctf4およびRad52が欠損した際にはDNA 2本鎖切断の末端が削り込みをうけたものが過剰に蓄積したことから，DNA 2本鎖切断の末端が削り込みをうけたのちの相同組換え経路は進行し<a href="#" class="anno ないこと">ないこと</a>が明らかにされた，つまり，Ctf4が欠損した際にはDNA 2本鎖切断は相同組換え経路により修復されるという対照的な結果となった．また，相同組換えによるDNA 2本鎖切断の修復はrDNAの異常な増幅をひき起こしたことから，Ctf4はDNA 2本鎖切断の末端の削り込みを抑制することにより，ゲノムの再編成をひき起こしやすい相同組換え経路を阻害することが明らかにされた．<br/><br/><h2> 6．rDNAの増幅はDNA 2本鎖切断の相同組換え経路による修復により起こる</h2><br/>　DNA 2本鎖切断の末端の削り込みはCtf4がないという特殊な状況でしか起こらないのだろうか？　以前の筆者らの研究により，rDNAのコピー数が半分になった細胞は相同組換え経路にかかわるタンパク質であるRad52に依存した経路によりrDNAのコピー数を<a href="#" class="anno 徐々">徐々</a>に増加させることが示されている<a href="#R8"><sup>8)</sup></a>．このように，rDNAの増幅が必要なときは相同組換え経路を誘導するためにDNA 2本鎖切断の末端の削り込みが起こるのではないかと仮説をたてた．それぞれ20コピー，40コピー，80コピー，110コピーのrDNAをもつ株におけるDNA 2本鎖切断について解析したところ，rDNAのコピー数が少ない株においては，Ctf4が存在するにもかかわらずDNA 2本鎖切断の末端が削り込みをうけた．つまり，DNA 2本鎖切断の末端の削り込みはrDNAのコピー数の維持のために制御されていることが示された．<br/><br/><h2> 7．複製の阻害により生じたDNA 2本鎖切断は相同組換えに依存しない経路により修復される</h2><br/>　この相同組換えに依存しないDNA 2本鎖切断の修復の経路は，rDNA領域におけるDNA 2本鎖切断に特有なのかどうか調べた．その結果，複製の阻害が起こりやすい<a href="#" class="anno tRNA">tRNA</a>遺伝子<a href="#R9"><sup>9)</sup></a> において生じたDNA 2本鎖切断の修復においても，相同組換え経路にかかわるタンパク質は必要ではなかった．つまり，rDNA領域にかぎらず，複製が阻害された際に生じるDNA 2本鎖切断は，これまで知られていなかった新規の経路により修復されることがわかった．<br/><br/><h2>おわりに</h2><br/>　筆者らは，複製の阻害により生じるDNA 2本鎖切断が<a href="#" class="anno 高頻度">高頻度</a>で起こる出芽酵母のrDNA領域をモデルとして，複製が阻害された際に生じるDNA 2本鎖切断の修復の機構について解析した．<a href="#" class="anno 先行研究">先行研究</a>において，<a href="#" class="anno ヒドロキシ尿素">ヒドロキシ尿素</a>による複製の阻害にてCtf4が欠損した際にはレプリソームの構成タンパク質の複製フォークへの結合が減少することが示されている<a href="#R1"><sup>1,10)</sup></a>．このことから，Fob1により複製フォークの進行が停止すると，Ctf4はDNAポリメラーゼαやCMGヘリカーゼとの<a href="#" class="anno 結合能">結合能</a>により<a href="#R1"><sup>1-3)</sup></a>，停止した複製フォークにレプリソームを安定的につなぎとめると考えられた．この巨大な<a href="#" class="anno タンパク質複合体">タンパク質複合体</a>が複製フォークに存在することにより，DNA 2本鎖切断をひき起こす酵素のDNAへのアクセスがふせがれ，また，DNA 2本鎖切断が生じたとしても，レプリソームを維持することによりDNA 2本鎖切断の末端の削り込みに必要なタンパク質のリクルートがふせがれると考えている．<br/>　ゲノムに1コピーしか存在しない<a href="#" class="anno 塩基配列">塩基配列</a>においてDNA 2本鎖切断が生じた場合には，相同組換え経路はこれを正確に修復する．しかし，<a href="#" class="anno 真核生物">真核生物</a>には<a href="#" class="anno リピート">リピート</a>配列が多く存在するため，ゲノムのほかの部位にある<a href="#" class="anno 相同配列">相同配列</a>を用いてDNA 2本鎖切断を修復すると<a href="#" class="anno 大規模">大規模</a>なゲノムの再編成が起こりゲノムは不<a href="#" class="anno 安定化">安定化</a>する<a href="#R5"><sup>5)</sup></a>．この研究により，Ctf4はレプリソームの構成タンパク質として，複製の阻害によりDNA 2本鎖切断が生じた際にDNA 2本鎖切断の末端の削り込みを抑制することにより相同組換え経路を抑制し，ゲノムの再編成をふせぐ重要なタンパク質であることがわかった．今後の研究により，この新たなDNA 2本鎖切断の修復の機構およびその<a href="#" class="anno 制御機構">制御機構</a>について明らかにしていきたい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Tanaka, H., Katou, Y., Yagura, M. et al.</span>: <span class="ti">Ctf4 coordinates the progression of helicase and DNA polymerase alpha.</span> <span class='so'>Genes Cells, 14, 807-820 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19496828" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Simon, A.C., Zhou, J. C., Perera, R. L. et al.</span>: <span class="ti">A Ctf4 trimer couples the CMG helicase to DNA polymerase a in the eukaryotic replisome.</span> <span class='so'>Nature, 510, 293-297 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24805245" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Villa, F., Simon, A. C., Ortiz Bazan, M. A. et al.</span>: <span class="ti">Ctf4 is a hub in the eukaryotic replisome that links multiple CIP-box proteins to the CMG helicase.</span> <span class='so'>Mol. Cell, 63, 385-396 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27397685" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Samora, C. P., Saksouk, J., Goswami, P. et al.</span>: <span class="ti">Ctf4 links DNA replication with sister chromatid cohesion establishment by recruiting the Chl1 helicase to the replisome.</span> <span class='so'>Mol. Cell, 63, 371-384 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27397686" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Sasaki, M., Lange, J. & Keeney, S.</span>: <span class="ti">Genome destabilization by homologous recombination in the germ line.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 11, 182-195 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20164840" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Saka, K., Takahashi, A., Sasaki, M. et al.</span>: <span class="ti">More than 10% of yeast genes are related to genome stability and influence cellular senescence via rDNA maintenance.</span> <span class='so'>Nucleic Acids Res., 44, 4211-4221 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26912831" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Kobayashi, T. & Sasaki, M.</span>: <span class="ti">Ribosomal DNA stability is supported by many 'buffer genes': introduction to the Yeast rDNA Stability Database.</span> <span class='so'>FEMS Yeast Res., 17, fox001 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28087673" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Tittel-Elmer, M., Alabert, C., Pasero, P. et al.</span>: <span class="ti">The MRX complex stabilizes the replisome independently of the S phase checkpoint during replication stress.</span> <span class='so'>EMBO J., 28, 1142-1156 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19279665" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Kobayashi, T., Heck, D. J., Nomura, M. et al.</span>: <span class="ti">Expansion and contraction of ribosomal DNA repeats in <em>Saccharomyces cerevisiae</em>: requirement of replication fork blocking (Fob1) protein and the role of RNA polymerase I.</span> <span class='so'>Genes Dev., 12, 3821-3830 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9869636" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Ivessa, A. S., Zhou, J. Q. & Zakian, V. A.</span>: <span class="ti">The <em>Saccharomyces</em> Pif1p DNA helicase and the highly related Rrm3p have opposite effects on replication fork progression in ribosomal DNA.</span> <span class='so'>Cell, 100, 479-489 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10693764" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=塩基配列" target="_blank">塩基配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=R" target="_blank">R</a></li><br></ul><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/08_03.html" target="_blank">8.3 Post-transcriptional Modification</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/02_04.html" target="_blank">2.4 Formation of Multicellular Organisms by Embryogenesis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/16_02.html" target="_blank">16.2 Respiration and Fermentation: Glycolysis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_02.html" target="_blank">9.2 Ribosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/10_05.html" target="_blank">10.5 Regulation of Gene Expression Through Small RNA</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">佐々木 真理子（Mariko Sasaki）</span><br>略歴：2012年 米国Weill Cornell Graduate School of Medical Sciences博士課程 修了，2015年より東京大学分子細胞生物学研究所 助教．<br>研究テーマ：複製が阻害された際に生じるDNA 2本鎖切断の修復の機構．<br><br><strong>小林 武彦（Takehiko Kobayashi）</strong><br>東京大学分子細胞生物学研究所 教授．<br>研究室URL：<a href="http://lafula-com.info/kobayashiken/CytoGen/" target="_blank">http://lafula-com.info/kobayashiken/CytoGen/</a><br></div><br>© 2017 佐々木真理子・小林武彦 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

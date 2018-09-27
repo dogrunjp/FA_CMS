@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> “分子のものさし”がRNAの長さを測り仕分けする : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/4657" rel="bookmark">“分子のものさし”がRNAの長さを測り仕分けする</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>大野 睦人</strong><br>（京都大学ウイルス研究所 情報高分子化学研究分野）<br>email：<a href="mailto:hitoohno@virus.kyoto-u.ac.jp">大野睦人</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.046">10.7875/first.author.2012.046</a><br><div class="reference"><br><span class="ti">HnRNP C tetramer measures RNA length to classify RNA polymerase II transcripts for export.</span><br><span class="au">Asako McCloskey, Ichiro Taniguchi, Kaori Shinmyozu, Mutsuhito Ohno</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22461616" target="_blank"><em>Science</em>, <strong>335</strong>, 1643-1646 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　通常，RNAの<a href="#" class="anno 特異的">特異的</a>な認識はその特異的な<a href="#" class="anno 塩基配列">塩基配列</a>や構造を介し行われる．しかし，筆者らは，核において“RNAの<a href="#" class="anno 長さ">長さ</a>”が認識される<a href="#" class="anno 分子機構">分子機構</a>を発見した．RNA<a href="#" class="anno ポリメラーゼ">ポリメラーゼ</a>IIは<a href="#" class="anno mRNA">mRNA</a>を合成するが，ほかに<a href="#" class="anno も">も</a>U <a href="#" class="anno snRNA">snRNA</a>など短いRNAも合成する．しかし，<a href="#" class="anno 転写開始">転写開始</a>の直後にはその<a href="#" class="anno 転写産物">転写産物</a>が将来mRNAになるのかU snRNAになるのかはわからない．転写がさらに進み新生RNAの長さが200～300<a href="#" class="anno 塩基長">塩基長</a>より長くなると，<a href="#" class="anno hnRNP">hnRNP</a> Cという<a href="#" class="anno 核内">核内</a>RNA<a href="#" class="anno 結合タンパク質">結合タンパク質</a>の<a href="#" class="anno ヘテロ">ヘテロ</a><a href="#" class="anno 四量体">四量体</a>が安定に結合できるようになることで，U snRNAの<a href="#" class="anno 輸送タンパク質">輸送タンパク質</a>の結合が阻害されその転写産物はmRNA<a href="#" class="anno 前駆体">前駆体</a>であると認定される．逆に，RNAの長さが200～300塩基長より短いまま転写が終了した場合，hnRNP C<a href="#" class="anno ヘテロ四量体">ヘテロ四量体</a>が安定に結合で<a href="#" class="anno きず">きず</a>その転写産物はU sn<a href="#" class="anno RNA前駆体">RNA前駆体</a>であると認定される．このように，hnRNP Cヘテロ四量体が“分子のものさし”となってRNAの長さを測り，RNAをその長さに応じて仕分けしていた．<br/><br/><h2>はじめに</h2><br/>　<a href="#" class="anno 真核生物">真核生物</a>ではほとんどのRNAは核において合成されるが，そののちの行き先はRNA種ごとに決まっている．多くのRNAは核から<a href="#" class="anno 細胞質">細胞質</a>へと輸送されるが，そのようなRNAの主要なものとしては，<a href="#" class="anno リボソーム">リボソーム</a>RNA，<a href="#" class="anno tRNA">tRNA</a>，スプラ<a href="#" class="anno イソ">イソ</a>ソームに含まれる<a href="#" class="anno ウ<a href="#" class="anno リジン">リジン</a>">ウリジン</a>に富む核内<a href="#" class="anno <a href="#" class="anno 低分子">低分子</a>RNA">低分子RNA</a>（U <a href="#" class="anno s<a href="#" class="anno mal">mal</a>">smal</a>l <a href="#" class="anno nucl">nucl</a><a href="#" class="anno ear">ear</a> RNA：U snRNA），mRNA，<a href="#" class="anno マイクロRNA">マイクロRNA</a>などの前駆体があげられる<a href="#R1"><sup>1)</sup></a>．これらのRNAは核においてそれぞれのRNA種に固有の輸送タンパク質が結合したのち細胞質へと輸送される．核においてそれぞれのRNAに結合する輸送タンパク質は<a href="#" class="anno <a href="#" class="anno 核外">核外</a>輸送">核外輸送</a>をつかさどるだけでなく，そののちのRNAの運命（<a href="#" class="anno 局在化">局在化</a>，翻訳，<a href="#" class="anno 安定性">安定性</a>など）をも規定することが明らかになってきた．このことは，それぞれのRNA種は核においてすでに輸送タンパク質により識別されていることを意味する．しかし，それぞれのRNA種のいかなる特徴が核において識別されているのか，その識別を行う因子は何か，という点に関しては未知な部分が多い．<br/><br/><h2>1．U snRNAとmRNAとを区別する特徴のひとつは“RNAの長さ”である</h2><br/>　多くのRNA種のなかでもU snRNAとmRNAはいずれも<a href="#" class="anno RNAポリメラーゼ">RNAポリメラーゼ</a>IIにより合成され，5’末端にm<sup>7</sup>G型の<a href="#" class="anno キャップ構造">キャップ構造</a>が共通に形成されて，そこにはキャップ構造結合タンパク質<a href="#" class="anno 複合体">複合体</a>が結合する．しかし，このあとの核外輸送複合体の形成は両者でまったく違っている<a href="#R1"><sup>1)</sup></a>．U snRNAの場合は，<a href="#" class="anno P<a href="#" class="anno HA">HA</a>X">PHAX</a>（phosphory<a href="#" class="anno lat">lat</a>ed adap<a href="#" class="anno tor">tor</a> <a href="#" class="anno for">for</a> RNA ex<a href="#" class="anno por">por</a>t）という<a href="#" class="anno アダプタータンパク質">アダプタータンパク質</a>がキャップ構造結合<a href="#" class="anno タンパク質複合体">タンパク質複合体</a>とその近傍のRNAに結合することによりRNAに呼び込まれ，そのPHAXが今度は核外輸送シグナル（nuclear export <a href="#" class="anno sig">sig</a><a href="#" class="anno nal">nal</a>：NES）の輸送タンパク質CRM1-<a href="#" class="anno Ran">Ran</a>G<a href="#" class="anno TP">TP</a>を呼び込みU snRNA核外輸送複合体が完成する<a href="#R2"><sup>2)</sup></a>．これに対して，mRNAの場合は，<a href="#" class="anno Aly">Aly</a>/R<a href="#" class="anno EF">EF</a>などの<a href="#" class="anno RNA結合">RNA結合</a>性のアダプタータンパク質がしばしばTREX（<a href="#" class="anno tra">tra</a>nscr<a href="#" class="anno ipt">ipt</a>ion/export）複合体や<a href="#" class="anno <a href="#" class="anno エキソ">エキソ</a>ン">エキソン</a><a href="#" class="anno ジャンクション">ジャンクション</a>複合体といった巨大複合体の一部としてmRNAに結合し，それがmRNAの主要な輸送タンパク質である<a href="#" class="anno TAP">TAP</a>/<a href="#" class="anno NXF1">NXF1</a>をRNAに呼び込む．このように，U snRNAとmRNAはある意味で似た者どうしではあるが，輸送タンパク質がきちんと区別できるような特徴をもっているはずである．<br/>　筆者らは，そのような特徴を探索した結果，“RNAの長さ”という概念にたどりついた．m<sup>7</sup>G型のキャップ構造をもつRNAは塩基配列ではなくその長さに応じてU snRNAの機構あるいはmRNAの機構により核外輸送されることを発見した．すなわち，<a href="#" class="anno 人工的">人工的</a>に長くしたU snRNAはmRNAの輸送タンパク質により，逆に，人工的に短くしたmRNAはU snRNAの輸送タンパク質より核から細胞質へと輸送されるようになったのである<a href="#R3"><sup>3,4)</sup></a>．また，その切り替わりの長さの境目は約200～300塩基長であった<a href="#R5"><sup>5)</sup></a>（<a href="#F1">図1</a>）．ただし，強固な<a href="#" class="anno 高次構造">高次構造</a>をもつRNA領域には長さの効果が表われ<a href="#" class="anno ないこと">ないこと</a>もわかった<a href="#R3"><sup>3-5)</sup></a>．このことは，細胞にはRNAの長さを測り輸送経路を決定する分子機構の存在することを意味していたが，その詳細については長いあいだ謎であった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　m<sup>7</sup>G型のキャップ構造をもつRNAは長さに応じU snRNAの機構あるいはmRNAの機構により核外輸送される</strong><br/>m<sup>7</sup>G型キャップ構造を黄色の丸で示す．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/04/Ohno-Science-12.3.30-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　m<sup>7</sup>G型のキャップ構造をもつRNAは長さに応じU snRNAの機構あるいはmRNAの機構により核外輸送される" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ohno-Science-12.3.30-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ohno-Science-12.3.30-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．RNAの長さを測る分子機構</h2><br/>　この問題に接近するため，RNAの長さに応じた<a href="#" class="anno RNA結合タンパク質">RNA結合タンパク質</a>の変化を<a href="#" class="anno 試験管内">試験管内</a>で再現することを試みた．試験管内で合成したさまざまな長さのRNAと大腸菌により<a href="#" class="anno 産生">産生</a>させ精製した<a href="#" class="anno 組換え">組換え</a>キャップ構造結合タンパク質複合体と組換え<a href="#" class="anno G<a href="#" class="anno ST">ST</a>">GST</a>-PHAX<a href="#" class="anno 融合タンパク質">融合タンパク質</a>とを混合し，GSTの<a href="#" class="anno プルダウン">プルダウン</a>を行うことによりU snRNA核外輸送複合体を<a href="#" class="anno 部分的">部分的</a>に模擬するRNA-キャップ構造結合タンパク質複合体-PHAX<a href="#" class="anno 三者">三者</a>複合体の形成を調べた．その結果，この三者複合体はRNAの長さにかかわらずm<sup>7</sup>G型のキャップ構造をもつすべてのRNAにおいて形成された．この結果は，この精製系では<em>in vivo</em>においてみられたRNAの長さに応じたRNA核外輸送複合体の形成がみられないことを意味した．しかし，<a href="#" class="anno HeLa細胞">HeLa細胞</a>の核<a href="#" class="anno 抽出液">抽出液</a>をこの精製系にくわえると，<em>in vivo</em>と同様に，長いRNAへのPHAXの結合が特異的に阻害された．このことは，核にはRNAの長さを測り長いRNAへのPHAXの結合を阻害する因子の存在することを示唆していた．<br/>　このPHAX呼び込み<a href="#" class="anno 阻害活性">阻害活性</a>をHeLa細胞の<a href="#" class="anno 核抽出液">核抽出液</a>からさまざまな<a href="#" class="anno カ">カ</a>ラム<a href="#" class="anno クロマトグラフィー">クロマトグラフィー</a>を用いて精製した．最終精製<a href="#" class="anno 画分">画分</a>にはこの活性と完全に<a href="#" class="anno 相">相</a>関する2本のメジャーなバンドがみられた．<a href="#" class="anno 質量分析">質量分析</a>の結果，これらのバンドはヘテロ核内リボタンパク質（he<a href="#" class="anno ter">ter</a>ogeneous nuclear ri<a href="#" class="anno bon">bon</a>ucleo<a href="#" class="anno pro">pro</a>tein：hnRNP）の<a href="#" class="anno C1">C1</a>と<a href="#" class="anno C2">C2</a>であることがわかった．hnRNP C1とhnRNP C2は3対1の割合でヘテロ四量体を形成する非常に量の多い<a href="#" class="anno 核内RNA">核内RNA</a>結合タンパク質であり，転写されつつある<a href="#" class="anno mRNA前駆体">mRNA前駆体</a>につぎつぎと連続して結合しているものと考えられている<a href="#R6"><sup>6)</sup></a>．<br/>　大腸菌で産生したhnRNP Cヘテロ四量体は試験管内において200～300塩基長以上の長さのRNAと特異的に結合しPHAXの結合を阻害した．これは，hnRNP Cヘテロ四量体がキャップ構造結合タンパク質複合体とRNAの両方に結合することによりPHAXの結合を<a href="#" class="anno 競合的">競合的</a>に阻害するためであることもわかった．<a href="#" class="anno RNAi">RNAi</a>法によりHeLa細胞においてhnRNP C1およびhnRNP C2を<a href="#" class="anno ノックダウン">ノックダウン</a>すると，本来はmRNAに結合しないはずのPHAXがmRNAにも結合することが観察され，同時に，mRNAの核から細胞質への輸送が阻害された．これはおそらく，PHAXが結合したmRNAが異常なRNAであると認識され核外輸送が停止させられたのであろう．この考えと合致するように，hnRNP C1およびhnRNP C2とともにPHAXをノックダウンするとmRNAの核から細胞質への輸送が回復した．これらの結果から，細胞においてもこのhnRNP Cヘテロ四量体がPHAXとmRNAとの結合を防いでおり，そうすることでmRNAに適正な核外輸送複合体が形成されmRNAの核外輸送がとどこおりなく行われるよう管理していることが示された．<br/><br/><h2>3．RNAの仕分けのモ<a href="#" class="anno デ">デ</a>ル</h2><br/>　これらの結果にもとづき，細胞がRNAを長さに応じ分類する分子機構について，つぎのようなモデルを提唱した（<a href="#F2">図2</a>）．<a href="#" class="anno <a href="#" class="anno RNAポリメラーゼI">RNAポリメラーゼI</a>I">RNAポリメラーゼII</a>による転写開始の直後，<a href="#" class="anno 染色体">染色体</a>DNAから新生RNAの5’末端が現われはじめると，そこにキャップ構造が付加されさらにキャップ構造結合タンパク質複合体が結合する．この短いRNAが合成された時点ではこのRNAが将来どの程度まで長くなるのか，<a href="#" class="anno つまり">つまり</a>，mRNAになるのかU snRNAになるのかはわからない．転写がさらに進み新生RNAの長さが200～300塩基長より長くなると，hnRNP Cヘテロ四量体が少なくともひとつ安定に結合できるようになり，そのような転写産物はmRNA前駆体であると分類され同時にU snRNAの輸送タンパク質であるPHAXの結合が阻害される．逆に，RNAの長さが200～300塩基長より短いまま転写が終了した場合，hnRNP Cヘテロ四量体は安定に結合できず，そのような転写産物はU snRNA前駆体であると分類されPHAXをはじめとしたU snRNAの輸送タンパク質がRNAに呼び込まれる．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　RNAポリメラーゼIIの転写産物の長さに応じた仕分けのモデル</strong><br/>Pol II：RNAポリメラーゼII，CBC：キャップ構造結合タンパク質複合体．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/04/Ohno-Science-12.3.30-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　RNAポリメラーゼIIの転写産物の長さに応じた仕分けのモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ohno-Science-12.3.30-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ohno-Science-12.3.30-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　それでは，mRNAと分類されたRNAにmRNAの輸送タンパク質はどのように呼び込まれるのだろうか．mRNAの核外輸送におけるRNA結合アダプタータンパク質のひとつAly/REFは，PHAXやhnRNP Cヘテロ四量体と<a href="#" class="anno 同じ">同じ</a>ように，キャップ構造結合タンパク質複合体とその近傍のRNAの両方に結合するものと考えられている<a href="#R7"><sup>7,8)</sup></a>．であるから，Aly/REFがmRNAに結合するためには，少なくともキャップ構造の近傍に結合するhnRNP Cヘテロ四量体と置き換わらなければならない．hnRNP Cヘテロ四量体はmRNAといっしょに核から細胞質へと輸送されることはないと考えられているので<a href="#R9"><sup>9)</sup></a>，核あるいは<a href="#" class="anno 核膜">核膜</a>孔においてなんらかの機構によりmRNAから解離しmRNAの輸送タンパク質と置き換わるのであろう．<br/><br/><h2>おわりに</h2><br/>　筆者らは，RNAポリメラーゼIIの転写産物が長さに応じ仕分けされる分子機構を明らかにした．しかし，RNAポリメラーゼIIの転写産物はmRNAとU snRNAだけではない．マイクロRNAの<a href="#" class="anno 一次">一次</a>転写産物もRNAポリメラーゼIIにより合成される．マイクロRNAの一次転写産物は核においてマイクロプロセッサー複合体により約70塩基長の<a href="#" class="anno ヘア<a href="#" class="anno ピン">ピン</a>">ヘアピン</a>型マイクロRNA前駆体へと切断されてから核外輸送されるが，この切断によりキャップ構造を失う．このマイクロプロセッサー複合体の呼び込みを介助するタンパク質として<a href="#" class="anno Ars2">Ars2</a>が同定されているが，Ars2もキャップ構造結合タンパク質複合体とRNAの両方に結合する<a href="#R10"><sup>10)</sup></a>．このArs2がRNAポリメラーゼIIの転写産物がマイクロRNAへと仕分けされる際に活躍しているのであろう．また，U3やU8などの<a href="#" class="anno 核小体">核小体</a>内低分子RNA（s<a href="#" class="anno mall">mall</a> nucleolar RNA：<a href="#" class="anno snoRNA">snoRNA</a>）もRNAポリメラーゼIIにより合成され，キャップ構造結合タンパク質複合体やPHAXが結合するところまでU snRNAと類似している．しかし，これらのRNAは核外輸送に対し優性にはたらく核小体局在シグナルをもっているため，細胞質へと輸送されることなく核小体へと輸送される<a href="#R11"><sup>11)</sup></a>．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Kohler, A. & Hurt, E.</span>: <span class="ti">Exporting RNA from the nucleus to the cytoplasm.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 8, 761-773 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17786152" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Ohno, M., Segref, A., Bachi, A. et al.</span>: <span class="ti">PHAX, a mediator of U snRNA nuclear export whose activity is regulated by phosphorylation.</span> <span class='so'>Cell, 101, 187-198 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10786834" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Ohno, M., Segref, A., Kuersten, S. et al.</span>: <span class="ti">Identity elements used in export of mRNAs.</span> <span class='so'>Mol. Cell, 9, 659-671 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11931772" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Fuke, H. & Ohno, M.</span>: <span class="ti">Role of poly (A) tail as an identity element for mRNA nuclear export.</span> <span class='so'>Nucleic Acids Res., 36, 1037-1049 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18096623" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Masuyama, M., Taniguchi, I., Kataoka, N. et al.</span>: <span class="ti">RNA length defines RNA export pathway.</span> <span class='so'>Genes Dev., 18, 2074-2085 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15314030" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Huang, M., Rech, J. E., Northington, S. J. et al.</span>: <span class="ti">The C-protein tetramer binds 230 to 240 nucleotides of pre-mRNA and nucleates the assembly of 40S heterogeneous nuclear ribonucleoprotein particles.</span> <span class='so'>Mol. Cell. Biol., 14, 518-533 (1994)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8264621" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Cheng, H., Dufu, K., Lee, C. S. et al.</span>: <span class="ti">Human mRNA export machinery recruited to the 5' end of mRNA.</span> <span class='so'>Cell, 127, 1389-1400 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17190602" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Nojima, T., Hirose, T., Kimura, H. et al.</span>: <span class="ti">The interaction between cap-binding complex and RNA export factor is required for intronless mRNA export.</span> <span class='so'>J. Biol. Chem., 282, 15645-15651 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17363367" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Nakielny, S. & Dreyfuss, G.</span>: <span class="ti">The hnRNP C proteins contain a nuclear retention sequence that can override nuclear export signals.</span> <span class='so'>J. Cell Biol., 134, 1365-1373 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8830767" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Gruber, J. J., Zatechka, D. S., Sabin, L. R. et al.</span>: <span class="ti">Ars2 links the nuclear cap-binding complex to RNA interference and cell proliferation.</span> <span class='so'>Cell, 138, 328-339 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19632182" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Kiss, T., Fayet, E., Jady, B. E. et al.</span>: <span class="ti">Biogenesis and intranuclear trafficking of human box C/D and H/ACA RNPs.</span> <span class='so'>Cold Spring Harb. Symp. Quant. Biol., 71, 407-417 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17381323" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_03.html" target="_blank">12.3 Transport of Proteins Synthesized by Free Polysomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_01.html" target="_blank">12.1 Protein Synthesis and Basis of Intracellular Transport</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/16_01.html" target="_blank">16.1 Mechanism of ATP Synthesis (Kinases and ATP Synthase)</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/08_03.html" target="_blank">8.3 Post-transcriptional Modification</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_04.html" target="_blank">12.4 Protein Transport in Prokaryotic Cells</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">大野 睦人（Mutsuhito Ohno）</span><br>略歴：1989年 京都大学大学院理学研究科にて博士号取得，米国留学，京都大学理学部 助手，ドイツEuropean Molecular Biology Laboratory客員研究員などを経て，2001年より京都大学ウイルス研究所 教授．<br>研究テーマ：RNAと遺伝子発現の制御機構．RNAはDNAから転写されるやいなやタンパク質が結合しリボ核タンパク質（RNP）として誕生する．RNA/RNPは改変されてからそのはたらく場所まで輸送され機能する．RNA/RNPは古くなったり機能がなくなったりすると壊され死んでゆく．このような“RNA/RNPの一生”のさまざまな局面に興味をもっている．<br>関心事：やる気のある大学院生を常時募集中．研究室見学大歓迎．<br>研究室URL：<a href="http://www.virus.kyoto-u.ac.jp/Lab/ohnolab.html" target="_blank">http://www.virus.kyoto-u.ac.jp/Lab/ohnolab.html</a><br></div><br>© 2012 大野 睦人 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

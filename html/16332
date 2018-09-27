@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> PARLはSmacの切断を介してアポトーシスを制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/16332" rel="bookmark">PARLはSmacの切断を介してアポトーシスを制御する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>細田將太郎・Thomas Langer</strong><br>（ドイツCologne大学Institute for Genetics）<br>email：<a href="mailto:ssaita@uni-koeln.de">細田將太郎</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.031">10.7875/first.author.2017.031</a><br><div class="reference"><br><span class="ti">PARL mediates Smac proteolytic maturation in mitochondria to promote apoptosis.</span><br><span class="au">Shotaro Saita, Hendrik Nolte, Kai Uwe Fiedler, Hamid Kashkar, A. Saskia Venne, René P. Zahedi, Marcus Krüger, Thomas Langer</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28288130" target="_blank"><em>Nature Cell Biology</em>, <strong>19</strong>, 318-328 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ミトコンドリアには<a href="#" class="anno プロテアソーム">プロテアソーム</a>や<a href="#" class="anno リソソーム">リソソーム</a>といった<a href="#" class="anno 細胞質">細胞質</a>に存在するような<a href="#" class="anno タンパク質分解">タンパク質分解</a>系は存在しない．<a href="#" class="anno そのため">そのため</a>，ミトコンドリアにおけるタンパク質分解系において，<a href="#" class="anno プロテアーゼ">プロテアーゼ</a>は重要な役割を担う．しかしながら，プロテアーゼがミトコンドリアにおいて，何を，いつ，どのように制御するかについてはあまり明らかにされていない．この研究においては，ミトコンドリアに局在するプロテアーゼのひとつ<a href="#" class="anno <a href="#" class="anno PAR">PAR</a>L">PARL</a>に着目し，<a href="#" class="anno 大規模">大規模</a>なプロテ<a href="#" class="anno オミクス">オミクス</a>解析によりその基質を<a href="#" class="anno 網羅的">網羅的</a>に探索した．その結果，新規の基質のひとつとして<a href="#" class="anno アポトーシス">アポトーシス</a>タンパク質である<a href="#" class="anno Smac">Smac</a>が同定され，PARLはSmacを切断して<a href="#" class="anno 活性化">活性化</a>しアポトーシスを正に制御することが明らかにされた．さらには，ミトコンドリアの制御するアポトーシスの経路としてSmacのかかわる経路と<a href="#" class="anno シトクロム">シトクロム</a><em>c</em>のかかわる経路の2つが知られていたが，この2つは互いに独立した経路であること<a href="#" class="anno も">も</a>明らかにされた．<br/><br/><h2>はじめに</h2><br/>　ミトコンドリアはα<a href="#" class="anno プロテオバクテリア">プロテオバクテリア</a>の共生を起源とする<a href="#" class="anno 二重">二重</a>膜をもつ<a href="#" class="anno オルガネラ">オルガネラ</a>で，<a href="#" class="anno 呼吸鎖">呼吸鎖</a><a href="#" class="anno 複合体">複合体</a>による<a href="#" class="anno 酸化的">酸化的</a><a href="#" class="anno <a href="#" class="anno リン酸">リン酸</a>化">リン酸化</a>により細胞の<a href="#" class="anno 大部分">大部分</a>のA<a href="#" class="anno TP">TP</a>を合成するほか，アポトーシスの制御にもはたらく．ミトコンドリアがこれらの機能を正常に遂行するためその品質は厳重に制御されており，損傷の際にはその内容や程度に応じて対処される<a href="#R1"><sup>1)</sup></a>．なかでも，プロテアーゼによる制御はもっとも<a href="#" class="anno 基礎的">基礎的</a>で損傷の軽い場合に起こると考えられている．たとえば，損傷あるいはミス<a href="#" class="anno フォールド">フォールド</a>したタンパク質がミトコンドリアに蓄積した場合，プロテアーゼがそれらを切断し分解することによりミトコンドリアにおけるタンパク質の<a href="#" class="anno 恒常性">恒常性</a>は維持される．ミトコンドリアにおけるプロテアーゼの異常はミトコンドリアの機能に大きな影響をおよぼし，がん，<a href="#" class="anno パーキンソン病">パーキンソン病</a>，神経<a href="#" class="anno 変性疾患">変性疾患</a>といった<a href="#" class="anno ヒトの疾患">ヒトの疾患</a>との<a href="#" class="anno 関連性">関連性</a>も報告されている<a href="#R2"><sup>2)</sup></a>．<br/>　ミトコンドリアには少なくとも25個のプロテアーゼが存在し<a href="#R2"><sup>2)</sup></a>，それらは協調して機能すると考えられている．しかしながら，おのおののプロテアーゼがミトコンドリアにおいてどの基質を切断し，どのような機能を制御するのかについては明らかにされていない点が多い．この研究においては，<a href="#" class="anno ミトコンドリア<a href="#" class="anno 内膜">内膜</a>">ミトコンドリア内膜</a>に局在するプロテアーゼPARLについて解析した．これまで，PARLの基質として<a href="#" class="anno PIN">PIN</a>K1および<a href="#" class="anno PGAM5">PGAM5</a>が報告されている<a href="#R3"><sup>3)</sup></a>．PARLは7回<a href="#" class="anno <a href="#" class="anno 膜貫通">膜貫通</a>ドメイン">膜貫通ドメイン</a>をもつ<a href="#" class="anno 膜タンパク質">膜タンパク質</a>で，<a href="#" class="anno 脂質<a href="#" class="anno 二重膜">二重膜</a>">脂質二重膜</a>の内部において基質を切断することにより，タンパク質の分解ではなく切断により基質を制御する<a href="#R3"><sup>3)</sup></a>．したがって，<a href="#" class="anno PINK1">PINK1</a>やPGAM5はミトコンドリア内膜タンパク質であるが，PARLにより膜の内部で切断されたのち，<a href="#" class="anno 可溶">可溶</a>性のタンパク質として<a href="#" class="anno ミトコンドリア膜">ミトコンドリア膜</a>間<a href="#" class="anno 腔">腔</a>に存在する．PARLの<a href="#" class="anno ノックアウトマウス">ノックアウトマウス</a>は誕生するものの矮小であり生後8～12週で死亡するが<a href="#R4"><sup>4)</sup></a>，PINK1あるいはPGAM5によりこの<a href="#" class="anno 表現型">表現型</a>は説明で<a href="#" class="anno きず">きず</a>，PARLはミトコンドリアにおいてほかの基質を切断することによりなんらかの機能を制御すると推測された．そこで，筆者らは，PARLの新規の基質の同定を目的に研究を進めた．<br/><br/><h2>1．PARLの新規の基質の同定</h2><br/>　PARLの基質を同定するため，基質をトラップするPARL<a href="#" class="anno 変異体">変異体</a>を作製した．PARLは<a href="#" class="anno セリン">セリン</a>プロテアーゼに分類され，<a href="#" class="anno Ser">Ser</a>-His-Aspの3<a href="#" class="anno 残基">残基</a>を<a href="#" class="anno 活性中心">活性中心</a>にもつ．構造<a href="#" class="anno <a href="#" class="anno 生物学">生物学</a>的">生物学的</a>な解析からPARLの活性中心の位置が明らかにされており<a href="#R5"><sup>5)</sup></a>，<a href="#" class="anno Ser2">Ser2</a>77をAlaに置換することにより<a href="#" class="anno 酵素活性">酵素活性</a>は消失する．さらに，<a href="#" class="anno 野生型">野生型</a>のPARLは基質に結合すると切断し解離するが，Ser277をAlaに置換したPARL変異体は基質との結合が維持されつねに結合した状態になる．そこで，野生型のPARLあるいはSer277をAlaに置換したPARL変異体と結合するタンパク質を<a href="#" class="anno 定量的">定量的</a>な<a href="#" class="anno プロテオミクス">プロテオミクス</a><a href="#" class="anno 解析法">解析法</a>により網羅的に同定し，PARL変異体と多く結合するタンパク質を同定するというアプローチによりPARLの基質を探索した（<a href="#F1">図1a</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　PARLの新規の基質の同定のためのアプローチ</strong><br/>（a）野生型のPARLとPARL変異体との結合の差を利用したスクリーニング．<br/>（b）ChaFRADIC法によりN末端を同定することによるスクリーニング．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Saita-Nature-Cell-Biology-17.3.31-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　PARLの新規の基質の同定のためのアプローチ" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Saita-Nature-Cell-Biology-17.3.31-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Saita-Nature-Cell-Biology-17.3.31-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　Ser277をAlaに置換したPARL変異体を<a href="#" class="anno HEK細胞">HEK細胞</a>に発現させたのち，<a href="#" class="anno 免疫沈降">免疫沈降</a>法により既知の基質であるPINK1あるいはPGAM5との結合を指標として結合の条件を検討したが，野生型のHEK細胞においては<a href="#" class="anno 内在性">内在性</a>に発現したPARLがほぼすべての基質を切断し，PARL変異体と基質との結合はごく<a href="#" class="anno わずか">わずか</a>しか確認されなかった．さらに，<a href="#" class="anno siRNA">siRNA</a>により内在性のPARLを<a href="#" class="anno ノックダウン">ノックダウン</a>してもわずかに残存したPARLが基質を切断してしまい，Ser277をAlaに置換したPARL変異体による基質のトラップはうまく機能しなかった．そこで，CRI<a href="#" class="anno SPR">SPR</a>-<a href="#" class="anno Cas">Cas</a>9を利用した<a href="#" class="anno ゲノム編集">ゲノム編集</a>法によりPARLを欠損したHEK細胞を作製し，基質の候補となるタンパク質を蓄積させたのち，野生型のPARLあるいはSer277をAlaに置換したPARL変異体をそれぞれ発現させ，結合する基質を同定した．この方法により，PARL変異体と結合する基質の量は<a href="#" class="anno 飛躍的">飛躍的</a>に上昇した．しかしながら，このアプローチは<a href="#" class="anno 培養細胞">培養細胞</a>の生育に必須ではないプロテアーゼに対しては容易に適用できるが，生育に必須なプロテアーゼの解析はむずかしい．この解析により，PARLの基質の候補として既知の基質を含む45個のタンパク質が同定されたが，すべての基質について検証することはむずかしかった．そのため，別のアプローチを組み合わせることにした．<br/>　もうひとつのアプローチとして，ChaF<a href="#" class="anno RA">RA</a><a href="#" class="anno DI">DI</a>C（charge-b<a href="#" class="anno ase">ase</a>d fractio<a href="#" class="anno nal">nal</a> diagonal chr<a href="#" class="anno oma">oma</a>tog<a href="#" class="anno rap">rap</a>hy）法を利用した<a href="#R6"><sup>6)</sup></a>．この方法により，タンパク質の<a href="#" class="anno N末端">N末端</a>の配列を<a href="#" class="anno 選択的">選択的</a>に同定することができる．正常な細胞においてはPARLが基質を切断することによりひとつの基質から複数の新規のN末端が生じるが，PARLを欠損した細胞においては生じない．そこで，正常な細胞とPARL<a href="#" class="anno 欠損細胞">欠損細胞</a>とでChaFRADIC法により同定されたN末端の差をとることによりPARLの基質を同定することを考えた（<a href="#F1">図1b</a>）．<a href="#" class="anno 高純度">高純度</a>のミトコンドリアを用いて細胞質に大量に存在するタンパク質の影響を排除することにより，この解析によりPARLの基質の候補として既知の基質を含む41個のタンパク質が同定された．<br/>　2つのアプローチにおいて共通した新規のPARLの基質の候補として，5つのタンパク質が得られた．さらに，PARLの基質の条件として，1）PARL欠損細胞において非<a href="#" class="anno 切断型">切断型</a>が蓄積するあるいは切断型が減少する，2）この表現型は野生型PARLの発現により回復するがPARL変異体の発現により回復しない，3）Ser277をAlaに置換したPARL変異体とのみ結合する，4）予測された<a href="#" class="anno 切断部位">切断部位</a>の前後の<a href="#" class="anno アミノ">アミノ</a>酸配列の<a href="#" class="anno 疎水性">疎水性</a>が高く切断部位が膜貫通ドメインにある<a href="#" class="anno 可能性">可能性</a>がある，の4つを設定した．その結果，<a href="#" class="anno <a href="#" class="anno ST">ST</a>AR">STAR</a>D7，<a href="#" class="anno CLPB">CLPB</a>，TT<a href="#" class="anno C1">C1</a>9，Smacの4つのタンパク質がPARLの新規の基質であると確認された．これらのうち，<a href="#" class="anno 脂質輸送">脂質輸送</a>タンパク質である<a href="#" class="anno STARD7">STARD7</a>はミトコンドリアにおける脂質の制御を，分子<a href="#" class="anno シャペロン">シャペロン</a>であるCLPBはミトコンドリアにおいて凝集したタンパク質のアン<a href="#" class="anno フォール<a href="#" class="anno デ">デ</a>ィング">フォールディング</a>を，<a href="#" class="anno 呼吸鎖複合体">呼吸鎖複合体</a>の<a href="#" class="anno 制御タンパク質">制御タンパク質</a>であるT<a href="#" class="anno TC">TC</a>19は呼吸鎖<a href="#" class="anno 複合体I">複合体I</a>IIの<a href="#" class="anno アセンブリー">アセンブリー</a>を制御すると考えられており，現在，PARLとの関連について解析している．<br/><br/><h2>2．Smacはミトコンドリアにおいて切断され活性化される</h2><br/>　2000年，3つの<a href="#" class="anno 研究グループ">研究グループ</a>により同時に，Smacはアポトーシスタンパク質であることが報告された<a href="#R7"><sup>7)</sup></a>．Smacは<a href="#" class="anno N<a href="#" class="anno 末端側">末端側</a>">N末端側</a>にミトコンドリア移行配列をもち，ミトコンドリアへと輸送されたのち55番目と56番目の<a href="#" class="anno アミノ酸残基">アミノ酸残基</a>のあいだが切断され，新規のN末端をもつタンパク質としてミトコンドリア<a href="#" class="anno 膜間">膜間</a>腔に存在する．新規のN末端となった4つのアミノ酸残基は，<a href="#" class="anno IAP">IAP</a><a href="#" class="anno 結合モチーフ">結合モチーフ</a>というアポトーシスの誘導のために重要なモチーフを形成する．正常な細胞においてはミトコンドリアの<a href="#" class="anno 外膜">外膜</a>は閉じた状態になっており，Smacはミトコンドリア<a href="#" class="anno 膜間腔">膜間腔</a>にとどまる．しかし，細胞がアポトーシスのシグナルをうけるとBAXあるいはBAKにより<a href="#" class="anno ミトコンドリア外膜">ミトコンドリア外膜</a>に穴があき，Smacは細胞質へと放出される．放出されたSmacはIAP結合モチーフを介して<a href="#" class="anno <a href="#" class="anno 抗アポトーシス">抗アポトーシス</a>タンパク質">抗アポトーシスタンパク質</a>である<a href="#" class="anno XIAP">XIAP</a>と結合し，これを阻害してアポトーシスを誘導する．<a href="#" class="anno 出芽酵母">出芽酵母</a>にSmacを<a href="#" class="anno 強制発現">強制発現</a>させた実験において，ミトコンドリアにおけるSmacの切断はミトコンドリアのプロテアーゼであるI<a href="#" class="anno MMP">MMP</a>がつかさどるという報告があったものの，<a href="#" class="anno IM">IM</a>MPのノックアウトマウスにおいてSmacの切断はまったく正常であったため，哺乳細胞において<a href="#" class="anno 実際">実際</a>にどのプロテアーゼがSmacを切断するのかは不明であった．今回，PARLの基質としてSmacが同定されたことにより，この謎に終止符がうたれた．ただし，PARLを欠損した細胞においても切断型のSmacが20％ほど観察されており，SmacはPARLだけでなくほかのプロテアーゼによっても切断されると考えられた．<br/><br/><h2>3．PARLはSmacの切断を介してアポトーシスを制御する</h2><br/>　PARLを欠損した細胞においてSmacは切断されず，ミトコンドリア内膜に挿入された状態のSmacが観察された．PARLを欠損した細胞においては，アポトーシスが誘導された際にもSmacは細胞質へと放出されず，アポトーシスに対し強い<a href="#" class="anno 抵抗性">抵抗性</a>を示した．この現象は，<a href="#" class="anno HeLa細胞">HeLa細胞</a>，H<a href="#" class="anno CT">CT</a>116細胞，マウスの繊維<a href="#" class="anno 芽細胞">芽細胞</a>など，さまざまな細胞において観察された．<br/>　PARLによるSmacの切断には2つの意義がある．膜の内部において切断することによりSmacを可溶性に変換すること，XIAPの阻害に必要なN末端のIAP結合モチーフを生じることである．実際に，PARL欠損細胞の表現型は細胞質へと放出される可溶性のSmacの欠乏によるものかどうかを検証するため，Smacの<a href="#" class="anno ペプチド">ペプチド</a>模倣体であるBV-6をPARL欠損細胞に投与した．その結果，PARL欠損細胞においてみられたアポトーシス抵抗性の表現型が回復した．また，PARL欠損細胞に切断型の可溶性のSmacを発現させてもアポトーシス抵抗性の表現型が回復したことから，PARLはSmacを切断することによりアポトーシスを正に制御することが証明された．さらに，Smacの下流にあるXIAPのノックダウンによってもPARL欠損細胞の表現型が回復したことから，PARL-Smac-XIAP経路がアポトーシスを制御することが明らかにされた．<br/>　ミトコンドリアの制御するアポトーシスの経路としては，Smacのかかわる経路だけでなくシトクロム<em>c</em>のかかわる経路が知られている．シトクロム<em>c</em>はミトコンドリア内膜の<a href="#" class="anno 特徴的">特徴的</a>な構造である<a href="#" class="anno クリステ">クリステ</a>の内部に存在し，アポトーシスのシグナルによりクリステの<a href="#" class="anno リモデリング">リモデリング</a>に依存して細胞質へと放出されアポトーシスを誘導することが知られている．過去の知見により，シトクロム<em>c</em>の放出はクリステのリモデリングに依存するのに対し，Smacの放出はクリステのリモデリングには依存し<a href="#" class="anno ないこと">ないこと</a>がわかっていたが<a href="#R8"><sup>8)</sup></a>，今回の研究により，Smacの放出はPARLに依存するがシトクロム<em>c</em>は依存しないことが明らかにされ，この2つの経路は完全に独立であることがわかった（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ミトコンドリアの制御する2つのアポトーシスの経路は互いに独立している</strong><br/>Smacの放出はPARLによる切断により，シトクロム<em>c</em>の放出はクリステのリモデリングにより制御される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Saita-Nature-Cell-Biology-17.3.31-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ミトコンドリアの制御する2つのアポトーシスの経路は互いに独立している" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Saita-Nature-Cell-Biology-17.3.31-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Saita-Nature-Cell-Biology-17.3.31-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　PARLはSmacの切断を介してアポトーシスを正に制御することが明らかにされた．正常な細胞においてミトコンドリアに輸送されたSmacはPARLにより切断され，ミトコンドリアの内部にとどまる．ミトコンドリアにおけるSmacの機能については<a href="#" class="anno まだ">まだ</a>解明されていない．しかし，細胞がアポトーシスのシグナルをうけると，ミトコンドリアに穴があきSmacは細胞質へと放出されてアポトーシスを誘導する．<a href="#" class="anno つまり">つまり</a>，アポトーシスを誘導する危険なタンパク質をミトコンドリアに閉じ込めておき，アポトーシスのシグナルがあればいつでも迅速にアポトーシスを誘導する“ready”の状態を，細胞はたくみに維持しているものと考えられた．<br/>　一方で，今回の実験はすべて培養細胞を用いていたため，個体におけるPARLとSmacとの関連性についてはさらなる検証が必要である．実際に，Smacノックアウトマウスの表現型はほぼ正常であるため，PARLノックアウトマウスの表現型は説明できない．今回の解析により，PARLの基質は既知の2つを含め少なくとも6つあることがわかったことにより，PARLノックアウトマウスの表現型はそれらが<a href="#" class="anno 複合的">複合的</a>に影響した結果である可能性も考えられる．また，組織に<a href="#" class="anno 特異的">特異的</a>に発現するPARLの基質の存在する可能性もあり，PARLが何を切断しどの機能を制御するのか，その全貌が明らかにされるにはさらなる時間と労力が必要だろう．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Tatsuta, T. & Langer, T.</span>: <span class="ti">Quality control of mitochondria: protection against neurodegeneration and ageing.</span> <span class='so'>EMBO J., 27, 306-314 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18216873" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Quiros, P. M., Langer, T. & Lopez-Otin, C.</span>: <span class="ti">New roles for mitochondrial proteases in health, ageing and disease.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 16, 345-359 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25970558" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Spinazzi, M. & De Strooper, B.</span>: <span class="ti">PARL: The mitochondrial rhomboid protease.</span> <span class='so'>Semin. Cell Dev. Biol., 60, 19-28 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27502471" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Cipolat, S., Rudka, T., Hartmann, D. et al.</span>: <span class="ti">Mitochondrial rhomboid PARL regulates cytochrome c release during apoptosis via OPA1-dependent cristae remodeling.</span> <span class='so'>Cell, 126, 163-175 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16839884" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Jeyaraju, D. V., McBride, H. M., Hill, R. B. et al.</span>: <span class="ti">Structural and mechanistic basis of Parl activity and regulation.</span> <span class='so'>Cell Death Differ., 18, 1531-1539 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21415861" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Venne, A. S., Vogtle, F. N., Meisinger, C. et al.</span>: <span class="ti">Novel highly sensitive, specific, and straightforward strategy for comprehensive N-terminal proteomics reveals unknown substrates of the mitochondrial peptidase Icp55.</span> <span class='so'>J. Proteome Res., 12, 3823-3830 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23964590" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Shi, Y.</span>: <span class="ti">A structural view of mitochondria-mediated apoptosis.</span> <span class='so'>Nat. Struct. Biol., 8, 394-401 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11323712" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Otera, H., Miyata, N., Kuge, O. et al.</span>: <span class="ti">Drp1-dependent mitochondrial fission via MiD49/51 is essential for apoptotic cristae remodeling.</span> <span class='so'>J. Cell Biol., 212, 531-544 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26903540" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=Ensembl" target="_blank">Ensembl</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=PDB" target="_blank">PDB</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=CRISPR" target="_blank">CRISPR</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=塩基配列" target="_blank">塩基配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アミノ酸" target="_blank">アミノ酸配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=構造解析" target="_blank">構造解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=プロテオーム" target="_blank">プロテオーム</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アラインメント" target="_blank">アラインメント</a></li><br></ul><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_03.html" target="_blank">12.3 Transport of Proteins Synthesized by Free Polysomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/16_05.html" target="_blank">16.5 Topology of Mitochondria and Chloroplasts</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_08.html" target="_blank">12.8 Autophagy</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_05.html" target="_blank">3.5 Genetic Mutations and Dominance/Recession</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_03.html" target="_blank">11.3 Eukaryotic Structures</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">細田 將太郎（Shotaro Saita）</span><br>略歴：2013年 九州大学大学院医学系学府博士課程 修了，同年 久留米大学分子生命科学研究所 博士研究員を経て，2014年よりドイツCologne大学 博士研究員．<br>研究テーマ：ミトコンドリアプロテアーゼの機能の解析．<br>抱負：プロテアーゼにより制御される細胞の機能を解き明かしたい．扉を開けてみるまでわからない，プロテアーゼの無限の可能性に惹きつけられています．<br><br><strong>Thomas Langer</strong><br>ドイツCologne大学 教授．<br>研究室URL：<a href="http://www.genetik.uni-koeln.de/groups/Langer/" target="_blank">http://www.genetik.uni-koeln.de/groups/Langer/</a><br></div><br>© 2017 細田將太郎・Thomas Langer Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

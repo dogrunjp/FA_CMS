@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> PINK1によりリン酸化されたユビキチンがユビキチン連結酵素Parkinを活性化する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/8735" rel="bookmark">PINK1によりリン酸化されたユビキチンがユビキチン連結酵素Parkinを活性化する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>小谷野史香・松田憲之</strong><br>（東京都医学総合研究所 蛋白質代謝研究室）<br>email：<a href="mailto:koyano-fm@igakuken.or.jp">小谷野史香</a>，<a href="mailto:matsuda-nr@igakuken.or.jp">松田憲之</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.068">10.7875/first.author.2014.068</a><br><div class="reference"><br><span class="ti">Ubiquitin is phosphorylated by PINK1 to activate parkin.</span><br><span class="au">Fumika Koyano, Kei Okatsu, Hidetaka Kosako, Yasushi Tamura, Etsu Go, Mayumi Kimura, Yoko Kimura, Hikaru Tsuchiya, Hidehito Yoshihara, Takatsugu Hirokawa, Toshiya Endo, Edward A. Fon, Jean-François Trempe, Yasushi Saeki, Keiji Tanaka, Noriyuki Matsuda</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24784582" target="_blank"><em>Nature</em>, <strong>510</strong>, 162-166 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno PIN">PIN</a>K1およびPar<a href="#" class="anno kin">kin</a>は<a href="#" class="anno 遺伝性">遺伝性</a><a href="#" class="anno パーキンソン病">パーキンソン病</a>の<a href="#" class="anno 原因遺伝子">原因遺伝子</a>の産物である．これまでの研究により，<a href="#" class="anno セリン">セリン</a>/<a href="#" class="anno スレオニン">スレオニン</a><a href="#" class="anno キナーゼ">キナーゼ</a>である<a href="#" class="anno PINK1">PINK1</a>と<a href="#" class="anno <a href="#" class="anno ユビ<a href="#" class="anno キチン">キチン</a>">ユビキチン</a><a href="#" class="anno リガーゼ">リガーゼ</a>">ユビキチンリガーゼ</a>である<a href="#" class="anno Parkin">Parkin</a>とが協調してミトコンドリアの<a href="#" class="anno 品質管理">品質管理</a>を担うことが示されてきた．しかしながら，その<a href="#" class="anno 分子機構">分子機構</a>が完全に理解されたわけではなく，とくに，PINK1とParkinとを結びつける実体は不明であり，このミッシングリンクの発見および同定がこの分野に残された最大の謎といわれていた．今回，筆者らは，細胞においてミトコンドリアの品質が低下するとPINK1がユビキチンを<a href="#" class="anno <a href="#" class="anno リン酸">リン酸</a>化">リン酸化</a>し，それにより生じるリン酸化ユビキチンがParkinを<a href="#" class="anno 活性化">活性化</a>して，遺伝性パーキンソン病の発症を抑制していることを明らかにした．<br/><br/><h2>はじめに</h2><br/>　パーキンソン病は国内だけで<a href="#" class="anno も">も</a>14万人をこえる患者のいる<a href="#" class="anno 難治性">難治性</a>の神経<a href="#" class="anno 変性疾患">変性疾患</a>である．<a href="#" class="anno 神経伝達">神経伝達</a>物質である<a href="#" class="anno <a href="#" class="anno ドーパ">ドーパ</a>ミン">ドーパミン</a>を<a href="#" class="anno 産生">産生</a>するニューロンが失われることにより，<a href="#" class="anno 安静時">安静時</a>の<a href="#" class="anno ふるえ">ふるえ</a>，歩行の障害，姿勢保持の障害，動作緩慢などの<a href="#" class="anno 運動障害">運動障害</a>が起こる．また，<a href="#" class="anno 高齢者">高齢者</a>ほど患者の数が多く，65歳をこえると1％以上の人が罹患するといわれている．病状が進行すると<a href="#" class="anno 自律神経">自律神経</a>の障害，<a href="#" class="anno 記憶力">記憶力</a>の低下などの<a href="#" class="anno 認知機能">認知機能</a>の障害，幻視やうつなどの精神症状が現われることもあり，<a href="#" class="anno 最終的">最終的</a>に自立した生活が困難になる<a href="#" class="anno 危険性">危険性</a>がある．社会の<a href="#" class="anno 高齢化">高齢化</a>が進むにつれ患者の数は増えつづけており，疾患の発症するしくみの解明，また，早期の<a href="#" class="anno 診断法">診断法</a>および<a href="#" class="anno 根本的">根本的</a>な<a href="#" class="anno 治療法">治療法</a>の確立が<a href="#" class="anno 社会的">社会的</a>にも強く求められている．<br/>　パーキンソン病にはいくつかのタイプがあり発症の原因も単一ではないと考えられている．<em>PINK1</em>遺伝子あるいは<em><a href="#" class="anno PAR">PAR</a><a href="#" class="anno KIN">KIN</a></em>遺伝子，および，それらの産物に変異が起こると若くしてパーキンソン病の症状を示し，これは常<a href="#" class="anno 染色体">染色体</a>劣性<a href="#" class="anno 若年性パーキンソン症候群">若年性パーキンソン症候群</a>あるいは遺伝性劣性若年性パーキンソン症候群ともよばれる<a href="#R1"><sup>1,2)</sup></a>．PINK1はセリン/<a href="#" class="anno スレオニンキナーゼ">スレオニンキナーゼ</a>，Parkinはユビキチンリガーゼである．遺伝子の変異や欠損によりPINK1あるいはParkinの機能が失われるとパーキンソン病が発症することから，PINK1およびParkinがふだんはパーキンソン病の発症を抑制するためにはたらいていることがわかる<a href="#R3"><sup>3,4)</sup></a>．そこで，筆者らは，PINK1およびParkinの機能を調べればパーキンソン病の発症の機構にせまれるのではないかと考え，10年近く研究を続けてきた．<br/>　2010年，筆者は，Parkinの<a href="#" class="anno ユビキチンリガーゼ活性">ユビキチンリガーゼ活性</a>は通常の細胞においては観察で<a href="#" class="anno きず">きず</a>，ミトコンドリアの<a href="#" class="anno 膜電位">膜電位</a>の低下にともない活性化されることを明らかにした<a href="#R4"><sup>4)</sup></a>．また，2012年から2013年にかけて，筆者の所属するグループを含め国内外の複数の<a href="#" class="anno 研究グループ">研究グループ</a>により，Parkinの<a href="#" class="anno Ser">Ser</a>65がミトコンドリアの膜電位の低下およびPINK1の両方に依存してリン酸化されることが報告された<a href="#R5"><sup>5-7)</sup></a>．しかしながら，Parkinの<a href="#" class="anno Ser6">Ser6</a>5のリン酸化を模倣した<a href="#" class="anno 変異体">変異体</a>は依然としてその活性化にPINK1への<a href="#" class="anno 依存性">依存性</a>を示したことなどから，PINK1によるParkinのSer65のリン酸化だけでPINK1の機能を説明するのは困難であり，Parkinの活性化に必要な別のPINK1の基質の存在することが示唆されていた．そこで，Parkinのほかにも重要なPINK1の基質の存在する<a href="#" class="anno 可能性">可能性</a>を考えて新しいPINK1の基質を探索したのが，この研究の出発点であった．<br/><br/><h2>1．PINK1はユビキチンをリン酸化する</h2><br/>　Parkinの<a href="#" class="anno リン酸化部位">リン酸化部位</a>であるSer65は<a href="#" class="anno <a href="#" class="anno N末端">N末端</a>側">N<a href="#" class="anno 末端側">末端側</a></a>にあるユビキチン様ドメインに存在する．Parkinのユビキチン様ドメインとユビキチンは<a href="#" class="anno アミノ">アミノ</a>酸配列において約30％の<a href="#" class="anno <a href="#" class="anno <a href="#" class="anno 相">相</a>同">相同</a>性">相同性</a>をもち，Parkinのリン酸化部位であるSer65はその両者で保存されている．そこで，ミトコンドリアの膜電位を低下させる薬剤C<a href="#" class="anno C<a href="#" class="anno CP">CP</a>">CCP</a>により処理した細胞<a href="#" class="anno 抽出液">抽出液</a>を用いて，<a href="#" class="anno リン酸化タンパク質">リン酸化タンパク質</a>の<a href="#" class="anno 移動度">移動度</a>を変化させる<a href="#" class="anno Pho">Pho</a>s-<a href="#" class="anno tag">tag</a><a href="#" class="anno <a href="#" class="anno ウェスタン">ウェスタン</a>ブロット">ウェスタンブロット</a>解析を行ったところ，ユビキチンのリン酸化を示すバンドのシフトが観察された．また，CCCP処理した細胞から回収したミトコンドリアを用いて，<em><a href="#" class="anno in vitro">in vitro</a></em>において精製したユビキチンをリン酸化できることも確認した．PINK1を欠損した細胞から調製したミトコンドリアは精製したユビキチンをリン酸化できないが，<a href="#" class="anno 野生型">野生型</a>のPINK1を入れ戻すとユビキチンに対するリン<a href="#" class="anno 酸化能">酸化能</a>は回復し，<a href="#" class="anno キナーゼ活性">キナーゼ活性</a>をもたないPINK1の変異体あるいは遺伝性パーキンソン病の患者に由来するPINK1の変異体の入れ戻しではユビキチンはリン酸化されないままであった．また，CCCP処理した細胞から抗PINK1抗体を用いて回収した<a href="#" class="anno <a href="#" class="anno 免疫沈降">免疫沈降</a>物">免疫沈降物</a>もユビキチンを明瞭にリン酸化したことから，PINK1がユビキチンをリン酸化することが示された．<br/>　ユビキチンにおけるリン酸化部位を同定するため<a href="#" class="anno 質量分析">質量分析</a>計により解析したところ，Parkinと同様に，ユビキチンのSer65がCCCP処理に依存してリン酸化されることがわかった．<a href="#" class="anno 実際">実際</a>に，Ser65をAlaに置換したユビキチン変異体は<em>in vitro</em>および<em>in vivo</em>においてリン酸化されなかった．さらに，ミトコンドリアの膜電位が低下したとき細胞に存在するユビキチンのうちどの程度がリン酸化されているかを，AQUA<a href="#" class="anno ペプチド">ペプチド</a>と<a href="#" class="anno 質量分析計">質量分析計</a>を用いた絶対<a href="#" class="anno 定量法">定量法</a>により検討した．<a href="#" class="anno HeLa細胞">HeLa細胞</a>では<a href="#" class="anno 内在性">内在性</a>のユビキチンの約0.05％がCCCP処理に依存してリン酸化されることが示され，さらに，このリン酸化は内在性のPINK1に依存していた．この0.05％という比率は非常に低いが，細胞には<a href="#" class="anno 数百">数百</a>種類から千種類ほどのユビキチンリガーゼが存在するといわれていることから，Parkinに割り当てられるユビキチンの量（単純計算で，0.5％以下）を考えると十分な量ではないかと思われた．<br/><br/><h2>2．リン酸化ユビキチンはParkinを活性化する</h2><br/>　リン酸化ユビキチンが細胞においてはたす役割について検証した．PINK1によるParkinの制御は大きく2つに分けることができる．ひとつは，膜電位の低下したミトコンドリアへの移行（<a href="#" class="anno 細胞内">細胞内</a>局在の変化）であり，もうひとつは，さきに述べたユビキチンリガーゼ機能の活性化（ユビキチンリガーゼ活性の変化）である．そこで，<a href="#" class="anno 蛍光タンパク質">蛍光タンパク質</a><a href="#" class="anno GFP">GFP</a>とParkinとの<a href="#" class="anno 融合タンパク質">融合タンパク質</a>を細胞に導入して，<a href="#" class="anno 細胞内局在">細胞内局在</a>の変化はGFPの蛍光を<a href="#" class="anno 蛍光顕微鏡">蛍光顕微鏡</a>により観察し，ユビキチンリガーゼ活性の変化は<a href="#" class="anno 偽基質">偽基質</a>であるGFPに対する<a href="#" class="anno ユビキチン化">ユビキチン化</a>を指標に測定した．野生型のユビキチンと野生型のParkin，野生型のユビキチンとリン酸化を模倣したParkin，リン酸化を模倣したユビキチン変異体と野生型のParkin，を細胞内に<a href="#" class="anno 共発現">共発現</a>したところ，Parkinの細胞内局在およびユビキチンリガーゼ活性は変化しなかった．一方で，リン酸化を模倣したParkin変異体とリン酸化を模倣したユビキチン変異体とを共発現したところ，Parkinの細胞内局在は変化しなかったが，驚くべきことに，ミトコンドリアの状態とは無関係にParkinが活性化された．さらに，<a href="#" class="anno 無細胞">無細胞</a>系を確立して，ミトコンドリアの活性が正常な細胞からリン酸化を模倣したParkin変異体を含む<a href="#" class="anno 細胞質">細胞質</a>の<a href="#" class="anno 画分">画分</a>を回収し，リン酸化を模倣したユビキチン，あるいは，<em>in vitro</em>において事前にリン酸化したユビキチンと反応させたところ，Parkinのユビキチンリガーゼ活性が検出された．これらの結果は，リン酸化ユビキチンがリン酸化ParkinをPINK1に非<a href="#" class="anno 依存的">依存的</a>に活性化すること，<a href="#" class="anno つまり">つまり</a>，PINK1によるParkinの活性化をリン酸化ユビキチンがバイパスできることを示していた．なお，リン酸化ユビキチンがParkinを活性化する際に，ユビキチンの<a href="#" class="anno <a href="#" class="anno C末端">C末端</a>側">C末端側</a>にありチオ<a href="#" class="anno エステル結合">エステル結合</a>の形成や<a href="#" class="anno イソ">イソ</a><a href="#" class="anno ペプチド結合">ペプチド結合</a>の形成に必須の<a href="#" class="anno Gly">Gly</a>Glyモチーフは必要なかったことから，Parkinを活性化する際にリン酸化ユビキチンはほかのタンパク質と結合している必要は<a href="#" class="anno ないこと">ないこと</a>も示された．<br/><br/><h2>3．Parkinが活性化される分子機構</h2><br/>　リン酸化ユビキチンはどのようにParkinを活性化するのだろうか？　現時点では，その分子機構は完全に解明されたわけではないが，いくつかの手がかりが得られている．<br/>　まず，Parkinとリン酸化ユビキチンとが結合するかどうかを検討した．両者の結合は非常に弱いのか，通常の免疫沈降や<a href="#" class="anno プルダウン">プルダウン</a>実験では<a href="#" class="anno 安定的">安定的</a>な<a href="#" class="anno 結合活性">結合活性</a>を検出することはできなかったが，Fluoppi系を用いることにより，リン酸化を模倣したParkin変異体とリン酸化を模倣したユビキチン変異体との細胞における結合が示された．<br/>　つぎに，<em>in vitro</em>においてParkinによるユビキチン化を<a href="#" class="anno 再構成">再構成</a>することにより，<a href="#" class="anno ユビキチン化反応">ユビキチン化反応</a>のどのステップが活性化されるのかについて検討した．Parkinが基質をユビキチン化する過程では，まず，<a href="#" class="anno ユビキチン活性化酵素">ユビキチン活性化酵素</a>（E1）によりA<a href="#" class="anno TP">TP</a>に依存してユビキチンが活性化され，E1と<a href="#" class="anno 高エネルギー">高エネルギー</a><a href="#" class="anno チオエステル">チオエステル</a>結合した<a href="#" class="anno 中間体">中間体</a>が形成される．つぎに，ユビキチンはチオエステル結合を保持したまま，E1からユビキチン<a href="#" class="anno 結合酵素">結合酵素</a>（E2）に，さらに，E2からユビキチンリガーゼ（E3）であるParkinの<a href="#" class="anno 活性中心">活性中心</a>に移行して，最終的に<a href="#" class="anno 基質タンパク質">基質タンパク質</a>へと受け渡される．E2とチオエステル結合を形成したE2-ユビキチン<a href="#" class="anno 反応中間体">反応中間体</a>を用いて解析した結果，Parkinの<a href="#" class="anno 存在下">存在下</a>においてのみ，リン酸化ユビキチンがE2-ユビキチン反応中間体からのユビキチンの遊離を促進することが示された．この活性はParkinを要求するので，リン酸化ユビキチンが単純にE2からのユビキチンの遊離を促進しているわけではなかった．<br/>　Parkinの<a href="#" class="anno 立体構造">立体構造</a>解析から，通常の状態ではParkinの活性中心は外部からのアクセスが困難な状態になっていると考えられる<a href="#R8"><sup>8)</sup></a>．これらの結果を考えあわせると，リン酸化ユビキチンがParkinと結合することで，チオエステル結合したユビキチンの受け手であるParkinの活性中心を露出させることにより，<a href="#" class="anno ユビキチン結合酵素">ユビキチン結合酵素</a>からParkinへのユビキチンの移行を促進していると考えるのが妥当だと思われた（<a href="#F1">図1</a>）．今後は，このモ<a href="#" class="anno デ">デ</a>ルを<a href="#" class="anno 実験的">実験的</a>に検証していきたいと考えている．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Parkinが活性化されるしくみ</strong><br/>Ser65のリン酸化されたユビキチンがParkinと結合することにより，Parkinの活性中心であるCys431がアクセスの可能なかたちとなり，チオエステル結合を介したユビキチン-Parkin結合中間体が形成される．<br/>Ubl：ユビキチン様ドメイン，Ub：ユビキチン，P：リン酸化．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/06/Matsuda-Nature-14.5.22-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Parkinが活性化されるしくみ" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuda-Nature-14.5.22-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuda-Nature-14.5.22-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究においては，<a href="#" class="anno <a href="#" class="anno 翻訳後">翻訳後</a>修飾">翻訳後修飾</a>因子として細胞において幅広く使用されているユビキチン自体がリン酸化修飾をうけること，ミトコンドリアの膜電位の低下を引き金としてPINK1がユビキチンをリン酸化すること，リン酸化されたユビキチンがParkinを活性化すること，が示された（<a href="#F2">図2</a>）．正常な状態ではPINK1がユビキチンをリン酸化することでParkinを活性化することにより細胞の異常なミトコンドリアを除去する一方，この機構が破綻すると異常なミトコンドリアが<a href="#" class="anno 徐々">徐々</a>に脳に蓄積しパーキンソン病の発症にいたると考えられた．なお，Parkinにより基質タンパク質へと受け渡されるユビキチンは必ずしもリン酸化されている必要はないが，PINK1によるユビキチンのリン酸化→Parkinの活性化→ユビキチンのミトコンドリアへの集積→PINK1によるそのユビキチンのさらなるリン酸化→Parkinの活性化，という正のサイクルが形成され，このサイクルがシグナルを増幅させている可能性が考えられる．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　この研究により明らかにされたリン酸化ユビキチンの機能</strong><br/>このシステムがうまくはたらかないと，本来は除去されるべき細胞内の異常なミトコンドリアが取り除かれず，低品質のミトコンドリアやその副産物である活性酸素種が蓄積することにより，パーキンソン病が発症する．<br/>P：リン酸化．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/06/Matsuda-Nature-14.5.22-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　この研究により明らかにされたリン酸化ユビキチンの機能" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuda-Nature-14.5.22-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuda-Nature-14.5.22-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　ユビキチンに関しては膨大な量の論文が発表されているが，翻訳後<a href="#" class="anno 修飾因子">修飾因子</a>であるユビキチン自体がリン酸化という修飾をうけ，かつ，それが遺伝性パーキンソン病の発症を抑制するのに重要な役割を担うという知見は，誰も予想できないものであった．実際に，Parkinの研究を深化させてミトコンドリアの異常という情報を伝達するParkinの<a href="#" class="anno 活性化因子">活性化因子</a>を同定したところ，それがユビキチンであったという展開は，筆者にとっても驚きで研究の不思議を感じるものであった．<br/>　この成果は直接的には遺伝性パーキンソン病に関するものであるが，より<a href="#" class="anno 一般的">一般的</a>な<a href="#" class="anno 孤発性">孤発性</a>パーキンソン病についてもその発症に同様のしくみが関与している可能性は十分にあるだろう．また，リン酸化ユビキチンに由来するペプチドを質量分析計により測定することで，放置するとパーキンソン病の発症につながるような細胞におけるミトコンドリアの異常を<a href="#" class="anno 高感度">高感度</a>で検知することが期待できることから，パーキンソン病の新しい病理解析ツールや<a href="#" class="anno 診断マー<a href="#" class="anno カ">カ</a>ー">診断マーカー</a>の開発につながる可能性もある．今後は，このような応用も視野にいれつつ，さらに<a href="#" class="anno 基礎研究">基礎研究</a>を展開させたい．<br/>　なお，筆者らの論文とほぼ<a href="#" class="anno 同じ">同じ</a>時期に，米国の研究グループからも，非常に関連したリン酸化ユビキチンに関する論文が出版された<a href="#R9"><sup>9)</sup></a>．細部に違いはあるが，彼らの結果と筆者らの結果は大枠において一致しており，この研究が第<a href="#" class="anno 三者">三者</a>によっても再現できる<a href="#" class="anno 信頼度">信頼度</a>の高いものであることが証明されたと考えている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Kitada, T., Asakawa, S., Hattori, N. et al.</span>: <span class="ti">Mutations in the <em>parkin</em> gene cause autosomal recessive juvenile parkinsonism.</span> <span class='so'>Nature, 392, 605-608 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9560156" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Valente, E. M., Abou-Sleiman, P. M., Caputo, V. et al.</span>: <span class="ti">Hereditary early-onset Parkinson's disease caused by mutations in <em>PINK1</em>.</span> <span class='so'>Science, 304, 1158-1160 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15087508" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Narendra, D. P., Jin, S. M., Tanaka, A. et al.</span>: <span class="ti">PINK1 is selectively stabilized on impaired mitochondria to activate Parkin.</span> <span class='so'>PLoS Biol., 8, e1000298 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20126261" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Matsuda, N., Sato, S., Shiba, K. et al.</span>: <span class="ti">PINK1 stabilized by mitochondrial depolarization recruits Parkin to damaged mitochondria and activates latent Parkin for mitophagy.</span> <span class='so'>J. Cell Biol., 189, 211-221 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20404107" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kondapalli, C., Kazlauskaite, A., Zhang, N. et al.</span>: <span class="ti">PINK1 is activated by mitochondrial membrane potential depolarization and stimulates Parkin E3 ligase activity by phosphorylating Serine 65.</span> <span class='so'>Open Biol., 2, 120080 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22724072" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Shiba-Fukushima, K., Imai, Y., Yoshida, S. et al.</span>: <span class="ti">PINK1-mediated phosphorylation of the Parkin ubiquitin-like domain primes mitochondrial translocation of Parkin and regulates mitophagy.</span> <span class='so'>Sci. Rep., 2, 1002 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23256036" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Iguchi, M., Kujuro, Y., Okatsu, K. et al.</span>: <span class="ti">Parkin-catalyzed ubiquitin-ester transfer is triggered by PINK1-dependent phosphorylation.</span> <span class='so'>J. Biol. Chem., 288, 22019-22032 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23754282" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Trempe, J. F., Sauve, V., Grenier, K. et al.</span>: <span class="ti">Structure of parkin reveals mechanisms for ubiquitin ligase activation.</span> <span class='so'>Science, 340, 1451-1455 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23661642" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Kane, L. A., Lazarou, M., Fogel, A. I. et al.</span>: <span class="ti">PINK1 phosphorylates ubiquitin to activate Parkin E3 ubiquitin ligase activity.</span> <span class='so'>J. Cell Biol., 205, 143-153 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24751536" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_02.html" target="_blank">14.2 Basic Mechanisms of Intracellular Signal Transduction</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_07.html" target="_blank">12.7 Proteasomes and Ubiquitination</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/13_02.html" target="_blank">13.2 Cell Cycle Regulation Factors: Cyclin-CDK Complex</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_06.html" target="_blank">9.6 Formation of Higher-order Structure and Post-translational Modification</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/13_03.html" target="_blank">13.3 Checkpoint mechanisms in the cell cycle</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">小谷野 史香（Fumika Koyano）</span><br>略歴：東京大学大学院新領域創成科学研究科博士課程 在学中．<br>研究テーマ：ミトコンドリアの品質管理とパーキンソン病．<br>抱負：新しいことに挑戦しつづけたい．<br><br><strong>松田 憲之（Noriyuki Matsuda）</strong><br>東京都医学総合研究所 副参事研究員．<br>研究室URL：<a href="http://www.igakuken.or.jp/pro-meta/studies/mastuda.html" target="_blank">http://www.igakuken.or.jp/pro-meta/studies/mastuda.html</a><br></div><br>© 2014 小谷野史香・松田憲之 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

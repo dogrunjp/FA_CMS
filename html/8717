@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Merkel細胞は触知覚細胞として機械刺激を電気シグナルに変換する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/8717" rel="bookmark">Merkel細胞は触知覚細胞として機械刺激を電気シグナルに変換する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>池田 亮・Jianguo G. Gu</strong><br>（米国Cincinnati大学College of Medicine，Department of Anesthesiology）<br>email：<a href="mailto:ryo-i@jikei.ac.jp">池田 亮</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.061">10.7875/first.author.2014.061</a><br><div class="reference"><br><span class="ti">Merkel cells transduce and encode tactile stimuli to drive Aβ-afferent impulses.</span><br><span class="au">Ryo Ikeda, Myeounghoon Cha, Jennifer Ling, Zhanfeng Jia, Dennis Coyle, Jianguo G. Gu</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24746027" target="_blank"><em>Cell</em>, <strong>157</strong>, 664-675 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　触刺激を認識する機械<a href="#" class="anno 受容器">受容器</a>は<a href="#" class="anno 無脊椎動物">無脊椎動物</a>におけるシンプルな構造から哺乳類における特殊かつ複雑な構造へと進化している．<a href="#" class="anno Mer">Mer</a>kel触盤は皮膚に存在する<a href="#" class="anno 機械受容器">機械受容器</a>のひとつで，<a href="#" class="anno Merkel細胞">Merkel細胞</a>とAβ<a href="#" class="anno 求心性">求心性</a>神経の終末から構成され，ヒトの指先や<a href="#" class="anno げっ歯類">げっ歯類</a>の洞毛など鋭敏な感覚が必要とされる部位に多く存在している．触覚センサーとして外界からの<a href="#" class="anno 機械刺激">機械刺激</a>を遅順応型の<a href="#" class="anno 活動電位">活動電位</a>に変換し，物体の質感や<a href="#" class="anno 大きさ">大きさ</a>など繊細な識別に関与することが知られている．しかしながら，この機械刺激を電気シグナルに変換するための<a href="#" class="anno 分子機構">分子機構</a>は長いあいだ明らかではなかった．筆者らは，ラットの洞毛に着目し<a href="#" class="anno 電気<a href="#" class="anno 生理学的">生理学的</a>"><a href="#" class="anno 電気生理">電気生理</a>学的</a>な手法を用いて検討した結果，Merkel細胞それ自体が<a href="#" class="anno Piezo">Piezo</a>2チャネルを介して機械刺激を電気シグナルに変換していることを明らかにした．さらに，この電気シグナルはMerkel細胞にCa<sup>2+</sup>活動電位を発生させ，Aβ<a href="#" class="anno 求心性神経">求心性神経</a>に遅順応型応答を惹起させることがわかった．また，Merkel細胞において<a href="#" class="anno Piezo2">Piezo2</a>チャネルおよびCa<sup>2+</sup>活動電位が個体の触覚性の応答に必要であることを<a href="#" class="anno 行動実験">行動実験</a>により示した．これらの事実から，Merkel細胞は触知覚細胞として機能することが明らかになった．<br/><br/><h2>はじめに</h2><br/>　触覚は<a href="#" class="anno 日常生活">日常生活</a>を営むために<a href="#" class="anno 必要不可欠">必要不可欠</a>な感覚である．触覚受容器は幅広い触刺激を知覚し電気シグナルに変換することにより，その情報を中枢へと伝達している．なかで<a href="#" class="anno も">も</a>，Merkel細胞とAβ求心性神経の終末からなるMerkel触盤はシナプス様の特殊な構造をもち，もっとも感受性の高い触覚受容器として知られている<a href="#R1"><sup>1)</sup></a>．触刺激がMerkel触盤を介してAβ求心性神経に遅順応<a href="#" class="anno 1型">1型</a>応答を惹起することにより，物体の形，大きさ，質感が識別される<a href="#R2"><sup>2)</sup></a>．<a href="#" class="anno 末梢神経">末梢神経</a>の障害のような病的な状態では，触知覚が<a href="#" class="anno 減弱">減弱</a>あるいは増大した結果，触覚性異痛症をひき起こすこともある．1875年にMerkel細胞が発見されて以来，数多くの研究がなされてきたにもかかわらず，い<a href="#" class="anno まだ">まだ</a>，Merkel触盤による機械刺激の電気シグナルへの変換の分子機構は明らかにされていない<a href="#R3"><sup>3)</sup></a>．さらに，生じた電気シグナルがどのようにして遅順応1型応答を発生させるのかも明らかではない．<a href="#" class="anno 化学的">化学的</a>な手法あるいは<a href="#" class="anno <a href="#" class="anno 遺伝学">遺伝学</a>的">遺伝学的</a>な手法によりMerkel細胞の機能あるいは発現を抑制すると遅順応1型応答が生じなくなることが報告されている一方<a href="#R4"><sup>4)</sup></a>，Merkel細胞は<a href="#" class="anno 神経終末">神経終末</a>の<a href="#" class="anno 支持組織">支持組織</a>でありセンサーとしては機能していないとする報告もある<a href="#R5"><sup>5)</sup></a>．機械刺激を電気シグナルに変換する分子機構として，無脊椎動物においてDEG/<a href="#" class="anno ENaC">ENaC</a>チャネルおよび<a href="#" class="anno TRP">TRP</a>チャネルファミリーのNOMPCチャネル<a href="#R6"><sup>6,7)</sup></a>，哺乳類においてPiezoチャネル（<a href="#" class="anno Piezo1">Piezo1</a>チャネルおよびPiezo2チャネル）が，<a href="#" class="anno 機械感受性">機械感受性</a>チャネルとして発現し機能していることが報告された<a href="#R8"><sup>8)</sup></a>．とくに，Piezo2チャネルは<a href="#" class="anno 後根<a href="#" class="anno 神経節">神経節</a>">後根神経節</a>ニューロンに多く発現し触覚や痛覚に関与することが示唆されている<a href="#R9"><sup>9)</sup></a>．しかしながら，触覚受容器が触刺激を直接的に感知し電気シグナルに変換する分子機構は解明されていない．今回，筆者らは，Merkel触盤におけるMerkel細胞の役割，および，機械刺激の電気シグナルへの変換に関与する分子機構を解明するため，ラットの洞毛を用いた．<br/><br/><h2>1．Merkel細胞は遅順応型のCa<sup>2+</sup>活動電位を発生する<a href="#" class="anno 興奮性">興奮性</a>の細胞である</h2><br/>　Merkel細胞の細胞特性を検討するにはパッチ<a href="#" class="anno クランプ">クランプ</a>法が有効である．しかしながら，Merkel細胞の存在する<a href="#" class="anno 基底層">基底層</a>は数種類の組織層により被覆されているため，生体の環境において<a href="#" class="anno パッチクランプ">パッチクランプ</a>法を実施することは困難であった．これまで，<a href="#" class="anno 培養細胞">培養細胞</a>を用いた研究が数多くなされてきたが，機械刺激に対する応答をとらえることはできなかったことから，Merkel細胞の特殊な形態，および，Merkel細胞をとりまく組織の環境が重要であると考えられた<a href="#R10"><sup>10)</sup></a>．そこで，ラットの洞毛のMerkel細胞を標的とした<em>in <a href="#" class="anno sit">sit</a>u</em><a href="#" class="anno パッチクランプ法">パッチクランプ法</a>を確立し，<a href="#" class="anno 電気生理学">電気生理学</a>的な細胞特性について検討した．皮膚や洞毛を構成する細胞に興奮性の細胞は存在しないと信じられてきたが，驚くべきことに，Merkel細胞は<a href="#" class="anno わずか">わずか</a>な<a href="#" class="anno 脱分<a href="#" class="anno 極">極</a>">脱分極</a>性の電流の注入により遅順応型の活動電位を発生した．さらに，この活動電位は電位<a href="#" class="anno 依存性">依存性</a>Ca<sup>2+</sup>チャネルを介することが<a href="#" class="anno 薬理学的">薬理学的</a>な手法により明らかにされた．<br/><br/><h2>2．Merkel細胞は触刺激を電流に変換する</h2><br/>　Merkel細胞それ自体は機械刺激を電気シグナルに変換することができるのだろうか？　これを明らかにするため，ガラス<a href="#" class="anno プローブ">プローブ</a>を用いてMerkel細胞の近傍の<a href="#" class="anno 細胞層">細胞層</a>を変位させることにより，細胞に<a href="#" class="anno 間接的">間接的</a>な機械刺激をくわえた．この方法はより自然な触刺激を模倣していると考えられ，細胞への直接的な刺激と同様に，機械刺激に応答して<a href="#" class="anno 活性化">活性化</a>する電流を発生した．Merkel細胞は機械刺激に対し敏感に反応し，その<a href="#" class="anno 閾値">閾値</a>はわずか0.6<a href="#" class="anno μm">μm</a>であった．さらに，この機械刺激により活性化する電流は，<a href="#" class="anno 同じ">同じ</a>細胞層に存在するMerkel細胞以外の細胞からは記録で<a href="#" class="anno きず">きず</a>，潜伏時間は1 ms以内で減衰定数はおよそ6 msと速順応型の電流特性をもっていた．この電流特性は，近年，同定された機械感受性チャネルであるPiezo2チャネルと類似していた．また，<a href="#" class="anno 陽イオン">陽イオン</a>の<a href="#" class="anno 透過性">透過性</a>を検討したところ，Ca<sup>2+</sup>透過性の非<a href="#" class="anno 選択的">選択的</a>な<a href="#" class="anno 陽<a href="#" class="anno イオンチャネル">イオンチャネル</a>">陽イオンチャネル</a>であることも明らかになった．<br/><br/><h2>3．Merkel細胞はPiezo2チャネルを介して機械刺激を電気シグナルに変換する</h2><br/>　Merkel細胞におけるPiezo2の<a href="#" class="anno mRNA">mRNA</a>の発現を確認するため，<a href="#" class="anno ガラス電極">ガラス電極</a>を用いて外毛根鞘からMerkel細胞およびMerkel細胞以外の細胞を個々に収集し，RT-<a href="#" class="anno PCR">PCR</a>法により解析した．その結果，Piezo2はMerkel細胞にのみ発現しMerkel細胞以外の細胞には発現していなかった．Piezo2チャネルの<a href="#" class="anno 非選択的">非選択的</a>な<a href="#" class="anno 遮断薬">遮断薬</a>はMerkel細胞において機械刺激に応答して活性化する電流を抑制した．さらに，抗Piezo2抗体を記録電極から<a href="#" class="anno 細胞内">細胞内</a>へ投与したところPiezo2チャネル遮断薬と同様の結果を示し，ブロッキングタンパク質によりその効果は消失した．抗Piezo2抗体は<a href="#" class="anno 後根神経節ニューロン">後根神経節ニューロン</a>においてPiezo2チャネルにより生じる速順応型の機械刺激に応答して活性化する電流に対しても<a href="#" class="anno 抑制効果">抑制効果</a>を示した．<br/>　これらの結果から，Merkel細胞における機械刺激の電気シグナルへの変換はPiezo2チャネルの開口により惹起されると考えられたため，<a href="#" class="anno 遺伝子<a href="#" class="anno ノックダウン">ノックダウン</a>法"><a href="#" class="anno 遺伝子ノックダウン">遺伝子ノックダウン</a>法</a>により解析した．Merkel触盤を構成するAβ求心性神経の終末にもPiezo2チャネルが発現している<a href="#" class="anno 可能性">可能性</a>があるため，Piezo2の<a href="#" class="anno shRNA">shRNA</a>を組み込んだ<a href="#" class="anno レンチウイルス">レンチウイルス</a>を<a href="#" class="anno ベクター">ベクター</a>として使用した．洞毛へのレンチウイルスの注入により，マー<a href="#" class="anno カ">カ</a>ーである<a href="#" class="anno GFP">GFP</a>の発現はおもにMerkel細胞の存在する洞毛前部および<a href="#" class="anno 膨大部">膨大部</a>に認められ，求心性神経の<a href="#" class="anno 三叉神経">三叉神経</a>節ニューロンおよび<a href="#" class="anno 神経線維">神経線維</a>には認められなかった．このことから，レンチウイルスは<a href="#" class="anno 逆行性">逆行性</a>輸送されず，Merkel触盤のMerkel細胞においてPiezo2を選択的にノックダウンすることが示された．さらに，発現の効率を安定させるWPRE（Woodchuck hepatitis virus p<a href="#" class="anno ost">ost</a>-<a href="#" class="anno tra">tra</a>nscr<a href="#" class="anno ipt">ipt</a>io<a href="#" class="anno nal">nal</a> regula<a href="#" class="anno tor">tor</a>y e<a href="#" class="anno lem">lem</a>ent）の<a href="#" class="anno ゲノムDNA">ゲノムDNA</a>への組み込みを洞毛の細胞においてのみ確認した．ノックダウンののちPiezo2のmRNAの<a href="#" class="anno 発現量">発現量</a>は半減し，機械刺激に応答して活性化する電流も有意に減弱した．以上の結果から，Merkel細胞はPiezo2チャネルを<a href="#" class="anno 機能的">機能的</a>に発現し，その開口を介して機械刺激を電気シグナルに変換することが明らかになった．<br/><br/><h2>4．Merkel細胞は電気シグナルに変換した触刺激の情報を活動電位に転換する</h2><br/>　Merkel細胞は自然な触刺激を電気シグナルに変換できるのだろうか？　これを明らかにするため，洞毛の<a href="#" class="anno 毛幹">毛幹</a>を変位させその応答をMerkel細胞から記録した．細胞層への局所の刺激と同じく，機械刺激に応答して活性化する電流が発生し，その振幅はわずか4μmの変位により基電流のおよそ2倍に<a href="#" class="anno 相">相</a>当する60 pAに達した．この機械刺激に応答して活性化する電流がMerkel細胞に活動電位を発生させるほど十分に<a href="#" class="anno 細胞膜">細胞膜</a>を脱分極できるかどうかを確認するため，細胞内の環境を維持した状態で毛幹に変位をくわえたところ，確かに活動電位のスパイクが観察された．さらに，<a href="#" class="anno 全細胞記録">全細胞記録</a>のもと同じ変位距離をもつ間接的な局所への刺激をくわえた結果，機械刺激に応答して活性化する電流と活動電位の発生が同一の細胞において確認された．以上の結果から，Merkel細胞はPiezo2チャネルにより電気シグナルに変換された触刺激の情報を活動電位に転換することが明らかになった．<br/><br/><h2>5．Merkel細胞のCa<sup>2+</sup>活動電位とPiezo2チャネルはAβ求心性神経に遅順応1型応答をひき起こす</h2><br/>　Merkel細胞においてCa<sup>2+</sup>活動電位に転換された触刺激は，Aβ求心性神経の遅順応1型応答を導くことができるのだろうか？　この問いに答えるため，求心性神経を付随した洞毛の標本を準備し，毛幹の変位にともなう応答を神経線維より記録した．遅順応1型応答は38μmの変位により確かに惹起され，<a href="#" class="anno 電位依存性">電位依存性</a>Na<sup>+</sup>チャネルの<a href="#" class="anno 拮抗薬">拮抗薬</a>により抑制された．電位依存性Ca<sup>2+</sup>チャネルの拮抗薬によっても同様の結果が得られたが，神経線維への<a href="#" class="anno 局所的">局所的</a>な投与では抑制は認められなかった．求心性神経の活動電位はニューロンに存在する電位依存性Na<sup>+</sup>チャネルを介して発生するため，これらの結果から，遅順応1型応答にはMerkel細胞におけるCa<sup>2+</sup>活動電位が必要であることが示された．さらに，機械刺激を電気シグナルに変換するPiezo2チャネルがこの遅順応1型応答の発生に必要であるかどうかを確かめるため，遺伝子ノックダウン法を用いてその効果を検討した．Piezo2をノックダウンしたところ，対照と比較し遅順応1型応答は有意に減弱していたことから，Merkel細胞のPiezo2チャネルは機械感受性チャネルとしての機能をもち，遅順応1型応答を惹起することが明らかになった．<br/><br/><h2>6．洞毛への触刺激に対する<a href="#" class="anno 行動学的">行動学的</a>な応答はMerkel細胞におけるCa<sup>2+</sup>活動電位およびPiezo2チャネルを必要とする</h2><br/>　<a href="#" class="anno 中枢性">中枢性</a>の<a href="#" class="anno 感作">感作</a>を導くことで知られる<a href="#" class="anno カプサイシン">カプサイシン</a>を洞毛の存在する口<a href="#" class="anno 吻">吻</a>部の皮下に注入し，触刺激による行動について解析した．洞毛のAβ求心性神経の終末はMerkel終末だけでなく，機械刺激に対し速順応型に応答する槍型終末としても存在することが知られている．この応答は刺激の速度に依存して反応する特性があるため，遅順応1型応答による行動を選択的に検討するために低速度の刺激をくわえた．カプサイシンを投与したのちの触刺激に対する疼痛を回避するような行動は，電位依存性Ca<sup>2+</sup>チャネル拮抗薬の洞毛への投与およびPiezo2のノックダウンにより有意に減少した．以上の結果から，Merkel細胞におけるCa<sup>2+</sup>活動電位およびPiezo2チャネルは，微細な触刺激に対する行動学的な応答を惹起させることが示された．<br/><br/><h2>おわりに</h2><br/>　Merkel細胞による機械刺激の電気シグナルへの変換は，細胞膜に存在するPiezo2チャネルが刺激に対して開口し，陽イオンが細胞内へ流入，細胞膜に<a href="#" class="anno 脱分極性">脱分極性</a>の変化が起こり電位依存性Ca<sup>2+</sup>チャネルが活性化し，遅順応型のCa<sup>2+</sup>活動電位が発生する，という一連の分子<a href="#" class="anno 機序">機序</a>によることが示された．また，Aβ求心性神経の触刺激に対する遅順応1型応答には，Merkel細胞におけるCa<sup>2+</sup>活動電位およびPiezo2チャネルが必要であることが示された．これらの事実から，機械受容器であるMerkel触盤では，Merkel細胞が主体となって機械刺激を電気シグナルに変換し，求心性神経に遅順応1型応答を惹起して触覚に応答していることが明らかになった（<a href="#F1">図1</a>）．この機構は無脊椎動物における求心性神経による直接的な電気シグナルの変換とは異なっていた．哺乳類においても，<a href="#" class="anno 体性感覚">体性感覚</a>の<a href="#" class="anno 大部分">大部分</a>は直接的な刺激の変換により伝達されるが，耳や目のような特殊な<a href="#" class="anno 感覚器">感覚器</a>は，そこに存在する<a href="#" class="anno 有毛細胞">有毛細胞</a>や<a href="#" class="anno 視細胞">視細胞</a>により外界からの刺激を電気シグナルに変換し神経終末へと伝達する．今回の研究は，Merkel細胞が繊細な触知覚に特化した変換器としての機能をもつことを明らかにした．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Merkel触盤における機械刺激の電気シグナルへの変換</strong><br/>外界からの機械刺激は，Piezo2チャネルにより電流に変換され，細胞膜に脱分極をひき起こし，電位依存性Ca<sup>2+</sup>チャネルを開口する．その結果，Ca<sup>2+</sup>活動電位が発生し，神経伝達物質が放出されて，Aβ求心性神経に遅順応1型応答が惹起される．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/05/Ikeda-Cell-14.4.24-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Merkel触盤における機械刺激の電気シグナルへの変換" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikeda-Cell-14.4.24-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikeda-Cell-14.4.24-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　Merkel細胞の生理学的な意義は解明されたが，Aβ求心性神経の終末とのあいだに構成されるシナプス様の構造において，どの<a href="#" class="anno 神経伝達">神経伝達</a>物質が主体となって遅順応1型応答を惹起しているかについては<a href="#" class="anno 未解明">未解明</a>のままである．今後の研究で，この神経<a href="#" class="anno 伝達物質">伝達物質</a>が明らかにされることにより機械受容器としてのMerkel触盤の全容が解明され，<a href="#" class="anno 糖尿病">糖尿病</a>や<a href="#" class="anno 慢性炎症">慢性炎症</a>，<a href="#" class="anno <a href="#" class="anno 抗がん">抗がん</a>剤">抗がん剤</a>治療により生じる知覚の鈍麻や触覚性の疼痛などの機序の解明に<a href="#" class="anno 臨床的">臨床的</a>な意義を生じることが期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Iggo, A. & Muir, A. R.</span>: <span class="ti">The structure and function of a slowly adapting touch corpuscle in hairy skin.</span> <span class='so'>J. Physiol., 200, 763-796 (1969)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/4974746" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Johnson, K. O.</span>: <span class="ti">The roles and functions of cutaneous mechanoreceptors.</span> <span class='so'>Curr. Opin. Neurobiol., 11, 455-461 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11502392" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Halata, Z., Grim, M. & Bauman, K. I.</span>: <span class="ti">Friedrich Sigmund Merkel and his "Merkel cell", morphology, development, and physiology: review and new results.</span> <span class='so'>Anat. Rec. A. Discov. Mol. Cell. Evol. Biol., 271, 225-239 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12552639" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Maricich, S. M., Wellnitz, S. A., Nelson, A. M. et al.</span>: <span class="ti">Merkel cells are essential for light-touch responses.</span> <span class='so'>Science, 324, 1580-1582 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19541997" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Gottschaldt, K. M. & Vahle-Hinz, C.</span>: <span class="ti">Merkel cell receptors: structure and transducer function.</span> <span class='so'>Science, 214, 183-186 (1981)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7280690" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Huang, M. & Chalfie, M.</span>: <span class="ti">Gene interactions affecting mechanosensory transduction in <em>Caenorhabditis elegans</em>.</span> <span class='so'>Nature, 367, 467-470 (1994)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7509039" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Yan, Z., Zhang, W., He, Y. et al.</span>: <span class="ti"><em>Drosophila</em> NOMPC is a mechanotransduction channel subunit for gentle-touch sensation.</span> <span class='so'>Nature, 493, 221-225 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23222543" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Coste, B., Mathur, J., Schmidt, M. et al.</span>: <span class="ti">Piezo1 and Piezo2 are essential components of distinct mechanically activated cation channels.</span> <span class='so'>Science, 330, 55-60 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20813920" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Eijkelkamp, N., Linley, J. E., Torres, J. M. et al.</span>: <span class="ti">A role for Piezo2 in EPAC1-dependent mechanical allodynia.</span> <span class='so'>Nat. Commun., 4, 1682 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23575686" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Yamashita, Y., Akaike, N., Wakamori, M. et al.</span>: <span class="ti">Voltage-dependent currents in isolated single Merkel cells of rats.</span> <span class='so'>J. Physiol., 450, 143-162 (1992)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1331421" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_04.html" target="_blank">12.4 Protein Transport in Prokaryotic Cells</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_01.html" target="_blank">20.1 Sensation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/17_02.html" target="_blank">17.2 Excitation of Nerve Cells and Transmission of Excitation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/24_02.html" target="_blank">24.2 Molecular Biology</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">池田  亮（Ryo Ikeda）</span><br>略歴：2007年 東京慈恵会医科大学大学院医学研究科博士課程 修了，2011年より米国Cincinnati大学College of Medicine博士研究員．<br>研究テーマ：慢性疼痛の病態．<br>関心事：触覚や固有知覚と痛みとの関連性．<br><br><strong>Jianguo G. Gu</strong><br>米国Cincinnati大学College of MedicineにてProfessor．<br></div><br>© 2014 池田 亮・Jianguo G. Gu Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

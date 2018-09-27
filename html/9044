@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 神経変性疾患に関連するタンパク質Ataxin-2は3'側非翻訳領域に直接に結合することによりmRNAの安定性を促進する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/9044" rel="bookmark">神経変性疾患に関連するタンパク質Ataxin-2は3'側非翻訳領域に直接に結合することによりmRNAの安定性を促進する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>余越 萌・河原行郎</strong><br>（大阪大学大学院医学系研究科 神経遺伝子学）<br>email：<a href="mailto:myokoshi@rna.med.osaka-u.ac.jp">余越 萌</a>，<a href="mailto:ykawahara@rna.med.osaka-u.ac.jp">河原行郎</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.098">10.7875/first.author.2014.098</a><br><div class="reference"><br><span class="ti">Direct binding of Ataxin-2 to distinct elements in 3' UTRs promotes mRNA stability and protein expression.</span><br><span class="au">Moe Yokoshi, Quan Li, Munetaka Yamamoto, Hitomi Okada, Yutaka Suzuki, Yukio Kawahara</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24954906" target="_blank"><em>Molecular Cell</em>, <strong>55</strong>, 186-198 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　Ataxin-2はRNA<a href="#" class="anno プロセシング">プロセシング</a>に関与するLSm<a href="#" class="anno タンパク質ファミリー">タンパク質ファミリー</a>に属し，<a href="#" class="anno ポリA">ポリA</a>鎖<a href="#" class="anno 結合タンパク質">結合タンパク質</a>P<a href="#" class="anno ABP">ABP</a><a href="#" class="anno C1">C1</a>と直接に結合する．<a href="#" class="anno そのため">そのため</a>，なんらかの<a href="#" class="anno RNA代謝">RNA代謝</a>にかかわると予想されてきたが<a href="#" class="anno 生理的">生理的</a>な機能は不明であった．今回，筆者らは，<a href="#" class="anno PAR">PAR</a>-<a href="#" class="anno CLIP">CLIP</a>法とよばれるタンパク質に結合するRNAを<a href="#" class="anno 高純度">高純度</a>に回収する手法をAtaxin-2に対し適用したところ，なんらかのRNAが<a href="#" class="anno PABPC1">PABPC1</a>を介さず直接にAtaxin-2と結合していることを見い<a href="#" class="anno 出し">出し</a>た．Ataxin-2と結合するRNAを<a href="#" class="anno 網羅的">網羅的</a>に解析した結果，Ataxin-2は<a href="#" class="anno mRNA">mRNA</a>の3'側<a href="#" class="anno 非<a href="#" class="anno 翻訳領域">翻訳領域</a>">非翻訳領域</a>に存在する<a href="#" class="anno ウ<a href="#" class="anno リジン">リジン</a>">ウリジン</a>に富んだ配列をお<a href="#" class="anno も">も</a>に認識していることを発見した．これらの配列にはmRNAの<a href="#" class="anno 安定性">安定性</a>を規定することが知られている<a href="#" class="anno AUリッチ配列">AUリッチ配列</a>も含まれていた．Ataxin-2の発現を抑制あるいは過剰にしたときのすべての遺伝子の<a href="#" class="anno 発現量">発現量</a>の変動を解析した結果，Ataxin-2は標的となるmRNAの<a href="#" class="anno 安定化">安定化</a>を促進し，その結果，タンパク質の発現量を増加させていることがわかった．この機能を発揮するにはAtaxin-2が標的となるmRNAに直接に結合することが<a href="#" class="anno 必要不可欠">必要不可欠</a>であった．また，神経<a href="#" class="anno 変性疾患">変性疾患</a>と関連するAtaxin-2のもつ<a href="#" class="anno <a href="#" class="anno ポリグルタミン">ポリグルタミン</a>鎖">ポリグルタミン鎖</a>の異常な伸長は，mRNAを安定化する機能を低下させることがわかり，標的となる遺伝子の<a href="#" class="anno 発現制御">発現制御</a>能の低下が<a href="#" class="anno <a href="#" class="anno 神経変性">神経変性</a>疾患">神経変性疾患</a>の一因となっている<a href="#" class="anno 可能性">可能性</a>が考えられた．<br/><br/><h2>はじめに</h2><br/>　遺伝子の発現は転写から翻訳にいたるまで，<a href="#" class="anno スプライシング">スプライシング</a>，<a href="#" class="anno RNA編集">RNA編集</a>，mRNAの安定化など，多様な時<a href="#" class="anno 空間的">空間的</a>な制御をうけている．なかでも，mRNAの安定性の制御はタンパク質の発現量を規定する重要な<a href="#" class="anno 制御機構">制御機構</a>であり，おもに<a href="#" class="anno マイクロRNA">マイクロRNA</a>および<a href="#" class="anno <a href="#" class="anno RNA結合">RNA結合</a>タンパク質">RNA結合タンパク質</a>により<a href="#" class="anno 協調的">協調的</a>に制御されている．マイクロRNAの場合には，mRNAの3'側非翻訳領域に存在する標的配列に結合することによりその発現を負に制御する．一方，RNA結合タンパク質の認識する<a href="#" class="anno シス配列">シス配列</a>としては，3'側非翻訳領域に存在するAUリッチ配列がよく知られている．RNA結合タンパク質のうち，<a href="#" class="anno HuR">HuR</a>はおもにAUリッチ配列に結合してmRNAの安定性を上昇させる一方で，T<a href="#" class="anno TP">TP</a>やK<a href="#" class="anno <a href="#" class="anno SR">SR</a>P">SRP</a>などはAUリッチ配列への結合を介してmRNAの分解を促進する．こういったmRNAの安定性を制御するRNA結合タンパク質はほかにも存在すると予想されてきた．<br/>　近年，CLIP（cross<a href="#" class="anno lin">lin</a><a href="#" class="anno kin">kin</a>g and immuno<a href="#" class="anno pre">pre</a>ci<a href="#" class="anno pit">pit</a>ation，架橋および<a href="#" class="anno 免疫沈降">免疫沈降</a>）法あるいはその改変法と次世代<a href="#" class="anno シークエンサー">シークエンサー</a>とを組み合わせることにより，RNA結合タンパク質と結合するRNAを高純度かつ網羅的に決定できるようになった．とくに，PAR（photoactivatable-ribo<a href="#" class="anno nucl">nucl</a>eos<a href="#" class="anno ide">ide</a>-enhanced，光<a href="#" class="anno 活性化">活性化</a>リボ<a href="#" class="anno ヌクレオシド">ヌクレオシド</a>強化）-CLIP法では，<a href="#" class="anno 培地">培地</a>に4-<a href="#" class="anno チオウリジン">チオウリジン</a>を添加しこれをウリジンの代わりにRNAに取り込ませる．RNA結合タンパク質と<a href="#" class="anno 4-チオウリジン">4-チオウリジン</a>は紫外線の照射により強く架橋するので，非<a href="#" class="anno 特異的">特異的</a>なRNAの混入を抑えることができる．また，<a href="#" class="anno cDNA">cDNA</a>への<a href="#" class="anno 逆転写">逆転写</a>の際，架橋した4-チオウリジンは<a href="#" class="anno シトシン">シトシン</a>と認識されるため，ゲノムへの<a href="#" class="anno アノテーション">アノテーション</a>の際に<a href="#" class="anno チミン">チミン</a>からシトシンへの置換を確認できる．このため，RNA結合タンパク質との<a href="#" class="anno 結合部">結合部</a>位を1塩基のレベルで決定できるという特徴をもつ．これまでに，Ago，<a href="#" class="anno F<a href="#" class="anno MR">MR</a>P">FMRP</a>，HuRなどのRNA結合タンパク質に適用され，標的となるRNAや<a href="#" class="anno 結合モチーフ">結合モチーフ</a>が同定されている<a href="#R1"><sup>1-4)</sup></a>．<br/>　Ataxin-2は約140 kDaの<a href="#" class="anno <a href="#" class="anno 細胞質">細胞質</a>タンパク質">細胞質タンパク質</a>で，酵母から<a href="#" class="anno 哺乳動物">哺乳動物</a>まで保存されており，多くの細胞に発現している．ポリA鎖結合タンパク質であるPABPC1と<a href="#" class="anno PAM">PAM</a>2ドメインを介して直接に結合することから，なんらかのRNA代謝に関与していると考えられてきたが（<a href="#F1">図1</a>），PABPC1を介してすべてのmRNAを制御しているのか，あるいは，特定の標的があるのかは不明であった．一方，Ataxin-2は，<a href="#" class="anno 遺伝性">遺伝性</a>脊髄小脳<a href="#" class="anno 変性症">変性症</a><a href="#" class="anno 2型">2型</a>の<a href="#" class="anno 原因遺伝子">原因遺伝子</a>の産物としても知られており，正常では<a href="#" class="anno <a href="#" class="anno N末端">N末端</a>側">N<a href="#" class="anno 末端側">末端側</a></a>のポリグルタミンのくり返しは26個以下なのに対し，<a href="#" class="anno 遺伝性脊髄小脳変性症">遺伝性脊髄小脳変性症</a>2型の患者では34個以上に伸長していることが知られている<a href="#R5"><sup>5,6)</sup></a>（<a href="#F2">図2</a>）．さらに最近になり，ポリグルタミン鎖の<a href="#" class="anno 中等度">中等度</a>の伸長（くり返しが27～33回）が別の神経変性疾患である筋<a href="#" class="anno 萎縮性">萎縮性</a><a href="#" class="anno 側索">側索</a>硬化症の発症を有意に高めることが明らかになった<a href="#R7"><sup>7)</sup></a>．しかしながら，ポリグルタミン鎖の伸長が病態においてどのような意義をもつのかは不明であった．このため，この研究では，Ataxin-2の機能を同定したうえで，ポリグルタミン鎖の伸長が生理的な機能に及ぼす影響について解析することを目的とした．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Ataxin-2によるmRNAの安定化の機構</strong><br/>Ataxin-2は，C末端側にポリA鎖結合タンパク質PABPC1と直接に結合するPAM2ドメイン，N末端側にポリグルタミン鎖をもつ．Ataxin-2は3'側非翻訳領域にあるウリジンに富んだ配列（AUUUN）に直接に結合することによりmRNAを安定化しタンパク質の発現量を増加させる．このような作用機序はHuRとよく似ているが，Ataxin-2はポリA鎖により近い領域と結合していることが明らかになった．また，神経変性疾患と関連するポリグルタミン鎖の異常な伸長は，Ataxin-2によるmRNAの安定化を促進する機能を低下させた．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/07/Kawahara-Molecular-Cell-14.7.17-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Ataxin-2によるmRNAの安定化の機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kawahara-Molecular-Cell-14.7.17-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kawahara-Molecular-Cell-14.7.17-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　Ataxin-2のポリグルタミン鎖の長さと神経変性疾患との関係</strong><br/>遺伝性脊髄小脳変性症2型はAtaxin-2のもつポリグルタミン鎖の異常な伸長が原因である．健常者ではポリグルタミンのくり返しは26個以内だが，遺伝性脊髄小脳変性症2型では遺伝子変異により34個以上に伸長している．また，Ataxin-2のポリグルタミン鎖が異常に伸長した患者はパーキンソン病と同様の症状を呈することもある．最近では，Ataxin-2のポリグルタミン鎖の中等度の伸長（27～33個）が筋萎縮性側索硬化症の発症を高める危険因子となることが報告されている．ポリグルタミン鎖が伸長するほどAtaxin-2によるmRNAの安定化を促進する機能は低下することが判明した．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/07/Kawahara-Molecular-Cell-14.7.17-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　Ataxin-2のポリグルタミン鎖の長さと神経変性疾患との関係" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kawahara-Molecular-Cell-14.7.17-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kawahara-Molecular-Cell-14.7.17-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．Ataxin-2はmRNAの3'側非翻訳領域と直接に結合する</h2><br/>　Ataxin-2の生理的な機能を同定するため，そのLSmドメインに着目した．一般に，Ataxin-2を含めたLSm<a href="#" class="anno ファミリータンパク質">ファミリータンパク質</a>はLSmドメインを介してRNAと結合する．そのため，Ataxin-2がRNAと直接に結合している可能性についてPAR-CLIP法を用いて解析したところ，Ataxin-2と結合するRNAが確認された．また，PABPC1との<a href="#" class="anno 結合ドメイン">結合ドメイン</a>であるPAM2ドメインを欠損させたAtaxin-2<a href="#" class="anno 変異体">変異体</a>を用いて同様の実験を行っても，Ataxin-2と結合するRNAの存在が確認されたことから，なんらかのRNAがPABPC1を介さず直接にAtaxin-2と結合していることが明らかになった．Ataxin-2と結合するRNAを抽出して網羅的に<a href="#" class="anno 塩基配列">塩基配列</a>を解析したところ，約4千の遺伝子の1万5千箇所にAtaxin-2との<a href="#" class="anno 結合部位">結合部位</a>が同定され，その主たる標的はmRNAの3'側非翻訳領域にあることが判明した．<br/><br/><h2>2．Ataxin-2はウリジンに富んだ配列を認識して結合する</h2><br/>　Ataxin-2が特定のモチーフを認識して結合しているのかどうか解析した．PAR-CLIP法ではRNA結合タンパク質の結合部位にチミンからシトシンへの置換が挿入されるため，この情報をもとに解析した．その結果，Ataxin-2はウリジンに富んだ配列を認識していることがわかった（<a href="#F1">図1</a>）．そのなかには，AUUUAを<a href="#" class="anno 基本骨格">基本骨格</a>としmRNAの安定性を制御するAUリッチ配列も含まれていた．<em><a href="#" class="anno in vitro">in vitro</a></em>において結合<a href="#" class="anno アッセイ">アッセイ</a>を行ったところ，Ataxin-2はAUリッチ配列を含むmRNAを特異的に認識すること，その結合にはLSmドメインが必要であることが確認された．<br/><br/><h2>3．Ataxin-2は標的となるmRNAの安定性を促進する</h2><br/>　Ataxin-2はAUリッチ配列に結合したことから，mRNAの安定性を制御している可能性が示唆された．そのため，Ataxin-2を<a href="#" class="anno ノックダウン">ノックダウン</a>あるいは過剰に発現したときのすべての遺伝子の発現の変化を<a href="#" class="anno <a href="#" class="anno マイクロアレイ">マイクロアレイ</a>法">マイクロアレイ法</a>により解析した．その結果，Ataxin-2をノックダウンすると標的となるmRNAの発現量は減少し，過剰に発現すると発現量は増加した．Ataxin-2との結合部位が多いものほど，Ataxin-2の発現量の変化の影響を強くうけた．また，Ataxin-2をノックダウンすると標的となるmRNAの<a href="#" class="anno 半減期">半減期</a>が短縮し，これにともないタンパク質の発現量も減少することが確認された．これらの結果から，Ataxin-2は標的となるmRNAの安定性を促進する機能をもつことが明らかになった（<a href="#F1">図1</a>）．<br/><br/><h2>4．Ataxin-2とHuRは<a href="#" class="anno 同じ">同じ</a>遺伝子の異なる部位に結合する</h2><br/>　近年，報告された，RNA結合タンパク質HuRに対するPAR-CLIP法の結果によると，HuRはAtaxin-2と同じようなウリジンに富んだ配列を認識していた<a href="#R3"><sup>3,4)</sup></a>．そのため，Ataxin-2およびHuRのPAR-CLIP法による<a href="#" class="anno デ">デ</a>ータを比較し，標的となるmRNAの認識に違いがあるかどうか調べた．その結果，<a href="#" class="anno 標的遺伝子">標的遺伝子</a>については71％が重複していたが，結合部位や結合しているAUリッチ配列のレベルで比較すると，重複は限定していることがわかった．HuRは3'側非翻訳領域の全体に結合範囲が広がっていたのに対して，Ataxin-2はポリA鎖の側に<a href="#" class="anno 圧">圧</a>倒的に<a href="#" class="anno かた">かた</a>よって結合していた．これは，Ataxin-2がポリA鎖に結合するPABPC1と直接に結合していることと関連していると考えられた．以上の結果から，Ataxin-2およびHuRはそれぞれが3'側非翻訳領域において異なるウリジンに富んだ配列に結合し，協調して同じ遺伝子の安定性を促進しているものと考えられた（<a href="#F1">図1</a>）．<br/><br/><h2>5．PAM2ドメインおよびポリグルタミン鎖はAtaxin-2の機能の保持に必要である</h2><br/>　Ataxin-2によるmRNA安定性の促進に必要なドメインについて解析した．解析は，Ataxin-2のN末端側にλN<a href="#" class="anno ペプチド">ペプチド</a>を付加したものと，これと<a href="#" class="anno 高効率">高効率</a>かつ<a href="#" class="anno 選択的">選択的</a>に結合するボックスB配列を3'側非翻訳領域に挿入した<a href="#" class="anno レポーター遺伝子">レポーター遺伝子</a>を用いたテザリング<a href="#" class="anno アッセイ系">アッセイ系</a>により行った．その結果，Ataxin-2によるmRNAの安定性の促進には，Ataxin-2が3'側非翻訳領域に直接に結合することが必要不可欠であることが確認された．また，各種の<a href="#" class="anno <a href="#" class="anno 欠損変異">欠損変異</a>体">欠損変異体</a>において同様に解析した結果，PAM2ドメインおよびポリグルタミン鎖を欠損させるとmRNAの安定化を促進する機能が30％ほど低下することがわかった．この結果は，非<a href="#" class="anno 神経系">神経系</a>の<a href="#" class="anno 培養細胞">培養細胞</a>であるHEK<a href="#" class="anno 293細胞">293細胞</a>でも神経系の培養細胞であるSH-SY5Y細胞でも同じであった．<br/>　Ataxin-2がmRNAの安定性だけでなく，翻訳を促進する機能ももつかどうか解析した．<a href="#" class="anno スクロース">スクロース</a><a href="#" class="anno <a href="#" class="anno 密度勾配">密度勾配</a>遠心法"><a href="#" class="anno 密度勾配遠心">密度勾配遠心</a>法</a>により<a href="#" class="anno ポリソーム">ポリソーム</a><a href="#" class="anno 分画">分画</a>を行い，Ataxin-2およびレポーター遺伝子の局在を解析した．その結果，Ataxin-2はポリソーム<a href="#" class="anno 画分">画分</a>にはほとんど存在しておらず，レポーター遺伝子の<a href="#" class="anno 積<a href="#" class="anno 極">極</a>的">積極的</a>な翻訳は確認されなかった．このことから，Ataxin-2の主要な機能はmRNAの安定性の促進にあると結論づけた．<br/><br/><h2>6．Ataxin-2の機能はポリグルタミン鎖の<a href="#" class="anno 長さ">長さ</a>に依存して低下する</h2><br/>　神経変性疾患において認められるポリグルタミン鎖の異常な伸長がAtaxin-2によるmRNAの安定性の促進に及ぼす影響について解析した．ポリグルタミンのくり返しが31回の<a href="#" class="anno 筋萎縮">筋萎縮</a>性<a href="#" class="anno 側索硬化症">側索硬化症</a>タイプ，および，くり返しが35回あるいは39回の遺伝性脊髄小脳変性症2型タイプのポリグルタミン鎖をもつ3種類のAtaxin-2発現<a href="#" class="anno ベクター">ベクター</a>を作製した．くり返しが31回のものと39回のものに対してPAR-CLIP法を行い，標的となるRNAが変化するかどうか解析した．その結果，80％以上の標的RNAは<a href="#" class="anno 野生型">野生型</a>のAtaxin-2と同じであった．一方，mRNAを安定化させる能力については，ポリグルタミン鎖が伸長するほど低下した（<a href="#F2">図2</a>）．これは，<a href="#" class="anno HEK2">HEK2</a>93細胞でもSH-SY5Y細胞でも同様の結果であった．以上の結果から，ポリグルタミン鎖の異常な伸長は，標的となるRNAの認識にはあまり影響しないが，mRNAの安定性を促進する機能を低下させることがわかった．<br/><br/><h2>おわりに</h2><br/>　この研究により，Ataxin-2がmRNAの3'側非翻訳領域にあるウリジンに富んだ配列を認識し，標的となるmRNAの安定性を促進するRNA結合タンパク質であることが明らかにされた．<a href="#" class="anno 認識配列">認識配列</a>にはAUリッチ配列も含まれていたことから，Ataxin-2はHuRなどと同じAUリッチ配列結合タンパク質のメンバーであることもわかった．Ataxin-2の標的遺伝子には，<a href="#" class="anno RNAスプライシング">RNAスプライシング</a>やmRNAの<a href="#" class="anno ポリ<a href="#" class="anno アデニル化">アデニル化</a>">ポリアデニル化</a>などの<a href="#" class="anno 転写後">転写後</a>制御に関する遺伝子が多く含まれており，これらの遺伝子の発現制御を介してRNA代謝を<a href="#" class="anno 統合的">統合的</a>に制御していると考えられた．現状では，Ataxin-2がRNAの安定性を促進する詳細な<a href="#" class="anno 分子機構">分子機構</a>は不明である．<a href="#" class="anno 出芽酵母">出芽酵母</a>の<a href="#" class="anno ホモログ">ホモログ</a>である<a href="#" class="anno Pbp">Pbp</a>1の場合，PABPC1との結合を介してポリA鎖<a href="#" class="anno 分解酵素">分解酵素</a><a href="#" class="anno PAN">PAN</a>のポリA鎖への接近を阻止していることが報告されている<a href="#R8"><sup>8)</sup></a>．しかし，PAM2ドメインを欠損しても機能は30％程度しか低下しなかったことから，ほかの要因もあると予想される．たとえば，<a href="#" class="anno エクソソーム">エクソソーム</a>などをリクルートしてmRNAの分解を促進するTTPや<a href="#" class="anno KSR">KSR</a>Pなどと，Ataxin-2は同じ結合部位をめぐり競合している可能性が考えられる．マイクロRNAとも競合している可能性がある．今後，これらの<a href="#" class="anno 具体的">具体的</a>な分子機構を明らかにする必要がある．<br/>　遺伝性脊髄小脳変性症2型の患者の剖検脳では，変性したニューロンに<a href="#" class="anno 封入体">封入体</a>を認めることはまれである．また，異常に伸長したポリグルタミン鎖をもつヒトのAtaxin-2を<a href="#" class="anno 過剰発現">過剰発現</a>させた<a href="#" class="anno トランスジェニック">トランスジェニック</a>マウスは<a href="#" class="anno 運動症状">運動症状</a>を呈するが<a href="#R9"><sup>9)</sup></a>，封入体はほとんど認められず，異常なAtaxin-2は細胞質に野生型と同じ程度に発現していることが確認されている．このため，遺伝性脊髄小脳変性症2型では，<a href="#" class="anno 一般的">一般的</a>な神経変性疾患において提唱されている封入体の形成による毒性の獲得よりも，Ataxin-2のなんらかの<a href="#" class="anno 機能障害">機能障害</a>がその病態の根底にあると考えられてきた．今回，Ataxin-2におけるポリグルタミン鎖の伸長は，mRNAの安定性を促進する機能を低下させることがわかった．Ataxin-2の標的遺伝子の産物には神経変性疾患と深く関連する<a href="#" class="anno TDP">TDP</a>-43なども含まれていたことから，Ataxin-2の機能の低下が神経変性を誘導する一因になっていると考察された．今後は，<a href="#" class="anno モデル動物">モデル動物</a>などの<a href="#" class="anno 脳組織">脳組織</a>を使ってAtaxin-2を中心としたタンパク質-RNAネットワークの全容を明らかにすることが神経変性疾患の病態の解明に必要と考えられた．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hafner, M., Landthaler, M., Burger, L. et al.</span>: <span class="ti">Transcriptome-wide identification of RNA-binding protein and microRNA target sites by PAR-CLIP.</span> <span class='so'>Cell, 141, 129-141 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20371350" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Ascano, M. Jr., Mukherjee, N., Bandaru, P. et al.</span>: <span class="ti">FMRP targets distinct mRNA sequence elements to regulate protein expression.</span> <span class='so'>Nature, 492, 382-386 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23235829" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Lebedeva, S., Jens, M., Theil, K. et al.</span>: <span class="ti">Transcriptome-wide analysis of regulatory interactions of the RNA-binding protein HuR.</span> <span class='so'>Mol. Cell, 43, 340-352 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21723171" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Mukherjee, N., Corcoran, D. L., Nusbaum, J. D. et al.</span>: <span class="ti">Integrative regulatory mapping indicates that the RNA-binding protein HuR couples pre-mRNA processing and mRNA stability.</span> <span class='so'>Mol. Cell, 43, 327-339 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21723170" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Sanpei, K., Takano, H., Igarashi, S. et al.</span>: <span class="ti">Identification of the spinocerebellarataxia type 2 gene using a direct identification of repeat expansion and cloning technique, DIRECT.</span> <span class='so'>Nat. Genet., 14, 277-284 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8896556" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Pulst, S. M., Nechiporuk, A., Nechiporuk, T. et al.</span>: <span class="ti">Moderate expansion of a normally biallelic trinucleotide repeat in spinocerebellar ataxia type 2.</span> <span class='so'>Nat. Genet., 14, 269-276 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8896555" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Elden, A. C., Kim, H. J., Hart, M. P. et al.</span>: <span class="ti">Ataxin-2 intermediate-length polyglutamine expansions are associated with increased risk for ALS.</span> <span class='so'>Nature, 466, 1069-1075 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20740007" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Mangus, D. A., Smith, M. M., McSweeney, J. M. et al.</span>: <span class="ti">Identification of factors regulating poly(A) tail synthesis and maturation.</span> <span class='so'>ol. Cell. Biol., 24, 4196-4206 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15121841" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Huynh, D. P., Figueroa, K., Hoang, N. et al.</span>: <span class="ti">Nuclear localization or inclusion body formation of ataxin-2 are not necessary for SCA2 pathogenesis in mouse or human.</span> <span class='so'>Nat. Genet., 26, 44-50 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10973246" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_05.html" target="_blank">9.5 Cooperation between Transcription and Translation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_04.html" target="_blank">9.4 Protein Synthesis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_03.html" target="_blank">9.3 mRNA Structure</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_02.html" target="_blank">9.2 Ribosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_01.html" target="_blank">9.1 Aminoacyl-tRNA Synthesis</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">余越  萌（Moe Yokoshi）</span><br>略歴：大阪大学大学院医学系研究科博士課程 在学中．<br>研究テーマ：RNA代謝の異常における神経変性の誘導機構．<br>抱負：基礎医学の研究に貢献したい．<br><br><strong>河原 行郎（Yukio Kawahara）</strong><br>大阪大学大学院医学系研究科 教授．<br></div><br>© 2014 余越 萌・河原行郎 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

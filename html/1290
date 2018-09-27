@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 神経活動の活性化がIGF-Iの血液脳関門の通過をひき起こす : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/1290" rel="bookmark">神経活動の活性化がIGF-Iの血液脳関門の通過をひき起こす</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>西島  壮</strong><br>（首都大学東京大学院人間健康科学研究科 ヘルスプロモーションサイエンス学域行動生理学研究室）<br>email：<a href="mailto:t-nishijima@tmu.ac.jp">西島 壮</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2010.046">10.7875/first.author.2010.046</a><br><div class="reference"><br><span class="ti">Neuronal activity drives localized blood-brain-barrier transport of serum insulin-like growth factor-I into the CNS.</span><br><span class="au">Takeshi Nishijima<sup>*</sup>, Joaquin Piriz<sup>*</sup>, Sylvie Duflot<sup>*</sup>, Ana M. Fernandez, Gema Gaitan, Ulises Gomez-Pinedo, Jose M. Garcia Verdugo, Felix Leroy, Hideaki Soya, Angel Nuñez, Ignacio Torres-Aleman</span> (<sup>*</sup> These authors contributed equally to this work.)<br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/20826314" target="_blank"><em>Neuron</em>, <strong>67</strong>, 834-846 (2010)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 血液中">血液中</a>の<a href="#" class="anno IGF">IGF</a>-Iは<a href="#" class="anno 中枢<a href="#" class="anno 神経系">神経系</a>"><a href="#" class="anno 中枢神経">中枢神経</a>系</a>に移行するとニューロンの成長や生存，細胞<a href="#" class="anno 興奮性">興奮性</a>の調節といった多様な<a href="#" class="anno 神経<a href="#" class="anno 保護作用">保護作用</a>"><a href="#" class="anno 神経保護">神経保護</a>作用</a>を発現する．しかしながら，<a href="#" class="anno IGF-I">IGF-I</a>の<a href="#" class="anno 血液脳関門">血液脳関門</a>の通過をひき起こす機構は明らかにされていない．筆者らは，<a href="#" class="anno 電気刺激">電気刺激</a>，体性<a href="#" class="anno 感覚刺激">感覚刺激</a>，そして，行動刺激により<a href="#" class="anno 神経活動">神経活動</a>を<a href="#" class="anno 活性化">活性化</a>させると，活性化した<a href="#" class="anno 脳部位">脳部位</a>へのIGF-Iの移行が促進されることを明らかにした．そして，この血液中のIGF-Iの<a href="#" class="anno 脳内">脳内</a>への移行は神経活動の活性化によって放出されるA<a href="#" class="anno TP">TP</a>，<a href="#" class="anno アラキドン酸">アラキドン酸</a>誘導体などの<a href="#" class="anno 血管拡張">血管拡張</a>物質により仲介されていた．これらの血管<a href="#" class="anno 拡張性">拡張性</a>物質は<a href="#" class="anno MMP">MMP</a>-9の<a href="#" class="anno プロテアーゼ">プロテアーゼ</a>活性を活性化し，IGF-Iの<a href="#" class="anno 結合タンパク質">結合タンパク質</a>であるIG<a href="#" class="anno FBP">FBP</a>-3を分解する．そして，遊離したIGF-Iは<a href="#" class="anno <a href="#" class="anno 血管内">血管内</a>皮細胞">血管<a href="#" class="anno 内皮細胞">内皮細胞</a></a>におけるIGF-I<a href="#" class="anno 受容体">受容体</a>とLRP-1のはたらきによって血液脳関門を通過し脳内に移行する．この神経活動に依存したIGF-Iの脳内への移行は，てんかんの<a href="#" class="anno 神経新生">神経新生</a>効果や，<a href="#" class="anno 神経刺激">神経刺激</a>のリハビリテーション効果，神経活動に対する脳<a href="#" class="anno 血流">血流</a>の修飾作用といった現象を説明しうる．<br/><br/><h2>はじめに</h2><br/>　脳毛細血管床および<a href="#" class="anno 脈絡叢">脈絡叢</a>にある血液脳関門のはたらきによって<a href="#" class="anno 脳実質">脳実質</a>および<a href="#" class="anno <a href="#" class="anno 脳脊髄">脳脊髄</a>液">脳脊髄液</a>への血液中の物質の移動は厳密に制御されている（<a href="#F1">図1</a>）．かつては，血液中のタンパク質はほとんど血液脳関門を通過できないと考えられてきたが，近年，ホルモンや<a href="#" class="anno 成長因子">成長因子</a>は<a href="#" class="anno 血管内皮">血管内皮</a>細胞に発現する受容体や<a href="#" class="anno トランスポーター">トランスポーター</a>のはたらきによって血液脳関門を通過することが明らかになってきた<a href="#R1"><sup>1)</sup></a>．しかしながら，ホルモンや成長因子が血液脳関門を通過することの<a href="#" class="anno 生理的">生理的</a>な意義やその<a href="#" class="anno 調節機構">調節機構</a>はい<a href="#" class="anno まだ">まだ</a>解明されていない．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　血液中のIGF-Iが脳内に移行する際の2つの障害</strong><br/>（a）血液脳関門．脳の血管は血管壁を構成する血管内皮細胞のあいだにタイトジャンクション（密着結合）が形成されているため，物理的に物質が移動しにくい構造になっている．<br/>（b）IGF-IとIGFBP-3との複合体．血液中のIGF-IのほとんどがIGFBP-3との複合体を形成しており，その分子量は約150,000と巨大である．IGF-Iが血液脳関門を通過するためにはIGF-IはIGFBP-3から遊離しなくてはならない．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2010/11/Nishijima-Neuron-10.9.8-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　血液中のIGF-Iが脳内に移行する際の2つの障害" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nishijima-Neuron-10.9.8-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nishijima-Neuron-10.9.8-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　IGF-I（<a href="#" class="anno ins">ins</a>u<a href="#" class="anno lin">lin</a>-like growth fac<a href="#" class="anno tor">tor</a>-I，<a href="#" class="anno <a href="#" class="anno インスリン様">インスリン様</a>成長因子">インスリン様成長因子</a>-I）は血液から脳内に移行する<a href="#" class="anno 成長ホルモン">成長ホルモン</a>のひとつとして知られている．IGF-Iは多様な<a href="#" class="anno 神経<a href="#" class="anno 保護効果">保護効果</a>">神経保護効果</a>を<a href="#" class="anno も">も</a>っており，<a href="#" class="anno 血管新生">血管新生</a>，神経新生，ニューロンの興奮性，そして，<a href="#" class="anno 認知機能">認知機能</a>などにかかわっている<a href="#R2"><sup>2)</sup></a>．したがって，IGF-Iが血液脳関門を通過しなければなら<a href="#" class="anno ないこと">ないこと</a>は明白であり，<a href="#" class="anno 実際">実際</a>に，血管内皮細胞や<a href="#" class="anno アストロサイト">アストロサイト</a>のエンドフィートとよばれる<a href="#" class="anno 血管周囲">血管周囲</a>を取り囲む構造には<a href="#" class="anno IGF-I受容体">IGF-I受容体</a>が発現していて<a href="#R3"><sup>3)</sup></a>，IGF-Iが血液脳関門を通過しうる構造をしている．筆者らのグループは，以前，血液中のIGF-Iが脈絡叢から脳脊髄液に取り込まれることを明らかにしたが<a href="#R4"><sup>4)</sup></a>，この研究ではさらに，神経活動に依存した<a href="#" class="anno 積<a href="#" class="anno 極">極</a>的">積極的</a>かつ<a href="#" class="anno 局所的">局所的</a>なIGF-Iの脳内への取り込み機構が存在するとの仮説をたてた．<br/>　この仮説を検証するにあたっては，以下のポイントに着目して研究を展開した．1）IGF-Iは神経活動の活性化により血液から脳内に移行するのか，複数の刺激方法（刺激部位）で実証する．2）神経活動が活性化した部位では<a href="#" class="anno 局所脳血流量">局所脳血流量</a>が増加する．したがって，神経活動に依存した血液中のIGF-Iの脳内への移行にはこの局所脳血流量の増加が関与しうる．さらに，局所脳血流量の増加の重要な仲介役であるアストロサイトが<a href="#R5"><sup>5)</sup></a>，IGF-Iの脳内への移行の仲介役である<a href="#" class="anno 可能性">可能性</a>が高い．3）血液中ではIGF-Iのほとんどが<a href="#" class="anno IGFBP-3">IGFBP-3</a>（insulin-like growth factor-binding <a href="#" class="anno pro">pro</a>tein-3，インスリン様成長因子結合タンパク質3）と結合している．したがって，IGF-Iを脳内に移行させるためにはIGFBP-3を分解してIGF-Iを遊離させる過程が必要なはずである．4）血管内皮細胞にはIGF-I受容体とLRP-1（lipoprotein rece<a href="#" class="anno pto">pto</a>r re<a href="#" class="anno lat">lat</a>ed protein-1，<a href="#" class="anno リポタンパク質">リポタンパク質</a>受容体<a href="#" class="anno 関連タンパク質">関連タンパク質</a>1）とが発現している．したがって，IGF-IはIGF-I受容体とLRP-1とを介した<a href="#" class="anno トランスサイトーシス">トランスサイトーシス</a>により血液脳関門を通過する可能性が高い．<br/><br/><h2>1．神経活動の活性化は血液中のIGF-Iの脳内への取り込みを刺激する</h2><br/>　まず，血液中のIGF-Iは神経活動が活性化した脳部位へ移行するのかどうかを検証した．ラット動脈にヒト<a href="#" class="anno 組換え">組換え</a>IGF-Iもしくは<a href="#" class="anno ジゴキシゲニン">ジゴキシゲニン</a>標識IGF-Iを投与し，活性化させた脳部位でこれらが増加するのかどうか調べた．脳内で検出されたヒト組換えIGF-Iあるいはジゴキシゲニン標識IGF-Iはラットの<a href="#" class="anno 内因性">内因性</a>IGF-Iとは区別でき，血液に由来するものと断定できる．<br/>　まず，<a href="#" class="anno 麻酔下">麻酔下</a>でラット小<a href="#" class="anno 脳脚">脳脚</a>を電気刺激したのち，小脳におけるヒト組換えIGF-I濃度を測定した．その結果，電気刺激によって小脳におけるヒト組換えIGF-Iが有意に増加することが認められた．さらに，ほかの脳部位においても同様に神経活動に応じて血液中のIGF-Iが取り込まれるのかどうか確認するため，<a href="#" class="anno <a href="#" class="anno 体性感覚">体性感覚</a>野">体性<a href="#" class="anno 感覚野">感覚野</a></a>（<a href="#" class="anno バレル皮質">バレル皮質</a>）を<a href="#" class="anno 対側">対側</a>ヒゲ刺激によって刺激したところ，偽刺激群と比較してヒゲ刺激群においてヒト組換えIGF-Iの増加がみられた．なお，ヒゲ刺激はバレル皮質におけるIGF-Iをコードする<a href="#" class="anno mRNA">mRNA</a>の発現を増加させなかったが，<a href="#" class="anno チロシン">チロシン</a><a href="#" class="anno 残基">残基</a>が<a href="#" class="anno <a href="#" class="anno リン酸">リン酸</a>化">リン酸化</a>されたIGF-I受容体は増加しており，刺激部位においてIGF-Iの作用の亢進していることが確認された．さらに，生理的な条件下でも同様に刺激に依存した血液中のIGF-Iの取り込みが生じるかどうかを確認するため，マウスを豊かな環境で短期間（2時間）飼育した．その結果，海馬におけるIGF-I濃度は約60％も増加し，<a href="#" class="anno チロシン残基">チロシン残基</a>がリン酸化されたIGF-I受容体も増加していた．<br/>　以上，小脳脚の電気刺激，バレル皮質の<a href="#" class="anno 体性感覚刺激">体性感覚刺激</a>，豊かな環境刺激，と刺激方法が異なっても，刺激をうけた脳部位ではIGF-Iが増加すること，さらに，そのIGF-Iは脳内で<a href="#" class="anno 産生">産生</a>されたものではなく血液から供給されていることが示された．<br/><br/><h2>2．神経活動に依存したIGF-Iの脳内への移行には局所脳血流量の増加が必要である</h2><br/>　神経活動に依存して血液中のIGF-Iを脳内に取り込む機構のひとつとして，まず，神経活動が活性化した部位では局所脳血流量が増加することに着目した．ヒゲ刺激によってバレル皮質におけるIGF-Iの取り込みが増加することはさきに述べた．<a href="#" class="anno 同じ">同じ</a>条件下において，バレル皮質の局所脳血流量の変化をレーザードップラー血流計で測定したところ，予想どおり，局所脳血流量は増加していた．この結果は，血液中のIGF-Iの脳内への移行と局所脳血流量の変化とが関連していることを示唆した．<br/>　さらに局所脳血流量の関与を調べるため，バレル皮質に<a href="#" class="anno 微小透析">微小透析</a><a href="#" class="anno プローブ">プローブ</a>を埋め込み，ヒゲ刺激時のバレル皮質（細胞<a href="#" class="anno 間質">間質</a>液）におけるヒト組換えIGF-I濃度の変化を調べた．結果はこれまでの結果と一致し，ヒゲ刺激によって透析液中のヒト組換えIGF-Iの濃度は有意に増加した．灌流液に神経活動を阻害するNa<sup>+</sup>チャネル<a href="#" class="anno 阻害薬">阻害薬</a>（テトロド<a href="#" class="anno トキシン">トキシン</a>）をくわえると，ヒゲ刺激によるヒト組換えIGF-I濃度の増加は完全に抑制された．同様に，血管拡張を阻害するためNO<a href="#" class="anno 合成酵素">合成酵素</a>阻害薬（L-<a href="#" class="anno NAM">NAM</a>E）をくわえてもヒト組換えIGF-I濃度の増加は抑制された．これらの結果は，血液中のIGF-Iの脳内への移行には，刺激に応じた神経活動の活性化と，それにともなう局所脳血流量の増加とが必要であることを示していた．<br/><br/><h2>3．IGF-Iは<a href="#" class="anno エンドサイトーシス">エンドサイトーシス</a>によって血管内皮細胞に取り込まれる</h2><br/>　血液脳関門におけるIGF-Iの脳内への移行の機構を解明するため<em><a href="#" class="anno in vitro">in vitro</a></em>実験を行った．血液中のIGF-Iはまずエンドサイトーシスにより血管内皮細胞に取り込まれることが最初のステップとなるため，IGF-Iが実際に血管内皮細胞に取り込まれるかどうかを調べた．まず，血液脳関門を構成する主要な3種類の細胞，すなわち，血管内皮細胞，アストロサイト，ニューロンの<a href="#" class="anno 培養液">培養液</a>に<a href="#" class="anno ビオチン">ビオチン</a>標識ヒト組換えIGF-Iをくわえると，これはすべての細胞に取り込まれることが確認された．とくに，血管内皮細胞で取り込みが顕著だった．また，すべての細胞の<a href="#" class="anno 細胞質">細胞質</a>に<a href="#" class="anno ビオチン標識">ビオチン標識</a>ヒト組換えIGF-Iの存在することが<a href="#" class="anno 免疫組織">免疫組織</a><a href="#" class="anno 化学的">化学的</a>な観察によっても確認された．<br/>　つづいて，IGF-IのエンドサイトーシスがIGF-Iの結合タンパク質であるIGFBP-3により阻害されるかどうかを調べた．培養液にIGFBP-3をくわえると血管内皮細胞におけるIGF-Iのエンドサイトーシスは有意に抑制された．逆に，IGFBP-3<a href="#" class="anno 分解酵素">分解酵素</a>である<a href="#" class="anno PSA">PSA</a>（pr<a href="#" class="anno ost">ost</a>ate-specific antigen，前立腺特異抗原）をくわえるとIGF-Iのエンドサイトーシスは劇的に促進された．<a href="#" class="anno <a href="#" class="anno ドミナント">ドミナント</a>ネガティブ">ドミナントネガティブ</a>IGF-I受容体を<a href="#" class="anno 遺伝子導入">遺伝子導入</a>した血管内皮細胞において，あるいは，IGF-I受容体阻害薬を用いた場合，IGF-Iのエンドサイトーシスは抑制されたことから，このエンドサイトーシスはIGF-I受容体を介していることが示された．PSAは脳内で合成されるプロテアーゼではないため，IGFBP-3を分解する内因性のプロテアーゼの有力候補としてMMP-9（matrix me<a href="#" class="anno tal">tal</a>loprote<a href="#" class="anno ina">ina</a>se-9，マトリックスメタロプロテイナーゼ9）に着目した．MMP-9は脳内の血管内皮細胞にも存在し，さらに<a href="#" class="anno 重要なこと">重要なこと</a>には，神経活動の活性化によってその<a href="#" class="anno プロテアーゼ活性">プロテアーゼ活性</a>の高まることが知られている<a href="#R6"><sup>6)</sup></a>．予想どおり，<a href="#" class="anno 活性型">活性型</a>MMP-9を培養液にくわえると血管内皮細胞へのIGF-Iのエンドサイトーシスは有意に促進された．<br/><br/><h2>4．血液脳関門におけるIGF-Iのトランスサイトーシス</h2><br/>　エンドサイトーシスによって血管内皮細胞に取り込まれたIGF-Iは脳実質側に放出されなくてはならない．そこで，IGF-Iが血液脳関門をトランスサイトーシスによって通過するのかどうかを検証しその調節機構の詳細にせまった．実験では<em>in vitro</em>血液脳関門モ<a href="#" class="anno デ">デ</a>ルを用いた．このモデルはダブル<a href="#" class="anno チャンバー">チャンバー</a>構造からなり，両方のチャンバーのあいだにアストロサイトと血管内皮細胞とを培養することで<a href="#" class="anno 人工的">人工的</a>な血液脳関門を再現した．上部チャンバー（血液側）にビオチン標識ヒト組換えIGF-Iをくわえ，下部チャンバー（脳実質側）においてこれを定量することでIGF-Iのトランスサイトーシスを評価した．<br/>　この研究の中核となる仮説は，神経活動の活性化が血液中のIGF-Iの脳内への移行をひき起こすことである．そこで，グルタミン酸を下部チャンバーにくわえたところIGF-Iのトランスサイトーシスは有意に促進された．このIGF-IのトランスサイトーシスはMMP-9阻害薬によって阻害され，なおかつ，グルタミン酸によってMMP-9のプロテアーゼ活性の高まることも確認された．以上の結果より，神経活動の活性化によりIGF-Iは血液脳関門をトランスサイトーシスによって通過し，さらに，その調節には神経活動の活性化によるMMP-9のプロテアーゼ活性の増加が関与することが示された．<br/>　神経活動の活性化にともない，アストロサイトからは<a href="#" class="anno プロスタグランジン">プロスタグランジン</a>E2，エポキシエイコサトリエン酸，ATPなどの血管拡張物質が放出される<a href="#R7"><sup>7)</sup></a>．興味深いことに，これら血管拡張物質によってもIGF-Iのトランスサイトーシスは促進され，その作用はMMP-9阻害薬によって阻害された．これら血管拡張物質は局所脳血流量を増加させるだけでなく，MMP-9のプロテアーゼ活性を高めることによって，神経活動に依存したIGF-Iの脳内への移行の調節に関与していることが明らかになった．<br/><br/><h2>5．血液中のIGF-Iの脳内への移行の機構</h2><br/>　この研究によって明らかになった血液中のIGF-Iの脳内への移行の機構を示す（<a href="#F2">図2</a>）．神経活動に依存して血液中のIGF-Iを脳内に取り込む機構が，活性化した脳部位に酸素や栄養基質を供給するため局所脳血流量を増加させる機構（<a href="#" class="anno <a href="#" class="anno neu">neu</a>ro">neuro</a>-vascular coupling）ときわめて似ていたことから，筆者らは，神経活動に依存した血液中のIGF-Iの脳内への移行の機構をneuro-trophic coupling（神経-栄養効果<a href="#" class="anno カ">カ</a>ップリング）と名づけた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　神経活動に依存したIGF-Iの脳内への移行経路</strong><br/>（1）神経活動が活性化する．（2）NO，プロスタグランジンE2（PGE2），エポキシエイコサトリエン酸（EET），ATPなどの血管拡張物質の作用によって局所脳血流量が増加する．これにより，活性化した脳部位周囲の血管にIGF-IとIGFBP-3との複合体がより多く供給される．（3）プロスタグランジンE2，エポキシエイコサトリエン酸，ATPがMMP-9のプロテアーゼ活性を高めることでIGFBP-3を分解される．（4）遊離したIGF-IはIGF-I受容体およびLRP-1を介してトランスサイトーシスにより血液脳関門を通過する．（5）IGF-Iはニューロンおよびアストロサイトに作用し，ニューロンの興奮性を高めるなど多様な神経保護効果をもたらす．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2010/11/Nishijima-Neuron-10.9.8-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　神経活動に依存したIGF-Iの脳内への移行経路" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nishijima-Neuron-10.9.8-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nishijima-Neuron-10.9.8-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　神経活動の活性化はニューロンの<a href="#" class="anno 抗酸化">抗酸化</a>能力を高めるなど神経保護効果をもたらすが<a href="#R8"><sup>8)</sup></a>，この研究ではさらに，神経活動の活性化は多様な神経保護効果をもつIGF-Iを血液中から脳内に取り込む引き金となることが明らかとなった．この事実は，神経活動に依存してひき起こされる生理的な反応が<a href="#" class="anno 脳機能">脳機能</a>を維持するためきわめて重要であるというこれまでの知見を強く支持する．豊かな<a href="#" class="anno 社会的">社会的</a>活動や教育そして運動が脳機能に有益であることや<a href="#R9"><sup>9)</sup></a>，てんかんや電気刺激療法に神経新生を促進する作用があり<a href="#R10"><sup>10)</sup></a>，また，神経刺激にはリハビリテーション効果のあることも知られている<a href="#R11"><sup>11)</sup></a>．これらの背景には共通して，この研究で明らかとなったneuro-trophic couplingによるIGF-Iの脳内への移行が関与しているのかもしれない．今後，<a href="#" class="anno 脳損傷">脳損傷</a>部位の神経刺激によるニューロリハビリテーションなどにもこの機構が応用される可能性がある．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Banks, W. A.</span>: <span class="ti">Denial versus dualism: the blood-brain barrier as an interface of the gut-brain axis.</span> <span class='so'>Endocrinology, 147, 2609-2610 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16707729" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Russo, V. C., Gluckman, P. D., Feldman, E. L. et al.</span>: <span class="ti">The insulin-like growth factor system and its pleiotropic functions in brain.</span> <span class='so'>Endocr. Rev., 26, 916-943 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16131630" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Garcia-Segura, L. M., Perez, J., Pons, S. et al.</span>: <span class="ti">Localization of insulin-like growth factor I (IGF-I)-like immunoreactivity in the developing and adult rat brain.</span> <span class='so'>Brain Res., 560, 167-174 (1991)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1722132" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Carro, E., Spuch, C., Trejo, J. L. et al.</span>: <span class="ti">Choroid plexus megalin is involved in neuroprotection by serum insulin-like growth factor I.</span> <span class='so'>J. Neurosci., 25, 10884-10893 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16306401" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Zonta, M., Angulo, M. C., Gobbo, S. et al.</span>: <span class="ti">Neuron-to-astrocyte signaling is central to the dynamic control of brain microcirculation.</span> <span class='so'>Nat. Neurosci., 6, 43-50 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12469126" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Michaluk, P. & Kaczmarek, L.</span>: <span class="ti">Matrix metalloproteinase-9 in glutamate-dependent adult brain function and dysfunction.</span> <span class='so'>Cell Death Differ., 14, 1255-1258 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17431423" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Iadecola, C., Nedergaard, M.</span>: <span class="ti">Glial regulation of the cerebral microvasculature.</span> <span class='so'>Nat. Neurosci., 10, 1369-1376 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17965657" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Papadia, S., Soriano, F. X., Leveille, F. et al.</span>: <span class="ti">Synaptic NMDA receptor activity boosts intrinsic antioxidant defenses.</span> <span class='so'>Nat. Neurosci., 11, 476-487 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18344994" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Fratiglioni, L., Paillard-Borg, S. & Winblad, B.</span>: <span class="ti">An active and socially integrated lifestyle in late life might protect against dementia.</span> <span class='so'>Lancet Neurol., 3, 343-353 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15157849" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Kempermann, G.</span>: <span class="ti">Regulation of adult hippocampal neurogenesis - implications for novel theories of major depression.</span> <span class='so'>Bipolar Disord., 4, 17-33 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12047492" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Kaelin-Lang. A.</span>: <span class="ti">Enhancing rehabilitation of motor deficits with peripheral nerve stimulation.</span> <span class='so'>NeuroRehabilitation, 23, 89-93 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18356592" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/07_03.html" target="_blank">7.3 Genes and DNA</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_01.html" target="_blank">3.1 Traits</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_07.html" target="_blank">3.7 Chromosomes and the Genome</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/10_01.html" target="_blank">10.1 Gene Types in Terms of Their Expression</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/01_05.html" target="_blank">1.5 Unicellular and Multicellular Organisms</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">西島  壮（Takeshi Nishijima）</span><br>略歴：2006年 筑波大学大学院人間総合科学研究科を修了，同 博士研究員，国際科学振興財団 専任研究員，スペインCajal Institute外国人若手研究員を経て，2009年より首都大学東京大学院人間健康科学研究科 助教．<br>研究テーマ：運動が脳機能に及ぼす効果の神経科学的解明．<br>抱負：ストレス社会を生き抜くための運動の重要性を明らかにすべく，運動が脳機能に及ぼす効果について神経科学的なアプローチにより研究している．趣味・特技はバドミントン．<br></div><br>© 2010 西島  壮 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ATACアセチルトランスフェラーゼ複合体はMAPキナーゼと協調することでJNKの標的遺伝子を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/1012" rel="bookmark">ATACアセチルトランスフェラーゼ複合体はMAPキナーゼと協調することでJNKの標的遺伝子を制御する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>菅沼  環</strong><br>（米国Stowers Institute for Medical Research，Workman Lab）<br>email：<a href="mailto:tas@stowers.org">菅沼 環</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2010.029">10.7875/first.author.2010.029</a><br><div class="reference"><br><span class="ti">The ATAC acetyltransferase complex coordinates MAP kinases to regulate JNK target genes.</span><br><span class="au">Tamaki Suganuma, Arcady Mushegian, Selene K. Swanson, Susan M. Abmayr, Laurence Florens, Michael P. Washburn, Jerry L. Workman</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/20813260" target="_blank"><em>Cell</em>, <strong>142</strong>, 726-736 (2010)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 細胞外">細胞外</a>刺激への対応においてc-<a href="#" class="anno Jun">Jun</a>など<a href="#" class="anno 転写因子">転写因子</a>は<a href="#" class="anno シグナル伝達">シグナル伝達</a>の標的となっている．筆者らは，<a href="#" class="anno JNK">JNK</a>（Jun N-<a href="#" class="anno <a href="#" class="anno ter">ter</a>m">t<a href="#" class="anno erm">erm</a></a><a href="#" class="anno ina">ina</a>l <a href="#" class="anno kin">kin</a><a href="#" class="anno ase">ase</a>，Jun <a href="#" class="anno N末端">N末端</a><a href="#" class="anno キナーゼ">キナーゼ</a>）の<a href="#" class="anno 標的遺伝子">標的遺伝子</a>である<em><a href="#" class="anno Jra">Jra</a></em>遺伝子あるいは<em>chickadee</em>遺伝子において，A<a href="#" class="anno TAC">TAC</a><a href="#" class="anno アセチル">アセチル</a><a href="#" class="anno トランスフェラーゼ">トランスフェラーゼ</a><a href="#" class="anno 複合体">複合体</a>が<a href="#" class="anno c-Jun">c-Jun</a>の共役<a href="#" class="anno 転写調節">転写調節</a>因子としての機能を担うことを見い<a href="#" class="anno 出し">出し</a>た．ATAC<a href="#" class="anno アセチルトランスフェラーゼ">アセチルトランスフェラーゼ</a>複合体は，これら標的遺伝子への転写因子Jraの結合，<em>Jra</em>遺伝子の<a href="#" class="anno エンハンサー">エンハンサー</a>領域および<a href="#" class="anno プロモーター領域">プロモーター領域</a>における<a href="#" class="anno ヒストン">ヒストン</a>H4の16番目の<a href="#" class="anno リジン">リジン</a><a href="#" class="anno 残基">残基</a>の<a href="#" class="anno アセチル化">アセチル化</a>，さらに，転写において必須であった．浸透<a href="#" class="anno 圧">圧</a>ストレス刺激下において，ATACアセチルトランスフェラーゼ複合体はc-Junと<a href="#" class="anno 共局在">共局在</a>し，上流の<a href="#" class="anno MA">MA</a>Pキナーゼである<a href="#" class="anno MSN">MSN</a>，<a href="#" class="anno MKK">MKK</a>4，JNKをリクルートしJNKのさらなる<a href="#" class="anno 活性化">活性化</a>を抑制した．これら<a href="#" class="anno MAPキナーゼ">MAPキナーゼ</a>の再局在とATACアセチルトランスフェラーゼ複合体によるJNKの活性抑制は，ATACアセチルトランスフェラーゼ複合体の<a href="#" class="anno 構成タンパク質">構成タンパク質</a>のひとつCG10238に依存していた．このように，ATACアセチルトランスフェラーゼ複合体は共役<a href="#" class="anno 転写活性">転写活性</a>化因子として，また一方で，上流シグナルを抑制することによって，MAPキナーゼ<a href="#" class="anno シグナル<a href="#" class="anno 伝達系">伝達系</a>">シグナル伝達系</a>を統合していた．<br/><br/><h2>はじめに</h2><br/>　ショウジョウバエのATACアセチルトランスフェラーゼ複合体は，<a href="#" class="anno Gcn5">Gcn5</a>/K<a href="#" class="anno AT2">AT2</a>と<a href="#" class="anno Atac2">Atac2</a>/K<a href="#" class="anno AT1">AT1</a>4という異なる基質<a href="#" class="anno 特異性">特異性</a>を示すヒストンアチルトランスフェラーゼを含む13種類のタンパク質から構成されている<a href="#R1"><sup>1)</sup></a>．さらに，その構成タンパク質Gcn5，Ada3，CG30390（酵母では<a href="#" class="anno Sgf29">Sgf29</a>）は共役<a href="#" class="anno 転写活性化">転写活性化</a>因子S<a href="#" class="anno AGA">AGA</a>と<a href="#" class="anno も">も</a>共通することから，ATACアセチルトランスフェラーゼ複合体も共役転写因子として機能することが予想されていた．ショウジョウバエのATACアセチルトランスフェラーゼ複合体はモリブ<a href="#" class="anno デ">デ</a>ン<a href="#" class="anno 補因子">補因子</a>Mocoの合成に関与するMoaEドメインと，MAPキナーゼの上流キナーゼを阻害する<a href="#" class="anno MBIP">MBIP</a>ドメインとをもつCG10238を構成タンパク質として含んでいる<a href="#R2"><sup>2,3)</sup></a>．ヒトではMBIPが独立したタンパク質としてCG10238に対応して存在する<a href="#R4"><sup>4)</sup></a>．<br/><br/><h2>1．ATACアセチルトランスフェラーゼ複合体は<a href="#" class="anno MAPキナーゼシグナル伝達系">MAPキナーゼシグナル伝達系</a>の<a href="#" class="anno 関連タンパク質">関連タンパク質</a>と<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>する</h2><br/>　ショウジョウバエ<a href="#" class="anno S2細胞">S2細胞</a>から得たATACアセチルトランスフェラーゼ複合体の<a href="#" class="anno 質量分析">質量分析</a>計による解析により，いずれもMAPキナーゼシグナル伝達系に関連するタンパク質である，c-Junの<a href="#" class="anno ホモログ">ホモログ</a>Jra，SteキナーゼMissha<a href="#" class="anno pen">pen</a>（MSN）に由来する<a href="#" class="anno ペプチド">ペプチド</a>が検出された．また，ほかのSteキナーゼである<a href="#" class="anno MKK4">MKK4</a>，<a href="#" class="anno MEK">MEK</a>3/<a href="#" class="anno MKK3">MKK3</a>，JNK経路に<a href="#" class="anno 遺伝的">遺伝的</a>に相互作用するChickadeeに由来するペプチドがATACアセチルトランスフェラーゼ複合体の構成タンパク質であるCG10238の精製より検出された<a href="#R5"><sup>5)</sup></a>．<br/><br/><h2>2．CG10238は<a href="#" class="anno <a href="#" class="anno 浸透圧">浸透圧</a>ストレス">浸透圧ストレス</a>によるJNKの活性化を抑制する</h2><br/>　MAPキナーゼシグナル伝達系は浸透圧ストレスにより活性化され，<a href="#" class="anno <a href="#" class="anno リン酸">リン酸</a>化">リン酸化</a>によりJNKを活性化する<a href="#R6"><sup>6)</sup></a>．ATACアセチルトランスフェラーゼ複合体の構成タンパク質であるCG10238がMAPキナーゼシグナル伝達系において上流キナーゼを阻害する機能を担っているのかどうかを，CuSO<sub>4</sub>により誘導されるCG10238<a href="#" class="anno 安定発現">安定発現</a>S2細胞における浸透圧ストレスへの<a href="#" class="anno 反応性">反応性</a>により調べた．浸透圧ストレス<a href="#" class="anno 無刺激">無刺激</a>下では，CuSO<sub>4</sub>の有無にかかわらず<a href="#" class="anno 野生型">野生型</a>S2細胞およびCG10238安定発現S2細胞の両者においてJNKの活性は認められなかった．浸透圧ストレス刺激により，野生型S2細胞でのJNKの活性化は認められたが，CuSO<sub>4</sub>誘導によるCG10238の発現によってJNKの活性化は抑制された．<br/><br/><h2>3．CG10238のATACアセチルトランスフェラーゼ複合体への結合にはMBIPドメインが必要である</h2><br/>　ショウジョウバエATACアセチルトランスフェラーゼ複合体の構成タンパク質であるCG10238は，ヒトではそれぞれ別のタンパク質として存在するMoaEドメインとMBIPドメインとから構成されている．CG10238の発現によるJNKの活性抑制が，CG10238単独の機能によるものなのか，ATACアセチルトランスフェラーゼ複合体の機能の一部なのかを知るため，まず，MBIPドメインのみを発現するCG10238<a href="#" class="anno 変異体">変異体</a>，あるいは，MoaEドメインのみを発現するCG10238変異体に相互作用するタンパク質を精製し<a href="#" class="anno 質量分析計">質量分析計</a>により解析するとともに，ATACアセチルトランスフェラーゼ複合体の構成タンパク質に対する抗体を用いた<a href="#" class="anno <a href="#" class="anno ウェスタン">ウェスタン</a>ブロット">ウェスタンブロット</a>により解析した．その結果，<a href="#" class="anno CH">CH</a><a href="#" class="anno RA">RA</a><a href="#" class="anno C1">C1</a>4を除くすべてのATACアセチルトランスフェラーゼ複合体の構成タンパク質はMBIPドメインのみを発現する変異体から得たサンプルより検出されたが，MoaEドメインのみを発現する変異体から得たサンプルからは3種の構成タンパク質のみが検出され，MBIPドメインがCG10238のATACアセチルトランスフェラーゼ複合体への結合に必須であることが示された．<br/><br/><h2>4．CG10238のMoaEドメインはJNK活性化の抑制を担う</h2><br/>　<a href="#" class="anno アミノ">アミノ</a>酸の<a href="#" class="anno 配列解析">配列解析</a>において，MoaEドメインは<a href="#" class="anno 真正細菌">真正細菌</a>から<a href="#" class="anno <a href="#" class="anno 多細胞">多細胞</a>生物">多細胞生物</a>にまで認められるが，MBIPドメインは真正細菌や<a href="#" class="anno 原核生物">原核生物</a>ではみつからなかった．ほとんどの昆虫は，CG10238のようにMoaEドメインとMBIPドメインとが融合した<a href="#" class="anno かた">かた</a>ちのタンパク質をもつ．<a href="#" class="anno <a href="#" class="anno 相同">相同</a>性">相同性</a>検索における多細胞生物のMBIPドメインN末端とMoaEドメインとの高い<a href="#" class="anno 類似性">類似性</a>より，ヒトMBIPタンパク質は進化においてMoaEドメインに由来するものと予想した．そこで，CG10238においてMoaEドメインとMBIPドメインのどちらがJNKの活性抑制を担うのかを，CG10238変異体の安定発現S2細胞を用いて調べた．その結果，予想とは異なり，CG10238によるJNKの活性抑制はMoaEドメインによって担われていることが示された．<br/><br/><h2>5．ATACアセチルトランスフェラーゼ複合体はJNKの活性化を抑制する</h2><br/>　JNKの活性抑制が，MoaEドメイン単独の機能によるものなのか，ATACアセチルトランスフェラーゼ複合体による機能の一部なのかを知るため，ATACアセチルトランスフェラーゼ複合体<a href="#" class="anno ノックダウン">ノックダウン</a>S2細胞におけるJNKの活性化を指標に<a href="#" class="anno ウェスタンブロッティング">ウェスタンブロッティング</a>により調べた．対照の細胞においては浸透圧ストレス無刺激下でのJNKの活性化は認められなかったが，Atac2ノックダウンS2細胞では浸透圧ストレス無刺激下でJNKの活性化がみられ，浸透圧ストレス刺激によるJNKの活性化は対照の細胞と比較してさらに亢進していた．これらの結果は，ATACアセチルトランスフェラーゼ複合体の構成タンパク質であるN<a href="#" class="anno C2">C2</a>βの<a href="#" class="anno ノックダウン細胞">ノックダウン細胞</a>あるいはCG10238のノックダウン細胞でも認められ，<a href="#" class="anno 293<a href="#" class="anno T細胞">T細胞</a>">293T細胞</a>でのヒトATACアセチルトランスフェラーゼ複合体のノックダウンでも浸透圧ストレス刺激下でのJNKの活性化の亢進が観察された．以上より，ATACアセチルトランスフェラーゼ複合体がJNKの活性化を抑制することが明らかとなった．<br/><br/><h2>6．ATACアセチルトランスフェラーゼ複合体はJNK標的遺伝子の共役転写因子として機能する</h2><br/>　質量分析によりJraに由来するペプチドが検出されたことから，ATACアセチルトランスフェラーゼ複合体がJraの共役転写因子として機能することが予想された．事実，S2細胞においてJraはATACアセチルトランスフェラーゼ複合体に結合し，さらに，MSNとATACアセチルトランスフェラーゼ複合体とは相互作用した．c-<em>Jun</em>遺伝子は自己産物c-Junにより転写活性化される．ATACアセチルトランスフェラーゼ複合体構成タンパク質のノックダウンS2細胞，JraノックダウンS2細胞，あるいは，MSNノックダウンS2細胞における<em>Jra</em><a href="#" class="anno 転写産物">転写産物</a>を定量リアルタイム<a href="#" class="anno PCR">PCR</a>法によって計測した．Atac2ノックダウン細胞あるいはCG10238ノックダウン細胞では，Jraノックダウン細胞と同様に，<em>Jra</em>遺伝子の<a href="#" class="anno 転写レベル">転写レベル</a>が顕著に低下し，<em>Jra</em>遺伝子に<a href="#" class="anno 依存性">依存性</a>の遺伝子である<em>chickadee</em>遺伝子の転写も低下していた．JNKシグナル伝達系の活性化はc-Junの発現を上昇させるので，<em>Jra</em>遺伝子および<em>chickadee</em>遺伝子の転写レベルを浸透圧ストレス刺激下で計測した．Atac2ノックダウン細胞での<em>Jra</em>遺伝子および<em>chickadee</em>遺伝子の転写レベルの低下は認められず，むしろ，CG10238ノックダウン細胞においては転写レベルの上昇が認められた．したがって，ATACアセチルトランスフェラーゼ複合体は浸透圧ストレス無刺激下ではJNK標的遺伝子の転写を促進し，浸透圧ストレス刺激下ではこの転写を優位に抑制することが示された．さらに，JNK標的遺伝子の発現への<a href="#" class="anno 促進的">促進的</a>な機能はおもにAtac2によって担われ，一方，<a href="#" class="anno 抑制的">抑制的</a>な機能はおもにCG10238に依存することがわかった．<br/><br/><h2>7．ATACアセチルトランスフェラーゼ複合体はJraの共役転写因子として機能し<em>Jra</em>遺伝子において上流のMAPキナーゼと協調する</h2><br/>　つぎに，ATACアセチルトランスフェラーゼ複合体ノックダウン細胞，あるいは，MSNノックダウン細胞において，JNK標的遺伝子におけるATACアセチルトランスフェラーゼ複合体とMAPキナーゼの局在を，<a href="#" class="anno クロマチン">クロマチン</a><a href="#" class="anno 免疫沈降">免疫沈降</a>（chr<a href="#" class="anno oma">oma</a>tin immuno<a href="#" class="anno pre">pre</a>ci<a href="#" class="anno pit">pit</a>ation：ChIP）<a href="#" class="anno アッセイ">アッセイ</a>により調べた．c-<em>Jun</em><a href="#" class="anno 遺伝子プロモーター">遺伝子プロモーター</a>はAP-1様配列とNF-<a href="#" class="anno jun">jun</a><a href="#" class="anno 結合配列">結合配列</a>を含み，c-Junは外的刺激に非<a href="#" class="anno 依存的">依存的</a>にc-<em>Jun</em>遺伝子と結合する<a href="#R7"><sup>7,8)</sup></a>．<a href="#" class="anno 実際">実際</a>，Jraは<em>Jra</em>遺伝子コーディング領域の中央のNF-jun結合配列を含む領域に顕著に局在した．つぎに，ATACアセチルトランスフェラーゼ複合体の局在を，JNK標的遺伝子の<a href="#" class="anno エンハンサー領域">エンハンサー領域</a>，AP-1<a href="#" class="anno 結合領域">結合領域</a>，5’<a href="#" class="anno 末端側">末端側</a>コーディング領域，コーディング領域中央のNF-jun結合配列を含む領域，コーディング領域下流の領域において調べた．浸透圧ストレス無刺激下でAtac2はエンハンサー領域およびプロモーター領域に局在し，これらの領域の<a href="#" class="anno ヒストンH4">ヒストンH4</a>の16番目の<a href="#" class="anno リジン残基">リジン残基</a>のアセチル化に必須であった<a href="#R1"><sup>1)</sup></a>．浸透圧ストレス刺激下ではプロモーター領域へのAtac2の局在とヒストンH4の16番目のリジン残基のアセチル化は無刺激下と同様であったが，エンハンサー領域でのATACアセチルトランスフェラーゼ複合体の局在とヒストンH4の16番目のリジン残基のアセチル化レベルが低下し，代わって，Jra結合領域で局在が増加していた．Jraの局在は浸透圧ストレス無刺激下ではAtac2，CG10238，および，MSNに顕著に依存していたが，ストレス刺激下ではCG10238への優位な依存性を示した．<br/>　さらに，ChIPアッセイの結果はATACアセチルトランスフェラーゼ複合体と<a href="#" class="anno 活性型">活性型</a>JNK，活性型MKK4，MSNなど上流MAPキナーゼとの<a href="#" class="anno 相互関係">相互関係</a>を明らかにした．プロモーター領域におけるヒストンH4の16番目のリジン残基のアセチル化は，浸透圧ストレス無刺激下ではMSNに<a href="#" class="anno 非依存性">非依存性</a>であるが，浸透圧ストレス刺激下ではMSNに抑制され，コーディング領域での最大のアセチル化をもたらした．浸透圧ストレス無刺激下でのエンハンサー領域，プロモーター領域，コーディング領域下流への活性型JNKの局在にはAtac2を要し，MSNには抑制され，一方，浸透圧ストレス刺激下でのコーディング領域への結合にはATACアセチルトランスフェラーゼ複合体とMSNとの両者を要した．活性型MKK4のエンハンサー領域への結合は浸透圧ストレス無刺激下でAtac2およびMSNにより抑制されていたが，浸透圧ストレス刺激下ではとくにCG10238とMSNとを必要とした．MSNのプロモーター領域への結合は浸透圧ストレス無刺激下でATACアセチルトランスフェラーゼ複合体により抑制されたが，浸透圧ストレス刺激下においてはATACアセチルトランスフェラーゼ複合体の存在にかかわらずコーディング領域に結合した．このように，上流MAPキナーゼは浸透圧ストレス刺激により，Atac2と同様，顕著にJra結合領域を含むコーディング領域に集結した．<em><a href="#" class="anno FOS">FOS</a><a href="#" class="anno L1">L1</a></em>遺伝子における<a href="#" class="anno ヒストンH3">ヒストンH3</a>の10番目の<a href="#" class="anno セリン">セリン</a>残基のリン酸化は，<a href="#" class="anno MOF">MOF</a>によるエンハンサー領域のヒストンH4の16番目のリジン残基のアセチル化のきっかけとなる<a href="#R9"><sup>9)</sup></a>．しかし，浸透圧ストレス無刺激下でのATACアセチルトランスフェラーゼ複合体による<em>Jra</em>遺伝子エンハンサー領域でのヒストンH4の16番目のリジン残基のアセチル化は，MOFによるアセチル化とは異なり，ヒストンH3の10番目の<a href="#" class="anno セリン残基">セリン残基</a>のリン酸化とは独立していた（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　ATACアセチルトランスフェラーゼ複合体の機能と<em>Jra</em>遺伝子におけるモデル</strong><br/>（a）浸透圧ストレス非存在下で，ATACアセチルトランスフェラーゼ複合体（ATAC）はヒストンH4の16番目のリジン残基のアセチル化（K16ac）をともなってエンハンサー領域（E，濃水色のボックス），プロモーター領域（紫色のボックス）に局在し，<em>Jra</em>遺伝子の基本転写に必要とされる．また，ATACアセチルトランスフェラーゼ複合体はJNKの活性化を抑制しながら，MKK4のエンハンサー領域への結合，MSNのプロモーター遺伝子への結合を阻害する．ヒストンH3の10番目のセリン残基のリン酸化（S10P）はMSNにより抑制される．<br/>（b）浸透圧ストレス刺激下でMAPキナーゼはATACアセチルトランスフェラーゼ複合体，とくに，CG10238に依存的に，コーディング領域（薄水色のボックス）の中央のNF-jun結合配列（NF-jun，オレンジ色のボックス）にリクルートされる．また，ATACアセチルトランスフェラーゼ複合体はこの領域のヒストンH4の16番目のリジン残基をアセチル化（K16ac）し，JNKの活性化をひきつづき抑制する．ヒストンH3の10番目のセリン残基のリン酸化（S10P）は<em>Jra</em>遺伝子全体にわたって高まるが，MSNにより抑制されている．<em>Jra</em>遺伝子の転写は顕著に活性化される．<br/>P：リン酸化．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2010/10/Suganuma-Cell-10.9.2-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　ATACアセチルトランスフェラーゼ複合体の機能と<em>Jra</em>遺伝子におけるモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suganuma-Cell-10.9.2-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suganuma-Cell-10.9.2-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>8．ATACアセチルトランスフェラーゼ複合体は<em>chickadee</em>遺伝子において<a href="#" class="anno ヌクレオソーム">ヌクレオソーム</a>をアセチル化する</h2><br/>　<em>Jra</em>遺伝子において，ATACアセチルトランスフェラーゼ複合体とMAPキナーゼが浸透圧ストレスにより顕著に再局在したのは，Jraに依存するのかコーディング領域に結合するためなのかを知るため，明らかなNF-jun結合配列をもたずコーディング領域から6.4 kb上流（エンハンサー領域付近）と2 kb上流にいくつかのAP-1様配列をもつ<em>chickadee</em>遺伝子をChIPアッセイにより解析した．Jraは浸透圧ストレス無刺激下では両方のAP-1様配列にCG10238依存的あるいはMSN依存的に局在した．これらの領域には，ヒストンH4の16番目のリジン残基アセチル化をともなってATACアセチルトランスフェラーゼ複合体がJra<a href="#" class="anno 非依存的">非依存的</a>に局在していた．しかし，浸透圧ストレス刺激によりATACアセチルトランスフェラーゼ複合体はヒストンH4の16番目のリジン残基のアセチル化をともなって最上流のAP-1様配列にJra依存的に再局在し，浸透圧ストレス無刺激下ではおのおの<a href="#" class="anno 関連性">関連性</a>を逸して局在した．活性型JNK，活性型MKK4およびMSNも，浸透圧ストレス刺激によりJra依存的に最上流のAP-1様配列に集結した．さらに，MAPキナーゼの再局在はAtac2により<a href="#" class="anno わずか">わずか</a>に抑制され，一方，CG10238には顕著に依存した．ヒストンH3の10番目のセリン残基のリン酸化は<em>Jra</em>遺伝子でみられたように浸透圧ストレス無刺激下でAtac2およびMSNにより抑制され，ストレス刺激下ではMSNにより<a href="#" class="anno 特異的">特異的</a>に抑制された（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ATACアセチルトランスフェラーゼ複合体の機能と<em>chickadee</em>遺伝子におけるモデル</strong><br/>（a）浸透圧ストレス非存在下で，Jra，および，ヒストンH4の16番目のリジン残基アセチル化（K16ac）をともなうATACアセチルトランスフェラーゼ複合体（ATAC）は，コーディング領域（薄水色のボックス）より6.4 kb上流および2 kb上流にあるAP-1様配列を含む領域（紫色のボックス）に局在する．MAPキナーゼはこの2 kb上流の領域およびコーディング領域に局在する．<br/>（b）浸透圧ストレス刺激によりATACアセチルトランスフェラーゼ複合体は最上流のAP-1様配列を含む領域に再局在し，Jraをこの領域にリクルートする．活性型MKK4およびMSNもCG10238依存的およびJra依存的にこの領域に再集結する．<em>chickadee</em>遺伝子の転写は活性化されるが，<em>chickadee</em>遺伝子全体にわたるヒストンH3の10番目のセリン残基のリン酸化（S10P）はMSNにより抑制される．<br/>P：リン酸化，E：エンハンサー領域．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2010/10/Suganuma-Cell-10.9.2-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ATACアセチルトランスフェラーゼ複合体の機能と<em>chickadee</em>遺伝子におけるモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suganuma-Cell-10.9.2-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suganuma-Cell-10.9.2-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　筆者らは，ATACアセチルトランスフェラーゼ複合体は共役転写<a href="#" class="anno 活性化因子">活性化因子</a>として機能するとともに，JNKシグナル伝達系を抑制し<a href="#" class="anno 負のフィードバック">負のフィードバック</a>を供することを示した．細胞外刺激に対し細胞が適切に対応するように，ATACアセチルトランスフェラーゼ複合体は<a href="#" class="anno マスター<a href="#" class="anno レギュレーター">レギュレーター</a>">マスターレギュレーター</a>として機能するのだろう．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Suganuma, T., Gutierrez, J. L., Li, B. et al.</span>: <span class="ti">ATAC is a double histone acetyltransferase complex that stimulates nucleosome sliding.</span> <span class='so'>Nat. Struct. Mol. Biol., 15, 364-372 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18327268" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Fukuyama, K., Yoshida, M., Yamashita, A. et al.</span>: <span class="ti">MAPK upstream kinase (MUK)-binding inhibitory protein, a negative regulator of MUK/dual leucine zipper-bearing kinase/leucine zipper protein kinase.</span> <span class='so'>J. Biol. Chem., 275, 21247-21254 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10801814" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Schwarz, G. & Mendel, R. R.</span>: <span class="ti">Molybdenum cofactor biosynthesis and molybdenum enzymes.</span> <span class='so'>Annu. Rev. Plant Biol., 57, 623-647 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16669776" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Wang, Y. L., Faiola, F., Xu, M. et al.</span>: <span class="ti">Human ATAC is a GCN5/PCAF-containing acetylase complex with a novel NC2-like histone fold module that interacts with the TATA-binding protein.</span> <span class='so'>J. Biol. Chem., 283, 33808-33815 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18838386" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Jasper, H., Benes, V., Schwager, C. et al.</span>: <span class="ti">The genomic response of the <em>Drosophila</em> embryo to JNK signaling.</span> <span class='so'>Dev. Cell, 1, 579-586 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11703947" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>de Nadal, E., Alepuz, P. M. & Posas, F.</span>: <span class="ti">Dealing with osmostress through MAP kinase activation.</span> <span class='so'>EMBO Rep., 3, 735-740 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12151331" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Rozek, D. & Pfeifer, G. P.</span>: <span class="ti">In vivo protein-DNA interactions at the c-<em>jun</em> promoter: preformed complexes mediate the UV response.</span> <span class='so'>Mol. Cell. Biol., 13, 5490-5499 (1993)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8355696" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Angel, P. & Karin, M.</span>: <span class="ti">The role of Jun, Fos and the AP-1 complex in cell-proliferation and transformation.</span> <span class='so'>Biochim. Biophys. Acta, 1072, 129-157 (1991)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1751545" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Zippo, A., Serafini, R., Rocchigiani, M. et al.</span>: <span class="ti">Histone crosstalk between H3S10ph and H4K16ac generates a histone code that mediates transcription elongation.</span> <span class='so'>Cell, 138, 1122-1136 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19766566" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_01.html" target="_blank">14.1 What is Signal Transduction?</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/10_03.html" target="_blank">10.3 Regulation of Gene Expression in Eukaryotes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/15_01.html" target="_blank">15.1 Receptor-Mediated Intracellular Signaling Pathways</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_03.html" target="_blank">14.3 Intercellular Signal Transduction</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_02.html" target="_blank">14.2 Basic Mechanisms of Intracellular Signal Transduction</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">菅沼  環（Tamaki Suganuma）</span><br>略歴：2001年 東京医科歯科大学大学院医歯学総合研究科博士課程 修了，同年 東京医科歯科大学難治疾患研究所 特別研究員，2002年 米国Pennsylvania州立大学Postdoctoral fellowを経て，2003年より米国Stowers Institute for Medical ResearchにてResearch Associate．<br>研究テーマ：ATACアセチルトランスフェラーゼ複合体の機能解析．<br></div><br>© 2010 菅沼  環 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

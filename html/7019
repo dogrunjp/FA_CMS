@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ジスルフィド結合スキャン法によるβバレル型膜タンパク質のβストランドのアライメントおよびフォールディング中間体の解析 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/7019" rel="bookmark">ジスルフィド結合スキャン法によるβバレル型膜タンパク質のβストランドのアライメントおよびフォールディング中間体の解析</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>佐藤健大・Arthur E. Johnson</strong><br>（米国Texas A&M Health Science Center，Department of Molecular and Cellular Medicine）<br>email：<a href="mailto:tsato@medicine.tamhsc.edu">佐藤健大</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.058">10.7875/first.author.2013.058</a><br><div class="reference"><br><span class="ti">Disulfide-bond scanning reveals assembly state and β-strand tilt angle of the PFO β-barrel.</span><br><span class="au">Takehiro K. Sato, Rodney K. Tweten, Arthur E. Johnson</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23563525" target="_blank"><em>Nature Chemical Biology</em>, <strong>9</strong>, 383-389 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　パーフリンゴライシンOはコレステロール<a href="#" class="anno 依存性">依存性</a><a href="#" class="anno 細胞溶解">細胞溶解</a>毒素ファミリーに属し，コレステロールを含む<a href="#" class="anno 細胞膜">細胞膜</a>に結合し約3<a href="#" class="anno 5量体">5量体</a>からなるプリポア<a href="#" class="anno 複合体">複合体</a>を形成したのち，ポア複合体として直<a href="#" class="anno 径">径</a>約250Åのβバレル型の膜孔を細胞膜に形成する．パーフリンゴライシンOは<a href="#" class="anno 可溶">可溶</a>性の<a href="#" class="anno 単量体">単量体</a>においてドメイン3に3つの短い<a href="#" class="anno ヘリックス">ヘリックス</a>からなるヘリックスバンドルを2つ<a href="#" class="anno も">も</a>つが，これらはβバレル型の膜孔の形成のとき2組のβ<a href="#" class="anno ヘア<a href="#" class="anno ピン">ピン</a>">ヘアピン</a>構造へと変換される．今回，筆者らは，<a href="#" class="anno β<a href="#" class="anno ストランド">ストランド</a>">βストランド</a>のあいだに形成される<a href="#" class="anno ジ<a href="#" class="anno スルフィド">スルフィド</a>">ジスルフィド</a>結合を利用した<a href="#" class="anno ジスルフィド結合">ジスルフィド結合</a>スキャン法により，βストランドは厳密に制御されて整列し20度の傾きをもって<a href="#" class="anno βバレル構造">βバレル構造</a>を形成していることを明らかにした．低温のもとで得られるプリポア複合体ではパーフリンゴライシンOのドメイン3のもつヘリックスバンドルはほどかれ，となりのパーフリンゴライシンOのほどけたヘリックスバンドルと遷移的に接触していた．これは，<a href="#" class="anno 中間体">中間体</a>においてβストランドは<a href="#" class="anno まだ">まだ</a>整列せずβバレル構造を形成してい<a href="#" class="anno ないこと">ないこと</a>を示していた．すなわち，パーフリンゴライシンOは細胞膜に結合したのち，プリポア複合体においてヘリックスバンドルから<a href="#" class="anno 部分的">部分的</a>にアン<a href="#" class="anno フォールド">フォールド</a>したβバレル<a href="#" class="anno フォール<a href="#" class="anno デ">デ</a>ィング">フォールディング</a>中間体を形成し，膜<a href="#" class="anno 内在性">内在性</a>のβバレル構造へと変換されていた．<br/><br/><h2>はじめに</h2><br/>　コレステロース依存<a href="#" class="anno 性細胞">性細胞</a>溶解毒素はコレステロールを含む細胞膜（すなわち，哺乳類の細胞膜）へと結合し膜孔を形成する<a href="#" class="anno 細菌毒素">細菌毒素</a>のファミリーである．このファミリーのタンパク質は，単量体として分泌されたのち，細胞膜に35量体～50量体からなる巨大な環状の複合体を形成し，直径250～300Åのβバレル型の膜孔を形成する<a href="#R1"><sup>1)</sup></a>（<a href="#F1">図1</a>）．この研究で使用したパーフリンゴライシンOは<em><a href="#" class="anno Cl">Cl</a><a href="#" class="anno ost">ost</a>ridium <a href="#" class="anno per">per</a>f<a href="#" class="anno rin">rin</a>gens</em>から分泌される毒素で，コレステロール依存性細胞溶解毒素ファミリーのなかでもっともよく研究されている<a href="#R1"><sup>1,2)</sup></a>．パーフリンゴライシンOの単量体の<a href="#" class="anno 結晶構造">結晶構造</a>は4つのドメインからなる細長い構造で，ドメイン4の先端を介し細胞膜にほぼ直立した状態で結合する<a href="#R3"><sup>3,4)</sup></a>．可溶性の単量体の状態においてドメイン3のコア<a href="#" class="anno βシート">βシート</a>のもつ短いβストランド（βストランド5）は，細胞膜と結合したときにはβストランド5は<a href="#" class="anno アンフォールド">アンフォールド</a>し，露<a href="#" class="anno 出し">出し</a>たコアβシートにあるβストランド4がほかのパーフリンゴライシンOのコアβシートにあるβストランド1と<a href="#" class="anno 主鎖">主鎖</a>のあいだの<a href="#" class="anno 水素結合">水素結合</a>によりβシートを形成し，会合をくり返し巨大な環状複合体を形成する．環状のプリポア複合体を形成したのち，ポア複合体への変換のときドメイン3の2組のヘリックスバンドルは2組のβヘアピン（βストランド1とβストランド2，および，βストランド3とβストランド4からなる）へと<a href="#" class="anno 構造変化">構造変化</a>し細胞膜に挿入される（<a href="#F1">図1</a>）．ポア複合体の構造はその巨大さゆえ<a href="#" class="anno 結晶化">結晶化</a>が困難であり<a href="#" class="anno 未解明">未解明</a>である．コレステロール依存性細胞溶解毒素ファミリーのなかで唯一，ニューモライシンは低温<a href="#" class="anno 電子顕微鏡">電子顕微鏡</a>によるポア複合体の構造が報告されている<a href="#R5"><sup>5)</sup></a>．しかし，このニューモライシンのβバレル構造を形成するβストランドは膜孔の中心軸に対し平行（0度）であり，これまでに報告されているβバレル<a href="#" class="anno 膜タンパク質">膜タンパク質</a>の結晶構造のもつβストランドの角度（37度以上）から大きくはずれている<a href="#R6"><sup>6)</sup></a>．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　パーフリンゴライシンOの単量体の結晶構造の膜結合モデルと巨大なβバレル型の膜孔の形成過程</strong><br/>（a）パーフリンゴライシンO単量体の膜結合モデル．ドメイン3に存在する2つのヘリックスバンドル（赤色と緑色）が膜貫通βストランドへと変換される．<br/>（b）βバレル型の膜孔の形成過程．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/05/Sato-Nature-Chemical-Biology-13.5.17-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　パーフリンゴライシンOの単量体の結晶構造の膜結合モデルと巨大なβバレル型の膜孔の形成過程" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sato-Nature-Chemical-Biology-13.5.17-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sato-Nature-Chemical-Biology-13.5.17-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　この研究では，ジスルフィド結合スキャン法によりパーフリンゴライシンOのポア複合体におけるβストランドの<a href="#" class="anno アライメント">アライメント</a>を同定し，巨大なβバレル構造の詳細を明らかにした．そして，低温のもとで形成されたプリポア複合体において，<a href="#" class="anno 蛍光分光法">蛍光分光法</a>と組み合わせることによりβバレルのフォールディングにおける中間体の構造を明らかにした．<br/><br/><h2>1．ジスルフィド結合スキャン法によるβストランドのアライメントの解析</h2><br/>　βバレルのβストランドは主鎖のあいだの水素結合により互いにつながるため，となりあう<a href="#" class="anno 残基">残基</a>からなるペアは固定され安定なβバレル構造を形成する．βストランドのあいだで主<a href="#" class="anno 鎖間">鎖間</a>の水素結合を介しとなりあう残基のCα間の距離は5.5Åだが，水素結合でつながる残基から2残基分ずれた残基とのCα間の距離は7～9Åに広がる（1残基ずれた場合にはβシート平面の裏側に<a href="#" class="anno 側鎖">側鎖</a>が出るため，ここでは考慮にいれない）．ジスルフィド結合を形成したのちのCβ間の距離は4.5Å以下であるため，2つの<a href="#" class="anno システイン">システイン</a>残基がβストランドのあいだでとなりあった場合のみ，この2つの残基はジスルフィド結合を形成することができる．すなわち，βストランドへ<a href="#" class="anno Cys">Cys</a>変異を導入しジスルフィド結合の形成の有無を確認することにより，どの残基どうしがβストランドのあいだでとなりあっているのかを調べ，その結果，βバレルにおいてβストランドどうしがどのように整列しているのかを知ることができる．そこで，もともとパーフリンゴライシンOのもつCysをAlaに置換してCysをもたないパーフリンゴライシンOを作製し，複合体においてとなりのパーフリンゴライシンOと<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>するβストランド1を含むβヘアピン構造もしくはβストランド4のβヘアピン構造の細胞膜を貫通する領域において，膜孔の内側に側鎖のむいた7つの残基へCysを導入したパーフリンゴライシンO<a href="#" class="anno 変異体">変異体</a>を作製した．βストランド1へCysを導入した変異体とβストランド4へCysを導入した変異体とを<a href="#" class="anno 系統的">系統的</a>に混ぜ合わせ，どの残基のあいだでジスルフィド結合が形成されるか調べた．<br/><br/><h2>2．βバレル型膜タンパク質のβストランドのアライメント</h2><br/>　非<a href="#" class="anno 特異的">特異的</a>なジスルフィド結合をさけるため，βストランド1 Cys変異体とβストランド4のCys変異体とを<a href="#" class="anno ジチオスレイトール">ジチオスレイトール</a>の<a href="#" class="anno 存在下">存在下</a>で同量ずつ混ぜ，コレステロールを含む<a href="#" class="anno リポソーム">リポソーム</a>においてポア複合体を形成させた．つぎに，<a href="#" class="anno スクロース">スクロース</a><a href="#" class="anno <a href="#" class="anno 密度勾配">密度勾配</a>遠心法"><a href="#" class="anno 密度勾配遠心">密度勾配遠心</a>法</a>によりポア複合体を含むリポソームを<a href="#" class="anno 単離">単離</a>し，<a href="#" class="anno 酸化剤">酸化剤</a>によりジスルフィド結合反応を促進し，複合体を解離させてから<a href="#" class="anno SDS">SDS</a>-<a href="#" class="anno アガロース">アガロース</a>電気<a href="#" class="anno 泳動">泳動</a>によりジスルフィド結合による<a href="#" class="anno 二量体">二量体</a>の形成効率を定量した．その結果，パーフリンゴライシンOのもつβバレル構造のβストランドのあいだでとなりあう7つの残基ペアを決定した（<a href="#F2">図2</a>）．これらのペアは，βストランドのあいだで水素結合によりつながったとなりあう残基とだけジスルフィド結合のペアを形成し，ほかのペアとはいっさい重複はなかった．すなわち，ひとつのβバレル型の膜孔を形成する約140本のβストランドがまったく整列を乱すことなく，厳密な制御をうけ安定なβバレル構造を形成していることが示された．また，形成効率は少し落ちたが，これらのペアは酸化剤なしでもジスルフィド結合を形成したことより，おのおのの残基はつねに近接し安定な状態を維持していることがわかった．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ポア複合体およびプリポア複合体におけるジスルフィド結合スキャン法による解析の結果</strong><br/>ここに示された残基すべてについて，ジスルフィド結合の形成効率を調べた．アライメントの結果にしたがいβストランドを図示すると，βヘアピン構造の先端が分子間で2残基分ずれていることがわかる．このずれを補正するため，βストランドは20度傾いて右巻きのβバレルを形成する．中間体でみられたジスルフィド結合のペアは，膜貫通βストランドの中心部分にあつまっている．一方，コアβシートの近傍の残基はジスルフィド結合をまったく形成しなかった．<br/>黒色で示したのが，ポア複合体において同定されたβストランドのアラインメント．オレンジ色で示したのが，フォールディング中間体におけるジスルフィド結合の形成効率．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/05/Sato-Nature-Chemical-Biology-13.5.17-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ポア複合体およびプリポア複合体におけるジスルフィド結合スキャン法による解析の結果" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sato-Nature-Chemical-Biology-13.5.17-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sato-Nature-Chemical-Biology-13.5.17-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．βバレル型膜タンパク質のβストランドの傾き</h2><br/>　βバレル型の膜孔の内側からみたとき，右側のパーフリンゴライシンOのβヘアピン構造の先端は2残基ほど下へずれていた（<a href="#F2">図2</a>）．このずれはβバレルが<a href="#" class="anno 右巻き">右巻き</a>にねじれた構造を示し，すなわち，パーフリンゴライシンOのβストランドはβバレルの軸に平行でなく傾いていた．βバレルの軸に対するβストランドの傾きは，<a href="#" class="anno 同じ">同じ</a>ストランドのCα-Cα間の距離とストランドのあいだのCα-Cα間の距離，βバレルを構成するストランドの数とずれの<a href="#" class="anno 大きさ">大きさ</a>から計算することができ，今回の結果からパーフリンゴライシンOのβストランドの傾きは20度であった<a href="#R7"><sup>7)</sup></a>．これまでに報告されているβバレル構造のβストランドの角度（37度以上）とは大きく異なっていたが，分子モデリングの予測の結果とは一致していた<a href="#R6"><sup>6)</sup></a>．<a href="#" class="anno 一般的">一般的</a>なβバレル型膜タンパク質は<a href="#" class="anno 曲率">曲率</a>が大きく（膜孔の直径は40Å以下），膜孔の内側をむいた側鎖のパッキングを緩和するためβストランドが大きく傾いている．しかし，膜孔の曲率が小さければ膜孔の内側の側鎖のパッキングは障害にならず，20度という急な角度が可能になる．このように，パーフリンゴライシンOのポア複合体にみられたβストランドの傾きは巨大なβバレル型膜タンパク質に特有の構造であると考えられた．<br/><br/><h2>4．βバレル型膜タンパク質のフォールディング中間体の解析</h2><br/>　ジスルフィド結合や変異により膜孔の形成が停止したプリポア複合体ではパーフリンゴライシンOは細胞膜に対し直立しており，ドメイン3は細胞膜から60Åほど離れている<a href="#R4"><sup>4)</sup></a>．これより，プリポア複合体にはβヘアピン構造が細胞膜へ挿入するまえにβバレル構造を形成できるスペースが存在している．もし，ジスルフィド結合のパターンと同じパターンがプリポア複合体でみられるならば，プリポア複合体においてβヘアピン構造が細胞膜へ挿入するよりまえにβバレル構造へと変換されたことを示す．低温下においてパーフリンゴライシンOは複合体を形成するが，膜孔の形成はほとんど検出されない．このことから，低温において形成されたプリポア複合体を解析すれば，細胞膜に挿入するまえのβヘアピン構造を調べることができる．さきに述べたポア複合体と同様の方法により，低温下において形成されたプリポア複合体に対しジスルフィド結合スキャン法を行った．その結果，おもにβストランド1とβストランド4の<a href="#" class="anno 中央部">中央部</a>の残基どうしでジスルフィド結合のペアを重複して形成し，コアβシートに近い残基はジスルフィド結合をまったく形成しなかった（<a href="#F2">図2</a>）．このように，プリポア複合体においてβヘアピンはβバレル構造を形成していないことが示された．βストランド1ととなりのパーフリンゴライシンOからのβストランド4とがさまざまな部位で相互作用しあっていたことから，βヘアピン構造はヘリックスバンドル構造から部分的にアンフォールドして流動的に構造を変えていると考えられた．<a href="#" class="anno 実際">実際</a>，プリポア複合体においてみられたジスルフィド結合は酸化剤の存在下でなければみることはできなかった．よって，プリポア複合体において2組のβヘアピン構造のあいだの相互作用は遷移的であると思われた．くわえて，βストランド4のCys変異体だけでプリポア複合体を形成したとき，となりのパーフリンゴライシンOにあるβストランド4のCysともジスルフィド結合を形成したことから，βストランド1とβストランド2からなるβヘアピンに比べ，βストランド3とβストランド4からなるほうのβヘアピンは<a href="#" class="anno かなり">かなり</a>柔軟な構造をもつといえた．<br/><br/><h2>5．蛍光によるβバレル構造の形成過程の解析</h2><br/>　<a href="#" class="anno 極">極</a>性環境に敏感な蛍光分子NBDは，<a href="#" class="anno 非極性">非極性</a>環境においては極性環境に比べ<a href="#" class="anno 蛍<a href="#" class="anno 光強度">光強度</a>">蛍光強度</a>が5～<a href="#" class="anno 10倍">10倍</a>に増加し，蛍光極大波長は15～20 nmの短波長側へのシフトを示す．この特徴を利用して，βヘアピン構造の4つの部位をCysに置換してNBDで修飾し，ヘリックスバンドルからβバレル構造へと変換する際の蛍光強度の変化からフォールディングの過程を考察した．ポア複合体の形成のときに膜孔の内側をむくβストランド1の193位とβストランド4の308位における蛍光変化をみたところ，ともにポア複合体では水性環境におかれるため非常に低い蛍光強度を示した．単量体の結晶構造において308位は分子の表面に位置しており，これにしたがい，308位を修飾した単量体の蛍光強度はポア複合体と同様に非常に低く，プリポア複合体でも蛍光強度に変化はなかった．一方，単量体の結晶構造においてコアβシートの裏側に位置し分子の内部に埋もれている193位を修飾した単量体は，若干高い蛍光強度を示したが，ポア複合体へ変換したのち長波長側にシフトして蛍光強度は減少した．興味深いことに，プリポア複合体では単量体の状態よりも1.<a href="#" class="anno 5倍">5倍</a>ほど高い蛍光強度が<a href="#" class="anno 再現性">再現性</a>よく得られた．すなわち，プリポア複合体において193位は<a href="#" class="anno 疎水的">疎水的</a>な環境におかれており，単量体やポア複合体とは異なる環境にあることがわかった．<br/>　一方，βバレル構造において脂質の側に側鎖をむけるβストランド1の205位もしくはβ4の301位を修飾したところ，単量体においてはどちらも蛍光強度は非常に低く，ポア複合体を形成したときに10倍以上も蛍光強度が増加した．これは，単量体の結晶構造においてみられるとおり，単量体の状態では蛍光基は水性環境に存在し，ポア複合体では脂質にかこまれた非極性環境へと移動するためであると思われた<a href="#R8"><sup>8,9)</sup></a>．一方，プリポア複合体ではともに蛍光強度は単量体とポア複合体との中間の値をとり，細胞膜への挿入のまえでありながらやや高い蛍光強度を示したことから，これらの残基は<a href="#" class="anno 疎水性">疎水性</a>コアを形成しているようにみえた．このように，単量体からプリポア複合体をへてポア複合体へと変換される際，βヘアピン構造は特定の状態を経由するよう制御されβバレル構造へと変化していくようすが蛍光分光法からわかった．とくに，<a href="#" class="anno 徐々">徐々</a>に疎水性の高い環境へと移動するようすは，疎水性の度合いによりフォールディングが制御されている<a href="#" class="anno 可能性">可能性</a>を示唆した．<br/><br/><h2>おわりに</h2><br/>　この研究では，ジスルフィド結合の形成を利用することにより，<a href="#" class="anno 構造解析">構造解析</a>の困難であるパーフリンゴライシンOの膜内在性の巨大なβバレル構造の詳細を知ることができた（<a href="#F3">図3</a>）．この<a href="#" class="anno 化学的">化学的</a>なアプローチは，βバレル構造のβストランドのあいだのアライメントを決定し，βストランドの先端のずれを同定し，パーフリンゴライシンOのポア複合体が膜孔の軸に対し20度の傾きをもつβストランドからなる新規の右巻きβバレル構造であることを<a href="#" class="anno 実験的">実験的</a>に証明した．プリポア複合体におけるジスルフィド結合スキャン法および蛍光分光法は，βバレルのフォールディングにおける中間体構造の存在を明らかにした．βストランド1とβストランド4の複数の残基による重複したジスルフィド結合のペアは，中間体における残基のあいだの遷移的な相互作用と不安定なβヘアピン構造を示した．しかし，完全に伸長して自由に動きまわるわけではなく，<a href="#" class="anno 膜貫通">膜貫通</a>βストランドの中央部分となる残基どうしのみの相互作用であった．これは，βストランドの主鎖間の水素結合が，コアβシートからの延長ではなく膜貫通βストランドの中央部分から徐々にできていくことを示唆しているのだろうか．蛍光分光法によるデータは，βヘアピン構造がランダムではなく制御されてヘリックスバンドルからβバレル構造へと変換されていることを示した．プリポア複合体においてみられた<a href="#" class="anno 疎水性コア">疎水性コア</a>はモルテングロビュール構造であると考えられ，βバレル構造の面の表と裏を決める重要なステップであるのかもしれない．今回，使用したプリポア複合体は低温により停止した中間体であり，室温に移すとすみやかにβバレル構造を形成した．すなわち，熱エネルギーによりパーフリンゴライシンOが屈曲するのか，中間体でみられた疎水性コアが崩壊するのか，なんらかの<a href="#" class="anno エネルギー障壁">エネルギー障壁</a>をこえることによりβバレル構造へと進行した．これよりさきの<a href="#" class="anno 中間状態">中間状態</a>を観察することができれば，さらに多くの情報を得られるだろう．βバレル膜タンパク質の<a href="#" class="anno 局在化">局在化</a>やフォールディングの研究は，細菌，ミトコンドリア，<a href="#" class="anno 葉緑体">葉緑体</a>において発展してきた．今回，開発された筆者らの手法は，これらの研究においても多くの情報を提供するだろう．<br/><br/><a name="F3"></a><div id="fig3-caption-text" style="display: none;"><strong>図3　この研究のまとめ</strong><br/>βヘアピン構造は細胞膜と結合したときβストランド5がはずれて会合がはじまる．プリポア複合体を形成したのち，ヘリックスバンドルは部分的にアンフォールディングし隣接するパーフリンゴライシンOのあいだで相互作用する．そして，ポア複合体にて20度の傾きをもつβストランドに変換され，膜内在性のβバレル構造を形成する．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/05/Sato-Nature-Chemical-Biology-13.5.17-Fig.3.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure3" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図3　この研究のまとめ" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sato-Nature-Chemical-Biology-13.5.17-Fig.3.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sato-Nature-Chemical-Biology-13.5.17-Fig.3.jpg" alt="figure3" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig3-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig3-caption').innerHTML = document.getElementById('fig3-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Tweten, R. K.</span>: <span class="ti">Cholesterol-dependent cytolysins, a family of versatile pore-forming toxins.</span> <span class='so'>Infect. Immun., 73, 6199-6209 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16177291" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Hotze, E. M. & Tweten, R. K.</span>: <span class="ti">Membrane assembly of the cholesterol-dependent cytolysin pore complex.</span> <span class='so'>Biochim. Biophys. Acta, 1818, 1028-1038 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21835159" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Rossjohn, J., Feil, S. C., McKinstry, W. J. et al.</span>: <span class="ti">Structure of a cholesterol-binding, thiol-activated cytolysin and a model of its membrane form.</span> <span class='so'>Cell, 89, 685-692 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9182756" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Ramachandran, R., Tweten, R. K. & Johnson, A. E.</span>: <span class="ti">The domains of a cholesterol-dependent cytolysin undergo a major FRET-detected rearrangement during pore formation.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 102, 7139-7144 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15878993" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Tilley, S. J., Orlova, E. V., Gilbert, R. J. C. et al.</span>: <span class="ti">Structural basis of pore formation by the bacterial toxin pneumolysin.</span> <span class='so'>Cell, 121, 247-256 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15851031" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Reboul, C. F., Mahmood, K., Whisstock, J. C. et al.</span>: <span class="ti">Predicting giant transmembrane β-barrel architecture.</span> <span class='so'>Bioinformatics, 28, 1299-1302 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22467914" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Sansom, M. S. & Kerr, I. D.</span>: <span class="ti">Transbilayer pores formed by β-barrels: molecular modeling of pore structures and properties.</span> <span class='so'>Biophys. J., 69, 1334-1343 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8534803" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Shepard, L. A., Heuck, A. P., Hamman, B. D. et al.</span>: <span class="ti">Identification of a membrane-spanning domain of the thiol-activated pore-forming toxin <em>Clostridium perfringens</em> perfringolysin O: an α-helical to β-sheet transition identified by fluorescence spectroscopy.</span> <span class='so'>Biochemistry, 37, 14563-14574 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9772185" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Shatursky, O., Heuck, A. P., Shepard, L. A. et al.</span>: <span class="ti">The mechanism of membrane insertion for a cholesterol-dependent cytolysin: a novel paradigm for pore-forming toxins.</span> <span class='so'>Cell, 99, 293-299 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10555145" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_04.html" target="_blank">12.4 Protein Transport in Prokaryotic Cells</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_01.html" target="_blank">12.1 Protein Synthesis and Basis of Intracellular Transport</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_05.html" target="_blank">12.5 Exocytosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_01.html" target="_blank">11.1 Biological Membranes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/06_03.html" target="_blank">6.3 Lipids</a></li><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">佐藤 健大（Takehiro K. Sato）</span><br>略歴：2006年 名古屋大学大学院理学研究科 修了，同年 米国Texas A&M Health Science Centerポスドクリサーチアソシエイトを経て，2012年より同 シニアリサーチアソシエイト．<br>研究テーマ：細胞膜において起こるタンパク質の構造変化．<br>抱負：細菌毒素でβバレル業界をリードし，40度の夏が来ても自転車に乗ってエクササイズ．<br><br><strong>Arthur E. Johnson</strong><br>米国Texas A&M Health Science Center教授．<br></div><br>© 2013 佐藤健大・Arthur E. Johnson Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

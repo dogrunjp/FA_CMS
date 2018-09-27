@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> NAD+還元[NiFe]ヒドロゲナーゼのもつレドックススイッチ機構の構造基盤 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/17145" rel="bookmark">NAD+還元[NiFe]ヒドロゲナーゼのもつレドックススイッチ機構の構造基盤</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>庄村康人<sup>1</sup>・樋口芳樹<sup>2</sup></strong><br>（<sup>1</sup>茨城大学大学院理工学研究科 量子線科学専攻生体分子科学研究室，<sup>2</sup>兵庫県立大学大学院生命理学研究科 生体物質構造学I分野）<br>email：<a href="mailto:yasuhito.shomura.s@vc.ibaraki.ac.jp">庄村康人</a>，<a href="mailto:hig@sci.u-hyogo.ac.jp">樋口芳樹</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.100">10.7875/first.author.2017.100</a><br><div class="reference"><br><span class="ti">Structural basis of the redox switches in the NAD<sup>+</sup>-reducing soluble [NiFe]-hydrogenase.</span><br><span class="au">Y. Shomura, M. Taketa, H. Nakashima, H. Tai, H. Nakagawa, Y. Ikeda, M. Ishii, Y. Igarashi, H. Nishihara, K. -S. Yoon, S. Ogo, S. Hirota, Y. Higuchi</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28860386" target="_blank"><em>Science</em>, <strong>357</strong>, 928-932 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno NAD">NAD</a><sup>+</sup>還元[NiFe]<a href="#" class="anno ヒドロゲナーゼ">ヒドロゲナーゼ</a>はお<a href="#" class="anno も">も</a>に<a href="#" class="anno 好気">好気</a>性細菌のもつ多<a href="#" class="anno 酵素<a href="#" class="anno 複合体">複合体</a>">酵素複合体</a>で，水素分子の分解および合成と共役したNADの還元および酸化を触媒する．<a href="#" class="anno 呼吸鎖">呼吸鎖</a><a href="#" class="anno 複合体I">複合体I</a>の<a href="#" class="anno 可溶">可溶</a>性部位と共通の祖先をもつが，その<a href="#" class="anno サブユニット">サブユニット</a>や<a href="#" class="anno 鉄硫黄<a href="#" class="anno ク<a href="#" class="anno ラスター">ラスター</a>">クラスター</a>">鉄硫黄クラスター</a>の配向については不明であった．今回，筆者らは，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼと<a href="#" class="anno 呼吸鎖複合体">呼吸鎖複合体</a>Iの<a href="#" class="anno 分子進化">分子進化</a>における関係，および，Ni-Fe<a href="#" class="anno 活性部位">活性部位</a>の<a href="#" class="anno 構造的">構造的</a>な特徴と酸素に対する<a href="#" class="anno 安定性">安定性</a>との関係について明らかにすることを目的に，<a href="#" class="anno 水素酸化細菌">水素酸化細菌</a>に由来するNAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼの<a href="#" class="anno 結晶構造">結晶構造</a>を決定した．その結果，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼのヒドロゲナーゼユニットと呼吸鎖複合体Iの<a href="#" class="anno <a href="#" class="anno 相">相</a>同">相同</a>なユニットは<a href="#" class="anno 進化的">進化的</a>に分岐したのち，独立にNAD<a href="#" class="anno 酸化還元">酸化還元</a>ユニットを獲得したことが示唆された．また，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼの<a href="#" class="anno 酸化型">酸化型</a>の構造と<a href="#" class="anno 還元型">還元型</a>の構造との比較により，酸素に対する防御，および，<a href="#" class="anno <a href="#" class="anno 活性酸素">活性酸素</a>種">活性酸素種</a>の生成の抑制において，特定の鉄硫黄クラスターの<a href="#" class="anno 酸化数">酸化数</a>の変化が引き金となる<a href="#" class="anno レドックス">レドックス</a>スイッチ機構が関与することを見い<a href="#" class="anno 出し">出し</a>た．<br/><br/><h2>はじめに</h2><br/>　ヒドロゲナーゼは水素分子の合成および分解をほかの<a href="#" class="anno 化合物">化合物</a>の<a href="#" class="anno 酸化還元反応">酸化還元反応</a>と共役させることにより，細胞においてさまざまな機能を担う<a href="#R1"><sup>1)</sup></a>．これらは，生育に必要なエネルギーを獲得する手段としての水素の分解と，余剰な還元<a href="#" class="anno 当量">当量</a>を放出する機構としての水素の合成とに大別されるが，NAD酸化還元ユニットと複合体を形成するものは双<a href="#" class="anno 方向性">方向性</a>型としてそのどちらにも機能すると考えられている．また，ヒドロゲナーゼには活性部位の金属種が異なり進化的にも独立したNi-Fe型，Fe-Fe型，非<a href="#" class="anno ヘム">ヘム</a><a href="#" class="anno 単核">単核</a>Fe型の3種類があることが知られているが，このうちNi-Fe型は<a href="#" class="anno アミノ">アミノ</a>酸配列の<a href="#" class="anno 類似性">類似性</a>を根拠に呼吸鎖複合体Iの可溶性部位のサブユニットと共通の祖先をもつことが1990年代より指摘されていた<a href="#R2"><sup>2)</sup></a>．<br/>　NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼは2つのサブユニットからなるヒドロゲナーゼユニットのほか，2つあるいは3つのサブユニットからなるNAD酸化還元ユニットから構成されるが<a href="#R3"><sup>3)</sup></a>，これらのサブユニットはすべて呼吸鎖複合体Iに<a href="#" class="anno ホモログ">ホモログ</a>をもつ．呼吸鎖複合体Iの結晶構造はすでに報告されているが，<a href="#" class="anno 電子伝達">電子伝達</a>に必要な鉄硫黄クラスターを含む重要なサブユニットのひとつがNAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼにはみられ<a href="#" class="anno ないこと">ないこと</a>から，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼと呼吸鎖複合体Iとでサブユニットや鉄硫黄クラスターの配向は異なることが予想されていた．また，呼吸鎖複合体Iは老化やがんの原因となる活性酸素種をもっとも多く生成するタンパク質のひとつであり，その主たる発生源は<a href="#" class="anno 補因子">補因子</a>としてFMNを含むN<a href="#" class="anno ADH">ADH</a>酸化活性部位とされているが<a href="#R4"><sup>4)</sup></a>，そこに活性酸素種の生成を抑制するなんらかの機構があるかどうかは不明であった．呼吸鎖複合体Iの<a href="#" class="anno 生理的">生理的</a>な機能はNADHの酸化と共役した<a href="#" class="anno キノン">キノン</a>類の還元であるが，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼとは異なり，細胞における存在様式および電子<a href="#" class="anno 受容体">受容体</a>の種類や濃度の関係から，逆の反応は生理的に進行しない．<br/>　ほかの[NiFe]ヒドロゲナーゼと同様に，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼの活性部位の分<a href="#" class="anno 光学的">光学的</a>な研究も<a href="#" class="anno 精力的">精力的</a>に進められていたが，<a href="#" class="anno <a href="#" class="anno 電子ス<a href="#" class="anno ピン">ピン</a>共鳴">電子スピン共鳴</a>法">電子スピン共鳴法</a>やX<a href="#" class="anno 線吸収">線吸収</a>分光法により活性部位の構造がほかとは大きく異なることが示唆されたものの，解析の条件や<a href="#" class="anno 生物種">生物種</a>により結果や解釈が大きく異なり詳細は不明であった<a href="#R5"><sup>5-7)</sup></a>．しかし，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼはおもに<a href="#" class="anno 好気性">好気性</a>細菌に存在することから活性酸素種に対するなんらかの<a href="#" class="anno 防御機構">防御機構</a>のあることが期待され，その活性部位の<a href="#" class="anno 立体構造">立体構造</a>には大きな関心がよせられていた．<br/><br/><h2>1．NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼのサブユニットおよび鉄硫黄クラスターの配向</h2><br/>　<a href="#" class="anno 結晶化">結晶化</a>には水素酸化細菌<em>Hydrogenophilus th<a href="#" class="anno erm">erm</a>oluteolus</em> TH-1に由来するNAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼを用いた．ほかの多くの[NiFe]ヒドロゲナーゼと同様に異種における大量<a href="#" class="anno 発現系">発現系</a>の構築が困難であったことから，<a href="#" class="anno 菌体">菌体</a>からネイティブなタンパク質を<a href="#" class="anno 単離">単離</a>し精製した．酸素の雰囲気化において精製および結晶化し，抗凍結処理のみを施した結晶から得られた最<a href="#" class="anno 高分解能">高分解能</a>2.58Åの回折<a href="#" class="anno デ">デ</a>ータを用い，<a href="#" class="anno 内在性">内在性</a>の金属を用いた単波長<a href="#" class="anno 異常分散">異常分散</a>法により位相を決定し，<a href="#" class="anno 精密化">精密化</a>した構造を酸化型の構造とした（PDB ID：<a href="http://service.pdbj.org/mine/Det<a href="#" class="anno ail">ail</a>2?PDBID=5xf9&amp;PAGEID=Summary" target="_blank">5XF9</a>，<a href="#F1">図1a</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼの全体構造と呼吸鎖複合体Iの可溶性部位の構造の比較</strong><br/>（a）水素酸化細菌<em>Hydrogenophilus thermoluteolus</em> TH-1に由来するNAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼの酸化型の全体構造．ヒドロゲナーゼユニット（HoxYおよびHoxH）とNAD酸化還元ユニット（HoxFおよびHoxU）からなる．<br/>（b）好熱菌<em>Thermus thermophilus</em> HB8に由来する呼吸鎖複合体Iの可溶性部位の構造．<br/>相同性のあるサブユニットを同じ色で示す．数字はクラスターの中心間の距離をÅで示す．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Higuchi-Science-17.9.1-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　NAD+還元[NiFe]ヒドロゲナーゼの全体構造と呼吸鎖複合体Iの可溶性部位の構造の比較" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Higuchi-Science-17.9.1-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Higuchi-Science-17.9.1-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼの4つのサブユニットは直列に近い<a href="#" class="anno かた">かた</a>ちで会合しており，NAD酸化還元ユニットとヒドロゲナーゼユニットはその両端に位置し，そのあいだに5つの鉄硫黄クラスターがあった．このうちY1を除く4つの鉄硫黄クラスターおよびFMNの配向は<a href="#" class="anno 好熱">好熱</a>菌に由来する呼吸鎖複合体I（PDB ID：<a href="http://service.pdbj.org/mine/De<a href="#" class="anno tail">tail</a>2?PDBID=4hea&amp;PAGEID=Summary" target="_blank">4HEA</a>，<a href="#F1">図1b</a>）とよく似ていた．これらはすべてHoxFとHoxUからなるNAD酸化還元ユニットに含まれ，HoxFは呼吸鎖複合体Iの<a href="#" class="anno Nqo1">Nqo1</a>および<a href="#" class="anno Nqo2">Nqo2</a>，HoxUはNqo3と対応し，サブユニットの配向もそろっていた．一方，HoxYとHoxHからなるヒドロゲナーゼユニットは，呼吸鎖複合体Iにおいて対応するNqo6とNqo4とは大きく異なる配向を示した．HoxYとHoxHの位置関係はNqo6とNqo4の位置関係と<a href="#" class="anno 同じ">同じ</a>であったため，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼのHoxF-HoxUおよび呼吸鎖複合体IのNqo1-Nqo2-Nqo3，また，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼのHoxY-HoxHおよび呼吸鎖複合体IのNqo6-Nqo4は分子進化の初期にモジュール化したサブ複合体とみなされた．呼吸鎖複合体Iは進化の過程において<a href="#" class="anno 酸素発生">酸素発生</a>型の<a href="#" class="anno 光合成生物">光合成生物</a>の出現により<a href="#" class="anno 大気中">大気中</a>の酸素濃度が高くなったのちに出現したのであろうが，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼは多くの細菌がもつことおよびその機能から類推するに，それ以前の大気が<a href="#" class="anno 嫌気的">嫌気的</a>な雰囲気であったころから存在していたと考えられる．NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼと呼吸鎖複合体Iの共通の祖先がどのようなタンパク質であったのかを断定することはむずかしいが，今回の<a href="#" class="anno 構造解析">構造解析</a>から，HoxY-HoxHおよびNqo6-Nqo4は進化の過程で分岐したのち，HoxF-HoxUおよびNqo1-Nqo2-Nqo3を独立に獲得したことが示唆された．<br/>　呼吸鎖複合体IにおいてNqo3からの電子はN6aがひき継ぐが，これに対応するサブユニットはNAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼにはみられず，代わりにHoxYのY1が隣接していた．<a href="#" class="anno 好熱菌">好熱菌</a>に由来する呼吸鎖複合体Iには電子伝達にはいっけん関与しない鉄硫黄クラスターとしてN1aおよびN7が含まれるが，これらの機能ははっきりとはわかっていない．N7は特定の生物種のみにみられる一方，N1aは1電子<a href="#" class="anno 担体">担体</a>である鉄硫黄クラスターが2電子酸化に関与するための電子プールとして機能するという説があるが，この研究においてNAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼにはN1aは存在しないことが示されたことは，最新の<a href="#" class="anno 分光学的">分光学的</a>な解析の結果と同様に<a href="#R8"><sup>8)</sup></a>，この説を支持しない．HoxUおよびNqo3には異なるサブユニットが隣接しているにもかかわらず，U3とY1の距離およびN5とN6aの距離はともに16.6Åとやや長くなっていたが，このことが電子の移動速度に<a href="#" class="anno どれほど">どれほど</a>影響をおよぼすかは<a href="#" class="anno まだ">まだ</a>わかっていない．<br/><br/><h2>2．Ni-Fe活性部位の酸化型の構造と還元型の構造</h2><br/>　NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼの酸化型のNi-Fe活性部位はこれまでのヒドロゲナーゼにはみられない<a href="#" class="anno 配位">配位</a>構造をとっていた（<a href="#F2">図2a</a>）．従来の酸化型のNi-Fe活性部位については，Niには2つの<a href="#" class="anno Cys">Cys</a>およびOH<sup>-</sup>が架橋<a href="#" class="anno 配位子">配位子</a>として，さらに，2つのCysが末端配位子として結合した5配位構造をとり（<a href="#F2">図2b</a>），還元型のNi-Fe活性部位においてはOH<sup>-</sup>が外れることがわかっていた<a href="#R9"><sup>9)</sup></a>．これに対して，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼの酸化型においては，近傍にある<a href="#" class="anno Glu">Glu</a>32が2座配位子としてくわわり，末端配位子のCysが1つ架橋配位子の位置にシフトしていた．この配位構造においてはNiおよびFeが6配位正8面体構造をとり，基質となる水素や活性部位の損傷を起こすとされる酸素などが接近できない．また，Glu32はほかの[NiFe]ヒドロゲナーゼにもみられ，水素の分解合成反応における<a href="#" class="anno プロト">プロト</a>ンの受容体あるいは<a href="#" class="anno 供与体">供与体</a>のひとつとなる重要な<a href="#" class="anno 残基">残基</a>であった．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　Ni-Fe活性部位の構造の比較</strong><br/>（a）酸化型のNAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼ．<br/>（b）酸化型の膜結合[NiFe]ヒドロゲナーゼ．<br/>（c）還元型のNAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼ．<br/>（d）還元型の膜結合[NiFe]ヒドロゲナーゼ．<br/>アミノ酸残基はCαを含む側鎖の原子のみ，水素原子を省略して示す．数字はNiとFeの距離をÅで示す．CN<sup>-</sup>およびCOはタンパク質に由来しない2原子分子として配位している．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Higuchi-Science-17.9.1-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　Ni-Fe活性部位の構造の比較" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Higuchi-Science-17.9.1-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Higuchi-Science-17.9.1-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼの酸化型の活性部位の構造がこれまでに報告されていたものとは大きく異なっていたことから還元型の構造も決定する必要が生じたが，還元型の結晶の回折データの取得は困難をきわめた．のちに述べるように，酸化型から還元型への変換はNi-Fe活性部位のほかにおいても<a href="#" class="anno 比較的">比較的</a>大きな<a href="#" class="anno 構造変化">構造変化</a>および補因子の<a href="#" class="anno 脱離">脱離</a>をともなうためか，結晶を十分に還元させると回折能がいちじるしく低下した．還元条件における結晶化の条件も探索したが，これまでに有効な結晶化の条件はみつかっていない．<a href="#" class="anno 最終的">最終的</a>には，還元による回折能の低下により構造解析ができなくなるぎりぎりの状態をみきわめてその回折データを取得し，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼの還元型の構造を決定した（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=5xfa&amp;PAGEID=Summary" target="_blank">5XFA</a>）．その結果，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼの還元型の活性部位の構造（<a href="#F2">図2c</a>）は従来の[NiFe]ヒドロゲナーゼの還元型の活性部位の構造（<a href="#F2">図2d</a>）と同じで，<a href="#" class="anno 反応機構">反応機構</a>や反応サイクルにおける物性には大きな違いがないことが示唆された．電子スピン共鳴法により<a href="#" class="anno 活性型">活性型</a>の活性部位の電子状態も解析したが，その結果はこれと矛盾しなかった．酸化型と還元型のNi-Fe活性部位の構造変化は<a href="#" class="anno 可逆的">可逆的</a>であることは確認されており，酸化型の構造は，精製，結晶化，<a href="#" class="anno X線照射">X線照射</a>における<a href="#" class="anno アーティファクト">アーティファクト</a>ではないと考えられた．<br/><br/><h2>3．鉄硫黄クラスターがトリガーとなる2つのレドックススイッチ機構</h2><br/>　Ni-Fe活性部位のほかにも，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼの酸化型と還元型の構造には2つの大きな違いがあった．ひとつはFMNの結合の有無，もうひとつはHoxFの<a href="#" class="anno C末端">C末端</a>セグメントの位置であり，両者は互いに関係した．酸化型の構造においてはHoxFのC末端セグメントがNAD<a href="#" class="anno 結合部">結合部</a>位を占有していたのに対して，還元型の構造においてはこれが外れて<a href="#" class="anno かなり">かなり</a>離れた場所に存在していた．また，酸化型の構造においてはFMNの<a href="#" class="anno 電子密度">電子密度</a>が明確に確認されたのに対して，還元型の構造においてはFMNの電子密度はみられなかった．HoxFのC末端セグメントは生物<a href="#" class="anno 種間">種間</a>における<a href="#" class="anno アミノ酸配列">アミノ酸配列</a>の<a href="#" class="anno 保存性">保存性</a>が低いことから，これがFMNやNADの<a href="#" class="anno 親和性">親和性</a>を<a href="#" class="anno 積<a href="#" class="anno 極">極</a>的">積極的</a>に制御するような重要な役割を担うとは考えにくく，たんにFMNの有無により安定に存在する場所が異なるという<a href="#" class="anno 可能性">可能性</a>が高いと思われた．また，酸化型と還元型の構造とでFMN<a href="#" class="anno 結合部位">結合部位</a>の付近の構造を比較しても，HoxFのC末端セグメントのほかには有意な違いがみられなかったことから，FMNの結合および解離は隣接する鉄硫黄クラスターF1の電荷により制御されているのではないかと考えた．水素の濃度が高く水素が高い頻度で分解されている状況においてはF1の酸化数が<a href="#" class="anno 恒常的">恒常的</a>に低くFMNは負の電荷をもつためその親和性が低下し，逆に，<a href="#" class="anno 休止状態">休止状態</a>においてF1の酸化数が高くなるとFMNとの親和性が高くなるのであろう．還元型の結晶が調製されたような条件，すなわち，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼが完全に還元されているにもかかわらず<a href="#" class="anno 電子受容体">電子受容体</a>であるNAD<sup>+</sup>が存在しないような状態において酸素が侵入すると，FMNと酸素が反応して活性酸素種が生成しやすいと考えられる．したがって，細胞において同様な状態になったとき，FMNの解離は活性酸素種の生成を抑制するうえで有効な手段といえる．<br/>　一方，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼのNi-Fe活性部位の構造変化も隣接する鉄硫黄クラスターの酸化数の変化により起こることが，酸化型と還元型の構造の比較により見い出された．還元型の構造においてはNi-Fe活性部位に隣接する鉄硫黄クラスターY1にArg58の<a href="#" class="anno 側鎖">側鎖</a>が向いているが，酸化型の構造においてはこれが逆を向きGlu56と<a href="#" class="anno 塩橋">塩橋</a>を形成していた．これにともない，<a href="#" class="anno 水素結合">水素結合</a>ネットワークによりつながっていたGlu32がフリーとなり，Ni-Fe活性部位に配位することが可能になっていた．細胞において水素濃度の低下とあわせて<a href="#" class="anno 酸化ストレス">酸化ストレス</a>環境になった場合，従来のNi-Fe活性部位の構造だと容易に酸素による攻撃をゆるすことになるが，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼの酸化型のような構造ではそれをふせぐことが可能である．<br/><br/><h2>おわりに</h2><br/>　この研究において筆者らにより提唱された，NAD<sup>+</sup>還元[NiFe]ヒドロゲナーゼにおけるNi-Fe活性部位の酸素に対する防御，および，NAD酸化還元ユニットにおける活性酸素種の生成の抑制に，鉄硫黄クラスターがレドックススイッチのトリガーとして重要な役割を担うというモデルはこれまでに例のないもので，ヒドロゲナーゼおよびこれに類似する触媒の安定性の問題を克服するための鍵になることが期待される．以前に，筆者らの<a href="#" class="anno 研究グループ">研究グループ</a>は，別の種類の[NiFe]ヒドロゲナーゼにおいて，隣接する鉄硫黄クラスターが2電子を供与することにより酸素の分解を促進し酸素の耐性に寄与するというモデルを提唱したが<a href="#R10"><sup>10)</sup></a>，この研究も同様に，鉄硫黄クラスターがたんに電子の経路としてではなく別の重要な役割を担っており，このような例がこれからも発見されるであろう．また，呼吸鎖複合体Iの生成する活性酸素種と老化やがんとの関係が指摘される一方，活性酸素の生成をふせぐ機構についての理解は進んでいないが，今回，提唱された<a href="#" class="anno 分子機構">分子機構</a>が大きな<a href="#" class="anno ブレークスルー">ブレークスルー</a>になることが期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Shomura, Y. & Higuchi, Y.</span>: <span class="ti">Structural aspects of [NiFe]-hydrogenases.</span> <span class='so'>Rev. Inorg. Chem., 33, 173-192 (2013)</span></li><br><li id="R2"><span class='au'>Bohm, R., Sauter, M. & Bock, A.</span>: <span class="ti">Nucleotide sequence and expression of an operon in <em>Escherichia coli</em> coding for formate hydrogenylase components.</span> <span class='so'>Mol. Microbiol., 4, 231-243 (1990)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2187144" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Schmitz, O., Boison, G., Salzmann, H. et al.</span>: <span class="ti">HoxE: a subunit specific for the pentameric bidirectional hydrogenase complex (HoxEFUYH) of cyanobacteria.</span> <span class='so'>Biochim. Biophys. Acta, 1554, 66-74 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12034472" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Kudin, A. P., Bimpong-Buta, N. Y., Vielhaber, S. et al.</span>: <span class="ti">Characterization of superoxide-producing sites in isolated brain mitochondria.</span> <span class='so'>J. Biol. Chem., 279, 4127-4135 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14625276" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Happe, R. P., Roseboom, W., Egert, G. et al.</span>: <span class="ti">Unusual FTIR and EPR properties of the H<sub>2</sub>-activating site of the cytoplasmic NAD-reducing hydrogenase from <em>Ralstonia eutropha</em>.</span> <span class='so'>FEBS Lett., 466, 259-263 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10682839" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Van der Linden, E., Burgdorf, T., Bernhard, M. et al.</span>: <span class="ti">The soluble [NiFe]-hydrogenase from <em>Ralstonia eutropha</em> contains four cyanides in its active site, one of which is responsible for the insensitivity towards oxygen.</span> <span class='so'>J. Biol. Inorg. Chem., 9, 616-626 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15164270" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Horch, M., Lauterbach, L., Saggu, M. et al.</span>: <span class="ti">Probing the active site of an O<sub>2</sub>-tolerant NAD<sup>+</sup>-reducing [NiFe]-hydrogenase from <em>Ralstonia eutropha</em> H16 by in situ EPR and FTIR spectroscopy.</span> <span class='so'>Angew. Chem. Int. Ed. Engl., 49, 8026-8029 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20857465" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Gnandt, E., Dorner, K., Strampraad, M. F. J. et al.</span>: <span class="ti">The multitude of iron-sulfur clusters in respiratory complex I.</span> <span class='so'>Biochim. Biophys. Acta, 1857, 1068-1072 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26944855" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Lubitz, W., Ogata, H., Rudiger, O. et al.</span>: <span class="ti">Hydrogenases.</span> <span class='so'>Chem. Rev., 114, 4081-148 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24655035" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Shomura, Y., Yoon, K. S., Nishihara, H. et al.</span>: <span class="ti">Structural basis for a [4Fe-3S] cluster in the oxygen-tolerant membrane-bound [NiFe]-hydrogenase.</span> <span class='so'>Nature, 479, 253-256 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22002607" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/3775" target="_blank">新着論文レビュー</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=EBI" target="_blank">EBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=KEGG" target="_blank">KEGG</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=PDB" target="_blank">PDB</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=DDBJ" target="_blank">DDBJ</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=構造解析" target="_blank">構造解析</a></li><br></ul><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/16_04.html" target="_blank">16.4 Photosynthesis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/16_03.html" target="_blank">16.3 Respiration: The Citric Acid Cycle and Respiratory <br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/22_05.html" target="_blank">22.5 Stem Growth and Branching</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/16_05.html" target="_blank">16.5 Topology of Mitochondria and Chloroplasts</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_02.html" target="_blank">11.2 Characteristic Structures in Prokaryotes</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">庄村 康人（Yasuhito Shomura）</span><br>略歴：2003年 京都大学大学院理学研究科 修了，同年 ドイツMax Planck Institute of Biochemistry博士研究員，2005年 兵庫県立大学大学院生命理学研究科 助教を経て，2015年より茨城大学大学院理工学研究科 准教授．<br>研究テーマ：金属タンパク質とその生合成の過程の構造生物学，および，分子シャペロンによるタンパク質の高次構造の形成機構．<br>関心事：金属酵素の活性部位の構築原理．<br><br><strong>樋口 芳樹（Higuchi Yoshiki）</strong><br>兵庫県立大学大学院生命理学研究科 教授．<br>研究室URL：<a href="http://www.sci.u-hyogo.ac.jp/life/biophys1/index-j.html" target="_blank">http://www.sci.u-hyogo.ac.jp/life/biophys1/index-j.html</a><br></div><br>© 2017 庄村康人・樋口芳樹 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

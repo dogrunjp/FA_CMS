@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> メチオニンの代謝はヒトのES細胞およびiPS細胞の未分化な状態の維持および分化を制御している : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/8655" rel="bookmark">メチオニンの代謝はヒトのES細胞およびiPS細胞の未分化な状態の維持および分化を制御している</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>白木伸明・粂 昭苑</strong><br>（熊本大学発生医学研究所 多能性幹細胞分野）<br>email：<a href="mailto:skume@kumamoto-u.ac.jp">粂 昭苑</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.053">10.7875/first.author.2014.053</a><br><div class="reference"><br><span class="ti">Methionine metabolism regulates maintenance and differentiation of human pluripotent stem cells.</span><br><span class="au">Nobuaki Shiraki, Yasuko Shiraki, Tomonori Tsuyama, Fumiaki Obata, Masayuki Miura, Genta Nagae, Hiroyuki Aburatani, Kazuhiko Kume, Fumio Endo, Shoen Kume</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24746804" target="_blank"><em>Cell Metabolism</em>, <strong>19</strong>, 780-794 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　マウスの<a href="#" class="anno ES細胞">ES細胞</a>および<a href="#" class="anno iPS細胞">iPS細胞</a>においては<a href="#" class="anno スレオニン">スレオニン</a>の代謝がさかんであり，スレオニンを除去した<a href="#" class="anno 培地">培地</a>では生育でき<a href="#" class="anno ないこと">ないこと</a>がわかっていたが，ヒトのES細胞およびiPS細胞における<a href="#" class="anno アミノ">アミノ</a>酸の代謝に関しては報告がなかった．筆者らは，<a href="#" class="anno 遺伝子発現">遺伝子発現</a>の解析および<a href="#" class="anno 代謝産物">代謝産物</a>の定量により，ヒトのES細胞およびiPS細胞においてはメチオニンの代謝が非常にさかんであることを見い<a href="#" class="anno 出し">出し</a>た．ヒトのES細胞およびiPS細胞をメチオニン除去培地で5時間培養すると，メチオニンの代謝産物であり生体におけるさまざまな<a href="#" class="anno メチル">メチル</a>化反応において利用されている<em>S</em>-ア<a href="#" class="anno デ">デ</a>ノシルメチオニンの濃度が顕著に低下し，<a href="#" class="anno p53">p53</a>シグナルの<a href="#" class="anno 活性化">活性化</a>，<a href="#" class="anno NANOG">NANOG</a>の発現の低下がひき起こされた．<a href="#" class="anno 未分化">未分化</a>な状態を維持する過程においてメチオニン除去培地で短時間培養することにより，細胞の増殖は抑制され，のちの三胚葉への分化は促進された．さらに，未分化な細胞と比べ分化した<a href="#" class="anno 内胚葉">内胚葉</a>細胞はメチオニンの<a href="#" class="anno 要求性">要求性</a>が低いという性質を利用して，分化を誘導する過程においてメチオニン除去培地を用いることにより未分化な細胞を<a href="#" class="anno 選択的">選択的</a>に除去することに成功した．この研究では，これまで不明であったヒトのES細胞およびiPS細胞における未分化な状態の維持および分化の機構におけるメチオニン代謝の<a href="#" class="anno 重要性">重要性</a>を明らかにし，<em>S</em>-アデノシルメチオニンがその制御にはたらくことをはじめて報告した．<br/><br/><h2>はじめに</h2><br/>　これまで，筆者らの<a href="#" class="anno 研究室">研究室</a>では，ES細胞（embryonic stem <a href="#" class="anno c<a href="#" class="anno ell">ell</a>">cell</a>，<a href="#" class="anno 胚性">胚性</a><a href="#" class="anno 幹細胞">幹細胞</a>）およびiPS細胞（induced pluripotent stem cell，人工<a href="#" class="anno <a href="#" class="anno 多能性">多能性</a>幹細胞">多能性幹細胞</a>）を用いて内胚葉の発生および分化の機構を解明してきた．その過程で，<a href="#" class="anno 細胞外">細胞外</a>マトリックスや<a href="#" class="anno 低分子">低分子</a><a href="#" class="anno 化合物">化合物</a>を利用して細胞外の環境を変化させることにより，ES細胞およびiPS細胞から肝臓<a href="#R1"><sup>1)</sup></a>，<a href="#" class="anno 膵">膵</a>臓<a href="#R2"><sup>2,3)</sup></a>，小<a href="#" class="anno 腸細胞">腸細胞</a><a href="#R4"><sup>4)</sup></a> への選択的な分化を誘導することに<a href="#" class="anno も">も</a>成功した．ES細胞およびiPS細胞といった多能性をもつ幹細胞は，分化した細胞とは異なる代謝プログラムを保持していることがわかっており，その代謝プログラムが幹細胞における未分化な状態の維持や<a href="#" class="anno <a href="#" class="anno 自己複製">自己複製</a>能">自己<a href="#" class="anno 複製能">複製能</a></a>などに関与することが明らかになってきている<a href="#R5"><sup>5-7)</sup></a>．ES細胞およびiPS細胞における<a href="#" class="anno アミノ酸代謝">アミノ酸代謝</a>については，マウスのES細胞の生存にはスレオニンが必須であることが明らかにされており，未分化なES細胞ではスレオニンから<a href="#" class="anno グ<a href="#" class="anno リシン">リシン</a>">グリシン</a>および<a href="#" class="anno アセチル">アセチル</a>CoAを合成する際の<a href="#" class="anno 律速酵素">律速酵素</a>であるスレオニン<a href="#" class="anno <a href="#" class="anno 脱水素">脱水素</a>酵素">脱水素酵素</a>が高く発現していることがわかっていた<a href="#R8"><sup>8)</sup></a>．また，マウスのES細胞およびiPS細胞においては，スレオニンから複数のステップをへて合成される<em>S</em>-アデノシルメチオニンが<a href="#" class="anno エピゲノム">エピゲノム</a>の状態を維持するために重要であることも報告されていた<a href="#R9"><sup>9)</sup></a>．しかし，ヒトのES細胞およびiPS細胞においてはこのスレオニン脱水素酵素は発現していないことがわかっており，ヒトのES細胞およびiPS細胞におけるアミノ酸代謝の役割は不明であった．この研究では，ヒトのES細胞およびiPS細胞は未分化な状態では高いメチオニン要求性を示し，このメチオニン要求性は分化にともない減少することを見い出した．<br/><br/><h2>1．メチオニンの除去によりヒトのES細胞およびiPS細胞は<a href="#" class="anno 細胞周期">細胞周期</a>が停止し<a href="#" class="anno 細胞死">細胞死</a>が起こる</h2><br/>　未分化なヒトのES細胞およびiPS細胞におけるアミノ酸の要求性について，2つの<a href="#" class="anno ヒトES細胞">ヒトES細胞</a>株および2つのヒトiPS<a href="#" class="anno 細胞株">細胞株</a>を用いて検討した．9種類の<a href="#" class="anno 必須アミノ酸">必須アミノ酸</a>をそれぞれ1つずつ除去した未分化<a href="#" class="anno 維持培地">維持培地</a>を調製し，それぞれの培地で48時間培養したのち<a href="#" class="anno 細胞数">細胞数</a>を評価した．<a href="#" class="anno ロイシン">ロイシン</a>，<a href="#" class="anno リジン">リジン</a>，<a href="#" class="anno トリプトファン">トリプトファン</a>，メチオニンの除去により細胞数の減少が確認でき，なかでも，メチオニンの除去による減少がもっとも大きく，<a href="#" class="anno 完全培地">完全培地</a>で培養した場合の5％以下にまで細胞数は顕著に減少した．さらに，メチオニンの要求性について評価したところ，未分化なヒトのES細胞およびiPS細胞の良好な生育には25μM以上のメチオニンが必要であることがわかった（完全培地は，約120μMのメチオニンを含む）．つづいて，メチオニンを除去したのちの細胞死，細胞の増殖，細胞周期について継時的に評価した．その結果，未分化なヒトのES細胞およびiPS細胞はメチオニンの除去から5時間後には顕著な増殖の抑制を示し，24時間後には<a href="#" class="anno G0期">G0期</a>あるいは<a href="#" class="anno G1期">G1期</a>において細胞周期が停止し<a href="#" class="anno アポトーシス">アポトーシス</a>の起こることがわかった．<br/><br/><h2>2．<em>S</em>-アデノシルメチオニンはヒトのES細胞およびiPS細胞の生存において重要である</h2><br/>　ヒトのES細胞およびiPS細胞の生存にはメチオニンが非常に重要であることがわかったことから，メチオニンの代謝の変化について遺伝子発現の解析および代謝産物の定量により評価した（<a href="#F1">図1</a>）．遺伝子発現は<a href="#" class="anno <a href="#" class="anno マイクロアレイ">マイクロアレイ</a>法">マイクロアレイ法</a>により解析し，代謝産物については<a href="#" class="anno 細胞内">細胞内</a>のメチオニン，<em>S</em>-アデノシルメチオニン，<em>S</em>-メチル-5’-チオ<a href="#" class="anno アデノシン">アデノシン</a>，<em>S</em>-アデノシル<a href="#" class="anno ホモ<a href="#" class="anno システイン">システイン</a>">ホモシステイン</a>，および，<a href="#" class="anno 培養液">培養液</a>中のホモシステインをU<a href="#" class="anno PLC">PLC</a>-MS/MS法により定量した．その結果，メチオニンの除去から5時間後には<em>DNM<a href="#" class="anno T3">T3</a>B</em>遺伝子および<em>M<a href="#" class="anno AT2">AT2</a>B</em>遺伝子の顕著な発現の低下が確認され，細胞内のメチオニン，<em>S</em>-メチル-5’-チオアデノシン，<em>S</em>-アデノシルメチオニンの濃度が顕著に低下した．興味深いことに，完全培地での培養では確認できるホモシステインの細胞外への排出が，メチオニン除去培地での培養ではまったく起こらなくなった．さらに，<em>S</em>-アデノシルメチオニンからメチオニンへのサルベージ回路の<a href="#" class="anno 中間代謝産物">中間代謝産物</a>である<em>S</em>-メチル-5’-チオアデノシンを添加することにより，メチオニンの除去により停止したホモシステインの細胞外への排出が完全に回復することも確認された．以上のことから，ヒトのES細胞およびiPS細胞はメチオニン除去培地での培養を開始すると，すみやかにメチオニン代謝回路が停止することが明らかになった．また，ヒトのES細胞およびiPS細胞においてメチオニンへのサルベージ回路がはたらいていることも確認された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　メチオニン代謝回路</strong><br/>青色の線は<em>S</em>-アデノシルメチオニンからメチオニンへのサルベージ回路を示す．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/05/Kume-Cell-Metabolism-14.5.2-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　メチオニン代謝回路" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kume-Cell-Metabolism-14.5.2-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kume-Cell-Metabolism-14.5.2-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　メチオニン代謝回路において，メチオニンあるいはその代謝産物である<em>S</em>-アデノシルメチオニンのどちらがヒトのES細胞およびiPS細胞の生存により重要な役割をはたしているのかについて評価した．<em>S</em>-アデノシルメチオニンはメチオニンを除去したのちの細胞死を抑制したが，メチオニンへのサルベージ回路における律速酵素である<a href="#" class="anno SM">SM</a>Sを<a href="#" class="anno ノックダウン">ノックダウン</a>した場合にも<em>S</em>-アデノシルメチオニンの添加により細胞死が抑制された．このことは，<em>S</em>-アデノシルメチオニンがサルベージ回路によりメチオニンとなってはたらいているのではなく，<em>S</em>-アデノシルメチオニンそれ自体が細胞死に関与していることを意味した．さらに，<a href="#" class="anno MA">MA</a>T2Aおよび<a href="#" class="anno MAT2B">MAT2B</a>の<a href="#" class="anno 阻害剤">阻害剤</a>である<a href="#" class="anno シクロロイシン">シクロロイシン</a>はメチオニンの除去と同様にヒトのES細胞およびiPS細胞に細胞死を誘導したが，シクロロイシンの添加から5時間後の細胞内の<em>S</em>-アデノシルメチオニンの濃度は対照の半分にまで低下した一方，メチオニンの濃度は対照の2倍に増加することが確認された．この結果からも，細胞内における<em>S</em>-アデノシルメチオニンの低下が細胞死をひき起こすことが示唆された．以上の結果から，ヒトのES細胞およびiPS細胞の生存にはメチオニン代謝回路，とりわけ，細胞内の<em>S</em>-アデノシルメチオニンが重要な役割をはたしていることがわかった．<br/><br/><h2>3．メチオニンの除去によりp53シグナルが活性化される</h2><br/>　メチオニンを除去したのちにはメチオニンの代謝が停止し<em>S</em>-アデノシルメチオニンの濃度が低下したことから，ほかの<a href="#" class="anno シグナル分子">シグナル分子</a>の変化についても，<a href="#" class="anno マイクロアレイ解析">マイクロアレイ解析</a>，<a href="#" class="anno <a href="#" class="anno ウェスタン">ウェスタン</a>ブロット">ウェスタンブロット</a>解析，および，<a href="#" class="anno 免疫細胞">免疫細胞</a><a href="#" class="anno 化学的">化学的</a>な解析により評価した．その結果，メチオニンの除去から5時間後にはすでに細胞周期および細胞死に関連する多くの遺伝子の発現が上昇していることがわかった．細胞死に関与する重要なシグナル分子であるp53に関しては，<a href="#" class="anno mRNA">mRNA</a>の量に変化はなかったがタンパク質の量が顕著に増加し，その増加は<em>S</em>-アデノシルメチオニンの添加により阻害されることが確認された．さらに，このp53の発現の上昇は培地のメチオニン濃度が6<a href="#" class="anno μM以下">μM以下</a>の場合に起こり，ほかのアミノ酸の除去では起こらないことも確認された．メチオニンを除去したのちの細胞死にp53の関与することが示唆されたため，p53をノックダウンした細胞においてメチオニンを除去したところ細胞死が抑制された．以上の結果から，ヒトのES細胞およびiPS細胞をメチオニン除去培地で培養するとp53の<a href="#" class="anno タンパク質レベル">タンパク質レベル</a>の発現が上昇し，その結果として，細胞周期の停止および細胞死の起こることがわかった．<br/><br/><h2>4．未分化な状態におけるメチオニンの除去によりのちの分化は促進される</h2><br/>　メチオニンを除去したのちに起こる細胞内の<em>S</em>-アデノシルメチオニンの低下が<a href="#" class="anno ヒストン">ヒストン</a><a href="#" class="anno メチル化">メチル化</a>および<a href="#" class="anno DNAメチル化">DNAメチル化</a>にあたえる影響について検討した．マウスのES細胞においても，スレオニンの除去により<a href="#" class="anno 結果的">結果的</a>に<em>S</em>-アデノシルメチオニンの減少の起こることが報告されており，その際に，<a href="#" class="anno ヒストンH3">ヒストンH3</a>の4番目の<a href="#" class="anno Lys">Lys</a>の<a href="#" class="anno トリメチル">トリメチル</a>化の低下することがわかっていた．そこで，ヒストンH3における各種のメチル化への影響を<a href="#" class="anno ウェスタン<a href="#" class="anno ブロット法">ブロット法</a>">ウェスタンブロット法</a>により評価したところ，メチオニンの除去あるいはシクロロイシンの処理から5時間後に，ヒストンH3の4番目のLysのトリメチル化の顕著に低下することが確認された．一方，ヒストンH3の9番目のLysのトリメチル化，27番目のLysのトリメチル化，36番目のLysのトリメチル化については，メチオニンの除去から24時間後においても変化は確認されなかった．このおのおののLysメチル化に対するメチオニン除去の効果の違いの原因については不明であり，さらなる検討が必要である．さらに，DNAメチル化に対する影響についてマイクロアレイ法を用いて<a href="#" class="anno 網羅的">網羅的</a>に評価した．解析の結果，メチオニンの除去から5時間後には広い範囲でDNAメチル化の低下がみられたが，特定の遺伝子に<a href="#" class="anno かた">かた</a>よるものではなく，その低下の程度も遺伝子の発現に影響をあたえるほど強いものではなかった．<br/>　ヒトのES細胞およびiPS細胞はメチオニン除去培地で培養すると<a href="#" class="anno 一時的">一時的</a>に増殖の停止することがわかったので，その状態における未<a href="#" class="anno 分化マー<a href="#" class="anno カ">カ</a>ー">分化マーカー</a>の発現について調べた．その結果，メチオニンの除去から5時間後にNANOGのm<a href="#" class="anno RNAレベル">RNAレベル</a>およびタンパク質レベルでの発現の低下が確認された．ほかの未分化マーカーである<a href="#" class="anno Oct">Oct</a>3/4については発現に変化はみられなかった．このNANOGの<a href="#" class="anno 発現低下">発現低下</a>は<em>S</em>-アデノシルメチオニンの添加により抑制され，さらに，ほかのアミノ酸の除去では起こらないこともわかった．メチオニンの短時間の除去ののちの増殖の停止に関しては，のちに完全培地に置き換えることにより回復が可能であることがわかっていたため，この短時間のメチオニン除去ののちのNANOGの発現低下を分化の促進に利用できるのではないかと考えた．そこで，<a href="#" class="anno ヒトiPS細胞">ヒトiPS細胞</a>株を未分化な状態においてメチオニン除去培地で10時間培養したのち，内胚葉，<a href="#" class="anno 中胚葉">中胚葉</a>，<a href="#" class="anno 外胚葉">外胚葉</a>への分化培地にそれぞれ置換して分化の誘導効率を評価した．その結果，それぞれの胚葉への分化の効率は約3倍も上昇した．内胚葉への分化の促進効果については，ほかのヒトiPS細胞株およびヒトES細胞株においても確認した．以上のことから，ヒトのES細胞およびiPS細胞においては，メチオニンの代謝阻害によりヒストンH3の4番目のLysのトリメチル化の低下およびNANOGの発現の低下がひき起こされ，のちの胚葉への分化の起こりやすい状態へと移行していることがわかった．<br/><br/><h2>5．分化の過程におけるメチオニンの除去により未分化な細胞において選択的に細胞死が誘導される</h2><br/>　未分化な細胞および分化した細胞におけるメチオニン代謝の違いについて，遺伝子発現の解析および代謝産物の定量により比較した．分化した細胞としては，ヒトES細胞株から分化を誘導した内胚葉を用いた．遺伝子発現の解析の結果，<em>MAT</em>遺伝子や<em>D<a href="#" class="anno NMT">NMT</a></em>遺伝子といったメチオニン代謝にかかわる酵素をコードする遺伝子の多くが未分化な細胞において高く発現していた．また，培地中のメチオニン濃度を<a href="#" class="anno 経時的">経時的</a>に定量した結果，未分化な細胞は分化した細胞に比べ単位時間あたり約<a href="#" class="anno 5倍">5倍</a>のメチオニンを消費していることもわかった．さらに，細胞外へのホモシステインの排出について評価した結果，分化した細胞では未分化な細胞の約半分であった．さきに述べたように，未分化な細胞はメチオニン除去培地で培養するとホモシステインの細胞外への排出が停止するが，分化した細胞ではホモシステインの<a href="#" class="anno 排出量">排出量</a>に変化はなかった．以上のことから，未分化な細胞は分化した細胞に比べメチオニン代謝が非常にさかんであり，その生育により多くのメチオニンが必要であることがわかった．<br/>　ヒトのES細胞およびiPS細胞は細胞株のあいだで分化能に差のあることがよく知られている<a href="#R10"><sup>10)</sup></a>．そこで，すでに構築されている<a href="#" class="anno 支持細胞">支持細胞</a>を用いた分化の誘導系を用いて，細胞株のあいだの分化能の違いについて評価した．その結果，<a href="#" class="anno 同じ">同じ</a><a href="#" class="anno 培養条件">培養条件</a>で内胚葉へ分化させた場合に，ヒトES細胞株khES3およびヒトiPS細胞株253G1株は非常によく分化したものの，ヒトES細胞株khES1およびヒトiPS細胞株201<a href="#" class="anno B7">B7</a>株は10日間にわたり分化を誘導しても未分化な細胞の残存することがわかった．未分化な細胞と分化した内胚葉細胞にはメチオニンの要求性に違いのあることがわかっていたため，分化の途中からメチオニン除去培地で培養することにより未分化な細胞のみを選択的に除去できるのではないかと考えた．ヒトES細胞株khES1およびヒトiPS細胞株201B7株を用いて培養8日目から10日目までの2日間にわたりメチオニン除去培地で培養した結果，内胚葉に影響をあたえることなく未分化な細胞に対し選択的に細胞死が誘導され，<a href="#" class="anno <a href="#" class="anno 相">相</a>対的">相対的</a>に内胚葉への分化の効率が上昇することがわかった．ヒトiPS細胞株201B7株について，のちに肝臓への分化を誘導したところ，<a href="#" class="anno 最終的">最終的</a>な<a href="#" class="anno アルブミン">アルブミン</a>の<a href="#" class="anno 発現量">発現量</a>および<a href="#" class="anno 分泌量">分泌量</a>が約3倍にも増加することがわかった．このことから，分化の過程においてメチオニン除去培地で培養することにより残存する未分化な細胞を除去することが可能であり，分化の効率の悪い細胞株を利用する場合は非常に有効な手段となりうることがわかった．<br/><br/><h2>おわりに</h2><br/>　今回の研究において，ヒトのES細胞およびiPS細胞の生存にはメチオニンが必須であり，その代謝産物である<em>S</em>-アデノシルメチオニンを介してヒトのES細胞およびiPS細胞の未分化な状態の維持および分化が制御されていることを見い出した（<a href="#F2">図2</a>）．マウスの場合は<em>S</em>-アデノシルメチオニンの<a href="#" class="anno 供給源">供給源</a>としてスレオニンが<a href="#" class="anno 積<a href="#" class="anno 極">極</a>的">積極的</a>に利用されているが，ヒトの場合はメチオニンがおもに利用されていることが明らかになった．さらに，ヒトのES細胞およびiPS細胞のもつメチオニン代謝の特性を分化の誘導に応用した結果，未分化な状態においてメチオニンを除去したのち，内胚葉，中胚葉，外胚葉へとそれぞれ分化を誘導すると，顕著な分化の促進効果がみられることを確認した．さらに，内胚葉への分化の誘導の過程においてメチオニン除去培地で培養することにより，残存する未分化な細胞に対し<a href="#" class="anno 特異的">特異的</a>に細胞死を誘導することができ，のちに肝臓へと<a href="#" class="anno 効率的">効率的</a>に分化させることに成功した．未分化な過程におけるメチオニン除去培地の処理によるおのおのの胚葉への分化の促進は，各種の細胞を作製する期間の短縮および分化の効率化につながり，ヒトのES細胞およびiPS細胞を利用した<a href="#" class="anno 創薬">創薬</a>研究および<a href="#" class="anno 再生医療">再生医療</a>に寄与できる．また，残存した未分化な細胞を除去することは，効率的な分化の誘導への利用のみならず，<a href="#" class="anno 移植医療">移植医療</a>において，残存した未分化な幹細胞に由来する<a href="#" class="anno テラトーマ">テラトーマ</a>の発生するリスクの低減に大きく寄与することが期待できる．今後は，ヒトのES細胞およびiPS細胞におけるメチオニン代謝と遺伝子の<a href="#" class="anno 発現制御">発現制御</a>との<a href="#" class="anno 関係性">関係性</a>の解明が課題である．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ヒトのES細胞およびiPS細胞におけるメチオニン代謝の役割</strong><br/>ヒトのES細胞およびiPS細胞では，分化した内胚葉と比べメチオニン代謝がさかんであり，メチオニン除去培地で短期間培養すると細胞は一時的に分化しやすい状態になり，長時間培養すると細胞死が起こる．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/05/Kume-Cell-Metabolism-14.5.2-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ヒトのES細胞およびiPS細胞におけるメチオニン代謝の役割" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kume-Cell-Metabolism-14.5.2-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kume-Cell-Metabolism-14.5.2-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Shiraki, N., Umeda, K., Sakashita, N. et al.</span>: <span class="ti">Differentiation of mouse and human embryonic stem cells into hepatic lineages.</span> <span class='so'>Genes Cells, 13, 731-746 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18513331" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Shiraki, N., Yoshida, T., Araki, K. et al.</span>: <span class="ti">Guided differentiation of embryonic stem cells into Pdx1-expressing regional-specific definitive endoderm.</span> <span class='so'>Stem Cells, 26, 874-885 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18238854" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Sakano, D., Shiraki, N., Kikawa, K. et al.</span>: <span class="ti">VMAT2 identified as a regulator of late-stage β-cell differentiation.</span> <span class='so'>Nat. Chem. Biol., 10, 141-148 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24316738" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/8151" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R4"><span class='au'>Ogaki, S., Shiraki, N., Kume, K. et al.</span>: <span class="ti">Wnt and Notch signals guide embryonic stem cell differentiation into the intestinal lineages.</span> <span class='so'>Stem Cells, 31, 1086-1096 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23378042" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Facucho-Oliveira, J. M. & St. John, J. C.</span>: <span class="ti">The relationship between pluripotency and mitochondrial DNA proliferation during early embryo development and embryonic stem cell differentiation.</span> <span class='so'>Stem Cell Rev., 5, 140-158 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19521804" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Wellen, K. E. & Thompson, C. B.</span>: <span class="ti">A two-way street: reciprocal regulation of metabolism and signalling.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 13, 270-276 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22395772" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Takubo, K., Nagamatsu, G., Kobayashi, C. I. et al.</span>: <span class="ti">Regulation of glycolysis by Pdk functions as a metabolic checkpoint for cell cycle quiescence in hematopoietic stem cells.</span> <span class='so'>Cell Stem Cell, 12, 49-61 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23290136" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Wang, J., Alexander, P., Wu, L. et al.</span>: <span class="ti">Dependence of mouse embryonic stem cells on threonine catabolism.</span> <span class='so'>Science, 325, 435-439 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19589965" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Shyh-Chang, N., Locasale, J. W., Lyssiotis, C. A. et al.</span>: <span class="ti">Influence of threonine metabolism on <em>S</em>-adenosylmethionine and histone methylation.</span> <span class='so'>Science, 339, 222-226 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23118012" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Osafune, K., Caron, L., Borowiak, M. et al.</span>: <span class="ti">Marked differences in differentiation propensity among human embryonic stem cell lines.</span> <span class='so'>Nat. Biotechnol., 26, 313-315 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18278034" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_01.html" target="_blank">9.1 Aminoacyl-tRNA Synthesis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_01.html" target="_blank">3.1 Traits</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/19_04.html" target="_blank">19.4 Cell Differentiation and Stem Cells</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/07_03.html" target="_blank">7.3 Genes and DNA</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_07.html" target="_blank">3.7 Chromosomes and the Genome</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">白木 伸明（Nobuaki Shiraki）</span><br>略歴：2006年 熊本大学大学院医学研究科博士課程 修了，2009年より熊本大学発生医学研究所 助教．<br>研究テーマ：内胚葉の発生および分化．<br><br><strong>粂  昭苑（Shoen Kume）</strong><br>熊本大学発生医学研究所 教授．<br>研究室URL：<a href="http://www.imeg.kumamoto-u.ac.jp/divisions/stem_cell_biology/" target="_blank">http://www.imeg.kumamoto-u.ac.jp/divisions/stem_cell_biology/</a><br></div><br>© 2014 白木伸明・粂 昭苑 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

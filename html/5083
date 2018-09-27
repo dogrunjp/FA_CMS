@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> マウスの初期胚におけるBMPシグナルのパターンはVam2に依存するエンドサイトーシス経路により制御されている : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/5083" rel="bookmark">マウスの初期胚におけるBMPシグナルのパターンはVam2に依存するエンドサイトーシス経路により制御されている</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>和田戈虹<sup>1</sup>・和田 洋<sup>2</sup></strong><br>（<sup>1</sup>同志社女子大学薬学部 生化学研究室，<sup>2</sup>大阪大学産業科学研究所 生体分子機能科学研究分野）<br>email：<a href="mailto:kwada@dwc.doshisha.ac.jp">和田戈虹</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.072">10.7875/first.author.2012.072</a><br><div class="reference"><br><span class="ti">Spatial restriction of bone morphogenetic protein signaling in mouse gastrula through the mVam2-dependent endocytic pathway.</span><br><span class="au">Minako Aoyama, Ge-Hong Sun-Wada, Akitsugu Yamamoto, Masamichi Yamamoto, Hiroshi Hamada, Yoh Wada</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22698281" target="_blank"><em>Developmental Cell</em>, <strong>22</strong>, 1163-1175 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno <a href="#" class="anno シグナル伝達">シグナル伝達</a>経路">シグナル<a href="#" class="anno 伝達経路">伝達経路</a></a>において負の制御を欠損すると，組織や個体の<a href="#" class="anno 恒常性">恒常性</a>を擾乱するような<a href="#" class="anno 細胞増殖">細胞増殖</a>の異常な亢進，すなわち，がんの病態が<a href="#" class="anno も">も</a>たらされる．<a href="#" class="anno エンドサイトーシス">エンドサイトーシス</a>経路は<a href="#" class="anno 活性化">活性化</a>した<a href="#" class="anno 受容体">受容体</a>と<a href="#" class="anno 細胞内">細胞内</a>の<a href="#" class="anno メ<a href="#" class="anno デ">デ</a>ィエーター">メディエーター</a>との隔離，そして，受容体の分解により，下流のシグナル伝達経路を負に制御するしくみとして理解されている．<a href="#" class="anno 初期発生">初期発生</a>においては，<a href="#" class="anno 比較的">比較的</a>短い時間で進行することからシグナル伝達を<a href="#" class="anno 積<a href="#" class="anno 極">極</a>的">積極的</a>に終了させるような<a href="#" class="anno 分子機構">分子機構</a>が重要であるものと思われるが，その実態は<a href="#" class="anno 未解明">未解明</a>であった．この研究は，後期<a href="#" class="anno エンドソーム">エンドソーム</a>の<a href="#" class="anno 膜融合">膜融合</a>装置の<a href="#" class="anno 構成タンパク質">構成タンパク質</a>であるVam2を欠損したマウスを用い，エンドソームの<a href="#" class="anno ダイナミクス">ダイナミクス</a>が<a href="#" class="anno BMP">BMP</a>シグナルの活性を制御していることを明らかにした．<br/><br/><h2>はじめに</h2><br/>　胚の<a href="#" class="anno 形態形成">形態形成</a>は，<a href="#" class="anno TGFβ">TGFβ</a>，<a href="#" class="anno FGF">FGF</a>，<a href="#" class="anno Wnt">Wnt</a>を含む多くの<a href="#" class="anno シグナルタンパク質">シグナルタンパク質</a>により制御されている<a href="#R1"><sup>1)</sup></a>．マウスの初期発生においては，FGFおよび<a href="#" class="anno チロシン">チロシン</a><a href="#" class="anno キナーゼ">キナーゼ</a>型受容体は<a href="#" class="anno MA">MA</a>P<a href="#" class="anno キナーゼ<a href="#" class="anno カ">カ</a>スケード">キナーゼカスケード</a>を活性化し，<a href="#" class="anno 胚体">胚体</a>および<a href="#" class="anno 胚体外">胚体外</a>における分化を確立する．<a href="#" class="anno Nodal">Nodal</a>とTGFβは<a href="#" class="anno 胎<a href="#" class="anno 仔">仔</a>">胎仔</a>の<a href="#" class="anno 前後軸">前後軸</a>を確立する際に<a href="#" class="anno 中心的">中心的</a>な役割をはたす．Nodal，TGFβ，<a href="#" class="anno アクチビン">アクチビン</a>はタイプIおよびタイプIIの<a href="#" class="anno セリン">セリン</a>/<a href="#" class="anno スレオニン">スレオニン</a>キナーゼ型受容体に結合し，タイプII受容体はタイプI受容体を<a href="#" class="anno <a href="#" class="anno リン酸">リン酸</a>化">リン酸化</a>する．このリン酸化はタイプI受容体のもつ<a href="#" class="anno キナーゼ活性">キナーゼ活性</a>を活性化し，それにより<a href="#" class="anno 細胞質">細胞質</a>に存在する下流のトランスデューサーである<a href="#" class="anno Smad">Smad</a>2と<a href="#" class="anno Smad3">Smad3</a>のリン酸化が誘導される．<a href="#" class="anno 同じ">同じ</a>くTGFβ<a href="#" class="anno スーパーファミリー">スーパーファミリー</a>に属するBMP（<a href="#" class="anno bon">bon</a>e morphoge<a href="#" class="anno net">net</a>ic <a href="#" class="anno pro">pro</a>tein，<a href="#" class="anno 骨形成">骨形成</a>因子）は，TGFβとは異なる受容体をとおしてシグナルを伝達する．BMPの結合によりタイプII受容体はタイプI受容体をリン酸化し，それにより活性化されたタイプI受容体は，<a href="#" class="anno Smad1">Smad1</a>，<a href="#" class="anno Smad5">Smad5</a>，Smad8をリン酸化する<a href="#R2"><sup>2)</sup></a>．リン酸化されたこれらのSmadは<a href="#" class="anno Smad4">Smad4</a>と<a href="#" class="anno 複合体">複合体</a>を形成し<a href="#" class="anno 遺伝子発現">遺伝子発現</a>を制御する．BMP-Smad1/Smad5/Smad8シグナル伝達経路は<a href="#" class="anno 中胚葉">中胚葉</a>の形成に必須であることが知られているが，最近，BMP，Nodal，アクチビンのシグナルのバランスが<a href="#" class="anno 遠位">遠位</a>臓側<a href="#" class="anno 内胚葉">内胚葉</a>の分化を制御することも報告されている<a href="#R3"><sup>3)</sup></a>．<br/>　発生プログラムを制御する多彩なシグナル伝達経路の活性化と同様に，その適切な<a href="#" class="anno <a href="#" class="anno 不活性">不活性</a>化">不活性化</a>あるいは<a href="#" class="anno ダウンレギュレーション">ダウンレギュレーション</a>もきわめて重要である．これまで，シグナルタンパク質の<a href="#" class="anno アンタゴニスト">アンタゴニスト</a>による負の制御が知られており，アンタゴニストの<a href="#" class="anno 欠失">欠失</a>による形態形成プログラムの阻害が報告されている．<br/>　<a href="#" class="anno 後期エンドソーム">後期エンドソーム</a>および<a href="#" class="anno リソソーム">リソソーム</a>は分解機能をもつ<a href="#" class="anno オルガネラ">オルガネラ</a>として細胞の内外に由来する分子を分解する役割をはたしている．これらのコンパートメントの<a href="#" class="anno 機能異常">機能異常</a>は<a href="#" class="anno リソソーム病">リソソーム病</a>とよばれる<a href="#" class="anno 多面的">多面的</a>な症状を示す<a href="#" class="anno 遺伝性">遺伝性</a>の疾患をひき起こす．また，後期エンドソームの欠陥に起因する<a href="#" class="anno 免疫不全">免疫不全</a>，<a href="#" class="anno 白皮症">白皮症</a>，神経の異常などさまざまな疾患も<a href="#" class="anno 遺伝的">遺伝的</a>な解析から明らかになっている．しかしながら，初期発生におけるエンドサイトーシスの役割はほとんど明らかになっていない．<br/>　エンドサイトーシス経路はオルガネラの複合したネットワークである．<a href="#" class="anno 出芽酵母">出芽酵母</a>における<a href="#" class="anno 液胞">液胞</a>の形成の研究から，液胞の構築にはHOPS（homotypic vacuole protein sorting）複合体が必須であることがわかっている<a href="#R4"><sup>4,5)</sup></a>．その構成タンパク質のひとつVam2をもたない出芽酵母は大きな液胞を組み立てられず多数の<a href="#" class="anno 小胞">小胞</a>が蓄積してしまう．出芽酵母と<a href="#" class="anno 哺乳動物">哺乳動物</a>とは<a href="#" class="anno 進化的">進化的</a>に離れているにもかかわらず，それらのあいだでVam2はよく保存されている．筆者らは，マウスVam2（mVam2）の<a href="#" class="anno ノックアウトマウス">ノックアウトマウス</a>を作製し，エンドサイトーシスが組織および個体のレベルではたす役割を解析した．<br/><br/><h2>1．mVam2は後期エンドソームおよびリソソームの形成に必要である</h2><br/>　mVam2ホモノックアウトアウトマウスは胎生7日で発生を停止し，胎生9日には吸収されてしまった．一方，<em>mVam2</em>遺伝子の<a href="#" class="anno イントロ">イントロ</a>ンに<em><a href="#" class="anno loxP">loxP</a></em>配列を導入した変異<a href="#" class="anno アレル">アレル</a>は機能を保っており，その<a href="#" class="anno ホモ接合">ホモ接合</a>体においても明らかな<a href="#" class="anno 表現型">表現型</a>を示さなかった．そこで，この変異アレルをもつマウスの胎生12.5日の胚より<a href="#" class="anno <a href="#" class="anno 胚性">胚性</a>線維<a href="#" class="anno 芽細胞">芽細胞</a>">胚性<a href="#" class="anno 線維芽細胞">線維芽細胞</a></a>の<a href="#" class="anno 初代培養">初代培養</a>細胞を調製し，そこに<a href="#" class="anno Cre">Cre</a><a href="#" class="anno リコンビナーゼ">リコンビナーゼ</a>を発現する<a href="#" class="anno アデノウイルス">アデノウイルス</a>を感染させることで，mVam2をホモで欠損する胚性線維芽細胞を作製した．リコンビナーゼを発現するアデノウイルスの感染ののち4日でmVam2タンパク質は<a href="#" class="anno <a href="#" class="anno 検出限界">検出限界</a>以下">検出限界以下</a>となった．<br/>　このmVam2<a href="#" class="anno 欠損細胞">欠損細胞</a>では，後期エンドソームの<a href="#" class="anno マーカータンパク質">マーカータンパク質</a><a href="#" class="anno Rab">Rab</a>7，また，リソソームのマーカータンパク質<a href="#" class="anno Lamp2">Lamp2</a>の細胞における局在は<a href="#" class="anno 野生型">野生型</a>の細胞と顕著に異なっていたのに対し，<a href="#" class="anno 初期エンドソーム">初期エンドソーム</a>のマーカーであるSNX1，<a href="#" class="anno EEA1">EEA1</a>，<a href="#" class="anno Rab5">Rab5</a>の分布には野生型の細胞との差が認められなかった．この結果から，mVam2は後期エンドソームの構築に必要であることが示された．<br/><br/><h2>2．mVam2は初期発生に必要である</h2><br/>　胎生6.2日のmVam2ノックアウトマウスの胚では，<a href="#" class="anno 臓側内胚葉">臓側内胚葉</a>細胞において<a href="#" class="anno 頂端">頂端</a>液胞とよばれる大きなリソソームが形成されず，これは多数の小胞に<a href="#" class="anno 断片化">断片化</a>していた．エンドサイトーシスのマーカーを用いた<a href="#" class="anno 細胞内輸送">細胞内輸送</a>の追跡実験により，エンドサイトーシスの初期過程（取り込み）は正常だが，そののちのリソソームへの輸送がほとんど起こってい<a href="#" class="anno ないこと">ないこと</a>が示された．<br/>　マウスの<a href="#" class="anno 胚発生">胚発生</a>では，臓側内胚葉，エピ<a href="#" class="anno ブラスト">ブラスト</a>，<a href="#" class="anno 胚体外<a href="#" class="anno 外胚葉">外胚葉</a>">胚体外外胚葉</a>など，分化した<a href="#" class="anno 上皮組織">上皮組織</a>が互いにシグナルタンパク質を介して細胞増殖と形態形成を制御している．mVam2ノックアウトマウスの胚は原腸<a href="#" class="anno 陥入">陥入</a>の時期において正常な胚とは明らかに異なる形態を示し，臓側内胚葉の<a href="#" class="anno 細胞形態">細胞形態</a>は<a href="#" class="anno 円柱状">円柱状</a>になっていた．胎生7日には予定神経領域の外胚葉において顕著な<a href="#" class="anno 細胞死">細胞死</a>が観察された．このような表現型は，BMPシグナル，<a href="#" class="anno Wntシグナル">Wntシグナル</a>，TGFβシグナル，あるいは，その下流に異常をもつことを示唆していた．さまざまな組織マーカーを用いて観察した結果，mVam2を欠損した胚では，前後軸は確立していて<a href="#" class="anno 中胚葉組織">中胚葉組織</a>はほぼ正確な位置に誘導されていたが，そののち，<a href="#" class="anno 胚体外中胚葉">胚体外中胚葉</a>はよく発達するものの胚体中胚葉の形成が著しく阻害され，<a href="#" class="anno 神経外胚葉">神経外胚葉</a>が形成されないことがわかった．<br/><br/><h2>3．mVam2を欠損した細胞ではBMP<a href="#" class="anno シグナル<a href="#" class="anno 伝達系">伝達系</a>">シグナル伝達系</a>が異常に亢進する</h2><br/>　mVam2欠損細胞ではBMPおよび<a href="#" class="anno BMP受容体">BMP受容体</a>は<a href="#" class="anno 細胞表層">細胞表層</a>から初期エンドソームへと移行したのちに分解されず，長い時間にわたり細胞に存在することがわかった．mVam2を欠損した胚性線維芽細胞を培養し，低血清<a href="#" class="anno 培地">培地</a>において<a href="#" class="anno 休止状態">休止状態</a>としたのち，TGFβ，<a href="#" class="anno BMP4">BMP4</a>，<a href="#" class="anno EGF">EGF</a>による刺激をあたえ，ふたたび低血清培地に置き換えた．時間をおってサンプリングして細胞<a href="#" class="anno 抽出液">抽出液</a>を調製し，<a href="#" class="anno イムノ">イムノ</a>ブロッティング法により<a href="#" class="anno Smad2">Smad2</a>/Smad3，Smad1/Smad5，<a href="#" class="anno p42">p42</a>/<a href="#" class="anno p44">p44</a>の<a href="#" class="anno リン酸化体">リン酸化体</a>を定量した．mVam2欠損細胞ではBMPの刺激に対しSmad1/Smad5のリン酸化が高いレベルに達し持続していたことから，速い<a href="#" class="anno キネティクス">キネティクス</a>を示すシグナルの抑制はできないことが明らかになった．それに対し，EGF，TGFβ，アクチビンのシグナルは野生型の細胞とmVam2欠損細胞とにおいて同一のキネティクスをもって減衰したことから，mVam2はBMPシグナルの抑制に<a href="#" class="anno 選択的">選択的</a>に機能しているものと考えられた．mVam2とBMP受容体との<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>を解析した結果，それらの<a href="#" class="anno タンパク質レベル">タンパク質レベル</a>での相互作用も確認された．<br/>　さらに，前<a href="#" class="anno 原腸胚">原腸胚</a>の形成の段階におけるBMPシグナルを調べたところ，野生型の胚では遠位と<a href="#" class="anno 近位">近位</a>とにおけるBMP活性の差が胎生6.0日において形成されているのに対し，mVam2欠損胚では胚の全体においてBMPシグナルが活性化されており，胚性線維芽細胞においてみられたBMPシグナルの抑制の異常が，胚におけるシグナル活性パターンに<a href="#" class="anno 制御異常">制御異常</a>を起こしていることが明らかになった（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　マウスの胎生6日の胚におけるリン酸化Smad1の局在</strong><br/>（a）野生型の胚．遠位と近位とのBMPの活性の差が形成されている．<br/>（b）mVam2欠損胚．胚の全体においてBMPシグナルが活性化されている．<br/>抗リン酸化Smad1抗体により緑色に染色している．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/06/Wada-Developmental-Ce11-12.6.11-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　マウスの胎生6日の胚におけるリン酸化Smad1の局在" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Wada-Developmental-Ce11-12.6.11-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Wada-Developmental-Ce11-12.6.11-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究において，筆者らは，エンドサイトーシス経路の後期のステージにおける<a href="#" class="anno 機能障害">機能障害</a>が初期発生の異常をもたらすことを示した．臓側内胚葉細胞の頂端液胞において，<a href="#" class="anno シグナル伝達タンパク質">シグナル伝達タンパク質</a>の隔離および分解はシグナル伝達の活性化している時間と範囲の決定に密接に関与しており，哺乳類のHOPS<a href="#" class="anno サブユニット">サブユニット</a>はこの頂端液胞を構築するのに必須な役割をもつ．mVam2<a href="#" class="anno 変異細胞">変異細胞</a>は活性化された受容体をオルガネラに隔離で<a href="#" class="anno きず">きず</a>，下流のシグナルタンパク質の<a href="#" class="anno 持続的">持続的</a>な活性化をもたらす結果，BMPシグナルが長期にわたり広汎な場所で活性化されてしまう（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　臓側内胚葉におけるエンドサイトーシスのダイナミクスとシグナル伝達のモデル</strong><br/>（a）野生型細胞．BMP受容体は，まずSNX1の局在する初期エンドソームに取り込まれるが，BMP受容体の細胞基質側に存在するキナーゼドメインがSmadをリン酸化することによりシグナルを細胞内に伝達する．BMP受容体をもつ初期エンドソームがmVam2に依存してLamp2陽性コンパートメントにリクルートされ分解されることにより，BMPシグナルは抑制される．<br/>（b）mVam2欠損細胞．BMP受容体をもつエンドソームが膨脹し，活性化した受容体と細胞にあるメディエーターとの隔離，および，受容体の分解ができず，過度のBMPシグナル伝達につながる．<br/>IgG：免疫グロブリンG，P：リン酸化．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2012/06/Wada-Developmental-Ce11-12.6.11-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　臓側内胚葉におけるエンドサイトーシスのダイナミクスとシグナル伝達のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Wada-Developmental-Ce11-12.6.11-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Wada-Developmental-Ce11-12.6.11-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　原腸胚の形成にさきだち，遠位臓側内胚葉とよばれる細胞が分化する．BMPは胎生4.5日での<a href="#" class="anno 原始内胚葉">原始内胚葉</a>から臓側内胚葉の分化にとり不可欠である．しかし，遠位臓側内胚葉の分化はBMPにより抑制される．したがって，胎生4.5日から胎生5.5日までの短期間に，原始内胚葉から臓側内胚葉を構成しさらに遠位臓側内胚葉を確立するには，BMPシグナルをダイナミックに制御する必要がある．筆者らは，BMP受容体のエンドサイトーシスがこの制御を担う機構の一部であると考えている．<br/>　BMP<a href="#" class="anno シグナル経路">シグナル経路</a>およびほかのシグナル伝達経路は，組織の構築，腫瘍の発生と増殖，骨に関連する疾病，さらには，<a href="#" class="anno 幹細胞">幹細胞</a>の維持と分化など，多彩な機能に関連している．これらの<a href="#" class="anno 生理機能">生理機能</a>，さらには，その破綻に起因する<a href="#" class="anno 病態生理">病態生理</a>の理解において，シグナル伝達を負に制御する分子機構としてのエンドサイトーシスは新しい視点を提供すると考えている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hamada, H., Meno, C., Watanabe, D. et al.</span>: <span class="ti">Establishment of vertebrate left-right asymmetry.</span> <span class='so'>Nat. Rev. Genet., 3, 103-113 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11836504" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Miyazono, K., Maeda, S. & Imamura, T.</span>: <span class="ti">BMP receptor signaling: transcriptional targets, regulation of signals, and signaling cross-talk.</span> <span class='so'>Cytokine Growth Factor Rev., 16, 251-263 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15871923" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Yamamoto, M., Beppu, H., Takaoka, K. et al.</span>: <span class="ti">Antagonism between Smad1 and Smad2 signaling determines the site of distal visceral endoderm formation in the mouse embryo.</span> <span class='so'>J. Cell Biol., 184, 323-334 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19153222" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Wada, Y., Ohsumi, Y. & Anraku, Y.</span>: <span class="ti">Genes for directing vacuolar morphogenesis in <em>Saccharomyces cerevisiae</em>. I. Isolation and characterization of two classes of <em>vam</em> mutants.</span> <span class='so'>J. Biol. Chem., 267, 18665-18670 (1992)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1526998" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Nakamura, N., Hirata, A., Ohsumi, Y. et al.</span>: <span class="ti">Vam2/Vps41p and Vam6/Vps39p are components of a protein complex on the vacuolar membranes and involved in the vacuolar assembly in the yeast, <em>Saccharomyces cerevisiae</em>.</span> <span class='so'>J. Biol. Chem., 272, 11344-11349 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9111041" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_01.html" target="_blank">14.1 What is Signal Transduction?</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/19_03.html" target="_blank">19.3 Morphogenetic Movement</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_03.html" target="_blank">14.3 Intercellular Signal Transduction</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/15_01.html" target="_blank">15.1 Receptor-Mediated Intracellular Signaling Pathways</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_06.html" target="_blank">3.6 Gain-of-Function Mutations</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">和田 戈虹（Ge-Hong -Sun-Wada）</span><br>同志社女子大学薬学部 教授．<br><br><strong>和田  洋（Yoh Wada）</strong><br>大阪大学産業科学研究所 准教授．<br></div><br>© 2012 和田戈虹・和田 洋 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

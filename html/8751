@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 組織に特異的に存在するシグナルはマクロファージの局在および機能を可逆的に制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href=" http://first.lifesciencedb.jp/archives/8751" rel="bookmark">組織に特異的に存在するシグナルはマクロファージの局在および機能を可逆的に制御する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>岡部 泰賢</strong><br>（米国Yale大学School of Medicine，Department of Immunobiology）<br>email：<a href="mailto:yasutaka.okabe@yale.edu">岡部泰賢</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.064">10.7875/first.author.2014.064</a><br><div class="reference"><br><span class="ti">Tissue-specific signals control reversible program of localization and functional polarization of macrophages.</span><br><span class="au">Yasutaka Okabe, Ruslan Medzhitov</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24792964" target="_blank"><em>Cell</em>, <strong>157</strong>, 832-844 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　生体のほぼすべての組織には<a href="#" class="anno 恒常的">恒常的</a>に<a href="#" class="anno マクロ<a href="#" class="anno ファージ">ファージ</a>">マクロファージ</a>が存在する．これらのマクロファージは組織に存在するシグナルに応答することによりさまざまな機能および形態を示し，組織における<a href="#" class="anno 恒常性">恒常性</a>の維持に寄与する．しかし，この<a href="#" class="anno 組織マクロファージ">組織マクロファージ</a>の<a href="#" class="anno 多様性">多様性</a>を制御するシグナルの実体はほとんど明らかにされていなかった．今回，筆者らは，腹<a href="#" class="anno 腔">腔</a>マクロファージに焦点をあて，マクロファージが組織からのシグナルにより<a href="#" class="anno 特異的">特異的</a>な遺伝子の発現を誘導する<a href="#" class="anno 分子機構">分子機構</a>について解析した．その結果，腹膜の一部である大網から<a href="#" class="anno 産生">産生</a>される<a href="#" class="anno レチノイン酸">レチノイン酸</a>が<a href="#" class="anno 腹腔マクロファージ">腹腔マクロファージ</a>において<a href="#" class="anno 転写因子">転写因子</a>をコードする<em><a href="#" class="anno <a href="#" class="anno GAT">GAT</a>A">GATA</a>6</em>遺伝子の発現を<a href="#" class="anno 可逆的">可逆的</a>に誘導することにより組織に特異的な遺伝子の発現を<a href="#" class="anno 活性化">活性化</a>し，腹腔のB-1細胞を介した抗体の産生を制御していることが明らかにされた．<br/><br/><h2>はじめに</h2><br/>　マクロファージはほかの細胞には類をみないさまざまな機能を<a href="#" class="anno も">も</a>つ．これは，マクロファージが<a href="#" class="anno 病原体">病原体</a>認識<a href="#" class="anno 受容体">受容体</a>，<a href="#" class="anno <a href="#" class="anno <a href="#" class="anno Gタンパク">Gタンパク</a>質">Gタンパク質</a><a href="#" class="anno 共役受容体">共役受容体</a>">G<a href="#" class="anno タンパク質共役">タンパク質共役</a>受容体</a>，<a href="#" class="anno ス<a href="#" class="anno カ">カ</a>ベンジャー">スカベンジャー</a>受容体，<a href="#" class="anno 核内">核内</a><a href="#" class="anno ホルモン受容体">ホルモン受容体</a>などの種々の<a href="#" class="anno 細胞外">細胞外</a>シグナルセンサーを発現することにより，周囲に存在するさまざまなシグナルを認識し応答することに起因する．一方，生体のほぼすべての組織には恒常的にマクロファージが存在し，おのおのの組織に特化した性質を示すことが知られている．すなわち，肝臓の<a href="#" class="anno クッパー細胞">クッパー細胞</a>，脳のマイクロ<a href="#" class="anno グリア">グリア</a>，骨の<a href="#" class="anno 破<a href="#" class="anno 骨細胞">骨細胞</a>">破骨細胞</a>，<a href="#" class="anno <a href="#" class="anno 肺胞">肺胞</a>マクロファージ">肺胞マクロファージ</a>，<a href="#" class="anno 腸管マクロファージ">腸管マクロファージ</a>など，異なる組織マクロファージは組織において特異的な役割を担い恒常性の維持に寄与する<a href="#R1"><sup>1)</sup></a>．この組織マクロファージの多様性は，マクロファージが組織に存在する<a href="#" class="anno 細胞外シグナル">細胞外シグナル</a>に応答し特異的な遺伝子の発現の活性化を誘導することにより決定されると考えられている．しかし，この組織シグナルの実体はこれまでほとんど明らかにされていなかった．<br/>　マクロファージが組織に特異的な性質を獲得する分子機構には2つの<a href="#" class="anno 可能性">可能性</a>が考えられる（<a href="#F1">図1</a>）．ひとつは，<a href="#" class="anno 細胞分化">細胞分化</a>にともなう<a href="#" class="anno 非可逆的">非可逆的</a>なプログラムである．すなわち，マクロファージが組織のあいだで異なる細胞分化をとげることにより異なるマクロファージの<a href="#" class="anno サブセット">サブセット</a>が発生するという可能性である．<a href="#" class="anno 実際">実際</a>に，N<a href="#" class="anno FAT">FAT</a>c1，<a href="#" class="anno Spic">Spic</a>，<a href="#" class="anno LXR">LXR</a>αなどの転写因子を欠損するマウスは特定の組織においてのみマクロファージを欠損することから，これまで，マクロファージの組織における多様性は細胞分化にともない成立するとの考えが<a href="#" class="anno 支配的">支配的</a>であった<a href="#R2"><sup>2)</sup></a>．もうひとつの可能性は，分化し成熟したマクロファージが異なる組織の環境に応答してその性質を変化させる<a href="#" class="anno 分<a href="#" class="anno 極">極</a>化">分極化</a>である．分極化は必ずしも細胞の性質を固定するものではなく，細胞外シグナルの有無により可逆的に発動するプログラムであると考えられる．すなわち，マクロファージは同一の組織においてもその環境の変化に対し柔軟に細胞の性質を変化させ，組織における恒常性の維持に寄与している可能性が考えられる．これまで，感染や肥満などのストレス状態において<a href="#" class="anno インターフェロンγ">インターフェロンγ</a>や<a href="#" class="anno インターロイキン">インターロイキン</a>4などの<a href="#" class="anno サイトカイン">サイトカイン</a>がマクロファージの分極化を誘導することは報告されていたが<a href="#R3"><sup>3)</sup></a>，恒常的なマクロファージの組織における多様性が分極化の機構により制御されているかどうかは明らかではなかった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　組織マクロファージの多様な表現型を生みだす2つの分子機構</strong><br/>（a）細胞分化．前駆細胞が組織シグナルの存在のもとで異なる分化をへて多様なマクロファージのサブセットが非可逆的に生みだされる．<br/>（b）分極化．成熟したマクロファージは異なる組織シグナルに応答し多様な表現型が可逆的に生みだされる．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/05/Okabe-Cell-14.5.8-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　組織マクロファージの多様な表現型を生みだす2つの分子機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okabe-Cell-14.5.8-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okabe-Cell-14.5.8-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　筆者らは，このような背景のもと，マクロファージが組織に存在するシグナルを感知し特異的な遺伝子の発現を誘導する分子機構に焦点をあて研究を行った．<br/><br/><h2>1．腹腔マクロファージに特異的な遺伝子の発現を制御する転写因子<a href="#" class="anno GATA6">GATA6</a>の同定</h2><br/>　腹腔，肺，肝臓，<a href="#" class="anno 脾">脾</a>臓，小腸，<a href="#" class="anno 脂肪組織">脂肪組織</a>の6つの組織からマクロファージを<a href="#" class="anno 分取">分取</a>し，<a href="#" class="anno <a href="#" class="anno マイクロアレイ">マイクロアレイ</a>法">マイクロアレイ法</a>により遺伝子の発現を比較することにより，おのおのの組織マクロファージにおいて特異的に発現する遺伝子を同定した．それら遺伝子のうち，腹腔マクロファージにおいて特異的に発現する転写因子をコードする<em>GATA6</em>遺伝子に着目した．マクロファージにおいて特異的にGATA6を欠損するマウスを作製したところ，腹腔マクロファージは分化したが，腹腔において特異的に発現する遺伝子のうち約40％の発現がいちじるしく<a href="#" class="anno 減弱">減弱</a>していた．このことは，腹腔マクロファージにおいて特異的な遺伝子の発現の多くが<a href="#" class="anno 転写因子GATA6">転写因子GATA6</a>に依存して制御されていることを示していた．そこで，<em>GATA6</em>遺伝子の発現の活性化を腹腔マクロファージにおいて特異的な遺伝子の発現の指標とすることで，組織に特異的なマクロファージの<a href="#" class="anno 遺伝子発現">遺伝子発現</a>の分子機構を解析することにした．<br/><br/><h2>2．レチノイン酸に依存した<em>GATA6</em>遺伝子の発現の活性化</h2><br/>　<em>GATA6</em>遺伝子の上流の配列を解析したところ，レチノイン酸により活性化される<a href="#" class="anno 核内受容体">核内受容体</a><a href="#" class="anno RA">RA</a>Rの<a href="#" class="anno 結合配列">結合配列</a>と<a href="#" class="anno <a href="#" class="anno <a href="#" class="anno 相">相</a>同">相同</a>性">相同性</a>をもつ配列が見い出された．3<a href="#" class="anno T3">T3</a>細胞を用いたレポーター<a href="#" class="anno アッセイ">アッセイ</a>では，この配列を介してレチノイン酸が<em>GATA6</em><a href="#" class="anno 遺伝子プロモーター">遺伝子プロモーター</a>を活性化したことから，腹腔に存在するレチノイン酸が<em>GATA6</em>遺伝子の発現を活性化する可能性が考えられた．実際に，腹腔マクロファージをレチノイン酸の核内受容体RARに対するインバース<a href="#" class="anno アゴニスト">アゴニスト</a>であるBMS493で処理したところ，<em>GATA6</em>遺伝子の発現は抑制された．レチノイン酸は食物を介して取り込まれた<a href="#" class="anno ビタミンA">ビタミンA</a>から体内において変換される．ビタミンAを除去したえさで飼育したマウスでは腹腔マクロファージにおける<em>GATA6</em>遺伝子の発現が顕著に低下していた．そして，この発現はレチノイン酸の処理により回復した．以上の結果から，レチノイン酸が腹腔マクロファージにおける<em>GATA6</em>遺伝子の発現に必須であると結論づけた．<br/><br/><h2>3．レチノイン酸-GATA6経路はマクロファージの腹腔への局在を制御する</h2><br/>　レチノイン酸は組織に特異的なシグナルとしてどのように作用するのだろうか．小腸から吸収されたビタミンAは転写不<a href="#" class="anno 活性型">活性型</a>である<a href="#" class="anno レチノール">レチノール</a>として肝臓に貯蔵される．レチノールは<a href="#" class="anno 血流">血流</a>を介して全身に運ばれ，標的となる組織に到達するとレチノイン酸<a href="#" class="anno 合成酵素">合成酵素</a>の作用により<a href="#" class="anno 転写活性">転写活性</a>化型であるレチノイン酸に変換される<a href="#R4"><sup>4)</sup></a>．大網とよばれる脂肪に富んだ腹膜は腹腔マクロファージの分化の場であることが示唆されていたが<a href="#R5"><sup>5)</sup></a>，最近，大網にはレチノイン酸合成酵素が豊富に発現していることが報告された<a href="#R6"><sup>6)</sup></a>．実際に，大網にはレチノイン酸合成酵素のひとつR<a href="#" class="anno aldh2">aldh2</a>がほかの組織に比べ<a href="#" class="anno 5倍">5倍</a>以上も高く発現していたことから，大網において合成されたレチノイン酸が腹腔マクロファージにおける<em>GATA6</em>遺伝子の発現を誘導している可能性が考えられた．マクロファージにおいて特異的にGATA6を欠損するマウスでは，大網に大量のマクロファージが蓄積した一方，腹腔におけるマクロファージの数は顕著に減少していた．これらのことから，レチノイン酸を介した<em>GATA6</em>遺伝子の発現の活性化は大網において分化したマクロファージが腹腔へと移動するために必要であると考えられた．<br/>　大網がレチノイン酸のほかにも組織に特異的な遺伝子の発現を誘導するシグナルを腹腔マクロファージに提供している可能性について検討した．その結果，<em><a href="#" class="anno in vitro">in vitro</a></em>で培養した骨髄に由来するマクロファージに対し，大網の<a href="#" class="anno 培養<a href="#" class="anno 上清">上清</a>">培養上清</a>がレチノイン酸に非<a href="#" class="anno 依存的">依存的</a>あるいはレチノイン酸と<a href="#" class="anno 協調的">協調的</a>に腹腔マクロファージに特異的な遺伝子の発現を誘導することを見い<a href="#" class="anno 出し">出し</a>た．このことは，レチノイン酸を含む複数のシグナルがマクロファージに作用し組織において特異的な遺伝子発現を誘導していることを示唆していた．<br/><br/><h2>4．腹腔マクロファージにおけるGATA6に依存的なB-1細胞の<a href="#" class="anno 機能制御">機能制御</a></h2><br/>　腹腔マクロファージは組織に特異的にどのような役割を担うのだろうか．<a href="#" class="anno B細胞">B細胞</a>サブセットのひとつであるB-1細胞は，<a href="#" class="anno リンパ組織">リンパ組織</a>にはほとんどみられずおもに腹腔に局在する<a href="#R7"><sup>7)</sup></a>．最近，B-1細胞はレチノイン酸および<a href="#" class="anno TGFβ">TGFβ</a>の作用により免疫<a href="#" class="anno グロブリン">グロブリン</a>Aへと高い頻度で<a href="#" class="anno クラススイッチ">クラススイッチ</a>を起こすことが報告されている<a href="#R8"><sup>8)</sup></a>．興味深いことに，<a href="#" class="anno TGFβ2">TGFβ2</a>，TGFβを活性型に変換するThbs1，TGFβと結合し<a href="#" class="anno 細胞外マトリックス">細胞外マトリックス</a>への局在を制御するL<a href="#" class="anno TBP">TBP</a>1など，TGFβに関連するタンパク質の遺伝子は，組織に特異的およびGATA6に依存的に腹腔マクロファージに発現していた．そこで，腹腔マクロファージに発現するGATA6がB-1細胞による<a href="#" class="anno <a href="#" class="anno 免疫グロブリン">免疫グロブリン</a>A">免疫グロブリンA</a>の産生に関与する可能性について検討した．<a href="#" class="anno 野生型">野生型</a>の腹腔マクロファージをレチノイン酸の存在のもとでB-1細胞と<a href="#" class="anno 共培養">共培養</a>すると免疫グロブリンAへのクラススイッチが検出されたが，GATA6を欠損する腹腔マクロファージにはこの作用がみられなかった．しかし，<a href="#" class="anno 培地">培地</a>に活性型TGFβ2をくわえることにより，クラススイッチの頻度は野生型のマクロファージとの共培養と<a href="#" class="anno 同じ">同じ</a>程度にまで回復した．腹腔のB-1細胞は腸管の<a href="#" class="anno 粘膜固有層">粘膜固有層</a>に移動し<a href="#" class="anno 腸管関連リンパ組織">腸管関連リンパ組織</a>に<a href="#" class="anno 非依存的">非依存的</a>に免疫グロブリンAの産生に寄与することが報告されている<a href="#R9"><sup>9)</sup></a>．腸管関連リンパ組織を欠損する<a href="#" class="anno 遺伝的">遺伝的</a>な背景にてマクロファージにおいて特異的にGATA6を欠損するマウスでは，糞便に含まれる免疫グロブリンAの量が有意に減少した．以上の結果から，転写因子GATA6を介した腹腔マクロファージの機能はB-1細胞による免疫グロブリンAの産生に寄与すると結論づけた．<br/><br/><h2>おわりに</h2><br/>　今回，筆者らは，腹腔マクロファージをモ<a href="#" class="anno デ">デ</a>ルとし，マクロファージが組織に存在するシグナルを感知し特異的な遺伝子の発現を誘導する分子機構を明らかにした（<a href="#F2">図2</a>）．これまで，組織マクロファージの多様な<a href="#" class="anno 表現型">表現型</a>は異なる細胞分化の過程で生じる非可逆的な細胞の<a href="#" class="anno 運命決定">運命決定</a>によると考えられてきた．しかし，GATA6を欠損しても腹腔マクロファージは正常に発生したこと，<em>GATA6</em>遺伝子を含む腹腔に特異的な遺伝子の発現はレチノイン酸の<a href="#" class="anno 存在量">存在量</a>に比例して変化したことから，恒常的な組織マクロファージの多様性は可逆的な分極化によっても制御されることが明らかになった．このことは，組織マクロファージは細胞分化の過程において定められた役割だけでなく，組織の環境の変化に対しても柔軟にその性質を変化させ多様な機能を担うことにより，組織における恒常性の維持に寄与することを示唆していた．そしてこのことは，マクロファージが個体の発生，生理代謝，<a href="#" class="anno 生体防御">生体防御</a>，がんや<a href="#" class="anno 動脈硬化">動脈硬化</a>を例とする病態，など多くの<a href="#" class="anno 生命現象">生命現象</a>に関与することを考えるうえでも重要であろう．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　腹腔マクロファージに特異的な<em>GATA6</em>遺伝子の発現の機構</strong><br/>血流を介して大網へと運ばれたビタミンAはRaldh2によりレチノイン酸に変換される．レチノイン酸および大網に由来する因子は協調的に，<em>GATA6</em>遺伝子を含む腹腔マクロファージに特異的な遺伝子の発現を誘導する．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/05/Okabe-Cell-14.5.8-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　腹腔マクロファージに特異的な<em>GATA6</em>遺伝子の発現の機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okabe-Cell-14.5.8-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okabe-Cell-14.5.8-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Gordon, S. & Taylor, P. R.</span>: <span class="ti">Monocyte and macrophage heterogeneity.</span> <span class='so'>Nat. Rev. Immunol., 5, 953-964 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16322748" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Wynn, T. A., Chawla, A. & Pollard, J. W.</span>: <span class="ti">Macrophage biology in development, homeostasis and disease.</span> <span class='so'>Nature, 496, 445-455 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23619691" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Gordon, S. & Martinez F. O.</span>: <span class="ti">Alternative activation of macrophages: mechanism and functions.</span> <span class='so'>Immunity, 32, 593-604 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20510870" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Duester, G.</span>: <span class="ti">Retinoic acid synthesis and signaling during early organogenesis.</span> <span class='so'>Cell, 134, 921-931 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18805086" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Wijffels, J. F., Hendrickx, R. J., Steenbergen, J. J. et al.</span>: <span class="ti">Milky spots in the mouse omentum may play an important role in the origin of peritoneal macrophages.</span> <span class='so'>Res. Immunol., 143, 401-409 (1992)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1518954" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Maruya, M., Suzuki, K., Fujimoto, H. et al.</span>: <span class="ti">Vitamin A-dependent transcriptional activation of the nuclear factor of activated T cell c1 (NFATc1) is critical for the development and survival of B1 cells.</span> <span class='so'>Proc. Nati. Acad. Sci. USA, 108, 722-777 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21187378" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Baumgarth, N.</span>: <span class="ti">The double life of a B-1 cell: self-reactivity selects for protective effector functions.</span> <span class='so'>Nat. Rev. Immunol., 11, 34-46 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21151033" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Roy, B., Brennecke, A. M., Agarwal, S. et al.</span>: <span class="ti">An intrinsic propensity of murine peritoneal B1b cells to switch to IgA in presence of TGF-β and retinoic acid.</span> <span class='so'>PLoS One, 8, e82121 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24324757" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Fagarasan, S., Kawamoto, S., Kanagawa, O. et al.</span>: <span class="ti">Adaptive immune regulation in the gut: T cell-dependent and T cell-independent IgA synthesis.</span> <span class='so'>Annu. Rev. Immunol., 28, 243-273 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20192805" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/21_03.html" target="_blank">21.3 Initiation of Immune Responses</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/05_01.html" target="_blank">5.1 The External Environment and Homeostasis of the Internal Environment</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/21_02.html" target="_blank">21.2 Immune cells and structure</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/19_04.html" target="_blank">19.4 Cell Differentiation and Stem Cells</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/21_04.html" target="_blank">21.4 Effector Mechanisms in Immune Responses</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">岡部 泰賢（Yasutaka Okabe）</span><br>略歴：2006年 大阪大学大学院医学系研究科 修了，同年 同 博士研究員，2007年 京都大学大学院医学研究科 博士研究員を経て，2008年より米国Yale大学School of Medicine博士研究員<br>研究テーマ：組織マクロファージの細胞生物学．<br>関心事：マクロファージによる組織における恒常性の維持．<br></div><br>© 2014 岡部 泰賢 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

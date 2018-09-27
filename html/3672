@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> カイコ発：piRNAがつくられるしくみ : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/3672" rel="bookmark">カイコ発：piRNAがつくられるしくみ</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>河岡慎平・泊 幸秀</strong><br>（東京大学分子細胞生物学研究所 RNA機能研究分野）<br>email：<a href="mailto:kawaoka@ss.ab.a.u-tokyo.ac.jp">河岡慎平</a>，<a href="mailto:tomari@iam.u-tokyo.ac.jp">泊 幸秀</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.153">10.7875/first.author.2011.153</a><br><div class="reference"><br><span class="ti">3' end formation of PIWI-interacting RNAs in vitro.</span><br><span class="au">Shinpei Kawaoka, Natsuko Izumi, Susumu Katsuma, Yukihide Tomari</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21925389" target="_blank"><em>Molecular Cell</em>, <strong>43</strong>, 1015-1022 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　われわれヒトをはじめとする<a href="#" class="anno 真核生物">真核生物</a>の<a href="#" class="anno 遺伝情報">遺伝情報</a>は<a href="#" class="anno 生殖細胞">生殖細胞</a>をとおして次世代へ正確に受け継がれる．ところが，真核生物のゲノムにはこの正確な遺伝情報の伝達を撹乱する<a href="#" class="anno トランスポゾン">トランスポゾン</a>とよばれる<a href="#" class="anno 利己的">利己的</a>な配列が存在する．近年，<a href="#" class="anno piRNA">piRNA</a>とよばれる<a href="#" class="anno <a href="#" class="anno 低分子">低分子</a>RNA">低分子RNA</a>がトランスポゾンのはたらきを抑えることにより，次世代への正確な遺伝情報の伝達を助けていることがわかってきた．piRNA経路に異常が生じると，トランスポゾンのはたらきが活発化するのみならず，精子や卵の形成が正常に行われなくなり不妊となることがショウジョウバエやマウスを用いた研究により示されている．しかしながらこれまで，piRNA経路の中核となるpiRNAのつくられるしくみは<a href="#" class="anno 未解明">未解明</a>のままであった．筆者らは，今回，<a href="#" class="anno 鱗<a href="#" class="anno 翅">翅</a>目">鱗翅目</a>に属する昆虫である<a href="#" class="anno カ">カ</a>イコの卵巣に由来する<a href="#" class="anno 培養細胞">培養細胞</a>を活用することで，piRNAがつくられるようすを<a href="#" class="anno 試験管内">試験管内</a>で再現することに世界ではじめて成功し，その過程を明らかにした．<br/><br/><h2>はじめに</h2><br/>　PIWI-in<a href="#" class="anno ter">ter</a><a href="#" class="anno actin">actin</a>g RNA（piRNA）は動物の生殖細胞におけるトランスポゾン<a href="#" class="anno 抑制系">抑制系</a>の中核をなす低分子RNAである．piRNAはほかのよく研究されている低分子RNAである<a href="#" class="anno s<a href="#" class="anno mal">mal</a>">smal</a>l <a href="#" class="anno int">int</a>erfe<a href="#" class="anno rin">rin</a>g RNA（<a href="#" class="anno siRNA">siRNA</a>）や<a href="#" class="anno mic">mic</a>roRNA（<a href="#" class="anno miRNA">miRNA</a>）より<a href="#" class="anno も">も</a>数塩基ほど長い<a href="#R1"><sup>1)</sup></a>．興味深いことに，<a href="#" class="anno 二本鎖">二本鎖</a>の<a href="#" class="anno 中間体">中間体</a>をへてつくられるsiRNAやmiRNAとは異なり，piRNAは<a href="#" class="anno 一本鎖">一本鎖</a>のままつくられることがわかっている<a href="#R1"><sup>1)</sup></a>．しかしながらこれまで，piRNAがどのようにつくられるかについては<a href="#" class="anno 大部分">大部分</a>が不明なままであった．その一因として，piRNA<a href="#" class="anno 生合成">生合成</a>を再現するような<em><a href="#" class="anno in vitro">in vitro</a></em>系の<a href="#" class="anno ないこと">ないこと</a>があげられる<a href="#R2"><sup>2)</sup></a>．これは，piRNAの発現が<a href="#" class="anno 生殖巣">生殖巣</a>にかぎられているため多量のタンパク質<a href="#" class="anno 抽出液">抽出液</a>を調製することが困難であること，そして，piRNA経路を発現するような培養細胞がみつかっていなかったこと，などによるところが大きい．筆者らは，非モ<a href="#" class="anno デ">デ</a>ル生物であるカイコという生物の<a href="#" class="anno 有用性">有用性</a>に着目しながらpiRNAに関する研究を行ってきた．2008年にカイコpiRNA経路の<a href="#" class="anno 基本的">基本的</a>な性質を報告すると<a href="#R3"><sup>3,4)</sup></a>，2009年にはカイコの卵巣に由来する培養細胞である<a href="#" class="anno BmN4細胞">BmN4細胞</a>がpiRNA経路を完全な<a href="#" class="anno かた">かた</a>ちで保持することを報告した<a href="#R5"><sup>5)</sup></a>．今回は，このBmN4細胞を活用することにより，試験管内においてpiRNA生合成を再現することに成功し，その反応の性質を明らかにした．<br/><br/><h2>1．カイコのPIWIタンパク質であるSiwiは1番目の塩基がUであるRNAを好む</h2><br/>　筆者らの過去の研究から，カイコのゲノムにはSiwiとBm<a href="#" class="anno Ago3">Ago3</a>という2つのPIWIタンパク質がコードされていることが明らかになっている<a href="#R4"><sup>4)</sup></a>．Siwiに結合するpiRNAは1番目の塩基がUにかたよっており，また，BmAgo3に結合するpiRNAの10塩基目の塩基はAにかたよっている<a href="#R5"><sup>5)</sup></a>．また，<a href="#" class="anno Argonaute">Argonaute</a>/PIWI<a href="#" class="anno タンパク質ファミリー">タンパク質ファミリー</a>は自らに結合するRNAの1塩基目と直接に<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>していることが明らかになっている<a href="#R6"><sup>6,7)</sup></a>．そこで，この塩基のかたよりを試験管内で再現することを試みた．<br/>　まず，<a href="#" class="anno 成熟型">成熟型</a>piRNAを模した，1番目の塩基がそれぞれU，A，G，Cである2<a href="#" class="anno 6塩基">6塩基</a>の合成RNAを<a href="#" class="anno <a href="#" class="anno 放射性">放射性</a><a href="#" class="anno 同位体">同位体</a>">放射性同位体</a>により標識し，Flag-Siwi<a href="#" class="anno 融合タンパク質">融合タンパク質</a>およびFlag-BmAgo3融合タンパク質を<a href="#" class="anno 定常的">定常的</a>に発現するBmN4細胞から調製したタンパク質<a href="#" class="anno 抽出物">抽出物</a>と<a href="#" class="anno インキュベーション">インキュベーション</a>した．そののち，抗Flag抗体による<a href="#" class="anno 免疫沈降">免疫沈降</a>を行い，<a href="#" class="anno 免疫沈降物">免疫沈降物</a>に含まれる放射性同位体により標識されたRNAの量を定量した．すると，Siwiは1番目の塩基がUであるRNAに好んで結合することが明らかになった．一方で，BmAgo3は1番目の塩基に対する好みを示さなかった．興味深いことに，これらの好みは使用する合成RNAの<a href="#" class="anno 長さ">長さ</a>を50塩基としても同様であった．<a href="#" class="anno つまり">つまり</a>，Siwiの1番目の塩基がUであるRNAに対する好みは，使用するRNAの長さによらなかった．<br/><br/><h2>2．1番目の塩基がUである50塩基のRNAの3'末端をトリミングする反応の発見</h2><br/>　PIWI<a href="#" class="anno タンパク質の構造">タンパク質の構造</a>的な見地から，Siwiに結合した1番目の塩基がUである50塩基のRNAの3'末端は，ほぼまちがいなくSiwiから“はみだして”いるものと考えられたので，はみだしたこの3'末端をかじる反応あるいは活性が存在するという仮説をたてた．そこで，Siwiと1番目の塩基がUである50塩基の合成RNAとの<a href="#" class="anno 複合体">複合体</a>を，BmN4細胞から得たタンパク質抽出物とインキュベーションした．Siwiとは結合していない合成RNAとインキュベーションした際には強いRN<a href="#" class="anno ase">ase</a>活性が認められたので，<a href="#" class="anno 当然">当然</a>，Siwiから“はみだした”3'末端は適切な長さまで分解されるものと予想したが，それに反してそのような活性は認められなかった．piRNAがどのように生合成されるかを試験管内で立証した報告はなかったので，その時点では単純にこの仮説がまちがっているという<a href="#" class="anno 可能性">可能性</a>がもっとも高く，実験はいちどここで頓挫した．<br/>　ところで，ここで使用したタンパク質抽出物は細胞を破砕し遠心した得た<a href="#" class="anno 上清">上清</a>に該当し，生化学実験で使われるもっともスタンダードなものであった．ここで，一縷の望みをもって常識外の実験を試みた．すなわち，遠心による分離を行わない細胞破砕液そのものを実験に使用してみたのである．この細胞破砕液そのものは見た目にもたいへん汚く，また，細胞破砕液そのものを扱ったという話は，少なくとも筆者らは聞いたことがなかった．ところが驚くべきことに，この細胞破砕液がSiwiに結合した1番目の塩基がUである50塩基の合成RNAの3'末端を成熟型piRNAの長さまで削り込む活性（トリミング活性）をもっていたのである．のちの実験により，このトリミング活性は1000×<em>g</em>という非常に低速な遠心でも不溶<a href="#" class="anno 画分">画分</a>に沈殿すること（<a href="#F1">図1</a>），<a href="#" class="anno 一般的">一般的</a>な<a href="#" class="anno 界面活性剤">界面活性剤</a>や<a href="#" class="anno 超音波">超音波</a>破砕といった方法ではまったく<a href="#" class="anno <a href="#" class="anno 可溶">可溶</a>化">可溶化</a>できないことが明らかになった．よって，17,000×<em>g</em>の遠心により調製したスタンダードなタンパク質抽出物が活性を示さなかったのはむしろ<a href="#" class="anno 合理的">合理的</a>であった．piRNA生合成にかかわることが<a href="#" class="anno <a href="#" class="anno 遺伝学">遺伝学</a>的">遺伝学的</a>に示されているタンパク質の多くは<a href="#" class="anno 核膜">核膜</a>の周辺のヌアージュという<a href="#" class="anno 構造体">構造体</a>に局在することが知られている<a href="#R8"><sup>8)</sup></a>．筆者らは，トリミング活性をもつタンパク質（複合体）はこのヌアージュに存在するものと予想している．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　この研究の核となるデータ</strong><br/>低速遠心（1000×<em>g</em>）により得た沈殿とSiwiと1番目の塩基がUである50塩基の合成RNAとの複合体をインキュベーションすると，成熟型piRNAの長さに相当する約27塩基のRNAがつくられた．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2011/10/Tomari-Molecular-Cell-11.9.15-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　この研究の核となるデータ" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tomari-Molecular-Cell-11.9.15-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tomari-Molecular-Cell-11.9.15-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．トリミング反応はMg<sup>2+</sup><a href="#" class="anno 依存性">依存性</a>の3'-5'<a href="#" class="anno エキソ">エキソ</a><a href="#" class="anno ヌクレアーゼ">ヌクレアーゼ</a>により行われる</h2><br/>　トリミング反応の中核分子を仮に<a href="#" class="anno トリマー">トリマー</a>と名づけ，その<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>な性質を明らかにしようと試みた．まず，トリマーが<a href="#" class="anno エキソヌクレアーゼ">エキソヌクレアーゼ</a>なのか<a href="#" class="anno エンドヌクレアーゼ">エンドヌクレアーゼ</a>なのかを検証した．もしトリマーがエンドヌクレアーゼであれば，トリミング反応は基質となるRNAの3'末端の構造には依存しないはずである．そこで，これまで使ってきた3'末端が水酸基であるRNAではなく，3'末端が<a href="#" class="anno リン酸">リン酸</a>基であるRNAをトリミング反応に供したところ，このRNAはトリミングされなかった．また，1番目の塩基がUである50塩基の合成RNAの38番目と39番目の塩基のあいだに<a href="#" class="anno ホスホ">ホスホ</a>ロチオエートを導入すると，39番目の塩基においてトリミング反応が停止することがわかった．この<a href="#" class="anno ホスホロチオエート">ホスホロチオエート</a>は導入した部位における切断のみを阻害するものと考えられた．もしトリミング反応がエンドヌクレアーゼによるものであれば，ホスホロチオエートを導入しても正しく成熟型piRNAができるはずである．以上の<a href="#" class="anno 実験結果">実験結果</a>から，トリマーは3'-5'エキソヌクレアーゼであると結論した．また，このトリミング反応にはMg<sup>2+</sup>が必要であったので，トリマーはMg<sup>2+</sup>依存性の3'-5'エキソヌクレアーゼであることが明らかになった．<br/><br/><h2>4．piRNAの3'末端の<a href="#" class="anno メチル">メチル</a>化修飾はトリミング反応と共役している</h2><br/>　piRNAの3'末端には2'-<em>O</em>-<a href="#" class="anno メチル化">メチル化</a>修飾が導入されることが知られている<a href="#R9"><sup>9,10)</sup></a>．そこで，トリミング反応により生じたRNAの3'末端の構造を調べたところ，確かに<a href="#" class="anno メチル化修飾">メチル化修飾</a>されていることがわかった．おもしろいことに，それ以上はトリミングされない基質，すなわち，1番目の塩基がUである28塩基以下の合成RNAをトリミング<a href="#" class="anno 反応液">反応液</a>とインキュベーションしてもこのメチル化修飾は導入されなかった．以上から，トリミングされなければメチル化修飾されない，すなわち，piRNAの3'末端の2'-<em>O</em>-メチル化修飾はトリミング反応と共役していることがわかった．ホスホロチオエートの導入により29塩基以上の長さでトリミング反応を停止させた場合には十分なメチル化修飾が起こらなかったため，メチル化修飾が導入されるためには成熟型piRNAの長さまでトリミングされることが必要であることがわかった．なおかつ，メチル化修飾そのものを阻害した場合でもトリミング産物の長さは不変であった．すなわち，メチル化修飾そのものはpiRNAの長さを決定することには無関係であった．<br/><br/><h2>5．piRNAがつくられるしくみ</h2><br/>　今回，筆者らは，カイコという非モデル生物を活用してpiRNA生合成の一部を再現する<em>in vitro</em>系をたちあげることに成功した．長いRNAがランダムに分解されることにより<a href="#" class="anno 確率的">確率的</a>に生じる，1番目の塩基がUであるRNAがSiwiに取り込まれることによりpiRNA生合成がはじまるものと考えている．Siwiがどのようにして1番目の塩基がUであるRNAを認識しているのかについて現時点では不明である．Siwiが1番目の塩基がUであるRNAを取り込むと，3'末端のはみだした部分をトリマーがトリミングし，それと共役するかたちで3'末端に2'-<em>O</em>-メチル化修飾が導入される．これで成熟型piRNA複合体の完成である．この成熟型piRNA複合体はPIWIタンパク質による切断反応により新たなpiRNAをつくりだす<a href="#R11"><sup>11-13)</sup></a>．これがpiRNA生<a href="#" class="anno 合成経路">合成経路</a>のモデルである（<a href="#F2">図2</a>）．その発見の経緯からも明らかなように，トリマーは多数のおもしろい性質を備えている．しかしながら，その性質そのものがトリマーの実体をとらえる障害となっており，その<a href="#" class="anno 分子実体">分子実体</a>はい<a href="#" class="anno まだ">まだ</a>明らかではない．今後，筆者らの構築したこの<em>in vitro</em>系をあしがかりとして，これまで踏み込むことができなかったpiRNA<a href="#" class="anno 生合成経路">生合成経路</a>の詳細を明らかにするような研究が増えていくだろう．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　piRNA生合成経路のモデル</strong><br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2011/10/Tomari-Molecular-Cell-11.9.15-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　piRNA生合成経路のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tomari-Molecular-Cell-11.9.15-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tomari-Molecular-Cell-11.9.15-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究で活躍したBmN4細胞は，いまなお<a href="#" class="anno 生殖<a href="#" class="anno <a href="#" class="anno 細胞系">細胞系</a>列">細胞系列</a>">生殖細胞系列</a>のpiRNA経路を完全なかたちで保持することが証明された唯一の培養細胞である．筆者（のひとり）には苦い経験がある．いたいけな学部学生であった際“どうしてカイコを使って研究しているの？”という（<a href="#" class="anno 教育的">教育的</a>な）質問に歯切れよく答えることができなかったのだ．そういった意味でも，BmN4細胞は最高の相棒である．BmN4細胞を用いてpiRNAの生合成や作用<a href="#" class="anno 機序">機序</a>に挑む<a href="#" class="anno 研究者">研究者</a>が少しでも増えてくれれば望外の喜びである．また，カイコ個体を用いたpiRNAの解析から興味深い事実がわかりつつある<a href="#R13"><sup>13,14)</sup></a>．もはや，さきの質問の答えに窮することはない．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Ghildiyal, M. & Zamore, P. D.</span>: <span class="ti">Small silencing RNAs: an expanding universe.</span> <span class='so'>Nat. Rev. Genet., 10, 94-108 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19148191" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Hartig, J. V., Tomari, Y. & Forstemann, K.</span>: <span class="ti">piRNAs: the ancient hunters of genome invaders.</span> <span class='so'>Genes Dev., 21, 1707-1713 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17639076" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Kawaoka, S., Hayashi, N., Katsuma, S. et al.</span>: <span class="ti"><em>Bombyx</em> small RNAs: genomic defense system against transposons in the silkworm, <em>Bombyx mori</em>.</span> <span class='so'>Insect Biochem. Mol. Biol., 38, 1058-1065 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18801438" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Kawaoka, S., Minami, K., Katsuma, S. et al.</span>: <span class="ti">Developmentally synchronized expression of two <em>Bombyx mori</em> Piwi subfamily genes, SIWI and BmAGO3 in germ-line cells.</span> <span class='so'>Biochem. Biophys. Res. Commun., 367, 755-760 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18191035" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kawaoka, S., Hayashi, N., Suzuki, Y. et al.</span>: <span class="ti">The <em>Bombyx</em> ovary-derived cell line endogenously expresses PIWI/PIWI-interacting RNA complexes.</span> <span class='so'>RNA, 15, 1258-1264 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19460866" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Ma, J. B., Yuan, Y. R., Meister, G. et al.</span>: <span class="ti">Structural basis for 5'-end-specific recognition of guide RNA by the <em>A</em>. <em>fulgidus</em> Piwi protein.</span> <span class='so'>Nature, 434, 666-670 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15800629" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Parker, J. S., Roe, S. M. & Barford, D.</span>: <span class="ti">Structural insights into mRNA recognition from a PIWI domain-siRNA guide complex.</span> <span class='so'>Nature, 434, 663-666 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15800628" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Lim, A. K. & Kai, T.</span>: <span class="ti">Unique germ-line organelle, nuage, functions to repress selfish genetic elements in <em>Drosophila melanogaster</em>.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 104, 6714-6719 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17428915" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Kirino, Y. & Mourelatos, Z.</span>: <span class="ti">2'-<em>O</em>-methyl modification in mouse piRNAs and its methylase.</span> <span class='so'>Nucleic Acids Symp. Ser., 417-418 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18029764" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Ohara, T., Sakaguchi, Y., Suzuki, T. et al.</span>: <span class="ti">The 3' termini of mouse Piwi-interacting RNAs are 2'-O-methylated.</span> <span class='so'>Nat. Struct. Mol .Biol., 14, 349-350 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17384646" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Brennecke, J., Aravin, A. A., Stark, A. et al.</span>: <span class="ti">Discrete small RNA-generating loci as master regulators of transposon activity in <em>Drosophila</em>.</span> <span class='so'>Cell, 128, 1089-1103 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17346786" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Gunawardane, L. S., Saito, K., Nishida, K. M. et al.</span>: <span class="ti">A slicer-mediated mechanism for repeat-associated siRNA 5' end formation in <em>Drosophila</em>.</span> <span class='so'>Science, 315, 1587-1590 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17322028" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Kawaoka, S., Arai, Y., Kadota, K. et al.</span>: <span class="ti">Zygotic amplification of secondary piRNAs during silkworm embryogenesis.</span> <span class='so'>RNA, 17, 1401-1407 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21628432" target="_blank">PubMed</a>]</span></li><br><li id="R14"><span class='au'>Kawaoka, S., Kadota, K., Arai, Y. et al.</span>: <span class="ti">Silkworm W chromosome is a source of female-enriched piRNAs.</span> <span class='so'>RNA, 17, 2144-2151 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22020973" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/10_04.html" target="_blank">10.4 Epigenetic Regulation of Gene Expression</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">河岡 慎平（Shinpei Kawaoka）</span><br>略歴：東京大学大学院農学生命科学研究科博士課程 在学中．<br>関心事：大研究者への道，体重の削減，がん研究．<br><br><strong>泊  幸秀（Yukihide Tomari）</strong><br>東京大学分子細胞生物学研究所 准教授<br></div><br>© 2011 河岡慎平・泊 幸秀 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

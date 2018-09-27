@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> がんの転移先はがん細胞に由来するエキソソームが規定しその臓器特異性はエキソソームに含まれるインテグリンにより決定される : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/11957" rel="bookmark">がんの転移先はがん細胞に由来するエキソソームが規定しその臓器特異性はエキソソームに含まれるインテグリンにより決定される</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>星野歩子・橋本彩子・David Lyden</strong><br>（米国Weill Cornell Medicine，Departments of Pediatrics）<br>email：<a href="mailto:ayn2001@med.cornell.edu">星野歩子</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.136">10.7875/first.author.2015.136</a><br><div class="reference"><br><span class="ti">Tumour exosome integrins determine organotropic metastasis.</span><br><span class="au">Ayuko Hoshino, Bruno Costa-Silva, Tang-Long Shen, Goncalo Rodrigues, Ayako Hashimoto, Milica Tesic Mark, Henrik Molina, Shinji Kohsaka, Angela Di Giannatale, Sophia Ceder, Swarnima Singh, Caitlin Williams, Nadine Soplop, Kunihiro Uryu, Lindsay Pharmer, Tari King, Linda Bojmar, Alexander E. Davies, Yonathan Ararso, Tuo Zhang, Haiying Zhang, Jonathan Hernandez, Joshua M. Weiss, Vanessa D. Dumont-Cole, Kimberly Kramer, Leonard H. Wexler, Aru Narendran, Gary K. Schwartz, John H. Healey, Per Sandstrom, Knut Jørgen Labori, Elin H. Kure, Paul M. Grandgenett, Michael A. Hollingsworth, Maria de Sousa, Sukhwinder Kaur, Maneesh Jain, Kavita Mallya, Surinder K. Batra, William R. Jarnagin, Mary S. Brady, Oystein Fodstad, Volkmar Muller, Klaus Pantel, Andy J. Minn, Mina J. Bissell, Benjamin A. Garcia, Yibin Kang, Vinagolu K. Rajasekhar, Cyrus M. Ghajar, Irina Matei, Hector Peinado, Jacqueline Bromberg, David Lyden</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26524530" target="_blank"><em>Nature</em>, <strong>527</strong>, 329-335 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　長年にわたり，<a href="#" class="anno がん転移">がん転移</a>の成立には転移に適するニッチが必要であるとされてきたが，がんが特定の臓器に転移する転移の臓器<a href="#" class="anno 特異性">特異性</a>については，がん転移の研究における最大の謎のひとつとされている．今回，筆者らは，マウスおよびヒトにおいて，<a href="#" class="anno 臓器特異性">臓器特異性</a>を<a href="#" class="anno も">も</a>つ<a href="#" class="anno がん細胞">がん細胞</a>に由来する<a href="#" class="anno <a href="#" class="anno エキソ">エキソ</a>ソーム">エキソソーム</a>が転移先の細胞に<a href="#" class="anno 優先的">優先的</a>に取り込まれ，そこでがん転移に適するニッチを形成することを明らかにした．マウスに肺に特異性をもつがん細胞に由来するエキソソームを投与すると，骨に特異性をもつがん細胞の転移先は骨から肺へと変化した．さらに，プロテ<a href="#" class="anno オミクス">オミクス</a>解析によりエキソソームに含まれる<a href="#" class="anno インテグリン">インテグリン</a>の発現にはその臓器特異性によりパターンのあることが判明し，インテグリンα<sub>6</sub>β<sub>4</sub>およびインテグリンα<sub>6</sub>β<sub>1</sub>は肺への転移と，インテグリンα<sub>v</sub>β<sub>5</sub>は肝臓への転移と関連がみられた．エキソソームに含まれるインテグリンα<sub>6</sub>β<sub>4</sub>の発現を低下させると肺におけるエキソソームの取り込みは減少し，肺への転移も減少した．同様に，エキソソームに含まれるインテグリンα<sub>v</sub>β<sub>5</sub>の発現を低下させると肝臓におけるエキソソームの取り込みは減少し，肝臓への転移も減少した．<a href="#" class="anno 臨床<a href="#" class="anno デ">デ</a>ータ">臨床データ</a>からは，患者の<a href="#" class="anno 血中">血中</a>のエキソソームに含まれるインテグリンが将来の転移先の予測に有用である<a href="#" class="anno 可能性">可能性</a>が示された．<br/><br/><h2>はじめに</h2><br/>　126年前，がん細胞が特定の臓器にのみ転移するのはその臓器の環境ががん細胞の<a href="#" class="anno 生着">生着</a>および増殖に適しているからであるとする仮説が提唱されて以来<a href="#R1"><sup>1)</sup></a>，がん転移の臓器特異性を解明しようとする研究は数多く報告されてきたが，その<a href="#" class="anno 分子機構">分子機構</a>はい<a href="#" class="anno まだ">まだ</a>明らかではない．転移の臓器特異性はがん細胞それ自体の性質によるものとする報告は多く<a href="#R2"><sup>2-5)</sup></a>，また，転移先の臓器においても，がん細胞が<a href="#" class="anno 産生">産生</a>するタンパク質により転移しやすい環境が形成されている可能性が示唆されてきた<a href="#R6"><sup>6-8)</sup></a>．エキソソームはがん細胞を含むすべての細胞から分泌される直<a href="#" class="anno 径">径</a>30～100 nmほどの脂質<a href="#" class="anno 二重">二重</a>膜により形成される<a href="#" class="anno 小胞">小胞</a>であり，タンパク質，RNA，DNAなどが含まれる<a href="#R9"><sup>9)</sup></a>．近年，筆者らは，がん細胞に由来するエキソソームに含まれるタンパク質<a href="#" class="anno MET">MET</a>により<a href="#" class="anno メラノーマ">メラノーマ</a>の転移が促進されることや<a href="#R10"><sup>10)</sup></a>，<a href="#" class="anno <a href="#" class="anno 膵">膵</a>臓がん">膵臓がん</a>細胞に由来するエキソソームに含まれるタンパク質MIFにより膵臓がんの肝臓への転移がどのように進行するかについて報告してきた<a href="#R11"><sup>11)</sup></a>．これらの報告を含めて，エキソソームによるがんの進展についての研究は増えつつあるが，エキソソームがどの臓器に分布し，また，その分布は何に規定されているかについては知られていなかった．筆者らは，エキソソームが臓器に<a href="#" class="anno 選択的">選択的</a>に分布することによりがん転移の臓器特異性が決定されているのではないかという仮説をたてた．<br/><br/><h2>1．がん細胞に由来するエキソソームは将来の転移先に取り込まれ前転移ニッチを形成する</h2><br/>　がん細胞に由来するエキソソームが臓器に選択的に分布するかどうか検討するため，将来の転移先が肺である乳がん細胞および肝臓である膵臓がん細胞からエキソソームを回収し，マウスへ投与して24時間後にその分布を測定した．その結果，エキソソームの分布はがん細胞の将来の転移先において有意に高いことがわかった．さらに，同一の<a href="#" class="anno 乳がん<a href="#" class="anno 細胞株">細胞株</a>">乳がん細胞株</a>を親株として樹立された肺，骨，脳それぞれに<a href="#" class="anno 特異的">特異的</a>な<a href="#" class="anno 転移能">転移能</a>をもつがん細胞に由来するエキソソームを回収し，同様にマウスに投与したところ，肺への<a href="#" class="anno 転移性">転移性</a>をもつがん細胞に由来するエキソソームは肺に，脳への転移性をもつがん細胞に由来するエキソソームは脳に，有意に高く分布することが確認された．エキソソームが特異的な転移先へ分布するだけでなく，その臓器において転移に適するニッチを形成するかどうか検討するため，マウスに肺への転移性をもつ乳がん細胞に由来するエキソソームを3週間にわたり<a href="#" class="anno 静脈投与">静脈投与</a>し（エキソソームによる肺への転移性の“教育”），そののち，骨への転移性をもつ乳がん細胞を<a href="#" class="anno 尾静脈">尾静脈</a>あるいは心臓から投与し，肺への転移能について検討した．その結果，いずれの場合においても，がん細胞それ自体は肺への転移能はもたないにもかかわらず，がん細胞は肺へと転移した．以上より，がん細胞に由来するエキソソームの分布には臓器<a href="#" class="anno 選択性">選択性</a>があり，このエキソソームが将来の転移先に取り込まれ転移に適する前転移ニッチを形成することがわかった．<br/><br/><h2>2．がん細胞に由来するエキソソームは発現するインテグリンによりそれぞれの転移先となる臓器において特定の種類の細胞に取り込まれる</h2><br/>　エキソソームの分布の臓器特異性がどのように決定されているのか明らかにするため，<a href="#" class="anno 臓器特異的">臓器特異的</a>に転移する6種類のがん細胞に由来するエキソソームに対し，<a href="#" class="anno 定量的">定量的</a><a href="#" class="anno プロテオミクス">プロテオミクス</a>解析による<a href="#" class="anno 網羅的">網羅的</a>な検討を行った．<em>in vivo</em>において臓器特異的にエキソソームが取り込まれたことから，エキソソームにおいて高く発現する細胞<a href="#" class="anno 接着因子">接着因子</a>に着目したところ6種類のインテグリンが含まれていた．これらのインテグリンについて，臓器特異性をもつ30種類のがん細胞に由来するエキソソームに対し定性的<a href="#" class="anno プロテオミクス解析">プロテオミクス解析</a>を行ったところ，がんの種類にはよらず，肺に特異的に転移するがん細胞ではインテグリンα<sub>6</sub>β<sub>4</sub>およびインテグリンα<sub>6</sub>β<sub>1</sub>，肝臓に特異的に転移するがん細胞ではインテグリンα<sub>v</sub>β<sub>5</sub>，脳に特異的に転移するがん細胞ではインテグリンα<sub>v</sub>β<sub>3</sub>と，転移先の臓器とインテグリンの<a href="#" class="anno 発現パターン">発現パターン</a>とのあいだに強い関連がみられた．また，エキソソームは，肺においては線維<a href="#" class="anno 芽細胞">芽細胞</a>および<a href="#" class="anno 上皮細胞">上皮細胞</a>，肝臓においては常駐<a href="#" class="anno マクロ<a href="#" class="anno ファージ">ファージ</a>">マクロファージ</a>である<a href="#" class="anno クッパー細胞">クッパー細胞</a>，脳においては<a href="#" class="anno <a href="#" class="anno 血管内">血管内</a>皮細胞">血管<a href="#" class="anno 内皮細胞">内皮細胞</a></a>に選択的に取り込まれた．このことから，エキソソームは臓器特異性とともに，それぞれの臓器において特定の種類の細胞に取り込まれる性質のあることがわかり，エキソソームには臓器別に行き先を決定する“郵便番号”のような役割をはたすインテグリンの発現パターンがあることが示唆された．<br/><br/><h2>3．がん細胞に由来するエキソソームに含まれるインテグリンはエキソソームの取り込みの臓器特異性に寄与する</h2><br/>　エキソソームに含まれるインテグリンがエキソソームの分布の臓器特異性において機能しているかどうか検討するため，インテグリンβ<sub>4</sub>を発現する肺に特異的に転移する乳がん細胞においてインテグリンβ<sub>4</sub>を<a href="#" class="anno ノックダウン">ノックダウン</a>した．この乳がん細胞に由来するエキソソームにおいてもインテグリンβ<sub>4</sub>が低下していることを確認したうえで，このエキソソームをマウスに静脈投与したところ肺への取り込みが有意に減少した．インテグリンβ<sub>4</sub>の阻害<a href="#" class="anno ペプチド">ペプチド</a>によりインテグリンβ<sub>4</sub>を阻害したときにも，同様に肺への取り込みは低下した．さらに，インテグリンβ<sub>4</sub>を発現しない骨に特異的に転移する乳がん細胞に由来するエキソソームにおいてインテグリンβ<sub>4</sub>を<a href="#" class="anno 強制発現">強制発現</a>させたところ，肺への分布が有意に増加した．同様に，インテグリンβ<sub>5</sub>を発現する肝臓に特異的に転移する<a href="#" class="anno <a href="#" class="anno 膵がん">膵がん</a>細胞">膵がん細胞</a>においてインテグリンβ<sub>5</sub>をノックダウン，あるいは，その阻害ペプチドにより阻害したところ，この膵がん細胞に由来するエキソソームの肝臓への取り込みは有意に減少した．以上の結果から，エキソソームの肺への取り込みの特異性にはインテグリンα<sub>6</sub>β<sub>4</sub>が，肝臓への取り込みの特異性にはインテグリンα<sub>v</sub>β<sub>5</sub>が，寄与していることが明らかにされた．<br/>　がん細胞に発現するインテグリンβ<sub>4</sub>およびエキソソームに含まれるインテグリンβ<sub>4</sub>がそれぞれ転移能におよぼす影響について検討した．肺に特異的に転移する乳がん細胞におけるインテグリンβ<sub>4</sub>のノックダウンではがん細胞それ自体の肺への転移能が有意に低下したが，インテグリンβ<sub>4</sub>の低下したエキソソームによりマウスを3週間にわたり“教育”したのち，このインテグリンβ<sub>4</sub>をノックダウンした乳がん細胞を投与したところ，肺への転移能に変化はみられなかった．一方で，インテグリンβ<sub>4</sub>の低下していないエキソソームにより教育したところ，インテグリンβ<sub>4</sub>をノックダウンした乳がん細胞の肺への転移能は回復した．以上より，肺への転移能はがん細胞それ自体ではなく，エキソソームに含まれるインテグリンβ<sub>4</sub>に依存することが証明された．<br/>　エキソソームがおのおのの臓器において特定の細胞に取り込まれたのち，細胞においてどのような変化がもたらされるのか<em><a href="#" class="anno in vitro">in vitro</a></em>において調べた．肺においてエキソソームを取り込む<a href="#" class="anno 線維芽細胞">線維芽細胞</a>および上皮細胞を肺に特異的に分布するエキソソームにより，また，肝臓においてエキソソームを取り込むクッパー細胞を肝に特異的に分布するエキソソームにより処理し，それぞれの細胞における遺伝子の発現について調べた結果，<a href="#" class="anno 炎症性">炎症性</a>タンパク質をコードする<em>S100</em><a href="#" class="anno 遺伝子ファミリー">遺伝子ファミリー</a>に属するそれぞれ異なる遺伝子の発現が，肺の線維芽細胞およびクッパー細胞において上昇することが確認された．<br/><br/><h2>4．ヒトの血中のエキソソームに含まれるインテグリンを測定することにより転移の臓器特異性を予測できる</h2><br/>　がん細胞に由来するエキソソームがインテグリンの発現パターンによる臓器別の“郵便番号”をもち，それが将来の転移先の臓器に分布することから，<a href="#" class="anno がん患者">がん患者</a>の血中のエキソソームからがんの転移先を予測する可能性について検証した．すでに転移のあるがん患者の血液から回収したエキソソームに含まれるインテグリンを定量した結果，乳がん，メラノーマ，<a href="#" class="anno 横紋筋">横紋筋</a>肉腫，膵臓がんの患者において，すでに肺への転移のある患者の血中のエキソソームは肺への転移のない患者に比べインテグリンα<sub>6</sub>β<sub>4</sub>の量が有意に多く，肝臓への転移のある患者の血中のエキソソームは肝臓への転移のない患者に比べインテグリンα<sub>v</sub>β<sub>5</sub>の量が有意に多いことが判明した．それでは，血中のエキソソームから将来の転移先の臓器は予測できるのだろうか．乳がんの患者において，血液を採取したときには転移はなかったが3年以内に肺へ転移した患者と，肺への転移のない患者の血中のエキソソームに含まれるインテグリンβ<sub>4</sub>の量を比較したところ，肺への転移のみられた患者はインテグリンβ<sub>4</sub>の量が有意に多かった．また，膵臓がんの患者においても，3年以内に肝臓へ転移した患者の血中のエキソソームに含まれるインテグリンα<sub>v</sub>β<sub>5</sub>の量は，肝臓への転移を起こさなかった患者に比べ有意に多いことがわかった．これらの結果から，がん患者の血中のエキソソームに含まれるインテグリンの量を調べることにより，肺および肝臓への転移を予測する可能性が示唆され，今後，<a href="#" class="anno バイオマー<a href="#" class="anno カ">カ</a>ー">バイオマーカー</a>として活用されることが期待される．<br/><br/><h2>おわりに</h2><br/>　長年にわたり，がん転移の臓器特異性の分子機構は謎とされてきたが，この研究によりその一端が解明された．筆者らは，がん細胞の分泌するエキソソームがそこに含まれるインテグリンの発現パターンにより決定された特定の臓器の特定の細胞に取り込まれ，そこで前転移ニッチを形成することによりがん細胞の臓器特異的な転移を誘導することを証明した（<a href="#F1">図1</a>）．この研究は，がん転移の臓器特異性の分子機構を解明しただけでなく，今後，このエキソソームに含まれるインテグリンをがん患者において転移先を予測するバイオマーカーとして活用する可能性をも示唆した．さらに，エキソソームが転移に適する前転移ニッチを形成することから，エキソソームの臓器への分布を阻害することによる治療も考えられる．この研究により示された新たな知見により，今後，がんの研究がさらに進展し，がん転移の治療にも活かされることを期待したい．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　がん転移の臓器特異性の分子機構</strong><br/>がん細胞の分泌するエキソソームは，そこに含まれるインテグリンの発現パターンにより決定された特定の臓器の特定の細胞に取り込まれ，そこで前転移ニッチを形成する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hoshino-Nature-15.11.19-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　がん転移の臓器特異性の分子機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hoshino-Nature-15.11.19-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hoshino-Nature-15.11.19-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Paget, S.</span>: <span class="ti">The distribution of secondary growths in cancer of the breast. 1889.</span> <span class='so'>Cancer Metastasis Rev., 8, 98-101 (1989)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2673568" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Muller, A., Homey, B., Soto, H. et al.</span>: <span class="ti">Involvement of chemokine receptors in breast cancer metastasis.</span> <span class='so'>Nature, 410, 50-56 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11242036" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Lu, X. & Kang, Y.</span>: <span class="ti">Organotropism of breast cancer metastasis.</span> <span class='so'>J. Mammary Gland Biol. Neoplasia, 12, 153-162 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17566854" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Minn, A. J., Gupta, G. P., Siegel, P. M. et al.</span>: <span class="ti">Genes that mediate breast cancer metastasis to lung.</span> <span class='so'>Nature, 436, 518-524 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16049480" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Bos, P. D., Zhang, X. H., Nadal, C. et al.</span>: <span class="ti">Genes that mediate breast cancer metastasis to the brain.</span> <span class='so'>Nature, 459, 1005-1009 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19421193" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Cox, T. R., Rumney, R. M., Schoof, E. M. et al.</span>: <span class="ti">The hypoxic cancer secretome induces pre-metastatic bone lesions through lysyl oxidase.</span> <span class='so'>Nature, 522, 106-110 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26017313" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Kaplan, R. N., Riba, R. D., Zacharoulis, S. et al.</span>: <span class="ti">VEGFR1-positive haematopoietic bone marrow progenitors initiate the pre-metastatic niche.</span> <span class='so'>Nature, 438, 820-827 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16341007" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Hiratsuka, S., Nakamura, K., Iwai, S. et al.</span>: <span class="ti">MMP9 induction by vascular endothelial growth factor receptor-1 is involved in lung-specific metastasis.</span> <span class='so'>Cancer Cell, 2, 289-300 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12398893" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Thakur, B. K., Zhang, H., Becker, A. et al.</span>: <span class="ti">Double-stranded DNA in exosomes: a novel biomarker in cancer detection.</span> <span class='so'>Cell Res., 24, 766-769 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24710597" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Peinado, H., Aleckovic, M., Lavotshkin, S. et al.</span>: <span class="ti">Melanoma exosomes educate bone marrow progenitor cells toward a pro-metastatic phenotype through MET.</span> <span class='so'>Nat. Med., 18, 883-891 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22635005" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Costa-Silva, B., Aiello, N. M., Ocean, A. J. et al.</span>: <span class="ti">Pancreatic cancer exosomes initiate pre-metastatic niche formation in the liver.</span> <span class='so'>Nat. Cell Biol., 17, 816-826 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25985394" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/13_03.html" target="_blank">13.3 Checkpoint mechanisms in the cell cycle</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">星野 歩子（Ayuko Hoshino）</span><br>略歴：2011年 東京大学大学院新領域創成科学研究科 修了，同年 米国Weill Cornell Medical College（現Weill Cornell Medicine）にてPostdoctoral Fellowを経て，2015年より同Research Associate．<br>研究テーマ：がんの転移におけるエキソソームの役割．<br>抱負：局部的にみえる事象（疾病）にインパクトをあたえるシステミックな機構を解明したい．<br><br><strong>橋本 彩子（Ayako Hashimoto）</strong><br>米国Weill Cornell MedicineにてResearch Fellow．<br><br><strong>David Lyden</strong><br>米国Weill Cornell MedicineにてProfessor．<br></div><br>© 2015 星野歩子・橋本彩子・David Lyden Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> カイコの性は雌に特異的な単一のpiRNAが決定する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/8827" rel="bookmark">カイコの性は雌に特異的な単一のpiRNAが決定する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>木内隆史・勝間 進</strong><br>（東京大学大学院農学生命科学研究科 生産・環境生物学専攻昆虫遺伝研究室）<br>email：<a href="mailto:kiuchi@ss.ab.a.u-tokyo.ac.jp">木内隆史</a>，<a href="mailto:katsuma@ss.ab.a.u-tokyo.ac.jp">勝間 進</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.073">10.7875/first.author.2014.073</a><br><div class="reference"><br><span class="ti">A single female-specific piRNA is the primary determiner of sex in the silkworm.</span><br><span class="au">Takashi Kiuchi, Hikaru Koga, Munetaka Kawamoto, Keisuke Shoji, Hiroki Sakai, Yuji Arai, Genki Ishihara, Shinpei Kawaoka, Sumio Sugano, Toru Shimada, Yutaka Suzuki, Masataka G. Suzuki, Susumu Katsuma</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24828047" target="_blank"><em>Nature</em>, <strong>509</strong>, 633-636 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno カ">カ</a>イコの性<a href="#" class="anno 染色体">染色体</a>はWZ型であり，1933年，<a href="#" class="anno W染色体">W染色体</a>の存在が雌を決定することが明らかになっている．<a href="#" class="anno そのため">そのため</a>，W染色体には<a href="#" class="anno 雌性">雌性</a>決定遺伝子が存在すると考えられてきたが，その実体は80年以上<a href="#" class="anno も">も</a>不明であった．今回，筆者らは，<a href="#" class="anno 初期胚">初期胚</a>において雌雄のトランス<a href="#" class="anno クリプト">クリプト</a>ームを比較することによりW染色体から<a href="#" class="anno 産生">産生</a>される雌に<a href="#" class="anno 特異的">特異的</a>な<a href="#" class="anno 転写産物">転写産物</a>を同定し，それが<a href="#" class="anno piRNA">piRNA</a>の<a href="#" class="anno 前駆体">前駆体</a>であることをつきとめた．また，この転写産物から産生される雌に特異的なpiRNAの標的は，<a href="#" class="anno Z染色体">Z染色体</a>に存在する雄化遺伝子であることが示された．雄ではこの遺伝子のはたらきにより雄化が誘導されるのに対し，雌では雄化遺伝子が雌に特異的なpiRNAとカイコのPIWIタンパク質であるSiwiとの<a href="#" class="anno 複合体">複合体</a>のはたらきにより切断されることで雌化が誘導されていた．さらに，この雄化遺伝子は<a href="#" class="anno 雄性">雄性</a>の決定に関与するだけでなく，長年にわたり<a href="#" class="anno チョウ目">チョウ目</a>の昆虫において存否が議論されていた<a href="#" class="anno 遺伝子量">遺伝子量</a>の補正にもかかわることが明らかになった．この研究の成果により，80年以上も追い求められてきたカイコの雌<a href="#" class="anno <a href="#" class="anno 性決定">性決定</a>遺伝子">性決定遺伝子</a>の実体は，たった29塩基の<a href="#" class="anno 小分子">小分子</a>RNAをコードする遺伝子であり，カイコはこれまで発見された性決定機構とは一線を画すユニークな機構を採用していることがわかった．<br/><br/><h2>はじめに</h2><br/>　生物の性決定機構は多様である．ヒトを含む哺乳類やショウジョウバエにおける性決定機構についてはそれに関与する因子やカスケードの多くが明らかにされてきたが，カイコを含むチョウ目の昆虫においては<a href="#" class="anno 転写因子">転写因子</a>をコードする<em><a href="#" class="anno double">double</a>sex</em>（<em><a href="#" class="anno dsx">dsx</a></em>）遺伝子が性決定カスケードの最下流で機能することがわかっているだけで，その上流についてはほとんど明らかにされていなかった．カイコの<a href="#" class="anno 性染色体">性染色体</a>はWZ型であり，1933年，W染色体の存在が雌性を決定することが報告されている<a href="#R1"><sup>1)</sup></a>．このことから，W染色体には仮想の雌性決定遺伝子である<em><a href="#" class="anno Fem">Fem</a>inizer</em>（<em>Fem</em>）遺伝子が存在すると考えられ，長年にわたりその実体が探し求められてきた．しかし，カイコのW染色体は<a href="#" class="anno トランスポゾン">トランスポゾン</a>が入れ子状に配置された構造をしており<a href="#R2"><sup>2)</sup></a>，全領域にわたる<a href="#" class="anno 塩基配列">塩基配列</a>の決定がむずかしいこと，また，雌では<a href="#" class="anno 組換え">組換え</a>が起こらないため順<a href="#" class="anno <a href="#" class="anno 遺伝学">遺伝学</a>的">遺伝学的</a>なアプローチが行え<a href="#" class="anno ないこと">ないこと</a>から，その同定は困難をきわめていた．2011年，筆者らは，W染色体から産生される転写産物としてはじめて，<a href="#" class="anno 小分子RNA">小分子RNA</a>のひとつであるpiRNA（PIWI-in<a href="#" class="anno ter">ter</a><a href="#" class="anno actin">actin</a>g RNA）を同定した<a href="#R3"><sup>3)</sup></a>．そして，当時から，この雌に多く存在するpiRNAが<a href="#" class="anno 性の決定">性の決定</a>に関与するという仮説をたてていた．<br/><br/><h2>1．W染色体から産生される雌に特異的な転写産物はpiRNAの前駆体である</h2><br/>　カイコの性は発生の初期に決定されると考えられている．雌雄が分化する<a href="#" class="anno 発生ステージ">発生ステージ</a>を明瞭にするため，産卵ののちの卵を<a href="#" class="anno 経時的">経時的</a>にサンプリングし，昆虫の性決定において主要な役割を担う<em>dsx</em>遺伝子のカイコにおける<a href="#" class="anno オルソログ">オルソログ</a>の<a href="#" class="anno スプライシング">スプライシング</a>パターンの変化を追跡した．カイコの<em>dsx</em>遺伝子（<em>Bmdsx</em>遺伝子）もほかの昆虫と同様に，雌雄で異なる<a href="#" class="anno 選択的">選択的</a>スプライシングをうけることにより個体の雌雄を分化させる<a href="#R4"><sup>4-6)</sup></a>．初期胚の雌雄を外見から区別することは不可能であるため，W染色体に特異的な3つの<a href="#" class="anno RA">RA</a>PDマーカー<a href="#R7"><sup>7)</sup></a> を用いることにより卵ひとつひとつの雌雄を鑑別する方法を開発し，雌雄別にRNAを調製したうえでRT-<a href="#" class="anno PCR">PCR</a>法により解析した．<em>Bmdsx</em> <a href="#" class="anno mRNA">mRNA</a>は産卵ののち15時間では雌雄ともに雌に特異的なスプライシングを示したが，産卵ののち21時間から24時間にかけて雄では雄に特異的なスプライシングを示しはじめた．すなわち，W染色体からの雌化シグナルは産卵ののち21時間よりまえにすでに伝達されていると推測された．<br/>　そこで，産卵ののち15時間から24時間の雌雄別のRNAをRNA-Seq法により解析し，雌雄の胚における<a href="#" class="anno トランスクリプトーム">トランスクリプトーム</a>を詳細に比較した．その結果，調べたどの時間帯においてもつねに雌において<a href="#" class="anno 発現量">発現量</a>の高い転写産物を1つ見い<a href="#" class="anno 出し">出し</a>た．この転写産物の配列は<a href="#" class="anno 全ゲノム">全ゲノム</a>が解読されている雄のカイコのゲノムには存在しないこと，雌の<a href="#" class="anno ゲノムDNA">ゲノムDNA</a>あるいは<a href="#" class="anno cDNA">cDNA</a>を鋳型に用いた場合のみ<a href="#" class="anno PCR法">PCR法</a>により増幅産物が確認されたことから，この転写産物はW染色体から産生されると考えられた．しかし，この雌に特異的な転写産物は既知の配列との<a href="#" class="anno <a href="#" class="anno <a href="#" class="anno 相">相</a>同">相同</a>性">相同性</a>がまったくなく，さらに，機能をもつタンパク質をコードしているとも考えられなかった．そこで，この転写産物に対し，以前に構築した初期胚や卵巣のpiRNAライブラリー<a href="#R3"><sup>3,8,9)</sup></a> をマッ<a href="#" class="anno ピン">ピン</a>グしたところ，この転写産物から29塩基の単一のpiRNAが産生されていることがわかった．興味深いことに，この雌に特異的なpiRNAは産卵ののち15時間から蓄積しはじめ18時間から21時間にかけて急激に増加しており，<a href="#" class="anno 性分化">性分化</a>の生じる時期との強い相関がみられた．<br/><br/><h2>2．雌に特異的なpiRNAは雌化に必要である</h2><br/>　雌に特異的な転写産物から産生されるpiRNAの性決定への関与について調べるため，このpiRNAに相補な配列をもつ<a href="#" class="anno インヒビター">インヒビター</a>RNAを合成し初期胚に注入した．その結果，インヒビターRNAを注入した雌の胚において<em>Bmdsx</em> mRNAの雄に特異的なスプライシングが確認され，雌に特異的なpiRNAの性決定への関与が裏づけられた．piRNAはその名のとおりPIWIタンパク質と複合体を形成することにより機能する．カイコのPIWIをコードする<em>Siwi</em>遺伝子<a href="#R10"><sup>10,11)</sup></a> を<a href="#" class="anno RNAi">RNAi</a>法により<a href="#" class="anno ノックダウン">ノックダウン</a>したところ，雌の胚において<em>Bmdsx</em> mRNAの雄に特異的なスプライシングが確認された．さらに，この雌に特異的なpiRNAはSiwiと複合体を形成したことから，この複合体が雌化に寄与していると考えられた．以上の結果から，このW染色体から産生される転写産物をコードする遺伝子こそが，仮想の雌性決定遺伝子である<em>Fem</em>遺伝子であると結論し，その転写産物から産生される29塩基の雌に特異的なpiRNAを<em>Fem</em> piRNAと命名した．<br/><br/><h2>3．<em>Fem</em> piRNAはZ染色体のタンパク質をコードする遺伝子から転写されるmRNAの切断に関与する</h2><br/>　<em>Fem</em> piRNAは雌化をどのように誘導しているのだろうか．piRNAはその配列を利用して<a href="#" class="anno 1本鎖">1本鎖</a>のRNAを切断する活性をもつPIWIを標的となるRNAへと誘導し，標的であるトランスポゾンなどを切断する<a href="#R8"><sup>8,12,13)</sup></a>．<em>Fem</em> piRNAの相補配列をカイコのゲノムにおいて探索したところ，唯一，Z染色体に存在するタンパク質をコードする遺伝子の<a href="#" class="anno <a href="#" class="anno エキソ">エキソ</a>ン">エキソン</a>部分との相同性が確認された．この遺伝子はC<a href="#" class="anno C<a href="#" class="anno CH">CH</a>">CCH</a>ドメインを<a href="#" class="anno タン<a href="#" class="anno デ">デ</a>ム">タンデム</a>に2つもつ<a href="#" class="anno ジンクフィンガー">ジンクフィンガー</a>タンパク質をコードしていた．<a href="#" class="anno 系統解析">系統解析</a>の結果，このタンパク質はチョウ目の昆虫でのみオルソログの存在が認められた．piRNAとPIWIとの複合体は標的となる配列をpiRNAの5’末端から10番目と11番目の塩基のあいだで切断することが知られている<a href="#R12"><sup>12,13)</sup></a>．改良R<a href="#" class="anno ACE">ACE</a>法<a href="#R14"><sup>14)</sup></a> を用いた<a href="#" class="anno 切断部位">切断部位</a>の同定により，<em>Fem</em> piRNAがこのZ染色体に存在する遺伝子から転写されるmRNAを予想された部位で切断していることが明らかになった．このことから，このZ染色体の遺伝子は雄化遺伝子であり，雌においてはW染色体から産生される<em>Fem</em> piRNAがSiwiと複合体を形成し，この雄化遺伝子の転写産物を切断することにより雌化を誘導していることが示唆された（<a href="#F1">図1</a>）．この遺伝子は<em>Mascu<a href="#" class="anno lin">lin</a>izer</em>（<em>Masc</em>）遺伝子と命名された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　カイコの性決定カスケード</strong><br/>（a）雌がもつW染色体には<em>Fem</em>遺伝子が存在し，<em>Fem</em>遺伝子の転写産物からは<em>Fem</em> piRNAが産生される．<em>Fem</em> piRNAはSiwiと複合体を形成し，Z染色体から転写された<em>Masc</em> mRNAを切断する．そのため，雌ではMascのはたらきが抑制されることにより<em>Bmdsx</em>遺伝子は雌に特異的なスプライシングを示し，雌化が誘導される．<br/>（b）雄では<em>Fem</em> piRNAが存在しないため，<em>Masc</em> mRNAは切断されることなく翻訳されMascが機能する．Mascは雄が2本もつZ染色体の遺伝子の発現を負に制御することにより遺伝子量の補正を行うとともに，<em>Bmdsx</em>遺伝子を雄に特異的なスプライシングへと導き，雄化を誘導する．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/06/Katsuma-Nature-14.5.29-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　カイコの性決定カスケード" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Katsuma-Nature-14.5.29-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Katsuma-Nature-14.5.29-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　カイコではSiwiとBm<a href="#" class="anno Ago3">Ago3</a>という2つの異なるPIWIを介したピンポンサイクルをへてpiRNAが<a href="#" class="anno 生合成">生合成</a>されるため<a href="#R10"><sup>10-13)</sup></a>，<em>Fem</em> piRNAの産生には<em>Fem</em> piRNAと10塩基のオーバーラップをもつpiRNAの存在が必要である．以前に構築したpiRNAライブラリー<a href="#R3"><sup>3,8,9)</sup></a> のなかから，<em>Fem</em> piRNAと10塩基のオーバーラップをもつpiRNAが発見され，それが<em>Masc</em>遺伝子から産生されることがわかった．この<em>Masc</em>遺伝子から産生される<em>Fem</em> piRNAのパートナーを<em>Masc</em> piRNAと命名した．<em>Fem</em> piRNAはSiwiに多く結合していたが，<em>Masc</em> piRNAはBmAgo3に多く結合していたことから，これらpiRNAの生合成のモデルが想定された（<a href="#F2">図2</a>）．これは，<a href="#" class="anno 非コード">非コード</a>RNAとタンパク質をコードする遺伝子とのあいだにピンポンサイクルが存在することを<a href="#" class="anno 実験的">実験的</a>に示したはじめての例であった．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　カイコの性決定カスケードにおけるpiRNA生合成のモデル</strong><br/>W染色体から転写された<em>Fem</em> RNAは，相補的な配列をもつ<em>Masc</em> piRNAとBmAgo3との複合体により切断される．切断された<em>Fem</em> RNAはSiwiに取り込まれて修飾をうけ，成熟型の<em>Fem</em> piRNAになる．この<em>Fem</em> piRNAとSiwiとの複合体は，Z染色体から転写された<em>Masc</em> mRNAを切断する．切断された<em>Masc</em> mRNAはBmAgo3に取り込まれて修飾をうけ，成熟型の<em>Masc</em> piRNAになり，BmAgo3と複合体を形成してW染色体から転写された<em>Fem</em> RNAを切断する．こうしたサイクルがくり返されることにより，<em>Fem</em> piRNAおよび<em>Masc</em> piRNAが産生される．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/06/Katsuma-Nature-14.5.29-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　カイコの性決定カスケードにおけるpiRNA生合成のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Katsuma-Nature-14.5.29-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Katsuma-Nature-14.5.29-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>4．Mascは性決定および遺伝子量の補正の両方を制御する</h2><br/>　Mascの雄化能を証明するため，初期胚において<a href="#" class="anno RNAi法">RNAi法</a>によるノックダウンを行った．<em>Masc</em>遺伝子に対する<a href="#" class="anno siRNA">siRNA</a>を注入した雄の胚では雌の胚と<a href="#" class="anno 同じ">同じ</a>程度まで<em>Masc</em>遺伝子の発現が抑制されており，<em>Bmdsx</em>遺伝子の雌に特異的なスプライシングが確認された．さらに，<em>Masc</em>遺伝子のsiRNAの注入は雄の胚でのみ孵化を阻害した．<em>Masc</em>遺伝子のノックダウンによる影響を調べるため，<em>Masc</em>遺伝子のsiRNAを注入した胚をRNA-Seq法により解析した結果，雄の胚において<em>Masc</em>遺伝子のノックダウンにより発現の変化する転写産物の多くはZ染色体にコードされており，発現が亢進するものがほとんどであった．すなわち，Mascは雄が2本もつZ染色体における遺伝子の発現をグローバルに負に制御しており，遺伝子量の補正を担っていると考えられた（<a href="#F1">図1</a>）．チョウ目の昆虫における遺伝子量の補正については長期にわたりその存否が議論されてきたが，少なくとも，初期胚においてはじめてその存在が証明された．<br/><br/><h2>おわりに</h2><br/>　今回，<em>Fem</em> piRNAの発見を契機に，その標的として雄化遺伝子である<em>Masc</em>遺伝子が同定され，さらに，結論があいまいであったチョウ目の昆虫における遺伝子量の補正の存在も示された．チョウ目昆虫のモデルであるカイコの性決定カスケードの最上流が明らかにされたことにより，その下流の因子やほかのチョウ目昆虫における性決定カスケードもそう遠くない将来に明らかにされるだろう．とくに，W染色体を欠くZ0/ZZ型のチョウ目昆虫の性決定様式の解明は，W染色体の進化を語るうえでも興味深いテーマであると考えている．また，Mascからの性決定カスケードの遮断がひき起こす雄に特異的な胚の致死は，チョウ目昆虫において観察される<a href="#" class="anno 共生細菌">共生細菌</a><em><a href="#" class="anno Wolbachia">Wolbachia</a></em>による“雄殺し”と類似した現象であり<a href="#R15"><sup>15)</sup></a>，共生細菌による性操作の標的が<em>Masc</em>遺伝子やその下流の因子であることを示唆している．今後，これらの因子を標的としたアプローチにより“雄殺し”の<a href="#" class="anno 分子機構">分子機構</a>が解明されるかもしれない．<br/>　チョウ目の昆虫は主要な農業害虫を多く含んでいる．また，カイコは<a href="#" class="anno 遺伝子組換え">遺伝子組換え</a>技術を利用した有用物質の生産が期待される昆虫である．この研究の成果が，性操作を利用したチョウ目害虫の防除法の開発や，カイコは雄の<a href="#" class="anno 生産性">生産性</a>のほうが高いことから限性系統の作出につながることを期待している．<br/>　80年以上もその実体がつかめなかったW染色体の雌性決定遺伝子は，たった29塩基の小さなRNAをコードするものであった．長年にわたり雌性決定遺伝子が発見できなかった理由も合点がいく．このトランスポゾンに埋もれた“宝石”と，生物らしい“美しい”性決定機構を発見できたのは，筆者らの研究チームにさまざまな人材がバランスよくそろっていたからだと感じている．それにくわえ，カイコの性決定機構の解明に挑んできた多くの<a href="#" class="anno 研究者">研究者</a>たちの知見の蓄積が<a href="#" class="anno 必要不可欠">必要不可欠</a>であったことも，まちがいない事実であろう．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>橋本春雄.</span>: <span class="ti">蚕に於けるW染色体の性決定に対する役割.</span> <span class='so'>遺伝学雑誌, 8, 245-247 (1933)</span></li><br><li id="R2"><span class='au'>Abe, H., Mita, K., Yasukochi, Y. et al.</span>: <span class="ti">Retrotransposable elements on the W chromosome of the silkworm, <em>Bombyx mori</em>.</span> <span class='so'>Cytogenet. Genome Res., 110, 144-151 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16093666" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Kawaoka, S., Kadota, K., Arai, Y. et al.</span>: <span class="ti">The silkworm W chromosome is a source of female-enriched piRNAs.</span> <span class='so'>RNA, 17, 2144-2151 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22020973" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Ohbayashi, F., Suzuki, M. G., Mita, K. et al.</span>: <span class="ti">A homologue of the <em>Drosophila</em> <em>doublesex</em> gene is transcribed into sex-specific mRNA isoforms in the silkworm, <em>Bombyx mori</em>.</span> <span class='so'>Comp. Biochem. Physiol. B Biochem. Mol. Biol., 128, 145-158 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11163313" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Suzuki, M. G., Funaguma, S., Kanda, T. et al.</span>: <span class="ti">Analysis of the biological functions of a <em>doublesex</em> homologue in <em>Bombyx mori</em>.</span> <span class='so'>Dev. Genes Evol., 213, 345-354 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12733073" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Suzuki, M. G., Funaguma, S., Kanda, T. et al.</span>: <span class="ti">Role of the male BmDSX protein in the sexual differentiation of <em>Bombyx mori</em>.</span> <span class='so'>Evol. Dev., 7, 58-68 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15642090" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Abe, H., Seki, M., Ohbayashi, F. et al.</span>: <span class="ti">Partial deletions of the W chromosome due to reciprocal translocation in the silkworm <em>Bombyx mori</em>.</span> <span class='so'>Insect Mol. Biol., 14, 339-352 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16033428" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Kawaoka, S., Hayashi, N., Katsuma, S. et al.</span>: <span class="ti"><em>Bombyx</em> small RNAs: genomic defense system against transposons in the silkworm, <em>Bombyx mori</em>.</span> <span class='so'>Insect Biochem. Mol. Biol., 38, 1058-1065 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18801438" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Kawaoka, S., Arai, Y., Kadota, K. et al.</span>: <span class="ti">Zygotic amplification of secondary piRNAs during silkworm embryogenesis.</span> <span class='so'>RNA, 17, 1401-1407 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21628432" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Kawaoka, S. Hayashi, N., Suzuki, Y. et al.</span>: <span class="ti">The <em>Bombyx</em> ovary-derived cell line endogenously expresses PIWI/PIWI-interacting RNA complexes.</span> <span class='so'>RNA, 15, 1258-1264 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19460866" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Kawaoka, S., Minami, K., Katsuma, S. et al.</span>: <span class="ti">Developmentally synchronized expression of two <em>Bombyx mori</em> Piwi subfamily genes, <em>SIWI</em>and <em>BmAGO3</em> in germ-line cells.</span> <span class='so'>Biochem. Biophys. Res. Commun., 367, 755-760 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18191035" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Brennecke, J., Aravin, A. A., Stark, A. et al.</span>: <span class="ti">Discrete small RNA-generating loci as master regulators of transposon activity in <em>Drosophila</em>.</span> <span class='so'>Cell, 128, 1089-1103 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17346786" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Gunawardane, L. S., Saito, K., Nishida, K. M. et al.</span>: <span class="ti">A slicer-mediated mechanism for repeat-associated siRNA 5’ end formation in <em>Drosophila</em>.</span> <span class='so'>Science, 315, 1587-1590 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17322028" target="_blank">PubMed</a>]</span></li><br><li id="R14"><span class='au'>Watanabe, T., Tomizawa, S., Mitsuya, K. et al.</span>: <span class="ti">Role of piRNAs and noncoding RNA in de novo DNA methylation of the imprinted mouse <em>Rasgrf1</em> locus.</span> <span class='so'>Science, 332, 848-852 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21566194" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/2814" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R15"><span class='au'>Sugimoto, T. N. & Ishikawa, Y.</span>: <span class="ti">A male-killing <em>Wolbachia</em> carries a feminizing factor and is associated with degradation of the sex-determining system of its host.</span> <span class='so'>Biol. Lett., 8, 412-415 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22219393" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_08.html" target="_blank">3.8 Sex-linked Inheritance</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_04.html" target="_blank">3.4 Genetic Factors and Chromosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_07.html" target="_blank">3.7 Chromosomes and the Genome</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/18_02.html" target="_blank">18.2 Somatic Cell Division (mitosis) and Meiosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/18_03.html" target="_blank">18.3 Significance of Meiosis</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">木内 隆史（Takashi Kiuchi）</span><br>略歴：2008年 東京大学大学院新領域創成科学研究科博士課程 修了，同年 同 博士研究員，2009年 東京大学大学院農学生命科学研究科 博士研究員を経て，2011年より同 特任助教（現 助教）．<br>抱負：昆虫の生命現象を分子レベルで理解し，応用研究に生かしたい．<br><br><strong>勝間  進（Susumu Katsuma）</strong><br>東京大学大学院農学生命科学研究科 准教授．<br></div><br>© 2014 木内隆史・勝間 進 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 膜組み込み酵素YidCによるタンパク質の細胞膜への組み込みの分子機構 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/8680" rel="bookmark">膜組み込み酵素YidCによるタンパク質の細胞膜への組み込みの分子機構</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>熊崎 薫<sup>1</sup>・千葉志信<sup>2</sup>・塚崎智也<sup>3</sup>・濡木 理<sup>1</sup></strong><br>（<sup>1</sup>東京大学大学院理学系研究科 生物科学専攻構造生命科学研究室，<sup>2</sup>京都産業大学総合生命科学部 生命システム学科，<sup>3</sup>奈良先端科学技術大学院大学バイオサイエンス研究科 膜分子複合機能学研究室）<br>email：<a href="mailto:kkumazaki@bs.s.u-tokyo.ac.jp">熊崎 薫</a>，<a href="mailto:schiba@cc.kyoto-su.ac.jp">千葉志信</a>，<a href="mailto:ttsukaza@bs.naist.jp">塚崎智也</a>，<a href="mailto:nureki@bs.s.u-tokyo.ac.jp">濡木 理</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.057">10.7875/first.author.2014.057</a><br><div class="reference"><br><span class="ti">Structural basis of Sec-independent membrane protein insertion by YidC.</span><br><span class="au">Kaoru Kumazaki, Shinobu Chiba, Mizuki Takemoto, Arata Furukawa, Ken-ichi Nishiyama, Yasunori Sugano, Takaharu Mori, Naoshi Dohmae, Kunio Hirata, Yoshiko Nakada-Nakura, Andrés D. Maturana, Yoshiki Tanaka, Hiroyuki Mori, Yuji Sugita, Fumio Arisaka, Koreaki Ito, Ryuichiro Ishitani, Tomoya Tsukazaki, Osamu Nureki</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24739968" target="_blank"><em>Nature</em>, <strong>509</strong>, 516-520 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 細胞膜">細胞膜</a>には<a href="#" class="anno 生命活動">生命活動</a>に不可欠な多くの<a href="#" class="anno 膜タンパク質">膜タンパク質</a>が埋め込まれて機能している．膜組み込み酵素<a href="#" class="anno YidC">YidC</a>は細菌から<a href="#" class="anno 高等生物">高等生物</a>の<a href="#" class="anno オルガネラ">オルガネラ</a>まで広く保存された膜タンパク質であり，新規に<a href="#" class="anno 生合成">生合成</a>されたタンパク質の細胞膜への組み込みに関与する．今回，筆者らは，YidCの<a href="#" class="anno 結晶構造">結晶構造</a>を2.4Å分解能で解明した．YidCは5回<a href="#" class="anno 膜貫通">膜貫通</a>型タンパク質で，<a href="#" class="anno 親水性">親水性</a>の<a href="#" class="anno <a href="#" class="anno アミノ">アミノ</a>酸<a href="#" class="anno 残基">残基</a>">アミノ酸残基</a>を多く含む<a href="#" class="anno 正電荷">正電荷</a>を帯びた“親水的な溝”を5本の<a href="#" class="anno 膜貫通<a href="#" class="anno ヘリックス">ヘリックス</a>">膜貫通ヘリックス</a>の内側に<a href="#" class="anno も">も</a>っていた．この溝は，細胞の内側および細胞膜の側には開いていた一方，<a href="#" class="anno 疎水性">疎水性</a>のコアにより細胞の外側には閉じていた．結晶構造にもとづく<a href="#" class="anno <a href="#" class="anno 遺伝学">遺伝学</a>的">遺伝学的</a>および<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>な解析により，<a href="#" class="anno 基質タンパク質">基質タンパク質</a>がYidCの親水的な溝と<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>することや，溝の中心に位置する保存されたArgがYidCの機能において重要であることが明らかになった．これらの知見から，YidCが正電荷を帯びた溝により<a href="#" class="anno 疎水的">疎水的</a>な細胞膜の内部に親水的な環境を形成し，細胞膜の内部において基質タンパク質の<a href="#" class="anno 細胞外">細胞外</a>領域と相互作用することにより基質タンパク質を細胞膜へと引き込み，タンパク質の細胞膜への組み込みを達成するという<a href="#" class="anno 分子機構">分子機構</a>を提唱した．<br/><br/><h2>はじめに</h2><br/>　<a href="#" class="anno リボソーム">リボソーム</a>において新規に生合成された膜タンパク質は，細胞膜へと<a href="#" class="anno ターゲティング">ターゲティング</a>されたのち，細胞膜に存在する膜組み込み装置により細胞膜に組み込まれる．<a href="#" class="anno 真正細菌">真正細菌</a>の細胞膜ではこの膜組み込み装置として，すべての生物に保存された<a href="#" class="anno 膜透過">膜透過</a>・膜組み込みチャネルであるSec<a href="#" class="anno トランスロコン">トランスロコン</a>，および，膜組み込み酵素YidCが機能している．YidCは，Secトランスロコンと<a href="#" class="anno 協働">協働</a>して膜タンパク質の<a href="#" class="anno フォール<a href="#" class="anno デ">デ</a>ィング">フォールディング</a>を促進する分子<a href="#" class="anno シャペロン">シャペロン</a>としてはたらくほか，単独でいくつかのタンパク質を細胞膜に組み込む（<a href="#F1">図1</a>）．その基質となるタンパク質には<a href="#" class="anno 呼吸鎖">呼吸鎖</a><a href="#" class="anno 複合体">複合体</a>の<a href="#" class="anno サブユニット">サブユニット</a>も含まれており，細菌の生育において必須である<a href="#R1"><sup>1,2)</sup></a>．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　YidCのかかわるタンパク質の細胞膜への組み込み</strong><br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/05/Nureki-Nature-14.5.8-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　YidCのかかわるタンパク質の細胞膜への組み込み" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-14.5.8-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-14.5.8-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　タンパク質の細胞膜への組み込みにおいては，基質タンパク質の<a href="#" class="anno 細胞外領域">細胞外領域</a>が細胞膜を透過するとともに，<a href="#" class="anno 膜貫通領域">膜貫通領域</a>が細胞膜の内部へと移行する．親水的な細胞外領域が疎水的な細胞膜を透過するのには大きな<a href="#" class="anno エネルギー障壁">エネルギー障壁</a>が存在するが，Secトランスロコンは10本の膜貫通ヘリックスにより親水的なチャネルを形成し，細胞外領域をチャネルの内部を透過させることによりこのエネルギー障壁を克服していると考えられている<a href="#R3"><sup>3,4)</sup></a>．一方で，YidCは保存された5本の膜貫通ヘリックスをもっており，過去に報告されたYidCと翻訳途中のリボソームとの複合体の<a href="#" class="anno クライオ">クライオ</a><a href="#" class="anno 電子顕微鏡">電子顕微鏡</a>による構造から，YidCは<a href="#" class="anno 二量体">二量体</a>としてSecトランスロコンと同様に基質タンパク質を透過させるためのチャネルを形成するというモデルが提唱されていた<a href="#R5"><sup>5)</sup></a>．しかしながら，YidCの<a href="#" class="anno 高分解能">高分解能</a>での<a href="#" class="anno 立体構造">立体構造</a>は報告されておらず，その分子機構の詳細は不明であった．<br/><br/><h2>1．YidCの結晶構造</h2><br/>　タンパク質の<a href="#" class="anno C末端">C末端</a>に<a href="#" class="anno GFP">GFP</a>タグを付加しその<a href="#" class="anno 安定性">安定性</a>および<a href="#" class="anno 単分散">単分散</a>性を見積もる手法である蛍光検出<a href="#" class="anno ゲルろ過">ゲルろ過</a><a href="#" class="anno クロマトグラフィー">クロマトグラフィー</a>法<a href="#R6"><sup>6)</sup></a> を用いて36種類のYidCをスクリーニングし，真正細菌<em>Bacillus halodu<a href="#" class="anno ran">ran</a>s</em>に由来するYidCが<a href="#" class="anno 構造解析">構造解析</a>に適していることを見い<a href="#" class="anno 出し">出し</a>た．精製したYidCを脂質キュービック相法により<a href="#" class="anno 結晶化">結晶化</a>し，<a href="#" class="anno コンストラクト">コンストラクト</a>の異なる2つのYidC（YidC <sub>27-266</sub>およびYidC<sub>27-267</sub>）の結晶構造を，それぞれ，2.4Å（PDB ID：<a href="http://service.pdbj.org/mine/Det<a href="#" class="anno ail">ail</a>2?PDBID=3wo6&amp;PAGEID=Summary" target="_blank">3WO6</a>）および3.2Å（PDB ID：<a href="http://service.pdbj.org/mine/De<a href="#" class="anno tail">tail</a>2?PDBID=3wo7&amp;PAGEID=Summary" target="_blank">3WO7</a>）の分解能で決定した．結晶においてYidCは<a href="#" class="anno 単量体">単量体</a>として存在していた．このことは，ごく最近，YidCが単量体として機能するという報告<a href="#R7"><sup>7,8)</sup></a> がたてつづけになされたこととも一致し，YidCが単量体として機能することが強く示唆された．<br/>　結晶構造からYidCが新規の<a href="#" class="anno フォールド">フォールド</a>をもつ5回<a href="#" class="anno 膜貫通型">膜貫通型</a>タンパク質であることが明らかになった（<a href="#F2">図2a</a>）．YidCは，細胞外にある<a href="#" class="anno N末端">N末端</a>領域（E1領域），5本の膜貫通ヘリックス（膜貫通ヘリックス1～膜貫通ヘリックス5）からなる<a href="#" class="anno コア領域">コア領域</a>，膜貫通ヘリックスをつなぐ2つの細胞外領域（E2領域およびE3領域）と2つの<a href="#" class="anno 細胞内">細胞内</a>領域（<a href="#" class="anno C1">C1</a>領域および<a href="#" class="anno C2">C2</a>領域），細胞内にある<a href="#" class="anno C<a href="#" class="anno 末端領域">末端領域</a>">C末端領域</a>（<a href="#" class="anno C3">C3</a>領域）から構成されていた．E1領域は1本の<a href="#" class="anno αヘリックス">αヘリックス</a>，C1領域は2本のαヘリックスからなり，これらのαヘリックスはコア領域から細胞膜に対し平行に突き出ていた．E1領域は<a href="#" class="anno 両親媒性">両親媒性</a>であり，αヘリックスの片方の面が細胞膜に埋もれている一方で，C1領域は親水的なアミノ酸残基に富んでおり，<a href="#" class="anno 細胞質">細胞質</a>に露出していると考えられた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　YidCの結晶構造</strong><br/>（a）YidCのリボンモデル表示．膜貫通ヘリックス1～膜貫通ヘリックス5を数字で示す．<br/>（b）YidCの分子表面表示．赤色ほど強い負電荷，青色ほど強い正電荷を示す．<br/>（c）親水的な溝に存在する親水性アミノ酸残基の側鎖．膜貫通ヘリックス1～膜貫通ヘリックス5を数字で示す．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/05/Nureki-Nature-14.5.8-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　YidCの結晶構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-14.5.8-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-14.5.8-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．C1領域のフレキシビリティ</h2><br/>　コンストラクトの異なるYidC<sub>27-266</sub>とYidC<sub>27-267</sub>の結晶構造を比較すると，コア領域はよく重なるのに対し，C1領域の2本のαヘリックスは35度ほど回転しており位置が大きくずれていた．また，YidC<sub>27-266</sub>の<a href="#" class="anno 分子モデル">分子モデル</a>を脂質<a href="#" class="anno 二重">二重</a>膜に埋め込んで<a href="#" class="anno 分子動力学">分子動力学</a>シミュレーションを行ったところ，C1領域は大きくゆれ動いていた．これらのことから，C1領域は非常にフレキシブルであることが示唆された．そこで，C1領域がYidCの機能に重要であるかどうかを調べるため，<a href="#" class="anno 枯草菌">枯草菌</a>（<em>Bacillus subtilis</em>）におけるYidCの<a href="#" class="anno オーソログ">オーソログ</a>であるSpo<a href="#" class="anno III">III</a>Jの遺伝学的な解析を行った．SpoIIIJの基質タンパク質である<a href="#" class="anno Mif">Mif</a>Mの細胞膜への組み込みが低下すると<a href="#" class="anno βガラクトシダーゼ">βガラクトシダーゼ</a>の発現が誘導される枯草菌<a href="#R9"><sup>9)</sup></a> を用いてSpoIIIJ<a href="#" class="anno 変異体">変異体</a>におけるMifMの細胞膜への組み込みの活性を調べたほか，枯草菌のもつ2つのYidCオーソログ（SpoIIIJおよびYidC2）を欠損させることによる<a href="#" class="anno 致死性">致死性</a>の<a href="#" class="anno 表現型">表現型</a>をSpoIIIJ変異体により相補させることでSpoIIIJ変異体の活性を調べた．これらの解析の結果，C1領域を欠損させたSpoIIIJ変異体は活性が大きく低下したことから，C1領域がYidCの機能において重要な役割をもつことが明らかになった．<br/><br/><h2>3．正電荷を帯びた親水的な溝</h2><br/>　YidCの膜貫通ヘリックスの細胞外側は疎水的なアミノ酸残基を多く含んでおり，非常に密に相互作用して<a href="#" class="anno 疎水性コア">疎水性コア</a>を形成していた．一方，細胞内側は膜貫通ヘリックスどうしの相互作用が弱く，膜貫通ヘリックスの内部に溝が形成されていた（<a href="#F2">図2b</a>）．この溝は親水的なアミノ酸残基を多く含んでおり（<a href="#F2">図2c</a>），とくに，Arg72は溝の中心に位置しその<a href="#" class="anno カ">カ</a>ウンターイオンとなるアミノ酸残基が近傍に存在しないため，溝の内部の分子表面は正電荷を帯びていた（<a href="#F2">図2b</a>）．この親水的な溝は，細胞の内側および細胞膜の側には開いていた一方，疎水性のコアにより細胞の外側には閉じていた．結晶構造において溝の内部に<a href="#" class="anno 水分子">水分子</a>は観察されなかったが，<a href="#" class="anno 極">極</a>性をもつアミノ酸残基が多く存在していたことから，溝の内部には多くの水分子が含まれていると考えられた．分子動力学シミュレーションにおいても，YidCの溝の内部にはつねに20分子ほどの水分子が存在しており，これらのことから，YidCが細胞膜の内部に親水的な環境をつくりだしていることが強く示唆された．そこで，この親水的な溝がYidCの機能に重要であるかどうかを調べるため，さきに述べた枯草菌を用いた遺伝学的な手法によりYidCのオーソログであるSpoIIIJの変異体の解析を行った．その結果，溝の内部に存在する広く保存された親水的な残基のうち，Arg73（<em>B</em>. <em>halodurans</em>においてArg72に相当する）をAlaに置換したSpoIIIJ変異体の活性のみが大きく低下した．さらに，このArg73をさまざまなアミノ酸残基に置換したところ，それらの変異体の多くは活性が大きく低下したが，<a href="#" class="anno Lys">Lys</a>に置換した変異体では活性の低下は小さかった．このことから，親水的な溝に存在する<a href="#" class="anno 塩基性">塩基性</a>アミノ酸残基がYidCの機能において重要であることが明らかになった．<br/><br/><h2>4．YidCと基質タンパク質との相互作用</h2><br/>　YidCの基質タンパク質であるMifMは1回<a href="#" class="anno 膜貫通型タンパク質">膜貫通型タンパク質</a>であり，<a href="#" class="anno N<a href="#" class="anno 末端側">末端側</a>">N末端側</a>の細胞外領域に2つ，膜貫通領域に1つの<a href="#" class="anno 酸性アミノ酸">酸性アミノ酸</a>残基をもつ．YidCの活性には親水的な溝に存在する<a href="#" class="anno <a href="#" class="anno 塩基性アミノ酸">塩基性アミノ酸</a>残基">塩基性アミノ酸残基</a>が重要であること，YidCのある基質タンパク質の細胞膜への組み込みにおいて細胞外領域の酸性アミノ酸残基が重要であるという報告のあったことから，基質タンパク質の細胞外領域にある酸性アミノ酸残基がYidCの親水的な溝にあるArgと相互作用する<a href="#" class="anno 可能性">可能性</a>が考えられた．そこで，さきに述べた枯草菌を用いた遺伝学的な手法によりMifMの変異体の解析を行った．その結果，MifMの細胞外領域あるいは膜貫通ヘリックスの細胞外側の面に存在する酸性アミノ酸残基を中性アミノ酸残基に置換すると，MifMの細胞膜への組み込みの効率が低下することがわかった．この効率の低下は，酸性アミノ酸残基の数を減らせば減らすほどより顕著になり，3つある酸性アミノ酸残基をすべて中性アミノ酸残基に置換したMifM変異体は，その細胞膜への組み込みの効率がいちじるしく低下した．さらに，YidCの親水的な溝の内部に光<a href="#" class="anno 架橋剤">架橋剤</a>を導入してMifMとともに大腸菌に発現させることで部位<a href="#" class="anno 特異的">特異的</a>な光架橋実験を行った．その結果，YidCとMifMとの架橋産物が検出され，YidCが親水的な溝を介してMifMと相互作用することが示された．<br/><br/><h2>5．YidCによるタンパク質の細胞膜への組み込みのモデル</h2><br/>　YidCの結晶構造と遺伝学的および生化学的な解析の結果から，以下のようなYidCによる1回膜貫通型タンパク質の細胞膜への組み込みのモデルを提唱した（<a href="#F3">図3</a>）．リボソームにおいて生合成され細胞膜へとターゲティングされた基質タンパク質は，まずYidCのフレキシブルなC1領域と結合する．つづいて，基質タンパク質の親水的な細胞外領域がYidCの親水的な溝と結合することにより，基質タンパク質は細胞膜の内部へと引き込まれる．そののち，基質タンパク質の膜貫通領域がYidCから解離して細胞膜に放出されるとともに，細胞外領域が細胞膜を透過する．過去の知見も総合すると，基質タンパク質の放出のステップは，基質タンパク質の膜貫通領域と脂質分子の<a href="#" class="anno アシル鎖">アシル鎖</a>とのあいだに生じる<a href="#" class="anno 疎水性相互作用">疎水性相互作用</a>や，基質タンパク質の細胞外領域に存在する酸性アミノ酸残基が<a href="#" class="anno 膜電位">膜電位</a>からうける電気<a href="#" class="anno 泳動">泳動</a>的な引力により促進されるものと考えられた．これまで，YidCは二量体を形成することによりSecトランスロコンと同様にチャネル様の構造を形成すると提唱されていた<a href="#R5"><sup>5)</sup></a>．しかしながら，今回の構造解析および<a href="#" class="anno 機能解析">機能解析</a>の結果から，YidCはSecトランスロコンとは異なる独自の分子機構によりタンパク質を細胞膜に組み込むことが示唆された．すなわち，YidCは疎水的な細胞膜の内部に親水的な環境をつくりだすことにより，基質タンパク質の親水性の細胞外領域が細胞膜を透過する際のエネルギー障壁を下げ，それにより細胞膜への組み込みを達成するものと考えられた．<br/><br/><a name="F3"></a><div id="fig3-caption-text" style="display: none;"><strong>図3　YidCによるタンパク質の細胞膜への組み込みのモデル</strong><br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/05/Nureki-Nature-14.5.8-Fig.3.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure3" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図3　YidCによるタンパク質の細胞膜への組み込みのモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-14.5.8-Fig.3.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-14.5.8-Fig.3.jpg" alt="figure3" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig3-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig3-caption').innerHTML = document.getElementById('fig3-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　筆者らは，今回の研究により，YidCの結晶構造を明らかにし，その立体構造にもとづいた遺伝学的および生化学的な解析により，YidCによるタンパク質の細胞膜への組み込みの分子機構の一端を明らかにした．YidCの<a href="#" class="anno X線<a href="#" class="anno 結晶構造解析">結晶構造解析</a>"><a href="#" class="anno X線結晶構造">X線結晶構造</a>解析</a>に成功し，はじめてその構造を目にしたときには，細胞膜と平行に突き出たαヘリックスなど，そのユニークさに非常に驚かされた．さらに<a href="#" class="anno 予想外">予想外</a>であったことに，結晶構造には過去の研究から提唱されていた“チャネル”は存在していなかった．このことから，<a href="#" class="anno 同じ">同じ</a>くタンパク質を細胞膜へ組み込むSecトランスロコンとはまったく異なる分子機構によりYidCははたらいていることが強く示唆された．そして，のちの機能解析により親水的な溝の<a href="#" class="anno 重要性">重要性</a>が明らかになり，さきに述べたような，タンパク質の細胞膜への組み込みのモデルを提唱するにいたった．今回のモデルはタンパク質の細胞膜への組み込みの分子機構としては新しいものであったため，この分野の<a href="#" class="anno 研究者">研究者</a>に受け入れられるかどうか少し不安があったが，そのようななかで参加した海外のある学会では“make senseだ”という声を多く聞くことができ，ほっとした．ただ，たったひとつの結晶構造だけでは，タンパク質の細胞膜への組み込みというダイナミックな<a href="#" class="anno 反応機構">反応機構</a>を完全に理解することはできない．さらに，YidCの<a href="#" class="anno 分子シャペロン">分子シャペロン</a>としての機能など，その分子機構には不明な点が多く残されている．この結晶構造をもとに，今後，さらに研究を発展させていきたい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Samuelson, J. C., Chen, M., Jiang, F. et al.</span>: <span class="ti">YidC mediates membrane protein insertion in bacteria.</span> <span class='so'>Nature, 406, 637-641 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10949305" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Dalbey, R. E., Kuhn, A., Zhu, L. et al.</span>: <span class="ti">The membrane insertase YidC.</span> <span class='so'>Biochim. Biophys. Acta, 1843, 1489-1496 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24418623" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Van den Berg, B., Clemons, W. M. Jr, Collinson, I. et al.</span>: <span class="ti">X-ray structure of a protein-conducting channel.</span> <span class='so'>Nature, 427, 36-44 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14661030" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Tsukazaki, T., Mori, H., Fukai, S. et al.</span>: <span class="ti">Conformational transition of Sec machinery inferred from bacterial SecYE structures.</span> <span class='so'>Nature, 455, 988-991 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18923527" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kohler, R., Boehringer, D., Greber, B. et al.</span>: <span class="ti">YidC and Oxa1 form dimeric insertion pores on the translating ribosome.</span> <span class='so'>Mol. Cell, 34, 344-353 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19450532" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Kawate, T. & Gouaux, E.</span>: <span class="ti">Fluorescence-detection size-exclusion chromatography for precrystallization screening of integral membrane proteins.</span> <span class='so'>Structure, 14, 673-681 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16615909" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Seitl, I., Wickles, S., Beckmann, R. et al.</span>: <span class="ti">The C-terminal regions of YidC from <em>Rhodopirellula baltica</em> and <em>Oceanicaulis alexandrii</em> bind to ribosomes and partially substitute for SRP receptor function in <em>Escherichia coli</em>.</span> <span class='so'>Mol. Microbiol., 91, 408-421 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24261830" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Kedrov, A., Sustarsic, M., de Keyzer, J. et al.</span>: <span class="ti">Elucidating the native architecture of the YidC: ribosome complex.</span> <span class='so'>J. Mol. Biol., 425, 4112-4124 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23933010" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Chiba, S., Lamsa, A. & Pogliano, K.</span>: <span class="ti">A ribosome-nascent chain sensor of membrane protein biogenesis in <em>Bacillus subtilis</em>.</span> <span class='so'>EMBO J., 28, 3461-3475 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19779460" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_04.html" target="_blank">12.4 Protein Transport in Prokaryotic Cells</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_05.html" target="_blank">12.5 Exocytosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_02.html" target="_blank">11.2 Characteristic Structures in Prokaryotes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_01.html" target="_blank">11.1 Biological Membranes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/17_02.html" target="_blank">17.2 Excitation of Nerve Cells and Transmission of Excitation</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">熊崎  薫（Kaoru Kumazaki）</span><br>略歴：東京大学大学院理学系研究科博士課程 在学中．<br>研究テーマ：タンパク質の細胞膜への組み込みの機構の構造基盤．<br>関心事：タンパク質の生合成および輸送．<br><br><strong>千葉 志信（Shinobu Chiba）</strong><br>京都産業大学総合生命科学部 准教授．<br><br><strong>塚崎 智也（Tomoya Tsukazaki）</strong><br>奈良先端科学技術大学院大学バイオサイエンス研究科 准教授．科学技術振興機構 さきがけ研究者 兼任．<br>研究室URL：<a href="http://bsw3.naist.jp/tsukazaki/" target="_blank">http://bsw3.naist.jp/tsukazaki/</a><br><br><strong>濡木 理（Osamu Nureki）</strong><br>東京大学大学院理学系研究科 教授．<br>研究室URL：<a href="http://www.nurekilab.net/" target="_blank">http://www.nurekilab.net/</a><br></div><br>© 2014 熊崎 薫・千葉志信・塚崎智也・濡木 理 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

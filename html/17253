@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ダイレクトリプログラミング法によるオルガノイドの形成能をもつマウスおよびヒトの腸前駆細胞の作製 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/17253" rel="bookmark">ダイレクトリプログラミング法によるオルガノイドの形成能をもつマウスおよびヒトの腸前駆細胞の作製</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>三浦 静・鈴木淳史</strong><br>（九州大学生体防御医学研究所 器官発生再生学分野）<br>email：<a href="mailto:smiura@bioreg.kyushu-u.ac.jp">三浦 静</a>，<a href="mailto:suzukicks@bioreg.kyushu-u.ac.jp">鈴木淳史</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.111">10.7875/first.author.2017.111</a><br><div class="reference"><br><span class="ti">Generation of mouse and human organoid-forming intestinal progenitor cells by direct lineage reprogramming.</span><br><span class="au">Shizuka Miura, Atsushi Suzuki</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28943029" target="_blank"><em>Cell Stem Cell</em>, <strong>21</strong>, 456-471.e5 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　この研究において，筆者らは，<a href="#" class="anno iPS細胞">iPS細胞</a>をへず直接的に<a href="#" class="anno 細胞の分化">細胞の分化</a>を転換する<a href="#" class="anno ダイレクト<a href="#" class="anno リプログ<a href="#" class="anno ラミン">ラミン</a>グ">リプログラミング</a>">ダイレクトリプログラミング</a>法を用いて，マウスの<a href="#" class="anno 胎<a href="#" class="anno 仔">仔</a>">胎仔</a>線維<a href="#" class="anno 芽細胞">芽細胞</a>に<a href="#" class="anno Hnf4α">Hnf4α</a>，<a href="#" class="anno Foxa">Foxa</a>3，<a href="#" class="anno Gata6">Gata6</a>，<a href="#" class="anno Cdx2">Cdx2</a>という4つの<a href="#" class="anno 転写因子">転写因子</a>を導入することにより胎仔の腸<a href="#" class="anno 前駆細胞">前駆細胞</a>と同様の性質を<a href="#" class="anno も">も</a>つ細胞の分化を誘導させることに成功した．この誘導腸前駆細胞は<a href="#" class="anno 胎仔型">胎仔型</a><a href="#" class="anno オルガノイド">オルガノイド</a>を形成し，<a href="#" class="anno 腸<a href="#" class="anno 幹細胞">幹細胞</a>">腸幹細胞</a>を含む<a href="#" class="anno 成体型">成体型</a>オルガノイドへと成長した．分化された腸幹細胞は4種類の<a href="#" class="anno 腸上皮">腸上皮</a>細胞に分化する<a href="#" class="anno 多分化能">多分化能</a>をもち，かつ，長期間にわたり自己と<a href="#" class="anno 同じ">同じ</a>細胞をつくりつづける<a href="#" class="anno <a href="#" class="anno 自己複製">自己複製</a>能">自己<a href="#" class="anno 複製能">複製能</a></a>をもっていた．また，これらのオルガノイドを大<a href="#" class="anno 腸炎">腸炎</a>の<a href="#" class="anno モ<a href="#" class="anno デ">デ</a>ルマウス">モデルマウス</a>に移植したところ，小腸<a href="#" class="anno 上皮組織">上皮組織</a>および大腸上皮組織が<a href="#" class="anno 再構築">再構築</a>された．さらに，この4つの転写因子の導入により，ヒトにおいても腸前駆細胞の分化が誘導された．ダイレクトリプログラミング法により作製された腸上皮のオルガノイドは，<a href="#" class="anno 創薬">創薬</a>や<a href="#" class="anno 移植医療">移植医療</a>への応用が期待される．<br/><br/><h2>はじめに</h2><br/>　哺乳類の成体の<a href="#" class="anno 小腸上皮">小腸上皮</a>組織は<a href="#" class="anno 陰窩">陰窩</a>および絨毛の2つのドメインから構成される．陰窩の<a href="#" class="anno 底部">底部</a>には自己複製能をもつ腸幹細胞が存在する<a href="#R1"><sup>1)</sup></a>．腸幹細胞は<a href="#" class="anno パネート細胞">パネート細胞</a>，吸収<a href="#" class="anno 上皮細胞">上皮細胞</a>，<a href="#" class="anno 内<a href="#" class="anno 分泌細胞">分泌細胞</a>">内分泌細胞</a>，<a href="#" class="anno 杯細胞">杯細胞</a>に分化し，絨毛の上部へと移動する．一方，胎仔の腸は高い<a href="#" class="anno 増殖能">増殖能</a>をもつ細胞を含むが，成体の腸とは異なり陰窩はなく，<a href="#" class="anno 機能的">機能的</a>に分化した細胞も少ない<a href="#R2"><sup>2)</sup></a>．<br/>　腸幹細胞は，<a href="#" class="anno EGF">EGF</a>，<a href="#" class="anno Nog">Nog</a>gin，R-s<a href="#" class="anno pon">pon</a><a href="#" class="anno din1">din1</a>を含む<a href="#" class="anno マトリゲル">マトリゲル</a>における<a href="#" class="anno 3次元培養">3次元培養</a>により陰窩および絨毛をもつ3次元の組織<a href="#" class="anno 構造体">構造体</a>を形成する．この腸上皮組織様の構造は成体型オルガノイドとよばれ，<a href="#" class="anno 継代">継代</a>により長期間にわたり培養および維持される<a href="#R3"><sup>3)</sup></a>．また，成体型オルガノイドを<a href="#" class="anno 大腸炎">大腸炎</a>のモデルマウスに移植すると，大腸組織に陰窩および絨毛をもつ小腸上皮組織を再構築する<a href="#R4"><sup>4)</sup></a>．一方，胎仔の腸前駆細胞は3次元培養により1層からなる陰窩をもたないオルガノイドを形成する．この球状の胎仔型オルガノイドは<a href="#" class="anno 外来性">外来性</a>の<a href="#" class="anno Wnt">Wnt</a>の刺激により成体型オルガノイドになるが，継代の途中で外来性のWntを除くことにより成体型オルガノイドへの成長は促進される<a href="#R2"><sup>2)</sup></a>．胎仔型オルガノイドは大腸炎のモデルマウスに移植すると障害をうけた大腸上皮組織を再構築する<a href="#R2"><sup>2)</sup></a>．これらのことから，腸上皮のオルガノイドは<a href="#" class="anno 腸疾患">腸疾患</a>の研究や移植医療に有用であると考えられる．しかしながら，腸上皮のオルガノイドの材料となる腸の組織片を成人のドナーや胎児から採取することはむずかしい．<br/>　腸組織に由来するオルガノイドの代わりとして，近年，<a href="#" class="anno <a href="#" class="anno 多能性">多能性</a>幹細胞">多能性幹細胞</a>を用いて腸上皮のオルガノイドを作製する研究が進められている．多能性幹細胞から作製する場合には，<a href="#" class="anno 腸上皮細胞">腸上皮細胞</a>のほか<a href="#" class="anno 間葉">間葉</a>系の細胞も同時に作製することが可能であり，<a href="#" class="anno 実際">実際</a>の腸組織と似た構造体を作製できる<a href="#R5"><sup>5)</sup></a>．しかしながら，多能性幹細胞から<a href="#" class="anno 腸細胞">腸細胞</a>へと分化を誘導するには複雑な工程をへる必要があり作製に時間もかかる．さらに，<a href="#" class="anno 未分化">未分化</a>な細胞が残存していた場合には腫瘍が形成されるリスクがある．<br/>　<a href="#" class="anno 最近の研究">最近の研究</a>により，ダイレクトリプログラミング法という技術を利用して，未分化な状態をへず分化した細胞から直接的にほかの細胞へと分化を転換させることが可能になり，この方法を用いてさまざまな種類の細胞や前駆細胞が作製されるようになった．筆者らも，この方法を利用して誘導<a href="#" class="anno 肝<a href="#" class="anno 細胞様">細胞様</a>細胞"><a href="#" class="anno 肝細胞">肝細胞</a>様細胞</a>の作製に成功している<a href="#R6"><sup>6)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/3217" target="_blank">新着論文レビュー</a> でも掲載）．しかしながら，ダイレクトリプログラミング法を用いて腸前駆細胞や腸幹細胞を作製できるかどうかは不明であった．ダイレクトリプログラミングにより誘導腸前駆細胞や誘導腸幹細胞を作製できれば，生体の腸細胞や多能性幹細胞から作製した腸幹細胞に代わる新たな材料になる．この研究においては，腸前駆細胞の分化を誘導する転写因子を同定し，マウスの<a href="#" class="anno 線維芽細胞">線維芽細胞</a>から腸前駆細胞および腸幹細胞への分化を誘導した．<br/><br/><h2>1．特定の転写因子を用いてマウスの線維芽細胞から誘導腸前駆細胞を作製する</h2><br/>　<a href="#" class="anno 以前の研究">以前の研究</a>において，筆者らは，マウス<a href="#" class="anno 胎仔線維芽細胞">胎仔線維芽細胞</a>に2つの転写因子Hnf4αおよび<a href="#" class="anno Foxa3">Foxa3</a>を導入することにより肝細胞様細胞の分化を誘導した．肝細胞様細胞の分化の誘導に用いた転写因子は腸上皮細胞においても発現しており，また，<a href="#" class="anno <a href="#" class="anno マイクロアレイ">マイクロアレイ</a>法">マイクロアレイ法</a>による誘導肝細胞様細胞の解析において，腸上皮細胞に<a href="#" class="anno 特異的">特異的</a>ないくつかの遺伝子の発現が確認された．そこで，腸幹細胞のマー<a href="#" class="anno カ">カ</a>ーである<a href="#" class="anno Lgr5">Lgr5</a>の発現を<a href="#" class="anno 可視化">可視化</a>できるマウスに由来する胎仔線維芽細胞においてHnf4αおよびFoxa3を導入し，腸幹細胞の維持に必要なEGF，<a href="#" class="anno Noggin">Noggin</a>，R-<a href="#" class="anno spo">spo</a>ndin1に<a href="#" class="anno Wnt3">Wnt3</a>aおよびC<a href="#" class="anno HIR">HIR</a>99021をくわえた<a href="#" class="anno 培地">培地</a>において3次元培養した．その結果，ごく少数の胎仔型オルガノイドが形成されたが，成体型オルガノイドは形成されず，Lgr5を発現するオルガノイドも観察されなかった．このことから，ダイレクトリプログラミング法による腸前駆細胞への分化の誘導には肝細胞様細胞の分化を誘導する転写因子だけでは不十分であり，さらにほかの転写因子が必要であると考えられた．<br/>　そこで，腸上皮細胞において<a href="#" class="anno 高発現">高発現</a>し腸の<a href="#" class="anno 形態形成">形態形成</a>に必要な転写因子であるGata6およびCdx2に着目した．Hnf4αとFoxa3にGata6とCdx2をくわえた4つの転写因子の組合せを<a href="#" class="anno <a href="#" class="anno マウス胎仔">マウス胎仔</a>線維芽細胞">マウス胎仔線維芽細胞</a>に導入し3次元培養したところ，胎生13.5日のマウスの腸上皮細胞を<a href="#" class="anno 単離">単離</a>して培養したときと同様に，胎仔型オルガノイドおよび少数の成体型オルガノイドが形成され，これらはLgr5<a href="#" class="anno 陽<a href="#" class="anno 性細胞">性細胞</a>">陽性細胞</a>を含んでいた．腸前駆細胞に由来する胎仔型オルガノイドは継代の途中で外来性のWntの刺激を除くことにより成体型オルガノイドへと成長することが知られている．同様に，4つの転写因子を導入して形成された胎仔型オルガノイドにおいても，継代の途中で外来性のWntの刺激を除いたところ，すべての胎仔型オルガノイドが成体型オルガノイドへと成長した．一方，Gata6を除いた3つの転写因子の組合せにおいては，形成された胎仔型オルガノイドおよび成体型オルガノイドの数は少なく，Lgr5陽性細胞を含むオルガノイドもほとんど観察されなかった．また，Cdx2を除いた3つの転写因子の組合せにおいても胎仔型オルガノイドおよび成体型オルガノイドが形成されたが，それらの数は4つの転写因子により分化を誘導した場合より少なく，Lgr5陽性細胞を含むオルガノイドの数も少なかった．また，継代の途中で外来性のWntのシグナルを除いても胎仔型オルガノイドから成体型オルガノイドへと成長はしなかった．このことから，Gata6およびCdx2はマウス胎仔線維芽細胞からの胎仔型オルガノイドおよび成体型オルガノイドの形成に必要であり，胎仔線維芽細胞からLgr5陽性細胞への転換に重要な役割をはたすことが示唆された．<br/>　マウス胎仔線維芽細胞に4つの転写因子を導入して分化を誘導した腸前駆細胞に由来する胎仔型オルガノイドおよび成体型オルガノイドを<a href="#" class="anno 免疫染色">免疫染色</a>したところ，腸上皮細胞において発現するE<a href="#" class="anno カドヘリン">カドヘリン</a>および<a href="#" class="anno Klf5">Klf5</a>を発現していた．また，マイクロアレイ法により遺伝子の発現を<a href="#" class="anno 網羅的">網羅的</a>に解析した結果，腸前駆細胞に由来する胎仔型オルガノイドとよく似た遺伝子<a href="#" class="anno 発現パターン">発現パターン</a>を示した．このように，マウス胎仔線維芽細胞にHnf4α，Foxa3，Gata6，Cdx2の4つの転写因子を導入することにより腸前駆細胞と同様の性質をもつ誘導腸前駆細胞が作製され（<a href="#F1">図1</a>），誘導腸前駆細胞から形成された胎仔型オルガノイドおよび成体型オルガノイドは腸前駆細胞に由来する胎仔型オルガノイドおよび成体型オルガノイドとよく似ていた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　マウスにおける胎仔線維芽細胞から誘導腸前駆細胞および誘導腸幹細胞への分化の転換</strong><br/>マウス胎仔線維芽細胞に4つの転写因子を導入すると，誘導腸前駆細胞への分化に転換し，胎仔型オルガノイドが形成される．胎仔型オルガノイドは外来性のWntの刺激を除くことにより誘導腸幹細胞を含む成体型オルガノイドへと成長する．移植により，誘導腸前駆細胞は大腸上皮組織，誘導腸幹細胞は小腸上皮組織を再構築した．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Cell-Stem-Cell-17.10.5-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　マウスにおける胎仔線維芽細胞から誘導腸前駆細胞および誘導腸幹細胞への分化の転換" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Cell-Stem-Cell-17.10.5-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Cell-Stem-Cell-17.10.5-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．誘導腸前駆細胞に由来する成体型オルガノイドの性状の解析</h2><br/>　継代の途中にWntの刺激を除くことにより成長した誘導腸前駆細胞に由来する成体型オルガノイドの特徴について調べるため，成体の腸の陰窩から作製した成体型オルガノイドと比較した．免疫染色の結果，誘導腸前駆細胞に由来する成体型オルガノイドは，陰窩に由来する成体型オルガノイドと同様に，<a href="#" class="anno Eカドヘリン">Eカドヘリン</a>やEz<a href="#" class="anno rin">rin</a>といった<a href="#" class="anno 極">極</a>性マーカーを発現しており上皮細胞の特徴である極性をもつことがわかった．さらに，誘導腸前駆細胞に由来する成体型オルガノイドには，<a href="#" class="anno ビリン">ビリン</a>陽性の吸収上皮細胞，<a href="#" class="anno リゾチーム">リゾチーム</a>陽性のパネート細胞，ch<a href="#" class="anno rom">rom</a>og<a href="#" class="anno ran">ran</a>in A陽性の内分泌細胞，<a href="#" class="anno Muc2">Muc2</a>陽性の杯細胞に分化した細胞も存在した．陰窩様の構造には腸幹細胞や腸前駆細胞のマーカーである<a href="#" class="anno Sox9">Sox9</a>や<a href="#" class="anno Eph">Eph</a>B2を発現する細胞が観察され，<a href="#" class="anno Ki67">Ki67</a>陽性の増殖している細胞も確認されたことから，誘導腸前駆細胞に由来する成体型オルガノイドは腸幹細胞を含む<a href="#" class="anno 可能性">可能性</a>が示唆された．<br/>　腸幹細胞の特徴である自己複製能について調べた．誘導腸前駆細胞に由来する陰窩様の構造を<a href="#" class="anno 継代培養">継代培養</a>し，7日後に成体型オルガノイドおよび陰窩様の構造を計数した結果，成体型オルガノイドの数は播種した陰窩様の構造の数とほぼ同じであり，陰窩様の構造の数は6.4～13.2倍に増加していた．このことから，播種したほとんどの陰窩様の構造から成体型オルガノイドが形成され，かつ，腸幹細胞のマーカーを発現する細胞を含む陰窩様の構造は増殖していることがわかった．以上の結果より，誘導腸前駆細胞から形成された成体型オルガノイドには自己複製の可能な腸幹細胞が含まれることが示され，これを誘導腸幹細胞と名づけた．<br/><br/><h2>3．誘導腸前駆細胞および誘導腸幹細胞は障害をうけた大腸上皮組織および小腸上皮組織を再構築する</h2><br/>　障害をうけた大腸に腸前駆細胞を移植すると大腸上皮組織が再構築されることが知られている<a href="#R2"><sup>2)</sup></a>．また，腸幹細胞を移植すると大腸組織に陰窩および絨毛をもつ小腸上皮組織が再構築される<a href="#R4"><sup>4)</sup></a>．そこで，誘導腸前駆細胞および誘導腸幹細胞が，それぞれ，大腸上皮組織および小腸上皮組織を再構築するかどうか調べた．誘導腸前駆細胞および誘導腸幹細胞をそれぞれ大腸炎のモデルマウスに移植し3カ月後に解析したところ，腸前駆細胞や腸幹細胞と同様に，大腸上皮組織および小腸上皮組織が再構築されていた（<a href="#F1">図1</a>）．誘導腸前駆細胞あるいは誘導腸幹細胞が<a href="#" class="anno 生着">生着</a>した腸上皮組織においては，ビリン陽性の吸収上皮細胞，chromogranin A陽性の内分泌細胞，Muc2陽性の杯細胞が観察され，陰窩の部分にはSox9やEphB2といった腸幹細胞のマーカーが発現していた．さらに，誘導腸前駆細胞を移植したマウスは胎仔線維芽細胞を移植したマウスよりも体重の回復が速かったことから，誘導腸前駆細胞および誘導腸幹細胞は障害をうけた大腸上皮組織を機能的に再構築することが示された．<br/><br/><h2>4．ヒトにおける誘導腸前駆細胞の作製</h2><br/>　マウスの誘導腸前駆細胞の作製に用いた4つの転写因子をヒトの<a href="#" class="anno 臍帯<a href="#" class="anno 静脈内">静脈内</a>皮細胞">臍帯静脈<a href="#" class="anno 内皮細胞">内皮細胞</a></a>に導入することにより，ヒトにおいて腸前駆細胞の分化の誘導を試みた．その結果，ヒトの胎児に由来する腸前駆細胞と同様に<a href="#" class="anno 胎児型">胎児型</a>オルガノイドが形成され，3次元培養により少なくとも6カ月にわたり維持された．しかしながら，マウスの腸前駆細胞や誘導腸前駆細胞とは異なり，外来性のWntの刺激を除いてもヒトの誘導腸前駆細胞およびヒトの胎児に由来する腸前駆細胞において成体型オルガノイドは形成されなかった．長期間にわたり培養したヒトの誘導腸前駆細胞に由来する胎児型オルガノイドの性状を解析したところ，ヒトの腸前駆細胞に由来する胎児型オルガノイドと同様に，上皮細胞の特徴である極性をもち，EカドヘリンやKlf5といった腸上皮細胞のマーカーを発現する細胞から構成されていた．さらに，ヒトの誘導腸前駆細胞に由来する胎児型オルガノイドを大腸炎のモデルマウスに移植したところ大腸上皮組織が再構築された．このように，ヒトの臍帯静脈内皮細胞にHnf4α，Foxa3，Gata6，Cdx2の4つの転写因子を導入することにより誘導腸前駆細胞が作製された（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ヒトにおける臍帯静脈内皮細胞から誘導腸前駆細胞への分化の転換</strong><br/>ヒト臍帯静脈内皮細胞に4つの転写因子を導入すると，誘導腸前駆細胞への分化に転換し，胎児型オルガノイドが形成される．移植により，誘導腸前駆細胞は大腸上皮組織を再構築した．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Cell-Stem-Cell-17.10.5-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ヒトにおける臍帯静脈内皮細胞から誘導腸前駆細胞への分化の転換" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Cell-Stem-Cell-17.10.5-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Cell-Stem-Cell-17.10.5-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究においては，4つの転写因子を組み合わせて導入することにより，マウスの胎仔線維芽細胞やヒトの臍帯静脈内皮細胞を誘導腸前駆細胞へと分化させることに成功した．また，マウスの誘導腸前駆細胞に由来する胎仔型オルガノイドは成体型オルガノイドへと成長し，成体型オルガノイドは誘導腸幹細胞および誘導腸幹細胞から分化した腸上皮細胞から形成されていた．ダイレクトリプログラミング法により腸前駆細胞および腸<a href="#" class="anno 幹細胞の分化">幹細胞の分化</a>が誘導されたことにより，生体の腸上皮組織や多能性幹細胞に代わる新たな腸上皮オルガノイドの材料の取得が可能になった．今後は，ヒトの胎児型オルガノイドを成体型オルガノイドへと成<a href="#" class="anno 長さ">長さ</a>せる方法を確立するとともに，成人の細胞からヒトの誘導腸前駆細胞を作製することにより，創薬や移植医療への応用に貢献したいと考えている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Baker, N., van Es, J. H., Kuipers, J. et al.</span>: <span class="ti">Identification of stem cells in small intestine and colon by marker gene <em>Lgr5</em>.</span> <span class='so'>Nature, 449, 1003-1007 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17934449" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Fordham, R. P., Yui, S., Hannan, N. R. et al.</span>: <span class="ti">Transplantation of expanded fetal intestinal progenitors contributes to colon regeneration after injury.</span> <span class='so'>Cell Stem Cell, 13, 734-744 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24139758" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Sato, T., Vries, R. G., Snippert, H. J. et al.</span>: <span class="ti">Single Lgr5 stem cells build crypt- villus structures <em>in vitro</em> without a mesenchymal niche.</span> <span class='so'>Nature, 459, 262-265 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19329995" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Fukuda, M., Mizutani, T., Mochizuki, W. et al.</span>: <span class="ti">Small intestinal stem cell identity is maintained with functional Paneth cells in heterotopically grafted epithelium onto the colon.</span> <span class='so'>Genes Dev., 28, 1752-1757 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25128495" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Spence, J. R., Mayhew, C. N., Rankin, S. A. et al.</span>: <span class="ti">Directed differentiation of human pluripotent stem cells into intestinal tissue <em>in vitro</em>.</span> <span class='so'>Nature, 470, 105-109 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21151107" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Sekiya, S. & Suzuki, A.</span>: <span class="ti">Direct conversion of mouse fibroblasts to hepatocyte-like cells by defined factors.</span> <span class='so'>Nature, 475, 390-393 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21716291" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/3217" target="_blank">新着論文レビュー</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=UCSC" target="_blank">UCSC</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=転写因子" target="_blank">転写因子データベース</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=抗体" target="_blank">抗体解析</a></li><br></ul><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/05_02.html" target="_blank">5.2 The Mechanism of Homeostasis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/19_04.html" target="_blank">19.4 Cell Differentiation and Stem Cells</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/13_04.html" target="_blank">13.4 Regulation of Cell Proliferation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/22_02.html" target="_blank">22.2 Cell Division and Growth</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/07_03.html" target="_blank">7.3 Genes and DNA</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">三浦  静（Shizuka Miura）</span><br>略歴：九州大学大学院医学研究院博士課程 在学中．<br>研究テーマ：細胞のリプログラミング．肝臓や腸の発生および再生．<br>抱負：臨床応用にむけてヒトの誘導腸前駆細胞の研究を発展させたい．<br><br><strong>鈴木 淳史（Atsushi Suzuki）</strong><br>九州大学生体防御医学研究所 教授．<br>研究室URL：<a href="http://www.bioreg.kyushu-u.ac.jp/labo/orgreg/" target="_blank">http://www.bioreg.kyushu-u.ac.jp/labo/orgreg/</a><br></div><br>© 2017 三浦 静・鈴木淳史 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

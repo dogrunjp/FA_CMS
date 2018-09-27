@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 視床枕におけるニューロンの活動は視覚の判別における主観的な確からしさを反映する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/7241" rel="bookmark">視床枕におけるニューロンの活動は視覚の判別における主観的な確からしさを反映する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>小村  豊</strong><br>（産業技術総合研究所ヒューマンライフテクノロジー研究部門 システム脳科学研究グループ）<br>email：<a href="mailto:komura-y@aist.go.jp">小村 豊</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.074">10.7875/first.author.2013.074</a><br><div class="reference"><br><span class="ti">Responses of pulvinar neurons reflect a subject's confidence in visual categorization.</span><br><span class="au">Yutaka Komura, Akihiko Nikkuni, Noriko Hirashima, Teppei Uetake，Aki Miyamoto</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23666179" target="_blank"><em>Nature Neuroscience</em>, <strong>16</strong>, 749-755 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　われわれが外界のあるイベントを認識するとき，その対象を“いま，ここで”確かに知覚しているという確信を感じている．しかし，そのような知覚の確信度を，脳がどこで，どのように生成しているのかはわかっていない．この研究は，進化の過程においてめざましく発達してきた<a href="#" class="anno 視覚系">視覚系</a>の視床の領域である<a href="#" class="anno 視床枕">視床枕</a>に，その確信度の神経基盤のあることを明らかにした．内容判別課題においては，視床枕における<a href="#" class="anno 大多数">大多数</a>の<a href="#" class="anno ニューロン活動">ニューロン活動</a>は知覚の内容に<a href="#" class="anno 相">相</a>関していなかった．判別回避課題においては，内容の判別に自信の<a href="#" class="anno も">も</a>てないときに示す<a href="#" class="anno 回避行動">回避行動</a>を選択した場合に視床枕における応答は<a href="#" class="anno 減弱">減弱</a>していた．視床枕におけるニューロン活動を<a href="#" class="anno 人為的">人為的</a>に抑制すると，内容判別課題の成績は変化しなかったが，判別回避課題において頻繁に回避行動を選択するようになった．ただし，この効果は<a href="#" class="anno 視覚刺激">視覚刺激</a>を<a href="#" class="anno 反<a href="#" class="anno 対側">対側</a>">反対側</a>の視野に呈示した場合にのみ認められた．さらに，これらの<a href="#" class="anno 実験<a href="#" class="anno デ">デ</a>ータ">実験データ</a>は，確信度の計算モデルから説明することもできた．以上から，視床枕におけるニューロン活動は知覚における<a href="#" class="anno 主観的">主観的</a>な確か<a href="#" class="anno らしさ">らしさ</a>をコードし，知覚の確信度に影響を及ぼすことが示唆された．<br/><br/><h2>はじめに</h2><br/>　われわれの知覚の意識には2つの側面がある<a href="#R1"><sup>1)</sup></a>．ひとつは，たとえば赤いボールが上方向に動いているという知覚の内容，もうひとつは，その内容を確かにわかっているという確信度の面である．ここ<a href="#" class="anno 数十">数十</a>年の研究により<a href="#R2"><sup>2,3)</sup></a>，知覚の意識は視床-皮質の回路から生成されていることが示唆されてきたが，その<a href="#" class="anno <a href="#" class="anno 生物学">生物学</a>的">生物学的</a>な機構は不明であった．そこで，この研究では，視覚系の視床の領域に着目して実験を進めた．<a href="#" class="anno 霊長類">霊長類</a>の視覚系の視床には2つの領域がある<a href="#R4"><sup>4)</sup></a>．ひとつは<a href="#" class="anno 外側膝状体">外側膝状体</a>で，もうひとつは視床枕である．外側膝状体は網膜から第<a href="#" class="anno 1次<a href="#" class="anno 視覚野">視覚野</a>">1次視覚野</a>への中継核であり，視床枕は進化の過程において拡大し霊長類の視床において最大の容積をしめ，多くの<a href="#" class="anno 視覚皮質">視覚皮質</a>と<a href="#" class="anno <a href="#" class="anno 解剖学">解剖学</a>的">解剖学的</a>な結合をもつ．外側膝状体と視床枕という2つの視床の領域が知覚の意識においてどのような機能をはたしているのかを調べるため，サルに2つの行動課題を課した．ひとつは知覚の内容をテストするための内容判別課題，もうひとつは確信度をテストするための判別回避課題である．<br/><br/><h2>1．内容判別課題とそのときのニューロン活動のパターン</h2><br/>　内容判別課題（<a href="#F1">図1a</a>）では，サルには色（赤あるいは緑）と動き（上向きあるいは下向き）を組み合わせた視覚の刺激（ドットの<a href="#" class="anno 集合体">集合体</a>）が呈示され，あらかじめ指定された色（赤あるいは緑）のドットが上下どちらに動いているのかを判別し，上ならば右のバー，下ならば左のバーを報告しなければならない．この課題を遂行しているときの視床におけるニューロン活動を記録すると，視床枕のニューロンは知覚の内容（赤が下に動くなど）にかかわらず，視覚の刺激があいまい（ターゲットの色の動きが上下半々に近く判別がむずかしい場合）になればなるほど，その<a href="#" class="anno 応答性">応答性</a>を弱めていることがわかった．一方，外側膝状体におけるニューロン活動は課題において変化を認めなかった．この課題で用いた視覚の刺激は，ある特定の色や動きに<a href="#" class="anno かた">かた</a>よらず色と動きの混合比だけを変化させたので，個別の視覚の特徴のサリエンシー（<a href="#" class="anno 物理的">物理的</a>な目立ち）は一定のまま，視覚の刺激のあいまいさのみを操作できるよう工夫されていた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　この研究において用いた2つの行動課題</strong><br/>（a）内容判別課題．<br/>（b）判別回避課題．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/06/Komura-Nature-Neuroscience-13.5.28-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　この研究において用いた2つの行動課題" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Komura-Nature-Neuroscience-13.5.28-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Komura-Nature-Neuroscience-13.5.28-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．判別回避課題とそのときのニューロン活動のパターン</h2><br/>　内容判別課題を遂行しているときの視床枕におけるニューロン活動は，単なる刺激のあいまいさを反映しているだけなのか，あるいは，知覚のあいまいさにも関連しているのかを調べるため，判別回避課題（<a href="#F1">図1b</a>）を導入した．この課題では，サルには左右のバー以外に，判別行動を忌避してもよいよう<a href="#" class="anno 第3">第3</a>の選択肢として下のバーを用意した．左右のバーを選択して判別が正しければ報酬（ジュース）が多くあたえられ，まちがっていればブザー音がなる．一方，下のバーを選択すればどのような刺激の場合でも少量の報酬があたえられる．このように報酬の量に差をつけると，サルは自分が下した判断に対し自信のあるときには判別行動（左右のバー）を選択し，自信のないときには判別行動をあきらめて下のバーに回避すると予想された．<a href="#" class="anno 実際">実際</a>にサルに判別回避課題を行わせると，視覚の刺激があいまいになればなるほど下のバーを選択する割合が増加した．この判別回避課題を遂行しているときの視床枕におけるニューロン活動を解析したところ，同一の視覚刺激においても，視床枕における応答の弱い場合には回避行動を選択し，応答が強い場合には判別行動を選択する傾向が示された（<a href="#F2">図2a</a>）．これらのことから，視床枕におけるニューロン活動は単に刺激の物理的なあいまいさに相関しているのではなく，主観的な確からしさ（確信度）を反映していることがわかった．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　判別回避課題を遂行しているときの視床枕におけるニューロン活動</strong><br/>（a）視床枕におけるニューロン活動．<br/>（b）視床枕におけるニューロン活動を一過性に抑制した場合の影響．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/06/Komura-Nature-Neuroscience-13.5.28-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　判別回避課題を遂行しているときの視床枕におけるニューロン活動" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Komura-Nature-Neuroscience-13.5.28-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Komura-Nature-Neuroscience-13.5.28-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．視床枕におけるニューロン活動の<a href="#" class="anno 抑制効果">抑制効果</a></h2><br/>　このような視床枕におけるシグナルが損なわれると行動にどのような影響がでるのか，視床枕を薬物により不<a href="#" class="anno 活性化">活性化</a>する実験により検証した（<a href="#F2">図2b</a>）．すると，視床枕がはたらかなくても内容判別自体の行動に変化はなかったが，判別を回避する行動が増加した．視床枕は左右に1対あるが，この判別回避課題への影響は，右側の視床枕においてニューロン活動を抑制すると左側に視覚の刺激が提示された場合のみ観察された．一方，外側膝状体においてニューロン活動を抑制すると，<a href="#" class="anno やはり">やはり</a>反対側の視野に刺激を呈示した場合において，内容判別課題および判別回避課題の両方に影響が認められた．これらの結果は，視床枕におけるニューロン活動は，知覚の内容ではなく知覚の確信度に対し<a href="#" class="anno 特異的">特異的</a>に影響を及ぼすことを示していた．<br/><br/><h2>4．計算論的な側面からみた行動およびニューロン活動のパターン</h2><br/>　これらの実験データは簡単な計算モデルから説明できる<a href="#R5"><sup>5)</sup></a>．この研究における内容判別課題は，<a href="#" class="anno 基本的">基本的</a>にはターゲットの色の動きは上向きか下向きかという二者択一の範疇化が求められていた．視覚の刺激は脳のなかでガウス分布（上向き<em>S</em><sub>1</sub>，下向き<em>S</em><sub>2</sub>）により表現され，1回の課題ではこれらの分布から1つの刺激変数（<em>s</em>）がランダムに決まると仮定する．内容判別課題においては，この刺激変数（<em>s</em>）が上向きあるいは下向きの範疇の境界（<em>b</em>）より大きいか小さいかにより決まる．一方，確信度（<em>d</em>）は刺激変数と範疇の境界との距離（<em>d</em> =|<em>s</em> - <em>b</em>|）により計算され，判別回避課題において回避行動を選択するかしないかは，確信度（<em>d</em>）がある<a href="#" class="anno 閾値">閾値</a>（<em>c</em>）をこえるかこえないかにより決まる．以上のような簡単なモデルを仮定するだけで，視床枕におけるニューロン活動のパターンは確信度（<em>d</em>）によりあてはめることができ，サルの行動パターンを再現することができた．また，さきの<a href="#" class="anno 薬理学的">薬理学的</a>な<a href="#" class="anno <a href="#" class="anno 不活性">不活性</a>化">不活性化</a>実験の結果も，視床枕における機能の阻害は確信度（<em>d</em>）が割引されること，外側膝状体における機能の阻害は刺激変数（<em>s</em>）の値がつぶれてしまうこと，により説明することができた．<br/><br/><h2>おわりに</h2><br/>　以上，行動<a href="#" class="anno <a href="#" class="anno 心理学">心理学</a>的">心理学的</a>な手法，<a href="#" class="anno 電気<a href="#" class="anno 生理学的">生理学的</a>"><a href="#" class="anno 電気生理">電気生理</a>学的</a>な手法，計算論的な手法を組み合わせて，サルの視床枕において確信度の神経相関を同定した．さらに，薬理学的な不活性化実験によりその因果性を確認することができた．過去の研究において<a href="#R6"><sup>6,7)</sup></a>，視床枕は<a href="#" class="anno 視覚的">視覚的</a>な注意に関連しているとしばしば指摘されてきたが，この研究において観察された視床枕におけるニューロン活動のパターンは，少なくとも注意レベルの変動では説明で<a href="#" class="anno きず">きず</a>，確信度の計算モデルにより<a href="#" class="anno 体系的">体系的</a>に説明された．しかし，この知見は視床枕における注意機能説を完全に否定するものではない．近年，確信度もしくはその逆の<a href="#" class="anno 不確実">不確実</a>さが注意の資源を制御するという知見のあることを考えあわせると<a href="#R8"><sup>8)</sup></a>，むしろ，この視床枕におけるシグナルは注意を制御することに貢献している<a href="#" class="anno 可能性">可能性</a>がある．また，別の研究では<a href="#R9"><sup>9)</sup></a>，視床枕におけるニューロン活動は主観的な見え（visibi<a href="#" class="anno lit">lit</a>y）に関連しているという結果が示された．知覚心理学の分野では主観的な見えは確信度により測定されてきた<a href="#R10"><sup>10)</sup></a>．これらを総合すると，視床枕は，いま，ここで見えている世界に対する確信度を計算し，知覚の意識や外界の探索に影響を及ぼしていることが考えられた．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Seth, A. K., Baars, B. J. & Edelman, D. B.</span>: <span class="ti">Criteria for consciousness in humans and other mammals.</span> <span class='so'>Conscious. Cogn., 14, 119-139 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15766894" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Dehaene, S. & Changeux, J. P.</span>: <span class="ti">Experimental and theoretical approaches to conscious processing.</span> <span class='so'>Neuron, 70, 200-227 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21521609" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Tononi, G.</span>: <span class="ti">An information integration theory of consciousness.</span> <span class='so'>BMC Neurosci., 5, 42 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15522121" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Jones, E. G.</span>: <span class="ti">The Thalamus, 2nd Ed.</span> <span class='so'>Cambridge University Press, Cambridge (2007)</span></li><br><li id="R5"><span class='au'>Kepecs, A. & Mainen, Z. F.</span>: <span class="ti">A computational framework for the study of confidence in humans and animals.</span> <span class='so'>Philos. Trans. R. Soc. Lond. B Biol. Sci., 367, 1322-1337 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22492750" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Petersen, S. E., Robinson, D. L. & Morris, J. D.</span>: <span class="ti">Contributions of the pulvinar to visual spatial attention.</span> <span class='so'>Neuropsychologia, 25, 97-105 (1987)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/3574654" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Kastner, S. & Pinsk, M. A.</span>: <span class="ti">Visual attention as a multilevel selection process.</span> <span class='so'>Cogn. Affect. Behav. Neurosci., 4, 483-500 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15849892" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Yu, A. J. & Dayan, P.</span>: <span class="ti">Uncertainty, neuromodulation, and attention.</span> <span class='so'>Neuron, 46, 681-692 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15944135" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Wilke, M., Mueller, K. M. & Leopold, D. A.</span>: <span class="ti">Neural activity in the visual thalamus reflects perceptual suppression.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 106, 9455-9470 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19458249" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Kunimoto, C., Miller, J. & Pashler, H.</span>: <span class="ti">Confidence and accuracy of near-threshold discrimination responses.</span> <span class='so'>Conscious. Cogn., 10, 294-340 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11697867" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/01_04.html" target="_blank">1.4 Prokaryotes and Eukaryotes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/19_04.html" target="_blank">19.4 Cell Differentiation and Stem Cells</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/21_02.html" target="_blank">21.2 Immune cells and structure</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_01.html" target="_blank">20.1 Sensation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/22_06.html" target="_blank">22.6 Formation of Leaves</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">小村  豊（Komura Yutaka）</span><br>略歴：2002年 東京大学大学院医学系研究科博士課程 修了，科学技術振興機構 さきがけ研究者を経て，2010年より産業技術総合研究所ヒューマンライフテクノロジー研究部門 主任研究員．<br>研究テーマ：主観の世界を神経科学と計算論手法により解き明かすこと．<br>抱負：日本発，世界初という研究スタイルを基本にしているが，共感しあえる世界中の仲間と，史上初という研究方向にも発展させたい．<br></div><br>© 2013 小村  豊 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

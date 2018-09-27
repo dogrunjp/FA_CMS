@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> リベロマイシンAにおけるスピロアセタール構造の形成機構の解明 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/3009" rel="bookmark">リベロマイシンAにおけるスピロアセタール構造の形成機構の解明</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>高橋俊二・長田裕之</strong><br>（理化学研究所基幹研究所 ケミカルバイオロジー研究基盤施設）<br>email：<a href="mailto:shunjitaka@riken.jp">高橋俊二</a>，<a href="mailto:hisyo@riken.jp">長田裕之</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.099">10.7875/first.author.2011.099</a><br><div class="reference"><br><span class="ti">Reveromycin A biosynthesis uses RevG and RevJ for stereospecific spiroacetal formation.</span><br><span class="au">Shunji Takahashi, Atsushi Toyoda, Yasuyo Sekiyama, Hiroshi Takagi, Toshihiko Nogawa, Masakazu Uramoto, Ryuichiro Suzuki, Hiroyuki Koshino, Takuto Kumano, Suresh Panthee, Tohru Dairi, Jun Ishikawa, Haruo Ikeda, Yoshiyuki Sakaki, Hiroyuki Osada</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21642985" target="_blank"><em>Nature Chemical Biology</em>, <strong>7</strong>, 461-481 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno スピロ">スピロ</a><a href="#" class="anno アセタール">アセタール</a><a href="#" class="anno 化合物">化合物</a>は<a href="#" class="anno 自然界">自然界</a>に広く存在し，その立体<a href="#" class="anno 特異的">特異的</a>な構造による広範囲の<a href="#" class="anno 薬理活性">薬理活性</a>が知られている．<a href="#" class="anno 立体特異的">立体特異的</a>なスピロアセタール構造の<a href="#" class="anno 生合成">生合成</a>機構を解明することは<a href="#" class="anno 化学合成">化学合成</a>が困難な化合物の<a href="#" class="anno 効率的">効率的</a>な生産につながる．筆者らは，<a href="#" class="anno 破<a href="#" class="anno 骨細胞">骨細胞</a>">破骨細胞</a>に<a href="#" class="anno 選択的">選択的</a>に<a href="#" class="anno アポトーシス">アポトーシス</a>を誘導することで，<a href="#" class="anno 骨吸収">骨吸収</a>の<a href="#" class="anno 抑制活性">抑制活性</a>やがんの<a href="#" class="anno 骨転移">骨転移</a>の抑制活性を<a href="#" class="anno も">も</a>つスピロアセタール化合物リベロマイシンAの生合成<a href="#" class="anno 遺伝子<a href="#" class="anno ク<a href="#" class="anno ラスター">ラスター</a>">クラスター</a>">遺伝子クラスター</a>の同定に成功した．遺伝子およびタンパク質の機能を詳細に解析した結果，長いあいだ非<a href="#" class="anno 酵素的">酵素的</a>に進行すると考えられてきた脱水<a href="#" class="anno 環化">環化</a>による立体特異的なスピロアセタール構造の形成には，ジ<a href="#" class="anno ヒドロキシ">ヒドロキシ</a><a href="#" class="anno <a href="#" class="anno ケト">ケト</a>ン">ケトン</a><a href="#" class="anno 合成酵素">合成酵素</a>とスピロアセタール合成酵素が関与していることを見い<a href="#" class="anno 出し">出し</a>た．<br/><br/><h2>はじめに</h2><br/>　微生物は<a href="#" class="anno 臨床的">臨床的</a>に重要な薬剤として使われるさまざまな<a href="#" class="anno ポリケチド">ポリケチド</a>化合物（<a href="#" class="anno エリスロマイシン">エリスロマイシン</a>，エポチロン，<a href="#" class="anno ラパマイシン">ラパマイシン</a>，ロバスタチンなど）を生産する．ポリケチド化合物の構造の<a href="#" class="anno 多様化">多様化</a>にかかわる<a href="#" class="anno 酵<a href="#" class="anno 素反応">素反応</a>">酵素反応</a>を解明することは，新しい薬剤の開発に必要な生合成の理論構築につながる．筆者らは，細菌，渦<a href="#" class="anno 鞭毛">鞭毛</a>藻，海綿動物から広く見い出されているポリケチド化合物のなかで，さまざまな<a href="#" class="anno 生理活性">生理活性</a>（<a href="#" class="anno イオノホア">イオノホア</a>，プロテイン<a href="#" class="anno ホスファターゼ">ホスファターゼ</a>阻害，駆虫作用，<a href="#" class="anno 抗菌作用">抗菌作用</a>など）をもつことで知られ立体特異的な構造の形成機構に不明な点の多いスピロアセタール化合物に着目した．<br/>　1991年，<a href="#" class="anno がん細胞">がん細胞</a>の増殖を阻害する物質として<a href="#" class="anno 放線菌">放線菌</a>（<em>S<a href="#" class="anno tre">tre</a><a href="#" class="anno pto">pto</a>myces</em> sp. SN-593）からリベロマイシンAが見い出された<a href="#R1"><sup>1)</sup></a>．リベロマイシンAの<a href="#" class="anno 細胞内">細胞内</a>での標的は<a href="#" class="anno イソ">イソ</a>ロイシルt<a href="#" class="anno <a href="#" class="anno RNA合成">RNA合成</a>酵素">RNA合成酵素</a>であり<a href="#R2"><sup>2)</sup></a>，破骨細胞に選択的にアポトーシスを誘導<a href="#" class="anno し骨">し骨</a>吸収を阻害する活性をもつ<a href="#R3"><sup>3)</sup></a>．破骨細胞に選択的に作用することで肺がんや<a href="#" class="anno 前立<a href="#" class="anno 腺がん">腺がん</a>">前立腺がん</a>により誘導される骨転移を阻害することも明らかになっている<a href="#R4"><sup>4,5)</sup></a>．リベロマイシンAのスピロアセタール<a href="#" class="anno 立体構造">立体構造</a>の構築は難題であったが有機<a href="#" class="anno 化学者">化学者</a>を魅了し，<a href="#" class="anno 多段階">多段階</a>のステップをへて<a href="#" class="anno 有機合成">有機合成</a>が達成された<a href="#R6"><sup>6)</sup></a>．一方，生合成に関しては酵素や不安定な<a href="#" class="anno 生合成<a href="#" class="anno 中間体">中間体</a>">生合成中間体</a>の同定が困難であったことから知見がなかった．立体特異的なスピロアセタール構造は生理活性に重要であることから，その遺伝子クラスターを同定し生合成機構を解明することは効率的な化合物の創製手法に道を開くものと考えられている．<br/>　もっとも研究の進んでいるポリエーテル化合物であるモネンシンAはスピロアセタール構造をもち<a href="#" class="anno エポキシド">エポキシド</a>-ケトン中間体を経由する<a href="#" class="anno 環化反応">環化反応</a>が知られている．トウトマイシンおよびエバーメクチンの生合成では脱水によるスピロアセタール構造の環化機構が予想されている．これらの環化反応は<a href="#" class="anno 生<a href="#" class="anno 合成遺伝子">合成遺伝子</a>">生合成遺伝子</a>クラスターが同定されているにもかかわらず環化にかかわる遺伝子が見い出されてい<a href="#" class="anno ないこと">ないこと</a>から，反応は<a href="#" class="anno 非酵素的">非酵素的</a>に進行すると考えられてきた．一方，スピランジエンAの生合成においては環化反応の過程にP450の関与が予想されているが，詳細な機構は明らかにされていない．また，リベロマイシンAの環化機構については知見がまったく存在しない．このように，広範な解析にもかかわらず脱水環化によるスピロアセタール構造の形成にかかわる<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>な機構はまったく証明されていなかった．そこで，筆者らは，これらの問題に答えるため，化学的，分子<a href="#" class="anno <a href="#" class="anno 生物学">生物学</a>的">生物学的</a>，生化学的な手法を用いてリベロマイシンAの生合成機構を<a href="#" class="anno 包括的">包括的</a>に解析した．<br/><br/><h2>1．生合成遺伝子クラスターの同定</h2><br/>　放線菌<a href="#" class="anno 2次<a href="#" class="anno 代謝産物">代謝産物</a>">2次代謝産物</a>の生合成遺伝子はクラスターを形成している．遺伝子クラスターを<a href="#" class="anno クローニング">クローニング</a>するには，<a href="#" class="anno 特徴的">特徴的</a>な<a href="#" class="anno 化学構造">化学構造</a>の形成に必須の遺伝子を<a href="#" class="anno プローブ">プローブ</a>として<a href="#" class="anno ハイブリダイゼーション">ハイブリダイゼーション</a>により類似遺伝子を検出する手法が<a href="#" class="anno 一般的">一般的</a>である．リベロマイシンA（<a href="#F1">図1</a>）の場合，スピロアセタール構造の形成や<a href="#" class="anno サクシニル">サクシニル</a>基の転移にかかわる遺伝子が不明であり，関与が容易に予想できるP450および<a href="#" class="anno ポリケチド合成酵素">ポリケチド合成酵素</a>は放線菌のゲノムに<a href="#" class="anno <a href="#" class="anno <a href="#" class="anno 相">相</a>同">相同</a>性">相同性</a>の高い遺伝子が多数存在するため，特異的な<a href="#" class="anno DNAプローブ">DNAプローブ</a>を<a href="#" class="anno デ">デ</a>ザインすることが困難であった．そこで，高生産<a href="#" class="anno 培地">培地</a>を開発しリベロマイシン生合成遺伝子を選択的に増幅する手法を考えた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　リベロマイシンAの生合成経路</strong><br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2011/06/Osada-Nature-Chemical-Biology-11.6.17-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　リベロマイシンAの生合成経路" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Osada-Nature-Chemical-Biology-11.6.17-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Osada-Nature-Chemical-Biology-11.6.17-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　通常，<em><a href="#" class="anno Streptomyces">Streptomyces</a></em> sp. SN-593によるリベロマイシンの<a href="#" class="anno 生産量">生産量</a>は少ないが，長年，検討されてきた<a href="#" class="anno 培養液">培養液</a>にトマトエキスをくわえると<a href="#" class="anno 生産性">生産性</a>が<a href="#" class="anno 飛躍的">飛躍的</a>に向上する．そこで，生産培地と非生産培地での<a href="#" class="anno 遺伝子発現">遺伝子発現</a>の差を利用すれば，リベロマイシンを生産するときに特異的に発現するポリケチド<a href="#" class="anno 合成<a href="#" class="anno 酵素遺伝子">酵素遺伝子</a>">合成酵素遺伝子</a>の同定が可能である．RT-<a href="#" class="anno PCR">PCR</a>法により特異的に発現が増大する遺伝子を選別し，さらに，これをプローブとしてホスミドライブラリーから遺伝子の再探索を行った．この研究では同時に<em>Streptomyces</em>. sp. SN-593の<a href="#" class="anno ゲノム配列">ゲノム配列</a>のド<a href="#" class="anno ラフト">ラフト</a>解析も行ったが，ポリケチド合成酵素の<a href="#" class="anno 遺伝子配列">遺伝子配列</a>の連結が困難であることから，<a href="#" class="anno 発現遺伝子">発現遺伝子</a>の情報とホスミド<a href="#" class="anno クローン">クローン</a>の情報とを統合することで遺伝子配列を確定する必要があった．以上の結果，リベロマイシン生合成にかかわるポリケチド合成酵素<a href="#" class="anno 遺伝子群">遺伝子群</a><em><a href="#" class="anno revA">revA</a></em>，<em>revB</em>，<em>revC</em>，<em>revD</em>と，その近傍に存在する<a href="#" class="anno 制御遺伝子">制御遺伝子</a>や<a href="#" class="anno 修飾酵素">修飾酵素</a>遺伝子を含む約91 kbにおよぶ遺伝子クラスターを見い出すことに成功した．<br/><br/><h2>2．<a href="#" class="anno 遺伝子破壊">遺伝子破壊</a>による生合成中間体の同定</h2><br/>　<a href="#" class="anno I型">I型</a>ポリケチド合成酵素はケト<a href="#" class="anno シンターゼ">シンターゼ</a>，アシル<a href="#" class="anno トランスフェラーゼ">トランスフェラーゼ</a>，<a href="#" class="anno アシルキャリアータンパク質">アシルキャリアータンパク質</a>の<a href="#" class="anno 基本構造">基本構造</a>にくわえ，ケト<a href="#" class="anno レダクターゼ">レダクターゼ</a>，デヒドラターゼ，<a href="#" class="anno エノイル">エノイル</a>レダクターゼのそれぞれの<a href="#" class="anno ドメイン構成">ドメイン構成</a>にしたがい正確に還元や脱水をうけた炭素鎖が伸長して生合成されることが知られている．<a href="#" class="anno Rev">Rev</a>A，RevB，RevC，RevDの<a href="#" class="anno 機能ドメイン">機能ドメイン</a>を詳細に解析したところリベロマイシンAの炭素骨格の構成とほぼ一致していたが，<a href="#" class="anno 最終的">最終的</a>な生合成産物の構造には認められない余分な<a href="#" class="anno プロピオン酸">プロピオン酸</a>ユニットの付加したスピロアセタール環化<a href="#" class="anno 前駆体">前駆体</a>の存在が予想できた．<br/>　ポリケチド合成酵素のドメイン構成から推測されたこの前駆体が生合成の過程において<a href="#" class="anno 実際">実際</a>に存在するかどうかを検証するため，<a href="#" class="anno 野生株">野生株</a>の生産するリベロマイシン<a href="#" class="anno 類縁体">類縁体</a>を<a href="#" class="anno 系統的">系統的</a>に分離および精製したところ，予想された余分なプロピオン酸ユニットを含む環化前駆体リベロマイシンA1aを見い出すことができた（<a href="#F1">図1</a>）．一方，得られた中間体が生合成の真の中間体であるかどうかを検証することは重要であり，ポリケチド骨格を生合成することのできないようポリケチド合成酵素遺伝子を破壊した株を作製し，この<a href="#" class="anno 破壊株">破壊株</a>にリベロマイシンA1aを添加するとリベロマイシンAの生産が回復することにより生合成中間体であることを証明した．リベロマイシンA1aはスピロアセタール構造の形成機構を生化学的に解明するための重要な基質として利用した．<br/><br/><h2>3．スピロアセタール環の形成にかかわる酵素の発見</h2><br/>　リベロマイシンA1aの同定により，スピロアセタール構造の形成が<a href="#" class="anno C1">C1</a>1,15,19トリオール構造からの脱水環化反応であることが予想されたが，確証を得るため，[1-<sup>13</sup>C,<sup>18</sup>O]酢酸および[1-<sup>13</sup>C,<sup>18</sup>O]プロピオン酸の取り込みののちN<a href="#" class="anno MR">MR</a>解析を行うことでC-O結合の起源を追跡した．その結果，リベロマイシンの生合成はエポキシド-ケトン経由ではなく<a href="#" class="anno ジヒドロ">ジヒドロ</a>キシケトンを経由する脱水環化機構であることが証明された．<br/>　スピロアセタール環の形成にかかわる遺伝子を同定するためには遺伝子破壊により生<a href="#" class="anno 合成経路">合成経路</a>を遮断し蓄積する代謝産物を解析することが重要である．そこで，生合成クラスターにおいて<a href="#" class="anno <a href="#" class="anno 脱水素">脱水素</a>酵素">脱水素酵素</a>と機能<a href="#" class="anno アノテーション">アノテーション</a>されるRevGの遺伝子破壊を行った．<em>revG</em>破壊株ではポリケチド合成酵素の構造から予測されたとおりリベロマイシンA1aを蓄積したことから，RevGがリベロマイシンA1aを基質として脱水素反応を行うことが強く示唆された．RevGを精製し酵素変換産物を解析したところ，<a href="#" class="anno 補酵素">補酵素</a><a href="#" class="anno NAD">NAD</a><sup>+</sup>の<a href="#" class="anno 存在下">存在下</a>で<a href="#" class="anno ジヒドロキシ">ジヒドロキシ</a>ケトンを生成することが判明した．このRevG<a href="#" class="anno 反応産物">反応産物</a>は<a href="#" class="anno 弱酸性">弱酸性</a>の培地において非酵素的に環化が進行し15<em>S</em>および15<em>R</em>と立体構造の異なるスピロアセタール化合物を3：2の割合で生成した（<a href="#F2">図2</a>）．一方，リベロマイシン生産菌は15<em>S</em>のスピロアセタール構造のみを立体特異的に生産することから，熱<a href="#" class="anno 力学的">力学的</a>に安定な構造に依存して非酵素的に環化が起こっているのではなくスピロアセタール<a href="#" class="anno 立体制御">立体制御</a>酵素が存在していることを予想し，生合成遺伝子クラスターに存在する機能不明遺伝子の破壊による解析を進めた．不安定なジヒドロキシケトン中間体を基質とするために立体制御酵素遺伝子の破壊株ではリベロマイシンAの生産量が減少すると予想し，遺伝子破壊による<a href="#" class="anno 表現型">表現型</a>が一致する<em>revJ</em>遺伝子を見い出した．立体特異的な環化反応を証明するためRevGおよびRevJを精製してリベロマイシンA1aを基質とする<a href="#" class="anno カ">カ</a>ップリング反応を解析した．弱<a href="#" class="anno 酸性条件">酸性条件</a>での非酵素的な環化を抑えるため反応産物の解析は弱アルカリ条件で行った．その結果，RevJが反応系に存在するときのみスピロアセタール環化反応が効率よく進行し，さらに，反応産物の立体構造はすべて15<em>S</em>であることを見い出した．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　RevGとRevJによるスピロアセタール環化反応</strong><br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2011/06/Osada-Nature-Chemical-Biology-11.6.17-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　RevGとRevJによるスピロアセタール環化反応" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Osada-Nature-Chemical-Biology-11.6.17-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Osada-Nature-Chemical-Biology-11.6.17-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　ジヒドロキシケトン合成酵素RevGとスピロアセタール合成酵素RevJの<a href="#" class="anno 相同性検索">相同性検索</a>の結果，近年，公開されたスピロファンジンA <a href="#R7"><sup>7)</sup></a> 生産菌のゲノムのドラフト配列から，ともに80％以上の相同性を示す遺伝子が近接して存在する遺伝子クラスターの存在が明らかになった．スピロファンジンAはリベロマイシンAと同様のスピロアセタール構造をもつことから，共通の環化機構の存在が推測された．RevJは<a href="#" class="anno Tyr">Tyr</a>-Val-Thr-Asnの4<a href="#" class="anno <a href="#" class="anno アミノ">アミノ</a>酸<a href="#" class="anno 残基">残基</a>">アミノ酸残基</a>が7回くり返す配列を含むが，RevJと45％以上の相同性をもつ配列が<a href="#" class="anno 古細菌">古細菌</a>の<a href="#" class="anno 細胞表面">細胞表面</a>タンパク質に見い出されている<a href="#R8"><sup>8)</sup></a>．このタンパク質の<a href="#" class="anno 生理機能">生理機能</a>は不明であるが，<a href="#" class="anno 結晶構造">結晶構造</a>解析からβプロペラ<a href="#" class="anno ドメイン構造">ドメイン構造</a>をもつことが明らかになっている<a href="#R9"><sup>9)</sup></a>．RevJも同様な立体構造をもつと考えられるが，<a href="#" class="anno 結晶解析">結晶解析</a>によるスピロアセタールの立体構造の<a href="#" class="anno 制御機構">制御機構</a>の解明は今後の研究の進展の鍵である．<br/><br/><h2>おわりに</h2><br/>　これまでに，脱水環化反応によるスピロアセタール構造の形成は非酵素的に進行すると考えられてきたが，立体特異的なスピロアセタール構造の形成にかかわる2つの酵素，ジヒドロキシケトン合成酵素とスピロアセタール合成酵素が明らかになった．放線菌は多段階の化学合成により誘導する必要のある化合物を，安定なトリオール体を基質として環化前駆体をつくったのち，立体特異的なスピロアセタール化合物を選択的に生産できる．生物の遺伝子探索から解明された効率的な生合成機構を用いることにより，<a href="#" class="anno 生命科学">生命科学</a>および医薬の分野に貢献する新たな<a href="#" class="anno 生理<a href="#" class="anno 活性化">活性化</a>合物">生理活性化合物</a>の創製研究の進展が期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Osada, H., Koshino, H., Isono, K. et al.</span>: <span class="ti">Reveromycin A, a new antibiotic which inhibits the mitogenic activity of epidermal growth factor.</span> <span class='so'>J. Antibiot., 44, 259-261 (1991)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2010365" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Cui, Z., Hirata, D., Tsuchiya, E. et al.</span>: <span class="ti">The multidrug resistance-associated protein (MRP) subfamily (Yrs1/Yor1) of <em>Saccharomyces cerevisiae</em> is important for the tolerance to a broad range of organic anions.</span> <span class='so'>J. Biol. Chem., 271, 14712-14716 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8663018" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Woo, J. T., Kawatani, M., Kato, M. et al.</span>: <span class="ti">Reveromycin A, an agent for osteoporosis, inhibits bone resorption by inducing apoptosis specifically in osteoclasts.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 103, 4729-4734 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16537392" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Muguruma, H., Yano, S., Kakiuchi, S. et al.</span>: <span class="ti">Reveromycin A inhibits osteolytic bone metastasis of small-cell lung cancer cells, SBC-5, through an antiosteoclastic activity.</span> <span class='so'>Clin. Cancer Res., 11, 8822-8828 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16361571" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Yano, A., Tsutsumi, S., Soga, S. et al.</span>: <span class="ti">Inhibition of Hsp90 activates osteoclast c-Src signaling and promotes growth of prostate carcinoma cells in bone.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 105, 15541-15546 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18840695" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Shimizu, T., Masuda, T., Hiramoto, K. et al.</span>: <span class="ti">Total synthesis of reveromycin A.</span> <span class='so'>Org. Lett., 2, 2153-2156 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10891254" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Holtzel, A., Kempter, C., Metzger, J. W. et al.</span>: <span class="ti">Spirofungin, a new antifungal antibiotic from <em>Streptomyces violaceusniger</em> Tu 4113.</span> <span class='so'>J. Antibiot., 51, 699-707 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9766461" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Mayerhofer, L.E., Conway de Macario, E., Yao, R. et al.</span>: <span class="ti">Structure, organization, and expression of genes coding for envelope components in the archaeon <em>Methanosarcina mazei</em> S-6.</span> <span class='so'>Arch. Microbiol., 169, 339-345 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9531635" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Jing, H., Takagi, J., Liu, J. H. et al.</span>: <span class="ti">Archaeal surface layer proteins contain βpropeller, PKD, and β helix domains and are related to metazoan cell surface proteins.</span> <span class='so'>Structure, 10, 1453-1464 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12377130" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/04_05.html" target="_blank">4.5 Basic Properties of Enzymes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_04.html" target="_blank">12.4 Protein Transport in Prokaryotic Cells</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_02.html" target="_blank">11.2 Characteristic Structures in Prokaryotes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/04_01.html" target="_blank">4.1 Enzyme Sets Determine the Organism’s Way of Life</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/24_02.html" target="_blank">24.2 Molecular Biology</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">高橋 俊二（Shunji Takahashi）</span><br>略歴：1997年 千葉大学大学院自然科学研究科博士課程 修了，同年 東京大学分子細胞生物学研究所 研究員，1998年 千葉大学大学院医学研究院 助手，2002年 米国Kentucky大学 博士研究員，2005年 理化学研究所長田抗生物質研究室 協力研究員を経て，2009年より理化学研究所基幹研究所 専任研究員．<br>研究テーマ：リベロマイシンの生合成機構．<br>関心事：放線菌の生合成遺伝子の活性化による新規2次代謝産物の生産．<br><br><strong>長田 裕之（Hiroyuki Osada）</strong><br>理化学研究所基幹研究所 施設長．<br>研究室URL：<a href="http://cbcore.riken.jp/ja.html" target="_blank">http://cbcore.riken.jp/ja.html</a><br></div><br>© 2011 高橋俊二・長田裕之 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

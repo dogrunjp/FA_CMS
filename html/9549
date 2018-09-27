@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 腸内細菌科細菌のもつLonプロテアーゼのレドックススイッチ : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/9549" rel="bookmark">腸内細菌科細菌のもつLonプロテアーゼのレドックススイッチ</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>西井 亘・横山茂之</strong><br>（理化学研究所 横山構造生物学研究室）<br>email：<a href="mailto:wataru.nishii@riken.jp">西井 亘</a>，<a href="mailto:yokoyama@riken.jp">横山茂之</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.152">10.7875/first.author.2014.152</a><br><div class="reference"><br><span class="ti">A redox switch shapes the Lon protease exit pore to facultatively regulate proteolysis.</span><br><span class="au">Wataru Nishii, Mutsuko Kukimoto-Niino, Takaho Terada, Mikako Shirouzu, Tomonari Muramatsu, Masaki Kojima, Hiroshi Kihara, Shigeyuki Yokoyama</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25383757" target="_blank"><em>Nature Chemical Biology</em>, <strong>11</strong>, 46-51 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　細菌<a href="#" class="anno 感染症">感染症</a>の主要な原因である<a href="#" class="anno <a href="#" class="anno 腸内">腸内</a>細菌">腸内細菌</a>科の細菌は通性<a href="#" class="anno 嫌気性">嫌気性</a>を<a href="#" class="anno も">も</a>ち，<a href="#" class="anno 嫌気的">嫌気的</a>な環境である宿主の腸内および<a href="#" class="anno 好気">好気</a>的な環境である体外のいずれにおいても生育することができる．宿主の腸内および体外において，細胞に生じる異常なタンパク質を分解するのはおもにLon<a href="#" class="anno プロテアーゼ">プロテアーゼ</a>である．興味深いことに，<a href="#" class="anno 腸内細菌科">腸内細菌科</a>細菌のもつ<a href="#" class="anno Lonプロテアーゼ">Lonプロテアーゼ</a>には保存された2つの<a href="#" class="anno Cys">Cys</a>が存在し，<a href="#" class="anno ジ<a href="#" class="anno スルフィド">スルフィド</a>">ジスルフィド</a>結合を形成することが知られている．筆者らは，この研究において，これらのCysが<a href="#" class="anno 可逆的">可逆的</a>な<a href="#" class="anno ジスルフィド結合">ジスルフィド結合</a>の形成および解離を介してLonプロテアーゼの活性を制御する“<a href="#" class="anno レドックス">レドックス</a>スイッチ”であることを発見した．すなわち，ジスルフィド結合の解離した<a href="#" class="anno 還元型">還元型</a>Lonプロテアーゼにおいては，<a href="#" class="anno 分解産物">分解産物</a>である<a href="#" class="anno ペプチド">ペプチド</a>を放出する出口がせまくなり活性は約20％に低下した．一方，ジスルフィド結合の形成された<a href="#" class="anno 酸化型">酸化型</a>Lonプロテアーゼにおいては，分解産物の放出される出口は広くなり活性は回復した．このレドックスイッチは宿主の腸内と体外との中間の<a href="#" class="anno 酸化還元">酸化還元</a>環境において作用し，細胞に存在する異常なタンパク質の分解レベルをそれぞれの環境に<a href="#" class="anno 最適化">最適化</a>していた．<br/><br/><h2>はじめに</h2><br/>　<a href="#" class="anno AAA">AAA</a>+プロテアーゼは<a href="#" class="anno 生合成">生合成</a>の誤りや<a href="#" class="anno 細胞外">細胞外</a>からのストレスにより生じる異常なタンパク質の分解をとおして細胞におけるタンパク質の<a href="#" class="anno 品質管理">品質管理</a>に貢献する<a href="#R1"><sup>1)</sup></a>．細菌における主要なAAA+プロテアーゼはLonプロテアーゼであり，細胞に生じた異常なタンパク質の約50％を分解している<a href="#R2"><sup>2)</sup></a>．Lonプロテアーゼの活性は諸刃の剣であり，細胞を防衛するうえできわめて重要である一方，過剰に発現した場合には細胞に<a href="#" class="anno 致命的">致命的</a>な損傷をあたえる<a href="#R3"><sup>3)</sup></a>．したがって，異常なタンパク質の量に応じて適切に制御されなければならない．<br/>　Lonプロテアーゼの<a href="#" class="anno 1次構造">1次構造</a>は<a href="#" class="anno N末端">N末端</a>ドメイン，<a href="#" class="anno A<a href="#" class="anno TP">TP</a><a href="#" class="anno ase">ase</a>">ATPase</a>ドメイン，プロテアーゼドメインからなり，リング状に<a href="#" class="anno 六量体">六量体</a>化するATPaseドメインからなるリングとプロテアーゼドメインからなるリングが<a href="#" class="anno 分子内">分子内</a><a href="#" class="anno チャンバー">チャンバー</a>を形成する．基質となるタンパク質はATPaseドメインからなるリングの入口から取り込まれ，分子内チャンバーにおいて約10<a href="#" class="anno 残基">残基</a>のペプチドにまで分解され，プロテアーゼドメインからなるリングの出口から放出される．興味深いことに，大腸菌のLonプロテアーゼの<a href="#" class="anno 結晶構造">結晶構造</a>において，Cys617とCys691とのあいだに分子内ジスルフィド結合の形成されることが知られている<a href="#R4"><sup>4)</sup></a>．Lonプロテアーゼは<a href="#" class="anno 細胞質">細胞質</a>に局在するが，細胞質は強い<a href="#" class="anno 還元的">還元的</a>な環境であるので，一般に，ジスルフィド結合は安定には形成されない．これらのCysは腸内細菌科（En<a href="#" class="anno ter">ter</a>obacteri<a href="#" class="anno ace">ace</a>ae）の細菌において<a href="#" class="anno 特徴的">特徴的</a>に保存され，ほかの<a href="#" class="anno 生物種">生物種</a>においてはみられない．<br/>　腸内細菌科は大腸菌，クレブシエラ菌，サルモネラ菌，<a href="#" class="anno 赤痢菌">赤痢菌</a>，セラチア菌，ペスト菌などからなり，通常は無害な腸内<a href="#" class="anno 共生細菌">共生細菌</a>として存在する一方，<a href="#" class="anno 細菌感染">細菌感染</a>症のじつに半数をひき起こす，もっとも頻繁に遭遇する<a href="#" class="anno 病原細菌">病原細菌</a>でもある<a href="#R5"><sup>5)</sup></a>．このことは，腸内細菌科細菌が嫌気的な環境である宿主の腸内と<a href="#" class="anno 好気的">好気的</a>な環境である体外のいずれにおいても強健に生育する通性<a href="#" class="anno 嫌気性細菌">嫌気性細菌</a>であることに由来すると考えられる．<a href="#" class="anno 実際">実際</a>，宿主の腸内の嫌気的な環境でしか生育できない<a href="#" class="anno 偏性">偏性</a>嫌気性細菌は，腸内<a href="#" class="anno フローラ">フローラ</a>の99％以上をしめるにもかかわらず<a href="#" class="anno 感染性">感染性</a>はほとんどない．したがって，腸内細菌科細菌が宿主の腸内あるいは体外の環境の違いに適応する機構を知ることは非常に重要である．<br/>　宿主の腸内の嫌気的な環境では<a href="#" class="anno タンパク質の生合成">タンパク質の生合成</a>量は少なく，さらに，酸化などにより損傷をうけることも少ないため，細胞における異常なタンパク質の生成は低いレベルにある．一方，体外の好気的な環境ではタンパク質の生合成量は多く，合成されたタンパク質はつねに<a href="#" class="anno 酸化ストレス">酸化ストレス</a>にさらされる．したがって，異常なタンパク質の生成は高いレベルにある．細菌の細胞において異常なタンパク質を分解するのはおもにLonプロテアーゼであるので，腸内細菌科細菌は宿主の腸内と体外の2つの環境のあいだの違いに対応してLonプロテアーゼの活性を制御する必要がある．しかし，その<a href="#" class="anno 分子機構">分子機構</a>はこれまで謎であった．筆者らは，この謎を解く鍵が腸内細菌科細菌のLonプロテアーゼに固有のジスルフィド結合にあるのではないかと考え，研究をスタートした．<br/><br/><h2>1．ジスルフィド結合の形成および解離にともなう出口の<a href="#" class="anno 大きさ">大きさ</a>の変化</h2><br/>　すでに，Cys617とCys691とのあいだにジスルフィド結合をもつLonプロテアーゼのプロテアーゼドメインからなるリングの構造は報告されている<a href="#R4"><sup>4)</sup></a>（PDB ID：<a href="http://service.pdbj.org/mine/Det<a href="#" class="anno ail">ail</a>2?PDBID=1rr9&amp;PAGEID=Summary" target="_blank">1RR9</a>）．この研究では新たに，この“酸化型”のプロテアーゼドメインのリングに対し，ジスルフィド結合をもたない“還元型”のプロテアーゼドメインのリングの結晶構造を決定した（PDB ID：<a href="http://service.pdbj.org/mine/De<a href="#" class="anno tail">tail</a>2?PDBID=3wu3&amp;PAGEID=Summary" target="_blank">3WU3</a>，<a href="#F1">図1</a>）．この2つの全体の構造はよく似ており，また，結晶において酸化あるいは還元することにより互いに可逆的に変換した．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　酸化型および還元型のLonプロテアーゼにおける出口の付近の結晶構造</strong><br/>（a）酸化型Lonプロテアーゼ．<br/>（b）還元型Lonプロテアーゼ．<br/>レドックススイッチとしてはたらくCys617およびCys691の側鎖を黄色のスティックモデルで示す．出口を構成する2つの部位を，それぞれ，赤色および水色で示す．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yokoyama-Nature-Chemical-Biology-14.12.19-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　酸化型および還元型のLonプロテアーゼにおける出口の付近の結晶構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yokoyama-Nature-Chemical-Biology-14.12.19-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yokoyama-Nature-Chemical-Biology-14.12.19-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　唯一，酸化型と還元型とのあいだで異なっていたのは，分子内チャンバーから分解産物であるペプチドを放出する出口の大きさであった．すなわち，出口の<a href="#" class="anno 断面積">断面積</a>は，酸化型が230Å<sup>2</sup>，還元型が160Å<sup>2</sup>であった．出口を通過するペプチドは平均10残基であり<a href="#R6"><sup>6,7)</sup></a>，その推定の投影面積は150Å<sup>2</sup>であるので，酸化型と還元型とのあいだの出口の大きさの違いはペプチドの通過に大きく影響すると考えられた．<br/>　酸化型と還元型とのあいだの<a href="#" class="anno 構造変化">構造変化</a>は，ジスルフィド結合の形成および解離のひき起こす，きわめて精妙かつ簡潔なものであった．すなわち，Cys617とCys691とのあいだのジスルフィド結合が解離する際には，出口を構成する2つの部位の<a href="#" class="anno 主鎖">主鎖</a>が出口の中心にむかい移動する．同時に，Cys617の<a href="#" class="anno 側鎖">側鎖</a>が回転し，出口を構成する部位のいくつかの残基において側鎖の<a href="#" class="anno コンフォメーション">コンフォメーション</a>が変化する．これら主鎖および側鎖の動きが<a href="#" class="anno 協調的">協調的</a>に起こることにより出口がせまくなる．Cys617とCys691とがジスルフィド結合を形成する際の構造変化はこの逆になる．<br/><br/><h2>2．<em><a href="#" class="anno in vitro">in vitro</a></em>におけるLonプロテアーゼの活性の酸化還元による制御</h2><br/>　<em>in vitro</em>においてLonプロテアーゼによる異常なタンパク質の分解の活性を解析した．その結果，還元的な環境においてLonプロテアーゼの活性は<a href="#" class="anno 酸化的">酸化的</a>な環境の約20％にまで低下することを発見した．また，低下した活性は，さらに<a href="#" class="anno 酸化剤">酸化剤</a>により処理することで回復した．すなわち，この酸化還元に応じたLonプロテアーゼの活性の変化は，構造の変化と同様に可逆的であった．<br/>　<a href="#" class="anno 化学修飾">化学修飾</a>法および部位<a href="#" class="anno 特異的">特異的</a>な変異法により，この活性の変化はCys617およびCys691の酸化還元によることが確かめられた．さらに，分子内チャンバーから分解産物を放出する出口の表面を構成する<a href="#" class="anno Lys">Lys</a>621およびLys623のAlaへの<a href="#" class="anno 二重">二重</a><a href="#" class="anno 変異体">変異体</a>の解析，および，ストップトフロー法による前<a href="#" class="anno 定常状態">定常状態</a>における<a href="#" class="anno 酵<a href="#" class="anno 素反応">素反応</a>">酵素反応</a>の解析から，活性の変化は出口の大きさの変化によることが確かめられた．したがって，Cys617およびCys691は可逆的なジスルフィド結合の形成および解離をとおして出口の大きさを変更し，そのことによりLonプロテアーゼの活性を制御する“レドックススイッチ”であるといえた．<br/>　Lonプロテアーゼの活性が中点となる標準状態における<a href="#" class="anno 酸化還元電位">酸化還元電位</a>は-227 mVと決定された．細胞質における酸化還元電位は，<a href="#" class="anno 休止状態">休止状態</a>では-280～-250 mVであり，<a href="#" class="anno 高濃度">高濃度</a>の<a href="#" class="anno 活性酸素">活性酸素</a>などによる特殊な酸化ストレス環境においては-150 mV程度にまで上昇するとされる<a href="#R8"><sup>8)</sup></a>．一方，宿主の腸内は酸化還元電位が-300～-200 mVの嫌気的な環境であり<a href="#R9"><sup>9)</sup></a>，体外の好気的な環境は酸化的ではあるが，通常は，特殊な酸化ストレス環境ほどではない．したがって，Lonプロテアーゼのレドックススイッチは宿主の腸内と体外のまさに中間の酸化還元環境において作用するよう，正確に<a href="#" class="anno デ">デ</a>ザインされていた．<br/><br/><h2>3．<em>in vivo</em>におけるレドックススイッチの機能の検証</h2><br/>　大腸菌においてLonプロテアーゼによる異常なタンパク質の分解の活性を解析した．その結果，好気的な環境においては，Lonプロテアーゼを発現する株では異常なタンパク質はほとんど蓄積せず，Lonプロテアーゼを欠損する株では蓄積した．一方，嫌気的な環境においては，Lonプロテアーゼを発現する株および欠損する株とも異常なタンパク質を蓄積した．すなわち，Lonプロテアーゼの活性は，<em>in vitro</em>と同様に，<em>in vivo</em>においても好気的な環境において高く嫌気的な環境において低かった．さらに，好気的な環境において，ジスルフィド結合を形成できない<a href="#" class="anno 変<a href="#" class="anno 異型">異型</a>">変異型</a>Lonプロテアーゼを発現する株による異常なタンパク質の分解の活性は，<a href="#" class="anno 野生型">野生型</a>のLonプロテアーゼを発現する株より低いことがわかった．以上の結果から，大腸菌においてレドックススイッチが実際に機能し，好気的な環境においてLonプロテアーゼを<a href="#" class="anno 高活性">高活性</a>の酸化型へとスイッチすることが確かめられた．<br/>　一方，好気的な環境において野生型のLonプロテアーゼを過剰に発現させると，変異型Lonプロテアーゼを過剰に発現させた場合と比べ，細胞の増殖がいちじるしく阻害されることがわかった．<a href="#" class="anno 対照的">対照的</a>に，野生型Lonプロテアーゼの<a href="#" class="anno 過剰発現">過剰発現</a>株は，変異型Lonプロテアーゼの過剰発現株より，紫外線の照射に対する細胞の<a href="#" class="anno 生存能">生存能</a>が顕著に上昇した．すなわち，好気的な環境において酸化型にスイッチしたLonプロテアーゼの活性は，細胞外からのストレスから細胞を強力に防御する一方，細胞それ自体を損傷させた．このような諸刃の剣ともいえる酸化型Lonプロテアーゼの活性は，高<a href="#" class="anno エネルギー生産">エネルギー生産</a>かつ高ストレスである体外の好気的な環境に最適である．反対に，低エネルギー生産かつ低ストレスである宿主の腸内においてLonプロテアーゼは還元型へとスイッチされる．<br/><br/><h2>おわりに</h2><br/>　以上の結果から，腸内細菌科の細菌のもつLonプロテアーゼに固有の2つのCysが，環境に応じてLonプロテアーゼの活性を制御するレドックススイッチであることが明らかにされた．このレドックススイッチは可逆的なジスルフィド結合の形成および解離を介し，分子内チャンバーから分解産物を放出する出口の大きさを変更する．その結果，細胞における異常なタンパク質の分解活性は，宿主の腸内の嫌気的な環境と体外の好気的な環境のそれぞれに応じて最適化される．<br/>　腸内細菌科細菌が高い感染性をもつことの基本にこのように単純明快な分子機構の存在することは驚くべきことであった．この発見は，生物の環境への適応の機構を理解するうえで重要であるとともに，<a href="#" class="anno 細菌感染症">細菌感染症</a>の対策において鍵になる<a href="#" class="anno 可能性">可能性</a>がある．腸内細菌科細菌による感染症はほぼすべての人類にかかわる重要な問題であり，そのなかには，たとえば，近年，急速に被害の広がりつつある<a href="#" class="anno カ">カ</a>ルバペネム耐性腸内細菌科細菌などによる，有効な<a href="#" class="anno 治療法">治療法</a>のない深刻な疾病も多く含まれる．この研究が，このような問題を解決あるいは改善する端緒になれば幸いである．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Sauer, R. T. & Baker, T. A.</span>: <span class="ti">AAA+ proteases: ATP-fueled machines of protein destruction.</span> <span class='so'>Annu. Rev. Biochem., 80, 587-612 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21469952" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Van Melderen, L. & Aertsen, A.</span>: <span class="ti">Regulation and quality control by Lon-dependent proteolysis.</span> <span class='so'>Res. Microbiol., 160, 645-651 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19772918" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Goff, S. A. & Goldberg, A. L.</span>: <span class="ti">An increased content of protease La, the <em>lon</em> gene product, increases protein degradation and blocks growth in <em>Escherichia coli</em>.</span> <span class='so'>J. Biol. Chem., 262, 4508-4515 (1987)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/3549709" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Botos, I., Melnikov, E. E., Cherry, S. et al.</span>: <span class="ti">The catalytic domain of <em>Escherichia coli</em> Lon protease has a unique fold and a Ser-Lys dyad in the active site.</span> <span class='so'>J. Biol. Chem., 279, 8140-8148 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14665623" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Versalovic, J.</span>: <span class="ti">Manual of Clinical Microbiology.</span> <span class='so'>ASM Press, Washington, D.C. (2011)</span></li><br><li id="R6"><span class='au'>Nishii, W., Maruyama, T., Matsuoka, R. et al.</span>: <span class="ti">The unique sites in SulA protein preferentially cleaved by ATP-dependent Lon protease from <em>Escherichia coli</em>.</span> <span class='so'>Eur. J. Biochem., 269, 451-457 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11856303" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Nishii, W., Suzuki, T., Nakada, M. et al.</span>: <span class="ti">Cleavage mechanism of ATP-dependent Lon protease toward ribosomal S2 protein.</span> <span class='so'>FEBS Lett., 579, 6846-6850 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16337203" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Ruddock, L. W. & Klappa, P.</span>: <span class="ti">Oxidative stress: protein folding with a novel redox switch.</span> <span class='so'>Curr. Biol., 9, R400-R402 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10359689" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Wilson, M.</span>: <span class="ti">Bacteriology of Humans: An Ecological Perspective.</span> <span class='so'>Wiley-Blackwell, Hoboken (2008)</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_02.html" target="_blank">11.2 Characteristic Structures in Prokaryotes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/01_08.html" target="_blank">1.8 Biodiversity and Microorganisms</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/23_01.html" target="_blank">23.1 Biosphere and Adaptation to the Environment</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/13_04.html" target="_blank">13.4 Regulation of Cell Proliferation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/05_01.html" target="_blank">5.1 The External Environment and Homeostasis of the Internal Environment</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">西井  亘（Wataru Nishii）</span><br>略歴：理化学研究所 研究員．<br>研究テーマ：細胞内プロテアーゼの機能と構造．<br>抱負：細胞においてタンパク質が最終的に分解される過程から逆算することにより，生命を理解したい．<br><br><strong>横山 茂之（Shigeyuki Yokoyama）</strong><br>理化学研究所 上席研究員．<br>研究室URL：<a href="http://sbl.riken.jp/" target="_blank">http://sbl.riken.jp/</a><br></div><br>© 2014 西井 亘・横山茂之 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

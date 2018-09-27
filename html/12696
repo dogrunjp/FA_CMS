@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> エンハンサーによる転写バーストの制御 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/12696" rel="bookmark">エンハンサーによる転写バーストの制御</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>深谷 雄志</strong><br>（米国Princeton大学Lewis-Sigler Institute for Integrative Genomics）<br>email：<a href="mailto:tfukaya0122@gmail.com">深谷雄志</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.068">10.7875/first.author.2016.068</a><br><div class="reference"><br><span class="ti">Enhancer control of transcriptional bursting.</span><br><span class="au">Takashi Fukaya, Bomyi Lim, Michael Levine</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27293191" target="_blank"><em>Cell</em>, <strong>166</strong>, 358-368 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　近年の研究により，転写は<a href="#" class="anno 連続的">連続的</a>ではなくオンとオフをくり返す不連続な反応であることが明らかにされた．この現象は転写バーストとよばれ，細菌から酵母，ショウジョウバエ，哺乳類にまで保存された<a href="#" class="anno 普遍的">普遍的</a>な現象であると考えられる．しかしその一方で，転写バーストの起こるしくみや<a href="#" class="anno <a href="#" class="anno 生物学">生物学</a>的">生物学的</a>な意義について理解は進んでいない．とくに，<a href="#" class="anno エンハンサー">エンハンサー</a>と転写バーストとの<a href="#" class="anno 関係性">関係性</a>については<a href="#" class="anno 未解明">未解明</a>であった．この研究において，ショウジョウバエの<a href="#" class="anno 初期胚">初期胚</a>を用いた<a href="#" class="anno 転写活性">転写活性</a>のライブ<a href="#" class="anno イメージング">イメージング</a>技術を駆使することにより，エンハンサーが転写バーストにおよぼす影響について<a href="#" class="anno 定量的">定量的</a>に解析した．その結果，エンハンサーは転写バーストの頻度を制御することにより遺伝子の<a href="#" class="anno 発現量">発現量</a>を規定することがわかった．<a href="#" class="anno つまり">つまり</a>，転写活性能の強いエンハンサーは弱いエンハンサーに比べ転写バーストを<a href="#" class="anno 高頻度">高頻度</a>でひき起こしており，その結果として，遺伝子の発現量が上昇した．また，単一のエンハンサーの制御下にある2つの異なる遺伝子の転写活性を同時に<a href="#" class="anno 可視化">可視化</a>する新たな<a href="#" class="anno ライブイメージング">ライブイメージング</a>技術を用いた解析により，エンハンサーとプロモーターとの<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>は，これまでに考えられてきたより<a href="#" class="anno も">も</a>，はるかにダイナミックで動的な過程であることが示唆された．<br/><br/><h2>はじめに</h2><br/>　いまから35年以上まえ，<a href="#" class="anno 電子顕微鏡">電子顕微鏡</a>を用いた解析により転写バーストの存在がはじめて示された<a href="#R1"><sup>1)</sup></a>．ショウジョウバエの初期胚において，新生されたRNAの集団が<a href="#" class="anno 鋳型DNA">鋳型DNA</a>のうえに不連続に分布するようすが観察されたのである．このことは，転写は連続的ではなくオンとオフをくり返す不連続な反応であることを示唆した．さらに，近年の定量的なイメージング解析により，転写バーストはショウジョウバエだけではなく，<a href="#" class="anno 生物種">生物種</a>のあいだで広く保存された普遍的な現象であることが明らかにされた<a href="#R2"><sup>2)</sup></a>．しかしその一方で，転写バーストの起こるしくみや生物学的な意義について理解は進んでいない．この研究においては，ショウジョウバエの初期胚を用いた転写活性のライブ<a href="#" class="anno イメージング技術">イメージング技術</a>を駆使することにより，転写の時<a href="#" class="anno 空間的">空間的</a>な<a href="#" class="anno 特異性">特異性</a>を制御するエンハンサーとよばれる非<a href="#" class="anno コード領域">コード領域</a>と転写バーストとの<a href="#" class="anno 関連性">関連性</a>について定量的に解析した．さらに，2つの異なる遺伝子の転写活性をリアルタイムで可視化する新たなライブイメージング技術を構築し，エンハンサーとプロモーターとの相互作用の動的な性質について検証した．<br/><br/><h2>1．転写バーストの可視化</h2><br/>　<a href="#" class="anno MS2">MS2</a><a href="#" class="anno ファージ">ファージ</a>に由来する<a href="#" class="anno コートタンパク質">コートタンパク質</a><a href="#" class="anno M<a href="#" class="anno CP">CP</a>">MCP</a>とRNA<a href="#" class="anno <a href="#" class="anno ステム">ステム</a>ループ">ステムループ</a>とのあいだの<a href="#" class="anno 特異的">特異的</a>なRNA-<a href="#" class="anno タンパク質相互作用">タンパク質相互作用</a>を利用することにより，転写活性を生きた細胞においてリアルタイムで可視化することが可能である．5’側<a href="#" class="anno 非<a href="#" class="anno 翻訳領域">翻訳領域</a>">非翻訳領域</a>に<a href="#" class="anno MS2ファージ">MS2ファージ</a>に由来するRNAステムループをコードする<a href="#" class="anno レポーター遺伝子">レポーター遺伝子</a>が転写されると，MCPと<a href="#" class="anno 蛍光タンパク質">蛍光タンパク質</a>との<a href="#" class="anno 融合タンパク質">融合タンパク質</a>が新生されたRNAへの結合を介して<a href="#" class="anno 局所的">局所的</a>に凝集し，結果として，核において転写活性に応じた<a href="#" class="anno 明るさ">明るさ</a>の輝点が生じる（<a href="#F1">図1</a>）．このMS2-MCP系を応用したショウジョウバエの初期胚における転写のライブイメージングは，2013年に報告された<a href="#R3"><sup>3,4)</sup></a>．この<a href="#" class="anno 実験系">実験系</a>を用いることにより，個体の発生の過程において転写がどのように制御されるのかをリアルタイムかつ1<a href="#" class="anno 細胞レベル">細胞レベル</a>で解析することが可能になった．さらに，ショウジョウバエの初期胚においては核が<a href="#" class="anno 同調的">同調的</a>な分<a href="#" class="anno 裂">裂</a>をくり返しながら胚の表面において一層に整列しており，1回のライブイメージング解析により<a href="#" class="anno 数百">数百</a>もの核において転写活性を同時に可視化できるという<a href="#" class="anno 培養細胞">培養細胞</a>にはない独自の利点があった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　ショウジョウバエの初期胚における転写活性のライブイメージング解析</strong><br/>転写がオンになりRNAが産生されると，5’側非翻訳領域に存在するステムループ構造にファージに由来するコートタンパク質であるMCPあるいはPCPが局所的に凝集し，融合している蛍光タンパク質により核において転写活性に応じた明るさの輝点が生じる．MCPはMS2ファージに由来するステムループ構造（MS2ステムループ），PCPはPP7ファージに由来するステムループ構造（PP7ステムループ）のみを特異的に認識する．この2つの系を組み合わせることにより，2つの異なる遺伝子の転写活性を単一の個体においてリアルタイムで解析することが可能になる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukaya-Cell-16.7.14-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　ショウジョウバエの初期胚における転写活性のライブイメージング解析" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukaya-Cell-16.7.14-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukaya-Cell-16.7.14-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　ここでは，<a href="#" class="anno 中胚葉">中胚葉</a>の<a href="#" class="anno 陥入">陥入</a>に必須の<a href="#" class="anno 転写因子">転写因子</a>をコードする<em>sn<a href="#" class="anno ail">ail</a></em>遺伝子を制御するプロモーターおよびエンハンサーをモ<a href="#" class="anno デ">デ</a>ルとした．<em><a href="#" class="anno snail">snail</a></em>遺伝子の中胚葉領域における発現を担うシャドウエンハンサーをレポーター遺伝子のもつプロモーターの1 kb上流あるいは7.5 kb下流に挿入し，その転写活性をライブイメージングにより比較した．その結果，エンハンサーがプロモーターの近傍に位置する場合には転写活性は連続的であったのに対し，遠くに位置する場合には転写活性はオン-オフをくり返しながらゆらいでいた．このことから，エンハンサーの位置が転写活性の<a href="#" class="anno ダイナミクス">ダイナミクス</a>に大きな影響をおよぼすことが示された．エンハンサーとプロモーターが近くに位置する場合には転写バーストが高頻度に起こるため，みかけ上，転写活性が連続的にオンになると考えられた．一方で，エンハンサーが遠くに位置する場合にはエンハンサーが近傍に位置する場合と比べ遺伝子の発現が低下し，結果として，個別の転写バーストが解像度よく検出されたと考えられた．そこで，7.5 kb下流にエンハンサーを挿入したレポーター遺伝子に着目し，より詳細な解析を進めた．なお，近年の<a href="#" class="anno ゲノムワイド">ゲノムワイド</a>な解析において，ショウジョウバエの初期胚においてはたらくエンハンサーとその標的となるプロモーターは平均して10 kbほど離れて存在すると見積もられている<a href="#R5"><sup>5)</sup></a>．<br/><br/><h2>2．エンハンサーによる転写バーストの制御</h2><br/>　<em>snail</em>遺伝子の中胚葉領域における発現は，シャドウエンハンサーだけでなく，遺伝子の近傍に位置する<a href="#" class="anno プライマリー">プライマリー</a>エンハンサーによっても制御される．これまでの研究により，シャドウエンハンサーとプライマリーエンハンサーは<a href="#" class="anno 同じ">同じ</a><a href="#" class="anno 発現パターン">発現パターン</a>を生じるものの，シャドウエンハンサーはプライマリーエンハンサーに比べ転写活性能の高いことが報告されている<a href="#R6"><sup>6,7)</sup></a>．この違いがどのような差により生じているのかを調べるため，シャドウエンハンサーに代えプライマリーエンハンサーをもつレポーター遺伝子を用いて解析した．その結果，プライマリーエンハンサーをもつ場合はシャドウエンハンサーをもつ場合に比べ転写バーストは<a href="#" class="anno 低頻度">低頻度</a>にしか起こら<a href="#" class="anno ないこと">ないこと</a>が明らかにされた．一方で，いちどの転写バーストごとに<a href="#" class="anno 産生">産生</a>されるRNAの量は同等であった．初期胚の発生の過程においてはたらくほかのエンハンサーを用いた解析からも，遺伝子の発現量と転写バーストの頻度との強い相関がみられた．このことから，エンハンサーは転写バーストの頻度を制御することにより発生における遺伝子の発現量を規定することが示唆された．<br/><br/><h2>3．エンハンサーとプロモーターとの相互作用と転写バースト</h2><br/>　複数の遺伝子が単一のエンハンサーの制御下にある場合，より近傍に位置するプロモーターがエンハンサーと優位に相互作用することにより<a href="#" class="anno 遠位">遠位</a>にあるプロモーターからの転写を抑制する，プロモーター競合とよばれる現象が知られている<a href="#R8"><sup>8)</sup></a>．プロモーター競合が転写バーストにおよぼす影響について解析するため，単一のエンハンサーにより制御される2つのレポーター遺伝子の転写活性を同時に可視化する新たなライブイメージング技術を構築した．ショウジョウバエの初期胚において，<a href="#" class="anno PP">PP</a>7ファージに由来するコートタンパク質<a href="#" class="anno PCP">PCP</a>とRNAステムループとの相互作用を利用することにより，2色目の蛍光タンパク質を介してレポーター遺伝子の転写活性を可視化する新たな技術を開発した（<a href="#F1">図1</a>）．つまり，MS2-MCP系と<a href="#" class="anno PP7">PP7</a>-PCP系とを組み合わせることにより，2つの異なる遺伝子の転写活性を単一のショウジョウバエの初期胚において可視化することが可能になった．<br/>　単一のシャドウエンハンサーを2つのレポーター遺伝子が<a href="#" class="anno 対称的">対称的</a>あるいは<a href="#" class="anno 非対称的">非対称的</a>にはさみ込むように配置し，ライブイメージングにより転写活性を解析した．2つのレポーター遺伝子を対称的に配置し，おのおののプロモーターがエンハンサーから7.5 kbほど離れているようにした場合，レポーター遺伝子は同等の頻度で転写バーストをくり返した．一方のレポーター遺伝子を反転して非対称に配置し，プロモーターがエンハンサーとは1 kbしか離れていないようにした場合，さきの結果と同様に，このレポーター遺伝子からは連続的な転写活性が観察された．このとき，もう一方のレポーター遺伝子とエンハンサーとの距離はまったく変わっていないにもかかわらず，転写バーストの頻度は顕著に低下した．つまり，エンハンサーの近傍に位置するプロモーターの存在により遠位にあるプロモーターとエンハンサーとのあいだの相互作用が阻害され，結果として，遠位にあるレポーター遺伝子からの転写バーストの頻度が低下したと考えられた．このことから，エンハンサーとプロモーターとの相互作用の頻度が転写バーストの頻度と相関することが示唆された．<br/>　そこで，対称的に配置された2つのレポーター遺伝子のうち，一方のレポーター遺伝子とエンハンサーとのあいだに<em>gypsy</em><a href="#" class="anno レトロ">レトロ</a><a href="#" class="anno トランスポゾン">トランスポゾン</a>に由来する<a href="#" class="anno インスレーター">インスレーター</a>とよばれる配列を挿入した．インスレーターはエンハンサーとプロモーターとの相互作用を阻害することにより転写活性を負に制御する<a href="#R9"><sup>9)</sup></a>．ライブイメージングにより解析したところ，エンハンサーとのあいだにインスレーターの存在するレポーター遺伝子の転写バーストの頻度がいちじるしく低下した．この結果は，転写バーストの頻度がエンハンサーとプロモーターとの相互作用の頻度を反映するという考えを支持した．低頻度ではあったもののインスレーターを挿入したレポーター遺伝子が転写バーストをひき起こしたときには，いちどの転写バーストにより転写されるRNAの量はインスレーターの存在しないときと同等であった．このことから，インスレーターの有無にかかわらず，エンハンサーはプロモーターと相互作用すると同じレベルに転写を<a href="#" class="anno 活性化">活性化</a>することが示された．<br/><br/><h2>4．単一のエンハンサーによる同調的な転写バースト</h2><br/>　単一のエンハンサーが2つの遺伝子からの転写を活性化する際の動的な性質について検証した．従来のDNAループモデルにもとづくと，エンハンサーはどちらか一方のプロモーターのみと<a href="#" class="anno 安定的">安定的</a>に相互作用し，転写バーストをひき起こしたのちに解離して，ふたたびエンハンサーがどちらか一方のプロモーターを活性化する，という過程をくり返すことが予測された．この場合，2つのレポーター遺伝子の転写バーストが相互<a href="#" class="anno 排他的">排他的</a>に起こるはずである．この仮説を検証するため，対称的に配置した2つのレポーター遺伝子のあいだにエンハンサーを配置しライブイメージングにより解析した．その結果，2つのプロモーターは15 kb以上も離れているにもかかわらず，同調的な転写バーストをひき起こした．このことから，エンハンサーとプロモーターとの相互作用は局所的な<a href="#" class="anno DNA構造">DNA構造</a>の変動をともなう，これまで考えられてきたよりもはるかに動的な過程であることが示された（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　エンハンサーとプロモーターとの動的な相互作用</strong><br/>単一のエンハンサーの近傍に標的となる2つのプロモーターが位置するようなダイナミックなDNA構造の変化により，同調的な転写バーストが起こると考えられる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukaya-Cell-16.7.14-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　エンハンサーとプロモーターとの動的な相互作用" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukaya-Cell-16.7.14-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukaya-Cell-16.7.14-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　転写活性のライブイメージング解析により，発生の過程における<a href="#" class="anno 転写制御">転写制御</a>を1細胞レベルで定量的に理解することが可能になった．この研究においては，この技術を応用することによりエンハンサーを介した転写バーストの<a href="#" class="anno 制御機構">制御機構</a>の存在を明らかにした．同じ時期に，ヒトやマウスの培養細胞においてもエンハンサーとプロモーターとの相互作用と転写バーストの頻度は相関することが見い出されている<a href="#R10"><sup>10)</sup></a>．このことから，エンハンサーによる動的な転写バーストの制御は<a href="#" class="anno 真核生物">真核生物</a>に広く保存された共通の機構であると考えられる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>McKnight, S. L. & Miller, O. L. J.</span>: <span class="ti">Post-replicative nonribosomal transcription units in D. melanogaster embryos.</span> <span class='so'>Cell, 17, 551-563 (1979)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/113103" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Coulon, A., Chow, C. C., Singer, R. H. et al.</span>: <span class="ti">Eukaryotic transcriptional dynamics: from single molecules to cell populations.</span> <span class='so'>Nat. Rev. Genet., 14, 572-584 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23835438" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Garcia, H. G., Tikhonov, M., Lin, A. et al.</span>: <span class="ti">Quantitative imaging of transcription in living <em>Drosophila</em> embryos links polymerase activity to patterning.</span> <span class='so'>Curr. Biol., 23, 2140-2145 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24139738" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Lucas, T., Ferraro, T., Roelens, B. et al.</span>: <span class="ti">Live imaging of Bicoid-dependent transcription in <em>Drosophila</em> embryos.</span> <span class='so'>Curr. Biol., 23, 2135-2139 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24139736" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kvon, E. Z., Kazmar, T., Stampfel, G. et al.</span>: <span class="ti">Genome-scale functional characterization of <em>Drosophila</em> developmental enhancers <em>in vivo</em>.</span> <span class='so'>Nature, 512, 91-95 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24896182" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Dunipace, L., Ozdemir, A. & Stathopoulos, A.</span>: <span class="ti">Complex interactions between cis-regulatory modules in native conformation are critical for <em>Drosophila</em> <em>snail</em> expression.</span> <span class='so'>Development, 138, 4075-4084 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21813571" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Bothma, J. P., Garcia, H. G., Ng, S. et al.</span>: <span class="ti">Enhancer additivity and non-additivity are determined by enhancer strength in the <em>Drosophila</em> embryo.</span> <span class='so'>Elife 4, e07956 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26267217" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Choi, O. R. & Engel, J. D.</span>: <span class="ti">Developmental regulation of β-globin gene switching.</span> <span class='so'>Cell, 55, 17-26 (1988)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/3167976" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Cai, H. & Levine, M.</span>: <span class="ti">Modulation of enhancer-promoter interactions by insulators in the <em>Drosophila</em> embryo.</span> <span class='so'>Nature, 376, 533-536 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7637789" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Bartman, C. R., Hsu, S. C., Hsiung, C. C. -S. et al.</span>: <span class="ti">Enhancer regulation of transcriptional bursting parameters revealed by forced chromatin looping.</span> <span class='so'>Mol. Cell, 62, 237-247 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27067601" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=UCSC" target="_blank">UCSC</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=転写因子" target="_blank">転写因子データベース</a></li><br></ul><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/10_03.html" target="_blank">10.3 Regulation of Gene Expression in Eukaryotes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/08_02.html" target="_blank">8.2 Genes Transcription</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/10_02.html" target="_blank">10.2 Regulation of Gene Expression in Prokaryotes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/04_02.html" target="_blank">4.2 Role of ATP and NADH/NADPH as Energy Currencies</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">深谷 雄志（Takashi Fukaya）</span><br>略歴：2014年 東京大学大学院新領域創成科学研究科博士課程 修了，同年 米国California大学Berkeley校 博士研究員を経て，2015年より米国Princeton大学 博士研究員．<br>研究テーマ：遺伝子の発現制御における基礎的なしくみの理解．<br></div><br>© 2016 深谷 雄志 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

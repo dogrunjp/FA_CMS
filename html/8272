@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 2本鎖DNA切断修復機構においてその経路はMRE11のもつヌクレアーゼ活性により決定される : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/8272" rel="bookmark">2本鎖DNA切断修復機構においてその経路はMRE11のもつヌクレアーゼ活性により決定される</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>柴田 淳史</strong><br>（英国Sussex大学Genome Damage and Stability Centre）<br>email：<a href="mailto:shibata.at@gunma-u.ac.jp">柴田淳史</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.015">10.7875/first.author.2014.015</a><br><div class="reference"><br><span class="ti">DNA double-strand break repair pathway choice is directed by distinct MRE11 nuclease activities.</span><br><span class="au">Atsushi Shibata, Davide Moiani, Andrew S. Arvai, Jefferson Perry, Shane M. Harding, Marie-Michelle Genois, Ranjan Maity, Sari van Rossum-Fikkert, Aryandi Kertokalio, Filippo Romoli, Amani Ismail, Ermal Ismalaj, Elena Petricci, Matthew J. Neale, Robert G. Bristow, Jean-Yves Masson, Claire Wyman, Penny A. Jeggo, John A. Tainer</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24316220" target="_blank"><em>Molecular Cell</em>, <strong>53</strong>, 7-18 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno MR">MR</a>N<a href="#" class="anno 複合体">複合体</a>の<a href="#" class="anno 構成タンパク質">構成タンパク質</a>のひとつである<a href="#" class="anno MRE11">MRE11</a>は，<a href="#" class="anno 2本鎖DNA">2本鎖DNA</a><a href="#" class="anno 切断修復">切断修復</a>機構において損傷部位の発見，修復，シグナルの増強にはたらく．一方で，MRE11の<a href="#" class="anno も">も</a>つエンド<a href="#" class="anno ヌクレアーゼ">ヌクレアーゼ</a>活性および<a href="#" class="anno エキソ">エキソ</a><a href="#" class="anno ヌクレアーゼ活性">ヌクレアーゼ活性</a>が，<a href="#" class="anno 2本鎖<a href="#" class="anno DNA切断">DNA切断</a>">2本鎖DNA切断</a><a href="#" class="anno 修復機構">修復機構</a>における2つの異なる経路，すなわち，非<a href="#" class="anno <a href="#" class="anno 相">相</a>同">相同</a><a href="#" class="anno 末端結合">末端結合</a>経路および相同<a href="#" class="anno 組換え">組換え</a>経路においてどのように関与しているかについては，い<a href="#" class="anno まだ">まだ</a>多くは明らかになっていない．筆者らは，X線<a href="#" class="anno 構造解析">構造解析</a>をもとにした<a href="#" class="anno 化合物">化合物</a>スクリーニングにより，MRE11の<a href="#" class="anno エンドヌクレアーゼ">エンドヌクレアーゼ</a>活性あるいは<a href="#" class="anno エキソヌクレアーゼ">エキソヌクレアーゼ</a>活性に対し<a href="#" class="anno 特異的">特異的</a>な<a href="#" class="anno 阻害剤">阻害剤</a>を発見した．これらの阻害剤を用い，<a href="#" class="anno 非相同末端結合">非相同末端結合</a>経路および<a href="#" class="anno 相同組換え">相同組換え</a>経路の機能する<a href="#" class="anno G2期">G2期</a>における2本鎖DNA切断修復機構の経路決定の<a href="#" class="anno 機序">機序</a>に着目して研究を行った．エンドヌクレアーゼ活性あるいはエキソヌクレアーゼ活性のどちらの活性に特異的な阻害剤を処理した場合にも，相同組換え経路の最初のステップである2本鎖DNA末端の削り込みの低下にともなう相同組換え効率の低下が認められた．一方で，非常に興味深いことに，エンドヌクレアーゼ活性を阻害したときのみ，2本鎖DNA切断修復機構は相同組換え経路から非相同末端結合経路へと移行することが見い出された．以上の<a href="#" class="anno 研究結果">研究結果</a>から，MRE11のもつエンドヌクレアーゼ活性が2本鎖DNA切断修復機構を相同組換え経路へと進行させ，その下流において，MRE11のもつエキソヌクレアーゼ活性が<a href="#" class="anno EXO1">EXO1</a>-<a href="#" class="anno BLM">BLM</a>複合体のエキソヌクレアーゼ活性と協調して，相同組換え経路への移行を決定づけていることが明らかになった．<br/><br/><h2>はじめに</h2><br/>　放射線の照射や<a href="#" class="anno 化学療法">化学療法</a>剤の処理により誘発される2本鎖DNA切断は，細胞の生死を決定しうる<a href="#" class="anno 重篤">重篤</a>な<a href="#" class="anno DNA損傷">DNA損傷</a>のひとつである．また，2本鎖DNA切断は免疫の成熟過程のひとつである<em>V</em>(<em>D</em>)<em>J</em>組換えのときにも生じ，さらには，減数<a href="#" class="anno 分<a href="#" class="anno 裂">裂</a>期">分裂期</a>に<a href="#" class="anno 遺伝子組換え">遺伝子組換え</a>を誘導する際にも生じる．MRE11はMRE11-<a href="#" class="anno RA">RA</a>D50-<a href="#" class="anno NBS1">NBS1</a>（MRN）複合体を形成し，2本鎖DNA切断が生じたのちの修復や損傷シグナルの増強にかかわることが報告されている<a href="#R1"><sup>1)</sup></a>．しかしながら，MRE11のもつヌクレアーゼ活性がどのように2本鎖DNA切断修復機構にかかわるかについて多くは明らかになっていない<a href="#R2"><sup>2)</sup></a>．その理由として，MRE11は異なる2つのヌクレアーゼ活性をもつことがあげられる．酵母を用いた<a href="#" class="anno 実験系">実験系</a>から，MRE11のもつエキソヌクレアーゼ活性のみを<a href="#" class="anno 欠失">欠失</a>した<a href="#" class="anno 変異体">変異体</a>，および，エキソヌクレアーゼ活性とエンドヌクレアーゼ活性の両方を欠失した変異体は見い出されているが，エンドヌクレアーゼ活性のみを欠失した変異体はみつかっていない<a href="#R2"><sup>2)</sup></a>．また，そのほかの要因として，<a href="#" class="anno 遺伝子操作">遺伝子操作</a>などによりMRE11を欠損させるとMRN複合体が不<a href="#" class="anno 安定化">安定化</a>するため，単体のMRE11の役割について証明することが困難であったこともあげられる<a href="#R3"><sup>3)</sup></a>．<br/>　筆者らは，<a href="#" class="anno X線構造解析">X線構造解析</a>をもとにした化合物スクリーニングにより，MRE11のもつエンドヌクレアーゼ活性あるいはエキソヌクレアーゼ活性に対し特異的な阻害剤を開発した．これらの阻害剤を用いることにより，これまで明らかされていなかったエンドヌクレアーゼ活性およびエキソヌクレアーゼ活性のそれぞれの役割を解析することが可能になった．今回，筆者らは，2本鎖DNA切断が生じてから細胞が死にいたる過程においてもっとも重要とされる，2本鎖DNA切断修復機構における最適な経路決定の機序に着目し研究を行った．その結果，MRE11のもつエンドヌクレアーゼ活性が相同組換えを開始することにより2本鎖DNA切断修復機構を相同組換え経路へと決定づけ，そののち，MRE11のもつエキソヌクレアーゼ活性およびEXO1-BLM複合体のエキソヌクレアーゼ活性が相同組換え経路を促進することを見い<a href="#" class="anno 出し">出し</a>た．<br/><br/><h2>1．MRE11のもつエンドヌクレアーゼ活性あるいはエキソヌクレアーゼ活性に特異的な阻害剤の開発</h2><br/>　2008年，MRE11と複合体を形成してMRE11のもつエキソヌクレアーゼ活性を阻害する化合物mi<a href="#" class="anno rin">rin</a>が発見された<a href="#R4"><sup>4)</sup></a>．しかしながら，その阻害の機序は明らかになっていなかった．そこで，ヒトのMRE11と高い<a href="#" class="anno 相同性">相同性</a>もつ超<a href="#" class="anno 好熱">好熱</a>性の<a href="#" class="anno 真正細菌">真正細菌</a><em>Th<a href="#" class="anno erm">erm</a>otoga maritima</em>の<a href="#" class="anno Mre11">Mre11</a>とmirinとの複合体の構造をX線構造解析により明らかにした．mirinはMRE11のエキソヌクレアーゼ活性の<a href="#" class="anno 活性中心">活性中心</a>であるHis61（ヒトでは，His63）の近傍に結合していた．また，mirinの水酸基を<a href="#" class="anno <a href="#" class="anno アミノ">アミノ</a>基">アミノ基</a>に置換することにより，活性中心により特異的に結合しエキソヌクレアーゼ活性を阻害する化合物<a href="#" class="anno PFM3">PFM3</a>9を開発した．また一方で，mirinの<em>N</em>-<a href="#" class="anno アルキル">アルキル</a>化誘導体を作製することにより，MRE11の構造を変化させMRE11がエンドヌクレアーゼ活性を発揮するのに必要な<a href="#" class="anno 1本鎖">1本鎖</a>DNAの接近を阻害する化合物PFM01および化合物PFM03を開発した．これら阻害剤のエンドヌクレアーゼ活性およびエキソヌクレアーゼ活性に対する特異的な<a href="#" class="anno 阻害効果">阻害効果</a>をヒトの精製MRE11を用いて検討した結果，X線構造解析の結果と一致し，mirinとPFM39が特異的にMRE11のエキソヌクレアーゼ活性を阻害し，PFM01とPFM03が特異的にMRE11のエンドヌクレアーゼ活性を阻害することが確認された．これらの阻害剤は細胞のレベルでも阻害効果を示すこと，MRN複合体としての機能には影響を及ぼさ<a href="#" class="anno ないこと">ないこと</a>，さらに，これら阻害剤により相同組換え経路の効率が低下することも確認された．<br/><br/><h2>2．MRE11のエキソヌクレアーゼ活性に対する阻害剤により2本鎖DNA切断修復機構は欠損する</h2><br/>　ヒトの細胞において生じた2本鎖DNA切断は，おもに非相同末端結合（nonhomologous <a href="#" class="anno end">end</a>-joining：<a href="#" class="anno NHEJ">NHEJ</a>）経路あるいは相同組換え（homologous recomb<a href="#" class="anno ina">ina</a>tion：HR）経路のいずれかにより修復される．2本鎖DNA切断修復機構は<a href="#" class="anno 細胞周期">細胞周期</a>により制御されている．<a href="#" class="anno G1期">G1期</a>では非相同末端結合経路が優位にはたらき，<a href="#" class="anno S期">S期</a>およびG2期では非相同末端結合経路および相同組換え経路の両方がはたらく<a href="#R5"><sup>5)</sup></a>．筆者らを含めたこれまでの研究により，放射線の照射により生じた2本鎖DNA切断に対しては非相同末端結合経路が第1の選択としてはたらき，2本鎖DNA切断をすみやかに修復することがわかっている<a href="#R6"><sup>6)</sup></a>．2本鎖DNA切断の末端の構造の<a href="#" class="anno 複雑性">複雑性</a>や<a href="#" class="anno クロマチン">クロマチン</a>構造の影響により非相同末端結合経路が停滞した場合には，CtIPに<a href="#" class="anno 依存的">依存的</a>な2本鎖DNA末端の削り込みが開始され，2本鎖DNA切断修復機構は非相同末端結合経路から相同組換え経路へと移行する<a href="#R7"><sup>7)</sup></a>．<br/>　MRE11のもつエキソヌクレアーゼ活性を阻害すると，相同組換え経路の停滞にともなう2本鎖DNA切断修復機構の欠損が認められた．一方で，非常に興味深いことに，MRE11のもつエンドヌクレアーゼ活性を阻害したときには，相同組換え経路は遮断されているにもかかわらず2本鎖DNA切断修復機構の欠損は認められなかった．CtIPはMRE11のもつヌクレアーゼ活性を<a href="#" class="anno 活性化">活性化</a>することが知られている<a href="#R8"><sup>8)</sup></a>．また，筆者らは，CtIPを欠損すると2本鎖DNA切断修復機構は相同組換え経路から非相同末端結合経路へと移行することを見い出している<a href="#R7"><sup>7)</sup></a>．そこで，CtIPを欠損したときと同様に，MRE11のもつエンドヌクレアーゼ活性を阻害したときも2本鎖DNA切断修復機構は相同組換え経路から非相同末端結合経路へ移行するとの仮説をたて実験を行った結果，このことが証明された（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　MRE11のもつエンドヌクレアーゼ活性は2本鎖DNA末端の削り込みを開始することにより2本鎖DNA修復機構を非相同末端結合経路から相同組換え経路へと移行させる</strong><br/>G2期における2本鎖DNA切断修復の第1の選択は非相同末端結合経路であり，その停滞は相同組換え経路への移行への引き金となる．相同組換え経路への移行の開始にはMRE11およびCtIPが必要であり，2本鎖DNA末端の削り込みがある程度まで進行すると，相同組換え経路から非相同末端結合経路へはもどれなくなる．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/01/Shibata-Molecular-Cell-14.1.9-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　MRE11のもつエンドヌクレアーゼ活性は2本鎖DNA末端の削り込みを開始することにより2本鎖DNA修復機構を非相同末端結合経路から相同組換え経路へと移行させる" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shibata-Molecular-Cell-14.1.9-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shibata-Molecular-Cell-14.1.9-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><h2>3．MRE11のもつエンドヌクレアーゼ活性が2本鎖DNA末端の削り込みを開始することが2本鎖DNA切断修復機構を相同組換え経路へと方向づける</h2><br/>　相同組換え経路はCtIPに依存的な2本鎖DNA末端の削り込みにより開始される．ここまでの結果から，CtIPおよびMRE11のもつエンドヌクレアーゼ活性により相同組換え経路が開始していたことから，MRE11のエンドヌクレアーゼ活性はエキソヌクレアーゼ活性の<a href="#" class="anno 機能的">機能的</a>な上流においてはたらいているとの仮説をたてた．MRE11のエンドヌクレアーゼ活性およびエキソヌクレアーゼ活性をともに阻害したところ，エンドヌクレアーゼ活性のみを阻害したときと同様に，2本鎖DNA切断修復機構は相同組換え経路から非相同末端結合経路へと移行した．また，同様な結果はMRE11を欠損した<a href="#" class="anno ATL">ATL</a><a href="#" class="anno D細胞">D細胞</a>においても認められたことから，MRE11のもつエンドヌクレアーゼ活性はエキソヌクレアーゼ活性の上流ではたらくという機能的なヒエラルキーが証明された．<br/><br/><h2>4．MRE11のもつエキソヌクレアーゼ活性とEXO1-BLM複合体のエキソヌクレアーゼ活性をともに<a href="#" class="anno 失活">失活</a>させると2本鎖DNA切断修復機構は非相同末端結合経路へと移行する</h2><br/>　酵母の<a href="#" class="anno 減数分裂">減数分裂</a>細胞を用いた実験系から，MRE11のもつ3’-5’エキソヌクレアーゼ活性は2本鎖DNA切断の末端の方向へDNAを分解することが報告されている<a href="#R9"><sup>9)</sup></a>．一方で，EXO1-BLM複合体はエキソヌクレアーゼ活性により5’側から3’側の方向へDNAを分解する．そこで，MRE11のもつエンドヌクレアーゼ活性が2本鎖DNA切断の近傍にニックを生成したのちに，MRE11のもつエキソヌクレアーゼ活性とEXO1-BLM複合体のエキソヌクレアーゼ活性がともに失われた場合の2本鎖DNA切断修復機構への影響について検討した．その結果，MRE11のエンドヌクレアーゼ活性によりニックが生成したのちにもかかわらず，これら2つのエキソヌクレアーゼ活性が阻害された場合には2本鎖DNA切断修復機構は非相同末端結合経路への移行が可能であることを発見した．相同組換え経路の開始のためMRE11のもつエンドヌクレアーゼ活性により生じたニックは，おそらく，2本鎖DNA切断修復ののち，<a href="#" class="anno 1本鎖DNA">1本鎖DNA</a>切断修復機構により修復されていると考えられた．<br/><br/><h2>おわりに</h2><br/>　この研究では，2本鎖DNA切断修復機構において，その経路の決定におけるMRE11のもつヌクレアーゼ活性の役割を，新規の特異的な阻害剤の開発およびその活用により明らかにした．これまで，2本鎖DNA末端の削り込みが相同組換え経路の最初のステップであることは示唆されてきたが，2本鎖DNA末端の削り込みの開始機構について多くは明らかになっていなかった．この研究により，2本鎖DNA末端の削り込み反応を開始するMRE11のもつエンドヌクレアーゼ活性によるニックの生成が，2本鎖DNA切断修復機構において非相同末端結合経路から相同組換え経路へと移行させるターニングポイントであることが明らかになった（<a href="#F1">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　MRE11のもつエキソヌクレアーゼ活性およびEXO1-BLM複合体のエキソヌクレアーゼ活性は2本鎖DNA末端の削り込みを進行させることにより相同組換え経路を決定づける</strong><br/>（a）野生型の細胞．2本鎖DNA切断が生じたのち，そこから数百bp以上離れた領域においてMRE11のもつエンドヌクレアーゼ活性に依存したニックが生成される．そののち，方向性の異なるMRE11のもつエンドヌクレアーゼ活性およびEXO1-BLM複合体のエキソヌクレアーゼ活性がはたらくことにより，1本鎖DNAの領域が拡大し相同組換え経路が進行する．<br/>（b）MRE11のもつエキソヌクレアーゼ活性あるいはEXO1-BLM複合体のエキソヌクレアーゼ活性が欠失すると，不完全な2本鎖DNA末端の削り込みにより2本鎖DNA切断修復は停滞する．<br/>（c）2本鎖DNA切断の近傍へのニックの生成に必要なCtIPあるいはMRE11のもつエンドヌクレアーゼ活性が欠損すると，相同組換え経路は開始することができず，2本鎖DNA切断修復機構は非相同末端結合経路へと移行する．<br/>（d）ニックが生成したのちであっても，MRE11のもつエキソヌクレアーゼ活性とEXO1-BLM複合体のエキソヌクレアーゼ活性がともに失われた場合には，2本鎖DNA切断は非相同末端結合経路により修復される．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/01/Shibata-Molecular-Cell-14.1.9-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　MRE11のもつエキソヌクレアーゼ活性およびEXO1-BLM複合体のエキソヌクレアーゼ活性は2本鎖DNA末端の削り込みを進行させることにより相同組換え経路を決定づける" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shibata-Molecular-Cell-14.1.9-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shibata-Molecular-Cell-14.1.9-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　2本鎖DNA切断は，放射線，<a href="#" class="anno 化学療法剤">化学療法剤</a>，<a href="#" class="anno 酸化ストレス">酸化ストレス</a>など，さまざまな<a href="#" class="anno 外来性">外来性</a>の要因により生じる．また一方で，免疫の成熟過程のひとつである<em>V</em>(<em>D</em>)<em>J</em>組換えや減数分裂のときにも生じ，その両方においてMRE11は重要な役割をはたすことが知られている．さらに，<em>MRE11</em>遺伝子は毛細血管<a href="#" class="anno 拡張性">拡張性</a><a href="#" class="anno 運動失調">運動失調</a>様疾患の<a href="#" class="anno 原因遺伝子">原因遺伝子</a>であることも知られており，MRE11のもつ役割の<a href="#" class="anno 包括的">包括的</a>な理解はこの疾患における原因と症状の<a href="#" class="anno 因果関係">因果関係</a>の究明および<a href="#" class="anno 治療法">治療法</a>の開発にも役だつものと考えられる．この研究では，新規のMRE11阻害剤を2本鎖DNA切断修復機構における経路決定の機序の解明のため用いたが，この阻害剤はそのほかの<a href="#" class="anno 研究領域">研究領域</a>にも応用が可能であり，2本鎖DNA切断に関連する研究を大きく推進するものと考えている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Stracker, T. H. & Petrini, J. H.</span>: <span class="ti">The MRE11 complex: starting from the ends.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 12, 90-103 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21252998" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Symington, L. S. & Gautier, J.</span>: <span class="ti">Double-strand break end resection and repair pathway choice.</span> <span class='so'>Annu. Rev. Genet., 45, 247-271 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21910633" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Uziel, T., Lerenthal, Y., Moyal, L. et al.</span>: <span class="ti">Requirement of the MRN complex for ATM activation by DNA damage.</span> <span class='so'>EMBO J., 22, 5612-5621 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14532133" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Dupre, A., Boyer-Chatenet, L., Sattler, R. M. et al.</span>: <span class="ti">A forward chemical genetic screen reveals an inhibitor of the Mre11-Rad50-Nbs1 complex.</span> <span class='so'>Nat. Chem. Biol., 4, 119-125 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18176557" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Rothkamm, K., Kruger, I., Thompson, L. H. et al.</span>: <span class="ti">Pathways of DNA double-strand break repair during the mammalian cell cycle.</span> <span class='so'>Mol. Cell. Biol., 23, 5706-5715 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12897142" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Beucher, A., Birraux, J., Tchouandong, L. et al.</span>: <span class="ti">ATM and Artemis promote homologous recombination of radiation-induced DNA double-strand breaks in G2.</span> <span class='so'>EMBO J., 28, 3413-3427 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19779458" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Shibata, A., Conrad, S., Birraux, J. et al.</span>: <span class="ti">Factors determining DNA double-strand break repair pathway choice in G2 phase.</span> <span class='so'>EMBO J., 30, 1079-1092 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21317870" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Huertas, P. & Jackson, S. P.</span>: <span class="ti">Human CtIP mediates cell cycle control of DNA end resection and double strand break repair.</span> <span class='so'>J. Biol. Chem., 284, 9558-9565 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19202191" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Garcia, V., Phelps, S. E., Gray, S. et al.</span>: <span class="ti">Bidirectional resection of DNA double-strand breaks by Mre11 and Exo1.</span> <span class='so'>Nature, 479, 241-244 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22002605" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/13_02.html" target="_blank">13.2 Cell Cycle Regulation Factors: Cyclin-CDK Complex</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">柴田 淳史（Atsushi Shibata）</span><br>略歴：2006年 東京医科歯科大学大学大学院医歯学総合研究科 修了，同年 英国Sussex大学 博士研究員を経て，2013年より群馬大学先端科学研究指導者育成ユニット 助教．<br>研究テーマ：2本鎖DNA切断修復機構の包括的な理解と生体に対する影響．<br>抱負：DNA修復研究をリードすることにより医療の発展をめざす．<br></div><br>© 2014 柴田 淳史 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

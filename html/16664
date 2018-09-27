@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 分裂期染色体をつくるためにヌクレオソームは本当に必須なのか？ : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/16664" rel="bookmark">分裂期染色体をつくるためにヌクレオソームは本当に必須なのか？</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>新冨圭史・平野達也</strong><br>（理化学研究所 平野染色体ダイナミクス研究室）<br>email：<a href="mailto:kshintomi@riken.jp">新冨圭史</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.059">10.7875/first.author.2017.059</a><br><div class="reference"><br><span class="ti">Mitotic chromosome assembly despite nucleosome depletion in <em>Xenopus</em> egg extracts.</span><br><span class="au">Keishi Shintomi, Fukashi Inoue, Hiroshi Watanabe, Keita Ohsumi, Miho Ohsugi, Tatsuya Hirano</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28522692" target="_blank"><em>Science</em>, <strong>356</strong>, 1284-1287 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 分<a href="#" class="anno 裂">裂</a>期">分裂期</a><a href="#" class="anno 染色体">染色体</a>の構築は複製された<a href="#" class="anno ゲノムDNA">ゲノムDNA</a>を<a href="#" class="anno 娘細胞">娘細胞</a>に正確に分配するために必須の過程である．これまで，染色体は<a href="#" class="anno ヌクレオソーム">ヌクレオソーム</a>の形成を出発点とする<a href="#" class="anno クロマチン">クロマチン</a>繊維の<a href="#" class="anno 階層的">階層的</a>な折りたたみの産物であると考えられてきた．しかし，染色体をつくるためにヌクレオソームは本当に必須なのであろうか？　筆者らは，この根源的な疑問を解くため，アフリ<a href="#" class="anno カ">カ</a><a href="#" class="anno ツメガエル">ツメガエル</a>の卵<a href="#" class="anno 抽出液">抽出液</a>とマウスの精子核とを組み合わせて<a href="#" class="anno 試験管内">試験管内</a>で染色体の構築を再現する新しい<a href="#" class="anno 無細胞">無細胞</a>系を確立した．その結果，<a href="#" class="anno ヒストン">ヒストン</a><a href="#" class="anno シャペロン">シャペロン</a><a href="#" class="anno Asf1">Asf1</a>を除去した<a href="#" class="anno 卵抽出液">卵抽出液</a>を用いると，ヌクレオソームが形成されないに<a href="#" class="anno も">も</a>かかわらず染色体によく似た構造がつくられることを見い<a href="#" class="anno 出し">出し</a>た．このヌクレオソームを欠く染色体様の構造は，<a href="#" class="anno コン<a href="#" class="anno デ">デ</a>ンシン">コンデンシン</a>が集積した軸構造をもつものの，通常のヌクレオソームを含む染色体と比べ凝縮の程度が低く脆弱であった．さらに，コンデンシンおよびヌクレオソームを単独あるいは同時に除去する実験をつうじて，コンデンシンとヌクレオソームの<a href="#" class="anno 機能的">機能的</a>な<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>に関する知見が得られた．<br/><br/><h2>はじめに</h2><br/>　<a href="#" class="anno 真核生物">真核生物</a>のクロマチンは<a href="#" class="anno 細胞周期">細胞周期</a>の進行，発生や分化に応じて形態をさまざまに変化させる．なかでも，もっともダイナミックな変化である分裂期染色体の構築は，<a href="#" class="anno 遺伝情報">遺伝情報</a>の正確な分配のために不可欠な過程である．この過程は<a href="#" class="anno 光学顕微鏡">光学顕微鏡</a>を用いて容易に観察できることもあり，1世紀以上もまえから多くの<a href="#" class="anno 科学者">科学者</a>の興味をひきつけてきた．しかし，その背景にある<a href="#" class="anno 分子機構">分子機構</a>が明らかにされはじめたのはこの20年あまりのことである．<br/>　そのきっかけとなったのは，コンデンシンとよばれるタンパク質<a href="#" class="anno 複合体">複合体</a>の発見であった．コンデンシンは分裂期染色体に含まれる主要なタンパク質として最初に同定され<a href="#R1"><sup>1,2)</sup></a>，今日では，さまざまな生物において染色体の構築に<a href="#" class="anno 中心的">中心的</a>な役割をはたすことが示されている<a href="#R3"><sup>3,4)</sup></a>．一方，染色体にもっとも多く含まれるタンパク質はコアヒストンである<a href="#R1"><sup>1,5)</sup></a>．しかし，コアヒストンによるヌクレオソームの形成は染色体を構築するための前提条件なのか，もしそうならどのように貢献するのか，という問題は，これまで，意外にも検討されてこなかった．その要因のひとつとして，染色体に含まれるヒストンを自在に操作する<a href="#" class="anno 実験系">実験系</a>がなかったことがあげられる．たとえば，<a href="#" class="anno アフリカツメガエル">アフリカツメガエル</a>の卵抽出液を用いた染色体の構築の<a href="#" class="anno 無<a href="#" class="anno 細胞系">細胞系</a>">無細胞系</a>においても，従来の<a href="#" class="anno プロト">プロト</a>コールにおいて基質として用いていたアフリカツメガエルの精子核はもともと<a href="#" class="anno ヒストンH3">ヒストンH3</a>および<a href="#" class="anno ヒストンH4">ヒストンH4</a>を含むため，これらを<a href="#" class="anno 人工的">人工的</a>に操作することは困難であった．そこで，筆者らは，はじめからヒストンをほとんど含まないマウスの精子核<a href="#R6"><sup>6)</sup></a> をアフリカツメガエルの卵抽出液の無細胞系に導入することを考えた．<br/><br/><h2>1．マウスの精子核を基質としてアフリカツメガエルの卵抽出液のなかで染色体をつくる</h2><br/>　マウスの精子核の調製法を確立した．マウスの精子から核の含まれる頭部を分離し，<a href="#" class="anno 界面活性剤">界面活性剤</a>により<a href="#" class="anno 細胞膜">細胞膜</a>や<a href="#" class="anno 核膜">核膜</a>の<a href="#" class="anno 透過性">透過性</a>を高めた．アフリカツメガエルの精子核とは異なり，マウスの精子核に含まれる<a href="#" class="anno プロタミン">プロタミン</a>は多くの<a href="#" class="anno システイン">システイン</a><a href="#" class="anno 残基">残基</a>をもち<a href="#" class="anno ジ<a href="#" class="anno スルフィド">スルフィド</a>">ジスルフィド</a>結合により架橋されている．そこで，卵抽出液のなかで精子のDNAからプロタミンを解離させるためには，あらかじめ<a href="#" class="anno 還元剤">還元剤</a>で処理することにより<a href="#" class="anno ジスルフィド結合">ジスルフィド結合</a>を解離しておく必要があった．<br/>　このようにして調製したマウスの精子核をアフリカツメガエルの卵抽出液と<a href="#" class="anno インキュベーション">インキュベーション</a>したところ，1～2分間でプロタミンがはずれ，コンパクトな形状をしていた核が<a href="#" class="anno 膨潤">膨潤</a>した．こののち，コンデンシンがDNAと結合しはじめるのにともない，細い繊維状の構造がからまりあった形態へと変化した．さらに<a href="#" class="anno 数十">数十</a>分たつと，ヒストンがDNAに取り込まれ，しだいに繊維状の構造は太くなると同時に相互のからまりも解消された．そして，2～3時間のちには棒状の染色体が観察された．このようにして無細胞系でつくられた染色体は，マウスの染色体に<a href="#" class="anno 特徴的">特徴的</a>なアクロセントリック構造（<a href="#" class="anno セントロメア">セントロメア</a>が一方の<a href="#" class="anno テロメア">テロメア</a>に近接した構造）を示した．また，マウスの精子核を用いた新しいプロトコールにおいても，アフリカツメガエルの精子核を用いた従来のプロトコールと同様に，コンデンシンが染色体の構築に不可欠であることが確かめられた．<br/><br/><h2>2．ヌクレオソームがなくても染色体の軸構造がつくられる</h2><br/>　新たに確立した無細胞系を用いて染色体の構築に対するヌクレオソームの<a href="#" class="anno 必要性">必要性</a>を検討するためには，もうひとつ解決すべき問題が残されていた．コアヒストンはアフリカツメガエル卵の抽出液に数μMにもおよぶ<a href="#" class="anno 高濃度">高濃度</a>で存在しており，それらをすべて除去することは不可能とはいえないまでもきわめてむずかしい<a href="#R7"><sup>7)</sup></a>．そこで，卵抽出液から精子のDNAへのヒストンの供給を遮断するというアイディアを試みた．これまでの報告によると，Asf1という<a href="#" class="anno ヒストンシャペロン">ヒストンシャペロン</a>がヒストンH3およびヒストンH4の供給において中心的な役割をはたすと予想されていたので<a href="#R8"><sup>8)</sup></a>，卵抽出液に含まれるAsf1を除去するという戦略を採用した．<br/>　独自に作製した抗Asf1抗体を用いて卵抽出液からAsf1を完全に除去した．このAsf1を除去した卵抽出液とマウスの精子核をインキュベーションしたところ，染色体に似た構造が観察された．この構造においてコアヒストン（および，<a href="#" class="anno <a href="#" class="anno リンカー">リンカー</a>ヒストン">リンカーヒストン</a>）の取り込みがいちじるしく抑制されていることは，<a href="#" class="anno 免疫<a href="#" class="anno 蛍光染色">蛍光染色</a>">免疫蛍光染色</a>法および<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>な解析により確認された．ミクロコッカス<a href="#" class="anno ヌクレアーゼ">ヌクレアーゼ</a>による消化によっても，ヌクレオソームにより保護されるDNAの断片は検出されなかった．この“ヌクレオソームを欠く”染色体様の構造をさらに注意深く観察すると，<a href="#" class="anno DAP">DAP</a>Iにより強く染色される明確な軸構造をもつものの，その周囲の<a href="#" class="anno ループ領域">ループ領域</a>には凝縮度の低いDNAが広がっていた（<a href="#F1">図1</a>，左上および左下）．さらに，ヌクレオソームを含む通常の染色体と比べると高い頻度でDNAに損傷が生じており，染色体が構築されたのち外部から添加されたヌクレアーゼに対し高い感受性を示した．すなわち，ヌクレオソームを欠く染色体様の構造は脆弱であった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　アフリカツメガエルの卵抽出液をもちいた無細胞系において形成されるさまざまな染色体の構造</strong><br/>Asf1やコンデンシンを単独，あるいは，同時に除去したときの染色体の形状，および，コンデンシンIおよびコンデンシンIIの分布の違いを示す．“ヌクレオソームあり”および“ヌクレオソームなし”は，それぞれ，Asf1ありおよびAsf1なしの条件に相当する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirano-Science-17.6.23-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　アフリカツメガエルの卵抽出液をもちいた無細胞系において形成されるさまざまな染色体の構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirano-Science-17.6.23-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirano-Science-17.6.23-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．染色体の構築においてはヌクレオソームとコンデンシンの機能的な相互作用が重要である</h2><br/>　染色体の構築においてヌクレオソームとコンデンシンの機能がどのように関連するかを理解するため，染色体の軸構造に注目した．アフリカツメガエルを含むほとんどの真核生物には2種類のコンデンシン，コンデンシンIおよび<a href="#" class="anno コンデンシンII">コンデンシンII</a>が存在する<a href="#R3"><sup>3,4)</sup></a>．無細胞系において形成された通常のヌクレオソームを含む染色体においては，コンデンシンIとコンデンシンIIはともに染色体の軸構造にそって局在し，とくに，コンデンシンIIはより中心に近い領域に集積した（<a href="#F1">図1</a>，左上）．それに対し，Asf1を除去してヌクレオソームの形成を抑制したときには，コンデンシンIIはもっぱら軸構造に局在したが，コンデンシンIは軸構造およびループ領域の両方に観察された（<a href="#F1">図1</a>，左下）．さらに，コンデンシンIを単独，あるいは，Asf1と同時に除去すると，ループ領域の凝縮の程度が<a href="#" class="anno 段階的">段階的</a>に低下したが，コンデンシンIIは依然として軸構造にのみ観察された（<a href="#F1">図1</a>，中上および中下）．したがって，コンデンシンIIによる軸構造の形成はヌクレオソームに依存しないと考えられた．一方，コンデンシンIIのみを除去しても軸構造がジグザグになるという<a href="#" class="anno わずか">わずか</a>な影響しかみられなかった（<a href="#F1">図1</a>，右上）のとは<a href="#" class="anno 対照的">対照的</a>に，Asf1およびコンデンシンIIを同時に除去すると，コンデンシンIの軸構造への局在はおろか，明確な染色体の構造が観察されなくなった（<a href="#F1">図1</a>，右下）．これらの結果から，ループ領域の凝縮はおもにコンデンシンIにより促進されており，その前提条件としてヌクレオソームが形成されている必要があると考えられた．また，コンデンシンIIによる軸構造の形成もコンデンシンIの適切な作用をたすける役割をもつことが示唆された．このように，ヌクレオソームとコンデンシンIおよびコンデンシンIIはそれぞれ異なる役割をはたしながらも機能的に相互作用しており，<a href="#" class="anno 協調的">協調的</a>な効果をもたらすネットワークを形成しているらしい（<a href="#F2">図2</a>）．近年，筆者らは，精製したタンパク質を用いた染色体の<a href="#" class="anno 再構成">再構成</a>系を確立し，ヌクレオソームがコンデンシンIを<a href="#" class="anno 効果的">効果的</a>に機能させるための基盤となることを示した<a href="#R9"><sup>9)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/10435" target="_blank">新着論文レビュー</a> でも掲載）．この結果も，機能的な相互作用のモデルにうまくあてはまった．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ヌクレオソームとコンデンシンIおよびコンデンシンIIの機能的な相互作用</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirano-Science-17.6.23-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ヌクレオソームとコンデンシンIおよびコンデンシンIIの機能的な相互作用" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirano-Science-17.6.23-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirano-Science-17.6.23-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>4．ヌクレオソームは必須ではないのか？</h2><br/>　この研究においてもっとも驚きだったのは，ヌクレオソームの形成を抑制した条件においてもコンデンシンに依存して染色体とよく似た構造を構築することができるという観察であった．しかし，進化の視点からみたとき，この観察はあまり抵抗なく受け入れられるように思われた．<a href="#" class="anno 原核生物">原核生物</a>にはヒストンは存在しないが，コンデンシンは存在し<a href="#" class="anno 核様体">核様体</a>の構築および分配に重要な役割をはたす<a href="#R3"><sup>3,4)</sup></a>．すなわち，ヌクレオソームがなくても，コンデンシンが中心となってゲノムをうまく折りたたむしくみは，現存する生物のなかにすでに例があるのだ．<br/>　ここで，“分裂期染色体をつくるためにヌクレオソームは本当に必須なのか？”というタイトルの問いにもどる．現時点では，ヌクレオソームがなくても染色体とよく似た構造をつくことができる，と答えるのが正確だろう．今後，ヌクレオソームが分裂期染色体の機能におよぼす影響を精査することにより，より正確な解答に近づくことができるはずである．たとえば，ヌクレオソームを欠いた染色体においても機能的な<a href="#" class="anno 動原体">動原体</a>やテロメアは形成されるのか，ヌクレオソームを欠いた染色体は娘細胞への分配の際に必要な<a href="#" class="anno 物理的">物理的</a>な強度もつのか，という問題は検討すべき課題だろう．<br/><br/><h2>おわりに</h2><br/>　ヒトの分裂期染色体の<a href="#" class="anno 長さ">長さ</a>は平均するとせいぜい5<a href="#" class="anno μm">μm</a>であるのに対し，そこに収納されるゲノムDNAの長さは5 cmにもおよぶ．この事実をまえにすると，どのようなしくみにより長いDNAが小さな染色体のなかに折りたたまれるのかという疑問が生じる．教科書にはヌクレオソームから染色体にいたるまでの<a href="#" class="anno クロマチン構造">クロマチン構造</a>の階層性を示した“予想図”がよく掲載されているが，そうした階<a href="#" class="anno 層構造">層構造</a>のひとつとして想定されていた30 nmファイバーは細胞には存在しないのではないかいう疑義も提出されている<a href="#R10"><sup>10)</sup></a>．この研究により，さらに一歩ふみ込んで，もっとも<a href="#" class="anno 基本的">基本的</a>な構造であるヌクレオソームがなくてもある程度の高次の折りたたみが実現されることが明らかにされた．20年まえまでは，分裂期染色体の構築がどれだけ複雑な過程であるか見当もつかなかった，しかしいま，筆者らは，精製したタンパク質による染色体の<a href="#" class="anno 再構成系">再構成系</a><a href="#R9"><sup>9)</sup></a> を駆使して<a href="#" class="anno 必要最小限">必要最小限</a>なタンパク質の同定に成功したばかりでなく，それを補完する無細胞系の新たな<a href="#" class="anno 可能性">可能性</a>を提示するにいたった．<a href="#" class="anno 生物学">生物学</a>に残された大きな謎を解くための準備は着実に整いつつあるといえるだろう．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hirano, T. & Mitchison, T. J.</span>: <span class="ti">A heterodimeric coiled-coil protein required for mitotic chromosome condensation in vitro.</span> <span class='so'>Cell, 79, 449-458 (1994)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7954811" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Hirano, T., Kobayashi, R. & Hirano, M.</span>: <span class="ti">Condensins, chromosome condensation protein complexes containing XCAP-C, XCAP-E and a Xenopus homolog of the Drosophila Barren protein.</span> <span class='so'>Cell, 89, 511-521 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9160743" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Hirano, T.</span>: <span class="ti">Condensin-based chromosome organization from bacteria to vertebrates.</span> <span class='so'>Cell, 164, 847-857 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26919425" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Uhlmann, F.</span>: <span class="ti">SMC complexes: from DNA to chromosomes.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 17, 399-412 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27075410" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Ohta, S., Bukowski-Wills, J. C., Sanchez-Pulido, L. et al.</span>: <span class="ti">The protein composition of mitotic chromosomes determined using multiclassifier combinatorial proteomics.</span> <span class='so'>Cell, 142, 810-821 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20813266" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Brykczynska, U., Hisano, M., Erkek, S. et al.</span>: <span class="ti">Repressive and active histone methylation mark distinct promoters in human and mouse spermatozoa.</span> <span class='so'>Nat. Struct. Mol. Biol., 17, 679-687 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20473313" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Zierhut, C., Jenness, C., Kimura, H. et al.</span>: <span class="ti">Nucleosomal regulation of chromatin composition and nuclear assembly revealed by histone depletion.</span> <span class='so'>Nat. Struct. Mol. Biol., 21, 617-625 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24952593" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Ray-Gallet, D., Quivy, J. P., Sillje, H. W. et al.</span>: <span class="ti">The histone chaperone Asf1 is dispensable for direct de novo histone deposition in <em>Xenopus</em> egg extracts.</span> <span class='so'>Chromosoma, 116, 487-496 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17576589" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Shintomi, K., Takahashi, T. S., & Hirano, T.</span>: <span class="ti">Reconstitution of mitotic chromatids with aminimum set of purified factors.</span> <span class='so'>Nat. Cell Biol., 17, 1014-1023 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26075356" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/10435" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R10"><span class='au'>Nishino, Y., Eltsov, M., Joti, Y. et al.</span>: <span class="ti">Human mitotic chromosomes consist predominantly of irregularly folded nucleosome fibres without a 30-nm chromatin structure.</span> <span class='so'>EMBO J., 31, 1644-1653 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22343941" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=PDB" target="_blank">PDB</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アミノ酸" target="_blank">アミノ酸配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=構造解析" target="_blank">構造解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=抗体" target="_blank">抗体解析</a></li><br></ul><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_04.html" target="_blank">3.4 Genetic Factors and Chromosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_07.html" target="_blank">3.7 Chromosomes and the Genome</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/18_03.html" target="_blank">18.3 Significance of Meiosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_09.html" target="_blank">3.9 Linkage</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/18_02.html" target="_blank">18.2 Somatic Cell Division (mitosis) and Meiosis</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">新冨 圭史（Keishi Shintomi）</span><br>略歴：2005年 東京工業大学大学院生命理工学研究科 修了，同年 米国Cold Spring Harbor Laboratoryポスドク，2007年 理化学研究所 ポスドクを経て，2011年より同 研究員．<br>研究テーマ：クロマチンにおいて起こるイベントの分子解剖および再構成．<br>関心事：アフリカツメガエルの卵抽出液を用いた研究の今後．<br><br><strong>平野 達也（Tatsuya Hirano）</strong><br>理化学研究所 主任研究員．<br>研究室URL：<a href="http://www.riken.jp/chromdyna/" target="_blank">http://www.riken.jp/chromdyna/</a><br></div><br>© 2017 新冨圭史・平野達也 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>i
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

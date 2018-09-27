@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> オートファジー始動複合体の形成の構造基盤 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/8761" rel="bookmark">オートファジー始動複合体の形成の構造基盤</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>藤岡優子・野田展生</strong><br>（微生物化学研究所 分子構造解析部）<br>email：<a href="mailto:fujioka@bikaken.or.jp">藤岡優子</a>，<a href="mailto:nn@bikaken.or.jp">野田展生</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.067">10.7875/first.author.2014.067</a><br><div class="reference"><br><span class="ti">Structural basis of starvation-induced assembly of the autophagy initiation complex.</span><br><span class="au">Yuko Fujioka, Sho W. Suzuki, Hayashi Yamamoto, Chika Kondo-Kakuta, Yayoi Kimura, Hisashi Hirano, Rinji Akada, Fuyuhiko Inagaki, Yoshinori Ohsumi, Nobuo N. Noda</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24793651" target="_blank"><em>Nature Structural & Molecular Biology</em>, <strong>21</strong>, 513-521 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 出芽酵母">出芽酵母</a>においてはP<a href="#" class="anno AS">AS</a>とよばれる<a href="#" class="anno 構造体">構造体</a>の形成が<a href="#" class="anno オートファジー">オートファジー</a>始動の最初のステップである．PASの形成には<a href="#" class="anno <a href="#" class="anno Atg1">Atg1</a>3">Atg13</a>が飢餓に依存して脱<a href="#" class="anno <a href="#" class="anno リン酸">リン酸</a>化">リン酸化</a>され，Atg1，Atg13，<a href="#" class="anno Atg17">Atg17</a>，<a href="#" class="anno Atg2">Atg2</a>9，<a href="#" class="anno Atg3">Atg3</a>1からなるAtg1<a href="#" class="anno 複合体">複合体</a>が形成されることが重要であるが，これまで，その詳細な<a href="#" class="anno 分子機構">分子機構</a>は明らかにされていなかった．筆者らは，Atg13においてAtg1およびAtg17との<a href="#" class="anno 結合領域">結合領域</a>を同定し，<a href="#" class="anno 小型化">小型化</a>したAtg1-Atg13複合体およびAtg13-Atg17-Atg29-Atg31複合体のX線<a href="#" class="anno 結晶構造">結晶構造</a>解析を行った．その結果，Atg13は<a href="#" class="anno M<a href="#" class="anno IM">IM</a>">MIM</a>と名づけた領域を用いてAtg1の<a href="#" class="anno <a href="#" class="anno C末端">C末端</a>側">C<a href="#" class="anno 末端側">末端側</a></a>にあるMITドメインの2つ並んだ球状構造と結合すること，一方，Atg13は17BRと名づけた短い領域を用いてAtg17の<a href="#" class="anno 疎水性">疎水性</a>ポケットと結合することが明らかになった．これらAtg1およびAtg17との<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a>は，Atg13の<a href="#" class="anno も">も</a>つ特定の<a href="#" class="anno Ser">Ser</a>が飢餓に依存して<a href="#" class="anno <a href="#" class="anno 脱リン酸">脱リン酸</a>化">脱リン酸化</a>されることにより増<a href="#" class="anno 強さ">強さ</a>れていた．以上の知見から，飢餓によるAtg13の脱リン酸化がAtg1およびAtg17との結合をとおしてPASの形成をひき起こし，その結果，オートファジーが始動するというモ<a href="#" class="anno デ">デ</a>ルが考えられた．<br/><br/><h2>はじめに</h2><br/>　オートファジーは<a href="#" class="anno 真核生物">真核生物</a>に保存された細胞における分解系である．その分解の対象は多岐にわたり，タンパク質や<a href="#" class="anno オルガネラ">オルガネラ</a>のほか，細胞に侵入した<a href="#" class="anno 病原体">病原体</a>までも分解することができる<a href="#R1"><sup>1)</sup></a>．オートファジーが誘導されると，突如として隔離膜とよばれるおわん状の膜構造が出現し，分解の対象を包み込みながら伸展する．隔離膜の端がつながると<a href="#" class="anno 二重">二重</a>膜により包まれた<a href="#" class="anno オート<a href="#" class="anno ファゴソーム">ファゴソーム</a>">オートファゴソーム</a>が形成される．つづいて，オートファゴソームの<a href="#" class="anno 外膜">外膜</a>が<a href="#" class="anno 液胞">液胞</a>あるいは<a href="#" class="anno リソソーム">リソソーム</a>と融合し，オートファゴソームの<a href="#" class="anno 内膜">内膜</a>と<a href="#" class="anno 内容物">内容物</a>が<a href="#" class="anno 消化酵素">消化酵素</a>により分解される．出芽酵母ではオートファゴソームの形成の過程において18ものオートファジー<a href="#" class="anno 関連タンパク質">関連タンパク質</a>（Atgタンパク質）が必須であることがわかっている<a href="#R2"><sup>2)</sup></a>（出芽酵母におけるオートファジーの研究については，<a href="http://leading.lifesciencedb.jp/1-e005/" target="_blank">荒木保弘・大隅良典, 領域融合レビュー, <strong>1</strong>, e005, 2012</a> も参照されたい）．これらAtgタンパク質は液胞の近傍にあるPAS（<a href="#" class="anno pre">pre</a>-autophagos<a href="#" class="anno oma">oma</a>l structure，プレオートオートファゴソーム構造体）とよばれる動的な構造体に局在する<a href="#R3"><sup>3)</sup></a>．隔離膜はPASから形成されるので，PASの構造および機能を明らかにすることはオートファゴソームの形成の分子機構を知るうえで<a href="#" class="anno 必要不可欠">必要不可欠</a>である．<br/>　個々のタンパク質に焦点を移すと，オートファジーは飢餓により強く誘導されるが，<a href="#" class="anno 実際">実際</a>に<a href="#" class="anno 栄養状態">栄養状態</a>を感知するのは<a href="#" class="anno TOR">TOR</a>複合体1であり，そのシグナルはAtg13にリン酸化という<a href="#" class="anno かた">かた</a>ちで伝達される<a href="#R4"><sup>4,5)</sup></a>．Atg13は富<a href="#" class="anno 栄養条件">栄養条件</a>においてはTOR複合体1に<a href="#" class="anno より高度">より高度</a>にリン酸化されているが，飢餓条件においてTOR複合体1の活性が阻害されるとAtg13はすみやかに脱リン酸化される<a href="#R5"><sup>5)</sup></a>．脱リン酸化したAtg13はAtgタンパク質のうち唯一の<a href="#" class="anno キナーゼ">キナーゼ</a>であるAtg1と結合し，さらに，Atg17-Atg29-Atg31複合体が結合することによりPASの足場となる複合体であるAtg1複合体（Atg1-Atg13-Atg17-Atg29-Atg31複合体，哺乳類では，<a href="#" class="anno ULK1">ULK1</a>複合体）を構築する<a href="#R6"><sup>6)</sup></a>．これらの相互作用はAtg1のもつ<a href="#" class="anno キナーゼ活性">キナーゼ活性</a>を上昇させるが，その上昇はオートファジーの始動において必須であることがわかっている<a href="#R5"><sup>5)</sup></a>．しかしながら，これまで，Atg13を介したAtg1複合体の形成の<a href="#" class="anno 構造基盤">構造基盤</a>は明らかにされておらず，これらのタンパク質がどのような相互作用により結合し，それらがリン酸化によりどのように制御されているのかは不明であった．<br/>　今回，筆者らは，Atg1-Atg13複合体およびAtg13-Atg17-Atg29-Atg31複合体のX線結晶<a href="#" class="anno 構造解析">構造解析</a>を行った．また，飢餓に依存して脱リン酸化されるAtg13の<a href="#" class="anno 残基">残基</a>を<a href="#" class="anno <a href="#" class="anno 質量分析">質量分析</a>法">質量<a href="#" class="anno 分析法">分析法</a></a>により<a href="#" class="anno 網羅的">網羅的</a>に同定した．得られた<a href="#" class="anno 立体構造">立体構造</a>および<a href="#" class="anno リン酸化部位">リン酸化部位</a>の情報にもとづき<em>in vivo</em>および<em><a href="#" class="anno in vitro">in vitro</a></em>における<a href="#" class="anno 変異解析">変異解析</a>を行い，Atg13の脱リン酸化がどのようにAtg1およびAtg17との結合を制御し，PASの構築をひき起こすのかを明らかにした．<br/><br/><h2>1．Atg1とAtg13との結合の様式とオートファジーにおける役割</h2><br/>　Atg13は<a href="#" class="anno N末端">N末端</a>にHOR<a href="#" class="anno MA">MA</a>ドメインをもつが<a href="#R7"><sup>7)</sup></a>，それ以外の約450残基は天然変性領域と予測される．Atg1との結合領域を同定した結果，天然変性領域にある62残基（残基番号460～521，このレビューにおける残基番号は，すべて出芽酵母の場合）がAtg1との結合において必要十分であった．Atg1は<a href="#" class="anno N末端側">N末端側</a>に<a href="#" class="anno キナーゼドメイン">キナーゼドメイン</a>をもち，C末端側には保存されたAtg13結合領域が存在する．<a href="#" class="anno 耐熱性">耐熱性</a>酵母<em>Kluyve<a href="#" class="anno rom">rom</a>yces marxianus</em>に由来するAtg1のAtg13結合領域とAtg13のAtg1結合領域を共<a href="#" class="anno 結晶化">結晶化</a>し，この小型化したAtg1-Atg13複合体の結晶構造を分解能2.2Åで決定した（PDB ID：<a href="http://service.pdbj.org/mine/Det<a href="#" class="anno ail">ail</a>2?PDBID=4p1n&amp;PAGEID=Summary" target="_blank">4P1N</a>，<a href="#F1">図1a</a>）．Atg1は3本のα<a href="#" class="anno ヘリックス">ヘリックス</a>からなるMITドメインが<a href="#" class="anno タンデム">タンデム</a>に2つ並び（N末端側から，<a href="#" class="anno MIT1">MIT1</a>およびMIT2と命名した），それらは互いに密接に相互作用することによりひとつの球状構造をとっていた．一方，Atg13は2本の<a href="#" class="anno αヘリックス">αヘリックス</a>がループでつながれた伸びた構造をとっており，N末端側のαヘリックスはMIT2と，C末端側のαヘリックスはMIT1と結合していた．Atg1とAtg13の結合の様式は，<a href="#" class="anno ESCRT">ESCRT</a>タンパク質などにおける<a href="#" class="anno タンパク質間相互作用">タンパク質間相互作用</a>に用いられるMITドメインとMIM領域との結合の様式と類似していた．そこで，Atg13のAtg1結合領域をAtg13<sup>MIM</sup>，また，Atg13<sup>MIM</sup>のN末端側をAtg13<sup>MIM(N)</sup>，C末端側をAtg13<sup>MIM(C)</sup> とよぶ．一方，Atg1のAtg13結合領域はAtg1<sup>tMIT</sup>とよぶ．Atg1<sup>tMIT</sup>とAtg13<sup>MIM</sup>の相互作用はおもに<a href="#" class="anno 疎水性相互作用">疎水性相互作用</a>であり，MIT1あるいはMIT2それぞれの表面にできた疎水性の溝にそいAtg13<sup>MIM</sup>のもつ2つのαヘリックスが結合していた．Atg1<sup>tMIT</sup>はAtg1のヒトの<a href="#" class="anno ホモログ">ホモログ</a>であるULK1にも保存されているが，ULK1の2つのMITドメインはヒトのAtg13の天然変性領域にある約60残基の領域と安定な複合体を形成することが確認された．このことから，Atg1<sup>tMIT</sup>とAtg13<sup>MIM</sup>との相互作用の様式が進化において保存されていることが示唆された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Atg13を介したAtg1複合体の構造基盤</strong><br/>（a）Atg1<sup>tMIT</sup>-Atg13<sup>MIM</sup>複合体の結晶構造．<br/>（b）Atg13<sup>17BR</sup>-Atg17-Atg29-Atg31複合体の結晶構造．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/05/Noda-Nature-Structural-Molecular-Biology-14.6.6-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Atg13を介したAtg1複合体の構造基盤" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Noda-Nature-Structural-Molecular-Biology-14.6.6-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Noda-Nature-Structural-Molecular-Biology-14.6.6-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　得られたAtg1<sup>tMIT</sup>-Atg13<sup>MIM</sup>複合体の結晶構造をもとに<a href="#" class="anno 変異体">変異体</a>の解析を行った．等温<a href="#" class="anno 滴定">滴定</a>型<a href="#" class="anno 熱量測定">熱量測定</a>により<a href="#" class="anno 解離定数">解離定数</a>を求めたところ，Atg13<sup>MIM(N)</sup> はAtg1<sup>tMIT</sup>に対し解離定数2.5μMの結合を示したのに対し，Atg13<sup>MIM(C)</sup> は<a href="#" class="anno 同じ">同じ</a>条件では結合を示さなかった．<a href="#" class="anno つまり">つまり</a>，Atg1<sup>tMIT</sup>とAtg13<sup>MIM</sup>との相互作用はおもにAtg13<sup>MIM(N)</sup> により担われていることが明らかになった．しかし，Atg13<sup>MIM</sup>とAtg1<sup>tMIT</sup>とでは解離定数0.36μMというより強い結合を示したことから，Atg13<sup>MIM(C)</sup> が<a href="#" class="anno 補助的">補助的</a>にはたらくことでAtg13<sup>MIM(N)</sup> とAtg1<sup>tMIT</sup>との結合を強固なものにしていると考えられた．また，結晶構造においてAtg1<sup>tMIT</sup>の疎水性のポケットにつきささっていたAtg13<sup>MIM(N)</sup> のPhe468あるいはLeu472をAlaに置換した変異体では結合はみられなかった．この変異体を発現した株では，Atg13<sup>MIM</sup><a href="#" class="anno <a href="#" class="anno 欠損変異">欠損変異</a>体">欠損変異体</a>を発現した株と同様に，飢餓条件においてもPASの形成が起こらず，オートファジー活性も示さなかった．また，Atg1の<a href="#" class="anno 活性化">活性化</a>の指標であるAtg1の<a href="#" class="anno 自己リン酸化">自己リン酸化</a>もこの変異体を発現した株では起こらなかった．これらのことから，得られたAtg1<sup>tMIT</sup>-Atg13<sup>MIM</sup>複合体の結晶構造は妥当なものであり，Atg1<sup>tMIT</sup>とAtg13<sup>MIM</sup>との結合がオートファジーにおいて必須であることが明らかになった．<br/><br/><h2>2．Atg13とAtg17との結合の様式とオートファジーにおける役割</h2><br/>　Atg13におけるAtg17結合領域を探索した結果，Atg13の天然変性領域に存在する<a href="#" class="anno わずか">わずか</a>13残基の領域（残基番号424～436）がAtg17との結合に十分であることがわかった．この領域を17BRと名づけ，Atg13の17BRをAtg13<sup>17BR</sup>とよぶ．最近，報告された<em>Lachancea th<a href="#" class="anno erm">erm</a>otole<a href="#" class="anno ran">ran</a>s</em>に由来するAtg17-Atg29-Atg31複合体の結晶構造<a href="#R8"><sup>8)</sup></a>（PDB ID：<a href="http://service.pdbj.org/mine/De<a href="#" class="anno tail">tail</a>2?PDBID=4hpq&amp;PAGEID=Summary" target="_blank">4HPQ</a>）を参考にして，それに<em>L</em>. <em>thermotolerans</em>に由来するAtg13<sup>17BR</sup>を<a href="#" class="anno <a href="#" class="anno 共結晶">共結晶</a>化">共結晶化</a>し，Atg13<sup>17BR</sup>-Atg17-Atg29-Atg31複合体の結晶構造を分解能3.2Åで決定した（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=4p1w&amp;PAGEID=Summary" target="_blank">4P1W</a>，<a href="#F1">図1b</a>）．Atg13<sup>17BR</sup>はAtg17のN末端の付近にある<a href="#" class="anno 疎水性ポケット">疎水性ポケット</a>に2つの<a href="#" class="anno 疎水性残基">疎水性残基</a>Phe430およびIle433をつきさして結合しており，さらに，Ser428およびSer429によりAtg17のA<a href="#" class="anno sp2">sp2</a>47と<a href="#" class="anno 水素結合">水素結合</a>を形成していた．<br/>　得られたAtg13<sup>17BR</sup>-Atg17-Atg29-Atg31複合体の結晶構造をもとに変異体の解析を行った．等温滴定型熱量測定の結果，<a href="#" class="anno 野生型">野生型</a>Atg17とAtg13<sup>17BR</sup>との解離定数は1.2μMという値を示したが，Asp247をAlaに置換したAtg17変異体ではAtg13<sup>17BR</sup>との結合は観測されなかった．相互作用にかかわるほかの残基の<a href="#" class="anno 重要性">重要性</a>についても，<a href="#" class="anno 免疫沈降">免疫沈降</a>実験により確認した．また，Asp247をAlaに置換したAtg17変異体を発現した株はPASの形成およびオートファジー活性を示さなかった．以上の結果から，得られたAtg13<sup>17BR</sup>-Atg17-Atg29-Atg31複合体の結晶構造は妥当なものであり，Atg13<sup>17BR</sup>とAtg17との結合がPASの形成およびオートファジーにおいて必須であることが明らかになった．<br/><br/><h2>3．Atg13<sup>MIM(C)</sup> のリン酸化がAtg1との結合を制御する</h2><br/>　Atg1<sup>tMIT</sup>とAtg13<sup>MIM</sup>との結合がどのように制御されているのかを明らかにするため，質量分析法によりAtg13のリン酸化の状態を調べた．TOR複合体1の<a href="#" class="anno 阻害剤">阻害剤</a>である<a href="#" class="anno ラパマイシン">ラパマイシン</a>を処理した出芽酵母から精製したAtg13と<a href="#" class="anno 未処理">未処理</a>の出芽酵母から精製したAtg13とを比べることにより，ラパマイシンの処理によりリン酸化のレベルが低下する51の残基を同定した．これらはAtg13<sup>MIM(N)</sup> には含まれずAtg13<sup>MIM(C)</sup> に含まれていたことから，Atg13<sup>MIM(C)</sup> に存在する5残基のSerをAspに置換した変異体を作製した．免疫沈降実験において，この変異体はラパマイシンを処理してもAtg1との結合はほとんどみられなくなった．等温滴定型熱量測定により解離定数を求めたところ，Atg1<sup>tMIT</sup>と5残基のSerをAspに置換したAtg13<sup>MIM</sup>変異体との解離定数は1.2μMという値を示した．この値はAtg1<sup>tMIT</sup>と野生型Atg13<sup>MIM</sup>との解離定数の約3倍であったことから，Atg13<sup>MIM(C)</sup> はAtg13<sup>MIM(N)</sup> との結合をリン酸化により十分には増強で<a href="#" class="anno きず">きず</a>，その結果，生体におけるAtg1-Atg13複合体の量は大きく減少すると考えられた．5残基のSerをAspに置換したAtg13変異体を発現した株では，野生型Atg13を発現した株に比べオートファジー活性が顕著に低下していたが，そのレベルはAtg13<sup>MIM(C)</sup> 欠損変異体を発現した株と同じ程度であった．<br/><br/><h2>4．Atg13<sup>17BR</sup>の脱リン酸化がAtg17との結合を誘導する</h2><br/>　Atg13とAtg17との結合もAtg1とAtg13との結合と同様に，飢餓により増加するので，Atg13のリン酸化が制御の鍵をにぎっていると考えられた．そこで，さきの質量分析法による結果においてAtg13<sup>17BR</sup>に注目したところ，Ser428およびSer429が含まれていた．さきに述べたように，Atg13のSer428およびSer429はAtg17のAsp247と水素結合を形成しており，Atg13<sup>17BR</sup>とAtg17との結合に必須であった．このSerがリン酸化されることはAsp247との水素結合を破壊するだけでなく，電荷的な反発もひき起こす．実際に，Ser429をAspに置換したAtg13変異体はAtg17との結合を示さなかった．また，この変異体を発現した株ではPASの形成がまったくみられず，オートファジー活性もほとんど示さなかった．<br/>　リン酸化Ser428およびリン酸化Ser429を<a href="#" class="anno 特異的">特異的</a>に認識する抗体を作製し，生体におけるこれらSerのリン酸化の状態を確認したところ，<a href="#" class="anno 富栄養">富栄養</a>条件においてはリン酸化が検出されたが，ラパマイシンを処理したとき，あるいは，飢餓条件においてリン酸化はほとんどみられなくなった．すなわち，Atg13のSer428およびSer429は富栄養条件においてリン酸化されており，飢餓により脱リン酸化することが示された．以上のことから，Atg13とAtg17との結合はAtg13のSer428およびSer429のリン酸化により負に制御されていることが明らかになった．<br/><br/><h2>5．飢餓によるAtg1複合体の形成のモデル</h2><br/>　今回，明らかにされた結晶構造や，それにもとづく<em>in vitro</em>および<em>in vivo</em>における解析の結果を要約したモデルはつぎのようなものである（<a href="#F2">図2</a>）．富栄養条件においてAtg13はTOR複合体1により高度にリン酸化されている．Atg1との結合領域は2つの領域に分かれており，Atg13<sup>MIM(N)</sup> がAtg1との結合の主要な部分を担っており，Atg13<sup>MIM(C)</sup> はAtg1との結合の制御にかかわっている．Atg13<sup>MIM(N)</sup> だけでもAtg1と結合できるが，Atg13<sup>MIM(C)</sup> が脱リン酸化されてAtg1との結合にくわわると，Atg1とAtg13との<a href="#" class="anno 親和性">親和性</a>は増強され，結果として，細胞におけるAtg1-Atg13複合体の割合が増加する．Atg13とAtg17との結合もリン酸化により制御されている．ただし，この場合は結合に直接的にかかわるAtg13のもつSerそれ自体がリン酸化により制御されており，このSerがリン酸化されると電荷的な反発によりAtg17と結合できなくなる．飢餓条件においてAtg13が脱リン酸化されると，Atg13がAtg1およびAtg17と強く結合することによりAtg1複合体（Atg1-Atg13-Atg17-Atg29-Atg31複合体）が完成し，それがPASの形成の足場となりオートファジーが始動する．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　飢餓によるAtg1複合体の形成のモデル</strong><br/>（a）富栄養条件においてAtg13は高度にリン酸化されており，Atg1<sup>tMIT</sup>が結合できるのはAtg13<sup>MIM(N)</sup> のみで，その親和性は低い．Atg17は結合できない．P：リン酸化．<br/>（b）飢餓条件においてAtg13は脱リン酸化されており，Atg13はAtg1<sup>tMIT</sup>およびAtg17と結合する．Atg17は二量体として存在するので，複合体の形成によりAtg1のキナーゼドメインどうしが近接する可能性がある．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/05/Noda-Nature-Structural-Molecular-Biology-14.6.6-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　飢餓によるAtg1複合体の形成のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Noda-Nature-Structural-Molecular-Biology-14.6.6-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Noda-Nature-Structural-Molecular-Biology-14.6.6-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　今回の論文では，出芽酵母におけるAtg1複合体の形成機構を解明したが，哺乳類ではULK1，Atg13，<a href="#" class="anno FIP2">FIP2</a>00，<a href="#" class="anno Atg10">Atg10</a>1のつくるULK1複合体がオートファジーの始動について同様の役割をはたすことが知られている<a href="#R9"><sup>9)</sup></a>．ULK1にはAtg1のMITドメインが保存されていることから，Atg13との相互作用はMITドメインとMIM領域との相互作用と考えられる．しかし，出芽酵母においてAtg1との結合の制御にはたらいているAtg13<sup>MIM(C)</sup> のもつSerは哺乳類のAtg13において保存されておらず，実際に，ULK1複合体は栄養状態にかかわらずつねにAtg13と結合していると報告されている．一方，Atg17とFIP200との配列<a href="#" class="anno <a href="#" class="anno 相同">相同</a>性">相同性</a>は低いが，Atg17と同様にFIP200も<a href="#" class="anno コイルドコイル">コイルドコイル</a>タンパク質と予測されること，また，<a href="#" class="anno 機能的">機能的</a>にも類似していることから，FIP200はAtg17の機能ホモログと考えられている<a href="#R10"><sup>10)</sup></a>．哺乳類の場合，FIP200もまた<a href="#" class="anno 恒常的">恒常的</a>にULK1と複合体を形成していると報告されている<a href="#R10"><sup>10)</sup></a>．しかしながら，出芽酵母におけるAtg13とAtg17との結合のリン酸化による厳密な制御を目のあたりにすると，哺乳類におけるAtg13とFIP200との結合もまたリン酸化により制御されていることが期待される．たとえば，ULK1複合体の状態を保ったまま，<a href="#" class="anno 構成タンパク質">構成タンパク質</a>のあいだの相互作用の組替えなどが脱リン酸化によりひき起こされる<a href="#" class="anno 可能性">可能性</a>も考えられる．<br/>　今回，明らかになった結晶構造にはAtg1のもつキナーゼドメインは含まれておらず，Atg1複合体の形成がAtg1のキナーゼ活性をどのように制御しているのかは<a href="#" class="anno 未解明">未解明</a>のままである．Atg1の活性化にはそれ自体の<a href="#" class="anno 二量体">二量体</a>化による自己リン酸化が重要であるとの報告があるので，Atg17が二量体として存在することが関係するというアイディアもうかぶが，全容の解明については，今後，行われるであろうキナーゼドメインを含んだ結晶構造の解析に期待したい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Mizushima, N. & Komatsu, M.</span>: <span class="ti">Autophagy: renovation of cells and tissues.</span> <span class='so'>Cell, 147, 728-741 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22078875" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Mizushima, N., Yoshimori, T. & Ohsumi, Y.</span>: <span class="ti">The role of Atg proteins in autophagosome formation.</span> <span class='so'>Annu. Rev. Cell Dev. Biol., 27, 107-132 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21801009" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Suzuki, K. & Ohsumi, Y.</span>: <span class="ti">Current knowledge of the pre-autophagosomal structure (PAS).</span> <span class='so'>FEBS Lett., 584, 1280-1286 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20138172" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Noda, T. & Ohsumi, Y.</span>: <span class="ti">Tor, a phosphatidylinositol kinase homologue, controls autophagy in yeast.</span> <span class='so'>J. Biol. Chem., 273, 3963-3966 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9461583" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kamada, Y., Funakoshi, T., Shintani, T. et al.</span>: <span class="ti">Tor-mediated induction of autophagy via an Apg1 protein kinase complex.</span> <span class='so'>J. Cell Biol., 150, 1507-1513 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10995454" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Kawamata, T., Kamada, Y., Kabeya, Y. et al.</span>: <span class="ti">Organization of the pre-autophagosomal structure responsible for autophagosome formation.</span> <span class='so'>Mol. Biol. Cell, 19, 2039-2050 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18287526" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Jao, C. C., Ragusa, M. J., Stanley, R. E. et al.</span>: <span class="ti">A HORMA domain in Atg13 mediates PI 3-kinase recruitment in autophagy.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 110, 5486-5491 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23509291" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Ragusa, M. J., Stanley, R. E., & Hurley, J. H.</span>: <span class="ti">Architecture of the Atg17 complex as a scaffold for autophagosome biogenesis.</span> <span class='so'>Cell, 151, 1501-1512 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23219485" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Mizushima, N.</span>: <span class="ti">The role of the Atg1/ULK1 complex in autophagy regulation.</span> <span class='so'>Curr. Opin. Cell Biol., 22, 132-139 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20056399" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Hara, T., Takamura, A., Kishi, C. et al.</span>: <span class="ti">FIP200, a ULK-interacting protein, is required for autophagosome formation in mammalian cells.</span> <span class='so'>J. Cell Biol., 181, 497-510 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18443221" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_08.html" target="_blank">12.8 Autophagy</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_02.html" target="_blank">14.2 Basic Mechanisms of Intracellular Signal Transduction</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/13_02.html" target="_blank">13.2 Cell Cycle Regulation Factors: Cyclin-CDK Complex</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_06.html" target="_blank">9.6 Formation of Higher-order Structure and Post-translational Modification</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/13_03.html" target="_blank">13.3 Checkpoint mechanisms in the cell cycle</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">藤岡 優子（Yuko Fujioka）</span><br>略歴：2009年 北海道大学大学院薬学研究科にて博士号取得，同 研究員を経て，2011年より微生物化学研究所 博士研究員．<br>研究テーマ：オートファジーの構造生物学．<br>関心事：子供の成長，結晶の成長．<br><br><strong>野田 展生（Nobuo N. Noda）</strong><br>微生物化学研究所 主席研究員．<br></div><br>© 2014 藤岡優子・野田展生 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

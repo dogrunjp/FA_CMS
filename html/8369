@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> iPS細胞における環状染色体の自己修復 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/8369" rel="bookmark">iPS細胞における環状染色体の自己修復</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>林 洋平・山中伸弥</strong><br>（米国Gladstone Institute of Cardiovascular Disease）<br>email：<a href="mailto:yohei.hayashi@glastone.ucsf.edu">林 洋平</a>，<a href="mailto:yamanaka@cira.u-kyoto.ac.jp">山中伸弥</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.026">10.7875/first.author.2014.026</a><br><div class="reference"><br><span class="ti">Cell-autonomous correction of ring chromosomes in human induced pluripotent stem cells.</span><br><span class="au">Marina Bershteyn, Yohei Hayashi, Guillaume Desachy, Edward C. Hsiao, Salma Sami, Kathryn M. Tsang, Lauren A. Weiss, Arnold R. Kriegstein, Shinya Yamanaka, Anthony Wynshaw-Boris</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24413397" target="_blank"><em>Nature</em>, <strong>507</strong>, 99-103 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　環状<a href="#" class="anno 染色体">染色体</a>は，<a href="#" class="anno 一般的">一般的</a>に同一の染色体の<a href="#" class="anno 長腕">長腕</a>および<a href="#" class="anno 短腕">短腕</a>の末端が<a href="#" class="anno 欠失">欠失</a>をと<a href="#" class="anno も">も</a>ない融合することにより形成される．先天的な<a href="#" class="anno 環状染色体">環状染色体</a>の形成はさまざまな<a href="#" class="anno 発育異常">発育異常</a>や<a href="#" class="anno 精神遅滞">精神遅滞</a>に関与することが知られている．しかし，ほかの<a href="#" class="anno 染色体異常">染色体異常</a>と同様に，これらの疾患に対する<a href="#" class="anno 根本的">根本的</a>な<a href="#" class="anno 治療法">治療法</a>は存在しない．また，脊椎動物において環状染色体を<a href="#" class="anno 再現性">再現性</a>よく形成できるモ<a href="#" class="anno デ">デ</a>ルがないため，その挙動や機構については<a href="#" class="anno 未解明">未解明</a>な点が多い．そこで，筆者らは，環状染色体をもつ患者から<a href="#" class="anno iPS細胞">iPS細胞</a>を作製した．解析の結果，<a href="#" class="anno 予想外">予想外</a>にも，樹立されたiPS<a href="#" class="anno 細胞株">細胞株</a>のほとんどは環状染色体を失い，染色体の<a href="#" class="anno 不分離">不分離</a>により片親性ダ<a href="#" class="anno イソ">イソ</a>ミーへと変化していることが見い出された．これらの結果は，<a href="#" class="anno <a href="#" class="anno 多能性">多能性</a><a href="#" class="anno 幹細胞">幹細胞</a>">多能性幹細胞</a>の維持における<a href="#" class="anno 染色体分配">染色体分配</a>の制御について新たな知見をもたらすものであり，iPS細胞を用いた新しい“染色体治療”の<a href="#" class="anno 可能性">可能性</a>を示唆した．<br/><br/><h2>はじめに</h2><br/>　環状染色体は1926年にショウジョウバエにおいて<a href="#R1"><sup>1)</sup></a>，ついで，1938年にトウモロコシにおいて発見された<a href="#R2"><sup>2)</sup></a>，<a href="#" class="anno 古典的">古典的</a>な染色体異常の例として知られており，一般的に同一の染色体の長腕および短腕の末端が欠失をともない融合することにより形成される．ヒトでは1962年から環状染色体の<a href="#" class="anno 臨床例">臨床例</a>があいついで報告され，これまでに先天的な疾患やがんへの関与が知られている．これらの病態について個々の患者の症状は千差万別であり，一般的な“環状染色体症候群”としては定義されていない<a href="#R3"><sup>3)</sup></a>．その理由として，環状染色体はおのおのの染色体において生じうること，個々の環状染色体の形成にともなう欠失の<a href="#" class="anno 大きさ">大きさ</a>あるいは部位は異なること，一般的に環状染色体は<a href="#" class="anno 細胞分<a href="#" class="anno 裂">裂</a>">細胞分裂</a>の際に不安定だがその<a href="#" class="anno 不安定さ">不安定さ</a>は個々の細胞株により異なること，さらに，非常にまれであり<a href="#" class="anno 出現頻度">出現頻度</a>の推定がむずかしいこと，などがあげられる．現在でも，ほかの染色体異常によりひき起こされる疾患と同様に，環状染色体そのものにアプローチする根本的な治療法はなく，患者ごとに対症療法が実施されている．<br/>　環状染色体の動態あるいは形成機構を解明するための<a href="#" class="anno モデル系">モデル系</a>としては，さきのトウモロコシやショウジョウバエのようなモデル生物を利用したものがあげられる．また，放射線や紫外線の照射により環状染色体の形成が誘発されることが知られている．しかし，脊椎動物において安定した環状染色体をもつ<a href="#" class="anno 細胞モデル">細胞モデル</a>は知られておらず，環状染色体がもたらす病態の解明につながるような分子<a href="#" class="anno <a href="#" class="anno 生物学">生物学</a>的">生物学的</a>な知見には不明な点が多かった．そこで，筆者らは，ヒトの細胞における環状染色体の動態とそれがもたらす病態のモデルを開発するため，環状染色体をともなう疾患の患者に由来する繊維<a href="#" class="anno 芽細胞">芽細胞</a>からiPS細胞（induced pluripotent stem <a href="#" class="anno c<a href="#" class="anno ell">ell</a>">cell</a>，<a href="#" class="anno 人工多能性幹細胞">人工多能性幹細胞</a>）を作製した<a href="#R4"><sup>4)</sup></a>．その結果，予想外にも，環状染色体を安定に保持したiPS細胞株は作製が困難であった代わり，ほとんどは環状染色体を失い，もう一方の正常な染色体が染色体の不分離により<a href="#" class="anno 片親性ダイソミー">片親性ダイソミー</a>へと変化したiPS細胞株が得られた．<br/><br/><h2> 1．<a href="#" class="anno 第17染色体">第17染色体</a>の環状染色体をもつ<a href="#" class="anno 繊維芽細胞">繊維芽細胞</a>からの片親性ダイソミーのiPS細胞の作製</h2><br/>　<a href="#" class="anno Miller-Dieker症候群">Miller-Dieker症候群</a>は第17染色体の短腕の末端の欠失に起因する，<a href="#" class="anno 重篤">重篤</a>な<a href="#" class="anno 滑脳症">滑脳症</a>がおもな症状の<a href="#" class="anno 優性遺伝">優性遺伝</a>病である<a href="#R5"><sup>5)</sup></a>．第17染色体の環状染色体をもつMiller-Dieker症候群の患者1人の繊維芽細胞，および，環状染色体は形成せず欠失のみをもつMiller-Dieker症候群の患者2人の繊維芽細胞からそれぞれiPS細胞を作製し，その特徴を比較した．iPS細胞を作製する方法としては，筆者らの<a href="#" class="anno 研究室">研究室</a>で開発した，エピソーマル<a href="#" class="anno プラスミド">プラスミド</a>を<a href="#" class="anno エレクトロポレーション">エレクトロポレーション</a>により導入する方法を用いた<a href="#R6"><sup>6,7)</sup></a>．環状染色体をもつ患者に由来するiPS<a href="#" class="anno 細胞様">細胞様</a>の6個のコロニーをピックアップし，5回の<a href="#" class="anno 継代">継代</a>の段階でその<a href="#" class="anno 核型">核型</a>を解析した．その結果，6株のうち4株のほとんど（90％以上）の細胞において環状染色体は欠失し正常な核型を示した．また，<a href="#" class="anno DNAフィンガープリンティング">DNAフィンガープリンティング</a>の結果から，これらのiPS細胞株は環状染色体をもつ患者に由来することが確認された．これらのiPS細胞株は<a href="#" class="anno 未分化">未分化</a>様の形態を維持し順調に増殖した．さらに，これらのiPS細胞株が多能性をもつことを胚葉体と<a href="#" class="anno テラトーマ">テラトーマ</a>それぞれの形成による三胚葉<a href="#" class="anno 分化誘導">分化誘導</a>実験により確認した．また，iPS細胞の作製に用いた<a href="#" class="anno プラスミドDNA">プラスミドDNA</a>のゲノムへの挿入はみられなかった．残りの2株は半分以上の細胞において環状染色体を維持していたが，突発的に分化したり<a href="#" class="anno 細胞死">細胞死</a>を起こしたりする細胞が多く，正常なiPS細胞株として維持できなかった．また，環状染色体は形成せず欠失のみをもつ患者に由来するiPS細胞株も正常に樹立することができた．核型の解析により，これらのiPS細胞株には第17染色体の短腕の末端の欠失が確認された．以上の結果から，第17環状染色体をもつ患者に由来するiPS細胞株において正常な核型がみられたのは，第17染色体の短腕の末端の欠失が理由ではなく，環状染色体の形成に起因すると推測された．<br/>　環状染色体をもつ患者に由来するiPS細胞株が正常な核型を示した理由についてさらに検討するため，<a href="#" class="anno SNP">SNP</a>アレイを用いて解析した．その結果，環状染色体をもつ患者ならびに環状染色体は形成せず欠失のみをもつ患者の繊維芽細胞，および，環状染色体は形成せず欠失のみをもつ患者に由来するiPS細胞株において，第17染色体の短腕の末端の欠失が確認された．一方，環状染色体をもつ患者に由来し正常な核型を示したiPS細胞株では，この欠失は消失し，どの染色体も2コピーが保持されていた．また，おのおののSNPが<a href="#" class="anno ヘテロ">ヘテロ</a>接合か<a href="#" class="anno ホモ接合">ホモ接合</a>かどうかを解析したところ，環状染色体をもつ患者に由来するiPS細胞株は第17染色体のほぼすべてのSNPがホモ接合であることが示された（ほかの染色体では，繊維芽細胞と<a href="#" class="anno 同じ">同じ</a>ように，<a href="#" class="anno ヘテロ接合">ヘテロ接合</a>とホモ接合が混在していた）．以上の結果は，環状染色体をもつ患者に由来する正常な核型を示すiPS細胞株は，環状染色体ではないもう片方の完全な第17染色体が染色体の不分離により重複した片親性ダイソミーであることを示した．<br/>　この片親性ダイソミーの染色体が両方とも機能しているかどうか検討した．Miller-Dieker症候群において欠失している染色体の領域には<em>L<a href="#" class="anno IS">IS</a>1</em>遺伝子および<em>14-3-3e</em>遺伝子があり，その病態において重要であることが知られている．これらの遺伝子の<a href="#" class="anno DNA量">DNA量</a>およびタンパク質の<a href="#" class="anno 発現量">発現量</a>をそれぞれの細胞について比較した．環状染色体をもつ患者の繊維芽細胞は，ほかの患者に由来する繊維芽細胞と同様に，これら遺伝子のDNA量およびタンパク質の発現量は<a href="#" class="anno 野生型">野生型</a>の繊維芽細胞と比較してほぼ半減していた．一方，環状染色体をもつ患者に由来する正常な核型を示したiPS細胞株では，これらの量が野生型のiPS細胞と同じ程度にまで回復していた．環状染色体は形成せず欠失のみをもつ患者に由来するiPS細胞でも，これらの量はほぼ半減していた．以上の結果は，環状染色体をもつ患者に由来するiPS細胞株において，片親性ダイソミーとなった2つの染色体それぞれから正常にタンパク質が発現されていることを示した．<br/><br/><h2> 2．<a href="#" class="anno 第13染色体">第13染色体</a>の環状染色体をもつ繊維芽細胞からの片親性ダイソミーのiPS細胞の作製</h2><br/>　第17染色体について見い出された結果がほかの染色体での環状染色体の形成においてもみられるかどうか検討するため，第13染色体の環状染色体をもつ2例の繊維芽細胞について解析した．これらの第13染色体の環状染色体はそれぞれ別の領域の欠失をともない，さまざまな組織の<a href="#" class="anno 形成不全">形成不全</a>をともなう<a href="#" class="anno 成長遅延">成長遅延</a>ひき起こしていた．<br/>　これらの繊維芽細胞は80％以上の頻度で環状染色体を保持しており，この段階で正常な核型を示す細胞はみられなかった．これらの繊維芽細胞からiPS細胞を作製しその核型を同定した．その結果，<a href="#" class="anno 継代数">継代数</a>が8以上でほとんどすべての細胞が正常な核型を示す株がみられた．その一方，ある株では継代数が12になっても半分以上の細胞が環状染色体を保持していた．興味深いことに，別のある株では継代数が6の時点では90％以上の細胞が環状染色体を保持していたが，継代数が12の時点ではそのほとんどが正常な核型に置き換わっていた．DNAフィンガープリンティングの結果から，これらすべての試料は第13染色体の環状染色体を含む細胞に由来することが確認された．<br/>　これらの細胞株を<a href="#" class="anno SNPアレイ">SNPアレイ</a>を用いて解析したところ，繊維芽細胞では環状染色体の形成にともなう第13染色体の欠失が確認された．一方，これらの繊維芽細胞に由来するiPS細胞株，とくに正常な核型を示す細胞が大半のものでは，これらの欠失は消失していた．さらに，第13染色体のおのおののSNPがヘテロ接合かホモ接合かどうかを解析したところ，これらのiPS細胞では繊維芽細胞においてみられたヘテロ接合がホモ接合に置き換わっていた．以上の結果から，これらのiPS細胞株は片親性ダイソミーの第13染色体を保持していることが示された．また，これらのiPS細胞株は胚葉体とテラトーマそれぞれの形成による三胚葉分化誘導実験により多能性をもつことが確認された．さらにiPS細胞の作製に用いたプラスミドDNAのゲノムへの挿入はみられなかった．<br/>　以上の結果から，第17染色体の環状染色体のみならず，第13染色体の環状染色体をともなう細胞から樹立された大半のiPS細胞株においても，環状染色体の消失と片親性ダイソミーへの変化が観察された．今後の展望として，この結果がさらにほかの染色体における環状染色体においてもみられるかどうか，検証を重ねることは興味深い．<br/><br/><h2> 3．片親性ダイソミーのiPS細胞株の出現に関する考察</h2><br/>　今回の研究により，第17染色体あるいは第13染色体の環状染色体をもつ繊維芽細胞から<a href="#" class="anno 高頻度">高頻度</a>で片親性ダイソミーのiPS細胞が得られることを見い<a href="#" class="anno 出し">出し</a>た（<a href="#F1">図1</a>）．このような結果が得られた理由を，以上で得られた<a href="#" class="anno 実験結果">実験結果</a>から考察した．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　環状染色体をもつ繊維芽細胞から作製された片親性ダイソミーのiPS細胞</strong><br/>それぞれの染色体の構成と出現の頻度を示した．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2014/02/Yamanaka-Nature-14.2.13-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　環状染色体をもつ繊維芽細胞から作製された片親性ダイソミーのiPS細胞" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamanaka-Nature-14.2.13-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamanaka-Nature-14.2.13-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　まず，どのような染色体の構成をへて片親性ダイソミーの細胞が得られたのかを考えた．その過程において，環状染色体の脱落が起こる，もう一方の完全な染色体が染色体の不分離により重複する，という2つのステップがそれぞれ独立して起こったことが想定された．そこで，それらのステップが起こった順序および時期を推定した．今回の核型の解析では，繊維芽細胞あるいはiPS細胞の一部に環状染色体およびその<a href="#" class="anno <a href="#" class="anno <a href="#" class="anno 相">相</a>同">相同</a>染色体">相同染色体</a>がすべて脱落した細胞が出現したのに対して，環状染色体およびその2つの相同染色体をもつ細胞はほとんどみられなかった．また，DNA蛍光<em>in <a href="#" class="anno sit">sit</a>u</em><a href="#" class="anno ハイブリダイゼーション">ハイブリダイゼーション</a>法においても，このような細胞はほぼみられなかった．以上の結果から，片親性ダイソミーにいたる<a href="#" class="anno 中間状態">中間状態</a>として，繊維芽細胞，または，iPS細胞への<a href="#" class="anno リプログ<a href="#" class="anno ラミン">ラミン</a>グ">リプログラミング</a>の途中で，環状染色体が脱落した<a href="#" class="anno モノソミー">モノソミー</a>の細胞が出現したと考えられた．<br/>　つぎに，どのようにして大半の細胞が片親性ダイソミーの細胞になったのかを考えた．モノソミーから片親性ダイソミーにいたる様式として，染色体の不分離がまれな頻度で起こったことが想定された．<a href="#" class="anno 具体的">具体的</a>な頻度は明らかではないが，<a href="#" class="anno 結果的">結果的</a>に片親性ダイソミーの細胞が大半をしめていたことから，<a href="#" class="anno 培養条件">培養条件</a>においてなんらかの淘汰<a href="#" class="anno 圧">圧</a>が存在していたと考えられた．今回の核型の解析およびDNA蛍光<em>in situ</em>ハイブリダイゼーション法の結果から，第17染色体の片親性ダイソミーの細胞が大半をしめるiPS細胞株において，<a href="#" class="anno 分裂中期">分裂中期</a>の細胞を対象とした核型の解析ではほぼすべての細胞が片親性ダイソミーを示していたのに対し，すべての細胞を対象としたDNA蛍光<em>in situ</em>ハイブリダイゼーション法では一部の細胞において環状染色体をもつ細胞やモノソミーの細胞の残存が示唆された．この結果から，片親性ダイソミーの細胞は環状染色体をもつ細胞やモノソミーの細胞よりも分裂がさかんであり（生存および増殖に有利であり），培養条件において優勢となったと考えられた．<br/>　今後の研究では，これらの過程の機構を<a href="#" class="anno 分子的">分子的</a>に解明することが望まれる．<br/><br/><h2>おわりに</h2><br/>　今回の研究では，環状染色体をともなう疾患の患者に由来するiPS細胞では，高頻度に環状染色体が消失し片親性ダイソミーへと変化するという結果を得た．この結果は，多能性幹細胞やヒトの<a href="#" class="anno 発生初期">発生初期</a>における染色体分配の<a href="#" class="anno 制御機構">制御機構</a>について新しい知見をもたらすと考えられる．これまで，ヒト多能性幹細胞<a href="#R8"><sup>8)</sup></a> やヒトの<a href="#" class="anno 初期胚">初期胚</a>の細胞<a href="#R9"><sup>9)</sup></a> における<a href="#" class="anno 染色体数">染色体数</a>の維持に対する不<a href="#" class="anno 安定性">安定性</a>が報告されている．今回の結果は，この<a href="#" class="anno 不安定性">不安定性</a>を逆手にとる<a href="#" class="anno かた">かた</a>ちで，正常な核型を示すiPS細胞が高頻度に得られたと考えられた．<br/>　この結果の臨床面への応用として，染色体異常をもつ患者からiPS細胞を作製し，その過程で染色体異常を片親性ダイソミーとして修正して，さらに再生<a href="#" class="anno 移植医療">移植医療</a>を実施することが考えられる．もっとも，片親性ダイソミーには両親から受け継いだ正常な1対の染色体と比較して，大きく2つのリスクをかかえている<a href="#R10"><sup>10)</sup></a>．まずひとつは，<a href="#" class="anno <a href="#" class="anno インプリンティング">インプリンティング</a>遺伝子">インプリンティング遺伝子</a>の異常である．<a href="#" class="anno 体細胞">体細胞</a>におけるインプリンティング遺伝子の発現の制御は父親に由来する染色体と母親に由来する染色体とでそれぞれ異なっているが，片親性ダイソミーでは両方の染色体においてその制御が同一となってしまうため，組織の分化や維持に異常をきたす場合がある．もうひとつは，ヘテロ接合では<a href="#" class="anno 表現型">表現型</a>に現われないような劣性変異が片親性ダイソミーでは<a href="#" class="anno 顕在化">顕在化</a>する可能性である．今後の研究により，これらのリスクをiPS細胞からの分化誘導系や組織移植系において評価することが重要であると考えられる．以上の課題をクリアできた場合（さらに，もちろんiPS細胞からの再生移植医療がうまくいくことが<a href="#" class="anno 最重要">最重要</a>だが），今回の研究は環状染色体というまれな染色体異常を出発点としたが，ほかの一般的な染色体異常についても，異常をもつ染色体を，たとえば環状染色体の形成をへるなどして脱落させ，そこから片親性ダイソミーのiPS細胞株を作製することにより，“染色体治療”を含めたiPS細胞からの再生移植医療が展開できるのではないかと期待される．このような方法は，実現のためには<a href="#" class="anno 技術的">技術的</a>な課題も多いが，現在の<a href="#" class="anno ゲノム編集">ゲノム編集</a>技術では対応できない<a href="#" class="anno 大規模">大規模</a>な染色体異常に対し有効な治療法になりうるのではないかと考えられる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Morgan, L. V.</span>: <span class="ti">Correlation between shape and behavior of a chromosome.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 12, 180-181 (1926)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16576974" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>McClintock, B.</span>: <span class="ti">The production of homozygous deficient tissues with mutant characteristics by means of the aberrant mitotic behavior of ring-shaped chromosomes.</span> <span class='so'>Genetics, 23, 315-376 (1938)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17246891" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Kosztolanyi, G.</span>: <span class="ti">Does "ring syndrome" exist? An analysis of 207 case reports on patients with a ring autosome.</span> <span class='so'>Hum. Genet., 75, 174-179 (1987)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/3817812" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Takahashi, K., Tanabe, K., Ohnuki, M. et al.</span>: <span class="ti">Induction of pluripotent stem cells from adult human fibroblasts by defined factors.</span> <span class='so'>Cell, 131, 861-872 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18035408" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Wynshaw-Boris, A., Pramparo, T., Youn, Y. H. et al.</span>: <span class="ti">Lissencephaly: mechanistic insights from animal models and potential therapeutic strategies.</span> <span class='so'>Semin. Cell Dev. Biol., 21, 823-830 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20688183" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Okita, K., Matsumura, Y., Sato, Y. et al.</span>: <span class="ti">A more efficient method to generate integration-free human iPS cells.</span> <span class='so'>Nat. Methods, 8, 409-412 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21460823" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Matsumoto, Y., Hayashi, Y., Schlieve, C. R. et al.</span>: <span class="ti">Induced pluripotent stem cells from patients with human fibrodysplasia ossificans progressiva show increased mineralization and cartilage formation.</span> <span class='so'>Orphanet J. Rare Dis., 8, 190-204 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24321451" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Spits, C., Mateizel, I., Geens, M. et al.</span>: <span class="ti">Recurrent chromosomal abnormalities in human embryonic stem cells.</span> <span class='so'>Nat. Biotechnol., 26, 1361-1363 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19029912" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Vanneste, E., Voet, T., Caignec, C. L. et al.</span>: <span class="ti">Chromosome instability is common in human cleavage-stage embryos.</span> <span class='so'>Nat. Med., 15, 577-583 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19396175" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Robinson, W. P.</span>: <span class="ti">Mechanisms leading to uniparental disomy and their clinical consequences.</span> <span class='so'>Bioessays, 22, 452-459 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10797485" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_04.html" target="_blank">3.4 Genetic Factors and Chromosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/19_04.html" target="_blank">19.4 Cell Differentiation and Stem Cells</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_07.html" target="_blank">3.7 Chromosomes and the Genome</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/18_03.html" target="_blank">18.3 Significance of Meiosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_09.html" target="_blank">3.9 Linkage</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">林  洋平（Yohei Hayashi）</span><br>略歴：2009年 東京大学大学院総合文化研究科博士課程 修了，同年より米国Gladstone Institute of Cardiovascular Disease博士研究員．<br>研究テーマ：稀少な疾患に特異的なiPS細胞およびそれを用いた疾患モデルの作製．<br>抱負：稀少な疾患の同定からiPS細胞の病態モデル，そして，創薬あるいは治療法の開発へと，“一気通貫”の研究を完成させたい．<br><br><strong>山中 伸弥（Shinya Yamanaka）</strong><br>京都大学iPS細胞研究所 所長．米国Gladstone Institute of Cardiovascular DiseaseにてSenior Investigator併任．<br>研究室URL：<a href="http://labs.gladstone.ucsf.edu/yamanaka" target="_blank">http://labs.gladstone.ucsf.edu/yamanaka</a><br></div><br>© 2014 林 洋平・山中伸弥 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

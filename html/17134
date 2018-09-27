@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 概日時計の機能の再編成が映す老化の代謝特性 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/17134" rel="bookmark">概日時計の機能の再編成が映す老化の代謝特性</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>佐藤章悟・Paolo Sassone-Corsi</strong><br>（米国California大学Irvine校Center for Epigenetics and Metabolism）<br>email：<a href="mailto:satos1@uci.edu">佐藤章悟</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.099">10.7875/first.author.2017.099</a><br><div class="reference"><br><span class="ti">Circadian reprogramming in the liver identifies metabolic pathways of aging.</span><br><span class="au">Shogo Sato, Guiomar Solanas, Francisca Oliveira Peixoto, Leonardo Bee, Aikaterini Symeonidi, Mark S. Schmidt, Charles Brenner, Selma Masri, Salvador Aznar Benitah, Paolo Sassone-Corsi</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28802039" target="_blank"><em>Cell</em>, <strong>170</strong>, 664-677.e11 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　老化と<a href="#" class="anno 概日リズム">概日リズム</a>の劣化は水魚之交であるが，<a href="#" class="anno 末梢組織">末梢組織</a>において代謝を制御する<a href="#" class="anno 概日時計">概日時計</a>に対し老化はどのように影響するのだろうか．また，<a href="#" class="anno カ">カ</a>ロリーの摂取の制限は代謝の改善および延命を<a href="#" class="anno も">も</a>たらすが，概日時計と代謝との<a href="#" class="anno <a href="#" class="anno 相">相</a>互関係">相互関係</a>をどのように修飾するのだろうか．この研究においては，通常食あるいは<a href="#" class="anno カロリー制限">カロリー制限</a>食を負荷した<a href="#" class="anno 若齢">若齢</a>あるいは老齢のマウスの肝臓における概日リズムを示す<a href="#" class="anno 転写産物">転写産物</a>の<a href="#" class="anno プロファイリング">プロファイリング</a>により，老化に特有な代謝，とくに，タンパク質の<a href="#" class="anno アセチル">アセチル</a>化修飾に関与する<a href="#" class="anno 代謝経路">代謝経路</a>の<a href="#" class="anno 再編成">再編成</a>が進行することが明らかにされた．<a href="#" class="anno 実際">実際</a>に，若齢のマウスの肝臓においてみられた全タンパク質の<a href="#" class="anno アセチル化">アセチル化</a>修飾の概日リズムは，老齢のマウスにおいて消失していた．また，カロリーの摂取の制限は<a href="#" class="anno NAD">NAD</a><sup>+</sup>-S<a href="#" class="anno IRT">IRT</a>1代謝経路において概日時計の制御を向上させ，タンパク質のアセチル化修飾を亢進することが示された．この研究により，末梢組織の概日時計がタンパク質のアセチル化修飾を中心とした肝臓の代謝と老化を仲介することが示唆された．<br/><br/><h2>はじめに</h2><br/>　生物のもつ概日時計は，地球の自転がつくりだす明暗のサイクルに同調し行動や<a href="#" class="anno 生理機能">生理機能</a>に概日リズムを生じさせる．概日リズムは24時間周期の転写-翻訳<a href="#" class="anno フィードバックループ">フィードバックループ</a>により制御される．この<a href="#" class="anno 分子機構">分子機構</a>の中心を担うコア<a href="#" class="anno 時計遺伝子">時計遺伝子</a>の産物であるB<a href="#" class="anno MA">MA</a><a href="#" class="anno L1">L1</a>および<a href="#" class="anno C<a href="#" class="anno LOC">LOC</a>K">CLOCK</a>は，<a href="#" class="anno 転写因子">転写因子</a>として標的となる多くの遺伝子の発現の概日リズムも制御する．<a href="#" class="anno そのため">そのため</a>，不規則なライフスタイルにともなう概日時計の機能の障害，あるいは，時計遺伝子そのものの<a href="#" class="anno 遺伝的">遺伝的</a>な変異により，代謝や免疫などの生理機能の概日リズムは破綻し，高血<a href="#" class="anno 圧">圧</a>や<a href="#" class="anno 糖尿病">糖尿病</a>などの<a href="#" class="anno 代謝性">代謝性</a>あるいは慢性<a href="#" class="anno 炎症性">炎症性</a>の疾患の引き金にもなる．<br/>　<a href="#" class="anno <a href="#" class="anno 生物学">生物学</a>的">生物学的</a>な老化の特徴として，ミトコンドリアの機能の不全，インスリン<a href="#" class="anno 抵抗性">抵抗性</a>など代謝の<a href="#" class="anno 恒常性">恒常性</a>を維持する機能の劣化，<a href="#" class="anno 睡眠障害">睡眠障害</a>など概日リズムの<a href="#" class="anno 減弱">減弱</a>があげられる．しかし，老化が概日時計による代謝の制御におよぼす影響については不明である．また，<a href="#" class="anno アンチエイジング">アンチエイジング</a>の鍵として有力なカロリーの摂取の制限は代謝の機能を劇的に改善し多くの<a href="#" class="anno 生物種">生物種</a>において延命をもたらす一方，時計遺伝子の発現を増強することが報告されている<a href="#R1"><sup>1)</sup></a>．そのため，寿命を延長しうるカロリーの摂取の制限への適用を仲介する概日リズムを示す代謝の解明は重要な研究課題である．この研究においては，老化あるいはカロリーの摂取の制限と概日リズムとの<a href="#" class="anno 相互作用">相互作用</a>にひそむ<a href="#" class="anno 分子経路">分子経路</a>および代謝経路の特定をめざした．<br/><br/><h2>1．老化あるいはカロリーの摂取の制限による概日時計への影響</h2><br/>　肝臓における概日時計および概日時計により制御される代謝におよぼす老化の影響について検討するため，若齢および老齢のマウスを12時間-12時間の明暗サイクルにおき，4時間ごとに肝臓を摘<a href="#" class="anno 出し">出し</a>トランス<a href="#" class="anno クリプト">クリプト</a>ームを解析した．その結果，2626の遺伝子が若齢のマウスに<a href="#" class="anno 特異的">特異的</a>に概日リズムを示したのに対し，1664の遺伝子は老齢のマウスに特異的に概日リズムを示した．概日リズムの振幅は老齢のマウスにおいて減弱していた．また，コア時計遺伝子およびそれらの標的となる遺伝子の<a href="#" class="anno 発現レベル">発現レベル</a>を若齢のマウスと老齢のマウスとのあいだで比較したところ，老齢のマウスにおいて概日リズムの振幅の減弱がみられたものの大きな違いはなく，コア時計遺伝子を介した概日時計の制御は生涯をつうじ健全に維持されることが示唆された．<br/>　アンチエイジングに<a href="#" class="anno 効果的">効果的</a>であるとされるカロリーの摂取の制限が概日時計と代謝との相互作用におよぼす影響について明らかにするため，30％カロリー制限食あるいは通常食を若齢マウスあるいは老齢のマウスに6カ月にわたり負荷した．その結果，若齢のマウスの肝臓においてはカロリーの摂取の制限により新たに4070の遺伝子が概日リズムを示した．くわえて，カロリー制限食を負荷したマウスにおける概日リズムの振幅は，通常食を負荷したマウスに比べて顕著に大きかった．さらに，カロリーの摂取の制限によりコア時計遺伝子およびそれらの標的となる遺伝子の発現も著明に亢進した．同様に，老齢のマウスにおいてもカロリーの摂取の制限による肝臓における概日時計の制御の向上がみられた．<br/><br/><h2>2．老化あるいはカロリーの摂取の制限とタンパク質のアセチル化修飾</h2><br/>　肝臓における<a href="#" class="anno トランスクリプトーム">トランスクリプトーム</a>の<a href="#" class="anno デ">デ</a>ータを用いて，<a href="#" class="anno 遺伝子オントロジー">遺伝子オントロジー</a>解析により概日リズムを示す代謝経路や生物学的な機能の特定を試みた．ほかの組織におけるトランスクリプトームのデータ<a href="#R2"><sup>2)</sup></a> との比較により，肝臓に特有な概日リズムを示す代謝経路としてNAD<sup>+</sup>の代謝およびタンパク質のアセチル化修飾が見い出され，これらは老化により再編成されると推察された．そこで，12時間-12時間の明暗サイクルにおいたマウスの肝臓における全タンパク質のアセチル化修飾のレベルを比較したところ，通常食を負荷した若齢のマウスにおいては<a href="#" class="anno 明期">明期</a>の後半にピークをもつ概日リズムがみられたが，この概日リズムは老齢のマウスにおいて完全に失われていた．一方で，カロリーの摂取の制限は全タンパク質のアセチル化修飾を劇的に亢進させた．以上の結果から，カロリーの摂取の制限は老化にともなうタンパク質のアセチル化修飾の制御の不全をふせぐ<a href="#" class="anno 可能性">可能性</a>が見い出された．<br/>　タンパク質のアセチル化修飾の変化は<a href="#" class="anno ヒストン">ヒストン</a>のアセチル化にも及ぶのかどうか検討した．その結果，コア時計遺伝子の<a href="#" class="anno プロモーター領域">プロモーター領域</a>における<a href="#" class="anno ヒストンH3">ヒストンH3</a>の<a href="#" class="anno Lys">Lys</a>9，Lys14，<a href="#" class="anno Lys2">Lys2</a>7のアセチル化は，若齢および老齢のマウスにおいてカロリーの摂取の制限により亢進した．さらに，コア時計遺伝子だけでなく，一部の代謝<a href="#" class="anno 関連遺伝子">関連遺伝子</a>のプロモーター領域におけるヒストンのアセチル化もカロリーの摂取の制限により亢進した．これらヒストンのアセチル化は遺伝子の発現における<a href="#" class="anno 活性化">活性化</a>のマークとして知られることにくわえ，ヒストンのアセチル化と遺伝子の発現の概日リズムは一致したため，カロリーの摂取の制限による遺伝子の発現の亢進および時計遺伝子の発現の制御には，ダイナミックなヒストンの修飾およびそれにともなう<a href="#" class="anno クロマチン">クロマチン</a>構造の再編成が強く関与することが示唆された．<br/><br/><h2>3．老化あるいはカロリーの摂取の制限とNAD<sup>+</sup>の代謝</h2><br/>　NAD<sup>+</sup>のレベルおよび<a href="#" class="anno ニコチン<a href="#" class="anno アミド">アミド</a>">ニコチンアミド</a><a href="#" class="anno ホスホ">ホスホ</a>リボシル<a href="#" class="anno トランスフェラーゼ">トランスフェラーゼ</a>を介したNAD<sup>+</sup>の<a href="#" class="anno 生合成">生合成</a>経路は老化に直接的に寄与するだけでなく，NAD<sup>+</sup>のレベルの上昇は延命や老後の健康の維持に貢献すると報告されている<a href="#R3"><sup>3)</sup></a>．とくに，NAD<sup>+</sup>に<a href="#" class="anno 依存的">依存的</a>な<a href="#" class="anno 脱アセチル化">脱アセチル化</a>酵素であるSIRTは老化の進行やカロリーの摂取の制限による延命の効果を仲介するタンパク質として大きく注目されている．NAD<sup>+</sup>のレベルは概日リズムを示すだけでなく，SIRTが肝臓における転写および代謝の概日リズムの制御を担うことから<a href="#R4"><sup>4,5)</sup></a>，NAD<sup>+</sup>-SIRT代謝経路は概日時計，老化，カロリーの摂取の制限を結びつける重要な代謝経路であることがうかがえる．<br/>　そこで，老化あるいはカロリーの摂取の制限によるNAD<sup>+</sup>の代謝における概日リズムの制御への影響を明確にするため，12時間-12時間の明暗サイクルにおいたマウスの肝臓におけるNAD<sup>+</sup>およびNAD<sup>+</sup>に関連する<a href="#" class="anno 代謝産物">代謝産物</a>を定量した．その結果，NAD<sup>+</sup>はカロリーを制限したマウスの，とくに明期の開始時において顕著に増加した．同様に，ニコチンアミド<a href="#" class="anno アデニン">アデニン</a><a href="#" class="anno ジ<a href="#" class="anno ヌクレオチド">ヌクレオチド</a>">ジヌクレオチド</a><a href="#" class="anno リン酸">リン酸</a>も明期の開始時および<a href="#" class="anno 暗期">暗期</a>の開始時において有意に増加した．また，カロリーの摂取の制限による暗期の開始時に特異的なニコチンアミドリボシドおよび<a href="#" class="anno ニコチンアミドモノヌクレオチド">ニコチンアミドモノヌクレオチド</a>の激増により，これら代謝産物のシャープな概日リズムが生じた．<a href="#" class="anno 対照的">対照的</a>に，NAD<sup>+</sup>の<em>de n<a href="#" class="anno ovo">ovo</a></em>合成に利用される<a href="#" class="anno ニコチン酸">ニコチン酸</a>アデニンジヌクレオチドはカロリーの摂取の制限により減少した．一方，NAD<sup>+</sup>の消費により生じるニコチンアミドやADP<a href="#" class="anno リボース">リボース</a>は老齢のマウスにおいて増加していた．以上の結果から，老化はNAD<sup>+</sup>の<a href="#" class="anno 代謝回転">代謝回転</a>を促進する可能性が示された．一方で，カロリーの摂取の制限はNAD<sup>+</sup>の代謝における概日リズムの制御を鋭利にし，とくに，NAD<sup>+</sup><a href="#" class="anno サルベージ経路">サルベージ経路</a>に対する再編成を促進するものと考えられた．<br/><br/><h2>4．老化あるいはカロリーの摂取の制限と<a href="#" class="anno SIRT1">SIRT1</a></h2><br/>　カロリーの摂取の制限によるNAD<sup>+</sup>に関連する代謝産物のダイナミックな変化をうけ，NAD<sup>+</sup>に依存的な<a href="#" class="anno 脱<a href="#" class="anno アセチル化酵素">アセチル化酵素</a>">脱アセチル化酵素</a>であるSIRT1の活性に注目した．そこで，肝臓に特異的なSIRT1<a href="#" class="anno ノックアウトマウス">ノックアウトマウス</a>の肝臓におけるトランスクリプトームのデータ<a href="#R6"><sup>6)</sup></a> をもとにSIRT1の標的となる時計遺伝子を抽出し，この研究において得られたトランスクリプトームのデータと照らしあわせた．その結果，カロリー制限食を負荷した若齢および老齢のマウスの肝臓における時計遺伝子にしめるSIRT1の標的となる遺伝子は，通常食を負荷したマウスと比べて約<a href="#" class="anno 5倍">5倍</a>も多かった．このことから，カロリーの摂取の制限によりSIRT1が活性化されることが確認され，カロリーの摂取の制限によるNAD<sup>+</sup>-SIRT1代謝経路の活性化が肝臓における概日時計の再編成に寄与することが示唆された．<br/>　老化の進行にブレーキをかけるカロリーの摂取の制限により，肝臓における代謝の概日リズムがどのように変わるか検討した．とくに，カロリーを制限したマウスの肝臓においてみられたタンパク質のアセチル化修飾の劇的な亢進から，その基質として利用される<a href="#" class="anno アセチルCoA">アセチルCoA</a>の生合成にかかわる代謝経路に注目した．<a href="#" class="anno <a href="#" class="anno 解糖">解糖</a>系">解糖系</a>や<a href="#" class="anno TC">TC</a>A回路はアセチルCoAの<a href="#" class="anno 供給源">供給源</a>のひとつであるが，解糖系を担う酵素の発現はカロリーの摂取の制限により激減した．他方，<a href="#" class="anno クエン酸">クエン酸</a>からアセチルCoAへの変換を担うA<a href="#" class="anno TP">TP</a>クエン酸<a href="#" class="anno シンターゼ">シンターゼ</a>は脂質の<em>de novo</em>合成の制御を担う転写因子<a href="#" class="anno SR">SR</a><a href="#" class="anno EBP">EBP</a>により制御され明確な概日リズムを示すが，その発現はカロリーの摂取の制限により完全に消失した．以上のことから，カロリーの摂取の制限により肝臓における糖の代謝経路および脂質の代謝経路の<a href="#" class="anno 大規模">大規模</a>な再編成が認められ，これらの代謝経路からのアセチルCoAの供給の断絶が示唆された．<br/>　アセチルCoAの供給にかかわるそのほかの代謝経路として，<a href="#" class="anno アセチルCoAシンターゼ">アセチルCoAシンターゼ</a>による酢酸からアセチルCoAへの変換が考えられた．アセチルCoAシンターゼはSIRT1により直接的に脱アセチル化され，そのアセチル化と脱アセチル化のサイクルおよび活性は概日リズムを示す<a href="#R7"><sup>7)</sup></a>．実際に，カロリーを制限したマウスの肝臓において酢酸の増加が観察された．アセチルCoAシンターゼのアセチル化のレベルは通常食を負荷したマウスの肝臓では12時間-12時間の明暗サイクルの明期の後半において鋭利なピークを示すが，カロリー制限食を負荷したマウスの肝臓においてはこのピークがみられなかったことから，すべての時点においてアセチルCoAシンターゼが活性化していると推察された．これまでにも，カロリーの摂取の制限による肝臓における酢酸およびアセチルCoAの増加が報告されているため<a href="#R8"><sup>8)</sup></a>，<a href="#" class="anno 最終的">最終的</a>に，SIRT1によるアセチルCoAシンターゼの脱アセチル化が基質として多くのアセチルCoAの利用を可能にし，タンパク質のアセチル化修飾の亢進に関与すると結論づけられた．<br/><br/><h2>おわりに</h2><br/>　この研究により，肝臓の概日時計とリンクする代謝経路の大胆な再編成が老化により進行することが示された（<a href="#F1">図1</a>）．また，アンチエイジングに効果的とされるカロリーの摂取の制限は，NAD<sup>+</sup>-SIRT1代謝経路の概日リズムを活性化し，タンパク質のアセチル化修飾を中心とした代謝経路を再編成することがわかった（<a href="#F1">図1</a>）．とくに，種々の時計遺伝子や発現が概日リズムを示す遺伝子のプロモーター領域において観察されたカロリーの摂取の制限によるヒストンのアセチル化の亢進が，概日時計の制御を向上させる，あるいは，老化にともなう概日時計の変容を回復させることが示唆された．この研究により，アンチエイジングのための生物学的な概日時計の<a href="#" class="anno 微調整">微調整</a>になぞらえた規律的なライフスタイルが注視されることを望む．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　老化により概日時計とリンクする代謝経路の再編成が進行する</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sato-Cell-17.8.10-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　老化により概日時計とリンクする代謝経路の再編成が進行する" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sato-Cell-17.8.10-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sato-Cell-17.8.10-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Asher, G. & Sassone-Corsi, P.</span>: <span class="ti">Time for food: the intimate interplay between nutrition, metabolism, and the circadian clock.</span> <span class='so'>Cell, 161, 84-92 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25815987" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Solanas, G., Oliveira Peixoto, F., Perdiguero, E. et al.</span>: <span class="ti">Aged stem cells reprogram their daily rhythmic functions to adapt to stress.</span> <span class='so'>Cell, 170, 678-692 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28802040" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Zhang, H., Ryu, D., Wu, Y. et al.</span>: <span class="ti">NAD<sup>+</sup> repletion improves mitochondrial and stem cell function and enhances life span in mice.</span> <span class='so'>Science, 352, 1436-1443 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27127236" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Nakahata, Y., Kaluzova, M., Grimaldi, B. et al.</span>: <span class="ti">The NAD<sup>+</sup>-dependent deacetylase SIRT1 modulates CLOCK-mediated chromatin remodeling and circadian control.</span> <span class='so'>Cell, 134, 329-340 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18662547" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Nakahata, Y., Sahar, S., Astarita, G. et al.</span>: <span class="ti">Circadian control of the NAD<sup>+</sup> salvage pathway by CLOCK-SIRT1.</span> <span class='so'>Science, 324, 654-657 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19286518" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Masri, S., Rigor, P., Cervantes, M. et al.</span>: <span class="ti">Partitioning circadian transcription by SIRT6 leads to segregated control cellular metabolism.</span> <span class='so'>Cell, 158, 659-672 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25083875" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Sahar, S., Masubuchi, S., Eckel-Mahan, K. et al.</span>: <span class="ti">Circadian control of fatty acid elongation by SIRT1-mediated deacetylation of acetyl-CoA synthetase 1.</span> <span class='so'>J. Biol. Chem., 289, 6091-6097 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24425865" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Pietrocola, F., Galluzzi, L., Bravo-san Pedro, J. M. et al.</span>: <span class="ti">Acetyl coenzyme A: a central metabolite and second messenger.</span> <span class='so'>Cell Metab., 21, 805-821 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26039447" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/16_02.html" target="_blank">16.2 Respiration and Fermentation: Glycolysis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/02_05.html" target="_blank">2.5 Proliferation and Growth of Organisms and Environment</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/04_01.html" target="_blank">4.1 Enzyme Sets Determine the Organism’s Way of Life</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/04_03.html" target="_blank">4.3 Fundamentals of the Flow of Energy and Substances</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/04_04.html" target="_blank">4.4 Intracellular Metabolism</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">佐藤 章悟（Shogo Sato）</span><br>略歴：2012年 早稲田大学大学院人間科学研究科博士課程 修了，同年 杏林大学医学部 博士研究員，2013年 米国Texas大学Southwestern Medical CenterにてPost-doctoral fellowを経て，2015年より米国California大学Irvine校Post-doctoral fellow．<br>研究テーマ：概日時計のマジックの種明かしおよび健康への利用．<br>抱負：社会的な時間にしばられない生活をおくる．生物学的な時間に身をゆだねた生活をおくる．<br><br><strong>Paolo Sassone-Corsi</strong><br>米国California大学Irvine校Professor．<br></div><br>© 2017 佐藤章悟・Paolo Sassone-Corsi Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

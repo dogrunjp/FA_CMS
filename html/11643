@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Staphylococcus aureusに由来する小型のCas9の結晶構造 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/11643" rel="bookmark">Staphylococcus aureusに由来する小型のCas9の結晶構造</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>西増弘志・濡木 理</strong><br>（東京大学大学院理学系研究科 生物科学専攻生物化学講座構造生命科学研究室）<br>email：<a href="mailto:nisimasu@bs.s.u-tokyo.ac.jp">西増弘志</a>，<a href="mailto:nureki@bs.s.u-tokyo.ac.jp">濡木 理</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.104">10.7875/first.author.2015.104</a><br><div class="reference"><br><span class="ti">Crystal structure of <em>Staphylococcus aureus</em> Cas9.</span><br><span class="au">Hiroshi Nishimasu, Le Cong, Winston X. Yan, F. Ann Ran, Bernd Zetsche, Yinqing Li, Arisa Kurabayashi, Ryuichiro Ishitani, Feng Zhang, Osamu Nureki</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26317473" target="_blank"><em>Cell</em>, <strong>162</strong>, 1113-1126 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 原核生物">原核生物</a>のCRI<a href="#" class="anno SPR">SPR</a>-<a href="#" class="anno Cas">Cas</a><a href="#" class="anno 獲得免疫">獲得免疫</a>機構にかかわるRNA<a href="#" class="anno 依存性">依存性</a>DNA<a href="#" class="anno ヌクレアーゼ">ヌクレアーゼ</a>として発見された<a href="#" class="anno Cas9">Cas9</a>は，<a href="#" class="anno ゲノム編集">ゲノム編集</a>をはじめとするさまざまな新規の技術に応用され<a href="#" class="anno 生命科学">生命科学</a>に革命を起こしている．現在，ゲノム編集には<em>S<a href="#" class="anno tre">tre</a><a href="#" class="anno pto">pto</a>coccus pyogenes</em>に由来するCas9が広く利用されているが，<a href="#" class="anno 最近の研究">最近の研究</a>により，小型でゲノム編集の効率の高い<em><a href="#" class="anno Sta">Sta</a>phylococcus aureus</em>に由来するCas9が発見された．今回，筆者らは，<em>S</em>. <em>aureus</em>に由来するCas9，ガイド鎖RNA，<a href="#" class="anno 標的DNA">標的DNA</a>からなる<a href="#" class="anno 複合体">複合体</a>の<a href="#" class="anno 結晶構造">結晶構造</a>を決定し，その<a href="#" class="anno RNA依存性">RNA依存性</a>の<a href="#" class="anno DNA切断">DNA切断</a>機構を解明した．<em>S</em>. <em>aureus</em>に由来するCas9と<em>S</em>. <em>pyogenes</em>に由来するCas9との構造の比較から，<a href="#" class="anno CR<a href="#" class="anno IS">IS</a>PR">CRISPR</a>-Cas9系における構造の<a href="#" class="anno 保存性">保存性</a>および<a href="#" class="anno 多様性">多様性</a>が明らかにされた．さらに，構造の情報を<a href="#" class="anno も">も</a>とに<em>S</em>. <em>aureus</em>に由来するCas9を改変し，新規の転写<a href="#" class="anno 活性化">活性化</a>系および<a href="#" class="anno 誘導型">誘導型</a>ヌクレアーゼの創出にも成功した．今回の結果により，CRISPR-Cas9系を利用したゲノム編集のさらなる効率化および高度化が期待される．<br/><br/><h2>はじめに</h2><br/>　Cas9は2012年，原核生物のもつI<a href="#" class="anno I型">I型</a>CRISPR（clus<a href="#" class="anno ter">ter</a>ed regularly <a href="#" class="anno int">int</a>ersp<a href="#" class="anno ace">ace</a>d short pa<a href="#" class="anno lin">lin</a>dro<a href="#" class="anno mic">mic</a> rep<a href="#" class="anno eat">eat</a>）-Cas（CRISPR-associated <a href="#" class="anno pro">pro</a>tein）獲得<a href="#" class="anno 免疫機構">免疫機構</a>にかかわるRNA依存性DNA<a href="#" class="anno エンドヌクレアーゼ">エンドヌクレアーゼ</a>として発見された<a href="#R1"><sup>1)</sup></a>．Cas9は2つのヌクレアーゼドメイン（RuvCドメインおよびHNHドメイン）をもち，c<a href="#" class="anno rRNA">rRNA</a>（CRISPR RNA）および<a href="#" class="anno <a href="#" class="anno tra">tra</a>c">trac</a>rRNA（<em>t<a href="#" class="anno ran">ran</a>s</em>-activating crRNA）とよばれる2種類の<a href="#" class="anno 非コード">非コード</a>RNAと複合体を形成し，crRNAのもつガイド配列（20～2<a href="#" class="anno 2塩基">2塩基</a>）と<a href="#" class="anno <a href="#" class="anno 相">相</a>補的">相補的</a>な<a href="#" class="anno 2本鎖DNA">2本鎖DNA</a>を認識しこれを切断する．標的2本鎖DNAのうち，crRNAと相補的な<a href="#" class="anno DNA鎖">DNA鎖</a>（<a href="#" class="anno 相補鎖">相補鎖</a>DNA）はHNHドメインにより切断され，もう一方のDNA鎖（非相補鎖DNA）はRuvCドメインにより切断される．Cas9による標的2本鎖DNAの認識には，<a href="#" class="anno PAM">PAM</a>（protospacer adjacent motif）とよばれる特定の数塩基が標的となる配列の近傍に存在することが必要である．crRNAとtracrRNAを<a href="#" class="anno 人工的">人工的</a>に連結した<a href="#" class="anno s<a href="#" class="anno gRNA">gRNA</a>">sgRNA</a>（single-gu<a href="#" class="anno ide">ide</a> RNA）もガイド鎖RNAとして機能する<a href="#R1"><sup>1)</sup></a>．任意のガイド配列をもつsgRNAとCas9を細胞に<a href="#" class="anno 共発現">共発現</a>させることにより，<a href="#" class="anno ゲノムDNA">ゲノムDNA</a>に存在する標的配列を<a href="#" class="anno 特異的">特異的</a>に切断できることから，Cas9は簡便かつ迅速なゲノム編集ツールとして瞬く間に普及した<a href="#R2"><sup>2)</sup></a>．さらに，sgRNAに<a href="#" class="anno 依存的">依存的</a>にゲノムの任意の場所に<a href="#" class="anno ターゲッティング">ターゲッティング</a>できるというCas9の性質を利用した新規の技術も続々と報告されている<a href="#R3"><sup>3)</sup></a>．これまで，<em><a href="#" class="anno Streptococcus pyogenes">Streptococcus pyogenes</a></em>に由来するCas9（SpCas9）の構造に関する研究により，Cas9によるRNA依存性のDNA切断機構が明らかにされてきている．SpCas9単体<a href="#R4"><sup>4)</sup></a>，SpCas9-sgRNA複合体<a href="#R5"><sup>5)</sup></a>，SpCas9-sgRNA-標的<a href="#" class="anno DNA複合体">DNA複合体</a><a href="#R6"><sup>6,7)</sup></a>（文献<a href="#R6"><sup>6)</sup></a> は，<a href="http://first.lifesciencedb.jp/archives/8416" target="_blank">新着論文レビュー</a> でも掲載）の結晶構造から，1）SpCas9はREC（recognition）ローブと<a href="#" class="anno N<a href="#" class="anno UC">UC</a>">NUC</a>（<a href="#" class="anno nucl">nucl</a>e<a href="#" class="anno ase">ase</a>）ローブからなること，2）sgRNAのガイド配列は標的DNAとRNA：DNA<a href="#" class="anno ヘテロ">ヘテロ</a>2本鎖を形成し2つのローブのあいだに収容されること，3）非相補鎖DNAのPAMはPIドメインにより認識されること，などが明らかにされている．<br/>　現在，ゲノム編集ツールとしてはSpCas9が広く利用されているが，<a href="#" class="anno 分子量">分子量</a>が大きくウイルス<a href="#" class="anno ベクター">ベクター</a>への導入の効率が低いなどの<a href="#" class="anno 問題点">問題点</a>が残されていた．この問題の解決策として，最近，<em><a href="#" class="anno Staphylococcus aureus">Staphylococcus aureus</a></em>に由来する小型のCas9（SaCas9）が報告された<a href="#R8"><sup>8)</sup></a>．SaCas9（1053<a href="#" class="anno 残基">残基</a>）はSpCas9（1368残基）に比べ分子量が小さく，配列<a href="#" class="anno 同一性">同一性</a>も低い（17％）．SpCas9はPAMとして5’-NGG-3’を認識する一方，SaCas9は5’-N<a href="#" class="anno NGR">NGR</a>RT-3’（Rは<a href="#" class="anno プリン塩基">プリン塩基</a>，AまたはG）を認識する．さらに，SaCas9はSpCas9とは異なるガイド鎖RNAと<a href="#" class="anno 協働">協働</a>し標的DNAを切断する．しかし，SaCas9によるDNA切断機構は不明であった．<br/><br/><h2>1．SaCas9-sgRNA-標的DNA複合体の全体構造</h2><br/>　SaCas9（1～1053残基），sgRNA（7<a href="#" class="anno 3塩基">3塩基</a>），相補鎖DNA（28塩基），PAM（5’-TT<a href="#" class="anno GAA">GAA</a>T-3’あるいは5’-TTGGGT-3’）を含む非相補鎖DNA（8塩基）からなる四者複合体の結晶構造を2.6Å分解能（PDB ID：<a href="http://service.pdbj.org/mine/Det<a href="#" class="anno ail">ail</a>2?PDBID=5czz&amp;PAGEID=Summary" target="_blank">5CZZ</a>）および2.7Å分解能（PDB ID：<a href="http://service.pdbj.org/mine/De<a href="#" class="anno tail">tail</a>2?PDBID=5axw&amp;PAGEID=Summary" target="_blank">5AXW</a>）でそれぞれ決定した（<a href="#F1">図1</a>）．SpCas9と同様に，SaCas9はRECローブとNUCローブからなり，2つのローブはArgに富むα<a href="#" class="anno ヘリックス">ヘリックス</a>（ブリッジヘリックス）と<a href="#" class="anno リン<a href="#" class="anno カ">カ</a>ー">リンカー</a>ループにより連結されていた．NUCローブはRuvCドメイン，HNHドメイン，WEDドメイン，PIドメインから構成されていた．HNHドメインはRuvCドメインと2つの<a href="#" class="anno リンカー領域">リンカー領域</a>（<a href="#" class="anno L1">L1</a>とL2）によりつながっていた．RuvCドメインとPIドメインはPLループによりつながっていた．HNHドメインはRuvCドメインと<a href="#" class="anno 相互作用">相互作用</a>し，DNAの<a href="#" class="anno 切断部位">切断部位</a>からは離れていた．したがって，今回の結晶構造は不<a href="#" class="anno 活性型">活性型</a>をとらえたものであると考えられた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　SaCas9-sgRNA-標的DNA複合体の結晶構造</strong><br/>SaCas9，sgRNA，相補鎖DNA，PAMとして5’-TTGAAT-3’を含む非相補鎖DNAからなる四者複合体の結晶構造（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=5czz&amp;PAGEID=Summary" target="_blank">5CZZ</a>）．酵素活性部位を赤色の丸で示した．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Cell-15.8.27-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　SaCas9-sgRNA-標的DNA複合体の結晶構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Cell-15.8.27-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Cell-15.8.27-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　sgRNAはガイド配列，<a href="#" class="anno リピート">リピート</a>：アンチリピート2本鎖，<a href="#" class="anno <a href="#" class="anno ステム">ステム</a>ループ">ステムループ</a>1から構成されていた（<a href="#F1">図1</a>）．ガイド配列（G1～<a href="#" class="anno C2">C2</a>0）は相補鎖DNA（dG1～dC20）とRNA：DNAヘテロ2本鎖を形成し，相補鎖DNA（dC(-8)～dA(-1)）は非相補鎖DNA（dT1*～dG8*）とPAM 2本鎖を形成していた．<a href="#" class="anno 塩基配列">塩基配列</a>からsgRNAの3’側の領域は2つのステムループ（ステムループ1とステムループ2）を形成することが予想されたが，良質の結晶を得るためにはステムループ2の削除が必要だった．SpCas9との構造の比較から，今回，決定した結晶構造には含まれていないステムループ2は，RuvCドメインとPIドメインのあいだの溝に結合すると考えられた．<br/><br/><h2>2．SaCas9とSpCas9との比較</h2><br/>　一連の結晶<a href="#" class="anno 構造解析">構造解析</a>により，sgRNAの結合によりSpCas9は大きな<a href="#" class="anno 構造変化">構造変化</a>を起こすことが明らかにされていた<a href="#R4"><sup>4-7)</sup></a>．SpCas9単体は閉じた<a href="#" class="anno 不活性">不活性</a>型の構造をとる一方，sgRNAとの結合により開いた構造をとり，RECローブとNUCローブのあいだにRNA：DNAヘテロ2本鎖が収容される<a href="#R4"><sup>4-7)</sup></a>（<a href="#F2">図2a</a>）．SpCas9-sgRNA-標的DNA複合体と同様に，SaCas9-sgRNA-標的DNA複合体は開いた構造をとり，RNA：DNAヘテロ2本鎖は2つのローブのあいだに収容されていた（<a href="#F2">図2a</a>）．したがって，sgRNAとの結合による構造変化はSaCas9とSpCas9において保存されていると考えられた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　SaCas9とSpCas9との比較</strong><br/>（a）SaCas9（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=5czz&amp;PAGEID=Summary" target="_blank">5CZZ</a>）およびSpCas9（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=4un3&amp;PAGEID=Summary" target="_blank">4UN3</a>）の結晶構造．比較のため，コンフォメーションの異なるHNHドメインは省略した．SpCas9のRECドメインとPIドメインに存在する挿入領域を薄い青色で示した．BH：ブリッジヘリックス，PLL：PLループ．<br/>（b）SaCas9とSpCas9におけるPAMの認識機構．相補鎖DNAは省略した．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Cell-15.8.27-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　SaCas9とSpCas9との比較" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Cell-15.8.27-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Cell-15.8.27-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　SaCas9とSpCas9の構造の比較からドメインの境界をより正確に決定することが可能になった結果，HNHドメインとRuvCドメインは2つのリンカー領域（L1とL2）により連結されていることがわかった．SaCas9とSpCas9のヌクレアーゼドメイン（RuvCドメインおよびHNHドメイン）の構造は類似していたことから，2つのCas9においてDNA切断機構は保存されていると考えられた．<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>な解析からPAM 2本鎖の結合により標的DNAの切断が促進されることが報告されているが<a href="#R9"><sup>9)</sup></a>，PAM 2本鎖を含むSpCas9およびSaCas9の結晶構造において，HNHドメインは標的DNAから離れた位置に存在していた．したがって，Cas9の活性化の機構は不明であり，その解明にはさらなる研究が必要である．<br/><br/><h2>3．RNA：DNAヘテロ2本鎖の<a href="#" class="anno 認識機構">認識機構</a></h2><br/>　SaCas9において，RNA：DNAヘテロ2本鎖は2つのローブのあいだに結合し，おもにRECドメインおよびRuvCドメインにより認識されていた（<a href="#F2">図2a</a>）．SaCas9とSpCas9においてDNA切断活性にはRNA：DNAヘテロ2本鎖のうちシード領域（PAMの近傍の約8塩基）における<a href="#" class="anno 塩基対">塩基対</a>の形成が重要である<a href="#R1"><sup>1,8)</sup></a>．SaCas9の結晶構造において，SpCas9と同様に<a href="#R5"><sup>5-7)</sup></a>，sgRNAのシード領域は標的DNAと塩基対を形成するのに適した<a href="#" class="anno かた">かた</a>ちをとりブリッジヘリックスにより認識されていた．一方，RNA：DNAヘテロ2本鎖のうちPAMから離れた領域はRECローブの<a href="#" class="anno <a href="#" class="anno C末端">C末端</a>側">C<a href="#" class="anno 末端側">末端側</a></a>の領域により認識されていた．SaCas9とSpCas9においてこの領域は類似の構造をもち，塩基配列に<a href="#" class="anno 非依存的">非依存的</a>にRNA：DNAヘテロ2本鎖を認識していた．したがって，SaCas9とSpCas9において，RNA：DNAヘテロ2本鎖の認識機構は保存されていることが明らかにされた．<br/>　SpCas9において，PLループ（<a href="#" class="anno Glu">Glu</a>1108と<a href="#" class="anno Ser">Ser</a>1109）は相補鎖DNAの+1<a href="#" class="anno リン酸">リン酸</a>基（dA(-1) とdT1のあいだの<a href="#" class="anno リン酸基">リン酸基</a>）と相互作用し，標的DNAの巻きもどしを促進する役割をもつ<a href="#R7"><sup>7)</sup></a>．結晶構造から，配列<a href="#" class="anno <a href="#" class="anno 相同">相同</a>性">相同性</a>は低いにもかかわらず，SaCas9はSpCas9と同様のPLループをもつことが明らかにされた（<a href="#F2">図2a</a>）．SaCas9においても，PLループ（A<a href="#" class="anno sp7">sp7</a>86とThr787）は相補鎖DNAの+1リン酸基と相互作用し，標的DNAの巻きもどしに貢献していた．<a href="#" class="anno 実際">実際</a>，Thr787のAlaへの置換によりDNA切断活性は低下した．したがって，SaCas9とSpCas9において標的DNAの巻きもどしの機構は保存されていることが明らかにされた．<br/><br/><h2>4．sgRNAの認識機構</h2><br/>　異なる<a href="#" class="anno 生物種">生物種</a>のCRISPR-Cas9系においてリピート：アンチリピート2本鎖の塩基配列は異なり，Cas9の<a href="#" class="anno オルソログ">オルソログ</a>はそれぞれのガイド鎖RNAを特異的に認識する<a href="#R8"><sup>8)</sup></a>（ガイド鎖RNAの<a href="#" class="anno 直交性">直交性</a>）．これらの報告と一致して，SaCas9とSpCas9はそれぞれ構造の異なるRECドメインおよびWEDドメインをもち，それぞれのsgRNAのリピート：アンチリピート2本鎖を特異的に認識していることが明らかにされた（<a href="#F2">図2a</a>）．SaCas9とSpCas9の構造の比較から，両者のRECローブの構造は<a href="#" class="anno 類似性">類似性</a>をもつ一方，SpCas9のRECローブには4つの挿入領域<a href="#" class="anno Ins1">Ins1</a>～I<a href="#" class="anno ns4">ns4</a>が存在していた（<a href="#F2">図2a</a>）．Ins1および<a href="#" class="anno Ins3">Ins3</a>はリピート：アンチリピート2本鎖を認識し，Ins4はステムループ1を認識していた．<a href="#" class="anno Ins2">Ins2</a>は独立したドメインとして存在し核酸とは相互作用していなかった（<a href="#F2">図2a</a>）．SpCas9のIns2がDNA切断活性に必須ではないという結果と一致して<a href="#R6"><sup>6)</sup></a>，SaCas9はIns2に対応する領域（約130残基）をもっていなかった（<a href="#F2">図2a</a>）．この違いはSaCas9の<a href="#" class="anno 小型化">小型化</a>に貢献していた．SpCas9のWEDドメインは短い<a href="#" class="anno ループ構造">ループ構造</a>をもつ一方，SaCas9のWEDドメインは新規の<a href="#" class="anno フォールド">フォールド</a>をもっていた（<a href="#F2">図2a</a>）．SpCas9のWEDドメインは<a href="#" class="anno 2次構造">2次構造</a>をもたないため，以前にSpCas9の結晶構造が解かれた時点では独立したドメインとして認識されておらず，PIドメインの一部と考えられていた<a href="#R6"><sup>6)</sup></a>．WEDドメインはリピート：アンチリピート2本鎖とPAM 2本鎖のあいだに“wedge”（くさび）のように入り込んでいることから命名された．Cas9のオルソログにおいてWEDドメインに対応する領域は多様な配列をもつことから，Cas9のオルソログのWEDドメインは多様な構造をもち，それぞれのリピート：アンチリピート2本鎖を特異的に認識していると考えられた．以上をまとめると，Cas9とガイド鎖RNAとのあいだの直交性は，おもにRECドメインおよびWEDドメインとリピート：アンチリピート2本鎖とのあいだの<a href="#" class="anno 立体構造">立体構造</a>の<a href="#" class="anno 相補性">相補性</a>により規定されていることが明らかにされた．<br/><br/><h2>5．PAMの認識機構</h2><br/>　結晶構造からSaCas9によるPAM（5’-NNGRRT-3’）の認識機構が明らかにされた．PAMとして5’-TTGAAT-3’を含む複合体および5’-TTGGGT-3’を含む複合体において，PAM 2本鎖はWEDドメインとPIドメインのあいだに結合し（<a href="#F2">図2a</a>），非相補鎖DNAに存在するPAMはPIドメインにより“解読”されていた（<a href="#F2">図2b</a>）．dT1*とdT2*の塩基はSaCas9と相互作用していなかった（<a href="#F2">図2b</a>）．一方，PAMの3文字目がGであることと一致して，dG3*は<a href="#" class="anno Arg1">Arg1</a>015と2本の<a href="#" class="anno 水素結合">水素結合</a>を形成していた（<a href="#F2">図2b</a>）．PAMとして5’-TTGAAT-3’を含む複合体において，dA4*のN7はAsn985と水素結合し，dA5*のN7はAsn985，Asn986，Arg991と<a href="#" class="anno 水分子">水分子</a>を介して水素結合していた（<a href="#F2">図2b</a>）．一方，PAMとして5’-TTGGGT-3’を含む複合体において，dG4*のN7はAsn985と水素結合し，dG5*のN7はAsn985，Asn986，Arg991と水分子を介して水素結合していた．したがって，SaCas9はプリン塩基に共通するN7を認識することにより，PAMの4文字目および5文字目のプリン塩基を“解読”していることが明らかにされた．さらに，PAMの6文字目のTへの<a href="#" class="anno 嗜好性">嗜好性</a>と一致して，dT6*のO4はArg991と水素結合していた（<a href="#F2">図2b</a>）．PAMを認識する残基の変異によりSaCas9によるDNA切断活性は低下したことから，これらの残基の<a href="#" class="anno 重要性">重要性</a>が確認された．<br/>　SaCas9とSpCas9の構造の比較から，PIドメインの<a href="#" class="anno アミノ">アミノ</a>酸配列は保存されていないにもかかわらず，9つの<a href="#" class="anno β<a href="#" class="anno ストランド">ストランド</a>">βストランド</a>β1～β9を含む共通のコアフォールドの存在が明らかにされた．SpCas9のPIドメインにはSaCas9に存在しない挿入領域（約110残基）が存在し，この違いはSaCas9の小型化に貢献していた．SaCas9とSpCas9において，PAMはβ5-β7領域により“解読”されていた．SaCas9においてはArg1015がPAM（5’-NNGRRT-3’）の3文字目のGを認識していた（<a href="#F2">図2b</a>）．同様に，SpCas9においてはArg1335（SaCas9のArg1015に対応する）がPAM（5’-NGG-3’）の3文字目のGを認識していた<a href="#R7"><sup>7)</sup></a>（<a href="#F2">図2b</a>）．一方，SpCas9においてPAMの2文字目のGを認識しているArg1333は，SaCas9においては<a href="#" class="anno Pro1">Pro1</a>013に置換されていた（<a href="#F2">図2b</a>）．さらに，SpCas9のβ5-β6領域はSaCas9に比べて短いため，SpCas9はSaCas9のAsn985，Asn986，Arg991に対応する残基をもっていなかった（<a href="#F2">図2b</a>）．これらのPIドメインの構造の違いから，SaCas9とSpCas9のPAMに対する<a href="#" class="anno 特異性">特異性</a>の違いが説明された．<br/><br/><h2>6．立体構造にもとづくSaCas9の改変</h2><br/>　これまで，SpCas9の構造の情報にもとづき，<a href="#" class="anno 転写活性">転写活性</a>化系<a href="#R3"><sup>3)</sup></a> や誘導型ヌクレアーゼ<a href="#R10"><sup>10)</sup></a> などCRISPR-Cas9系を利用した新たなツールが開発されてきた．SpCas9にもとづく<a href="#" class="anno 転写活性化">転写活性化</a>系を参考にして，<a href="#" class="anno 不活性型">不活性型</a>のSaCas9，改変型sgRNA，転写<a href="#" class="anno 活性化因子">活性化因子</a><a href="#" class="anno MS2">MS2</a>-<a href="#" class="anno p65">p65</a>-<a href="#" class="anno <a href="#" class="anno HSF">HSF</a>1">H<a href="#" class="anno SF1">SF1</a></a>を<a href="#" class="anno 哺乳類細胞">哺乳類細胞</a>に共発現させることにより，標的となる遺伝子を活性化することに成功した．さらに，構造の情報にもとづき，SaCas9を2分割し<a href="#" class="anno FKBP">FKBP</a>とFRBをそれぞれ融合させることにより，誘導型のSaCas9を開発することにも成功した．<br/><br/><h2>おわりに</h2><br/>　今回，SaCas9-sgRNA-標的DNA複合体の結晶構造が明らかにされたことから，SpCas9-sgRNA-標的DNA複合体との構造の比較がはじめて可能になった．この結果，SaCas9とSpCas9のあいだの<a href="#" class="anno アミノ酸配列">アミノ酸配列</a>の保存性は低いにもかかわらず，<a href="#" class="anno 基本的">基本的</a>な作動原理は高度に保存されていることが明らかにされた．一方，SaCas9とSpCas9は構造の異なるWEDドメインおよびPIドメインをもち，ガイド鎖RNAおよびPAMを特異的に認識していることも明らかにされた．ガイド鎖RNAおよびPAMの多様性と一致して，Cas9のオルソログにおいてWEDドメインおよびPIドメインのアミノ酸配列は保存性が低い．今後，Cas9のオルソログの構造解析により，ガイド鎖RNAおよびPAMの認識機構の多様性が解明され，CRISPR-Cas9系の作動機構の理解の深まることが期待される．また，SaCas9にもとづく転写活性化系の開発にも成功した．<em>S</em>. <em>aureus</em>と<em>S</em>. <em>pyogenes</em>に由来するCRISPR-Cas9系を利用したツールは直交性をもつため，これらを組み合せることにより複数の<a href="#" class="anno 標的遺伝子">標的遺伝子</a>を同時に編集，活性化，抑制できる<a href="#" class="anno 可能性">可能性</a>が広がった．さらに，SaCas9の構造の情報はより有用なCas9の<a href="#" class="anno 合理的">合理的</a>な設計の基盤としても期待される．<br/>　この研究は米国Massachu<a href="#" class="anno set">set</a>ts Institute of TechnologyのFeng Z<a href="#" class="anno hang">hang</a>博士のグループとの<a href="#" class="anno 共同研究">共同研究</a>として行った．若きスーパースターFeng Zhangとともにしたこの1年間は，これまでの人生で2番目にエキサイティングな1年だった．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Jinek, M., Chylinski, K., Fonfara, I. et al.</span>: <span class="ti">A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity.</span> <span class='so'>Science, 337, 816-821 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22745249" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Cong, L., Ran, F. A., Cox, D. et al.</span>: <span class="ti">Multiplex genome engineering using CRISPR/Cas systems.</span> <span class='so'>Science, 339, 819-823 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23287718" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Konermann, S., Brigham, M. D., Trevino, A. E. et al.</span>: <span class="ti">Genome-scale transcriptional activation by an engineered CRISPR-Cas9 complex.</span> <span class='so'>Nature, 517, 583-588 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25494202" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Jinek, M., Jiang, F., Taylor, D. W. et al.</span>: <span class="ti">Structures of Cas9 endonucleases reveal RNA-mediated conformational activation.</span> <span class='so'>Science, 343, 1247997 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24505130" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Jiang, F., Zhou, K., Ma, L. et al.</span>: <span class="ti">A Cas9-guide RNA complex preorganized for target DNA recognition.</span> <span class='so'>Science, 348, 1477-1481 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26113724" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Nishimasu, H., Ran, F. A., Hsu, P. D. et al.</span>: <span class="ti">Crystal structure of Cas9 in complex with guide RNA and target DNA.</span> <span class='so'>Cell, 156, 935-949 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24529477" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/8416" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R7"><span class='au'>Anders, C., Niewoehner, O., Duerst, A. et al.</span>: <span class="ti">Structural basis of PAM-dependent target DNA recognition by the Cas9 endonuclease.</span> <span class='so'>Nature, 513, 569-573 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25079318" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Ran, F. A., Cong, L., Yan, W. X. et al.</span>: <span class="ti"><em>In vivo</em> genome editing using <em>Staphylococcus aureus</em> Cas9.</span> <span class='so'>Nature 520, 186-191 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25830891" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Sternberg, S. H., Redding, S., Jinek, M. et al.</span>: <span class="ti">DNA interrogation by the CRISPR RNA-guided endonuclease Cas9.</span> <span class='so'>Nature, 507, 62-67 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24476820" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Zetsche, B., Volz, S. E. & Zhang, F.</span>: <span class="ti">A split-Cas9 architecture for inducible genome editing and transcription modulation.</span> <span class='so'>Nat. Biotechnol., 33, 139-142 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25643054" target="_blank">PubMed</a>]</span></li><br></ol><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">西増 弘志（Hiroshi Nishimasu）</span><br>略歴：2007年 東京大学大学院農学生命科学研究科 修了，2013年より東京大学大学院理学系研究科 助教，科学技術振興機構 さきがけ研究者 兼任．<br>研究テーマ：RNAサイレンシング，CRISPR-Cas9．<br>抱負：研究がしたい．<br><br><strong>濡木  理（Osamu Nureki）</strong><br>東京大学大学院理学系研究科 教授．<br>研究室URL：<a href="http://www.nurekilab.net/" target="_blank">http://www.nurekilab.net/</a><br></div><br>© 2015 西増弘志・濡木 理 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

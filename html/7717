@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Hippo経路の標的であるYAPおよびTAZは核におけるSHP2の機能を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/7717" rel="bookmark">Hippo経路の標的であるYAPおよびTAZは核におけるSHP2の機能を制御する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>堤 良平・畠山昌則</strong><br>（東京大学大学院医学系研究科 微生物学分野）<br>email：<a href="mailto:rtsutsum@uhnresearch.ca">堤 良平</a>，<a href="mailto:mhata@m.u-tokyo.ac.jp">畠山昌則</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.123">10.7875/first.author.2013.123</a><br><div class="reference"><br><span class="ti">YAP and TAZ, Hippo signaling targets, act as a rheostat for nuclear SHP2 function.</span><br><span class="au">Ryouhei Tsutsumi, Mohammad Masoudi, Atsushi Takahashi, Yumiko Fujii, Takeru Hayashi, Ippei Kikuchi, Yumeko Satou, Masanori Taira, Masanori Hatakeyama</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24035415" target="_blank"><em>Developmental Cell</em>, <strong>26</strong>, 658-665 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno チロシン">チロシン</a><a href="#" class="anno ホスファターゼ">ホスファターゼ</a><a href="#" class="anno SHP">SHP</a>2の機能の亢進はがんや<a href="#" class="anno 発達障害">発達障害</a>などの疾病をひき起こす．<a href="#" class="anno SHP2">SHP2</a>は<a href="#" class="anno 細胞膜">細胞膜</a>の近傍や<a href="#" class="anno 細胞質">細胞質</a>において機能し，R<a href="#" class="anno AS">AS</a>-<a href="#" class="anno Erk">Erk</a>経路の<a href="#" class="anno 活性化">活性化</a>に関与することが知られている．最近，筆者らは，SHP2が核に<a href="#" class="anno も">も</a>分布し，ゲノムの<a href="#" class="anno 機能制御">機能制御</a>に重要な役割を担う<a href="#" class="anno PAF">PAF</a><a href="#" class="anno 複合体">複合体</a>の<a href="#" class="anno 構成タンパク質">構成タンパク質</a>であるparafib<a href="#" class="anno rom">rom</a>inを脱<a href="#" class="anno <a href="#" class="anno リン酸">リン酸</a>化">リン酸化</a>することにより，<a href="#" class="anno Wnt">Wnt</a>/β<a href="#" class="anno <a href="#" class="anno カ">カ</a>テニン">カテニン</a>経路の<a href="#" class="anno 標的遺伝子">標的遺伝子</a>の転写の活性化を促進することを明らかにした．これら<a href="#" class="anno RA">RA</a>S-Erk経路およびWnt/<a href="#" class="anno βカテニン">βカテニン</a>経路の異常な活性化はSHP2の変異に起因する各種の病変の発症に寄与していることが推察されるが，<a href="#" class="anno 細胞内">細胞内</a>におけるSHP2の局在を制御する<a href="#" class="anno 分子機構">分子機構</a>はこれまでまったく明らかにされていなかった．この研究では，SHP2の細胞質と核とのあいだの移行に焦点をあて，その分子機構の解明を試みた．その結果，SHP2が細胞の密度に依存して増殖を制御する<a href="#" class="anno Hippo">Hippo</a>経路の<a href="#" class="anno 標的タンパク質">標的タンパク質</a>であるYAPおよび<a href="#" class="anno TAZ">TAZ</a>と複合体を形成することを見い<a href="#" class="anno 出し">出し</a>た．<a href="#" class="anno Hippo経路">Hippo経路</a>が活性化していないときには，SHP2は<a href="#" class="anno <a href="#" class="anno 脱リン酸">脱リン酸</a>化">脱リン酸化</a>の状態にあるYAPおよびTAZとともに核へと移行し，βカテニンならびにYAPおよびTAZに<a href="#" class="anno 依存的">依存的</a>な転写の活性化を促進する．一方，Hippo経路が活性化すると，リン酸化に依存したYAPおよびTAZの細胞質から核への移行の阻止にともないSHP2も細胞質にとどまり，核における<a href="#" class="anno 転写制御">転写制御</a>にかかわるSHP2の機能は抑制されることが明らかになった．<br/><br/><h2>はじめに</h2><br/>　<a href="#" class="anno SH2ドメイン">SH2ドメイン</a>をもつ<a href="#" class="anno チロシンホスファターゼ">チロシンホスファターゼ</a>SHP2（SH2-d<a href="#" class="anno oma">oma</a>in containing <a href="#" class="anno pro">pro</a>tein tyrosine phosphat<a href="#" class="anno ase">ase</a> 2）の<a href="#" class="anno <a href="#" class="anno 機能獲得">機能獲得</a>型">機能獲得型</a>の変異は，高<a href="#" class="anno 発がん性">発がん性</a>の<a href="#" class="anno 先天奇形">先天奇形</a>症候群として知られる<a href="#" class="anno Noonan症候群">Noonan症候群</a>にくわえ，<a href="#" class="anno 孤発性">孤発性</a>の白血病および<a href="#" class="anno 固形がん">固形がん</a>の発症にもかかわることが報告されている<a href="#R1"><sup>1,2)</sup></a>．これまでの研究から，SHP2は細胞膜の近傍や細胞質においてRAS-Erk経路の活性化を著しく増強することが知られている<a href="#R3"><sup>3)</sup></a>．一方，筆者らは最近，SHP2が核にも分布し，多様な転写の制御機能を担うPAF複合体の構成タンパク質のひとつparafibromin（別名CD<a href="#" class="anno C7">C7</a>3）を<a href="#" class="anno チロシン脱リン酸化">チロシン脱リン酸化</a>する結果，<a href="#" class="anno Wnt/βカテニン経路">Wnt/βカテニン経路</a>の標的遺伝子の転写を促進することを明らかにした<a href="#R4"><sup>4)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/3300" target="_blank">新着論文レビュー</a> でも掲載）．これらの事実から，機能獲得型SHP2<a href="#" class="anno 変異体">変異体</a>はRAS-Erk経路およびWnt/βカテニン経路の<a href="#" class="anno 脱制御">脱制御</a>を介して発がんなどの病変の発症に寄与していることが推察されたが，核におけるSHP2の活性<a href="#" class="anno 制御機構">制御機構</a>はこれまでまったく知られていなかった．一方で，筆者らは，SHP2の細胞内における局在が細胞の密度に依存して変化することを見い出した．SHP2は<a href="#" class="anno 低密度">低密度</a>では細胞質ならびに核に，高密度では細胞質のみに局在し，さらに，この<a href="#" class="anno 細胞内局在">細胞内局在</a>の変化により核におけるSHP2の活性が変化することを明らかにした<a href="#R4"><sup>4)</sup></a>．<br/>　この研究では，SHP2の細胞質と核とのあいだの移行に焦点をあて，その分子機構の解明を試みた．<br/><br/><h2>1．SHP2の細胞内局在の制御に関与する<a href="#" class="anno <a href="#" class="anno シグナル伝達">シグナル伝達</a>経路">シグナル<a href="#" class="anno 伝達経路">伝達経路</a></a>の探索</h2><br/>　<a href="#" class="anno 免疫染色">免疫染色</a>法ならびに細胞<a href="#" class="anno 分画">分画</a>法によりSHP2の細胞内における局在について検討したところ，ヒトの<a href="#" class="anno 胃上皮">胃上皮</a>に由来する<a href="#" class="anno AGS">AGS</a>細胞をはじめ，ヒトの肺がんに由来する<a href="#" class="anno <a href="#" class="anno A549">A549</a>細胞">A549細胞</a>，ヒトの<a href="#" class="anno 子宮頸がん">子宮頸がん</a>に由来する<a href="#" class="anno HeLa細胞">HeLa細胞</a>，マウスに由来するNIH3<a href="#" class="anno T3">T3</a>細胞など，検討を行ったすべての細胞において，低密度の培養では細胞質ならびに核に，一方，高密度の培養では細胞質にのみ，SHP2の分布が観察された．このことから，培養<a href="#" class="anno 細胞株">細胞株</a>の種類や<a href="#" class="anno 生物種">生物種</a>に依存しない，密度に依存的なSHP2の細胞内局在の制御機構の存在が示唆された．そこで，各種の<a href="#" class="anno 阻害剤">阻害剤</a>を用いて細胞を処理し，SHP2の細胞内局在に関与する既知のシグナル伝達経路の特定を試みた．その結果，<a href="#" class="anno 低分子">低分子</a>量<a href="#" class="anno G<a href="#" class="anno TP">TP</a>ase">GTPase</a>である<a href="#" class="anno <a href="#" class="anno Rho">Rho</a>A">RhoA</a>，<a href="#" class="anno RhoB">RhoB</a>，<a href="#" class="anno RhoC">RhoC</a>の<a href="#" class="anno 特異的">特異的</a>な阻害剤である<em><a href="#" class="anno Cl">Cl</a><a href="#" class="anno ost">ost</a>ridium botu<a href="#" class="anno lin">lin</a>um</em> <a href="#" class="anno C3">C3</a>毒素の処理により，低密度培養におけるSHP2の核への局在が著しく阻害された．一方，広範な<a href="#" class="anno セリン">セリン</a>-<a href="#" class="anno スレオニン">スレオニン</a><a href="#" class="anno キナーゼ">キナーゼ</a>の阻害剤であるス<a href="#" class="anno タウ">タウ</a>ロスポリンの処理により，<a href="#" class="anno 高密度培養">高密度培養</a>においてもSHP2の核への局在が誘導された．<br/><br/><h2>2．<a href="#" class="anno C末端">C末端</a>領域が関与するSHP2の核への集積</h2><br/>　細胞内局在に関与するSHP2の<a href="#" class="anno 分子内">分子内</a>領域について探索を行った．SHP2は2つのSH2ドメイン，チロシンホスファターゼドメイン，<a href="#" class="anno C<a href="#" class="anno 末端側">末端側</a>">C末端側</a>の<a href="#" class="anno 尾部">尾部</a>から構成される．各部位の欠損<a href="#" class="anno 変<a href="#" class="anno 異型">異型</a>">変異型</a>SHP2変異体の細胞内局在を観察したところ，<a href="#" class="anno C<a href="#" class="anno 末端領域">末端領域</a>">C末端領域</a>が低密度培養におけるSHP2の核への集積に必須であった．さらに，この領域に存在する<a href="#" class="anno プロリン">プロリン</a><a href="#" class="anno 残基">残基</a><a href="#" class="anno ク<a href="#" class="anno ラスター">ラスター</a>">クラスター</a>が核への移行において重要な役割をになうことが明らかになった．SHP2の<a href="#" class="anno アミノ">アミノ</a>酸配列には<a href="#" class="anno 古典的">古典的</a>な核<a href="#" class="anno 局在化">局在化</a>シグナルや<a href="#" class="anno 核外">核外</a><a href="#" class="anno 移行シグナル">移行シグナル</a>は存在し<a href="#" class="anno ないこと">ないこと</a>から，同定した<a href="#" class="anno プロリン残基">プロリン残基</a>に富むC末端領域になんらかのタンパク質が結合しSHP2の細胞内局在を制御していることが予想された．<br/><br/><h2>3．SHP2とYAPおよびTAZとのあいだの<a href="#" class="anno 物理的">物理的</a>な<a href="#" class="anno <a href="#" class="anno 相">相</a>互作用">相互作用</a></h2><br/>　Hippo経路は細胞の密度を感知する<a href="#" class="anno シグナル<a href="#" class="anno 伝達系">伝達系</a>">シグナル伝達系</a>であり，<a href="#" class="anno 培養細胞">培養細胞</a>における<a href="#" class="anno 接触阻害">接触阻害</a>や個体における臓器の<a href="#" class="anno 大きさ">大きさ</a>の決定，さらには，その異常が発がんにかかわることから，近年，大きな注目をあつめている<a href="#R5"><sup>5)</sup></a>．哺乳類におけるHippo経路は細胞質セリン-<a href="#" class="anno スレオニンキナーゼ">スレオニンキナーゼ</a>であるM<a href="#" class="anno ST">ST</a>1およびM<a href="#" class="anno ST2">ST2</a>ならびに<a href="#" class="anno LAT">LAT</a>S1およびLA<a href="#" class="anno TS">TS</a>2からなる<a href="#" class="anno キナーゼカスケード">キナーゼカスケード</a>を含む．い<a href="#" class="anno まだ">まだ</a><a href="#" class="anno 分子的">分子的</a>な<a href="#" class="anno 機序">機序</a>の詳細は不明ながら，これらのキナーゼは<a href="#" class="anno 細胞密度">細胞密度</a>の増大により活性化され，YAP（Yes-associated protein）およびその<a href="#" class="anno ホモログ">ホモログ</a>であるTAZ（<a href="#" class="anno tra">tra</a>nscr<a href="#" class="anno ipt">ipt</a>io<a href="#" class="anno nal">nal</a> co-activa<a href="#" class="anno tor">tor</a> <a href="#" class="anno with">with</a> <a href="#" class="anno PDZ">PDZ</a>-binding motif）をリン酸化する．低密度状態にある細胞ではYAPおよびTAZはリン酸化されず，細胞質から核へと移行することによりTEADファミリー<a href="#" class="anno 転写因子">転写因子</a>の<a href="#" class="anno コ<a href="#" class="anno アクチベーター">アクチベーター</a>">コアクチベーター</a>として機能し，標的遺伝子の転写の促進を介し細胞の増殖や生存をサポートする．一方，Hippo経路が活性化された細胞ではYAPおよびTAZは<a href="#" class="anno LATS">LATS</a>1および<a href="#" class="anno LATS2">LATS2</a>によりリン酸化される結果，細胞質にとどまり<a href="#" class="anno ユビ<a href="#" class="anno キチン">キチン</a>">ユビキチン</a>化されて<a href="#" class="anno プロテアソーム">プロテアソーム</a>に依存的な分解をうける．くわえて，<a href="#" class="anno Rhoファミリー">Rhoファミリー</a>低<a href="#" class="anno 分子量">分子量</a>GTPaseを介したHippo経路の<a href="#" class="anno 制御系">制御系</a>の存在も報告されている<a href="#R6"><sup>6)</sup></a>．<br/>　さきに述べたように，SHP2の細胞内局在の制御には，1）細胞の密度に依存的なシグナル伝達系，2）Rhoファミリー<a href="#" class="anno 低分子量">低分子量</a>GTPase，3）セリン-スレオニンキナーゼの活性，が関与している．これらの特徴はHippo経路の性状と酷似し，とくに，SHP2の濃度に依存的な細胞内局在の変動は，Hippo経路の標的タンパク質であるYAPならびにTAZの細胞内局在パターンときわめて強い<a href="#" class="anno 類似性">類似性</a>を示す．そこで，SHP2の細胞内局在とYAPおよびTAZとの関連について検討した．免疫染色の結果，解析したすべての細胞株において，低密度培養ならびに高密度培養におけるSHP2とYAPおよびTAZの細胞内局在は一致した．さらに，<a href="#" class="anno 免疫沈降">免疫沈降</a>法によりSHP2とYAPあるいはTAZとの複合体の形成が認められた．これらの<a href="#" class="anno 実験結果">実験結果</a>から，SHP2は細胞においてYAPおよびTAZと物理的に相互作用して存在すると結論づけた．<br/><br/><h2>4．YAPおよびTAZによるSHP2の細胞内局在の制御</h2><br/>　低密度培養におけるSHP2の核への局在に必須のC末端領域やこの領域に存在するプロリン残基クラスターを欠くSHP2変異体はYAPおよびTAZと複合体を形成しなかったことから，YAPおよびTAZとの相互作用がSHP2の細胞内局在の制御に深くかかわることが推察された．そこで，<a href="#" class="anno RNAi">RNAi</a>法により細胞においてYAPおよびTAZを<a href="#" class="anno ノックダウン">ノックダウン</a>したところ，低密度培養におけるSHP2の核への集積ならびに高密度培養におけるSHP2の細胞質への移行はともに消失した．また，YAPおよびTAZの上流のキナーゼであるLATS2を<a href="#" class="anno 異所性">異所性</a>に発現させた細胞ではYAPおよびTAZの細胞質への移行および分解が観察されるとともに，低密度培養におけるSHP2の核への移行が阻止された．さらに，Hippo経路に依存したリン酸化に抵抗するTAZ変異体を異所性に発現させた細胞では，高密度培養においてもTAZならびにSHP2の核への集積が観察された．以上の結果から，SHP2の細胞内局在はHippo経路の標的タンパク質であるYAPならびにTAZにより制御されていることが明らかになった．<br/><br/><h2>5．YAPおよびTAZはSHP2に依存的なWnt/βカテニン経路の活性化に寄与する</h2><br/>　SHP2は核においてparafibrominのチロシン脱リン酸化を介してparafibrominとβカテニンとの複合体の形成を亢進し，Wntの標的遺伝子の活性化を促進する<a href="#R5"><sup>5)</sup></a>．そこで，Hippo経路のオンおよびオフに依存したSHP2の細胞内局在の変動がSHP2の核における活性の制御に関与しているかどうかを検討した．低密度培養している細胞においてYAPおよびTAZをノックダウンしたところ，SHP2の核への集積の抑制ならびに核におけるparafibrominのチロシン<a href="#" class="anno リン酸化レベル">リン酸化レベル</a>の上昇がみられた．また，YAPおよびTAZのノックダウンはSHP2によるWnt/βカテニン経路に依存的なレポーターの活性化を阻止した．さらに，リン酸化<a href="#" class="anno 抵抗性">抵抗性</a>TAZ変異体の発現によりWnt/βカテニン経路が活性化することを見い出すとともに，このTAZに依存したWnt/βカテニン経路の活性化にはSHP2が必須であった．以上の結果から，YAPおよびTAZはSHP2の核への移行を制御することにより核におけるSHP2の活性を制御していると結論づけた．<br/>　マウスの大腸を用いた<a href="#" class="anno 免疫組織">免疫組織</a><a href="#" class="anno 化学的">化学的</a>な解析の結果，Wnt/βカテニン経路の活性化が報告されている<a href="#" class="anno 陰窩">陰窩</a>部ではSHP2とYAPおよびTAZの両方がおもに核に分布する一方，Wnt/βカテニン経路が<a href="#" class="anno <a href="#" class="anno 不活性">不活性</a>化">不活性化</a>している絨毛部ではSHP2とYAPおよびTAZはいずれも細胞質に局在した．この結果は，<em>in vivo</em>においてSHP2の細胞内局在がYAPおよびTAZにより制御されていることを示す所見と考えられた．<br/><br/><h2>6．SHP2によるYAPおよびTAZの機能の亢進</h2><br/>　一連の結果から，YAPおよびTAZがSHP2に依存したWntの標的遺伝子の活性化に重要な役割を担っていることが明らかになった．そこで，SHP2がこれまでに報告されているYAPおよびTAZの機能に影響をあたえる<a href="#" class="anno 可能性">可能性</a>について検討した．YAPおよびTAZは核においてTEADファミリー転写因子と共役し細胞の増殖や生存に関与する遺伝子の転写を活性化する<a href="#R5"><sup>5)</sup></a>．TEADファミリー転写因子に特異的なレポーター<a href="#" class="anno アッセイ">アッセイ</a>において，細胞密度ならびにTAZに依存したレポーターの活性の上昇はSHP2のノックダウンにより著しく低下した．また，TEADファミリー転写因子の標的遺伝子として知られる<em><a href="#" class="anno Ctgf">Ctgf</a></em>遺伝子ならびに<em><a href="#" class="anno Cyr61">Cyr61</a></em>遺伝子の転写はSHP2のノックダウンにより強く抑制された．さらに，リン酸化抵抗性TAZ変異体の異所性の発現が誘導する足場に<a href="#" class="anno 非依存的">非依存的</a>な<a href="#" class="anno 細胞増殖">細胞増殖</a>や<a href="#" class="anno 細胞運動">細胞運動</a>の亢進が，SHP2のノックダウンにより<a href="#" class="anno 減弱">減弱</a>することも示された．以上の結果より，SHP2はYAPおよびTAZの活性を増強すると考えられた．<br/><br/><h2>おわりに</h2><br/>　この研究により，これまで不明であったチロシンホスファターゼSHP2の細胞内局在の制御機構が明らかになった．SHP2はYAPおよびTAZと複合体を形成し，Hippo経路が活性化していないときには，脱<a href="#" class="anno リン<a href="#" class="anno 酸化状態">酸化状態</a>">リン酸化状態</a>のYAPおよびTAZとともに核へと移行してβカテニンならびにTEADファミリー転写因子に依存的な転写の活性化を促進する（<a href="#F1">図1a</a>）．一方，細胞密度の増大などによりHippo経路が活性化すると，リン酸化によるYAPおよびTAZの細胞質から核への移行の阻止にともないSHP2も細胞質にとどまる（<a href="#F1">図1b</a>）．YAPおよびTAZに依存したSHP2の細胞内局在の制御は，これまでに報告されている複数のYAPおよびTAZに依存的なWnt/βカテニン経路の制御機構とともに，Hippo経路とWnt/βカテニン経路とのあいだの密接かつ複雑な<a href="#" class="anno クロストーク">クロストーク</a>を構成すると推測される<a href="#R7"><sup>7-9)</sup></a>．SHP2は発がんに重要な役割を担う2つの主要なシグナル伝達経路RAS-Erk経路ならびにWnt/βカテニン経路を正に制御する．これに対し，Hippo経路は培養細胞における接触阻害や個体における臓器あるいは組織の大きさの決定，さらには，発がんにも深くかかわるシグナル伝達経路として注目をあつめている<a href="#R5"><sup>5)</sup></a>．この研究から得られた成果は，発がん<a href="#" class="anno 促進性">促進性</a>のシグナル伝達経路であるRAS-Erk経路ならびにWnt/βカテニン経路が，SHP2の細胞内局在の制御を介して<a href="#" class="anno がん抑制">がん抑制</a>性のシグナル伝達経路であるHippo経路により制御されるという新たな概念を提示した．くわえて，SHP2がHippo経路に依存的なシグナル伝達の一翼を担うという事実から，SHP2の<a href="#" class="anno 生理学的">生理学的</a>および<a href="#" class="anno 病態生理">病態生理</a>学的な多彩な機能の発現におけるYAPおよびTAZの標的遺伝子の関与が推測された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　YAPおよびTAZによるSHP2の細胞内局在の制御</strong><br/>（a）低密度培養などHippo経路が非活性化状態にある細胞では，YAPおよびTAZは脱リン酸化状態にあり細胞質から核へと移行する．このYAPおよびTAZの核への移行にともないSHP2も核に集積し，parafibrominの脱リン酸化を介したWntの標的遺伝子ならびにTEADファミリー転写因子の標的遺伝子の転写の活性化を促進する．<br/>（b）高密度培養などHippo経路が活性化状態にある細胞では，リン酸化に依存的なYAPおよびTAZの細胞質への滞留にともないSHP2の核への移行は阻止され，核におけるSHP2の活性は低下する．<br/>P：リン酸化<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2013/10/Hatakeyama-Developmental-Cell-13.9.30-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　YAPおよびTAZによるSHP2の細胞内局在の制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatakeyama-Developmental-Cell-13.9.30-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatakeyama-Developmental-Cell-13.9.30-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Mohi, M. G. & Neel, B. G.</span>: <span class="ti">The role of Shp2 (PTPN11) in cancer.</span> <span class='so'>Curr. Opin. Genet. Dev., 17, 23-30 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17227708" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Tidyman, W. E. & Rauen K. A.</span>: <span class="ti">The RASopathies: developmental syndromes of Ras/MAPK pathway dysregulation.</span> <span class='so'>Curr. Opin. Genet. Dev., 19, 230-236 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19467855" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Neel, B. G., Gu, H. & Pao, L.</span>: <span class="ti">The ‘Shp’ing news: SH2 domain-containing tyrosine phosphatases in cell signaling.</span> <span class='so'>Trends Biochem. Sci., 28, 284-293 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12826400" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Takahashi, A., Tsutsumi, R., Kikuchi, I. et al.</span>: <span class="ti">SHP2 tyrosine phosphatase converts parafibromin/Cdc73 from a tumor suppressor to an oncogenic driver.</span> <span class='so'>Mol. Cell, 43, 45-56 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21726809" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/3300" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R5"><span class='au'>Pan, D.</span>: <span class="ti">The hippo signaling pathway in development and cancer.</span> <span class='so'>Dev. Cell, 19, 491-505 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20951342" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Dupont, S., Morsut, L., Aragona, M. et al.</span>: <span class="ti">Role of YAP/TAZ in mechanotransduction.</span> <span class='so'>Nature, 474, 179-183 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21654799" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'> Varelas, X., Miller, B. W., Sopko, R. et al.</span>: <span class="ti">The Hippo pathway regulates Wnt/β-catenin signaling.</span> <span class='so'>Dev. Cell, 18, 579-591 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20412773" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Heallen, T., Zhang, M., Wang, J. et al.</span>: <span class="ti">Hippo pathway inhibits Wnt signaling to restrain cardiomyocyte proliferation and heart size.</span> <span class='so'>Science, 332, 458-461 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21512031" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Imajo, M., Miyatake, K., Iimura, A. et al.</span>: <span class="ti">A molecular mechanism that links Hippo signalling to the inhibition of Wnt/β-catenin signaling.</span> <span class='so'>EMBO J., 31, 1109-1122 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22234184" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_02.html" target="_blank">14.2 Basic Mechanisms of Intracellular Signal Transduction</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_01.html" target="_blank">14.1 What is Signal Transduction?</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/15_01.html" target="_blank">15.1 Receptor-Mediated Intracellular Signaling Pathways</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_03.html" target="_blank">12.3 Transport of Proteins Synthesized by Free Polysomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_03.html" target="_blank">14.3 Intercellular Signal Transduction</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">堤  良平（Ryouhei Tsutsumi）</span><br>略歴：2006年 北海道大学大学院理学研究科 修了，2006年 国立長寿医療センター研究所 研究員，2007年 生理学研究所 研究員，2009年 東京大学大学院医学系研究科 助教を経て，2013年よりカナダOntario Institute for Cancer Research博士研究員．<br>研究テーマ：チロシンホスファターゼによる細胞内シグナル伝達．<br><br><strong>畠山 昌則（Masanori Hatakeyama）</strong><br>東京大学大学院医学系研究科 教授．<br>研究室URL：<a href="http://www.microbiol.m.u-tokyo.ac.jp/" target="_blank">http://www.microbiol.m.u-tokyo.ac.jp/</a><br></div><br>© 2013 堤 良平・畠山昌則 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

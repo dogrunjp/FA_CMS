@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> small RNA二本鎖のATP依存的なRISC積み込み反応はHsc70/Hsp90シャペロンマシナリーによって媒介される : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/346" rel="bookmark">small RNA二本鎖のATP依存的なRISC積み込み反応はHsc70/Hsp90シャペロンマシナリーによって媒介される</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>岩崎信太郎・泊 幸秀</strong><br>（東京大学分子細胞生物学研究所 RNA機能研究分野）<br>email：<a href="mailto:tomari@iam.u-tokyo.ac.jp">泊 幸秀</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2010.005">10.7875/first.author.2010.005</a><br><div class="reference"><br><span class="ti">Hsc70/Hsp90 chaperone machinery mediates ATP-dependent RISC loading of small RNA duplexes.</span><br><span class="au">Shintaro Iwasaki, Maki Kobayashi, Mayuko Yoda, Yuriko Sakaguchi, Susumu Katsuma, Tsutomu Suzuki, Yukihide Tomari</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/20605501" target="_blank"><em>Molecular Cell</em>, <strong>39</strong>, 292-299 (2010)</a></span><br></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno 小分子">小分子</a>RNA（<a href="#" class="anno s<a href="#" class="anno mal">mal</a>">smal</a>l RNA）は，通常，RNA-induced silencing complex（R<a href="#" class="anno IS">IS</a>C）とよばれる<a href="#" class="anno 複合体">複合体</a>に取り込まれて機能する．<a href="#" class="anno RISC">RISC</a>の中核をなすのは<a href="#" class="anno Argonaute">Argonaute</a>（Ago）とよばれるタンパク質である．最近，筆者らは，RISCの形成過程において，前半の<a href="#" class="anno 素過程">素過程</a>であるAgoへのs<a href="#" class="anno mall">mall</a> RNA<a href="#" class="anno 二本鎖">二本鎖</a>積み込みには，Hsc70/<a href="#" class="anno Hsp">Hsp</a>90<a href="#" class="anno シャペロン">シャペロン</a><a href="#" class="anno マシナリー">マシナリー</a>が必要であることを明らかにした．これは，かさ高い<a href="#" class="anno small RNA">small RNA</a>二本鎖を取り込むためにはAgoのダイナミックな<a href="#" class="anno 構造変化">構造変化</a>が必要であることを強く支持する<a href="#" class="anno も">も</a>のである．<br/><br/><h2>はじめに</h2><br/>　18～30塩基程度の<a href="#" class="anno 小分子RNA">小分子RNA</a>（small RNA）が<a href="#" class="anno 標的遺伝子">標的遺伝子</a>の<a href="#" class="anno 発現調節">発現調節</a>を介して，発生，<a href="#" class="anno 細胞周期">細胞周期</a>，<a href="#" class="anno 細胞増殖">細胞増殖</a>，<a href="#" class="anno 稔性">稔性</a>，<a href="#" class="anno がん化">がん化</a>といった重要な<a href="#" class="anno <a href="#" class="anno 生物学">生物学</a>的">生物学的</a>側面を緻密に制御していることが明らかになりつつある．small RNAは，一般に，それ自体と<a href="#" class="anno <a href="#" class="anno 相">相</a>補的">相補的</a>な配列をもつRNAを標的としてはたらく．しかし，small RNAは単独で標的RNAの発現を調節できるわけではなく，RNA-induced silencing complex（RISC）とよばれるRNA-<a href="#" class="anno タンパク質複合体">タンパク質複合体</a>を形成することではじめて機能する．RISCの<a href="#" class="anno 構成タンパク質">構成タンパク質</a>のなかでも<a href="#" class="anno 中心的">中心的</a>役割を担うのがArgonaute（Ago）とよばれるタンパク質である．Agoはsmall RNAと直接に結合し，標的<a href="#" class="anno mRNA">mRNA</a>の認識と切断活性をもつことにくわえ，標的mRNAからの<a href="#" class="anno 翻訳抑制">翻訳抑制</a>，<a href="#" class="anno ポリA">ポリA</a>鎖の短縮，標的mRNAの分解など，多岐にわたる機能を誘導することがわかっている<a href="#R1"><sup>1)</sup></a>．<br/><br/><h2>1．small RNAの<a href="#" class="anno 生合成">生合成</a>とRISCの形成</h2><br/>　<a href="#" class="anno 代表的">代表的</a>なsmall RNAとして，<a href="#" class="anno mic">mic</a>roRNA（<a href="#" class="anno miRNA">miRNA</a>）とsmall in<a href="#" class="anno ter">ter</a>fe<a href="#" class="anno rin">rin</a>g RNA（<a href="#" class="anno siRNA">siRNA</a>）が知られている．これらのsmall RNAは<a href="#" class="anno 前駆体">前駆体</a>RNAからRN<a href="#" class="anno ase">ase</a>Ⅲファミリーに属するDicerタンパク質によって切り出されて，それぞれmiRNA/miRNA*二本鎖，siRNA二本鎖とよばれるsmall RNA二本鎖<a href="#" class="anno 中間体">中間体</a>として生合成される．ショウジョウバエの場合は，Dicer-1がmi<a href="#" class="anno RNA前駆体">RNA前駆体</a>からmiRNA/miRNA*二本鎖を切り<a href="#" class="anno 出し">出し</a>，Dicer-2が<a href="#" class="anno 長鎖">長鎖</a><a href="#" class="anno 二本鎖RNA">二本鎖RNA</a>からsiRNA二本鎖を切り出す．<br/>　small RNA二本鎖からRISCが形成される過程（RISC assembly）は複雑な過程をへるが，大きく分けると，small RNA二本鎖の積み込み（RISC loading）と，small RNA二本鎖の<a href="#" class="anno 一本鎖">一本鎖</a>化（unwinding）という2つの素過程から成り立つ<a href="#F1">（図1）</a>．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　small RNA二本鎖からのRISCの形成</strong><br/>RISCの形成はsmall RNA二本鎖の積み込みと，small RNA二本鎖の一本鎖化という2つの素過程から成り立つ．一般に，miRNAはAgo1へ（左），siRNAはAgo2へと取り込まれる（右）．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2010/09/Tomari-Molecular-Cell-10.7.30-Fig.1.jpg" target="_blank">[Download]</a></div><br/>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　small RNA二本鎖からのRISCの形成" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tomari-Molecular-Cell-10.7.30-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tomari-Molecular-Cell-10.7.30-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><h2>2．small RNA二本鎖の積み込み</h2><br/>　ショウジョウバエには<a href="#" class="anno A<a href="#" class="anno go1">go1</a>">Ago1</a>と<a href="#" class="anno Ago2">Ago2</a>という2つのAgoが存在するが，<a href="#" class="anno 一般的">一般的</a>に，miRNAはAgo1へ取り込まれ，siRNAはAgo2へと取り込まれる．また，ヒトにはAgo1～<a href="#" class="anno Ago4">Ago4</a>の4つのAgoが存在するが，miRNAもsiRNAもすべてのAgoに取り込まれることが知られている．<br/>　RISCの形成過程のうちもっとも解析の進んでいるのは，ショウジョウバエにおいてsiRNA二本鎖がAgo2へと取り込まれる経路である<a href="#F1">（図1，右）</a>．Dicer-2/R2D2は，前述のsiRNA二本鎖の生合成を行うほか，Ago2を含むRISCの形成にも必須であることが示されている．その役割はおもに3つに分けられる．<a href="#" class="anno 1つ目">1つ目</a>は，small RNA二本鎖の“振り分け”である．ショウジョウバエではsmall RNA二本鎖の構造によってそのsmall RNA二本鎖がAgo1へ取り込まれるかAgo2に取り込まれるかが決まるが，siRNA二本鎖のように<a href="#" class="anno 相補性">相補性</a>の高いsmall RNAの場合にはAgo2へと取り込まれる．Dicer-2/R2D2はこの振り分けの際，small RNA二本鎖の構造を認識し，中心付近が相補的であるsiRNA二本鎖をAgo2への経路に進ませ，“門番”のような役割をはたしている<a href="#R2"><sup>2)</sup></a>．2つ目は，“small RNAの<a href="#" class="anno 非<a href="#" class="anno 対称性">対称性</a>">非対称性</a>”の認識である．通常，small RNA二本鎖のうち，片方のRNA鎖のみが<a href="#" class="anno 最終的">最終的</a>にAgoに保持される．siRNA二本鎖ではAgoに保持される側のRNA鎖をガイド鎖，取り除かれる側のRNA鎖をパッセンジャー鎖という．一般的に，両方の末端のうち5’末端が熱<a href="#" class="anno 力学的">力学的</a>に不安定なほうのRNA鎖がガイド鎖として選ばれる（これを“small RNAの非対称性”とよぶ）．siRNA二本鎖の両方の末端のうち，より<a href="#" class="anno 熱力学的">熱力学的</a>に安定な末端にR2D2が，より不安定な末端にDicer-2が結合することによりsmall RNAの非対称性が認識され，これにより最終的にAgo2に保持されるRNA鎖が決定されるものと考えられている<a href="#R3"><sup>3)</sup></a>．3つ目は，small RNA二本鎖の積み込みである．Dicer-2/R2D2がないとsiRNA二本鎖はAgo2へと取り込まれない<a href="#R4"><sup>4-6)</sup></a>．おそらく，small RNA二本鎖の振り分け，small RNAの非対称性の認識，small RNA二本鎖の積み込みといった現象は同時並行に起こっており，これらをへることによりAgo2へと取り込まれるsmall RNAが厳密に制御されているものと考えられる．<br/>　これに対し，ショウジョウバエのAgo1におけるsmall RNA二本鎖の積み込みにはDicer-1，Dicer-2の双方とも必要がない<a href="#F1">（図1，左）</a>．Ago1におけるsmall RNAの積み込み二本鎖において，Dicer-2/R2D2のもつ役割を担うほかの因子が存在するのかどうかはよくわかっていないが，miRNA/miRNA*二本鎖のように中心付近（ガイド鎖の5’末端から8～11塩基）に<a href="#" class="anno ミスマッチ">ミスマッチ</a>のある場合にはsmall RNA二本鎖の積み込みが促進される<a href="#R7"><sup>7)</sup></a>．<br/><br/><h2>3．small RNA二本鎖の一本鎖化</h2><br/>　ショウジョウバエの場合，small RNA二本鎖の一本鎖化についてもAgo1とAgo2は<a href="#" class="anno 対照的">対照的</a>である<a href="#F1">（図1）</a>．Ago2への経路の場合，small RNA二本鎖の振り分けの過程でRNA鎖の中心付近が相補的なsiRNA二本鎖が選択されることになる．この場合，パッセンジャー鎖があたかも標的RNAのようにふるまい，Ago2自体によって切断されることが知られている<a href="#R8"><sup>8)</sup></a>．また，いちど切断されたパッセンジャー鎖を<a href="#" class="anno C3">C3</a><a href="#" class="anno PO">PO</a>とよばれる別の<a href="#" class="anno ヌクレアーゼ">ヌクレアーゼ</a>がさらに分解することで，パッセンジャー鎖が再びガイド鎖に結合することを防いでいる<a href="#R9"><sup>9)</sup></a>．<br/>　これに対して，Ago1への経路では中心付近の10～11番目の塩基がミスマッチであるものが選ばれる．Ago1自体は標的RNAの切断活性をもっているが，切断が起こる位置がミスマッチになっているためRNA鎖の切断は起こらない．Ago1においてsmall RNA二本鎖の一本鎖化が<a href="#" class="anno 効率的">効率的</a>に起こるには，ガイド鎖の5’末端から数えて2～8塩基（s<a href="#" class="anno eed">eed</a>領域）と12～1<a href="#" class="anno 6塩基">6塩基</a>（3’領域）のどちらか，あるいは，両方の位置にミスマッチの必要なことが知られている<a href="#R7"><sup>7)</sup></a>．<br/><br/><h2>4．small RNA二本鎖の積み込みにはHsc70/<a href="#" class="anno Hsp90">Hsp90</a>が必要である</h2><br/>　以上のように，ショウジョウバエにおいて，Ago1あるいはAgo2におけるsmall RNA二本鎖の積み込みとsmall RNA二本鎖の一本鎖化は，それぞれ対照的な経路をたどる<a href="#F1">（図1）</a>．また，ヒトのAgo1～Ago4におけるRISC形成はショウジョウバエのAgo1におけるRISC形成に類似している<a href="#R10"><sup>10)</sup></a>．これらすべてのAgoのRISC形成に共通する重要な<a href="#" class="anno 生<a href="#" class="anno 化学的">化学的</a>">生化学的</a>事実が知られている．それは，small RNA二本鎖の積み込みにはA<a href="#" class="anno TP">TP</a>の<a href="#" class="anno 加水分解">加水分解</a>が必要であるのに対し，small RNA二本鎖の一本鎖化にはATPは必要ないということである<a href="#R10"><sup>10,11)</sup></a>．<br/>　これまでの研究により，small RNA二本鎖の積み込みにはATPの加水分解が必要であり，さらに，精製したAgoだけではsmall RNA二本鎖は取り込まれ<a href="#" class="anno ないこと">ないこと</a>がわかっていた<a href="#R12"><sup>12)</sup></a><a href="#F1">（図1）</a>．これらのことは，Agoがsmall RNA二本鎖を取り込むには，ATPの加水分解を必要とするなんらかの因子が必要であることを示唆する．しかし，それがいったいどんな因子なのかについては，これまでまったくわかっていなかった．<br/>　筆者らは，今回，ショウジョウバエのAgo1，Ago2に結合する因子として，<a href="#" class="anno 分子シャペロン">分子シャペロン</a><a href="#" class="anno H<a href="#" class="anno sp7">sp7</a>0">Hsp70</a>の<a href="#" class="anno 恒常的">恒常的</a>発現性<a href="#" class="anno ホモログ">ホモログ</a>であるHsc70-4，別の分子シャペロンHsp90のホモログであるH<a href="#" class="anno sp8">sp8</a>3，また，これらの<a href="#" class="anno コシャペロン">コシャペロン</a>である<a href="#" class="anno Hop">Hop</a>や<a href="#" class="anno Dro">Dro</a>j2を同定した．さらに，Hsc70あるいはHsp90の<a href="#" class="anno 特異的">特異的</a><a href="#" class="anno 阻害剤">阻害剤</a>を用いた実験により，ショウジョウバエとヒトにおけるsmall RNA二本鎖の積み込みにはHsc70/Hsp90シャペロンマシナリーが必要であるのに対し，small RNA二本鎖の一本鎖化には必要ないということを明らかにした．<br/><br/><h2>5．small RNA二本鎖の積み込みとAgoの構造変化</h2><br/>　なぜ，small RNA二本鎖の積み込みにHsc70/Hsp90シャペロンマシナリーが必要なのだろうか？　それを考察するには，small RNA二本鎖の積み込みとはいったいどういう反応なのかを考える必要がある．ATPの加水分解が必要であることから考えて，small RNA二本鎖の積み込みは単なるタンパク質とRNAとの結合ではない．ATPとsmall RNA二本鎖の積み込みの関係を考察するうえで参考になるのが，近年，解かれた高度<a href="#" class="anno 好熱">好熱</a>菌<em>Th<a href="#" class="anno erm">erm</a>us thermophilus</em>のAgoの<a href="#" class="anno 立体構造">立体構造</a>である<a href="#R13"><sup>13,14)</sup></a>．この立体構造の解析からは，21塩基程度の<a href="#" class="anno A型">A型</a><a href="#" class="anno ヘリックス">ヘリックス</a>構造を形成するsmall RNA二本鎖はAgoに対して大きすぎ，small RNA二本鎖が取り込まれるはずの位置には収まらないことが示唆された．よって，Agoが21塩基程度のsmall RNA二本鎖を取り込むためには，Agoの<a href="#" class="anno 大規模">大規模</a>な<a href="#" class="anno 立体構造変化">立体構造変化</a>が必要であることが推察されていた．筆者らは，ATPの加水分解が，まさにこのAgoの大規模な立体構造変化をひき起こす<a href="#" class="anno 駆動力">駆動力</a>になっているのではないかというモ<a href="#" class="anno デ">デ</a>ルを提唱した<a href="#R11"><sup>11)</sup></a>．<br/>　このモデルから考えると，Hsc70/Hsp90シャペロンマシナリーがsmall RNA二本鎖の積み込みに必要であることは理にかなっている．<a href="#" class="anno つまり">つまり</a>，small RNA二本鎖の積み込みという反応は，“Hsc70/Hsp90シャペロンマシナリーがATPの加水分解を利用してAgoの構造を変化させることでsmall RNA二本鎖がAgoのなかに取り込まれる”ものであると説明することができる<a href="#F2">（図2）</a>．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　small RNA二本鎖の積み込みにおけるHsc70/Hsp90シャペロンマシナリーのはたらき</strong><br/>Hsc70/Hsp90シャペロンマシナリーによりAgoの大規模な立体構造変化がひき起こされ，small RNA二本鎖が正しく取り込まれる空間が形成されるものと考えられる．<br/><a href="http://first.lifesciencedb.jp/wp-content/uploads/2010/09/Tomari-Molecular-Cell-10.7.30-Fig.2.jpg" target="_blank">[Download]</a></div><br/>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　small RNA二本鎖の積み込みにおけるHsc70/Hsp90シャペロンマシナリーのはたらき" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tomari-Molecular-Cell-10.7.30-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tomari-Molecular-Cell-10.7.30-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　<a href="#" class="anno 内在性">内在性</a>のタンパク質のなかには，Hsc70/Hsp90シャペロンマシナリーの助けをかりて構造を変化させることにより機能するものが数多く存在する．たとえば，ステロイド<a href="#" class="anno 受容体">受容体</a>である<a href="#" class="anno グルココルチコイド">グルココルチコイド</a>受容体は，そのままでは<a href="#" class="anno リガンド">リガンド</a>であるグルココルチコイドに結合できないが，Hsc70/Hsp90シャペロンマシナリーによる<a href="#" class="anno 成熟化">成熟化</a>をうけてグルココルチコイドに結合できるような構造に変化する<a href="#R15"><sup>15)</sup></a>．Agoのリガンドをsmall RNA二本鎖と考えれば，<a href="#" class="anno グルココルチコイド受容体">グルココルチコイド受容体</a>の例に類似しているといえる．<br/><br/><h2>おわりに</h2><br/>　この研究によって，small RNA二本鎖の積み込みという反応の中核となる因子が明らかになったとともに，このsmall RNA二本鎖の積み込みがいったいどういう反応なのかということについても理解が深まった．しかしながら，筆者らは，small RNA二本鎖の積み込みという反応はさらに複雑な素過程をへるものと考えている．通常，Hsc70やHsp90などの分子シャペロンはコシャペロンにより活性が制御されている．また，グルココルチコイド受容体の場合においては，Hsc70，Hsp90，そして，多くのコシャペロンが<a href="#" class="anno 標的タンパク質">標的タンパク質</a>へ順序よく作用してはじめてその構造が変化することが知られている<a href="#R15"><sup>15)</sup></a>．<a href="#" class="anno 実際">実際</a>，Agoの場合も，精製したHsc70やHsp90だけを反応系にくわえてもsmall RNA二本鎖の積み込み反応が再現されないことから，このsmall RNA二本鎖の積み込みもグルココルチコイド受容体の成熟化と同様の複雑な<a href="#" class="anno 分子機構">分子機構</a>により起こることが考えられる．<a href="#" class="anno そのため">そのため</a>にはどのようなコシャペロンが必要なのか，それらがどのような順序でAgoに作用するのか，といった問題は，small RNA二本鎖の積み込みという反応を理解するうえで非常に重要であり，今後，解明されるべき問題であると考えている．<br/>　なお，small RNA二本鎖の積み込みに分子シャペロンHsp90が必要であることに関しては，このたび，同時に植物においても同様の報告がなされており<a href="#R16"><sup>16)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/338" target="_blank">新着論文レビュー</a> でも掲載），RISCの形成における分子シャペロン<a href="#" class="anno 依存性">依存性</a>の<a href="#" class="anno 普遍性">普遍性</a>が示唆されている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Carthew, R. W. & Sontheimer, E. J.</span>: <span class='ti'>Origins and mechanisms of miRNAs and siRNAs.</span> <span class='so'>Cell, 136, 642-655 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19239886" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Tomari, Y., Du, T. & Zamore, P. D.</span>: <span class='ti'>Sorting of <em>Drosophila</em> small silencing RNAs.</span> <span class='so'>Cell, 130, 299-308 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17662944" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Tomari, Y. et al.</span>: <span class='ti'>A protein sensor for siRNA asymmetry.</span> <span class='so'>Science, 306, 1377-1380 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15550672" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Liu, Q. et al.</span>: <span class='ti'>R2D2, a bridge between the initiation and effector steps of the <em>Drosophila</em> RNAi pathway.</span> <span class='so'>Science, 301, 1921-1925 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14512631" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Pham, J. W. et al.</span>: <span class='ti'>A Dicer-2-dependent 80S complex cleaves targeted mRNAs during RNAi in <em>Drosophila</em>.</span> <span class='so'>Cell, 117, 83-94 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15066284" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Tomari, Y. et al.</span>: <span class='ti'>RISC assembly defects in the <em>Drosophila</em> RNAi mutant <em>armitage</em>.</span> <span class='so'>Cell, 116, 831-841 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15035985" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Kawamata, T., Seitz, H. & Tomari, Y.</span>: <span class='ti'>Structural determinants of miRNAs for RISC loading and slicer-independent unwinding.</span> <span class='so'>Nat. Struct. Mol. Biol., 16, 953-960 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19684602" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Matranga, C. et al.</span>: <span class='ti'>Passenger-strand cleavage facilitates assembly of siRNA into Ago2-containing RNAi enzyme complexes.</span> <span class='so'>Cell, 123, 607-620 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16271386" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Liu, Y. et al.</span>: <span class='ti'>C3PO, an endoribonuclease that promotes RNAi by facilitating RISC activation.</span> <span class='so'>Science, 325, 750-753 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19661431" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Yoda, M. et al.</span>: <span class='ti'>ATP-dependent human RISC assembly pathways.</span> <span class='so'>Nat. Struct. Mol. Biol., 17, 17-23 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19966796" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Kawamata, T. & Tomari, Y.</span>: <span class='ti'>Making RISC.</span> <span class='so'>Trends Biochem. Sci., 35, 368-376 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20395147" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Rivas, F. V. et al.</span>: <span class='ti'>Purified Argonaute2 and an siRNA form recombinant human RISC.</span> <span class='so'>Nat. Struct. Mol. Biol., 12, 340-349 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15800637" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Wang, Y. et al.</span>: <span class='ti'>Structure of an argonaute silencing complex with a seed-containing guide DNA and target RNA duplex.</span> <span class='so'>Nature, 456, 921-926 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19092929" target="_blank">PubMed</a>]</span></li><br><li id="R14"><span class='au'>Wang, Y. et al.</span>: <span class='ti'>Nucleation, propagation and cleavage of target RNAs in Ago silencing complexes.</span> <span class='so'>Nature, 461, 754-761 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19812667" target="_blank">PubMed</a>]</span></li><br><li id="R15"><span class='au'>Grad, I. & Picard, D.</span>: <span class='ti'>The glucocorticoid responses are shaped by molecular chaperones.</span> <span class='so'>Mol. Cell. Endocrinol., 275, 2-12 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17628337" target="_blank">PubMed</a>]</span></li><br><li id="R16"><span class='au'>Iki, T. et al.</span>: <span class='ti'>In vitro assembly of plant RNA-induced silencing complexes facilitated by molecular chaperone HSP90.</span> <span class='so'>Mol. Cell, 39, 282-291 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20605502" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/338" target="_blank">新着論文レビュー</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_06.html" target="_blank">9.6 Formation of Higher-order Structure and Post-translational Modification</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/10_05.html" target="_blank">10.5 Regulation of Gene Expression Through Small RNA</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">岩崎 信太郎（Shintaro Iwasaki）</span><br>略歴：東京大学大学院新領域創成科学研究科 博士課程 在学中．<br>研究テーマ：サイレンシングの分子機構．<br>座右の銘：一身独立して一国独立す．<br><br><strong>泊  幸秀（Yukihide Tomari）</strong><br>東京大学分子細胞生物学研究所 准教授．<br>研究室URL：<a href="http://www.iam.u-tokyo.ac.jp/tomari/index.html" target="_blank">http://www.iam.u-tokyo.ac.jp/tomari/index.html</a><br></div><br>© 2010 岩崎信太郎・泊 幸秀 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

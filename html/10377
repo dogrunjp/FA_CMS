@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> HLA imputation法を用いたバセドウ病のバイオマーカーの同定 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/10377" rel="bookmark">HLA imputation法を用いたバセドウ病のバイオマーカーの同定</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>岡田 随象</strong><br>（東京医科歯科大学大学院医歯学総合研究科 疾患多様性遺伝学分野）<br>email：<a href="mailto:yokada.brc@tmd.ac.jp">岡田随象</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.081">10.7875/first.author.2015.081</a><br><div class="reference"><br><span class="ti">Construction of a population-specific HLA imputation reference panel and its application to Graves' disease risk in Japanese.</span><br><span class="au">Yukinori Okada, Yukihide Momozawa, Kyota Ashikawa, Masahiro Kanai, Koichi Matsuda, Yoichiro Kamatani, Atsushi Takahashi, Michiaki Kubo</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26029868" target="_blank"><em>Nature Genetics</em>, <strong>47</strong>, 798-802 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ヒトの第6<a href="#" class="anno 染色体">染色体</a>の<a href="#" class="anno 短腕">短腕</a>のM<a href="#" class="anno HC">HC</a>領域に存在する<a href="#" class="anno HLA遺伝子">HLA遺伝子</a>は多彩な疾患に対する<a href="#" class="anno 発症リスク">発症リスク</a>を<a href="#" class="anno も">も</a>つ．HLA imputation法は個人のHLA<a href="#" class="anno 遺伝子型">遺伝子型</a>をコンピューターにより高い精度で推定する遺伝<a href="#" class="anno 統計解析">統計解析</a>の手法であり，HLA遺伝子のもつ発症リスクの<a href="#" class="anno 網羅的">網羅的</a>な解析を可能にする．この研究においては，HLA imputation法の実施に必要となる<a href="#" class="anno 参照遺伝子">参照遺伝子</a>型<a href="#" class="anno デ">デ</a>ータを日本人の集団908名を対象に作成し，日本人の集団に対しHLA imputation法を実装した．<a href="#" class="anno ハプロタイプ">ハプロタイプ</a>の頻度分布のもつ<a href="#" class="anno 情報量">情報量</a>エントロピーに対する正規化の指標を用いてHLA遺伝子のあいだの<a href="#" class="anno 連鎖不平衡">連鎖不平衡</a>関係を数値化する手法を導入し，高次元でのデータの<a href="#" class="anno 可視化">可視化</a>の手法とともにHLA遺伝子型データを評価した結果，日本人の集団においては<a href="#" class="anno MHC">MHC</a>領域の全域にわたる人種に<a href="#" class="anno 特異的">特異的</a>なHLA遺伝子型のハプロタイプが存在し，HLA遺伝子のあいだに<a href="#" class="anno 比較的">比較的</a>強固な連鎖不平衡関係のあることが明らかにされた．さらに，日本人の集団9003名を対象とした<a href="#" class="anno バセドウ病">バセドウ病</a>の<a href="#" class="anno ゲノムワイド">ゲノムワイド</a><a href="#" class="anno 関連解析">関連解析</a>データへのHLA imputation法の適用をつうじて，複数のHLA遺伝子にコードされた<a href="#" class="anno アミノ">アミノ</a>酸配列をバセドウ病に対する発症リスクをもつ<a href="#" class="anno バイオマー<a href="#" class="anno カ">カ</a>ー">バイオマーカー</a>として同定した．<br/><br/><h2>はじめに</h2><br/>　ヒトの<a href="#" class="anno 第6染色体">第6染色体</a>の短腕に存在するMHC（major histocompatibi<a href="#" class="anno lit">lit</a>y complex，<a href="#" class="anno 主要組織">主要組織</a>適合遺伝子<a href="#" class="anno 複合体">複合体</a>）領域は，約4 <a href="#" class="anno Mbp">Mbp</a>という短い距離に200以上の遺伝子が含まれる複雑な領域であり，<a href="#" class="anno <a href="#" class="anno 自己免疫">自己免疫</a>疾患">自己<a href="#" class="anno 免疫疾患">免疫疾患</a></a>，<a href="#" class="anno <a href="#" class="anno アレル">アレル</a>ギー性疾患">アレルギー性疾患</a>，<a href="#" class="anno 感染症">感染症</a>，<a href="#" class="anno 精神疾患">精神疾患</a>，<a href="#" class="anno 悪性腫瘍">悪性腫瘍</a>，薬剤への副作用といった多彩な疾患に対する発症リスクをもつ領域として知られている<a href="#R1"><sup>1)</sup></a>．なかでも，MHC領域に存在するHLA（<a href="#" class="anno hum">hum</a>an <a href="#" class="anno leu">leu</a>kocyte antigen，ヒト白血球型抗原）遺伝子は発症リスクをもつ責任<a href="#" class="anno 感受性遺伝子">感受性遺伝子</a>と考えられている．HLA遺伝子は白血球の<a href="#" class="anno 細胞表面">細胞表面</a>に発現し抗原に特異的な<a href="#" class="anno 免疫反応">免疫反応</a>をつかさどる<a href="#" class="anno 機能性">機能性</a>遺伝子である．HLA遺伝子には複数の種類が存在し，主要なものはクラスI HLA遺伝子とクラスII HLA遺伝子の2つに大別される．おのおののHLA遺伝子は<a href="#" class="anno 数十">数十</a>種類から百種類のもの<a href="#" class="anno 遺伝子配列">遺伝子配列</a>パターンの<a href="#" class="anno 個人差">個人差</a>をもち，この複数のHLA遺伝子型の組合せが個人の発症リスクを規定していると考えられている．HLA遺伝子型は<a href="#" class="anno 一般的">一般的</a>なゲノム<a href="#" class="anno 塩基配列">塩基配列</a>の個人差である<a href="#" class="anno SNP">SNP</a>（single-<a href="#" class="anno nucl">nucl</a>eot<a href="#" class="anno ide">ide</a> polymorphism，<a href="#" class="anno 1塩基<a href="#" class="anno 多型">多型</a>">1塩基多型</a>）と比較して高い発症リスクをもつ例が多いため，<a href="#" class="anno ゲノム情報">ゲノム情報</a>にもとづく<a href="#" class="anno <a href="#" class="anno 個別化">個別化</a>医療">個別化医療</a>の実現においても<a href="#" class="anno 実用性">実用性</a>が高いと期待されている．<br/><br/><h2>1．MHC領域における発症リスクのファインマッ<a href="#" class="anno ピン">ピン</a>グとHLA imputation法</h2><br/>　しかしながら，どのHLA遺伝子の，どのHLA遺伝子型が，どの程度の発症リスクをもつのかを<a href="#" class="anno 具体的">具体的</a>に決定するファインマッピングは，1）複数のHLA遺伝子が近接して位置しているため，個別のHLA遺伝子ではなく複数のHLA遺伝子を同時に解析する網羅的な研究が必要であること，2）おのおののHLA遺伝子が数十種類から百種類もの多型をもつため，統計<a href="#" class="anno 解析手法">解析手法</a>が難解であること，3）HLA遺伝子型を<a href="#" class="anno 実験的">実験的</a>に決定するための費用は高額であるため，大量の試料の解析がコストの面から困難であることから，進んでいなかった．この状況を打破するために開発されたのがHLA imputation法である．HLA imputation法とは，HLA遺伝子型をコンピューターにより高い精度で推定することにより，HLA遺伝子型を実験的に決定することなくMHC領域のファインマッピングを可能にする遺伝統計解析の手法である<a href="#R2"><sup>2,3)</sup></a>．まず，一般の集団を対象として，MHC領域においてSNPデータおよびHLA遺伝子型を実験的に決定する．得られた遺伝子型データを<a href="#" class="anno 機械学習">機械学習</a>における参照データとして用いることにより，そのほかの試料において<a href="#" class="anno ゲノムワイド関連解析">ゲノムワイド関連解析</a>をつうじて得られているMHC領域のSNPデータを対象として，HLA遺伝子型を<a href="#" class="anno 統計学的">統計学的</a>に推定（imputation）する．ゲノムワイド関連<a href="#" class="anno 解析データ">解析データ</a>がすでに存在している場合，“追加の費用なし”でHLA遺伝子型の情報が網羅的に得られることが特徴である．とくに，<a href="#" class="anno 古典的">古典的</a>なHLA遺伝子の<a href="#" class="anno 対立遺伝子">対立遺伝子</a>にくわえHLA遺伝子のアミノ酸多型のimputationも実装されたS<a href="#" class="anno NP2">NP2</a>HLAソフトウェアが開発されたことにより，HLA遺伝子型のファインマッピングの実施が可能になった<a href="#R2"><sup>2,3)</sup></a>．<br/>　HLA imputation法はMHC領域に発症リスクをもつ疾患において多大な成果をあげている．現在，HLA imputation法を用いたMHC領域のファインマッピングが欧米人の集団を中心に多く実施されており，HLA遺伝子型が多彩な疾患におけるバイオマーカーとして報告されている<a href="#R4"><sup>4,5)</sup></a>．<br/><br/><h2>2．日本人の集団におけるHLA imputation法の実装</h2><br/>　HLA imputation法はMHC領域における発症リスクのファインマッピングにおいて有用な手段であるが，実施にあたっては参照データとなる遺伝子型データの事前の構築が必要である．日本人の集団においてはこの参照遺伝子型データが存在しないためHLA imputation法が実施できない状況がつづいていた．そこで，日本人の集団におけるHLA imputation法の実装を目的として，日本人の<a href="#" class="anno 健常者">健常者</a>の集団908名を対象に参照遺伝子型データを構築した．複数の商用<a href="#" class="anno マイクロアレイ">マイクロアレイ</a>を用いたMHC領域のSNPの高密度での遺伝子型<a href="#" class="anno タイピング">タイピング</a>にくわえ，3つのクラスI HLA遺伝子および4つのクラスII HLA遺伝子のHLA遺伝子型を実験的に決定した．<br/>　構築された参照遺伝子型データを用いて，すでにHLA遺伝子型の知られている日本人の試料のデータに対しHLA imputation法を実施したところ，平均で90～95％の正答率という高い精度でHLA遺伝子型を推定できた．また，欧米人の集団や日本人以外の東<a href="#" class="anno アジア人">アジア人</a>の集団を対象として構築された参照遺伝子型データを用いた場合と比べ，高い正答率が得られた．以上より，日本人の集団へのHLA imputation法の実施に際して，日本人の集団に特異的な参照遺伝子型データが有用であることが示された．HLA imputation法の実施における人種に特異的な参照遺伝子型データの<a href="#" class="anno 必要性">必要性</a>についてはさまざまな議論があったが，この研究により一定の結論が得られた．<br/><br/><h2>3．ビッグデータの可視化の手法を用いたHLA遺伝子の多型構造の人種のあいだでの比較</h2><br/>　なぜ人種に特異的な参照遺伝子型データが必要なのだろうか？　その答えを得るべく，集団において複雑な分布をとるHLA遺伝子型の組合せの<a href="#" class="anno 統合的">統合的</a>な比較を可能にする，2つのビッグデータの可視化の手法を開発した．ひとつは，<a href="#" class="anno 遺伝子多型">遺伝子多型</a>の連鎖不平衡関係を数値化する指標であるεの導入である<a href="#R6"><sup>6,7)</sup></a>．εは遺伝子型の組合せ（ハプロタイプ）の集団における頻度の情報に対する情報量エントロピーを正規化した指標である．元来は複数のSNPのあいだの連鎖不平衡関係を検討するために開発された指標であったが，この研究においては，2つのHLA遺伝子型の連鎖不平衡関係の検討へと適用を拡大した．今回，構築された日本人の集団の参照遺伝子型データを対象に，おのおののHLA遺伝子のペアのあいだのεを計算した結果，隣接するHLA遺伝子の一部で強固な連鎖不平衡関係が認められた．東アジア人の集団および欧米人の集団における参照遺伝子型データについても検討したところ，日本人の集団ではとくにこれらのHLA遺伝子のあいだの連鎖不平衡関係が強固であることが明らかにされた．<br/>　もうひとつは，多次元のビッグデータを2次元の情報に<a href="#" class="anno 圧">圧</a>縮し可視化するツールDisentanglerの導入である<a href="#R8"><sup>8)</sup></a>．Disentanglerは多彩な高次元のデータへの適用が可能であるが，遺伝子型データに適用した場合は集団における複雑なハプロタイプの分布の可視化が可能になることが知られている<a href="#R8"><sup>8)</sup></a>．Disentanglerを参照遺伝子型データに適用した結果，日本人の集団においてはMHC領域の全域にわたる長いHLA遺伝子型のハプロタイプが高い頻度で存在することが明らかにされた．このHLA遺伝子型のハプロタイプは日本人の集団においてのみ特異的にみられ，日本人の集団におけるHLA遺伝子のあいだの比較的強固な連鎖不平衡関係の一因と考えられた．このように，ビッグデータの可視化の手法をつうじ，日本人の集団におけるHLA遺伝子型の特徴および人種のあいだの違いが明らかにされた．<br/><br/><h2>4．HLA imputation法によるバセドウ病のバイオマーカーの同定</h2><br/>　バセドウ病は<a href="#" class="anno 甲状腺ホルモン">甲状腺ホルモン</a>を<a href="#" class="anno 産生">産生</a>する臓器である甲状腺の機能が異常に亢進することにより生じる自己免疫疾患である．甲状腺ホルモンは身体の新陳代謝の維持に関与するため，甲状腺の機能の亢進は体重の減少，疲労，眼球の突出といった症状を生じる．<a href="#" class="anno 青年期">青年期</a>の女性を中心に人口の約0.5％が発症する“ありふれた疾患”のひとつである．以前より，HLA遺伝子型がバセドウ病の発症に関与することが報告されていたが，原因となるHLA遺伝子型は詳細には解明されていなかった．<br/>　そこで，バセドウ病の患者1956名および非患者7047名に対して実施されたゲノムワイド関連解析データに対し，今回，作成された参照遺伝子型データを用いてHLA imputation法を適用した．その結果，複数のクラスI HLA遺伝子およびクラスII HLA遺伝子にコードされた<a href="#" class="anno アミノ酸配列">アミノ酸配列</a>の多型により，バセドウ病の発症リスクが規定されていることが明らかにされた（<a href="#F1">図1</a>）．もっとも強い発症リスクを示したのは<em>HLA-DPB1</em>遺伝子にコードされた35番目の<a href="#" class="anno アミノ酸<a href="#" class="anno 残基">残基</a>">アミノ酸残基</a>で，この残基がPheからLeuに変異している場合にはバセドウ病を1.4倍ほど発症しやすくなることが判明した．同定されたアミノ酸残基は，いずれのHLA分子においても抗原<a href="#" class="anno ペプチド">ペプチド</a>の提示にかかわる<a href="#" class="anno 機能的">機能的</a>な部位に位置しており，バセドウ病の病態における抗原の提示を介したHLA遺伝子の機能的な寄与が示唆された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　バセドウ病の発症リスクをもつHLA遺伝子</strong><br/>日本人の集団9003名を対象としたバセドウ病のゲノムワイド関連解析において，MHC領域における顕著な関連が認められた．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okada-Nature-Genetics-15.6.26-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　バセドウ病の発症リスクをもつHLA遺伝子" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okada-Nature-Genetics-15.6.26-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okada-Nature-Genetics-15.6.26-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　ヒトの<a href="#" class="anno ゲノム解析">ゲノム解析</a>の分野における長年の課題であった発症リスクとなるHLA遺伝子型の詳細な同定がHLA imputation法の導入により解決しつつある．この研究をつうじ，日本人の集団に対してもHLA imputation法の適用が可能になったことにより，発症リスクとなるHLA遺伝子型のよりいっそうの同定が期待される．一方で，HLA imputation法により得られるのはあくまで推定されたHLA遺伝子型であり，一部のまれなHLA遺伝子型については推定の精度が低くなることが知られている<a href="#R2"><sup>2)</sup></a>．<a href="#" class="anno 将来的">将来的</a>には，次世代<a href="#" class="anno シークエンサー">シークエンサー</a>技術を用いて安価かつ正確に個人のHLA遺伝子型を決定できるようになることが望ましいと考えられる<a href="#R9"><sup>9)</sup></a>．<br/>　この研究において作成された日本人の集団の参照遺伝子型データは<a href="#" class="anno バイオサイエンス">バイオサイエンス</a>データベースセンターのNBDCヒトデータベースから公開しており（<a href="http://hu<a href="#" class="anno man">man</a>dbs.biosciencedbc.jp/hum0028-v1" target="_blank">http://humandbs.biosciencedbc.jp/hum0028-v1</a>），より多くの方々に活用してほしい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>de Bakker, P. I. & Raychaudhuri, S.</span>: <span class="ti">Interrogating the major histocompatibility complex with high-throughput genomics.</span> <span class='so'>Hum. Mol. Genet., 21, R29-R36 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22976473" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Jia, X., Han, B., Onengut-Gumuscu, S. et al.</span>: <span class="ti">Imputing amino Acid polymorphisms in human leukocyte antigens.</span> <span class='so'>PLoS One, 8, e64683 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23762245" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Raychaudhuri, S., Sandor, C., Stahl, E. A. et al.</span>: <span class="ti">Five amino acids in three HLA proteins explain most of the association between MHC and seropositive rheumatoid arthritis.</span> <span class='so'>Nat. Genet., 44, 291-296 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22286218" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Okada, Y., Han, B., Tsoi, L. C. et al.</span>: <span class="ti">Fine mapping major histocompatibility complex associations in psoriasis and its clinical subtypes.</span> <span class='so'>Am. J. Hum. Genet., 95, 162-172 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25087609" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Okada, Y., Kim, K., Han, B. et al.</span>: <span class="ti">Risk for ACPA-positive rheumatoid arthritis is driven by shared HLA amino acid polymorphisms in Asian and European populations.</span> <span class='so'>Hum. Mol. Genet., 23, 6916-6926 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25070946" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Nothnagel, M., Furst, R. & Rohde, K.</span>: <span class="ti">Entropy as a measure for linkage disequilibrium over multilocus haplotype blocks.</span> <span class='so'>Hum. Hered., 54, 186-198 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12771551" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Nothnagel, M. & Rohde, K.</span>: <span class="ti">The effect of single-nucleotide polymorphism marker selection on patterns of haplotype blocks and haplotype frequency estimates.</span> <span class='so'>Am. J. Hum. Genet., 77, 988-998 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16380910" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Kumasaka, N., Nakamura, Y. & Kamatani, N.</span>: <span class="ti">The textile plot: a new linkage disequilibrium display of multiple-single nucleotide polymorphism genotype data.</span> <span class='so'>PLoS One, 5, e10207 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20436909" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Hosomichi, K. Jinam, T. A., Mitsunaga, S. et al.</span>: <span class="ti">Phase-defined complete sequencing of the HLA genes by next-generation sequencing.</span> <span class='so'>BMC Genomics, 14, 355 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23714642" target="_blank">PubMed</a>]</span></li><br></ol><br><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_06.html" target="_blank">3.6 Gain-of-Function Mutations</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_01.html" target="_blank">3.1 Traits</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_05.html" target="_blank">3.5 Genetic Mutations and Dominance/Recession</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/18_03.html" target="_blank">18.3 Significance of Meiosis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/24_02.html" target="_blank">24.2 Molecular Biology</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">岡田 随象（Yukinori Okada）</span><br>略歴：2011年 東京大学大学院医学系研究科 修了，同年 同 研究員，2012年 米国Harvard大学 研究員を経て，2013年より東京医科歯科大学大学院医歯学総合研究科 講師．<br>研究テーマ：遺伝統計解析をつうじたヒトの疾患の病態の解明やゲノム創薬への貢献．<br>抱負：遺伝統計学の楽しさを日本中に広めたい．<br></div><br>© 2015 岡田 随象 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

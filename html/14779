@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 新奇な体験による記憶の保持の強化の機構 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/14779" rel="bookmark">新奇な体験による記憶の保持の強化の機構</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>竹内 倫徳</strong><br>（英国Edinburgh大学Centre for Cognitive and Neural Systems）<br>email：<a href="mailto:tomonori.takeuchi@ed.ac.uk">竹内倫徳</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.107">10.7875/first.author.2016.107</a><br><div class="reference"><br><span class="ti">Locus coeruleus and dopaminergic consolidation of everyday memory.</span><br><span class="au">Tomonori Takeuchi, Adrian J. Duszkiewicz, Alex Sonneborn, Patrick A. Spooner, Miwako Yamasaki, Masahiko Watanabe, Caroline C. Smith, Guillén Fernández, Karl Deisseroth, Robert W. Greene, Richard G. M. Morris</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27602521" target="_blank"><em>Nature</em>, <strong>537</strong>, 357-362 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ヒトや動物において，日常の記憶は記憶の獲得の直前あるいは直後に何か新奇な体験があるとその保持が強化されることが知られている．これまで，この記憶の保持の強化には海馬の<a href="#" class="anno <a href="#" class="anno ドーパ">ドーパ</a>ミン">ドーパミン</a>が重要であり，<a href="#" class="anno 腹側">腹側</a>被蓋野の<a href="#" class="anno チロシン">チロシン</a>水<a href="#" class="anno 酸化酵素">酸化酵素</a>陽性ニューロンがかかわると考えられてきた．筆者らは，マウスにおいて日常の記憶を調べる行動試験を用いて新奇な体験による記憶の保持の強化にかかわるニューロンを探索した．その結果，<a href="#" class="anno <a href="#" class="anno 青斑">青斑</a>核">青斑核</a>のチロシン<a href="#" class="anno 水酸化酵素">水酸化酵素</a>陽性ニューロンの発火が新奇な体験に対しとくに感受性の高いこと，青斑核の<a href="#" class="anno チロシン水酸化酵素">チロシン水酸化酵素</a>陽性ニューロンは<a href="#" class="anno 腹側被蓋野">腹側被蓋野</a>のチロシン水酸化酵素陽性ニューロンと比べ海馬により多く投射していること，青斑核のチロシン水酸化酵素陽性ニューロンを光<a href="#" class="anno <a href="#" class="anno 遺伝学">遺伝学</a>的">遺伝学的</a>に<a href="#" class="anno 活性化">活性化</a>させると新奇な体験による記憶の保持の強化が模倣されること，新奇な体験による記憶の保持の強化は腹側被蓋野の<a href="#" class="anno 薬理学的">薬理学的</a>な<a href="#" class="anno <a href="#" class="anno 不活性">不活性</a>化">不活性化</a>に影響され<a href="#" class="anno ないこと">ないこと</a>，が明らかにされた．青斑核のチロシン水酸化酵素陽性ニューロンの<a href="#" class="anno 光遺伝学">光遺伝学</a>的な活性化による記憶の保持の強化および<a href="#" class="anno 海馬<a href="#" class="anno CA1">CA1</a>領域">海馬<a href="#" class="anno CA1領域">CA1領域</a></a>における<a href="#" class="anno シナプス伝達">シナプス伝達</a>の増強は，海馬におけるドーパミンD<sub>1</sub><a href="#" class="anno 受容体">受容体</a>の阻害に感受性を示したが，<a href="#" class="anno アドレナリン受容体">アドレナリン受容体</a>の阻害には影響されなかった．したがって，<a href="#" class="anno ノルアドレナリン">ノルアドレナリン</a><a href="#" class="anno 作動性">作動性</a>の青斑核のチロシン水酸化酵素陽性ニューロンは，海馬におけるドーパミンの共放出を介して新奇な体験による記憶の保持の強化を担うことが示唆された．<br/><br/><h2>はじめに</h2><br/>　“晩ごはんにどこで何を食べたか”などのささいな日常の記憶は海馬において<a href="#" class="anno 無意識">無意識</a>に形成され，その多くは1日のあいだに忘れられることが知られている．一方で，“晩ごはんに行く途中に1万円札を拾った”など新奇で思いがけない出来事を直前あるいは直後にと<a href="#" class="anno も">も</a>なう場合，ささいな日常の記憶が長期にわたり保持される現象が知られている．その脳における機構を調べるため，近年，新奇の環境の探索をともなうことにより<a href="#" class="anno <a href="#" class="anno 記憶の固定">記憶の固定</a>化">記憶の<a href="#" class="anno 固定化">固定化</a></a>が促進され，ささいな記憶が長期にわたり保持される動物をモ<a href="#" class="anno デ">デ</a>ルとした行動試験が開発された．薬理学的な阻害実験より，この新奇な体験による記憶の保持の強化には海馬におけるドーパミンD<sub>1</sub>受容体の活性化が必要であることが明らかにされた<a href="#R1"><sup>1)</sup></a>．そして，腹側被蓋野のチロシン水酸化酵素陽性ニューロンから海馬への投射がこのドーパミンに<a href="#" class="anno 依存的">依存的</a>な新奇の体験による記憶の保持の強化に関与するとの仮説が提唱された<a href="#R2"><sup>2)</sup></a>．一方，海馬の<a href="#" class="anno 急性切片">急性切片</a>を用いた<a href="#" class="anno 電気<a href="#" class="anno 生理学的">生理学的</a>"><a href="#" class="anno 電気生理">電気生理</a>学的</a>な実験により，<a href="#" class="anno ノルアドレナリン作動性">ノルアドレナリン作動性</a>の青斑核のチロシン水酸化酵素陽性ニューロンが海馬においてドーパミンを放出する<a href="#" class="anno 可能性">可能性</a>が示唆された<a href="#R3"><sup>3)</sup></a>．<br/>　筆者らは，マウスにおいて日常の記憶を調べる行動試験として日常<a href="#" class="anno 記憶課題">記憶課題</a>を開発した．そして，腹側被蓋野のチロシン水酸化酵素陽性ニューロンおよび青斑核のチロシン水酸化酵素陽性ニューロンに着目し，日常記憶課題と薬理学的な手法，<a href="#" class="anno 電気生理学">電気生理学</a>的な手法，<a href="#" class="anno <a href="#" class="anno 解剖学">解剖学</a>的">解剖学的</a>な手法，光遺伝学的な手法を<a href="#" class="anno 統合的">統合的</a>に適応することにより，脳において新奇性による記憶の保持の強化を担う部位の同定を試みた．<br/><br/><h2>1．新奇な体験による記憶の保持の強化</h2><br/>　マウスにおいて新奇な体験が日常の記憶を向上させる効果を調べる日常記憶課題を確立した<a href="#R4"><sup>4)</sup></a>．この行動試験の大きな特色として，すべてのマウス（被験動物）がすべての<a href="#" class="anno 実験条件">実験条件</a>を経験する被験動物内デザインの適応が可能で，<a href="#" class="anno 動物実験">動物実験</a>において問題になる個体間のバラつきを最小限にすることが可能になった．日常記憶課題においては，イベントアリーナ装置とよばれるオープンフィールドにおいて，マウスに報酬の餌が底に隠されている砂つぼの場所を記憶させる（<a href="#F1">図1a</a>）．報酬を含む砂つぼの場所は毎日変わるため，マウスはその日その日の特定の砂つぼの場所を記憶する必要がある．報酬量の少ない“弱い訓練”を行ったマウスは，24時間のちには報酬の砂つぼの場所を忘れていた．一方，弱い訓練の30分のちに，新奇な素材を床に敷きつめた新奇体験ボックスを5分間にわたり探索させると（<a href="#F1">図1b</a>），報酬の砂つぼの場所の記憶は24時間のちにも保持されていた（<a href="#F1">図1c</a>）．<a href="#" class="anno 背側">背側</a>の海馬に受容体の<a href="#" class="anno 阻害薬">阻害薬</a>を投与する薬理学的な阻害実験において，この新奇性による記憶の保持の強化は海馬におけるドーパミンD<sub>1</sub>受容体の阻害に対し感受性を示したが，<a href="#" class="anno βアドレナリン受容体">βアドレナリン受容体</a>の阻害には影響されなかった．これらの結果により，マウスの新奇な体験による記憶の保持の強化には海馬のドーパミンD<sub>1</sub>受容体の活性化が重要であるという，ラットを用いた<a href="#" class="anno 先行研究">先行研究</a>と同様の結果が得られた<a href="#R1"><sup>1)</sup></a>．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　新奇な体験による記憶の保持の強化</strong><br/>（a）日常の記憶について調べるイベントアリーナ装置．マウスは4つのスタートボックス（東西南北に配置された黒い4つの箱）のひとつから出て，イベントアリーナ装置（白い箱と黒いトーチ）およびまわりに配置された種々の色や形の目印（赤色および青色の立体的な目印）をたよりに，報酬の餌が底に隠されている砂つぼの場所を記憶する．報酬の砂つぼの場所は毎日変わる．<br/>（b）新奇体験ボックス．さまざまな素材（ここでは，ピンク色の葉）を床に敷きつめることによりマウスに新奇な体験をさせる．<br/>（c）新奇な体験による記憶の保持の強化．“訓練”においては，マウスにその日の報酬の砂つぼの場所を記憶させる．“記憶の試験”においては，マウスは5つある砂つぼのうち，その日の訓練において記憶した報酬の砂つぼ（正しい砂つぼ）の場所を思い出して探しあてる．弱い訓練の30分のちに，5分間の新奇な体験をすると，ふだんは数時間しか保持されない報酬の砂つぼの場所の記憶が24時間のちにも保持される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takeuchi-Nature-16.9.15-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　新奇な体験による記憶の保持の強化" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takeuchi-Nature-16.9.15-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takeuchi-Nature-16.9.15-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．新奇な体験による青斑核における<a href="#" class="anno 神経活動">神経活動</a>の上昇</h2><br/>　腹側被蓋野のチロシン水酸化酵素陽性ニューロンあるいは青斑核のチロシン水酸化酵素の陽性ニューロンにおける神経活動が新奇な体験により活性化するかどうか調べた．チロシン水酸化酵素陽性ニューロンを光遺伝学的に同定するため，チロシン水酸化酵素陽性ニューロンにおいてDNA<a href="#" class="anno <a href="#" class="anno 組換え">組換え</a>酵素">組換え酵素</a><a href="#" class="anno Cre">Cre</a>を<a href="#" class="anno 特異的">特異的</a>に発現する<a href="#" class="anno トランスジェニック">トランスジェニック</a>マウスの腹側被蓋野あるいは青斑核に，Creに依存的なウイルス<a href="#" class="anno ベクター">ベクター</a>を感染させチロシン水酸化酵素陽性ニューロンにおいて<a href="#" class="anno 光感受性">光感受性</a><a href="#" class="anno イオンチャネル">イオンチャネル</a>である<a href="#" class="anno チャネル<a href="#" class="anno ロドプシン">ロドプシン</a>">チャネルロドプシン</a>を特異的に発現させた．脳に埋め込んだ光ファイバーを介してチャネルロドプシン陽性ニューロンに光を照射すると，ニューロンの外部から内部へと<a href="#" class="anno 陽イオン">陽イオン</a>が流入しニューロンは活性化される．<a href="#" class="anno 多点">多点</a>電<a href="#" class="anno 極">極</a>の同時記録によりチャネルロドプシン陽性ニューロンすなわちチロシン水酸化酵素陽性ニューロンが同定される．<br/>　同定された腹側被蓋野のチロシン水酸化酵素陽性ニューロンあるいは青斑核のチロシン水酸化酵素陽性ニューロンが，なじみのある環境あるいは新奇の環境をそれぞれ5分間にわたり体験しているあいだどのような<a href="#" class="anno 発火パターン">発火パターン</a>を示すかを調べた．その結果，新奇な環境を体験しているあいだ腹側被蓋野のチロシン水酸化酵素陽性ニューロンおよび青斑核のチロシン水酸化酵素陽性ニューロンの神経活動は上昇した．ホームケージにおいて記録した神経活動を用いて<a href="#" class="anno 標準化">標準化</a>し比較したところ，新奇な体験による神経活動の上昇の度合いは青斑核のチロシン水酸化酵素陽性ニューロンのほうが腹側被蓋野のチロシン水酸化酵素陽性ニューロンよりも大きかった．新奇な体験に対する青斑核のチロシン水酸化酵素陽性ニューロンの応答は時間の経過とともに減少する馴化がみられた．以上のことから，青斑核のチロシン水酸化酵素陽性ニューロンの発火は新奇な体験に対しとくに感受性の高いことがわかった．<br/><br/><h2>3．青斑核からの海馬への広範な投射</h2><br/>　腹側被蓋野のチロシン水酸化酵素陽性ニューロンあるいは青斑核のチロシン水酸化酵素陽性ニューロンから背側の海馬への投射について，特定のニューロンに限定した<a href="#" class="anno 順行性">順行性</a><a href="#" class="anno 標識法">標識法</a>を用いて検討した．チロシン水酸化酵素陽性ニューロンの<a href="#" class="anno 軸索">軸索</a>を特異的に標識するため，チロシン水酸化酵素陽性ニューロンにおいて<a href="#" class="anno 蛍光タンパク質">蛍光タンパク質</a>e<a href="#" class="anno YFP">YFP</a>を特異的に発現させた．さらに，海馬に投射する腹側被蓋野のチロシン水酸化酵素陽性ニューロンあるいは青斑核のチロシン水酸化酵素陽性ニューロンに由来する軸索を抗<a href="#" class="anno GFP">GFP</a>抗体および抗チロシン水酸化酵素抗体による蛍光<a href="#" class="anno 二重">二重</a><a href="#" class="anno 免疫染色">免疫染色</a>法により検<a href="#" class="anno 出し">出し</a>た．GFP-チロシン水酸化酵素二重陽性ニューロンの軸索を定量し，海馬の全体に入力するチロシン水酸化酵素陽性ニューロンの軸索との割合を算出した．その結果，海馬の全体に入力するチロシン水酸化酵素陽性ニューロンの軸索の約97％は青斑核のチロシン水酸化酵素陽性ニューロンに由来し，残りの数％が腹側被蓋野のチロシン水酸化酵素陽性ニューロンに由来した．<br/>　青斑核のチロシン水酸化酵素陽性ニューロンが腹側被蓋野のチロシン水酸化酵素陽性ニューロンと比べより多く海馬に投射することは，<a href="#" class="anno 逆行性">逆行性</a>の蛍光トレーサーを海馬に投与する<a href="#" class="anno 逆行性標識法">逆行性標識法</a>においても確認された．<br/><br/><h2>4．青斑核の光遺伝学的な活性化による記憶の保持の強化</h2><br/>　青斑核のチロシン水酸化酵素陽性ニューロンが新奇な体験による記憶の保持の強化にかかわるのかどうかを検証するため，青斑核のチロシン水酸化酵素陽性ニューロンを光遺伝学的に活性化させることにより新奇な体験による記憶の増強の効果が模倣されるかどうか調べた．チロシン水酸化酵素陽性ニューロンにおいてチャネルロドプシンを特異的に発現させ，青斑核および腹側被蓋野に光ファイバー，背側の海馬に薬剤の注入のための<a href="#" class="anno カ">カ</a>ニューレを埋め込んだ．日常記憶課題を用いて弱い訓練を行い，その30分のちに，青斑核のチロシン水酸化酵素陽性ニューロンを5分間にわたり光遺伝学的に活性化した．その結果，ふだんは数時間で忘れてしまう報酬を含む砂つぼの場所の記憶が24時間のちにも保持されていた．弱い訓練ののち青斑核のチロシン水酸化酵素陽性ニューロンを活性化しない場合には24時間のちには報酬を含む砂つぼの場所は忘れられていた．一方，チャネルロドプシンを発現させた<a href="#" class="anno 同じ">同じ</a>マウスを用いて，弱い訓練ののち腹側被蓋野のチロシン水酸化酵素陽性ニューロンを光遺伝学的に活性化した際には，新奇な体験による記憶の保持の強化は模倣されなかった．<br/>　ここで，ノルアドレナリン作動性の青斑核のチロシン水酸化酵素陽性ニューロンの光遺伝学的な活性化により記憶の保持が強化されたが，その一方で，新奇な体験による記憶の増強の効果においては海馬におけるドーパミンD<sub>1</sub>受容体の活性化が重要である，というパラドックスに直面した．この問題を解決するため，日常記憶課題において弱い訓練ののち背側の海馬に受容体の阻害薬を投与し，そののち，青斑核のチロシン水酸化酵素陽性ニューロンを光遺伝学的に活性化して記憶の保持の強化に対する影響について調べた．その結果，青斑核のチロシン水酸化酵素陽性ニューロンの活性化による記憶の保持の強化は，海馬におけるドーパミンD<sub>1</sub>受容体の阻害に対し感受性を示したが，βアドレナリン受容体の阻害による影響はなかった．すなわち，青斑核のチロシン水酸化酵素陽性ニューロンから海馬へのドーパミンの出力が記憶の保持の強化に関与することが強く示唆された．<br/><br/><h2>5．青斑核の光遺伝学的な活性化によるシナプス伝達の増強</h2><br/>　青斑核のチロシン水酸化酵素陽性ニューロンの光遺伝学的な活性化による記憶の保持の強化の機構について調べるため，海馬の急性切片を用いて電気生理学的な実験を行った．海馬<a href="#" class="anno CA1野">CA1野</a>の錐<a href="#" class="anno 体細胞">体細胞</a>の<a href="#" class="anno 細胞体">細胞体</a>からパッチ<a href="#" class="anno クランプ">クランプ</a>記録を行い，青斑核のチロシン水酸化酵素陽性ニューロンの軸索の光遺伝学的な活性化による<a href="#" class="anno CA3">CA3</a>-CA1シナプスの<a href="#" class="anno 興奮性">興奮性</a><a href="#" class="anno <a href="#" class="anno シナプス後">シナプス後</a>電流">シナプス後電流</a>への影響について調べた．海馬に投射する青斑核のチロシン水酸化酵素陽性ニューロンの軸索を活性化することにより，CA3-CA1シナプスの<a href="#" class="anno 興奮性シナプス">興奮性シナプス</a>後電流は<a href="#" class="anno 徐々">徐々</a>に増大した．この増大はαアドレナリン受容体あるいはβアドレナリン受容体の阻害による影響はまったくみられなかった．一方，ドーパミンD<sub>1</sub>受容体の<a href="#" class="anno 阻害剤">阻害剤</a>の<a href="#" class="anno 存在下">存在下</a>においては，青斑核に由来する軸索の活性化によるCA3-CA1シナプスの<a href="#" class="anno 興奮性シナプス後電流">興奮性シナプス後電流</a>の増大は消失した．<br/>　青斑核のチロシン水酸化酵素陽性ニューロンの軸索の光遺伝学的な活性化によるCA3-CA1シナプスの<a href="#" class="anno 長期増強">長期増強</a>に対する影響について調べた．長期増強の指標として，海馬CA1野の<a href="#" class="anno <a href="#" class="anno 錐体">錐体</a>細胞">錐体細胞</a>のフィールド<a href="#" class="anno 興奮性シナプス後電位">興奮性シナプス後電位</a>の傾斜を測定した．Schaffer<a href="#" class="anno 側枝">側枝</a>への<a href="#" class="anno θ">θ</a>バースト刺激により長期増強が誘導されたが，この長期増強は海馬に投射する青斑核のチロシン水酸化酵素陽性ニューロンの軸索を活性化することにより増大した．しかし，青斑核に由来する軸索の活性化による長期増強の増大は，海馬におけるドーパミンD<sub>1</sub>受容体の阻害により消失した．以上の結果より，青斑核のチロシン水酸化酵素陽性ニューロンの軸索の活性化を介したCA3-CA1シナプス伝達の増強は，青斑核のチロシン水酸化酵素陽性ニューロンの軸索からのドーパミンの共放出を介した機構である可能性が強く示唆された．<br/><br/><h2>6．新奇な体験による記憶の増強の効果は腹側被蓋野の不活性化に影響されない</h2><br/>　新奇な体験の最中に青斑核のチロシン水酸化酵素陽性ニューロンを不活性化することにより新奇な体験による記憶の保持の強化が消失するかどうか検討した．光遺伝学的な不活性化は適さないと判断されたことから，薬理学的な手法を用いて青斑核のニューロンを不活性化した．日常記憶課題を用いて弱い訓練を行い，新奇な体験の20分まえにα2アドレナリン受容体の<a href="#" class="anno 作用薬">作用薬</a>である<a href="#" class="anno クロニジン">クロニジン</a>を<a href="#" class="anno 腹<a href="#" class="anno 腔">腔</a>内">腹腔内</a>投与した．クロニジンの<a href="#" class="anno 腹腔内投与">腹腔内投与</a>は，青斑核のニューロンの神経活動を抑制するが<a href="#R5"><sup>5)</sup></a>，腹側被蓋野のニューロンの神経活動には影響しないこと<a href="#R6"><sup>6)</sup></a> が報告されている．その結果，新奇な体験による記憶の増強の効果が消失した．<br/>　新奇な体験の最中に腹側被蓋野のニューロンを不活性化することにより，新奇な体験による記憶の増強の効果はどのように影響されるか検討した．日常記憶課題を用いて弱い訓練を行い，新奇な体験の直前に局所の<a href="#" class="anno 麻酔薬">麻酔薬</a>であるリドカインを腹側被蓋野に注入して不活性化した．予想どおり，新奇な体験の最中の腹側被蓋野のニューロンの不活性化は，新奇な体験による記憶の保持の強化に影響しなかった．以上の結果から，新奇な体験による記憶の保持の強化には，新奇な体験の際の青斑核のニューロンの神経活動が必要であることが強く示唆された．<br/><br/><h2>おわりに</h2><br/>　今回，筆者らは，脳において新奇な体験による記憶の保持の強化を担う部位の同定を試み，青斑核のチロシン水酸化酵素陽性ニューロンから海馬へのドーパミンの出力が新奇な体験による記憶の保持の強化に関与することを強く示唆する結果が得られた．その主要な意義のひとつは，青斑核のチロシン水酸化酵素陽性ニューロンから海馬への入力が新奇な体験の情報を伝達しているという点である．このことから，海馬-腹側被蓋野ループモデル<a href="#R2"><sup>2)</sup></a> という有力な仮説とは異なる，新奇な体験の情報を伝達する経路の存在が示唆される（<a href="#F2">図2a</a>）．もうひとつは，青斑核のチロシン水酸化酵素陽性ニューロンの出力としてドーパミンが重要であるという点である．このことから，青斑核のチロシン水酸化酵素陽性ニューロンがノルアドレナリンを放出して神経活動を修飾するという教科書的な基本概念の修正が提案される（<a href="#F2">図2b</a>）．しかしながら，青斑核のチロシン水酸化酵素陽性ニューロンがドーパミンの出力を介して海馬に新奇な体験の情報を伝達し記憶の保持の強化に関与することについての検証は<a href="#" class="anno まだ">まだ</a>十分ではなく，この仮説が広く認知されるためにはさらなる実験が必要である．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　新奇な体験を伝達する経路および青斑核からの出力に関する仮説</strong><br/>（a）海馬-腹側被蓋野ループモデルおよび筆者らによる修正モデル．腹側被蓋野のチロシン水酸化酵素陽性ニューロンは海馬に新奇な体験の情報を伝達し，記憶の保持の強化を担うと考えられてきた．筆者らにより，青斑核のチロシン水酸化酵素陽性ニューロンから海馬への入力が，記憶の保持の強化に関与する新奇な体験の情報を伝達することが強く示唆された．<br/>（b）青斑核のチロシン水酸化酵素陽性ニューロンの教科書的なモデルおよび筆者らによる修正モデル．青斑核のチロシン水酸化酵素陽性ニューロンはノルアドレナリンの出力を介し神経活動を修飾すると考えられてきた．筆者らの結果により，青斑核のチロシン水酸化酵素陽性ニューロンが海馬においてドーパミンを共放出し，認知の機能を修飾していることが示唆された．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takeuchi-Nature-16.9.15-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　新奇な体験を伝達する経路および青斑核からの出力に関する仮説" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takeuchi-Nature-16.9.15-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takeuchi-Nature-16.9.15-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　日常の記憶の保持の強化は新奇な体験のみならず，報酬量の増加によってもひき起こされる．新奇な体験と報酬の量や予測の変化はまったく違う情報であり，異なる<a href="#" class="anno 神経修飾">神経修飾</a>の経路が使われている可能性が考えられる．これまでの研究により，<a href="#" class="anno 黒質">黒質</a>緻密部や腹側被蓋野のチロシン水酸化酵素陽性ニューロンは報酬にもとづく学習や<a href="#" class="anno 動機づけ">動機づけ</a>などに重要な役割をはたすと考えられている<a href="#R7"><sup>7)</sup></a>．最近，海馬に投射する腹側被蓋野のチロシン水酸化酵素陽性ニューロンの軸索の光遺伝学的な活性化によりCA3-CA1シナプスの伝達が双<a href="#" class="anno 方向性">方向性</a>に修飾されることが報告された<a href="#R8"><sup>8)</sup></a>．しかしながら，筆者らの日常記憶課題を用いた実験においては，弱い訓練の30分のちにおける腹側被蓋野のチロシン水酸化酵素陽性ニューロンの光遺伝学的な活性化は24時間のちの記憶の保持の強化を示さなかった．一方で，別の<a href="#" class="anno 研究グループ">研究グループ</a>により，<a href="#" class="anno 空間学習">空間学習</a>の獲得の最中に海馬に投射する腹側被蓋野のチロシン水酸化酵素陽性ニューロンの軸索を光遺伝学的に活性化することにより，1時間のちの記憶の保持が強化されることが示されている<a href="#R9"><sup>9)</sup></a>．これらの結果から，記憶の獲得と腹側被蓋野のチロシン水酸化酵素陽性ニューロンの活性化のタイミングが，そのほかの強化学習と同様に，腹側被蓋野を介したドーパミンに依存的な記憶の保持の強化の重要な要素である可能性が示唆された．<br/>　新奇な体験とは，ある行動の最中に報酬とは無関係な予期しない体験をすることである．今回の結果から，新奇な体験は青斑核のチロシン水酸化酵素陽性ニューロンを活性化し，海馬へのドーパミンの出力を介して<a href="#" class="anno 可塑性">可塑性</a>に関連するタンパク質の発現を誘導して，記憶の固定化を促進することにより記憶の保持を強化すると考えられる．多くの領域からの入力をうけ，非常に広範な領域に<a href="#" class="anno 分散的">分散的</a>に投射するノルアドレナリン作動性の青斑核のチロシン水酸化酵素陽性ニューロンは<a href="#R10"><sup>10)</sup></a>，新奇性，覚醒と睡眠，注意，ストレスなどに関与すると考えられてきた．青斑核のチロシン水酸化酵素陽性ニューロンが記憶の保持の強化を発揮する時間枠は，腹側被蓋野のチロシン水酸化酵素陽性ニューロンと比較して精度が低く，記憶の固定化の<a href="#" class="anno 神経機構">神経機構</a>を説明する“シナプスタグ仮説”<a href="#R11"><sup>11,12)</sup></a> に非常によくあてはまる．今回の筆者らの研究により，われわれの日常の記憶が直前あるいは直後の新奇な体験により修飾され，その保持が強化される神経機構の一端が明らかにされた．今後，この<a href="#" class="anno 分子基盤">分子基盤</a>を明らかにすることをつうじて，日常の記憶に障害がみられる健忘症を予防または改善する新たな<a href="#" class="anno 創薬">創薬</a>への貢献が期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Wang, S. H., Redondo, R. L. & Morris, R. G. M.</span>: <span class="ti">Relevance of synaptic tagging and capture to the persistence of long-term potentiation and everyday spatial memory.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 107, 19537-19542 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20962282" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Lisman, J. E. & Grace, A. A.</span>: <span class="ti">The hippocampal-VTA loop: controlling the entry of information into long-term memory.</span> <span class='so'>Neuron, 46, 703-713 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15924857" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Smith, C. C. & Greene, R. W.</span>: <span class="ti">CNS dopamine transmission mediated by noradrenergic innervation.</span> <span class='so'>J. Neurosci., 32, 6072-6080 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22553014" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Takeuchi, T., Duszkiewicz, A. J. & Morris, R. G. M.</span>: <span class="ti">The synaptic plasticity and memory hypothesis: encoding, storage and persistence.</span> <span class='so'>Philos. Trans. R. Soc. Lond. B Biol. Sci., 369, 20130288 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24298167" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Wu, M. F., Gulyani, S. A., Yau, E. et al.</span>: <span class="ti">Locus coeruleus neurons: cessation of activity during cataplexy.</span> <span class='so'>Neuroscience, 91, 1389-1399 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10391445" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Grenhoff, J. & Svensson, T. H.</span>: <span class="ti">Clonidine modulates dopamine cell firing in rat ventral tegmental area.</span> <span class='so'>Eur. J. Pharmacol., 165, 11-18 (1989)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2569981" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Schultz, W. & Dickinson, A.</span>: <span class="ti">Neuronal coding of prediction errors.</span> <span class='so'>Annu. Rev. Neurosci., 23, 473-500 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10845072" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Rosen, Z. B., Cheung, S. & Siegelbaum, S. A.</span>: <span class="ti">Midbrain dopamine neurons bidirectionally regulate CA3-CA1 synaptic drive.</span> <span class='so'>Nat. Neurosci., 18, 1763-1771 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26523642" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>McNamara, C. G., Tejero-Cantero, A., Trouche, S. et al.</span>: <span class="ti">Dopaminergic neurons promote hippocampal reactivation and spatial memory persistence.</span> <span class='so'>Nat. Neurosci., 17, 1658-1660 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25326690" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Schwarz, L. A., Miyamichi, K., Gao, X. J. et al.</span>: <span class="ti">Viral-genetic tracing of the input-output organization of a central noradrenaline circuit.</span> <span class='so'>Nature, 524, 88-92 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26131933" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/10358" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R11"><span class='au'>Frey, U. & Morris, R. G.</span>: <span class="ti">Synaptic tagging and long-term potentiation.</span> <span class='so'>Nature, 385, 533-536 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9020359" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Redondo, R. L. & Morris, R. G.</span>: <span class="ti">Making memories last: the synaptic tagging and capture hypothesis.</span> <span class='so'>Nat. Rev. Neurosci., 12, 17-30 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21170072" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=抗体" target="_blank">抗体解析</a></li><br></ul><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/17_02.html" target="_blank">17.2 Excitation of Nerve Cells and Transmission of Excitation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_01.html" target="_blank">20.1 Sensation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/05_03.html" target="_blank">5.3 The Autonomic Nervous System</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_02.html" target="_blank">20.2 Central Nervous System and Control</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/20_03.html" target="_blank">20.3 Control of output to effectors</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">竹内 倫徳（Tomonori Takeuchi）</span><br>略歴：2000年 東京大学大学院医学系研究科博士後期課程 修了，同年 同 助手を経て，2008年より英国Edinburgh大学 博士後研究員．<br>研究テーマ：新奇性および知識に依存した迅速な学習の神経機構および分子機構．<br></div><br>© 2016 竹内 倫徳 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>
