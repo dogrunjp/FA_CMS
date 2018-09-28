@@ -29,25 +29,22 @@
         // タグ内でstoreを参照するために
         const store = this.riotx.get(/*@*/)
 
-        this.state = store.getter('state')
+        this.state = store.getter('state');
 
         store.change('changed', (state, store) => {
             this.state = state;
             var p = this.state.page;
 
-            fetch('https://script.google.com/macros/s/AKfycbxRUrpftHbs62tP7PFas6Kvd6quoNw_CazWSlTOAOV76fW8f05Z/exec?fa=true&page='+ p)
-                .then(function (data) {
-                    return data.json()
-                })
-                .then(function (json) {
-                    this.list = json;
+            $.getJSON('https://script.google.com/macros/s/AKfycbxRUrpftHbs62tP7PFas6Kvd6quoNw_CazWSlTOAOV76fW8f05Z/exec?fa=true&page='+ p,
+                function(data){
+                    this.list = data;
+                    opts.found = this.list.length + "件";
                     this.update();
                     for (item of self.list){
                         var elm = document.getElementById(item["URL"])
                         elm.innerHTML = item["title"]
                     }
-                }
-                .bind(this));
+                }.bind(this))
         });
 
     </script>

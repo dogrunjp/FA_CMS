@@ -1,6 +1,6 @@
 <summary>
     <div id="contentleft_main">
-        <h2>{opts.search} {opts.found}</h2>
+        <h2>{opts.search}の検索結果 {opts.found}</h2>
         <div class="autopagerize_page_element">
 
             <virtual each="{list}">
@@ -16,32 +16,25 @@
                         </div>
                     </div>
                 </div>
-
             </virtual>
 
         </div>
 
     </div>
     <script>
-
-
         var self = this;
         var v = opts.search;
 
-        fetch('https://script.google.com/macros/s/AKfycbxRUrpftHbs62tP7PFas6Kvd6quoNw_CazWSlTOAOV76fW8f05Z/exec?fa=true&ct='+ v)
-            .then(function (data) {
-                return data.json()
-            })
-            .then(function (json) {
-                this.list = json;
+        $.getJSON('https://script.google.com/macros/s/AKfycbxRUrpftHbs62tP7PFas6Kvd6quoNw_CazWSlTOAOV76fW8f05Z/exec?fa=true&ct='+ v,
+            function(data){
+                this.list = data;
                 opts.found = this.list.length + "件";
                 this.update();
                 for (item of self.list){
                     var elm = document.getElementById(item["URL"])
                     elm.innerHTML = item["title"]
                 }
-            }
-            .bind(this));
+            }.bind(this))
 
     </script>
 
