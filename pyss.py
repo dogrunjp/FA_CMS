@@ -378,7 +378,7 @@ def add_tag(txt, m_lst):
 
 
 def create_regex_pattern(lst):
-    protect = ["dis", "org", "PDF", "arc", "bar", "ank", "pla", "ral", "lec", "seq"]
+    protect = ["dis", "org", "PDF", "arc", "bar", "ank", "pla", "ral", "lec", "seq", "sp1"]
     ptn = [re.compile(x) for x in lst if x not in protect]
     return ptn
 
