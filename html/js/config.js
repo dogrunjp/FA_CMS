@@ -15,7 +15,7 @@ var cards = [
         "request_type": "dbpedia",
         "title": function (kw) {
             var base_url = "https://refex.dbcls.jp/genelist.php?gene_name%5B%5D=";
-            return `<div class="hc-lines"><h3><a href=${base_url}${kw}> RefExへのリンク</a></h3></div>`
+            return `<div class="hc-lines"><h3><a href=${base_url}${kw} target="_blank"> RefExへのリンク</a></h3></div>`
         },
         "get_url": function () {
             return []
@@ -29,7 +29,7 @@ var cards = [
         "request_type": "dbpedia",
         "title": function (kw) {
             var base_url = "https://ggrna.dbcls.jp/ja/";
-            return `<div class="hc-lines"><h3><a href=${base_url}${kw}> ggrnaへのリンク</a></h3></div>`
+            return `<div class="hc-lines"><h3><a href=${base_url}${kw} target="_blank"> ggrnaへのリンク</a></h3></div>`
         },
         "get_url":function () {
             return []
