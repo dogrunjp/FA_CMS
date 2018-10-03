@@ -791,7 +791,7 @@ li.cat-item a {
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", verdana, sans-serif;
   font-weight: bold;
   font-size: 0.9rem;
-  margin: 6px 0 6px;
+  margin: 12px 0 6px;
   padding: 0;
 }
 #content .article .hc-refers p {
@@ -807,7 +807,7 @@ li.cat-item a {
   content: '\f0c1';
   font-weight: 900;
   font-family: "Font Awesome 5 Free";
-  padding-left: 5px;  }
+  padding-left: 2px;  }
 #content .hc-details-open-left .hc-refers {
   text-align: left; }
 
@@ -1106,4 +1106,17 @@ border-color: #337ab7;
 
 .article_thumb br{
   line-height: 0.25;
+}
+
+/************************************************
+* hover card
+************************************************/
+
+a:link.anno, a:visited.anno {
+  color: #2e80ce;
+  padding-right: 1px;
+}
+
+#content .hc-refers a{
+  color: #2e80ce;
 }
