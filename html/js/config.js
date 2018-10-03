@@ -9,7 +9,7 @@ var parser = {
 
 var cards = [
     {
-        "dbname": "dbpedia",
+        "dbname": "refex",
         "request_type": "dbpedia",
         "title": function (kw) {
             var base_url = "http://ja.dbpedia.org/page/";

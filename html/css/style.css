@@ -19,7 +19,7 @@ header,
 hgroup,
 nav,
 section,
-summary {
+summary_list {
   display: block; }
 
 audio,
@@ -57,7 +57,7 @@ header,
 hgroup,
 nav,
 section,
-summary {
+summary_list {
   display: block; }
 
 audio,
@@ -253,14 +253,15 @@ a:hover, a:active {
 /************************************************
 *	Content
 ************************************************/
-summary {
+summary_list {
+  background: #FFFFFF;
   position: relative;
   top: -21px;
   list-style: none;
   cursor: default;
   outline: none;
 }
-summary:active {
+summary_list:active {
   outline: none;
 }
 #content {
@@ -298,8 +299,8 @@ summary:active {
   color: #333;
   font-size: 1rem;
   font-weight: bold;
-  padding: 0 0 5px 0;
-  margin: 25px 0 5px;
+  padding: 20px 0 5px 0;
+  margin: 0 0 5px;
   line-height: 1;
   border-bottom: dashed 1px #999; }
 #content h3 {

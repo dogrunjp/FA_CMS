@@ -344,7 +344,9 @@ def format_replace_period(id):
 def get_keywords(cf):
     update_item_list = UpdateItemList()
     wks_num = cf['annotation']['wks']['num']
+    # スプレッドシートから見出し語データを取得
     word_lst = update_item_list.contentAsJson(conf['spreadsheet'], wks_num)
+    # 見出し語をフィルターする
     words = word_filter(word_lst)
     return words
 
@@ -352,18 +354,18 @@ def get_keywords(cf):
 # タグ付けする単語リストを返す
 def word_filter(lst):
     col_terms = conf["annotation"]["terms"]
-    feature = conf["annotation"]["feature"]
     dictionary = conf["annotation"]["dictionary"]
-    #lst = [x[col_terms] for x in lst if x['文字数'] != 1 and x['文字数'] != 2]
-    lst = [(x[col_terms], x[feature], x[dictionary]) for x in lst if x[feature] != "名詞" and x["削除フラグ"] != 1]
+    # lst = [x[col_terms] for x in lst if x['文字数'] != 1 and x['文字数'] != 2]
+    # lst = [(x[col_terms], x[feature], x[dictionary]) for x in lst if x[feature] != "名詞" and x["削除フラグ"] != 1]
+    # 現バーションはdictionary==geneのみ利用する
+    lst = [x[col_terms] for x in lst if x[dictionary] == "Gene" and x["削除フラグ"] != 1]
 
     # 優先度を決めソート
     # feature: multiword, unknown , dictionary: MeSH, Gene, 文字数でsortする
-    l = sorted(lst,  key = lambda x: (x[1], x[2]))
-    # （タイプ, term)のリストを生成
+    sl = sorted(lst,  key=lambda x: len(x), reverse=True)
+    print(sl)
 
-    lst = [x[0] for x in l]
-    return lst
+    return sl
 
 
 # アノテーションタグを付加する
@@ -377,7 +379,7 @@ def add_tag(txt, m_lst):
 
 
 def create_regex_pattern(lst):
-    protect = ["dis", "org", "PDF", "arc", "bar", "ank", "pla", "ral", "lec"]
+    protect = ["dis", "org", "PDF", "arc", "bar", "ank", "pla", "ral", "lec", "seq"]
     ptn = [re.compile(x) for x in lst if x not in protect]
     return ptn
 

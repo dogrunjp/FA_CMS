@@ -31,9 +31,9 @@
                 this.list = data;
                 opts.found = this.list.length + "件";
                 this.update();
-                for (item of self.list){
-                    var elm = document.getElementById(item["URL"])
-                    elm.innerHTML = item["title"]
+                for (var i in self.list){
+                    var elm = document.getElementById(data[i]["URL"])
+                    elm.innerHTML = data[i]["title"]
                 }
             }.bind(this));
 

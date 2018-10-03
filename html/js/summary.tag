@@ -22,16 +22,13 @@
 
     </div>
     <script>
-
-
         var self = this;
 
         // タグ内でstoreを参照するために
-        const store = this.riotx.get(/*@*/)
-
+        var store = this.riotx.get(/*@*/);
         this.state = store.getter('state');
 
-        store.change('changed', (state, store) => {
+        store.change('changed', function(state) {
             this.state = state;
             var p = this.state.page;
 
@@ -40,11 +37,11 @@
                     this.list = data;
                     opts.found = this.list.length + "件";
                     this.update();
-                    for (item of self.list){
-                        var elm = document.getElementById(item["URL"])
-                        elm.innerHTML = item["title"]
+                    for (i in self.list){
+                        var elm = document.getElementById(data[i]["URL"])
+                        elm.innerHTML = data[i]["title"]
                     }
-                }.bind(this))
+                }.bind(self));
         });
 
     </script>

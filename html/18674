@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 高CO2はアポトーシスの制御機構とは異なるカスパーゼ7の活性化を介して気道平滑筋を収縮させる : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="http://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="http://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/18674" rel="bookmark">高CO2はアポトーシスの制御機構とは異なるカスパーゼ7の活性化を介して気道平滑筋を収縮させる</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>重村雅彦・Jacob I. Sznajder</strong><br>（米国Northwestern大学Feinberg School of Medicine，Division of Pulmonary and Critical Care）<br>email：<a href="mailto:masahiko.shigemura@northwestern.edu">重村雅彦</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2018.096">10.7875/first.author.2018.096</a><br><div class="reference"><br><span class="ti">Hypercapnia increases airway smooth muscle contractility via caspase-7-mediated miR-133a-RhoA signaling.</span><br><span class="au">Masahiko Shigemura , Emilia Lecuona, Martín Angulo, Tetsuya Homma, Diego A. Rodríguez, Francisco J. Gonzalez-Gonzalez, Lynn C. Welch, Luciano Amarelle, Seok-Jo Kim, Naftali Kaminski, G. R. Scott Budinger, Julian Solway, Jacob I. Sznajder</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/30185650" target="_blank"><em>Science Translational Medicine</em>, <strong>10</strong>, eaat1662 (2018)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　呼吸不全をともなう慢性閉塞性肺疾患の患者は高CO<sub>2</sub>血症をともなうことが知られている．高CO<sub>2</sub>血症は慢性閉塞性肺疾患の重症度の指標のひとつとされているが，高CO<sub>2</sub>が慢性閉塞性肺疾患の病態におよぼす役割についてはほとんど知られていない．この研究において，筆者らは，CO<sub>2</sub>がシグナル伝達分子としてマウスおよびヒトの気道平滑筋細胞に作用することを明らかにした．高CO<sub>2</sub>条件においては，気道平滑筋細胞がアポトーシスの制御機構とは異なるカスパーゼ7の活性化を介して収縮し，その結果，マウスにおいて気道の抵抗を上昇させた．一方，慢性閉塞性肺疾患のコホート研究を用いて，高CO<sub>2</sub>血症をともなう患者において気道の抵抗および呼吸の抵抗が上昇していること，また，非侵襲的な陽圧換気療法により高CO<sub>2</sub>血症が改善された症例において呼吸の抵抗が低下することが見い出された．この研究により，CO<sub>2</sub>の気道の病態生理への関与が明らかにされた．高CO<sub>2</sub>血症を呈する慢性閉塞性肺疾患の患者においては，高CO<sub>2</sub>により気道が収縮し，その結果，高CO<sub>2</sub>血症が進行して呼吸不全が悪化する可能性が示唆された．<br/><br/><h2>はじめに</h2><br/>　O<sub>2</sub>，NO，CO<sub>2</sub>などのガス状の分子はシグナル伝達分子としてさまざまな生理機能をもつことが知られている．CO<sub>2</sub>は生体においてすみやかにH<sup>+</sup>とHCO<sub>3</sub><sup>-</sup>に変換されることから，これまで，CO<sub>2</sub>によるシグナル伝達はおもにH<sup>+</sup>のはたらきによりひき起こされると考えられてきた．これに対し，最近，肺や骨格筋などの組織において，CO<sub>2</sub>がシグナル伝達分子として直接的にはたらくことが示唆されている<a href="#R1"><sup>1)</sup></a>．<br/>　高CO<sub>2</sub>血症は肺胞の低換気をともなう慢性閉塞性肺疾患など，種々の呼吸器疾患に認められる．慢性閉塞性肺疾患により世界で年間300万人が死亡しており，2030年までには死因の第3位になると予想されている．慢性的な高CO<sub>2</sub>血症は慢性閉塞性肺疾患の死亡率の上昇と関連する<a href="#R2"><sup>2)</sup></a>．最近，高CO<sub>2</sub>血症を呈する慢性閉塞性肺疾患の患者において，非侵襲的な陽圧換気療法による介入が死亡率の低下やQOL（qua<a href="#" class="anno lit">lit</a>y of life）の改善と関連すると報告された<a href="#R3"><sup>3,4)</sup></a>．<br/>　この研究においては，筆者らは，高CO<sub>2</sub>が気道の病態生理になんらかの影響をおよぼすという仮説をたて，高CO<sub>2</sub>の影響および機序を<em>in vitro</em>のモデルおよびマウスの<em>in vivo</em>のモデル，さらには，慢性閉塞性肺疾患のコホート研究を用いて検討した．<br/><br/><h2>1．高CO<sub>2</sub>に曝露されたマウスの肺組織において気道平滑筋の収縮に関連する遺伝子の発現が変化する</h2><br/>　高CO<sub>2</sub>が肺におよぼす影響について網羅的に解析するため，高CO<sub>2</sub>かつ正常なO<sub>2</sub>に曝露されたマウスの肺組織においてmRNAおよびmiRNAに対しマイクロアレイ解析を実施した．その結果，3日間の曝露では1017個のmRNA，7日間の曝露では2959個のmRNAの発現に変化が認められた．また，マイクロアレイのデータのパスウェイ解析により，気道平滑筋の収縮に関連するシグナル伝達経路がもっとも活性化されていることが示唆された．そこで，気道平滑筋の収縮に関連するシグナル伝達経路を推定するため，mRNAおよびmiRNAのマイクロアレイのデータを用いて遺伝子ネットワーク解析を実施したところ，miR-133aを介した<a href="#" class="anno <a href="#" class="anno Rho">Rho</a>A">RhoA</a>-<a href="#" class="anno ROCK">ROCK</a>-ミオシン軽鎖ホスファターゼ-ミオシン軽鎖というシグナル伝達経路が示唆された．<br/><br/><h2>2．高CO<sub>2</sub>はアポトーシスの制御機構とは異なるカスパーゼ7の活性化を介して気道平滑筋細胞を収縮させる</h2><br/>　高CO<sub>2</sub>に曝露されたマウスの肺組織のマイクロアレイ解析から，高CO<sub>2</sub>は気道平滑筋を収縮させることが示唆された．この仮説について検討するため，マウスおよびヒトの気道平滑筋細胞を用いて，高CO<sub>2</sub>かつ正常なO<sub>2</sub>に曝露された平滑筋細胞において，アセチルコリンによりひき起こされる収縮とCO<sub>2</sub>の濃度およびpHとの関係について検討した．その結果，気道平滑筋細胞はCO<sub>2</sub>の濃度および曝露の期間に依存して収縮したが，pHの酸性化とは関連はなかった．<br/>　高CO<sub>2</sub>により気道平滑筋細胞が収縮する機序について検討した．マウスの肺組織のマイクロアレイ解析において，miR-133aを介したRhoA-ROCK-ミオシン軽鎖ホスファターゼ-ミオシン軽鎖というシグナル伝達経路が示唆された．これまでに，気道平滑筋細胞の収縮はミオシン軽鎖のリン酸化により制御され，また，ミオシン軽鎖のリン酸化はRhoA-ROCK-ミオシン軽鎖ホスファターゼというシグナル伝達経路により制御されることが報告されていた<a href="#R5"><sup>5)</sup></a>．さらに最近，miR-133aはRhoAの発現および活性化を制御することも明らかにされた<a href="#R6"><sup>6)</sup></a>．そこで，高CO<sub>2</sub>条件において気道平滑筋細胞におけるミオシン軽鎖のリン酸化，および，RhoAおよびmiR-133aの発現について検討したところ，高CO<sub>2</sub>がmiR-133aの発現を抑制し，その結果，RhoAの発現が上昇してミオシン軽鎖のリン酸化が促進されることがマウスおよびヒトの細胞において確認された．<br/>　高CO<sub>2</sub>によりmiR-133aの発現が抑制される機序について検討するため，転写因子結合データベースにおいて<em>miR-133a</em>遺伝子のプロモーター領域に結合する転写因子を探索したところ，<a href="#" class="anno YY1">YY1</a>および<a href="#" class="anno MEF2">MEF2</a>Dが見い出された．マウスの気道平滑筋細胞においてYY1あるいはMEF2DをノックダウンしてmiR-133aの発現について検討したところ，MEF2DがmiR-133aの発現を制御する転写因子であることが明らかにされた．そこで，染色およびウェスタンブロット法により高CO<sub>2</sub>条件におけるMEF2Dの発現について検討したところ，MEF2Dは気道平滑筋細胞の核の周辺に局在し，核におけるタンパク質量は減少していた．クロマチン免疫沈降法により<em>miR-133a</em>遺伝子のプロモーター領域へのMEF2Dの結合について検討したところ，高CO<sub>2</sub>条件においてMEF2Dの結合は減少していた．以上のことから，高CO<sub>2</sub>によりMEF2Dの核における局在が低下し，その結果，<em>miR-133a</em>遺伝子のプロモーター領域への結合が減少することによりmiR-133aの発現は抑制されると考えられた．<br/>　MEF2Dのウェスタンブロット法による解析において，タンパク質量の減少ともにタンパク質の断片化も観察された．これまでに，MEF2Dの断片化においてカスパーゼの関与が報告されていた．高CO<sub>2</sub>条件におけるカスパーゼによるMEF2Dの断片化について検討するため，カスパーゼの阻害剤を用いてMEF2Dの断片化およびmiR-133aの発現について検討したところ，高CO<sub>2</sub>によるMEF2Dの断片化およびmiR-133の発現の抑制は改善された．高CO<sub>2</sub>により活性化するカスパーゼを調べたところ，マウスの気道平滑筋細胞においてカスパーゼ7のみが高CO<sub>2</sub>により活性化されていた．カスパーゼ7をノックダウンしてMEF2Dの断片化およびmiR-133aの発現について検討したところ，高CO<sub>2</sub>によるMEF2Dの断片化およびmiR-133の発現の抑制は改善された．カスパーゼは細胞においてアポトーシスを制御することで知られている<a href="#R7"><sup>7)</sup></a>．しかし，高CO<sub>2</sub>条件において気道平滑筋細胞のアポトーシスは認められなかった．以上のことから，高CO<sub>2</sub>はアポトーシスの制御機構とは異なるカスパーゼ7の活性化を介して気道平滑筋細胞を収縮させると考えられた．<br/>　カスパーゼの活性はCa<sup>2+</sup>依存性のシステインプロテアーゼであるカルパインにより制御されることが報告されていた<a href="#R8"><sup>8)</sup></a>．マウスの気道平滑筋細胞におけるカルパインの活性について検討したところ，高CO<sub>2</sub>により一時的な上昇が観察された．高CO<sub>2</sub>条件において，組織に普遍的に発現するカルパイン1およびカルパイン2をノックダウンして気道平滑筋細胞におけるカスパーゼ7の活性について検討したところ，カルパイン1のノックダウンによりカスパーゼ7の活性は抑制された．一方，高CO<sub>2</sub>はマウスの気道平滑筋細胞において細胞におけるCa<sup>2+</sup>の濃度を上昇させ，また，Ca<sup>2+</sup>のキレート剤は高CO<sub>2</sub>によるカルパインの活性の上昇を抑制した．以上のことから，高CO<sub>2</sub>は気道平滑筋細胞におけるCa<sup>2+</sup>の濃度を上昇させ，カルパインの活性を介してカスパーゼ7を活性化させると考えられた（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　高CO<sub>2</sub>により気道平滑筋が収縮する機序</strong><br/>P：リン酸化．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shigemura-Science-Translational-Medicine-18.9.5-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　高CO<sub>2</sub>により気道平滑筋が収縮する機序" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shigemura-Science-Translational-Medicine-18.9.5-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shigemura-Science-Translational-Medicine-18.9.5-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．高CO<sub>2</sub>に曝露されたマウスにおいて気道の抵抗が上昇する</h2><br/>　<em>in vitro</em>の実験系において認められた高CO<sub>2</sub>による気道平滑筋細胞の収縮の機序が，マウスの<em>in vivo</em>のモデルにおいても確認されるか検討した．高CO<sub>2</sub>かつ正常なO<sub>2</sub>に曝露された野生型のマウスの気道の収縮および気道の抵抗について検討したところ，気道の収縮はCO<sub>2</sub>の曝露の期間と比例して上昇し，また，気道の抵抗も上昇した．また，高CO<sub>2</sub>に曝露されたマウスの肺組織においては，miR-133aの発現は低下，RhoAの発現は上昇，ミオシン軽鎖はリン酸化されていた．一方，カスパーゼ7のノックアウトマウスにおいては，高CO<sub>2</sub>による気道の収縮および気道の抵抗の上昇は抑制され，また，高CO<sub>2</sub>によりひき起こされるmiR-133a-RhoA-ROCK-ミオシン軽鎖ホスファターゼ-ミオシン軽鎖というシグナル伝達経路の下流のシグナルも抑制されていた．これに対し，経気道的にmiR-133aの阻害剤を導入したカスパーゼ7のノックアウトマウスにおいては，野生型のマウスと同様に，高CO<sub>2</sub>により気道が収縮し，高CO<sub>2</sub>によりひき起こされる下流のシグナルも認められた．<br/><br/><h2>4．高CO<sub>2</sub>血症を呈する慢性閉塞性肺疾患の患者において気道および呼吸の抵抗が上昇する</h2><br/>　高CO<sub>2</sub>がヒトにおいても気道の収縮に影響をおよぼすのかどうか検討するため，慢性閉塞性肺疾患のコホート研究を用いて，高CO<sub>2</sub>血症を呈する重症の患者および高CO<sub>2</sub>血症を呈さない重症の患者を対象に，気道および呼吸の抵抗を測定した．その結果，高CO<sub>2</sub>血症をともなう患者においては気道および呼吸の抵抗が上昇し，また，非侵襲的な陽圧換気療法による介入により高CO<sub>2</sub>血症が改善された症例においては呼吸の抵抗が低下した．<br/><br/><h2>おわりに</h2><br/>　この研究において，筆者らは，CO<sub>2</sub>がシグナル伝達分子として気道平滑筋細胞の収縮に影響をおよぼすことを明らかにした．高CO<sub>2</sub>は気道平滑筋に有害であることが示唆されたが，高CO<sub>2</sub>血症を呈する慢性閉塞性肺疾患の患者において，高CO<sub>2</sub>を容認するか否かについては議論がある．その背景のひとつに，急性肺障害/急性呼吸窮迫症候群の患者においては，呼吸の管理において高CO<sub>2</sub>血症を容認するという概念が広く普及していることがある<a href="#R9"><sup>9)</sup></a>．これは，肺の過膨張による正常な肺の障害を保護する目的で推奨された呼吸の管理法であるが，一方で，高CO<sub>2</sub>血症にともなう呼吸性のアシドーシスが抗炎症応答にも寄与することが示唆されており，このことから，治療のための高CO<sub>2</sub>血症という治療戦略も提唱されている．近年になり，慢性閉塞性肺疾患の患者において高CO<sub>2</sub>血症への介入が検討され<a href="#R3"><sup>3,4)</sup></a>，その有効性が議論されている．この研究の成果は，これらの臨床研究を分子生物学的な観点からサポートする知見であり意義深い．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Shigemura, M., Lecuona, E. & Sznajder, J. I.</span>: <span class="ti">Effects of hypercapnia on the lung.</span> <span class='so'>J. Physiol., 595, 2431-2437 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28044311" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Connors, A. F. Jr., Dawson, N. V., Thomas, C. et al.</span>: <span class="ti">Outcomes following acute exacerbation of severe chronic obstructive lung disease. The SUPPORT investigators (Study to Understand Prognoses and Preferences for Outcomes and Risks of Treatments).</span> <span class='so'>Am. J. Respir. Crit. Care Med., 154, 959-967 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8887592" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Murphy, P. B., Rehal, S., Arbane, G. et al.</span>: <span class="ti">Effect of home noninvasive ventilation with oxygen therapy vs oxygen therapy alone on hospital readmission or death after an acute COPD exacerbation: a eandomized clinical trial.</span> <span class='so'>JAMA, 317, 2177-2186 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28528348" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Kohnlein, T., Windisch, W., Kohler, D. et al.</span>: <span class="ti">Non-invasive positive pressure ventilation for the treatment of severe stable chronic obstructive pulmonary disease: a prospective, multicentre, randomised, controlled clinical trial.</span> <span class='so'>Lancet Respir. Med., 2, 698-705 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25066329" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Murthy, K. S.</span>: <span class="ti">Signaling for contraction and relaxation in smooth muscle of the gut.</span> <span class='so'>Annu. Rev. Physiol., 68, 345-374 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16460276" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Chiba, Y., Tanabe, M., Goto, K. et al.</span>: <span class="ti">Down-regulation of miR-133a contributes to up-regulation of RhoA in bronchial smooth muscle cells.</span> <span class='so'>Am. J. Respir. Crit. Care Med., 180, 713-719 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19644046" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Crawford, E. D. & Wells, J. A.</span>: <span class="ti">Caspase substrates and cellular remodeling.</span> <span class='so'>Annu. Rev. Biochem., 80, 1055-1087 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21456965" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Orrenius, S., Zhivotovsky, B. & Nicotera, P.</span>: <span class="ti">Regulation of cell death: the calcium-apoptosis link.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 4, 552-565 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12838338" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Acute Respiratory Distress Syndrome Network</span>: <span class="ti">Ventilation with lower tidal volumes as compared with traditional tidal volumes for acute lung injury and the acute respiratory distress syndrome.</span> <span class='so'>N. Engl. J. Med., 342, 1301-1308 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10793162" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=GEO" target="_blank">GEO</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=転写因子" target="_blank">転写因子データベース</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=パスウェイ解析" target="_blank">パスウェイ解析</a></li><br></ul><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_01.html" target="_blank">14.1 What is Signal Transduction?</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_03.html" target="_blank">14.3 Intercellular Signal Transduction</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/14_02.html" target="_blank">14.2 Basic Mechanisms of Intracellular Signal Transduction</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/15_01.html" target="_blank">15.1 Receptor-Mediated Intracellular Signaling Pathways</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/15_02.html" target="_blank">15.2 Cancer</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">重村 雅彦（Masahiko Shigemura）</span><br>略歴：2011年 北海道大学大学院医学研究科博士課程 修了，2013年より米国Northwestern大学Feinberg School of Medicine博士研究員．<br>研究テーマ：CO<sub>2</sub>による生態制御の生物学．<br>関心事：生物の代謝機構におけるCO<sub>2</sub>の役割およびセンサー分子の探索．<br><br><strong>Jacob I. Sznajder</strong><br>米国Northwestern大学Feinberg School of Medicine教授．<br>研究室URL：<a href="https://labs.feinberg.northwestern.edu/sznajder/" target="_blank">https://labs.feinberg.northwestern.edu/sznajder/</a><br></div><br>© 2018 重村雅彦・Jacob I. Sznajder Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        // hs-gigure-captionのhtmlをmodalに表示する
+        // hs-figure-captionには[Download]以外表示しない
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

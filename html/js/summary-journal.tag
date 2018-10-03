@@ -27,12 +27,14 @@
 
         $.getJSON('https://script.google.com/macros/s/AKfycbxRUrpftHbs62tP7PFas6Kvd6quoNw_CazWSlTOAOV76fW8f05Z/exec?fa=true&j='+ v,
             function(data){
+                // this.listにページのデータをbind
                 this.list = data;
                 opts.found = this.list.length + "件";
                 this.update();
-                for (item of self.list){
-                    var elm = document.getElementById(item["URL"])
-                    elm.innerHTML = item["title"]
+                // タグがエスケープされないようにh2>aのinnerHTMLを利用する
+                for (var i in self.list){
+                    var elm = document.getElementById(data[i]["URL"]);
+                    elm.innerHTML = data[i]["title"]
                 }
             }.bind(this));
 
