@@ -15,7 +15,7 @@ var cards = [
         "request_type": "dbpedia",
         "title": function (kw) {
             var base_url = "https://refex.dbcls.jp/genelist.php?gene_name%5B%5D=";
-            return `<h3>RefEx: <a href=${base_url}${kw}>${kw}</a></h3>`
+            return `<div class="hc-lines"><h3><a href=${base_url}${kw}> RefExへのリンク</a></h3></div>`
         },
         "get_url": function () {
             return []
@@ -29,14 +29,14 @@ var cards = [
         "request_type": "dbpedia",
         "title": function (kw) {
             var base_url = "https://ggrna.dbcls.jp/ja/";
-            return `<h3>ggrna: <a href=${base_url}${kw}>${kw}</a></h3>`
+            return `<div class="hc-lines"><h3><a href=${base_url}${kw}> ggrnaへのリンク</a></h3></div>`
         },
         "get_url":function () {
             return []
         },
         "ajax_conf": {"type": "GET", "dataType": "text"},
         "views": "",
-        "max_lines": 5
+        "max_lines": 1
     },
     {
         "dbname": "fa",

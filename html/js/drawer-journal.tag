@@ -19,7 +19,7 @@
    
   <li><a href="./journal.htm?val=Cell Metabolism">Cell Metabolism  (53)</a></li>
    
-  <li><a href="./journal.htm?val=Nature Immunology">Nature Immunology  (43)</a></li>
+  <li><a href="./journal.htm?val=Nature Immunology">Nature Immunology  (44)</a></li>
    
   <li><a href="./journal.htm?val=Nature Structural & Molecular Biology">Nature Structural & Molecular Biology  (43)</a></li>
    
@@ -31,9 +31,9 @@
    
   <li><a href="./journal.htm?val=Nature Medicine">Nature Medicine  (37)</a></li>
    
-  <li><a href="./journal.htm?val=Nature Chemical Biology">Nature Chemical Biology  (36)</a></li>
-   
   <li><a href="./journal.htm?val=Nature Genetics">Nature Genetics  (36)</a></li>
+   
+  <li><a href="./journal.htm?val=Nature Chemical Biology">Nature Chemical Biology  (36)</a></li>
    
   <li><a href="./journal.htm?val=Cancer Cell">Cancer Cell  (23)</a></li>
    

@@ -230,7 +230,8 @@
 <!-- Hovercardに表示するDB選択 -->
 <div style="display: none;">
     <form>
-        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="targetdb" value="refex" checked>refex
+        <input type="checkbox" class="selected_db" name="targetdb" value="ggrna" checked>ggrna
         <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
     </form>
 </div>
@@ -244,6 +245,7 @@
 
 
 <script type="text/javascript">
+    //
     Array.prototype.uni = function () {
         return [...new Set(this)]
     };
@@ -298,6 +300,7 @@
                         dataType: v.ajax_conf.dataType
                     }).then(function (d) {
                         var req_type = v["request_type"];
+                        // dataをconfigの様式にしたがってパースして返す
                         var pages = parser[req_type](d);
 
                         if (pages.length > 0) {
