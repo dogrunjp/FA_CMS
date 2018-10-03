@@ -230,7 +230,8 @@
 <!-- Hovercardに表示するDB選択 -->
 <div style="display: none;">
     <form>
-        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="targetdb" value="refex" checked>refex
+        <input type="checkbox" class="selected_db" name="targetdb" value="ggrna" checked>ggrna
         <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
     </form>
 </div>
@@ -290,15 +291,19 @@
             onHoverIn: function () {
                 var kw = this.firstChild.textContent;
                 var rows = 0;
+                console.log("dbs ", selected_db());
                 selected_db().forEach(function (v, i, a) {
+                    console.log("v ", v);
                     $(".hc-refers").empty();
                     $.ajax({
                         type: v.ajax_conf.type,
                         url: v.get_url(kw),
                         dataType: v.ajax_conf.dataType
                     }).then(function (d) {
+                        console.log("d: ", d);
                         var req_type = v["request_type"];
                         var pages = parser[req_type](d);
+                        console.log("pages: ", pages);
 
                         if (pages.length > 0) {
                             rows += pages.length;

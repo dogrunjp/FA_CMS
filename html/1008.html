@@ -248,7 +248,7 @@
 </div>
 
 <script type="text/javascript" src="./js/jquery.hovercard.js"></script>
-<script type="text/javascript" src="./js/config.js"></script>
+<script type="text/javascript" src="./js/config_bak.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
 <script type="riot/tag" src="js/drawer-category.tag"></script>
 <script type="riot/tag" src="js/drawer-journal.tag"></script>
@@ -301,6 +301,7 @@
             width: 400,
             onHoverIn: function () {
                 var kw = this.firstChild.textContent;
+                console.log("kw ", kw)
                 var rows = 0;
                 selected_db().forEach(function (v, i, a) {
                     $(".hc-refers").empty();
@@ -309,8 +310,10 @@
                         url: v.get_url(kw),
                         dataType: v.ajax_conf.dataType
                     }).then(function (d) {
+                        console.log("d ", d);
                         var req_type = v["request_type"];
                         var pages = parser[req_type](d);
+                        console.log("pages: ", pages)
 
                         if (pages.length > 0) {
                             rows += pages.length;
@@ -320,6 +323,7 @@
                             var i = 0;
                             while (i < pages.length && i < v.max_lines) {
                                 var c = pages[i];
+                                console.log("c: ", c)
                                 var elem = v.views(kw, c);
                                 $(".hc-refers").append(elem);
                                 i++

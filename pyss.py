@@ -363,7 +363,6 @@ def word_filter(lst):
     # 優先度を決めソート
     # feature: multiword, unknown , dictionary: MeSH, Gene, 文字数でsortする
     sl = sorted(lst,  key=lambda x: len(x), reverse=True)
-    print(sl)
 
     return sl
 

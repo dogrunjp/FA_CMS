@@ -4,7 +4,9 @@ var parser = {
     },
     "sparql": function (d) {
         return d["results"]["bindings"];
-    }
+    },
+    "link": ["link"]
+
 };
 
 var cards = [
@@ -12,17 +14,28 @@ var cards = [
         "dbname": "refex",
         "request_type": "dbpedia",
         "title": function (kw) {
-            var base_url = "http://ja.dbpedia.org/page/";
-            return `<h3>DBpedia japanese: <a href=${base_url}${kw}>${kw}</a></h3>`
+            var base_url = "https://refex.dbcls.jp/genelist.php?gene_name%5B%5D=";
+            return `<h3>RefEx: <a href=${base_url}${kw}>${kw}</a></h3>`
         },
-        "get_url": function (kw) {
-            return `http://ja.dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fja.dbpedia.org&query=select+distinct+*+where+%7B+%3Chttp%3A%2F%2Fja.dbpedia.org%2Fresource%2F${kw}%3E+dbpedia-owl%3Aabstract+%3Fo+.++%7D+LIMIT+1&should-sponge=&format=text%2Fcsv&timeout=0&debug=on`
+        "get_url": function () {
+            return []
         },
         "ajax_conf": {"type": "GET", "dataType": "text"},
-        "views": function (kw, c) {
-            var elem = c.slice(3);
-            return  `<p>${elem}</p>`
+        "views": "",
+        "max_lines": 1
+    },
+        {
+        "dbname": "ggrna",
+        "request_type": "dbpedia",
+        "title": function (kw) {
+            var base_url = "https://ggrna.dbcls.jp/ja/";
+            return `<h3>ggrna: <a href=${base_url}${kw}>${kw}</a></h3>`
         },
+        "get_url":function () {
+            return []
+        },
+        "ajax_conf": {"type": "GET", "dataType": "text"},
+        "views": "",
         "max_lines": 5
     },
     {
