@@ -249,3 +249,139 @@ git gc --aggressive --prune=now
 で、git push -f
 
 [Git リポジトリに上が
+
+## 正規表現を利用した置き換え
+
+### タグ内部を置き換えの対象としない
+
+- tagを丸ごと置き換える正規表現
+
+タグの正規表現は
+"\<.+?\>"
+
+```
+>>> import re
+>>> s = '<a href="mailto:taket0901@cpnet.med.keio.ac.jp">貞廣威太郎</a>，<a href="mailto:mieda@md.tsukuba.ac.jp">家田真樹</a><br>'
+>>> import re
+>>> txt = re.sub("\<.+?\>", "--", s)
+>>> txt
+'--貞廣威太郎--，--家田真樹----'
+```
+
+他の書き方では
+
+```
+>>> m = re.search('(\<.+?\>)', s)
+>>> m.group()
+'<a href="mailto:taket0901@cpnet.med.keio.ac.jp">'
+
+```
+
+- 任意の文字列を含まない文字列の正規表現（否定先読み、否定戻り読み）
+
+一文の先頭や行末にPatternがあるか無いかの正規表現
+
+[正規表現：文字列を「含まない」否定の表現まとめ](http://www-creators.com/archives/1827)
+
+
+ m = re.search(r'Nikon(?=FE2)', camera)
+ 
+ 先読みアサーションで"NiconFE2"がマッチする
+ 
+ [pythonの先読みアサーション](https://qiita.com/kawarayu/items/64b44e04eb57cbef8718)
+
+- AND条件
+[正規表現：AND（かつ）の表現方法](http://www-creators.com/archives/5332)
+
+```
+s = '<a href="mailto:taket0901@cpnet.med.keio.ac.jp">acdc</a>，<a href="mailto:mieda@md.tsukuba.ac.jp">beatles</a><br>'
+>>> m = re.search('(ac)(dc)', s)
+>>> m.group()
+'acdc'
+```
+
+- findall, finditer
+finallはマッチした文字をリストで返す
+finditerはポジションをiteratorで返す
+
+- pythonでの先読みの利用
+```
+s = '<a href="mailto:taket0901@cpnet.med.keio.ac.jp">acdc</a>，<a href="mailto:mieda@md.tsukuba.ac.jp">beatles</a><br>'
+>>> m = re.search('(?=.*ac)dc', s)
+>>> m
+<_sre.SRE_Match object; span=(50, 52), match='dc'>
+>>> m.group(0)
+'dc'
+```
+
+- >を後ろにもたないacを置換--上手くいかない
+```
+>>> new_t = re.sub('ac((?!.\>).)*?', 'sample', s)
+>>> new_t
+'<a href="mailto:taket0901@cpnet.med.keio.sample.jp">sampledc</a>，<a href="mailto:mieda@md.tsukuba.sample.jp">beatles</a><br>'
+>>> 
+```
+
+```
+'<a href="mailto:taket0901@cpnet.med.keio.ac.jp">acdc</a>，<a href="mailto:mieda@md.tsukuba.ac.jp">beatles</a><br>'
+>>> new_t = re.sub('ac((?!dc).)*', 'hoge', s)
+>>> new_t
+'<a href="mailto:taket0901@cpnet.med.keio.hogedc</a>，<a href="mailto:mieda@md.tsukuba.hoge'
+
+```
+
+###　正規表現、ほぼ回答があった
+
+ただしaタグの時のみ
+
+(?!<a[^>]*?>)(Test)(?![^<]*?</a>)
+
+[Regex replace text but exclude when text is between specific tag](https://stackoverflow.com/questions/12493128/regex-replace-text-but-exclude-when-text-is-between-specific-tag)
+
+### 置き換え語にマッチした単語を含める
+
+```
+ptn = '(?!<a[^>]*?>)({})(?![^<]*?</a>)'.format(k)
+rep = r'<a href="#" class="anno \1">\1</a>'
+s = re.sub(ptn, rep, s, 1)
+```
+```
+rep = r'<a href="#" class="anno \g<0>">\g<0></a>'
+```
+でも同様の結果となった
+
+### マッチオブジェクト
+
+group(), start(), end(), span()のメソッドをもつ
+
+
+## 辞書ルックアップ（ahocorapy.keywordtreee）でヒットする単語の検出とオーバーラップするポジションの検出
+
+
+
+## beautifulsoupをtextの検索に使う場合
+
+__beautifulsoupのx.text.lower()を利用してテキストを取得した場合、タグに囲まれた範囲で完全に一致するtextを検索することになる__
+したがって、<em>Tbx6</em>とかは取得できるけど、他のテキストに混じって出現する場合は検索にならない
+
+```
+def test_bs4(kws, txt):
+    sp = bs(txt, 'html.parser')
+    for w in kws:
+        w = w.lower()
+        # lower()無しだとcase sensitive
+        m = sp.find(lambda x: x.text.lower() == w)
+```
+
+[テキストで検索し、HTMLで置換するBeautifulSoup](https://code-examples.net/ja/q/10059c9)
+
+```
+>>> soup = bs4.BeautifulSoup(test)
+>>> matches = soup.find_all(lambda x: x.text.lower() == 'here is some silly text'):
+>>> for match in matches:
+...     match.wrap(soup.new_tag('mark'))
+>>> soup
+<html><body><h1>oh hey</h1><mark><div>here is some <b>SILLY</b> text</div></mark></body></html>
+```
+
+[BS4のfind()とfind_all()](http://mankuro.hateblo.jp/entry/2017/05/02/beautifulsoup4-find-and-find_all/)

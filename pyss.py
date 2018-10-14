@@ -17,6 +17,8 @@ import re
 import subprocess
 from feedgenerator import Rss201rev2Feed as Feed
 from bs4 import BeautifulSoup
+from ahocorapy.keywordtree import KeywordTree
+import markup_kw
 
 __version__ = "0.3.0"
 config_yaml = "./conf/config.yaml"
@@ -151,7 +153,7 @@ class RenderPage:
         # アノテーションする単語のリストを取得
         self.keywords = get_keywords(conf)
         # 正規表現パターンをコンパイル
-        self.match_list = create_regex_pattern(self.keywords)
+        # self.match_list = create_regex_pattern(self.keywords)
 
     def render(self, contents, template, name, path, img_p):
         env = Environment(loader=FileSystemLoader(conf["template_path"], encoding="utf8"))
@@ -195,10 +197,17 @@ class RenderPage:
                         pass
                 txt = str(soup)
 
+                # Hover card用のannotation追加
+                markup_kw.add_annotation(self.keywords, txt)
+
+                '''
+                
                 # Hovercardアノテーションに関する機能
                 # itemの本文にself.keywordsに一致する単語があればマークアップする。
                 # マークアップ箇所のDOMのクラスは conf.annotation.class
                 txt = add_tag(txt, self.match_list)
+                
+                '''
 
                 # 一時置換したタグをcaptionsから復元する
                 for i in range(len(caps)):
@@ -222,6 +231,7 @@ class RenderPage:
                 tmpl = env.get_template(template)
                 htm = tmpl.render(item=entry)
                 write_static_file(entry, htm)
+
 
 
 """
@@ -375,12 +385,6 @@ def add_tag(txt, m_lst):
     for p in m_lst:
         txt = p.sub(rep, txt, count=cnt)
     return txt
-
-
-def create_regex_pattern(lst):
-    protect = ["dis", "org", "PDF", "arc", "bar", "ank", "pla", "ral", "lec", "seq", "sp1", "Msx"]
-    ptn = [re.compile(x) for x in lst if x not in protect]
-    return ptn
 
 
 def replace_figures(st, fig, path, img_p, caps):

@@ -7,9 +7,9 @@
    
   <li><a href="./journal.htm?val=Science">Science  (163)</a></li>
    
-  <li><a href="./journal.htm?val=Molecular Cell">Molecular Cell  (121)</a></li>
+  <li><a href="./journal.htm?val=Molecular Cell">Molecular Cell  (122)</a></li>
    
-  <li><a href="./journal.htm?val=Cell">Cell  (103)</a></li>
+  <li><a href="./journal.htm?val=Cell">Cell  (104)</a></li>
    
   <li><a href="./journal.htm?val=Neuron">Neuron  (99)</a></li>
    
@@ -23,9 +23,9 @@
    
   <li><a href="./journal.htm?val=Nature Structural & Molecular Biology">Nature Structural & Molecular Biology  (43)</a></li>
    
-  <li><a href="./journal.htm?val=Nature Neuroscience">Nature Neuroscience  (42)</a></li>
-   
   <li><a href="./journal.htm?val=Cell Stem Cell">Cell Stem Cell  (42)</a></li>
+   
+  <li><a href="./journal.htm?val=Nature Neuroscience">Nature Neuroscience  (42)</a></li>
    
   <li><a href="./journal.htm?val=Nature Cell Biology">Nature Cell Biology  (40)</a></li>
    

@@ -175,8 +175,20 @@
                         </a><br>
                         <a href="http://togotv.dbcls.jp/">統合TV</a>にて
                         <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
-
                     </div>
+
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>アノテーションを表示</h2>
+                    <div>
+                        <form>
+                            <input type="checkbox" class="selected_db" name="targetdb" value="refex" checked>RefEx
+                            <input type="checkbox" class="selected_db" name="targetdb" value="ggrna" checked>GGRNA
+                            <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+                        </form>
+                    </div>
+
                 </li>
 
 
@@ -229,14 +241,7 @@
 </div>
 <!-- //.modal-profile -->
 
-<!-- Hovercardに表示するDB選択 -->
-<div style="display: none;">
-    <form>
-        <input type="checkbox" class="selected_db" name="targetdb" value="refex" checked>refex
-        <input type="checkbox" class="selected_db" name="targetdb" value="ggrna" checked>ggrna
-        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
-    </form>
-</div>
+
 
 <script type="text/javascript" src="./js/jquery.hovercard.js"></script>
 <script type="text/javascript" src="./js/config.js"></script>
@@ -293,7 +298,6 @@
             onHoverIn: function () {
                 var kw = this.firstChild.textContent;
                 var rows = 0;
-                console.log("dbs ", selected_db());
                 selected_db().forEach(function (v, i, a) {
                     console.log("v ", v);
                     $(".hc-refers").empty();
