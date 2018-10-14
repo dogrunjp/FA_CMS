@@ -198,15 +198,15 @@ class RenderPage:
                 txt = str(soup)
 
                 # Hover card用のannotation追加
-                markup_kw.add_annotation(self.keywords, txt)
+                txt = markup_kw.add_annotation(self.keywords, txt)
 
                 '''
-                
                 # Hovercardアノテーションに関する機能
                 # itemの本文にself.keywordsに一致する単語があればマークアップする。
                 # マークアップ箇所のDOMのクラスは conf.annotation.class
                 txt = add_tag(txt, self.match_list)
                 
+                # add_tag()の機能はmarkup_kw.pyにまとめたので不必要
                 '''
 
                 # 一時置換したタグをcaptionsから復元する
@@ -227,24 +227,9 @@ class RenderPage:
                 else:
                     pass
                 """
-
                 tmpl = env.get_template(template)
                 htm = tmpl.render(item=entry)
                 write_static_file(entry, htm)
-
-
-
-"""
-def render_list(self, pg_list):
-    categories = conf["picture_category"]
-    env = Environment(loader=FileSystemLoader(conf["template_path"], encoding="utf8"))
-    template = conf["template"]["picture_list"]
-    tmpl = env.get_template(template)
-    htm = tmpl.render(item=pg_list, cats=categories).encode("utf-8")
-    picture_list = {}
-    picture_list["filename"] = "picture_list"
-    WriteStaticFile(picture_list, htm)
-"""
 
 
 class GetPicTagMember:

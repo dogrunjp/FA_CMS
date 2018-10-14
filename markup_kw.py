@@ -63,5 +63,6 @@ def add_annotation(kws, txt):
     # レンジ被りをのぞいたキーワードリストを生成する。
     w_kws = remove_overlapped(create_unique_word_list(kwt))
     # 重複をのぞいたキーワードリストとテキストを渡す
-    add_class(w_kws, txt)
+    s = add_class(w_kws, txt)
+    return s
 
