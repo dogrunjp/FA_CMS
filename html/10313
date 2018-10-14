@@ -76,7 +76,7 @@
             <li class="drawer-nav-menu">
                 <ul class="nav-menu">
                     <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
-                    <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                    <li class="page_item"><a href="http://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
                     <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
                     <li class="page_item"><a href="./editor">編集人</a></li>
                 </ul>
@@ -96,7 +96,7 @@
             <ul class="nav-menu" id="nav-menu">
                 <li><a href="./index.htm">ホーム</a></li>
                 <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
-                <li class="page_item"><a href="./allposts">掲載記事一覧</a></li>
+                <li class="page_item"><a href="http://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
                 <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
                 <li class="page_item"><a href="./editor">編集人</a></li>
             </ul>
@@ -218,7 +218,8 @@
 <!-- Hovercardに表示するDB選択 -->
 <div style="display: none;">
     <form>
-        <input type="checkbox" class="selected_db" name="targetdb" value="dbpedia" checked>DBpedia
+        <input type="checkbox" class="selected_db" name="targetdb" value="refex" checked>refex
+        <input type="checkbox" class="selected_db" name="targetdb" value="ggrna" checked>ggrna
         <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
     </form>
 </div>
@@ -232,6 +233,7 @@
 
 
 <script type="text/javascript">
+    //
     Array.prototype.uni = function () {
         return [...new Set(this)]
     };
@@ -286,6 +288,7 @@
                         dataType: v.ajax_conf.dataType
                     }).then(function (d) {
                         var req_type = v["request_type"];
+                        // dataをconfigの様式にしたがってパースして返す
                         var pages = parser[req_type](d);
 
                         if (pages.length > 0) {
@@ -317,6 +320,8 @@
 
 
         // ligthbox modal
+        // hs-gigure-captionのhtmlをmodalに表示する
+        // hs-figure-captionには[Download]以外表示しない
         $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
             event.preventDefault();
             var content = $('.modal-body'); //.modal-body初期化

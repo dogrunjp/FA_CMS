@@ -152,8 +152,6 @@ class RenderPage:
     def __init__(self):
         # アノテーションする単語のリストを取得
         self.keywords = get_keywords(conf)
-        # 正規表現パターンをコンパイル
-        # self.match_list = create_regex_pattern(self.keywords)
 
     def render(self, contents, template, name, path, img_p):
         env = Environment(loader=FileSystemLoader(conf["template_path"], encoding="utf8"))
@@ -350,16 +348,13 @@ def get_keywords(cf):
 def word_filter(lst):
     col_terms = conf["annotation"]["terms"]
     dictionary = conf["annotation"]["dictionary"]
-    # lst = [x[col_terms] for x in lst if x['文字数'] != 1 and x['文字数'] != 2]
-    # lst = [(x[col_terms], x[feature], x[dictionary]) for x in lst if x[feature] != "名詞" and x["削除フラグ"] != 1]
-    # 現バーションはdictionary==geneのみ利用する
-    lst = [x[col_terms] for x in lst if x[dictionary] == "Gene" and x["削除フラグ"] != 1]
+      # 現バーションはdictionary==geneのみ利用する
+    lst = [x[col_terms] for x in lst if x[dictionary] == "Gene" and x["削除フラグ"] != 1 and x["一般語フラグ"] != 1]
 
-    # 優先度を決めソート
+    # 優先度を決めソート<<ソートは下流の行程で行うのでとりここでは行わない
     # feature: multiword, unknown , dictionary: MeSH, Gene, 文字数でsortする
-    sl = sorted(lst,  key=lambda x: len(x), reverse=True)
-
-    return sl
+    # sl = sorted(lst,  key=lambda x: len(x), reverse=True)
+    return lst
 
 
 # アノテーションタグを付加する

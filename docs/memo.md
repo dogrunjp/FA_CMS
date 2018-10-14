@@ -385,3 +385,10 @@ def test_bs4(kws, txt):
 ```
 
 [BS4のfind()とfind_all()](http://mankuro.hateblo.jp/entry/2017/05/02/beautifulsoup4-find-and-find_all/)
+
+
+## キーワードの取得
+
+- 現状（2018-10）ではスプレッドシートの見出し語候補から、dictionary=Geneで一般語フラグと削除フラグが立っていない語を取得している。
+- 取得はpyss.get_keywords(config): keyword_list
+
