@@ -199,14 +199,7 @@ class RenderPage:
                 txt = markup_kw.add_annotation(self.keywords, txt)
 
                 '''
-                # Hovercardアノテーションに関する機能
-                # itemの本文にself.keywordsに一致する単語があればマークアップする。
-                # マークアップ箇所のDOMのクラスは conf.annotation.class
-                txt = add_tag(txt, self.match_list)
                 
-                # add_tag()の機能はmarkup_kw.pyにまとめたので不必要
-                '''
-
                 # 一時置換したタグをcaptionsから復元する
                 for i in range(len(caps)):
                     idx = i + 1
@@ -228,6 +221,8 @@ class RenderPage:
                 tmpl = env.get_template(template)
                 htm = tmpl.render(item=entry)
                 write_static_file(entry, htm)
+                
+                '''
 
 
 class GetPicTagMember:

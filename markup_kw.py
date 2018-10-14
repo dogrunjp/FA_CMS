@@ -12,7 +12,6 @@ def create_unique_word_list(kwt):
     d = OrderedDict(sorted(dct.items(), key=lambda item : len(item[0]), reverse=True))
     return d
 
-
 def remove_overlapped(dct):
     # ポジションと単語長からキーワードのテキスト中の位置（=レンジ）を生成
     ranged = []
@@ -46,7 +45,7 @@ def add_class(kws, txt):
     rep = r'<a href="#" class="anno \1">\1</a>'
     cnt = 1
     for k in kws:
-        ptn = '(?!<a[^>]*?>)({})(?![^<]*?</a>)'.format(k)
+        ptn = '(?!<a[^>]*?>)(?![a-z]+)({})(?![^<]*?</a>)'.format(k)
         txt = re.sub(ptn, rep, txt, count=cnt)
     return txt
 
