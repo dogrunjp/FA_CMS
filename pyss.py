@@ -197,8 +197,6 @@ class RenderPage:
 
                 # Hover card用のannotation追加
                 txt = markup_kw.add_annotation(self.keywords, txt)
-
-                '''
                 
                 # 一時置換したタグをcaptionsから復元する
                 for i in range(len(caps)):
@@ -221,8 +219,6 @@ class RenderPage:
                 tmpl = env.get_template(template)
                 htm = tmpl.render(item=entry)
                 write_static_file(entry, htm)
-                
-                '''
 
 
 class GetPicTagMember:
