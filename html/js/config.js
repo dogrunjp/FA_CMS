@@ -5,14 +5,16 @@ var parser = {
     "sparql": function (d) {
         return d["results"]["bindings"];
     },
-    "link": ["link"]
+    "link": function (d) {
+        return d.slice(d)
+    }
 
 };
 
 var cards = [
     {
         "dbname": "refex",
-        "request_type": "dbpedia",
+        "request_type": "link",
         "title": function (kw) {
             var base_url = "https://refex.dbcls.jp/genelist.php?gene_name%5B%5D=";
             return `<div class="hc-lines"><h3><a href=${base_url}${kw} target="_blank"> RefExへのリンク</a></h3></div>`
@@ -26,7 +28,7 @@ var cards = [
     },
         {
         "dbname": "ggrna",
-        "request_type": "dbpedia",
+        "request_type": "link",
         "title": function (kw) {
             var base_url = "https://ggrna.dbcls.jp/ja/";
             return `<div class="hc-lines"><h3><a href=${base_url}${kw} target="_blank"> GGRNAへのリンク</a></h3></div>`
@@ -37,6 +39,25 @@ var cards = [
         "ajax_conf": {"type": "GET", "dataType": "text"},
         "views": "",
         "max_lines": 1
+    },
+    {
+        "dbname": "fa_test",
+        "request_type": "sparql",
+        "title": function () {
+            return "<h3>このキーワードを含むその他のエントリー</h3>"
+        },
+        "get_url": function (kw) {
+            return `http://navi.first.lifesciencedb.jp/fanavi/servlet/query?query=PREFIX%20rdfs%3a%20%3chttp%3a%2f%2fwww%2ew3%2eorg%2f2000%2f01%2frdf%2dschema%23%3e%0d%0aPREFIX%20aos%3a%20%3chttp%3a%2f%2fpurl%2eorg%2fao%2fselectors%2f%3e%0d%0aPREFIX%20doco%3a%20%3chttp%3a%2f%2fpurl%2eorg%2fspar%2fdoco%2f%3e%0d%0a%0d%0aSELECT%20distinct%20%3fid%20%3fo%20%3ft%20WHERE%20%7b%0d%0a%20%20GRAPH%20%3chttp%3a%2f%2fpurl%2ejp%2fbio%2f10%2flsd2fa%3e%20%7b%0d%0a%20%20%20%20%3fstc%20%5edoco%3aisContainedBy%20%2f%20aos%3aexact%20%3fo%20%2e%0d%0a%20%20%20%20VALUES%20%3fo%20%7b%22${kw}%22%40ja%7d%0d%0a%20%20%7d%0d%0a%20%20BIND%28%20replace%28str%28%3fstc%29%2c%22article%2f%28%5c%5cd%2b%29%2e%2a%22%2c%22article%2f%241%22%29%20as%20%3fdocidstr%20%29%0d%0a%20%20BIND%28%20IRI%28%3fdocidstr%29%20as%20%3fdocid%20%29%0d%0a%20%20BIND%28%20strafter%28%3fdocidstr%2c%20%22article%2f%22%29%20as%20%3fid%20%29%0d%0a%20%20%3fdocid%20rdfs%3alabel%20%3ft%20%2e%0d%0a%7d`;
+        },
+        "ajax_conf": {"type": "GET", "dataType": "json"},
+        "views": function (kw, c) {
+            // url
+            var l = c["id"]["value"];
+            // コンテンツのタイトル
+            var n = c["t"]["value"];
+            return `<div class="hc-lines"><a href=${l}>  ${n} </a></div>`
+        },
+        "max_lines": 5
     },
     {
         "dbname": "fa",

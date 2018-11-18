@@ -607,7 +607,7 @@ li.cat-item a {
         font-weight: normal;
         line-height: 3rem;
         padding: 0;
-        margin: 0 0 20px; }
+        margin: 0 0 16px; }
       #r_sidebar ul li .textwidget {
         padding: 0 5px;
         width: calc(100% - 10px);
@@ -1120,4 +1120,22 @@ a:link.anno, a:visited.anno {
 
 #content .hc-refers a{
   color: #2e80ce;
+}
+
+/************************************************
+* ignore brbr
+************************************************/
+
+#contentleft > div > div:nth-child(3) > br:nth-child(n+11){
+  display: none;
+}
+
+
+/************************************************
+* キーワードハイライト
+************************************************/
+form div.selected_list{
+  display: block;
+  text-align: left;
+  padding-left: 12px;
 }

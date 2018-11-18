@@ -12,6 +12,7 @@ def create_unique_word_list(kwt):
     d = OrderedDict(sorted(dct.items(), key=lambda item : len(item[0]), reverse=True))
     return d
 
+
 def remove_overlapped(dct):
     # ポジションと単語長からキーワードのテキスト中の位置（=レンジ）を生成
     ranged = []

@@ -180,12 +180,12 @@
                 </li>
                 <li>
                     <!-- Hovercardに表示するDB選択 -->
-                    <h2>アノテーションを表示</h2>
+                    <h2>キーワードに関連する記事を表示</h2>
                     <div>
                         <form>
-                            <input type="checkbox" class="selected_db" name="targetdb" value="refex" checked>RefEx
-                            <input type="checkbox" class="selected_db" name="targetdb" value="ggrna" checked>GGRNA
-                            <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+                            <div class="selected_list"><input type="checkbox" class="selected_db" name="targetdb" value="refex" checked> RefEx</div>
+                            <div class="selected_list"> <input type="checkbox" class="selected_db" name="targetdb" value="ggrna" checked> GGRNA</div>
+                            <div class="selected_list"><input type="checkbox" class="selected_db" name="fa" value="fa" checked> 同じキーワードを含む記事</div>
                         </form>
                     </div>
 
@@ -258,10 +258,12 @@
 
     function selected_db() {
         var dbs = [];
+        // DBを選択
         $('.selected_db:checked').each(function () {
             dbs.push($(this).val());
         });
         dbs = dbs.uni();
+        // cardsの情報を選択したDBによってフィルター
         var selected = cards.filter(function (e, i, a) {
             return dbs.includes(e.dbname)
         });
@@ -299,19 +301,21 @@
                 var kw = this.firstChild.textContent;
                 var rows = 0;
                 selected_db().forEach(function (v, i, a) {
-                    console.log("v ", v);
+                    // cardのそれぞれのdbの情報ごと処理する
                     $(".hc-refers").empty();
                     $.ajax({
                         type: v.ajax_conf.type,
                         url: v.get_url(kw),
                         dataType: v.ajax_conf.dataType
                     }).then(function (d) {
-                        console.log("d: ", d);
+                        // d get_urlがnullの場合dはdocument、pagesもdocumentになる
                         var req_type = v["request_type"];
                         var pages = parser[req_type](d);
-                        console.log("pages: ", pages);
-
-                        if (pages.length > 0) {
+                        // linkのケースではtitle項目のみ表示する
+                        if (v.ququest_type == "link"){
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+                        } else if (pages.length > 0) {
                             rows += pages.length;
                             var t = v.title(kw)
                             $(".hc-refers").append(t);
@@ -319,6 +323,7 @@
                             var i = 0;
                             while (i < pages.length && i < v.max_lines) {
                                 var c = pages[i];
+                                //
                                 var elem = v.views(kw, c);
                                 $(".hc-refers").append(elem);
                                 i++

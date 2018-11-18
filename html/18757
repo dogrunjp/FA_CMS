@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ANKZF1およびPtrh1は停滞したリボソームからそれぞれ異なる分子機構により新生ポリペプチド鎖の解離を促進する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="http://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="http://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/18757" rel="bookmark">ANKZF1およびPtrh1は停滞したリボソームからそれぞれ異なる分子機構により新生ポリペプチド鎖の解離を促進する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>黒羽一誠・Tatyana V. Pestova</strong><br>（米国SUNY Downstate Medical Center，Department of Cell Biology）<br>email：<a href="mailto:kazushige.kuroha@downstate.edu">黒羽一誠</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2018.101">10.7875/first.author.2018.101</a><br><div class="reference"><br><span class="ti">Release of ubiquitinated and non-ubiquitinated nascent chains from stalled mammalian ribosomal complexes by ANKZF1 and Ptrh1.</span><br><span class="au">Kazushige Kuroha, Alexandra Zinoviev, Christopher U.T. Hellen, Tatyana V. Pestova</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/30244831" target="_blank"><em>Molecular Cell</em>, <strong>72</strong>, 286-302.e8 (2018)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　RQC経路はリボソームの停滞により生じる不完全な新生ポリペプチド鎖を監視し除去する系である．60Sサブユニットと新生ポリペプチド鎖の複合体において，新生ポリペプチド鎖はユビキチン化されたのち60Sサブユニットから解離するためにtRNAから切り離される必要があるが，その詳細な機構については解明されていなかった．この研究において，筆者らは，哺乳動物におけるRQC経路を<em>in vitro</em>において再構成することにより，新生ポリペプチド鎖の解離を促進するタンパク質としてペプチジルtRNA加水分解酵素<a href="#" class="anno Ptrh1">Ptrh1</a>および<a href="#" class="anno ANKZF1">ANKZF1</a>を同定した．新生ポリペプチド鎖がユビキチン化されるまえにはtRNAとリボソームのP部位が不安定に結合しており，Ptrh1により新生ポリペプチド鎖とtRNAのエステル結合が加水分解されることにより新生ポリペプチド鎖は解離した．一方，<a href="#" class="anno NEMF">NEMF</a>が60Sサブユニットと結合する，あるいは，新生ポリペプチド鎖がユビキチン化されると，tRNAがP部位に固定されANKZF1が作用する状態となり，ANKZF1がtRNAをアクセプターステムにて特異的に切断することにより新生ポリペプチド鎖は解離した．また，詳細な機能が不明であったRQC経路に関連するタンパク質のひとつ<a href="#" class="anno TCF25">TCF25</a>は，<a href="#" class="anno Lys">Lys</a>48型ユビキチン鎖の選択的な形成にかかわることが明らかにされた．<br/><br/><h2>はじめに</h2><br/>　生物はタンパク質の品質を厳密に制御する品質管理の機構をもつ．この機構により，アルツハイマー病やパーキンソン病などの神経変性疾患，心疾患，糖尿病などの発症にかかわる異常なタンパク質が選択的に除去され，生物はその恒常性を維持する<a href="#R1"><sup>1)</sup></a>．このような異常なタンパク質の生じる原因のひとつに，翻訳の途上のリボソームの異常な停滞があげられる．終止コドンをもたないノンストップmRNAはリボソームの停滞をひき起こすもっともよく知られた例のひとつであり，それにより生じるリボソームと結合した不完全な新生ポリペプチド鎖はRQC（ribosome-associated quality control）経路により分解される<a href="#R2"><sup>2)</sup></a>．<br/>　RQC経路はノンストップmRNAの3’末端において停滞した80Sリボソームが，リボソーム解離因子によりmRNA，40Sサブユニット，60Sサブユニットに解離することから開始する．リボソーム解離因子はポリペプチド鎖を解離する活性をもたないため，新生ポリペプチド鎖はtRNAと結合したまま残され，60Sサブユニットと新生ポリペプチド鎖との複合体が形成される．40Sサブユニットの解離によりさらされたサブユニットの結合面がNEMFにより認識され，ユビキチンリガーゼListerinのリクルートが促進されることにより新生ポリペプチド鎖はユビキチン化される．ユビキチン化された新生ポリペプチド鎖は60Sサブユニットから解離し，プロテアソームにうけわたされ分解される<a href="#R3"><sup>3-6)</sup></a>．RQC経路は酵母をモデル生物として精力的な解析がつづいているが，ユビキチン化された新生ポリペプチド鎖を60Sサブユニットから解離するために必要な，新生ポリペプチド鎖をtRNAから切り離すしくみについては明らかにされていなかった．また，酵母においてRQC経路に必須なタンパク質として同定されたRqc1の哺乳動物におけるホモログであるTCF25の詳細な機能は不明であった．<br/><br/><h2>1．Ptrh1はユビキチン化されるまえの新生ポリペプチド鎖の解離を促進する</h2><br/>　哺乳動物におけるRQC経路について解析するため，ノンストップmRNAをウサギ網状赤血球抽出液にて翻訳させた．ウサギ網状赤血球抽出液にはユビキチン化に必要な因子が不足しているため<a href="#R4"><sup>4)</sup></a>，ユビキチン化されるまえの新生ポリペプチド鎖がtRNAとエステル結合した状態で蓄積したが，その一部はすでにtRNAから解離していた．このノンストップmRNAの翻訳にて起こる新生ポリペプチド鎖の解離の機構について明らかにするため，精製した60Sサブユニットと新生ポリペプチド鎖との複合体を基質として，60Sサブユニットから新生ポリペプチド鎖の解離を促進するタンパク質を精製したところ，ペプチジルtRNA加水分解酵素であるPtrh1が同定された．<br/>　Ptrh1は細菌のペプチジルtRNA加水分解酵素と同様に，新生ポリペプチド鎖とtRNAのエステル結合を加水分解することにより60Sサブユニットからの新生ポリペプチド鎖の解離を促進した．また，Ptrh1はノンストップmRNAから形成された80Sリボソームと新生ポリペプチド鎖との複合体からも新生ポリペプチド鎖の解離を促進した．この80Sリボソームに対するPtrh1の活性は，リボソームのA部位あるいはE部位に結合するリガンドにより阻害されなかった．また，この活性はPtrh1に固有なものではなく，細菌あるいはミトコンドリアに由来するペプチジルtRNA加水分解酵素も80Sリボソームからの新生ポリペプチド鎖の解離を促進した．それとは対照的に，ピューロマイシンはPtrh1の作用する80Sリボソームに対しほとんど効果がなかった．<br/>　ピューロマイシンが作用しなかったことから，Ptrh1の作用する80SリボソームにおいてtRNAの3’末端はペプチドの転移の活性中心におさまっていないことが示唆された．また，A部位あるいはE部位のリガンドに影響をうけず，そのほかのペプチジルtRNA加水分解酵素も同様に作用したことから，Ptrh1はリボソームの内部に入り込むことにより作用するわけではなく，Ptrh1が作用する部位に新生ポリペプチド鎖とtRNAのエステル結合が露出していることが示唆された．ノンストップmRNAをウサギ網状赤血球抽出液にて翻訳させることにより得られた80Sリボソームと新生ポリペプチド鎖との複合体の多くは，内在性のリボソーム解離因子により解離した40Sサブユニットと60Sサブユニットが再会合したものであることが報告されている<a href="#R4"><sup>4)</sup></a>．したがって，mRNAが失われたことにより，新生ポリペプチド鎖とエステル結合しているtRNAは80Sリボソームと不安定な状態で結合していると考えられた．以上の結果から，ユビキチン化されるまえの新生ポリペプチド鎖がPtrh1を介してリボソームから解離する経路の存在が示唆された．<br/><br/><h2>2．TCF25はLys48型ユビキチン鎖の選択的な形成に関与する</h2><br/>　ユビキチン化された新生ポリペプチド鎖の解離の機構について明らかにするため，RQC経路に関連するタンパク質を精製し，60Sサブユニットにおける新生ポリペプチド鎖のユビキチン化を<em>in vitro</em>において再構成した．その結果，以前の報告と同様に，新生ポリペプチド鎖はListerinによりユビキチン化され，NEMFによりユビキチン化が促進されることが確認された．野生型のユビキチンを含む反応系にTCF25をくわえると，新生ポリペプチド鎖のユビキチン化は強く抑制された．それに対し，リジン残基としてLys48のみをもつユビキチンを含む反応系においては，TCF25によるユビキチン化の抑制は観察されなかった．このことから，TCF25がLys48型ユビキチン鎖の形成を促進することにより，そのほかのタイプのユビキチン鎖の形成を抑制することが示唆された．<br/>　Listerinを含むRING型のユビキチンリガーゼにおいて，ユビキチン鎖の選択性はユビキチン結合酵素により担われる．Listerinとともにユビキチン鎖を形成する9種類の異なるユビキチン結合酵素を用いたところ，ListerinとUbe2Dファミリーのユビキチン結合酵素とを組み合わせたときに，TCF25はLys48型ユビキチン鎖の形成をもっとも効率的に促進した．一方，ユビキチンリガーゼとして<a href="#" class="anno Mdm2">Mdm2</a>とUbe2Dとを組み合わせたときにはその効果はみられなかったことから，Lys48型ユビキチン鎖の形成はListerinとUbe2Dのペアに特異的であることが示された．以上より，TCF25がRQC経路においてLys48型ユビキチン鎖の選択的な形成に関与することが明らかにされた．<br/><br/><h2>3．Ptrh1はユビキチン化された新生ポリペプチド鎖の解離を促進しない</h2><br/>　Ptrh1はユビキチン化された新生ポリペプチド鎖の解離も促進するのかどうかを明らかにするため，60Sサブユニットとユビキチン化された新生ポリペプチド鎖との複合体に対するPtrh1の効果について解析した．その結果，短いユビキチン鎖が結合した新生ポリペプチド鎖の解離は促進されたが，長いユビキチン鎖が結合した新生ポリペプチド鎖の解離は促進されなかった．対照的に，ユビキチン化ののちピューロマイシンにより処理した場合，ユビキチン鎖の長さにかかわらず新生ポリペプチド鎖は完全に解離した．このピューロマイシンに対する反応性は，新生ポリペプチド鎖がユビキチン化されたのちに精製した60Sサブユニットと新生ポリペプチド鎖との複合体，および，NEMFが結合した60Sサブユニットとユビキチン化されていない新生ポリペプチド鎖との複合体においても観察された．このことから，NEMFが60Sサブユニットと新生ポリペプチド鎖との複合体と結合するか，あるいは，新生ポリペプチド鎖がユビキチン化されると，tRNAがリボソームのP部位に固定されることが強く示唆された．これにより，tRNAの3’末端がペプチドの転移の活性中心におさまり，ピューロマイシンに対し反応性になると同時に，Ptrh1は作用しなくなると考えられた．以上の結果から，Ptrh1はRQC経路に部分的に作用するが，ユビキチン化された新生ポリペプチド鎖の解離は，別のタンパク質によりおもに促進されることが示された．<br/><br/><h2>4．ANKZF1はユビキチン化された新生ポリペプチド鎖の解離を促進する</h2><br/>　最近，出芽酵母の<a href="#" class="anno Vms1">Vms1</a>およびそのヒトのホモログであるANKZF1が60Sサブユニットから新生ポリペプチド鎖を解離させると報告され<a href="#R7"><sup>7,8)</sup></a>，Vms1およびANKZF1に保存されたミトコンドリア標的ドメインの構造が真核生物の翻訳終結因子<a href="#" class="anno eRF1">eRF1</a>の触媒活性部位と似ていたこと，また，その活性は保存された触媒性のグルタミン残基に依存していたことから，これらがeRF1様のペプチジルtRNA加水分解酵素である可能性が示された．しかしながら，Vms1およびANKZF1には進化において翻訳終結因子に完全に保存され，その活性に必須であるGGQモチーフをもたないことから，この主張には疑問の余地が残されていた．<br/>　そこで，ANKZF1を精製し60Sサブユニットとユビキチン化された新生ポリペプチド鎖との複合体における機能について解析した．その結果，ANKZF1は60Sサブユニットからユビキチン化された新生ポリペプチド鎖を解離し，プロテアソームによる分解を促進することが示された．ANKZF1はtRNAをアクセプターステムにて切断し，新生ポリペプチド鎖はtRNAの3’側の断片4ヌクレオチドが結合した状態で解離していた．このtRNAの切断は，NEMFが60Sサブユニットと新生ポリペプチド鎖との複合体と結合するか，あるいは，新生ポリペプチド鎖がユビキチン化されることにより起こり，80Sリボソームと新生ポリペプチド鎖との複合体や遊離のペプチジルtRNAにおいては起こらなかった．以上の結果はピューロマイシンの反応性と一致し，リボソームのP部位へのtRNAの固定がANKZF1によるtRNAの切断の前提になることが示された．<br/><br/><h2>おわりに</h2><br/>　この研究において，Ptrh1およびANKZF1は停滞したリボソームからそれぞれ異なる分子機構により新生ポリペプチド鎖を解離させることが明らかにされた（<a href="#F1">図1</a>）．Ptrh1によるユビキチン化されるまえの新生ポリペプチド鎖の解離はRQC経路と拮抗すると考えられた．したがって，Ptrh1の生理学的な機能について今後の研究が期待される．一方，ANKZF1の作用機構は，原核生物における翻訳の停滞を解消する機構<a href="#R9"><sup>9)</sup></a> とも決定的に異なっていた．ある種の細菌が特定のtRNAをアクセプターステムにて切断する酵素をもつことが報告されているが<a href="#R10"><sup>10)</sup></a>，それが翻訳の途上にて停滞したリボソームに関与することを示す報告はない．したがって，この研究において明らかにされた分子機構は新たなパラダイムを提供するであろう．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Ptrh1およびANKZF1による新生ポリペプチド鎖の解離の促進</strong><br/>新生ポリペプチド鎖がユビキチン化されるまえには，tRNAは新生ポリペプチド鎖を介して60Sサブユニットあるいは80Sリボソームと不安定に結合している．Ptrh1は新生ポリペプチド鎖とtRNAのエステル結合を加水分解することにより新生ポリペプチド鎖の解離を促進する．新生ポリペプチド鎖がユビキチン化されたのち，tRNAはリボソームのP部位に固定される．ANKZF1はtRNAをアクセプターステムにて特異的に切断することにより新生ポリペプチド鎖の解離を促進する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kuroha-Molecular-Cell-18.9.20-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Ptrh1およびANKZF1による新生ポリペプチド鎖の解離の促進" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kuroha-Molecular-Cell-18.9.20-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kuroha-Molecular-Cell-18.9.20-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　ANKZF1のもつミトコンドリア標的ドメインの構造は，eRF1の触媒活性部位のRNaseHフォールドと類似すると報告されている<a href="#R7"><sup>7,8)</sup></a>．RNaseH様のタンパク質ファミリーの多くはその活性部位が4つの酸性アミノ酸残基から構成されているが，それらはANKZF1にはみられない．また，ANKZF1の触媒部位はeRF1の触媒部位より大きいと予想される．今後，クライオ電子顕微鏡によりANKZF1の結合した60Sサブユニットと新生ポリペプチド鎖との複合体の構造を明らかにすることにより，ANKZF1による新生ポリペプチド鎖の解離の機構が詳細に明らかにされるであろう．<br/>　また，TCF25がLys48型ユビキチン鎖の選択的な形成にかかわることも明らかにされた．TCF25がユビキチン鎖の特異性に直接にかかわると考えた場合，基質に結合したユビキチンのLys48をユビキチン結合酵素の触媒活性部位に方向づける必要があるはずであるが，TCF25がユビキチンあるいはユビキチン結合酵素と結合することを示す報告はない．さらに，TCF25は酵母において60Sサブユニットと新生ポリペプチド鎖との複合体に直接に結合するタンパク質として同定されてきた経緯があるが，その結合部位は不明である．今後は，これらを構造的あるいは生化学的な解析により明らかにする必要があるだろう．ユビキチン鎖の選択的な形成の機構は，ユビキチン-プロテアソーム系の研究の長い歴史においてもいまだ謎の多い部分である．したがって，TCF25の機能に関する研究は広く適用される知見をもたらすと予想される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Balchin, D., Hayer-Hartl, M. & Hartl, F. U.</span>: <span class="ti">In vivo aspects of protein folding and quality control.</span> <span class='so'>Science, 353, aac4354 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27365453" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Inada, T.</span>: <span class="ti">The ribosome as a platform for mRNA and nascent polypeptide quality control.</span> <span class='so'>Trends Biochem. Sci., 42, 5-15 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27746049" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Pisarev, V. P., Skabkin, M. A., Hellen, C. U. et al.</span>: <span class="ti">Dissociation by Pelota, Hbs1 and ABCE1 of mammalian vacant 80S ribosomes and stalled elongation complexes.</span> <span class='so'>EMBO J., 30, 1804-1817 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21448132" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Shao, S., von der Malsburg, K. & Hegde, R. S.</span>: <span class="ti">Listerin-dependent nascent protein ubiquitination relies on ribosome subunit dissociation.</span> <span class='so'>Mol. Cell, 50, 637-648 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23685075" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Shao, S., Brown, A., Santhanam, B. et al.</span>: <span class="ti">Structure and assembly pathway of the ribosome quality control complex.</span> <span class='so'>Mol. Cell, 57, 433-444 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25578875" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Brandman, O. & Hegde, R. S.</span>: <span class="ti">Ribosome-associated protein quality control.</span> <span class='so'>Nat. Struct. Mol. Biol., 23, 7-15 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26733220" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Verma, R., Reichermeier, K. M., Burroughs, A. M. et al.</span>: <span class="ti">Vms1 and ANKZF1 peptidyl-tRNA hydrolases release nascent chains from stalled ribosomes.</span> <span class='so'>Nature, 557, 446-451 (2018)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/29632312" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Zurita Rendon, O., Fredrickson, E. K., Howard, C. J. et al.</span>: <span class="ti">Vms1p is a release factor for the ribosome-associated quality control complex.</span> <span class='so'>Nat. Commun., 9, 2197 (2018)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/29875445" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Huter, P., Muller, C., Arenz, S. et al.</span>: <span class="ti">Structural basis for ribosome rescue in bacteria.</span> <span class='so'>Trends Biochem. Sci., 42, 669-680 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28629612" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Morse, R. P., Nikolakakis, K. C., Willett, J. L. et al.</span>: <span class="ti">Structural basis of toxicity and immunity in contact-dependent growth inhibition (CDI) systems.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 109, 21480-21485 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23236156" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=PDB" target="_blank">PDB</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=塩基配列" target="_blank">塩基配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=オーソログ" target="_blank">オーソログ解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アミノ酸" target="_blank">アミノ酸配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=構造解析" target="_blank">構造解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=抗体" target="_blank">抗体解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アラインメント" target="_blank">アラインメント</a></li><br></ul><br><div class="au-profile"><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_02.html" target="_blank">9.2 Ribosomes</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_07.html" target="_blank">12.7 Proteasomes and Ubiquitination</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_04.html" target="_blank">9.4 Protein Synthesis</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_05.html" target="_blank">9.5 Cooperation between Transcription and Translation</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_03.html" target="_blank">9.3 mRNA Structure</a></li><br></ul><br><h2>著者プロフィール</h2><br><span class="author">黒羽 一誠（Kazushige Kuroha）</span><br>略歴：2010年 名古屋大学大学院理学研究科 修了，同年 東北大学大学院薬学研究科 研究員を経て，2013年より米国SUNY Downstate Medical Center研究員．<br>研究テーマ：翻訳の停滞によりひき起こされる品質管理の機構．<br>関心事：子供の成長とアメリカンIPA．<br><br><strong>Tatyana V. Pestova</strong><br>米国SUNY Downstate Medical CenterにてAssistant professor．<br>研究室URL：<a href="http://www.downstate.edu/cellbiology/faculty/pestova.html" target="_blank">http://www.downstate.edu/cellbiology/faculty/pestova.html</a><br></div><br>© 2018 黒羽一誠・Tatyana V. Pestova Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+<!-- Hovercardに表示するDB選択 -->
+<div style="display: none;">
+    <form>
+        <input type="checkbox" class="selected_db" name="targetdb" value="refex" checked>refex
+        <input type="checkbox" class="selected_db" name="targetdb" value="ggrna" checked>ggrna
+        <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+    </form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+        $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        var req_type = v["request_type"];
+                        // dataをconfigの様式にしたがってパースして返す
+                        var pages = parser[req_type](d);
+
+                        if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        // hs-gigure-captionのhtmlをmodalに表示する
+        // hs-figure-captionには[Download]以外表示しない
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

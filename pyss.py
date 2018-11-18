@@ -18,7 +18,7 @@ import subprocess
 from feedgenerator import Rss201rev2Feed as Feed
 from bs4 import BeautifulSoup
 from ahocorapy.keywordtree import KeywordTree
-import markup_kw
+import html_annotation
 
 __version__ = "0.3.0"
 config_yaml = "./conf/config.yaml"
@@ -150,7 +150,7 @@ class GetDiffs:
 
 class RenderPage:
     def __init__(self):
-        # アノテーションする単語のリストを取得
+        # アノテーションするFA_ID&単語のセットのリストを取得
         self.keywords = get_keywords(conf)
 
     def render(self, contents, template, name, path, img_p):
@@ -179,8 +179,7 @@ class RenderPage:
                 # Annotationしない場合はコンテンツ全体を取得
                 #txt = entry["Post_Content"]
 
-                # Figureのcaptionを取得
-                # リストcapsの長さがfigの数
+                # リストcapsの長さがfigの数としてFigureのcaptionを取得
                 caps = [entry.get("Fig{}_caption".format(i)) for i in range(1, 4) if entry.get("Fig{}_caption".format(i), None) is not ""]
 
                 # 画像のキャプションを一時的に<tmp>タグに置き換える
@@ -196,9 +195,17 @@ class RenderPage:
                 txt = str(soup)
 
                 # Hover card用のannotation追加
-                txt = markup_kw.add_annotation(self.keywords, txt)
+                # keywordsはFA_IDと一致するセットだけフィルターして渡す
+                keyword_work = [x[1] for x in self.keywords if str(x[0]) == str(entry["FA_URL"].split("/")[-1])]
+                print(keyword_work)
+
+
+                '''
                 
-                # 一時置換したタグをcaptionsから復元する
+                # htmlにアノテーションのためのタグを付加
+                txt = html_annotation.add_annotation(keyword_work, txt)
+                
+                # 一時置換したタグをリストcaptionsから復元する
                 for i in range(len(caps)):
                     idx = i + 1
                     txt = re.sub("tmp_fig{}".format(idx), str(captions[i]), txt)
@@ -219,6 +226,7 @@ class RenderPage:
                 tmpl = env.get_template(template)
                 htm = tmpl.render(item=entry)
                 write_static_file(entry, htm)
+                '''
 
 
 class GetPicTagMember:
@@ -338,9 +346,9 @@ def get_keywords(cf):
 # タグ付けする単語リストを返す
 def word_filter(lst):
     col_terms = conf["annotation"]["terms"]
+    col_id = conf["annotation"]["page_id"]
     dictionary = conf["annotation"]["dictionary"]
-      # 現バーションはdictionary==geneのみ利用する
-    lst = [x[col_terms] for x in lst if x[dictionary] == "Gene" and x["削除フラグ"] != 1 and x["一般語フラグ"] != 1]
+    lst = [(x[col_id], x[col_terms]) for x in lst]
 
     # 優先度を決めソート<<ソートは下流の行程で行うのでとりここでは行わない
     # feature: multiword, unknown , dictionary: MeSH, Gene, 文字数でsortする
