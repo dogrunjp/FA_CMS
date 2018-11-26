@@ -197,10 +197,6 @@ class RenderPage:
                 # Hover card用のannotation追加
                 # keywordsはFA_IDと一致するセットだけフィルターして渡す
                 keyword_work = [x[1] for x in self.keywords if str(x[0]) == str(entry["FA_URL"].split("/")[-1])]
-                print(keyword_work)
-
-
-                '''
                 
                 # htmlにアノテーションのためのタグを付加
                 txt = html_annotation.add_annotation(keyword_work, txt)
@@ -226,7 +222,6 @@ class RenderPage:
                 tmpl = env.get_template(template)
                 htm = tmpl.render(item=entry)
                 write_static_file(entry, htm)
-                '''
 
 
 class GetPicTagMember:

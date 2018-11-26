@@ -168,8 +168,8 @@
 
     var tags;
 
-    var urlParams = new URLSearchParams(window.location.search);
-    var s = urlParams.get('val');
+    //var urlParams = new URLSearchParams(window.location.search);
+    var s = decodeURI(location.search.substring(5));
     if (s == "") {
         location.href = "./"
     }

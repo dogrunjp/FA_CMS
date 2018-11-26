@@ -3,7 +3,7 @@
 <h2 class="widgettitle">ジャーナル別</h2>
  <ul class="drawer-menu local-menu">
   
-  <li><a href="./journal.htm?val=Nature">Nature  (190)</a></li>
+  <li><a href="./journal.htm?val=Nature">Nature  (191)</a></li>
    
   <li><a href="./journal.htm?val=Science">Science  (164)</a></li>
    
@@ -21,9 +21,9 @@
    
   <li><a href="./journal.htm?val=Nature Immunology">Nature Immunology  (45)</a></li>
    
-  <li><a href="./journal.htm?val=Cell Stem Cell">Cell Stem Cell  (43)</a></li>
-   
   <li><a href="./journal.htm?val=Nature Structural & Molecular Biology">Nature Structural & Molecular Biology  (43)</a></li>
+   
+  <li><a href="./journal.htm?val=Cell Stem Cell">Cell Stem Cell  (43)</a></li>
    
   <li><a href="./journal.htm?val=Nature Neuroscience">Nature Neuroscience  (42)</a></li>
    
@@ -31,9 +31,9 @@
    
   <li><a href="./journal.htm?val=Nature Medicine">Nature Medicine  (37)</a></li>
    
-  <li><a href="./journal.htm?val=Nature Genetics">Nature Genetics  (36)</a></li>
-   
   <li><a href="./journal.htm?val=Nature Chemical Biology">Nature Chemical Biology  (36)</a></li>
+   
+  <li><a href="./journal.htm?val=Nature Genetics">Nature Genetics  (36)</a></li>
    
   <li><a href="./journal.htm?val=Cancer Cell">Cancer Cell  (24)</a></li>
    
@@ -43,7 +43,7 @@
    
   <li><a href="./journal.htm?val=Nature Methods">Nature Methods  (9)</a></li>
    
-  <li><a href="./journal.htm?val=Nature Plants">Nature Plants  (7)</a></li>
+  <li><a href="./journal.htm?val=Nature Plants">Nature Plants  (8)</a></li>
    
   <li><a href="./journal.htm?val=Nature Biotechnology">Nature Biotechnology  (5)</a></li>
    

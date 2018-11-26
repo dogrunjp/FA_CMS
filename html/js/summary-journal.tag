@@ -23,7 +23,7 @@
     </div>
     <script>
         var self = this;
-        var v = opts.search;
+        var v = encodeURIComponent(opts.search);
 
         $.getJSON('https://script.google.com/macros/s/AKfycbxRUrpftHbs62tP7PFas6Kvd6quoNw_CazWSlTOAOV76fW8f05Z/exec?fa=true&j='+ v,
             function(data){
