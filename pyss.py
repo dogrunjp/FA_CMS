@@ -18,7 +18,7 @@ import subprocess
 from feedgenerator import Rss201rev2Feed as Feed
 from bs4 import BeautifulSoup
 from ahocorapy.keywordtree import KeywordTree
-import html_annotation
+import add_annotation
 
 __version__ = "0.3.0"
 config_yaml = "./conf/config.yaml"
@@ -199,7 +199,7 @@ class RenderPage:
                 keyword_work = [x[1] for x in self.keywords if str(x[0]) == str(entry["FA_URL"].split("/")[-1])]
                 
                 # htmlにアノテーションのためのタグを付加
-                txt = html_annotation.add_annotation(keyword_work, txt)
+                txt = add_annotation.add_annotation(keyword_work, txt)
                 
                 # 一時置換したタグをリストcaptionsから復元する
                 for i in range(len(caps)):

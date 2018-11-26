@@ -3,7 +3,7 @@
 <h2 class="widgettitle">公開年別</h2>
  <ul class="drawer-menu local-menu">
   
-  <li><a href="./date.htm?val=2018">2018  (113)</a></li>
+  <li><a href="./date.htm?val=2018">2018  (114)</a></li>
    
   <li><a href="./date.htm?val=2017">2017  (144)</a></li>
    

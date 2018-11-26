@@ -13,7 +13,7 @@
    
   <li><a href="./journal.htm?val=Neuron">Neuron  (100)</a></li>
    
-  <li><a href="./journal.htm?val=Immunity">Immunity  (73)</a></li>
+  <li><a href="./journal.htm?val=Immunity">Immunity  (74)</a></li>
    
   <li><a href="./journal.htm?val=Developmental Cell">Developmental Cell  (67)</a></li>
    
@@ -31,9 +31,9 @@
    
   <li><a href="./journal.htm?val=Nature Medicine">Nature Medicine  (37)</a></li>
    
-  <li><a href="./journal.htm?val=Nature Chemical Biology">Nature Chemical Biology  (36)</a></li>
-   
   <li><a href="./journal.htm?val=Nature Genetics">Nature Genetics  (36)</a></li>
+   
+  <li><a href="./journal.htm?val=Nature Chemical Biology">Nature Chemical Biology  (36)</a></li>
    
   <li><a href="./journal.htm?val=Cancer Cell">Cancer Cell  (24)</a></li>
    
