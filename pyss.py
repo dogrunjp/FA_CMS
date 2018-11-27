@@ -74,7 +74,6 @@ class Update:
         new_contents = [x for x in contents if x[wks_id] in filter(lambda s:s != "", diffs)]
         return new_contents
 
-
 class UpdateItemList:
     def get_list(self, wks_num, required):
         records = self.contentAsJson(conf["spreadsheet"], wks_num)
@@ -124,7 +123,7 @@ class GetDiffs:
     def update(self, current_list, wks_id, static_file):
         previous_list = []
         try:
-            with open(conf["static_list_path"]+ "/" + static_file, "r") as f:
+            with open(conf["static_list_path"]+ "/" + static_file, "r", encoding='utf-8') as f:
                 jsondata = json.load(f)
             previous_list = []  # 前回までに登録したitemのidリストを、前回の更新時保存済みのコンテンツJSONファイルより追加
 
@@ -491,7 +490,7 @@ def render_menu_list(item, template):
 
 
 def update_controller():
-    f = open(config_yaml, 'r')
+    f = open(config_yaml, 'r', encoding='utf-8')
     global conf
     conf = yaml.load(f)
     f.close()

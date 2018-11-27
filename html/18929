@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 免疫チェックポイント分子LAG-3はMHCクラスII分子を構造に依存的に認識することによりヘルパーT細胞の応答を選択的に抑制する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+    <link rel="https://api.w.org/" href="http://first.lifesciencedb.jp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://first.lifesciencedb.jp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://first.lifesciencedb.jp/wp-includes/wlwmanifest.xml">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="http://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="http://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <a href="./index.htm">
+            <h1>ライフサイエンス 新着論文レビュー</h1>
+            <h3>First author's</h3>
+        </a>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/archives/18929" rel="bookmark">免疫チェックポイント分子LAG-3はMHCクラスII分子を構造に依存的に認識することによりヘルパーT細胞の応答を選択的に抑制する</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>丸橋拓海・岡崎 拓</strong><br>（徳島大学先端酵素学研究所 免疫制御学分野）<br>email：<a href="mailto:t-maru@genome.tokushima-u.ac.jp">丸橋拓海</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2018.116">10.7875/first.author.2018.116</a><br><div class="reference"><br><span class="ti">LAG-3 inhibits the activation of CD4<sup>+</sup> T cells that recognize stable pMHCII through its conformation-dependent recognition of pMHCII.</span><br><span class="au">Takumi Maruhashi, Il-mi Okazaki, Daisuke Sugiura, Suzuka Takahashi, Takeo K. Maeda, Kenji Shimizu, Taku Okazaki</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/30349037" target="_blank"><em>Nature Immunology</em>, <strong>19</strong>, 1415-1426 (2018)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　正または負のシグナルを伝達する免疫補助受容体によるT細胞の活性化の厳密な制御は，免疫系の恒常性の維持において非常に重要な役割をはたす．近年，免疫チェックポイント分子であるPD-1やCTLA-4に対する阻害抗体が複数のがんにおいて治療の効果を示したことから，がん免疫療法が大きな注目をあつめている．LAG-3はPD-1およびCTLA-4につぐ免疫チェックポイント分子として注目されており，さまざまな疾患に対する治療の標的として世界中で研究が進められているが，LAG-3が免疫を抑制する機構についてはほとんどわかっていなかった．この研究において，筆者らは，LAG-3が安定な構造をもつペプチド-MHCクラスII分子複合体を選択的に認識することを見い出した．これにより，LAG-3がMHCクラスII分子と安定な複合体を形成するペプチドに応答するヘルパーT細胞の活性化を選択的に抑制することが明らかにされた．<br/><br/><h2>はじめに</h2><br/>　免疫系の司令塔であるT細胞の活性化は，T細胞受容体を介した抗原による刺激にくわえ，正または負のシグナルを伝達する免疫補助受容体により厳密に制御される．このバランスが破綻すると，病原体を排除できなくなる免疫不全症や，T細胞が自己の正常な組織を攻撃する自己免疫疾患などの重篤な疾患につながる．一方で，抑制性の免疫補助受容体であるPD-1あるいはCTLA-4を阻害するがん免疫療法，いわゆる，免疫チェックポイント阻害療法が複数のがん種に対し劇的な治療の効果を示したことから<a href="#R1"><sup>1,2)</sup></a>，一部のがん細胞が免疫チェックポイント分子を利用することによりT細胞の活性化を抑制し免疫系による攻撃を回避することが明らかにされ，がん免疫療法が大きな注目をあつめている．そのため，そのほかの免疫補助受容体，とくにLAG-3はPD-1およびCTLA-4につぐ免疫チェックポイント分子として，免疫療法による治療の標的として世界中で研究が進められている．<br/>　LAG-3は，1990年，ヘルパーT細胞の免疫補助受容体であるCD4に類縁のタンパク質として同定された<a href="#R3"><sup>3)</sup></a>．これまでに，筆者らを含むいくつかの研究グループにより，LAG-3は活性化したT細胞の表面に発現すること，T細胞の活性化を抑制することにより自己免疫疾患の発症をふせぐこと，がん免疫を抑制すること，などが報告されている<a href="#R4"><sup>4,5)</sup></a>．しかし，LAG-3が実際にどのような免疫応答をどのように抑制するかについては，依然として不明な点が多かった．また，LAG-3はCD4より高い親和性でMHCクラスII分子と結合し，CD4とMHCクラスII分子との結合を競合的に阻害することによりT細胞の活性化を抑制すると考えられていたが<a href="#R6"><sup>6)</sup></a>，その実験的な根拠はとぼしく，矛盾する実験結果も報告されていたことから，MHCクラスII分子がLAG-3のリガンドであることについては懐疑的な研究者が多かった．そこで，筆者らは，LAG-3の真のリガンドの探索および免疫を抑制する機構の解明を試みた．<br/><br/><h2>1．LAG-3はCIITAにより発現が誘導されたMHCクラスII分子と結合することにより抑制能を発揮する</h2><br/>　LAG-3が本当にMHCクラスII分子と結合するのかどうかを検証するため，LAG-3の細胞外領域を多量体化させた可溶性のタンパク質を用い，マウス初代培養細胞との結合について解析したところ，十分量のMHCクラスII分子が発現しているにもかかわらずLAG-3との結合がいちじるしく弱い，あるいは，認められない細胞が見い出された．また，MHCクラスII分子をさまざまな細胞株に強制発現させてLAG-3の細胞外領域との結合について検討したところ，LAG-3と結合する細胞株および結合しない細胞株が存在した．これらMHCクラスII分子を強制発現させた細胞株を抗原ペプチドの存在下においてT細胞と共培養したところ，すべての細胞株が抗原に特異的なT細胞の活性化をひき起こしたことから，強制発現させたMHCクラスII分子は機能的であることが確認された．しかし，LAG-3が結合する細胞株を用いた場合にはLAG-3によるT細胞の活性化の抑制が認められ，LAG-3が結合しない細胞株を用いた場合にはLAG-3によるT細胞の活性化の抑制は認められなかった．すなわち，MHCクラスII分子のほかにLAG-3と結合しT細胞の活性化の抑制をひき起こすリガンドが存在する可能性が示唆された．<br/>　そこで，真のLAG-3リガンドを同定するため，LAG-3と結合する細胞株から作製したcDNAライブラリーを用いて，LAG-3の細胞外領域との結合を指標にした機能発現クローニングを実施した．その結果，LAG-3のリガンドの発現に重要な遺伝子として<em>Ciita</em>遺伝子が同定された．CIITAはMHCクラスII分子の発現をつかさどる主要な制御タンパク質である．CIITAを発現させることにより内在性のMHCクラスII分子の発現が誘導され，この細胞株にLAG-3は強く結合した．また，CIITAを発現した細胞株を抗原提示細胞として用いた場合にはT細胞の活性化がLAG-3により抑制された．さらに，CIITAを発現した細胞株においてMHCクラスII分子を欠失させることによりLAG-3の結合は完全に消失した．これらの結果から，LAG-3はMHCクラスII分子と結合するものの，MHCクラスII分子がリガンドとなるためにはCIITAの発現が必要であることが明らかにされた．<br/><br/><h2>2．LAG-3は安定な構造をもつペプチド-MHCクラスII分子複合体を選択的に認識する</h2><br/>　CIITAはMHCクラスII分子の発現のほか，MHCクラスII分子の分子シャペロンであるCD74やMHCクラスII分子に提示されるペプチドを選択するH2-DMなど，MHCクラスII分子の構造的な安定性の管理に重要なアクセサリータンパク質の発現も制御する．CD74およびH2-DMを欠損させた細胞株へのLAG-3の細胞外領域の結合がいちじるしく減弱したことから，LAG-3は安定な構造をもつMHCクラスII分子と選択的に結合することが示唆された．MHCクラスII分子の構造は提示されるペプチドとの親和性に大きく影響されることが知られており，実際に，MHCクラスII分子と親和性の高いペプチドとの安定な複合体とはLAG-3は強く結合したが，ペプチドにアミノ酸変異を導入することにより親和性を低下させると結合はいちじるしく減弱した．以上のことから，LAG-3はペプチド-MHCクラスII分子複合体の構造をみわけ，安定なペプチド-MHCクラスII分子複合体のみと選択的に結合することが明らかにされた（<a href="#F1">図1a</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　LAG-3がペプチドおよび抗原提示細胞に特異的にT細胞の応答を抑制するモデル</strong><br/>（a）LAG-3は安定な構造をもつペプチド-MHCクラスII分子複合体を選択的に認識することにより，そのペプチド-MHCクラスII分子複合体に応答性のヘルパーT細胞の活性化を強く抑制する．<br/>（b）抗原提示細胞が安定な構造をもつ十分量のペプチド-MHCクラスII分子複合体を発現する場合には，LAG-3はそのペプチド-MHCクラスII分子複合体に非拘束性のT細胞の応答を抑制しうるが，その程度は弱い．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okazaki-Nature-Immunology-18.10.22-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　LAG-3がペプチドおよび抗原提示細胞に特異的にT細胞の応答を抑制するモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okazaki-Nature-Immunology-18.10.22-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okazaki-Nature-Immunology-18.10.22-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．LAG-3による免疫応答の抑制の程度はペプチドの特性により決まる</h2><br/>　MHCクラスII分子への親和性が異なるいくつかのペプチドを用いて，おのおののペプチドに特異的なヘルパーT細胞の応答に対するLAG-3の抑制能について検討した．その結果，MHCクラスII分子への親和性がきわめて高いペプチドはCIITAを発現していない抗原提示細胞を用いた場合にもLAG-3による抑制をひき起こした．MHCクラスII分子への親和性を低下させたペプチドではLAG-3による抑制が大幅に減弱したことから，MHCクラスII分子に対し高い親和性をもつペプチドはアクセサリータンパク質の助けがなくともMHCクラスII分子と安定な複合体を形成することが示唆された．以上のことから，LAG-3の抑制能はペプチドの特性に依存的に変化することが明らかにされた．<br/>　LAG-3の細胞外領域との結合実験の結果と一致して，ドミナントなペプチドとMHCクラスII分子複合体の四量体がLAG-3を発現した細胞とLAG-3に依存的に結合することが確認された．このとき，抗原に特異的なT細胞受容体を共発現させるとその結合の強度が飛躍的に亢進したことから，LAG-3による抑制能はヘルパーT細胞においてLAG-3およびT細胞受容体が同じペプチド-MHCクラスII分子複合体を認識する際にもっとも強く発揮されること，すなわち，LAG-3が抗原に特異的なヘルパーT細胞の応答をペプチド-MHCクラスII分子複合体の構造に依存的に抑制することが示唆された．<br/>　安定な構造をもつペプチド-MHCクラスII分子複合体がLAG-3を介し抗原に非特異的なT細胞を抑制しうるかどうかを検討した．抗原提示細胞に不安定あるいは安定な構造をもつペプチド-MHCクラスII分子複合体を共発現させ，不安定なペプチド-MHCクラスII分子複合体に特異的なT細胞を刺激したところ，LAG-3による活性化の抑制が認められた．しかし，この抑制は安定な構造をもつペプチド-MHCクラスII分子複合体に特異的なT細胞の応答に対する抑制に比べいちじるしく弱かった．CIITAおよび安定なペプチド-MHCクラスII分子複合体を発現する抗原提示細胞を用いてMHCクラスI分子に拘束性のCD8陽性T細胞株を刺激した際にも，同様にLAG-3による弱い抑制が認められた．以上の結果から，LAG-3は抗原提示細胞の特性により抑制能を発揮しうるが，抑制の対象となるヘルパーT細胞が認識するペプチドの特性による影響のほうが大きいことが明らかにされた（<a href="#F1">図1b</a>）．<br/><br/><h2>4．LAG-3は自己抗原に特異的なヘルパーT細胞を抑制することによりNODマウスにおける1型糖尿病の発症をふせぐ</h2><br/>　NODマウスが自然発症する1型糖尿病の標的となる自己抗原のひとつとして，インスリンB鎖の9～23番目のアミノ酸残基から構成されるペプチドが同定されている．そのなかでも，13～21番目までの9アミノ酸残基を介してMHCクラスII分子と複合体を形成した場合には安定な構造，12～20番目までのアミノ酸残基を介した場合には不安定な構造のペプチド-MHCクラスII分子複合体になることが報告されている<a href="#R7"><sup>7)</sup></a>．これら2つのペプチドを用いたところ，これまでの実験結果から予想されたとおり，LAG-3は安定な構造のペプチド-MHCクラスII分子複合体を強制発現させた細胞には結合し，不安定な構造のペプチド-MHCクラスII分子複合体を強制発現させた細胞には結合しなかった．一般に，T細胞を産生する器官である胸腺において，自己抗原はCIITAに依存的に安定な構造をとるペプチド-MHCクラスII分子複合体として提示されており，これを認識する自己反応性のT細胞は負の選択により除去されると考えられている．すなわち，安定な構造をとる自己ペプチド-MHCクラスII分子複合体に応答するヘルパーT細胞は，本来は体内に存在しないとされている．実際に，おのおののペプチドに対する応答性を解析したところ，安定な構造をとるペプチド-MHCクラスII分子複合体に対するヘルパーT細胞の応答は，不安定な構造をとるペプチド-MHCクラスII分子複合体に対する応答に比べ弱いことが確認された．しかしながら，NODマウスにLAG-3の阻害抗体を投与した場合には，安定な構造をとるペプチド-MHCクラスII分子複合体に対するヘルパーT細胞の応答が亢進し，一方で，不安定な構造をとるペプチド-MHCクラスII分子複合体に対する応答は変化しなかった．NODマウスが自然発症する1型糖尿病はLAG-3の欠損により増悪するが<a href="#R4"><sup>4)</sup></a>，安定な構造をとるペプチド-MHCクラスII分子複合体に対するヘルパーT細胞の応答が亢進したためではないかと考えられた．以上の結果から，負の選択は不完全であり，一定数の自己反応性のヘルパーT細胞が負の選択をのがれて胸腺の外にもれており，これらをLAG-3が抑制することにより自己免疫疾患の発症をふせいでいることが示唆された．<br/><br/><h2>5．LAG-3は細胞内領域を介して抑制性のシグナルを伝達することによりヘルパーT細胞の応答を抑制する</h2><br/>　LAG-3はCD4よりも高い親和性でMHCクラスII分子と結合し，CD4とMHCクラスII分子との結合を競合的に阻害することによりT細胞の活性化を抑制すると考えられていた<a href="#R6"><sup>6)</sup></a>．ところが，CD4の細胞外領域を多量体化させた可溶性のタンパク質およびLAG-3の細胞外領域が，安定なペプチド-MHCクラスII分子複合体を発現する細胞に同時に結合したこと，さらに，LAG-3との結合はのちのCD4との結合を阻害しなかったことから，LAG-3はCD4の競合阻害とは異なる機構によりヘルパーT細胞の応答を抑制することが示唆された．さきに述べたように，ペプチド-MHCクラスII分子複合体の四量体が抗原に特異的なT細胞受容体およびLAG-3を共発現する細胞により強く結合したことから，LAG-3がT細胞受容体とMHCクラスII分子との結合を競合阻害する可能性についても否定された．LAG-3の細胞内領域には種のあいだで保存されているアミノ酸配列が存在するものの，既知のシグナル伝達モチーフはない．しかしながら，細胞内領域を欠失させたLAG-3は抑制能を完全に消失したことから，LAG-3は細胞内領域を介して未知の抑制性シグナルを伝達することにより抑制能を発揮することが明らかにされた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　LAG-3がヘルパーT細胞の活性化を抑制する機構のモデル</strong><br/>LAG-3はペプチド-MHCクラスII分子複合体とCD4あるいはT細胞受容体との結合を競合的に阻害しない．LAG-3は安定な構造をもつペプチド-MHCクラスII分子複合体を認識した際に，細胞内領域を介して抑制性のシグナルを伝達しヘルパーT細胞の活性化を抑制する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okazaki-Nature-Immunology-18.10.22-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　LAG-3がヘルパーT細胞の活性化を抑制する機構のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okazaki-Nature-Immunology-18.10.22-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okazaki-Nature-Immunology-18.10.22-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究において，ほかの免疫チェックポイント分子とは異なり，LAG-3が非常に特徴的な機構により免疫を抑制することが明らかにされた．LAG-3が構造に依存的にペプチド-MHCクラスII分子複合体と結合することにより抑制の対象とするヘルパーT細胞の応答を選別することは，多様性をもたない単一の分子であるLAG-3が免疫系の多様性を制御しうるという点で興味深く，MHCクラスII分子の構造の多様性の生物学的な意義を示したものであるといえる．<br/>　この研究は，1型糖尿病を含む自己免疫疾患の発症の機構の理解および治療法の開発に大きく貢献することが期待されるとともに，既存の免疫チェックポイント阻害剤とは異なる視点からの新規のがん免疫療法の開発につながると考えられる．現在，自己免疫疾患，感染症，がんの治療を目的としたペプチドワクチン療法の研究が進められている．免疫抑制剤とは異なり，ペプチドワクチンは抗原に特異的な免疫応答のみを制御することが可能なため，副作用の少ない治療法として期待されている．ワクチンとして使用されるペプチド配列は，MHC分子の構造をもとにしたアルゴリズムを用いてMHC分子との結合能を予測し決定されることが多い．このとき，MHC分子と強い親和性をもつ，つまりは，MHC分子と安定な複合体を形成するペプチドが優先的に選ばれるが，これらのペプチドによりひき起されるヘルパーT細胞の応答はLAG-3による抑制の対象になる可能性が高い．この研究は，今後のペプチドワクチンを用いた治療の戦略を大いに発展させる可能性がある．<br/>　今後は，LAG-3がどのようにしてペプチド-MHCクラスII分子複合体の構造的な違いをみわけるのか，LAG-3それ自体の構造解析をとおし明らかにしていく必要がある．また，LAG-3が細胞内領域を介しどのような機構によりヘルパーT細胞を抑制するのかを明らかにしていくことが重要である．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hodi, F. S., O'Day, S. J., McDermott, D. F. et al.</span>: <span class="ti">Improved survival with ipilimumab in patients with metastatic melanoma.</span> <span class='so'>N. Engl. J. Med., 363, 711-723 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20525992" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Topalian, S. L., Hodi, F. S., Brahmer, J. R. et al.</span>: <span class="ti">Safety, activity, and immune correlates of anti-PD-1 antibody in cancer.</span> <span class='so'>N. Engl. J. Med., 366, 2443-2454 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22658127" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Triebel, F., Jitsukawa, S., Baixeras, E. et al.</span>: <span class="ti">LAG-3, a novel lymphocyte activation gene closely related to CD4.</span> <span class='so'>J. Exp. Med., 171, 1393-1405 (1990)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1692078" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Okazaki, T., Okazaki, I. M., Wang, J. et al.</span>: <span class="ti">PD-1 and LAG-3 inhibitory co-receptors act synergistically to prevent autoimmunity in mice.</span> <span class='so'>J. Exp. Med., 208, 395-407 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21300912" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Woo, S. R., Turnis, M. E., Goldberg, M. V. et al.</span>: <span class="ti">Immune inhibitory molecules LAG-3 and PD-1 synergistically regulate T-cell function to promote tumoral immune escape.</span> <span class='so'>Cancer Res., 72, 917-927 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22186141" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Huard, B., Prigent, P., Tournier, M. et al.</span>: <span class="ti">CD4/major histocompatibility complex class II interaction analyzed with CD4- and lymphocyte activation gene-3 (LAG-3)-Ig fusion proteins.</span> <span class='so'>Eur. J. Immunol., 25, 2718-2721 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7589152" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Mohan, J. F., Petzold, S. J. & Unanue, E. R.</span>: <span class="ti">Register shifting of an insulin peptide-MHC complex allows diabetogenic T cells to escape thymic deletion.</span> <span class='so'>J. Exp. Med., 208, 2375-2383 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22065673" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>生命科学の教科書における関連するセクションへのリンク</h2><br><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．<br><ul><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/21_03.html" target="_blank">21.3 Initiation of Immune Responses</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/21_04.html" target="_blank">21.4 Effector Mechanisms in Immune Responses</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/05_04.html" target="_blank">5.4 The Endocrine System</a></li><br><li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/03_06.html" target="_blank">3.6 Gain-of-Function Mutations</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">丸橋 拓海（Takumi Maruhashi）</span><br>略歴：2013年 東京大学大学院理学系研究科 修了，同年より徳島大学疾患プロテオゲノム研究センター（現 徳島大学先端酵素学研究所）特任助教．<br>研究テーマ：免疫補助受容体による免疫応答の制御の機構．<br>関心事：つぎの研究．<br><br><strong>岡崎  拓（Taku Okazaki）</strong><br>徳島大学先端酵素学研究所 教授．<br>研究室URL：<a href="http://www.genome.tokushima-u.ac.jp/dir/index.html" target="_blank">http://www.genome.tokushima-u.ac.jp/dir/index.html</a><br></div><br>© 2018 丸橋拓海・岡崎 拓 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+                <li id="search-6" class="widget widget_search">
+                    <!--
+                    <form role="search" method="get" id="searchform" class="searchform"
+                          action="http://first.lifesciencedb.jp/">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                    -->
+                </li>
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="http://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="http://first.lifesciencedb.jp/wp-content/uploads/2011/03/togotv20110301_small-1.png">
+                        </a><br>
+                        <a href="http://togotv.dbcls.jp/">統合TV</a>にて
+                        <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                        <form style="display: none">
+                            <div class="selected_list"><input type="checkbox" class="selected_db" name="targetdb" value="refex" checked> RefEx</div>
+                            <div class="selected_list"> <input type="checkbox" class="selected_db" name="targetdb" value="ggrna" checked> GGRNA</div>
+                            <div class="selected_list"><input type="checkbox" class="selected_db" name="fa" value="fa" checked> 同じキーワードを含む記事</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">ページトップにもどる</a></li>
+        <li><a href="http://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="http://lifesciencedb.jp/">LSDB</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=policy">サイトポリシー</a></li>
+        <li><a href="http://lifesciencedb.jp/lsdb.cgi?lng=jp&amp;gg=support">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        var cardBase = '<div class="hc-refers"></div>';
+
+       $(".anno").hovercard({
+            detailsHTML: cardBase,
+            showCustomCard: false,
+            width: 400,
+            onHoverIn: function () {
+                var kw = this.firstChild.textContent;
+                var rows = 0;
+                selected_db().forEach(function (v, i, a) {
+                    // cardのそれぞれのdbの情報ごと処理する
+                    $(".hc-refers").empty();
+                    $.ajax({
+                        type: v.ajax_conf.type,
+                        url: v.get_url(kw),
+                        dataType: v.ajax_conf.dataType
+                    }).then(function (d) {
+                        // d get_urlがnullの場合dはdocument、pagesもdocumentになる
+                        var req_type = v["request_type"];
+                        var pages = parser[req_type](d);
+                        // linkのケースではtitle項目のみ表示する
+                        if (v.ququest_type == "link"){
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+                        } else if (pages.length > 0) {
+                            rows += pages.length;
+                            var t = v.title(kw)
+                            $(".hc-refers").append(t);
+
+                            var i = 0;
+                            while (i < pages.length && i < v.max_lines) {
+                                var c = pages[i];
+                                //
+                                var elem = v.views(kw, c);
+                                $(".hc-refers").append(elem);
+                                i++
+                            }
+                        }
+                    });
+                });
+                if (rows > 0) {
+                    $(".hc-details .s-card").attr("style", "display:block");
+                } else {
+                    $(".hc-details .s-card").attr("style", "display:none");
+                }
+            }
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+
+        // ligthbox modal
+        // hs-gigure-captionのhtmlをmodalに表示する
+        // hs-figure-captionには[Download]以外表示しない
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

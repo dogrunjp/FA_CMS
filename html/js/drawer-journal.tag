@@ -19,7 +19,7 @@
    
   <li><a href="./journal.htm?val=Cell Metabolism">Cell Metabolism  (54)</a></li>
    
-  <li><a href="./journal.htm?val=Nature Immunology">Nature Immunology  (45)</a></li>
+  <li><a href="./journal.htm?val=Nature Immunology">Nature Immunology  (47)</a></li>
    
   <li><a href="./journal.htm?val=Nature Structural & Molecular Biology">Nature Structural & Molecular Biology  (43)</a></li>
    

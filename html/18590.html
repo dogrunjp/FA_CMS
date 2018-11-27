@@ -313,8 +313,6 @@
                         var pages = parser[req_type](d);
                         // linkのケースではtitle項目のみ表示する
                         if (v.ququest_type == "link"){
-                            var t = v.title(kw)
-                            $(".hc-refers").append(t);
                         } else if (pages.length > 0) {
                             rows += pages.length;
                             var t = v.title(kw)
