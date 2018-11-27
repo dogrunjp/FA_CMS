@@ -17,7 +17,7 @@ var cards = [
         "request_type": "link",
         "title": function (kw) {
             var base_url = "https://refex.dbcls.jp/genelist.php?gene_name%5B%5D=";
-            return `<div class="hc-lines"><h3><a href=${base_url}${kw} target="_blank"> RefExへのリンク</a></h3></div>`
+            return `<div class="hc-lines"><h3><a href=${base_url}${kw} target="_blank"> RefExこの遺伝子の発現パターンを調べる</a></h3></div>`
         },
         "get_url": function () {
             return []
@@ -31,7 +31,7 @@ var cards = [
         "request_type": "link",
         "title": function (kw) {
             var base_url = "https://ggrna.dbcls.jp/ja/";
-            return `<div class="hc-lines"><h3><a href=${base_url}${kw} target="_blank"> GGRNAへのリンク</a></h3></div>`
+            return `<div class="hc-lines"><h3><a href=${base_url}${kw} target="_blank"> GGRNAでこの遺伝子の情報を検索する</a></h3></div>`
         },
         "get_url":function () {
             return []
