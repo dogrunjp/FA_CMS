@@ -50,6 +50,7 @@
     <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
 </head>
 
 <body class="drawer drawer--left">
@@ -179,14 +180,14 @@
                 <li>
                     <!-- Hovercardに表示するDB選択 -->
                     <h2>関連記事を表示</h2>
-                    <div>
+                     <div>
                         <form>
-                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
-                        </form>
-                        <form style="display: none">
-                            <div class="selected_list"><input type="checkbox" class="selected_db" name="targetdb" value="refex" checked> RefEx</div>
-                            <div class="selected_list"> <input type="checkbox" class="selected_db" name="targetdb" value="ggrna" checked> GGRNA</div>
-                            <div class="selected_list"><input type="checkbox" class="selected_db" name="fa" value="fa" checked> 同じキーワードを含む記事</div>
+                            <input type="checkbox" class="anno_search" name="targetdb" value="true" checked="">キーワードをアノテーションする
+                            <!--
+                            <input type="checkbox" class="selected_db" name="targetdb" value="refex" checked>RefEx
+                            <input type="checkbox" class="selected_db" name="targetdb" value="ggrna" checked>GGRNA
+                            <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
+                            -->
                         </form>
                     </div>
 
@@ -242,7 +243,8 @@
 <!-- //.modal-profile -->
 
 
-<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/jquery.hovercard2.js"></script>
+<script type="text/javascript" src="./js/card.js"></script>
 <script type="text/javascript" src="./js/config.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
 <script type="riot/tag" src="js/drawer-category.tag"></script>
@@ -289,56 +291,20 @@
             $('body,html').css({"overflow": "visible", "height": "auto"});
         });
 
-        var cardBase = '<div class="hc-refers"></div>';
-
-       $(".anno").hovercard({
-            detailsHTML: cardBase,
-            showCustomCard: false,
-            width: 400,
-            onHoverIn: function () {
-                var kw = this.firstChild.textContent;
-                var rows = 0;
-                selected_db().forEach(function (v, i, a) {
-                    // cardのそれぞれのdbの情報ごと処理する
-                    $(".hc-refers").empty();
-                    $.ajax({
-                        type: v.ajax_conf.type,
-                        url: v.get_url(kw),
-                        dataType: v.ajax_conf.dataType
-                    }).then(function (d) {
-                        // d get_urlがnullの場合dはdocument、pagesもdocumentになる
-                        var req_type = v["request_type"];
-                        var pages = parser[req_type](d);
-                        // linkのケースではtitle項目のみ表示する
-                        if (v.ququest_type == "link"){
-                            var t = v.title(kw)
-                            $(".hc-refers").append(t);
-                        } else if (pages.length > 0) {
-                            rows += pages.length;
-                            var t = v.title(kw)
-                            $(".hc-refers").append(t);
-
-                            var i = 0;
-                            while (i < pages.length && i < v.max_lines) {
-                                var c = pages[i];
-                                //
-                                var elem = v.views(kw, c);
-                                $(".hc-refers").append(elem);
-                                i++
-                            }
-                        }
-                    });
-                });
-                if (rows > 0) {
-                    $(".hc-details .s-card").attr("style", "display:block");
-                } else {
-                    $(".hc-details .s-card").attr("style", "display:none");
-                }
-            }
-        });
-
         riot.compile(function () {
             tags = riot.mount("*");
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','.anno_search', function () {
+            var prop = $('.anno_search').prop('checked');
+            console.log('ok')
+            console.log(prop)
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
         });
 
 
