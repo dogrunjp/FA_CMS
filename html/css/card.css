@@ -1,5 +1,6 @@
 .anno {
     color: #2e80ce;
+    font-weight: bold;
 }
 .hc-preview {
     display: inline-block;
@@ -7,12 +8,27 @@
 }
 .hc-details {
     position: absolute;
-    width: 340px;
-    max-width: 340px;
+    width: auto;
+    max-width: 400px;
+    min-width: 230px;
     padding-top: 13px;
     z-index: 3;
     white-space: normal;
     margin: 18px 0 0 -26px;
+}
+.hc-details.hc-mobile {
+    position: fixed;
+    width: auto;
+    max-width: 100%;
+    min-width: 100%;
+    padding-top: 0;
+    z-index: 3;
+    white-space: normal;
+    margin: 0 auto;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 .hc-popup-panel {
     -webkit-box-shadow: 0 1px 20px #999;
@@ -44,63 +60,65 @@
     border-right: 14px solid transparent;
     border-bottom: 14px solid #333;
 }
-.hc-popup-panel .anno-popup-subtitle {
-    font-size: .9em;
-    position: relative;
-    display: block;
-    display: -webkit-box;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
-    line-height: 16px;
-    max-height: 64px;
+.hc-mobile .hc-popup-panel .hc-title:before {
+    content: '';
+    display: none;
+}
+.hc-popup-panel .hc-close {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 15px 10px;
+}
+.hc-mobile .hc-popup-panel .hc-close {
+    padding: 3px 10px;
 }
 .hc-popup-panel .hc-refers {
     padding: 15px 12px 20px;
 }
 
-@media screen and (max-width: 980px) {
-}
-@media screen and (max-width: 750px) {
-    .hc-details {
-        position: fixed;
-        width: 100%;
-        max-width: 100%;
-        padding-top: 0;
-        z-index: 3;
-        white-space: normal;
-        margin: 0 auto;
-        top: auto;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
-    .hc-details .hc-popup-panel .hc-title:before {
-        content: '';
-        display: none;
-    }
-}
 
-#contentleft .hc-popup-panel .hc-lines {
-    position: relative;
-    margin: 10px 0 0;
+
+#content .hc-popup-panel .hc-refers h3 {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", verdana, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin: 6px 0;
     padding: 0;
-    font-weight: 600;
+    line-height: 1.6;
 }
-#contentleft .hc-popup-panel .hc-lines a {
+#content .hc-popup-panel .hc-lines {
     margin: 0;
+    line-height: 1.6;
+}
+#content .hc-popup-panel .hc-lines h3 a {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", verdana, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin: 6px 0;
     padding: 0;
-    position: relative;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
+    line-height: 1.6;
 }
-#contentleft .hc-popup-panel .hc-lines a span {
-    float: right;
-    padding-left: 3px;
-}
-#contentleft .hc-popup-panel .hc-lines a:hover {
-    text-decoration: none;
+#content .hc-popup-panel .hc-lines a {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", verdana, sans-serif;
     font-weight: normal;
+    font-size: 0.9rem;
+    color: #2e80ce;
+    text-decoration: none;
+    display: flex;
+    margin: 6px 0;
+    padding: 0;
+    line-height: 1.6;
+}
+#content .hc-popup-panel .hc-lines a:hover {
+    text-decoration: none;
+}
+#content .hc-popup-panel .hc-lines a:before {
+    content: '\f0c1';
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    padding: 0 2px;
 }
