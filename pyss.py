@@ -1,3 +1,5 @@
+# coding: utf-8
+
 import sys
 from jinja2 import Environment, FileSystemLoader, Markup
 from oauth2client.service_account import ServiceAccountCredentials
@@ -104,10 +106,13 @@ class UpdateItemList:
         return li
 
 
-class UpdateFile:  #静的コンテンツリスト・コンテンツサマリの更新
+# 静的コンテンツリスト・コンテンツサマリの更新
+class UpdateFile:
     def update(self, pg_list, static_file, summary_file, required):
-        with open(conf["static_list_path"]+ "/" + static_file, "w") as f:
-            json.dump(pg_list, f, ensure_ascii=False)
+        with open(conf["static_list_path"] + static_file, "w") as f:
+            # json.dump(pg_list, f, ensure_ascii=False)
+            # 環境によてensure_asciiをtrueにした方が良い場合とそうで無い場合がある
+            json.dump(pg_list, f)
 
         summary_list = []
         for dct in pg_list:
@@ -124,6 +129,7 @@ class GetDiffs:
         previous_list = []
         try:
             with open(conf["static_list_path"]+ "/" + static_file, "r", encoding='utf-8') as f:
+                print(conf["static_list_path"]+ "/" + static_file)
                 jsondata = json.load(f)
             previous_list = []  # 前回までに登録したitemのidリストを、前回の更新時保存済みのコンテンツJSONファイルより追加
 

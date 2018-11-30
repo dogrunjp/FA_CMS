@@ -1,0 +1,106 @@
+.anno {
+    color: #2e80ce;
+}
+.hc-preview {
+    display: inline-block;
+    font-style: normal;
+}
+.hc-details {
+    position: absolute;
+    width: 340px;
+    max-width: 340px;
+    padding-top: 13px;
+    z-index: 3;
+    white-space: normal;
+    margin: 18px 0 0 -26px;
+}
+.hc-popup-panel {
+    -webkit-box-shadow: 0 1px 20px #999;
+    box-shadow: 0 1px 20px #999;
+    background-color: #fff;
+}
+#content .hc-popup-panel .hc-title {
+    margin: 0;
+    padding: 3px 15px;
+    line-height: 2.2rem;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border-bottom: 1px solid #cccccc;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.hc-popup-panel .hc-title:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -1px;
+    right: 78%;
+    left: 10%;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-bottom: 14px solid #333;
+}
+.hc-popup-panel .anno-popup-subtitle {
+    font-size: .9em;
+    position: relative;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-height: 16px;
+    max-height: 64px;
+}
+.hc-popup-panel .hc-refers {
+    padding: 15px 12px 20px;
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 750px) {
+    .hc-details {
+        position: fixed;
+        width: 100%;
+        max-width: 100%;
+        padding-top: 0;
+        z-index: 3;
+        white-space: normal;
+        margin: 0 auto;
+        top: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .hc-details .hc-popup-panel .hc-title:before {
+        content: '';
+        display: none;
+    }
+}
+
+#contentleft .hc-popup-panel .hc-lines {
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-weight: 600;
+}
+#contentleft .hc-popup-panel .hc-lines a {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+#contentleft .hc-popup-panel .hc-lines a span {
+    float: right;
+    padding-left: 3px;
+}
+#contentleft .hc-popup-panel .hc-lines a:hover {
+    text-decoration: none;
+    font-weight: normal;
+}
