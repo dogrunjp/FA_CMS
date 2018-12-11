@@ -50,6 +50,8 @@
     <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+    <script src="./js/card.js"></script>
 </head>
 
 <body class="drawer drawer--left">
@@ -171,11 +173,6 @@
                         <form>
                             <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
                         </form>
-                        <form style="display: none">
-                            <div class="selected_list"><input type="checkbox" class="selected_db" name="targetdb" value="refex" checked> RefEx</div>
-                            <div class="selected_list"> <input type="checkbox" class="selected_db" name="targetdb" value="ggrna" checked> GGRNA</div>
-                            <div class="selected_list"><input type="checkbox" class="selected_db" name="fa" value="fa" checked> 同じキーワードを含む記事</div>
-                        </form>
                     </div>
 
                 </li>
@@ -277,62 +274,12 @@
             $('body,html').css({"overflow": "visible", "height": "auto"});
         });
 
-        var cardBase = '<div class="hc-refers"></div>';
 
-       $(".anno").hovercard({
-            detailsHTML: cardBase,
-            showCustomCard: false,
-            width: 400,
-            onHoverIn: function () {
-                var kw = this.firstChild.textContent;
-                var rows = 0;
-                selected_db().forEach(function (v, i, a) {
-                    // cardのそれぞれのdbの情報ごと処理する
-                    $(".hc-refers").empty();
-                    $.ajax({
-                        type: v.ajax_conf.type,
-                        url: v.get_url(kw),
-                        dataType: v.ajax_conf.dataType
-                    }).then(function (d) {
-                        // d get_urlがnullの場合dはdocument、pagesもdocumentになる
-                        var req_type = v["request_type"];
-                        var pages = parser[req_type](d);
-                        // linkのケースではtitle項目のみ表示する
-                        if (v.ququest_type == "link"){
-                            var t = v.title(kw)
-                            $(".hc-refers").append(t);
-                        } else if (pages.length > 0) {
-                            rows += pages.length;
-                            var t = v.title(kw)
-                            $(".hc-refers").append(t);
-
-                            var i = 0;
-                            while (i < pages.length && i < v.max_lines) {
-                                var c = pages[i];
-                                //
-                                var elem = v.views(kw, c);
-                                $(".hc-refers").append(elem);
-                                i++
-                            }
-                        }
-                    });
-                });
-                if (rows > 0) {
-                    $(".hc-details .s-card").attr("style", "display:block");
-                } else {
-                    $(".hc-details .s-card").attr("style", "display:none");
-                }
-            }
-        });
 
         riot.compile(function () {
             tags = riot.mount("*");
         });
 
-
-        // ligthbox modal
-        // hs-gigure-captionのhtmlをmodalに表示する
-        // hs-figure-captionには[Download]以外表示しない
         $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
             event.preventDefault();
             var content = $('.modal-body'); //.modal-body初期化
@@ -349,10 +296,16 @@
             var prop = $('#prop').prop('checked');
             if(!prop){
                 $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
             }else{
                 $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
             }
         })
+
 
 
     });

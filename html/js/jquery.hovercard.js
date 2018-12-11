@@ -7,6 +7,8 @@
 //fork maintained by dogrunjp
 //Version 2.5 Jan 11th 2018
 
+//fork maintained by harumaki
+//Version 2.6 Nov 30th 2018
 
 (function ($) {
     $.fn.hovercard = function (options) {
@@ -34,45 +36,13 @@
         //Update unset options with defaults if needed
         var options = $.extend(defaults, options);
 
-        //CSS for hover card. Change per your need, and move these styles to your stylesheet (recommended).
-        if ($('#css-hovercard').length <= 0) {
-            var hovercardTempCSS = '<style id="css-hovercard" type="text/css">' +
-                                    '.hc-preview { position: relative; display:inline; }' +
-                                    '.hc-name { font-weight:bold; position:relative; display:inline-block; }' +
-                                    '.hc-details { left:-10px; margin-right:80px; text-align:left; font-family:Sans-serif !important; font-size:12px !important; color:#666 !important; line-height:1.5em; border:solid 1px #ddd; position:absolute;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;top:-10px;padding:2em 10px 10px;-moz-box-shadow:5px 5px 5px #888;-webkit-box-shadow:5px 5px 5px #888;box-shadow:5px 5px 5px #888;display:none;}' +
-                                    '.hc-pic { width:70px; margin-top:-1em; float:right;  }' +
-                                    '.hc-details-open-left { left: auto; right:-10px; text-align:right; margin-left:80px; margin-right:0; } ' +
-                                    '.hc-details-open-left > .hc-pic { float:left; } ' +
-                                    '.hc-details-open-top { bottom:-10px; top:auto; padding: 10px 10px 2em;} ' +
-                                    '.hc-details-open-top > .hc-pic { margin-top:10px; float:right;  }' +
-                                    '.hc-details .s-action{ position: absolute; top:8px; right:5px; } ' +
-                                    '.hc-details .s-card-pad{ border-top: solid 1px #eee; margin-top:10px; padding-top:10px; overflow:hidden; } ' +
-                                    '.hc-details-open-top .s-card-pad { border:none; border-bottom: solid 1px #eee; margin-top:0;padding-top:0; margin-bottom:10px;padding-bottom:10px; }' +
-                                    '.hc-details .s-card .s-strong{ font-weight:bold; color: #555; } ' +
-                                    '.hc-details .s-img{ float: left; margin-right: 10px; max-width: 70px;} ' +
-                                    '.hc-details .s-name{ color:#222; font-weight:bold;} ' +
-                                    '.hc-details .s-loc{ float:left;}' +
-                                    '.hc-details-open-left .s-loc{ float:right;} ' +
-                                    '.hc-details .s-href{ clear:both; float:left;} ' +
-                                    '.hc-details .s-desc{ float:left; font-family: Georgia; font-style: italic; margin-top:5px;width:100%;} ' +
-                                    '.hc-details .s-username{ text-decoration:none;} ' +
-                                    '.hc-details .s-stats { display:block; float:left; margin-top:5px; clear:both; padding:0px;}' +
-                                    '.hc-details ul.s-stats li{ list-style:none; float:left; display:block; padding:0px 10px !important; border-left:solid 1px #eaeaea;} ' +
-                                    '.hc-details ul.s-stats li:first-child{ border:none; padding-left:0 !important;} ' +
-                                    '.hc-details .s-count { font-weight: bold;} ' +
-                                '.</style>")';
-
-            $(hovercardTempCSS).appendTo('head');
-        }
         //Executing functionality on all selected elements
         return this.each(function () {
             var obj = $(this);
 
             //wrap a parent span to the selected element
-            obj.wrap('<div class="hc-preview" />');
-
-            //add a relatively positioned class to the selected element
-            obj.addClass("hc-name");
+            obj.wrapAll('<div class="hc-preview" />').wrapAll('<div class="hc-popup-block" />');
+            obj.closest(".hc-preview").attr("data-kw", obj.text());
 
             //if card image src provided then generate the image elementk
             var hcImg = '';
@@ -81,16 +51,70 @@
             }
 
             //generate details span with html provided by the user
-            var hcDetails = '<div class="hc-details" >' + hcImg + options.detailsHTML + '</div>';
+            var hcCloseBtn = $('<span></span>', {
+               class: "hc-close"
+            }).html('<i class="far fa-window-close"></i>');
+            var hcTitle = $('<h3></h3>', {
+                text: obj.text(),
+                class: "hc-title"
+            }).append(hcCloseBtn);
+            var hcDetails = $('<div></div>', {
+                class: "hc-inner"
+            }).html(hcImg + options.detailsHTML);
+
+            var hcCard = $('<div></div>', {
+                class: "hc-popup-panel"
+            }).append(hcTitle).append(hcDetails);
+
+            var hcCardBlock = $('<div></div>', {
+                class: "hc-details",
+                css: {display: "none"}
+            }).html(hcCard);
 
             //append this detail after the selected element
-            obj.after(hcDetails);
-            obj.siblings(".hc-details").css({ 'width': options.width, 'background': options.background });
+            obj.before(hcCardBlock);
+            obj.siblings(".hc-details");
 
-            //toggle hover card details on hover
-            obj.closest(".hc-preview").hover(function () {
-                var $this = $(this);
+            //SHOW
+            var isTouch = ('ontouchstart' in window);
+            if (isTouch) {
+                obj.siblings(".hc-details").addClass("hc-mobile");
+                obj.bind({
+                    'touchstart mousedown': function(e) {
+                        e.preventDefault();
+                        if (obj.siblings(".hc-details").css("display") === "none" & $("#prop").is(":checked")) {
+                            hcOpen($(this).closest(".hc-preview"));
+                        }
+                        return false;
+                    }
+                });
+            } else {
+                obj.bind({
+                    'mouseenter mouseleave' : function(e) {
+                        if (obj.siblings(".hc-details").css("display") === "none" & $("#prop").is(":checked")) {
+                            hcOpen($(this).closest(".hc-preview"));
+                        }
+                        return false;
+                    },
+                    'click' : function(e) {
+                       return false;
+                    }
+                });
+            }
+            //CLOSE
+            obj.siblings(".hc-details").find(".hc-close").on("click", function(e){
+                $this = $(this).closest(".hc-preview");
+                hcClose($this);
+            });
+
+
+            function hcOpen(e) {
+                var $this = e;
                 adjustToViewPort($this);
+
+                $(".hc-details:visible").each(function (e) {
+                   hcClose($(this).closest(".hc-preview"))
+                });
 
                 //Up the z indiex for the .hc-name to overlay on .hc-details
                 $this.css("z-index", "200");
@@ -145,37 +169,21 @@
                         LoadSocialProfile("facebook", fbUsername, curHCDetails);
                     }
 
-                    //Callback function                    
-                    options.onHoverIn.call(this);
+                    //Callback function
+                    options.onHoverIn.call($this);
                 }
+            }
 
-            }, function () {
-                //Undo the z indices 
-                $this = $(this);
-
-                $this.find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
-                    $this.css("z-index", "0");
+            function hcClose(hcPreview){
+                hcPreview.find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                    hcPreview.css("z-index", "0");
                     obj.css("z-index", "0").find('.hc-details').css("z-index", "0");
 
                     if (typeof options.onHoverOut == 'function') {
                         options.onHoverOut.call(this);
                     }
                 });
-
-            });
-            obj.closest(".hc-preview").bind("touchmove touchend", function () {
-                $this = $(this);
-
-                $this.find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
-                    $this.css("z-index", "0");
-                    obj.css("z-index", "0").find('.hc-details').css("z-index", "0");
-
-                    if (typeof options.onHoverOut == 'function') {
-                        options.onHoverOut.call(this);
-                    }
-                });
-            });
-
+            }
 
             //Opening Directions adjustment
             function adjustToViewPort(hcPreview) {
@@ -337,6 +345,5 @@
                 }
             };
         });
-
     };
 })(jQuery);

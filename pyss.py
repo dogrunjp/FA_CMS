@@ -129,7 +129,7 @@ class GetDiffs:
         previous_list = []
         try:
             with open(conf["static_list_path"]+ "/" + static_file, "r", encoding='utf-8') as f:
-                print(conf["static_list_path"]+ "/" + static_file)
+                #print(conf["static_list_path"]+ "/" + static_file)
                 jsondata = json.load(f)
             previous_list = []  # 前回までに登録したitemのidリストを、前回の更新時保存済みのコンテンツJSONファイルより追加
 

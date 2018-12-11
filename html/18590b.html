@@ -51,6 +51,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/print.css">
     <link rel="stylesheet" type="text/css" href="./css/card.css">
+    <script src="./js/card.js"></script>
 </head>
 
 <body class="drawer drawer--left">
@@ -180,15 +181,17 @@
                 <li>
                     <!-- Hovercardに表示するDB選択 -->
                     <h2>関連記事を表示</h2>
-                     <div>
+                    <div>
                         <form>
-                            <input type="checkbox" class="anno_search" name="targetdb" value="true" checked="">キーワードをアノテーションする
-                            <!--
-                            <input type="checkbox" class="selected_db" name="targetdb" value="refex" checked>RefEx
-                            <input type="checkbox" class="selected_db" name="targetdb" value="ggrna" checked>GGRNA
-                            <input type="checkbox" class="selected_db" name="fa" value="fa" checked>FirstAuthor検索
-                            -->
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
                         </form>
+                        <!--
+                        <form style="display: none">
+                            <div class="selected_list"><input type="checkbox" class="selected_db" name="targetdb" value="refex" checked> RefEx</div>
+                            <div class="selected_list"> <input type="checkbox" class="selected_db" name="targetdb" value="ggrna" checked> GGRNA</div>
+                            <div class="selected_list"><input type="checkbox" class="selected_db" name="fa" value="fa" checked> 同じキーワードを含む記事</div>
+                        </form>
+                        -->
                     </div>
 
                 </li>
@@ -243,8 +246,7 @@
 <!-- //.modal-profile -->
 
 
-<script type="text/javascript" src="./js/jquery.hovercard2.js"></script>
-<script type="text/javascript" src="./js/card.js"></script>
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
 <script type="text/javascript" src="./js/config.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
 <script type="riot/tag" src="js/drawer-category.tag"></script>
@@ -295,22 +297,6 @@
             tags = riot.mount("*");
         });
 
-        // キーワドのアノテーションon,off切り替え
-        $(document).on('change','.anno_search', function () {
-            var prop = $('.anno_search').prop('checked');
-            console.log('ok')
-            console.log(prop)
-            if(!prop){
-                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
-            }else{
-                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
-            }
-        });
-
-
-        // ligthbox modal
-        // hs-gigure-captionのhtmlをmodalに表示する
-        // hs-figure-captionには[Download]以外表示しない
         $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
             event.preventDefault();
             var content = $('.modal-body'); //.modal-body初期化
@@ -327,6 +313,11 @@
             var prop = $('#prop').prop('checked');
             if(!prop){
                 $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
             }else{
                 $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
             }
