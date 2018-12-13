@@ -200,9 +200,10 @@ class RenderPage:
                 txt = str(soup)
 
                 # Hover card用のannotation追加
-                # keywordsはFA_IDと一致するセットだけフィルターして渡す
+                # keywordsはFA_IDと一致するセットだけフィルターして渡す。また削除フラグに1が入っていた場合その語は使用しない。
                 keyword_work = [x[1] for x in self.keywords if str(x[0]) == str(entry["FA_URL"].split("/")[-1])]
-                
+                print(keyword_work)
+
                 # htmlにアノテーションのためのタグを付加
                 txt = add_annotation.add_annotation(keyword_work, txt)
                 
@@ -347,11 +348,10 @@ def get_keywords(cf):
 def word_filter(lst):
     col_terms = conf["annotation"]["terms"]
     col_id = conf["annotation"]["page_id"]
-    dictionary = conf["annotation"]["dictionary"]
-    lst = [(x[col_id], x[col_terms]) for x in lst]
+    flag = conf["annotation"]["flag"]
+    lst = [(x[col_id], x[col_terms]) for x in lst if x[flag] != 1]
 
     # 優先度を決めソート<<ソートは下流の行程で行うのでとりここでは行わない
-    # feature: multiword, unknown , dictionary: MeSH, Gene, 文字数でsortする
     # sl = sorted(lst,  key=lambda x: len(x), reverse=True)
     return lst
 
