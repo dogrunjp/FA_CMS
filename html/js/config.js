@@ -56,7 +56,7 @@ var cards = [
             var l = c["id"]["value"];
             // コンテンツのタイトル
             var n = c["t"]["value"];
-            return `<div class="hc-lines"><a href=${l}>` + n +  `</a></div>`
+            return '<div class="hc-lines"><a href='+ l +'>' + n + '</a></div>'
         },
         "max_lines": 5
     }
