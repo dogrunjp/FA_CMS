@@ -10,7 +10,7 @@
     position: absolute;
     width: auto;
     max-width: 400px;
-    min-width: 230px;
+    min-width: 400px;
     padding-top: 13px;
     z-index: 3;
     white-space: normal;
@@ -57,6 +57,13 @@
 }
 .hc-popup-panel .hc-refers {
     padding: 15px 12px 20px;
+}
+@media screen and (max-width: 900px) {
+    .hc-details {
+        width: auto;
+        max-width: 400px;
+        min-width: 280px;
+    }
 }
 @media screen and (max-width: 767px) {
     .hc-details.hc-mobile {
