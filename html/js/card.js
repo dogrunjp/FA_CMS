@@ -9,6 +9,7 @@ jQuery(document).ready(function ($) {
             var kw = this.data("kw");
             var rows = 0;
             cards.forEach(function (v, i, a) {
+                //console.log(v);
                 $(".hc-refers").empty();
                 $.ajax({
                     type: v.ajax_conf.type,
