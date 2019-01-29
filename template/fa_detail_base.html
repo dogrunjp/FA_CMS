@@ -10,10 +10,9 @@
 
     <title> {{self.title()}} : ライフサイエンス 新着論文レビュー</title>
 
-    <link rel="Shortcut Icon" href="./favicons/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
     <link rel="manifest" href="./favicons/site.webmanifest">
     <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
     <meta name="msapplication-TileColor" content="#2b5797">
@@ -51,7 +50,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/print.css">
     <link rel="stylesheet" type="text/css" href="./css/card.css">
-    <script src="./js/card.js"></script>
+
 </head>
 
 <body class="drawer drawer--left">
@@ -106,10 +105,7 @@
     </div>
 
     <div id="masthead">
-        <a href="./index.htm">
-            <h1>ライフサイエンス 新着論文レビュー</h1>
-            <h3>First author's</h3>
-        </a>
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
     </div>
 
     <div id="content">
@@ -164,6 +160,21 @@
                         <a href="http://togotv.dbcls.jp/">統合TV</a>にて
                         <a href="http://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
 
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
                     </div>
                 </li>
                 <li>
@@ -229,6 +240,7 @@
 
 <script type="text/javascript" src="./js/jquery.hovercard.js"></script>
 <script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
 <script type="riot/tag" src="js/drawer-category.tag"></script>
 <script type="riot/tag" src="js/drawer-journal.tag"></script>
@@ -274,8 +286,6 @@
             $('body,html').css({"overflow": "visible", "height": "auto"});
         });
 
-
-
         riot.compile(function () {
             tags = riot.mount("*");
         });
@@ -305,8 +315,6 @@
                 $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
             }
         })
-
-
 
     });
 
