@@ -373,6 +373,7 @@ summary_list:active {
 
 #contentleft_main {
   width: 100%;
+  min-height: 300px;
   margin: 0;
   padding: 0 0 10px 0;
   text-align: left; }
@@ -1142,4 +1143,55 @@ form div.selected_list{
   display: block;
   text-align: left;
   padding-left: 12px;
+}
+
+
+/* logo */
+.flex{
+  padding: 2.5% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  );
+}
+.flex > *{
+  background: #fff;
+  text-align: center;
+}
+.logo>table.table-bordered{
+  width: 100%;
+}
+.table-bordered>tbody>tr>td{
+  border:1px solid #dddddd;
+}
+.table-bordered>tbody>tr>td.active{
+  background-color: #f5f5f5;
+}
+
+.table-bordered>tbody>tr>td{
+  padding: 8px;
+  line-height: 1.6;
+  vertical-align: top;
+  border-top: 1px solid #ddd
+}
+.logo td, .logo th{
+  font-size: 0.75rem;
+ display: table-cell;
+}
+.logo table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* loader */
+#loader {
+  width: 100%;
+}
+#loader img{
+    position: absolute;
+  top: 24px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
