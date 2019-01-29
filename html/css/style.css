@@ -1101,7 +1101,6 @@ border-color: #337ab7;
     content: '\f152';
     font-weight: 400;
     color: #886353;
-    position: absolute;
     left: 6px;
 }
 #contentleft ul br{
@@ -1111,7 +1110,10 @@ border-color: #337ab7;
 .article_thumb br{
   line-height: 0.25;
 }
-
+#contentleft div#toc_container.no_bullets ul.toc_list{
+  margin-left: 0;
+  list-style-position: outside;
+}
 /************************************************
 * hover card
 ************************************************/
