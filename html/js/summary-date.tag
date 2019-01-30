@@ -1,6 +1,9 @@
 <summary>
     <div id="contentleft_main">
         <h2>{opts.search}の検索結果 {opts.found}</h2>
+        <div id="loader">
+            <img src="./images/loading.gif" style="display: block;" align="center">
+        </div>
         <div class="autopagerize_page_element">
 
             <virtual each="{list}">

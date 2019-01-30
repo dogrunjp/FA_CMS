@@ -1,5 +1,8 @@
 <summary>
     <div id="contentleft_main">
+        <div id="loader">
+            <img src="./images/loading.gif" style="display: block;" align="center">
+        </div>
         <div class="autopagerize_page_element">
 
             <virtual each="{list}">
@@ -20,9 +23,7 @@
 
         </div>
 
-        <div id="loader">
-            <img src="./images/loading.gif" style="display: block;" align="center">
-        </div>
+
 
     </div>
     <script>
