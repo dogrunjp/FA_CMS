@@ -23,8 +23,6 @@
 
         </div>
 
-
-
     </div>
     <script>
         var self = this;
