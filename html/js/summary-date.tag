@@ -31,6 +31,8 @@
 
         $.getJSON('https://script.google.com/macros/s/AKfycbxRUrpftHbs62tP7PFas6Kvd6quoNw_CazWSlTOAOV76fW8f05Z/exec?fa=true&y='+ v,
             function(data){
+                var loader = document.getElementById("loader")
+                    loader.style.display = "none";
                 this.list = data;
                 opts.found = this.list.length + "件";
                 this.update();
