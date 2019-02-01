@@ -12,7 +12,7 @@
                     <div class="article_thumb">
                         <p class="date">{pub_date}</p>
                         <p><strong>{author}</strong><br>
-                            DOI: <a href=http://doi.org/{doi}>{doi}</a></p>
+                            DOI: <a href=https://doi.org/{doi}>{doi}</a></p>
                         <p><a href={URL} class="more-link">続きを読む</a></p>
                         <div style="clear:both;">
                         </div>
