@@ -65,7 +65,7 @@ class Update:
 
         # コンテンツページをレンダリング＆ファイルに保存
         render_page = RenderPage()  # HTMLをレンダリング＆ファイル生成
-        render_page.render(contents, template, name, file_path, img_path)
+        render_page.render(contents, template, name, file_path, img_path, self.wks)
 
         # drawer-navに表示するcustom tagを書き出す
         render_menu_list(current_list, menu_template)
@@ -158,7 +158,7 @@ class RenderPage:
         # アノテーションするFA_ID&単語のセットのリストを取得
         self.keywords = get_keywords(conf)
 
-    def render(self, contents, template, name, path, img_p):
+    def render(self, contents, template, name, path, img_p, wks_conf):
         env = Environment(loader=FileSystemLoader(conf["template_path"], encoding="utf8"))
         env.filters['format_tag'] = format_tag  # 空白文字除去のためのテンプレートフィルターを定義
 
@@ -202,7 +202,6 @@ class RenderPage:
                 # Hover card用のannotation追加
                 # keywordsはFA_IDと一致するセットだけフィルターして渡す。また削除フラグに1が入っていた場合その語は使用しない。
                 keyword_work = [x[1] for x in self.keywords if str(x[0]) == str(entry["FA_URL"].split("/")[-1])]
-                print(keyword_work)
 
                 # htmlにアノテーションのためのタグを付加
                 txt = add_annotation.add_annotation(keyword_work, txt)
@@ -227,7 +226,7 @@ class RenderPage:
                 """
                 tmpl = env.get_template(template)
                 htm = tmpl.render(item=entry)
-                write_static_file(entry, htm)
+                write_static_file(entry, htm, wks_conf["output_path"])
 
 
 class GetPicTagMember:
@@ -279,7 +278,7 @@ class GetPicTagMember:
         return pg_category_list
 
 
-def write_static_file(item, htm, path="output_path"):
+def write_static_file(item, htm, path):
     LA_URL = item["FA_URL"]
     filename = LA_URL.split("/")[-1]
     # this line(if filename~) is necessary for togotv filename extraction
@@ -289,7 +288,7 @@ def write_static_file(item, htm, path="output_path"):
         filename = filename.replace(".html","")
     '''
     try:
-        with open(conf[path] + "/" + str(filename), 'w') as f:
+        with open(path + "/" + str(filename), 'w') as f:
         #with open(conf[path] + "/" + str(filename) + ".html", 'w') as f:
             f.write(htm)
     except:
