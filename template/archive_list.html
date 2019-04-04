@@ -1,0 +1,9 @@
+{% extends "list_base.html" %}
+
+{% block list %}
+<ul>
+    {% for i in item %}
+      <li>  <a href="{{i['FA_URL']}}" >{{i['Title']}}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}

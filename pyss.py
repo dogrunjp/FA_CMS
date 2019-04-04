@@ -29,6 +29,7 @@ parser = argparse.ArgumentParser(description='how to use puppy')
 parser.add_argument('--sync', '-s', dest='sync',action='store_true', help='sync html files')
 parser.add_argument('--update', '-u', dest='update',action='store_true', help='create files')
 parser.add_argument('--binary', '-b', dest='binary',action='store_true', help='sync binary files')
+parser.add_argument('--list', '-l', dest='list',action='store_true', help='create contents list')
 args = parser.parse_args()
 
 
@@ -393,6 +394,7 @@ def replace_figures(st, fig, path, img_p, caps):
 
             #file_path = path
 
+
             try:
                 # fig
                 f = fig["fig{}".format(i)]["img"]
@@ -494,6 +496,40 @@ def render_menu_list(item, template):
             f.write(htm)
 
 
+class CreateList:
+    def __init__(self, wks_conf):
+        self.wks = wks_conf
+
+    def create_list_page(self):
+        required = self.wks['require']
+        wks_num = self.wks['num']
+        wks_id = self.wks['id']
+        img_path = self.wks['img_path']
+
+        env = Environment(loader=FileSystemLoader(conf["template_path"], encoding="utf8"))
+        env.filters['format_tag'] = format_tag  # 空白文字除去のためのテンプレートフィルターを定義
+
+        # コンテンツ（ワークシートの全データ）取得
+        update_item_list = UpdateItemList()
+        current_list = update_item_list.get_list(wks_num, required)
+        archive_list = [{"Title": x["Title"], "FA_URL": convert2https(x["FA_URL"])} for x in current_list]
+
+        template = "archive_list.html"
+        output_path = "/var/www/fa/"
+
+        # html生成
+        tmpl = env.get_template(template)
+        htm = tmpl.render(item=archive_list)
+        file_name = "list"
+        with open(output_path + file_name, "w") as f:
+            f.write(htm)
+
+
+def convert2https(u):
+    us = u.replace("http", "https")
+    return us
+
+
 def update_controller():
     f = open(config_yaml, 'r', encoding='utf-8')
     global conf
@@ -506,6 +542,11 @@ def update_controller():
             sync_pages(v['bucket'], v['output_source'], v['bucket_profile'])
         elif args.binary:
             sync_binary(v['bucket'], v['output_source'], v['bucket_profile'])
+        elif args.list:
+            # archive/のコンテンツに対してのみ実行する
+            if k == "first":
+                create_list = CreateList(v)
+                create_list.create_list_page()
         elif args.update:
             update = Update(v)
             update.add_contents()
