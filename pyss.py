@@ -409,7 +409,7 @@ def replace_figures(st, fig, path, img_p, caps):
     # wordpressのPDFパスの置き換え。画像パスと重なるため、こちらを先に置き換える。
     pdf_path = path + "Doc/"
     pat_pdf_path = "http://first.lifesciencedb.jp/wordpress/wp-content/uploads/\d+/\d+/(.+\.pdf)"
-    pat_wp_path = "http://first.lifesciencedb.jp/wordpress/wp-content/uploads/\d+/\d+/"
+
     match_pdf_path = re.findall(pat_pdf_path, txt)
     if match_pdf_path:
         for i in match_pdf_path:
@@ -421,6 +421,12 @@ def replace_figures(st, fig, path, img_p, caps):
     if match_wp_path:
         for i in match_wp_path:
             txt = re.sub(pat_wp_path , img_p, txt)
+
+    pat_wp_path2 = "http://first.lifesciencedb.jp/wp-content/uploads/\d+/\d+/"
+    match_wp_path2 = re.findall(pat_wp_path2, txt)
+    if match_wp_path2:
+        for i in match_wp_path2:
+            txt = re.sub(pat_wp_path2, img_p, txt)
 
     return txt
 
