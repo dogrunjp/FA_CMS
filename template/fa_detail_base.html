@@ -8,7 +8,7 @@
     <meta name="robots" content="follow, all">
     <meta name="language" content="en, sv">
 
-    <title> {{self.title()}} : ライフサイエンス 新着論文レビュー</title>
+    <title> {% block title %}{% endblock %} : ライフサイエンス 新着論文レビュー</title>
 
     <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
     <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
@@ -109,7 +109,7 @@
 
         <div id="contentleft">
             <div class="article">
-                <h1><a href="{% block fa_url %}{% endblock %}" rel="bookmark">{% block title %}{% endblock %}</a></h1>
+                <h1>{% block taggedtitle %}{% endblock %}</h1>
                 <div class="article_thumb">{% block date %}{% endblock %}</div>
 
                 <div class="article_thumb">
