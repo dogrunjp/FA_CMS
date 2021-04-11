@@ -17,7 +17,8 @@ import time
 import itertools
 import re
 import subprocess
-from feedgenerator import Rss201rev2Feed as Feed
+# CreateRssで利用するが現在不使用
+# from feedgenerator import Rss201rev2Feed as Feed
 from bs4 import BeautifulSoup
 from ahocorapy.keywordtree import KeywordTree
 import add_annotation
@@ -76,6 +77,7 @@ class Update:
         # 差分のIDリストを参照して差分のコンテンツリストを生成する
         new_contents = [x for x in contents if x[wks_id] in filter(lambda s:s != "", diffs)]
         return new_contents
+
 
 class UpdateItemList:
     def get_list(self, wks_num, required):
@@ -201,12 +203,14 @@ class RenderPage:
                 txt = str(soup)
 
                 # Hover card用のannotation追加
-                # keywordsはFA_IDと一致するセットだけフィルターして渡す。また削除フラグに1が入っていた場合その語は使用しない。
+                # keywordsはFA_URLの数字部分(FA_IDではなく)と一致するセットだけフィルターして渡す。また削除フラグに1が入っていた場合その語は使用しない。
                 keyword_work = [x[1] for x in self.keywords if str(x[0]) == str(entry["FA_URL"].split("/")[-1])]
 
                 # htmlにアノテーションのためのタグを付加
                 txt = add_annotation.add_annotation(keyword_work, txt)
-                
+
+
+                """ for development
                 # 一時置換したタグをリストcaptionsから復元する
                 for i in range(len(caps)):
                     idx = i + 1
@@ -228,6 +232,8 @@ class RenderPage:
                 tmpl = env.get_template(template)
                 htm = tmpl.render(item=entry)
                 write_static_file(entry, htm, wks_conf["output_path"])
+                
+                """
 
 
 class GetPicTagMember:
@@ -346,13 +352,23 @@ def get_keywords(cf):
 
 # タグ付けする単語リストを返す
 def word_filter(lst):
+    """
     col_terms = conf["annotation"]["terms"]
     col_id = conf["annotation"]["page_id"]
     flag = conf["annotation"]["flag"]
-    lst = [(x[col_id], x[col_terms]) for x in lst if x[flag] != 1]
+    # deplicated
+    """
 
-    # 優先度を決めソート<<ソートは下流の行程で行うのでとりここでは行わない
-    # sl = sorted(lst,  key=lambda x: len(x), reverse=True)
+    page_id = conf["annotation"]["page_id"]
+    cue = conf["annotation"]["lexical_cue"]
+    text_query = conf["annotation"]["text_query"]
+    uniprot = conf["annotation"]["uniprot"]
+    only_uniprot = conf["annotation"]["only_uniprot"]
+
+    uniprot_id  = uniprot if uniprot else only_uniprot
+    # uniprotの値はuniprotIDもしくはonly_uniprot_idから
+    lst = [(x[page_id], x[cue], x[text_query], uniprot_id) for x in lst ]
+
     return lst
 
 
@@ -558,6 +574,16 @@ def update_controller():
             update.add_contents()
 
 
+def test_get_keywords():
+    f = open(config_yaml, 'r', encoding='utf-8')
+    global conf
+    conf = yaml.load(f)
+    f.close()
+    words = get_keywords(conf)
+    print(words)
+
+
 if __name__ == "__main__":
-    update_controller()
+    #update_controller()
+    test_get_keywords()
 

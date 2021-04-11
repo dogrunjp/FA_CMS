@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 遺伝子発現解析の基準となるデータを快適に検索できるウェブツールRefEx : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="../images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="../favicons/site.webmanifest">
+    <link rel="mask-icon" href="../favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="../css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="../webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/print.css">
+    <link rel="stylesheet" type="text/css" href="../css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="../about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="../copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="../editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="../">ホーム</a></li>
+                <li class="page_item"><a href="../about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="../copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="../editor">編集人</a></li>
+                <li class="page_item"><a href="../link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="../images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/from_dbcls/e0002" rel="bookmark">遺伝子発現解析の基準となるデータを快適に検索できるウェブツールRefEx</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <p><strong>小野浩雅・坊農秀雅</strong><br />
+（ライフサイエンス統合データベースセンター）<br />
+email：<a href="mailto:hono@dbcls.rois.ac.jp">小野浩雅</a><br />
+DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.093">10.7875/first.author.2017.093</a></p>
+<div class="reference">
+<span class="ti">RefEx, a reference gene expression dataset as a web tool for the functional analysis of genes.</span><br />
+<span class="au">Hiromasa Ono, Osamu Ogasawara, Kosaku Okubo, Hidemasa Bono</span><br />
+<span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28850115" target="_blank"><em>Scientific Data</em>, <strong>4</strong>, 170105 (2017)</a></span></div>
+<p><span id="more-17045"></span></p>
+<div id="toc_container" class="no_bullets"><p class="toc_title">目　次</p><ul class="toc_list"><li><a href="#i">要 約</a></li><li><a href="#i-2">はじめに</a></li><li><a href="#1RefEx">1．RefExウェブサイトの概要</a></li><li><a href="#2RefEx">2．RefExの活用事例</a></li><li><a href="#3">3．データの出力機能およびデータレポジトリ</a></li><li><a href="#i-3">おわりに</a></li><li><a href="#i-4">文 献</a></li><li><a href="#TV">活用したデータベースにかかわるキーワードと統合TVへのリンク</a></li><li><a href="#i-5">生命科学の教科書における関連するセクションへのリンク</a></li><li><a href="#i-6">著者プロフィール</a></li></ul></div>
+<h2><span id="i">要 約</span></h2>
+<p>　RefEx（URL：<a href="http://refex.dbcls.jp" target="_blank">http://refex.dbcls.jp</a>）は，遺伝子発現解析の基準となるおのおのの遺伝子の発現量を簡単に検索し閲覧できるウェブツールである．複数の計測手法により得られた，哺乳類の正常な組織や細胞などにおける遺伝子発現データを収集し並列に表現することにより，おのおのの組織における遺伝子の発現量を，計測手法のあいだの差異とともに直感的に比較することができる．とくに，遺伝子発現解析の過程においてしばしば比較の対象とされる，組織に特異的に発現する遺伝子を瞬時に検索できるほか，リスト機能を用いて遺伝子の発現量を比較しつつ機能に関する注釈情報を見比べることが容易であり，遺伝子発現解析により見い出された遺伝子のあいだの関係性を知るためのツールとして有用である．RefExの提供するすべてのデータは生命科学データの共有および再利用の活用例のひとつであり，データ駆動型研究のためのツールとして，だれでも無償で自由に使うことができる．</p>
+<h2><span id="i-2">はじめに</span></h2>
+<p>　DNAマイクロアレイの開発によりゲノム規模での遺伝子の発現量の測定が可能となって以来，遺伝子発現データはさまざまな研究グループにより異なる測定手法を用いて産生され，公共データベースに蓄積しつづけている．これらのデータは，仮説の構築，研究計画の立案，実験データの解釈など，さまざまな状況において幅広い分野の研究者に利用される汎用的なデータであるが，その膨大さや多様さのため，それらを自らの研究に利用することは困難な状況にある．そこで，筆者らは，大量の遺伝子発現データのなかから，まずどれをみればよいのか指針になりうる代表的な遺伝子発現データセットを選び出して整理し，それらをならべて閲覧できるウェブツールを構築したいと考え，RefEx（URL：<a href="http://refex.dbcls.jp" target="_blank">http://refex.dbcls.jp</a>）を開発した．</p>
+<h2><span id="1RefEx">1．RefExウェブサイトの概要</span></h2>
+<p>　RefExは，トップページ（検索フォーム），検索結果一覧ページ，遺伝子発現の詳細情報ページ，の3つを柱として構成されている．<br />
+　トップページ（<a href="#F1">図1a</a>）には，左上部にRefExの対応する3つの生物種，ヒト，マウス，ラットのアイコンがあり，これをクリックすることにより切り替える．もっとも基本的な“キーワードで検索”においては，検索窓に文字を入力するたびに検索語の候補が提示されるので，それらから選択することより容易にキーワードを入力できる．また，“遺伝子オントロジー”，“遺伝子ファミリー”，“染色体”のそれぞれから検索できるよう整理されているので，たとえば，それぞれ，“転写因子”，“Gタンパク質共役受容体”，“2番染色体”などのように，ある分類に属する遺伝子についてまとめて検索し比較できる．さらに，遺伝子発現解析における比較対照としてしばしば用いられる組織に特異的な遺伝子を測定データから独自に算出しており，これらは“組織特異的に発現する遺伝子を見る”の組織および臓器のアイコンをクリックするだけで簡単に一覧することができる．さらに，“Advanced Search”では複雑な検索条件をいちどに指定することが可能であり，あらかじめID情報などが手元にある場合には目的とするデータに簡単にいきつくことができる．</p>
+<p><a name="F1"></a></p>
+<div id="fig1-caption-text" style="display: none;"><strong>図1　遺伝子発現解析の基準となるデータを快適に検索できるウェブツールRefEx</strong><br />
+（a）トップページ．“キーワードで検索”では，検索窓にキーワードを入力する．ほかの項目はクリックにより簡単に選択できる．<br />
+（b）検索結果一覧ページ．組織10分類の相対発現量が棒グラフで表示される．バーの上にマウスをおくと臓器名が表示される．検索条件の追加が容易な絞り込み機能がある．<br />
+（c）遺伝子発現の詳細情報ページ．人体の3次元モデルを利用したヒートマップは，体幹部にフォーカスしたり回転させたりすることができる．40分類の相対発現量と各種のIDの情報が表示される．<br />
+（d）リスト機能による並列比較．詳細情報ページに記載されているデータを1つの画面で並列して比較できる．<br />
+<a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ono-Scientific-Data-17.8.29-Fig.1.jpg" target="_blank">[Download]</a></div>
+<div id="figure1" class="hs-figure"><div class="hs-figure-box"><a class="highslide" title="$(fig1-caption-text)" onclick="return hs.expand(this, {captionText: $('fig1-caption-text').innerHTML})" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ono-Scientific-Data-17.8.29-Fig.1.jpg" target="_blank"><img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ono-Scientific-Data-17.8.29-Fig.1.jpg" alt="figure1" width="200px" /></a></div><div id="fig1-caption" class="hs-figure-caption"></div></div><script type='text/javascript'>$('fig1-caption').innerHTML = $('fig1-caption-text').innerHTML;</script><div style='clear:both;'></div>
+<p>　検索結果一覧ページ（<a href="#F1">図1b</a>）においては，項目別のソートおよび絞り込み検索が可能で，検索条件を柔軟に入れ替えながら検索結果を閲覧し比較することができる．検索結果一覧ページ，および，遺伝子発現の詳細情報ページ（<a href="#F1">図1c</a>）では，組織あるいは臓器のあいだの比較と，EST <a href="#R1"><sup>1,2)</sup></a>，GeneChip <a href="#R3"><sup>3)</sup></a>，CAGE <a href="#R4"><sup>4)</sup></a>，RNA-seq <a href="#R5"><sup>5)</sup></a> など測定手法のあいだの比較を両立させた相対発現量が棒グラフで示されるとともに，人体の3次元モデルであるBodyParts3D/Anatomography <a href="#R6"><sup>6)</sup></a>（URL：<a href="http://lifesciencedb.jp/bp3d/" target="_blank">http://lifesciencedb.jp/bp3d/</a>）に発現量を反映させたヒートマップが表示される．詳細情報ページに記載された種々のIDにはそれぞれ，RefExの内部リンクやオリジナルのデータベースのサイトへの外部リンクが貼られており，同じ分類に属する遺伝子を再検索したり，RefEx自体を遺伝子検索の起点としたりすることもできる．また，リスト機能（<a href="#F1">図1d</a>）を使うと，検索結果として表示された個々の遺伝子について一時的に保存しておくことができる．リストに追加した遺伝子は，最大で3つについて，組織あるいは臓器における発現量を比較しながら，Gene Ontology <a href="#R7"><sup>7)</sup></a> などにより遺伝子に付与された機能に関する注釈情報を見比べることができる．<br />
+　最近，理化学研究所のFANTOMプロジェクト5（FANTOM5）により大量の遺伝子発現データが公開されたが<a href="#R8"><sup>8,9)</sup></a>，これらもRefExに収載されている．FANTOM5のデータは，ゲノムにコードされている遺伝子プロモーターおよび転写因子の制御ネットワークを明らかにすることを目的として得られたもので，それらを閲覧できるウェブサイトも公開されてはいるが，生命科学の多くの研究者にとって，その規模の大きさと複雑さから再利用のむずかしいものであった．RefExをつうじ，FANTOM5のヒトで556種にもおよぶ広範囲な組織や臓器における高精度な遺伝子発現データについても，可視化および比較が簡単になった．<br />
+　なお，RefExの使い方を解説した動画をライフサイエンス統合データベースセンターが提供する統合TV <a href="#R10"><sup>10)</sup></a> から公開している（URL：<a href="http://togotv.dbcls.jp/ja/20140222.html" target="_blank">http://togotv.dbcls.jp/ja/20140222.html</a>）ので，そちらも参考にされたい．</p>
+<h2><span id="2RefEx">2．RefExの活用事例</span></h2>
+<p>　RefExを利用することにより，研究の対象とする遺伝子が平常時にどの組織あるいは細胞にどのくらい発現しているのか，自ら実験することなく確認できる．また，なじみのない遺伝子に遭遇したときには，ふつうは個別の研究論文における実験データや記述などからそれらの生物学的な特徴を類推するが，RefExによれば実験のデザインに左右されない大規模かつ網羅的な測定データから自身の目でそれらを簡単に確認することができる．さらに，用意した複数の遺伝子IDについて一括で検索できる機能を備えているほか，リスト機能を用いて遺伝子の詳細データを並列に比較することができるため，遺伝子発現解析などにより見い出された遺伝子のあいだの関係性を知るためのツールとしても有用である．このような活用により，RefExは遺伝子発現解析のための強力なウェブツールとして，生命科学および医学の研究に幅広く貢献することが期待される．<br />
+　一般の社会においても，新聞の見出しなどに“やせる遺伝子，発見”のような表現がみかけられるようになり，ひとつひとつの遺伝子がどのようなはたらきをもつのか，科学の研究に裏打ちされた正確な情報がもとめられている．将来的には，研究者だけでなく，一般の人も遺伝子について検索することが日常的になり，RefExがその第1の選択肢として使われることをめざしている．</p>
+<h2><span id="3">3．データの出力機能およびデータレポジトリ</span></h2>
+<p>　RefExの提供するすべてのデータは，クリエイティブ・コモンズライセンスのもとで，オープンデータとして自由にダウンロードおよび再利用することができる．検索結果一覧ページや詳細情報ページのデータはいずれもダウンロードが可能で，自身のデータと参照することも，それらを使った再解析も自由にできる．<br />
+　また，外部の研究データレポジトリ“figshare”にも，すべてのデータがDOIつきで公開されている（URL：<a href="https://doi.org/10.6084/m9.figshare.c.3812815" target="_blank">https://doi.org/10.6084/m9.figshare.c.3812815</a>）．さらに，ソフトウェア開発プロジェクトのための共有ウェブサービス“GitHub”にも，公開データの再解析に用いたプログラムやドキュメントを整理しており（URL：<a href="https://github.com/dbcls/RefEx" target="_blank">https://github.com/dbcls/RefEx</a>），RefExの提供する再解析データについては，ある一定の評価品質および再現性を担保している．RefExは生命科学におけるデータの共有および再利用の活用例のひとつであり，データ駆動型研究のためのデータセットあるいはウェブツールとしてだれでも自由に使うことができる．</p>
+<h2><span id="i-3">おわりに</span></h2>
+<p>　RefExは，ライフサイエンス統合データベースセンターのミッションのひとつである“公共データベースの再利用の促進”の実例のひとつである．各種の遺伝子発現データを並列に整理しそれらを簡単に検索できる現在のインターフェースは，2011年にRefExとして公開をはじめたときから変わらない．RefExという名称はreference expression datasetの略であるが，米国NCBIの提供する高品質な遺伝子配列データベースRefSeq（NCBI reference sequence database）のように，誰もが参照し使われるような遺伝子発現データベースを構築したいという開発当初の目標に由来する．<br />
+　RefExは公開ののちすぐには論文にせず，サービスとしての使いやすさを向上させることを優先して開発を進めた．統合データベース講習会AJACS（URL：<a href="http://togotv.dbcls.jp/ajacs_text.html" target="_blank">http://togotv.dbcls.jp/ajacs_text.html</a>）などにおいて積極的に紹介するうちしだいに利用されるようになり，さまざまな論文においてURLを引用される機会も増えてきた．このように，遺伝子発現解析に資するサービスとしてある一定の完成度に達したことから論文としてまとめることにし，投稿先を探した．ちょうど，<em>Scientific Data</em>誌においてFANTOM5 collection（URL：<a href="http://www.nature.com/collections/fantom5" target="_blank">http://www.nature.com/collections/fantom5</a>）という特集が組まれることになり，FANTOM5のデータがRefExに収載されたことから，RefExの論文もこの特集に組み込むことになった．当初は，1次データセットについて測定の対象，方法，品質を“Data Descriptor”という形式で出版し，ウェブツールとしての部分はとりあげない方針だったが，Technical Validationを記述することや，再解析したデータのすべてを公共アーカイブサイトに公開することなどにより，新設された“Article”という形式で出版された．<br />
+　今後は，世界各地で進められているFANTOMやGTEx <a href="#R11"><sup>11)</sup></a> などの遺伝子発現に関する大規模研究プロジェクトを中心として，高精度かつ広範囲な遺伝子発現データを収集し統合することにより，より有用性の高い参照データを作成する予定である．また，それらの参照データを簡単に検索したり，発現データどうしを詳細に比較したりすることを可能にする，直感的なウェブインターフェースの開発を進めていきたいと考えている．</p>
+<h2><span id="i-4">文 献</span></h2>
+<ol>
+<li id="R1"><span class='au'>Okubo, K., Hori, N., Matoba, R. et al.</span>: <span class="ti">Large scale cDNA sequencing for analysis of quantitative and qualitative aspects of gene expression.</span> <span class='so'>Nat. Genet., 2, 173-179 (1992)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1345164" target="_blank">PubMed</a>]</span></li>
+<li id="R2"><span class='au'>Ogasawara, O., Otsuji, M., Watanabe, K. et al.</span>: <span class="ti">BodyMap-Xs: anatomical breakdown of 17 million animal ESTs for cross-species comparison of gene expression.</span> <span class='so'>Nucleic Acids Res., 34, D628-D631 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16381946" target="_blank">PubMed</a>]</span></li>
+<li id="R3"><span class='au'>Wu, C., Jin, X., Tsueng, G. et al.</span>: <span class="ti">BioGPS: building your own mash-up of gene annotations and expression profiles.</span> <span class='so'>Nucleic Acids Res., 44, D313-D316 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26578587" target="_blank">PubMed</a>]</span></li>
+<li id="R4"><span class='au'>Shiraki, T., Kondo, S., Katayama, S. et al.</span>: <span class="ti">Cap analysis gene expression for high-throughput analysis of transcriptional starting point and identification of promoter usage.</span> <span class='so'>Proc. Natl. Acad. Sci, USA, 100, 15776-15781 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14663149" target="_blank">PubMed</a>]</span></li>
+<li id="R5"><span class='au'>Sudmant, P. H., Alexis, M. S. &#038; Burge, C. B.</span>: <span class="ti">Meta-analysis of RNA-seq expression data across species, tissues and studies.</span> <span class='so'>Genome Biol., 16, 287 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26694591" target="_blank">PubMed</a>]</span></li>
+<li id="R6"><span class='au'>Mitsuhashi, N., Fujieda, K., Tamura, T. et al.</span>: <span class="ti">BodyParts3D: 3D structure database for anatomical concepts.</span> <span class='so'>Nucleic Acids Res., 37, D782-D785 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18835852" target="_blank">PubMed</a>]</span></li>
+<li id="R7"><span class='au'>Ashburner, M., Ball, C. A., Blake, J. A. et al.</span>: <span class="ti">Gene ontology: tool for the unification of biology.</span> <span class='so'>Nat. Genet., 25, 25-29 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10802651" target="_blank">PubMed</a>]</span></li>
+<li id="R8"><span class='au'>The FANTOM Consortium and the RIKEN PMI and CLST (DGT)</span>: <span class="ti">A promoter-level mammalian expression atlas.</span> <span class='so'>Nature, 507, 462-470 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24670764" target="_blank">PubMed</a>]</span></li>
+<li id="R9"><span class='au'>Lizio, M., Harshbarger, J., Shimoji, H. et al.</span>: <span class="ti">Gateways to the FANTOM5 promoter level mammalian expression atlas.</span> <span class='so'>Genome Biol., 16, 22 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25723102" target="_blank">PubMed</a>]</span></li>
+<li id="R10"><span class='au'>Kawano, S., Ono, H., Takagi, T. et al.</span>: <span class="ti">Tutorial videos of bioinformatics resources: online distribution trial in Japan named TogoTV.</span> <span class='so'>Brief. Bioinform., 13, 258-268 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21803786" target="_blank">PubMed</a>]</span></li>
+<li id="R11"><span class='au'>GTEx Consortium</span>: <span class="ti">The Genotype-Tissue Expression (GTEx) pilot analysis: multitissue gene regulation in humans.</span> <span class='so'>Science, 348, 648-660 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25954001" target="_blank">PubMed</a>]</span></li>
+</ol>
+<h2><span id="TV">活用したデータベースにかかわるキーワードと統合TVへのリンク</span></h2>
+<ul>
+<li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=GEO" target="_blank">GEO</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=EBI" target="_blank">EBI</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=DBCLS" target="_blank">DBCLS</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=塩基配列" target="_blank">塩基配列解析</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=FANTOM" target="_blank">FANTOM</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=RNA-seq" target="_blank">RNA-seq</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=CAGE" target="_blank">CAGE</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=可視化" target="_blank">可視化</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=クリエイティブ・コモンズ" target="_blank">クリエイティブ・コモンズ</a></li>
+</ul>
+<h2><span id="i-5">生命科学の教科書における関連するセクションへのリンク</span></h2>
+<p><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学 大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．</p>
+<ul>
+<li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/24_01.html" target="_blank">24.1 What is the Genome?</a></li>
+<li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/12_04.html" target="_blank">12.4 Protein Transport in Prokaryotic Cells</a></li>
+<li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/11_02.html" target="_blank">11.2 Characteristic Structures in Prokaryotes</a></li>
+<li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/01_07.html" target="_blank">1.7 Major Classification of Organisms</a></li>
+</ul>
+<div class="au-profile">
+<h2><span id="i-6">著者プロフィール</span></h2>
+<p><span class="author">小野 浩雅（Hiromasa Ono）</span><br />
+略歴：2010年 ライフサイエンス統合データベースセンター 特任技術専門員を経て，2012年より同 特任助教．</p>
+<p><strong>坊農 秀雅（Hidemasa Bono）</strong><br />
+ライフサイエンス統合データベースセンター 特任准教授．
+</div>
+<p>© 2017 小野浩雅・坊農秀雅 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a></p><h2>要 約</h2><h2>文 献</h2>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="../images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="../images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="../images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="../">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="../js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="../js/config.js"></script>
+<script src="../js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="../js/drawer-category.tag"></script>
+<script type="riot/tag" src="../js/drawer-journal.tag"></script>
+<script type="riot/tag" src="../js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

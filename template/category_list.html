@@ -1,0 +1,41 @@
+{% extends "list_base.html" %}
+{% block title %}{{ item.Title }}{% endblock %}
+
+
+
+<div class="contents-group">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            <a id="tag_1_header" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class=""
+               aria-expanded="true">【動画番組】 <span class="show_all"> さらに表示する (92)</span></a>
+        </h4>
+    </div>
+
+    <div id="tag_1_teaser" class="panel-body teaser">
+        <li class="tv_text"><a href="20181011.html"> 2018-10-11 Proteomeデータレポジトリ jPOSTrepo にデータを登録する</a></li>
+        <li class="tv_text"><a href="20180822.html"> 2018-08-22 タンパク質立体構造データベース(PDBj) @ AJACS筑波4</a></li>
+        <li class="tv_text"><a href="20180820.html"> 2018-08-20 ゲノムデータベースとそれを活用した配列解析入門 @ AJACS筑波4</a></li>
+    </div>
+
+    <div id="collapseOne" class="panel-collapse collapse in" aria-expanded="true" style="">
+        <div id="tag_1" class="panel-body collapsed">
+            <li class="tv_text"><a href="20180522.html"> 2018-05-22
+                CytoscapeのMCODEを使って、タンパク質間相互作用ネットワークからタンパク質複合体を発見する</a></li>
+            <li class="tv_text"><a href="20171223.html"> 2017-12-23 【トーゴーの日シンポジウム2017】蛋白質構造データバンクのデータ検証高度化と統合化</a></li>
+        </div>
+    </div>
+</div>
+
+
+
+
+<{{ item.name }}>
+<div>
+<h2 class="widgettitle">{{ item.title }}</h2>
+ <ul class="drawer-menu local-menu">
+  {% for l in li %}
+  <li><a href="./{{ item.target }}.htm?val={{ l.name }}">{{ l.name }}  ({{ l.val }})</a></li>
+   {% endfor %}
+ </ul>
+</div>
+</{{ item.name }}>

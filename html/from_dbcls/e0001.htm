@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 統合遺伝子検索GGRNA:遺伝子をGoogleのように検索できるウェブサーバ : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="../images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="../favicons/site.webmanifest">
+    <link rel="mask-icon" href="../favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="../css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="../webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/print.css">
+    <link rel="stylesheet" type="text/css" href="../css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="../about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="../copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="../editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="../">ホーム</a></li>
+                <li class="page_item"><a href="../about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="../copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="../editor">編集人</a></li>
+                <li class="page_item"><a href="../link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="../images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー"
+                              title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/from_dbcls/e0001" rel="bookmark">統合遺伝子検索GGRNA:遺伝子をGoogleのように検索できるウェブサーバ</a>
+                </h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <p><strong>内藤雄樹・坊農秀雅</strong><br/>
+                        （ライフサイエンス統合データベースセンター）<br/>
+                        email：<a href="mailto:y-naito@dbcls.rois.ac.jp">内藤雄樹</a>，<a href="mailto:bono@dbcls.rois.ac.jp">坊農秀雅</a><br/>
+                        DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.163">10.7875/first.author.2012.163</a>
+                    </p>
+                    <div class="reference">
+                        <span class="ti">GGRNA: an ultrafast, transcript-oriented search engine for genes and transcripts.</span><br/>
+                        <span class="au">Yuki Naito, Hidemasa Bono</span><br/>
+                        <span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22641850" target="_blank"><em>Nucleic Acids Research</em>, <strong>40</strong>, W592-W596 (2012)</a></span>
+                    </div>
+                    <p><span id="more-4895"></span></p>
+                    <div id="toc_container" class="no_bullets"><p class="toc_title">目　次</p>
+                        <ul class="toc_list">
+                            <li><a href="#i">要 約</a></li>
+                            <li><a href="#i-2">はじめに</a></li>
+                            <li><a href="#1GGRNA">1．GGRNA検索エンジンの概要</a></li>
+                            <li><a href="#2GGRNA">2．GGRNAの活用事例</a></li>
+                            <li><a href="#3API">3．データ出力機能とAPIの活用</a></li>
+                            <li><a href="#i-3">おわりに</a></li>
+                            <li><a href="#i-4">文 献</a></li>
+                            <li><a href="#i-5">生命科学の教科書における関連するセクションへのリンク</a></li>
+                            <li><a href="#TV">活用したデータベースにかかわるキーワードと統合TVへのリンク</a></li>
+                            <li><a href="#i-6">著者プロフィール</a></li>
+                        </ul>
+                    </div>
+                    <h2><span id="i">要 約</span></h2>
+                    <p>　GGRNA（<a href="http://GGRNA.dbcls.jp/" target="_blank">http://GGRNA.dbcls.jp/</a>）は，遺伝子や転写産物をGoogleのようにすばやく検索できるウェブサーバである．検索キーワードとして，遺伝子名やアクセッション番号など各種のIDをはじめ，遺伝子の機能やタンパク質のドメイン名，さらには，塩基配列やアミノ酸配列など，あらゆる語句を単一の検索窓に入力するだけでRefSeqに登録された転写産物をすばやく探し出すことができる．とくに，塩基配列の検索においてはあいまいな塩基を含むパターンやミスマッチを含む配列にも対応し，一般的な配列類似性検索サイトでは検索の困難な10塩基ほどの短い配列でも高速な検索が可能である．本稿では，GGRNAウェブサーバの概要を解説するとともに，GGRNAの具体的な活用事例を紹介する．GGRNAのすべての機能は無償で自由に利用できる．
+                    </p>
+                    <h2><span id="i-2">はじめに</span></h2>
+                    <p>
+                        　公共データベースから遺伝子を検索するという作業は，多くの生命科学系あるいは医学系の研究者にとり日常的なものであろう．しかしながら，既存のデータベースを利用して目的の遺伝子の情報をすばやく探し出すことは必ずしも容易でない．ユーザが入力する検索キーワードとしては，遺伝子名，アクセッション番号などの各種のID，遺伝子の機能に関する語句，タンパク質のドメイン名，関連する疾患，さらには，塩基配列やアミノ酸配列など，実に多様な内容が想定される．従来であれば，遺伝子名や各種IDはGenBank
+                        <a href="#R1"><sup>1)</sup></a> などの塩基配列データベースから検索し，タンパク質の機能，細胞内局在，ドメイン名，疾患などのキーワードはGene
+                        Ontologyや文献情報をたよりに探す，塩基配列やアミノ酸配列はBLAST <a href="#R2"><sup>2)</sup></a> やBLAT <a href="#R3"><sup>3)</sup></a>
+                        のような配列類似性検索ツールを用いるなど，検索キーワードの種類により複数のデータベースやウェブツールを使い分ける必要があった．しかし，これは煩雑なうえ，個々の検索に適したデータベースやウェブツールを把握していなければ効率的に情報を得ることはできない．また，GenBankなどの既存のデータベースは，ひとつの遺伝子に対し複数のエントリーが存在するなど冗長であることも多く，たとえば，単純に遺伝子名で検索した場合でさえも多数のエントリーがヒットし目的の情報になかなかたどりつけない場合も多い．さらに，現在，塩基配列やアミノ酸配列の検索において広範に利用されているBLASTのウェブサーバ<a
+                            href="#R4"><sup>4)</sup></a> は，結果が表示されるまで十秒から数十秒もかかるなど，ユーザが不便を感じることも多かった．<br/>
+                        　そこで，筆者らは，あらゆるキーワードを単一の検索窓に入力するだけで高速に遺伝子や転写産物を探せるようなウェブサービスを構築したいと考え，GGRNA（<a
+                            href="http://GGRNA.dbcls.jp/" target="_blank">http://GGRNA.dbcls.jp/</a>）を開発した（<a
+                            href="#F1">図1</a>）．</p>
+                    <p><a name="F1"></a></p>
+                    <div id="fig1-caption-text" style="display: none;"><strong>図1　統合遺伝子検索エンジンGGRNA</strong><br/>
+                        （a）トップページ（<a href="http://GGRNA.dbcls.jp/" target="_blank">http://GGRNA.dbcls.jp/</a>）．<br/>
+                        （b）検索結果の例．“PAZ domain”および“RNase”をともに含むヒトの転写産物を検索した．<br/>
+                        （c）PCRのプライマーを検索した例．“positions”に表示された数字は，マッチした配列の先頭の位置を示す．<br/>
+                        （d）Affymetrix社のマイクロアレイにおけるプローブセット“1552311_a_at”を検索した例．キーワードが11本のプローブ配列に変換され，それらをすべて含む転写産物がヒットする．<br/>
+                        <a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Naito-Nucleic-Acids-Research-12.5.23-Fig.1.jpg"
+                           target="_blank">[Download]</a></div>
+                    <div id="figure1" class="hs-figure">
+                        <div class="hs-figure-box"><a class="highslide" title="$(fig1-caption-text)"
+                                                      onclick="return hs.expand(this, {captionText: $('fig1-caption-text').innerHTML})"
+                                                      href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Naito-Nucleic-Acids-Research-12.5.23-Fig.1.jpg"
+                                                      target="_blank"><img
+                                src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Naito-Nucleic-Acids-Research-12.5.23-Fig.1.jpg"
+                                alt="figure1" width="200px"/></a></div>
+                        <div id="fig1-caption" class="hs-figure-caption"></div>
+                    </div>
+                    <script type='text/javascript'>$('fig1-caption').innerHTML = $('fig1-caption-text').innerHTML;</script>
+                    <div style='clear:both;'></div>
+                    <h2><span id="1GGRNA">1．GGRNA検索エンジンの概要</span></h2>
+                    <p>　GGRNAでは，多様な検索キーワードを用いて遺伝子や転写産物を探せるよう，複数の公共データベースに由来する情報をRefSeq <a href="#R5"><sup>5)</sup></a>
+                        の転写産物にひもづけて整理した“GGRNAデータベース”を構築している．RefSeqとは米国NCBI（National Center for Biotechnology
+                        Information）の提供する重複のない塩基配列およびアミノ酸配列のデータベースで，GenBank/EMBL/DDBJ国際塩基配列データベース<a
+                                href="#R6"><sup>6)</sup></a>（INSDC）に登録された配列のなかから代表となるものをNCBIのスタッフが選択し注釈をつけたデータセットである．RefSeqにはゲノム，mRNA，非コードRNA，タンパク質の情報が登録されているが，GGRNAではこのうちmRNAおよび非コードRNAの情報を用いている．重複のないRefSeqを基盤とすることにより検索の際に多数の転写産物が重複してヒットしてしまうことを防いでいる．さらに，これらの転写産物に対して，Gene
+                        OntologyのID/termや酵素EC番号に関する情報などをNCBI Entrez <a href="#R7"><sup>7)</sup></a>
+                        の情報を利用してひもづけることでGGRNAデータベースとしている．現時点で，GGRNAデータベースはヒト，マウス，ラット，ニワトリ，ツメガエル，ゼブラフィッシュ，ショウジョウバエ，線虫，ホヤ，シロイヌナズナ，イネ，出芽酵母，分裂酵母について構築されており，RefSeqのアップデートにあわせ2ヶ月に1回の頻度で再構築を行っている．<br/>
+                        　このGGRNAデータベースを高速に検索するため，遺伝子名やIDなど一部のキーワードはMySQLにより検索，それ以外のキーワードはSedue（Preferred
+                        Infrastructure社）により全文検索を行っている．Sedueは圧縮接尾辞配列<a href="#R8"><sup>8)</sup></a>
+                        のインデックスをメモリに保持することによりもれのない検索をきわめて高速に実行できるソフトウェアで，テキストの検索のみならず，塩基配列やアミノ酸配列の検索にも適している．たとえば，GGRNAにおいて10塩基からなる塩基配列<a
+                                href="http://ggrna.dbcls.jp/search.cgi?query=GACCTTGAAC"
+                                target="_blank">“GACCTTGAAC”</a>や4アミノ酸残基からなるアミノ酸配列<a
+                                href="http://ggrna.dbcls.jp/search.cgi?query=IETD" target="_blank">“IETD”</a>を検索すると，どちらも1秒以内に結果が返ってくる．検索時間はほとんどのキーワードにおいて数秒であるが，ヒット件数が極端に多い場合は圧縮接尾辞配列の解凍に時間を要するため10秒以上かかる場合もある．<br/>
+                        　GGRNAのトップページ（<a href="#F1">図1a</a>），および，検索結果（<a href="#F1">図1b</a>）を示す．“PAZ
+                        domain”および“RNase”をともに含むヒトの転写産物を検索すると，検索結果は，この検索キーワードがハイライトされて表示される．<br/>
+                        　GGRNAでは，Googleと同様の方法によりいくつかの検索オプションを指定することができる．たとえば，“VIM”をキーワードとして検索すると，ビメンチン（VIM）の遺伝子，アミノ酸配列としての“VIM”（Val-Ile-Met），文献の著者としての“Kivimaki”などがすべてヒットするが，<a
+                                href="http://ggrna.dbcls.jp/search.cgi?query=symbol%3AVIM"
+                                target="_blank">“symbol:VIM”</a>，<a
+                                href="http://ggrna.dbcls.jp/search.cgi?query=aa%3AVIM" target="_blank">“aa:VIM”</a>，<a
+                                href="http://ggrna.dbcls.jp/search.cgi?query=ref%3AKivimaki" target="_blank">“ref:Kivimaki”</a>のように検索タグをつけることによりキーワードの種類を特定して検索することができる．また，<a
+                                href="http://ggrna.dbcls.jp/search.cgi?query=seq3%3ACAAGGAGAGATGGGACAC" target="_blank">“seq3:CAAGGAGAGATGGGACAC”</a>として3塩基までのミスマッチを許容して検索したり，<a
+                                href="http://ggrna.dbcls.jp/search.cgi?query=iub%3AYYAAGGNNNAGACAC" target="_blank">“iub:YYAAGGNNNAGACAC”</a>としてあいまい塩基（N，R，Y，Sなど）を展開して検索したりすることも可能である．GGRNAで使用可能なタグの一覧は<a
+                                href="http://ggrna.dbcls.jp/help.html" target="_blank">ヘルプページ</a>を参照してほしい．<br/>
+                        　また，これらの検索タグを覚えていなくても同等の検索を簡単に行えるよう，別に<a href="http://ggrna.dbcls.jp/advanced.html"
+                                                                 target="_blank">Advanced search</a>というページを用意している．このページのそれぞれの欄に検索キーワードを入れることで，検索タグと同様にキーワードの種類を限定して検索することができる．
+                    </p>
+                    <h2><span id="2GGRNA">2．GGRNAの活用事例</span></h2>
+                    <p>　以下に，GGRNAの活用事例を紹介する．なお，使い方を解説した動画をライフサイエンス統合データベースセンターが提供する<a href="http://togotv.dbcls.jp/"
+                                                                                      target="_blank">統合TV</a> <a
+                            href="#R9"><sup>9)</sup></a>から公開しているので，そちらも参考にされたい．</p>
+                    <p><strong>・PCRのプライマー配列から増幅遺伝子や増幅領域を確認する</strong>　　<a
+                            href="http://ggrna.dbcls.jp/search.cgi?query=CTAGCTGCCAAAGAAGGACAT+comp%3ACAATGAGATGTTGTCGTGCTC"
+                            target="_blank">CTAGCTGCCAAAGAAGGACAT comp:CAATGAGATGTTGTCGTGCTC</a>のようにして，fowardプライマーの配列と，reverseプライマーの相補鎖の配列とを同時に検索すれば，PCRで増幅する遺伝子や増幅領域を確認できる．“comp:”は相補鎖検索のオプションである．この例をヒトにおいて検索すると，<em>NFKB1</em>遺伝子の2つの転写産物（NM_001165412，NM_003998）がヒットする（<a
+                            href="#F1">図1c</a>）．塩基配列やアミノ酸配列がヒットした場合は先頭の位置が数字で表示されるので，PCR産物の長さも計算できる．</p>
+                    <p><strong>・マイクロアレイのプローブIDから塩基配列を検索する</strong>　　マイクロアレイのプローブIDをGGRNAで検索すると，自動的にプローブの配列へと変換したうえでその結合部位を検索してくれる．たとえば，Affymetrix社のマイクロアレイのプローブセットID<a
+                            href="http://ggrna.dbcls.jp/search.cgi?query=1552311_a_at"
+                            target="_blank">“1552311_a_at”</a>を検索すると，これに対応する25
+                        merのプローブ配列×11本に変換され，それらの配列すべてにマッチする転写産物がヒットする（<a href="#F1">図1d</a>）．Agilent社のマイクロアレイのプローブID<a
+                                href="http://ggrna.dbcls.jp/search.cgi?query=A_23_P101434" target="_blank">“A_23_P101434”</a>の場合は，60
+                        merのプローブ配列×1本に変換されて検索が行われる．</p>
+                    <p><strong>・タンパク質のモチーフ検索</strong>　　タンパク質のC末端に存在するKDEL配列は小胞体係留シグナルとして機能することが知られている<a
+                            href="#R10"><sup>10)</sup></a>．そこで，GGRNAにおいて<a
+                            href="http://ggrna.dbcls.jp/search.cgi?query=aa%3AKDEL" target="_blank">“aa:KDEL”</a>と検索すると，RefSeq
+                        release 52（2012年3月）の時点で359件がヒットした．しかし，このなかにはC末端以外の部位にKDELという配列をもつものも多数含まれる．一方，Gene
+                        Ontologyにおいて小胞体を表す<a href="http://ggrna.dbcls.jp/search.cgi?query=GO%3A0005783" target="_blank">“GO:0005783”</a>を検索すると，1985件がヒットした．この2つのAND検索<a
+                                href="http://ggrna.dbcls.jp/search.cgi?query=aa%3AKDEL+GO%3A0005783" target="_blank">aa:KDEL
+                            GO:0005783</a>では28件がヒットし，このうち13件でC末端にKDEL配列が存在した．現時点では，C末端のKDELという配列を検索する方法は提供していないが，配列とそれ以外のキーワードとを組み合わせて思いついたことを気軽に検索できる点は，GGRNAの強みであると思われる．
+                    </p>
+                    <h2><span id="3API">3．データ出力機能とAPIの活用</span></h2>
+                    <p>
+                        　GGRNAの検索結果を外部のソフトで利用しやすいよう，タブ区切りテキストを出力する機能を用意している．検索結果の最下部にあるテキストボックスからタブ区切りテキストをコピー＆ペーストするか，あるいは，ダウンロードボタンによりファイルを保存することができる．<br/>
+                        　また，GGRNAはREST APIを提供しておりウェブ検索と同じ結果をタブ区切りテキストまたはJSON形式にて得ることができる．詳細は<a
+                            href="http://ggrna.dbcls.jp/help.html" target="_blank">ヘルプページ</a>を参照してほしい．</p>
+                    <h2><span id="i-3">おわりに</span></h2>
+                    <p>
+                        　GGRNAという名称は“GoogleライクなRNA検索エンジン”を意味するが，筆者らは，開発の初期から非公式にGGRNAを“ぐぐるな”と発音している．Googleのように強力で誰にでも使いやすい検索エンジンをめざし，遺伝子の検索においてはググらなくてもこのサービスにより効率的に情報を得られるようにしたいという目標がある．<br/>
+                        　現時点で，GGRNAはRefSeqで提供されている生物種のうち13種に対応しているが，2012年度中にRefSeqの全体，さらには，GenBank/EMBL/DDBJ国際塩基配列データベースに登録されたゲノム以外の配列全体を検索できるよう，DDBJ（DNA
+                        Data Bank of Japan，日本DNAデータバンク）と協力しながら開発を進めていきたいと考えている．GGRNAが読者の日々の研究に少しでも役だてば幸いである．</p>
+                    <h2><span id="i-4">文 献</span></h2>
+                    <ol>
+                        <li id="R1"><span class='au'>Benson, D. A., Karsch-Mizrachi, I., Clark, K. et al.</span>: <span
+                                class="ti">GenBank.</span> <span class='so'>Nucleic Acids Res., 40, D48-D53 (2012)[<a
+                                href="http://www.ncbi.nlm.nih.gov/pubmed/22144687" target="_blank">PubMed</a>]</span>
+                        </li>
+                        <li id="R2"><span class='au'>Altschul, S. F., Gish, W., Miller, W. et al.</span>: <span
+                                class="ti">Basic local alignment search tool.</span> <span class='so'>J. Mol. Biol., 215, 403-410 (1990)[<a
+                                href="http://www.ncbi.nlm.nih.gov/pubmed/2231712" target="_blank">PubMed</a>]</span>
+                        </li>
+                        <li id="R3"><span class='au'>Kent, W. J.</span>: <span class="ti">BLAT: the BLAST-like alignment tool.</span>
+                            <span class='so'>Genome Res., 12, 656-664 (2002)[<a
+                                    href="http://www.ncbi.nlm.nih.gov/pubmed/11932250"
+                                    target="_blank">PubMed</a>]</span></li>
+                        <li id="R4"><span class='au'>Johnson, M., Zaretskaya, I., Raytselis, Y. et al.</span>: <span
+                                class="ti">NCBI BLAST: a better web interface.</span> <span class='so'>Nucleic Acids Res., 36, W5-W9 (2008)[<a
+                                href="http://www.ncbi.nlm.nih.gov/pubmed/18440982" target="_blank">PubMed</a>]</span>
+                        </li>
+                        <li id="R5"><span class='au'>Pruitt, K. D., Tatusova, T., Brown, G. R. et al.</span>: <span
+                                class="ti">NCBI Reference Sequences (RefSeq): current status, new features and genome annotation policy.</span>
+                            <span class='so'>Nucleic Acids Res., 40, D130-D135 (2012)[<a
+                                    href="http://www.ncbi.nlm.nih.gov/pubmed/22121212"
+                                    target="_blank">PubMed</a>]</span></li>
+                        <li id="R6"><span class='au'>Karsch-Mizrachi, I., Nakamura, Y., Cochrane, G.; International Nucleotide Sequence Database Collaboration.</span>:
+                            <span class="ti">The International Nucleotide Sequence Database Collaboration.</span> <span
+                                    class='so'>Nucleic Acids Res., 40, D33-D37 (2012)[<a
+                                    href="http://www.ncbi.nlm.nih.gov/pubmed/22080546"
+                                    target="_blank">PubMed</a>]</span></li>
+                        <li id="R7"><span class='au'>Maglott, D., Ostell, J., Pruitt, K. D. et al.</span>: <span
+                                class="ti">Entrez Gene: gene-centered information at NCBI.</span> <span class='so'>Nucleic Acids Res., 39, D52-D57 (2011)[<a
+                                href="http://www.ncbi.nlm.nih.gov/pubmed/21115458" target="_blank">PubMed</a>]</span>
+                        </li>
+                        <li id="R8"><span class='au'>Grossi, R. &#038; Vitter, J. S.</span>: <span class="ti">Compressed suffix arrays and suffix trees with applications to text indexing and string matching.</span>
+                            <span class='so'>Proc. 32nd ACM Symposium on Theory of Computing, 397-406 (2000)</span></li>
+                        <li id="R9"><span class='au'>Kawano, S., Ono, H., Takagi, T. et al.</span>: <span class="ti">Tutorial videos of bioinformatics resources: online distribution trial in Japan named TogoTV.</span>
+                            <span class='so'>Brief. Bioinform., 13, 258-268 (2012)[<a
+                                    href="http://www.ncbi.nlm.nih.gov/pubmed/21803786"
+                                    target="_blank">PubMed</a>]</span></li>
+                        <li id="R10"><span class='au'>Munro, S. &#038; Pelham, H. R.</span>: <span class="ti">A C-terminal signal prevents secretion of luminal ER proteins.</span>
+                            <span class='so'>Cell, 48, 899-907 (1987)[<a
+                                    href="http://www.ncbi.nlm.nih.gov/pubmed/3545499" target="_blank">PubMed</a>]</span>
+                        </li>
+                    </ol>
+                    <h2><span id="i-5">生命科学の教科書における関連するセクションへのリンク</span></h2>
+                    <p><a href="http://www.adves.c.u-tokyo.ac.jp/" target="_blank">東京大学
+                        大学院総合文化研究科・教養学部附属教養教育高度化機構自然科学教育高度化部門</a>から公開されている生命科学の教科書 “<a
+                            href="http://csls-text3.c.u-tokyo.ac.jp/" target="_blank">A Comprehensive Approach To LIFE
+                        SCIENCE</a>”（羊土社『理系総合のための生命科学 第2版』の英語版）における関連するセクションへのリンクです．</p>
+                    <ul>
+                        <li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/08_01.html" target="_blank">8.1 Gene
+                            Transcription and Expression</a></li>
+                        <li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/07_03.html" target="_blank">7.3 Genes
+                            and DNA</a></li>
+                        <li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/07_02.html" target="_blank">7.2 Cell
+                            Proliferation and DNA Replication</a></li>
+                        <li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/24_01.html" target="_blank">24.1 What is
+                            the Genome?</a></li>
+                        <li><a href="http://csls-text3.c.u-tokyo.ac.jp/inactive/09_03.html" target="_blank">9.3 mRNA
+                            Structure</a></li>
+                    </ul>
+                    <h2><span id="TV">活用したデータベースにかかわるキーワードと統合TVへのリンク</span></h2>
+                    <ul>
+                        <li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li>
+                        <li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=DBCLS" target="_blank">DBCLS</a></li>
+                        <li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=塩基配列" target="_blank">塩基配列解析</a></li>
+                        <li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アミノ酸" target="_blank">アミノ酸配列解析</a></li>
+                        <li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アラインメント" target="_blank">アラインメント</a></li>
+                        <li><a href="http://togotv.dbcls.jp/ja/?search=RefSeq" target="_blank">RefSeq</a></li>
+                    </ul>
+                    <div class="au-profile">
+                        <h2><span id="i-6">著者プロフィール</span></h2>
+                        <p><span class="author">内藤 雄樹（Yuki Naito）</span><br/>
+                            略歴：2007年 東京大学大学院理学系研究科博士課程 修了，同年 東京大学大学院理学系研究科 助教を経て，2011年よりライフサイエンス統合データベースセンター 特任助教．</p>
+                        <p><strong>坊農 秀雅（Hidemasa Bono）</strong><br/>
+                            ライフサイエンス統合データベースセンター 特任准教授．
+                    </div>
+                    <p>© 2012 内藤雄樹・坊農秀雅 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/"
+                                                          target="_blank">CC 表示 2.1 日本</a></p>
+                    <h2>要 約</h2>
+                    <h2>文 献</h2>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="../images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="../images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a
+                                href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="../images/logo_riyo_yoko_400.png"
+                                                                        width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db"
+                                                              name="targetdb" value="refex" checked> キーワードをアノテーションする
+                            </div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="../">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="../js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="../js/config.js"></script>
+<script src="../js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="../js/drawer-category.tag"></script>
+<script type="riot/tag" src="../js/drawer-journal.tag"></script>
+<script type="riot/tag" src="../js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new
+        Set(this)
+    ]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change', '#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if (!prop) {
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            } else {
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+<
+/body>
+< /html>

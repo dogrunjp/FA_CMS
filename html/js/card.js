@@ -10,13 +10,13 @@ jQuery(document).ready(function ($) {
             var rows = 0;
             cards.forEach(function (v, i, a) {
                 $(".hc-refers").empty();
-                console.log(v["dbname"]);
+                //console.log(v["dbname"]);
                 $.ajax({
                     type: v.ajax_conf.type,
                     url: v.get_url(kw),
                     dataType: v.ajax_conf.dataType
                 }, cards).then(function (d) {
-                    console.log(v["dbname"])
+                    //console.log(v["dbname"])
                     var req_type = v["request_type"];
                     var pages = parser[req_type](d);
                     if (pages.length > 0) {

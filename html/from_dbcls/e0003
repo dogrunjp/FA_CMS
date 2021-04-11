@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> PubCaseFinder:症例報告を活用した希少疾患および遺伝性疾患の診断を支援するウェブサービス : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="../images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="../favicons/site.webmanifest">
+    <link rel="mask-icon" href="../favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="../css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="../webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/print.css">
+    <link rel="stylesheet" type="text/css" href="../css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="../about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="../copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="../editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="../">ホーム</a></li>
+                <li class="page_item"><a href="../about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="../copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="../editor">編集人</a></li>
+                <li class="page_item"><a href="../link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="../images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><a href="http://first.lifesciencedb.jp/from_dbcls/e0003" rel="bookmark">PubCaseFinder:症例報告を活用した希少疾患および遺伝性疾患の診断を支援するウェブサービス</a></h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <p><strong>藤原 豊史</strong><br />
+（ライフサイエンス統合データベースセンター）<br />
+email：<a href="mailto:fujiwara@dbcls.rois.ac.jp">藤原 豊史</a><br />
+DOI: <a href="http://dx.doi.org/10.7875/first.author.2018.105">10.7875/first.author.2018.105</a></p>
+<div class="reference">
+<span class="ti">PubCaseFinder: a case-report-based, phenotype-driven differential-diagnosis system for rare diseases.</span><br />
+<span class="au">Toyofumi Fujiwara, Yasunori Yamamoto, Jin-Dong Kim, Orion Buske, Toshihisa Takagi</span><br />
+<span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/30173820" target="_blank"><em>American Journal of Human Genetics</em>, <strong>103</strong>, 389-399 (2018)</a></span></div>
+<p><span id="more-18795"></span></p>
+<div id="toc_container" class="no_bullets"><p class="toc_title">目　次</p><ul class="toc_list"><li><a href="#i">要 約</a></li><li><a href="#i-2">はじめに</a></li><li><a href="#1PubCaseFinder">1．PubCaseFinderの概要</a></li><li><a href="#2PubCaseFinder">2．PubCaseFinderの利用</a></li><li><a href="#3">3．疾患に関連する症状の取得および疾患に対するランキングの精度の評価</a></li><li><a href="#4">4．国内外のほかのシステムとの連携</a></li><li><a href="#i-3">おわりに</a></li><li><a href="#i-4">文 献</a></li><li><a href="#TV">活用したデータベースにかかわるキーワードと統合TVへのリンク</a></li><li><a href="#i-5">著者プロフィール</a></li></ul></div>
+<h2><span id="i">要 約</span></h2>
+<p>　筆者らは，希少疾患および遺伝性疾患の診断を支援する医療関係者むけのウェブサービスとしてPubCaseFinderを開発した．希少疾患および遺伝性疾患については，診断のつかない多くの患者が存在する．PubCaseFinderは，患者の症状をキーワードとして，約4000件の希少疾患，約7000件の遺伝性疾患，約30万件の症例報告を対象に，疾患名および症例報告を関連性の高い順にランキングとして提示する．上位にランキングされた疾患名は患者の診断の候補として可能性が高く，また，上位にランキングされた症例報告は患者と症状の類似する過去の症例であり診断に役だてることができる．PubCaseFinderのすべての機能はウェブサービスとして無償で自由に利用できる．</p>
+<h2><span id="i-2">はじめに</span></h2>
+<p>　希少疾患および遺伝性疾患は6000以上も存在し，適切な治療のためには早期の診断が必要であるが，実際には，診断まで多くの時間を要している<a href="#R1"><sup>1)</sup></a>．そこで近年では，早期の診断を目的として希少疾患あるいは遺伝性疾患の疑われる未診断の患者を対象にエキソーム解析などゲノム解析を実施するプロジェクトが世界各国で進められている<a href="#R2"><sup>2)</sup></a>．しかし，それらプロジェクトにおける診断率は25～40％と報告されており<a href="#R3"><sup>3)</sup></a>，患者の60％以上はゲノム解析を用いても診断がつかない．また，未診断のすべての患者がゲノム解析を容易にうけられるわけではない．<br />
+　これら患者の早期の診断のためには，医療関係者が希少疾患および遺伝性疾患の情報や過去の症例を容易に検索できる環境の整備が重要である<a href="#R4"><sup>4)</sup></a>．筆者らは，患者の症状を入力するだけで関連する希少疾患および遺伝性疾患の候補を可能性の高い順にランキングとして提示する，医療関係者むけの希少疾患および遺伝性疾患の診断を支援するウェブサービスとして，PubCaseFinder（<a href="https://pubcasefinder.dbcls.jp" target="_blank">https://pubcasefinder.dbcls.jp</a>）を開発した．</p>
+<h2><span id="1PubCaseFinder">1．PubCaseFinderの概要</span></h2>
+<p>　PubCaseFinderは，希少疾患のデータベースであるOrphanet（<a href="https://www.orpha.net/" target="_blank">https://www.orpha.net</a>）に含まれる約4000件の疾患，および，遺伝性疾患のデータベースであるOMIM（<a href="https://www.omim.org" target="_blank">https://www.omim.org</a>）に含まれる約7000件の疾患を対象とする．また，おのおのの疾患にはPubMed（<a href="https://www.ncbi.nlm.nih.gov/pubmed/" target="_blank">https://www.ncbi.nlm.nih.gov/pubmed/</a>）から取得した約30万件の症例報告をひもづけてあり，疾患ごとに関連性の高い過去の症例を検索することができる．PubCaseFinderは，診断の候補として可能性の高い疾患を提示し，さらには，患者と類似する過去の症例を提示することにより診断を支援する．<br />
+　患者の症状をもとに疾患および症例報告をランキングするためには，あらかじめ，疾患に対しては過去に報告された症状をひもづけ，症例報告に対しては記載された症状をひもづける必要がある．“患者の症状のセットと疾患の症状のセット”あるいは“患者の症状のセットと症例報告の症状のセット”を比較し，その類似度により疾患名または症例報告をランキングする．Orphanetに収納された希少疾患については，文献から抽出された疾患に対する症状の情報が公開されている．また，OMIMに収納された遺伝性疾患については，Human Phenotype Ontology（HPO，<a href="https://hpo.jax.org" target="_blank">https://hpo.jax.org</a>）コンソーシアムにより，文献から抽出された疾患に対する症状の情報が公開されている<a href="#R4"><sup>4)</sup></a>．しかし，これらの情報はおもにキュレーターが手動で抽出しているため，その精度は高いものの情報の不足が問題となっている<a href="#R5"><sup>5)</sup></a>．そこで，Orphanetに収載された希少疾患に対する症状を，PubMedに収納されている約100万件の症例報告からテキストマイニングの技術を用いて自動的に抽出した．この自動的に抽出された症状とOrphanetが提供する症状とをあわせて利用した場合に疾患のランキングの精度が向上するかどうか，希少疾患の症例のデータセットを用いて評価した結果，自動的に抽出された疾患に対する症状の情報が有効であることが確認された．</p>
+<h2><span id="2PubCaseFinder">2．PubCaseFinderの利用</span></h2>
+<p>　PubCaseFinderにおける検索は，患者の症状を入力するところからはじまる（<a href="#F1">図1</a>）．症状はHPOに含まれる約13,000の用語から選択する．HPOは，ヒトの遺伝性疾患においてよくみられる症状を記述する標準的な用語を提供するために，おのおのの疾患の専門家によりキュレーションされたオントロジーである．現在，PubCaseFinderが利用しているバージョンreleases/2017-06-30は，12,786の用語から構成され，9473の症状の定義および16,320の類義語を含み，また，16,443の用語間の上位概念と下位概念との関係を含む．HPOは英語だけでなく日本語を含む複数の言語への対応が進められており，PubCaseFinderは英語および日本語による症状の入力に対応している．</p>
+<p><a name="F1"></a></p>
+<div id="fig1-caption-text" style="display: none;"><strong>図1　希少疾患および遺伝性疾患の診断を支援するウェブサービスPubCaseFinder</strong><br />
+1）症状を文字列から検索．2）症状の定義および類義語，および，上位概念および下位概念の参照．3）患者の症状と関連性の高い順に希少疾患および遺伝性疾患を表示．4）疾患の原因遺伝子による希少疾患および遺伝性疾患のランキングの絞り込み．5）患者の症状と関連性の高い順に症例報告を表示．<br />
+<a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fujiwara-American-Journal-of-Human-Genetics-18.8.30-Fig.1.jpg" target="_blank">[Download]</a></div>
+<div id="figure1" class="hs-figure"><div class="hs-figure-box"><a class="highslide" title="$(fig1-caption-text)" onclick="return hs.expand(this, {captionText: $('fig1-caption-text').innerHTML})" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fujiwara-American-Journal-of-Human-Genetics-18.8.30-Fig.1.jpg" target="_blank"><img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fujiwara-American-Journal-of-Human-Genetics-18.8.30-Fig.1.jpg" alt="figure1" width="200px" /></a></div><div id="fig1-caption" class="hs-figure-caption"></div></div><script type='text/javascript'>$('fig1-caption').innerHTML = $('fig1-caption-text').innerHTML;</script><div style='clear:both;'></div>
+<p>　HPOの用語数は約13,000と膨大であり，目的の症状をさがすのは容易ではない．そこで，PubCaseFinderは目的の症状を簡単にさがすため2つの機能を提供している．症状検索機能においては，文字列を入力すると，その文字列を含むすべての症状が約100万件の症例報告における出現頻度の順に表示される．また，症状階層探索機能においては，入力した症状をクリックするとその症状の定義および類義語を確認することができ，さらに，上位概念となる症状および下位概念となる症状が表示され症状の階層を自由に探索できる．この2つの機能を利用することにより，最初から目的の症状をさがせなくても，おおよその症状を検索しその周辺の症状を探索することにより，目的の症状を効率的にさがしだすことができる．<br />
+　症状を入力し検索を実行すると，OrphanetおよびOMIMにおける疾患のランキングが同時に提示される．おのおのの疾患には，入力された症状のセットとオントロジーにおいてもっとも近い症状のセット，疾患の原因遺伝子，疾患の定義，Google画像検索，症例報告の検索のリンクが表示される．これらの情報は，おのおのの疾患を診断の候補として検討する際に活用できる．また，“疾患を絞り込む”に疾患の原因遺伝子を入力することによりランキングを絞り込むことができる．この機能は，患者のゲノム解析により疾患の原因遺伝子の候補となる複数の遺伝子を取得した場合などに活用できる．つまり，この絞り込みの機能を利用すれば患者の症状と遺伝情報の両方を利用して診断の候補となる疾患を検索できる．ランキングの結果はダウンロードでき，OrphanetあるいはOMIMにおいてトップ10にランキングされた疾患のみをまとめてダウンロードすることも可能である．<br />
+　おのおのの疾患に対する症例報告は，症例報告のタイトルおよびアブストラクトに含まれる疾患名をもとにひもづけてあり，疾患ごとに症例報告を検索することができる．症例報告も患者の症状と関連の高い順にランキングとして表示される．おのおのの症例報告には，入力された症状のセットとオントロジーにおいてもっとも近い症状のセット，症例報告に含まれる遺伝子名およびバリアントの情報，PubMedによりタグづけされたMeSHの用語が表示される．これらの情報をもとに症例報告を絞り込むことが可能で，たとえば，“症例報告を絞り込む”に“infant”と入力すれば幼児の症例報告を絞り込むことができる．</p>
+<h2><span id="3">3．疾患に関連する症状の取得および疾患に対するランキングの精度の評価</span></h2>
+<p>　Orphanetは2478の疾患に対し51,590件の疾患に対する症状の情報を提供しているが，情報の不足が課題となっている．症例の数が少ない希少疾患あるいは遺伝性疾患における疾患に対する症状の情報の抽出には，少数の症例についてまれな症状や薬剤の副作用を報告する症例報告が有効であることが報告されている<a href="#R6"><sup>6)</sup></a>．また，症例報告および症例報告を掲載するジャーナルは年々増加している．そこで，より多くの疾患に対する症状の情報を取得するため，PubMedに収納されている症例報告を活用した．<br />
+　症例報告のタイトルおよびアブストラクトから，症状としてHPOの用語を，Orphanetの疾患名としてOrphanet Rare Disease Ontology（ORDO，<a href="http://www.orphadata.org/" target="_blank">http://www.orphadata.org/</a>）の用語を抽出し，それらの情報から疾患に対する症状の情報を抽出した．オントロジーの用語のテキストからの抽出には複数のツールが存在するが，よく利用されているNCBO Annotator，MetaMap，ConceptMapperについて，8つのオントロジーに対する抽出の精度が比較され7つのオントロジーにおいてConceptMapperがもっともよいと報告されている<a href="#R7"><sup>7)</sup></a>．筆者らも，これら3つのツールについて処理の速度を比較した結果，ConceptMapperはほかのツールよりも50倍以上も高速であることが確認された．これらの結果からConceptMapperを採用し，HPOおよびORDOの用語を抽出した．そして，同一のセンテンスにおいてHPOの用語とORDOの用語とが共起している場合に，それらを疾患に対する症状の情報として抽出した．これは単純な方法ではあるが，過去の複数のプロジェクトにおいてよい結果が得られている<a href="#R8"><sup>8)</sup></a>．その結果，Orphanetの3072の疾患に対し70,011件の疾患に対する症状の情報を取得した．Orphanetの提供する情報との重複を除くと新たに取得した情報は64,794件で，Orphanetの提供する情報から約1.26倍に増加した．<br />
+　症例報告から抽出された疾患に対する症状の情報がランキングの精度の向上に有効であるかどうか，希少疾患の患者から得た症例のデータセットを用いて評価した．症例のデータセットとしては，カナダにおけるプロジェクトCare4Rare（<a href="http://care4rare.ca" target="_blank">http://care4rare.ca</a>）において収集された135件の症例を利用した．おのおのの症例には複数の症状がHPOの用語により割りあてられており，診断名としてOMIM IDが割りあてられている．Orphanetの疾患において評価するため，ORDOを用いて診断名のOMIM IDをOrphanet IDに変換した．そして，Orphanetの提供する疾患に対する症状の情報のみを利用した場合，Orphanetの提供する疾患に対する症状の情報と症例報告から抽出した疾患に対する症状の情報をあわせて利用した場合，希少疾患の診断を支援する既知のシステムであるOrphamizer（<a href="http://compbio.charite.de/phenomizer_orphanet/" target="_blank">http://compbio.charite.de/phenomizer_orphanet/</a>）を利用した場合，のそれぞれについて，症例のデータセットから疾患のランキングを取得した．ランキングの再現率を計算した結果，Orphanetの提供する疾患に対する症状の情報のみを利用した場合よりも症例報告から抽出した疾患に対する症状の情報もあわせて利用した場合のほうが精度は高く，また，OrphamizerよりもPubCaseFinderのランキングのほうが精度の高いことが確認された．これらの結果から，症例報告から自動的に抽出した疾患に対する症状の情報が疾患のランキングに対する精度の向上に有効であることが示された．</p>
+<h2><span id="4">4．国内外のほかのシステムとの連携</span></h2>
+<p>　PubCaseFinderが多くの医療関係者に活用されるよう，PubCaseFinderのAPIをGlobal Alliance for Genomics and Health（GA4GH，<a href="https://www.ga4gh.org/" target="_blank">https://www.ga4gh.org/</a>）のドライバープロジェクトであるMatchmaker Exchange（<a href="https://www.matchmakerexchange.org" target="_blank">https://www.matchmakerexchange.org</a>）のAPIとして提供している．Matchmaker Exchangeは各国の症例リポジトリが症例のデータを共有するための取り組みで，成果として，すでに多くの新規の疾患が定義され，また，疾患の原因となる多くの変異が同定されている<a href="#R9"><sup>9)</sup></a>．それらの症例リポジトリのうち，日本の未診断疾患イニシアチブ（<a href="https://www.irud.jp" target="_blank">https://www.irud.jp</a>），カナダのPhenomeCentral（<a href="https://www.phenomecentral.org" target="_blank">https://www.phenomecentral.org</a>），オーストラリアのPatientArchive（<a href="http://patientarchive.org" target="_blank">http://patientarchive.org</a>）が，Matchmaker ExchangeのAPIを経由してPubCaseFinderの疾患および症例報告を検索する機能を活用している．今後は，症例リポジトリだけではなく，日本人のゲノム情報についての統合データベースであるTogoVar（<a href="https://togovar.biosciencedbc.jp" target="_blank">https://togovar.biosciencedbc.jp</a>）との連携や，オープンソースによる症例の登録システムであるPhenoTips（<a href="https://phenotips.org" target="_blank">https://phenotips.org</a>）との連携を進め，PubCaseFinderの機能を拡張する予定である．</p>
+<h2><span id="i-3">おわりに</span></h2>
+<p>　近年，希少疾患および遺伝性疾患が疑われる患者の診断を支援するため，PubCaseFinderと同様に，患者の症状から関連性の高い疾患を検索するシステムが数多く開発されている<a href="#R4"><sup>4)</sup></a>．今後，エキソーム解析や全ゲノム解析などを適用しても診断のつかない患者に対しこれらシステムがよりよい支援を行うためには，疾患に対するランキングの精度のさらなる向上が重要であり，疾患に対する症状の情報の整備や，症状セットどうしの類似度を計算する手法の改良が必要とされている．</p>
+<h2><span id="i-4">文 献</span></h2>
+<ol>
+<li id="R1"><span class='au'>Yu, H. &#038; Zhang, V. W.</span>: <span class="ti">Precision medicine for continuing phenotype expansion of human genetic diseases.</span> <span class='so'>Biomed Res. Int., 2015, 745043 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26137492" target="_blank">PubMed</a>]</span></li>
+<li id="R2"><span class='au'>Stranneheim, H. &#038; Wedell, A.</span>: <span class="ti">Exome and genome sequencing: a revolution for the discovery and diagnosis of monogenic disorders.</span> <span class='so'>J. Intern. Med., 279, 3-15 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26250718" target="_blank">PubMed</a>]</span></li>
+<li id="R3"><span class='au'>Sawyer, S. L., Hartley, T., Dyment, D. A. et al.</span>: <span class="ti">Utility of whole-exome sequencing for those near the end of the diagnostic odyssey: time to address gaps in care.</span> <span class='so'>Clin. Genet., 89, 275-284 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26283276" target="_blank">PubMed</a>]</span></li>
+<li id="R4"><span class='au'>Kohler, S., Vasilevsky, N. A., Engelstad, M. et al.</span>: <span class="ti">The Human Phenotype Ontology in 2017.</span> <span class='so'>Nucleic Acids Res., 45, D865-D876 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27899602" target="_blank">PubMed</a>]</span></li>
+<li id="R5"><span class='au'>Groza, T., Kohler, S., Moldenhauer, D. et al.</span>: <span class="ti">The Human Phenotype Ontology: semantic unification of common and rare disease.</span> <span class='so'>Am. J. Hum. Genet., 97, 111-124 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26119816" target="_blank">PubMed</a>]</span></li>
+<li id="R6"><span class='au'>Sudhakaran, S. &#038; Surani, S.</span>: <span class="ti">The role of case reports in clinical and scientific literature.</span> <span class='so'>Austin J. Clin. Case Rep, 1, 1006 (2014)</span></li>
+<li id="R7"><span class='au'>Funk, C., Baumgartner, W. Jr., Garcia, B. et al.</span>: <span class="ti">Large-scale biomedical concept recognition: an evaluation of current automatic annotators and their parameters.</span> <span class='so'>BMC Bioinformatics, 15, 59 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24571547" target="_blank">PubMed</a>]</span></li>
+<li id="R8"><span class='au'>Garten, Y., Coulet, A. &#038; Altman, R. B.</span>: <span class="ti">Recent progress in automatically extracting information from the pharmacogenomic literature.</span> <span class='so'>Pharmacogenomics, 11, 1467-1489 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21047206" target="_blank">PubMed</a>]</span></li>
+<li id="R9"><span class='au'>Buske, O. J., Schiettecatte, F., Hutton, B. et al.</span>: <span class="ti">The Matchmaker Exchange API: automating patient matching through the exchange of structured phenotypic and genotypic profiles.</span> <span class='so'>Hum. Mutat., 36, 922-927 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26255989" target="_blank">PubMed</a>]</span></li>
+</ol>
+<h2><span id="TV">活用したデータベースにかかわるキーワードと統合TVへのリンク</span></h2>
+<ul>
+<li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=疾患情報" target="_blank">疾患情報</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=Linux" target="_blank">Linux</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=シェルスクリプト" target="_blank">シェルスクリプト</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=Perl" target="_blank">Perl</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=Python" target="_blank">Python</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=RDF" target="_blank">RDF</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/?search=OMIM" target="_blank">OMIM</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/?search=ClinVar" target="_blank">ClinVar</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/?search=MeSH" target="_blank">MeSH</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/?search=Allie" target="_blank">Allie</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/?search=Colil" target="_blank">Colil</a></li>
+<li><a href="http://togotv.dbcls.jp/ja/?search=inMeXes" target="_blank">inMeXes</a></li>
+</ul>
+<div class="au-profile">
+<h2><span id="i-5">著者プロフィール</span></h2>
+<p><span class="author">藤原 豊史（Toyofumi Fujiwara）</span><br />
+略歴：2018年 東京大学大学院新領域創成科学研究科 修了，ライフサイエンス統合データベースセンター 特任研究員．<br />
+研究テーマ：希少疾患および遺伝性疾患に関するインフォマティクス．<br />
+抱負：診断，治療，創薬に役だつ希少疾患および遺伝性疾患の統合データベースを構築したい．
+</div>
+<p>© 2018 藤原 豊史 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a></p><h2>要 約</h2><h2>文 献</h2>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="../images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="../images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="../images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="../">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="../js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="../js/config.js"></script>
+<script src="../js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="../js/drawer-category.tag"></script>
+<script type="riot/tag" src="../js/drawer-journal.tag"></script>
+<script type="riot/tag" src="../js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("50%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

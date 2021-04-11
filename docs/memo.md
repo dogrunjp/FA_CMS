@@ -206,6 +206,10 @@ GitGurdian (GCP)、AWS、Google-cloud-complianceから警告が届く
 - LAのconfigもfamanager2に変更
 
 
+### 2020-21
+
+Spread
+
 
 ## S3
 
