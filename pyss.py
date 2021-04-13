@@ -578,7 +578,6 @@ def test_get_keywords():
     conf = yaml.load(f)
     f.close()
     words = get_keywords(conf)
-    print(words)
 
 
 def test_get_addclass():
@@ -596,7 +595,6 @@ LAG-3が免疫を抑制する..この研究において，筆者らは，LAG-3�
 MHCクラスII分子とヘルパーT細胞の活性化を、インスリンB鎖、CD4、CD8、pMHCII
     """
     s = add_annotation.add_class(keyword_work, txt)
-    print(s)
 
 
 def test_kws():
@@ -613,7 +611,6 @@ def test_kws():
 
 
 if __name__ == "__main__":
-    #update_controller()
-    test_kws()
+    update_controller()
 
 
