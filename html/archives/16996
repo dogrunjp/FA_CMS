@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 基本的な転写伸長因子の結合したRNAポリメラーゼII転写伸長複合体の構造 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>基本的な転写伸長因子の結合したRNAポリメラーゼII転写伸長複合体の構造</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>江原晴彦・関根俊一</strong><br>（理化学研究所ライフサイエンス技術基盤研究センター 超分子構造解析研究チーム）<br>email：<a href="mailto:shunichi.sekine@riken.jp">関根俊一</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.086">10.7875/first.author.2017.086</a><br><div class="reference"><br><span class="ti">Structure of the complete elongation complex of RNA polymerase II with basal factors.</span><br><span class="au">Haruhiko Ehara, Takeshi Yokoyama, Hideki Shigematsu, Shigeyuki Yokoyama, Mikako Shirouzu, Shun-ichi Sekine</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28775211" target="_blank"><em>Science</em>, <strong>357</strong>, 921-924 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　真核生物においてmRNAの転写を担うRNAポリメラーゼIIは遺伝子の発現において中核的な役割をはたす．転写の伸長の際のRNAポリメラーゼIIにはDNAやRNAだけでなくさまざまな転写伸長因子が結合するが，それらすべてを含む高次複合体の分子構造は不明であった．筆者らは，X線結晶構造解析法とクライオ電子顕微鏡による単粒子解析法という2つの手法を組み合わせることにより，RNAポリメラーゼIIに高度に保存された基本的な転写伸長因子であるSpt4-Spt5複合体，Elf1，TFIISの結合した転写伸長複合体の構造を解明し，それら転写伸長因子の役割や転写開始複合体との大きな違いについて明らかにした．<br/><br/><h2>はじめに</h2><br/>　RNAポリメラーゼIIによる転写は高度な制御をうけており，転写の開始，伸長，終結といった複数の段階から構成される．また，それぞれの段階に特有の機能を実現するため，さまざまに異なる転写因子がRNAポリメラーゼIIと結合し，転写の段階ごとに固有の高次複合体を形成することが知られている．たとえば，転写の開始においては，基本転写因子とよばれる一群の転写因子がRNAポリメラーゼIIと結合することにより巨大な転写開始複合体が形成される．最近のクライオ電子顕微鏡を用いた研究などにより，転写の開始にかかわる高次複合体の構造が明らかにされつつある<a href="#R1"><sup>1-3)</sup></a>．一方，転写の伸長のときに形成される高次複合体の構造についてはこれまでほとんど知見がなかった．転写伸長複合体と結合する転写伸長因子としては多くの種類が知られているが，なかでも，Spt4-Spt5複合体，Elf1，TFIISとよばれる3種類の転写伸長因子は真核生物をこえてホモログの存在が知られており，転写の伸長においてもっとも基本的な機能に関与すると予想された．<br/>　Spt4-Spt5複合体は約100 kDaの大きなタンパク質複合体である．Spt5は古細菌だけでなく細菌まで保存された唯一の転写因子であり，転写の伸長へのかかわりが報告されてきた．たとえば，Spt4-Spt5複合体には転写の持続性を高めるはたらきのあるほか，転写の制御への関与や，転写に共役した高次機能とのかかわりが知られている<a href="#R4"><sup>4)</sup></a>．Spt5はマルチドメインタンパク質であり，酵母においてはNGNドメイン，5つのKOWドメイン，CTRとよばれるリピート配列から構成される．<br/>　Elf1は約10 kDaの小さなタンパク質であり，亜鉛結合モチーフをもつ．Spt4-Spt5複合体やTFIISなど，転写の伸長にかかわるタンパク質と合成致死性を示すことが知られているほか<a href="#R5"><sup>5)</sup></a>，クロマチン-免疫沈降法を用いた解析により転写の伸長の際のRNAポリメラーゼIIとの結合が示唆されている<a href="#R6"><sup>6)</sup></a>．また，真核生物のみならず一部の古細菌にも存在するなど高い保存性をもち<a href="#R7"><sup>7)</sup></a>，転写の伸長において基本的な機能にかかわると考えられるが具体的な知見には乏しい．<br/>　TFIISは古細菌および真核生物に保存されており，転写の伸長が途中で停止した際にRNAポリメラーゼIIのもつRNA切断活性を促進して転写を再開することが知られている．これまで，RNAポリメラーゼIIとTFIISとの複合体の構造はいくつか報告されており，2次チャネルとよばれる活性部位に連なる穴の近辺に結合することが知られている<a href="#R8"><sup>8,9)</sup></a>．<br/>　この研究においては，Spt4-Spt5複合体，Elf1，TFIISの結合したRNAポリメラーゼII転写伸長複合体の構造を解析し，細胞において実際にはたらく状態に近い，転写の伸長に特化したRNAポリメラーゼII転写伸長複合体の構造をはじめて明らかにした．<br/><br/><h2>1．RNAポリメラーゼII転写伸長複合体の再構成および構造の決定</h2><br/>　RNAポリメラーゼIIについては，ゲノムに精製用のタグを組み込んだメタノール資化性酵母を用い，内在性の複合体を精製して用いた<a href="#R10"><sup>10,11)</sup></a>．Spt4-Spt5複合体，Elf1，TFIISについては，いずれも大腸菌を用いた系において発現させ精製した．それぞれの転写伸長因子について，構造の解析や機能の解析に用いるため一部のドメインのみを含む断片や変異体を調製した．RNAポリメラーゼIIにくわえ，長さのさまざまに異なる転写の伸長を模擬した核酸や，それぞれの転写伸長因子を含むもの，含まないもの，さらには，断片や変異体など，多くの組合せについて結晶化をスクリーニングした．その結果，Spt5のKOW5ドメインおよびElf1を含むRNAポリメラーゼII転写伸長複合体について良好な結晶が得られ，X線結晶構造解析法により3.0Åの分解能で構造を決定した（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=5xog&amp;PAGEID=Summary" target="_blank">5XOG</a>）．<br/>　Spt4-Spt5複合体のNGNドメインからKOW5ドメインまでを含む断片およびTFIISの不活性な変異体を含むRNAポリメラーゼII転写伸長複合体について，クライオ電子顕微鏡による単粒子解析法により構造を決定した．核酸としては，結晶化に用いたものと比べ上流に長い配列をもつDNAを用いた．精製の手順の最適化，クロスリンカーの利用，界面活性剤の添加などのくふうをつうじて観察するタンパク質の溶液からなる氷の薄膜の性質を改善したのち，3000枚をこえる画像を撮影した．約68万個の粒子を用いた画像解析により3.8Åの分解能をもつマップが得られた（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=5xon&amp;PAGEID=Summary" target="_blank">5XON</a>）．しかし，転写伸長因子が結合すると思われる3箇所に大きな構造多型が存在したため，それぞれの部位に着目して粒子の画像を分類した．その結果，上流のDNA，Spt4，Spt5のNGNドメインおよびKOW1ドメインがよく分離したマップが4.3Åの分解能で，StalkとよばれるRNAポリメラーゼIIから飛び出た領域とSpt5のKOW4ドメインが分離したマップが4.7Åの分解能で，TFIISがよく分離したマップが3.9Åの分解能で，それぞれ得られた．<br/>　X線結晶構造解析法により得られた構造とクライオ電子顕微鏡による単粒子解析法から得られた複数のマップとを組み合わせることにより，Spt4-Spt5複合体，Elf1，TFIISを含むRNAポリメラーゼII転写伸長複合体の構造モデルを作製した（<a href="#F1">図1</a>）．この完全なRNAポリメラーゼII転写伸長複合体において，おのおのの転写伸長因子はRNAポリメラーゼIIの表面の広い範囲に分布していた．Elf1は下流のDNAの近傍に結合すること，Spt4とSpt5のNGNドメインおよびKOW1ドメインは上流のDNAをとりかこむように位置すること，Spt5のKOW4ドメインはRNAポリメラーゼIIのStalkに結合すること，Spt5のKOW5ドメインはRNAの出口の付近に形成されたくぼみに結合することが明らかにされた．Spt4-Spt5複合体およびElf1は核酸の溶媒への露出部をおおうように結合しており，転写の伸長の際にDNAおよびRNAの結合を安定化させることが示唆された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　RNAポリメラーゼII転写伸長複合体の構造</strong><br/>（a）転写伸長複合体の全体の構造．<br/>（b）転写伸長複合体から転写伸長因子を取り除いた構造．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sekine-Science-17.9.1-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　RNAポリメラーゼII転写伸長複合体の構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sekine-Science-17.9.1-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sekine-Science-17.9.1-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．おのおのの転写伸長因子の結合および転写の伸長の際の核酸とのかかわり</h2><br/>　Elf1はRNAポリメラーゼIIのLobeとよばれる領域とClampとよばれる領域とのあいだにはさまれるように位置し，下流の2本鎖DNAが結合する溝の上部の隙間をうめていた．Elf1の結合により完全に閉じた“DNA導入トンネル”が形成され（<a href="#F2">図2a</a>），下流のDNAの安定な保持に寄与すると考えられた．さらに，Elf1には塩基性残基に富んだN末端領域が存在し，この領域が下流のDNAと直接に相互作用することが機能面においても重要であることが示唆された．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　転写因子と核酸との相互作用</strong><br/>（a）DNA導入トンネル．<br/>（b）DNA排出トンネル．<br/>（c）RNA排出トンネル．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sekine-Science-17.9.1-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　転写因子と核酸との相互作用" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sekine-Science-17.9.1-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sekine-Science-17.9.1-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　Spt5のNGNドメインはRNAポリメラーゼIIのClampとProtrusionとよばれる領域とのあいだにはさまるように位置していた．また，Spt5のKOW1ドメインはNGNドメインのとなりに位置し，RNAポリメラーゼIIのClampおよびWallとよばれる領域に接していた．Spt4はSpt5のNGNドメインと強く結合しており，RNAポリメラーゼIIからもっとも遠い位置に位置していた．Spt4，Spt5のNGNドメインおよびKOW1ドメインは上流の2本鎖DNAをとりかこむようなかたちで配置しており，RNAポリメラーゼIIの一部の領域とともに完全に閉じた“DNA排出トンネル”を形成していた（<a href="#F2">図2b</a>）．2本鎖DNAのRNAポリメラーゼIIに近い部分や転写バブルの非鋳型鎖DNAは，Spt5のNGNドメインあるいはKOW1ドメインと直接に相互作用しており，これらのドメインが，転写バブルの1本鎖DNAがよりあわさり2本鎖DNAにもどるのを促進することが示唆された．一方で，DNA排出トンネルのRNAポリメラーゼIIから遠い部位については，複数の塩基性残基が存在するものの，2本鎖DNAからはやや距離がありDNAを比較的ゆるくとりかこむかたちになっていた．結果として，DNA排出トンネルはジョウゴのような形状をとり，2本鎖DNAの根元をしっかりと固定する一方で，RNAポリメラーゼIIから遠い部位に関してはある程度のゆらぎを許容していることが明らかにされた．<br/>　Spt5について，KOW4ドメインはRNAポリメラーゼIIのStalkと結合していた．また，KOW5ドメインはRNAの出口の近傍のくぼみにはまり込んでいた．さらに，KOW4ドメインとKOW5ドメインとのあいだのリンカーに相当すると考えられる弱い密度が観測された．RNAポリメラーゼIIのStalk，Spt5のKOW4ドメインおよびKOW5ドメインはRNAの出口をとりかこむように存在し，RNAポリメラーゼIIからでてくるRNAを正しく導くための“RNA排出トンネル”を構成することが示唆された（<a href="#F2">図2c</a>）．また，KOW4ドメインおよびKOW5ドメインにくわえて，近傍にはKOW1ドメイン，および，密度は観測されなかったもののKOW2ドメインおよびKOW3ドメインが存在すると考えられ，これらSpt5のKOWドメインが共同してRNAポリメラーゼIIから排出されるDNAとRNAとを物理的に隔離することが明らかにされた．さらに，RNAの出口の近傍には新しく合成されたRNAを修飾したりするさまざまな因子が結合することが知られており，Spt5により補強および拡張されたRNA排出トンネルは新しく合成されたRNAを別の酵素へとうけわたすための土台として重要なはたらきをすることが示唆された．<br/><br/><h2>3．転写伸長複合体と転写開始前複合体との構造の比較</h2><br/>　今回，構造の明らかにされたRNAポリメラーゼII転写伸長複合体は，以前に構造が報告されていたRNAポリメラーゼII転写開始前複合体<a href="#R2"><sup>2)</sup></a>（<a href="#F3">図3a</a>，PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=5fz5&amp;PAGEID=Summary" target="_blank">5FZ5</a>）とは構造が大きく異なっていた．転写開始前複合体においては，DNAは基本転写因子によりRNAポリメラーゼIIの外側に結合し，それら基本転写因子の協調的なはたらきにより2本鎖DNAの一部がほどけDNAはRNAポリメラーゼIIの内部の空洞に取り込まれると考えられている．一方，転写伸長複合体（<a href="#F3">図3b</a>）においては，DNAおよびRNAはRNAポリメラーゼIIの内部に完全に取り込まれた状態にあり，転写伸長因子がそれらの周囲をとりかこみ完全に独立したトンネルを形成することにより安定かつ継続した転写の伸長を可能すると考えられた．また，核酸の通り道をより規定されたものとすることが，ほかの因子への核酸のうけわたしなどをつうじた転写と共役したさまざまな高次機能の実現に重要であると考えられた．<br/><br/><a name="F3"></a><div id="fig3-caption-text" style="display: none;"><strong>図3　転写開始前複合体と転写伸長複合体との構造の比較</strong><br/>（a）以前に報告されていた転写開始前複合体の構造．<br/>（b）この研究において明らかにされた転写伸長複合体の構造．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sekine-Science-17.9.1-Fig.3.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure3" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図3　転写開始前複合体と転写伸長複合体との構造の比較" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sekine-Science-17.9.1-Fig.3.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sekine-Science-17.9.1-Fig.3.jpg" alt="figure3" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig3-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig3-caption').innerHTML = document.getElementById('fig3-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　さらに，基本転写因子どうし，および，転写伸長因子どうしは互いに協調的にRNAポリメラーゼII複合体と結合する一方，基本転写因子と転写伸長因子は構造において相互に排他的な結合様式をもっていた．たとえば，Elf1，Spt4，Spt5のNGNドメインは，転写開始前複合体のDNAと衝突してしまうため転写の開始の際には結合できないと考えられた．同様に，転写の伸長の際のSpt4やSpt5のKOW4ドメインは，転写の開始の際のTFIIFやTFIIEといった基本転写因子と重複した位置に結合しており，それらの結合は相互に排他的であると考えられた．このような特徴は，RNAポリメラーゼIIという同じ複合体を核にしているにもかかわらず，転写開始複合体と転写伸長複合体とが大きく異なる構造および役割をもつことを示すとともに，転写開始複合体が転写伸長複合体に転換される過程を理解するうえでも重要である．<br/><br/><h2>おわりに</h2><br/>　転写はきわめて複雑な過程であり，転写の開始あるいは伸長を含む多くのステージにおいてRNAポリメラーゼはさまざまに異なる高次複合体を形成する．この研究においては，そのなかのひとつ，RNAポリメラーゼII転写伸長複合体の構造を明らかにすることにより，転写の持続的な伸長を可能とするしくみや，転写の開始から伸長への移行の機構の一端が明らかにされた．一方，転写の伸長の際のRNAポリメラーゼIIには，この研究において解析されたもっとも基本的な3種類の転写伸長因子にくわえ，きわめて多様な因子が相互作用する．それらは，たとえば転写と共役したDNAの修復といった高次機能に必須であるが，この研究は，それら高次機能の足場となる複合体の構造を明らかにしたという点でも重要である．これらの高次機能は，その分子機構それ自体が興味深いことにくわえ，疾患とのかかわりも深い．いまだ多くの技術的な困難はあろうが，すべての因子を含む超巨大複合体の構造が原子レベルで明らかにされる日を期待したい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>He, Y., Yan, C., Fang, J. et al.</span>: <span class="ti">Near-atomic resolution visualization of human transcription promoter opening.</span> <span class='so'>Nature, 533, 359-365 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27193682" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Plaschka, C., Hantsche, M., Dienemann, C. et al.</span>: <span class="ti">Transcription initiation complex structures elucidate DNA opening.</span> <span class='so'>Nature, 533, 353-358 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27193681" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Murakami, K., Tsai, K. L., Kalisman, N. et al.</span>: <span class="ti">Structure of an RNA polymerase II preinitiation complex.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 112, 13543-13548 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26483468" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Hartzog, G. A. & Fu, J.</span>: <span class="ti">The Spt4-Spt5 complex: a multi-faceted regulator of transcription elongation.</span> <span class='so'>Biochim. Biophys. Acta, 1829, 105-115 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22982195" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Prather, D., Krogan, N. J., Emili, A. et al.</span>: <span class="ti">Identification and characterization of Elf1, a conserved transcription elongation factor in <em>Saccharomyces cerevisiae</em>.</span> <span class='so'>Mol. Cell. Biol., 25, 10122-10135 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16260625" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Mayer, A., Lidschreiber, M., Siebert, M. et al.</span>: <span class="ti">Uniform transitions of the general RNA polymerase II transcription complex.</span> <span class='so'>Nat. Struct. Mol. Biol., 17, 1272-1278 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20818391" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Daniels, J. P., Kelly, S., Wickstead, B. et al.</span>: <span class="ti">Identification of a crenarchaeal orthologue of Elf1: implications for chromatin and transcription in Archaea.</span> <span class='so'>Biol. Direct., 4, 24 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19640276" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Kettenberger, H., Armache, K. -J. & Cramer, P.</span>: <span class="ti">Architecture of the RNA polymerase II-TFIIS complex and implications for mRNA cleavage.</span> <span class='so'>Cell, 114, 347-357 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12914699" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Wang, D., Bushnell, D. A., Huang, X. et al.</span>: <span class="ti">Structural basis of transcription: backtracked RNA polymerase II at 3.4 angstrom resolution.</span> <span class='so'>Science, 324, 1203-1206 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19478184" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Higo, T., Suka, N., Ehara, H. et al.</span>: <span class="ti">Development of a hexahistidine-3× FLAG-tandem affinity purification method for endogenous protein complexes in <em>Pichia pastoris</em>.</span> <span class='so'>J. Struct. Funct. Genomics., 15, 191-199 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25398586" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Ehara, H., Umehara, T., Sekine, S. et al.</span>: <span class="ti">Crystal structure of RNA polymerase II from <em>Komagataella pastoris</em>.</span> <span class='so'>Biochem. Biophys. Res. Commun., 487, 230-235 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28412353" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=EBI" target="_blank">EBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=DDBJ" target="_blank">DDBJ</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=PDBj" target="_blank">PDBj</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=塩基配列" target="_blank">塩基配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アミノ酸" target="_blank">アミノ酸配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=構造解析" target="_blank">構造解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アラインメント" target="_blank">アラインメント</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">江原 晴彦（Haruhiko Ehara）</span><br>略歴：理化学研究所ライフサイエンス技術基盤研究センター 研究員．<br><br><strong>関根 俊一（Shun-ichi Sekine）</strong><br>理化学研究所ライフサイエンス技術基盤研究センター チームリーダー．<br>研究室URL：<a href="http://www.clst.riken.jp/ja/science/labs/ssb/struc/smsb/" target="_blank">http://www.clst.riken.jp/ja/science/labs/ssb/struc/smsb/</a><br></div><br>© 2017 江原晴彦・関根俊一 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

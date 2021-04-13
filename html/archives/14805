@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> MSKはヒストンH3および転写因子をリン酸化することにより誘導性の遺伝子発現を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>MSKはヒストンH3および転写因子をリン酸化することにより誘導性の遺伝子発現を制御する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>嶋田美穂・Steven Z. Josefowicz・Robert G. Roeder・C. David Allis</strong><br>（米国Rockefeller大学Laboratory of Biochemistry and Molecular Biology）<br>email：<a href="mailto:mshimada@rockefeller.edu">嶋田美穂</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.111">10.7875/first.author.2016.111</a><br><div class="reference"><br><span class="ti">Chromatin kinases act on transcription factors and histone tails in regulation of inducible transcription.</span><br><span class="au">Steven Z. Josefowicz, Miho Shimada, Anja Armache, Charles H. Li, Rand M. Miller, Shu Lin, Aerin Yang, Brian D. Dill, Henrik Molina, Hee-Sung Park, Benjamin A. Garcia, Jack Taunton, Robert G. Roeder, C. David Allis</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27768872" target="_blank"><em>Molecular Cell</em>, <strong>64</strong>, 347-361 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　炎症反応は病原体や環境からの障害に対する防御のため特異的な転写を誘導する転写因子およびクロマチンの共役的な活性化を必要とする．筆者らは，炎症性シグナルの伝達経路およびクロマチンの活性化の機構を同定することにより，キナーゼの活性化とヒストンの主要なリン酸化部位がいかに特異的な遺伝子発現の活性化に結びつくかを解明しようとした．主要な刺激に依存的なヒストンの修飾としてヒストンH3のSer28のリン酸化が同定され，マウスのマクロファージにおいてリポ多糖の刺激により転写の誘導される遺伝子の領域においてこの修飾が増加した．薬理学的および遺伝学的なアプローチにより，ヒストンH3のSer28をリン酸化する主要なキナーゼとしてMSKが同定された．さらに，<em>in vitro</em>転写実験系により，ヒストンH3のリン酸化したSer28はヒストンアセチル化酵素p300/CBPと直接に結合し転写を促進することが実証された．また，MSKはヒストンをリン酸化するだけでなく転写因子もリン酸化することにより，特異的な遺伝子発現の活性化をさらに促進した．新たに開発されたMSKに対する阻害剤は，刺激により誘導される遺伝子の転写を減少させた．これらの結果から，MSKは上流におけるシグナルの入力を下流の転写の制御機構へと結びつけることにより誘導性の転写を制御することが示唆された．<br/><br/><h2>はじめに</h2><br/>　病原体を認識する免疫細胞は迅速かつ選択的な遺伝子発現を介してわれわれを病原体や外界からのストレスから守っている．この刺激に依存的な遺伝子発現においては，シグナル応答性の転写因子の活性化やクロマチンの特性の変化が非常に重要である．また，クロマチンの特性が遺伝子発現に影響をおよぼすことも明らかにされている．つまり，炎症性シグナルの伝達経路の活性化は，その下流に位置する転写因子の活性化だけでなく，クロマチンの特性をも制御する可能性がある．一般に，外界からのシグナルにより転写が制御される場合には，キナーゼを介して核において転写因子がリン酸化されると考えられているが，とくに迅速な転写制御が必要な場合には，キナーゼがクロマチンに直接的に作用することが報告されている<a href="#R1"><sup>1)</sup></a>．MSK1およびMSK2はERKシグナル伝達経路においてp38により活性化されヒストンH3をリン酸化することが知られている<a href="#R2"><sup>2)</sup></a>．近年，MSK1およびMSK2によるヒストンH3のSer10およびSer28のリン酸化が線維芽細胞においてストレス応答の際の最初期遺伝子の転写に結びつくと報告されたが<a href="#R3"><sup>3)</sup></a>，その機構に関しては不明な点が多い．<br/>　ヒストンH3のSer10およびSer28はAla-Arg-Lys-Serという同じアミノ酸配列に含まれる．このアミノ酸配列には，Lys9およびLys27という遺伝子発現において非常に重要な残基も含まれる．同じアミノ酸配列に含まれるSer10とSer28が，同じ機能をもつかどうかはわかっていない．そこで，筆者らは，マクロファージの系を用い，リン酸化の経路の特定，機能，遺伝子発現の機構について調べた．<br/><br/><h2>1．刺激により発現の誘導される遺伝子領域に結合したヒストンH3のSer28は刺激ののちすみやかにリン酸化される</h2><br/>　外界からの刺激に応答する初期遺伝子の発現の制御にヒストンのリン酸化が関与すると予想し，マウスの骨髄に由来するマクロファージの初代細胞をリポ多糖により刺激する実験系を構築し，ヒストンの修飾を質量分析法およびウェスタンブロット法により解析した．ヒストンH3のSer10のリン酸化は刺激ののちゆるやかに上昇したのに対し，Ser28のリン酸化は刺激ののち30分で劇的に上昇した．ChIP-seq法により，リポ多糖により発現の誘導される遺伝子の転写開始領域に結合したヒストンにおいてのみ，ヒストンH3のSer28のリン酸化が確認された．それとは異なり，恒常的に発現している遺伝子領域に結合したヒストンH3において修飾は検出されなかった．さらに，リポ多糖に応答性の遺伝子発現とヒストンH3のSer28のリン酸化との関連を調べるため，ChIP-seq法により得られた，ヒストンH3のSer28のリン酸化のシグナルが検出されたゲノムの領域において，リポ多糖に応答性の転写因子の結合配列の存在について調べた．その結果，Ser28のリン酸化されたヒストンH3の結合したゲノムの領域には，NF-κBやCREBなど外界からの刺激に応答性の転写因子の結合配列が見い出された．<br/><br/><h2>2．MSKはヒストンH3のSer28だけでなく転写因子もリン酸化し共役して誘導性の遺伝子発現を制御する</h2><br/>　ヒストンH3のSer28をリン酸化するキナーゼを同定するため，siRNAノックダウン法および低分子阻害剤を用いた．いくつかのキナーゼがヒストンH3のSer28をリン酸化すると報告されていたが<a href="#R4"><sup>4)</sup></a>，MSK1およびMSK2がおもにヒストンH3のSer28をリン酸化していることがわかった．MSKの阻害剤として知られていたSB747651AはほかのAGCファミリーキナーゼも阻害するため，MSKのC末端側の領域を標的として新しい阻害剤を開発した．新規の低分子阻害剤RMM-64はMSK1およびMSK2の活性を特異的に阻害し，マウスのマクロファージにおいて1.0μM以下の濃度でリポ多糖により誘導されるヒストンH3のSer28のリン酸化を阻害した．<br/>　Ser28のリン酸化されたヒストンH3が結合したゲノムの領域には外界からの刺激に応答性の転写因子の結合配列が多く存在したことから，MSK1あるいはMSK2による転写因子の活性化を予想し，<em>in vivo</em>および<em>in vitro</em>の実験系においてこれが確認された．つまり，MSKは転写因子およびヒストンの両方のリン酸化に関与する可能性が高まった．そこで，クロマチンを鋳型としリポ多糖の刺激によりMSKによりリン酸化される転写因子NF-κBを用いた<em>in vitro</em>転写実験系を構築した．MSK1の添加により転写は飛躍的に増加し，Ser28に変異を導入したヒストンH3の使用により転写は半減した．つまり，MSKは下流のヒストンH3のSer28のリン酸化を介したクロマチンの活性化，および，転写因子の活性化をつうじ転写を総合的に活性化する可能性の高いことがわかった．<br/><br/><h2>3．ヒストンH3のSer28のリン酸化はヒストンアセチル化酵素p300/CBPの活性を促進させ遺伝子発現を活性化する</h2><br/>　ヒストンH3のSer10のリン酸化と転写の活性化の機構についてはよく調べられており，ヒストンアセチル化酵素であるGCN5がヒストンH3のリン酸化されたSer10を認識してクロマチンにリクルートされ，Ser10に隣接するLys9およびLys14をアセチル化することにより転写が促進される<a href="#R5"><sup>5,6)</sup></a>．ヒストンH3のSer28もSer10と同様にAla-Arg-Lys-Serという同じアミノ酸配列に含まれることより，転写制御において同様の機能をもつ可能性が考えられた．ヒストンH3のSer28に隣接するLys27はヒストンアセチル化酵素であるp300/CBPによりおもにアセチル化されること，また，p300/CBPを用いた<em>in vitro</em>実験系においてSer28のリン酸化に依存的な転写の促進が観察されたことより，MSKによるヒストンH3のSer28のリン酸化とp300/CBPによるヒストンH3のLys27のアセチル化とのクロストークが予想された．ChIP-seq法によりLys27のアセチル化されたヒストンH3の結合したゲノムの領域を解析したところ，リポ多糖に誘導性の新規あるいは促進されたヒストンH3のLys27のアセチル化のシグナルの88.4％が，ヒストンH3のSer28のリン酸化のシグナルと一致した．そして，このヒストンH3のLys27のアセチル化のシグナルはMSKの新規の低分子阻害剤であるRMM-64により抑制された．さらに，生化学的な実験により，p300はヒストンH3のリン酸化されたSer28と直接的に結合し，GCN5はヒストンH3のリン酸化されたSer10とは結合するがリン酸化されたSer28とは結合しないことが示された．つまり，ヒストンH3のSer10とSer28は同じアミノ酸配列に含まれるが，その結合タンパク質は異なることが示唆された．また，p300はPHDドメインおよびBromoドメインを介してヒストンH3のリン酸化されたSer28と結合し，構造解析からもすでに明らかなように，p300のHATドメインはPHDドメインおよびBromoドメインとコア構造をとることにより，ヒストンにより安定に存在しアセチル化を触媒する可能性の高いことがわかった．<br/><br/><h2>4．MSKの低分子阻害剤はマクロファージにおいて誘導性の遺伝子発現を阻害する</h2><br/>　生化学的な解析の結果により，MSK1およびMSK2はヒストンH3および転写因子をリン酸化することにより外界からのシグナルに対応した遺伝子発現に結びつけていることが示唆された．そこで，MSKの新規の低分子阻害剤であるRMM-64がリポ多糖に誘導性の遺伝子発現に影響をおよぼすかどうか調べた．その結果，RMM-64は遺伝子の発現を30％以下に抑制し，リポ多糖の刺激によりマクロファージから分泌されるインターロイキン6やCCL5など炎症性タンパク質の分泌も抑制した．<br/><br/><h2>おわりに</h2><br/>　以前から，ヒストンのリン酸化は遺伝子発現に関与することが知られていたが，今回の結果により，ヒストンのリン酸化の直接的な機能が明らかにされ，また，ヒストンH3のSer10およびSer28は同じアミノ酸配列に含まれるがそのリン酸化は異なる機能をもつことが明らかにされた（<a href="#F1">図1</a>）．最近の研究より，ヒストンH3のアセチル化およびリン酸化はクロマチンの特性を変えることによりDNAとの結合を弱め，ヒストンの修飾をターゲットとする“リーダー”の結合を促進することが示唆されている．今回の結果は，この可能性を支持するものであった．ヒストンH3のSer28のリン酸化はヒストンアセチル化酵素p300/CBPの結合と安定を高めアセチル化を促進することにより，クロマチンの特性を変化させ転写因子のリクルートを促進して転写を活性化するのではないかと考えられた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　MSKによるヒストンH3のSer10およびSer28のリン酸化とその機能</strong><br/>P：リン酸化，Ac：アセチル化．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shimada-Molecular-Cell-16.10.20-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　MSKによるヒストンH3のSer10およびSer28のリン酸化とその機能" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shimada-Molecular-Cell-16.10.20-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Shimada-Molecular-Cell-16.10.20-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　MSK1およびMSK2は誘導性の遺伝子発現を特異的に制御するという機能を考慮すると，誘導性の遺伝子発現の制御の不全により起こるがんなどの疾患の分子標的になる可能性がある．現在，ヒストンの修飾を標的とした低分子阻害剤の開発により，ヒストンの修飾の“リーダー”との結合を阻害し遺伝子発現を特異的に阻害することが期待されている<a href="#R7"><sup>7)</sup></a>．しかし，正常な細胞においても影響がみられるなど課題は多い．MSK1およびMSK2は外界の刺激に対応する転写因子およびクロマチンの両方を標的としている点から，このキナーゼの活性化を阻害するような阻害剤を開発できれば，正常な細胞への影響がより少なく誘導性の遺伝子発現だけを選択的に阻害することができるのではないかと考えている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Cheung, P., Tanner, K. G., Cheung, W. L. et al.</span>: <span class="ti">Synergistic coupling of histone H3 phosphorylation and acetylation in response to epidermal growth factor stimulation.</span> <span class='so'>Mol. Cell, 5, 905-915 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10911985" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Thomson, S., Clayton, A. L., Hazzalin, C. A. et al.</span>: <span class="ti">The nucleosomal response associated with immediate-early gene induction is mediated via alternative MAP kinase cascades: MSK1 as a potential histone H3/HMG-14 kinase.</span> <span class='so'>EMBO J., 18, 4779-4793 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10469656" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Drobic, B., Perez-Cadahia, B., Yu, J. et al.</span>: <span class="ti">Promoter chromatin remodeling of immediate-early genes is mediated through H3 phosphorylation at either serine 28 or 10 by the MSK1 multi-protein complex.</span> <span class='so'>Nucleic Acids Res., 38, 3196-3208 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20129940" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Baek, S. H.</span>: <span class="ti">When signaling kinases meet histones and histone modifiers in the nucleus.</span> <span class='so'>Mol. Cell, 42, 274-284 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21549306" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Clements, A., Poux, A. N., Lo, W. -S. et al.</span>: <span class="ti">Structural basis for histone and phosphohistone binding by the GCN5 histone acetyltransferase.</span> <span class='so'>Mol. Cell, 12, 461-473 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14536085" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Lo, W. -S., Trievel, R. C., Rojas, J. R. et al.</span>: <span class="ti">Phosphorylation of serine 10 in histone H3 is functionally linked in vitro and in vivo to Gcn5-mediated acetylation at lysine 14.</span> <span class='so'>Mol. Cell, 5, 917-926 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10911986" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Delmore, J. E., Issa, G. C., Lemieux, M. E. et al.</span>: <span class="ti">BET bromodomain inhibition as a therapeutic strategy to target c-Myc.</span> <span class='so'>Cell, 146, 904-917 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21889194" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=UCSC" target="_blank">UCSC</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=RNA-seq" target="_blank">RNA-seq</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=ChIP-seq" target="_blank">ChIP-seq</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=CAGE" target="_blank">CAGE</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=Galaxy" target="_blank">Galaxy</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">嶋田 美穂（Miho Shimada）</span><br>略歴：2003年 千葉大学大学院自然科学研究科博士課程 修了，同年 埼玉医科大学 博士研究員，2005年 同 助教を経て，2008年より米国Rockefeller大学 博士研究員．<br>研究テーマ：染色体の構造の変化を介した遺伝子発現の制御．<br><br><strong>Steven Z. Josefowicz</strong><br>米国Rockefeller大学 博士研究員．<br><br><strong>Robert G. Roeder</strong><br>米国Rockefeller大学 教授．<br>研究室URL：<a href="http://www.rockefeller.edu/labheads/roeder/roeder-pub.php" target="_blank">http://www.rockefeller.edu/labheads/roeder/roeder-pub.php</a><br><br><strong>C. David Allis</strong><br>米国Rockefeller大学 教授．<br>研究室URL：<a href="http://lab.rockefeller.edu/allis/" target="_blank">http://lab.rockefeller.edu/allis/</a><br></div><br>© 2016 嶋田美穂・Steven Z. Josefowicz・Robert G. Roeder・C. David Allis Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

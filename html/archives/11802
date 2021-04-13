@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ギボシムシのゲノムから考察する新口動物の起源 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>ギボシムシのゲノムから考察する新口動物の起源</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>川島武士<sup>1</sup>・Oleg Simakov <sup>1</sup>・佐藤矩行<sup>1</sup>・田川訓史<sup>2</sup></strong><br>（<sup>1</sup>沖縄科学技術大学院大学 マリンゲノミックスユニット，<sup>2</sup>広島大学大学院理学研究科 附属臨海実験所）<br>email：<a href="mailto:takeshi.kawashima@u.tsukuba.ac.jp">川島武士</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.117">10.7875/first.author.2015.117</a><br><div class="reference"><br><span class="ti">Hemichordate genomes and deuterostome origins.</span><br><span class="au">Oleg Simakov, Takeshi Kawashima, Ferdinand Marlétaz, Jerry Jenkins, Ryo Koyanagi, Therese Mitros, Kanako Hisata, Jessen Bredeson, Eiichi Shoguchi, Fuki Gyoja, Jia-Xing Yue, Yi-Chih Chen, Robert M. Freeman Jr., Akane Sasaki, Tomoe Hikosaka-Katayama, Atsuko Sato, Manabu Fujie, Kenneth W. Baughman, Judith Levine, Paul Gonzalez, Christopher Cameron, Jens Fritzenwanker, Ariel M. Pani, Hiroki Goto, Miyuki Kanda, Nana Arakaki, Shinichi Yamasaki, Jiaxin Qu, Andrew Cree, Yan Ding, Huyen H. Dinh, Shannon Dugan, Michael Holder, Shalini N. Jhangiani, Christie L. Kovar, Sandra L. Lee, Lora R. Lewis, Donna Morton, Lynne V. Nazareth, Geoffrey Okwuonu, Jireh Santibanez, Rui Chen, Stephen Richards, Donna M. Muzny, Leonid Peshkin, Michael Wu, Tom Humphreys, Yi-Hsien Su, Nicholas Putnam, Jeremy Schmutz, Asao Fujiyama, Jr-Kai Yu, Kunifumi Tagawa, Kim C. Worley, Richard A. Gibbs, Marc W. Kirschner, Christopher J. Lowe, Noriyuki Satoh, Daniel S. Rokhsar, John Gerhart</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26580012" target="_blank"><em>Nature</em>, <strong>527</strong>, 459-465 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　2種のギボシムシのゲノムを解読し，ほかの生物と比較解析した．その結果，新口動物の共有派生形質としての鰓裂は，<em>Pax1/9</em>遺伝子を中心とした4つの転写因子をコードする遺伝子を含む遺伝子クラスターの形成により登場し，この遺伝子クラスターが咽頭部における遺伝子発現の制御を担うことにより，新口動物に特徴的な咽頭部のさまざまな形態の進化へとつながったという仮説が得られた．鰓裂の獲得と同時に新口動物の祖先が獲得した新口動物だけがもつ遺伝子により，ろ過摂食に必要な繊毛および粘液の進化も進んだことが示唆された．新口動物の祖先はおそらく現生のギボシムシに似た生物で，繊毛，鰓列，粘液をもちろ過摂食に適した環境に生息していたのだろう．これらの結果は，脊椎動物を含む新口動物の系統の進化を考えるうえで多くの示唆をあたえるであろう．<br/><br/><h2>はじめに</h2><br/>　ゲノム説をとなえた木原 均は“地球の歴史は地層に，生物の歴史は染色体に記されてある”と述べた．この言葉を借りるなら，新口動物の進化の歴史は新口動物のゲノムに記されてあるといえるだろう．まさにそれを裏づけるようなデータが，半索動物門に属するギボシムシのゲノムという，ひとつのピースがはまったことによりうかびあがってきた．この研究において，筆者らは，おもに太平洋に生息するヒメギボシムシ（<em>Ptychodera flava</em>）と，おもに大西洋に生息するクビナガギボシムシ（<em>Saccoglossus kowalevskii</em>）の，2種のギボシムシのゲノムを解読した．ほかの生物のゲノムとの比較解析において，遺伝子の並びの保存性についての解析（シンテニー解析），および，新口動物に特異的な遺伝子の探索から，新口動物の起源について興味深いことがわかった．<br/>　なお，ヒメギボシムシとクビナガギボシムシには，発生において大きな違いがある．ヒメギボシムシは，受精卵が発生してトルナリアとよばれるプランクトン幼生になり，数カ月の浮遊期間をへて変態し，成熟して成体となる．クビナガギボシムシの受精卵は，発生して数日で親と似た形態をもつ幼若体となり，途中にプランクトン幼生の時期をへない．前者を間接発生，後者を直接発生とよぶ．今回の研究においては，ヒメギボシムシとクビナガギボシムシのゲノムの比較をもとに，直接発生と間接発生のどちらが祖先的であるか，また，発生システムが進化的にどのように変更されたのかについても明らかにされることが期待されたが，残念ながら，この観点についてはこれという成果は得られなかった．今後のより詳細な解析が必要であろう．<br/><br/><h2>1．ギボシムシは砂の中に棲むろ過摂食者で鰓裂および粘液というめだった特徴をもつ</h2><br/>　ギボシムシは海底の砂泥の中で生活する無脊椎動物で，浅い海から深海にまで分布している（<a href="#F1">図1</a>）．和名の由来は，吻（ふん）とよばれる体の前端部分の形状が，寺や橋の欄干に使われる擬宝珠（ぎぼし）に似ていることからきている．英語ではドングリ虫（acorn worm）とよばれるが，これも吻の形状からきている．体全体は細長く，吻につづいて，襟部，体幹部と3つの領域から構成される．体幹部の前半分ぐらいに鰓が開いており，分類名の腸鰓類とはこの大きくめだつ鰓部からつけられている．吻の根元の近くにある口から砂を食べ，鰓の部分で海水をろ過し，後端部の近くにある肛門から砂を排出する．ギボシムシの排泄した砂は，積もった糞塊として海水浴などの際に多くの人の目にふれている．体全体をおおう大量の粘液は鰓においてろ過にはたらくほか，砂の中の細菌からの防御の役割もはたすと考えられている．この粘液は臭化化合物を含むため，ギボシムシの多くはとても臭い．このような生物だが，5～6億年前にはヒトと祖先を同じくし，新口動物に分類されている．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　ヒメギボシムシの産卵</strong><br/>ドングリ状の吻，それにつづく襟，そして，砂の中に潜っている体幹部の一部がみえている．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Satoh-Nature-15.10.29-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　ヒメギボシムシの産卵" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Satoh-Nature-15.10.29-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Satoh-Nature-15.10.29-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．新口動物の共有派生形質のもっとも有力な候補は鰓裂である</h2><br/>　新口動物は，ヒトやナメクジウオなどの脊索動物門，ウニやヒトデやウミユリなどの棘皮動物門，そして，ギボシムシやフサカツギなどの半索動物門の3つの動物門から構成される．ところが，この3つの動物門に共通する形質，つまり共有派生形質がみあたらないため，新口動物の共通の祖先がどのような生物であったのかについて，ながらく議論がつづいてきた．そして，近年までのいくつか発見により，鰓裂（鰓の裂け目の構造）が新口動物の共有派生形質なのではないかと考えられるようになった．鰓裂とその周辺の構造を新口動物の共有派生系質とみなすにいたった重要で現代的な知見として，つぎの2つがあげられる．1）鰓裂をもたない棘皮動物であるが，その化石の記録から祖先は鰓裂をもち，現生の動物においては2次的に失われたものであること．同様に，脊椎動物についても鰓裂をもたないものがあるが，これも2次的に失われたか，あるいは，現生の生物では発生の一時期のみに現われるため観察しづらいこと<a href="#R1"><sup>1)</sup></a>．2）<em>Pax1/9</em>遺伝子が，脊椎動物においては咽頭弓に，ホヤにおいては鰓裂に，ギボシムシにおいても鰓裂において発現することから，これらが相同な器官であることが分子レベルでも強く示唆されたこと<a href="#R2"><sup>2)</sup></a>．なお，咽頭弓は脊椎動物の発生においてみられる器官で，成体では頭部から喉もしくは鰓のあたりを形成する．鰓裂もこの咽頭弓と咽頭弓のあいだに観察される．このように，新口動物の進化については形態および分子的な観点から研究が進んできた．しかし，ゲノムの比較解析を進めるのに，脊索動物門の生物および棘皮動物門の生物のゲノムはすでに2000年および2006年に解読されていたが，最後の主要なピースといえる半索動物門のゲノムが解読されないまま，ながらく待たれてきた．<br/><br/><h2>3．ギボシムシを含む新口動物には保存された咽頭部形成遺伝子クラスターが存在する</h2><br/>　これまでの比較ゲノム解析から，染色体における逆位や組換えさらには遺伝子の欠損などが頻繁に起こることにより，ゲノムにおける遺伝子の並びが大きく変わっている生物がみつかっている．その代表的なものとしてオタマボヤやワムシがあげられるが，もし，そのような生物を比較解析に用いても，共通する祖先における遺伝子の並びの痕跡をみつけることは困難であろう．一方で，ヒトとナメクジウオのように，おそらく分岐してから5億年以上もたった2系統でありながら，多くの遺伝子の並びに保存性（マイクロシンテニー）を見い出すことのできる生物も存在する<a href="#R3"><sup>3)</sup></a>．幸いなことに，ギボシムシのゲノムはナメクジウオと同じ程度に遺伝子の並びがよく保存されていた．たとえば，ほぼ完全な<em>Hox</em>遺伝子および<em>ParaHox</em>遺伝子を含む，多くのマイクロシンテニーが見い出された．<br/>　さきに述べた鰓裂に特異的な遺伝子である<em>Pax1/9</em>遺伝子を含む近傍の遺伝子の並びが，新口動物において広く保存されていることがわかってきた<a href="#R4"><sup>4,5)</sup></a>．この遺伝子クラスターは<em>Nkx2.1</em>遺伝子，<em>Nkx2.2</em>遺伝子，<em>Pax1/9</em>遺伝子，<em>Slc25A21</em>遺伝子，<em>Mipl1</em>遺伝子，<em>FoxA1</em>遺伝子の6つの遺伝子から構成されており，さらに近傍の3つの遺伝子にも保存性があった．このうち，<em>Nkx2.1</em>遺伝子，<em>Nkx2.2</em>遺伝子，<em>Pax1/9</em>遺伝子，<em>FoxA1</em>遺伝子は，細胞の分化にかかわる転写因子をコードする．これら6つの遺伝子は，ヒト，ナメクジウオ，2種のギボシムシ，オニヒトデにおいて，いくらかの分断や順番の入れ替えはあったものの，ほぼ完全な遺伝子セットをもつ遺伝子クラスターとして見い出された．一方で，旧口動物にもこれらの遺伝子のひとつひとつは存在するが，遺伝子クラスターとしては存在していない．<em>Pax1/9</em>遺伝子は鰓裂に特異的に発現することが知られており，また，<em>Nkx2.1</em>遺伝子も鰓部の近傍に特異的に発現することが知られている<a href="#R6"><sup>6)</sup></a>．ギボシムシにおいてこの遺伝子クラスターに含まれるほかの2つの転写因子の遺伝子の発現パターンを調べたところ，<em>Nkx2.2</em>遺伝子は鰓開口部の腹側の内胚葉において発現し，<em>FoxA</em>遺伝子は内胚葉の全体において発現するが，鰓開口部でのみ発現が抑えられていた．つまり，この遺伝子クラスターにコードされる4つの転写因子は，いずれも鰓裂およびその周辺の組織に特異性をもたらすことが強く示唆された．<br/>　なお，これらの遺伝子にとなりあう残りの遺伝子の発現および機能については不明である．最近になり，転写因子をコードする遺伝子にとなりあう遺伝子は，遺伝子のあいだにある制御領域を保存するため遺伝子の並びが固定化される傾向にあることが報告された．この遺伝子クラスターは鰓裂の形成にかかわる4つもの転写因子をコードするため，残りの5つの遺伝子の並びは，その遺伝子間領域が複雑な発現制御にかかわるために拘束されているのかもしれない．このことは，鰓裂を形成しなくなった棘皮動物においてもこの遺伝子クラスターが高度に保存されていることからも推測された．また，実際にマウスにおいて，<em>Pax1/9</em>遺伝子の制御は数百kbも離れたところにもおよぶことが知られている<a href="#R7"><sup>7)</sup></a>．<br/>　これらの結果から，この研究からの強いメッセージとして，並びのそろった4つの転写因子の遺伝子とその近傍の遺伝子による遺伝子クラスターが新口動物の祖先において生じ，新口動物にみられる形態的にきわだった新規性といえる咽頭部（鰓部）の器官の進化における制御の役割を担ってきた，という仮説を提唱した（<a href="#F2">図2</a>）．この遺伝子クラスターを含む領域は咽頭部形成遺伝子クラスターともよぶべきであり，非コード領域を含め，今後の新口動物の解析において注目すべき領域といえるだろう．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　新口動物の系統関係と鰓裂系の進化</strong><br/>現生の動物における鰓裂およびその痕跡に相当する領域を青色で示し，あわせて，咽頭部形成遺伝子クラスターの模式図を示した．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Satoh-Nature-15.10.29-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　新口動物の系統関係と鰓裂系の進化" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Satoh-Nature-15.10.29-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Satoh-Nature-15.10.29-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>4．新口動物に特異的な遺伝子には粘液の形成に関連する遺伝子が含まれる</h2><br/>　新口動物に特異的な遺伝子の探索において，できるだけ多くの生物のゲノムと比較するため，2種のギボシムシを含む11種の新口動物にくわえ，47種の生物のデータを用いた．その結果，新口動物に共通する遺伝子として9000弱の遺伝子ファミリーが同定された．そのうち，369の遺伝子ファミリーはほかの動物のゲノムにはコードされておらず，このなかから，31の遺伝子ファミリーを新口動物を進化的に特徴づける遺伝子の候補とした．このなかにはシアル酸の合成にかかわる複数の遺伝子がみつかり，これらは，シアル酸合成系の11のステップのうち開始点を含む5つのステップにかかわっていた．シアル酸はおもに新口動物に広く見い出され，かつては新口動物を特徴づける化合物とされてきた．シアル酸からの最終代謝産物はムチンなど糖タンパク質の糖部分に用いられ，すなわち，新口動物の粘液系の形成にはたらく．シアル酸を含むムチンの糖タンパク質の合成系は，新口動物と旧口動物においてそれぞれ独立に獲得されたのか，それとも，より古い祖先において獲得されたのち新口動物を含むいくつかの系統にのみ保存されたのかどうかはわからない．しかし，新口動物の進化においてムチンを含む糖タンパク質の多様化が進んだことはまちがいない．<br/>　このことを支持する別の特徴として，ギボシムシのゲノムにおいてvWDドメインをもつタンパク質が非常に多様化していることがわかった．ヒメギボシムシおよびクビナガギボシムシはそれぞれ約150および約200のvWDドメインを含む遺伝子をもち，そのうちいくつかは同じドメインの組合せの単位をとっていた．このドメインの組合せの単位は新口動物に特徴的なものであり，ムチンもこのドメインの組合せの単位を含んでいた．ギボシムシは鰓裂のはじまる付近に多くの繊毛をもち，この繊毛により生じた水流によりえさとなる砂の中の粒子を鰓裂へと運び，粘液によりろ過して消化管に運ぶと考えられている．すなわち，粘液と繊毛を利用したろ過摂食を行う．新口動物の祖先において，ろ過摂食に必要な粘液の形成にかかわる遺伝子の多様化が生じ，ギボシムシにおいては現生の生物においてもなお，粘液に関連するタンパク質の多様化がつづいていることが示唆された．<br/><br/><h2>おわりに</h2><br/>　ギボシムシのゲノム解読においてハイライトになる，新口動物の起源についての考察について述べた．この研究においては，さらに，新口動物の系統関係についても解析しており，既知の系統関係のほとんどが支持されることが確認された．新口動物と近縁であることが議論されている珍渦虫および無腸動物の系統的な位置についても詳細に解析したが，残念ながら，その結論は“まだ決定することができない”というものであった．しかし，咽頭部形成遺伝子クラスターおよび新口動物に特異的な遺伝子の候補の存在が提示されたことから，それらの有無が珍渦虫および無腸動物のゲノムにおいて確認されるかどうかが注目される．この研究においては，ほかにも<em>Lefty</em>遺伝子や非コード領域の保存性など，多くの解析がなされている．<br/>　最後に，このゲノムプロジェクトの歴史を振り返る．2種のギボシムシのうちヒメギボシムシのゲノム解読は，2005年，筆者らのひとり（田川）が，ゲノム特定領域研究において分担研究として開始した．2006年，筆者らのひとり（川島）は，オアフ島におけるヒメギボシムシの採集に参加する機会を得て，これがきっかけでギボシムシに注目するようになり共同研究者として参画した．一方で，それにさきがけ，クビナガギボシムシのゲノムプロジェクトは米国Harvard大学などが開始していたが，技術的なさまざまな問題からよいデータを得られず苦労していたようである．状況が大きく変わったのは，2013年ごろ，日米の共同研究として報告することが決まってからである．それからは，ヒメギボシムシは川島が，クビナガギボシムシは筆者らのひとり（Simakov）が担当し，ほかの共同研究者も含めた定期的な電話会議によりデータ解析の統合および論文化が着実に進んでいった．データを突き合わせていくうち，どちらも粘液系の多様化に気づき，解析結果の統合化の作業をつうじ，今回，提唱した仮説へとつながった．紆余曲折はあったが，足かけ10年のプロジェクトがここで大きな成果を得て結実したことにホッとしている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Swalla, B. J. & Smith, A. B.</span>: <span class="ti">Deciphering deuterostome phylogeny: molecular, morphological and palaeontological perspectives.</span> <span class='so'>Philos. Trans. R. Soc. Lond. B Biol. Sci., 363, 1557-1568 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18192178" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Ogasawara, M., Wada, H., Peters, H. et al.</span>: <span class="ti">Developmental expression of <em>Pax1/9</em> genes in urochordate and hemichordate gills: insight into function and evolution of the pharyngeal epithelium.</span> <span class='so'>Development, 126, 2539-2550 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10226012" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Putnam, N. H., Butts, T., Ferrier, D. E. et al.</span>: <span class="ti">The amphioxius genome and the evolution of the chordate karyotype.</span> <span class='so'>Nature, 453, 1064-1071 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18563158" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Santagati, F., Abe, K., Schmidt, V. et al.</span>: <span class="ti">Identification of <em>cis</em>-regulatory elements in the mouse <em>Pax9</em>/<em>Nkx2-9</em> genomic region: implication for evolutionary conserved synteny.</span> <span class='so'>Genetics, 165, 235-242 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14504231" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Wang, W., Zhong, J., Su, B. et al.</span>: <span class="ti">Comparison of <em>Pax1/9</em> locus reveals 500-Myr-old syntenic block and evolutionary conserved noncoding regions.</span> <span class='so'>Mol. Biol. Evol., 24, 784-791 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17182894" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Lowe, C., Wu, M., Salic, A. et al.</span>: <span class="ti">Anteroposterior patterning in hemichordates and the origins of the chordate nevous system.</span> <span class='so'>Cell, 113, 853-865 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12837244" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Kokubu, C., Horie, K., Abe, K. et al.</span>: <span class="ti">A transposon-based chromosomal engineering method to survey a large <em>cis</em>-regulatory landscape in mice.</span> <span class='so'>Nat. Genet., 41, 946-952 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19633672" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">川島 武士（Takeshi Kawashima）</span><br>略歴：2001年 京都大学大学院理学研究科 修了，2003年 同 助手，2006年 米国DOE Joint Genome Institute研究員，2008年 沖縄科学技術研究基盤整備機構 グループリーダー，2013年 基礎生物学研究所 研究員を経て，2015年より筑波大学生命環境系 助教．<br>研究テーマ：動物の多様性をゲノムの解析をつうじて理解する．<br>抱負：つぎの誰かにつながる研究成果をめざしています．<br><br><strong>Oleg Simakov</strong><br>沖縄科学技術大学院大学 研究員．<br><br><strong>佐藤 矩行（Noriyuki Satoh）</strong><br>沖縄科学技術大学院大学 教授．<br><br><strong>田川 訓史（Kunifumi Tagawa）</strong><br>広島大学大学院理学研究科 准教授．<br></div><br>© 2015 川島武士・Oleg Simakov・佐藤矩行・田川訓史 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

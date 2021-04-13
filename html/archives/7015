@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 遺伝情報の拡張による高親和性のDNAアプタマーの創出 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>遺伝情報の拡張による高親和性のDNAアプタマーの創出</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>木本路子・平尾一郎</strong><br>（理化学研究所ライフサイエンス技術基盤研究センター 合成分子生物学研究チーム）<br>email：<a href="mailto:ihirao@riken.jp">平尾一郎</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.055">10.7875/first.author.2013.055</a><br><div class="reference"><br><span class="ti">Generation of high-affinity DNA aptamers using an expanded genetic alphabet.</span><br><span class="au">Michiko Kimoto, Rie Yamashige, Ken-ichiro Matsunaga, Shigeyuki Yokoyama, Ichiro Hirao</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23563318" target="_blank"><em>Nature Biotechnology</em>, <strong>31</strong>, 453-457 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　DNAアプタマーはタンパク質などの標的分子に特異的に結合するDNA断片であり，SELEX法という人工進化の手法により作製することが可能で，医薬への利用が期待されている．しかし，天然型あるいはその修飾ヌクレオチドにより作製される従来型のDNAアプタマーは，標的となるタンパク質との結合において親和性や特異性の低い場合が多い．今回，筆者らは，4種類の天然型塩基A，G，C，Tにくわえ，人工的に作り出した疎水性の塩基Dsを組み込んだDNAアプタマーの作製に成功した．天然型塩基からなるランダムな配列の1～3箇所にDs塩基を組み込んだDNA断片からなるライブラリーを作製し，これを用いたSELEX法により標的とした2種類のヒトのタンパク質，VEGF165およびインターフェロンγに対するDNAアプタマーを得た．従来型の天然型塩基のみからなるDNAアプタマーと比較して，それぞれのDNAアプタマーの標的に対する結合能は100倍以上に向上した．この結果から，人工塩基による遺伝情報の拡張は高機能な核酸を創出するための強力なツールになりうることがはじめて示された．今後，人工塩基からなるDNAアプタマーの医療への応用が期待される．<br/><br/><h2>はじめに</h2><br/>　核酸は複製や遺伝子発現における遺伝情報分子としての機能にくわえ，リガンドや触媒などとしての機能もあわせもつ．この核酸のユニークな性質を利用した進化工学の手法により，用途にあわせた機能性核酸の創出が可能になっている．SELEX法（systematic evolution of ligands by exponential enrichment，<em>in vitro</em>セレクション法ともいう）による核酸アプタマーの作製もそのひとつである<a href="#R1"><sup>1,2)</sup></a>．SELEX法では，ランダムな配列からなる核酸断片のライブラリーから標的となる分子に結合する断片を選別し，得られた断片をPCRなどにより増幅して再びライブラリーとする．この選別と増幅のラウンドを選択圧を高めながらくり返すことにより，最終的に，高い親和性で特異的に標的分子に結合する核酸断片（核酸アプタマー）が得られる．タンパク質からなる抗体とは異なり，核酸アプタマーは試験管の中で創出することができるので，毒性の高い分子を標的にすることもできる．また，得られた核酸アプタマーの塩基配列を特定することができれば，核酸合成により安定した品質をもって大量生産が可能である．<br/>　核酸アプタマーの問題点のひとつは，標的分子に対する結合能がタンパク質からなる抗体と比較して低い場合が多いことである．これは，20種類のアミノ酸からなるタンパク質に対し，核酸は4種類の塩基のみを側鎖とするヌクレオチドからなるためである．さらに，核酸は親水性が高いため疎水性の高い標的分子との親和性がとくに低くなる．これらの問題に対処するため，ヌクレオチドの塩基，糖，リン酸のそれぞれの部位を修飾したアプタマーの作製法が検討されるようになった．そして，既存の塩基部分を疎水性の置換基で修飾することにより，DNAアプタマー作製の成功率が高められるようになった．しかし，これらの改良法を用いても，核酸アプタマーの親和性の著しい向上にまではいたっていない．<br/>　以前より，核酸の機能の向上を図るための本質的な方法として，塩基の種類を人工的に増やす方法が注目されてきた．塩基の種類が増えれば，遺伝情報の拡張と同時に，リガンドや触媒としての核酸の高機能化も達成できるかもしれない．そのためには，新たな塩基を組み込んだDNAが複製により増幅され，転写によりRNAにコピーされなければならず，第3の塩基対として生物のもつシステムにおいて選択的に機能する人工の塩基対を創出しなければならない．<br/><br/><h2>1．人工塩基対の開発</h2><br/>　人工塩基対のアイデアは，すでに1962年に出版された総説において記されている<a href="#R3"><sup>3)</sup></a>．1980年代の後半からは，それらの人工塩基対およびその類似塩基対が合成された<a href="#R4"><sup>4)</sup></a>．残念ながら，これらの人工塩基対は複製や転写において実用化できるレベルにはいたらなかった．そののち，1995年以降，複製，転写，翻訳において機能する人工塩基対の開発がいくつかの研究チームにより競合的に進められている．筆者らは，2002年に転写と翻訳において機能する人工塩基対s-yを<a href="#R5"><sup>5)</sup></a>，2006年には複製（PCR）において機能する人工塩基対Ds-Paを<a href="#R6"><sup>6)</sup></a>，開発してきた．そして，2012年までに，PCRにおいて非常に高い選択性を示す人工塩基対Ds-Pxの開発に成功した<a href="#R7"><sup>7,8)</sup></a>（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　人工塩基対Ds-Pxと天然型のA-T塩基対およびG-C塩基対の構造</strong><br/>Ds-Px塩基対は塩基のあいだに水素結合を形成しない疎水的な塩基対である．DsとPxのかたちはジグゾーパズルのように互いに適合するが，天然型の塩基対とは適合しない．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirao-Nature-Biotechnology-13.5.8-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　人工塩基対Ds-Pxと天然型のA-T塩基対およびG-C塩基対の構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirao-Nature-Biotechnology-13.5.8-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirao-Nature-Biotechnology-13.5.8-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　7-(2-チエニル)イミダゾ[4,5-b]ピリジン（Ds）と2-ニトロ-4-プロピニルピロール（Px）からなる人工塩基対Ds-Pxは，天然型の塩基との対合をさけるため，それぞれの人工塩基から塩基対の面にある水素結合性をもつ置換基や原子を取り除いた疎水性の塩基対である<a href="#R7"><sup>7)</sup></a>．プリン類似体にチエニル基を結合したDs塩基はAやGよりも形状が大きく，逆に，Px塩基の母体は五員環であるピロールを用いているので六員環のTやCよりも小さい．そして，Dsの形状はジグソーパズルのようにPxとのみ適合するようになっている．PxにはDNAポリメラーゼとの芳香属性の相互作用を強めるためプロピニル基を付加している．さらに，PxとAとの塩基対の形成を抑えるため2位にニトロ基を導入している．このニトロ基の酸素原子とAの1位の窒素原子とは静電的に反発しあう．こうして，100サイクルのPCRにも耐えうる第3の塩基対Ds-Pxができあがった<a href="#R8"><sup>8)</sup></a>．<br/>　そののち，米国の2つのチームもPCRにおいて機能する人工塩基対の開発に成功し，つぎの課題は，人工塩基を組み込んだDNAの機能が本当に向上するかどうかになった<a href="#R9"><sup>9)</sup></a>．とくに，人工塩基対を用いたSELEX法による核酸アプタマーや核酸触媒の開発は，これらのチームのあいだで競われていた．<br/><br/><h2>2．人工塩基を用いた核酸アプタマーに対するSELEX法</h2><br/>　人工塩基を用いた核酸アプタマーに対するSELEX法において，DsをDNAライブラリーに導入した．DNAアプタマーはRNAアプタマーより大量合成が容易なため実用化には有利である．しかし，DNAはRNAほどその高次構造が柔軟ではなく，A-TとG-Cの塩基対形成による二本鎖直鎖構造をとりやすいのでアプタマーには適していない．そこで，Dsのみを第5の塩基として導入することにより，DNAライブラリーにおける高次構造の多様性を高めることにした．相補塩基であるPxを導入していないので，Dsは塩基対を形成できずDNAの高次構造は多様化される．さらに，Dsは疎水性が非常に高いので，標的となるタンパク質のもつ疎水性ポケットとの相互作用が期待できる．この5種類の塩基A，G，C，T，Dsからなる一本鎖DNA断片のライブラリーを用いて，標的タンパク質に結合するDNA断片の選別を行った．そして，選別されたライブラリーの増幅の際には基質としてDsとPxをくわえてPCRを行い二本鎖DNAとした．そののち，Dsを含む一本鎖DNAを単離してつぎのラウンドに進んだ（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　人工塩基Dsを組み込んだDNAライブラリーを用いたSELEX法</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirao-Nature-Biotechnology-13.5.8-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　人工塩基Dsを組み込んだDNAライブラリーを用いたSELEX法" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirao-Nature-Biotechnology-13.5.8-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirao-Nature-Biotechnology-13.5.8-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　問題は，最終ラウンドののちライブラリーから得られたDNAアプタマーの塩基配列の決定法である．従来の方法では，最終ライブラリーをプラスミドに組み込み大腸菌に形質転換することにより，それぞれのコロニーからアプタマーの配列を決定する．あるいは最近では，次世代シークエンサーを用いてライブラリーから直接，塩基配列を決定する方法もある．しかし，どちらの方法も人工塩基を含むライブラリーには適用できない．現時点では，人工塩基を含むプラスミドDNAの大腸菌におけるクローニング法や，次世代シークエンサーによる第5の塩基を含む塩基配列の決定法は確立していない．<br/>　そこで，天然型塩基からなる43塩基長のランダムな配列において特定の部位に1つから3つのDsを導入した22種類のサブライブラリーを作製した．さらに，それぞれのサブライブラリーにはDsの位置を特定するため，2つから3つの天然型塩基からなる個別のタグ配列をくわえた．人工塩基の位置の異なる22種類のサブライブラリーを混合し，これをライブラリーとしてSELEX法に用いた．最終ラウンドののちのライブラリーは基質としてDsとPxを除いてPCRにより増幅し，人工塩基対を天然型塩基対に変異させて，そのあと次世代シークエンサーを用いて塩基配列を決定した．それぞれの配列のタグ配列から人工塩基の位置を特定し，Dsを含むDNAアプタマーの最終配列を決定した（<a href="#F2">図2</a>）．ただし，Ds-Px塩基対は選択性が高いため天然型の塩基対に変異しにくく，基質として人工塩基をくわえないとPCRが人工塩基対の位置で止まってしまう．そこで，以前に開発した，Pxよりも精度の低いPa塩基をくわえることにより人工塩基対から天然型塩基対への変異を容易にした．<br/><br/><h2>3．人工塩基を用いたDNAアプタマーの高い親和性と特異性</h2><br/>　人工塩基対を用いたSELEX法を確立するため，モデル標的タンパク質としてVEGF165とインターフェロンγを選んだ．VEGF165に対するアプタマーは，すでに，その修飾RNAアプタマーが加齢黄斑変性症の治療薬として用いられている<a href="#R10"><sup>10)</sup></a>．その結合定数は49～130 pMである<a href="#R11"><sup>11)</sup></a>．また，天然型塩基のみからなるDNAアプタマーも得られていて，その結合定数は370 pMである<a href="#R12"><sup>12)</sup></a>．インターフェロンγはサイトカインの一種であり，ウイルス感染などのバイオマーカーとして有用である．しかし，これまでに得られたDNAアプタマーの結合定数は3～28 nMである<a href="#R13"><sup>13)</sup></a>．<br/>　それぞれの標的タンパク質に対し7ラウンドの選別を行い，Dsを含むDNAアプタマーの配列を得た．さらに，それぞれのDNAアプタマーの配列に変異を導入してふたたびSELEX法を行い，DNAアプタマーの最適化を行った．その結果，VEGF165に結合する2つのDsを含む全長47塩基のDNAアプタマーが得られ，その結合定数は0.65 pMであった．また，インターフェロンγに結合する全長49塩基のDNAアプタマーには3つのDsが含まれ，その結合定数は38.4 pMであった．天然型塩基のみからなる従来のDNAアプタマーと比較して，標的に対する親和性は大幅に向上していた．それぞれのアプタマーにおいてDsをAに置換したところ親和性は100倍ほど低下し，人工塩基に依存したDNAアプタマーであることが確認された．また，それぞれのDNAアプタマーについて，ほか数種類のタンパク質に対する親和性も調べたが，それぞれの標的のみに高い選択性で結合し，従来のアプタマーに比べ選択性も向上していることがわかった．<br/><br/><h2>おわりに</h2><br/>　人工塩基対の研究のおもな目的のひとつは，塩基の種類を増やすことにより遺伝情報を拡張し，タンパク質に非天然型アミノ酸を導入することである．しかし，核酸の多様な機能がわかってくると，人工塩基を核酸に導入することにより，リガンドや触媒などとしての機能の向上も期待されるようになってきた．今回の人工塩基対を導入したDNAアプタマーの研究から，天然型塩基とは性質の異なるわずか1種類の人工塩基を2～3箇所に組み込むことにより，DNAの高機能化が可能であることがはじめて実証された．今後，この手法を用いて得られる人工塩基DNAアプタマーの医療への応用が期待される．<br/>　Ds-Px塩基対をSELEX法に応用できたことは，人工塩基対が第3の塩基対として実用化レベルに達しつつあることを示した．このSELEX法では，それぞれのラウンドで20サイクル以上のPCRを行い，合計で7ラウンドの選別を行った．したがって，人工塩基は総計140サイクル以上のPCR増幅に生き残ったことになった．とくにこの手法では，あらかじめサブライブラリーにおいて人工塩基の位置を固定しているので，SELEX法において人工塩基が天然型塩基に置き換わったり，あるいは，天然型塩基が人工塩基に置き換わったりしてしまっては成り立たなくなってしまう．したがって，Ds-Px塩基対のPCRにおける選択性は天然型塩基対に匹敵するレベルに達していると考えられた．<br/>　今後，人工塩基対システムは次世代の遺伝子操作の基盤をなす技術として，SELEX法のみならず，幅広い分野に利用されるものと期待している．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Ellington, A. D. & Szostak, J. W.</span>: <span class="ti"><em>In vitro</em> selection of RNA molecules that bind specific ligands.</span> <span class='so'>Nature, 346, 818-822 (1990)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1697402" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Tuerk, C. & Gold, L.</span>: <span class="ti">Systematic evolution of ligands by exponential enrichment: RNA ligands to bacteriophage T4 DNA polymerase.</span> <span class='so'>Science, 249, 505-510 (1990)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2200121" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Rich, A.</span>: <span class="ti">Problems of evolution and biochemical information transfer.</span> <span class='so'><em>in</em> Horizons in Biochemistry (Kasha, M. & Pullman, B. Eds.), pp.103-126, Academic Press, New York (1962)</span></li><br><li id="R4"><span class='au'>Switzer, C., Moroney, S. E. & Benner, S. A.</span>: <span class="ti">Enzymatic incorporation of a new base pair into DNA and RNA.</span> <span class='so'>J. Am. Chem. Soc., 111, 8322-8323 (1989)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1688644" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Hirao, I., Ohtsuki, T., Fujiwara, T. et al.</span>: <span class="ti">An unnatural base pair for incorporating amino acid analogs into proteins.</span> <span class='so'>Nat. Biotechnol., 20, 177-182 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11821864" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Hirao, I., Kimoto, M., Mitsui, T. et al.</span>: <span class="ti">An unnatural hydrophobic base pair system: site-specific incorporation of nucleotide analogs into DNA and RNA.</span> <span class='so'>Nat. Methods, 3, 729-735 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16929319" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Kimoto, M., Kawai, R., Mitsui, T. et al.</span>: <span class="ti">An unnatural base pair system for efficient PCR amplification and functionalization of DNA molecules.</span> <span class='so'>Nucleic Acids Res., 37, e14 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19073696" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Yamashige, R., Kimoto, M., Takezawa, Y. et al.</span>: <span class="ti">Highly specific unnatural base pair systems as a third base pair for PCR amplification.</span> <span class='so'>Nucleic Acids Res., 40, 2793-2806 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22121213" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Hirao, I. & Kimoto, M.</span>: <span class="ti">Unnatural base pair systems toward the expansion of the genetic alphabet in the central dogma.</span> <span class='so'>Proc. Jpn. Acad. Ser. B. Phys. Biol. Sci., 88, 345-367 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22850726" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Ng, E. W. M., Shima, D. T., Calias, P. et al.</span>: <span class="ti">Pegaptanib, a targeted anti-VEGF aptamer for ocular vascular disease.</span> <span class='so'>Nat. Rev. Drug Discov., 5, 123-132 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16518379" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Ruckman, J., Green, L. S., Beeson, J. et al.</span>: <span class="ti">2'-Fluoropyrimidine RNA-based aptamers to the 165-amino acid form of vascular endothelial growth factor (VEGF165). Inhibition of receptor binding and VEGF-induced vascular permeability through interactions requiring the exon 7-encoded domain.</span> <span class='so'>J. Biol. Chem., 273, 20556-20567 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9685413" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Potty, A. S. R., Kourentzi, K., Fang, H. et al.</span>: <span class="ti">Biophysical characterization of DNA aptamer interactions with vascular endothelial growth factor.</span> <span class='so'>Biopolymers, 91, 145-156 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19025993" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Liu, Y., Tuleouva, N., Ramanculov, E. et al.</span>: <span class="ti">Aptamer-based electrochemical biosensor for interferon gamma detection.</span> <span class='so'>Anal. Chem., 82, 8131-8136 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20815336" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">木本 路子（Michiko Kimoto）</span><br>略歴：2002年 東京大学大学院理学系研究科博士課程 修了，2013年より理化学研究所ライフサイエンス技術基盤研究センター 上級研究員．<br><br><strong>平尾一郎（Ichiro Hirao）</strong><br>略歴：1983年 東京工業大学理工学研究科後期博士課程 修了，2007年よりタグシクス・バイオ株式会社 代表取締役社長，2013年より理化学研究所ライフサイエンス技術基盤研究センター チームリーダー．<br>研究室URL：<a href="http://protein.gsc.riken.jp/hirao/index.html" target="_blank">http://protein.gsc.riken.jp/hirao/index.html</a><br></div><br>© 2013 木本路子・平尾一郎 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

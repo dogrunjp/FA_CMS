@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 細胞はシグナルのばらつきを自律的に補償して情報を頑健に伝達する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>細胞はシグナルのばらつきを自律的に補償して情報を頑健に伝達する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>宇田新介・黒田真也</strong><br>（東京大学大学院理学系研究科 生物化学専攻）<br>email：<a href="mailto:uda@bi.s.u-tokyo.ac.jp">宇田新介</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.106">10.7875/first.author.2013.106</a><br><div class="reference"><br><span class="ti">Robustness and compensation of information transmission of signaling pathways.</span><br><span class="au">Shinsuke Uda, Takeshi H. Saito, Takamasa Kudo, Toshiya Kokaji, Takaho Tsuchiya, Hiroyuki Kubota, Yasunori Komori, Yu-ichi Ozaki, Shinya Kuroda</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23908238" target="_blank"><em>Science</em>, <strong>341</strong>, 558-561 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　細胞は細胞内シグナル伝達により情報を伝達し，細胞の分化などの表現型を制御している．しかし，細胞ごとにシグナルの強度がばらつくなか，どのぐらいの情報量をどのように伝達しているのかについてはほとんど不明であった．筆者らは，これまでに，細胞のシグナルを1細胞レベルで定量的かつ大規模に測定する手法を開発している．今回，この手法を用いて，細胞が伝達する情報量をShannonの情報理論の枠組みにもとづいて解析したところ，成長因子から細胞の内部に伝達される情報量は約1ビットであることがわかった．さらに，細胞にさまざまな阻害剤をくわえたところ，シグナルの強度は低下したにもかかわらず情報量は保たれた．情報を頑健に伝達するしくみのひとつとして，ある経路が阻害されても，阻害されていない経路が情報量を補償することにより合計の情報量を保っていることがわかった．これらより，細胞は外乱に対し補償的な情報の伝達を行い，情報量を頑健に保つしくみをもつことがわかった．<br/><br/><h2>はじめに</h2><br/>　細胞が外部の環境の変化に適応したり生体組織の一部として適切にふるまったりするためには，環境の変化や生体組織に関する情報をとらえ，これを適切に伝達する必要がある．これらの情報は，細胞内シグナル伝達とよばれる，おもにタンパク質の生化学反応による変化をシグナルとしたネットワークにより伝達されるが，細胞ごとにシグナルの強度がばらつくなか，細胞がどのくらいの情報量をどのように伝達しているのかについては不明であった．さらに，従来の細胞内シグナル伝達の研究は，ネットワークを構成する生化学的な分子は何かという問いをテーマとしたものが大半であり，情報量の観点からの解析はあまりなく<a href="#R1"><sup>1-3)</sup></a>，とくに，独自の実験データに裏づけられた研究は少ない<a href="#R4"><sup>4-6)</sup></a>．筆者らの興味は，細胞内シグナル伝達における情報の伝達を定量的に調べることにあり，工学的な通信システムの評価にも用いられるShannonの情報理論<a href="#R7"><sup>7-9)</sup></a> の枠組みを用いて細胞内シグナル伝達を解析することにした．しかし，この解析のためには1細胞ごとのシグナルの強度を定量的かつ大量に測定することが必要であった．筆者らは，先行研究として，QIC（quantitative image cytometry）法とよばれる定量的な大量計測手法の開発に成功した<a href="#R10"><sup>10)</sup></a>．今回，このQIC法を用いて測定を行うことにより，Shannonの情報理論の枠組を用いて細胞内シグナル伝達における情報量を解析することが可能になった．<br/><br/><h2>1．細胞が伝達する情報量を相互情報量により測定する</h2><br/>　Shannonの情報理論の枠組みから，シグナルの送り手と受け手とのあいだで伝達される情報量は，相互情報量という尺度を用いて表わすことができる．情報量は，情報を記号により表記したときの長さと解釈することができるが，その長さは用いる記号の数による．<em>n</em>個の記号を用いることは<em>n</em>進法で記述することに相当するが，任意の<em>n</em>進法のあいだで記述を変換して同一の進法での長さに換算することができるので，通常は2進法で記述したときの長さを情報量の単位としてビットを用いて表記することが多い．Shannonの情報理論の枠組みによる相互情報量を用いて，細胞内シグナル伝達における情報量を測定することにした．<br/><br/><h2>2．1細胞ごとのシグナルの強度を定量的かつ大量に測定する</h2><br/>　相互情報量を調べるには，シグナルの強度を1細胞ずつ定量的かつ大量に測定する必要があるが，これは従来の測定方法では実現が困難であった．しかし筆者らは，定量的な免疫染色法であるQIC法を開発し，液体ハンドリングロボットを用いた自動化装置と画像処理技術の併用により，1細胞ごとのシグナルの強度を定量的かつ大量に測定することに成功した．その結果，実際に細胞内シグナル伝達における相互情報量を測定することができるようになり，細胞内シグナル伝達における情報量を定量的に解析できるようになった．<br/><br/><h2>3．情報量は同じであっても刺激の種類により情報を伝達する経路は異なる</h2><br/>　細胞運命の決定機構のモデル細胞としてよく用いられるPC12細胞を用いて，細胞分化を誘導する成長因子であるNGFおよびPACAP，薬理刺激物質であるPMAからなる合計3種類の刺激を，濃度を変えてそれぞれくわえ，早期応答遺伝子産物であるc-FOSおよびEGR1への細胞内シグナル伝達について調べた（<a href="#F1">図1a</a>）．その結果，早期応答遺伝子産物へと伝達される情報量は，刺激の種類によらずいずれも平均的に約1ビットであった．情報量が1ビットというのは2つの状態を区別して記述できることに相当し，たとえば，スイッチならばオンとオフの2つを区別できることになる．この場合はおおざっぱにいって，さまざまな濃度の刺激を用いて区別できる早期応答遺伝子産物の状態は平均的に2つであり，それぞれの状態は活性と不活性に対応すると考えてよい．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　ばらつきのもとでの情報の伝達の概念と細胞内シグナル伝達経路</strong><br/>（a）NGFなどの刺激によりERKやCREBが活性化し，その下流のc-FOSやEGR1が発現する．そののち細胞は分化する．<br/>（b）ばらつきが十分に小さいとき．ERK活性の強度から刺激に用いたNGF濃度を区別することはやさしい．<br/>（c）ばらつきが大きいとき．異なるNGF濃度により刺激したときのERK活性の分布が重なる部分では，ERK活性の強度から刺激に用いたNGF濃度を区別することはむずかしい．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kuroda-Science-13.8.2-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　ばらつきのもとでの情報の伝達の概念と細胞内シグナル伝達経路" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kuroda-Science-13.8.2-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kuroda-Science-13.8.2-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　より直感的な理解のために簡単な状況を考え，2つのNGF濃度による刺激（2つの状態に相当）と，それに対するERK活性の応答のみを想定する．ERK活性のばらつきが十分に小さければ，ERK活性を測定することにより刺激に用いたNGF濃度を区別することができる（<a href="#F1">図1b</a>）．一方，ERK活性のばらつきが大きいと，それぞれのNGF濃度による刺激のときのERK活性の分布に重なる部分が生じ，この重なった部分においてERK活性が測定されたときには刺激に用いたNGF濃度を区別することはむずかしく，NGF濃度に関する情報は損失したと解釈できる（<a href="#F1">図1c</a>）．実際には，刺激に用いたNGF濃度は12段階としたので，情報の伝達に損失がなければ刺激は最大で約3.6ビット分の情報量をもつのに対し，刺激と早期応答遺伝子産物とのあいだの相互情報量は約1ビットであったので，ばらつきにより情報の伝達には少なからず損失が生じていた．また，刺激に用いる濃度の範囲（ダイナミックレンジ）も伝達可能な情報量に影響するが，おおざっぱには，同じ濃度の範囲を用いるのであれば相対的にばらつきの小さいほうが伝達可能な情報量は大きくなると考えてよい．この研究では，刺激の濃度に対する応答曲線が飽和するまでの十分に広い範囲を用いた．<br/>　一方，NGFなどの成長因子と早期応答遺伝子産物までの細胞内シグナル伝達経路には，ERKやCREBが存在することが知られており（<a href="#F1">図1a</a>），伝達される情報量は同じであっても，情報を伝達する経路はさまざまなものが考えられる．伝達される情報量を経路ごとの寄与に分ける方法を考え，それぞれの経路の寄与について調べたところ，成長因子から早期応答遺伝子産物へと伝達される情報量は刺激の種類によらず同じ約1ビットであっても，刺激の種類によりおもに情報を伝達する経路は，ERK，CREB，それ以外，と異なっていることがわかった．<br/><br/><h2>4．情報の伝達は外乱に対し補償されており頑健である</h2><br/>　刺激の種類により情報を伝達する経路が異なっていた結果をふまえ，阻害剤をあたえた条件において細胞内シグナル伝達はどのような影響をうけるのかを調べた．阻害剤は，ERK，CREB，それ以外の経路について，それぞれ早期応答遺伝子産物の上流を阻害する3種類を用いた．その結果，いずれの阻害剤によっても下流のシグナルの強度は低下したが，早期応答遺伝子産物へと伝達される情報量は1ビットに保たれていた．一般に多くの場合，シグナル強度のみが低下すればそれにともない情報量も減少するが，シグナル強度の低下にもかかわらず情報量が1ビットに保たれたことは，細胞内シグナル伝達には頑健（ロバスト）となるしくみがあることを示していた．したがって，細胞内シグナル伝達は外乱によりシグナル強度が影響をうけても，情報の伝達は頑健であると考えられた．<br/>　さらに，細胞内シグナル伝達が頑健であるひとつの要因として，阻害剤によりある経路が阻害されその経路により伝達される情報量が減少しても，阻害されていない経路により伝達される情報量を補償的に増加させることで合計の情報量は保たれていることがわかった．たとえば，ERKの上流を阻害した場合，ERKから早期応答遺伝子産物へと伝達される情報量は減少するが，一方で，CREBなどほかの経路により伝達される情報量が補償的に増加することで情報量は一定に保たれることがわかった（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　阻害された経路の情報量の損失をほかの経路が補償することにより情報量は頑健に保たれる</strong><br/>（a）ERKの経路が阻害されなかった場合．<br/>（b）ERKの経路が阻害された場合．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kuroda-Science-13.8.2-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　阻害された経路の情報量の損失をほかの経路が補償することにより情報量は頑健に保たれる" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kuroda-Science-13.8.2-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kuroda-Science-13.8.2-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　また，NGFの刺激によりPC12細胞はニューロンへと分化し神経突起を伸長するが，このことは，NGFの刺激は細胞を分化へと誘導する情報をもつとみなすことができる．NGFの刺激から神経突起の伸長までの細胞内シグナル伝達について調べた結果，表現型までの情報の伝達は同様に頑健であることがわかった．この補償機構による頑健性は，阻害剤によりシグナルの強度が低下しても伝達される情報量は同じに保たれたことから，阻害剤の存在のもとでは相対的にばらつきを小さくするか，刺激の濃度に対し応答可能な範囲を広げて（濃度応答曲線の非飽和部分を広げて）阻害剤の非存在下と同等の情報量を保つことを示唆していた．<br/><br/><h2>おわりに</h2><br/>　この研究の結果から，細胞が情報を頑健に伝達し，その要因のひとつとして経路による補償があることがわかった．当然だが，頑健性は正しい情報の伝達には好ましい性質となるが，あやまった情報が伝達する場合には好ましくない．たとえば，がん細胞においては増殖に関するシグナルが異常に亢進することが知られているが，このようなあやまった情報の伝達を阻害するために薬剤を投与するなどの措置は，十分に考えられる対処方法である．その場合，薬剤により異常なシグナルの強度を弱めることができても，あやまった情報の伝達が頑健であれば，細胞を正常な状態へともどす効果はほとんどないことも考えられる．逆に，あやまった情報の伝達において頑健性の低い部分をみつけることができれば，少ない薬剤で大きな効果の得られることも考えられる．このことから，情報の伝達における頑健性などの性質を考慮したうえで，薬剤の効果を検証することが必要になってくるだろう．筆者らの方法は，この研究において用いた細胞種あるいは細胞内シグナル伝達系のほかにも広く適用が可能であり，効率的な薬剤の投与法やターゲットをみつけるのに役立つことが期待される．<br/>　今回の研究は，刺激の強度のみにコード可能な情報量の解析に主眼をおいた．そのため，シグナル強度の時間パターンの変化にコード可能な情報量は考慮されていない．しかし実際には，細胞はシグナル強度の時間パターンの変化にも情報をコードすることが知られている．ここでは詳細は述べないが，シグナル強度の時間パターンの変化にコード可能な情報量を実験データから評価するには，計算量と実験データの取得の両面から生じる2つの困難があり，今回は解析の対象外とした．将来は，近似計算や適切な測定系の確立により，シグナル強度の時間パターンの変化も考慮して情報量を評価したい．さらに，補償がなされる詳細なしくみについてはまだよくわからない部分も多く，現在，そのしくみを数理的に解き明かすことにも取り組んでいる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Lestas, I., Vinnicombe, G. & Paulsson, J.</span>: <span class="ti">Fundamental limits on the suppression of molecular fluctuations.</span> <span class='so'>Nature, 467, 174-178 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20829788" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Tostevin, F. & ten Wolde, P. R.</span>: <span class="ti">Mutual information in time-varying biochemical systems.</span> <span class='so'>Phys. Rev. E Stat. Nonlin. Soft Matter Phys., 81, 061917 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20866450" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Waltermann, C. & Klipp, E.</span>: <span class="ti">Information theory based approaches to cellular signaling.</span> <span class='so'>Biochim. Biophys. Acta, 1810, 924-932 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21798319" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Yu, R. C., Pesce, C. G., Colman-Lerner, A. et al.</span>: <span class="ti">Negative feedback that improves information transmission in yeast signalling.</span> <span class='so'>Nature, 456, 755-761 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19079053" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Cheong, R., Rhee, A., Wang, C. J. et al.</span>: <span class="ti">Information transduction capacity of noisy biochemical signaling networks.</span> <span class='so'>Science, 334, 354-358 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21921160" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Tkacik, G., Callan, C. G. Jr. & Bialek, W.</span>: <span class="ti">Information flow and optimization in transcriptional regulation.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 105, 12265-12270 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18719112" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Shannon, C. E.</span>: <span class="ti">A mathematical theory of communication: Part 1.</span> <span class='so'>Bell Syst. Tech. J., 27, 379-423 (1948)</span></li><br><li id="R8"><span class='au'>Shannon, C. E.</span>: <span class="ti">A mathematical theory of communication: Part 2.</span> <span class='so'>Bell Syst. Tech. J., 27, 623-656 (1948)</span></li><br><li id="R9"><span class='au'>Cover, M. & Thomas, J. A.</span>: <span class="ti">Elements of Information Theory, 2nd Ed.</span> <span class='so'>Wiley, New York (2006)</span></li><br><li id="R10"><span class='au'>Ozaki, Y., Uda, S., Saito, T. H. et al.</span>: <span class="ti">A quantitative image cytometry technique for time series or population analyses of signaling networks.</span> <span class='so'>PLoS One, 5, e9955 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20376360" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">宇田 新介（Shinsuke Uda）</span><br>略歴：2006年 東京工業大学大学院総合理工学研究科 修了，民間会社に勤務ののち，2007年 東京大学大学院理学系研究科 産学官連携研究員を経て，2010年より同 特任助教．<br>研究テーマ：細胞が行う情報処理．<br>関心事：統計科学的なアプローチからシステム生物学を行う．<br><br><strong>黒田 真也（Shinya Kuroda）</strong><br>東京大学大学院理学系研究科 教授．<br>研究室URL：<a href="http://kurodalab.bi.s.u-tokyo.ac.jp/ja/index.html" target="_blank">http://kurodalab.bi.s.u-tokyo.ac.jp/ja/index.html</a><br></div><br>© 2013 宇田新介・黒田真也 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

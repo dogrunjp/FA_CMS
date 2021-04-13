@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> オーキシンによる花芽形成の開始機構 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>オーキシンによる花芽形成の開始機構</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>山口暢俊・山口礼子・Doris Wagner</strong><br>（米国Pennsylvania大学Department of Biology）<br>email：<a href="mailto:nobuy@sas.upenn.edu">山口暢俊</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.015">10.7875/first.author.2013.015</a><br><div class="reference"><br><span class="ti">A molecular framework for auxin-mediated initiation of flower primordia.</span><br><span class="au">Nobutoshi Yamaguchi, Miin-Feng Wu, Cara M. Winter, Markus C. Berns, Staci Nole-Wilson, Ayako Yamaguchi, George Coupland, Beth A. Krizek, Doris Wagner</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23375585" target="_blank"><em>Developmental Cell</em>, <strong>24</strong>, 271-282 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　モルフォゲンは濃度勾配に依存して位置情報を決定する拡散性の分子であり，そのシグナルを受容する細胞の発生における運命や分化，増殖などを制御する．植物ホルモンのひとつであるオーキシンはモルフォゲンの有力な候補であり，その輸送タンパク質のつくりだす濃度勾配にしたがい花芽原基の位置が決定される．しかし，その位置情報にもとづき花芽原基の運命決定と成長が起こる分子機構は明らかにされていなかった．オーキシンのシグナルに応答した遺伝子発現の制御において重要な役割を担うのが，オーキシン応答性転写因子である．このうちのひとつが欠損した<em>mp</em>変異体では花芽原基が形成されず花茎はピン状になることから，<em>MP</em>遺伝子により制御される標的が花芽原基の位置決定ののち起こる発生の過程を実行しているものと考えられる．筆者らは，MPにより直接的に転写を制御される遺伝子として，花芽分裂組織の性質を決定する<em>LFY</em>遺伝子，花芽原基の成長を促進する<em>ANT</em>遺伝子と<em>AIL6</em>遺伝子を同定した．これら3つの遺伝子は花芽形成を開始するため協調してはたらいていることがわかった．さらに，標的のひとつであるLFYはオーキシンの輸送とシグナル伝達を強化する正のフィードバック制御によりオーキシンの濃度勾配を維持しているものと考えられた．以上の結果から，筆者らは，これまで理解されていなかったオーキシンによる花芽形成の開始機構を提唱した．<br/><br/><h2>はじめに</h2><br/>　多細胞生物の細胞はモルフォゲンとよばれる拡散性の分子によりその発生運命が決定されている．モルフォゲンは濃度勾配を形成し，それを受容する細胞はモルフォゲンの濃度を感知することにより自らの位置を知り，分化や増殖などの制御をうけると考えられている．動物においては，核のあいだを自由に拡散してゆるやかな濃度勾配を形成する転写因子がモルフォゲンとして機能することがよく知られている<a href="#R1"><sup>1)</sup></a>．<br/>　一方，植物においては植物ホルモンのひとつであるオーキシンがモルフォゲンとして機能する．オーキシン輸送体により濃度勾配が形成され，オーキシンの濃度の高い部位が花芽原基の形成される位置となる．つぎに，オーキシン応答性転写因子であるAUXIN RESPONSE FACTOR（ARF）ファミリーとそのリプレッサーであるAux/IAAファミリーにより，オーキシンに応答した転写の活性化が起こる<a href="#R2"><sup>2)</sup></a>（<a href="#F1">図1a</a>）．オーキシンによりAux/IAAファミリーが分解されると，オーキシン応答シス配列に結合したARFが下流の遺伝子の発現を誘導する．しかしながら，ARFにより直接的に転写制御をうけて花芽の運命決定や成長を制御する下流の遺伝子は同定されていなかった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　オーキシンによる遺伝子発現の制御と<em>LFY</em>遺伝子</strong><br/>（a）ARFファミリーとAux/IAAファミリーを介したオーキシンによる遺伝子発現のモデル．<br/>（b）<em>LFY</em>遺伝子のプロモーター領域．D領域およびP領域はシロイヌナズナ近縁種のあいだで高度に保存されている．<br/>AuxRE：オーキシン応答シス配列．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamaguchi-Developmental-Cell-13.2.11-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　オーキシンによる遺伝子発現の制御と<em>LFY</em>遺伝子" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamaguchi-Developmental-Cell-13.2.11-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamaguchi-Developmental-Cell-13.2.11-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　筆者らは，オーキシンによる花芽形成の開始過程を明らかにするため，花芽分裂組織の性質を決定する<em>LEAFY</em>（<em>LFY</em>）遺伝子，花芽原基の成長を促進に機能する<em>AINTEGUMENTA</em>（<em>ANT</em>）遺伝子と<em>ANT-LIKE 6</em>（<em>AIL6</em>）遺伝子に注目した．<em>LFY</em>遺伝子はヘリックス-ターン-ヘリックス様ドメインをもつ植物に固有な転写因子をコードしており，異所発現の実験から花芽分裂組織の運命決定に必要かつ十分であることが示されている<a href="#R3"><sup>3,4)</sup></a>．一方，<em>ANT</em>遺伝子および<em>AIL6</em>遺伝子はAP2型転写因子をコードしており，過剰発現すると細胞数の増加により花芽が大きく成長する<a href="#R5"><sup>5)</sup></a>．これらの発現はオーキシンの濃度の高い花芽原基において限定的であることから<a href="#R6"><sup>6)</sup></a>，オーキシンがこの空間的な発現パターンを生み出している可能性が高いと思われた．そこで，オーキシンによる<em>LFY</em>遺伝子，<em>ANT</em>遺伝子，<em>AIL6</em>遺伝子の転写制御の分子機構を解析した．<br/><br/><h2>1．<em>LFY</em>遺伝子のプロモーター領域にはオーキシン応答シス配列が保存されている</h2><br/>　<em>LFY</em>遺伝子の転写制御配列に注目し，シロイヌナズナとその近縁種の<em>LFY</em>遺伝子のプロモーター領域を用いて系統発生シャドーイング法（phylogenetic shadowing）による解析を行った．その結果，先行研究において同定されていたD領域およびP領域<a href="#R7"><sup>7)</sup></a> が高度に保存されていることがわかった（<a href="#F1">図1b</a>）．既知のデータベースを用いて転写因子の結合配列を検索したところ，このうちのP領域に4つのオーキシン応答シス配列が含まれていることがわかった．このことは<em>LFY</em>遺伝子の発現がオーキシンにより制御される可能性を強く支持した．そこで，定量RT-PCR法などによる発現解析を行ったところ，オーキシンによる処理により<em>LFY</em>遺伝子の発現は上昇することがわかった．<br/><br/><h2>2．MPとBDLは<em>LFY</em>遺伝子の発現を直接的に制御する</h2><br/>　<em>LFY</em>遺伝子のプロモーター領域に保存されたオーキシン応答シス配列に結合する特定のARFファミリーを同定するため，既知の<em>arf</em>変異体において<em>LFY</em>遺伝子の転写産物の蓄積量を調べた．多くの<em>arf</em>変異体では<em>LFY</em>遺伝子の発現に大きな影響はみられなかったが，花芽を形成しない<em>arf5</em>/<em>mp</em>変異体<a href="#R8"><sup>8)</sup></a> では<em>LFY</em>遺伝子の発現が劇的に減少していた．一方，ステロイドホルモン誘導系を用いてMPの活性を誘導したところ，<em>LFY</em>遺伝子の発現はすみやかに上昇した．さらに，クロマチン免疫沈降法によりタンパク質-DNA相互作用を調べたところ，MPは<em>LFY</em>遺伝子のプロモーター領域に直接に結合することがわかった．<br/>　MPとともに機能して<em>LFY</em>遺伝子の発現を制御するAux/IAAファミリーとして，胚発生においてMPと相互作用し下流の遺伝子の発現を制御するIAA12/BODENLOS（BDL）に注目した<a href="#R9"><sup>9)</sup></a>．機能獲得型<em>bdl</em>変異体の活性を誘導すると<em>LFY</em>遺伝子の発現は抑制された．さらに，クロマチン免疫沈降法と酵母ワンハイブリッド法により，BDLがMPを介して<em>LFY</em>遺伝子のプロモーター領域に直接に結合することが示された．<br/>　<em>LFY</em>遺伝子のプロモーター領域に存在する4つのオーキシン応答シス配列のMPの結合における重要性を評価した．変異型のプロモーター配列を用いたレポーターアッセイと相補性検定により，オーキシン応答シス配列が<em>LFY</em>遺伝子の発現に必要であることが明らかになった．さらに，クロマチン免疫沈降法によりオーキシン応答シス配列の変異がMPの結合に及ぼす影響を検討した．野生型プロモーターを用いた場合と比較して，変異型プロモーターに対するMPの結合能は劇的に減少することがわかった．これらの結果より，MPは<em>LFY</em>遺伝子のプロモーター領域に高度に保存された4つのオーキシン応答シス配列を介して，<em>LFY</em>遺伝子の転写を制御すると考えられた．以上の解析により，オーキシンが花芽原基の位置決定をしたのち，MPおよびBDLを介して<em>LFY</em>遺伝子の転写を誘導し，花芽分裂組織としての性質を付与すると考えられた．<br/><br/><h2>3．花芽原基の成長を制御する<em>ANT</em>遺伝子および<em>AIL6</em>遺伝子もMPの標的である</h2><br/>　オーキシンによる花芽原基の位置決定と花芽の成長とが協調して起こる分子機構を明らかにするため，花芽原基の成長を制御するAP2型転写因子であるANTとAIL6に注目した<a href="#R5"><sup>5)</sup></a>．<em>ANT</em>遺伝子および<em>AIL6</em>遺伝子の転写産物の蓄積量は，<em>LFY</em>遺伝子の場合と同様に<em>mp</em>変異体において減少しており，MPの活性を誘導することにより増加した．さらに，クロマチン免疫沈降法によりMPが<em>ANT</em>遺伝子のプロモーター領域および<em>AIL6</em>遺伝子のプロモーター領域に結合することが確認され，<em>ANT</em>遺伝子および<em>AIL6</em>遺伝子の転写はMPにより直接的に制御されていることが明らかになった．<br/>　MPの下流で機能する3つの遺伝子，<em>LFY</em>遺伝子，<em>ANT</em>遺伝子，<em>AIL6</em>遺伝子の相互関係を明らかにするため，遺伝学的な手法を用いて花芽形成における影響を解析した．どの単一変異体および二重変異体においても花芽形成能は低下しなかったが，<em>lfy ant ail6</em>三重変異体では花芽の数が劇的に減少し，<em>mp</em>変異体と非常によく似た表現型を示した．一方，<em>mp</em>変異体においてLFYとANTの活性を同時に誘導すると花芽の数は有意に増加した．したがって，MPは<em>LFY</em>遺伝子，<em>ANT</em>遺伝子，<em>AIL6</em>遺伝子を制御して花芽形成の開始を促すと考えられた．<br/><br/><h2>4．LFYはオーキシン経路をフィードバック制御する</h2><br/>　以前に筆者らは，シロイヌナズナの全ゲノムにおいてLFYの結合部位を同定した<a href="#R10"><sup>10)</sup></a>．これらのLFYの標的遺伝子のなかにはオーキシンの作用を正に制御する遺伝子が多く含まれていた．実際，定量RT-PCR法やマーカー系統などを用いた発現解析から，LFYはオーキシン排出輸送体をコードする遺伝子や，オーキシンの細胞内局在を制御するキナーゼをコードする遺伝子<a href="#R11"><sup>11)</sup></a> の転写を促進することが明らかになった．さらに，オーキシン応答プロモーターである<em>DR5</em> <a href="#R12"><sup>12)</sup></a> を用いてオーキシン応答の変化を可視化した．<em>lfy</em>変異体ではオーキシン応答能が低下したのに対し，LFYの活性を誘導した場合にはオーキシン応答能が上昇することがわかった．これらの解析より，LFYはオーキシンに対するシグナル伝達を強化する正のフィードバックにより，オーキシンの濃度勾配を維持しているのではないかと考えられた．<br/><br/><h2>おわりに</h2><br/>　今回の筆者らの解析から，花芽形成の開始機構の分子的な枠組みとして，オーキシンのシグナルを制御する転写因子MPが直接的に下流の<em>LFY</em>遺伝子，<em>ANT</em>遺伝子，<em>AIL6</em>遺伝子を誘導するという遺伝子カスケードの存在が明らかになった．これにくわえて，花芽においてオーキシンの輸送とシグナル伝達を強化する分子機構として，LFYによる正のフィードバック制御の重要性が示された．このように，花芽形成の開始においては，オーキシンによる花芽原基の位置決定につづき，花芽分裂組織の運命決定および成長が協調して起こることが重要であると思われた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　オーキシンによる花芽形成の開始機構</strong><br/>茎頂分裂組織の周縁部にオーキシンが蓄積すると（緑色），MPおよびBDLを介して<em>LFY</em>遺伝子，<em>ANT</em>遺伝子，<em>AIL6</em>遺伝子の発現が誘導される（青色）．これらの3つの遺伝子にコードされる転写因子のはたらきにより，未分化な状態を維持していた細胞は花芽の性質を獲得し活発な細胞分裂が起こるようになる．最終的には，4つの花器官をもつ花が形成される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamaguchi-Developmental-Cell-13.2.11-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　オーキシンによる花芽形成の開始機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamaguchi-Developmental-Cell-13.2.11-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamaguchi-Developmental-Cell-13.2.11-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　<em>LFY</em>相同遺伝子の機能は花芽形成のみにとどまらない．エンドウでは葉と花の形態形成を，イネでは花序の分枝形成を，ヒメツリガネゴケでは受精卵の細胞分裂を，それぞれ制御することが報告されている<a href="#R13"><sup>13-15)</sup></a>，興味深いことに，機能解析のなされたこれらの形態形成の過程には，いずれもオーキシンの作用が示唆されている<a href="#R16"><sup>16-18)</sup></a>．オーキシンを介した形態形成の過程における<em>LFY</em>遺伝子の機能は進化的に起源が古く，これを利用しながら多様な形態の進化した可能性があるだろう．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Tabata, T.</span>: <span class="ti">Genetics of morphogen gradients.</span> <span class='so'>Nat. Rev. Genet., 2, 620-630 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11483986" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Mockaitis, K. & Estelle, M.</span>: <span class="ti">Auxin receptors and plant development: a new signaling paradigm.</span> <span class='so'>Annu. Rev. Cell Dev. Biol., 24, 55-80 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18631113" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Weigel, D., Alvarez, J., Smyth, D. R. et al.</span>: <span class="ti"><em>LEAFY</em> controls floral meristem identity in Arabidopsis.</span> <span class='so'>Cell, 69, 843-859 (1992)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1350515" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Weigel, D. & Nilsson, O.</span>: <span class="ti">A developmental switch sufficient for flower initiation in diverse plants.</span> <span class='so'>Nature, 377, 495-500 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7566146" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Mizumkami, Y. & Fischer, R. L.</span>: <span class="ti">Plant organ size control: <em>AINTEGUMENTA</em> regulates growth and cell numbers during organogenesis.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 97, 942-947 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10639184" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Heisler, M. G., Ohno, C., Das, P. et al.</span>: <span class="ti">Patterns of auxin transport and gene expression during primordium development revealed by live imaging of the <em>Arabidopsis</em> inflorescence meristem.</span> <span class='so'>Curr. Biol., 15, 1899-1911 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16271866" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Blazquez, M. A. & Weigel, D.</span>: <span class="ti">Integration of floral inductive signals in <em>Arabidopsis</em>.</span> <span class='so'>Nature, 404, 889-892 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10786797" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Przemeck, G. K., Mattsson, J., Hardtke, C. S. et al.</span>: <span class="ti">Studies on the role of the <em>Arabidopsis</em> gene <em>MONOPTEROS</em> in vascular development and plant cell axialization.</span> <span class='so'>Planta, 200, 229-237 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8904808" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Weijers, D., Schlereth, A., Ehrismann, J. S. et al.</span>: <span class="ti">Auxin triggers transient local signaling for cell specification in <em>Arabidopsis</em> embryogenesis.</span> <span class='so'>Dev. Cell, 10, 265-270 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16459305" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Winter, C. M., Austin, R. S., Blanvillain-Baufume, S. et al.</span>: <span class="ti">LEAFY target genes reveal floral regulatory logic, <em>cis</em> motifs, and a link to biotic stimulus response.</span> <span class='so'>Dev. Cell, 20, 430-443 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21497757" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Friml, J., Yang, X., Michniewicz, M. et al.</span>: <span class="ti">A PINOID-dependent binary switch in apical-basal PIN polar targeting directs auxin efflux.</span> <span class='so'>Science, 306, 862-865 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15514156" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Benkova, E., Michniewicz, M., Sauer, M. et al.</span>: <span class="ti">Local, efflux-dependent auxin gradients as a common module for plant organ formation.</span> <span class='so'>Cell, 115, 591-602 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14651850" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Hofer, J., Turner, L., Hellens, R. et al.</span>: <span class="ti"><em>UNIFOLIATA</em> regulates leaf and flower morphogenesis in pea.</span> <span class='so'>Curr. Biol., 7, 581-587 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9259553" target="_blank">PubMed</a>]</span></li><br><li id="R14"><span class='au'>Kyozuka, J., Konishi, S., Nemoto, K. et al.</span>: <span class="ti">Down-regulation of <em>RFL</em>, the <em>FLO</em>/<em>LFY</em> homolog of rice, accompanied with panicle branch initiation.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 95, 1979-1982 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9482818" target="_blank">PubMed</a>]</span></li><br><li id="R15"><span class='au'>Tanahashi, T., Sumikawa, N., Kato, M. et al.</span>: <span class="ti">Diversification of gene function: homologs of the floral regulator <em>FLO</em>/<em>LFY</em> control the first zygotic cell division in the moss <em>Physcomitrella patens</em>.</span> <span class='so'>Development, 132, 1727-1736 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15743879" target="_blank">PubMed</a>]</span></li><br><li id="R16"><span class='au'>DeMason, D. A. & Chawla, R.</span>: <span class="ti">Roles for auxin during morphogenesis of the compound leaves of pea (<em>Pisum sativum</em>).</span> <span class='so'>Planta, 218 435-448 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12942326" target="_blank">PubMed</a>]</span></li><br><li id="R17"><span class='au'>Morita, Y. & Kyozuka, J.</span>: <span class="ti">Characterization of <em>OsPID</em>, the rice ortholog of <em>PINOID</em>, and its possible involvement in the control of polar auxin transport.</span> <span class='so'>Plant Cell Physiol., 48 540-549 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17303594" target="_blank">PubMed</a>]</span></li><br><li id="R18"><span class='au'>Rensing, S. A., Lang, D., Zimmer, A. D. et al.</span>: <span class="ti">The <em>Physcomitrella</em> genome reveals evolutionary insights into the conquest of land by plants.</span> <span class='so'>Science, 319 64-69 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18079367" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">山口 暢俊（Nobutoshi Yamaguchi）</span><br>略歴：2009年 東京大学大学院理学系研究科 修了，同年より米国Pennsylvania大学 博士研究員．<br>研究テーマ：花芽形成のマスター遺伝子である<em>LFY</em>遺伝子の機能解析．<br>抱負：植物の形態形成を支配する遺伝子のはたらきを明らかにしたい．<br><br><strong>山口 礼子（Ayako Yamaguchi）</strong><br>京都大学大学院生命科学研究科 助教．<br><br><strong>Doris Wagner </strong><br>米国Pennsylvania大学Associate Professor．<br></div><br>© 2013 山口暢俊・山口礼子・Doris Wagner Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

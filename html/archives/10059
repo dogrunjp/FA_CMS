@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 統合的ストレス応答を阻害する低分子化合物ISRIBは翻訳開始因子eIF2Bを標的にする : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>統合的ストレス応答を阻害する低分子化合物ISRIBは翻訳開始因子eIF2Bを標的にする</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>関根悠介・David Ron</strong><br>（英国Cambridge大学Cambridge Institute for Medical Research）<br>email：<a href="mailto:ys412@cam.ac.uk">関根悠介</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.052">10.7875/first.author.2015.052</a><br><div class="reference"><br><span class="ti">Mutations in a translation initiation factor identify the target of a memory-enhancing compound.</span><br><span class="au">Yusuke Sekine, Alisa Zyryanova, Ana Crespillo-Casado, Peter M. Fischer, Heather P. Harding, David Ron</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25858979" target="_blank"><em>Science</em>, <strong>348</strong>, 1027-1030 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　翻訳開始因子eIF2のαサブユニットのリン酸化を介した翻訳の制御は，さまざまなストレスに対し共通に惹起されることから統合的ストレス応答とよばれる．統合的ストレス応答は免疫応答，小胞体ストレス応答，さらには，記憶の形成など多様な生理的な局面に関与する．低分子化合物ISRIBは細胞や動物の個体において統合的ストレス応答を阻害するが，その作用機構は不明であった．筆者らは，ISRIBに対し非感受性を示す変異細胞株を単離することによりISRIBの標的となるタンパク質の同定を試みた．その結果，ISRIBに非感受性の変異細胞株において，eIF2のグアニンヌクレオチド交換因子であるeIF2Bのδサブユニットの近接した領域に複数のミスセンス変異を同定した．CRISPR-Cas9法によるゲノム編集によりこれらの変異を野生型の細胞に導入したところ，ISRIBに対する非感受性が再現された．よって，ISRIBはeIF2Bを標的として統合的ストレス応答を阻害することが示唆された．<br/><br/><h2>はじめに</h2><br/>　翻訳開始因子eIF2はα，β，γの3つのサブユニットからなる三量体Gタンパク質である．eIF2はグアニンヌクレオチド交換因子（guanine nucleotide exchange factor：GEF）であるeIF2BによりGDP結合型からGTP結合型へと変換されることで開始メチオニンtRNAおよびリボソーム40Sサブユニットと複合体を形成し翻訳の起点になる（<a href="#F1">図1</a>）．細胞にさまざまなストレスが負荷されると，eIF2のαサブユニット（eIF2α）のリン酸化が起こる．哺乳類にはPERK，GCN2，PKR，HRIの4つのeIF2αキナーゼが存在し，それぞれが異なるストレスにより活性化されeIF2αのSer51をリン酸化する．PERKは小胞体ストレス，GCN2はアミノ酸飢餓，PKRはウイルス応答，HRIはヘム鉄の欠乏により，おもに活性化されることが知られている．リン酸化されたeIF2αはeIF2Bの基質から阻害タンパク質へと転じ，eIF2BのGEFとしての機能を抑制する．その結果，GTP結合型のeIF2が減少することにより翻訳の全般的な抑制が起こる．ストレスにさらされた細胞は翻訳にブレーキをかけることにより細胞への負荷を減らしていると考えられる．この翻訳抑制の状態は，一方で，いくつかのタンパク質の選択的な翻訳を誘導する．転写因子ATF4はこの制御により翻訳が促進され，ストレスに適応するための遺伝子の発現を誘導する．このようなeIF2αのリン酸化を介した一連の翻訳制御は，eIF2αキナーゼを活性化するさまざまなストレスにより共通に惹起されることから統合的ストレス応答（integrated stress response：ISR）とよばれている<a href="#R1"><sup>1)</sup></a>（<a href="#F1">図1</a>）．統合的ストレス応答は，たとえば，膵β細胞におけるPERKによるインスリンの産生制御や，赤血球におけるHRIによるヘム鉄に依存的なグロブリンの翻訳制御，さらには，免疫応答や記憶の形成にいたるまで，生体のさまざまな局面において非常に重要である．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　eIF2およびeIF2Bによる翻訳の開始および統合的ストレス応答の制御</strong><br/>（a）正常な細胞．eIF2はeIF2BのもつGEF活性によりGTP結合型へと変換され，翻訳開始複合体を形成する．<br/>（b）ストレスの生じた細胞．eIF2キナーゼが活性化しeIF2αのリン酸化が起こると，eIF2はeIF2Bに対し阻害的に作用し，その結果，翻訳の抑制および選択的な翻訳が誘導される．<br/>P：リン酸化．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sekine-Science-15.5.8-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　eIF2およびeIF2Bによる翻訳の開始および統合的ストレス応答の制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sekine-Science-15.5.8-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sekine-Science-15.5.8-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　近年，この統合的ストレス応答を阻害する低分子化合物のスクリーニングから，新規の低分子化合物ISRIBが同定された<a href="#R2"><sup>2)</sup></a>．培養細胞において，ISRIBはeIF2αのリン酸化に依存した翻訳制御を抑制した．おもしろいことに，ISRIBはeIF2αのリン酸化は阻害しなかったことから，eIF2αキナーゼの阻害剤ではなくその下流のeIF2とeIF2Bとの相互作用を標的とすることが推察されたが，その詳細な作用機序は不明であった．そこで，筆者らは，培養細胞を用いた遺伝学的な手法によりISRIBの標的となるタンパク質の同定を試みた．<br/><br/><h2>1．eIF2Bのδサブユニットのミスセンス変異によりISRIBに対し非感受性になる</h2><br/>　ISRIBの標的となるタンパク質を同定するため，ISRIBに対し非感受性を示す変異細胞株のスクリーニング系を確立した．培養細胞において統合的ストレス応答をモニターするため，ATF4により発現の誘導される<em>CHOP</em>遺伝子のプロモーター領域と<em>GFP</em>遺伝子を組み合わせたレポーター遺伝子を用いた<a href="#R3"><sup>3)</sup></a>．このレポーター遺伝子を組み込んだCHO細胞にヒスチジノールを処理してGCN2を活性化させるとレポーター遺伝子の発現が誘導される．このヒスチジノールに依存的なレポーター遺伝子の発現はISRIBを同時に処理することによりほぼ完全に抑制された．この系をISRIBの効果をみる細胞系として以下のスクリーニングに用いた．ISRIBに非感受性を示す細胞株を単離するため，レポーター遺伝子を組み込んだCHO細胞のゲノムDNAにエチルメタンスルホン酸などの化学変異剤によりランダムに変異を導入した．これらの細胞にヒスチジノールおよびISRIBを処理し，本来なら発現の抑制されるべきレポーター遺伝子の発現が誘導されている細胞，すなわち，ISRIBに対し非感受性になった細胞をセルソーターにより回収した．この選別を数回くり返したのち，ISRIBに非感受性になった複数の細胞株を単離した．<br/>　ISRIBの標的となるタンパク質の候補としてeIF2およびeIF2Bが考えられたことから，ISRIBに非感受性になった細胞株においてeIF2を構成するサブユニットあるいはeIF2Bを構成するサブユニットをコードするmRNAの塩基配列を確認した．eIF2Bはリン酸化eIF2αとの相互作用に重要な3つの制御サブユニットα，β，δとGEF活性を担う2つの触媒サブユニットγ，εからなる複合体である．塩基配列の決定の結果，ISRIBに非感受性になった多くの細胞株においてeIF2Bの制御サブユニットのひとつであるδサブユニット（eIF2Bδ）にミスセンス変異の生じていることが明らかにされた．さらに，その変異の部位はeIF2BδのN末端側の一部の領域に集中していた（<a href="#F2">図2</a>）．δサブユニットのC末端側の領域は3つの制御サブユニットのあいだでよく保存されているが，変異のみつかったのはδサブユニットのみがもつN末端側の領域であった．これらの結果は，eIF2Bδに見い出された変異がISRIBの標的となる部位であることを強く示唆した．しかし，変異原を用いたランダムな変異の導入では，ほかのゲノム領域における変異がISRIBの感受性に影響している可能性を排除できない．そこで，CRISPR-Cas9法を用いたゲノム編集により，eIF2Bδのミスセンス変異のみをレポーター遺伝子を組み込んだ野生型のCHO細胞に導入した．その結果，eIF2BδのLeu180あるいはArg171にミスセンス変異を導入した細胞はISRIBに対する非感受性を再現した．よって，eIF2Bδにおけるこれらの点変異はISRIBに非感受性になるのに十分であることが示された．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ISRIBに非感受性を示す細胞株におけるeIF2Bδのミスセンス変異</strong><br/>ISRIBに非感受性を示す細胞株において，eIF2BのδサブユニットのN末端側の領域にミスセンス変異が見い出された．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sekine-Science-15.5.8-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ISRIBに非感受性を示す細胞株におけるeIF2Bδのミスセンス変異" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sekine-Science-15.5.8-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sekine-Science-15.5.8-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．ISRIBはeIF2BのGEF活性を亢進させる</h2><br/>　ISRIBはeIF2Bを標的にしてどのように統合的ストレス応答を阻害しているのかを明らかにするため，eIF2BのGEF活性の<em>in vitro</em>におけるアッセイ系を確立した．eIF2BのGEF活性のアッセイ系として，<sup>3</sup>Hにより標識したGDPを付加したeIF2を基質としてそのeIF2からの解離をモニターする系がよく用いられている<a href="#R4"><sup>4)</sup></a>．ここでは，ほかのGタンパク質における報告を参考に，<sup>3</sup>Hのかわりに蛍光分子により標識したGDPを用いてeIF2からのGDPの解離を蛍光強度により検出するアッセイ系を確立した．eIF2Bは細胞抽出液に内在性のものを用いた．この系では，eIF2BによるeIF2からのGDPの解離を蛍光強度の減少として検出できる．リン酸化eIF2αを含むeIF2を基質として用いるとこのGDPの解離が抑制されたことから，eIF2αのリン酸化がeIF2BのGEF活性に対し抑制的にはたらくことが確認された．このアッセイ系を用いてISRIBの効果について検討したところ，ISRIBはeIF2BによるeIF2からのGDPの解離を促進させた．この効果は，ISRIBがリン酸化eIF2αの阻害効果を抑制したことにより得られたものか，eIF2BのGEF活性そのものを亢進したことによるのかを判別するため，リン酸化されないeIF2α変異体を基質とし，さらに，このeIF2α変異体をノックインしたマウスに由来する細胞抽出液において内在するeIF2Bを用いてアッセイを行った．ISRIBはこの系においてもGDPの解離も促進したことから，ISRIBの効果にeIF2αのリン酸化は必要のないことが明らかにされた．さらに，CRISPR-Cas9法を用いてeIF2BのβサブユニットのN末端側にFLAGタグ配列を導入し，内在性のeIF2Bを抗FLAG抗体ビーズを用いた免疫沈降法により精製する系を確立した．ISRIBは精製されたeIF2Bに対してもGEF活性を促進した．よって，ISRIBによる統合的ストレス応答の阻害の機序として，eIF2Bに直接的に作用してそのGEF活性を亢進しGTP結合型のeIF2を増加させることにより，結果的にリン酸化eIF2αの効果を抑制することが考えられた．<br/>　さらに，eIF2BδのLeu180あるいはArg171にミスセンス変異を導入した細胞抽出液を用いるとISRIBによるeIF2Bの活性の促進はみられなかったことから，ISRIBはeIF2Bδの変異部位に作用してGEF活性を亢進させていることが示唆された．筆者らの報告とほぼ同時に，別のグループからも，生化学な解析により，ISRIBがeIF2Bδと相互作用して活性型のeIF2Bを安定化しそのGEF活性を亢進させていることを示唆する結果が報告された<a href="#R5"><sup>5)</sup></a>．eIF2BδのN末端側の領域の機能は未知であったが，ISRIBの標的であると示されることによりはじめて新規の機能ドメインである可能性が明らかにされた．今後，この領域を介しeIF2BのGEF活性がどのように制御されているのか，構造の情報をも含めたさらなる解析が必要である．<br/><br/><h2>おわりに</h2><br/>　ISRIBは動物の個体においても薬効を示し，ISRIBを投与したマウスやラットにおいて統合的ストレス応答が抑制的に関与することの知られている長期記憶の形成の増強が観察された<a href="#R2"><sup>2)</sup></a>．さらに近年，アルツハイマー病やプリオン病などさまざまな神経変性疾患の病態あるいはそのモデル系においてeIF2αのリン酸化の亢進が報告されている<a href="#R6"><sup>6-8)</sup></a>．ストレスに対する初期の応答としてeIF2αのリン酸化というブレーキをかけて翻訳を一時停止することは細胞のストレス応答において必須であるが，逆に，ブレーキの状態が長くつづきすぎると細胞の生存に必須のタンパク質の合成もできなくなり病態をひき起こす可能性が考えられる．プリオン病のマウスモデルにおいてISRIBはその病態を改善することが示されたが<a href="#R9"><sup>9)</sup></a>，この結果は，ISRIBなどの低分子化合物によりeIF2BのGEF活性を増強させることがeIF2αのリン酸化の亢進のみられる神経変性疾患における新たな治療戦略となる可能性を示し意義深い．<br/>　筆者らの用いた体細胞遺伝学的な手法は，技術的な制約から酵母の遺伝学的な手法などに比べその利用がかぎられていた．しかし，昨今の大規模なシークエンス技術およびCRISPR-Cas9法をはじめとするゲノム編集技術のいちじるしい発展にともない，いままた，体細胞遺伝学的な手法の可能性が広がっている．薬剤の標的の同定やタンパク質の機能ドメインの解析，シグナル伝達タンパク質のスクリーニングなど，さまざまな解析において強力な武器になることが期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Harding, H. P., Novoa, I., Zhang. Y. et al.</span>: <span class="ti">Regulated translation initiation controls stress-induced gene expression in mammalian cells.</span> <span class='so'>Mol. Cell, 6, 1099-1108 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11106749" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Sidrauski, C., Acosta-Alvear, D., Khoutorsky, A. et al.</span>: <span class="ti">Pharmacological brake-release of mRNA translation enhances cognitive memory.</span> <span class='so'>Elife, 2, e00498 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23741617" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Novoa, I., Zeng, H., Harding, H. P. et al.</span>: <span class="ti">Feedback inhibition of the unfolded protein response by <em>GADD34</em>-mediated dephosphorylation of eIF2α.</span> <span class='so'>J. Cell Biol., 153, 1011-1022 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11381086" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Kimball, S. R., Everson, W. V., Flaim, K. E. et al.</span>: <span class="ti">Initiation of protein synthesis in a cell-free system prepared from rat hepatocytes.</span> <span class='so'>Am. J. Physiol., 256, C28-C34 (1989)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2463762" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Sidrauski, C., Tsai, J. C., Kampmann, M. et al.</span>: <span class="ti">Pharmacological dimerization and activation of the exchange factor eIF2B antagonizes the integrated stress response.</span> <span class='so'>Elife, 4, e07314 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25875391" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Moreno, J. A., Radford, H., Peretti, D. et al.</span>: <span class="ti">Sustained translational repression by eIF2α-P mediates prion neurodegeneration.</span> <span class='so'>Nature, 485, 507-511 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22622579" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Ma, T., Trinh, M. A., Wexler, A. J. et al.</span>: <span class="ti">Suppression of eIF2α kinases alleviates Alzheimer’s disease-related plasticity and memory deficits.</span> <span class='so'>Nat. Neurosci., 16, 1299-1305 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23933749" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Kim, H. J., Raphael, A. R., LaDow, E S. et al.</span>: <span class="ti">Therapeutic modulation of eIF2α phosphorylation rescues TDP-43 toxicity in amyotrophic lateral sclerosis diseases models.</span> <span class='so'>Nat. Genet., 46, 152-160 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24336168" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Halliday, M., Radford, H., Sekine, Y. et al.</span>: <span class="ti">Partial restoration of protein synthesis rates by the small molecule ISRIB prevents neurodegeneration without pancreatic toxicity.</span> <span class='so'>Cell Death Dis., 6, e1672 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25741597" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">関根 悠介（Yusuke Sekine）</span><br>略歴：2010年 東京大学大学院薬学系研究科博士課程 修了，同年 同 特任研究員，2012年 同 助教を経て，2013年より英国Cambridge大学 博士研究員．<br>研究テーマ：ストレス応答のシグナル伝達．<br>関心事：体細胞遺伝学的な手法の新たな可能性を追求したい．<br><br><strong>David Ron</strong><br>英国Cambridge大学Professor．<br>研究室URL：<a href="http://ron.cimr.cam.ac.uk/" target="_blank">http://ron.cimr.cam.ac.uk/</a><br></div><br>© 2015 関根悠介・David Ron Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

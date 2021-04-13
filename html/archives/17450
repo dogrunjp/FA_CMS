@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> トマトの成熟を制御する転写因子RINの機能の再評価 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>トマトの成熟を制御する転写因子RINの機能の再評価</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>伊藤 康博</strong><br>（農業・食品産業技術総合研究機構食品研究部門 酵素研究ユニット）<br>email：<a href="mailto:yasuito@affrc.go.jp">伊藤康博</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.128">10.7875/first.author.2017.128</a><br><div class="reference"><br><span class="ti">Re-evaluation of the <em>rin</em> mutation and the role of RIN in the induction of tomato ripening.</span><br><span class="au">Yasuhiro Ito, Ayako Nishizawa-Yokoi, Masaki Endo, Masafumi Mikami, Yoko Shima, Nobutaka Nakamura, Eiichi Kotake-Nara, Susumu Kawasaki, Seiichi Toki</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/29085071" target="_blank"><em>Nature Plants</em>, <strong>3</strong>, 866-874 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　トマトには成熟がまったく開始しない<em>rin</em>変異体が知られており，成熟の研究において広く利用されている．1960年代にこの変異体が発見されて以来，<em>rin</em>変異はヌル変異であり，転写因子であるRINは成熟の開始に必須であると考えられてきた．この研究において，筆者らは，CRISPR-Cas9系を用いたゲノム編集により作出した<em>RIN</em>遺伝子を破壊した変異体および<em>rin</em>変異型対立遺伝子を不活性化した変異体の解析により，<em>rin</em>変異によりRINはアクチベーターからリプレッサーへと変換されること，また，<em>RIN</em>遺伝子がなくても成熟は開始することが明らかにされた．これらの発見は，これまで考えられてきた成熟の制御のモデルに見直しをせまる成果であった．<br/><br/><h2>はじめに</h2><br/>　トマトには果実の成熟が完全に抑制される変異がいくつか知られている．そのうち，MADSボックス転写因子をコードする<em>RIN</em>遺伝子に生じた<em>ripening inhibitor</em>（<em>rin</em>）変異は，1960年代に発見されて以来，成熟の研究に欠かせない材料として，さらに，日持ちのよいトマトの育種の親株として，世界中で利用されている<a href="#R1"><sup>1,2)</sup></a>．<em>rin</em>変異体の果実は成熟の開始の直前まで問題なく生育するが，トマトの成熟の明確な指標である赤色色素リコペンの蓄積がいつまでたってもみられず，果実の軟化もはじまらない．果実は緑色から薄い黄色へと変化するが，硬いまま半年以上もそのすがたを保持する．果実の成熟を誘導する植物ホルモンであるエチレンは成熟期に急激に生産量が増加するが，<em>rin</em>変異体の果実においてはエチレンの生産量の増加がみられず，また，外部からエチレンを処理しても成熟は回復しない．したがって，<em>RIN</em>遺伝子は成熟をグローバルに制御するエチレンよりも上位の成熟制御因子されている<a href="#R3"><sup>3,4)</sup></a>．野生型のトマトの鮮やかな成熟の過程と，まったく成熟しない<em>rin</em>変異体の果実の好対照な表現型の対比は，果実の成熟の機構を研究するためのすぐれた材料として，また，エチレンの生産や感受性，果実の軟化，カロテノイドの合成など，成熟に関連する生理学的あるいは遺伝学的な研究において世界中で広く利用されている．また，<em>rin</em>変異は劣勢変異ではなく不完全優性を示し，野生型の<em>RIN</em>遺伝子と<em>rin</em>変異型対立遺伝子をヘテロにもつ果実は野生型よりも量は少ないがリコペンを蓄積し，かつ，軟化の進行が緩慢になる．この特性をいかして，日持ちのよいトマトの育種において実用的に利用されている<a href="#R5"><sup>5)</sup></a>．<br/><br/><h2>1．<em>rin</em>変異によるアクチベーターからレプレッサーへのRINの変換</h2><br/>　<em>rin</em>変異体が発見された1960年代以降，成熟の開始がまったくみられないという表現型から，<em>rin</em>遺伝子座にコードされる野生型の<em>RIN</em>遺伝子は成熟の開始に必須であり，また，<em>rin</em>変異は遺伝子が機能を完全に失ったヌル変異であると考えられ，そのことに疑問をもつ研究者は皆無だったように思われる．2002年，<em>RIN</em>遺伝子がクローニングされ，SEPファミリーに属するMADSボックス転写因子をコードすることが明らかにされた<a href="#R1"><sup>1)</sup></a>．また，筆者らの研究により，RINは転写活性化能をもつことが示された<a href="#R6"><sup>6)</sup></a>．<br/>　<em>rin</em>変異により<em>RIN</em>遺伝子の最終エキソンの全体と隣接する領域が欠失している（<a href="#F1">図1</a>）．欠失した配列にはターミネーターも含まれているため，転写は終結せずに，となりに位置する，これまたMADSボックス転写因子をコードする<em>MC</em>遺伝子のターミネーターまでつづく．この長い転写産物からスプライシングによりイントロンが切り出されるが，<em>RIN</em>遺伝子の最終エキソンの直前のイントロンについては3'側スプライス部位が欠失しているため，つぎのイントロンの3'側スプライス部位，すなわち，<em>MC</em>遺伝子の第1イントロンまでがひとつづきのイントロンとして認識される．すなわち，<em>rin</em>変異型対立遺伝子から転写されたmRNAは，<em>RIN</em>遺伝子の最終エキソンおよび<em>MC</em>遺伝子の第1エキソンを欠いた<em>RIN</em>遺伝子と<em>MC</em>遺伝子との融合遺伝子になる（<a href="#F1">図1</a>）．このとき，読み枠のずれはないためRINとMCとの融合タンパク質が合成される．実際に，<em>rin</em>変異体においてはノーザンブロット解析により長いmRNAが検出され<a href="#R5"><sup>5)</sup></a>，ウェスタンブロット解析により大きなタンパク質が確認される<a href="#R6"><sup>6)</sup></a>．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　<em>RIN</em>遺伝子および<em>rin</em>変異型対立遺伝子の構造</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ito-Nature-Plants-17.11.7-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　RIN遺伝子およびrin変異型対立遺伝子の構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ito-Nature-Plants-17.11.7-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ito-Nature-Plants-17.11.7-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　このRINとMCとの融合タンパク質は，<em>RIN</em>遺伝子の最終エキソンにコードされていた転写活性化ドメインが欠損し，さらに，MCのC末端側に存在する転写抑制ドメインが付加されることから，アクチベーターからリプレッサーへと変化すると予想される．実際に，生化学的な解析の結果，<em>rin</em>変異型対立遺伝子にコードされるタンパク質はRINのDNA結合能をもち，RINの転写活性化能を失い，MCの転写抑制能を獲得したことが明らかにされた．すなわち，<em>rin</em>変異型対立遺伝子にコードされるタンパク質は成熟に必要な遺伝子の転写を積極的に抑制すると考えられた．自動車にたとえると，成熟のゴーサインがでた瞬間にアクセルをぐっと踏み込んで成熟の過程を発進させるところを，<em>rin</em>変異体では思いっきりブレーキを踏んで押し止めている，という概念が想定された．<br/><br/><h2>2．ゲノム編集による<em>RIN</em>遺伝子の破壊および<em>rin</em>変異型対立遺伝子の不活性化</h2><br/>　<em>rin</em>変異型対立遺伝子にコードされるタンパク質がリプレッサーであるとすると，<em>RIN</em>遺伝子を破壊した変異体は<em>rin</em>変異体とは異なる表現型，すなわち，わずかだが成熟の進む果実になるのではないかと予想した．自動車にたとえると，アクセルもブレーキも踏まない状態でゆっくり進みだすクリープ現象のようなイメージである．成熟に関連する遺伝子の多くはその発現の特性として，直前までほぼ発現していない状況から成熟の開始にともない急激に発現が上昇する．その膨大な発現量を考えると，<em>rin</em>変異がヌル変異であるとすると，RINに制御される遺伝子であっても<em>rin</em>変異体の果実において多少の発現があってもいいように感じていたが，実際には，完全に発現が抑制されているものが多い．<em>rin</em>変異型対立遺伝子にコードされるタンパク質がリプレッサーであるとすると，成熟に関連する遺伝子の発現が完全に抑制されることに説明がつく．<br/>　CRISPR-Cas9系を用いたゲノム編集により，<em>RIN</em>遺伝子を破壊した変異体を作出した<a href="#R7"><sup>7)</sup></a>．すると，<em>RIN</em>破壊変異体の果実はわずかであるが赤色色素を蓄積し，成熟の開始が認められた．リコペンの量を測定したところ，<em>rin</em>変異体においてはまったく検出されないリコペンが，<em>RIN</em>破壊変異体においては蓄積が認められた．また，成熟にともなうエチレンの生産の増加は，<em>rin</em>変異体においてはまったくみられないが，<em>RIN</em>破壊変異体においてはわずかではあるが認められた．また，<em>rin</em>変異体において発現が強く抑制される成熟に関連する遺伝子の多くが<em>RIN</em>破壊変異体において発現が上昇しており，RINがなくても成熟は開始することが明らかにされた．<br/>　CRISPR-Cas9系を用いたゲノム編集により，<em>rin</em>変異体において<em>rin</em>変異型対立遺伝子の翻訳開始点の付近に変異を導入し不活性化することを試みた．その結果，<em>RIN</em>破壊変異体とほぼ同様の表現型を示し，果実はわずかながら赤くなり成熟の開始が認められた．ただし，この変異体において通常の翻訳開始点からタンパク質は合成されないが，2番目のMetから翻訳がはじまったタンパク質が蓄積していた．このN末端が短縮したタンパク質になんらかの機能が残存する可能性は完全には否定できないが，短縮型のタンパク質はDNA結合能を失っていること，また，<em>RIN</em>破壊変異体と同様の表現型を示したことから，<em>rin</em>変異型対立遺伝子は不活性化したと考えるのが妥当と思われた．<br/>　以上の結果から，<em>rin</em>変異はヌル変異ではなく，転写抑制能をもつようになった機能獲得型の変異であり，また，<em>RIN</em>遺伝子は完全に成熟するためには必須であるが，成熟の開始には必ずしも必要ではないことが明らかにされた．また，野生型と<em>rin</em>変異体とのF<sub>1</sub>の果実は両親の中間型の表現型を示し<a href="#R5"><sup>5)</sup></a>，メンデルの優性の法則にはあわない．しかし，<em>rin</em>変異型対立遺伝子にコードされるタンパク質がリプレッサーであるなら，アクチベーターである野生型のRINとの共存下において中間型の表現型を示すことは理にかなう．一方で，<em>RIN</em>破壊変異体と野生型とのF<sub>1</sub>の果実はほぼ野生型と同じ表現型を示し，これはメンデルの優性の法則にあう．<br/><br/><h2>3．成熟の開始にかかわる制御の予想されるモデル</h2><br/>　<em>RIN</em>遺伝子を破壊した状況で成熟が開始することから，どのような分子機構が想定されるであろうか？　ひとつの有力な仮説として，成熟の開始に関して部分的にRINと冗長的なはたらきをするホモログが存在する可能性があげられる（<a href="#F2">図2a</a>）．RINの属するSEPファミリーの転写因子は花器官の分化に必須であるが，シロイヌナズナにおいては機能の冗長的な4つの遺伝子のあることが知られている<a href="#R8"><sup>8-10)</sup></a>．また，トマトのゲノム解析によりRINを含め少なくとも6つのSEPホモログがみつかっているが<a href="#R11"><sup>11)</sup></a>，RINと配列の近い3つは成熟の過程の果実において発現が非常に低い．一方，配列の相同性の低い2つはかなりの発現があり，成熟への関与が示唆されるとの報告のあるものも含まれる<a href="#R12"><sup>12)</sup></a>．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　成熟における転写の制御のモデル</strong><br/>（a）RINと機能が冗長的なホモログが存在する場合．野生型においてはRINを含むMADSボックス複合体が主として成熟に関連する遺伝子の発現を誘導する．<em>RIN</em>破壊変異体においてはホモログがRINの代わりに複合体を形成しその機能の一部を肩代わりする．しかし，<em>rin</em>変異体においては<em>rin</em>変異型対立遺伝子にコードされるタンパク質がプロモーターと結合し，MADSボックス複合体の結合をさまたげると同時にRNAポリメラーゼを抑制する．<br/>（b）成熟における転写の制御にRINとはまったく独立の転写因子も関与する場合．野生型においては2つの転写制御系により遺伝子が高く発現する．<em>RIN</em>破壊変異体においてはひとつの転写制御系だけにより少量のmRNAが発現する．<em>rin</em>変異体においては<em>rin</em>変異型対立遺伝子にコードされるタンパク質がRNAポリメラーゼの機能を抑制するため，この低い発現も強く抑制される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ito-Nature-Plants-17.11.7-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　成熟における転写の制御のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ito-Nature-Plants-17.11.7-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ito-Nature-Plants-17.11.7-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　別の仮説として，RINによる制御と並行して機能するほかのファミリーの転写因子が存在する可能性があげられる（<a href="#F2">図2b</a>）．トマトにおいては，成熟が完全に抑制される変異として<em>rin</em>変異のほか<em>nor</em>変異および<em>Cnr</em>変異が知られている<a href="#R13"><sup>13)</sup></a>．ともに成熟期においてエチレンの生産の増加がみられず，リコペンの蓄積がみられない，果実が軟化しないなど<em>rin</em>変異体と非常に似た表現型を示し，それぞれ，NACファミリーおよびSPBボックスファミリーに属する転写因子における変異である．これらの転写因子，あるいは，未知の因子が正常に機能することにより初期の成熟の過程は進行する可能性が考えられ，RINはこの成熟にともなう転写の制御を増幅するとも考えられる．<br/><br/><h2>おわりに</h2><br/>　この研究は，古くからある変異体についての思い込みを一新し，これまで構築されてきた成熟の制御の機構をいちから見直す機会となるものと考えている．この研究においては，近年の研究技術の発展，とくに，ゲノム編集技術の植物への適用の拡大が大きく寄与した．これまで，遺伝子の機能を研究する際には，アンチセンス法やRNAi法のようなノックダウン型，すなわち，転写されたmRNAの分解を促進する手法がおもに用いられてきた．その際には，どうしても微量のmRNAが分解をまぬがれる可能性を考慮しなくてはならない．今回のケースにあてはめると，もし，<em>RIN</em>遺伝子のノックダウン型の植物体を作出した場合，おそらく，成熟が不完全にしか進まない果実，すなわち，<em>RIN</em>遺伝子を破壊した変異体の果実と同様の表現型を示すことが予想される．しかし，ノックダウン型の場合，わずかに成熟が進んだ理由として，分解をまぬがれた微量のmRNAが示した効果なのか，あるいは，ほかの因子が成熟の開始を制御しているのか，明確な回答は得られない．一方で，ゲノム編集により<em>RIN</em>遺伝子から転写されるmRNAがすべて正常には翻訳されない変異体，すなわち，<em>RIN</em>破壊変異体を作出することにより，前者の可能性は完全に否定することができる．すなわち，<em>RIN</em>遺伝子に非依存的な成熟の開始の機構の存在を立証できるわけである．このように，ノックダウン型の植物体の作出による研究では結論に多少なりともあいまいさが残ることもあったが，破壊変異体を作出することにより明確な結果を示すことができるようになった．ゲノム編集が逆遺伝学的な手法による研究のポテンシャルを拡大した好例であるといえるだろう．<br/>　<em>rin</em>変異体が見い出されてから半世紀ものあいだ，<em>RIN</em>遺伝子は成熟の研究においてもっとも注目されてきた遺伝子である．RINの機能の再評価により得られた知見は従来の成熟の制御のモデルを大きくくつがえすものであり，今後の研究の発展に寄与することを期待したい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Vrebalov, J. Ruezinsky, D., Padmanabhan, V. et al.</span>: <span class="ti">A MADS-box gene necessary for fruit ripening at the tomato <em>ripening-inhibitor</em> (<em>rin</em>) locus.</span> <span class='so'>Science, 296, 343-346 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11951045" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Tigchelaar, E. C., McGlasson, W. B. & Buescher, R. W.</span>: <span class="ti">Genetic regulation of tomato fruit ripening.</span> <span class='so'>HortScience, 13, 508-513 (1978)</span></li><br><li id="R3"><span class='au'>Fujisawa, M., Shima, Y., Nakagawa, H. et al.</span>: <span class="ti">Transcriptional regulation of fruit ripening by tomato FRUITFULL homologs and associated MADS box proteins.</span> <span class='so'>Plant Cell, 26, 89-101 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24415769" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Fujisawa, M., Nakano, T., Shima, Y. et al.</span>: <span class="ti">A large-scale identification of direct targets of the tomato MADS box transcription factor RIPENING INHIBITOR reveals the regulation of fruit ripening.</span> <span class='so'>Plant Cell, 25, 371-386 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23386264" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kitagawa, M., Ito, Y., Shima, Y. et al.</span>: <span class="ti">Characterization of tomato fruit ripening and analysis of gene expression in F<sub>1</sub> hybrids of the <em>ripening inhibitor</em> (<em>rin</em>) mutant.</span> <span class='so'>Physiol. Plant., 123, 331-338 (2005)</span></li><br><li id="R6"><span class='au'>Ito, Y., Kitagawa, M., Ihashi, N. et al.</span>: <span class="ti">DNA-binding specificity, transcriptional activation potential, and the <em>rin</em> mutation effect for the tomato fruit-ripening regulator RIN.</span> <span class='so'>Plant J., 55, 212-223 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18363783" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Ito, Y., Nishizawa-Yokoi, A., Endo, M. et al.</span>: <span class="ti">CRISPR/Cas9-mediated mutagenesis of the <em>RIN</em> locus that regulates tomato fruit ripening.</span> <span class='so'>Biochem. Biophys. Res. Commun., 467, 76-82 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26408904" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Pelaz, S., Ditta, G. S., Baumann, E. et al.</span>: <span class="ti">B and C floral organ identity functions require SEPALLATA MADS-box genes.</span> <span class='so'>Nature, 405, 200-203 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10821278" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Ditta, G., Pinyopich, A., Robles, P. et al.</span>: <span class="ti">The <em>SEP4</em> gene of <em>Arabidopsis thaliana</em> functions in floral organ and meristem identity.</span> <span class='so'>Curr. Biol., 14, 1935-1940 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15530395" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Honma, T. & Goto, K.</span>: <span class="ti">Complexes of MADS-box proteins are sufficient to convert leaves into floral organs.</span> <span class='so'>Nature, 409, 525-529 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11206550" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Tomato Genome Consortium</span>: <span class="ti">The tomato genome sequence provides insights into fleshy fruit evolution.</span> <span class='so'>Nature, 485, 635-641 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22660326" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Ampomah-Dwamena, C., Morris, B. A., Sutherland, P. et al.</span>: <span class="ti">Down-regulation of <em>TM29</em>, a tomato <em>SEPALLATA</em> homolog, causes parthenocarpic fruit development and floral reversion.</span> <span class='so'>Plant Physiol., 130, 605-617 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12376628" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Klee, H. J. & Giovannoni, J. J.</span>: <span class="ti">Genetics and control of tomato fruit ripening and quality attributes.</span> <span class='so'>Annu. Rev. Genet., 45, 41-59 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22060040" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=KEGG" target="_blank">KEGG</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=DDBJ" target="_blank">DDBJ</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=CRISPR" target="_blank">CRISPR</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=塩基配列" target="_blank">塩基配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アミノ酸" target="_blank">アミノ酸配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アラインメント" target="_blank">アラインメント</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=系統樹" target="_blank">系統樹</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">伊藤 康博（Yasuhiro Ito）</span><br>略歴：2005年 神戸大学大学院農学研究科にて博士号取得，食品総合研究所（現 農業・食品産業技術総合研究機構食品研究部門）研究員を経て，2016年より同 上級研究員．<br>研究テーマ：果実の成熟の制御，落果（花）の制御．<br>抱負：これからも自分で実験して論文を書く．<br></div><br>© 2017 伊藤 康博 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

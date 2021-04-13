@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> タンパク質の膜透過を促進する膜タンパク質SecDFの構造と機能 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>タンパク質の膜透過を促進する膜タンパク質SecDFの構造と機能</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>塚崎智也<sup>1</sup>・森 博幸<sup>2</sup>・伊藤維昭<sup>3</sup>・濡木 理<sup>1</sup></strong><br>（<sup>1</sup>東京大学大学院理学系研究科 生物化学専攻，<sup>2</sup>京都大学ウイルス研究所 がん遺伝子研究分野，<sup>3</sup>京都産業大学総合生命科学部 生命システム学科）<br>email：<a href="mailto:ttsukaza@biochem.s.u-tokyo.ac.jp">塚崎智也</a>，<a href="mailto:hiromori@virus.kyoto-u.ac.jp">森 博幸</a>，<a href="mailto:kito@cc.kyoto-su.ac.jp">伊藤維昭</a>，<a href="mailto:nureki@biochem.s.u-tokyo.ac.jp">濡木 理</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.093">10.7875/first.author.2011.093</a><br><div class="reference"><br><span class="ti">Structure and function of a membrane component SecDF that enhances protein export.</span><br><span class="au">Tomoya Tsukazaki, Hiroyuki Mori, Yuka Echizen, Ryuichiro Ishitani, Shuya Fukai, Takeshi Tanaka, Anna Perederina, Dmitry G. Vassylyev, Toshiyuki Kohno, Andrés D. Maturana, Koreaki Ito, Osamu Nureki</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21562494" target="_blank"><em>Nature</em>, <strong>474</strong>, 235-238 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　タンパク質の膜透過はすべての生物に保存された基本的な細胞機構のひとつである．細菌において細胞質膜をこえたタンパク質の輸送には，タンパク質の膜透過チャネルであるSecトランスロコンと，駆動モータータンパク質であるSecA ATPaseとが中心的な役割をはたしている．さらに，この輸送はプロトン駆動力，および，Secトランスロコンと複合体を形成する膜タンパク質SecDFにより促進されるが，これまでその構造と機能についての詳細は不明であった．筆者らは，X線結晶構造解析によりSecDFは12本のαヘリックスからなる膜貫通領域と2つのペリプラズム領域から構成されることを明らかにした．その構造から，SecDFはプロトン駆動力によりダイナミックな構造変化をくり返しながらペリプラズム側で膜透過の基質タンパク質と相互作用して膜透過の高効率化に寄与する膜内在性シャペロンである，との新たな仮説を提唱した．いくつかの生化学的な手法と生物物理学的な手法を駆使してSecDFの機能に必須のアミノ酸残基を同定するとともに，この作業仮説を立証した．<br/><br/><h2>はじめに</h2><br/>　リボソームにより新規に合成されるタンパク質のかなりの部分は細胞質から細胞外へと分泌される．それらのタンパク質はN末端に膜透過の荷札となるシグナル配列が付加された状態で合成され，シグナル配列をもつこの前駆体タンパク質は細胞膜へとターゲッティングされて膜をこえ輸送される．通常はイオンすら通さない生体膜をこえて巨大なタンパク質分子が膜透過できるのは，生体膜にはタンパク質を透過させるための専用のチャネル（トランスロコン）が存在しているからである．このようなタンパク質の生体膜をこえた輸送は基本的な生命現象であり，そのしくみは真正細菌から高等生物まで保存されていることがこれまでの数多くの研究成果により示されている<a href="#R1"><sup>1-7)</sup></a>．真正細菌の細胞質膜にはSecトランスロコンが存在し，それは膜タンパク質SecY，SecE，SecGの三者複合体からなる．Secトランスロコンを介した細胞質からペリプラズム空間へのタンパク質の膜透過は細胞質膜に局在するモータータンパク質SecA ATPaseにより駆動される（<a href="#F1">図1</a>）．このときATPの加水分解エネルギーが使用されるが，タンパク質の膜透過はプロトン駆動力によっても促進されることが謎であった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Secトランスロコンによるタンパク質の膜透過</strong><br/>SecYEG：Secトランスロコン，SecAは駆動モータータンパク質としてはたらくATPase．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-11.6.9-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Secトランスロコンによるタンパク質の膜透過" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-11.6.9-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-11.6.9-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　この研究では，真正細菌や古細菌においてタンパク質の膜透過にかかわる，SecDとSecFからなる膜タンパク質に着目した．このSecDFはSecトランスロコンと複合体を形成しタンパク質の膜透過を高効率で行わせることに寄与しているものと考えられていたが，実際にどのような分子機構により機能しているのかその詳細はわかっていなかった．筆者らは，タンパク質の膜透過にかかわるSecタンパク質群のなかで唯一，立体構造の報告がされていなかったSecDFの構造をX線結晶構造解析により世界ではじめて高分解能で明らかにし，その機能とプロトン駆動力との関連を詳細に解析した．これら一連の解析により，SecDFによるタンパク質の膜透過の促進について新たなモデルを提唱した．<br/><br/><h2>1．SecDFの結晶構造：F型とI型</h2><br/>　筆者らは，先行研究で<em>Thermus thermophilus</em> HB8に由来するSecトランスロコンとSecAとの結晶構造解析を達成し，その相互作用と構造変化について考察してきた<a href="#R5"><sup>5)</sup></a>．タンパク質の膜透過装置の精密な全体像を得るためには同一の生物種からSecDFの構造を決定することが重要であると考え，<em>T</em>. <em>thermophilus</em>に由来するSecDF（TtSecDF）をターゲットとした構造解析を進めた<a href="#R8"><sup>8)</sup></a>．TtSecDFは全長で735アミノ酸残基をもち，12本の膜貫通領域と2つの大きなペリプラズム領域（P1ドメインとP4ドメイン）から構成される．X線結晶構造解析により全長SecDFの構造を3.3Å分解能で決定した（<a href="#F2">図2a</a>，PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=3aqp&amp;PAGEID=Summary" target="_blank">3AQP</a>）．それとは別に，可溶性のペリプラズム領域については，P1ドメインの結晶構造を2.6Å分解能で決定し（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=3apo&amp;PAGEID=Summary" target="_blank">3AQO</a>），P4ドメインについてはNMR解析により詳細な構造を明らかにした（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=2rrn&amp;PAGEID=Summary" target="_blank">2RRN</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　SecDFの詳細な構造</strong><br/>（a）全長SecDFの結晶構造（F型）．<br/>（b）P1ドメインのみの結晶構造と，そのほかの領域の全長の構造を合成して構築したSecDFのモデル（I型）．<br/>（c）SecDFの膜貫通領域の保存された機能に重要なアミノ酸残基．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-11.6.9-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　SecDFの詳細な構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-11.6.9-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-11.6.9-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/>　SecDFの1～6番目の膜貫通領域と7～12番目の膜貫通領域は疑似2回対称で配置して膜貫通領域を構成し，それをペリプラズム側からおおうようにP1ドメインとP4ドメインが位置していた．P1ドメインはさらに2つのサブドメインから構成されており，それらをヘッド領域およびベース領域と名づけた．P1ドメインのベース領域とP4ドメインは構造が類似しており，膜貫通領域と同様に疑似2回対称で配置していた．P1ドメインに特徴的なヘッド領域はペリプラズム側に大きく突出していた．ヘッド領域とベース領域とをつなぐ2本のループ（ヒンジ部）は細くくくれていた．<br/>　別に決定したP1ドメインのみの結晶構造と，そのほかの領域の全長の構造を合成してモデルを構築した（<a href="#F2">図2b</a>）．全長SecDFの結晶構造とこのモデルについてP1ドメインの構造を比較することで，P1ドメインのヘッド領域は配向の大きく異なる2つの形状をとることが判明した．この構造変化はヒンジ部を中心にヘッド領域が約120度回転したことによるものであった．全長SecDFの結晶構造で観察されたSecDFの構造（<a href="#F2">図2a</a>）をF型，モデルでみられたSecDFの構造（<a href="#F2">図2b</a>）をI型と名づけた．実際にこのような構造変化が生体において起こりうることは，立体構造情報にもとづき導入した2カ所のシステイン残基のあいだのジスルフィド架橋の形成実験により明らかになった．さらに，ジスルフィド結合の形成によりP1ドメインの動きを束縛したSecDF変異体を発現する菌株においてタンパク質の分泌活性が著しく低下することから，ヘッド領域の柔軟さがSecDFの機能発現に重要であることが示された．また，単離したP1ドメインが変性タンパク質に対する結合能をもっていたことから，この領域が膜透過の途上の基質タンパク質と結合し，膜透過の効率の昂進に関与しているものと考えられた．<br/><br/><h2>2．タンパク質の膜透過におけるSecDFの重要性</h2><br/>　SecDFの重要性については，これまでSecDFがタンパク質の膜透過における後期の過程に関与することや，SecDFを欠失させた大腸菌ではタンパク質の膜透過が著しく低下し低温感受性となることなどが示されていたが，具体的にSecDFがタンパク質の膜透過反応のどの段階でどのように寄与するのかは明確に示されていなかった<a href="#R7"><sup>7)</sup></a>．そこで，SecDFの作用するステップを明らかにするため，タンパク質の膜透過反応における中間状態から完了にいたる過程を解析できる<em>in vitro</em>反応系を用いて解析を進めた．その結果，タンパク質の膜透過の開始にはSecAとATPが必要であるが，そのあとに起こる過程はATPを枯渇させてSecAが機能しないようにした条件でも起こること，そして，SecDFとプロトン駆動力の両者のはたらきが必須であることをつきとめた．すなわち，SecDFはプロトン駆動力を利用して膜透過の進行と完了を行っていることが明らかになった．<br/><br/><h2>3．SecDFの膜貫通領域</h2><br/>　SecDFはRNDスーパーファミリー（RND：resistance-nodulation-division）に属するが，同じファミリーのAcrBと構造を比較したところ，ペリプラズム領域はまったく異なっていたが膜貫通領域の配向は類似していた．SecDFは単量体の状態でSecトランスロコンと相互作用し機能するものと考えられているが，AcrBはホモ三量体を形成しプロトンの透過と共役した薬剤排出を行うことが示唆されている<a href="#R9"><sup>9)</sup></a>．AcrBの膜貫通領域の中心部に位置する電荷をもつアミノ酸残基は，プロトンの透過に直接に関与しAcrBの薬剤排出活性に重要であることが提唱されている．SecDFの膜貫通領域にもAcrBと同様に保存性の高い親水性のアミノ酸残基がいくつか存在していた（<a href="#F2">図2c</a>）．これらのアミノ酸残基がSecDFの機能発現に重要であると予測し，これを別のアミノ酸残基に置換した変異体を用いて大腸菌におけるタンパク質の膜透過活性の解析を行ったところ，このような変異をもつSecDFは機能を完全に欠いていることを見いだした．この結果は，SecDFの膜貫通領域に保存された電荷をもったアミノ酸残基がプロトンの透過に関与するとの考えとは矛盾しなかった．<br/><br/><h2>4．SecDFの陽イオン透過能</h2><br/>　<em>Vibrio</em>属細菌は細胞におけるさまざまな過程においてプロトンの代わりにNa<sup>+</sup>の濃度勾配を利用する<a href="#R10"><sup>10)</sup></a>．<em>Vibrio</em>属細菌は2セットの<em>secDF</em>遺伝子をもち，そのうちのひとつはNa<sup>+</sup>依存型であることを見い出した．すなわち，このNa<sup>+</sup>依存型のSecDFを発現させた大腸菌のタンパク質分泌能は培地のNa<sup>+</sup>濃度に依存した．この結果から，SecDFは生物界において一般的に，1価の陽イオンと共役したタンパク質の膜透過の役割を担っていることが考えられた．<br/>　<em>T</em>. <em>thermophilus</em>のもつTtSecDFがプロトンを透過させることを検証するため生物物理学的な手法を用いた．TtSecDFを過剰発現させた大腸菌の巨大スフェロプラスト膜を用いたinside-outパッチクランプ解析によりSecDFに依存した電流が観測された．この電流の頻度はpH濃度勾配のあるとき大きくなった．ペリプラズム領域に相当する空間に基質を模したほどけたタンパク質を共存させることにより，さらに電流の頻度は高くなった．さらに，プロトンに特異的な蛍光試薬を用いてSecDFを過剰発現させた巨大スフェロプラストへのプロトンの取り込みを確認した．これらの結果は，SecDFにはプロトンを通す機能のあることを強く示唆した．SecDFの膜貫通領域の保存されたアミノ酸残基Asp340およびArg671（<a href="#F2">図2c</a>）の変異体はプロトン透過活性を示さなかったため，この部位が主要なプロトンの通り道になっていると考えられた．また，可動性であるP1ドメインのヘッド領域を欠失させたSecDF変異体は膜透過の促進活性を完全に失っただけでなく，パッチクランプ解析でも電流が観測できなかった．P1ドメインのヘッド領域の動きとプロトンの流れには密接な関連があり，プロトンの濃度勾配がSecDFの駆動力であると結論づけた．<br/><br/><h2>5．SecDFの機能モデル</h2><br/>　この研究により，1）タンパク質の膜透過における後期の過程に関与するSecDFの駆動力はプロトン駆動力であること，2）SecDFの膜貫通領域はプロトンを透過させる機能をもち，膜貫通領域にSecDFの機能発現に必須の親水性アミノ酸残基が存在すること，3）SecDFのP1ドメインはほどけたタンパク質と相互作用し，大きな構造変化をともないながら機能すること，が明らかになった．そして，SecDFの機能発現における分子機構として以下の作業仮説を提唱した（<a href="#F3">図3</a>）．SecDFのもつ突出したP1ドメインのヘッド領域は，Secトランスロコンの穴から膜透過してきた基質タンパク質と直接に相互作用すると考えられるため，ここではヘッド領域のちょうど真下にSecトランスロコンの出口を配置させた．SecDFはF型をとってSecトランスロコンから基質タンパク質を受け取ったのち，基質タンパク質を保持した状態でI型へと構造変化することで，基質タンパク質の細胞質への逆もどりを防ぎながら膜透過を積極的に介助する．つづいて，プロトンの流れと共役して基質タンパク質を手放しつつI型からF型へと構造変化し，再び基質タンパク質と相互作用する．この一連の構造変化をくり返すことでSecDFは膜透過を促進する，との機能モデルである．<br/><br/><a name="F3"></a><div id="fig3-caption-text" style="display: none;"><strong>図3　SecDFの機能発現におけるプロトン駆動力を利用した分子機構のモデル</strong><br/>1）F型のSecDFはSecトランスロコン（SecYEG）から基質タンパク質を受け取る．2）基質タンパク質を保持した状態でF型からI型へ構造変化．3）I型となったSecDFは基質タンパク質を放出する．4）I型からF型へ構造変化．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-11.6.9-Fig.3.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure3" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図3　SecDFの機能発現におけるプロトン駆動力を利用した分子機構のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-11.6.9-Fig.3.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-11.6.9-Fig.3.jpg" alt="figure3" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig3-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig3-caption').innerHTML = document.getElementById('fig3-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　今回，筆者らは，SecDFの構造と機能をはじめて明らかにしたが，プロトンがSecDFの膜貫通領域のどこを通過し，そのプロトンの流れがどのようにペリプラズム側に伝播されるのかの詳細についてはさらなる解析が必要である．この研究により，Secタンパク質群（Secトランスロコン，SecA ATPase，SecDF）のすべてについて詳細な構造が解かれたことになる．タンパク質の膜透過反応は大きな構造変化をともなうため，その完全な理解にはスナップショット的にさまざまな状態の構造を決定することが必要である．今後は，これら構成因子から構成される複合体の構造解析へと研究を展開させたい．<br/>　SecDFの構造解析については，2004年に遺伝子クローニングを開始し，2010年に構造の精密化を終えた．そして，機能解析とあわせ2011年に発表することができた．このプロジェクトを開始した当初は，機能が明確でない膜タンパク質SecDFの構造解析をしても分子機構の提唱はできないのではないかとの危惧もあったが，その構造決定は詳細な考察を可能とした．X線結晶構造解析による詳細構造の決定は強力な解析手法のひとつであることをあらためて実感した．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>van den Berg, B., Clemons, W. M. Jr., Collinson, I. et al.</span>: <span class="ti">X-ray structure of a protein-conducting channel.</span> <span class='so'>Nature, 427, 36-44 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14661030" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>森 博幸</span>: <span class="ti">蛋白質膜透過装置研究の新しい流れ：構造生物学の時代へ.</span> <span class='so'>蛋白質 核酸 酵素, 49, 950-958 (2004)<br><li id="R3"><span class='au'>Rapoport, T. A.</span>: <span class="ti">Protein translocation across the eukaryotic endoplasmic reticulum and bacterial plasma membranes.</span> <span class='so'>Nature, 450, 663-669 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18046402" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Zimmer, J., Nam, Y. & Rapoport, T. A.</span>: <span class="ti">Structure of a complex of the ATPase SecA and the protein-translocation channel.</span> <span class='so'>Nature, 455, 936-943 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18923516" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Tsukazaki, T., Mori, H., Fukai, S. et al.</span>: <span class="ti">Conformational transition of Sec machinery inferred from bacterial SecYE structures.</span> <span class='so'>Nature, 455, 988-991 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18923527" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>森 博幸, 塚崎智也</span>: <span class="ti">立体構造解析からみえてきたSecAによる蛋白質の膜透過の駆動機構.</span> <span class='so'>蛋白質 核酸 酵素, 54, 685-695 (2009)<br><li id="R7"><span class='au'>du Plessis, D. J., Nouwen, N. & Driessen, A. J.</span>: <span class="ti">The Sec translocase.</span> <span class='so'>Biochim. Biophys. Acta, 1808, 851-865 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20801097" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Tsukazaki, T., Mori, H., Fukai, S. et al.</span>: <span class="ti">Purification, crystallization and preliminary X-ray diffraction of SecDF, a translocon-associated membrane protein, from <em>Thermus thermophilus</em>.</span> <span class='so'>Acta Crystallogr. Sect. F Struct. Biol. Cryst. Commun., 62, 376-380 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16582489" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Murakami, S., Nakashima, R., Yamashita, E. et al.</span>: <span class="ti">Crystal structures of a multidrug transporter reveal a functionally rotating mechanism.</span> <span class='so'>Nature, 443, 173-179 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16915237" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Hase, C. C. & Barquera, B.</span>: <span class="ti">Role of sodium bioenergetics in <em>Vibrio cholerae</em>.</span> <span class='so'>Biochim. Biophys. Acta, 1505, 169-178 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11248198" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">塚崎 智也（Tomoya Tsukazaki）</span><br>略歴：2006年 京都大学大学院理学研究科博士課程 修了，同年 東京工業大学大学院生命理工学研究科 博士研究員，2008年 東京大学医科学研究所 助教を経て，2010年より東京大学大学院理学系研究科 助教．<br>研究テーマ：Secトランスロコン複合体の構造生物学．<br>抱負：独創性のある研究成果を発表し，新たなモデルを提唱していきたい．<br><strong>森  博幸（Hiroyuki Mori）</strong><br>京都大学ウイルス研究所 准教授．<br><strong>伊藤 維昭（Koreaki Ito）</strong><br>京都産業大学総合生命科学部 教授．<br><strong>濡木  理（Osamu Nureki）</strong><br>東京大学大学院理学系研究科 教授．<br></div><br>© 2011 塚崎智也・森 博幸・伊藤維昭・濡木 理 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> SIK2はTORC1-CREB経路を介してニューロンの障害を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>SIK2はTORC1-CREB経路を介してニューロンの障害を制御する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>佐々木 勉<sup>1</sup>・竹森 洋<sup>2</sup>・北川一夫<sup>1</sup></strong><br>（<sup>1</sup>大阪大学大学院医学系研究科 神経内科学，<sup>2</sup>医薬基盤研究所創薬基盤研究部 代謝疾患関連タンパク探索プロジェクト）<br>email：<a href="mailto:sasaki@medone.med.osaka-u.ac.jp">佐々木 勉</a>，<a href="mailto:kitagawa@medone.med.osaka-u.ac.jp">北川一夫</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.029">10.7875/first.author.2011.029</a><br><div class="reference"><br><span class="ti">SIK2 is a key regulator for neuronal survival after ischemia via TORC1-CREB.</span><br><span class="au">Tsutomu Sasaki, Hiroshi Takemori, Yoshiki Yagita, Yasukazu Terasaki, Tatsuya Uebi, Nanao Horike, Hiroaki Takagi, Teruo Susumu, Hiroshi Teraoka, Ken-ichi Kusano, Osamu Hatano, Naoki Oyama, Yukio Sugiyama, Saburo Sakoda, Kazuo Kitagawa</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21220102" target="_blank"><em>Neuron</em>, <strong>69</strong>, 106-119 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　転写因子CREBは脳に豊富に発現し，記憶，神経可塑性，細胞の生存など，幅広い神経機能あるいは病態に関与している．また，ニューロンにはSIK2およびTORC1が豊富に発現しており，SIK2はCREBを介した遺伝子発現を抑制している．筆者らは，大脳皮質のニューロンにおいて脳虚血の際にはCa<sup>2+</sup>/カルモジュリン依存性キナーゼIおよびCa<sup>2+</sup>/カルモジュリン依存性キナーゼIVの活性化によりSIK2が分解され，TORC1-CREB経路を介して下流の神経保護因子の発現が誘導される，という新規のシグナル伝達経路を同定した．また，脳虚血の際のニューロンにおいてはNMDA型グルタミン酸受容体を介したCa<sup>2+</sup>の流入が重要であるが，とりわけNR2Aサブユニットをもつタイプがシナプス刺激における内因性の保護シグナルに関与していることを示した．また，SIK2ノックアウトマウスにおいてニューロンの生存の促進効果，脳梗塞サイズの縮小を認めた．今回の成果は，SIK2およびTORC1を標的とした治療が，脳梗塞のみならず認知症などを含めた神経変性疾患に対しても有効な治療につながりうる可能性を示唆した．<br/><br/><h2>はじめに</h2><br/>　脳虚血は低酸素，酸化ストレス，炎症，グルタミン酸毒性などの複合的なストレスであり，これまでの研究により脳虚血の病態にかかわる多くの因子および経路が解明され多くの神経保護薬が検討されてきたが，臨床的にはいまだ十分であるとはいえない状況にある．とりわけ，虚血性のニューロン死をひき起こす細胞へのCa<sup>2+</sup>の流入経路としてNMDA型グルタミン酸受容体は重要なもののひとつであるが，MK-801をはじめとした汎グルタミン酸受容体拮抗薬は臨床的には有効な結果を得られなかった．NMDA型グルタミン酸受容体の活性化により下流の神経保護あるいは神経障害につながりうる多くの転写因子の活性がダイナミックに変化する<a href="#R1"><sup>1)</sup></a>．とりわけ転写因子CREB（cAMP responsive element-binding protein）の活性化は，筆者らあるいはほかのグループも，重要な神経保護シグナルとして精力的に研究を行ってきた<a href="#R2"><sup>2,3)</sup></a>．しかしながら，近年，グルタミン酸受容体のシナプスあるいはシナプス外での局在の差異あるいはサブタイプの違いなどの詳細な検討がなされ，それらの違いにより下流のシグナル伝達あるいは細胞の生死に決定的な違いのあることが報告された<a href="#R2"><sup>2,4)</sup></a>．NMDA型グルタミン酸受容体はNR1サブユニット，NR2サブユニット（NR2A，NR2B，NR2C，NR2Dの4種類），NR3サブユニット（NR3A，NR3Bの2種類）より構成され，NR2サブユニットの違いがのちの細胞の生死の運命を決定する，すなわち，NR2Aサブユニットの活性化が細胞保護に，NR2Bサブユニットの活性化が細胞障害につながることが多く報告されてきている<a href="#R2"><sup>2,4)</sup></a>．<br/>　転写因子CREBは，そのSer133がリン酸化されることによってヒストンアセチル化酵素活性をもつコアクチベーターCBP/p300がリクルートされて転写が開始されるため<a href="#R5"><sup>5)</sup></a>，このSer133リン酸化を中心とした研究が行われてきた．しかしながら，CREBのSer133リン酸化は転写開始に必要であるが十分ではなく，CBP/p300についてもそのほか多くの転写因子のコアクチベーターとしても作用する．しかしながら近年，CREBに特異的なコアクチベーターであるTORC（別名CRTC，TORC1～TORC3の3つのアイソフォームをもつ）が同定され<a href="#R6"><sup>6,7)</sup></a>，CREBの転写制御機構の解明は新たな局面をむかえた．CBP/p300によるCREBの制御はKIDドメイン-KIXドメインを介しているのに対し，TORCファミリーによるCREBの制御はCREBのbZIPドメインを介して行われている．TORCファミリーは刺激のない状態においておもに細胞質にある（TORC3はつねに核に存在する）が，Ca<sup>2+</sup>あるいはcAMPによる刺激により脱リン酸化が起こり核に移行してCREの転写を活性化する<a href="#R8"><sup>8)</sup></a>．<br/>　一方で，SIKは高食塩負荷されたラットの副腎から単離されたAMP活性化プロテインキナーゼファミリーに属するキナーゼで<a href="#R9"><sup>9)</sup></a>，SIK1～SIK3の3つのアイソフォームをもち，筆者らのグループは，このSIKの基質がTORCファミリーであることを同定してきた<a href="#R8"><sup>8)</sup></a>．SIK-TORC経路は糖代謝などにおいてきわめて重要な役割をはたしていることがすでに報告されていたが，中枢神経系においてCREBを介した神経保護あるいは病態にどのような役割をはたしているかはわかっていなかった．そこで，この研究においては，脳虚血をモデルとして中枢神経系におけるSIK-TORC1経路の制御機構および意義を，SIK2ノックアウトマウスを作製し<em>in vitro</em>および<em>in vivo</em>において検討した．<br/><br/><h2>1．脳虚血の<em>in vitro</em>モデルにおけるCREBの動態</h2><br/>　<em>in vitro</em>での脳虚血のモデルである低酸素低グルコース負荷により，CREBのSer133リン酸化は低酸素低グルコース負荷後3～6時間をピークとして上昇し12時間後には対照まで低下したが，一方で，CREの転写活性の上昇は12時間後まで持続していた．低酸素低グルコース負荷後の全長CREB（TORC活性能をもつ）とbZIPドメイン欠損CREB（TORC活性能をもたない）の動態を調べると，bZIPドメイン欠損CREBは全長CREBと比べ活性が有意に低下していた．他方，シクロスポリンAあるいはFK506によるカルシニューリンの抑制はCREBのSer133リン酸化を亢進する傾向をもつのに対しCREの転写活性は有意に抑制され，また，低濃度のスタウロスポリン（10 nM）はCREBのSer133リン酸化を有意に抑制したが，CREの転写活性は著明に亢進した．このことは，大脳皮質のニューロンにおいて，Ser133リン酸化CREBとは独立した，CREBのbZIPドメインを介した転写制御機構の存在することを意味した．<br/><br/><h2>2．低酸素低グルコース負荷によりTORC1のSer167脱リン酸化が起こる</h2><br/>　初代大脳皮質ニューロンではTORC1が高発現しており，TORC1は細胞質にあり低酸素低グルコース負荷によりSer167が脱リン酸化され核に移行する．ドミナントネガティブ型TORC1（TORC1のN末端56残基）のアデノウイルスによる導入は低酸素低グルコース負荷後のCREの転写活性を有意に低下させニューロン死を増悪させた．野生型TORC1およびSer167をAlaに置換したTORC1変異体の導入はCREの転写活性を上昇させ，低酸素低グルコース負荷後のニューロンの障害を有意に改善した．また，TORC1の強制発現はCREBに依存的に下流のBDNFおよびPGC-1αの発現を誘導した．<br/><br/><h2>3．SIK2の抑制はニューロン保護効果をもつ</h2><br/>　TORCファミリーはSIKファミリーまたはAMP活性化プロテインキナーゼによりリン酸化される<a href="#R8"><sup>8)</sup></a>．SIKファミリーのうち，SIK2はmRNAレベルおよびタンパク質レベルにおいて大脳皮質および海馬にて高発現していた．つぎに，低酸素低グルコース負荷後のTORC1の制御に関与するキナーゼを検討した．低酸素低グルコース負荷後の早い時期よりSIK2タンパク質が低下し，これはTORC1のSer167脱リン酸化および活性化と経時変化が一致するため，SIK2がTORC1-CREB経路を介した活性制御において重要であると考えた．まず，ニューロンにおけるSIK2のTORC1制御における重要性を検討するため，低分子キナーゼ阻害剤ライブラリーを用いSIK2をより選択的に阻害する薬物をスクリーニングした．その結果，AMP活性化プロテインキナーゼ阻害剤として知られるCompound Cが低濃度でSIK2を阻害することがわかった（IC<sub>50</sub>は0.3μM）．0.3～0.5μMのCompound Cは低酸素低グルコース負荷後のCREの転写活性を有意に上昇させニューロン保護効果を示した．また，ドミナントネガティブ型SIK2変異体は低酸素低グルコース負荷後のニューロンの障害を増悪させ，キナーゼ活性欠損SIK2変異体はニューロン死を改善した．また，内因性のSIK2をRNAi法により阻害すると低酸素低グルコース負荷後のCREの転写活性の上昇ならびにニューロン保護効果を認めた．<br/><br/><h2>4．大脳皮質のニューロンにおいてCa<sup>2+</sup>/カルモジュリン依存性キナーゼはTORC1の活性を制御する</h2><br/>　さらにTORC1による制御機構を検討するため，各種のキナーゼ阻害剤を用いてTORC1の活性を検討した．その結果，Ca<sup>2+</sup>/カルモジュリン依存性キナーゼIIおよびCa<sup>2+</sup>/カルモジュリン依存性キナーゼIVの阻害剤であるKN93がTORC1の活性を有意に抑制し，また，Ca<sup>2+</sup>/カルモジュリン依存性キナーゼのなかではドミナントアクティブ型Ca<sup>2+</sup>/カルモジュリン依存性キナーゼIおよびドミナントアクティブ型Ca<sup>2+</sup>/カルモジュリン依存性キナーゼIVがTORC1の活性を有意に上昇させた．一方で，ドミナントネガティブ型Ca<sup>2+</sup>/カルモジュリン依存性キナーゼIおよびドミナントネガティブ型Ca<sup>2+</sup>/カルモジュリン依存性キナーゼIVは低酸素低グルコース負荷後のCREの転写活性を有意に抑制した．また，内因性のCa<sup>2+</sup>/カルモジュリン依存性キナーゼIVのRNAi法による阻害はこれらの実験結果を裏づけた．このことより，ニューロンにおいてはCa<sup>2+</sup>/カルモジュリン依存性キナーゼIおよびCa<sup>2+</sup>/カルモジュリン依存性キナーゼIVがSIK2の負の制御キナーゼであることが示された．<br/><br/><h2>5．シナプスにおけるNMDA型グルタミン酸受容体の活性化はCa<sup>2+</sup>/カルモジュリン依存性キナーゼ-SIK2経路を介してTORC1の活性を上昇させる</h2><br/>　ニューロンへのCa<sup>2+</sup>の流入経路としてNMDA型グルタミン酸受容体の重要性は以前より指摘されていたが，NMDA型グルタミン酸受容体のアンタゴニストであるAP5，NR2AサブユニットをもつNMDA型グルタミン酸受容体のアンタゴニストであるNVP-AM0077，NR2BサブユニットをもつNMDA型グルタミン酸受容体のアンタゴニストであるRo25-6981，非NMDA型グルタミン酸受容体のアンタゴニストであるCNQX，L型Ca<sup>2+</sup>チャネル遮断剤であるニフェジピンなどを用いて検討したところ，AP5およびNVP-AM0077により有意に低酸素低グルコース負荷後のTORC1活性を抑制した．一方で，ビククリンと4-アミノピリジンによりNR2AサブユニットをもつNMDA型グルタミン酸受容体を刺激したところ<a href="#R2"><sup>2)</sup></a>，SIK2の分解およびTORC1の活性化をひき起こした．また，ドミナントネガティブ型Ca<sup>2+</sup>/カルモジュリン依存性キナーゼIおよびドミナントネガティブ型Ca<sup>2+</sup>/カルモジュリン依存性キナーゼIVはビククリンと4-アミノピリジンによるTORC1の活性化を阻害した．<br/><br/><h2>6．Ca<sup>2+</sup>/カルモジュリン依存性キナーゼはSIK2をリン酸化し分解を促進する</h2><br/>　低酸素低グルコース負荷後のSIK2タンパク質の低下はプロテアソーム阻害剤であるラクタシスチンにより抑制されるためユビキチン-プロテアソーム系を介したSIK2の分解であることが示された<a href="#R10"><sup>10)</sup></a>．Ca<sup>2+</sup>/カルモジュリン依存性キナーゼIおよびCa<sup>2+</sup>/カルモジュリン依存性キナーゼIVはSIK2タンパク質を減少させるが，新たにCa<sup>2+</sup>/カルモジュリン依存性キナーゼモチーフとしてSIK2のThr484がCa<sup>2+</sup>/カルモジュリン依存性キナーゼIおよびCa<sup>2+</sup>/カルモジュリン依存性キナーゼIVによりリン酸化されてSIK2を負に制御することが示された．このThr484は線虫から哺乳類にいたるまで保存されており非常に重要な部位であることが示唆された．<br/><br/><h2>7．SIK2ノックアウトマウスにおけるニューロン保護効果</h2><br/>　これまでに述べた結果より，SIK2はCREB-TORC1経路を介して神経保護効果を制御していることが示されたが，さらに<em>in vivo</em>におけるSIK2の重要性を調べるためSIK2ノックアウトマウスを作製した．まず，SIK2ノックアウトマウスおよび野生型マウスより初代大脳皮質ニューロン培養を行い検討した．SIK2ノックアウトマウスは野生型マウスに比べて，低酸素低グルコース負荷後のCREの転写活性の上昇，TORC1の活性化の上昇，ならびに，低酸素低グルコース負荷後のニューロン死の軽減，下流のPGC-1α，BDNF，TrkBなどの発現の有意な上昇を認めた．<br/><br/><h2>8．SIK2ノックアウトマウスにおける中大脳動脈閉塞モデルでは梗塞サイズが縮小する</h2><br/>　SIK2の<em>in vivo</em>における神経保護効果への影響を検討するため，SIK2ノックアウトマウスおよび野生型マウスにおいて60分間の一過性中大脳動脈閉塞モデルを作製した．SIK2ノックアウトマウスにおいては虚血ののちのTORC1のSer167リン酸化レベルが野生型マウスに比べて有意に減少し，梗塞サイズも有意に小さかった．また，SIK2ノックアウトマウスは野生型マウスに比べて大脳皮質ペナンブナ領域におけるPGC-1αおよびBDNFの発現の有意な上昇，ならびに，TNFαの発現の有意な低下を認めた．<br/><br/><h2>おわりに</h2><br/>　ニューロンにおいて従来まで報告されていたCREBのSer133リン酸化の重要性にくわえて，SIK2によるTORC1-CREB経路の制御の重要性も示された（<a href="#F1">図1</a>）．今回，筆者らが明らかにしたCa<sup>2+</sup>/カルモジュリン依存性キナーゼIおよびCa<sup>2+</sup>/カルモジュリン依存性キナーゼIV→SIK2の分解→TORC1の活性化という経路は，脳虚血の内因性保護シグナル，あるいは，シナプスのNMDA型グルタミン酸受容体（おもにNR2AサブユニットをもつNMDA型グルタミン酸受容体）を介した神経保護シグナルに関与していた（<a href="#F2">図2</a>）．とくに，Ca<sup>2+</sup>/カルモジュリン依存性キナーゼIVはCREBのSer133リン酸化の促進，TORC1の活性化，CBPのSer301リン酸化などを介して<a href="#R11"><sup>11)</sup></a>，CREBを介した遺伝子発現を制御する．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　SIK2によるTORC1-CREB経路の制御</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kitagawa-Neuron-11.1.12-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　SIK2によるTORC1-CREB経路の制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kitagawa-Neuron-11.1.12-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kitagawa-Neuron-11.1.12-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　TORC1-CREB経路を介した神経保護シグナル</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kitagawa-Neuron-11.1.12-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　TORC1-CREB経路を介した神経保護シグナル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kitagawa-Neuron-11.1.12-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kitagawa-Neuron-11.1.12-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　今回の研究により，Ca<sup>2+</sup>はSIK2のThr484リン酸化を介し，一方で，cAMPはSIK2のSer587リン酸化を介し，SIK2を負に制御しているが<a href="#R10"><sup>10)</sup></a>，その両方の制御がCREBのSer133リン酸化をともなうことは，転写の開始に必要であることにくわえて，CREBの活性化の指標としてSer133リン酸化が検討されてきた理由ともいえるかもしれない．<br/>　SIK2はCa<sup>2+</sup>/カルモジュリン依存性キナーゼIおよびCa<sup>2+</sup>/カルモジュリン依存性キナーゼIVにより分解されCREBの転写をおもに遅い時期になってから制御するが，SCOPはカルパインにより分解されCREBの転写を制御することが報告されている<a href="#R12"><sup>12)</sup></a>．ICERを含めた多様なCREB抑制機構の存在は中枢神経系におけるCREBの活性化の重要性を示唆している．今後，SIK2およびTORC1による制御機構をさらに明らかにし，また，それらを標的とした創薬の開発は記憶，脳虚血あるいは認知症を含めた幅広い神経変性疾患に対して有用である可能性をひめている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Taghibiglou, C., Martin, H. G., Lai, T. W. et al.</span>: <span class="ti">Role of NMDA receptor-dependent activation of SREBP1 in excitotoxic and ischemic neuronal injuries.</span> <span class='so'>Nat. Med., 15, 1399-1406 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19966780" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Hardingham, G. E., Fukunaga, Y. & Bading, H.</span>: <span class="ti">Extrasynaptic NMDARs oppose synaptic NMDARs by triggering CREB shut-off and cell death pathways.</span> <span class='so'>Nat. Neurosci., 5, 405-414 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11953750" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Mabuchi, T., Kitagawa, K., Kuwabara, K. et al.</span>: <span class="ti">Phosphorylation of cAMP response element-binding protein in hippocampal neurons as a protective response after exposure to glutamate <em>in vitro</em> and ischemia <em>in vivo</em>.</span> <span class='so'>J. Neurosci., 21, 9204-9213 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11717354" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Sattler, R., Xiong, Z., MacDonald, J. F. et al.</span>: <span class="ti">Distinct roles of synaptic and extrasynaptic NMDA receptors in excitotoxicity.</span> <span class='so'>J. Neurosci., 20, 22-33 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10627577" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Gonzalez, G. A. & Montminy, M. R.</span>: <span class="ti">Cyclic AMP stimulates somatostatin gene transcription by phosphorylation of CREB at serine 133.</span> <span class='so'>Cell, 59, 675-680 (1989)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2573431" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Conkright, M. D., Canettieri, G., Screaton, R. et al.</span>: <span class="ti">TORCs: transducers of regulated CREB activity.</span> <span class='so'>Mol. Cell, 12, 413-423 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14536081" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Iourgenko, V., Zhang, W., Mickanin, C. et al.</span>: <span class="ti">Identification of a family of cAMP response element-binding protein coactivators by genome-scale functional analysis in mammalian cells.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 100, 12147-12152 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14506290" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Screaton, R. A., Conkright, M. D., Katoh, Y. et al.</span>: <span class="ti">The CREB coactivator TORC2 functions as a calcium- and cAMP-sensitive coincidence detector.</span> <span class='so'>Cell, 119, 61-74 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15454081" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Wang, Z., Takemori, H., Halder, S. K. et al.</span>: <span class="ti">Cloning of a novel kinase (SIK) of the SNF1/AMPK family from high salt diet-treated rat adrenal.</span> <span class='so'>FEBS Lett., 453, 135-139 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10403390" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Katoh Y, Takemori, H., Lin, X. Z. et al.</span>: <span class="ti">Silencing the constitutive active transcription factor CREB by the LKB1-SIK signaling cascade.</span> <span class='so'>FEBS J., 273, 2730-2748 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16817901" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Impey, S., Fong, A. L., Wang, Y. et al.</span>: <span class="ti">Phosphorylation of CBP mediates transcriptional activation by neural activity and CaM kinase IV.</span> <span class='so'>Neuron, 34, 235-244 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11970865" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Shimizu, K., Phan, T., Mansuy, I. M. et al.</span>: <span class="ti">Proteolytic degradation of SCOP in the hippocampus contributes to activation of MAP kinase and memory.</span> <span class='so'>Cell, 128, 1219-1229 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17382888" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">佐々木 勉（Tsutomu Sasaki）</span><br>略歴：2003年 大阪大学大学院医学系研究科博士課程 修了，2005年 日本学術振興会 特別研究員を経て，2008年より大阪大学大学院医学系研究科 助手（現 助教）．<br>研究テーマ：脳循環代謝，脳卒中，CREBの制御機構の解明と神経疾患の治療への応用．<br><br><strong>竹森  洋（Hiroshi Takemori）</strong><br>医薬基盤研究所創薬基盤研究部 プロジェクトリーダー．<br><br><strong>北川 一夫（Kazuo Kitagawa）</strong><br>大阪大学大学院医学系研究科 准教授．<br></div><br>© 2011 佐々木 勉・竹森 洋・北川一夫 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

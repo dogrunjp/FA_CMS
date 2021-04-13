@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Hsp90の分子シャペロン活性はカゼインキナーゼ2によるスレオニン残基のリン酸化により基質特異的に変化する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>Hsp90の分子シャペロン活性はカゼインキナーゼ2によるスレオニン残基のリン酸化により基質特異的に変化する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>堤 信二・Mehdi Mollapour・Len Neckers</strong><br>（米国NIH National Cancer Institute，Center for Cancer Research，Urologic Oncology Branch）<br>email：<a href="mailto:tsutsumis@mail.nih.gov">堤 信二</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.069">10.7875/first.author.2011.069</a><br><div class="reference"><br><span class="ti">Threonine 22 phosphorylation attenuates Hsp90 interaction with cochaperones and affects its chaperone activity.</span><br><span class="au">Mehdi Mollapour, Shinji Tsutsumi, Andrew W. Truman, Wanping Xu, Cara K. Vaughan, Kristin Beebe, Anna Konstantinova, Srinivas Vourganti, Barry Panaretou, Peter W. Piper, Jane B. Trepel, Chrisostomos Prodromou, Laurence H. Pearl, Len Neckers</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21419342" target="_blank"><em>Molecular Cell</em>, <strong>41</strong>, 672-681 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　がんは遺伝子変異の結果としてひき起こされるが，変異した遺伝子産物の活性および安定性は熱ショックタンパク質のひとつHsp90のはたらきに大きく依存している．今回，筆者らは，Hsp90の分子シャペロンとしての活性がカゼインキナーゼ2によるリン酸化により基質特異的に変化することを見い出した．また，リン酸化によるHsp90の分子シャペロン活性の変化はコシャペロンであるAha1との相互作用の低下による立体構造の変化によることが示唆された．この結果は，Hsp90の翻訳後修飾による分子シャペロン活性制御の一端を明らかにするとともに，Hsp90の基質認識機構の解明に貢献すると考えられる．<br/><br/><h2>はじめに</h2><br/>　Hsp90は細胞にもっとも豊富に存在する分子シャペロンであり，タンパク質が細胞において正常な立体構造を維持するうえで重要な役割をはたしている．Hsp90のはたらきは，変異型p53，ErbB2（Her2/neu），Bcr-Ablなど，とくにがん細胞の増殖や生存にかかわるさまざまな変異タンパク質，過剰発現タンパク質，キメラタンパク質の安定性および活性に必要不可欠である．一方，正常なタンパク質のHsp90への依存性は低い．そのため，Hsp90は抗がん薬の有望な分子標的と考えられている．実際に，Hsp90阻害薬はさまざまな種類のがんに対して抗がん活性を示し，現在，第1世代および第2世代のHsp90阻害薬は骨髄腫，乳がん，肺がん，前立腺がん，腎がんなどを対象に臨床試験（第1相試験～第3相試験）が行われている<a href="#R1"><sup>1)</sup></a>．<br/><br/><h2>1．Hsp90の活性制御機構</h2><br/>　Hsp90の分子シャペロン活性はアデニンヌクレオチドとの結合を介した立体構造の変化により制御されている（<a href="#F1">図1</a>）．Hsp90はC末端領域を介して恒常的にホモ二量体を形成している．N末端領域のATP結合ポケットにATPが結合するとN末端領域と中間領域との疎水性相互作用が安定化され，さらにN末端領域どうしが結合して活性型Hsp90となる．そののち，N末端領域どうしの結合は中間領域の触媒ループとの疎水性相互作用により安定化される．活性型Hsp90は中間領域を介して基質タンパク質（クライアントタンパク質）と結合する．Hsp90はN末端領域どうしが結合した場合にのみATP加水分解活性をもつようになり，N末端領域に結合したATPが加水分解されることによりN末端領域どうしの結合が解消されて不活性型となる<a href="#R2"><sup>2,3)</sup></a>．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Hsp90のシャペロン活性はATPに依存的な立体構造の変化により制御される</strong><br/>1）ATP結合によりN末端領域と中間領域との疎水性相互作用が安定化され，さらにN末端領域どうしが結合する．2）N末端領域どうしの結合が安定化される．3）ATP加水分解およびADP放出によりN末端領域どうしの結合が解消される．4）N末端領域と中間領域との疎水性相互作用によりN末端領域および中間領域の構造が変化する．カゼインキナーゼ2はHsp90のThr36をリン酸化し立体構造を活性型から不活性型へと変化させる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsutsumi-Molecular-Cell-11.3.17-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Hsp90のシャペロン活性はATPに依存的な立体構造の変化により制御される" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsutsumi-Molecular-Cell-11.3.17-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsutsumi-Molecular-Cell-11.3.17-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．Hsp90の阻害薬</h2><br/>　1994年に，最初のHsp90に特異的な阻害薬ゲルダナマイシンが見い出された<a href="#R4"><sup>4)</sup></a>．ゲルダナマイシンはHsp90のATP結合ポケットにATPと競合的に結合してその活性化を阻害する（<a href="#F1">図1</a>）．その結果，Hsp90との相互作用によりささえられていた基質タンパク質の活性は失われ，最終的に基質タンパク質はユビキチン-プロテアソーム系により分解される．ゲルダナマイシン自体は肝毒性が強く臨床応用に適さなかったが，肝毒性の低いゲルダナマイシン誘導体や基本構造の異なるHsp90阻害薬が見い出され，現在，臨床において抗がん活性が試験されている<a href="#R5"><sup>5)</sup></a>．<br/>　興味深いことに，がん細胞から抽出されたHsp90はゲルダナマイシンに高い親和性を示すことが報告されている<a href="#R6"><sup>6)</sup></a>．最近，筆者らは，培養細胞から抽出したHsp90はゲルダナマイシンに対して親和性の高い画分と親和性の低い画分とに分けられることを見い出した．一方，大腸菌から精製したHsp90ではこのような性質はみられない．このことから，細胞にはHsp90と阻害薬との親和性を変化させる機構が存在するものと考えられた．<br/><br/><h2>3．Hsp90の分子シャペロン活性および阻害薬との親和性はリン酸化の状態により変化する</h2><br/>　Hsp90はさまざまな種類のキナーゼによりリン酸化されることがわかっている<a href="#R7"><sup>7)</sup></a>．最近，筆者らは，細胞周期関連キナーゼであるWee1<sup>Swe1</sup>がHsp90の38番目のチロシン残基をリン酸化することを見い出した<a href="#R8"><sup>8)</sup></a>（混乱をさけるため，アミノ酸残基番号はすべてヒトHsp90αの配列にもとづいて表記する）．このTyr38リン酸化は<em>in vivo</em>でのHsp90の分子シャペロン活性を抑制するのみならず，興味深いことに，Hsp90とゲルダナマイシンとの親和性も低下させた．実際に，遺伝学的な手法あるいは阻害薬を用いてWee1<sup>Swe1</sup>の活性を阻害すると<em>in vitro</em>および<em>in vivo</em>においてHsp90阻害薬の抗がん活性が著しく増強された．これらの結果から，Hsp90のリン酸化による修飾はHsp90の細胞における分子シャペロン活性およびHsp90阻害薬との親和性において重要な役割をはたしているものと考えられた．<br/><br/><h2>4．カゼインキナーゼ2はHsp90の36番目のスレオニン残基をリン酸化する</h2><br/>　熱刺激あるいは浸透圧刺激などのストレス刺激がHsp90のスレオニン残基のリン酸化を促すことが見い出された．また，種々の変異型Hsp90の細胞におけるリン酸化の状態を調べたところ，不活性型の構造をとると思われる変異型Hsp90においてスレオニン残基のリン酸化の亢進していることがわかった．そこで，このスレオニン残基のリン酸化に注目した．<br/>　セリン/スレオニンキナーゼであるカゼインキナーゼ2はHsp90の基質であるとともにHsp90をリン酸化する<a href="#R9"><sup>9)</sup></a>．そこで，カゼインキナーゼ2によりリン酸化されるアミノ酸残基の同定を試みた．細胞から抽出したHsp90をプロテアーゼにより切断しリン酸化される領域を絞り込んだ．つぎに，Hsp90の結晶構造をもとに，立体構造の変化とともにタンパク質の表面への露出の変化するスレオニン残基を探し出し，それぞれの部位に変異を導入した．その結果，カゼインキナーゼ2によってリン酸化されるスレオニン残基としてThr36を見い出した．<br/><br/><h2>5．Thr36のリン酸化はHsp90の立体構造を変化させる</h2><br/>　生化学的な解析の結果から，Hsp90のThr36リン酸化はATP加水分解活性およびATP存在下でのN末端領域どうしの結合を阻害することがわかった．一方，Thr36の脱リン酸化はATP加水分解活性およびN末端領域どうしの結合を変化させなかった．これらのことから，カゼインキナーゼ2によるThr36のリン酸化は立体構造を活性型構造から不活性型構造へと変化させるものと考えられた（<a href="#F1">図1</a>）．Thr36がVal37，Tyr38とともに形成するαヘリックス構造（αヘリックス1）はN末端領域と中間ドメインとの疎水性相互作用の安定に重要である．そこで，Thr36のリン酸化はN末端領域と中間ドメインとの疎水性相互作用を弱めるものと推測された．<br/><br/><h2>6．Thr36のリン酸化はHsp90の分子シャペロン活性を基質特異的に変化させる</h2><br/>　Thr36とTyr38は同じαヘリックス1に位置することから，Thr36のリン酸化はTyr38のリン酸化と同様に分子シャペロン活性を抑制するものと予想した．確かに，Thr36のリン酸化は<em>in vivo</em>においてHsp90依存性のSrcキナーゼ活性およびRaf1キナーゼ活性を低下させた．ところが驚いたことに，Hsp90依存性のグルココルチコイド受容体による転写活性およびCFTR（cystic fibrosis transmembrane conductance regulator）のフォールディングはThr36のリン酸化により促進されることがわかった．<br/><br/><h2>7．Thr36のリン酸化はAha1との相互作用を低下させる</h2><br/>　Hsp90の基質特異的な分子シャペロン活性はHsp90と相互作用するコシャペロンとよばれる一群のタンパク質により調節されている．コシャペロンであるAha1はHsp90のATP加水分解活性を増強し，Hsp90を基質とするキナーゼの活性化を促進することがわかっている．Thr36のリン酸化によるコシャペロンへの影響を調べた結果，Thr36のリン酸化によりHsp90とAha1との相互作用が劇的に低下することがわかった．Aha1を過剰発現させるとThr36のリン酸化によりひき起こされる基質タンパク質の活性変化がほぼ正常な状態にまで回復した．Aha1はHsp90のN末端領域および中間領域を橋渡しするように結合しHsp90の立体構造を活性型として安定化させる<a href="#R10"><sup>10)</sup></a>．Thr36はAha1の結合部位に近く，そのリン酸化による修飾はHsp90とAha1との結合を阻害するものと考えられた．Thr36のリン酸化はAha1によるHsp90の立体構造の安定化作用を低下させることで分子シャペロン活性を変化させているものと推察された（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　カゼインキナーゼ2によるリン酸化はHsp90の分子シャペロン活性を変化させる</strong><br/>カゼインキナーゼ2はHsp90のThr36をリン酸化する（P）．Thr36リン酸化によりHsp90とコシャペロンAha1との相互作用が阻害される．その結果，Hsp90を基質とするキナーゼの活性は低下する．一方，グルココルチコイド受容体による転写活性およびCFTRのフォールディングは促進される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsutsumi-Molecular-Cell-11.3.17-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　カゼインキナーゼ2によるリン酸化はHsp90の分子シャペロン活性を変化させる" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsutsumi-Molecular-Cell-11.3.17-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsutsumi-Molecular-Cell-11.3.17-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　Hsp90の分子シャペロン活性の制御機構の解明にはゲルダナマイシンなどHsp90阻害薬を用いたケミカルバイオロジーが大きく貢献してきた．これまでに積み上げられてきた研究結果は，Hsp90の分子シャペロン活性の制御にATPの結合およびATP加水分解活性が中心的な役割をはたしていることを示している．しかし，近年のクライオ電子顕微鏡による立体構造の解析，および，FRET（fluorescence resonance energy transfer，蛍光共鳴エネルギー移動）を用いた経時的な立体構造変化の解析の結果は，アデニンヌクレオチドのほかにもHsp90の活性制御に重要な因子の存在することを強く示唆している<a href="#R11"><sup>11,12)</sup></a>．筆者らの研究結果は，リン酸化による修飾がHsp90の立体構造の変化および基質特異的な分子シャペロン活性に重要な役割をはたしていることを明らかにした．今後，立体構造の変化と基質特異性との関連性についての解析が進めば，Hsp90の分子シャペロン活性を基質選択的に調節するような化合物の発見につながるかもしれない．<br/>　Hsp90のThr36リン酸化はHsp90とHsp90阻害薬との親和性を低下させることから，カゼインキナーゼ2の阻害薬はHsp90阻害薬の抗がん活性を増強する可能性がある．実際に，Wee1阻害薬によりTyr38のリン酸化を抑制するとHsp90阻害薬の抗がん活性は顕著に増強される．現在，筆者らは，Hsp90阻害薬とWee1阻害薬との併用療法の可能性について動物モデルを用いて検証している．これらのことから，Hsp90のリン酸化機構の解明がHsp90の活性制御機構の理解を助けるだけでなく，Hsp90を分子標的としたがん治療にも貢献するものと期待している．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Trepel, J., Mollapour, M., Giaccone, G. et al.</span>: <span class="ti">Targeting the dynamic HSP90 complex in cancer.</span> <span class='so'>Nat. Rev. Cancer, 10, 537-549 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20651736" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Pearl, L. H., Prodromou, C.</span>: <span class="ti">Structure and mechanism of the Hsp90 molecular chaperone machinery.</span> <span class='so'>Annu. Rev Biochem., 75, 271-294 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16756493" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Tsutsumi, S., Mollapour, M., Graf, C. et al.</span>: <span class="ti">Hsp90 charged-linker truncation reverses the functional consequences of weakened hydrophobic contacts in the N domain.</span> <span class='so'>Nat. Struct. Mol. Biol., 16, 1141-1147 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19838189" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Whitesell, L., Mimnaugh, E. G., De Costa, B. et al.</span>: <span class="ti">Inhibition of heat shock protein HSP90-pp60v-src heteroprotein complex formation by benzoquinone ansamycins: essential role for stress proteins in oncogenic transformation.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 91, 8324-8328 (1994)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8078881" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kim, Y. S., Alarcon, S. V., Lee, S. et al.</span>: <span class="ti">Update on Hsp90 inhibitors in clinical trial.</span> <span class='so'>Curr. Top. Med. Chem., 9, 1479-1492 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19860730" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Kamal, A., Thao, L., Sensintaffar, J. et al.</span>: <span class="ti">A high-affinity conformation of Hsp90 confers tumor selectivity on Hsp90 inhibitors.</span> <span class='so'>Nature, 425, 407-410 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14508491" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Scroggins, B. T. & Neckers, L.</span>: <span class="ti">Post-translational modification of heat-shock protein 90: impact on chaperone function.</span> <span class='so'>Expert Opin. Drug Discov., 2, 1403-1414 (2007)</span></li><br><li id="R8"><span class='au'>Mollapour, M., Tsutsumi, S., Donnelly, A. C. et al.</span>: <span class="ti">Swe1<sup>Wee1</sup>-dependent tyrosine phosphorylation of Hsp90 regulates distinct facets of chaperone function.</span> <span class='so'>Mol. Cell, 37, 333-343 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20159553" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Miyata, Y. & Yahara, I.</span>: <span class="ti">Interaction between casein kinase II and the 90-kDa stress protein, HSP90.</span> <span class='so'>Biochemistry, 34, 8123-8129 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7794926" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Retzlaff, M., Hagn, F., Mitschke, L. et al.</span>: <span class="ti">Asymmetric activation of the hsp90 dimer by its cochaperone aha1.</span> <span class='so'>Mol. Cell, 37, 344-354 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20159554" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Southworth, D. R. & Agard, D. A.</span>: <span class="ti">Species-dependent ensembles of conserved conformational states define the Hsp90 chaperone ATPase cycle.</span> <span class='so'>Mol. Cell, 32, 631-640 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19061638" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Mickler, M., Hessling, M., Ratzke, C. et al.</span>: <span class="ti">The large conformational changes of Hsp90 are only weakly coupled to ATP hydrolysis.</span> <span class='so'>Nat. Struct. Mol, Biol., 16, 281-286 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19234469" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">堤  信二（Shinji Tsutsumi）</span><br>略歴：2003年 岡山大学大学院自然科学研究科博士課程 修了（薬学博士），同年 岡山大学薬学部 博士研究員，2004年 熊本大学薬学部 博士研究員，2005年 米国NIH National Cancer Instituteポスドクを経て，2010年より同 研究員．<br>研究テーマ：Hsp90の活性調節機構の解明と，より効果的な阻害薬（方法）の発見．<br>抱負：がんにおける分子シャペロンの役割を明らかにし，がんの治療耐性の克服に貢献したい．<br><br><strong>Mehdi Mollapour</strong><br>米国NIH National Cancer Instituteポスドク．<br><br><strong>Len Neckers</strong><br>米国NIH National Cancer InstituteにてSenior Investigator．<br>研究室URL：<a href="http://ccr.cancer.gov/staff/staff.asp?profileid=5712" target="_blank">http://ccr.cancer.gov/staff/staff.asp?profileid=5712</a><br></div><br>© 2011 堤 信二・Mehdi Mollapour・Len Neckers Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

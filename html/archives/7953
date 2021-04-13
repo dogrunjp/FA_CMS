@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 原形質流動は植物の大きさの決定因子である : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>原形質流動は植物の大きさの決定因子である</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>富永基樹<sup>1</sup>・伊藤光二<sup>2</sup></strong><br>（<sup>1</sup>理化学研究所光量子工学研究領域 ライブセル分子イメージング研究チーム，<sup>2</sup>千葉大学大学院理学研究科 生物学コース）<br>email：<a href="mailto:tominaga@riken.jp">富永基樹</a>，<a href="mailto:k-ito@faculty.chiba-u.jp">伊藤光二</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.150">10.7875/first.author.2013.150</a><br><div class="reference"><br><span class="ti">Cytoplasmic streaming velocity as a plant size determinant.</span><br><span class="au">Motoki Tominaga, Atsushi Kimura, Etsuo Yokota, Takeshi Haraguchi, Teruo Shimmen, Keiichi Yamamoto, Akihiko Nakano, Kohji Ito</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24229646" target="_blank"><em>Developmental Cell</em>, <strong>27</strong>, 345-352 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　原形質流動は藻類から高等植物にまでみられる活発な細胞内物質輸送である．原形質流動はオルガネラに結合した<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>が<a href="#" class="anno" data-query="actin" data-uniprot="">アクチン</a>細胞骨格のうえを運動することにより発生する．しかしながら，植物における原形質流動の本質的な役割に関しては明らかになっていない．今回，筆者らは，シロイヌナズナにおいて原形質流動の主たる駆動力として知られる<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2のモータードメインを，生物界で最速のシャジクモの<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>あるいは低速のヒトの<a href="#" class="anno" data-query="myosin Vb" data-uniprot="Q9ULV0">ミオシンV</a>と分子生物学的に置換することにより，高速型あるいは低速型のキメラ<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2を作製した．驚くべきことに，高速型あるいは低速型の<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2を発現させたシロイヌナズナでは，それぞれ，原形質流動の高速化あるいは低速化にともない，植物は大型化あるいは小型化することが明らかになった．この研究の結果から，原形質流動が植物の大きさの決定因子のひとつであることが示された．さらに，原形質流動は植物における普遍的な細胞内物質輸送の機構であることから，あらゆる植物の大きさを人工的に制御するシステムとしての応用が期待できる．<br/><br/><h2>はじめに</h2><br/>　原形質流動はあらゆる植物で普遍的に発生している現象であり，その速度は1μm/secから70μm/secと種や細胞によりさまざまである．原形質流動はオルガネラに結合した<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>が<a href="#" class="anno" data-query="actin" data-uniprot="">アクチン</a>細胞骨格のうえを運動することにより発生することから（<a href="#F1">図1a</a>），その速度は<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>の運動速度に依存する<a href="#R1"><sup>1,2)</sup></a>．近年，タバコ培養細胞であるBY-2細胞から精製した175 kDaミオシンXIの研究により，その分子レベルでの特性が明らかになった<a href="#R3"><sup>3,4)</sup></a>．電子顕微鏡による観察から，タバコの175 kDaミオシンXIは動物において膜輸送を担う<a href="#" class="anno" data-query="myosin Vb" data-uniprot="Q9ULV0">ミオシンV</a>aとよく似た形態をもつことが示された．また，<em>in vitro</em>における運動速度の測定から，タバコの175 kDaミオシンXIの運動速度は5μm/secと示され，これは高等植物において一般的に生じている原形質流動の速度と一致した．この速度は動物の<a href="#" class="anno" data-query="myosin Vb" data-uniprot="Q9ULV0">ミオシンV</a>aの運動速度より10倍も速い<a href="#R5"><sup>5)</sup></a>．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　植物の細胞における原形質流動</strong><br/>（a）原形質流動は，細胞にはりめぐらされたアクチン細胞骨格のうえをオルガネラに結合したモータータンパク質であるミオシンXIが運動することにより発生する．<br/>（b）ミオシンXIはN末端側から，モータードメイン，ネックドメイン，テイルドメインより構成される．テイルドメインはコイルドコイルを介しミオシンXIを二量体化するとともに，特異的なオルガネラとの結合を介在する．ネックドメインにはカルモジュリンを主体とする6個の軽鎖が結合している．モータードメインはアクチンフィラメントと結合し，ATPの加水分解エネルギーを運動エネルギーへと変換している．したがって，ミオシンの運動速度はおもにモータードメインのATP分解活性により規定されている．ミオシンXIは2つのモータードメインを交互に結合・解離させることにより，あたかも人間が歩くようにアクチンフィラメントのうえを運動する．このとき，同じタイプである動物のミオシンVの約10倍もの運動速度を発生する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ito-Developmental-Cell-13.11.11-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　植物の細胞における原形質流動" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ito-Developmental-Cell-13.11.11-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ito-Developmental-Cell-13.11.11-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　シロイヌナズナにはクラスXIに属する13種類の<a href="#" class="anno" data-query="myosin" data-uniprot="">ミオシン</a>が存在する<a href="#R6"><sup>6)</sup></a>．遺伝子ノックアウト法による解析により，このうち<a href="#" class="anno" data-query="myosin-5" data-uniprot="Q39160">XI-1</a>，<a href="#" class="anno" data-query="myosin-6" data-uniprot="Q9LKB9">XI-2</a>，<a href="#" class="anno" data-query="myosin-8" data-uniprot="F4I460">XI-B</a>，<a href="#" class="anno" data-query="myosin-15" data-uniprot="Q0WPU1">XI-I</a>，<a href="#" class="anno" data-query="myosin-17" data-uniprot="F4K5J1">XI-K</a>が小胞体，ゴルジ体，ペルオキシソーム，ミトコンドリアなどの運動に関与していることが示されている．これらの<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>のメンバーの多重ノックアウトは細胞の大きさの縮小や開花時期の遅延にともない成長の阻害をひき起こすことから，原形質流動が植物の成長にとり重要な機構のひとつであることが示唆された．とくに，<a href="#" class="anno" data-query="myosin-6" data-uniprot="Q9LKB9">XI-2</a>および<a href="#" class="anno" data-query="myosin-17" data-uniprot="F4K5J1">XI-K</a>は原形質流動の主たる駆動力と考えられている<a href="#R5"><sup>5)</sup></a>．<br/>　淡水産藻類の一種であるシャジクモの原形質流動は高等植物より1桁も速い．<em>in vitro</em>における運動速度の測定により，シャジクモの<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>の運動速度は50μm/secにも達することが示され，生物界において最速のモータータンパク質として知られている<a href="#R7"><sup>7)</sup></a>．この高速の運動は，モータードメインにおける高いATPase活性と，<a href="#" class="anno" data-query="actin" data-uniprot="">アクチン</a><a href="#" class="anno" data-query="myosin" data-uniprot="">ミオシン</a>複合体からのADPの速い解離に依存していることが明らかになった<a href="#R8"><sup>8-10)</sup></a>．シャジクモの節間細胞は非常に大きく成長し10 cm以上にも達することから，細胞における栄養，代謝産物，細胞壁前駆体，植物ホルモンなどの拡散にこの速い原形質流動が不可欠であると推測されている<a href="#R11"><sup>11)</sup></a>．以上のことから，原形質流動が植物の成長に関与することは示唆されていたが，既存の遺伝子ノックアウト法やRNAi法といった細胞生物学的な方法論のみでは直接的な相関を証明することはできなかった．<br/><br/><h2>1．速度改変型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の作製</h2><br/>　原形質流動が植物の成長におよぼす影響を明らかにするため，高速型および低速型の<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2を作製した．<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>はモータードメイン，ネックドメイン，テイルドメインから構成されているが（<a href="#F1">図1b</a>），運動速度を決定するのはおもにモータードメインである．そこで，原形質流動の主たる駆動力として機能するシロイヌナズナの<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2のモータードメインを，高速型であるシャジクモの<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>，あるいは低速型であるヒトの<a href="#" class="anno" data-query="myosin Vb" data-uniprot="Q9ULV0">ミオシンV</a>bのモータードメインと分子生物学的な手法により置換し，高速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2あるいは低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2を作製した（<a href="#F2">図2a</a>）．<em>in vitro</em>においてこれら速度改変型<a href="#" class="anno" data-query="myosin" data-uniprot="">ミオシン</a>の運動速度を測定したところ，野生型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2（シロイヌナズナ<a href="#" class="anno" data-query="myosin-6" data-uniprot="Q9LKB9">XI-2</a>），高速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2（シャジクモ-シロイヌナズナ<a href="#" class="anno" data-query="myosin-6" data-uniprot="Q9LKB9">XI-2</a>），低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2（ヒト-シロイヌナズナ<a href="#" class="anno" data-query="myosin-6" data-uniprot="Q9LKB9">XI-2</a>）の運動速度は，それぞれ，7.2 ± 0.5μm/sec，16.0 ± 0.9μm/sec，0.19 ± 0.02μm/secであった．さらに，野生型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2，高速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2，低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2をそれぞれ蛍光タンパク質GFPとの融合タンパク質とし，シロイヌナズナ培養細胞において一過的に発現させることにより細胞内物質輸送への影響について検証した．その結果，高速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2および低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2はともに，野生型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2と同様の膜状のオルガネラに局在していたが，その運動速度はそれぞれ高速化および低速化していることが明らかになった．高速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2および低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2のネックドメインおよびテイルドメインはシロイヌナズナの野生型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2に由来するので，これら速度改変型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2はシロイヌナズナにおいて野生型の<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2と同じ軽鎖およびオルガネラと結合しながら，高速および低速で運動すると考えられた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　速度改変型ミオシンXI-2の作製と植物への影響</strong><br/>（a）高速型ミオシンXI-2および低速型ミオシンXI-2の模式図．高速型ミオシンXI-2および低速型ミオシンXI-2は，シロイヌナズナのミオシンXI-2のモータードメインをシャジクモのミオシンXIあるいはヒトのミオシンVbのモータードメインと置換することにより作製した．ネックドメインおよびテイルドメインはシロイヌナズナのミオシンXI-2に由来するため，シロイヌナズナにおける軽鎖およびオルガネラとの結合能を保持したまま，運動速度のみを変化させることができる．<br/>（b）シロイヌナズナにおける発現．野生株に対し，高速型ミオシンXI-2の発現株では植物が大型化，低速型ミオシンXI-2発現株では植物が小型化している．<br/>（c）細胞の大きさと原形質流動への影響．野生株に対し，高速型ミオシンXI-2の発現株では原形質流動の高速化にともない細胞が大型化，低速型ミオシンXI-2の発現株では原形質流動の低速化にともない細胞が小型化している．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ito-Developmental-Cell-13.11.11-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　速度改変型ミオシンXI-2の作製と植物への影響" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ito-Developmental-Cell-13.11.11-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ito-Developmental-Cell-13.11.11-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．植物への影響</h2><br/>　速度改変型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の植物への影響をみるため，野生型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2，高速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2，低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2をそれぞれ蛍光タンパク質GFPとの融合タンパク質とし，独自の遺伝子プロモーターの制御のもと，<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の遺伝子ノックアウト変異株に形質転換した．その結果，高速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2を発現させた株では植物が大型化，また，低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2を発現させた株では植物が小型化することが明らかになった（<a href="#F2">図2b</a>）．30日目の第1本葉を葉の大きさの指標として解析した結果，野生株に対し，高速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2発現株の葉面積は約40％増加，葉柄の長さは約20％増加していた．一方，低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2発現株の葉面積は約30％減少，葉柄の長さは約60％減少していることが明らかになった．また，35日目の地上部における乾燥重量は，高速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2発現株では44％増加，低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2発現株では22％減少していることがわかった．<br/><br/><h2>3．原形質流動への影響</h2><br/>　速度改変型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の原形質流動の速度への影響をみるため，第1本葉の葉柄表皮細胞を観察した．野生株では一般的な高等植物の原形質流動の速度と一致する速度の原形質流動が観察された．一方，<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の遺伝子ノックアウト変異株では原形質流動の速度は野生株の25％まで低下していた（<a href="#F2">図2c</a>）．このことから，葉柄表皮細胞においては，ほかの<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>のメンバーも原形質流動の発生に関与しているが，駆動力として<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の寄与の大きいことが示唆された．<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の遺伝子ノックアウト変異株に野生型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2を発現させた植物体では，原形質流動の速度は野生株と同じレベルにまで回復した．さらに，高速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の発現株では原形質流動の速度は野生株の約1.7倍に上昇していた．それに対し，低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の発現株では方向性をもった原形質流動はみられなかった．これは，低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の遅い運動が負荷となり，ほかの内在性の<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>のメンバーの運動も阻害し，原形質流動の発生がさまたげられたものと考えられた．また，<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の遺伝子ノックアウト変異株では植物の大きさは野生株と変わらなかったのに対し，低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の発現株では植物が小型化していたことから，原形質流動の速度と植物の大きさとのあいだに閾値効果の存在が示唆された．<br/><br/><h2>4．植物の成長への影響</h2><br/>　35日目における植物の背丈は，高速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の発現株で高く，低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の発現株では低くなっていた．また，花茎がたつ抽苔の時期も，それぞれ，2～3日早まるあるいは遅れることが明らかになった．抽苔の直後の本葉の数を数えたところ，高速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の発現株および低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の発現株ともに野生株と変わらなかったことから，開花時間の促進あるいは遅延が生じているのではなく，成長の促進あるいは遅延が生じていることが明らかになった．一方，7日目の根の長さは，野生株，高速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の発現株，低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の発現株のあいだでほとんど差がなかった．このことから，根における原形質流動においてはほかの<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>のメンバーの寄与が大きい，あるいは，地下部における原形質流動と植物の大きさとの相関の機構は地上部とは異なることが示唆された．<br/><br/><h2>5．細胞の大きさへの影響</h2><br/>　植物の大きさの違いが，細胞の数によるものなのか，あるいは，細胞の大きさの違いによるものなのかを明らかにするため，第1本葉の葉肉細胞および葉柄表皮細胞を測定した．高速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の発現株の細胞面積は47％大きく，低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の発現株の細胞面積は20％小さくなっており，葉あたりの細胞の数はほとんど変わらなかった．また，葉柄表皮細胞の長さは高速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の発現株で24％長く，低速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の発現株で36％短くなっており，その比率は葉柄の長さと一致した．これらの結果より，植物の大きさの変化は，細胞の数ではなく細胞の大きさの変化であることが明らかになった．<br/><br/><h2>おわりに</h2><br/>　分子系統学的な解析からシャジクモ類は陸上植物の祖先であることが示唆されている．シャジクモは重力の影響の少ない水中で高く成長するために，細胞を大きくしたと考えられる．そして，大きく成長した細胞において十分な物質輸送を確保するため，シャジクモの<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>のような運動速度の非常に速い<a href="#" class="anno" data-query="myosin" data-uniprot="">ミオシン</a>を進化させる必要があったと予想される．一方，陸上に進出した植物は小さい細胞を層状に積み重ねることにより高さを確保した．そうすることにより，重力のみならず風や雨など水中にはない物理的な外力にまけない剛性を獲得したのではないかと考えられる．この過程において，<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>の運動速度は小さい細胞にあわせ遅くなったと考えられる．この研究において人為的に実現した高速型<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>-2の発現は，いわば，進化の逆もどりであり，それにより植物は陸上でも大型化することが明らかになった．この大型化は雨や風など物理的な外力の少ない実験室では有利かもしれないが，野生の環境においては必ずしも有利にはたらくとはかぎらない．したがって，別の解釈も可能である．すなわち，陸上植物は本来の大きさよりも大きく成長するポテンシャルはあるが，原形質流動の速度により，それぞれの生育環境に適した大きさに規定されているとも考えられる．<br/>　また，原形質流動は細胞内物質輸送のため藻類から高等植物までさまざまな植物において発生する基本的な機構である．さらに，<a href="#" class="anno" data-query="myosin" data-uniprot="">ミオシン</a>のモーター領域の付近の構造は高度に保存されているため，あらゆる植物に由来する<a href="#" class="anno" data-query="Myosin XI" data-uniprot="">ミオシンXI</a>において人為的な運動速度の改変が可能である．したがって，作物やバイオマスエネルギーに関連したさまざまな有用植物の増産や人工的な成長の制御などが可能であろう．速度改変型の<a href="#" class="anno" data-query="myosin" data-uniprot="">ミオシン</a>を用いて原形質流動の速度を改変するシステムは汎用性の高い新しい手法として応用への展開が期待できる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Shimmen, T. & Yokota, E.</span>: <span class="ti">Cytoplasmic streaming in plants.</span> <span class='so'>Curr. Opin. Cell Biol., 16, 68-72 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15037307" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Yamamoto, K., Shimada, K., Ito, K. et al.</span>: <span class="ti"><em>Chara</em> myosin and the energy of cytoplasmic streaming.</span> <span class='so'>Plant Cell Physiol., 47, 1427-1431 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16963465" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Tominaga, M, Kojima, H, Yokota, E. et al.</span>: <span class="ti">Higher plant myosin XI moves processively on actin with 35 nm steps at high velocity.</span> <span class='so'>EMBO J., 22, 1263-1272 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12628919" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Yokota, E., Yukawa, C., Muto, S, et al.</span>: <span class="ti">Biochemical and immunocytochemical characterization of two types of myosins in cultured tobacco bright yellow-2 cells.</span> <span class='so'>Plant Physiol., 121, 525-534 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10517844" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Tominaga, M. & Nakano, A.</span>: <span class="ti">Plant-specific myosin XI, a molecular perspective.</span> <span class='so'>Front. Plant Sci., 3, 211 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22973289" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Reddy, A. S. & Day, I. S.</span>: <span class="ti">Analysis of the myosins encoded in the recently completed <em>Arabidopsis thaliana</em> genome sequence.</span> <span class='so'>Genome Biol., 2, RESEARCH0024 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11516337" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Yamamoto, K., Kikuyama, M., Sutoh-Yamamoto, N. et al.</span>: <span class="ti">Myosin from alga <em>Chara</em>: unique structure revealed by electron microscopy.</span> <span class='so'>J. Mol. Biol., 254, 109-112 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7490735" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Ito, K., Kashiyama, T., Shimada, K. et al.</span>: <span class="ti">Recombinant motor domain constructs of <em>Chara corallina</em> myosin display fast motility and high ATPase activity.</span> <span class='so'>Biochem. Biophys. Res. Commun., 312, 958-964 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14651964" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Ito, K., Ikebe, M., Kashiyama, T. et al.</span>: <span class="ti">Kinetic mechanism of the fastest motor protein, <em>Chara</em> myosin.</span> <span class='so'>J. Bio.l Chem., 282, 19534-19545 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17488711" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Ito, K., Yamaguchi, Y., Yanase, K. et al.</span>: <span class="ti">Unique charge distribution in surface loops confers high velocity on the fast motor protein <em>Chara</em> myosin.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 106, 21585-21590 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19955408" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Verchot-Lubicz, J. & Goldstein, R. E.</span>: <span class="ti">Cytoplasmic streaming enables the distribution of molecules and vesicles in large plant cells.</span> <span class='so'>Protoplasma, 240, 99-107 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19937356" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">富永 基樹（Motoki Tominaga）</span><br>略歴：2000年 姫路工業大学大学院理学研究科 修了，同年 通信総合研究所 専攻研究員，2006年 東京大学医科学研究所 特任助教，2007年 理化学研究所 研究員を経て，2011年より同 専任研究員．2011年より科学技術振興機構 さきがけ研究者 兼任．<br>研究テーマ：植物の細胞内物質輸送．<br><br><strong>伊藤 光二（Kohji Ito）</strong><br>千葉大学大学院理学研究科 准教授．<br></div><br>© 2013 富永基樹・伊藤光二 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

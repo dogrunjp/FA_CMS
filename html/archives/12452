@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 補体C1q様タンパク質はシナプスをこえてカイニン酸型グルタミン酸受容体の機能を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>補体C1q様タンパク質はシナプスをこえてカイニン酸型グルタミン酸受容体の機能を制御する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>松田恵子・柚崎通介</strong><br>（慶應義塾大学医学部 生理学教室）<br>email：<a href="mailto:kmatsuda@z7.keio.jp">松田恵子</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.044">10.7875/first.author.2016.044</a><br><div class="reference"><br><span class="ti">Transsynaptic modulation of kainate receptor functions by C1q-like proteins.</span><br><span class="au">Keiko Matsuda, Timotheus Budisantoso, Nikolaos Mitakidis, Yuki Sugaya, Eriko Miura, Wataru Kakegawa, Miwako Yamasaki, Kohtarou Konno, Motokazu Uchigashima, Manabu Abe, Izumi Watanabe, Masanobu Kano, Masahiko Watanabe, Kenji Sakimura, A. Radu Aricescu, Michisuke Yuzaki</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27133466" target="_blank"><em>Neuron</em>, <strong>90</strong>, 752-767 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　中枢神経におけるニューロンのあいだの速いシグナル伝達はAMPA型グルタミン酸受容体が担う．一方，カイニン酸型グルタミン酸受容体はチャネルの閉口の過程が遅いため，神経ネットワークの活動を時間的あるいは空間的に統合する機能をもつと考えられている．記憶および学習に重要な部位である海馬において，カイニン酸型グルタミン酸受容体は歯状回顆粒細胞の軸索である苔状線維とCA3錐体細胞とのあいだのシナプス後部にとりわけ多くかつ選択的に局在する．しかし，カイニン酸型グルタミン酸受容体が特定のシナプス後部に局在する機構は不明であった．筆者らは，シナプス前部の苔状線維から放出される分泌性タンパク質C1ql2およびC1ql3が，シナプスをこえてカイニン酸型グルタミン酸受容体のシナプス後部への局在を決定することを発見した．C1ql2およびC1ql3はカイニン酸型グルタミン酸受容体のサブユニットであるGluK2およびGluK4の細胞外領域と直接に結合し，C1ql2とC1ql3のダブルノックアウトマウスの苔状線維とCA3錐体細胞とのあいだシナプス後部においてはカイニン酸型グルタミン酸受容体が消失した．また，側頭葉てんかんにおいては，異常に分枝した苔状線維が顆粒細胞とシナプスを形成し，このシナプスにカイニン酸型グルタミン酸受容体が集積することによりてんかんが発症しやすくなると考えられている．C1ql2 C1ql3ダブルノックアウトマウスにてんかんを誘発する刺激をあたえると，苔状線維に異常な分枝は形成されたものの，そのシナプス後部にはカイニン酸型グルタミン酸受容体は集積しなかった．C1ql2およびC1ql3は脳のさまざまな部位に存在し，それぞれの神経回路のシナプス後部へのカイニン酸型グルタミン酸受容体の組込みおよび機能を制御することにより適切な神経ネットワークの活動をつくりあげていると考えられた．C1ql2およびC1ql3によるシナプスの形成および分化にかかわる分子基盤の解明が，てんかんや精神疾患の原因の解明および治療法の開発に役立つことが期待される．<br/><br/><h2>はじめに</h2><br/>　脳においては無数のニューロンがシナプスを介し互いに結合し神経ネットワークを形成する．興奮性シナプスのシナプス前部からはグルタミン酸が放出され，つぎのニューロンのもつさまざまなグルタミン酸受容体と結合することにより興奮が伝達される．この速いシグナル伝達はグルタミン酸受容体のうちおもにAMPA型グルタミン酸受容体により担われ，また，NMDA型グルタミン酸受容体はシナプス後部のニューロンの生存やシナプスの可塑性に寄与する<a href="#R1"><sup>1)</sup></a>．デルタ型グルタミン酸受容体は小脳においてシナプスの形成および可塑性の成立に重要である<a href="#R2"><sup>2)</sup></a>．一方，カイニン酸型グルタミン酸受容体はシナプス前部においては神経伝達物質の放出を制御し，シナプス後部においてはゆっくりとしたチャネルの閉口の過程によりシグナルを統合する．カイニン酸型グルタミン酸受容体は海馬の歯状回顆粒細胞の軸索である苔状線維とCA3錐体細胞とのあいだのシナプス後部にとりわけ多くかつ選択的に局在する<a href="#R3"><sup>3)</sup></a>．しかし，カイニン酸型グルタミン酸受容体がどのように特定のシナプス後部に選択的に局在化するのかは不明であった．<br/>　これまで，筆者らは，小脳顆粒細胞の軸索である平行線維から放出された分泌タンパク質Cbln1が，平行線維に存在する受容体NRXと結合することにより平行線維におけるシナプス前部の形態を成熟させ，同時に，シナプス後部にあたるプルキンエ細胞の樹状突起においてデルタ型グルタミン酸受容体のサブユニットであるGluD2と結合することによりGluD2を集積させることを見い出していた<a href="#R4"><sup>4,5)</sup></a>．一方，下オリーブ核の軸索である登上線維からはC1ql1が分泌され，登上線維のシナプスの成熟および選択的な強化にかかわることを報告した<a href="#R6"><sup>6)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/9798" target="_blank">新着論文レビュー</a> でも掲載）．Cbln1やC1ql1は補体C1qの機能ドメインである球状C1qドメインをもつC1qファミリーに属する<a href="#R7"><sup>7)</sup></a>．同じくC1qファミリーに属するC1ql2およびC1ql3は海馬においては歯状回顆粒細胞に限局して発現する<a href="#R8"><sup>8)</sup></a>．これらのことから，顆粒細胞において産生されたC1ql2およびC1ql3が苔状線維から分泌されることにより，苔状線維とCA3錐体細胞とのあいだのシナプスの形成および分化に重要な機能をはたすのではないかと考えた．<br/><br/><h2>1．C1ql2およびC1ql3はカイニン酸型グルタミン酸受容体の局在および機能を制御する</h2><br/>　特異的な抗体を用いた超解像顕微鏡法および免疫電子顕微鏡法によりC1ql2およびC1ql3の局在を観察したところ，C1ql2およびC1ql3は苔状線維とCA3錐体細胞とのあいだのシナプスにおいて苔状線維の終末部およびシナプスの間隙にみられた．この結果から，歯状回顆粒細胞において産生されたC1ql2およびC1ql3は苔状線維から放出され，苔状線維とCA3錐体細胞とのあいだのシナプスの間隙において機能することが示唆された．そこで，C1ql2とC1ql3とのあいだの機能の代償の可能性を排除するため，C1ql2とC1ql3のダブルノックアウトマウスを作製したところ，海馬におおまかな形態の異常は認められず，また，苔状線維とCA3錐体細胞とのあいだのシナプスにおいて，シナプス後部のマーカーであるPSD95，および，シナプス前部のマーカーであるVGluT1に変化はなかった．すなわち，Cbln1 <a href="#R4"><sup>4)</sup></a> やC1ql1 <a href="#R6"><sup>6)</sup></a> とは異なり，C1ql2およびC1ql3は苔状線維とCA3錐体細胞とのあいだのシナプスの形成の過程そのものには関与していなかった．ではいったい，C1ql2およびC1ql3はこのシナプスにおいて何をするのだろうか？<br/>　そこで，C1ql2およびC1ql3の局在のパターンはカイニン酸型グルタミン酸受容体のサブユニットであるGluK2の局在と非常に類似していたことに着目した．C1ql2 C1ql3ダブルノックアウトマウスにおいては，苔状線維とCA3錐体細胞とのあいだのシナプスそのものは正常に形成されたが，このシナプスに多量に存在するはずのGluK2がほぼ消失していた．C1ql2ノックアウトマウスあるいはC1ql3ノックアウトマウスにおいては苔状線維とCA3錐体細胞とのあいだのシナプスにおけるGluK2の局在は正常であったことから，C1ql2およびC1ql3が共局在する苔状線維とCA3錐体細胞とのあいだにおいて，互いの機能に相補性のあることが示唆された．カイニン酸型グルタミン酸受容体はGluK1～GluK5の5つのサブユニットからなり，脳においてはさまざまな組合せで存在する．GluK4およびGluK5の細胞の表面への輸送はGluK1～GluK3に依存することがわかっている．一方，カイニン酸型グルタミン酸受容体の機能はその副サブユニットであるNeto1により大幅に制御される．C1ql2 C1ql3ダブルノックアウトマウスにおいては，GluK2だけでなく，GluK4，GluK5，Neto1のシナプス後部への局在が激減していた．さらに，電気生理学的な手法を用いて，苔状線維とCA3錐体細胞とのあいだのシナプスの応答のうちカイニン酸型グルタミン酸受容体により担われる遅い成分を測定したところ，C1ql2 C1ql3ダブルノックアウトマウスにおいては，GluK2ノックアウトマウスと同じく，カイニン酸型グルタミン酸受容体により担われる成分がほぼ消失していた．このように，C1ql2 C1ql3ダブルノックアウトマウスにおいては，シナプス後部におけるカイニン酸型グルタミン酸受容体の局在および機能が障害されていた．<br/>　これまで，カイニン酸型グルタミン酸受容体はシナプス後部のニューロンにおいて足場となるタンパク質と結合することによりシナプスに局在すると考えられてきた．しかし，今回の発見により，シナプス前部のニューロンから放出されるC1ql2およびC1ql3がシナプス後部のニューロンに存在するカイニン酸型グルタミン酸受容体と結合することにより，“シナプスをこえて”制御する新しい機構がはじめて明らかにされた．<br/><br/><h2>2．C1ql2およびC1ql3はカイニン酸型グルタミン酸受容体と直接に結合する</h2><br/>　では，C1ql2およびC1ql3はどのようにしてシナプス後部におけるカイニン酸型グルタミン酸受容体の局在を制御するのであろうか？　組換えタンパク質とHEK細胞を用いた実験系において，C1ql2およびC1ql3はGluK2の細胞外領域と特異的に結合し，GluK2と相同性が高いGluK1やGluK3とは結合しなった．一方，高親和型のカイニン酸型グルタミン酸受容体のうちGluK4とも非常に強く結合したが，GluK5とは結合しなかった．実際に，GluK2ノックアウトマウスの苔状線維とCA3錐体細胞とのあいだのシナプスにおいては，内在性のC1ql2およびC1ql3のシナプスへの局在が激減していた．同様に，GluK4ノックアウトマウスの苔状線維とCA3錐体細胞とのあいだのシナプスにおいても，内因性のC1ql2およびC1ql3のシナプスへの局在は減少していた．これらの結果から，<em>in vivo</em>においても，GluK2およびGluK4はC1ql2およびC1ql3の受容体として機能することが示唆された．<br/>　C1ql2およびC1ql3はAMPA型グルタミン酸受容体のサブユニットであるGluA1とも特異的に結合した．しかしながら，GluA1ノックアウトマウスの苔状線維とCA3錐体細胞とのあいだのシナプスにおいて内在性C1ql2の局在は野生型のマウスと変わりなかったことから，GluK2やGluK4とは異なり，GluA1は少なくとも<em>in vivo</em>の海馬においてはC1ql2およびC1ql3をシナプスにつなぎとめる受容体としては機能していないと考えられた．<br/>　GluK2は苔状線維とCA3錐体細胞とのあいだのシナプスのシナプス前部である海馬の歯状回顆粒細胞においても発現し，苔状線維の終末部にも局在する．では，シナプス前部とシナプス後部のどちらのGluK2がC1ql2およびC1ql3のシナプスへの局在を決定しているのだろうか？　CA3錐体細胞に特異的なGluK2ノックアウトマウスにおいてC1ql2の局在を調べたところ，苔状線維とCA3錐体細胞とのあいだのシナプスにおいてC1ql2が激減していた．すなわち，苔状線維から分泌されたC1ql2およびC1ql3は苔状線維とCA3錐体細胞とのあいだのシナプスの間隙に放出され，シナプスをこえてCA3錐体細胞のGluK2およびGluK4と結合することにより，カイニン酸型グルタミン酸受容体の局在を制御すると考えられた．<br/><br/><h2>3．C1ql2およびC1ql3とシナプス前部に存在する受容体NRXとの結合</h2><br/>　C1ql3を結合させた微小ビーズを海馬の培養ニューロンに添加して培養すると，ビーズのまわりに内在性のGluK2が集積してくるようすが観察され，このことから，C1ql3がGluK2の細胞外領域と直接に結合してその集積をひき起こすことが示唆された．では，実際のシナプスにおいて，放出されたばかりのC1ql2およびC1ql3をシナプスにおいて安定化させシナプス後部に対し呈示する“微小ビーズ”に相当する機構はあるのだろうか？<br/>　筆者らは，C1ql2およびC1ql3と同じC1qファミリーに属するCbln1が，シナプス前部に存在する受容体であるNRXと結合することによりシナプス後部に対し呈示されることを報告した<a href="#R5"><sup>5)</sup></a>．そこで，C1ql2およびC1ql3にもNRXとの結合能があるかどうかを組換え体を用いて検討したところ，C1ql2およびC1ql3はNRX3と結合した．Cbln1とNRX1，NRX2，NRX3との結合はNRXのスプライス部位4領域に依存するが，C1ql2あるいはC1ql3とNRX3との結合は，NRX3のスプライス部位5領域に存在しエキソン25bにコードされる17アミノ酸の領域に依存していた．シナプス前部に存在するNRXをHEK細胞に発現させ海馬の培養ニューロンと共培養すると，シナプス後部に存在するNeuroliginとNRXとが結合することにより，PSD95の集積などシナプス後部の分化がひき起こされる．このとき，スプライス部位5領域をもつNRX3とC1ql2あるいはC1ql3とを共発現させると，PSD95の集積にくわえ，カイニン酸型グルタミン酸受容体のサブユニットであるGluK2が集積した．すなわち，C1ql2およびC1ql3はシナプス前部に存在する受容体NRX3によりシナプスにとどめられ，シナプス後部におけるカイニン酸型グルタミン酸受容体の集積をひき起こすという，NRX3，C1ql2およびC1ql3，カイニン酸型グルタミン酸受容体からなる複合体の形成というモデルの提唱にいたった（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　C1ql2およびC1ql3による神経ネットワークの活動の統合のモデル</strong><br/>シナプス前部から分泌されたC1ql2およびC1ql3は，NRX3，C1ql2およびC1ql3，カイニン酸型グルタミン酸受容体からなる複合体を形成し，神経ネットワークの活動の統合を制御する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yuzaki-Neuron-16.5.18-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　C1ql2およびC1ql3による神経ネットワークの活動の統合のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yuzaki-Neuron-16.5.18-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yuzaki-Neuron-16.5.18-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>4．てんかんの際に形成される異常なシナプスへのC1ql2およびC1ql3によるカイニン酸型グルタミン酸受容体の集積</h2><br/>　側頭葉てんかんの患者やそのモデル動物においては，海馬の歯状回顆粒細胞の軸索である苔状線維が分枝し樹状突起の近位部に異常なシナプスが形成される．このシナプス後部にカイニン酸型グルタミン酸受容体が動員されることにより神経ネットワークの活動の異常がひき起こされ，てんかんが発症しやすくなると考えられている．C1ql2 C1ql3ダブルノックアウトマウスにおいて側頭葉てんかんをひき起こすピロカルピンを処理したところ，苔状線維に異常なシナプスが形成されたものの，シナプス後部にはカイニン酸型グルタミン酸受容体は動員されなかった．その結果，海馬における異常な発火が抑えられたため，C1ql2 C1ql3ダブルノックアウトマウスにおいてはGluK2ノックアウトマウスと同様に<a href="#R9"><sup>9)</sup></a>，てんかんの発症の起こりやすさが軽減された（<a href="#F1">図1</a>）．<br/><br/><h2>おわりに</h2><br/>　カイニン酸型グルタミン酸受容体は神経ネットワークの活動を統合することにより脳のさまざまな機能を制御すると考えられる．また，近年，一部の自閉症や知的障害の患者においてカイニン酸型グルタミン酸受容体やNRX3における遺伝子変異が報告されていることから，C1ql2およびC1ql3によるシナプス後部へのカイニン酸型グルタミン酸受容体の動員および機能の制御機構の解明は，これらの病態の解明にもつながる可能性がある．C1ql2およびC1ql3は脳のさまざまな部位に存在し，それぞれの神経回路のシナプス後部へのカイニン酸型グルタミン酸受容体の組込みおよび機能を制御することにより適切な神経ネットワークの活動をつくりあげていることが予想される．実際に，C1ql3は海馬の苔状線維とCA3錐体細胞とのあいだのシナプスのみならず，線条体のカイニン酸型グルタミン酸受容体の局在をも制御することが明らかにされている．C1ql2およびC1ql3は分泌型タンパク質であることから，細胞外への薬剤の投与によりC1ql2あるいはC1ql3とカイニン酸型グルタミン酸受容体との結合を直接かつ急速に制御することが可能であり，新しい治療法の開発につながることが期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hardingham, G. E. & Bading, H.</span>: <span class="ti">Synaptic versus extrasynaptic NMDA receptor signalling: implications for neurodegenerative disorders.</span> <span class='so'>Nat. Rev. Neurosci., 11, 682-696 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20842175" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Kohda, K., Kakegawa, W., Matsuda, S. et al.</span>: <span class="ti">The δ2 glutamate receptor gates long-term depression by coordinating interactions between two AMPA receptor phosphorylation sites.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 110, E948-E957 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23431139" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Lerma, J. & Marques, J. M.</span>: <span class="ti">Kainate receptors in health and disease.</span> <span class='so'>Neuron, 80, 292-311 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24139035" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Matsuda, K., Miura, E., Miyazaki, T. et al.</span>: <span class="ti">Cbln1 is a ligand for an orphan glutamate receptor δ2, a bidirectional synapse organizer.</span> <span class='so'>Science, 328, 363-368 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20395510" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Matsuda, K. & Yuzaki, M.</span>: <span class="ti">Cbln family proteins promote synapse formation by regulating distinct neurexin signaling pathways in various brain regions.</span> <span class='so'>Eur. J. Neurosci., 33, 1447-1461 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21410790" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Kakegawa, W., Mitakidis, N., Miura, E. et al.</span>: <span class="ti">Anterograde C1ql1 signaling is required in order to determine and maintain a single-winner climbing fiber in the mouse cerebellum.</span> <span class='so'>Neuron, 85, 316-329 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25611509" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/9798" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R7"><span class='au'>Yuzaki, M.</span>: <span class="ti">Cbln and C1q family proteins: new transneuronal cytokines.</span> <span class='so'>Cell. Mol. Life Sci., 65, 1698-1705 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18278437" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Iijima, T., Miura, E., Watanabe, M. et al.</span>: <span class="ti">Distinct expression of C1q-like family mRNAs in mouse brain and biochemical characterization of their encoded proteins.</span> <span class='so'>Eur. J. Neurosci., 31, 1606-1615 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20525073" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Peret, A., Christie, L. A., Ouedraogo, D. W. et al.</span>: <span class="ti">Contribution of aberrant GluK2-containing kainate receptors to chronic seizures in temporal lobe epilepsy.</span> <span class='so'>Cell Rep., 8, 347-354 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25043179" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=Ensembl" target="_blank">Ensembl</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=PDB" target="_blank">PDB</a></li><br></ul><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">松田 恵子（Keiko Matsuda）</span><br>略歴：2002年 大阪大学大学院医学系研究科にて博士号取得，同年 米国St. Jude Children’s Research Hospital博士研究員，2004年 慶應義塾大学医学部 助手を経て，2015年より同 講師．<br>研究テーマ：シナプスタンパク質によるシナプスの構築，および，可塑性の分子基盤．<br>抱負：細胞という世界のなかで起こっている事象を明らかにすることで，神経現象を説明したいと考えて研究を続けてきました．顕微鏡やモニターのまえで経験する，はじめての実験結果をみるときの，どきどきする瞬間が毎日のモチベーションです．<br><br><strong>柚崎 通介（Michisuke Yuzaki）</strong><br>慶應義塾大学医学部 教授．<br>研究室URL：<a href="http://www.yuzaki-lab.org/" target="_blank">http://www.yuzaki-lab.org/</a><br></div><br>© 2016 松田恵子・柚崎通介 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

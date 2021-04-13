@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> SHARPINは直鎖状ポリユビキチン鎖に特異的なユビキチンリガーゼのサブユニットであり転写因子NF-κBの活性化とアポトーシスを制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>SHARPINは直鎖状ポリユビキチン鎖に特異的なユビキチンリガーゼのサブユニットであり転写因子NF-κBの活性化とアポトーシスを制御する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>池田史代・Ivan Dikic</strong><br>（ドイツGoethe大学School of Medicine，Institute of Biochemistry II, Molecular Signaling Group）<br>email：<a href="mailto:ikeda@biochem2.de">池田史代</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.077">10.7875/first.author.2011.077</a><br><div class="reference"><br><span class="ti">SHARPIN forms a linear ubiquitin ligase complex regulating NF-κB activity and apoptosis.</span><br><span class="au">Fumiyo Ikeda, Yonathan Lissanu Deribe, Sigrid S. Skånland, Benjamin Stieglitz, Caroline Grabbe, Mirita Franz-Wachtel, Sjoerd J. L. van Wijk, Panchali Goswami, Vanja Nagy, Janos Terzic, Fuminori Tokunaga, Ariadne Androulidaki, Tomoko Nakagawa, Manolis Pasparakis, Kazuhiro Iwai, John P. Sundberg, Liliana Schaefer, Katrin Rittinger, Boris Macek, Ivan Dikic</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21455181" target="_blank"><em>Nature</em>, <strong>471</strong>, 637-641 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　SHARPINはユビキチン様部位とユビキチン結合部位の両方をもつユニークなタンパク質である．自然発生型のSHARPIN変異マウスは慢性増殖性皮膚炎を表現型とすることからcpdmマウスとよばれる．今回，筆者らは，<em>in vitro</em>と<em>in vivo</em>の両方の系よりSHARPINが直鎖状ポリユビキチン鎖を特異的に形成するユビキチンリガーゼLUBACのサブユニットであり，炎症性シグナル伝達系において重要な役割を担っていることをつきとめた．とくに，SHARPINにおいてはユビキチン様部位とユビキチン結合部位の両方が炎症性シグナル伝達系の制御に重要であることがわかった．また，cpdmマウスの慢性増殖性皮膚炎を示す組織においてはケラチノサイトのアポトーシスが誘導されており，SHARPINの細胞生存における役割も示唆された．<br/><br/><h2>はじめに</h2><br/>　TNFαなどの炎症性サイトカインは免疫反応を担うさまざまな細胞において炎症性シグナルを活性化する．これらの炎症性サイトカインはまず細胞の表面に発現する固有の受容体に結合し，細胞内のアダプタータンパク質を介して下流にシグナルを伝達し，最終的には標的遺伝子の転写を活性化する<a href="#R1"><sup>1)</sup></a>（<a href="#F1">図1</a>）．さまざまな炎症性シグナル伝達系のなかでも転写因子NF-κBを活性化する経路が代表的なものとしてよく知られており，あらゆる手法を用いてその重要性と制御機構の解明が進んできた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　TNFαによる炎症性シグナル伝達系</strong><br/>TNFαはその受容体であるTNF受容体1に結合すると，RIP，TRADD，TRAF，IAPといったアダプタータンパク質をこの受容体にリクルートする．これらのうち，RIPやIAPはLys63型ポリユビキチン鎖により修飾される．これが下流のTAB2とTAK1からなるキナーゼ複合体の活性化，そして，IKKキナーゼ複合体の活性化をうながす．同時に，直鎖状ポリユビキチン鎖に特異的なユビキチンリガーゼLUBACもIKKキナーゼ複合体の活性化に必須である．最終的に，IKKキナーゼ複合体がNF-κBの抑制タンパク質であるIκBをリン酸化しそれにつづくLys48型ポリユビキチン鎖による修飾がプロテアソームによるIκBの分解を誘導して，転写因子NF-κBが活性化される．<br/>P：リン酸化．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikeda-Nature-11.3.31-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　TNFαによる炎症性シグナル伝達系" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikeda-Nature-11.3.31-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikeda-Nature-11.3.31-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　このNF-κBを活性化するシグナル伝達経路の各段階においてはユビキチンが重要な役割を担うことが知られている<a href="#R2"><sup>2)</sup></a>．ユビキチンは8.5 kDaほどの小さなタンパク質で，タンパク質の転写後修飾に利用される．ユビキチンは3段階の酵素活性によりそのN末端のグリシン残基が標的タンパク質のリジン残基と共有結合することによって標的タンパク質を修飾する．ユビキチンにはそれ自体に7つのリジン残基（Lys6，Lys11，Lys27，Lys29，Lys33，Lys48，Lys63）が存在することから，これらのリジン残基を介してユビキチンどうしが共有結合してポリユビキチン鎖を形成する<a href="#R3"><sup>3)</sup></a>．近年，これら7つのリジン残基を介したポリユビキチン鎖にくわえて，直鎖状ポリユビキチン鎖の存在が明らかにされた<a href="#R4"><sup>4)</sup></a>．この直鎖状ポリユビキチン鎖ではユビキチンのGly76がN末端のMet1と共有結合している．直鎖状ポリユビキチン鎖の形成には特有のユビキチンリガーゼLUBAC（linear ubiquitin chain assembly complex）の活性が必須であることが明らかにされた<a href="#R4"><sup>4)</sup></a>．また，このLUBACは酵素活性を担うHOIPとアダプタータンパク質であるHOIL-1Lの2つのサブユニットから構成されることが知られていた<a href="#R4"><sup>4)</sup></a>．<br/>　さて，さきに述べたTNFαによりNF-κBを活性化するシグナル伝達経路において，TNF受容体に結合するいくつかのアダプタータンパク質のLys63型ポリユビキチン鎖による修飾が下流へのシグナルの伝達に必須であることが長く知られていた<a href="#R2"><sup>2)</sup></a>（<a href="#F1">図1</a>）．いい換えると，TNFαにより活性化されるNF-κBシグナルの伝達にはLys63型ポリユビキチン鎖のみがその上流で重要な役割を担っているという概念が形成されていた．しかしながら，最近，3つのグループがそれぞれ独立して，Lys63型ポリユビキチン鎖のみならず，直鎖状ポリユビキチン鎖もNF-κBシグナル伝達系に重要な役割を担っていることを明らかにした<a href="#R5"><sup>5-7)</sup></a>（<a href="#F1">図1</a>）．これらの報告のなかでも，HOIL-1のノックアウトマウスに由来するマウス胎仔線維芽細胞において，TNFαやインターロイキン1βによるNF-κBの下流のシグナルの活性が有意に抑制されていたことから，HOIL-1Lの重要性が明らかにされていた<a href="#R7"><sup>7)</sup></a>．しかしながら，HOIL-1の欠損によるNF-κB活性の抑制は，これまでにシグナル制御に必須であるとされていたNEMOノックアウト細胞と比較すると弱いことから，第3の因子の関与することが予測されていた．<br/>　今回，筆者らは，直鎖状ポリユビキチン鎖による修飾を誘導するユビキチンリガーゼLUBACの新しいサブユニットSHARPINの機能的な役割を<em>in vivo</em>および<em>in vitro</em>の系を使って明らかにした．<br/><br/><h2>1．SHARPINは直鎖状ポリユビキチン鎖に特異的なユビキチンリガーゼLUBACのサブユニットである</h2><br/>　SHARPINにはアミノ酸配列より予測されたユビキチン結合部位があり，これまで知られていたLUBACのサブユニットであるHOIPもしくはHOIL-1Lと同様にユビキチンと直接に結合した（<a href="#F2">図2</a>）．全長のSHARPINとユビキチン（単量体）との解離定数は8.3μMであったが，興味深いことに，直鎖状ポリユビキチン鎖（二量体）との解離定数は1.4μMであり約6倍の結合を示した．SHARPINにはユビキチン様部位も存在し，<em>in vitro</em>の実験系よりこのユビキチン様部位はHOIPと直接に結合することが示された（<a href="#F2">図2</a>）．また，細胞においてSHARPINはHOIPおよびHOIL-1Lとヘテロ三量体を形成した．免疫沈降によりSHARPINもしくはHOIL-1のノックアウト細胞においては残りの2つのサブユニットの結合が示された．これらの結合アッセイからSHARPINはLUBACのサブユニットとして存在することが明らかになった（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　LUBACのサブユニットの模式図</strong><br/>SHARPINはC末端にユビキチン様部位UBL，および，ユビキチン結合部位であるNZFをもつ．HOIPにはPUB，ジンクフィンガー（ZF），NZF1，NZF2，ユビキチン結合部位であるUBA，および，ユビキチンリガーゼの活性ドメインであるRING-IBR-RING部位が存在する．HOIL-1LにはUBL，NZFにくわえて，C末端にRING-IBR-RING部位が存在する．SHARPINのUBLはHOIPのNZF2と直接に結合し，HOIL-1LのUBLはHOIPのUBAと直接に結合することにより複合体を形成する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikeda-Nature-11.3.31-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　LUBACのサブユニットの模式図" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikeda-Nature-11.3.31-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikeda-Nature-11.3.31-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．SHARPINとHOIPから形成される複合体は直鎖状ポリユビキチン鎖の形成を誘導しNF-κBの活性を制御する</h2><br/>　SHARPINがLUBACの新たなサブユニットであることが明らかになったことから，そのユビキチンリガーゼとしての機能的な役割を検討した．その結果，精製タンパク質を用いた<em>in vitro</em>ユビキチンアッセイにより，SHARPINはHOIPと協調してポリユビキチン鎖の形成を誘導することが示された．<em>in vitro</em>におけるSHARPINとHOIPによる直鎖状ポリユビキチン鎖の形成には，これまで知られていたLUBACのサブユニットHOIL-1Lは必須ではなかった．また，SHARPINおよびHOIPを細胞に同時に強制発現すると，細胞においても直鎖状ポリユビキチン鎖の形成の誘導されることがプルダウンアッセイにより明らかになった．これに対して，SHARPINのユビキチン結合部位とユビキチン様部位に点変異を挿入すると直鎖状ポリユビキチン鎖の形成を誘導できなくなった．また，細胞培養液に含まれるアミノ酸による安定同位体標識にもとづいた質量分析法により，SHARPINとHOIPはIKKキナーゼ複合体の構成タンパク質のひとつであるNEMOの直鎖状ポリユビキチン鎖による修飾を優位に誘導することが示された．<br/>　つぎに，SHARPINのNF-κB活性制御における役割を検討した．SHARPINおよびHOIPの過剰発現はルシフェラーゼを用いたレポーターアッセイにおいてNF-κBを活性化することがわかった．興味深いことに，SHARPINとHOIPによるNF-κB活性化のレベルはHOIL-1LおよびHOIPを同時発現した場合，もしくは，SHARPIN，HOIPおよびHOIL-1Lの3つを同時発現した場合とほぼ同じであった．また，さきに述べた実験において直鎖状ポリユビキチン鎖の形成を誘導できなかったユビキチン結合部位とユビキチン様部位に変異をもつSHARPINを用いて同様の実験を行うと，NF-κBの活性化はまったく誘導されなかった．<br/>　これらの知見より，SHARPINはHOIPと協調して直鎖状ポリユビキチン鎖の形成およびNF-κBの活性化を誘導することがわかった．さらに，これらの作用にはSHARPINのユビキチン結合部位およびユビキチン様部位が関与することも明らかになった．<br/><br/><h2>3．SHARPINとHOIL-1LはそれぞれがHOIPと複合体を構成しIKKキナーゼを協調的に活性化する</h2><br/>　SHARPINの生物学的な機能をさらに検討する目的で慢性増殖性皮膚炎を表現型とするcpdmマウスを用いて実験を行った．このcpdmマウスは自然発症型の疾患マウスで，SHARPINをコードする遺伝子の点変異が異常な終止コドンを誘導することから機能的なSHARPINを発現していない．cpdmマウスから採取した線維芽細胞，B細胞，マクロファージをそれぞれ順にTNFα，CD40リガンド，リポ多糖により刺激し下流のシグナルの活性化について解析を行った．その結果，どの炎症誘発性リガンドによるNF-κB活性も顕著に抑制されていた．重要なことに，SHARPINの欠損はIKKキナーゼの活性を優位に抑制したことから，SHARPINはシグナル伝達経路においてIKKキナーゼ複合体の上流，もしくは，同じ段階において機能していることが強く示唆された．<br/>　さらに，SHARPINと同様にHOIPと複合体を構成してNF-κBシグナルを制御するHOIL-1LとSHARPINとを同時に抑制した線維芽細胞においてTNFα誘導性のNF-κBシグナルの活性化を検討したところ，ほぼ基底レベルのIKKキナーゼ活性しか検出できなかった．これらの結果より，SHARPINはHOIPとともに直鎖状ポリユビキチン鎖に特異的なユビキチンリガーゼLUBACを機能的に構成し，さまざまな細胞において炎症誘導性のNF-κBシグナルを制御していることが明らかになった．<br/><br/><h2>4．SHARPINの欠損はFADDとカスパーゼ8を介したTNFα誘導性のアポトーシスを促進する</h2><br/>　これまでの結果から，SHARPINは直鎖状ポリユビキチン鎖の誘導，NF-κBシグナルの制御といった，これまでに知られていたLUBACのサブユニットHOIL-1Lと類似した機能をもつことが明らかになった．しかしながら，SHARPINはHOIL-1Lと重複した機能だけをもつのかということが疑問となる．そこで，cpdmマウスにおいて重度の慢性皮膚炎が誘導されることに注目しその皮膚組織を詳細に検討した．その結果，組織学的な解析からcpdmマウスの皮膚組織に存在する多くのケラチノサイト（角化細胞）がアポトーシスマーカーであるカスパーゼ3の活性に陽性を示すことが明らかになった．この所見よりSHARPINのアポトーシス制御における役割が示唆されたことから，cpdmマウスから得た線維芽細胞およびHOIL-1ノックアウト線維芽細胞を用いてTNFα誘導性のアポトーシスについて検討をくわえた．<br/>　その結果，SHARPINを欠損しているcpdmマウスから得た線維芽細胞においてTNFαはカスパーゼ8およびカスパーゼ3の活性化によるアポトーシスを急速に誘導した．cpdmマウスから得た線維芽細胞と比較して，HOIL-1ノックアウト細胞においてアポトーシスの誘導は顕著ではなかった．cpdmマウスから得た線維芽細胞におけるTNFα誘導性のアポトーシスは，ドミナントネガティブ型FADDの強制発現，もしくは，カスパーゼ8の抑制タンパク質として知られるCrmAの強制発現により著しく抑制された．これらの結果より，SHARPINはTNFαの下流で活性化されるTNF受容体複合体IIを介したアポトーシスの伝達経路において重要な機能を担っていることが明らかになった．<br/><br/><h2>おわりに</h2><br/>　NF-κBを活性化するシグナル伝達系におけるユビキチンの機能的な役割については長年にわたり研究が進んできたといえる．しかしながら，その微調整的な制御機構についてはとうてい明らかになっているとはいえない．今回の研究は，直鎖状ポリユビキチン鎖という新たな概念の導入とともに，その誘導機構をマウスと<em>in vitro</em>実験系を用いて証明したことに意義があるといえる．また，筆者らのほか，英国のグループ，および，筆者らの共同研究者を含む日本のグループが，同じタンパク質に注目してその機能解析を行い同様の報告を<em>Nature</em>誌の同じ号に発表していることは<a href="#R8"><sup>8,9)</sup></a>，世界的にも直鎖状ポリユビキチン鎖による制御機構に大きな注目が集まっていることを示唆する（日本のグループの論文については，<a href="http://first.lifesciencedb.jp/archives/2647" target="_blank">新着論文レビュー</a> でも掲載）．その一方で，これらの研究も炎症性シグナル伝達系の制御について氷山の一角を明らかにしたにすぎないといえ，今後は，これまでほとんど明らかになっていないような非定型的なポリユビキチン鎖による修飾の関与につきさまざまな手法を用いて明らかにしていくことが<a href="#R10"><sup>10)</sup></a>，この研究分野にとってたいへんな刺激になるものと予想される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hayden, M. S. & Ghosh, S.</span>: <span class="ti">Shared principles in NF-κB signaling.</span> <span class='so'>Cell, 132, 344-362 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18267068" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Wertz, I. E. & Dixit, V. M.</span>: <span class="ti">Ubiquitin-mediated regulation of TNFR1 signaling.</span> <span class='so'>Cytokine Growth Factor Rev., 19, 313-324 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18515172" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Ikeda, F. & Dikic, I.</span>: <span class="ti">Atypical ubiquitin chains: new molecular signals. 'Protein Modifications: Beyond the Usual Suspects' review series.</span> <span class='so'>EMBO Rep., 9, 536-542 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18516089" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Kirisako, T., Kamei, K., Murata, S. et al.</span>: <span class="ti">A ubiquitin ligase complex assembles linear polyubiquitin chains.</span> <span class='so'>EMBO J., 25, 4877-4887 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17006537" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Rahighi, S., Ikeda, F., Kawasaki, M. et al.</span>: <span class="ti">Specific recognition of linear ubiquitin chains by NEMO is important for NF-κB activation.</span> <span class='so'>Cell, 136, 1098-1109 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19303852" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Haas, T. L., Emmerich, C. H., Gerlach, B. et al.</span>: <span class="ti">Recruitment of the linear ubiquitin chain assembly complex stabilizes the TNF-R1 signaling complex and is required for TNF-mediated gene induction.</span> <span class='so'>Mol. Cell, 36, 831-844 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20005846" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Tokunaga, F., Sakata, S., Saeki, Y. et al.</span>: <span class="ti">Involvement of linear polyubiquitylation of NEMO in NF-κB activation.</span> <span class='so'>Nat. Cell Biol., 11, 123-132 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19136968" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Gerlach, B., Cordier, S. M., Schmukle, A. C. et al.</span>: <span class="ti">Linear ubiquitination prevents inflammation and regulates immune signalling.</span> <span class='so'>Nature, 471, 591-596 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21455173" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Tokunaga, F., Nakagawa, T., Nakahara, M. et al.</span>: <span class="ti">SHARPIN is a component of the NF-κB-activating linear ubiquitin chain assembly complex.</span> <span class='so'>Nature, 471, 633-636 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21455180" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/2647" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R10"><span class='au'>Ikeda, F., Crosetto, N. & Dikic, I.</span>: <span class="ti">What determines the specificity and outcomes of ubiquitin signaling?</span> <span class='so'>Cell, 143, 677-681 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21111228" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">池田 史代（Fumiyo Ikeda）</span><br>略歴：2003年 大阪大学大学院歯学研究科 修了，同年 同 研究員，同 特任助教を経て，2005年よりドイツGoethe大学School of Medicineポストドクトラルフェロー．<br>研究テーマ：非定型的なユビキチンシグナルによる炎症反応の制御機構の解明．<br>抱負：ブレイクスルー的な発見を，個人としてではなくチームとして定期的に発表したい．<br><br><strong>Ivan Dikic</strong><br>ドイツGoethe大学School of MedicineにてDirector，Full Professor．<br>研究室URL：<a href="http://www.biochem2.com/" target="_blank">http://www.biochem2.com/</a><br></div><br>© 2011 池田史代・Ivan Dikic Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

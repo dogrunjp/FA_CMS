@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 娘細胞のアイデンティティはCdc42，セプチン，エキソサイトーシスの相互作用により生じる : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>娘細胞のアイデンティティはCdc42，セプチン，エキソサイトーシスの相互作用により生じる</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>岡田 悟・Erfei Bi</strong><br>（米国Pennsylvania大学Perelman School of Medicine，Department of Cell and Developmental Biology）<br>email：<a href="mailto:sokada@mail.med.upenn.edu">岡田 悟</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.105">10.7875/first.author.2013.105</a><br><div class="reference"><br><span class="ti">Daughter cell identity emerges from the interplay of Cdc42, septins, and exocytosis.</span><br><span class="au">Satoshi Okada, Marcin Leda, Julia Hanna, Natasha S. Savage, Erfei Bi, Andrew B. Goryachev</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23906065" target="_blank"><em>Developmental Cell</em>, <strong>26</strong>, 148-161 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　非対称な細胞分裂は細胞の分化や幹細胞の維持などにおいて重要な役割を担っている．出芽酵母では母細胞と娘細胞のそれぞれのアイデンティティは出芽の時点で分かれる．出芽のとき，セプチンにより形成されるセプチンリングにより細胞膜が隔てられることで明確なドメインが形成されるが，これまで，どのようにしてセプチンリングが形成されるのか，その分子機構は不明であった．筆者らは，この論文において，Cdc42により出芽の予定位置にリクルートされたセプチンが，負のフィードバックによりCdc42の活性を抑制すること，この抑制はCdc42のGAPに依存的であることを見い出した．さらに，生細胞イメージング法と数理モデルとを組み合わせることにより，セプチンリングの形成にはエキソサイトーシスが必要であることを明らかにした．セプチンリングが境界として機能し，Cdc42活性とエキソサイトーシスの生じる領域をセプチンリングの内側のみに限定することにより，娘細胞のアイデンティティが規定されるものと考えられた．以上の知見は，真核生物の細胞の分化および運命決定における基礎的な分子機構を提示した．<br/><br/><h2>はじめに</h2><br/>　非対称な細胞分裂は細胞運命の決定因子や損傷したタンパク質などの不均等な分配において重要な役割をはたしている<a href="#R1"><sup>1)</sup></a>．連続した膜構造を共有する細胞のあいだで物質の混合をさけるには拡散の障壁が必要であり，高等植物を除く真核生物の細胞においてはセプチンがこの機能をはたす可能性が考えられている<a href="#R2"><sup>2)</sup></a>．セプチンは酵母からヒトまで保存されたGTP結合タンパク質であり，オリゴマーを形成してフィラメント状，リング状，ガーゼ状の高次構造をとる<a href="#R3"><sup>3)</sup></a>．とくに，セプチンにより形成されるセプチンリングは出芽酵母における細胞分裂の位置だけでなく，線毛の基部や樹状突起，精子の尾部の基底部分にもみられ，多様な細胞機能や疾患に関連していると考えられている．<br/>　栄養生長期の出芽酵母には5種類のセプチンが発現しており，これらがロッド状のヘテロオリゴマーを形成し，このオリゴマーがフィラメントを形成，さらに，このフィラメントが出芽の予定位置においてセプチンリングを形成している<a href="#R4"><sup>4)</sup></a>．出芽の予定位置へのセプチンの集積にはCdc42が必要であることは報告されていたものの<a href="#R5"><sup>5)</sup></a>，セプチンリングの形成機構そのものはあらゆる系において未知であった．<br/><br/><h2>1．セプチンの集積はCdc42により駆動されセプチンは負のフィードバックによりCdc42の活性を抑制する</h2><br/>　セプチンリングの形成機構についてCdc42とセプチンとの時空間的な関係を調べるため，蛍光タンパク質を用いてCdc42の活性およびセプチンをそれぞれ可視化し，生細胞において経時的なイメージングを行うことによりこれらの動態を追跡した．その結果，細胞質分裂ののち，もとの細胞分裂の位置に隣接する領域においてCdc42の活性は時間とともに上昇し，最終的にCdc42は安定したクラスターを形成した（出芽の10～12分前）．このCdc42クラスターが出芽の予定位置を規定した．これに対して，セプチンは出芽の14～16分前から出芽の予定位置に集積しはじめた．このタイミングはCdc42の活性が最大値をとる時期とほぼ一致していた．セプチンがさらに集積すると，Cdc42の活性は低下に転じた．出芽が起こるとほぼ同時にCdc42の活性は最小となり，このとき，セプチンは不定形のキャップ状の構造からリング状の構造へと変化した．出芽の直後からCdc42の活性はふたたび上昇をはじめたが，このとき，Cdc42の活性上昇のみられた領域はセプチンリングにより母細胞から隔てられた娘細胞の側に限定されていた．<br/>　アクチン重合の阻害剤であるlatrunculin Aの添加によりセプチンリングの形成は遅延することが知られている<a href="#R5"><sup>5,6)</sup></a>．セプチンキャップからセプチンリングが形成される過程をよりくわしく調べることを当初の目的として，latrunculin Aの存在下において経時的な生細胞イメージングを行った．その結果，一部の細胞において，Cdc42およびセプチンの動態につき予想外の挙動が観察された．これらの細胞では細胞質分裂ののちCdc42のクラスターが形成され，同じ位置にセプチンの集積が生じCdc42活性の低下が起こるところまではlatrunculin A非処理の細胞と同様であったが，そののち，セプチンリングの形成は起こらず，出芽も生じなかった．その代わり，新しい位置にCdc42のクラスターが形成されふたたびこの位置にセプチンが集積するという“追跡現象”が観察された．<br/>　latrunculin Aの有無にかかわらず，セプチンの集積にさきんじて必ずCdc42の局所的な活性化が生じるという事実は，Cdc42の活性がセプチンの集積の上流においてはたらき，かつ，セプチンの集積に必要である，という説を支持した．さらに，セプチンの集積には必ずCdc42の活性の低下をともなうという観察は，セプチンがなんらかの経路によりCdc42活性を抑制する機能をはたしている可能性を示唆した．詳細な機構がどんなものであるにせよ，追跡現象においてくり返しCdc42クラスターの形成が生じたことから，セプチンに依存的なCdc42活性の抑制は局所的なものであり，サイクリン依存性キナーゼによるリン酸化というようなグローバルな制御によるものではないと考えられた．<br/><br/><h2>2．Cdc42のエフェクターを介したセプチンの集積およびセプチンを介した負のフィードバックにおける数理モデルの構築</h2><br/>　生細胞イメージングと並行して，Cdc42により制御されるセプチンリングの形成を説明する数理モデルの構築を試みた．Cdc42によるセプチンリングの形成制御に関して，Cdc42のエフェクターであるGic1およびGic2が出芽の予定位置へのセプチンのリクルートに関与していることが報告されていた．当初は，エクスポーチン様の機構によりセプチンのリクルートが生じるという仮説にもとづいたモデルの構築を行った．すなわち，Gic1あるいはGic2が細胞質からCdc42クラスターへとリクルートされ，ここでCdc42による活性化をうけて細胞質からセプチンをリクルートする，というものである．シミュレーションの結果，このモデルは幅広いパラメーターのもとセプチンリングの形成を再現するものの，実験の結果とは決定的な不一致がみられた．つまり，このモデルではセプチンリングはつねにCdc42クラスター全体をとりかこむかたち（直径は約4μm）で形成されたのに対し，実際の細胞ではセプチンはまずCdc42クラスターの中心に集積し，最終的に直径が約1μmのセプチンリングへと変化したのである．この結果は，このモデルが不正確であることを意味し，その再検討を要した．<br/>　哺乳類において，セプチンはCdc42のエフェクターであるBorg1およびBorg3により制御されている<a href="#R7"><sup>7)</sup></a>．この系においては，Cdc42はBorg1あるいはBorg3とセプチンとの相互作用を阻害する方向にはたらく．つまり，Borg1あるいはBorg3はCdc42の非存在下においてセプチンと結合しCdc42の存在下においてセプチンを放出する，というインポーチン様の機構により機能する．そこで，モデルにこのインポーチン様の機構を取り入れた．シミュレーションの結果，このモデルではセプチンはキャップ状の構造をとり集積し，セプチンリングの形成は再現されなかった．つづいて，latrunculin Aの存在下において追跡現象の再現が可能かどうかを調べるため，このモデルに対し，セプチンを介した負のフィードバックを導入した．セプチンを介したCdc42活性の抑制機構については，セプチンの集積によりCdc42が空間的に排除されるという受動的な経路と，セプチンがCdc42のGAP（GTPase-activating protein，GTPase活性化タンパク質）をリクルートし活性型であるGTP結合型Cdc42を不活性型であるGDP結合型Cdc42に変換するという積極的な経路とが想定された．シミュレーションの結果，受動的な経路のみでは実験結果は再現されず，Cdc42 GAPの導入により追跡現象が再現された．この段階において，セプチンリングの形成は再現できていなかったものの，それ以前のステップであるCdc42クラスターの形成→セプチンの集積→Cdc42活性の抑制，および，latrunculin Aの存在下における追跡現象が，セプチンを介したCdc42 GAPに依存的な負のフィードバックにより説明できる可能性が示された．<br/><br/><h2>3．Cdc42活性に対する負のフィードバックにはセプチンとCdc42 GAPの両方が必要である</h2><br/>　実際の細胞においてセプチンを介した負のフィードバックが存在するかどうかを確認するため，温度感受性のセプチン変異株を用いて出芽の予定位置におけるCdc42の動態を調べた．予想どおり，非許容温度においては出芽の予定位置にセプチンは検出されず，温度感受性セプチン変異株はフィラメント様の成長を示し，その先端において高いCdc42活性が観察された．このフィラメント様の成長の開始のとき，Cdc42の活性は低下せず単調に上昇した．これらの結果は，出芽の予定位置においてCdc42活性を抑制する負のフィードバックは，セプチンに依存的なものであることを示した．Cdc42 GAPがこの負のフィードバックの機構に関与しているかどうかを確認するため，GAP欠失変異株におけるCdc42の活性を定量的に比較した．その結果，実験したすべての変異株において，出芽のときの相対的なCdc42活性の低下の幅は，野生型株よりも小さいことがわかった．これらの結果から，セプチンとCdc42 GAPの両方がCdc42活性に対する負のフィードバックに必要であると結論づけた．<br/><br/><h2>4．エキソサイトーシスを考慮した数理モデルの構築</h2><br/>　出芽の予定位置においてCdc42活性を負に制御する，セプチンおよびCdc42 GAPに依存的な負のフィードバックの存在は明らかになったものの，依然としてセプチンリングの形成機構，つまり，セプチンキャップからセプチンリングへの変化の機構は説明できていなかった．そこで，latrunculin Aの存在において追跡現象を示さず最終的にセプチンリングを形成した細胞について，その挙動を細かく調べた．その結果，Cdc42クラスターの位置に集積したセプチンキャップが，そののち，中央部におけるセプチンの密度が部分的に低下することによりリング状の構造へと変化していくのが観察された．セプチンキャップの中央部においてセプチンの局所濃度を低下させているものは何か？　Cdc42活性のピークの位置がセプチン密度のピークの位置とよく一致していることに注目した．Cdc42はそのエフェクターであるSec3やExo70を介しエキソサイトーシスを正に制御している<a href="#R8"><sup>8)</sup></a>．Cdc42活性のピークの位置，すなわち，Cdc42クラスターの中央部は，エキソサイトーシスにより細胞膜の供給を生じる可能性がもっとも高い位置である．この新しい細胞膜の供給が，セプチンリングの形成と出芽の両方にかかわっている可能性を考えた．エキソサイトーシスにより生じる“新しい”細胞膜の成分が“古い”細胞膜の成分を物理的に外側に押しやるというはたらきが，セプチンキャップからセプチンリングへの変化の原動力になっているのではないかと考えたのである．このとき，拡散性の低い高密度のセプチン重合体は，リン脂質に結合したまま古い細胞膜とともに物理的に押しやられるだろう．新しい細胞膜の成分の供給が連続的に起こることにより，Cdc42クラスターの中央部にセプチン密度の低い領域を生じると同時に，その辺縁部ではセプチンの密度が上昇し，結果として，リング状の構造が形成されると考えた．<br/>　エキソサイトーシスによるセプチンリングの形成という仮説を検証するため，新たに球状の細胞においてエキソサイトーシスのシミュレーションを行うためのモデリングフレームワークを開発した．このフレームにおいては，Cdc42の活性により上昇しセプチンにより低下する確率分布にしたがって分泌小胞は細胞膜に挿入されるものと仮定した．シミュレーションの結果，セプチンキャップからセプチンリングへの変化が再現された．さらに，このエキソサイトーシスを導入したモデルは，セプチンリングの形成ののち，Cdc42の活性はセプチンリングの内側に限定されるという，出芽にともなうCdc42活性の位置の変化も再現した．<br/><br/><h2>5．セプチンリングの形成にはエキソサイトーシスが必要である</h2><br/>　この仮説を直接的に検証するため，蛍光タンパク質により標識したExo84をプローブとして，セプチンリングの形成におけるエキソサイトーシス活性の動態を観察した．Exo84はexocyst複合体のサブユニットのひとつで，分泌小胞にのみ存在することがすでに知られている<a href="#R9"><sup>9)</sup></a>．その結果，細胞質分裂ののち，出芽の予定位置にExo84が現われた．このとき，セプチンはもとの細胞分裂の位置から出芽の予定位置へと，まず不定形のかたまりとしてリクルートされ，そののち，Exo84をとりかこむようにリングを形成した．分泌小胞の輸送および細胞膜におけるテザリングに機能不全を生じることが知られている温度感受性変異株において同様の観察を行ったところ，約50％の細胞について，セプチンは出芽の予定位置に集積したものの，リングを形成しなかった．また，約40％の細胞では，セプチンリングの一時的な形成とその再閉塞が観察された．セプチンリングの再閉塞とExo84のシグナル強度とのあいだには負の相関がみられた．以上の結果は，セプチンリングの形成にはエキソサイトーシスが必要であり（<a href="#F1">図1a</a>），いったんセプチンリングが形成されたのちであっても，リング状の構造を維持するためには分泌小胞の連続的な供給が必要であることを示した．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Cdc42，セプチン，エキソサイトーシスによるセプチンリングの形成と出芽</strong><br/>（a）セプチンリングの形成と出芽の過程．<br/>（b）Cdc42，セプチン，エキソサイトーシスの三者の相互作用．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okada-Developmental-Cell-13.7.29-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Cdc42，セプチン，エキソサイトーシスによるセプチンリングの形成と出芽" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okada-Developmental-Cell-13.7.29-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okada-Developmental-Cell-13.7.29-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この論文において，筆者らは，生細胞イメージング法と数理モデルとを組み合わせることにより，Cdc42により制御されたセプチンリングの形成機構の解明を試みた．その結果，セプチンがCdc42 GAPをリクルートすることによりCdc42の活性を抑制するという負のフィードバックを見い出した．また，セプチンキャップからセプチンリングへの変化にはエキソサイトーシスが必要であることを明らかにした．またこのとき，Cdc42の活性はセプチンリングの内側の領域に限定されることも示された．すなわち，Cdc42，セプチン，エキソサイトーシスの三者の相互作用（<a href="#F1">図1b</a>）により拡散の障壁としてのセプチンリングが形成されることで，細胞膜の領域が2つに分割され母細胞および娘細胞のそれぞれのアイデンティティが確立し分かれる，という基本的な機構が明らかにされた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　出芽酵母における娘細胞のアイデンティティの確立</strong><br/>GAP：GTPase-activating protein（GTPase活性化タンパク質），GEF：guanine nucleotide exchange factor（グアニンヌクレオチド交換因子）．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okada-Developmental-Cell-13.7.29-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　出芽酵母における娘細胞のアイデンティティの確立" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okada-Developmental-Cell-13.7.29-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okada-Developmental-Cell-13.7.29-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　現段階において，筆者らのモデルはもっとも重要な特性のみを説明するものであり，本質的に不完全である．Cdc42以外の低分子量Gタンパク質，細胞壁およびその制御タンパク質など，考慮されなかったほかの多数の因子も娘細胞のアイデンティティの確立に関与していると考えられる．また，この論文で明らかにされた分子機構は，非対称な細胞分裂の機構のうちのひとつにすぎない．線毛や精子の尾部の形成など，セプチンリングが関与するとみられるほかの非対称な系においても同様の分子機構が機能しているのか，将来の研究が待たれる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Macara, I. G. & Mili, S.</span>: <span class="ti">Polarity and differential inheritance: universal attributes of life?</span> <span class='so'>Cell, 135, 801-812 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19041746" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Caudron, F. & Barral, Y.</span>: <span class="ti">Septins and the lateral compartmentalization of eukaryotic membranes.</span> <span class='so'>Dev. Cell, 16, 493-506 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19386259" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Oh, Y. & Bi, E.</span>: <span class="ti">Septin structure and function in yeast and beyond.</span> <span class='so'>Trends Cell Biol., 21, 141-148 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21177106" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>McMurray, M. A. & Thorner, J.</span>: <span class="ti">Septins: molecular partitioning and the generation of cellular asymmetry.</span> <span class='so'>Cell Div., 4, 18 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19709431" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Iwase, M., Luo, J., Nagaraj, S. et al.</span>: <span class="ti">Role of a Cdc42p effector pathway in recruitment of the yeast septins to the presumptive bud site.</span> <span class='so'>Mol. Biol. Cell, 17, 1110-1125 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16371506" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Kadota, J., Yamamoto, T., Yoshiuchi, S. et al.</span>: <span class="ti">Septin ring assembly requires concerted action of polarisome components, a PAK kinase Cla4p, and the actin cytoskeleton in <em>Saccharomyces cerevisiae</em>.</span> <span class='so'>Mol. Biol. Cell, 15, 5329-5345 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15371547" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Joberty, G., Perlungher, R. R., Sheffield, P. J. et al.</span>: <span class="ti">Borg proteins control septin organization and are negatively regulated by Cdc42.</span> <span class='so'>Nat. Cell Biol., 3, 861-866 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11584266" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>He, B. & Guo, W.</span>: <span class="ti">The exocyst complex in polarized exocytosis.</span> <span class='so'>Curr. Opin. Cell Biol., 21, 537-542 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19473826" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Boyd, C., Hughes, T., Pypaert, M. et al.</span>: <span class="ti">Vesicles carry most exocyst subunits to exocytic sites marked by the remaining two subunits, Sec3p and Exo70p.</span> <span class='so'>J. Cell Biol., 167, 889-901 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15583031" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">岡田  悟（Satoshi Okada）</span><br>略歴：2009年 東京大学大学院新領域創成科学研究科にて博士号取得，2010年より米国Pennsylvania大学Perelman School of Medicineポスドク．<br>研究テーマ：出芽酵母における細胞極性とセプチンの関係性．<br>関心事：美術館・博物館，スウェーデン語，ハエトリグモ，『乙嫁語り』．<br><br><strong>Erfei Bi</strong><br>米国Pennsylvania大学Perelman School of Medicine教授．<br>研究室URL：<a href="http://www.med.upenn.edu/apps/faculty/index.php/g20001040/p19626" target="_blank">http://www.med.upenn.edu/apps/faculty/index.php/g20001040/p19626</a><br></div><br>© 2013 岡田 悟・Erfei Bi Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

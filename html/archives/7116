@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 小胞体タンパク質MeigoはEphrinのタンパク質量およびN-結合型糖鎖修飾を介し樹状突起のターゲティングにおける特異性を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>小胞体タンパク質MeigoはEphrinのタンパク質量および<em>N</em>-結合型糖鎖修飾を介し樹状突起のターゲティングにおける特異性を制御する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>関根清薫・千原崇裕</strong><br>（東京大学大学院薬学系研究科 遺伝学教室）<br>email：<a href="mailto:ssekine.apr2@gmail.com">関根清薫</a>，<a href="mailto:tchihara@mol.f.u-tokyo.ac.jp">千原崇裕</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.065">10.7875/first.author.2013.065</a><br><div class="reference"><br><span class="ti">Meigo governs dendrite targeting specificity by modulating Ephrin level and <em>N</em>-glycosylation.</span><br><span class="au">Sayaka U. Sekine, Shuka Haraguchi, Kinhong Chao, Tomoko Kato, Liqun Luo, Masayuki Miura, Takahiro Chihara</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23624514" target="_blank"><em>Nature Neuroscience</em>, <strong>16</strong>, 683-691 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　機能的な神経回路の形成には，軸索および樹状突起が適切な標的へとターゲティングし，遺伝学的に規定されたシナプスのパートナーと出会うことが必要である．筆者らは，樹状突起のターゲティングにおける分子機構の解明をめざし，ショウジョウバエの嗅覚系を用いたスクリーニングにより得られた<em>meigo</em>変異体を解析した．その結果，小胞体に局在する糖核酸トランスポーターMeigoが，樹状突起のターゲティングにおいて，標的組織における正中線-側方軸情報の認識，および，標的領域への収束に必要であることが明らかになった．さらに，<em>meigo</em>変異による標的領域への収束の異常は，Ephrinの過剰発現により部分的に回復することを見い出した．Meigoの発現の抑制は小胞体ストレス応答をともない，MeigoはEphrinの生合成，細胞膜への輸送，<em>N</em>-結合型糖鎖の修飾にかかわることによりその機能を制御していることが示唆された．この研究は，神経回路形成の特定の局面における小胞体の機能の重要性を示した点で新しい．<br/><br/><h2>はじめに</h2><br/>　全身の統合や記憶および学習をつかさどる脳では，膨大な数のニューロンが情報伝達のためのネットワークを構築している．機能的なネットワークを形成するため，それぞれのニューロンは情報の“受容”を担う樹状突起と“出力”を担う軸索を標的まで正確に投射（ターゲティング）する必要がある．これまで，樹状突起のターゲティングについてはその重要性が指摘されていたにもかかわらず，形態の複雑さゆえ研究はほとんど進んでいない．そこで，この研究では，比較的単純な形態の樹状突起をもつショウジョウバエの嗅覚系の投射ニューロンをモデル系として，その形態を定性的および定量的に解析することにより神経回路の形成における分子機構の解明を試みた．<br/>　樹状突起が標的を認識して伸長し収束するというターゲティングの一連の過程において，機能する多くのタンパク質は膜受容体であるため，それらのタンパク質はまず小胞体において適切にフォールディングされ糖鎖修飾をうける．タンパク質のフォールディングが適切に行われたかどうかは<em>N</em>-結合型糖鎖を介した品質管理機構にてチェックされ，適切なタンパク質のみが以降の分泌経路に進むことができる<a href="#R1"><sup>1)</sup></a>．したがって，正確な樹状突起のターゲティングは，小胞体の正常な機能がささえているものと考えられる．しかしこれまで，樹状突起のターゲティングに関する研究は膜受容体およびその下流のタンパク質に焦点をあてたものが多く，小胞体の機能の重要性は注目されてこなかった．そこで，この研究は，先行研究のスクリーニング<a href="#R2"><sup>2)</sup></a> により得られた樹状突起のターゲティングにおける変異体である<em>meigo</em>変異体の解析，そして，小胞体タンパク質であるMeigoの役割を遺伝学的および生化学的な手法を用いて検証することにより，神経回路の形成における小胞体の機能の重要性の理解をめざした．<br/><br/><h2>1．<em>meigo</em>変異をもつニューロンは樹状突起のターゲティングにおいて特定の局面に異常を示す</h2><br/>　ショウジョウバエの嗅覚系は，1次感覚ニューロン（嗅覚受容体ニューロン）の軸索と2次の投射ニューロンの樹状突起とが触角葉を構成する約50個の糸球体のうち1つを選別してターゲティングし，一対一の厳密なシナプスの接続を行っている<a href="#R3"><sup>3)</sup></a>（<a href="#F1">図1a</a>）．そこで，それぞれのニューロンの形態を1細胞レベルで解析するため，MARCM（mosaic analysis with repressive cell marker，遺伝学的モザイク解析）法を適用した．MARCM法を用いることでヘテロ接合体，すなわち，ほぼ野生型に近い個体のなかで特定の細胞のみをホモ接合体とし，その細胞のみを標識することができる．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　ショウジョウバエの嗅覚系と<em>meigo</em>変異体の表現型</strong><br/>（a）ショウジョウバエの嗅覚系の模式図．この研究では，嗅覚器において感知された匂い情報を受け取るニューロンにおける樹状突起のターゲティングを観察した．<br/>（b）野生型のニューロンの樹状突起は標的領域に正しくターゲティングし領域に収束するが，<em>meigo</em>変異体の樹状突起は正中線側へと異常にターゲティングし特定の領域に収束できない．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Chihara-Nature-Neuroscience-13.5.28-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　ショウジョウバエの嗅覚系と<em>meigo</em>変異体の表現型" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Chihara-Nature-Neuroscience-13.5.28-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Chihara-Nature-Neuroscience-13.5.28-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　まず，投射ニューロンにMARCM法を適用し，<em>meigo</em>変異ホモ接合体となった投射ニューロンの表現型を観察したところ，野生型では側方へとターゲティングする樹状突起が，<em>meigo</em>変異ホモ接合体ではあやまって正中線側へとターゲティングしていた．さらに，糸球体に収束できず，あふれでていることも観察された（<a href="#F1">図1b</a>）．<br/>　つぎに，軸索が1つの糸球体を選別する嗅覚受容体ニューロンにおける<em>meigo</em>変異体の表現型を観察した．MARCM法を適用して嗅覚受容体ニューロンのみを変異ホモ接合体としたところ，その軸索はあやまって正中線側へとターゲティングし，しかも，糸球体に収束できないという投射ニューロンの樹状突起と非常によく似た異常を示した．したがって，<em>meigo</em>変異はシナプスのパートナーである投射ニューロンの樹状突起と嗅覚受容体ニューロンの軸索の両方において，正中線-側方軸に関するターゲティング，および，糸球体への収束に異常をもたらすことが示された．<br/>　遺伝学的なマッピングにより原因遺伝子を同定したところ新規の遺伝子だったため，樹状突起が本来の目的地を見失ってしまうという表現型にちなみ<em>meigo</em>（<em>medial glomeruli</em>，迷子）遺伝子と名づけた．MARCM法により<em>meigo</em>遺伝子のcDNAを<em>meigo</em>変異ホモ接合体となった投射ニューロンにのみ発現させたところ，樹状突起のターゲティングは正常に回復した．また，同様に変異ホモ接合体となった嗅覚受容体ニューロンのみに<em>meigo</em>遺伝子のcDNAを発現させたところ，軸索のターゲティングの異常は回復した．したがって，<em>meigo</em>遺伝子はシナプスのパートナーである投射ニューロンと嗅覚受容体ニューロンの両者において，それぞれ細胞自律的に機能していることが明らかになった．<br/><br/><h2>2．Meigoは小胞体の恒常性の維持に必要である</h2><br/>　<em>meigo</em>遺伝子は酵母からヒトまで高度に保存されている8回膜貫通型タンパク質をコードしており，C末端には小胞体保留配列が存在した．抗Meigo抗体を作製して免疫染色を行ったところ，ショウジョウバエ培養細胞であるS2細胞においておもに小胞体のマーカーと共局在した．また，密度勾配遠心法によってもMeigoは小胞体画分に局在していることが確認された．Meigoは糖核酸トランスポーターファミリーに属し，糖鎖修飾に関与していると考えられた．しかし，ほかの糖核酸トランスポーターの変異体は樹状突起のターゲティングに異常を示さず，また，それらの遺伝子を過剰発現しても<em>meigo</em>変異ホモ接合体となった投射ニューロンにおけるターゲティングの異常は抑制されなかった．この結果は，投射ニューロンにおける樹状突起のターゲティングには，ほかの類似タンパク質にはないMeigoに特有の機能が必要とされていることを示唆した．<br/>　一方で，<em>meigo</em>遺伝子のオルソログである<em>hut1</em>遺伝子については，出芽酵母における変異株では小胞体ストレスに感受性となり<a href="#R4"><sup>4)</sup></a>，線虫における変異体でも恒常的な小胞体ストレスを示し幼虫期に致死となることが示されている<a href="#R5"><sup>5)</sup></a>．そこで，<em>meigo</em>遺伝子の発現の抑制がショウジョウバエにおいても小胞体ストレス応答を誘導するかどうかを検証するため，S2細胞に<em>meigo</em>遺伝子の二本鎖RNAを導入したところ，<em>xbp1</em>遺伝子の特異的なスプライシング<a href="#R6"><sup>6,7)</sup></a>，および，小胞体ストレス応答における標的遺伝子の発現の上昇が確認された．同様の小胞体ストレス応答は脳の投射ニューロンにおいても確認され，小胞体シャペロンであるHsc3（ショウジョウバエBiP）が<em>meigo</em>変異ホモ接合体となった投射ニューロンの樹状突起に集積しているようすが観察された．さらに，<em>meigo</em>変異ホモ接合体となった投射ニューロンに小胞体シャペロンのドミナントネガティブ変異体や変異タンパク質を過剰発現させることにより小胞体ストレスの負荷を上げたところ，樹状突起のターゲティングの異常は悪化した．以上のように，<em>meigo</em>遺伝子の機能欠損が小胞体ストレス応答，および，小胞体ストレスへの脆弱性をひき起こしたことから，新規の小胞体タンパク質Meigoは小胞体の恒常性の維持に必要であることが示された．<br/><br/><h2>3．EphrinはMeigoと遺伝学的に相互作用し投射ニューロンの樹状突起の糸球体への収束に必要である</h2><br/>　小胞体ストレス応答はタンパク質合成の抑制をひき起こすことが知られている．そこで，<em>meigo</em>変異をもつニューロンでは樹状突起のターゲティングを担う膜タンパク質の合成が抑制されているためにターゲティングの異常が起こる，という仮説にもとづき，候補タンパク質に関してサプレッサースクリーニングを行った．ここでは，糖鎖修飾の影響を強くうける膜タンパク質，および，軸索のターゲティングにかかわる膜タンパク質を候補とし，それらの遺伝子の過剰発現により<em>meigo</em>変異ホモ接合体となった投射ニューロンにおける樹状突起のターゲティングの異常が抑制されるかどうかを調べた．その結果，樹状突起のターゲティングに必要であることがすでに知られているSemaphorin-1a <a href="#R8"><sup>8)</sup></a> やNカドヘリン<a href="#R9"><sup>9)</sup></a> の過剰発現では抑制されなかったのに対し，唯一，Ephrinの過剰発現が樹状突起のターゲティングの異常，とくに，糸球体への収束の異常を抑制することが明らかになった．<br/>　Ephrinは投射ニューロンにおける樹状突起のターゲティングにどのように機能しているのだろうか．<em>ephrin</em>遺伝子の発現を抑制した際に起こる表現型を観察するため，<em>ephrin</em>遺伝子のshRNAを発現するトランスジェニックショウジョウバエを作出し，MARCM法により特定の投射ニューロンのみで<em>ephrin</em>遺伝子の発現を抑制した．その結果，投射ニューロンの樹状突起は糸球体への収束の異常を示した．したがって，投射ニューロンの樹状突起が糸球体へと収束するにはEphrinが必要であり，<em>meigo</em>変異をもつニューロンの樹状突起が示した糸球体への収束の異常は，Ephrinの機能の減弱により起こっていることが示唆された．<br/><br/><h2>4．MeigoはEphrinのタンパク質量，細胞内局在，糖鎖修飾にかかわる</h2><br/>　遺伝学的な相互作用からMeigoがEphrinの機能を制御していることが示唆されたため，S2細胞を用いてその詳細な分子機構を検証した．<em>meigo</em>遺伝子の発現を抑制したS2細胞にEphrinを発現させたところ，Ephrinのタンパク質量は対照に比べ有意に減少した．さらに，Ephrinの細胞内局在を検証したところ，<em>meigo</em>遺伝子の発現を抑制するとEphrinが細胞内にとどまる割合が増え，逆に，<em>meigo</em>遺伝子を過剰発現すると細胞膜へ局在する割合が増加した．<br/>　Meigoは糖核酸トランスポーターであると推定されることから，MeigoはEphrinの糖鎖修飾にかかわり，その糖鎖修飾がEphrinシグナルを制御しているものと予想された．ショウジョウバエのEphrinには4か所の<em>N</em>-結合型糖鎖付加部位がある．この4か所に付加される<em>N</em>-結合型糖鎖の程度はMeigoの発現量により影響をうけるのかS2細胞において検証したところ，内在性の<em>meigo</em>遺伝子の発現を抑制したときには<em>N</em>-結合型糖鎖の付加数は減少し，逆に，<em>meigo</em>遺伝子を過剰発現すると<em>N</em>-結合型糖鎖の付加数は増加することが見い出された．さらに，この<em>N</em>-結合型糖鎖がEphrinの機能に重要かどうかを調べるため，<em>N</em>-結合型糖鎖付加部位に変異を誘導した非糖鎖付加型Ephrin変異体を作出し，その生体における機能を検証した．その結果，<em>meigo</em>変異ホモ接合体となった投射ニューロンの表現型を抑制する機能は，野生型Ephrinより非糖鎖付加型Ephrinのほうが弱かった．つまり，Meigoが正に制御しているEphrinの<em>N</em>-結合型糖鎖は，投射ニューロンにおけるEphrinの機能に重要であることが示唆された．<br/>　以上の結果より，MeigoはEphrinの生合成，細胞膜への輸送，<em>N</em>-結合型糖鎖の修飾のすべてにかかわり，それらが相乗的にはたらくことによりEphrinの機能に致命的な損傷をひき起こしていると考えられた（<a href="#F2">図2</a>）．また，<em>N</em>-結合型糖鎖は小胞体におけるタンパク質品質管理機構にて中心的な役割をはたしているため，一般的に<em>N</em>-結合型糖鎖修飾にかかわるタンパク質の機能の減弱は小胞体ストレス応答をひき起こす<a href="#R1"><sup>1)</sup></a>．したがって，Meigoの機能減弱によりひき起こされた小胞体ストレス応答は，<em>N</em>-結合型糖鎖の修飾の異常により誘導されていたのではないかと考察された．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　小胞体タンパク質Meigoによる樹状突起のターゲティングにおける制御</strong><br/>（a）野生型．Meigoは小胞体に存在し，糖核酸の小胞体への輸送，タンパク質のフォールディングなどをサポートすることにより，膜タンパク質の安定供給を実現しており，正常な樹状突起のターゲティングが起こる．<br/>（b）<em>meigo</em>変異体．Meigoがなくなると小胞体ストレス応答が生じ，Ephrinの量，および，正中線-側方軸方向のターゲティングを担うタンパク質の量が減少し機能が減弱する．このとき，背腹軸方向のターゲティングを担うタンパク質は影響をうけていないと考えられ，その結果，特異的な樹状突起のターゲティングの異常がひき起こされる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Chihara-Nature-Neuroscience-13.5.28-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　小胞体タンパク質Meigoによる樹状突起のターゲティングにおける制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Chihara-Nature-Neuroscience-13.5.28-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Chihara-Nature-Neuroscience-13.5.28-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究は，新規の小胞体タンパク質Meigoがショウジョウバエの嗅覚系ニューロンにおける樹状突起のターゲティングおよび軸索のターゲティングにおいて，正中線-側方軸に関するターゲティング，および，糸球体への収束という特定の局面に必要であることを明らかにした．MeigoはEphrinの生合成，細胞膜への輸送，<em>N</em>-結合型糖鎖の修飾にかかわることにより，そのシグナルを間接的に制御していると考えられた．ただし，<em>meigo</em>変異ホモ接合体となった投射ニューロンにおいて異常のみられた正中線-側方軸方向に関するターゲティングを担うタンパク質はいまだ同定されておらず，今後の研究が待たれる（<a href="#F2">図2</a>）．また，この研究は，胚発生やがん細胞の転移など生物のさまざまな局面において機能するEphrinが，樹状突起の収束の過程においても機能していることをはじめて示しただけでなく，Ephrinの生体での機能において<em>N</em>-結合型糖鎖が重要であることを示唆した．この<em>N</em>-結合型糖鎖付加部位はEphrinファミリーメンバーのあいだで広く保存されており，Ephrinが四量体を形成する際の接触面に位置することが報告されているため<a href="#R10"><sup>10)</sup></a>，<em>N</em>-結合型糖鎖がリガンドとの親和性を制御している可能性も考えられた．<br/>　以上，小胞体タンパク質が神経回路の形成において特定の局面に必要とされる現象は新しく，この研究は，細胞膜タンパク質の小胞体における機能の制御が樹状突起のターゲティングにおいて重要であることを示唆した．さらに，細胞の生死，また，恒常性の維持にかかわる小胞体は，神経変性疾患や糖尿病など多くの疾患との関連が報告されていることから，今回のMeigoの発見は，小胞体の生理機能のさらなる理解や小胞体関連疾患の発症機序の解明にもつながるものと期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Schroder, M. & Kaufman, R. J.</span>: <span class="ti">ER stress and the unfolded protein response.</span> <span class='so'>Mutat. Res., 569, 29-63 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15603751" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Chihara, T., Luginbuhl, D. & Luo, L.</span>: <span class="ti">Cytoplasmic and mitochondrial protein translation in axonal and dendritic terminal arborization.</span> <span class='so'>Nat. Neurosci., 10, 828-837 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17529987" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Jefferis, G. S. & Hummel, T. .</span>: <span class="ti">Wiring specificity in the olfactory system.</span> <span class='so'>Semin. Cell Dev. Biol., 17, 50-65 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16439169" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Nakanishi, H., Nakayama, K., Yokota, A. et al.</span>: <span class="ti">Hut1 proteins identified in <em>Saccharomyces cerevisiae</em> and <em>Schizosaccharomyces pombe</em> are functional homologues involved in the protein-folding process at the endoplasmic reticulum.</span> <span class='so'>Yeast, 18, 543-554 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11284010" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Dejima, K., Murata, D., Mizuguchi, S. et al.</span>: <span class="ti">The ortholog of human solute carrier family 35 member B1 (UDP-galactose transporter-related protein 1) is involved in maintenance of ER homeostasis and essential for larval development in <em>Caenorhabditis elegans</em>.</span> <span class='so'>FASEB J., 23, 2215-2225 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19270184" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Iwawaki, T., Akai, R., Kohno, K. et al.</span>: <span class="ti">A transgenic mouse model for monitoring endoplasmic reticulum stress.</span> <span class='so'>Nat. Med., 10, 98-102 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14702639" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Ryoo, H. D., Domingos, P. M., Kang, M. J. et al.</span>: <span class="ti">Unfolded protein response in a <em>Drosophila</em> model for retinal degeneration.</span> <span class='so'>EMBO J., 26, 242-252 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17170705" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Komiyama, T., Sweeney, L. B., Schuldiner, O. et al.</span>: <span class="ti">Graded expression of semaphorin-1a cell-autonomously directs dendritic targeting of olfactory projection neurons.</span> <span class='so'>Cell, 128, 399-410 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17254975" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Zhu, H. & Luo, L.</span>: <span class="ti">Diverse functions of N-cadherin in dendritic and axonal terminal arborization of olfactory projection neurons.</span> <span class='so'>Neuron, 42, 63-75 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15066265" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Toth, J., Cutforth, T., Gelinas, A. D. et al.</span>: <span class="ti">Crystal structure of an ephrin ectodomain.</span> <span class='so'>Dev. Cell, 1, 83-92 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11703926" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">関根 清薫（Sayaka U. Sekine）</span><br>略歴：2012年 東京大学大学院薬学系研究科にて博士号取得，のち同 特任研究員．<br>研究テーマ：樹状突起のターゲティングによる神経回路の形成の分子機構．<br>抱負：ニューロンを人為的につなぐことにより機能的な回路をつくりだし，神経の断裂や神経変性疾患の治療を実現したい．<br><br><strong>千原 崇裕（Takahiro Chihara）</strong><br>東京大学大学院薬学系研究科 講師．<br></div><br>© 2013 関根清薫・千原崇裕 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

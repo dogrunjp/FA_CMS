@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> クロマチンにおける転写の構造基盤 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>クロマチンにおける転写の構造基盤</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>鯨井智也<sup>1</sup>・江原晴彦<sup>2</sup>・関根俊一<sup>2</sup>・胡桃坂仁志<sup>1</sup></strong><br>（<sup>1</sup>東京大学定量生命科学研究所 クロマチン構造機能研究分野，<sup>2</sup>理化学研究所生命機能科学研究センター 転写制御構造生物学研究チーム）<br>email：<a href="mailto:shunichi.sekine@riken.jp">関根俊一</a>，<a href="mailto:kurumizaka@iam.u-tokyo.ac.jp">胡桃坂仁志</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2018.104">10.7875/first.author.2018.104</a><br><div class="reference"><br><span class="ti">Structural basis of the nucleosome transition during RNA polymerase II passage.</span><br><span class="au">Tomoya Kujirai, Haruhiko Ehara, Yuka Fujino, Mikako Shirouzu, Shun-ichi Sekine, Hitoshi Kurumizaka</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/30287617" target="_blank"><em>Science</em>, <strong>362</strong>, 595-598 (2018)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　真核生物においてゲノムDNAは<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>を基本単位とするクロマチンを形成し核に収納される．生命活動の根幹である遺伝子の発現は，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>によりDNAからRNAが転写される反応からはじまる．クロマチンにおいて<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>が転写反応を行うためには，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>において<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>に強固に巻きついたDNAの配列を読み取る必要がある．しかし，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>による<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>DNAの読み取りの機構については不明であった．この研究において，筆者らは，試験管内において<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>DNAからの転写反応を再現し，クライオ電子顕微鏡を用いた単粒子解析により転写反応中の<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>-ヌクレオソーム複合体の立体構造を明らかにした．一連の構造から，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>が<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>からDNAを段階的にはがしながら転写反応を行うようすが明らかにされた．<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>DNAの中心の付近にて停止した複合体には外来のDNAがトランスに結合していた．このDNAがトランスに結合した複合体は，転写反応における<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>の転移の中間体の構造である“テンプレートルーピング”構造を示唆した．これらの知見は，ゲノムのエピジェネティックな制御の中心であるクロマチンにおける<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>による転写の構造基盤を示すものである．<br/><br/><h2>はじめに</h2><br/>　真核生物においてゲノムDNAはさまざまなタンパク質が結合したクロマチンを形成し核に収納される．クロマチンの最小単位は<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>であり，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>は4種類の<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>タンパク質，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H2A，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H2B，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H3，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H4をそれぞれ2分子ずつ含む<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>八量体に約150 bpのDNAが巻きついた円盤状の構造体である<a href="#R1"><sup>1)</sup></a>．クロマチンの基本構造は<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>が数珠状につらなった超分子ポリマーである．転写，DNA修復，複製などのDNAの機能はこのクロマチンにおいて実現される（<a href="#F1">図1</a>，PDB ID：<a href="https://pdbj.org/mine/summary/5xon" target="_blank">5XON</a>，<a href="https://pdbj.org/mine/summary/5x7x" target="_blank">5X7X</a>）．遺伝子の発現を担うDNAからRNAが転写される反応は<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>により触媒される．<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>による転写の機構については，これまで，非常に多くの構造生物的な研究が進められてきたが，それらはすべてクロマチンではない，はだかのDNAにおける構造を解析したものであった．<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>においてDNAは<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>八量体に強固に巻きついているため，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>の構造は転写にとり大きな障害になる<a href="#R2"><sup>2,3)</sup></a>．そのため，クロマチンにおける転写，とくに，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>が<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>に巻きついたDNAを読み取る機構は，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>が発見されて以来の未解決の重要な課題であった．先行研究において，生体において<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>は<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>にて段階的に停止しながら転写反応を行うことが示されたが<a href="#R4"><sup>4)</sup></a>，その詳細な機構は不明であった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　RNAポリメラーゼIIによるクロマチンからの転写</strong><br/>ヌクレオソームがつらなるクロマチンにおいて，RNAポリメラーゼIIによる転写反応が進行する．RNAポリメラーゼIIはヌクレオソームと衝突し，一時的に停止しつつも転写反応を行う．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kurumizaka-Science-18.10.4-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　RNAポリメラーゼIIによるクロマチンからの転写" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kurumizaka-Science-18.10.4-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kurumizaka-Science-18.10.4-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　この研究において，筆者らは，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>DNAから<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>により転写反応を行わせ，得られた複数の複合体を混合物として調製した．そして，クライオ電子顕微鏡を用いた単粒子解析により，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>において段階的に停止した一連の<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>-ヌクレオソーム複合体の立体構造を明らかにした．<br/><br/><h2>1．転写反応中の<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>と<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>との複合体の調製</h2><br/>　先行研究において，生体において<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>が<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>DNAから転写をする際には，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>DNAの中心の付近まではさまざまな位置で一時停止しつつ伸長反応を行う一方，中心の付近で<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>が脱落し，それ以降は停止することなく伸長反応を行うと考えられていた<a href="#R4"><sup>4)</sup></a>．そこで，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>により<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>DNAから転写反応を行わせるための鋳型DNAのデザインとして，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>の脱落をふせぐため<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>DNAの中心の手前の位置で<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>が停止するようDNAの配列を設計した．具体的には，中心の手前までをチミンを含まない配列とし，反応溶液のATPを3’-dATPに置換することにより転写が<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>DNAの中心の手前で停止するようにした．さらに，構造解析にむけ，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>の位置を正確に固定するためのDNAの配列として，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>に強固に巻きつくWidom601配列を用いた．このようにデザインした鋳型DNAと，組換えタンパク質として精製した<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H2A，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H2B，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H3，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H4を用いて<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>を再構成した．<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>のリンカー領域にバブルDNA構造を模倣したミスマッチ2本鎖DNAを連結し，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>による転写の開始点とした．精製した酵母<em>Komagataella pastoris</em>の<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>および転写伸長因子<a href="#" class="anno" data-query="TFIIS" data-uniprot="">TFIIS</a>を，バブルDNA構造をとる領域に相補的なプライマーRNA，GTP，CTP，UTP，3’-dATPを含む条件において，バブルDNA構造をもつ<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>に添加することにより転写反応を行わせた．そののち，GraFix法により反応液を分画および架橋し，伸長したRNAを含むポリメラーゼII-ヌクレオソーム複合体を安定化させて精製した．精製された<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>-ヌクレオソーム複合体に含まれるRNAを解析した結果，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>は，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>の入り口の手前の位置，20 bp侵入した位置，50 bp侵入した位置，60 bp侵入した位置において，それぞれ，停止していることがわかった．これらの停止位置に対応する<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>-ヌクレオソーム複合体を，停止位置の<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>の超らせんの位置（super helical location）を参照して，それぞれ，SHL(-6) 複合体，SHL(-5) 複合体，SHL(-2) 複合体，SHL(-1) 複合体と名づけた．<br/><br/><h2>2．<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>-ヌクレオソーム複合体の立体構造</h2><br/>　これまで頻繁に用いられてきたX線結晶構造解析法は，結晶の作製のため試料の溶液に含まれる粒子が均一である必要があった．そこで，近年，急速に発展しているクライオ電子顕微鏡による単粒子解析を試みた．単粒子解析においては，さまざまな粒子を含む不均一な試料でも，溶液に含まれる粒子を分類することにより立体構造解析が可能である．単粒子解析の結果，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>のSHL(-6)，SHL(-5)，SHL(-2)，SHL(-1) の位置において<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>が停止した，合計で7つの<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>-ヌクレオソーム複合体の立体構造が決定された（PDB ID：<a href="https://pdbj.org/mine/summary/6a5o" target="_blank">6A5O </a>，<a href="https://pdbj.org/mine/summary/6a5p" target="_blank">6A5P </a>，<a href="https://pdbj.org/mine/summary/6a5r" target="_blank">6A5R </a>，<a href="https://pdbj.org/mine/summary/6a5t" target="_blank">6A5T </a>，<a href="https://pdbj.org/mine/summary/6a5l" target="_blank">6A5L </a>，<a href="https://pdbj.org/mine/summary/6a5u" target="_blank">6A5U </a>，<a href="https://pdbj.org/mine/summary/6a5v" target="_blank">6A5V </a>）．これら一連の構造は，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>が<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>DNAから転写反応をしている最中のスナップショットを表わしており，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>は<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>からDNAを段階的にはがすことによりDNAを読み取っていくことが明らかにされた．一連の構造において，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>は活性型の構造を形成しており，転写反応のおのおのの段階において大きな変化はなかった．<br/>　<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>は<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>において<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>とDNAとが強固に相互作用している部位にて停止していた．SHL(-5) 複合体は<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H2A-ヒストンH2B二量体とDNAとの相互作用部位において，SHL(-6) 複合体，SHL(-2) 複合体，SHL(-1) 複合体は<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H3-ヒストンH4二量体とDNAとの相互作用部位において停止していた．<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>は<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>にて複数の異なる位置で停止していたが，いずれの停止位置においても，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>に対する<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>の角度は類似していた．そして，どの停止位置においても，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>のサブユニットのひとつである<a href="#" class="anno" data-query="RPB1" data-uniprot="P24928">Rpb1</a>のclamp headドメインが，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>からはがされていないDNAにそうよう結合していた．<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>とDNAとの強固な相互作用にくわえ，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>と<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>DNAとの相互作用が，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>が<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>にて停止する機構において重要であると考えられた．<br/><br/><h2>3．<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>の転写反応にともなう<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>の構造の変化</h2><br/>　<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>により転写反応が行われるのにともない，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>からDNAがはがされていく．SHL(-6) 複合体は，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>からDNAがはがされるまえの，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>が<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>に衝突した状態の複合体であった．また，SHL(-5) 複合体は<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>からDNAが20 bpほどはがされた構造であった．これらの位置の近傍には<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H3のN末端領域が位置していた．<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H3のN末端領域はアセチル化をうけることが知られており，このアセチル化は<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>の末端において<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>がDNAをはがすことを助けている可能性が考えられた．SHL(-2) 複合体においてDNAは50 bpほどはがされ，SHL(-1) 複合体においてDNAは60 bpほどはがされていた．SHL(-2) 複合体およびSHL(-1) 複合体において，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H2A-ヒストンH2B二量体は<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>に存在した．このことは，先行研究において報告されていた，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>からDNAが40 bpほどはがされた場合，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H2A-ヒストンH2B二量体は脱落するという知見に反していた<a href="#R5"><sup>5)</sup></a>．SHL(-2) 複合体の構造において，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H2A-ヒストンH2B二量体と，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>のサブユニットのひとつである<a href="#" class="anno" data-query="RPB2" data-uniprot="P30876">Rpb2</a>のlobeドメインとが直接に相互作用していることが判明し，この相互作用により，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>において<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H2A-ヒストンH2B二量体は安定化されると考えられた．<br/>　SHL(-1) 複合体において<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>の停止に寄与すると考えられた<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H3のLys64は，転写開始点の周辺においてアセチル化されることによりDNAとの相互作用を弱めると考えられている<a href="#R6"><sup>6)</sup></a>．そのため，SHL(-1) は<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>の修飾による転写のエピジェネティックな制御に重要な位置であると考えられた．<br/><br/><h2>4．SHL(-1) 複合体において外来のDNAが<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H2A-ヒストンH2B二量体と結合する</h2><br/>　SHL(-1) 複合体においては，DNAがはがされ露出した<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H2A-ヒストンH2B二量体に試料の溶液に存在したほかのDNA，すなわち，外来のDNAが結合している画分が存在した．この外来のDNAが結合する現象は架橋していない試料の構造解析においても観察されたため，架橋によるアーティファクトではなかった．電子顕微鏡による写真から，外来のDNAは溶液に存在したほかの<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>のリンカー領域のDNAであると考えられた．この現象から，露出した<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H2A-ヒストンH2B二量体はほかのDNAと結合して<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>様の構造体を再形成する傾向のあることが示されたことと同時に，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>がシスまたはトランスに転移する際の中間体の構造を模している可能性が示唆された．先行研究において，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>により<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>DNAから転写反応が行われる際に，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>が<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>の下流側から上流側へと転移する現象が知られている．その際，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>の通過した下流側のDNAが，上流側に存在する<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>と結合することにより，テンプレートルーピング構造を形成することが報告されている<a href="#R7"><sup>7,8)</sup></a>．この研究において観察された外来のDNAが結合した複合体は，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>の上流側のDNAが下流側の<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>の<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H2A-ヒストンH2B複合体と結合したテンプレートルーピング構造を模倣したものなのかもしれない．<br/>　外来のDNAを含むSHL(-1) 複合体についてさらなる構造解析を進めた結果，SHL(-1) 複合体から1 bp伸長したSHL(-1)+1複合体，および，SHL(-1) 複合体とSHL(-1)+1複合体の中間の状態と考えられるtilted SHL(-1) 複合体の構造も明らかにされた．SHL(-1) 複合体に対し，SHL(-1)+1複合体において<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>に対する<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>の角度は36度ほど回転しており，tilted SHL(-1) 複合体はその中間の構造であった．これらの構造は，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>が<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>DNAを1 bpだけ進んだ際のスナップショット構造を示しているのだろう．<br/><br/><h2>おわりに</h2><br/>　この研究において，筆者らは，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>による転写反応にともなう<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>の構造の一連の変化を明らかにし，<a href="#" class="anno" data-query="RNA polymerase" data-uniprot="">RNAポリメラーゼ</a>が<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>からDNAを段階的にはがしながら転写反応を行うことをはじめて明らかにした．まず，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>は<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>と衝突し，そののち，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>から20 bp，50 bp，60 bpと段階的にDNAがはがされる．SHL(-1) 複合体においては<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H2A-ヒストンH2B二量体が露出し外来のDNAが結合できる状態になる．転写反応中に外来のDNAが結合した場合にはシスあるいはトランスに<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>の転移が起こり，外来のDNAが結合しない場合には<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>の解離が起こるのかもしれない（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　RNAポリメラーゼIIによるヌクレオソームDNAの段階的な転写反応のスキーム</strong><br/>SHL(-6)，SHL(-5)，SHL(-2)，SHL(-1) の位置で停止したRNAポリメラーゼII-ヌクレオソーム複合体の立体構造．転写反応ののちには，外来のDNAが存在する場合にはヒストンの転移，存在しない場合にはヒストンの解離が起こると予想される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kurumizaka-Science-18.10.4-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　RNAポリメラーゼIIによるヌクレオソームDNAの段階的な転写反応のスキーム" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kurumizaka-Science-18.10.4-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kurumizaka-Science-18.10.4-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　正常なクロマチンの維持は細胞にとりきわめて重要であり，その破綻はがんをはじめとするさまざまな疾患の原因になりうるほか，細胞の老化などにも深くかかわることが知られている．細胞において<a href="#" class="anno" data-query="RNA polymerase" data-uniprot="">RNAポリメラーゼ</a>に対しさまざまな転写伸長因子が結合することによりクロマチンから効率的な転写が起こると考えられている<a href="#R9"><sup>9,10)</sup></a>（文献<a href="#R9"><sup>9)</sup></a> は <a href="http://first.lifesciencedb.jp/archives/16996" target="_blank">新着論文レビュー</a> でも掲載）．また，<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>リモデリングタンパク質，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>シャペロン，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>修飾酵素などが協調的にはたらくことにより，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>の修飾やリモデリングによるクロマチンの機能的な構造の変化が実現されている．この研究において明らかにされた一連の構造および実験の手法は，これら転写反応と同時に起こる高次のクロマチンの構造の変化を理解していくための基盤を提供するだろう．<br/>　構造解析に用いた反応液には<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>が<a href="#" class="anno" data-query="nucleosome" data-uniprot="">ヌクレオソーム</a>のさまざまな地点で停止した複数の種類の複合体が含まれていたが，計算機による画像処理により立体構造が同時に解明された．明らかにさまざまな粒子を含む不均一な混合液を用いて7種類もの立体構造が同時に明らかにされたことは世界的にもほとんど例のないことから，クライオ電子顕微鏡のさらなる可能性が提示されたと考えている．<br/>　この論文が<em>Science</em>誌に掲載されてから数日後，別の研究グループにより，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>-ヌクレオソーム複合体のクライオ電子顕微鏡による構造がプレプリントリポジトリであるBioRxivに発表された（DOI：<a href="http://dx.doi.org/10.1101/437574" target="_blank">10.1101/437574</a>）．これは，この研究分野に対する関心の高さや将来性を示すものである．今後の発展を期待したい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Luger, K., Mader, A. W., Richmond, R. K. et al.</span>: <span class="ti">Crystal structure of the nucleosome core particle at 2.8Å resolution.</span> <span class='so'>Nature, 389, 251-260 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9305837" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Teves, S. S., Weber, C. M. & Henikoff, S.</span>: <span class="ti">Transcribing through the nucleosome.</span> <span class='so'>Trends Biochem. Sci., 39, 577-586 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25455758" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Lai, W. K. M. & Pugh, B. F.</span>: <span class="ti">Understanding nucleosome dynamics and their links to gene expression and DNA replication.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 18, 548-562 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28537572" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Weber. C. M., Ramachandran, S. & Henikoff, S.</span>: <span class="ti">Nucleosomes are context-specific, H2A.Z-modulated barriers to RNA polymerase.</span> <span class='so'>Mol. Cell, 53, 819-830 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24606920" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Arimura, Y., Tachiwana, H., Oda, T. et al.</span>: <span class="ti">Structural analysis of the hexasome, lacking one histone H2A/H2B dimer from the conventional nucleosome.</span> <span class='so'>Biochemistry, 51, 3302-3309 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22448809" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Di Cerbo, V., Mohn, F., Ryan, D. P. et al.</span>: <span class="ti">Acetylation of histone H3 at lysine 64 regulates nucleosome dynamics and facilitates transcription.</span> <span class='so'>Elife, 3, e01632 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24668167" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Studitsky, V. M., Clark, D. J. & Felsenfeld, G.</span>: <span class="ti">A histone octamer can step around a transcribing polymerase without leaving the template.</span> <span class='so'>Cell, 76, 371-382 (1994)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8293470" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Hodges, C., Bintu, L., Lubkowska, L. et al.</span>: <span class="ti">Nucleosomal fluctuations govern the transcription dynamics of RNA polymerase II.</span> <span class='so'>Science, 325, 626-628 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19644123" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Ehara, H., Yokoyama, T., Shigematsu, H. et al.</span>: <span class="ti">Structure of the complete elongation complex of RNA polymerase II with basal factors.</span> <span class='so'>Science, 357, 921-924 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28775211" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/16996" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R10"><span class='au'>Vos, S. M., Farnung, L., Boehning, M. et al.</span>: <span class="ti">Structure of activated transcription complex Pol II-DSIF-PAF-SPT6.</span> <span class='so'>Nature, 560, 607-612 (2018)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/30135578" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=PDBj" target="_blank">PDBj</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=構造解析" target="_blank">構造解析</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">鯨井 智也（Tomoya Kujirai）</span><br>略歴：2018年 早稲田大学大学院先進理工学研究科 修了，同年より東京大学定量生命科学研究所 助教．<br>研究テーマ：クロマチンの構造と遺伝子発現の制御．<br>関心事：つぎの研究．<br><br><strong>江原 晴彦（Haruhiko Ehara）</strong><br>理化学研究所生命機能科学研究センター 研究員．<br><br><strong>関根 俊一（Shun-ichi Sekine）</strong><br>理化学研究所生命機能科学研究センター チームリーダー．<br>研究室URL：<a href="https://www.bdr.riken.jp/jp/research/labs/sekine-s/index.html" target="_blank">https://www.bdr.riken.jp/jp/research/labs/sekine-s/index.html</a><br><br><strong>胡桃坂 仁志（Hitoshi Kurumizaka）</strong><br>東京大学定量生命科学研究所 教授．<br>研究室URL：<a href="http://www.iam.u-tokyo.ac.jp/kurumizakalab/" target="_blank">http://www.iam.u-tokyo.ac.jp/kurumizakalab/</a><br></div><br>© 2018 鯨井智也・江原晴彦・関根俊一・胡桃坂仁志 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

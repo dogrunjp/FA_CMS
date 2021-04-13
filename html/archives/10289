@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 遺伝子発現の量およびサイトカインの特異性を制御するSTAT1およびSTAT3の非対称的な作用 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>遺伝子発現の量およびサイトカインの特異性を制御するSTAT1およびSTAT3の非対称的な作用</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>平原 潔<sup>1</sup>・中山俊憲<sup>2</sup>・菅野由香<sup>3</sup></strong><br>（<sup>1</sup>千葉大学大学院医学研究院 先進気道アレルギー学，<sup>2</sup>千葉大学大学院医学研究院 免疫発生学，<sup>3</sup>米国NIH National Institute of Arthritis and Musculoskeletal and Skin Diseases，Molecular Immunology and Inflammation Branch）<br>email：<a href="mailto:hiraharak@chiba-u.jp">平原 潔</a>，<a href="mailto:kannoy@mail.nih.gov">菅野由香</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.071">10.7875/first.author.2015.071</a><br><div class="reference"><br><span class="ti">Asymmetric action of STAT transcription factors drives transcriptional outputs and cytokine specificity.</span><br><span class="au">Kiyoshi Hirahara, Atsushi Onodera, Alejandro V. Villarino, Michael Bonelli, Giuseppe Sciumè, Arian Laurence, Hong-Wei Sun, Stephen R. Brooks, Golnaz Vahedi, Han-Yu Shih, Gustavo Gutierrez-Cruz, Shigeru Iwata, Ryo Suzuki, Yohei Mikami, Yoshitaka Okamoto, Toshinori Nakayama, Steven M. Holland, Christopher A. Hunter, Yuka Kanno, John J. O’Shea</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25992861" target="_blank"><em>Immunity</em>, <strong>42</strong> 877-889 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　シグナル伝達タンパク質であるSTATはサイトカインの生理作用において重要なはたらきを担う．哺乳類には7種類のSTATが存在し，サイトカインは複数のSTATを同時に活性化することが知られている．しかし，複数のSTATのあいだの相互の関係については不明な点が多い．筆者らは，インターロイキン6とインターロイキン27が相反する生理作用をもちながらSTAT1およびSTAT3を共通して活性化する事実に着目し，インターロイキン6およびインターロイキン27の生理作用においてSTAT1とSTAT3がどのような役割を分担しているかについて解析した．その結果，インターロイキン6あるいはインターロイキン27により誘導される遺伝子発現はその大部分がSTAT3により制御されていること，STAT1はインターロイキン6あるいはインターロイキン27により誘導される遺伝子のあいだの特異性を保つ機能があること，が明らかにされた．つまり，インターロイキン6およびインターロイキン27の生理機能を規定するうえでSTAT1とSTAT3の役割は非対称的であり，おのおのに特異的な機能の存在することが明らかにされた．また，STAT1あるいはSTAT3のDNAとの結合をゲノムワイドに検討した結果，STAT1の結合はおおむねSTAT3に依存的であった．さらに，機能獲得型の<em>STAT1</em>遺伝子変異をもつ慢性の真菌感染症の患者では，末梢血のCD4陽性T細胞において免疫疾患に関連する遺伝子の発現が変動していた．以上の結果から，非対称な機能をもつ複数のSTATが機能的な均衡を保つことにより，生体において免疫恒常性が維持されるしくみが示唆された．<br/><br/><h2>はじめに</h2><br/>　サイトカインは外敵から生体を防御するだけでなく，成長，代謝，恒常性の維持において重要な役割を担う．200種類以上もあるサイトカインはそれぞれ特徴的な生理作用をもつ一方，多くのサイトカインの生理作用は重複している．サイトカインはさまざまな細胞内シグナル伝達経路を活性化するが，なかでも，1型サイトカインおよび2型サイトカインはJanus-STAT経路を活性化することによりその生理作用を発揮する<a href="#R1"><sup>1)</sup></a>．しかし，哺乳類において7種類が存在するシグナル伝達タンパク質STATにおいて，活性化された複数のSTATの相互の連関については不明な点が多い．<br/>　当初，インターロイキン27はTh1反応を誘導するサイトカインとして知られていた．しかし，インターロイキン27受容体ノックアウトマウスの解析からインターロイキン27は抗炎症作用をもつことが明らかにされた<a href="#R2"><sup>2,3)</sup></a>．インターロイキン27の抗炎症作用の分子機構として，Th17細胞の分化の抑制のみならず，インターロイキン10やPD-L1の発現の誘導，Tr1細胞の分化の誘導などが同定された<a href="#R4"><sup>4-7)</sup></a>．インターロイキン27はWSX-1とGP130からなる受容体と結合する．GP130はインターロイキン27のみならずインターロイキン6とも結合する<a href="#R8"><sup>8)</sup></a>．さらに，インターロイキン6およびインターロイキン27はともにJanus-STATシグナル伝達経路を用いておもにSTAT1およびSTAT3を活性化して生理機能を発揮する<a href="#R2"><sup>2,9)</sup></a>．しかしながら，インターロイキン6はTh1反応を抑制しTh17細胞の分化の誘導を促進する炎症性サイトカインとして知られており，インターロイキン27とは相反する効果をもたらす．<br/>　このように，インターロイキン6とインターロイキン27は受容体のサブユニットを共有し共通のシグナル伝達経路を用いるにもかかわらず，相反する生理作用を示す．筆者らは，この興味深い現象を分子レベルにおいて理解することを目的として，インターロイキン6およびインターロイキン27の重複および特異的な作用について調べた．手技としてRNA-seq法およびChIP-seq法といった網羅的な解析法を用い，インターロイキン6あるいはインターロイキン27により誘導される遺伝子を定量的に解析した．<br/><br/><h2>1．インターロイキン6あるいはインターロイキン27により誘導される遺伝子発現の変動の定量的な評価</h2><br/>　インターロイキン6受容体およびインターロイキン27受容体をともに発現するヘルパーT細胞を用い，相反する生理作用をもちながらもSTAT1およびSTAT3をともに活性化するインターロイキン6およびインターロイキン27について解析した．インターロイキン6およびインターロイキン27の生理作用については遺伝子発現の変化を指標にRNA-seq法を用いて解析した．インターロイキン6あるいはインターロイキン27による刺激に対しそれぞれ特異的に反応する遺伝子および共通に反応する遺伝子をゲノムワイドに定量した結果，インターロイキン6に特異的な遺伝子503個，インターロイキン27に特異的な遺伝子311個，インターロイキン6とインターロイキン27に共通の遺伝子379個が同定された．インターロイキン6とインターロイキン27は生体において相反する生理作用をもつにもかかわらず，これらの遺伝子1193個のうちわずか22個の遺伝子のみが相反する発現パターンを示した．一方，この相反する制御をうけている遺伝子には免疫応答に重要な遺伝子が含まれていた．<br/><br/><h2>2．インターロイキン6とインターロイキン27は異なるタイミングでSTAT1およびSTAT3の活性化を誘導する</h2><br/>　インターロイキン6によるSTAT1の活性化は刺激ののち24時間以内に収束した一方，インターロイキン27によるSTAT1の活性化は刺激ののち72時間でも認められた．また，STAT3の活性化はインターロイキン6あるいはインターロイキン27ともに刺激ののち72時間後でも持続していた．さらに，インターロイキン6あるいはインターロイキン27により誘導されるSTAT1およびSTAT3による二量体の形成（ホモ二量体およびヘテロ二量体）について，EMSA法を用いて時系列的な変化を解析した．その結果，刺激ののち24時間ではインターロイキン6はSTAT3ホモ二量体の形成を強く誘導した一方，インターロイキン27はSTAT1ホモ二量体の形成を誘導した．さらに，これらのホモ二量体およびヘテロ二量体は刺激ののち72時間の時点で消失した．以上の結果から，インターロイキン6とインターロイキン27はそれぞれ異なる経時変化でSTAT1あるいはSTAT3の活性化を誘導することが示された．<br/><br/><h2>3．STAT1とSTAT3は遺伝子発現の制御において非対称な作用を示す</h2><br/>　インターロイキン6あるいはインターロイキン27による遺伝子発現の変化におけるSTAT1およびSTAT3の役割を解析するため，STAT1ノックアウトマウスあるいはSTAT3ノックアウトマウスに由来するCD4陽性T細胞を用いRNA-seq法により解析した．その結果，STAT1を欠損したCD4陽性T細胞においてはインターロイキン6あるいはインターロイキン27による刺激により誘導される遺伝子の特異性が失われ，インターロイキン6とインターロイキン27に共通の遺伝子がインターロイキン6およびインターロイキン27により同じように誘導された．一方，STAT3を欠損したCD4陽性T細胞においてはインターロイキン6あるいはインターロイキン27により誘導される遺伝子の変化が損なわれ，インターロイキン6およびインターロイキン27の生理的な効果がいちじるしく減弱した．この結果は，STAT1およびSTAT3が非対称的な機能をもつことを示唆した．<br/>　さらに，遺伝子発現の経時的な変化におけるSTAT1およびSTAT3の役割を解析するためRNA-seq法により経時的に解析した．刺激から6時間のちの早期の時点では，STAT1の欠損によりインターロイキン27に特異的な遺伝子の発現に影響が認められた一方，STAT3の欠損はインターロイキン6に特異的な遺伝子の発現の低下の原因になった．しかし，刺激から24時間のちおよび72時間のちの時点では，STAT1あるいはSTAT3の欠損の影響は広い範囲におよんだ．<br/><br/><h2>4．インターロイキン6により発現が制御されている遺伝子においてSTAT1はSTAT3に依存してDNAと結合する</h2><br/>　インターロイキン6あるいはインターロイキン27により誘導されるSTAT1およびSTAT3による機能的な二量体がどのように遺伝子発現を制御しているか解析するため，STAT1およびSTAT3のDNAへの結合をChIP-seq法を用いて解析した．全ゲノムにおいてインターロイキン6あるいはインターロイキン27により誘導されるSTAT1あるいはSTAT3の結合のうち，60％は刺激により新たに出現した一方，20％は刺激により消失し，残りの20％は刺激の前後で変化はなかった．また，STAT3の結合部位はSTAT1の結合部位と比較して2倍以上も存在した．この結果は，インターロイキン6あるいはインターロイキン27により誘導される遺伝子発現の変化の大部分がSTAT3により制御されているというRNA-seq法による結果とよく一致した．<br/>　インターロイキン6に特異的な遺伝子，インターロイキン27に特異的な遺伝子，インターロイキン6とインターロイキン27に共通の遺伝子において，その近傍にあるSTAT1あるいはSTAT3の結合部位を定量したところ，インターロイキン6により抑制される遺伝子において，STAT1との結合がSTAT3との結合に比較して増強していた．この結果は，STAT1がこれらの遺伝子の発現を抑制している可能性を示唆した．<br/>　さらに，STAT1とSTAT3との相互関係を明らかにするため，それぞれのSTATを欠損したT細胞におけるもう一方のSTATとDNAとの結合をChIP-seq法を用いて解析した．インターロイキン6に特異的な遺伝子においてはSTAT1を欠損させるとSTAT3の結合は増加したのに対し，STAT3を欠損させるとSTAT1の結合は著明に減少した．一方，インターロイキン27に特異的な遺伝子においては，STAT3を欠損させてもSTAT1の結合は比較的保たれていた．これらの結果から，インターロイキン6に特異的な遺伝子において，STAT1のDNAとの結合はSTAT3に依存的である一方，インターロイキン27に特異的な遺伝子においてはSTAT1ホモ二量体がはたらいている可能性が示唆された．<br/><br/><h2>5．機能獲得型の<em>STAT1</em>遺伝子変異は免疫疾患に関連する遺伝子の発現を変化させる</h2><br/>　機能獲得型の<em>STAT1</em>遺伝子変異をもつ慢性の真菌感染症の患者において，STAT1の過剰な活性化がサイトカインに対する反応をどのように変化させて重症化の原因となるかについて検討した．機能獲得型の<em>STAT1</em>遺伝子変異をもつ患者5例および健常人4例の末梢血から単離したCD45RA陽性CD4陽性T細胞に対し，インターロイキン6あるいはインターロイキン27による刺激を72時間あたえたのち，遺伝子発現の変化をRNA-seq法により網羅的に解析した．その結果，機能獲得型の<em>STAT1</em>遺伝子変異をもつ患者において，健常人においては変化しない3458個の遺伝子が刺激により新たに発現の変動を示した．一方，健常人において発現の変化していた573個の遺伝子において発現の変化が認められなくなった．これらの遺伝子について，どのような特徴をもつ遺伝子が多く認められるかネットワーク解析を行ったところ，免疫疾患に関連する遺伝子が有意に多く存在していた．<br/>　STAT1ノックアウトマウスを用いた実験からSTAT1がインターロイキン6あるいはインターロイキン27の特異性を規定していることが示唆されたため，ヒトにおいても同様の機構が存在するかどうか検討した．具体的には，機能獲得型の<em>STAT1</em>遺伝子変異をもつ患者および健常人において，インターロイキン6あるいはインターロイキン27による刺激により発現量の変化する遺伝子をそれぞれ同定し，それらのあいだの相関係数を解析した．その結果，機能獲得型の<em>STAT1</em>遺伝子変異をもつ患者では，健常人に比べインターロイキン6あるいはインターロイキン27に反応する遺伝子のあいだの相関係数が低下しており，インターロイキン6あるいはインターロイキン27の特異性は低下していた．<br/><br/><h2>おわりに</h2><br/>　サイトカインは生体において多様な生理作用をもつが，それぞれのサイトカインのもつ生理作用の特異性を規定する分子機構に関する知見は非常に少ない．今回，筆者らは，炎症性サイトカインとして知られるインターロイキン6と抗炎症性サイトカインと認識されているインターロイキン27について，シグナル伝達タンパク質STATを介した分子機構を解析した．その結果，インターロイキン6あるいはインターロイキン27により誘導される遺伝子発現の変化の大部分はSTAT3により制御されていること，一方で，STAT1はインターロイキン6あるいはインターロイキン27により誘導される遺伝子のあいだの特異性を制御していることが，マウスおよびヒトにおいて明らかにされた（<a href="#F1">図1</a>）．さらに，インターロイキン6あるいはインターロイキン27により誘導される遺伝子において，STAT1の結合の大部分はSTAT3に依存的であることが明らかにされた．つまり，サイトカインの生理機能を規定するうえで，STAT1およびSTAT3はそれぞれ非対称な機能をもち，STAT3の存在はSTAT1の機能の発現に重要であった．また，STAT1の過剰な活性化の起こる機能獲得型の<em>STAT1</em>遺伝子変異をもつ患者の検体の解析から，機能獲得型の<em>STAT1</em>遺伝子変異は免疫疾患に関連する遺伝子の発現に変動をひき起こすことが明らかにされた．このことは，非対称な機能をもつSTATが正しい機能的な均衡を保つことにより，健常人において望ましいかたちの免疫恒常性が維持されていることを示唆した．今後は，機能獲得型の<em>STAT1</em>遺伝子変異をもつ患者において異常の認められる遺伝子からさまざまな機能遺伝子を同定し，そこから新たな治療戦略を提案できるよう研究を進めていきたい．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　STATは遺伝子発現の量およびサイトカインの特異性を規定する</strong><br/>インターロイキン6あるいはインターロイキン27により，共通のSTATであるSTAT1およびSTAT3が活性化される．STAT1はサイトカインの特異性を規定し，STAT3は遺伝子発現の量を規定する．<br/>P：リン酸化．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kanno-Immunity-15.5.19-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　STATは遺伝子発現の量およびサイトカインの特異性を規定する" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kanno-Immunity-15.5.19-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kanno-Immunity-15.5.19-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>O'Shea, J. J., Gadina, M. & Schreiber, R. D.</span>: <span class="ti">Cytokine signaling in 2002: new surprises in the Jak/Stat pathway.</span> <span class='so'>Cell, 109, S121-S131 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11983158" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Villarino, A., Hibbert, L., Lieberman, L. et al.</span>: <span class="ti">The IL-27R (WSX-1) is required to suppress T cell hyperactivity during infection.</span> <span class='so'>Immunity, 19, 645-655 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14614852" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Hamano, S., Himeno, K., Miyazaki, Y. et al.</span>: <span class="ti">WSX-1 is required for resistance to <em>Trypanosoma cruzi</em> infection by regulation of proinflammatory cytokine production.</span> <span class='so'>Immunity, 19, 657-667 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14614853" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Stumhofer, J. S., Laurence, A., Wilson, E. H. et al.</span>: <span class="ti">Interleukin 27 negatively regulates the development of interleukin 17-producing T helper cells during chronic inflammation of the central nervous system.</span> <span class='so'>Nat. Immunol., 7, 937-945 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16906166" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Awasthi, A., Carrier, Y., Peron, J. P. et al.</span>: <span class="ti">A dominant function for interleukin 27 in generating interleukin 10-producing anti-inflammatory T cells.</span> <span class='so'>Nat. Immunol., 8, 1380-1389 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17994022" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Hirahara, K., Ghoreschi, K., Yang, X. P. et al.</span>: <span class="ti">Interleukin-27 priming of T cells controls IL-17 production in trans via induction of the ligand PD-L1.</span> <span class='so'>Immunity, 36, 1017-1030 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22726954" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Apetoh, L., Quintana, F. J., Pot, C. et al.</span>: <span class="ti">The aryl hydrocarbon receptor interacts with c-Maf to promote the differentiation of type 1 regulatory T cells induced by IL-27.</span> <span class='so'>Nat. Immunol., 11, 854-861 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20676095" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Taga, T., Hibi, M., Hirata, Y. et al.</span>: <span class="ti">Interleukin-6 triggers the association of its receptor with a possible signal transducer, gp130.</span> <span class='so'>Cell, 58, 573-581 (1989)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2788034" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Takeda, K., Kaisho, T., Yoshida, N. et al.</span>: <span class="ti">Stat3 activation is responsible for IL-6-dependent T cell proliferation through preventing apoptosis: generation and characterization of T cell-specific Stat3-deficient mice.</span> <span class='so'>J. Immunol., 161, 4652-4660 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9794394" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">平原  潔（Kiyoshi Hirahara）</span><br>略歴：2008年 新潟大学大学院医歯学総合研究科 修了，2009年 米国NIH National Institute of Arthritis and Musculoskeletal and Skin Diseases研究員を経て，2013年より千葉大学大学院医学研究院 客員准教授．<br>研究テーマ：肺における臓器に特異的な免疫応答．<br><br><strong>中山 俊憲（Toshinori Nakayama）</strong><br>千葉大学大学院医学研究院 教授．<br><br><strong>菅野 由香（Yuka Kanno）</strong><br>米国NIH National Institute of Arthritis and Musculoskeletal and Skin Diseases常任研究員．<br></div><br>© 2015 平原 潔・中山俊憲・菅野由香 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

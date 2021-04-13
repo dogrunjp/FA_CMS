@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 鉄硫黄タンパク質の0.48Åという超高分解能での電荷密度の解析 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>鉄硫黄タンパク質の0.48Åという超高分解能での電荷密度の解析</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>竹田一旗・三木邦夫</strong><br>（京都大学大学院理学研究科 化学専攻生物構造化学研究室）<br>email：<a href="mailto:ktakeda@kuchem.kyoto-u.ac.jp">竹田一旗</a>，<a href="mailto:miki@kuchem.kyoto-u.ac.jp">三木邦夫</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.067">10.7875/first.author.2016.067</a><br><div class="reference"><br><span class="ti">Charge-density analysis of an iron-sulfur protein at an ultra-high resolution of 0.48Å.</span><br><span class="au">Yu Hirano, Kazuki Takeda, Kunio Miki</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27279229" target="_blank"><em>Nature</em>, <strong>534</strong>, 281-284 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　タンパク質の性質は水素原子の位置や価電子の分布などの微細な構造により規定される．しかしながら，通常のタンパク質のX線結晶構造解析における3.0～1.5Åという分解能ではそのような構造の情報は得られない．筆者らは，紅色光合成細菌の一種である<em>Thermochromatium tepidum</em>に由来のする高電位鉄硫黄タンパク質について，タンパク質としてはこれまで最高である0.48Åという分解能でX線結晶構造解析し，電荷密度を解析した．その結果，金属タンパク質としてはじめて，ペプチド鎖の部分および鉄硫黄クラスターの価電子を可視化することに成功した．これにより，鉄硫黄クラスターの電子の構造および電子伝達タンパク質における電子の貯蔵や授受の機構について考察することが可能になった．<br/><br/><h2>はじめに</h2><br/>　通常のタンパク質のX線結晶構造解析において分解能は高くても1.5Å程度であり，個々の原子を分離して観測できるわけではない．このため，アミノ酸配列の情報をもとにおのおののアミノ酸残基の構造を電子密度にあてはめてタンパク質の構造を組みあげている．また，精密化計算においては，ポリペプチド鎖や側鎖の構造の結合距離や結合角に強い束縛条件を課している．したがって，タンパク質において原子個々の性質までの議論はできず，タンパク質の機能に密接に関与する価電子や水素原子も観測されない．このため，機能部位の化学的な性質は小分子化合物において得られた既存の常識にもとづき推定し，対象となるタンパク質の変異体を解析することによりその推定を確認することが一般的な手法になっている．<br/>　筆者らは，これまで，好熱性の紅色光合成細菌<em>Thermochromatium tepidum</em>に由来する光合成に関連するタンパク質を構造生物学的に研究してきた<a href="#R1"><sup>1,2)</sup></a>．高電位鉄硫黄タンパク質はシトクロム<em>bc</em><sub>1</sub>複合体から反応中心複合体への電子伝達をつかさどるタンパク質であり，アミノ酸83残基とFe<sub>4</sub>S<sub>4</sub>クラスターから構成される．高電位鉄硫黄タンパク質についても1.5～0.7Åという高分解能の構造を解析してきた<a href="#R1"><sup>1,3,4)</sup></a>．しかしながら，酸化還元反応や電子伝達の分子機構を構造情報から直接に議論するには，価電子や水素原子を含めたさらに微細な構造を決定する必要があった．このような解析は小分子化合物でも容易なことではなく，タンパク質については，クランビン<a href="#R5"><sup>5)</sup></a> やアルドース還元酵素<a href="#R6"><sup>6)</sup></a> といったごく少数の例をのぞきほとんど例がなかった．<br/><br/><h2>1．X線結晶構造解析</h2><br/>　<em>T</em>. <em>tepidum</em>から精製した還元型の電位鉄硫黄タンパク質を使用し，0.8×0.2×0.1 mm<sup>3</sup>という大型の結晶を作製した．X線回折データは大型放射光施設SPring-8のビームラインBL41XUにおいて測定した．その際，物質による吸収が少なく，高分解能の反射の測定が容易な高エネルギーのX線を用いた．また，高分解能の回折データほどX線の照射の影響がより顕著に現われるため，X線の吸収線量を通常のX線回折実験で許容される値の1/100分にまで抑えた．その結果，X線による影響がほとんどみられない0.48Åという超高分解能での回折データセットの収集に成功した．これは，タンパク質としてはこれまでもっとも高い分解能でのX線回折データであった．<br/>　通常の球状原子モデルを用いて構造を精密化した．異方性温度因子を導入し，水素原子もくわえて，精密化の最終段階においては原子間の距離についての束縛をはずした．この段階での<em>R</em><sub>work</sub>値および<em>R</em><sub>free</sub>値は8.24％および8.63％であった．この段階において，おのおのの原子のまわりに球状原子モデルでは説明できない残余の電子密度が観測された．そこで，このモデルをもとに，多極子原子モデルを導入して電荷密度を解析した．この解析においては，個々の原子の電子密度は内殻の電子によるものと価電子によるものとに分けられる．非球状の分布をもつ価電子の密度は球面調和関数を使用して多極子展開される．精密化計算により必要な係数の値を決定した．電荷密度の解析の結果，<em>R</em><sub>work</sub>値および<em>R</em><sub>free</sub>値は7.16％および7.80％に低下した．最終的な構造モデルには，すべてのアミノ酸残基の水素原子のみならず，水分子の水素原子42個も含まれた（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=5d8v&amp;PAGEID=Summary" target="_blank">5D8V</a>）．<br/><br/><h2>2．ペプチド結合の高精度の解析</h2><br/>　タンパク質の主鎖におけるペプチド結合はその二重結合性のため平面の構造をもつ．通常のX線結晶構造解析においては，平面の構造を維持するような束縛のもと構造を精密化する．今回，すべてのペプチド結合について二面角が正確に決定され，ペプチド結合の平面性についての実験的な知見を得られた．平面の構造において二面角の値は180度になるが，180度から10度以上ずれているペプチド結合はFe<sub>4</sub>S<sub>4</sub>クラスターを結合するCysの付近に多く存在した．また，主鎖のアミド基の水素原子についても，これらのペプチド結合において標準的な位置からはずれたところに存在した．高電位鉄硫黄タンパク質の4つのCysのうち3つがこのようなゆがんだペプチド結合を形成していた．<br/><br/><h2>3．鉄硫黄クラスターの価電子の分布および電荷</h2><br/>　Fe<sub>4</sub>S<sub>4</sub>クラスターは高電位鉄硫黄タンパク質の4つのCysの側鎖のSγ原子と共有結合し，あわせてFe<sub>4</sub>S<sub>4</sub>(Cys-Sγ)<sub>4</sub>クラスターを形成する．電荷密度の解析の結果，鉄原子のまわりには3<em>d</em>電子に対応する電子密度，硫黄原子のまわりには3<em>p</em>電子に対応する電子密度が観測され，多極子原子モデルによる精密化に取り入れた（<a href="#F1">図1</a>）．鉄原子の3<em>d</em>電子と硫黄原子の3<em>p</em>電子の重なりはすべてのFe-S結合について同じではなく，Fe-S結合の距離が短い場合のほうが重なりはより小さかった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Fe<sub>4</sub>S<sub>4</sub>(Cys-Sγ)<sub>4</sub>クラスターの静的変形電子密度図</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miki-Nature-16.6.9-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Fe<sub>4</sub>S<sub>4</sub>(Cys-Sγ)<sub>4</sub>クラスターの静的変形電子密度図" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miki-Nature-16.6.9-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miki-Nature-16.6.9-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　それぞれの原子についての電荷も決定された．その結果，鉄原子に関しては+0.9～+1.5，硫黄原子に関しては-1.6～-0.1という値になった．これらの値の絶対値は，その形式電荷より小さかった．もっとも小さな電荷をもつFE1に配位した硫黄原子の電荷の合計値は，ほかの鉄原子に配位した硫黄原子よりも明らかに小さな値になった．このことから，電子はFE1とそのまわりの硫黄原子に貯蔵されることが示唆された．<br/>　atoms-in-molecules（AIM）理論<a href="#R7"><sup>7)</sup></a> にもとづくトポロジー解析により，電子の構造をくわしく解析することが可能である．結合にそった電子密度の鞍点における電子密度の大きさは，結合の強さと密接に関係する．Fe<sub>4</sub>S<sub>4</sub>(Cys-Sγ)<sub>4</sub>クラスターにおいて短い結合距離をもつFE1-S2結合およびFE2-S1結合においては，結合距離から予想される値より電子密度の鞍点における電子密度の大きさが低いことが判明した．このことは，FE1-S2結合およびFE2-S1結合は結合距離が短いにもかかわらず相互作用が弱いことを示した．<br/><br/><h2>4．鉄硫黄クラスターとタンパク質との相互作用</h2><br/>　電荷密度の解析により，Fe<sub>4</sub>S<sub>4</sub>(Cys-Sγ)<sub>4</sub>クラスターとタンパク質とのあいだの非共有結合性の相互作用における価電子の役割についての知見も得られた．たとえば，Cys46のCys-Sγ原子の3<em>p</em>電子はPhe48およびThr79の主鎖の水素原子と，S3原子の3<em>p</em>電子はTrp78の側鎖の水素原子のひとつと，それぞれ相互作用しているようすが観測された（<a href="#F2">図2</a>）．硫黄原子の3<em>p</em>電子と相互作用するタンパク質の水素原子の数と硫黄原子の電荷の値とのあいだには高い相関が存在した．Fe<sub>4</sub>S<sub>4</sub>(Cys-Sγ)<sub>4</sub>クラスターの硫黄原子とタンパク質の水素原子とのあいだの水素結合における共有結合性により，硫黄原子の負電荷が減少している可能性が示唆された．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　Fe<sub>4</sub>S<sub>4</sub>(Cys-Sγ)<sub>4</sub>クラスターの価電子とアミノ酸残基の水素原子との相互作用</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miki-Nature-16.6.9-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　Fe<sub>4</sub>S<sub>4</sub>(Cys-Sγ)<sub>4</sub>クラスターの価電子とアミノ酸残基の水素原子との相互作用" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miki-Nature-16.6.9-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miki-Nature-16.6.9-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>5．サブクラスターの構造</h2><br/>　これまでの分光学的および理論的な研究により，還元型の高電位鉄硫黄タンパク質において六面体型のFe<sub>4</sub>S<sub>4</sub>クラスターは2つのひし形のFe<sub>2</sub>S<sub>2</sub>クラスターに分けられることが示唆されている．それぞれのサブクラスターにおいて2つの鉄原子は強磁性的に相互作用している．また，サブクラスターどうしは反強磁性的に相互作用している<a href="#R8"><sup>8)</sup></a>．これを，今回，解析された高電位鉄硫黄タンパク質にあてはめると，一方のサブクラスターはFE1，FE2，S3，S4から構成され，もう一方のサブクラスターは，FE3，FE4，S1，S2から構成されることになる．今回の電荷密度の解析により，それぞれのサブクラスターの内部の原子のあいだの相互作用は大きく，サブクラスターのあいだの相互作用は小さいことが実験的に示された．電荷の分布も考慮すると，電子の貯蔵にはFE1，FE2，S3，S4から構成されるサブクラスターが主要な役割を担うことが示唆された．<br/><br/><h2>おわりに</h2><br/>　超高分解能での構造解析が汎用されるようになれば，これまでの手法では得ることのできなかった電子分布そのものの形状や水素原子に関する情報をタンパク質についても解析することが可能になる．これにより，量子化学による計算との直接的な比較が可能になり，理論的な研究の発展や実験と理論の連携の強化に寄与することが期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Nogi, T., Fathir, I., Kobayashi, M. et al.</span>: <span class="ti">Crystal structures of photosynthetic reaction center and high-potential iron-sulfur protein from <em>Thermochromatium tepidum</em>: thermostability and electron transfer.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 97, 13561-13566 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11095707" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Niwa, S., Yu, L. -J., Takeda, K. et al.</span>: <span class="ti">Structure of the LH1-RC complex from <em>Thermochromatium tepidum</em> at 3.0Å.</span> <span class='so'>Nature, 508, 228-232 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24670637" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/8662" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R3"><span class='au'>Liu, L., Nogi, T., Kobayashi, M. et al.</span>: <span class="ti">Ultrahigh-resolution structure of high-potential iron-sulfur protein from <em>Thermochromatium tepidum</em>.</span> <span class='so'>Acta Crystallogr. D Biol. Crystallogr., 58, 1085-1091 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12077426" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Takeda, K., Kusumoto, K., Hirano, Y. et al.</span>: <span class="ti">Detailed assessment of X-ray induced structural perturbation in a crystalline state protein.</span> <span class='so'>J. Struct. Biol., 169, 135-144 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19782139" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Jelsch, C., Teeter, M. M., Lamzin, V. et al.</span>: <span class="ti">Accurate protein crystallography at ultra-high resolution: valence electron distribution in crambin.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 97, 3171-3176 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10737790" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Guillot, B., Jelsch, C., Podjarny, A. et al.</span>: <span class="ti">Charge-density analysis of a protein structure at subatomic resolution: the human aldose reductase case.</span> <span class='so'>Acta Crystallogr. D Biol. Crystallogr., 64, 567-588 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18453693" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Bader, R. F. W.</span>: <span class="ti">Atoms in Molecules: A Quantum Theory.</span> <span class='so'>Oxford University Press, Oxford (1990)</span></li><br><li id="R8"><span class='au'>Dey, A., Roche, C. L., Walters, M. A. et al.</span>: <span class="ti">Sulfur K-edge XAS and DFT calculations on [Fe<sub>4</sub>S<sub>4</sub>]<sup>2+</sup> cluster: effects of H-bonding and structural distortion on covalency and spin topology.</span> <span class='so'>Inorg. Chem., 44, 8349-8354 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16270973" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=PDB" target="_blank">PDB</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=構造解析" target="_blank">構造解析</a></li><br></ul><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">竹田 一旗（Kazuki Takeda）</span><br>略歴：2005年 名古屋大学大学院理学研究科にて博士号取得．理化学研究所播磨研究所 研究員，2006年 京都大学大学院理学研究科 講師を経て，2014年より同 准教授．<br>研究テーマ：生物物理学，タンパク質結晶学．<br>関心事：明後日の天気．<br><br><strong>三木 邦夫（Kunio Miki）</strong><br>京都大学大学院理学研究科 教授．<br>研究室URL：<a href="http://kuchem.kyoto-u.ac.jp/kozo/miki_lab.html" target="_blank">http://kuchem.kyoto-u.ac.jp/kozo/miki_lab.html</a><br></div><br>© 2016 竹田一旗・三木邦夫 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

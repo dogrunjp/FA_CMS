@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ヒドロゲナーゼによる触媒サイクルにおける水素原子の検出 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>ヒドロゲナーゼによる触媒サイクルにおける水素原子の検出</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>西川幸志・Wolfgang Lubitz・緒方英明</strong><br>（ドイツMax Planck Institute for Chemical Energy Conversion，Department Biophysical Chemistry）<br>email：<a href="mailto:hideaki.ogata@cec.mpg.de">緒方英明</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.025">10.7875/first.author.2015.025</a><br><div class="reference"><br><span class="ti">Hydrogens detected by subatomic resolution protein crystallography in a [NiFe] hydrogenase.</span><br><span class="au">Hideaki Ogata, Koji Nishikawa, Wolfgang Lubitz</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25624102" target="_blank"><em>Nature</em>, <strong>520</strong>, 571-574 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　タンパク質の構造-機能相関を理解するうえで，タンパク質を構成する原子の約半数をしめる水素原子の同定は重要である．たとえば，ヒドロゲナーゼは水素分子の酸化還元反応を可逆的に触媒する酵素であり，その反応機構を理解するためには水素原子の検出および同定が不可欠である．しかしながら，タンパク質のX線結晶構造解析において水素原子の位置の決定は非常に困難をきわめる．今回，筆者らは，培養から結晶の調製まですべての実験操作を嫌気的に行うことにより良質の結晶を作製し，硫酸還元細菌に由来する[NiFe]ヒドロゲナーゼの還元型の構造を0.89Å分解能で解析することに成功した．その結果，水素分子のヘテロリティックな開裂により生じたH<sup>-</sup>がNi原子とFe原子に架橋配位していること，また，H<sup>+</sup>が活性中心に配位しているCysの硫黄原子に結合していることが直接的に観測された．このヘテロリティックな水素分子の分解反応が検出されたことは，ヒドロゲナーゼの触媒機構の解明に大きく貢献すると考えられる．<br/><br/><h2>はじめに</h2><br/>　ヒドロゲナーゼは水素分子の酸化還元反応を可逆的に触媒する酵素であり，その触媒能は高価なプラチナなどを用いた化学触媒と同等以上の効率をもつとされている．そのため，ヒドロゲナーゼを模範にした水素分子を合成する人工触媒や新規の燃料電池の開発への応用も含め，基礎研究が活発に進められている．<br/>　この研究に用いた硫酸還元細菌<em>Desulfovibrio vulgaris</em> Miyazaki F株に由来する[NiFe]ヒドロゲナーゼは28.8 kDaおよび62.5 kDaの2つのサブユニットから構成され，[NiFe]活性中心や3つの[FeS]クラスターなどいくつかの金属クラスターをもつ．活性中心はFe原子とNi原子を1つずつもち，それらをとりかこむ4つのCysによりヒドロゲナーゼの中心に保持されている<a href="#R1"><sup>1,2)</sup></a>．このうち2つのCysはFe原子とNi原子を架橋している．さらに，Fe原子には2つのCN<sup>-</sup>と1つのCOが配位している（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　[NiFe]ヒドロゲナーゼによる水素分子の触媒サイクル</strong><br/>Ni-SIa型は触媒サイクルにおいてもっとも高い酸化状態であり，水素分子が反応することによりもっとも低い酸化状態のNi-R型となると考えられる．反応中間体であるNi-C型はNi原子が3価イオンであるため電子スピン共鳴法により検出が可能である．ほかのNi-SIa型およびNi-R型はどちらもNi原子が2価イオンであるため電子スピン共鳴法では観測できない．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ogata-Nature-15.2.26-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　[NiFe]ヒドロゲナーゼによる水素分子の触媒サイクル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ogata-Nature-15.2.26-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ogata-Nature-15.2.26-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　[NiFe]ヒドロゲナーゼはさまざまな酸化還元状態をとることが知られている．Fe原子とNi原子の第3架橋配位子にはこれらの状態に応じて異なる原子が結合している<a href="#R3"><sup>3)</sup></a>．酸素により不活性化された酸化型では架橋配位子はOH<sup>-</sup>である．水素分子により還元されて活性化するとNi-SIa型，Ni-C型，Ni-R型とよばれる状態をとることが知られており，これらは水素分子を分解あるいは合成する触媒サイクルを構成している<a href="#R3"><sup>3,4)</sup></a>（<a href="#F1">図1</a>）．これまでに，1.4Å分解能のX線結晶構造解析により，[NiFe]ヒドロゲナーゼの酸化型が水素分子により還元され活性化されるとOH<sup>-</sup>配位子が活性中心から外れることが示されている<a href="#R5"><sup>5)</sup></a>．しかし，この比較的高分解能の解析によっても反応中の水素原子を電子密度図としてとらえることはできなかった．また，反応中間体であるNi-C型では，Ni原子とFe原子のあいだにH<sup>-</sup>が架橋していることが電子スピン共鳴法により確認されている<a href="#R6"><sup>6)</sup></a>．このNi-C型からさらに1電子が還元されるともっとも還元されたNi-R型になる．このNi-R型ではNi原子は2価イオンになるため電子スピン共鳴法などでは観測できず，活性中心がどのような構造をとっているのかは長いあいだ不明であった．<br/>　ヒドロゲナーゼの触媒機構を理解するためには，このもっとも還元されたNi-R型の詳細な立体構造を知ることが重要である．今回，筆者らは，[NiFe]ヒドロゲナーゼのNi-R型のX線結晶構造を0.89Å分解能で解析することに成功した．このような1Åをこえる超高分解能のデータを用いるときわめて詳細な構造解析を行うことができ，電子数の少ない水素原子についても位置の決定が可能になる．<br/><br/><h2>1．高分解能かつ高精度のタンパク質X線結晶構造解析</h2><br/>　解析に用いた硫酸還元細菌<em>Desulfovibrio vulgaris</em> Miyazaki F株に由来する[NiFe]ヒドロゲナーゼは，標準型とよばれる酸素により容易に不活性化されるタイプのヒドロゲナーゼである．この酸化による酵素の不活性化をさけるため，培養から結晶化までのすべての実験操作を嫌気的に行った．その結果，精製された標品およびヒドロゲナーゼの結晶の酸化還元状態をフーリエ変換赤外分光法により同定したところ，いずれももっとも還元されたNi-R型になっていた．<br/>　一般に，X線結晶構造解析において金属原子の近傍にある水素原子の検出は電子密度図に現われる重原子のフーリエ変換の副極大の影響をうけるため困難であり，その影響の程度はデータの分解能および原子の熱運動によるゆらぎを表す温度因子に依存することが知られている．それゆえ，分解能の異なる0.89Å分解能のデータと1.06Å分解能のデータについて独立に解析を行い，2つのデータからほぼ同一の電子密度図が得られた（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=4u9h&amp;PAGEID=Summary" target="_blank">4U9H</a>，<a href="http://service.pdbj.org/mine/Detail2?PDBID=4u9i&amp;PAGEID=Summary" target="_blank">4U9I</a>）．水素原子を除く活性中心の原子の結合距離は0.002～0.007Åの誤差で決定された．これまで，電子数が等しいため電子密度図からは区別できなかったCO配位子と2つのCN<sup>-</sup>配位子の結合距離を比べたところ，Fe原子と炭素原子との結合距離は，CO配位子では1.75Å，CN<sup>-</sup>配位子では1.88Åおよび1.91Åと有意な違いがあり，この2種類の配位子がどのようにFe原子に配位しているかはじめて明らかにされた（<a href="#F2">図2</a>）．また，Ni原子とFe原子との結合距離は2.57Åであり，弱い金属-金属結合を形成していることが示唆された．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　超高分解能のX線構造解析により決定されたヒドロゲナーゼのNi-R型の活性中心の構造</strong><br/>数値は結合距離を示す．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ogata-Nature-15.2.26-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　超高分解能のX線構造解析により決定されたヒドロゲナーゼのNi-R型の活性中心の構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ogata-Nature-15.2.26-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ogata-Nature-15.2.26-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．活性中心におけるH<sup>-</sup>およびH<sup>+</sup>の検出</h2><br/>　活性中心のNi原子の近傍にあるアミノ酸残基の水素原子のうち，90％以上が電子密度図において確認された．また，タンパク質の内部に存在する124個の水分子の水素原子についても同定された．活性中心についても，Ni原子とFe原子を架橋している第3架橋配位子に相当する位置，および，Cys546の硫黄原子の付近にそれぞれ小さな電子密度があり，これらがH<sup>-</sup>およびH<sup>+</sup>であることを見い出した（<a href="#F2">図2</a>）．Ni原子とH<sup>-</sup>との結合距離は1.58Å，また，Fe原子とH<sup>-</sup>との結合距離は1.78Åであり，H<sup>-</sup>架橋配位子は非対称に配位していることが確認された．電子スピン共鳴法によると，Ni-C型においても非対称なH<sup>-</sup>架橋配位子が存在し，Ni原子とH<sup>-</sup>との結合距離は1.59ÅでFe原子とH<sup>-</sup>との結合距離よりも短く，Ni-R型とほぼ同様であった<a href="#R6"><sup>6)</sup></a>．一方，ヒドロゲナーゼをモデルとしたモデル錯体ではH<sup>-</sup>はNi原子よりもFe原子の側により強く結合しており，ヒドロゲナーゼとはこの点が異なっていた<a href="#R7"><sup>7)</sup></a>．<br/>　これまで，Ni-R型のNi原子のスピン状態が低スピン状態であるのか高スピン状態であるのかは明らかでなかった．Ni原子に配位している硫黄原子との結合距離をみると，4つの硫黄原子のうちCys549の硫黄原子のみ結合距離が長くなっていた（<a href="#F2">図2</a>）．これは，Ni原子の配位子場は四角錐型であるためと考えられ，Ni原子のスピン状態は低スピン状態であることが示唆された．<br/>　水素分子が分解されて生じたH<sup>+</sup>は活性中心からヒドロゲナーゼの表面へと輸送されると考えられる．Ni原子に配位している4つのCysのうちのひとつがこのH<sup>+</sup>の最初の受容体であると予想されていた．さきに述べたように，分解能の異なる2つのデータともに，Cys546の硫黄原子の近傍に電子密度のピークが観測された．このピークと硫黄原子との距離は1.1～1.3Åであり，S-H結合のX線構造解析における理論値1.2Åと近い値であった．さらに，Cys546の硫黄原子はほかの3つのCysの硫黄原子と比べ熱振動の大きさを表す温度因子が大きく，この硫黄原子がH<sup>+</sup>の受容基であることが強く示唆された．超高分解能の解析により明らかにされたこれらの活性中心の詳細な立体構造は，これまでに報告されていた密度汎関数理論計算による理論計算値と非常によく合致した<a href="#R8"><sup>8)</sup></a>．<br/>　Cys546につづく第2のH<sup>+</sup>の受容基はCys546の近傍のGluであろうと予想されていた<a href="#R9"><sup>9)</sup></a>．Cys546ともっとも近いGlu34のカルボン酸基は，一方がC-OH（1.29Å）で他方がC=O（1.22Å）と結合距離に差異がありプロトン化していることが確認された．このGlu34のOH基はThr18との結合距離が2.58Åと短く，さらに，Thr18はGlu16と結合距離2.62Åで隣接しており，どちらも低障壁の水素結合を形成していることが示唆された．これらをあわせると，活性中心において生じたH<sup>+</sup>はCys546-Glu34-Thr18-Glu16という経路でヒドロゲナーゼの表面へと輸送されると考えられた．<br/><br/><h2>おわりに</h2><br/>　今回の結果は，[NiFe]ヒドロゲナーゼにより触媒されるヘテロリティックな水素分子の開裂反応，あるいは，電子やH<sup>+</sup>の移動についての重要な構造的な知見をあたえるものであった．これらの知見は，天然の酵素が行う巧妙な水素分子の酸化還元の機構を明らかにするのみならず，将来，持続可能な水素（エネルギー）社会をささえる人工触媒や燃料電池などのバイオデバイスを設計するのにも役だつものと期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Volbeda, A., Charon, M. H., Piras, C. et al.</span>: <span class="ti">Crystal structure of the nickel-iron hydrogenase from <em>Desulfovibrio gigas</em>.</span> <span class='so'>Nature, 373, 580-587 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7854413" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Higuchi, Y., Yagi, T. & Yasuoka, N.</span>: <span class="ti">Unusual ligand structure in Ni-Fe active center and an additional Mg site in hydrogenase revealed by high resolution X-ray structure analysis.</span> <span class='so'>Structure, 5, 1671-1680 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9438867" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Lubitz, W., Ogata, H., Rudiger, O. et al.</span>: <span class="ti">Hydrogenases.</span> <span class='so'>Chem. Rev., 114, 4081-4148 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24655035" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Ogata, H., Lubitz, W. & Higuchi, Y.</span>: <span class="ti">[NiFe] hydrogenases: structural and spectroscopic studies of the reaction mechanism.</span> <span class='so'>Dalton Trans., 2009, 7577-7587 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19759926" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Higuchi, Y., Ogata, H., Miki, K. et al.</span>: <span class="ti">Removal of the bridging ligand atom at the Ni-Fe active site of [NiFe] hydrogenase upon reduction with H<sub>2</sub>, as revealed by X-ray structure analysis at 1.4Å resolution.</span> <span class='so'>Structure, 7, 549-556 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10378274" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Brecht, M., van Gastel, M., Buhrke, T. et al.</span>: <span class="ti">Direct detection of a hydrogen ligand in the [NiFe] center of the regulatory H<sub>2</sub>-sensing hydrogenase from <em>Ralstonia eutropha</em> in its reduced state by HYSCORE and ENDOR spectroscopy.</span> <span class='so'>J. Am. Chem. Soc., 125, 13075-13083 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14570480" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Ogo, S., Ichikawa, K., Kishima, T. et al.</span>: <span class="ti">A functional [NiFe] hydrogenase mimic that catalyzes electron and hydride transfer from H<sub>2</sub>.</span> <span class='so'>Science, 339, 682-684 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23393260" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Kramer, T., Kampa, M., Lubitz, W. et al.</span>: <span class="ti">Theoretical spectroscopy of the Ni<sup>II</sup> intermediate states in the catalytic cycle and the activation of [NiFe] hydrogenases.</span> <span class='so'>Chembiochem, 14, 1898-1905 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23703916" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Dementin, S., Burlat, B., De Lacey, A. L. et al.</span>: <span class="ti">A glutamate is the essential proton transfer gate during the catalytic cycle of the [NiFe] hydrogenase.</span> <span class='so'>J. Biol. Chem., 279, 10508-10513 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14688251" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">西川 幸志（Koji Nishikawa）</span><br>略歴：2010年 兵庫県立大学大学院生命理学研究科博士課程 修了，同年 ドイツMax Planck Institute for Chemical Energy Conversion博士研究員を経て，2012年より兵庫県立大学大学院生命理学研究科 特任助教．<br><br><strong>Wolfgang Lubitz</strong><br>ドイツMax Planck Institute for Chemical Energy Conversion教授．<br><br><strong>緒方 英明（Hideaki Ogata）</strong><br>ドイツMax Planck Institute for Chemical Energy Conversionグループリーダー．<br></div><br>© 2015 西川幸志・Wolfgang Lubitz・緒方英明 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

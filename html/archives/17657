@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> CRISPR-Cas9系を利用してin vivoにおいて内在性の遺伝子の発現をエピジェネティックに活性化させる : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>CRISPR-Cas9系を利用して<em>in vivo</em>において内在性の遺伝子の発現をエピジェネティックに活性化させる</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>畠中史幸・Juan Carlos Izpisua Belmonte</strong><br>（米国Salk Institute for Biological Studies，Gene Expression Laboratory）<br>email：<a href="mailto:fhatanaka@salk.edu">畠中史幸</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.145">10.7875/first.author.2017.145</a><br><div class="reference"><br><span class="ti"><em>In vivo</em> target gene activation via CRISPR/Cas9-mediated trans-epigenetic modulation.</span><br><span class="au">Hsin-Kai Liao, Fumiyuki Hatanaka, Toshikazu Araoka, Pradeep Reddy, Min-Zu Wu, Yinghui Sui, Takayoshi Yamauchi, Masahiro Sakurai, David D. O’Keefe, Estrella Núñez-Delicado, Pedro Guillen, Josep M. Campistol, Cheng-Jang Wu, Li-Fan Lu, Concepcion Rodriguez Esteban, Juan Carlos Izpisua Belmonte</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/29224783" target="_blank"><em>Cell</em>, <strong>171</strong>, 1495-1507.e15 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　近年，CRISPR-Cas9系を用いたゲノム編集技術は，次世代の遺伝子治療の実用化にむけ急速に進歩している．この研究において，筆者らは，CRISPR-Cas9系を利用して，<em>in vivo</em>においてDNA 2本鎖切断を起こすことなくエピジェネティックな修飾をともない標的となる内在性の遺伝子の発現を活性化させることに成功した．この系は，出生ののちのマウスにおいて生理学的な表現型をひき起こすのに十分であり，さらに，いくつかの病態モデルマウスにおいて症状の改善に有効であった．以上のことから，この技術は，さまざまな疾患に対するエピジェネティックな治療という，新たな精密医療の確立にむけた重要な基盤となりうるだろう．<br/><br/><h2>はじめに</h2><br/>　近年，エピジェネティクスは世界中で活発に研究されており，実際に，がんや生活習慣病などさまざまな疾患に対する医療への応用も進められている．創薬においては，<a href="#" class="anno" data-query="DNA methyltransferase" data-uniprot="">DNAメチル化酵素</a>や<a href="#" class="anno" data-query="histone deacetylase" data-uniprot="">ヒストン脱アセチル化酵素</a>を標的としたエピジェネティック薬の開発が進められている．しかしながら，これらの薬剤は非常に広範な遺伝子の発現を変化させるため，変化を必要としないオフターゲット遺伝子の起こすリスクが問題のひとつになっている<a href="#R1"><sup>1)</sup></a>．このことから，特定の遺伝子のみを標的とするエピジェネティックな修飾の技術の確立が必要とされている．<br/>　一方で，CRISPR-Cas9系をはじめとするゲノム編集技術は，ここ数年で飛躍的に進展してきた．この技術は，標的となるゲノムの部位にDNA 2本鎖切断を起こすことをきっかけにさまざまな遺伝子を編集することが可能である．しかしながら，標的と近い配列をもつゲノムの部位にもおいても同様にDNA 2本鎖切断が起こるオフターゲット効果の可能性は否定できず，これらの技術をヒトへ応用する際のボトルネックのひとつになっている．<br/>　一方で，このCRISPR-Cas9系を利用しDNA 2本鎖切断を起こさずに特定の遺伝子の発現を制御する方法も開発されてきた<a href="#R2"><sup>2)</sup></a>．第1世代として，ヌクレアーゼ活性を欠失させたdCas9と転写活性ドメインVP64とを組み合わせることによりDNA 2本鎖切断を起こさずに標的となる遺伝子の発現が活性化されることが示された<a href="#R3"><sup>3,4)</sup></a>．そののち，標的となる遺伝子の発現の活性化の効率をさらに改善することを目的として，さまざまな転写活性ドメインを用いた方法がつぎつぎと報告された<a href="#R5"><sup>5-7)</sup></a>．しかしながら，これらの方法は<em>in vitro</em>においては標的となる遺伝子の発現を効率よく活性化したが，<em>in vivo</em>における効率はまだまだ不完全であった．そのおもな理由として，<em>in vivo</em>におけるCas9融合タンパク質の発現が不十分であること，また，dCas9-gRNA複合体および転写活性複合体の大きさが<em>in vivo</em>において最適なウイルスベクターであるアデノ随伴ウイルスベクターの大きさの限度をこえてしまうことなどが考えられた．したがって，これまでの方法では出生ののちのマウスにおける生理学的な表現型を獲得することは困難であり，<em>in vivo</em>における汎用性は制限されるのが実情であった．この研究において，筆者らは，CRISPR-Cas9系を利用して<em>in vivo</em>においてDNA 2本鎖切断を起こさずに標的となる遺伝子の発現を活性化する効率的な系を確立することを目的とした．<br/><br/><h2>1．CRISPR-Cas9系を利用して遺伝子の発現を活性化する系の最適化</h2><br/>　<em>in vivo</em>においてCRISPR-Cas9系を利用して遺伝子の発現を活性化する系を検討するなかで，これまで利用されていたdCas9-VP64融合タンパク質はアデノ随伴ウイルスベクターの大きさの限度をこえるため，Cas9と20 bpのsgRNAではなく14～15 bpのsgRNAを使用した．このsgRNAはCas9によるDNA 2本鎖切断を起こさないdead sgRNAとして報告されている<a href="#R6"><sup>6,8)</sup></a>．そこで，MPH（MS2-p65-HSF1）転写活性複合体を認識するMS2結合ループを含むdead sgRNAを使用した．最初のステップとして，プロモーターにdead sgRNAとの結合配列を含むルシフェラーゼレポーター遺伝子を設計し，<em>in vitro</em>において，ルシフェラーゼの発現の活性化が効率よく起こるdead sgRNAをスクリーニングした．GC含量および反復配列を変更することにより高いルシフェラーゼ活性を示すdead sgRNAが同定され，その活性は従来のdCas9-VP64融合タンパク質とMPH転写活性複合体との組合せと同等であることが確認された．そのほかの転写活性化因子についても検討したが，MPH転写活性複合体がもっとも高い活性を示した．この系は，成体のマウスの筋肉に対しエレクトロポレーション法により遺伝子を導入した場合においても高いルシフェラーゼ活性を示した．<br/><br/><h2>2．Cas9ノックインマウスを用いた検討</h2><br/>　このCRISPR-Cas9系を利用して遺伝子の発現を活性化する系を<em>in vivo</em>において検討するため，dead sgRNAおよびMPHをコードしたアデノ随伴ウイルスベクター，および，プロモーター領域にdead sgRNAとの結合配列を含むルシフェラーゼレポーター遺伝子を含むアデノ随伴ウイルスベクターを作製した．これらのベクターをさまざまな方法によりCas9ノックインマウスに投与し，ルシフェラーゼ活性を経時的に測定した．生後2.5日齢のマウスの前脛骨筋に局所的に投与したところ，約2週間後に投与部位において対照と比べ強いルシフェラーゼ活性が検出された．また，マウスの全身性に投与したところ，生後0.5日齢での投与により心臓，肝臓，筋肉，肺，腎臓においてルシフェラーゼ活性が検出され，成体への投与により約1カ月にわたりおもに肝臓においてルシフェラーゼ活性が検出された．これらの結果から，このCRISPR-Cas9系を利用して遺伝子の発現を活性化する系は，<em>in vivo</em>においてレポーター遺伝子の発現を活性化することが確認された．<br/><br/><h2>3．CRISPR-Cas9系を利用して遺伝子の発現を活性化する系を用いた生理学的な表現型の表出</h2><br/>　この系がマウスにおいて生理学的な表現型を示すのに十分な内在性の遺伝子の発現を活性化できるかどうか検討した．表現型の判別がわかりやすい遺伝子として，筋肉の増量にかかわる<em><a href="#" class="anno" data-query="Fst" data-uniprot="P47931">Fst</a></em>遺伝子を標的として用いた．Cas9を恒常的に発現する細胞株を用いて，<em><a href="#" class="anno" data-query="Fst" data-uniprot="P47931">Fst</a></em>遺伝子に対する最適なdead sgRNAの配列を選定した．これまでの報告と同様に，もっとも効率の高い配列は転写開始点の近傍であった<a href="#R9"><sup>9,10)</sup></a>．選定されたdead sgRNAおよびMPHをコードするアデノ随伴ウイルスベクターをCas9ノックインマウスの前脛骨筋に局所的に投与したところ，投与ののち3週間目および3カ月目において，対照と比べ，<em><a href="#" class="anno" data-query="Fst" data-uniprot="P47931">Fst</a></em>遺伝子の発現の顕著な上昇が確認された．また，対照と比べ，筋肉の増量，筋肉繊維の増大，握力測定試験における高い握力値を示した．以上のことから，このCRISPR-Cas9系を利用して遺伝子の発現を活性化する系は，生理学的な表現型を示すのに十分な内在性の遺伝子の発現を活性化することが確認された．<br/><br/><h2>4．CRISPR-Cas9系を利用して遺伝子の発現を活性化する系を用いた細胞運命の転換</h2><br/>　この系を用いて細胞運命の転換が可能であるかどうか検討した．<em><a href="#" class="anno" data-query="Pdx1" data-uniprot="P52946">Pdx1</a></em>遺伝子は胎生期における膵臓の形成において重要であることが知られている．Cas9ノックインマウスに．<em><a href="#" class="anno" data-query="Pdx1" data-uniprot="P52946">Pdx1</a></em>遺伝子の標的配列を含むdead sgRNAおよびMPHをコードするアデノ随伴ウイルスベクターを尾静脈より全身性に投与したところ，対照と比べ，肝臓において．<em><a href="#" class="anno" data-query="Pdx1" data-uniprot="P52946">Pdx1</a></em>遺伝子の顕著な発現がみられた．また，<a href="#" class="anno" data-query="insulin" data-uniprot="">インスリン</a>の産生にかかわる<em><a href="#" class="anno" data-query="Insulin-1" data-uniprot="P01325">Insulin1</a></em>遺伝子，<em><a href="#" class="anno" data-query="Insulin-2" data-uniprot="P01326">Insulin2</a></em>遺伝子，<em><a href="#" class="anno" data-query="Pcsk1" data-uniprot="P63239">Pcsk1</a></em>遺伝子も発現していた．これらの肝臓の試料に対し，クロマチン免疫沈降-定量PCR法を用いて<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>の修飾を解析した．その結果，<em><a href="#" class="anno" data-query="Pdx1" data-uniprot="P52946">Pdx1</a></em>遺伝子座において<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H3のLys27のアセチル化および<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>H3のLys4のトリメチル化が亢進していることが明らかにされた．さらに，ストレプトゾトシンにより誘発された糖尿病のモデルマウスにおいて，<em><a href="#" class="anno" data-query="Pdx1" data-uniprot="P52946">Pdx1</a></em>遺伝子の標的配列を含むdead sgRNAおよびMPHをコードするアデノ随伴ウイルスベクターを投与したマウスは，対照と比べ，血清における<a href="#" class="anno" data-query="insulin" data-uniprot="">インスリン</a>の増加および血中におけるグルコースの濃度の低下を示した．以上のことから，このCRISPR-Cas9系を利用して遺伝子の発現を活性化する系は，<em>in vivo</em>においてエピジェネティックな修飾をともない内在性の遺伝子の発現を活性化し，細胞運命の転換が可能であることが示唆された．<br/><br/><h2>5．CRISPR-Cas9系を利用して遺伝子の発現を活性化する系を用いた遺伝性疾患の治療</h2><br/>　この系の遺伝性疾患の治療に対する有効性について検討した．Duchenne型筋ジストロフィーはX染色体にコードされる<em><a href="#" class="anno" data-query="Dystrophin" data-uniprot="P11531">Dystrophin</a></em>遺伝子が変異することにより起こる遺伝性の筋疾患であり，現在も根本的な治療法は確立されていない．そこで，Duchenne型筋ジストロフィーのモデルマウスであるmdxマウスおよびCas9ノックインマウスを用いて，この系により内在性の<em><a href="#" class="anno" data-query="Klotho" data-uniprot="O35082">Klotho</a></em>遺伝子，<em><a href="#" class="anno" data-query="Fst" data-uniprot="P47931">Fst</a></em>遺伝子，<em><a href="#" class="anno" data-query="Utrophin" data-uniprot="Q9WTN3">Utrophin</a></em>遺伝子の発現の誘導を試みた．なかでも，<em><a href="#" class="anno" data-query="Utrophin" data-uniprot="Q9WTN3">Utrophin</a></em>遺伝子は<em><a href="#" class="anno" data-query="Dystrophin" data-uniprot="P11531">Dystrophin</a></em>遺伝子のホモログであり成熟した筋肉において発現はみられない．また，<em><a href="#" class="anno" data-query="Dystrophin" data-uniprot="P11531">Dystrophin</a></em>遺伝子と同様に，<em><a href="#" class="anno" data-query="Utrophin" data-uniprot="Q9WTN3">Utrophin</a></em>遺伝子は非常に大きいため，従来の方法では発現させることが困難であった．このCRISPR-Cas9系を利用して遺伝子の発現を活性化する系は内在性の遺伝子を標的とするため，遺伝子の大きさにかかわらず標的となる遺伝子の発現を活性化することが可能である．実際に，<em><a href="#" class="anno" data-query="Utrophin" data-uniprot="Q9WTN3">Utrophin</a></em>遺伝子の標的配列を含むdead sgRNAおよびMPHをコードするアデノ随伴ウイルスベクターを投与したマウスは，対照と比べ，筋肉における<em><a href="#" class="anno" data-query="Utrophin" data-uniprot="Q9WTN3">Utrophin</a></em>遺伝子の発現が上昇し，筋ジストロフィーの病態が改善された．さらに，実際のヒトにおける治療への応用の有効性を評価するため，<em><a href="#" class="anno" data-query="Utrophin" data-uniprot="Q9WTN3">Utrophin</a></em>遺伝子の標的配列を含むdead sgRNAおよびMPHをコードするアデノ随伴ウイルスベクターとCas9をコードするアデノ随伴ウイルスベクターを併用したところ，mdxマウスの病態が改善された．<br/><br/><h2>おわりに</h2><br/>　この研究において新たに開発されたCRISPR-Cas9系を利用して遺伝子の発現を活性化する系は，ゲノムの配列に影響をあたえることなく，内在性の遺伝子の発現をエピジェネティックに活性化することが可能であり（<a href="#F1">図1</a>），<em>in vivo</em>において生理学的な表現型の表出および病態の改善に対し有効であった．また，この系は，遺伝子の大きさに関係なく，さらに，2つ以上の内在性の遺伝子を同時に活性化することが可能であり，エピスタシスにかかわる遺伝子についての応用が可能である．以上のことから，このCRISPR-Cas9系を利用して遺伝子の発現を活性化する系は，基礎研究から臨床応用にいたるまで幅広く使用できる技術であると考えられた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　CRISPR-Cas9系を利用して遺伝子の発現を活性化する系</strong><br/>従来のCRISPR-Cas9系を利用したゲノム編集技術においては，標的となる配列を含む20 bpのgRNAを用いて部位特異的にDNA 2本鎖切断を起こす．新たに開発されたCRISPR-Cas9系を利用して遺伝子の発現を活性化する系においては，標的となる配列を含む14 bpのdead sgRNAおよびMPH転写活性複合体を用いてDNA 2本鎖切断を起こさずに標的となる遺伝子の発現をエピジェネティックに活性化する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatanaka-Cell-17.12.14-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　CRISPR-Cas9系を利用して遺伝子の発現を活性化する系" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatanaka-Cell-17.12.14-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatanaka-Cell-17.12.14-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hunter, P.</span>: <span class="ti">The second coming of epigenetic drugs: a more strategic and broader research framework could boost the development of new drugs to modify epigenetic factors and gene expression.</span> <span class='so'>EMBO Rep., 16, 276-279 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25662153" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Qi, L. S., Larson, M. H., Gilbert, L. A. et al.</span>: <span class="ti">Repurposing CRISPR as an RNA-guided platform for sequence-specific control of gene expression.</span> <span class='so'>Cell, 152, 1173-1183 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23452860" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Gilbert, L. A., Larson, M. H., Morsut, L. et al.</span>: <span class="ti">CRISPR-mediated modular RNA-guided regulation of transcription in eukaryotes.</span> <span class='so'>Cell, 154, 442-451 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23849981" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Perez-Pinera, P., Kocak, D. D., Vockley, C. M. et al.</span>: <span class="ti">RNA-guided gene activation by CRISPR-Cas9-based transcription factors.</span> <span class='so'>Nat. Methods, 10, 973-976 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23892895" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Chavez, A., Scheiman, J., Vora, S. et al.</span>: <span class="ti">Highly efficient Cas9-mediated transcriptional programming.</span> <span class='so'>Nat. Methods, 12, 326-328 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25730490" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Dahlman, J. E., Abudayyeh, O. O., Joung, J. et al.</span>: <span class="ti">Orthogonal gene knockout and activation with a catalytically active Cas9 nuclease.</span> <span class='so'>Nat. Biotechnol., 33, 1159-1161 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26436575" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Tanenbaum, M. E., Gilbert, L. A., Qi, L. S. et al.</span>: <span class="ti">A protein-tagging system for signal amplification in gene expression and fluorescence imaging.</span> <span class='so'>Cell, 159, 635-646 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25307933" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Kiani, S., Chavez, A., Tuttle, M. et al.</span>: <span class="ti">Cas9 gRNA engineering for genome editing, activation and repression.</span> <span class='so'>Nat. Methods, 12, 1051-1054 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26344044" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Gilbert, L. A., Horlbeck, M. A., Adamson, B. et al.</span>: <span class="ti">Genome-scale CRISPR-mediated control of gene repression and activation.</span> <span class='so'>Cell, 159, 647-661 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25307932" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Kearns, N. A., Genga, R. M. J., Enuameh, M. S. et al.</span>: <span class="ti">Cas9 effector-mediated regulation of transcription and differentiation in human pluripotent stem cells.</span> <span class='so'>Development, 141, 219-223 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24346702" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=GEO" target="_blank">GEO</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=UCSC" target="_blank">UCSC</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=CRISPR" target="_blank">CRISPR</a></li><br><li><a href="http://togotv.dbcls.jp/ja/?search=ENCODE" target="_blank">ENCODE</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">畠中 史幸（Fumiyuki Hatanaka）</span><br>略歴：2010年 京都大学大学院医学研究科博士課程 修了，広島大学大学院医歯薬保健学研究院 助教，理化学研究所脳科学総合研究センター 研究員を経て，2015年より米国Salk Institute for Biological StudiesにてResearch Associate．<br>研究テーマ：老化が体におよぼす影響．<br>関心事：脳（体）を若返らせる方法．エレ片のコント太郎．<br><br><strong>Juan Carlos Izpisua Belmonte</strong><br>米国Salk Institute for Biological StudiesにてProfessor．<br>研究室URL：<a href="http://www.salk.edu/labs/belmonte/" target="_blank">http://www.salk.edu/labs/belmonte/</a><br></div><br>© 2017 畠中史幸・Juan Carlos Izpisua Belmonte Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ブロモドメインタンパク質BRD4は転写の開始から完了までのさまざまなステップにおいて多角的に転写を促進する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>ブロモドメインタンパク質BRD4は転写の開始から完了までのさまざまなステップにおいて多角的に転写を促進する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>菅野由香<sup>1</sup>・尾里啓子<sup>2</sup>・菅野智彦<sup>3</sup></strong><br>（<sup>1</sup>米国NIH National Institute of Arthritis and Musculoskeletal and Skin Diseases，Molecular Immunology and Inflammation Branch，<sup>2</sup>米国NIH National Institute of Child Health and Human Development，Program in Genomics of Differentiation，<sup>3</sup>米国NIH National Institute of Allergy and Infectious Diseases，Laboratory of Molecular Immunology）<br>email：<a href="mailto:kannot@mail.nih.gov">菅野智彦</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.151">10.7875/first.author.2014.151</a><br><div class="reference"><br><span class="ti">BRD4 assists elongation of both coding and enhancer RNAs by interacting with acetylated histones.</span><br><span class="au">Tomohiko Kanno, Yuka Kanno, Gary LeRoy, Eric Campos, Hong-Wei Sun, Stephen R. Brooks, Golnaz Vahedi, Tom D. Heightman, Benjamin A. Garcia, Danny Reinberg, Ulrich Siebenlist, John J. O'Shea, Keiko Ozato</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25383670" target="_blank"><em>Nature Structural & Molecular Biology</em>, <strong>21</strong>, 1047-1057 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　BET阻害薬は<a href="#" class="anno" data-query="bromodomain containing" data-uniprot="">ブロモドメインタンパク質</a>とアセチル化修飾をうけた<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>との結合を阻害することにより，がん細胞の増殖を抑制する．BET系の<a href="#" class="anno" data-query="bromodomain containing" data-uniprot="">ブロモドメインタンパク質</a>の代表である<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>の作用機序として，転写開始点の近傍において一時停止している<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>を<a href="#" class="anno" data-query="P-TEFb" data-uniprot="">P-TEFb</a>を動員することにより解放するはたらきが知られている．この研究では，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>の新たな役割について解析し，転写開始点から遠く離れたエンハンサー領域や構造遺伝子の領域にも<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>は存在し，転写伸長を直接に促進していることを確認した．<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>は<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a><a href="#" class="anno" data-query="Pol II elongation complexe" data-uniprot="">転写伸長複合体</a>と結合し，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>がヌクレオソームを効率よく通過するのを助けた．これは，アセチル化修飾をうけた<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>を認識するブロモドメインを介したはたらきであった．さらに，BET阻害薬は活性化したエンハンサー領域において産生されるエンハンサーRNAの量を抑制していた．したがって，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>は転写の開始から完了までのさまざまなステップにおいて従来の認識をこえて多角的に機能しており，とくに，転写伸長における<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>の進行ガイド役としてゲノムの広い範囲ではたらく新たな作用機序が明らかになった．<br/><br/><h2>はじめに</h2><br/>　JQ1は最近，もっとも注目されている抗がん剤あるいは治験薬のひとつであり<a href="#R1"><sup>1)</sup></a>，エピゲノム創薬の一環を担う期待の新薬である．がん細胞に由来する培養細胞の培地での増殖実験，および，マウスの体内へ移植したのちの増殖能をみた実験から，JQ1は多発性骨髄腫<a href="#R2"><sup>2)</sup></a>，急性骨髄性白血病，混合性白血病<a href="#R3"><sup>3)</sup></a>，びまん性大細胞型B細胞性リンパ腫<a href="#R4"><sup>4)</sup></a>，NUT正中線がん<a href="#R1"><sup>1)</sup></a>，肺がん，前立腺がんにおいて，細胞の増殖を抑制することが報告されている．JQ1は細胞膜に対し透過性をもつ低分子化合物で，Lysのアセチル化修飾を模倣した構造をもち，細胞においてBET系の<a href="#" class="anno" data-query="bromodomain containing" data-uniprot="">ブロモドメインタンパク質</a>のもつ，アセチル化修飾をうけたLysに対する結合ポケットに結合する拮抗阻害剤である<a href="#R1"><sup>1)</sup></a>．<br/>　JQ1により阻害されるBET系の<a href="#" class="anno" data-query="bromodomain containing" data-uniprot="">ブロモドメインタンパク質</a>としてもっとも注目されているのが<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>である<a href="#R1"><sup>1-3)</sup></a>．<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>の構造の特徴としては，アセチル化修飾をうけたLysに結合するブロモドメインユニットを2つもつことにくわえ<a href="#R5"><sup>5)</sup></a>，C末端側に<a href="#" class="anno" data-query="P-TEFb" data-uniprot="">P-TEFb</a>と結合する領域の存在することがあげられる<a href="#R6"><sup>6,7)</sup></a>．<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>による転写においては，転写を開始してすぐに抑制タンパク質により<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>が一時停止し，転写開始点の数十塩基ほど下流にとどまることがある．<a href="#" class="anno" data-query="P-TEFb" data-uniprot="">P-TEFb</a>はリン酸化酵素であり，この抑制タンパク質を不活性化し<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>を一時停止の状態から解放する．この作用から<a href="#" class="anno" data-query="P-TEFb" data-uniprot="">P-TEFb</a>は転写の活性化タンパク質と考えられている<a href="#R6"><sup>6,8)</sup></a>．一方で，核においてDNAは<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>との複合体であるヌクレオソームを構成し，多くの場合，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>のアセチル化が転写活性と正に相関している．このことから，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>のアセチル化修飾をうけたLysに結合する<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>は，<a href="#" class="anno" data-query="P-TEFb" data-uniprot="">P-TEFb</a>を動員して<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>を一時停止の状態から解放することにより転写の促進に寄与していると考えられてきた<a href="#R2"><sup>2-4,6,8,9)</sup></a>．しかし，このような一時停止の解除作用が起動したのちの転写伸長の段階においては，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>の関与は明らかではなかった．転写伸長においては，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>は単独ではヌクレオソームを排除して転写伸長をつづけることはできず，なんらかの補助が必要である．BET系の<a href="#" class="anno" data-query="bromodomain containing" data-uniprot="">ブロモドメインタンパク質</a>のひとつである<a href="#" class="anno" data-query="BRD2" data-uniprot="P25440">BRD2</a>には，アセチル化した<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>との結合能により<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>の転写伸長を促進するという<em>in vitro</em>における<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>シャペロン活性について報告があり<a href="#R10"><sup>10)</sup></a>，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>に関しても同様の<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>シャペロン機能の存在が予想された．<br/>　この研究では，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>が<a href="#" class="anno" data-query="P-TEFb" data-uniprot="">P-TEFb</a>を介さずに直接に転写伸長の促進に寄与していること，したがって，JQ1の作用機序も，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>および<a href="#" class="anno" data-query="P-TEFb" data-uniprot="">P-TEFb</a>を介した転写伸長の一時停止の解除を阻害することにとどまらず，より直接的に<a href="#" class="anno" data-query="Pol II elongation complexe" data-uniprot="">転写伸長複合体</a>との連携を抑制する作用のあることを明らかにした．さらに，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>による転写伸長の促進はエンハンサー領域においても確認され，これが<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>によるエンハンサー機能の亢進，ひいては，標的遺伝子の転写開始の促進に寄与しているものと考えられた．<br/><br/><h2>1．JQ1は転写開始および転写伸長の両方を阻害する</h2><br/>　JQ1による転写の抑制については多くの報告があるが，そのほとんどにおいて，標的は<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>であるとされている<a href="#R1"><sup>1-3,8,9)</sup></a>．さらに，既報では，JQ1の作用機序は<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>を介した<a href="#" class="anno" data-query="P-TEFb" data-uniprot="">P-TEFb</a>の動員を抑制することと説明されている<a href="#R2"><sup>2-4,8,9)</sup></a>．実際に，その根拠として，クロマチン免疫沈降法やクロマチン免疫沈降-シークエンシング法による<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>のゲノムにおける局在が提示されていたが，JQ1による<a href="#" class="anno" data-query="P-TEFb" data-uniprot="">P-TEFb</a>の動員の阻止を支持するような<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>の局在の変化は明らかとはいえなかった．<br/>　そこで，転写伸長の途中にありクロマチンと強く結合しているRNAの3’末端をRNAシークエンシング法により選択的に同定し，転写伸長を直接に観察した．モデルとしてマウスの線維芽細胞を使い，血清を除去したのち再刺激する方法により，刺激応答遺伝子の転写開始および転写伸長に対するJQ1の抑制効果を詳細に解析した．その結果，もっとも著明な変化は転写開始の直後に検出される短いRNAが減少したことであった．さらに，転写伸長の抑制効果の分布には不均衡があり，転写開始点の近傍においては著明ではなく，転写伸長の進行にともない顕著になった．これらの結果は，JQ1の阻害効果は転写開始点の近傍における転写伸長の一時停止の解除に対してであるという従来の説では説明しきれないものであった．<br/><br/><h2>2．<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>はエンハンサー領域および構造遺伝子の領域の両方において転写を促進する</h2><br/>　<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>が転写開始点の近傍に限局せず広くほかの領域にも分布したことから，JQ1による転写開始の抑制は<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>のエンハンサー領域における機能に対する抑制である可能性が考えられた．そこで，さきのRNAシークエンシング法によるデータとクロマチン免疫沈降-シークエンシング法による<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>，<a href="#" class="anno" data-query="P-TEFb" data-uniprot="">P-TEFb</a>の局在のデータを詳細に比較し，統計学的な相関関係をもとめた．その結果，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>の局在はエンハンサー領域および構造遺伝子の領域の両方において，<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>の局在や伸長しているRNAと正に相関し，これらはJQ1により阻害された．一方，<a href="#" class="anno" data-query="P-TEFb" data-uniprot="">P-TEFb</a>の局在はエンハンサー領域においては<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>の局在と負の相関を示し，構造遺伝子の領域においては<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>の局在や伸長しているRNAと弱い相関を示したが，これらの相関関係はJQ1の影響をうけず，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>に依存しない<a href="#" class="anno" data-query="P-TEFb" data-uniprot="">P-TEFb</a>独自の転写促進活性と判断された．さらに，エンハンサー領域における<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>の局在，エンハンサーRNAの産生量，標的遺伝子の転写活性には相関があり，これはJQ1により阻害された．エンハンサーRNAによる標的遺伝子の転写の活性化の分子機構は十分に確立されたわけではないものの，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>がエンハンサーRNAの産生を促進することにより標的遺伝子の転写を活性化している可能性が強く示唆された（<a href="#F1">図1</a>）．さらには，エンハンサーRNAの産生をともなわない<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>の局在と，その近傍にある標的遺伝子の転写活性とは相関を示さなかった．この結果は，最近，提唱された抗転写停止エンハンサーの仮説<a href="#R9"><sup>9)</sup></a> を支持するものではなかった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;">図1　BRD4はエンハンサー領域および構造遺伝子の領域の両方において転写を促進する<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ozato-Nature-Structural-Molecular-Biology-14.12.3-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　BRD4はエンハンサー領域および構造遺伝子の領域の両方において転写を促進する" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ozato-Nature-Structural-Molecular-Biology-14.12.3-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ozato-Nature-Structural-Molecular-Biology-14.12.3-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>のブロモドメインは転写開始点への<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>の動員には必須ではないが転写伸長には必須である</h2><br/>　JQ1の作用機序を<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>に限定して解明するため，ブロモドメインに点変異を導入した変異型<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>を，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>をノックダウンした細胞に再導入し発現させた．野生型<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>を再導入したときは<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>に依存性した転写活性はもとのレベルにまで回復したが，ブロモドメインに点変異をもつ変異型<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>を再導入しても転写活性は十分には回復しなかった．代表的な<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>依存性の遺伝子である<em><a href="#" class="anno" data-query="KLF4" data-uniprot="Q60793">KLF4</a></em>遺伝子についてさらに詳細に解析すると，ブロモドメインを必要としJQ1に感受性のある転写の段階は，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>が転写開始点に動員される転写開始の段階ではなく，そののちの転写伸長の段階であることが明らかになった．一般に，<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>のアセチル化などのエピゲノム修飾は，それを認識するドメインをもつタンパク質を動員するための標識と考えられており，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>のブロモドメインの機能についても単なる解読の機能のみが論じられているなかで，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>のブロモドメインが解読の機能にとどまらず，このタンパク質に内在する生理的な活性そのものにかかわっていることが明らかにされた．<br/><br/><h2>4．<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>は<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>複合体と会合して転写伸長を促進する</h2><br/>　<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>は<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>のアセチル化に依存した<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>シャペロン活性をもち，精製タンパク質による<em>in vitro</em>再構築系において転写伸長を促進した．この反応系には<a href="#" class="anno" data-query="P-TEFb" data-uniprot="">P-TEFb</a>は含まれておらず，認められた活性は<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>それ自体の機能と考えられた．<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>が転写伸長を促進する機能は培養細胞を使った実験系においても示された．実験方法として，クロマチンRNAシークエンシング法，Ser5がリン酸化された転写開始型の<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>およびSer2がリン酸化された転写伸長型の<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>に対するクロマチン免疫沈降法，伸長しているRNAの末端をブロモ化UTPを用いて標識，細断化，RNA免疫沈降したのち，DNAに逆転写してRNAの末端の局在をゲノムにおいてマップする方法，の3つを行った．いずれの実験においても，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>をノックダウンした細胞に<a href="#" class="anno" data-query="P-TEFb" data-uniprot="">P-TEFb</a>と結合できない変異型<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>を再導入すると転写伸長がみられ，さらに，ブロモドメインに点変異を導入した変異型<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>の再導入では転写伸長はみられなかった．この結果から，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>それ自体がブロモドメインに依存して転写伸長を促進する機能をもつこと，その機能はアセチル化した<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>に依存した<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>の<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>シャペロン活性によることが結論づけられた．<br/>　さらに，伸長しているブロモUTP標識RNAと<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>を含む<a href="#" class="anno" data-query="Pol II elongation complexe" data-uniprot="">転写伸長複合体</a>に対する連続免疫沈降法により，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>が<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a><a href="#" class="anno" data-query="Pol II elongation complexe" data-uniprot="">転写伸長複合体</a>と物理的に接触し，ゲノムの転写領域において複合体として共存していることが確認された．一方で，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>は転写開始点およびエンハンサー領域において<a href="#" class="anno" data-query="mediator complex" data-uniprot="">転写メディエーター複合体</a>と物理的に接触していた．したがって，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>は複数のステップにより<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>複合体に取り込まれるものと推察された．転写開始において<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>は<a href="#" class="anno" data-query="transcription initiation complex" data-uniprot="">転写開始複合体</a>へと動員され，そこで<a href="#" class="anno" data-query="mediator complex" data-uniprot="">メディエーター複合体</a>により独自に動員された<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>と物理的に接触し，2つのタンパク質を含んだ<a href="#" class="anno" data-query="Pol II elongation complexe" data-uniprot="">転写伸長複合体</a>となると考えられた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;">図2　BRD4はRNAポリメラーゼII複合体と会合して転写伸長を促進する<br/>（a）転写伸長において，RNAポリメラーゼIIは単独ではヌクレオソームを排除して転写伸長をつづけることはできない．<br/>（b）BRD4はブロモドメインによるアセチル化ヒストンへの接触に依存したヒストンシャペロン活性をもち，転写伸長を促進する．<br/>（c）BET阻害薬であるJQ1は，BRD4のブロモドメインのもつアセチル化修飾をうけたLysに対する結合ポケットに結合し，ブロモドメインとアセチル化ヌクレオソームとの結合を拮抗阻害することにより，転写伸長を抑制する．<br/>Pol II：RNAポリメラーゼII，六角形はヒストンのアセチル化を示す．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ozato-Nature-Structural-Molecular-Biology-14.12.3-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　BRD4はRNAポリメラーゼII複合体と会合して転写伸長を促進する" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ozato-Nature-Structural-Molecular-Biology-14.12.3-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ozato-Nature-Structural-Molecular-Biology-14.12.3-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　今回の結果は，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>は<a href="#" class="anno" data-query="P-TEFb" data-uniprot="">P-TEFb</a>を動員するアダプターとしてではなく，適切な環境において自ら<a href="#" class="anno" data-query="RNA polymerase II" data-uniprot="">RNAポリメラーゼII</a>の転写伸長を促進する活性を備えたタンパク質であることを示した．さらに，エンハンサーを活性化することにより転写開始をも促進することが示された．このことは，アダプター説および転写停止解除説をとなえるほかの多くの報告を否定するものではないが，それらの仮説のみでは十分に理解できない現象を説明できる作用機序であるといえた．アセチル化<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>に依存した<a href="#" class="anno" data-query="histone" data-uniprot="">ヒストン</a>シャペロン活性は<a href="#" class="anno" data-query="BRD2" data-uniprot="P25440">BRD2</a>，<a href="#" class="anno" data-query="BRD3" data-uniprot="Q8K2F0">BRD3</a>，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>に共通している．このことは，JQ1による抑制効果が<a href="#" class="anno" data-query="BRD2" data-uniprot="P25440">BRD2</a>，<a href="#" class="anno" data-query="BRD3" data-uniprot="Q8K2F0">BRD3</a>，<a href="#" class="anno" data-query="BRD4" data-uniprot="Q9ESU6">BRD4</a>の個別のノックダウンにより模倣されたという報告を支持する<a href="#R4"><sup>4,11)</sup></a>．JQ1はBET系の<a href="#" class="anno" data-query="bromodomain containing" data-uniprot="">ブロモドメインタンパク質</a>にかぎれば選択性がなく，選択性のある改良型の薬剤の開発と応用が展望される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Filippakopoulos, P., Qi, J., Picaud, S. et al.</span>: <span class="ti">Selective inhibition of BET bromodomains.</span> <span class='so'>Nature, 468, 1067-1073 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20871596" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Delmore, J. E., Issa, G. G., Lemieux, M. E. et al.</span>: <span class="ti">BET bromodomain inhibition as a therapeutic strategy to target c-Myc.</span> <span class='so'>Cell, 146, 904-917 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21889194" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Dawson, M. A., Prinjha, R. K., Dittmann, A. et al.</span>: <span class="ti">Inhibition of BET recruitment to chromatin as an effective treatment for MLL-fusion leukaemia.</span> <span class='so'>Nature, 478, 529-533 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21964340" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Chapuy, B., McKeown, M. R., Lin, C. Y. et al.</span>: <span class="ti">Discovery and characterization of super-enhancer-associated dependencies in diffuse large B cell lymphoma.</span> <span class='so'>Cancer Cell, 24, 777-790 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24332044" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kanno, T., Kanno, Y., Siegel, R. M. et al.</span>: <span class="ti">Selective recognition of acetylated histones by bromodomain proteins visualized in living cells.</span> <span class='so'>Mol. Cell, 13, 33-43 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14731392" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Jang, M. K., Mochizuki, K., Zhou, M. et al.</span>: <span class="ti">The bromodomain protein Brd4 is a positive regulatory component of P-TEFb and stimulates RNA polymerase II-dependent transcription.</span> <span class='so'>Mol. Cell, 19, 523-534 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16109376" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Bisgrove, D. A., Mahmoudi, T., Henklein, P. et al.</span>: <span class="ti">Conserved P-TEFb-interacting domain of BRD4 inhibits HIV transcription.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 104, 13690-13695 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17690245" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Patel, M. C., Debrosse, M., Smith, M. et al.</span>: <span class="ti">BRD4 coordinates recruitment of pause release factor P-TEFb and the pausing complex NELF/DSIF to regulate transcription elongation of interferon-stimulated genes.</span> <span class='so'>Mol. Cell. Biol., 33, 2497-2507 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23589332" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Liu, W., Ma, Q., Wong, K. et al.</span>: <span class="ti">Brd4 and JMJD6-associated anti-pause enhancers in regulation of transcriptional pause release.</span> <span class='so'>Cell, 155, 1581-1595 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24360279" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>LeRoy, G., Rickards, B. & Flint, S. J.</span>: <span class="ti">The double bromodomain proteins Brd2 and Brd3 couple histone acetylation to transcription.</span> <span class='so'>Mol. Cell, 30, 51-60 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18406326" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Nicodeme, E., Jeffrey, K. L., Schaefer, U. et al.</span>: <span class="ti">Suppression of inflammation by a synthetic histone mimic.</span> <span class='so'>Nature, 468, 1119-1123 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21068722" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">菅野 由香（Yuka Kanno）</span><br>略歴：1987年 東北大学大学院医学研究科 修了，1995年 京都大学ウイルス研究所 助手を経て，2004年より米国NIH National Institute of Arthritis and Musculoskeletal and Skin Diseases常任研究員．<br>研究テーマ：T細胞におけるエンハンサーのエピジェネティクス．<br><br><strong>尾里 啓子（Keiko Ozato）</strong><br>米国NIH National Institute of Child Health and Human Development部門主任．<br><br><strong>菅野 智彦（Tomohiko Kanno）</strong><br>米国NIH National Institute of Allergy and Infectious Diseases研究員．<br></div><br>© 2014 菅野由香・尾里啓子・菅野智彦 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

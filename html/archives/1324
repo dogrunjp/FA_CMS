@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> プレキシン受容体を介したセマフォリンシグナル伝達機構の構造的な基盤 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>プレキシン受容体を介したセマフォリンシグナル伝達機構の構造的な基盤</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>禾 晃和・高木淳一</strong><br>（大阪大学蛋白質研究所 プロテオミクス総合研究センタープロテオーム物質創製研究系）<br>email：<a href="mailto:nogi@protein.osaka-u.ac.jp">禾 晃和</a>，<a href="mailto:takagi@protein.osaka-u.ac.jp">高木淳一</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2010.047">10.7875/first.author.2010.047</a><br><div class="reference"><br><span class="ti">Structural basis for semaphorin signalling through the plexin receptor.</span><br><span class="au">Terukazu Nogi, Norihisa Yasui, Emiko Mihara, Yukiko Matsunaga, Masanori Noda, Naoya Yamashita, Toshihiko Toyofuku, Susumu Uchiyama, Yoshio Goshima, Atsushi Kumanogoh, Junichi Takagi</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/20881961" target="_blank"><em>Nature</em>, <strong>467</strong>, 1123-1127 (2010)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　セマフォリンは神経軸索の伸長などの細胞移動を制御するガイダンス因子であり，ガイドする標的細胞の受容体であるプレキシンと相互作用することによってシグナルを伝達する．今回，筆者らは，セマフォリン6AとプレキシンA2のリガンド-受容体ペアをとりあげ，これらの細胞外領域の結晶構造をそれぞれ明らかにし，さらに，それらの複合体の構造を決定することにも成功した．そして，結晶構造から，プレキシン受容体はシグナルを伝達するまえの状態ではホモ2量体構造を形成して不活性な状態にあるが，セマフォリンと遭遇することによってホモ2量体構造が解離して活性化されるという可能性が示された．この研究の成果は，プレキシン受容体の活性化の分子機構を解明していくうえで構造的な基盤をあたえるものであるといえる．<br/><br/><h2>はじめに</h2><br/>　セマフォリン（semaphorin）は神経軸索の伸長のガイダンス因子として同定されたのち，免疫応答，器官形成，血管新生など，さまざまな生命現象への関与が明らかにされている<a href="#R1"><sup>1-3)</sup></a>．また，がんの転移やアトピー性皮膚炎などにも関与していることが報告されており<a href="#R4"><sup>4,5)</sup></a>，セマフォリンの作用機序を明らかにすることは創薬の観点からも重要だといえる．セマフォリンには，分泌型，膜貫通型，GPIアンカー型など，さまざまなクラスが同定されていて，神経細胞や免疫細胞などの標的細胞に発現するプレキシン（plexin）とよばれる細胞表面受容体に作用する．一方，プレキシンはI型膜タンパク質として標的細胞に発現しており，細胞内領域にGAPドメイン（GAP：GTPase-activating protein，GTP活性化タンパク質）をもつユニークな膜受容体である<a href="#R6"><sup>6)</sup></a>．セマフォリンとプレキシンはリガンドと受容体の関係にあるが，細胞外領域にSemaドメインとよばれる共通したモジュール構造をもっており，受容体の活性化するときにはたがいにこのSemaドメインを介して結合するものと考えられている．セマフォリンファミリーに関してはセマフォリン3A（Sema3A）とセマフォリン4D（Sema4D）についてSemaドメインを含む細胞外領域の構造解析が報告されているが<a href="#R7"><sup>7,8)</sup></a>，プレキシンファミリーに関しては細胞外領域の構造解析は一例も報告されておらず，当然ながら，セマフォリンとプレキシンとの複合体の形成に関する構造情報はまったく得られていなかった．そのような状況のなか，筆者らは，セマフォリン6A（Sema6A）とプレキシンA2（PlxnA2）というペアをとりあげ，これら単独での細胞外領域の構造決定と，シグナル伝達複合体の構造決定に取り組むこととした．<br/><br/><h2>1．Sema6AとPlxnA2はまったく異なる配向でホモ2量体構造を形成する</h2><br/>　Sema6AとPlxnA2はN末端領域にSemaドメインとPSIドメイン（PSI：plexin-semaphorin-integrin）とよばれる領域を共通してもっており，この研究では，これら2つのドメインを含む領域を可溶性断片として発現させた（以下，結晶化に用いたこれらの断片をそれぞれSema6A<sub>SP</sub>，PlxnA2<sub>SP</sub>とよぶ）．動物細胞発現系から精製したタンパク質試料を用いて結晶解析を行ったところ，Sema6A<sub>SP</sub>，PlxnA2<sub>SP</sub>それぞれについて2.5Å分解能（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=3afc&amp;PAGEID=Summary" target="_blank">3AFC</a>），2.1Å分解能（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=3al9&amp;PAGEID=Summary" target="_blank">3AL9</a>）で構造を決定することができた．Sema6A<sub>SP</sub>とPlxnA2<sub>SP</sub>のSemaドメインはいずれも7枚の羽根からなるβプロペラ構造をとっており，PSIドメインは3つのS-S結合によって固く結びつけられたコンパクトな構造をとってβプロペラ構造の側面に位置していた（<a href="#F1">図1 a,b</a>）．このように基本的なフォールドは共通している一方で，Semaドメインのβプロペラ構造から突き出たループ領域の構造はSema6A<sub>SP</sub>とPlxnA2<sub>SP</sub>とのあいだで大きく異なっていた．とくに，1枚目と2枚目の羽根のあいだ，そして，5枚目の羽根にある長い挿入配列に関しては1次構造だけでなくコンフォメーションもまったく異なり，この領域がSema6AとPlxnA2とを特徴づけているかのようにみえた（以下，それぞれの挿入配列をExtrusion1領域，Extrusion2領域とよぶ）．さらに，PlxnA2の3枚目の羽根には外側にむけて突き出た特徴的なループ構造もみつかった（以下，この領域をBulge領域とよぶ）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Sema6A<sub>SP</sub>単量体およびPlxnA2<sub>SP</sub>単量体の構造と相互作用部位の性状</strong><br/>（a）Sema6A<sub>SP</sub>単量体，および，（b）PlxnA2<sub>SP</sub>単量体のリボン図．βプロペラ構造の7枚の羽を7色で色分けし，PSIドメインを灰色，Extrusion1領域とExtrusion2領域を黒色，Bulge領域を赤色で示す．複合体を形成したときにヘテロフィリックな相互作用部位を形成するExtrusion1領域，Extrusion2領域やBulge領域は，βプロペラ構造に対しPSIドメインと反対側に位置している．<br/>（c）Sema6A<sub>SP</sub>，および，（d）PlxnA2<sub>SP</sub>の2量体形成に関与する表面残基．PlxnA2では，ホモ2量体形成にかかわる領域とSema6Aとの複合体形成にかかわる領域とが大きく重なっている．<br/>（e）Sema6A<sub>SP</sub>，および，（f）PlxnA2<sub>SP</sub>のヘテロフィリックな相互作用部位の表面電荷．Sema6Aの相互作用部位が全体的に正電荷に富んでいる一方，PlxnA2の相互作用部位は負電荷に富んでおり，Sema6AとPlxnA2とが静電的な相互作用により結合していることが示唆される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takagi-Nature-10.10.28-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Sema6A<sub>SP</sub>単量体およびPlxnA2<sub>SP</sub>単量体の構造と相互作用部位の性状" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takagi-Nature-10.10.28-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takagi-Nature-10.10.28-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　Sema6A<sub>SP</sub>の主鎖構造はすでに報告されているSema3AやSema4Dのそれと非常によく似ていたが，もうひとつの共通した構造的な特徴としてSemaドメインを介したホモ2量体化があげられた．Sema3AやSema4Dはβプロペラ構造の面と面とを向い合わせにした“Face-to-face”型のホモ2量体構造をとることが報告されていたが，この研究で解析したSema6A<sub>SP</sub>も非常によく似た“Face-to-face”型のホモ2量体構造を形成していた（<a href="#F2">図2a</a>）．ホモ2量体化にかかわる領域のアミノ酸配列はまったくといっていいくらい保存されていないにもかかわらず3つのセマフォリンが同様のコンフォメーションをとることから，セマフォリンが機能を発現するうえで“Face-to-face”型のホモ2量体構造が重要なコンフォメーションであることが示唆された．一方，予想外なことに，PlxnA2<sub>SP</sub>も結晶でホモ2量体構造を形成していることがわかったが，その相互作用様式はセマフォリンとは大きく異なり，βプロペラ構造が側面と側面とを突き合わせた“Head-on”型の相互作用によって2量体が形成されていた（<a href="#F2">図2b</a>）．相互作用部位はExtrusion1領域，Extrusion2領域，そして，Bulge領域などより形成されており，相互作用にかかわるアミノ酸残基はA型プレキシンのあいだでよく保存されていた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　結晶解析によって明らかになったSema6A<sub>SP</sub>とPlxnA2<sub>SP</sub>とのホモ2量体構造と2対2のヘテロ4量体構造</strong><br/>（a）Sema6A<sub>SP</sub>を単独で結晶化したところ，βプロペラ構造の面と面とを向い合わせにした“Face-to-face”型の2量体構造をとることが明らかになった．Sema6A<sub>SP</sub>断片を水色のリボン図で示し，2つの単量体を濃淡で区別した．<br/>（b）PlxnA2<sub>SP</sub>も単独ではホモ2量体構造をとるが，Sema6A<sub>SP</sub>とはまったく異なり，βプロペラ構造の側面と側面とを突き合わせた“Head-on”型の相互作用で会合していることがわかった．PlxnA2<sub>SP</sub>断片をピンク色のリボン図で示し，2つの単量体を濃淡で区別した．<br/>（c）Sema6A<sub>SP</sub>とPlxnA2<sub>SP</sub>とを混合して結晶化したところ，“Face-to-face”型の2量体構造を保ったままのSema6A<sub>SP</sub>に対して単量体に解離したPlxnA2<sub>SP</sub>が1分子ずつ結合することで，2対2のヘテロ4量体を形成していることがわかった．膜貫通領域へとつづくPSIドメインは反対側をむいており，Sema6AとPlxnA2とが2つの細胞のあいだでトランスに相互作用することとも合致していた．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takagi-Nature-10.10.28-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　結晶解析によって明らかになったSema6A<sub>SP</sub>とPlxnA2<sub>SP</sub>とのホモ2量体構造と2対2のヘテロ4量体構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takagi-Nature-10.10.28-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takagi-Nature-10.10.28-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．Sema6AとPlxnA2は2対2のヘテロ4量体を形成する</h2><br/>　Sem6AとPlxnA2の細胞外領域の構造を単独で決定したのち，同様にして調製したタンパク質試料を混合して結晶化を行い構造解析に取り組んだ．最終的に3.6Å分解能でこれらの複合体の結晶構造を決定することに成功し（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=3al8&amp;PAGEID=Summary" target="_blank">3AL8</a>），Sema6A<sub>SP</sub>とPlxnA2<sub>SP</sub>とは結晶において2対2のヘテロ4量体を形成していることが明らかになった（<a href="#F2">図2c</a>）．このヘテロ4量体構造において，Sema6A<sub>SP</sub>は単独の状態と同じ“Face-to-face”型のホモ2量体構造を形成していたが，PlxnA2<sub>SP</sub>の“Head-on”型のホモ2量体構造は解消されて1分子ずつがSema6A<sub>SP</sub>の2量体にドッキングしていた．また，PlxnA2<sub>SP</sub>の相互作用部位はPlxnA2<sub>SP</sub>の単独の構造にみられたホモ2量体の相互作用部位とほぼ完全に重なっていることもわかった（<a href="#F1">図1 c,d</a>）．このことは，PlxnA2はホモフィリックな（同じタンパク質どうしの）相互作用からヘテロフィリックな（別のタンパク質との）相互作用へと“パートナーエクスチェンジ”を起こして複合体を形成していることを意味した．さきに述べたように，このPlxnA2<sub>SP</sub>の相互作用部位はExtrusion1領域，Extrusion2領域，Bulge領域などより形成されているが，興味深いことに，Sema6A<sub>SP</sub>の側の相互作用部位も1次構造アラインメントでほぼ同じ領域にマッピングされた．このような知見からも，これらのβプロペラ構造から突き出たループ領域がセマフォリンとプレキシンそれぞれの特徴をひき出す領域であり，これらの領域によって特異的な分子認識が制御されていることが考えられた．また，これらの領域は膜貫通領域へとつながるPSIドメインとは反対側に位置しており，Sema6AとPlxnA2とが向い合った別々の細胞から提示され（トランスに）相互作用することとも合致していた（<a href="#F1">図1 a,b</a>，<a href="#F2">図2c</a>）．<br/><br/><h2>3．Sema6AとPlxnA2は静電的な相互作用により特異的に結合する</h2><br/>　結晶で見い出されたSema6A<sub>SP</sub>とPlxnA2<sub>SP</sub>との2対2のヘテロ4量体には2種類のタンパク質間相互作用部位が存在した．ひとつはSema6A<sub>SP</sub>とPlxnA2<sub>SP</sub>とのあいだに形成されたヘテロフィリックな相互作用部位であり，もうひとつはSema6A<sub>SP</sub>の2分子のあいだで形成されたホモフィリックな相互作用部位である．結晶内に見い出されたこれらの相互作用が細胞膜でのシグナル伝達複合体のすがたを反映したものであるかどうかを検証するため，細胞を用いた結合実験や活性測定を行った．<br/>　まず，ヘテロフィリックな相互作用部位の検証のため，PlxnA2発現細胞に対してSema6A<sub>SP</sub>を結合させる実験を行った．複合体の構造分析からSema6AとPlxnA2とのあいだに多くの塩橋の形成されていることがわかったので（<a href="#F1">図1 e,f</a>），それらの塩橋を形成する残基に変異を導入してSema6A<sub>SP</sub>の結合量の変化を調べることにした．その結果，塩橋を破壊するような変異を導入したものでは期待どおり結合がみられなくなった．また，Sema6Aの393番目のLys残基とPlxnA2の193番目のAsp残基とが形成する塩橋についてはおもしろい知見が得られた．この塩橋を破壊することを目的として，Sema6Aの393番目のLys残基をGlu残基とした変異体とPlxnA2野生型，そして，Sema6A野生型とPlxnA2の193番目のAsp残基をLys残基とした変異体の組合せで結合実験を行ったところ，いずれについても結合がみられなくなった．それに対し，この2つの変異体どうしを組み合わせるとSema6AとPlxnA2との結合が回復することがわかったのである．これは，“二重否定は肯定”であるかのように2つの変異を組み合わせることで同じ部位で塩橋がふたたび形成された結果であると考えられた．この変異体の解析の結果から，Sema6AとPlxnA2とは細胞膜においても結晶にみられたSema6A<sub>SP</sub>とPlxnA2<sub>SP</sub>とのヘテロフィリックな相互作用部位を介して結合していることが確かめられた．また，おもに静電的な相互作用を駆動力として結合していることも示唆された．<br/><br/><h2>4．“Face-to-face”型の2量体構造をとったSema6AがPlxnA2を活性化する</h2><br/>　複合体の結晶のSema6A<sub>SP</sub>の断片は単独で結晶化した際にみられたものとまったく同じ“Face-to-face”型の2量体構造をとっていた．しかし，このホモ2量体の形成はあくまで結晶化によるアーティファクトであって，細胞膜で相互作用する場合にはSema6Aも単量体に解離して1対1の複合体をつくることでシグナルを伝達する，という可能性も考えられた．そこで，Sema6A<sub>SP</sub>の“Face-to-face”型の2量体を固定する変異体を作製してプレキシンの活性化能を評価した．<br/>　Sema6Aの415番目のMet残基はSema6A<sub>SP</sub>の2量体の相互作用面においてたがいに近接して存在しており，これをCys残基に置換することで2量体をつなぐS-S結合を形成することができる．このようなSema6A<sub>SP</sub>変異体のプレキシン活性化能をSema6A<sub>SP</sub>野生型と比較したところ，野生型では終濃度がμMオーダーでなければ受容体の活性化を検出できなかったところが，変異体では2桁以上も低い濃度で活性化が検出されることがわかった．また，分析超遠心を用いた解析からSema6A<sub>SP</sub>野生型の2量体の解離定数は約3.5μMと見積もられており，これは今回の実験で明らかになった受容体の活性化のために必要な濃度と高い相関がみられた．これらの結果は，PlxnA2を活性化するためにはSema6Aが2量体構造を保持している必要があり，2量体構造が固定された変異体は低濃度でも活性を示す一方で，野生型は自発的に2量体構造を形成できるようなμMオーダー以上の高濃度の条件でのみ高い活性を示したことを意味するものと考えられた．さきに述べたように，構造の既知のすべてのセマフォリンが同じ“Face-to-face”型の2量体を形成していたことからも，このホモ2量体構造がセマフォリンファミリーに共通したプレキシン受容体の活性化のために必須のコンフォメーションであることが強く示唆された．<br/><br/><h2>おわりに</h2><br/>　この論文で報告した3つの結晶構造から，シグナルを伝達するまえの状態では“Head-on”型のホモ2量体構造を形成するプレキシンは，“Face-to-face”型のホモ2量体構造をとるセマフォリンと遭遇することによって単量体に解離し，2対2のヘテロ4量体を形成する，という仮説がたてられた（<a href="#F2">図2</a>）．プレキシンの細胞外領域にはSemaドメインにつづいて700アミノ酸残基にも及ぶ長いストーク（茎）様の領域があり，細胞膜を隔てた細胞の内側にはGタンパク質の調節領域であるGAPドメインが直結している．もし仮に，ストーク様の領域が非常に硬い構造をとっているとするならば，細胞外におけるSemaドメインの会合状態の変化は細胞内のGAPドメインどうしの配置を直接的に変化させる可能性がある．つまり，セマフォリンとの結合によってある配置をとったときのみ，プレキシンのGAPドメインは活性化状態になり，シグナルは細胞内へと伝達される，という仮説をたてることができる．この仮説を検証しプレキシン受容体の活性化の作用機序を本質的に理解するためには，ストーク様の領域を含めたプレキシン受容体の細胞外領域全体の構造情報を得ることが重要であると考えられ，今後は，そのような解析にも取り組んでいきたい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Tamagnone, L. & Comoglio, P. M.</span>: <span class=“ti”>To move or not to move? Semaphorin signalling in cell migration.</span> <span class='so'>EMBO Rep., 5, 356-361 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15060572" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Zhou, Y., Gunput, R. A. & Pasterkamp, R. J.</span>: <span class=“ti”>Semaphorin signaling: progress made and promises ahead.</span> <span class='so'>Trends Biochem. Sci., 33, 161-170 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18374575" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Suzuki, K., Kumanogoh, A. & Kikutani, H.</span>: <span class=“ti”>Semaphorins and their receptors in immune cell interactions.</span> <span class='so'>Nat. Immunol., 9, 17-23 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18087252" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Neufeld, G. & Kessler, O.</span>: <span class=“ti”>The semaphorins: versatile regulators of tumour progression and tumour angiogenesis.</span> <span class='so'>Nat. Rev. Cancer, 8, 632-645 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18580951" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Yamaguchi, J., Nakamura, F., Aihara, M. et al.</span>: <span class=“ti”>Semaphorin3A alleviates skin lesions and scratching behavior in NC/Nga mice, an atopic dermatitis model.</span> <span class='so'>J. Invest. Dermatol., 128, 2842-2849 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18615113" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Pasterkamp, R. J.</span>: <span class=“ti”>R-Ras fills another GAP in semaphorin signalling.</span> <span class='so'>Trends Cell Biol., 15, 61-64 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15695091" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Antipenko, A., Himanen, J. P., van Leyen, K. et al.</span>: <span class=“ti”>Structure of the semaphorin-3A receptor binding module.</span> <span class='so'>Neuron, 39, 589-598 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12925274" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Love, C. A., Harlos, K., Mavaddat, N. et al.</span>: <span class=“ti”>The ligand-binding face of the semaphorins revealed by the high-resolution crystal structure of SEMA4D.</span> <span class='so'>Nat. Struct. Biol., 10, 843-848 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12958590" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">禾  晃和（Terukazu Nogi）</span><br>略歴：2001年 京都大学大学院理学研究科博士課程 修了，同年 高エネルギー加速器研究機構物質構造科学研究所 博士研究員，2002年 ドイツMax Planck Institute of Biophysics博士研究員を経て，2004年より大阪大学蛋白質研究所 助手（現 助教）．<br>研究テーマ：膜上でのシグナル伝達にかかわるタンパク質を対象とした構造生物学．<br>抱負：膜受容体の活性化やシグナル伝達を制御する，弱いながらも特異的なタンパク質間相互作用のすがたをX線結晶解析によって明らかにしていきたい．<br><br><strong>高木 淳一（Junichi Takagi）</strong><br>大阪大学蛋白質研究所 教授．<br>研究室URL：<a href="http://www.protein.osaka-u.ac.jp/rcsfp/synthesis/" target="_blank">http://www.protein.osaka-u.ac.jp/rcsfp/synthesis/</a><br></div><br>© 2010 禾 晃和・高木淳一 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> RIPK3はネクローシスに非依存的にサイトカインの産生および組織の修復を促進する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>RIPK3はネクローシスに非依存的にサイトカインの産生および組織の修復を促進する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>森脇健太・Francis Ka-Ming Chan</strong><br>（米国Massachusetts大学Medical School，Department of Pathology）<br>email：<a href="mailto:kenta.moriwaki@umassmed.edu">森脇健太</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.136">10.7875/first.author.2014.136</a><br><div class="reference"><br><span class="ti">The necroptosis adaptor RIPK3 promotes injury-induced cytokine expression and tissue repair.</span><br><span class="au">Kenta Moriwaki, Sakthi Balaji, Thomas McQuade, Nidhi Malhotra, Joonsoo Kang, Francis Ka-Ming Chan</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25367573" target="_blank"><em>Immunity</em>, <strong>41</strong>, 567-578 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　RIPK3はプログラム型のネクローシスを制御するタンパク質であり，RIPK3により制御されるネクローシスをとくにネクロプトーシスとよぶ．ネクローシスを起こした細胞は細胞の外に免疫誘導物質を放出するため，RIPK3はさまざまな炎症性疾患においてネクロプトーシスを誘導することにより炎症反応を促進すると考えられてきた．この研究では，RIPK3によるネクロプトーシスに非依存的な炎症反応の促進能について明らかにした．RIPK3を欠損した樹状細胞ではリポ多糖の刺激ののちのサイトカインの産生がネクロプトーシスに非依存的に減少しており，これは，NF-κBシグナル伝達経路およびカスパーゼの活性化が抑制されているためであった．この樹状細胞におけるRIPK3に依存的なサイトカインの産生は，デキストラン硫酸ナトリウムにより誘導される腸炎におけるインターロイキン22を介した組織の修復に必要であり，RIPK3ノックアウトマウスはデキストラン硫酸ナトリウムによる組織への傷害を修復することができず，炎症が長期化し，野生型のマウスに比べ強い腸炎を起こした．RIPK3はネクロプトーシスに非依存的に樹状細胞におけるサイトカインの産生を促進し，傷害をうけた組織の修復を促進することが明らかになった．<br/><br/><h2>はじめに</h2><br/>　アポトーシスおよびネクローシスは形態学的に異なる細胞死を表す用語であり，クロマチンの凝集および細胞の縮小化と断片化を呈す細胞死をアポトーシス，オルガネラと細胞の膨張および細胞膜の破裂を呈す細胞死をネクローシスとよぶ．発生の段階においてアポトーシスが観察されることから，アポトーシスは不必要な細胞を排除するために遺伝的にプログラムされた細胞死として認識され，これまでの数十年間，その制御機構の解明のため精力的な研究が行われ，カスパーゼをはじめとする多くの制御タンパク質が同定されてきた．それに対し，ネクローシスは物理的なストレスなどにより誘導される偶発的な非プログラム型の細胞死と考えられてきた．しかしながら，TNFなどアポトーシスを誘導するタンパク質は特定の条件のもとではネクローシスを誘導することが観察され，近年，このネクローシスを制御するタンパク質としてRIPK1，RIPK3，MLKLが同定された．このタイプのネクローシスはとくにネクロプトーシスとよばれる<a href="#R1"><sup>1)</sup></a>．<br/>　TNFの刺激により，ある条件のもとではカスパーゼ8が活性化されてアポトーシスが誘導される．RIPK1およびRIPK3はシステインプロテアーゼであるカスパーゼ8の基質であるため，通常ではTNFの刺激ののちカスパーゼ8により切断されて不活性化される．しかし，カスパーゼ8の活性を阻害すると，TNFの刺激ののちRIPK1およびRIPK3が活性化されてネクロプトーシスが誘導される<a href="#R1"><sup>1)</sup></a>．実際に，カスパーゼ8ノックアウトマウスあるいはカスパーゼ8のアダプタータンパク質であるFADDのノックアウトマウスは，発生の時期に激しいネクロプトーシスを起こして胎生致死となる<a href="#R2"><sup>2-4)</sup></a>．また，カスパーゼ8あるいはFADDの腸管に特異的なノックアウトマウスはネクロプトーシスによる激しい腸炎を起こす<a href="#R5"><sup>5,6)</sup></a>．このように，ネクロプトーシスはカスパーゼ8の活性を阻害したときにとくに強く誘導される（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　RIPK3はTNFなどの刺激に応じてネクロプトーシスを誘導する</strong><br/>RIPK3に依存的なネクロプトーシスはカスパーゼ8の活性が阻害されている条件において強く誘導される．ネクロプトーシスを起こした細胞は免疫誘導物質を放出し炎症反応を誘導する．<br/>TLR：Toll様受容体．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Moriwaki-Immunity-14.10.16-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　RIPK3はTNFなどの刺激に応じてネクロプトーシスを誘導する" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Moriwaki-Immunity-14.10.16-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Moriwaki-Immunity-14.10.16-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　多くの炎症性疾患のモデルにおいて，RIPK3ノックアウトマウスは炎症反応が抑制されていることが報告されており，RIPK3は炎症性疾患における新たな創薬の標的として注目をあびている<a href="#R1"><sup>1)</sup></a>．ネクローシスを起こした細胞は細胞膜が破壊されるため，免疫誘導物質を放出し周囲の免疫細胞を刺激することにより炎症反応を誘導する<a href="#R7"><sup>7)</sup></a>（<a href="#F1">図1</a>）．そのため，RIPK3は生体においてネクロプトーシスを起こすことにより炎症反応を誘導し，炎症性疾患に関与していると結論づけられてきた．しかしながら，<em>in vivo</em>においてネクロプトーシスを直接的に検出および定量する手法が確立されていないため，カスパーゼ8あるいはFADDを欠損していない野生型のマウスにおいて，RIPK3がネクロプトーシスを介して炎症反応を誘導しているのかどうかは明らかにされていなかった<a href="#R8"><sup>8)</sup></a>．<br/><br/><h2>1．RIPK3はデキストラン硫酸ナトリウムにより誘導される腸炎を抑制する</h2><br/>　潰瘍性大腸炎やクローン病に代表される炎症性腸疾患は，免疫制御機構の破綻によりひき起こされる腸管における慢性炎症のために組織が傷害される難治性の疾患である．デキストラン硫酸ナトリウムを経口投与すると腸管上皮細胞に傷害がひき起こされ腸炎が発症する．その病態が炎症性腸疾患に類似しているため，デキストラン硫酸ナトリウムにより誘導される腸炎は炎症性腸疾患のモデルとして広く利用されている．野生型のマウスおよびRIPK3ノックアウトマウスにデキストラン硫酸ナトリウムを投与して腸炎の程度を比較したところ，野生型マウスに比べRIPK3ノックアウトマウスにおいてはいちじるしい体重の減少および腸管組織の萎縮がみられ，組織学的な解析により強い炎症がみられた．デキストラン硫酸ナトリウムを投与された腸管においては，腸管上皮細胞および腸管に侵入してきた免疫細胞においてRIPK3の発現が強く誘導されていた．紫外線を照射したのちRIPK3ノックアウトマウスに由来する骨髄細胞を移植した野生型のマウスは，対照となるRIPK3ノックアウトマウスと同じ程度の腸炎を呈したことから，おもに免疫細胞に発現するRIPK3がデキストラン硫酸ナトリウムに誘導性の腸炎の抑制に重要であることがわかった．<br/><br/><h2>2．RIPK3はインターロイキン23およびインターロイキン1βの発現を介してインターロイキン22に誘導性の腸管における組織の修復を促進する</h2><br/>　デキストラン硫酸ナトリウムの投与ののち7日目のRIPK3ノックアウトマウスの腸管において，インターロイキン6やCox2といったいくつかの炎症性サイトカインの発現が低下していた．この時期はデキストラン硫酸ナトリウムによる組織の傷害が起こりはじめている時期であり，RIPK3ノックアウトマウスでは初期の炎症反応が抑制されていると考えられた．炎症反応は傷害をうけた組織を修復するための生体反応であり，その反応が弱すぎても強すぎても正常な組織の修復は起こらず，病態はより悪化する．デキストラン硫酸ナトリウムを投与された腸管組織においては傷害をうけた組織を修復するため腸管上皮細胞の増殖が亢進する．RIPK3ノックアウトマウスではこの腸管上皮細胞の増殖が有意に低下していたため，RIPK3は腸管における組織の修復を促進すると考えられた．<br/>　デキストラン硫酸ナトリウムに誘導性の腸炎において組織の修復を制御するサイトカインとしてインターロイキン22が知られている<a href="#R9"><sup>9)</sup></a>．インターロイキン22はインターロイキン10ファミリーに属し，腸管が傷害されたときおもに腸管の自然リンパ球から分泌され，腸管上皮細胞に発現する受容体と結合することにより組織の修復を誘導する．RIPK3ノックアウトマウスではこのインターロイキン22の発現が有意に低下しており，その結果と一致して，インターロイキン22により誘導される転写因子STAT3のリン酸化および抗菌ペプチドReg3βの発現も低下していた．また，デキストラン硫酸ナトリウムを投与したRIPK3ノックアウトマウスに対し，インターロイキン22より生体における安定性の高いFc融合インターロイキン22を投与したところ，対照となるマウスに比べ腸炎が抑制された．自然リンパ球からのインターロイキン22の産生を誘導するサイトカインとしてインターロイキン23およびインターロイキン1βが知られているが，それらの発現はデキストラン硫酸ナトリウムを投与したRIPK3ノックアウトマウスの腸管において有意に低下していた．また，組換え体のインターロイキン23およびインターロイキン1βをRIPK3ノックアウトマウスに投与したところ，対照に比べ腸管組織におけるインターロイキン22の産生が回復し腸炎の程度が抑制された．以上の結果から，RIPK3はデキストラン硫酸ナトリウムを投与したマウスの腸管の免疫細胞においてインターロイキン23およびインターロイキン1βの産生を促進し，その結果，インターロイキン22を介した組織の修復を亢進させることにより腸炎を抑制していると考えられた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ネクロプトーシスに非依存的なRIPK3による組織の修復の機構</strong><br/>TLR：Toll様受容体．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Moriwaki-Immunity-14.10.16-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ネクロプトーシスに非依存的なRIPK3による組織の修復の機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Moriwaki-Immunity-14.10.16-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Moriwaki-Immunity-14.10.16-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．RIPK3は骨髄に由来する樹状細胞においてリポ多糖により誘導されるNF-κBシグナル伝達経路およびカスパーゼの活性化を促進する</h2><br/>　インターロイキン23およびインターロイキン1βはおもに樹状細胞，マクロファージといった自然免疫細胞において産生される．そこで，野生型のマウスに由来する骨髄細胞あるいはRIPK3ノックアウトマウスに由来する骨髄細胞を樹状細胞あるいはマクロファージへと分化させ，リポ多糖により刺激したのちのインターロイキン23の産生について調べたところ，RIPK3を欠損した骨髄に由来する樹状細胞においてインターロイキン23の産生が有意に低下していた．骨髄に由来するマクロファージにおいてはそのような差はみられなかった．骨髄に由来する樹状細胞をリポ多糖により刺激しても細胞死はみられないため，RIPK3を欠損した骨髄に由来する樹状細胞におけるインターロイキン23の産生の低下は，RIPK3の細胞死の制御機能とは関係ないものと考えられた．リポ多糖により誘導されるインターロイキン23の産生は，Toll様受容体のひとつTLR4の下流においてNF-κBシグナル伝達経路により制御されている．NF-κBシグナル伝達経路が活性化されると，NF-κBファミリータンパク質であるRelA，RelB，cRel，p50，p52が種々の組合せの二量体として核へと移行し遺伝子発現を誘導する．詳細な解析の結果，RIPK3を欠損した骨髄に由来する樹状細胞ではリポ多糖の刺激ののちのRelBおよびp50の核への移行がいちじるしく抑制されていることがわかった．それに対し，RelA，cRel，p52の核への移行は野生型の骨髄に由来する樹状細胞と同じ程度であった．RelBは非古典的NF-κBシグナル伝達経路においてp52とのヘテロ二量体としてはたらくことがよく知られているが，近年，樹状細胞ではToll様受容体により活性化される古典的NF-κBシグナル伝達経路においてp50とのヘテロ二量体としてはたらき，炎症性サイトカインの産生にかかわることが報告されている<a href="#R10"><sup>10)</sup></a>．<br/>　野生型の骨髄に由来する樹状細胞をリポ多糖により刺激するとインターロイキン1βの産生がみられるが，このインターロイキン1βの産生もRIPK3を欠損した骨髄に由来する樹状細胞においていちじるしく抑制されていた．インターロイキン1βはインターロイキン1β前駆体として生合成され，細胞の外へと分泌されるためにはカスパーゼにより切断される必要がある．インターロイキン1β前駆体を切断するカスパーゼとしてはカスパーゼ1がもっともよく知られているが，RIPK3を欠損した骨髄に由来する樹状細胞においてはリポ多糖の刺激ののちカスパーゼ1の活性が低下していた．以上のことから，骨髄に由来する樹状細胞においてRIPK3はRelB-p50ヘテロ二量体の核への移行を促進することによりインターロイキン23の産生を誘導し，また，カスパーゼ1の活性化を促進することによりインターロイキン1βの産生を促進することがわかった（<a href="#F2">図2</a>）．<br/><br/><h2>おわりに</h2><br/>　RIPK3をはじめとするネクロプトーシス制御タンパク質が同定されて以来，それらの遺伝子改変マウスを用いてネクロプトーシスと炎症性疾患との関係が明らかにされてきた．これまで，RIPK3はネクロプトーシスに特異的なタンパク質であると考えられてきたため，種々の炎症性疾患においてRIPK3はネクロプトーシスを介して炎症を誘導していると考えられてきた．しかしながら，この研究において，RIPK3がネクロプトーシスに非依存的な機能により炎症を誘導することが明らかになった．現在，RIPK3は新たな創薬の標的として注目されており，実際に，最近，RIPK3のキナーゼ活性の阻害剤が開発され，炎症性疾患への治療薬としての有用性が期待されている．RIPK3のキナーゼ活性はネクロプトーシスの誘導に必須であるため，RIPK3のキナーゼ活性の阻害剤はネクロプトーシスの阻害剤としては有用である．しかし，この研究において明らかにされたネクロプトーシスに非依存的な炎症の促進機能においてはRIPK3のキナーゼ活性は必要でないことがわかっているため，RIPK3により誘導される炎症をより効果的に抑制するためには新たな戦略が必要になるであろう．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Moriwaki, K. & Chan, F. K.</span>: <span class="ti">RIP3: a molecular switch for necrosis and inflammation.</span> <span class='so'>Genes Dev., 27, 1640-1649 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23913919" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Zhang, H., Zhou, X., McQuade, T. et al.</span>: <span class="ti">Functional complementation between FADD and RIP1 in embryos and lymphocytes.</span> <span class='so'>Nature, 471, 373-376 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21368761" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Kaiser, W. J., Upton, J. W., Long, A. B. et al.</span>: <span class="ti">RIP3 mediates the embryonic lethality of caspase-8-deficient mice.</span> <span class='so'>Nature, 471, 368-372 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21368762" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Oberst, A., Dillon, C. P., Weinlich, R. et al.</span>: <span class="ti">Catalytic activity of the caspase-8-FLIP<sub>L</sub> complex inhibits RIPK3-dependent necrosis.</span> <span class='so'>Nature, 471, 363-367 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21368763" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Gunther, C., Martini, E., Wittkopf, N. et al.</span>: <span class="ti">Caspase-8 regulates TNF-α-induced epithelial necroptosis and terminal ileitis.</span> <span class='so'>Nature, 477, 335-339 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21921917" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Welz, P. S., Wullaert, A., Vlantis, K. et al.</span>: <span class="ti">FADD prevents RIP3-mediated epithelial cell necrosis and chronic intestinal inflammation.</span> <span class='so'>Nature, 477, 330-334 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21804564" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Kaczmarek, A., Vandenabeele, P. & Krysko, D. V.</span>: <span class="ti">Necroptosis: the release of damage-associated molecular patterns and its physiological relevance.</span> <span class='so'>Immunity, 38, 209-223 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23438821" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Moriwaki, K. & Chan, F. K.</span>: <span class="ti">Necrosis-dependent and independent signaling of the RIP kinases in inflammation.</span> <span class='so'>Cytokine Growth Factor Rev., 25, 167-174 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24412261" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Mizoguchi, A.</span>: <span class="ti">Healing of intestinal inflammation by IL-22.</span> <span class='so'>Inflamm. Bowel Dis., 18, 1777-1784 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22359410" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Shih, V. F., Davis-Turak, J., Macal, M. et al.</span>: <span class="ti">Control of RelB during dendritic cell activation integrates canonical and noncanonical NF-κB pathways.</span> <span class='so'>Nat. Immunol., 13, 1162-1170 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23086447" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">森脇 健太（Kenta Moriwaki）</span><br>略歴：2010年 大阪大学大学院医学系研究科 修了，同年 同 研究員を経て，2011年より米国Massachusetts大学Medical School研究員．<br>研究テーマ：細胞死と炎症．<br><br><strong>Francis Ka-Ming Chan</strong><br>米国Massachusetts大学Medical SchoolにてAssociate Professor．<br></div><br>© 2014 森脇健太・Francis Ka-Ming Chan Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

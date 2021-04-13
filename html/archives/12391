@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Cdk1によるリン酸化に依存的なAPC/Cの活性化 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>Cdk1によるリン酸化に依存的なAPC/Cの活性化</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>藤光和之・山野博之</strong><br>（英国University College London，UCL Cancer Institute，Cell Cycle Control Group）<br>email：<a href="mailto:k.fujimitsu@ucl.ac.uk">藤光和之</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.037">10.7875/first.author.2016.037</a><br><div class="reference"><br><span class="ti">Cyclin dependent kinase 1-dependent activation of APC/C ubiquitin ligase.</span><br><span class="au">Kazuyuki Fujimitsu, Margaret Grimaldi, Hiroyuki Yamano</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27103671" target="_blank"><em>Science</em>, <strong>352</strong>, 1121-1124 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ゲノムDNAの正確な複製および分配はユビキチンリガーゼであるAPC/Cの適切な時期における活性化により保障される．APC/Cは少なくとも13個のサブユニットから形成される巨大な複合体であり，その活性はリン酸化により制御されているが，その詳細な機構については未解明であった．筆者らは，アフリカツメガエルのAPC/Cを再構成して精製し，さらに，アフリカツメガエルの卵抽出液を用い生理的な条件においてAPC/Cの活性を解析する系を構築した．この系を用いて変異を導入したAPC/Cを系統的に解析した結果，Cdk1がApc3のループ領域およびApc1のループ領域をリン酸化し，APC/Cの活性化タンパク質であるCdc20とAPC/Cとの結合を促進することが見い出された．Apc3のリン酸化されたループ領域はCdk1を含む複合体の足場になり，Apc1のループ領域のリン酸化を促進した．一方，Apc1の脱リン酸化されたループ領域はAPC/Cと結合してCdc20との結合を阻害し，その結合はリン酸化により解離したことから，リン酸化に依存的してAPC/CとCdc20との結合を制御する分子スイッチとして機能すると考えられた．<br/><br/><h2>はじめに</h2><br/>　細胞が正常に増殖し分化するために，細胞周期は厳密に制御されなければならない．この命題の遂行のため，細胞周期における多くの過程はリン酸化やユビキチン化といった翻訳後修飾により制御される．APC/Cはユビキチンリガーゼであり，さまざまな基質タンパク質をユビキチン化しプロテアソームによる分解へと導く<a href="#R1"><sup>1)</sup></a>．APC/Cの活性は細胞周期に応じ制御されており，M期の中期から後期への移行期にはサイクリンやセキュリンといった鍵となるタンパク質をユビキチン化する．それ以降もさまざまなタンパク質を細胞周期の進行に応じてユビキチン化し，M期の終了およびG1期の維持に機能する．<br/>　APC/Cは真核生物のあいだで高度に保存されているが，600以上もあるといわれるユビキチンリガーゼのなかでも，13種類以上のサブユニットから構成されるというきわめて複雑かつ巨大な複合体である<a href="#R2"><sup>2)</sup></a>．さらに複雑さを増す要因として，APC/Cがユビキチン化活性を示すには，構成サブユニットのほかに活性化タンパク質であるCdc20ファミリータンパク質を必要とすることがある（<a href="#F1">図1</a>）．Cdc20ファミリータンパク質は，C末端側にApc10と協同して基質の認識を担うWD40ドメイン，N末端側にユビキチン化活性を促進するCボックスモチーフをもつ．体細胞分裂においてはおもにCdc20およびCdh1が機能しており，Cdc20はM期の中期および後期，Cdh1はM期の後期からS期の直前まで機能する．これまで，Cdc20がAPC/Cを活性化する機構については，酵母からヒトにいたるさまざまな生物を用いて解析されてきた．脊椎動物においてAPC/Cは<em>in vitro</em>の系を中心に解析され，Cdc20はCdk1によりリン酸化されたAPC/Cと効率よく結合し活性化することが知られていた<a href="#R3"><sup>3)</sup></a>．しかしながら，このリン酸化によりAPC/Cが活性化される詳細な分子機構については未解明であった．その大きな要因として，APC/Cのリン酸化部位は50箇所以上もあり<a href="#R4"><sup>4,5)</sup></a>，リン酸化により機能を発動する領域が未同定であることが考えられた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　細胞周期におけるAPC/Cの活性の制御</strong><br/>G2期においてはAPC/Cは活性化タンパク質であるCdc20あるいはCdh1とは結合しておらず不活性型である．G2期からM期にかけてサイクリンBのレベルが上昇しCdk1が活性化されると，APC/Cはリン酸化されてCdc20との結合が可能になり活性化される．活性化されたAPC/CはサイクリンBなどの基質をユビキチン化しその分解を促進する．M期の中期から後期にかけてサイクリンBが分解されると，Cdk1の活性の低下およびホスファターゼの活性化が起こりAPC/Cは脱リン酸化される．脱リン酸化されたAPC/CはCdh1により活性化され，基質をユビキチン化してM期の終了およびG1期の維持にはたらく．<br/>P：リン酸化，Ub：ユビキチン．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamano-Science-16.5.20-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　細胞周期におけるAPC/Cの活性の制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamano-Science-16.5.20-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamano-Science-16.5.20-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．アフリカツメガエルのAPC/Cの再構成および活性測定系の構築</h2><br/>　APC/Cの活性化を担うリン酸化部位を同定するため，まず，野生型のAPC/Cを再構成しその活性を測定する系の構築を試みた．アフリカツメガエルのAPC/Cのおのおののサブユニットを複数のタンパク質を発現できるMultiBacベクターにクローニングしてバキュロウイルスに導入し，それらを昆虫細胞に感染させることによりAPC/Cのすべてのサブユニットを昆虫細胞において共発現させてAPC/Cを形成させた．サブユニットのひとつApc6をstreptタグ融合型として発現させることにより，発現させたAPC/Cのアフィニティーカラムによる精製を可能にした．精製されたAPC/Cが複合体を形成していることは，ゲルろ過カラムを用いることにより確認した．精製されたAPC/Cの活性を測定するため，APC/Cを免疫除去したアフリカツメガエルの卵抽出液にくわえたところ，Cdk1の活性の低い間期の抽出液においてはCdh1に依存的に，Cdk1の活性の高いM期の後期の抽出液においてはCdc20に依存的に，基質を分解した．さらに，精製タンパク質のみから構成されたユビキチン反応系において，精製されたAPC/Cがユビキチンリガーゼとしての活性をもつことが示された．<br/><br/><h2>2．Apc1およびApc3のリン酸化がCdc20に依存したAPC/Cの活性化を促進する</h2><br/>　ヒトおよびアフリカツメガエルのAPC/Cはともに<em>in vitro</em>においてCdk1により活性化される．そこで，活性化に重要なリン酸化部位はヒトとアフリカツメガエルのあいだで共有されているであろうと予想し，両者のあいだで保存されているCdk1コンセンサス配列に注目した．APC/Cのおのおののサブユニットごとに，Cdk1コンセンサス配列をAlaに置換した変異APC/Cを作製し精製した．Alaに置換された部位のリン酸化がAPC/Cの活性化に重要であれば，アフリカツメガエルの間期の抽出液においてはCdh1に依存的な活性を維持しつつ，M期の後期の抽出液においてはCdc20に依存的な活性が低下すると考えられた．詳細かつ系統的な解析の結果，Apc3の12箇所のCdk1コンセンサス配列をAlaに置換した変異APC/C，および，Apc1の15箇所のCdk1コンセンサス配列をAlaに置換した変異APC/Cは，Cdc20との結合能が低下しそのような表現型を示すことが見い出された．これらの結果から，これまで50以上あるといわれたAPC/CのCdk1に依存的なリン酸化部位のうち，Apc3およびApc1の2つのサブユニットのもつリン酸化部位のリン酸化がM期におけるAPC/Cの活性化にとくに重要な役割をはたすことが示唆された．<br/><br/><h2>3．Apc1のループ領域およびApc3のループ領域のCdk1によるリン酸化がAPC/Cの活性化を促進する</h2><br/>　Apc1およびApc3に導入された変異の部位は広範囲にわたっていたため，それぞれ，複数のAlaへの置換をもつAPC/Cを作製して機能領域の限定を試みた．その結果，Apc3においては約280残基のループ領域にある9箇所のリン酸化部位，Apc1においてはN末端側に存在する約100残基のループ領域にある7箇所のリン酸化部位が重要であることがわかった．これらの変異Apc3および変異Apc1の効果は相加的であり，M期の後期の抽出液においてこれらの変異Apc3および変異Apc1の両方をもつAPC/Cの活性はほぼ失われた．サイクリンBに代えて，セキュリンやサイクリンAを基質として用いた場合にも同様の結果が得られた．細胞周期を再現したサイクリング抽出液を用いた実験においても，これらの変異Apc3および変異Apc1の両方をもつAPC/Cを用いた場合にはサイクリンBは分解されずに過剰に蓄積しM期を脱出できなかった．また，精製Cdk1によりリン酸化されたこれらの変異Apc3および変異Apc1の両方をもつAPC/Cのユビキチン化活性は，野生型のAPC/Cと比べいちじるしく低下していた．以上の結果から，Cdk1によるApc3のループ領域およびApc1のループ領域におけるリン酸化がAPC/Cの活性化に決定的な役割をはたすことが示された．<br/><br/><h2>4．Apc3のループ領域のリン酸化はApc1のループ領域のリン酸化を促進する</h2><br/>　Apc3のループ領域のリン酸化の役割はなんであろうか．この問題を解くヒントは，M期の後期の抽出液から回収されたApc3のループ領域に変異をもつAPC/Cにおいて，Apc1の電気泳動における移動度が増加していることであった．このことから，Apc3のループ領域はあるキナーゼをAPC/Cへリクルートするための足場になり，Apc1のループ領域のリン酸化を促進するのではないかと予想した．Apc1およびApc3のリン酸化には，Cdk1と複合体を形成するp9（生物種によっては，Suc1あるいはCks1/2）が必要であることが知られていた．さらに最近，p9はリン酸化されたアミノ酸残基を認識し，近傍の領域のCdk1によるリン酸化を促進することが報告された．そこでCdk1，サイクリンB，p9からなる複合体がApc3のリン酸化されたループ領域に結合し，Apc1のループ領域をリン酸化するのではないかと考えた．Apc3のループ領域に変異を導入したAPC/CへのCdk1およびp9の結合量を調べると，ともに顕著に低下していた．Apc1のループ領域のリン酸化を特異的に認識する抗体を用いた実験により，Apc3のループ領域に変異があるとApc1のループ領域のリン酸化が低下することが明らかにされた．以上の結果から，Apc3のループ領域はリン酸化によりCdk1，サイクリンB，p9からなる複合体の足場になり，Apc1のループ領域のリン酸化を促進するという，APC/Cのサブユニットのあいだのクロストークの存在が示された（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　Cdk1によるリン酸化に依存的なAPC/Cの活性化のモデル</strong><br/>Apc3のループ領域はCdk1，サイクリンB，p9からなる複合体によりリン酸化される．Apc3のリン酸化されたループ領域はこの複合体の足場になり，Apc1のループ領域のリン酸化を促進する．Apc1の脱リン酸化されたループ領域はApc8と相互作用し，APC/CとCdc20との結合を阻害する．Cdk1によりApc1のループ領域がリン酸化されるとAPC/Cから解離し，その結果，Cdc20がAPC/Cと結合して活性型のAPC/Cとなる．<br/>P：リン酸化．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamano-Science-16.5.20-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　Cdk1によるリン酸化に依存的なAPC/Cの活性化のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamano-Science-16.5.20-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yamano-Science-16.5.20-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>5．Apc1のループ領域はAPC/Cと相互作用しCdc20とAPC/Cとの結合を制御する</h2><br/>　Apc1のループ領域の機能を調べるため，大腸菌においてApc1のループ領域のみを発現させて精製し，APC/CあるいはCdc20と相互作用するかどうか調べた．その結果，リン酸化部位にAlaの置換を導入したApc1のループ領域の断片は，M期の後期の抽出液においてAPC/Cと相互作用した．一方，野生型のApc1のループ領域の断片およびリン酸化を模倣した変異を導入したApc1のループ領域の断片はAPC/Cと相互作用しなかった．また，間期の抽出液においてはAPC/CとApc1のループ領域の断片との相互作用は検出されなかった．これらの結果から，Apc1の脱リン酸化されたループ領域は，APC/C（おそらく，Apc8）と相互作用してAPC/CとCdc20との結合を阻害し，リン酸化によりその相互作用が消失すると解離して，APC/CとCdc20との結合が可能となるというモデルを提唱した（<a href="#F2">図2</a>）．実際，Apc1のループ領域にリン酸化を模倣した変異を導入したAPC/Cは間期においても活性型となり基質をユビキチン化した．<br/>　高解像度クライオ電子顕微鏡を用いた構造解析から，Apc1のループ領域は明確な構造をとらないためその位置は明らかではないものの，Apc8の近傍に位置することが推測された<a href="#R6"><sup>6)</sup></a>．Apc8とCdc20のN末端側の領域との相互作用はAPC/Cの活性化に重要な役割をはたすことが示唆されていたため<a href="#R7"><sup>7)</sup></a>，Apc1のループ領域にあるリン酸化部位に変異が導入されたAPC/CとCdc20のN末端側の領域の断片との結合について調べた．予想されたとおり，野生型のAPC/CはM期の後期の抽出液においてCdc20のN末端側の領域の断片と高い結合能を示したが，この変異Apc1をもつAPC/Cの結合能は低下していた．以上の結果より，Apc1のループ領域はリン酸化に依存してCdc20のN末端側の領域との結合を制御することにより，APC/Cの活性化のためのスイッチとして機能すると推測された．<br/><br/><h2>おわりに</h2><br/>　今回の研究により，M期においてAPC/Cを活性化する主要な経路が明確にされた．この経路に対し，ホスファターゼやCdk1のほかのM期キナーゼがどのように関与するのかは今後の課題である．また，得られた知見はタンパク質複合体の活性制御におけるループ領域の機能とその重要性を再認識させるものであった．同様の制御機構がほかのタンパク質複合体においても採用されているのかどうか興味深い．Cdc20によるAPC/Cの活性化の阻害は，M期の進行を阻害して細胞死を誘導することから抗がん剤の開発において有望なターゲットになると考えられている<a href="#R8"><sup>8)</sup></a>．一方で，APC/Cのもうひとつの活性化タンパク質であるCdh1はがん抑制遺伝子産物であることが知られている．Cdc20に特異的なAPC/Cの活性化の機構をターゲットにすることにより，Cdc20に特化した薬剤の開発が期待される．<br/>　なお，この論文と同様の結果を報告する2報の論文が同じ時期に独立して発表された<a href="#R9"><sup>9,10)</sup></a>．それぞれの研究室が得意とするアプローチを駆使して同様の結論にいたっており，得られたデータにも相互補完するものがあった．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Pines, J.</span>: <span class="ti">Cubism and the cell cycle: the many faces of the APC/C.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 12, 427-438 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21633387" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Chang, L. & Barford, D.</span>: <span class="ti">Insights into the anaphase-promoting complex: a molecular machine that regulates mitosis.</span> <span class='so'>Curr. Opin. Struct. Biol., 29, 1-9 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25174288" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Kramer, E. R., Scheuringer, N., Podtelejnikov, A. V. et al.</span>: <span class="ti">Mitotic regulation of the APC activator proteins CDC20 and CDH1.</span> <span class='so'>Mol. Biol. Cell, 11, 1555-1569 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10793135" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Steen, J. A., Steen, H., Georgi, A. et al.</span>: <span class="ti">Different phosphorylation states of the anaphase promoting complex in response to antimitotic drugs: a quantitative proteomic analysis.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 105, 6069-6074 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18420821" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kraft, C., Herzog, F., Gieffers, C. et al.</span>: <span class="ti">Mitotic regulation of the human anaphase-promoting complex by phosphorylation.</span> <span class='so'>EMBO J., 22, 6598-6609 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14657031" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Chang, L., Zhang, Z., Yang, J. et al.</span>: <span class="ti">Atomic structure of the APC/C and its mechanism of protein ubiquitination.</span> <span class='so'>Nature, 522, 450-454 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26083744" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Labit, H., Fujimitsu, K., Bayin, N. S. et al.</span>: <span class="ti">Dephosphorylation of Cdc20 is required for its C-box-dependent activation of the APC/C.</span> <span class='so'>EMBO J., 31, 3351-3362 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22713866" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Huang, H. C., Shi, J., Orth, J. D. et al.</span>: <span class="ti">Evidence that mitotic exit is a better cancer therapeutic target than spindle assembly.</span> <span class='so'>Cancer Cell, 16, 347-358 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19800579" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Qiao, R., Weissmann, F., Yamaguchi, M. et al.</span>: <span class="ti">Mechanism of APC/C<sup>CDC20</sup> activation by mitotic phosphorylation.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 113, E2570-E2578 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27114510" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Zhang, S., Chang, L., Alfieri, C. et al.</span>: <span class="ti">Molecular mechanism of APC/C activation by mitotic phosphorylation.</span> <span class='so'>Nature, 533, 260-264 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27120157" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=PDB" target="_blank">PDB</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アミノ酸" target="_blank">アミノ酸配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=構造解析" target="_blank">構造解析</a></li><br></ul><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">藤光 和之（Kazuyuki Fujimitsu）</span><br>略歴：2004年 九州大学大学院薬学研究院 修了，同年 同 助教を経て，2010年より英国University College London博士研究員．<br><br><strong>山野 博之（Hiroyuki Yamano）</strong><br>英国University College London教授．<br>研究室URL：<br><a href="http://www.ucl.ac.uk/cancer/research/department-cancer-biology/cell-cycle-control-group" target="_blank">http://www.ucl.ac.uk/cancer/research/department-cancer-biology/cell-cycle-control-group</a><br></div><br>© 2016 藤光和之・山野博之 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

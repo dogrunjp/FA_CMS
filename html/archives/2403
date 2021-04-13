@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 小胞体に内在するジスルフィド還元酵素ERdj5により促進される小胞体関連分解経路の構造的な基盤 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>小胞体に内在するジスルフィド還元酵素ERdj5により促進される小胞体関連分解経路の構造的な基盤</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>萩原誠智<sup>1</sup>・永田和宏<sup>2</sup>・稲葉謙次<sup>3</sup></strong><br>（<sup>1</sup>京都大学大学院理学研究科，<sup>2</sup>京都産業大学総合生命科学部 生命システム学科，<sup>3</sup>九州大学生体防御医学研究所 蛋白質化学分野）<br>email：<a href="mailto:hagiwara@cc.kyoto-su.ac.jp">萩原誠智</a>，<a href="mailto:inaba-k@bioreg.kyushu-u.ac.jp">稲葉謙次</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.050">10.7875/first.author.2011.050</a><br><div class="reference"><br><span class="ti">Structural basis of an ERAD pathway mediated by the ER-resident protein disulfide reductase ERdj5.</span><br><span class="au">Masatoshi Hagiwara, Ken-ichi Maegawa, Mamoru Suzuki, Ryo Ushioda, Kazutaka Araki, Yushi Matsumoto, Jun Hoseki, Kazuhiro Nagata, Kenji Inaba</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21329881" target="_blank"><em>Molecular Cell</em>, <strong>41</strong>, 432-444 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　小胞体は分泌タンパク質および膜タンパク質の合成される重要なオルガネラである．しかし，遺伝的または環境的な要因により正しく立体構造の形成できない異常タンパク質は小胞体からサイトゾルに逆行輸送されユビキチン-プロテアソーム系により分解される．この機構は小胞体関連分解とよばれ，小胞体におけるタンパク質の恒常性の維持において必須の役割を担う．EDEM1は異常タンパク質の糖鎖を特異的に認識し小胞体関連分解へと導くレクチン様のタンパク質である．ERdj5はEDEM1に結合するタンパク質として同定された小胞体に内在する酸化還元酵素であり，誤ったシステイン残基のあいだで形成されたジスルフィド結合を還元することで異常タンパク質の小胞体関連分解を促進する．この研究において筆者らは，ERdj5の全長の高分解能での結晶構造とこの酵素を構成するそれぞれのドメインの機能的な役割を解明し，さらには，小胞体関連分解の経路にそったカルネキシンからEDEM1，ERdj5，BiPへの基質の経時的な移行に関する実験的な確証を得た．これらの結果を統合し，ERdj5が促進する糖タンパク質の小胞体関連分解経路の分子基盤を確立した．<br/><br/><h2>はじめに</h2><br/>　小胞体は分泌タンパク質および膜タンパク質の合成の場である．そこには正しく立体構造を形成（フォールド）したタンパク質のみを選択的に分泌させ，異常な構造をとった（ミスフォールドした）タンパク質を分解除去するという品質管理機構が存在する．小胞体へ移行するためのシグナル配列をもつ分泌タンパク質は，その翻訳の途上でシグナル認識因子により認識されリボソームごと小胞体膜へと運ばれる．Sec61複合体からなるトランスロコンをとおって小胞体の内腔に伸長してきた新生ポリペプチド鎖は，BiPなどの分子シャペロンやPDI（protein disulfide isomerase，タンパク質ジスルフィド異性化酵素）などの酸化還元酵素の助けをかりてフォールドする．正しくフォールドしたポリペプチド鎖は分泌経路にそって所定のオルガネラへと運ばれる．しかし一方で，遺伝的な変異によりフォールドできないタンパク質や各種のストレスにより変性したタンパク質はカルネキシンなどの分子シャペロンにより認識されフォールドの修復が試みられる．それでも正しい構造をとれないタンパク質は小胞体において隔離され，EDEMやBiPなどのタンパク質の助けをかりて分解経路にのり，最終的にはサイトゾルへと送り返されてユビキチン-プロテアソーム系により分解される（<a href="#F1">図1</a>）．この一連の過程は小胞体関連分解（endoplasmic reticulum-associated degradation：ERAD）とよばれる．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　小胞体におけるタンパク質品質管理機構</strong><br/>カルネキシンサイクルなどのはたらきにより正常な構造をとったタンパク質は分泌経路にそって輸送されるのに対し，構造の異常タンパク質はEDEM1などによって認識されサイトゾルへ送り返されて分解される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Inaba-Molecular-Cell-11.2.17-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　小胞体におけるタンパク質品質管理機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Inaba-Molecular-Cell-11.2.17-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Inaba-Molecular-Cell-11.2.17-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　異常タンパク質のなかには誤った分子間ジスルフィド結合により多量体を形成し，そのままの状態では分解されにくいものも存在する<a href="#R1"><sup>1)</sup></a>．ここで解説するERdj5は小胞体で最初に発見されたジスルフィド還元酵素であり，誤ったジスルフィド結合を開裂することで異常凝集タンパク質の立体構造を解きほぐし，EDEM1やBiPと協同的に小胞体関連分解を促進する注目すべきタンパク質である．<br/><br/><h2>1．小胞体関連分解を促進するジスルフィド還元酵素ERdj5の発見</h2><br/>　小胞体で成熟するタンパク質の多くはその翻訳の途上でAsn-X-Ser/Thr配列のアスパラギン残基に糖鎖（<em>N</em>-結合型糖鎖）が付加される．そののちトリミングされた糖鎖はレクチン様の分子シャペロンであるカルネキシンやカルレティキュリンに認識され正しい立体構造の形成が促される．カルネキシンやカルレティキュリンの作用によっても正しくフォールドできない糖タンパク質はEDEM1（endoplasmic reticulum degradation-enhancing α-mannosidase-like protein 1）によって認識され小胞体関連分解が促進される<a href="#R2"><sup>2,3)</sup></a>．<br/>　筆者らは，小胞体膜酵母ツーハイブリッド法（endoplasmic reticulum membrane yeast two-hybrid system：ER-MYTHS）という手法を用いてEDEM1と相互作用するタンパク質をスクリーニングすることによりERdj5を同定した<a href="#R4"><sup>4)</sup></a>．このERdj5はそのアミノ酸配列からHSP40ファミリータンパク質に共通するDnaJドメインとPDIファミリータンパク質に共通する4つのチオレドキシン様ドメインとをもつことが予想された．HSP40ファミリータンパク質はDnaJドメインを介してATP結合型のHSP70ファミリータンパク質に結合しATPase活性を促進する．つまり，HSP40ファミリータンパク質はHSP70ファミリータンパク質のコシャペロンとしてはたらく<a href="#R5"><sup>5)</sup></a>．小胞体に存在するDnaJファミリータンパク質はERdj5を含め現在までに8種類が知られている<a href="#R6"><sup>6)</sup></a>．それらの多くは小胞体に内在するHSP70ファミリータンパク質であるBiPと協調しながらタンパク質の品質管理やストレス応答において重要な役割を担うものと考えられている<a href="#R5"><sup>5)</sup></a>．哺乳類の小胞体にはERdj5を含めTrx様ドメインをもつ約20種類のPDIファミリータンパク質が知られている．多くのTrx様ドメインは活性中心としてCys-Xaa-Xaa-Cys（CXXC）モチーフをもち，ジスルフィド結合の形成，異性化および還元反応をつかさどる<a href="#R7"><sup>7)</sup></a>．<br/>　興味深いことに，ERdj5を過剰発現させた哺乳類の細胞では小胞体関連分解の基質となるα1アンチトリプシン変異体（null Hong Kong variant：NHK）や免疫グロブリンJ鎖の分解促進が観察された<a href="#R4"><sup>4)</sup></a>．この分解の促進効果はジスルフィド結合に依存的な多量体の形成の抑制によるものと考えられ，システイン残基を含まない基質の小胞体関連分解には促進効果はみられなかった．逆に，ERdj5の発現を抑制するとα1アンチトリプシン変異体や免疫グロブリンJ鎖の分解は遅延することも確認された．組換えERdj5はCXXCモチーフに依存的にインスリンに対する還元活性を示し，また，酸化還元電位の測定からこの酵素の活性部位が強い還元力をもつことが示された．<br/>　以上のことから，ERdj5はミスフォールドタンパク質のジスルフィド結合をすみやかに還元し，これにより構造を解きほぐすことで逆輸送チャネルを透過しやすいかたちに変換して，結果として小胞体関連分解が促進されるという考えが提唱された<a href="#R4"><sup>4)</sup></a>．<br/><br/><h2>2．ERdj5の結晶構造</h2><br/>　ERdj5による小胞体関連分解の促進効果が示唆された一方で，その作用機序の詳細はまったく不明であった．分子機構を解明するうえで構造情報はきわめて有用であり，ERdj5のX線結晶構造解析に果敢に取り組んだ．ERdj5は分子量が90,000にもおよぶPDIファミリータンパク質で最大のマルチドメインタンパク質であり，また，その高い凝集性のため結晶化には大きな困難をともなった．しかしながら，徹底した試料調整条件および結晶化条件の検討によりERdj5の全体構造を2.4Åという高分解能で解くことに成功した（PDB ID：3APO）．その結果，当初に予想した4つのTrx様ドメイン（Trx1～Trx4）にくわえ，Trx1とTrx2とのあいだにCXXCモチーフをもたないTrx様ドメインが2つ（Trxb1，Trxb2）存在することが明らかになった．これら計6つのTrx様ドメインは同一の平面に存在し，Trx2とTrx3とのリンカーループ領域を境に，Trx1，Trxb1，Trxb2，Trx2からなるN末端側クラスターとTrx3，Trx4からなるC末端側クラスターとに分断できることが判明した（<a href="#F2">図2</a>）．BiPとの結合能をもつDnaJドメインはこの平面からはずれ，Trx1とTrx2との境界のうえに位置していた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ERdj5の結晶構造とそれぞれのクラスターの機能の分担</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Inaba-Molecular-Cell-11.2.17-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ERdj5の結晶構造とそれぞれのクラスターの機能の分担" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Inaba-Molecular-Cell-11.2.17-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Inaba-Molecular-Cell-11.2.17-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　ERdj5はPDIファミリータンパク質に属するものの，その全体構造はPDIとは大きく異なっていた．PDIはU字型にならぶ4つのTrx様ドメインからなり，両端に位置するCXXCモチーフは互いに向き合っている．また，U字の中央部には基質との結合にかかわるとされる大きな疎水性ポケットが存在する<a href="#R8"><sup>8)</sup></a>．一方，ERdj5の活性部位は互いに向き合うことはなく，とくにC末端側クラスターに存在するTrx3とTrx4のCXXCモチーフは外側をむいていた（<a href="#F2">図2</a>）．また，中央部に位置するクレフト領域もPDIとは対照的に疎水性には富んでおらず，この領域が基質との結合にかかわるとは考えにくかった．これら構造の相違点から，ERdj5とPDIとがまったく異なる分子機構で独自の機能を発揮していることは容易に想像がついた．<br/><br/><h2>3．ERdj5のそれぞれのドメインの機能的な役割</h2><br/>　ERdj5の特徴的な構造情報をもとに，それぞれのドメインの機能的な役割を詳細に解析した．まず，ERdj5の主たる還元活性ドメインを同定するため，活性中心であるCXXCモチーフを不活性型のアミノ酸残基に置換した種々の変異体を作製し，それぞれの変異体についてヒト細胞における小胞体関連分解の促進活性を調べた．基質としてα1アンチトリプシン変異体を用い，パルスチェイス法によりその小胞体関連分解の速度を測定したところ，Trx1あるいはTrx2の活性部位を不活性型とした変異体は野生型と同様に小胞体関連分解の促進活性を示したのに対し，Trx3あるいはTrx4の活性部位を不活性型とした変異体は小胞体関連分解の促進活性を大きく失った．このことは，C末端クラスターに含まれるTrx3およびTrx4が小胞体関連分解を促進するのに必須な還元活性ドメインであることを示唆した．<br/>　つぎに，精製組換えタンパク質を用いて<em>in vitro</em>での還元活性の測定および酸化還元電位の測定を行った．その結果，Trx1，Trx3およびTrx4がインスリンに対する強い還元活性をもつことが判明した．Trx2に還元活性のなかったことはそのCXXCモチーフがDnaJドメインにおおいかくされていることから説明が可能であった．一方，それぞれのドメインの酸化還元電位はグルタチオンの標準酸化還元電位を-205 mVとした場合，Trx1が-166 mV，Trx3が-172 mV，Trx4が-185 mVであった．このことから，小胞体関連分解における主たる還元活性ドメインであるTrx3およびTrx4が酸化還元電位的にも強い還元力をもつことが示された．<br/><br/><h2>4．ERdj5のEDEM1結合部位</h2><br/>　つぎの重要課題として，ERdj5のパートナータンパク質であるEDEM1がERdj5のどの部位に結合するのか系統的な共免疫沈降実験により調べた．ERdj5のN末端側クラスターのみあるいはC末端側クラスターのみをEDEM1とともにヒト細胞で発現させ抗ERdj5抗体で免疫沈降を行ったところ，C末端側クラスターに特異的にEDEM1が検出された．さらに，小胞体関連分解の基質であるα1アンチトリプシン変異体も共発現したところ，ERdj5のC末端側クラスター，EDEM1，α1アンチトリプシン変異体からなる三者複合体の形成が確認できた．このことは，小胞体関連分解の基質をリクルートしたEDEM1がERdj5のC末端側クラスターに選択的に結合し基質をERdj5のこのクラスターに提示することを強く示唆していた．この知見は，小胞体関連分解の基質が主としてERdj5のC末端側クラスターに含まれるTrx3およびTrx4により還元されるというさきの見解とも合致した．<br/><br/><h2>5．ERdj5が促進する小胞体関連分解経路にそった基質の動的な挙動</h2><br/>　以上，得られた知見を統合すると，カルネキシンから解離した小胞体関連分解の基質はまずEDEM1に認識および捕獲され，つぎにERdj5へとリクルートされることで還元をうけ，その結果，構造の解きほぐされた基質はBiPと結合し，ATPの加水分解にともないBiPはERdj5から解離して，逆輸送チャネルへと基質を運ぶ，という一連のイベントが予想された．しかしながら，小胞体関連分解経路にそった基質の経時的な移り変わりを直接的に観察したわけではなく，このモデルは実験的な根拠を大きく欠いていた．そこで，小胞体関連分解の基質であるα1アンチトリプシン変異体をパルス標識し，そののち，α1アンチトリプシン変異体がどのタンパク質と結合するかを免疫沈降法により詳細に解析した．その結果，予想したように，α1アンチトリプシン変異体はまずカルネキシンと結合し，つづいて，カルネキシンからEDEM1-ERdj5複合体へと結合の移行が観察された．さらにこのあと，基質がERdj5からBiPへと移行する過程もこの実験により観察でき，ERdj5を介した小胞体関連分解経路にそった基質の動的な挙動を解明するにいたった．以上，パルスチェイス法を用いた実験により，筆者らが提唱するERdj5により促進される小胞体関連分解経路モデルの妥当性が検証された．<br/><br/><h2>おわりに</h2><br/>　この研究をとおし，異常糖タンパク質の小胞体関連分解の過程において，ERdj5がどのパートナータンパク質と，どのタイミングで，どのように作用しあうのか，一連の作用機序を深く理解するにいたった．しかしながら，糖タンパク質のフォールディングを促すレクチン様シャペロンとしては，カルネキシンだけでなくカルレティキュリンも存在する．また，EDEM1と相同性の高いEDEMファミリータンパク質としてEDEM2およびEDEM3も存在する<a href="#R9"><sup>9)</sup></a>．さらに最近では，逆行輸送チャネルに結合するタンパク質としてOS-9やXTP3Bといった新たなレクチンタンパク質の存在も知られている<a href="#R10"><sup>10)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/1918" target="_blank">新着論文レビュー</a> でも掲載）．この研究においてEDEM1-ERdj5複合体に依存する小胞体関連分解経路の詳細が解明されたが，これはあくまでも複数存在するはずの経路のひとつを明らかにしたにすぎない．さきにあげたほかのタンパク質の関与も考慮にいれ，糖鎖やジスルフィド結合をもたないものも含めたあらゆる基質の小胞体関連分解経路を網羅的に解析することが今後の最重要課題であろう（<a href="#F3">図3</a>）．<br/><br/><a name="F3"></a><div id="fig3-caption-text" style="display: none;"><strong>図3　小胞体に存在するであろう複数の小胞体関連分解経路</strong><br/>この研究により明らかになったERdj5に依存する異常糖タンパク質の小胞体関連分解経路を赤色の矢印で示した．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Inaba-Molecular-Cell-11.2.17-Fig.3.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure3" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図3　小胞体に存在するであろう複数の小胞体関連分解経路" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Inaba-Molecular-Cell-11.2.17-Fig.3.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Inaba-Molecular-Cell-11.2.17-Fig.3.jpg" alt="figure3" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig3-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig3-caption').innerHTML = document.getElementById('fig3-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　さらに，ERdj5に還元力を供給する因子が何かという問題も含め，本来は酸化的である小胞体におけるジスルフィド還元カスケードを同定することも残された興味深い課題である．小胞体におけるタンパク質の品質管理およびレドックス恒常性の維持のためにはりめぐらされた酸化還元経路は依然としてほとんどが未解明であり，今後の新規開拓分野であることはまちがいない．これらの研究を遂行することで，将来的には異常タンパク質の蓄積や細胞内レドックス制御の破綻に起因する種々の疾病の成因の解明および治療の開発につながれば望外の喜びである．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hebert, D. N. & Molinari, M.</span>: <span class="ti">In and out of the ER: protein folding, quality control, degradation, and related human diseases.</span> <span class='so'>Physiol. Rev., 87, 1377-1408 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17928587" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Hosokawa N., Wada, I., Hasegawa, K. et al.</span>: <span class="ti">A novel ER α-mannosidase-like protein accelerates ER-associated degradation.</span> <span class='so'>EMBO Rep., 2, 415-422 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11375934" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Oda, Y., Hosokawa, N., Wada, I. et al.</span>: <span class="ti">EDEM as an acceptor of terminally misfolded glycoproteins released from calnexin.</span> <span class='so'>cience, 299, 1394-1397 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12610305" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Ushioda, R., Hoseki, J., Araki, K. et al.</span>: <span class="ti">ERdj5 is required as a disulfide reductase for degradation of misfolded proteins in the ER.</span> <span class='so'>Science, 321, 569-572 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18653895" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kampinga, H. H. & Craig, E. A.</span>: <span class="ti">The HSP70 chaperone machinery: J proteins as drivers of functional specificity.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 11, 579-592 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20651708" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Yamamoto, Y. H., Kimura, T., Momohara, S. et al.</span>: <span class="ti">A novel ER J-protein DNAJB12 accelerates ER-associated degradation of membrane proteins including CFTR.</span> <span class='so'>Cell Struct. Funct., 35, 107-116 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21150129" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Appenzeller-Herzog, C. & Ellgaard, L.</span>: <span class="ti">The human PDI family: versatility packed into a single fold.</span> <span class='so'>Biochim. Biophys. Acta, 1783, 535-548 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18093543" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Tian, G., Xiang, S., Noiva, R. et al.</span>: <span class="ti">The crystal structure of yeast protein disulfide isomerase suggests cooperativity between its active sites.</span> <span class='so'>Cell, 124, 61-73 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16413482" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Olivari, S. & Molinari, M.</span>: <span class="ti">Glycoprotein folding and the role of EDEM1, EDEM2 and EDEM3 in degradation of folding-defective glycoproteins.</span> <span class='so'>FEBS Lett., 581, 3658-3664 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17499246" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Satoh, T., Chen, Y., Hu, D. et al.</span>: <span class="ti">Structural basis for oligosaccharide recognition of misfolded glycoproteins by OS-9 in ER-associated degradation.</span> <span class='so'>Mol. Cell, 40, 905-916 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21172656" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/1918" target="_blank">新着論文レビュー</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">萩原 誠智（Masatoshi Hagiwara）</span><br>略歴：京都産業大学総合生命科学部 博士研究員．<br>研究テーマ：小胞体に局在するPDIファミリータンパク質の機能解析．<br><br><strong>永田 和宏（Kazuhiro Nagata）</strong><br>京都産業大学総合生命科学部 教授．<br><br><strong>稲葉 謙次（Kenji Inaba）</strong><br>九州大学生体防御医学研究所 准教授．<br></div><br>© 2011 萩原誠智・永田和宏・稲葉謙次 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

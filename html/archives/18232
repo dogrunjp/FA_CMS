@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 核内輸送受容体はRNA結合タンパク質FUSの液-液相分離を抑制する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>核内輸送受容体はRNA結合タンパク質FUSの液-液相分離を抑制する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>吉澤 拓也</strong><br>（米国Texas大学Southwestern Medical Center，Department of Pharmacology）<br>email：<a href="mailto:t-yosh@fc.ritsumei.ac.jp">吉澤拓也</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2018.055">10.7875/first.author.2018.055</a><br><div class="reference"><br><span class="ti">Nuclear import receptor inhibits phase separation of FUS through binding to multiple sites.</span><br><span class="au">Takuya Yoshizawa, Rustam Ali, Jenny Jiou, Ho Yee Joyce Fung, Kathleen A. Burke, Seung Joong Kim, Yuan Lin, William B. Peeples, Daniel Saltzberg, Michael Soniat, Jordan M. Baumhardt, Rudolf Oldenbourg, Andrej Sali, Nicolas L. Fawzi, Michael K. Rosen, Yuh Min Chook</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/29677513" target="_blank"><em>Cell</em>, <strong>173</strong>, 693-705.e22 (2018)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　液-液相分離は特定の生体高分子が膜のない集合体を形成するものであるが，その形成の過程および消失については不明な点が多く残されている．RNA結合タンパク質である<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>は，やわらかな凝集ともいえる液-液相分離をひき起こすタンパク質として，近年，さかんに研究が進められている．この研究において，筆者らは，<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離が<a href="#" class="anno" data-query="transportin" data-uniprot="">核内輸送受容体</a>である<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>により抑制されることを明らかにした．<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>のこの機能は，<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>のもつ<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>に特異的な核移行シグナル配列との結合に依存するものであった．NMR法による相互作用の解析の結果，<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>はこの核移行シグナル配列のほか幅広い領域において<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>と弱く相互作用することが明らかにされ，それらの領域は液-液相分離の形成を促進する領域と一致した．以上の結果から，<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>は<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>のもつ<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>に特異的な核移行シグナル配列と強固に結合しながら，<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>のさまざまな領域と弱く相互作用することにより液-液相分離を抑制することが明らかにされた．<br/><br/><h2>はじめに</h2><br/>　<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>は，転写，RNAプロセシング，DNA修復などに関与するRNA結合タンパク質である．<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>はさまざまな疾患にかかわることが知られており，とくに，重篤な神経変性疾患である筋萎縮性側索硬化症の家族性の患者において，核移行シグナル配列に多くの変異がみつかったことが注目をあつめた<a href="#R1"><sup>1)</sup></a>．この核移行シグナル配列は<a href="#" class="anno" data-query="transportin" data-uniprot="">核内輸送受容体</a><a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>により認識され，<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の核への移行をつかさどる．<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>による核への輸送により，<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>はおもに核に局在するが，その一方で，細胞質の膜をもたない構造体であるRNA顆粒の構成タンパク質になることも知られている．RNA顆粒における<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の役割については謎が残されているが，RNA顆粒を形成するような凝集性のあるタンパク質が細胞質に過剰に蓄積することは害であり，適切に制御されることが重要であると考えられている．<br/>　<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>は526残基からなるマルチドメインタンパク質である．N末端側にはGlu，Gly，Ser，Tyrに富むLCドメインがある．LCドメインは単独でも液-液相分離をひき起こすこと，アミロイド様のポリマーによるヒドロゲルを形成することが報告されている<a href="#R2"><sup>2,3)</sup></a>（文献<a href="#R2"><sup>2)</sup></a> は <a href="http://first.lifesciencedb.jp/archives/4969" target="_blank">新着論文レビュー</a> でも掲載，文献<a href="#R3"><sup>3)</sup></a> は <a href="http://first.lifesciencedb.jp/archives/17245" target="_blank">新着論文レビュー</a> でも掲載）．LCドメインのほかにも，特定のアミノ酸残基に富む領域としてArg-Gly-Gly配列がくり返し現われるRGG領域が3つ存在する（RGG1領域～RGG3領域）．それぞれのRGG領域のあいだにはRNA結合モチーフおよびジンクフィンガーモチーフが存在する．RGG領域を含む<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>のほうがより低濃度で液-液相分離を形成することから，LCドメイン以外の領域も液-液相分離に寄与すると考えられている．C末端側の26残基が<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>により特異的に認識される核移行シグナル配列である<a href="#R4"><sup>4)</sup></a>（<a href="#F1">図1</a>）．筋萎縮性側索硬化症の原因となる変異はこの核移行シグナル配列において多く報告されているが，液-液相分離との直接的なかかわりはないと考えられている．これまで，<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離における<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>の影響については明らかにされていなかった．この研究において，筆者らは，<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離における<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>の役割に着目した．あわせて，さまざまな手法により<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>と<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>との相互作用について解析した．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　FUSのドメイン構造</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yoshizawa-Cell-18.4.19-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　FUSのドメイン構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yoshizawa-Cell-18.4.19-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yoshizawa-Cell-18.4.19-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><h2>1．<a href="#" class="anno" data-query="transportin" data-uniprot="">核内輸送受容体</a><a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>による<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離の抑制</h2><br/>　<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>は，N末端に可溶性のタグタンパク質であるMBPを付加した融合タンパク質として大腸菌により発現させ，精製したものを用いた．MBPと<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>とのあいだには<a href="#" class="anno" data-query="Tobacco Etch Virus Protease" data-uniprot="">TEVプロテアーゼ</a>により切断される配列を挿入した．<a href="#" class="anno" data-query="Tobacco Etch Virus Protease" data-uniprot="">TEVプロテアーゼ</a>により<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>からMBPを切り離すと，透明であった溶液はたちまち白濁した．その溶液を共焦点顕微鏡により観察すると，液-液相分離による<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の粒滴が形成されていた．一方，<a href="#" class="anno" data-query="Tobacco Etch Virus Protease" data-uniprot="">TEVプロテアーゼ</a>をくわえるまえに等量の<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>をくわえておくと，<a href="#" class="anno" data-query="Tobacco Etch Virus Protease" data-uniprot="">TEVプロテアーゼ</a>により処理しても<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離は起こらず，<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>により<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離は阻害された（<a href="#F2">図2</a>）．ゲルろ過カラムにより解析したところ，<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>と<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>は1対1の複合体を形成し安定であった．<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>による液-液相分離の抑制は<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の粒滴が形成されたあとでも効果を示した．いったん液-液相分離が起こったあとでも，<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>の添加により液-液相分離は消失した．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　Kapβ2はFUSの液-液相分離を抑制する</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yoshizawa-Cell-18.4.19-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　Kapβ2はFUSの液-液相分離を抑制する" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yoshizawa-Cell-18.4.19-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yoshizawa-Cell-18.4.19-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>の存在下であっても，<a href="#" class="anno" data-query="Ran GTPase" data-uniprot="P62826">Ran</a>あるいはM9Mペプチドインヒビターをくわえると溶液は白濁した．すなわち，<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>による液-液相分離の抑制はM9Mペプチドインヒビターあるいは<a href="#" class="anno" data-query="Ran GTPase" data-uniprot="P62826">Ran</a>により阻害された．M9Mペプチドインヒビターおよび<a href="#" class="anno" data-query="Ran GTPase" data-uniprot="P62826">Ran</a>はどちらも<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>と結合した核移行シグナル配列を解離させる機能をもつ．したがって，<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>による液-液相分離の抑制には核移行シグナル配列との結合が重要であることが明らかにされた．<br/>　<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>による<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離の抑制については，同様の結果が，ほか3つの研究グループから同じ号の<em>Cell</em>誌に発表された<a href="#R5"><sup>5-7)</sup></a>．なかでも，ひとつの研究グループは，<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>は<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>のみならず，<a href="#" class="anno" data-query="TAF15" data-uniprot="Q92804">TAF15</a>や<a href="#" class="anno" data-query="EWSR1" data-uniprot="Q01844">EWSR1</a>といったこの特異的な核移行シグナル配列をもつほかの凝集性タンパク質についても同様の役割をはたすことを示した<a href="#R5"><sup>5)</sup></a>．<br/><br/><h2>2．<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離の抑制は<a href="#" class="anno" data-query="transportin" data-uniprot="">核内輸送受容体</a>に共通する機能である</h2><br/>　<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>は核輸送受容体<a href="#" class="anno" data-query="karyopherin beta" data-uniprot="">Karyopherinβ</a>ファミリーの一員である．ヒトにおいては，主要な核への輸送を担う<a href="#" class="anno" data-query="importin-alpha" data-uniprot="">Importinα</a>-Importinβ複合体をはじめ，約20種類のファミリータンパク質が存在する．液-液相分離の抑制が<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>に特有の機能であるのか，ほかの<a href="#" class="anno" data-query="karyopherin beta" data-uniprot="">Karyopherinβ</a>ファミリーにはないのか解析した．その結果，<a href="#" class="anno" data-query="importin-alpha" data-uniprot="">Importinα</a>-Importinβ複合体は野生型の<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離に対する抑制能をもたなかったが，出芽酵母に由来する<a href="#" class="anno" data-query="Karyopherin-121" data-uniprot="P32337">Kap121</a>は<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離を部分的に抑制した．液-液相分離の抑制には核移行シグナル配列との相互作用が重要であるため，<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の核移行シグナル配列をほかの核移行シグナル配列と置き換えたキメラタンパク質を作製し解析した．<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の核移行シグナル配列を<a href="#" class="anno" data-query="importin-alpha" data-uniprot="">Importinα</a>-Importinβ複合体により認識される古典的な核移行シグナル配列と置き換えたところ，<a href="#" class="anno" data-query="importin-alpha" data-uniprot="">Importinα</a>-Importinβ複合体により<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離は抑制された．同様に，<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の核移行シグナル配列を<a href="#" class="anno" data-query="Karyopherin-121" data-uniprot="P32337">Kap121</a>により認識される核移行シグナルと置き換えると，<a href="#" class="anno" data-query="Karyopherin-121" data-uniprot="P32337">Kap121</a>により<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離は強く抑制された．いずれの液-液相分離も<a href="#" class="anno" data-query="Ran GTPase" data-uniprot="P62826">Ran</a>により阻害されたことから，それぞれの核移行シグナル配列との相互作用に強く依存するものであることが明らかにされた．一方で，核外輸送受容体である<a href="#" class="anno" data-query="Crm1" data-uniprot="O14980">Crm1</a>について，<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の核移行シグナル配列を<a href="#" class="anno" data-query="Crm1" data-uniprot="O14980">Crm1</a>により認識される核外移行シグナル配列と置き換えても，<a href="#" class="anno" data-query="Crm1" data-uniprot="O14980">Crm1</a>により<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離は抑制されなかった．これらの<a href="#" class="anno" data-query="karyopherin beta" data-uniprot="">Karyopherinβ</a>ファミリーは同様にαヘリックスが積み重なったHEATリピート構造をとる．液-液相分離の抑制は<a href="#" class="anno" data-query="transportin" data-uniprot="">核内輸送受容体</a>に特有のものであることが示唆された．<br/><br/><h2>3．<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>は<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>のさまざまな領域と相互作用する</h2><br/>　MBP-FUS融合タンパク質および<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>-Kapβ2複合体をX線小角散乱法により解析した結果，<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>は<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>との結合にともない構造がよりコンパクトになることが示された．<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>は核移行シグナル配列以外の領域とどのように相互作用するのかを明らかにするため，X線結晶構造解析を試みた．<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>-Kapβ2複合体の結晶化および構造解析の結果，<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>については全長にわたりモデルが構築されたものの，<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>においてモデルが構築されたのは核移行シグナル配列の領域のみであった．つまり，<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の核移行シグナル配列以外の領域は結晶において特定の構造をもたないことが示唆された．<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>と<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の核移行シグナル配列以外の領域との相互作用は弱く多岐にわたるものであると推察し，NMR法により相互作用を解析した．過去にN末端側の領域が決定されていたが<a href="#R8"><sup>8)</sup></a>．その領域に対し，<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>をくわえていくとTyrを含む3つの領域においてシグナルの減衰がみられた．そのうちのひとつの配列は，近年，LCドメインによるフィラメント構造のコアになる領域であることが明らかにされている<a href="#R3"><sup>3,9)</sup></a>．LCドメイン以外の領域についても，NMR法による相互作用を解析した結果，RGG1領域を除くすべての領域との弱い相互作用が検出された．<br/><br/><h2>4．<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離は特定のアミノ酸残基に富む領域により促進される</h2><br/>　NMR法により決定された相互作用領域が<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離におよぼす影響について調べた．<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離には温度依存性があることから，溶液が白濁しはじめる温度を解析した．野生型の<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>と比べ，核移行シグナル配列のみを欠失させた<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>は白濁しはじめる温度はほとんど変わらなかったが，RGG3領域，あるいは，RGG2領域およびRGG3領域を欠失させた<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>は溶液が白濁しはじめる温度がいちじるしく低下した．LCドメインの5つのTyrをAlaに変異させた<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>，および，RGG2領域およびRGG3領域のすべてのArgをLysに変異させた<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>においても，溶液が白濁しはじめる温度が低下した．RGG領域のArgはメチル化をうけることが報告されている．同時に発表されたほかの2つの研究グループの論文は，Argのメチル化により液-液相分離は抑制される結果を示している<a href="#R6"><sup>6,7)</sup></a>．また，LCドメインのTyrとRGG領域のArgの相互作用により液-液相分離が促進されることも報告している<a href="#R7"><sup>7)</sup></a>．以上のことから，<a href="#" class="anno" data-query="RNA-binding protein FUS" data-uniprot="P35637">FUS</a>の液-液相分離を促進する領域は，<a href="#" class="anno" data-query="Karyopherin beta-2" data-uniprot="Q92973">Kapβ2</a>と相互作用する領域とオーバーラップすることが明らかにされた．<br/><br/><h2>おわりに</h2><br/>　これまで，<a href="#" class="anno" data-query="transportin" data-uniprot="">核内輸送受容体</a>については核内タンパク質を核へと輸送する役割のみが知られていた．しかし，この研究において，<a href="#" class="anno" data-query="transportin" data-uniprot="">核内輸送受容体</a>は単なる輸送タンパク質にとどまらず，凝集性のある核内タンパク質とダイナミックに相互作用する分子シャペロンであることが示された．やわらかな凝集である液-液相分離とその制御は，近年，もっともホットなトピックのひとつである．この研究により新たな知見を得られたことをうれしく思う．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Vance, C., Rogelj, B., Hortobagyi, T. et al.</span>: <span class="ti">Mutations in FUS, an RNA processing protein, cause familial amyotrophic lateral sclerosis type 6.</span> <span class='so'>Science, 323, 1208-1211 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19251628" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Kato, M., Han, T. W., Xie, S. et al.</span>: <span class="ti">Cell-free formation of RNA granules: low complexity sequence domains form dynamic fibers within hydrogels.</span> <span class='so'>Cell, 149, 753-767 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22579281" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/4969" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R3"><span class='au'>Murray, D. T., Kato, M., Lin, Y. et al.</span>: <span class="ti">Structure of FUS protein fibrils and its relevance to self-assembly and phase separation of low-complexity domains.</span> <span class='so'>Cell, 171, 615-627 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28942918" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/17245" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R4"><span class='au'>Zhang, Z. C. & Chook, Y. M.</span>: <span class="ti">Structural and energetic basis of ALS-causing mutations in the atypical proline-tyrosine nuclear localization signal of the Fused in Sarcoma protein (FUS).</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 109, 12017-12021 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22778397" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Guo, L., Kim, H. J., Wang, H. et al.</span>: <span class="ti">Nuclear-import receptors reverse aberrant phase transitions of RNA-binding proteins with prion-like domains.</span> <span class='so'>Cell, 173, 677-692 (2018)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/29677512" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Hofweber, M., Hutten, S., Bourgeois, B. et al.</span>: <span class="ti">Phase separation of FUS is suppressed by its nuclear import receptor and arginine methylation.</span> <span class='so'>Cell, 173, 706-719 (2018)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/29677514" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Qamar, S., Wang, G., Randle, S. J. et al.</span>: <span class="ti">FUS phase separation is modulated by a molecular chaperone and methylation of arginine cation-π interactions.</span> <span class='so'>Cell, 173, 720-734 (2018)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/29677515" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Bruke, K. A., Janke, A. M., Rhine, C. L. et al.</span>: <span class="ti">Residue-by-residue view of in vitro FUS granules that bind the C-terminal domain of RNA polymerase II.</span> <span class='so'>Mol. Cell, 60, 231-241 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26455390" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Luo, F., Gui, X., Zhou, H. et al.</span>: <span class="ti">Atomic structures of FUS LC domain segments reveal bases for reversible amyloid fibril formation.</span> <span class='so'>Nat. Struct. Mol. Biol., 25, 341-346 (2018)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/29610493" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=PDBj" target="_blank">PDBj</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アミノ酸" target="_blank">アミノ酸配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=構造解析" target="_blank">構造解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アラインメント" target="_blank">アラインメント</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">吉澤 拓也（Takuya Yoshizawa）</span><br>略歴：横浜市立大学大学院生命ナノシステム科学研究科にて博士号取得，米国Texas大学Southwestern Medical Center研究員を経て，立命館大学生命科学部 助教．<br>研究テーマ：核輸送受容体の機能および構造．<br></div><br>© 2018 吉澤 拓也 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

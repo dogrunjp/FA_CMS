@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ユビキチンリガーゼ活性を欠失したMDM2によるp53の活性の制御 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>ユビキチンリガーゼ活性を欠失したMDM2によるp53の活性の制御</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>野村浩司・Karen H. Vousden</strong><br>（英国Cancer Research UK Beatson Institute）<br>email：<a href="mailto:k.nomura@beatson.gla.ac.uk">野村浩司</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.053">10.7875/first.author.2017.053</a><br><div class="reference"><br><span class="ti">Structural analysis of MDM2 RING separates degradation from regulation of p53 transcription activity.</span><br><span class="au">Koji Nomura, Marta Klejnot, Dominika Kowalczyk, Andreas K. Hock, Gary J. Sibbet, Karen H. Vousden, Danny T. Huang</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28553961" target="_blank"><em>Nature Structural & Molecular Biology</em>, <strong>24</strong>, 578-587 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>はがん抑制タンパク質<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>と結合してその転写活性化能を直接的に抑制することにくわえ，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>を<a href="#" class="anno" data-query="ubiquitin" data-uniprot="">ユビキチン</a>化して<a href="#" class="anno" data-query="proteasome" data-uniprot="">プロテアソーム</a>による分解にみちびく．<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>と<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>との結合の阻害剤は<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>を活性化してがんを抑制するが，臨床への応用においては正常な細胞における<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の活性化によりひき起こされる毒性が課題になる．筆者らは，新規に決定された結晶構造にもとづき，<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>のもつRINGフィンガーモチーフの立体構造は変化させずに，<a href="#" class="anno" data-query="ubiquitin" data-uniprot="">ユビキチン</a>結合酵素-ユビキチン複合体との結合のみが起こらないようにした<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>の変異体を設計した．この<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体は<a href="#" class="anno" data-query="ubiquitin ligase" data-uniprot="">ユビキチンリガーゼ</a>活性を欠失するが，非ストレス下において<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の転写活性化能を抑制するため細胞増殖は阻害しない．この<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体を発現させた細胞においては<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>が分解されずに安定して発現するため，野生型の<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>を発現する細胞よりも迅速にストレスに対して細胞増殖を停止させることができる．<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>のもつ<a href="#" class="anno" data-query="ubiquitin ligase" data-uniprot="">ユビキチンリガーゼ</a>活性のみを標的とすることにより，がん細胞において特異的に<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>を活性化させる新規の治療薬の開発につながることが期待される．<br/><br/><h2>はじめに</h2><br/>　がん抑制タンパク質<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>は種々のストレスに応答して発現し，細胞増殖の停止およびストレスが持続する場合にはアポトーシスをひき起こす<a href="#R1"><sup>1)</sup></a>．<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>のもつこれらの活性は悪性腫瘍の進行をさまたげるのに有効であるが，非ストレス下においてその活性が制御されなければ不必要な細胞死などがひき起こされる．この<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の活性を制御するのに重要な役割を担うのが<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>である．事実，マウスにおける<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>の欠損は制御不能になった<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の活性化に起因する早期の胚致死をもたらす<a href="#R2"><sup>2,3)</sup></a>．<br/>　<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>はN末端側の<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>結合ドメインとC末端側のRINGフィンガードメインから構成される．正常なストレスをうけていない細胞において<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>はおもに核に局在し，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>結合ドメインを介して<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>と結合することによりその転写活性化能を直接的に抑制する<a href="#R4"><sup>4)</sup></a>（<a href="#F1">図1a</a>）．さらに，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>と結合した<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>はRINGフィンガードメインを介して<a href="#" class="anno" data-query="ubiquitin" data-uniprot="">ユビキチン</a>結合酵素-ユビキチン複合体と結合し，結合した<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>を<a href="#" class="anno" data-query="ubiquitin" data-uniprot="">ユビキチン</a>化して<a href="#" class="anno" data-query="proteasome" data-uniprot="">プロテアソーム</a>による分解の標的とする<a href="#R5"><sup>5)</sup></a>（<a href="#F1">図1a</a>）．これにより，<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>は細胞における<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の量の制御にも関与する．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　非ストレス下におけるMDM2によるp53の抑制の機構</strong><br/>（a）MDM2はp53と直接に結合することによりその転写活性化能を抑制し，また，ユビキチン結合酵素-ユビキチン複合体と結合してp53をユビキチン化しプロテアソームによる分解の標的にすることによりその量を制御する．<br/>（b）MDM2とp53との結合を阻害する薬剤は，p53をユビキチン化しないため細胞におけるp53の安定化に寄与するが，p53の転写活性化能を抑制できない．<br/>（c）MDM2のRINGフィンガードメインにおけるユビキチン結合酵素-ユビキチン複合体との結合の阻害は，p53をユビキチン化しないため細胞におけるp53の安定化に寄与し，かつ，p53と結合する能力をもちその転写活性化能を抑制する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nomura-Nature-Structural-Molecular-Biology-17.7.6-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　非ストレス下におけるMDM2によるp53の抑制の機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nomura-Nature-Structural-Molecular-Biology-17.7.6-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nomura-Nature-Structural-Molecular-Biology-17.7.6-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　DNAの損傷などのストレス下においては，<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>の不活性化を介して<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の安定化および転写活性化能の亢進が起こり，細胞増殖の停止およびアポトーシスがひき起こされる<a href="#R1"><sup>1)</sup></a>．<em><a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a></em>遺伝子に変異をもたないがん細胞の場合，<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>の阻害薬の投与により<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>を不活性化することで<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の活性化が促進され抗がん作用が発揮されると考えられる．すでに<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>の<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>結合ドメインを標的とするいくつかの薬剤が開発されており，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の安定化および転写活性化能の亢進における標的への特異性にすぐれることが確認されている<a href="#R6"><sup>6)</sup></a>（<a href="#F1">図1b</a>）．しかし，これらの薬剤は正常な細胞においても<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の転写活性化能を亢進してしまうため（<a href="#F1">図1b</a>），それにともなう副作用，たとえば，血小板や好中球の減少症によりその有効性および有用性は制限される<a href="#R6"><sup>6)</sup></a>．筆者らは，この問題を解決するため，RINGフィンガードメインにおける<a href="#" class="anno" data-query="ubiquitin" data-uniprot="">ユビキチン</a>結合酵素-ユビキチン複合体との結合を阻害することを考えた．これにより，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>は<a href="#" class="anno" data-query="ubiquitin" data-uniprot="">ユビキチン</a>化されなくなるため分解されないが，非ストレス下における<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>による<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の転写活性化能の抑制には影響しないため，正常な細胞における毒性は低減される（<a href="#F1">図1c</a>）．ストレスに対しては<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>のリン酸化などにより<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>と<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>との結合が解離するため<a href="#R7"><sup>7)</sup></a>，すでに細胞に蓄積した<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>により即座に細胞増殖の停止やアポトーシスがひき起こされる．<br/>　すでに<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>のRINGフィンガードメインを標的とした多く研究がなされているが，十分な成果は得られていない．その理由として，RINGフィンガードメインは<a href="#" class="anno" data-query="ubiquitin" data-uniprot="">ユビキチン</a>結合酵素-ユビキチン複合体との結合のほかにも，二量化やほかのタンパク質との結合に重要な役割をはたすことが知られており<a href="#R8"><sup>8)</sup></a>，とくに，<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>は二量体を形成してはたらくことから<a href="#R9"><sup>9)</sup></a>，RINGフィンガーモチーフの立体構造の異常が二量体の形成を阻害して本来の<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の抑制の機能を発揮できない可能性がある．事実，RINGフィンガーモチーフの構造に異常をもつ<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>の変異体を発現するマウスは<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の活性を抑制することができず，<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>の欠損と同様に，早期の胚致死がもたらされた<a href="#R10"><sup>10)</sup></a>．<br/>　筆者らは，<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>の新規の結晶構造にもとづき，RINGフィンガーモチーフの立体構造を変化させずに<a href="#" class="anno" data-query="ubiquitin" data-uniprot="">ユビキチン</a>結合酵素-ユビキチン複合体との結合のみをさまたげる<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>の変異体を設計した．<br/><br/><h2>1．<a href="#" class="anno" data-query="ubiquitin ligase" data-uniprot="">ユビキチンリガーゼ</a>活性のみを欠失した<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体は<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>を<a href="#" class="anno" data-query="ubiquitin" data-uniprot="">ユビキチン</a>化しない</h2><br/>　<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>の新規の結晶構造（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=5mnj&amp;PAGEID=Summary" target="_blank">5MNJ</a>）にもとづき，<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>と<a href="#" class="anno" data-query="ubiquitin" data-uniprot="">ユビキチン</a>結合酵素-ユビキチン複合体との結合に重要な部位を推定した．<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>のRINGフィンガーモチーフに存在するIle440は<a href="#" class="anno" data-query="ubiquitin" data-uniprot="">ユビキチン</a>結合酵素-ユビキチン複合体との疎水結合に重要であり，Arg479は<a href="#" class="anno" data-query="ubiquitin" data-uniprot="">ユビキチン</a>結合酵素-ユビキチン複合体との親水性の結合に重要であると推定された．そして，Ile440あるいはArg479を置換することにより，<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>は<a href="#" class="anno" data-query="ubiquitin" data-uniprot="">ユビキチン</a>結合酵素-ユビキチン複合体と結合しなくなることが表面プラズモン共鳴法により確認された．また，これらの<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体を細胞に発現させると<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の<a href="#" class="anno" data-query="ubiquitin" data-uniprot="">ユビキチン</a>化が起こらなくなり，その結果として，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>は分解されず安定して発現した．さらに，生化学的な手法による試験や細胞を用いた試験により，これらの<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体は<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>との結合や二量体の形成などには影響がなく，<a href="#" class="anno" data-query="ubiquitin ligase" data-uniprot="">ユビキチンリガーゼ</a>活性のみが欠失した変異体であることが確かめられた．<br/><br/><h2>2．<a href="#" class="anno" data-query="ubiquitin ligase" data-uniprot="">ユビキチンリガーゼ</a>活性のみを欠失した<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体は<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の転写活性化能を抑制する</h2><br/>　内因性の<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>をドキシサイクリンの添加に依存してノックダウンすることが可能で，かつ，内因性の<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>をノックアウトした細胞を作製し，そこに<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体を発現させる系を構築した．<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>を条件的にノックダウンできるようにした理由は，<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体を導入したときに<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>に起因する細胞増殖の抑制やアポトーシスの起こる可能性があるので，それをふせぐためである．この系を用いて，<a href="#" class="anno" data-query="ubiquitin ligase" data-uniprot="">ユビキチンリガーゼ</a>活性のみを欠失した<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体を発現させたときの内因性の<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>のもつ転写活性化能について調べた．非ストレス下においてこれらの<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体を発現させた細胞は，RINGフィンガーモチーフの立体構造に異常をもつ<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体とは異なり，<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>を欠損した細胞と比較して，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>を分解しないにもかかわらず<em><a href="#" class="anno" data-query="p21" data-uniprot="Q9H633">p21</a></em>遺伝子など<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の標的となる遺伝子の発現をmRNAレベルおよびタンパク質レベルで有意に抑制した．この抑制能は野生型の<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>とほぼ同じであった．<br/><br/><h2>3．<a href="#" class="anno" data-query="ubiquitin ligase" data-uniprot="">ユビキチンリガーゼ</a>活性のみを欠失した<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体は<em><a href="#" class="anno" data-query="p21" data-uniprot="Q9H633">p21</a></em>遺伝子のプロモーターに局在する</h2><br/>　<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>による<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の転写活性化能の抑制を説明する機序のひとつとして，<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>が<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の標的となる遺伝子のプロモーターにおいて<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>と結合しその転写活性化能を低下させるということがある<a href="#R5"><sup>5)</sup></a>．<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体がクロマチンにおいて<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>と直接に結合するかどうかを明らかにするためクロマチン-免疫沈降法により解析した．その結果，<em><a href="#" class="anno" data-query="p21" data-uniprot="Q9H633">p21</a></em>遺伝子のプロモーターにおいて<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>と結合した<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>の割合は，RINGフィンガーモチーフの立体構造に異常をもつ<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体の場合，野生型の<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>と比較して有意に低かった．このことから，この変異体は<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の転写活性化能を抑制できないことが説明された．対照的に，<a href="#" class="anno" data-query="ubiquitin ligase" data-uniprot="">ユビキチンリガーゼ</a>活性のみを欠失した<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体の場合は野生型の<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>と同じ程度の割合であった．このことから，この変異体が非ストレス下において<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の転写活性化能を抑制することが示唆された．<br/><br/><h2>4．<a href="#" class="anno" data-query="ubiquitin ligase" data-uniprot="">ユビキチンリガーゼ</a>活性のみを欠失した<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体の発現は非ストレス下において細胞増殖に影響をおよぼさない</h2><br/>　非ストレス下において<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>の変異体の発現が細胞増殖におよぼす影響について調べた．その結果，<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>を欠損した細胞は，野生型の<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>を発現させた細胞と比較して，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の恒常的な活性化が起こったことにより細胞増殖が有意に抑制された．RINGフィンガーモチーフの立体構造に異常をもつ<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体を発現させた細胞の場合も，野生型の<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>を発現させた細胞と比較して有意に細胞増殖が抑制された．一方，<a href="#" class="anno" data-query="ubiquitin ligase" data-uniprot="">ユビキチンリガーゼ</a>活性のみを欠失した<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体を発現させた細胞は，野生型の<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>を発現させた細胞と同じ程度の細胞増殖を示した．このことから，非ストレス下においてこの変異体を発現する細胞は，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の量が多いにもかかわらず細胞増殖に影響のないことが示唆された．<br/><br/><h2>5．E3<a href="#" class="anno" data-query="ubiquitin ligase" data-uniprot="">ユビキチンリガーゼ</a>活性のみを欠失した<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体を発現した細胞はストレスに対し迅速に応答する</h2><br/>　DNAの損傷などのストレスに対して，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>はN末端のリン酸化などを介して<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>と解離する<a href="#R7"><sup>7)</sup></a>．これにより，細胞における<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の量の増加および<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の活性化が起こり，細胞増殖の停止やアポトーシスがひき起こされる．この応答が迅速に起こらないと，DNAの損傷などをもつ細胞の増殖，つまり，悪性腫瘍の形成がみちびかれる．<a href="#" class="anno" data-query="ubiquitin ligase" data-uniprot="">ユビキチンリガーゼ</a>活性のみを欠失した<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体を発現させた細胞は，DNAの損傷などのストレスに対しどのように応答するのだろうか．この変異体を発現させた細胞においては<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>が分解されないため，野生型の<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>を発現させた細胞と比べ<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の量が有意に多いことから，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>と<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>とを解離させるようなストレスに対し即座に<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の活性化が起こり迅速に細胞増殖を停止するのではないかと仮説をたてた．この仮説を検証するため，DNAの損傷をひき起こす薬剤や<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>と<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>とを物理的に解離させる薬剤を用いてその影響について調べた．その結果，野生型の<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>を発現させた細胞は薬剤の処理ののちに<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の標的となる遺伝子の発現まである程度の時間を要した．これは，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の応答にはタンパク質レベルでの<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の蓄積が必要であるため，この過程に時間がかかったことが考えられた．これとは対照的に，<a href="#" class="anno" data-query="ubiquitin ligase" data-uniprot="">ユビキチンリガーゼ</a>活性のみを欠失した<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体を発現させた細胞は薬剤の処理ののち<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の標的となる遺伝子の発現が即座に起こり，迅速に細胞増殖は停止した．これは，すでに<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>は十分に存在しその蓄積の過程を必要としないためと考えられた．<br/><br/><h2>おわりに</h2><br/>　野生型の<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>は<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>と直接に結合することによりその転写活性化能を抑制し，また，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>を<a href="#" class="anno" data-query="ubiquitin" data-uniprot="">ユビキチン</a>化することによりその分解に関与する．しかし，DNAの損傷などのストレス下において細胞増殖の停止やアポトーシスをひき起こすには，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の量の増加，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の標的となる遺伝子の発現といったステップが必要となる（<a href="#F2">図2</a>）．一方，<a href="#" class="anno" data-query="ubiquitin" data-uniprot="">ユビキチン</a>活性のみを欠失した<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>変異体を発現した細胞は，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>が分解されないためその量はすでに十分にあり，ストレスに対し細胞増殖の停止などを迅速にひき起こす（<a href="#F2">図2</a>）．非ストレス下においては<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>の転写活性化能を制御するため，<a href="#" class="anno" data-query="p53" data-uniprot="P04637">p53</a>と<a href="#" class="anno" data-query="MDM2" data-uniprot="Q00987">MDM2</a>との結合の阻害した場合とは異なり，正常な細胞における毒性は大幅に軽減することが期待される．<br/>　さらに，この研究の戦略は，ほかのRINGフィンガー型<a href="#" class="anno" data-query="ubiquitin ligase" data-uniprot="">ユビキチンリガーゼ</a>においても，<a href="#" class="anno" data-query="ubiquitin ligase" data-uniprot="">ユビキチンリガーゼ</a>に依存的あるいは非依存的な機能を理解するための応用が可能であると思われる．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ユビキチンリガーゼ活性のみを欠失したMDM2変異体はストレスに対し細胞増殖の停止を迅速にひき起こす</strong><br/>野生型のMDM2を発現する細胞においては，ストレスに対しp53の量を増加させなければならない．一方，ユビキチンリガーゼ活性のみを欠失したMDM2変異体を発現する細胞においては，p53の量はすでに十分なため，ストレスに対し迅速に応答する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nomura-Nature-Structural-Molecular-Biology-17.7.6-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ユビキチンリガーゼ活性のみを欠失したMDM2変異体はストレスに対し細胞増殖の停止を迅速にひき起こす" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nomura-Nature-Structural-Molecular-Biology-17.7.6-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nomura-Nature-Structural-Molecular-Biology-17.7.6-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Lakin, N. D. & Jackson, S. P.</span>: <span class="ti">Regulation of p53 in response to DNA damage.</span> <span class='so'>Oncogene, 18, 7644-7655 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10618704" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Montes de Oca Luna, R., Wagner, D. S. & Lozano, G.</span>: <span class="ti">Rescue of early embryonic lethality in <em>mdm2</em>-deficient mice by deletion of <em>p53</em>.</span> <span class='so'>Nature, 378, 203-206 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7477326" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Jones, S. N., Roe, A. E., Donehower, L. A. et al.</span>: <span class="ti">Rescue of embryonic lethality in Mdm2-deficient mice by absence of p53.</span> <span class='so'>Nature, 378, 206-208 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7477327" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Oliner, J. D., Pietenpol, J. A., Thiagalingam, S. et al.</span>: <span class="ti">Oncoprotein MDM2 conceals the activation domain of tumour suppressor p53.</span> <span class='so'>Nature, 362, 857-860 (1993)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8479525" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Shi, D. & Gu, W.</span>: <span class="ti">Dual roles of MDM2 in the regulation of p53: ubiquitination dependent and ubiquitination independent mechanisms of MDM2 repression of p53 activity.</span> <span class='so'>Genes Cancer, 3, 240-248 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23150757" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Khoo, K. H., Verma, C. S. & Lane, D. P.</span>: <span class="ti">Drugging the p53 pathway: understanding the route to clinical efficacy.</span> <span class='so'>Nat. Rev. Drug. Discov., 13, 217-236 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24577402" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Meek, D. W.</span>: <span class="ti">Regulation of the p53 response and its relationship to cancer.</span> <span class='so'>Biochem. J., 469, 325-346 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26205489" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Deshaies, R. J. & Joazeiro, C. A.</span>: <span class="ti">RING domain E3 ubiquitin ligases.</span> <span class='so'>Annu. Rev. Biochem., 78, 399-434 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19489725" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Linke, K., Mace, P. D., Smith, C. A. et al.</span>: <span class="ti">Structure of the MDM2/MDMX RING domain heterodimer reveals dimerization is required for their ubiquitylation in <em>trans</em>.</span> <span class='so'>Cell Death Differ., 15, 841-848 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18219319" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Itahana, K., Mao, H., Jin, A. W. et al.</span>: <span class="ti">Targeted inactivation of Mdm2 RING finger E3 ubiquitin ligase activity in the mouse reveals mechanistic insights into p53 regulation.</span> <span class='so'>Cancer Cell, 12, 355-366 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17936560" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=Ensembl" target="_blank">Ensembl</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=PDB" target="_blank">PDB</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=CRISPR" target="_blank">CRISPR</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=構造解析" target="_blank">構造解析</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">野村 浩司（Koji Nomura）</span><br>略歴：英国Cancer Research UK Beatson Institute博士課程 在学中．<br>研究テーマ：MDM2によるp53の制御．<br>関心事：世界の地ビールの飲み比べ．<br><br><strong>Karen H. Vousden</strong><br>英国Cancer Research UKにてChief Scientist．<br></div><br>© 2017 野村浩司・Karen H. Vousden Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

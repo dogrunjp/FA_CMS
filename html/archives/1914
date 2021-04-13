@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 海馬ニューロンのAMPA受容体の機能は2種類の補助サブユニットTARPとcornichonによって制御される : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>海馬ニューロンのAMPA受容体の機能は2種類の補助サブユニットTARPとcornichonによって制御される</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>加藤明彦・David S. Bredt</strong><br>（米国Eli Lilly and Company，Department of Neuroscience）<br>email：<a href="mailto:katoak@lilly.com">加藤明彦</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.013">10.7875/first.author.2011.013</a><br><div class="reference"><br><span class="ti">Hippocampal AMPA receptor gating controlled by both TARP and cornichon proteins.</span><br><span class="au">Akihiko S. Kato, Martin B. Gill, Michelle T. Ho, Hong Yu, Yuan Tu, Edward R. Siuda, He Wang, Yue-Wei Qian, Eric S. Nisenbaum, Susumu Tomita, David S. Bredt</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21172611" target="_blank"><em>Neuron</em>, <strong>68</strong>, 1082-1096 (2010)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　TARPとcornichonはAMPA受容体の補助サブユニットであり，それぞれAMPA受容体の機能を修飾する．しかし，それらがどのように相互作用するかは不明であった．筆者らは，まずTARPの一部であるγ-4，γ-7，γ-8がAMPA受容体のグルタミン酸応答を再感作すること，残りのγ-2，γ-3，γ-5は再感作しないことを見い出した．γ-8はすべてのAMPA受容体サブユニットに対して再感作した．一方，γ-8をおもなTARPとする海馬ニューロンにおいては再感作が観察されなかった．組換え体を用いて検討した結果，γ-8とcornichon2とをAMPA受容体と共発現すると再感作はみられなくなり，海馬ニューロンと同様の薬理学的な特性を再現することができた．γ-8とcornichon2は海馬のシナプス後肥厚に濃縮しており，cornichon2のタンパク質の量はγ-8欠損マウスにおいて著しく減少していることも見い出された．海馬ニューロンにおいてcornichon2の量を操作することによりシナプスおよびシナプス外部の両方のAMPA受容体の性質が変化した．以上より，γ-8とcornichon2は同一のAMPA受容体に対して機能的に相互作用し，協調的にAMPA受容体の過渡特性と薬理学的な特性とを修飾していることが明らかになった．<br/><br/><h2>はじめに</h2><br/>　哺乳類において，興奮性シナプス伝達の中心的な役割をつかさどる神経伝達物質はグルタミン酸である．シナプス前終末から放出されるグルタミン酸は，シナプス後細胞に存在するイオンチャネル型グルタミン酸受容体であるAMPA受容体と結合し，Na<sup>+</sup>の細胞内への流入を介してシナプス後細胞を脱分極させる．脱分極はシナプス後細胞の軸索に存在する電位依存性Na<sup>+</sup>チャネルを活性化することにより活動電位を生じさせ，さらに下流のニューロンに活動シグナルを伝達する．AMPA受容体は興奮性シナプス伝達をつかさどるもっとも重要なグルタミン酸受容体のひとつである<a href="#R1"><sup>1-3)</sup></a>．<br/>　AMPA受容体にはチャネルを構成する主要サブユニット（GluA1，GluA2，GluA3，GluA4）のほか，6つのタンパク質ファミリーγ-2，γ-3，γ-4，γ-5，γ-7，γ-8からなるTARP（transmembrane AMPA receptor regulatory protein）とよばれる補助サブユニットが同定されてきた．TARPの発見は自然に生じた変異マウスであるstargazerマウスに端を発する．γ-2は哺乳類の小脳に多く発現しているが，γ-2を欠損するstargazerマウスの小脳顆粒細胞ではAMPA受容体の機能が特異的に欠損する．また，海馬ニューロンに発現するγ-8をノックアウトすると海馬のAMPA受容体が大きく減少し樹状突起へのAMPA受容体の移動も阻害される．このことはTARPはAMPA受容体の輸送あるいは安定性に根源的な役割をはたしていることを示している<a href="#R4"><sup>4)</sup></a>．<br/>　また，TARPはAMPA受容体の物理学的な特性を修飾する．1 ms程度のあいだのグルタミン酸の投与によりAMPA受容体はいったん開いたのちグルタミン酸が受容体からはずれてチャネルが閉じる．このチャネル閉鎖過程を“脱活性化”とよぶ（<a href="#F1">図1a</a>）．一方，数百ms以上のあいだのグルタミン酸の投与はAMPAチャネルを開かせたのちグルタミン酸の存在にもかかわらずチャネルが閉じる．このときのチャネル閉鎖過程を“脱感作”とよぶ（<a href="#F1">図1b</a>）．γ-5を除くすべてのTARPは脱活性化および脱感作の過渡特性を遅くする．γ-5は反対にGluA2を含むAMPA受容体の脱活性化および脱感作の過渡特性を速くする<a href="#R5"><sup>5)</sup></a>．さらに，γ-5を除くすべてのTARPはAMPA受容体のカイニン酸応答を海馬ニューロンのAMPA受容体と類似した大きな応答にする．このことはTARPがAMPA受容体の薬理学的な特性を変化させることを示している<a href="#R5"><sup>5,6)</sup></a>．以上のことは，TARPがAMPA受容体の機能に対して根源的な役割をはたしていることを示している．さらに，ここ1～2年のあいだに新たな補助サブユニットであるcornichonおよびCKAMP44が同定されてきている<a href="#R7"><sup>7,8)</sup></a>．これらはプロテオミクス解析により見い出されたものである．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　AMPA受容体の脱活性化，脱感作，再感作</strong><br/>（a）脱活性化．TARPおよびcornichon2により過渡特性は遅くなる．<br/>（b）脱感作．TARPおよびcornichon2により過渡特性は遅くなる．<br/>（c）再感作．γ-4，γ-7，γ-8をAMPA受容体と発現すると，いったん脱感作したAMPA受容体がゆっくりと再び感作した状態になる．<br/>（d）AMPA受容体の単独，もしくは，γ-2，γ-3，γ-5，cornichon2との共発現では再感作は観察されない．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kato-Neuron-10.12.21-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　AMPA受容体の脱活性化，脱感作，再感作" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kato-Neuron-10.12.21-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kato-Neuron-10.12.21-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　ここでは，AMPAとTARPとの共発現で観察される“再感作”と名づけた新たなAMPA受容体の過渡特性の発見を発端に，海馬ニューロンのAMPA受容体の物理学的および薬理学的な性質がTARPのひとつであるγ-8とcornichon2とにより規定されていることを報告する．<br/><br/><h2>1．新しいAMPA受容体の過渡特性である再感作はγ-4，γ-7，γ-8により賦与される</h2><br/>　293T細胞にAMPA受容体とTARP（γ-2，γ-3，γ-4，γ-5，γ-7，γ-8）を共発現させ，グルタミン酸を数十秒のあいだ投与したときの電気生理学的な応答の過渡特性を観察した．いずれの場合もグルタミン酸に依存してAMPAチャネルが開き，数十ms以内に脱感作した．この脱感作は部分的で，グルタミン酸を投与しているあいだは残留電流が観察されたが，AMPA受容体とγ-4，γ-7，γ-8とを共発現させた場合には残留電流がしだいに増加することを見い出した（<a href="#F1">図1c</a>）．この現象は脱感作を阻害する薬剤を共投与するとみられなくなることから，脱感作したAMPA受容体がグルタミン酸の継続的な投与のもとで再び感受性を取り戻すことと結論し“再感作”（resensitization）と名づけた．AMPA受容体の単独，または，γ-2，γ-3，γ-5を発現した場合には残留電流は一定であった（<a href="#F1">図1d</a>）．γ-8はすべてのAMPA受容体の主要なサブユニット（GluA1～GluA4）に対して再感作を賦与したことから，再感作はAMPA受容体のサブユニットにはよらないことも明らかになった．<br/><br/><h2>2．γ-8を主要なTARPとして発現する海馬ニューロンでは再感作が観察されない</h2><br/>　つぎに，γ-8が主要なTARPである海馬ニューロンにおいて再感作がみられるかどうかを検討した．成熟した野生型マウスの海馬切片をプロテアーゼで処理したのち細胞分散し，293T細胞と同様に電位固定された海馬ニューロンにおけるグルタミン酸の応答を測定した．しかしながら，再感作現象はまったく観察されなかった．野生型の海馬ニューロンにはγ-8のほかγ-2も発現している．そこで，γ-2の影響を排除するためγ-2欠損マウス（stargazerマウス）でも同様の実験を行ったが，やはり再感作現象はまったく見い出されなかった．一方，カイニン酸に対する応答性は野生型マウスおよびstargazerマウスともにグルタミン酸に対する応答性に比べ著明に大きいことから，AMPA受容体にγ-8の組み込まれていることは明らかであった．以上のことから，γ-8が発現している海馬ニューロンで再感作が生じない理由にはTARPおよびAMPA受容体とはほかの因子がかかわっていることが示唆された．<br/><br/><h2>3．cornichon2とγ-8とをAMPA受容体とともに発現すると再感作は検出されなくなる</h2><br/>　2009年にAMPA受容体の新たな補助サブユニットcornichon2およびcornichon3が見い出され，AMPA受容体の物理的な特性，すなわち，脱活性化と脱感作の過渡特性を遅くすることが報告された．おもしろいことに，海馬ニューロンにcornichon2とγ-8とをAMPA受容体とともに発現すると再感作は観察されなくなり，かつ，カイニン酸応答はグルタミン酸応答に比べて著明に大きくなるという293T細胞と同様の応答を示すことが明らかになった（<a href="#F2">図2</a>）．抗cornichon2抗体を作製してcornichon2の局在を評価したところ，cornichon2は脳に特異的に発現し，とくに海馬において高いレベルで発現していること，さらに，シナプス後肥厚（postsynaptic density：PSD）画分に濃縮していることが明らかになった．海馬の細胞膜画分の免疫沈降実験においてcornichon2はTARPと共沈することから，少なくとも海馬のAMPA受容体はcornichon2とTARPとをともに含む複合体を形成していることが明らかになった．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　海馬ニューロンのAMPA受容体の物理学的および薬理学的な特性はAMPA受容体とその補助サブユニットγ-8とcornichon2を共発現することにより実現される</strong><br/>（a）海馬ニューロン．グルタミン酸の投与による再感作は観察されない．また，カイニン酸に対する応答はグルタミン酸に対する応答に比べ著しく大きい．<br/>（b）293T細胞．AMPA受容体の単独ではグルタミン酸およびカイニン酸に応答するごく小さな定常電流が検出される．AMPA受容体とcornichon2との共発現によりグルタミン酸応答およびカイニン酸応答は増加するが，カイニン酸電流とグルタミン酸電流との比率は約1で海馬ニューロンとは異なっている．AMPA受容体とγ-8との共発現は再感作をひき起こし，そのときのカイニン酸電流とグルタミン酸電流との比率は海馬ニューロンに近い．AMPA受容体とγ-8およびcornichon2とを共発現すると再感作は抑制され，カイニン酸電流とグルタミン酸電流との比率は海馬ニューロンと同様になる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kato-Neuron-10.12.21-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　海馬ニューロンのAMPA受容体の物理学的および薬理学的な特性はAMPA受容体とその補助サブユニットγ-8とcornichon2を共発現することにより実現される" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kato-Neuron-10.12.21-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kato-Neuron-10.12.21-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　さらに興味深いことに，γ-8を欠損するマウスの海馬においてcornichon2のタンパク質の量が80％近くも減少していた．このことはcornichon2とγ-8とが遺伝的に相互作用していることを示していた．AMPA受容体の量もγ-8欠損マウスの海馬では50％ほど減少していたことも，cornichon2とγ-8とが海馬のAMPA受容体を協調的に修飾していることを支持した．<br/><br/><br/><h2>4．cornichon2とγ-8はシナプスとシナプス外部においてAMPA受容体を調節する</h2><br/>　つぎに，ニューロンにおいてγ-8の過剰発現が再感作にどのような影響をあたえるかを評価した．海馬培養細胞または培養小脳顆粒細胞にγ-8を過剰発現し，電位固定して10～20秒にわたりグルタミン酸を投与したときのAMPA受容体に依存的な電流を測定したところ再感作が観察された．一方，γ-8とcornichon2とをともに過剰発現すると再感作は観察されなかった．このことは293T細胞のみならずニューロンにおいてもAMPA受容体の再感作はγ-8とcornichon2とのバランスで規定されていることを示していた．<br/>　以上の実験で行ったグルタミン酸の投与はおもにシナプス外のAMPA受容体を活性化した．よって，シナプスにおけるAMPA受容体にcornichon2が含まれているかどうかは依然として不明であった．シナプスにおけるcornichon2の役割を評価するためには，まず，シナプスでのAMPA受容体の活性化および脱活性化を培養細胞で再現すること，すなわち，ごく短時間（1 ms）のグルタミン酸投与による脱活性化の過渡特性を測定するのが近道であった．<br/>　そこで，GluA1，γ-8，cornichon2をさまざまな組合せで発現した293T細胞の脱活性化および脱感作の過渡特性を測定した．その結果，脱活性化および脱感作の時定数はいずれも，GluA1単独，GluA1とγ-8，GluA1とcornichon2，GluA1とγ-8とcornichon2，の順で大きくなり，cornichon2とγ-8とは協調的に脱活性化および脱感作を遅くすることが明らかになった．このことから，もし過剰発現したcornichon2がシナプスで機能するとすれば，cornichon2の量を増やせばシナプス伝達によるAMPA受容体の脱活性化の時定数は大きくなるはずであった．<br/>　TARPが欠損している小脳顆粒細胞にγ-8とcornichon2とを組み合わせて発現させ，シナプス伝達の一種である微小シナプス電位を測定した．cornichon2を単独で発現した場合は，外来のcDNAをなにも導入していないときと同様に，微小シナプス電位は観察されなかった．このことはcornichon2は単独ではAMPA受容体をシナプスに局在することができないことを強く示唆した．一方，γ-8を発現した場合，および，γ-8とcornichon2とを共発現した場合には微小シナプス電位が観測された．さらに，微小シナプス電位の時定数はcornichon2を共発現した場合には有意に増加した．このことはcornichon2がγ-8とともにシナプスに局在することを示していた．<br/>　つぎに，内在性のcornichon2もシナプスに局在化しているかどうかを検討した．海馬の培養ニューロンにおいてshRNAを用いてcornichon2をノックダウンしたとき微小シナプス電位にどう変化が生じるかを測定した．cornichon2に対する2種類のshRNAの導入により部分的にcornichon2の量を下げることができ，その結果，微小シナプス電位の電荷移動量が減少することが見い出された．このことは内在性のcornichon2がシナプスに局在しAMPA受容体の脱感作を抑制していることを強く示唆した．<br/>　以上のことから，海馬ニューロンにおいてcornichon2はγ-8とともにシナプスとシナプス外部の両方でAMPA受容体の性質を規定していることが明らかになった．<br/><br/><h2>おわりに</h2><br/>　この研究ではγ-8に代表される一部のTARPによる新たなAMPA受容体の物理学的な特性“再感作”を発見した．海馬ニューロンにおいてγ-8とcornichon2とをAMPA受容体と共発現することにより再感作が観察されなくなることを見い出した．さらに，海馬ニューロンにおいてシナプスおよびシナプス外部の両方のAMPA受容体が2種類の補助サブユニットγ-8とcornichon2とによって制御されていることを明示した．以上のことは，海馬ニューロンのAMPA受容体が補助サブユニットの組合せによって性質決定されていることを示していた．一方，cornichon2はニューロンのAMPA受容体にほとんど影響をあたえないという報告もある<a href="#R9"><sup>9)</sup></a>．この相違がどのような理由で生じるのかを明らかにすることが必要である．また，内在性のcornichon2あるいはcornichon3を欠損させた場合に再感作が観察されるかどうか，すなわち，cornichon2ノックアウトマウスあるいはcornichon3ノックアウトマウスを用いた実験は重要と考える．さらに，どのような分子機構によってcornichon2はγ-8による再感作を阻害するのかを検討することも興味深い課題である．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Bredt, D. S. & Nicoll, R. A.</span>: <span class="ti">AMPA receptor trafficking at excitatory synapses.</span> <span class='so'>Neuron, 40, 361-379 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14556714" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Malinow, R. & Malenka, R. C.</span>: <span class="ti">AMPA receptor trafficking and synaptic plasticity.</span> <span class='so'>Annu. Rev. Neurosci., 25, 103-126 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12052905" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Sheng, M. & Kim, M. J.</span>: <span class="ti">Postsynaptic signaling and plasticity mechanisms.</span> <span class='so'>Science, 298, 776-780 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12399578" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Nicoll, R. A., Tomita, S. & Bredt, D. S.</span>: <span class="ti">Auxiliary subunits assist AMPA-type glutamate receptors.</span> <span class='so'>Science, 311, 1253-1256 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16513974" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kato, A. S., Gill, M. B., Yu, H. et al.</span>: <span class="ti">TARPs differentially decorate AMPA receptors to specify neuropharmacology.</span> <span class='so'>Trends Neurosci., 33, 241-248 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20219255" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Tomita, S., Adesnik, H., Sekiguchi, M. et al.</span>: <span class="ti">Stargazin modulates AMPA receptor gating and trafficking by distinct domains.</span> <span class='so'>Nature, 435, 1052-1058 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15858532" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Schwenk, J., Harmel, N., Zolles, G. et al.</span>: <span class="ti">Functional proteomics identify cornichon proteins as auxiliary subunits of AMPA receptors.</span> <span class='so'>Science, 323, 1313-1319 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19265014" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>von Engelhardt, J., Mack, V., Sprengel, R. et al.</span>: <span class="ti">CKAMP44: a brain-specific protein attenuating short-term synaptic plasticity in the dentate gyrus.</span> <span class='so'>Science, 327, 1518-1522 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20185686" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Shi, Y., Suh, Y. H., Milstein, A. D. et al.</span>: <span class="ti">Functional comparison of the effects of TARPs and cornichons on AMPA receptor trafficking and gating.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 107, 16315-16319 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20805473" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">加藤 明彦（Akihiko S. Kato）</span><br>略歴：1995年 東京大学大学院理学系研究科博士課程 修了，1994年より三菱化学生命科学研究所 特別研究員，1997年 九州大学大学院理学研究院 助手，2002年 米国California大学San Francisco校Postdoc，2005年 米国Eli Lilly and CompanyにてPostdocを経て，2009年より同Research Scientist．<br>研究テーマ：脳機能の根幹をつかさどるシナプス伝達の重要かつ詳細な分子機構の解明．<br>抱負：このテーマから得られる研究成果は，われわれの脳のしくみを知る喜びを共有するという基礎研究における貢献にくわえて，新しい創薬の可能性を開くものだと考えています．脳科学にかぎりませんが，自然界には多くの謎があります．永年にわたり解き明かされてこなかった謎をわたしたちの力でひとつでも解決することができればと思っています．<br><br><strong>David S. Bredt</strong><br>米国Eli Lilly and CompanyにてVice President．<br></div><br>© 2011 加藤明彦・David S. Bredt Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

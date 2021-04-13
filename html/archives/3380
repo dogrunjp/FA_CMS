@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> キラルな細胞形状の変化による左右非対称な形態形成 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>キラルな細胞形状の変化による左右非対称な形態形成</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>前田礼男・谷口喜一郎・安藤格士・松野健治</strong><br>（東京理科大学基礎工学部 生物工学科発生遺伝子工学研究室）<br>email：<a href="mailto:matsuno@rs.noda.tus.ac.jp">松野健治</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.129">10.7875/first.author.2011.129</a><br><div class="reference"><br><span class="ti">Chirality in planar cell shape contributes to left-right asymmetric epithelial morphogenesis.</span><br><span class="au">Kiichiro Taniguchi, Reo Maeda, Tadashi Ando, Takashi Okumura, Naotaka Nakazawa, Ryo Hatori, Mitsutoshi Nakamura, Shunya Hozumi, Hiroo Fujiwara, Kenji Matsuno</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21764746" target="_blank"><em>Science</em>, <strong>333</strong>, 339-341 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　内臓器官やからだの外部の左右非対称性な形態は動物界において広く観察される．たとえば，ヒトでは心臓，腎臓，腸，肺などの形態や配置に左右非対称性がみられる．左右非対称性に関する研究はとくに脊椎動物で進んでおり，その形成に関与する多数の遺伝子が同定されている．しかしながら，器官や組織の形態が左右非対称に変化する機構についてはほとんど理解されていない．筆者らは，ショウジョウバエ胚の消化管のひとつである後腸の左右非対称な捻転に注目し，捻転が起こる際の後腸の上皮細胞の形状を調べた．その結果，後腸が左右非対称な形態を示す以前に，細胞の形状が左右非対称なかたちにゆがんでいることを見い出した．一方，後腸の左右非対称性が反転する<em>Myo31DF</em>遺伝子の突然変異体では細胞形状の左右非対称性も逆転していた．この<em>Myo31DF</em>遺伝子はミオシンIDをコードしている．また，後腸の左右非対称性がランダム化する<em>shg</em>遺伝子の突然変異体では細胞形状の左右非対称性はみられなかった．この<em>shg</em>遺伝子はEカドヘリンをコードしている．また，Eカドヘリンの細胞内における局在の観察から，ミオシンIDに依存したEカドヘリンの左右非対称な細胞内分布が細胞形状の左右非対称なゆがみを生み出し，これが組織レベルでの左右非対称な捻転をひき起こしているものと考えられた．<br/><br/><h2>はじめに</h2><br/>　からだの左右非対称性は動物形態の基本的な属性のひとつであり，左右相称動物の多くは内臓器官の配置や形態に左右非対称性を示す．左右非対称性の形成に関する研究は脊椎動物においてとくに進んでおり，その分子機構が明らかになりつつある<a href="#R1"><sup>1)</sup></a>．たとえば，マウスや小型魚類では結節に存在する単繊毛の回転により生ずる胚体外液の左方向への流れ（ノード流）が最初の左右極性を決定する．ノード流により決定された左右極性にもとづき<em>nodal</em>遺伝子，<em>lefty</em>遺伝子，<em>pitx2</em>遺伝子などがからだの左側に発現することにより，左右非対称性が形成されるものと考えられている<a href="#R1"><sup>1)</sup></a>．しかしながら，左右の極性の情報にもとづいた個々の細胞レベルでの変化が，器官レベルでの左右非対称な形態形成につながる機構については，少数の先駆的な研究を除きほとんど明らかになっていない<a href="#R2"><sup>2,3)</sup></a>．筆者らは，ショウジョウバエをモデルとして左右非対称性に関する研究を行っており，左右非対称性が異常となる突然変異体を同定してきた．ショウジョウバエは脳，雄成虫の外生殖器，精巣，消化管に左右非対称性を示す<a href="#R4"><sup>4-6)</sup></a>．ショウジョウバエ胚の消化管は発生の過程で最初に左右非対称性を示す器官であり，大きく前腸，中腸，後腸の3つの領域に分けられる<a href="#R7"><sup>7)</sup></a>．これら3つの領域は遺伝的に決定された明瞭な左右非対称性を示す．<br/>　この論文では，器官レベルでの左右非対称な形態形成を誘発する細胞の挙動を明らかにするため，左右非対称な捻転を示すショウジョウバエ胚の後腸に注目し，後腸を構成する上皮細胞の平面内における左右極性や細胞形状の左右非対称性を調べた．<br/><br/><h2>1．後腸の上皮細胞は後腸の捻転のまえにキラルな形状を示す</h2><br/>　胚発生のときの後腸は傘の取っ手のような形態をしており，胚発生の初期において，からだの正中線のうえに左右対称に存在している．そののち，胚の後方からみて反時計回りに90度捻転することにより左右非対称な形態を示す（<a href="#F1">図1</a>）．筆者らのこれまでの研究から，ミオシンIDをコードする<em>Myosin31DF</em>（<em>Myo31DF</em>）遺伝子の突然変異体では後腸の捻転方向が逆転することが明らかになっている<a href="#R4"><sup>4)</sup></a>．また，後腸は1層の上皮細胞とそれをおおう筋肉細胞より構成されているが，後腸の正常な捻転には後腸の上皮細胞における<em>Myo31DF</em>遺伝子の発現が必要十分であることがわかっている<a href="#R4"><sup>4)</sup></a>．そこで，後腸の上皮細胞に注目し，これまでの研究により細胞極性との関連が示唆されている中心体の位置を調べた<a href="#R8"><sup>8,9)</sup></a>．その結果，後腸の捻転のまえに，上皮細胞における中心体の位置に左右のかたよりのあることが明らかになった．このことから，後腸の捻転のまえに後腸を構成する上皮細胞において左右の極性の存在していることが示唆された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　ショウジョウバエ胚の後腸の捻転と平面内の細胞形状のキラリティの形成</strong><br/>ショウジョウバエ胚の後腸は後方からみて反時計回りに90度捻転することで左右非対称性な形態をとる．後腸の上皮細胞の形状を測定するため，後腸の前後軸と上皮細胞頂端面の細胞辺とのあいだの角度（θ）を測定し，その出現頻度を15度ごとに算出した．その結果，後腸の上皮細胞は捻転のまえには左右非対称にゆがんだ細胞形状を示し，捻転のあとには左右対称な細胞形状を示すことが明らかになった．捻転のまえの左右非対称にゆがんだ細胞形状を“平面内の細胞形状のキラリティ”とよぶことにした．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuno-Science-11.7.15-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　ショウジョウバエ胚の後腸の捻転と平面内の細胞形状のキラリティの形成" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuno-Science-11.7.15-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuno-Science-11.7.15-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　つぎに，上皮細胞の頂端面（消化管の内側）の形状に注目した．細胞と細胞が接触する面を頂端側から観察したものを“細胞辺”とし，細胞辺の交点において後腸の前後軸とそれぞれの細胞辺とのあいだの角度を測定し，15度ごとの角度範囲における細胞辺の出現頻度を調べた．その結果，右へ傾いている細胞辺と左へ傾いている細胞辺の出現頻度に左右のかたよりのあることが明らかになった（<a href="#F1">図1</a>）．つまり，捻転のまえの後腸の上皮細胞は左右非対称であり，これらがキラルな形状をとっていることが示唆された．キラルとは3次元の物体がその鏡像と重ね合わさることのできないことをいう．一方，捻転ののちの後腸の上皮細胞の形状を同様の方法で測定したところ，細胞辺の出現頻度に有意なかたよりはなく，キラルな形状は解消されていることが明らかになった（<a href="#F1">図1</a>）．筆者らは，捻転のまえの後腸の上皮細胞にみられたこの細胞形状を“平面内の細胞形状のキラリティ”（planar cell-shape chirality：PCC）と名づけた．また，後腸の左右非対称性が逆転する<em>Myo31DF</em>突然変異体において同様に細胞形状を測定したところ，細胞辺の出現頻度の左右差が逆転していたことから，ここでは平面内の細胞形状のキラリティが逆転しているものと考えられた．<br/><br/><h2>2．Eカドヘリンの左右非対称な分布がキラルな細胞形状を生み出している</h2><br/>　平面内の細胞形状のキラリティの形成に異常を示す突然変異体として，<em>shotgun</em>（<em>shg</em>）遺伝子の突然変異体を同定した．<em>shg</em>遺伝子は細胞接着分子であるEカドヘリンをコードしており<a href="#R10"><sup>10)</sup></a>，この突然変異体では後腸の左右非対称性がランダム化する．<em>shg</em>突然変異体において後腸の上皮細胞の平面内の細胞形状のキラリティを調べたところ，細胞形態に有意な左右差は検出されなかった．このことから，Eカドヘリンが平面内の細胞形状のキラリティの形成に必須であることが示唆された．<br/>　つぎに，平面内の細胞形状のキラリティの形成におけるEカドヘリンの機能を明らかにするため，それぞれの細胞辺におけるEカドヘリンの分布を免疫蛍光染色法により調べた．それぞれの細胞接着面に存在するEカドヘリンの相対量を蛍光強度から算出したところ，-90度から0度の範囲の細胞辺に存在するEカドヘリンの量は，0度から90度の範囲の細胞辺に存在する量よりも多かった．つまり，細胞におけるEカドヘリンの分布に左右のかたよりのあることがわかった．一方，平面内の細胞形状のキラリティの逆転する<em>Myo31DF</em>突然変異体においては，-90度から0度の範囲の細胞辺に存在するEカドヘリンの量は，0度から90度の細胞辺に存在する量よりも少なかった．つまり，Eカドヘリンの分布の左右のかたよりは逆転していた．<em>shg</em>突然変異体では後腸の上皮細胞において細胞辺の平均長が大きくなることから，Eカドヘリンが細胞接着面を収縮させているか，あるいは，細胞接着面の伸長を抑制しているものと考えられた．<br/>　これらの結果から，Eカドヘリンの分布の左右差が細胞接着面の収縮力の左右差を生み出し，これにより平面内の細胞形状のキラリティが形成されているものと考えられた（<a href="#F2">図2</a>）．一方，<em>Myo31DF</em>突然変異体ではEカドヘリンの分布の左右差が逆転することにより，反転した平面内の細胞形状のキラリティが形成されているものと考えられた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ミオシンIDとEカドヘリンによる平面内の細胞形状のキラリティの形成と後腸の捻転</strong><br/>ミオシンIDに依存したEカドヘリンの分布の左右のかたよりが平面内の細胞形状のキラリティを生み出す．平面内の細胞形状のキラリティが解消されることにより後腸の反時計回りの捻転が起こる．一方，ミオシンIDをコードしている<em>Myo31DF</em>遺伝子の突然変異体ではEカドヘリンの左右非対称な分布および平面内の細胞形状のキラリティが逆転する．そのことにより，<em>Myo31DF</em>突然変異体では後腸の捻転の方向が逆転するものと考えられた．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuno-Science-11.7.15-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ミオシンIDとEカドヘリンによる平面内の細胞形状のキラリティの形成と後腸の捻転" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuno-Science-11.7.15-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuno-Science-11.7.15-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．平面内の細胞形状のキラリティによる後腸の捻転のシミュレーションによる再現</h2><br/>　後腸の上皮での個々の細胞における細胞接着面の収縮力の左右差が，後腸の捻転という器官レベルの形態変化をひき起こすことができるかどうかを，コンピューターシミュレーションにより確かめた．後腸の上皮細胞の頂端面を想定した多角形パターンをコンピューターにおいて再現し，後腸の上皮のモデルとした．このモデル上皮において，細胞辺にかかる収縮力を，前後軸に対するそれぞれの細胞辺の角度が-45度のときをピークとし最大値で2倍になるようにした．その結果，生体において後腸の上皮で観察される平面内の細胞形状のキラリティと同様に，それぞれの角度範囲に存在する細胞辺の出現頻度に左右のかたよりがみられた．つぎに，この左右非対称な細胞形状を生み出している個々の細胞辺の収縮力を順に左右対称へと変化させ，モデル上皮の動きを確かめた．その結果，モデル上皮において平面内の細胞形状のキラリティが解消され，生体において観察されるような反時計回りの捻転を再現することができた．また，細胞辺の収縮力が最大になる辺の角度範囲を逆転させることで，<em>Myo31DF</em>突然変異体と同様な時計回りの捻転もひき起こすことができた．<br/>　これらコンピューターシミュレーションの結果から，Eカドヘリンの左右非対称な分布によりもたらされる個々の細胞形状のキラリティが，器官レベルの左右非対称な形態変化をひき起こしている可能性を示唆することができた．<br/><br/><h2>おわりに</h2><br/>　今回の研究により，細胞形状のキラルなゆがみが後腸の反時計回りの捻転をひき起こしている可能性を示唆することができた．細胞レベルの左右非対称性は，近年，培養細胞を用いた研究から明らかになってきている．たとえば，ヒト好中球様分化HL-60細胞では中心体と核を結んだ軸の左側に仮足を伸長する傾向のあることが報告されている<a href="#R9"><sup>9)</sup></a>．また，貝や線虫の初期発生に注目すると割球の配置に明瞭なキラリティが観察される<a href="#R11"><sup>11,12)</sup></a>．これらのことから，細胞レベルでのキラリティは生物において一般的な特性である可能性が考えられる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Levin, M.</span>: <span class="ti">Left-right asymmetry in embryonic development: a comprehensive review.</span> <span class='so'>Mech. Dev., 122, 3-25 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15582774" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Davis, N. M., Kurpios, N. A., Sun, X. et al.</span>: <span class="ti">The chirality of gut rotation derives from left-right asymmetric changes in the architecture of the dorsal mesentery.</span> <span class='so'>Dev. Cell, 15, 134-145 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18606147" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Kurpios, N. A., Ibanes, M., Davis, N. M. et al.</span>: <span class="ti">The direction of gut looping is established by changes in the extracellular matrix and in cell:cell adhesion.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 105, 8499-8506 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18574143" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Hozumi, S., Maeda, R., Taniguchi, K. et al.</span>: <span class="ti">An unconventional myosin in <em>Drosophila</em> reverses the default handedness in visceral organs.</span> <span class='so'>Nature, 440, 798-802 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16598258" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Pascual, A., Huang, K. L., Neveu, J. et al.</span>: <span class="ti">Neuroanatomy: brain asymmetry and long-term memory.</span> <span class='so'>Nature, 427, 605-606 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14961111" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Speder, P., Adam, G. & Noselli, S.</span>: <span class="ti">Type ID unconventional myosin controls left-right asymmetry in <em>Drosophila</em>.</span> <span class='so'>Nature, 440, 803-807 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16598259" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Campos-Ortega, J. A. & Hartenstein, V.</span>: <span class="ti">The Embryonic Development of <em>Drosophila melanogaster</em>.</span> <span class='so'>Spring-Verlag, Berlin (1987)</span></li><br><li id="R8"><span class='au'>de Anda, F. C., Pollarolo, G., Da Silva, J. S. et al.</span>: <span class="ti">Centrosome localization determines neuronal polarity.</span> <span class='so'>Nature, 436, 704-708 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16079847" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Xu, J., Van Keymeulen, A., Wakida, N. M. et al.</span>: <span class="ti">Polarity reveals intrinsic cell chirality.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 104, 9296-9300 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17517645" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Tepass, U., Gruszynski-DeFeo, E., Haag, T. A. et al.</span>: <span class="ti"><em>shotgun</em> encodes <em>Drosophila</em> E-cadherin and is preferentially required during cell rearrangement in the neurectoderm and other morphogenetically active epithelia.</span> <span class='so'>Genes Dev., 10, 672-685 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8598295" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Meshcheryakov, V. N. & Beloussov, L. V.</span>: <span class="ti">Asymmetrical rotations of blastomeres in early cleavage of gastropoda.</span> <span class='so'>Wilhelm Roux Arch. Dev. Biol., 177, 193-203 (1975)</span></li><br><li id="R12"><span class='au'>Wood, W. B.</span>: <span class="ti">Evidence from reversal of handedness in <em>C</em>. <em>elegans</em> embryos for early cell interactions determining cell fates.</span> <span class='so'>Nature, 349, 536-538 (1991)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1992354" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">前田 礼男（Reo Maeda）</span><br>略歴：2007年 東京理科大学大学院基礎工学研究科博士後期課程 修了，同年より東京理科大学基礎工学部 助教．<br>研究テーマ：ショウジョウバエ消化管の左右非対称性の形成機構．<br>関心事：動的で複雑な生命現象を支配する機構を明らかにしたいと考えています．<br><br><strong>谷口 喜一郎（Kiichiro Taniguchi）</strong><br>学習院大学理学部 助教．<br><br><strong>安藤 格士（Tadashi Ando）</strong><br>米国Georgia Institute of Technologyポスドク研究員．<br><br><strong>松野 健治（Kenji Matsuno）</strong><br>東京理科大学基礎工学部 教授．<br>研究室URL：<a href="http://www.rs.noda.tus.ac.jp/~biost/OPFU/MATU/toppage3.html" target="_blank">http://www.rs.noda.tus.ac.jp/~biost/OPFU/MATU/toppage3.html</a><br></div><br>© 2011 前田礼男・谷口喜一郎・安藤格士・松野健治 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

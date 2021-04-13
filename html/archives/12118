@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 2つの転写因子LRFとBCL11Aはそれぞれ独自の機構により胎児型ヘモグロビンの発現を抑制する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>2つの転写因子LRFとBCL11Aはそれぞれ独自の機構により胎児型ヘモグロビンの発現を抑制する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>増田 豪・前田高宏</strong><br>（米国Harvard Medical School，Brigham and Women's Hospital，Department of Medicine，Division of Hematology）<br>email：<a href="mailto:masudt2@uw.edu">増田 豪</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.010">10.7875/first.author.2016.010</a><br><div class="reference"><br><span class="ti">Transcription factors LRF and BCL11A independently repress expression of fetal hemoglobin.</span><br><span class="au">Takeshi Masuda, Xin Wang, Manami Maeda, Matthew C. Canver, Falak Sher, Alister P. W. Funnell, Chris Fisher, Maria Suciu, Gabriella E. Martyn, Laura J. Norton, Catherine Zhu, Ryo Kurita, Yukio Nakamura, Jian Xu, Douglas R. Higgs, Merlin Crossley, Daniel E. Bauer, Stuart H. Orkin, Peter V. Kharchenko, Takahiro Maeda</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26816381" target="_blank"><em>Science</em>, <strong>351</strong>, 285-289 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　鎌状赤血球症やβサラセミアは成人型βグロビン遺伝子の変異により発症するが，出生ののち早期に発現の抑制される胎児型βグロビンをふたたび発現させることにより症状の改善が期待される．胎児型βグロビン遺伝子の発現の抑制機構はいまだ明らかにされておらず，これまで報告されてきた胎児型βグロビン抑制タンパク質を不活性化させても抑制機構は完全には解除されなかった．筆者らは，転写因子LRFが胎児型βグロビンの抑制タンパク質のひとつであることを見い出した．LRFは胎児型βグロビン遺伝子と直接的に結合することにより近傍のクロマチン構造を凝集させ転写を抑制していることが示唆された．さらに，転写因子LRFおよび転写因子BCL11Aをともに欠損させることにより，胎児型βグロビン遺伝子の発現の抑制機構はほぼ完全に解除された．これらの成果は，今後，鎌状赤血球症やβサラセミアなどの治療につながることが期待される．<br/><br/><h2>はじめに</h2><br/>　ヘモグロビンは2つのαグロビンと2つのβグロビンからなる四量体である．ヒトやマウスのグロビン遺伝子には複数の型があり，それぞれの型は発生の時期に特異的に発現する．たとえば，ヒトのβグロビンには胚型，胎児型，成人型があり，胎児期に発現する胎児型グロビンは出生ののち数カ月で発現がほぼ消失し，それと同時に，成人型グロビンの発現が誘導される．このダイナミックな変化はグロビンスイッチングとよばれている．<br/>　鎌状赤血球症は成人型βグロビン遺伝子の1塩基変異によりアミノ酸置換が起こり発症する．変異をもつ成人型βグロビンを含むヘモグロビンは多量体を形成し，赤血球の形状が鎌状となる．造血幹細胞の移植のほか根治的な治療法はなく，感染症，貧血，赤血球の可塑性の増加による血管内塞栓，慢性輸血による臓器障害により早期の死亡をきたす．今後40年間でアフリカやインドを中心とした患者数の爆発的な増加がみこまれており，安価な新規の治療法や出生前診断による予防が急務である<a href="#R1"><sup>1)</sup></a>．一方，患者が胎児型βグロビン遺伝子のプロモーター領域に特異的な遺伝子変異をもつ場合，胎児型ヘモグロビンの軽度の上昇をきたし，鎌状赤血球症の症状は軽微になることが知られている<a href="#R2"><sup>2)</sup></a>．また，臨床的にDNAメチル化酵素阻害剤やハイドレキシウレアの投与により患者の血中の胎児型ヘモグロビンを数％増加させるだけで症状に改善がみられる．したがって，患者の血中の胎児型ヘモグロビンを効率よくかつ安全に増加させる薬剤が開発できれば予後は劇的に改善される．これまで，転写因子BCL11AがNuRD複合体を形成し胎児型グロビンの発現を抑制することが報告されているものの<a href="#R3"><sup>3,4)</sup></a>，BCL11Aを欠損させても胎児型グロビンの発現の抑制機構は完全には解除されなかった．成人期における胎児型グロビンの発現の抑制機構を明らかにすることは，鎌状赤血球症など成人型βグロビン遺伝子の変異に起因する疾患の治療につながるものと期待される．<br/>　LRFは悪性リンパ腫の組織において高発現し，がん抑制遺伝子である<em>p19ARF</em>遺伝子の発現を直接的に抑制する転写因子として報告された<a href="#R5"><sup>5)</sup></a>．また，正常な造血においてリンパ球系前駆細胞からB細胞あるいはT細胞への分化の分岐を制御するだけでなく<a href="#R6"><sup>6)</sup></a>，LRFのコンディショナルノックアウトマウスにおいては赤血球の分化の成熟期においてクロマチン構造の凝縮が不十分であり細胞はアポトーシスにむかう<a href="#R7"><sup>7)</sup></a>．これまでの研究により，LRFが造血幹細胞の維持，血球の最終分化，がん化に深く関与することは明らかであったが，その詳細な分子機構には不明な点が多かった．<br/><br/><h2>1．マウスにおいてLRFを欠損させると胚型βグロビンの発現量が増加する</h2><br/>　マウスではヒトと異なり胎児型ヘモグロビンは存在せず，Hbb-yおよびHbb-bh1の2つの胚型βグロビンが認められる．Hbb-bh1は初期胚でのみ発現し，ヒトの胎児型βグロビンのオルソログにあたる．LRFノックアウトマウスの赤芽球を用いてRNA-Seq法により遺伝子発現について調べたところ，野生型の赤芽球に比べHbb-bh1の発現量が劇的に増加していた．また，LRFノックアウトマウスの末梢血から，本来は成体のマウスからは検出されない胚型βグロビンが検出されたことから，LRFの欠損により転写されたHbb-bh1をコードするmRNAからタンパク質が翻訳されていることが示唆された．<br/><br/><h2>2．ヒトの赤芽球においてLRFを欠損させると胎児型βグロビンの発現量が増加する</h2><br/>　LRFの不活性化がヒトの胎児型βグロビンの発現を誘導するかどうか，ヒトのβグロビン遺伝子クラスターをゲノムに導入したヒト化マウスモデル<a href="#R8"><sup>8)</sup></a> を用いて検証したところ，<em>in vivo</em>において，マウスのLRFの不活性化によりヒトの胎児型βグロビンの発現量が増加した．さらに，ヒトのCD34陽性の造血幹細胞から<em>ex vivo</em>において樹立された赤芽球においても，LRFをノックダウンすることにより胎児型βグロビンの発現量が顕著に増加した．総ヘモグロビン量に対する胎児型ヘモグロビンのしめる割合は，LRFをノックダウンするまえは約10％であったのに対し，ノックダウンののちには約60％まで増加した．<br/>　健常な成人においては胎児型ヘモグロビンのしめる割合は2％以下であるのに対し，CD34陽性の造血幹細胞に由来する赤芽球はLRFが存在しても胎児型ヘモグロビンを比較的高いレベルで発現しており，必ずしも適切な実験系とはいえなかった．また，LRFのノックダウンにより胎児型ヘモグロビンの量が増加したのは，胎児型βグロビンの発現の抑制機構が細胞自律性に解除されたからではなく，LRFのノックダウンにより胎児型ヘモグロビンを高発現した一部の細胞が選択的に増加した可能性も否定できなかった．そこで，胎児型ヘモグロビンをほぼ発現していないヒトの赤芽球細胞株HUDEP-2細胞<a href="#R9"><sup>9)</sup></a> を用いた．CRISPR/Cas9法を用いたゲノム編集によりLRFを欠損させ，欠損の前後で遺伝子発現パターンを網羅的に比較した結果，これまでに得られた結果と同様に，LRFを欠損させることにより胎児型βグロビンの発現量が劇的に増加した．このことから，LRFは胎児型βグロビン遺伝子の発現の抑制に直接に関与することが強く示唆された．<br/><br/><h2>3．LRFは胎児型βグロビン遺伝子に結合する</h2><br/>　LRFによる胎児型βグロビン遺伝子の発現の抑制機構について調べるため，ChIP-Seq法によりLRFのDNA結合部位を網羅的に調べた．その結果，LRFが胎児型βグロビン遺伝子およびその近傍に結合することが見い出された．これまで，BCL11Aをはじめ，いくつかの転写因子やDNA結合タンパク質が胎児型グロビンの発現の抑制に関与することが報告されてきたが<a href="#R4"><sup>4,10)</sup></a>，LRFが胎児型βグロビン遺伝子に直接的に結合する抑制タンパク質として同定された．<br/><br/><h2>4．LRFは胎児型βグロビン遺伝子の近傍のクロマチン構造を凝集させる</h2><br/>　ATAC-Seq法により転写活性の高いクロマチン構造の開いた領域を同定した．その結果，LRFの存在のもとでは胎児型βグロビン遺伝子の近傍のクロマチン構造は凝集していたのに対し，LRFを欠損した細胞においてクロマチン構造は開いていた（<a href="#F1">図1</a>）．このことから，LRFは胎児型βグロビン遺伝子の近傍の局所的なクロマチン構造の凝集，さらには，胎児型βグロビン遺伝子の転写の抑制に不可欠であると考えられた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　クロマチン構造の凝集による胎児型βグロビン遺伝子の発現の制御</strong><br/>（a）転写因子LRFが存在すると，クロマチン構造は凝集し転写因子がアクセスできない．<br/>（b）転写因子LRFが存在しないと，クロマチン構造は開いて転写因子がアクセスできる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Maeda-Science-16.1.15-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　クロマチン構造の凝集による胎児型βグロビン遺伝子の発現の制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Maeda-Science-16.1.15-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Maeda-Science-16.1.15-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>5．LRFはNuRD複合体と相互作用する</h2><br/>　遺伝子の発現のオンオフにはタンパク質複合体が関与している場合が多い．そこで，酵母ツーハイブリッド法によりLRFと直接に相互作用するタンパク質を同定した．同定されたタンパク質のうち，その機能および赤芽球における発現量からNuRD複合体を構成するタンパク質に着目した．NuRD複合体はBCL11Aと相互作用することにより胎児型βグロビン遺伝子の発現を抑制することが示唆されていた<a href="#R3"><sup>3,4)</sup></a>．ヒトの赤芽球を用いてLRFとこれらのタンパク質との相互作用を個別に調べたところ，LRFはNuRD複合体の構成タンパク質であるGATAD2BおよびMTA2，さらに，HDAC1およびHDAC2と相互作用した．また，LRFと結合したNuRD複合体とBCL11Aは相互作用しなかった．このことから，LRFおよびBCL11AはNuRD複合体とそれぞれ独立した複合体を形成することが示された．<br/><br/><h2>6．LRFおよびBCL11Aはそれぞれ独自の機構により胎児型βグロビンの発現を抑制する</h2><br/>　LRFあるいはBCL11Aを単独で欠損させたところ，胎児型βグロビンの発現量はβグロビン全体の70％まで増加した．もしLRFとBCL11Aが同一の経路において胎児型βグロビン遺伝子の発現を抑制しているとしたら，胎児型βグロビンの発現量はLRFとBCL11Aの両方を欠損させてもどちらか一方のみを欠損させたときと変わらないはずである．しかしながら，LRFおよびBCL11Aを欠損させると胎児型βグロビンの発現量はβグロビン全体の約100％に達した．このことから，LRFおよびBCL11Aは独立して胎児型βグロビン遺伝子の発現を抑制しており，なおかつ，胎児型βグロビン遺伝子の発現の抑制機構はLRFを介した経路およびBCL11Aを介した経路によりほぼ完全に制御されていることが明らかにされた．<br/><br/><h2>おわりに</h2><br/>　これまで，さまざまなタンパク質が胎児型βグロビン遺伝子の発現の抑制に関与していることが報告されてきた<a href="#R4"><sup>4,10)</sup></a>．しかし，それらのタンパク質の機能を不活性化しても胎児型βグロビン遺伝子の発現の抑制機構は完全には解除されなかった．今回の研究において，転写因子LRFが胎児型βグロビン遺伝子の新しい抑制タンパク質であることが見い出された．一方，LRFによる転写の抑制機構の一端が明らかにされたものの，LRFの形成する胎児型βグロビンの抑制複合体の構成タンパク質や，抑制の解除ののち胎児型βグロビン遺伝子の転写を活性化するタンパク質など，まだまだ不明な点も多い．また，LRFのコンディショナルノックアウトマウスにおいては赤血球の最終分化が不完全となり貧血症状を示す<a href="#R7"><sup>7)</sup></a>．ヒトのCD34陽性の造血幹細胞を用いた<em>ex vivo</em>における赤血球の分化においても，LRFをノックダウンするとマウスほどではないが分化に遅延が生じた．このことから，LRFの機能の単純な阻害は鎌状赤血球症において貧血の症状を悪化させる可能性が高く，治療の標的としてLRFの機能をいかに特異的に阻害するかが今後の課題である．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Piel, F. B., Hay, S. I., Gupta, S. et al.</span>: <span class="ti">Global burden of sickle cell anaemia in children under five, 2010-2050: modelling based on demographics, excess mortality, and interventions.</span> <span class='so'>PLoS Med., 10, e1001484 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23874164" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Chen, Z., Luo, H. Y., Basran, R.K. et al.</span>: <span class="ti">A T-to-G transversion at nucleotide -567 upstream of HBG2 in a GATA-1 binding motif is associated with elevated hemoglobin F.</span> <span class='so'>Mol.Cell. Biol., 28, 4386-4393 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18443038" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Sankaran, V. G., Menne, T. F., Xu, J. et al.</span>: <span class="ti">Human fetal hemoglobin expression is regulated by the developmental stage-specific repressor BCL11A.</span> <span class='so'>Science, 322, 1839-1842 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19056937" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Xu, J., Bauer, D. E., Kerenyi, M. A. et al.</span>: <span class="ti">Corepressor-dependent silencing of fetal hemoglobin expression by BCL11A.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 110, 6518-6523 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23576758" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Maeda, T., Hobbs, R., Merghoub, T. et al.</span>: <span class="ti">Role of the proto-oncogene <em>Pokemon</em> in cellular transformation and ARF repression.</span> <span class='so'>Nature, 433, 278-285 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15662416" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Maeda, T., Merghoub, T., Hobbs, R. et al.</span>: <span class="ti">Regulation of B versus T lymphoid lineage fate decision by the proto-oncogene LRF.</span> <span class='so'>Science, 316, 860-866 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17495164" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Maeda, T., Ito, K., Merghoub, T. et al.</span>: <span class="ti">LRF is an essential downstream target of GATA1 in erythroid development and regulates BIM-dependent apoptosis.</span> <span class='so'>Dev. Cell, 17, 527-540 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19853566" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Peterson, K. R., Clegg, C. H., Huxley, C. et al.</span>: <span class="ti">Transgenic mice containing a 248-kb yeast artificial chromosome carrying the human beta-globin locus display proper developmental control of human globin genes.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 90, 7593-7597 (1993)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8356061" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Kurita, R., Suda, N., Sudo, K. et al.</span>: <span class="ti">Establishment of immortalized human erythroid progenitor cell lines able to produce enucleated red blood cells.</span> <span class='so'>PLoS One, 8, e59890 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23533656" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Xu, J., Sankaran, V. G., Ni, M. et al.</span>: <span class="ti">Transcriptional silencing of γ-globin by BCL11A involves long-range interactions and cooperation with SOX6.</span> <span class='so'>Genes Dev., 24, 783-798 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20395365" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">増田  豪（Takeshi Masuda）</span><br>略歴：2012年 東京農業大学大学院生物産業学研究科にて博士号取得，2013年 米国Harvard Medical School博士研究員を経て，2015年より米国Washington大学 博士研究員．<br>研究テーマ：クロマチン構造が制御する遺伝子発現の機構のプロテオミクスを用いた解明．<br>関心事：プロテオミクスの効果的な使い方．<br><br><strong>前田 高宏（Takahiro Maeda）</strong><br>米国Harvard Medical SchoolにてAssistant Professor．<br>研究室URL：<a href="http://maedalab.bwh.harvard.edu/" target="_blank">http://maedalab.bwh.harvard.edu/</a><br></div><br>© 2016 増田 豪・前田高宏 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

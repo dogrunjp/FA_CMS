@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 自発的に明滅する蛍光プローブを用いた長時間にわたる超解像イメージング法の開発 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>自発的に明滅する蛍光プローブを用いた長時間にわたる超解像イメージング法の開発</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>高倉 栄男</strong><br>（米国Yale大学School of Medicine，Department of Cell Biology）<br>email：<a href="mailto:htakakura@pharm.hokudai.ac.jp">高倉栄男</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.072">10.7875/first.author.2017.072</a><br><div class="reference"><br><span class="ti">Long time-lapse nanoscopy with spontaneously blinking membrane probes.</span><br><span class="au">Hideo Takakura, Yongdeng Zhang, Roman S. Erdmann, Alexander D. Thompson, Yu Lin, Brian McNellis, Felix Rivera-Molina, Shin-nosuke Uno, Mako Kamiya, Yasuteru Urano, James E. Rothman, Joerg Bewersdorf, Alanna Schepartz, Derek Toomre</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28671662" target="_blank"><em>Nature Biotechnology</em>, <strong>35</strong>, 773-780 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　回折限界をこえる分解能で撮像する超解像イメージング法は細胞の微小な構造を観察するのにきわめて有効である．しかし，生細胞において長時間にわたり超解像イメージング法を実施することは非常にむずかしい．なぜなら，撮像しているあいだに色素分子の光退色が起こるため光安定性の高い色素分子による高密度かつ特異的な標識の必要があるが，蛍光タンパク質やタグタンパク質を用いた標識法では十分な密度を達成できないからである．この研究においては，クリックケミストリー法を利用してオルガネラの膜構造に蛍光色素を高密度で局在させる手法を開発し，とくに小胞体，ミトコンドリア，細胞膜において長時間にわたる超解像イメージング法が可能であることを実証した．タグタンパク質を用いて標識した場合には十数秒ですべての蛍光色素が光退色してしまう撮像条件において，この手法では最長で25分間のイメージングが達成され，微小なスケールで起こるオルガネラのダイナミックな変化をとらえることに成功した．<br/><br/><h2>はじめに</h2><br/>　光学顕微鏡により蛍光輝点を観察すると，光の回折現象によりぼやけて広がりをもつ点として観察される．そのため，ある距離よりも近づいた2つの点を区別することはできず，その距離を分解能とよぶ．Abbeの法則から分解能は観察光の波長の約半分であり，波長400～700 nmの可視光を想定すると分解能はよくても約200 nmと計算され，これは回折限界とよばれる．超解像イメージング法とは，この回折限界をこえる分解能で生体分子を撮像する顕微鏡技術のことである．細胞の大きさが10～20μmほど，オルガネラの大きさが数百nmのオーダーであることを考えると，細胞それ自体やオルガネラのおおまかな構造や位置関係を観察するには通常の光学顕微鏡で十分であるが，オルガネラの微小な構造やわずかな変化を観察するには超解像イメージング法の必要がある．現在までにさまざまな原理による超解像顕微鏡が開発されており，おもなものとして，誘導放出現象を利用したSTED（stimulated emission depletion），縞状のパターン照射によるSIM（structured illumination microscopy），1分子イメージング法にもとづくSTORM（stochastic optical reconstruction microscopy）が知られている<a href="#R1"><sup>1-3)</sup></a>．<br/>　筆者らの研究グループは，空間分解能のすぐれるSTORMに着目し，生細胞におけるイメージング法を念頭に研究を進めてきた．STORMの原理の肝は，まさに1分子ごと観察することにあり，これにより回折限界以下の距離にある蛍光輝点のシグナルの重なりを回避する（<a href="#F1">図1 a,b</a>）．得られた1分子ごとの蛍光シグナルの強度分布は蛍光輝点の位置を中心に山なりになっているはずである．この中心の位置をガウシアンフィッティングにより正確に計算し，平面空間にプロットする（<a href="#F1">図1b</a>）．この作業を任意の蛍光輝点に対し何百回，何千回とくり返すことによりあたかも点描画を描くように解像度の高い画像を再構築することができる（<a href="#F1">図1c</a>）．欠点としては，大量の画像から1枚の超解像画像を構築するため時間分解能が必ずしも高くない点，1分子ごとに蛍光シグナルを得るためしばしば細胞毒性のある条件が要求され生細胞への応用がむずかしい点があげられる．また，超解像イメージング法に共通する欠点として，一般に蛍光タンパク質やタグタンパク質を用いた標識法にたよるため標識の密度は必ずしも十分ではなく，イメージング法の標的となる分子として微小管やクラスリンなど存在量の豊富な多量体タンパク質が用いられる例が多い．ほかにも，強い励起光を使ってイメージングするため光退色により長時間にわたり撮像することがむずかしいという問題や，細胞における相対的な位置情報をあたえるオルガネラの構造を撮像するイメージング法の開発も必要であった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　超解像イメージング法STORMおよび近赤外蛍光色素HMSiRを用いた１分子イメージング法の原理</strong><br/>（a）蛍光分子が非常に小さいスケールで配置されていると，通常の蛍光顕微鏡ではいちどにすべての蛍光分子が観察されるため，文字は認識できない．<br/>（b）1分子イメージング法により，近傍の蛍光分子からのシグナルの重なりは回避される．この蛍光強度の分布にガウシアンフィッティングを適用し，中心位置を正確に計算して平面にプロットする．<br/>（c）大量の1分子イメージングのデータから1枚の画像を再構成することにより，回折限界をこえた分解能の画像を取得することができる．<br/>（d）HMSiRは熱的な平衡状態にあるため，蛍光を発するHMSiRはランダムに入れ替わっている．そのため，顕微鏡下でカメラをまわしているだけで1分子イメージング法が実施でき，超解像画像を取得することができる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takakura-Nature-Biotechnology-17.8.9-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　超解像イメージング法STORMおよび近赤外蛍光色素HMSiRを用いた１分子イメージング法の原理" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takakura-Nature-Biotechnology-17.8.9-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takakura-Nature-Biotechnology-17.8.9-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　近年，自発的に明滅することで特殊な条件を必要とせず1分子イメージング法を実施できる機能をもつ近赤外蛍光色素HMSiR（hydroxymethyl Si-rhodamine）が報告され，生細胞へ容易に適用が可能であることが示された<a href="#R4"><sup>4)</sup></a>．HMSiRはプロトンに感受性の置換基をもち，蛍光を発する開環体と蛍光を発しない閉環体の酸塩基平衡状態にある．生理的な条件において平衡は閉環体にかたよっており，実測値として全体の約1％しか開環体の構造をとっていない．ミクロな視点で考えると，熱的な平衡状態にあるためどのHMSiRが開環体の構造をとるかは完全にランダムであり，連続的に観察すれば開環体をとるHMSiRはつねに入れ替わっていると考えられる．この状態は，さきに説明した1分子イメージング法による測定にそのまま必要な作業であり，実際に，顕微鏡下でカメラをまわしているだけでHMSiRの1分子イメージング法が実施され（<a href="#F1">図1d</a>），そののち，データ処理により超解像画像が取得できる．<br/><br/><h2>1．HIDEプローブのコンセプト</h2><br/>　この研究においては，とくにオルガネラを高密度に標識することにより明瞭な構造を描出すること，また，長時間の測定を可能とすることをめざした．この場合，HMSiRの約1％の開環率でも回折限界の距離にあるシグナルの重なりを回避できないことが予想された．この高密度な標識法と開環率の問題を一気に解決する方法として，脂質分子を用いた標識法を用いた．脂質分子は細胞膜を構成しており，タンパク質よりも100倍以上の密度で存在する．脂質分子をタグ分子として用いることにより，タンパク質をタグ分子として用いた方法よりも高密度で標識できるはずである．また，HMSiRは開環体において正の電荷をもつため，水溶液の高極性環境の平衡状態においては開環体が安定化されると考えられた．逆に，細胞膜の脂溶性環境においては閉環体に平衡がかたより開環率は低下すると推測した．実際に，有機溶媒における吸光スペクトルの測定から，HMSiRは低極性環境においては閉環体の割合が上昇することが確認された．さらに，これまでのタグタンパク質を用いた標識法および脂質をタグ分子として用いた標識法において光退色にどのような違いがあるかモンテカルロシミュレーションにより解析したところ，長時間にわたる測定が可能であることが示唆された．そこで，このコンセプトをもつプローブをHIDE（high-density environment-sensitive）プローブと名づけた．この名称は，低極性環境においてHMSiRが蛍光を発しない状態に“hide”されているという意味もかけている．<br/><br/><h2>2．<em>in vitro</em>における検討</h2><br/>　<em>in vitro</em>においてHMSiRを用いた1分子イメージング法を実施した．STORMによるイメージング法においては大量の画像から1枚の超解像画像を再構築するため時間分解能が低い場合が多い．時間分解能が低い条件において生細胞の超解像イメージング法を実施すると，被写体がぶれて空間分解能の低下につながったり速い変化がとらえられなかったりする．そこで，顕微鏡の検出器として汎用されているEMCCDカメラではなくscientific CMOSカメラを用いた．このカメラの特徴はEDCCDカメラよりも高速に撮像できることであり，ピクセル数をそろえた場合には約7倍も速い．ピクセルごとにノイズが発生することが欠点であるが，すでに筆者らの研究グループは，このノイズをキャンセルするアルゴリズムを開発しこの問題を解決していた<a href="#R5"><sup>5)</sup></a>．<em>in vitro</em>における条件の検討においては1フレームあたり2.5ミリ秒（1秒間に400枚）で撮像し，2秒間800枚の画像から1枚の超解像画像を再構築した．<br/>　用いた顕微鏡システムにおいてHMSiRを評価するため，また，HIDEプローブのコンセプトを確認するため，タンパク質を介してHMSiRをガラスディッシュに固定した試料，および，HMSiRを組み込んだリポソームを固定した試料を用意し，1分子イメージング法を実施し励起光のレーザーにより光退色するまでの時間を比較した．この2つの条件は，それぞれ，タグタンパク質を用いた標識法と脂質をタグ分子として用いた標識法とを比較することにつながる．その結果，タンパク質を介して固定した場合に比べ，リポソームにおいては6倍以上も光退色の時間が長くなった．また，開環率の低下も確認された．このように，HIDEプローブが光退色に有効であることが実証された．<br/><br/><h2>3．HIDEプローブを用いた小胞体の長時間にわたる超解像イメージング法</h2><br/>　<em>in vitro</em>における検討により撮像時間を長くできることが示唆されたので，生細胞においてオルガネラに対し超解像イメージング法を実施した．すでに筆者らの研究グループは，セラミド骨格をタグ分子として用いたゴルジ体の標識法を開発していた<a href="#R6"><sup>6)</sup></a>．このタグ分子はクリックケミストリー法 <a href="#R7"><sup>7)</sup></a> の反応部位をもち，ゴルジ体を高密度で蛍光標識することができる．このタグ分子を小胞体に集積させ，クリックケミストリー法により生細胞においてHMSiRを小胞体膜に局在させた（<a href="#F2">図2</a>）．超解像イメージング法を実施した結果，きわめて長時間にわたりHMSiRのシグナルが観測され，25分間の超解像イメージングに成功した．筆者らの知るかぎり，時間分解能2秒，空間分解能50 nm以下という高い時空間分解能の超解像イメージング法において，この25分間はもっとも長いものであった．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　オルガネラの標識化の方法</strong><br/>セラミド分子にもとづくタグ分子を小胞体に集積させ，そののち，色素分子を導入する．それぞれの分子はクリックケミストリー法の反応部位をもち，細胞において結合させることができる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takakura-Nature-Biotechnology-17.8.9-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　オルガネラの標識化の方法" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takakura-Nature-Biotechnology-17.8.9-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takakura-Nature-Biotechnology-17.8.9-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　小胞体タンパク質であるSec61βにHaloタグタンパク質を融合させてHMSiRにより標識したところ，10秒ほどでほとんど光退色した．HIDEプローブを用いて得られた超解像イメージング像をよりくわしく観察すると，シート状の構造の小胞体がいちどチューブ状に変化し，またシート状にもどるという現象がみられた．シート状の構造およびチューブ状の構造の半値幅はそれぞれ約150 nmおよび約50 nmであり，回折限界以下のスケールの変化であった．またほかにも，チューブ状の小胞体から直径140 nmほどのリング状の小胞体が形成されるようすや，小胞体が融合と分裂をくり返すようすが観察された．このような現象は高い時空間分解能をもって生細胞を長時間にわたり撮像しなければ観察はむずかしい．定量的な解析をしたところ，HIDEプローブはタグタンパク質を用いて標識した場合に比べ，標識の密度が30倍以上も高く，開環率が50倍ほど低いことがわかった．このように，HMSiRが小胞体膜の低極性環境に高密度で局在し長時間にわたる超解像イメージング法が実施されたことが実証された．<br/><br/><h2>4．ほかのオルガネラへのHIDEプローブの拡張</h2><br/>　HIDEプローブのコンセプトをほかのオルガネラに拡張した．そのためには，おのおののオルガネラに局在するタグ分子を開発する必要があった．そこで，オルガネラに局在する色素分子に着目し，ミトコンドリアに局在する色素分子としてローダミンB，細胞膜に局在する色素分子としてDiIを利用した．それぞれの色素分子にクリックケミストリー法の反応部位を結合させタグ分子とした．その結果，HMSiRをそれぞれのオルガネラに局在させることに成功した．超解像イメージング法を実施したところ，タグタンパク質を用いた結果と比べ，非常に長い時間にわたりイメージング法が実施された．このように，HIDEプローブはさまざまなオルガネラに適用が可能であることが示された．<br/><br/><h2>5．マルチカラーイメージング法および3次元イメージング法への応用</h2><br/>　HIDEプローブを用いたマルチカラー超解像イメージング法について検討した．現在まで，HMSiRと同じ性質をもつ異なる波長特性の色素は開発されていない．そこで，長時間の撮像はできないが1分子イメージング法による超解像イメージングの可能な蛍光タンパク質mEOS3.2 <a href="#R8"><sup>8)</sup></a> とHMSiRを用いたマルチカラーによる超解像イメージング法を実施した．mEOS3.2は紫外線の照射により緑色から赤色に蛍光波長の変化する蛍光タンパク質で，照射強度を調節することにより1分子ずつ赤色の蛍光タンパク質のシグナルを検出できる．mEOS3.2の観測に必要な励起波長および蛍光波長はHMSiRとは異なるため，適切なフィルターを用いることによりmEOS3.2とHMSiRをクロストークなく同時に観測することが可能である．実際に，mEOS3.2とHMSiRを用いて，細胞において複数の標的分子のイメージング法に成功した．<br/>　自作の3次元超解像顕微鏡を用いて，細胞において立体的な構造をイメージングできるかどうか検討した．これまで，観察された蛍光輝点はすべて平面に投影して超解像画像を再構成していたため，<em>z</em>軸の方向の情報はなかった．3次元の超解像イメージング法の場合にはおのおのの<em>z</em>平面層に対し十分な密度でシグナルを得なければ明瞭な立体構造を描出することができず，高密度で標識することがとくに重要になる．これまでの検討により，HIDEプローブはタグタンパク質を用いた場合より最大で30倍以上もの高密度での標識化が可能なことが示されており，この条件をクリアしていると考えられた．セラミド分子を用いて小胞体の3次元イメージング法を実施したところ，小胞体の立体的なネットワークを明瞭にイメージングすることに成功した．超解像画像を再構築する際により多くの蛍光輝点の位置情報が必要となるため，時間分解能は10秒と2次元のときより低くなったが，15分間という長時間にわたる3次元超解像イメージングが達成された．得られた超解像イメージング像をくわしくみると，2次元の場合にはみのがしてしまうような異なる<em>z</em>平面層の小胞体のネットワークが明瞭に観察され，また，3次元的に伸長する小胞体の変化をとらえることにも成功した．<br/><br/><h2>おわりに</h2><br/>　超解像イメージング法は固定した試料に対し実施されることが多かったが，生細胞においてイメージングできるようになれば解像度が悪くて観察のむずかしかった微小なスケールの挙動や変化をとらえることができ，生命科学に対しこれまで以上に大きく貢献することが考えられる．この研究においては，近赤外蛍光色素HMSiRをその明滅の特性を制御しつつ高密度で標識することにより，高い時空間分解能をもって非常に長い時間にわたり超解像イメージング法を実施できることが示された．そして，実際に回折限界以下のスケールで起こる細胞における現象をとらえることにも成功した．しかし，まだ解決しなければならない課題もある．HMSiRは酸塩基平衡にあるため，その平衡状態に影響をおよぼす酸性オルガネラには不適である．また，同じ機能をもつ異なる波長特性の色素はなく，HIDEプローブによる複数の生体分子に対するマルチカラーイメージング法は実施できない．今回の方法は原理的に細胞膜のような低極性環境にかぎられ，特定のタンパク質を長時間にわたりイメージングする手法はまだ存在しない．このように，HMSiRやHIDEプローブは万能ではなく，さらなる研究が必要である．現在，この分野は化学プローブがボトルネックになっている部分がある．これからは，ハード面だけではなく，この研究のようにプローブの化学的な性質にもとづくアプローチにより達成される課題も多いと考えられる．今後，化学者がますます参入することによりすぐれた研究が展開され，複雑でおもしろい生命現象を観察できる高度な超解像イメージング法が開発されることを期待したい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hell, S. W.</span>: <span class="ti">Far-field optical nanoscopy.</span> <span class='so'>Science, 316, 1153-1158 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17525330" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Huang, B., Babcock, H. & Zhuang, X.</span>: <span class="ti">Breaking the diffraction barrier: super-resolution imaging of cells.</span> <span class='so'>Cell, 143, 1047-1058 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21168201" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Toomre, D. & Bewersdorf, J.</span>: <span class="ti">A new wave of cellular imaging.</span> <span class='so'>Annu. Rev. Cell Dev. Biol., 26, 285-314 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20929313" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Uno, S., Kamiya, M., Yoshihara, T. et al.</span>: <span class="ti">A spontaneously blinking fluorophore based on intramolecular spirocyclization for live-cell super-resolution imaging.</span> <span class='so'>Nat. Chem., 6, 681-689 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25054937" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Huang, F., Hartwich, T. M., Rivera-Molina, F. E. et al.</span>: <span class="ti">Video-rate nanoscopy using sCMOS camera-specific single-molecule localization algorithms.</span> <span class='so'>Nat. Methods, 10, 653-658 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23708387" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Erdmann, R. S., Takakura, H., Thompson, A. D. et al.</span>: <span class="ti">Super-resolution imaging of the Golgi in live cells with a bioorthogonal ceramide probe.</span> <span class='so'>Angew. Chem. Int. Ed., 53, 10242-10246 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25081303" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Devaraj, N. K., Hilderbrand, S., Upadhyay, R. et al.</span>: <span class="ti">Bioorthogonal turn-on probes for imaging small molecules inside living cells.</span> <span class='so'>Angew. Chem. Int. Ed., 49, 2869-2872 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20306505" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Zhang, M., Chang, H., Zhang, Y. et al.</span>: <span class="ti">Rational design of true monomeric and bright photoactivatable fluorescent proteins.</span> <span class='so'>Nat. Methods, 9, 727-729 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22581370" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=化合物" target="_blank">化合物データベース</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=特許" target="_blank">特許</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">高倉 栄男（Hideo Takakura）</span><br>略歴：2010年 東京大学大学院薬学系研究科博士課程 修了，同年 東京大学大学院理学系研究科 特任研究員，2012年 東京大学大学院医学系研究科 特任研究員，2013年 米国Yale大学School of Medicine博士研究員，2015年 北海道大学大学院薬学研究院 助教を経て，2017年より同 講師．<br>研究テーマ：分子イメージング法の開発．<br></div><br>? 2017 高倉 栄男 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

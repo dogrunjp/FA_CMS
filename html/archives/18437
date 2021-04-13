@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 脊椎動物の神経堤細胞と頭部プラコードは進化的に共通の起源をもつ : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>脊椎動物の神経堤細胞と頭部プラコードは進化的に共通の起源をもつ</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>堀江良子・堀江健生</strong><br>（米国Princeton大学Lewis-Sigler Institute for Integrative Genomics）<br>email：<a href="mailto:horie@shimoda.tsukuba.ac.jp">堀江健生</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2018.073">10.7875/first.author.2018.073</a><br><div class="reference"><br><span class="ti">Shared evolutionary origin of vertebrate neural crest and cranial placodes.</span><br><span class="au">Ryoko Horie, Alex Hazbun, Kai Chen, Chen Cao, Michael Levine, Takeo Horie</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/30069052" target="_blank"><em>Nature</em>, <strong>560</strong>, 228-232 (2018)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　プラコードおよび神経堤細胞は脊椎動物を特徴づける組織であるが，脊椎動物の進化の過程においてこれらがどのように獲得されたのかは不明であった．この研究において，筆者らは，原始的な脊索動物であるホヤの神経板の境界領域について，細胞系譜の追跡，遺伝子の機能の阻害，1細胞トランスクリプトーム解析などの手法を組み合わせ包括的に解析した．その結果，ホヤの神経板の境界領域は<em>Foxc</em>遺伝子，<em>Six1/2</em>遺伝子，<em>Msxb</em>遺伝子により区画化されており，この区画化のパターンはホヤと脊椎動物とのあいだで保存されていることが明らかにされた．また，おのおのの遺伝子により区画化された領域から，頭部プラコードや神経堤細胞の起源的な性質を備えた感覚ニューロンがそれぞれ生じることが明らかにされた．神経板の境界領域においてこれらの遺伝子制御ネットワークを乱すと，おのおのの感覚ニューロンは互いに運命を変換した．とくに，神経板の境界領域の後方から発生し神経堤細胞との類似性が示されているBTNに着目したところ，BTNは神経板の境界領域のもっとも前方に位置するPSCに運命が変換されることが明らかにされた．また，BTNのPSCへの運命の変換は1細胞トランスクリプトーム解析により確かめられた．これらの結果から，神経板の境界領域の区画化は脊椎動物よりまえに起こっていること，頭蓋プラコードと神経堤細胞は共通の進化的な起源をもつことが示唆された．<br/><br/><h2>はじめに</h2><br/>　脊椎動物の大きな特徴のひとつは，発達した脳，眼，鼻，耳などの感覚器を備えた頭部の構造である．脊椎動物の頭部を構成する脳や脊髄などの中枢神経系は神経板から形成され，頭部の感覚器や感覚器を構成する感覚ニューロンは頭部プラコードおよび神経堤細胞から形成される<a href="#R1"><sup>1-4)</sup></a>．発生の過程において，神経板と表皮の前方の境界領域には頭部プラコードが，神経板と表皮の側方の境界領域には神経堤細胞が形成される．頭部プラコードおよび神経堤細胞は脊椎動物に特有の構造であると考えられていたが，最近，脊椎動物にもっとも近縁な無脊椎動物であるホヤにおいて，頭部プラコードおよび神経提細胞の起源的な性質を備えた細胞の存在が報告された<a href="#R5"><sup>5-7)</sup></a>．しかしながら，脊椎動物の進化の過程において，頭部プラコードや神経堤細胞がどのように獲得されたのか，たとえば，頭部プラコードと神経堤細胞は進化的に共通の起源をもつのか，それとも，別々の起源をもつのかは不明であった<a href="#R3"><sup>3)</sup></a>．この研究において，筆者らは，ホヤを用いて頭部プラコードおよび神経提細胞の発生プログラムについて詳細に解析することにより，脊椎動物の頭部プラコードおよび神経堤細胞の進化的な起源について考察した．<br/><br/><h2>1．神経板の境界領域における遺伝子の区画化のパターンはホヤと脊椎動物とのあいだで保存されている</h2><br/>　ホヤには神経板の境界領域から生じる4種類の感覚ニューロンが存在し，前方から，PSC（palp sensory cell），aATEN（anterior apical trunk epidermal neuron），pATEN（posterior apical trunk epidermal neuron），BTN（bipolar tail neuron）と名づけられている<a href="#R5"><sup>5-8)</sup></a>．このうち，PSCおよびaATENは頭部プラコードの原始的な性質をもつことが報告されている<a href="#R5"><sup>5,6)</sup></a>．とくに，aATENは鼻プラコードに由来する細胞にみられるような化学受容性の細胞としての性質と，下垂体プラコードに由来する細胞にみられるような性腺刺激ホルモン放出ホルモンを放出する神経内分泌性の細胞としての性質の両方を備えることが報告されている<a href="#R5"><sup>5)</sup></a>．もっとも後方に位置するBTNは神経堤細胞に由来する後根神経節と性質が似ていることが報告されており，神経堤細胞との相似性が指摘されている<a href="#R7"><sup>7)</sup></a>．<br/>　DiIを用いた細胞系譜の追跡およびレポーター遺伝子の発現を詳細に観察することにより，神経板の境界領域から生じるおのおのの感覚ニューロンの細胞系譜が明らかにされた．ホヤの110細胞期において，PSCはa8.20割球およびa8.18割球から，aATENはa8.26割球から，pATENはb8.20割球から，BTNはb8.18割球から，発生した．発生の過程において，おのおのの感覚ニューロンはそれぞれ異なる割球に由来することが明らかにされた．以前のホヤの初期胚の遺伝子制御ネットワークの詳細な解析から，<em>Dmrt.a</em>遺伝子，<em>Foxc</em>遺伝子，<em>Six1/2</em>遺伝子，<em>Pax3/7</em>遺伝子，<em>Msxb</em>遺伝子などの転写因子をコードする遺伝子は神経板の境界領域において発現することが明らかにされている<a href="#R9"><sup>9)</sup></a>．<em>Dmrt.a</em>遺伝子，<em>Foxc</em>遺伝子，<em>Six1/2</em>遺伝子は神経板の境界領域の前方のプラコード領域において発現する一方，<em>Msxb</em>遺伝子は神経板の境界領域の後方において発現し，<em>Pax3/7</em>遺伝子は神経板の境界領域の前方と後方にまたがり発現する．<em>Dmrt.a</em>遺伝子，<em>Foxc</em>遺伝子，<em>Six1/2</em>遺伝子，<em>Pax3/7</em>遺伝子，<em>Msxb</em>遺伝子による神経板の境界領域の区画化のパターンをホヤと脊椎動物とで比較したところ，非常によく保存されていた（<a href="#F1">図1</a>）．また，これらの転写因子をコードする遺伝子の前後軸にそった発現のパターンは，頭部プラコードに由来する感覚ニューロン，および，神経堤細胞に由来する感覚ニューロンが生じる位置と対応した．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　ホヤおよび脊椎動物の神経板の境界領域における遺伝子の発現パターン</strong><br/>（a）ホヤ．<br/>（b）脊椎動物．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Horie-Nature-18.8.1-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　ホヤおよび脊椎動物の神経板の境界領域における遺伝子の発現パターン" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Horie-Nature-18.8.1-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Horie-Nature-18.8.1-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　神経板の境界領域におけるおのおのの転写因子をコードする遺伝子の発現パターンが，互いの発現パターンに影響するのかどうか調べた．<em>Dmrt.a</em>遺伝子の機能を阻害した胚において<em>Foxc</em>遺伝子，<em>Six1/2</em>遺伝子，<em>Eya</em>遺伝子の発現が消失したことから，<em>Dmrt.a</em>遺伝子は<em>Foxc</em>遺伝子および<em>Six1/2</em>遺伝子の発現を活性化することが明らかにされた．<em>Msxb</em>遺伝子の機能を阻害した胚においては<em>Six1/2</em>遺伝子や<em>Eya</em>遺伝子といったプラコード遺伝子の発現が後方に広がった．つまり，<em>Msxb</em>遺伝子はプラコード遺伝子の発現を抑制することにより，プラコードが神経板の境界領域の後方に形成されないようにすることが示唆された．また，この結果は，<em>Six1/2</em>遺伝子のプラコード領域の最小エンハンサーに多数のMsxb結合配列が存在することと一致した．また，<em>Dmrt.a</em>遺伝子の機能を阻害した胚において<em>Msxb</em>遺伝子の発現が前方にシフトしたことから，<em>Dmrt.a</em>遺伝子と<em>Msxb</em>遺伝子は互いに発現を抑制しあうことにより神経板の境界領域の前方と後方の境界を確立する可能性が示唆された．<br/><br/><h2>2．神経板の境界領域の前方の領域は互いに似た発生プログラムを利用する</h2><br/>　ホヤと脊椎動物の神経板の境界領域の運命図においてもっとも異なるのは，ホヤにおいては神経板の境界領域の前方は異なる2つの領域に分けられることである．つまり，PSCが生じる領域には<em>Foxc</em>遺伝子が，aATENが生じる領域には<em>Six1/2</em>遺伝子が発現する．では，プラコードに由来する感覚ニューロンであるPSCおよびaATENは共通の発生プログラムを利用するのだろうか？　<em>Foxc</em>遺伝子の機能を阻害したところ，PSCは消失し，本来はPSCが生じる領域において<em>Six1/2</em>遺伝子の異所的な発現がみられ，そこにaATENが異所的に生じた．この結果から，<em>Foxc</em>遺伝子はPSCにおいてはたらく遺伝子を活性化するとともに，aATENにおいてはたらく遺伝子の発現を抑制することにより，PSCとしてのアイデンティティを確立することが示唆された．さらに，PSCとaATENは互いに運命の変換が可能であったことから，神経板の境界領域の前方は互いに似た発生プログラムを利用する可能性が示唆された．<br/><br/><h2>3．神経板の境界領域から生じる感覚ニューロンは互いに運命の変換の可能なよく似た性質を備える</h2><br/>　BTNは脊椎動物において神経堤細胞に由来する感覚ニューロンである後根神経節との関連性が指摘されている<a href="#R7"><sup>7)</sup></a>．このことから，ホヤの神経板の境界領域の後方は神経堤細胞の起源的な性質を備えることが示唆され，さらに，脊椎動物よりまえの神経板の境界領域は，脊椎動物のプラコードと共通の起源である可能性が示唆された．このことを検証するため，BTNが神経板の境界領域から生じるほかの細胞に運命が変換することが可能かどうか調べた．<em>Pax3/7</em>遺伝子あるいは<em>Msxb</em>遺伝子の発現制御領域を用い，<em>Foxc</em>遺伝子を神経板の境界領域の後方において異所的に発現させたところ，BTNはPSCに運命を変換したが，その際，いくつかの表現型が観察された．すなわち，PSCのマーカー遺伝子のみを発現する個体もあれば，PSCとBTNの両方のマーカー遺伝子を発現する個体もみられた．BTNがPSCに運命を変換したことは，神経板の境界領域の区画化については異なるが，似ている感覚ニューロンの起源になるという主張を裏づけるキーポイントとなる現象であった．<br/>　ホヤの中期尾芽胚は細胞数が約1500個と少なく，細胞系譜も詳細に解析されているため，胚をまるごと用いた1細胞トランスクリプトーム解析により細胞の由来を解析するのによいモデルとなる．<em>Foxc</em>遺伝子を神経板の境界領域の後方において異所的に発現させた胚をバラバラにし，マイクロ流体系を用いた1細胞トランスクリプトーム解析により，BTNのPSCへの運命の変換について詳細に解析した．その結果，tSNE（<em>t</em>-distributed stochastic neighbor embedding，<em>t</em>分布型確率的近傍埋め込み）プロットにより，ホヤの中期尾芽胚には脊索，内胚葉，尾部筋肉，内胚葉，表皮，中枢神経系など，約20種類の細胞クラスターが存在することが示された．合計で45個のBTNが同定され，そのうち約半数の21個は運命を変換せずに本来のBTNの発現を維持していた．10個のBTNは完全にPSCへ運命を変換しており，14個はBTNとPSCの両方のマーカー遺伝子を発現するハイブリッドな表現型を示した．この結果は，レポーター遺伝子を用いた実験の結果と一致した．1細胞トランスクリプトーム解析によりBTNがPSCに運命を変換することが強く示され，このことから，神経板の境界領域から生じるおのおのの感覚ニューロンは似た発生プログラムを使用することが示唆された．<br/><br/><h2>おわりに</h2><br/>　尾索動物のホヤにおいて，神経板の境界領域の前後軸にそった区画化により，互いに似ているが異なる感覚ニューロンが生じることが示された．脊椎動物のプラコードあるいは神経堤細胞から生じる体性感覚ニューロンは互いに顕著な類似性がみられる<a href="#R10"><sup>10)</sup></a>．この研究において，筆者らは，神経板の境界領域の区画化は脊椎動物よりまえに存在し，ホヤと脊椎動物の共通祖先の神経板の境界領域は，頭部プラコードおよび神経堤細胞の共通の進化的な起源であるというモデルを提唱する（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　プラコードおよび神経堤細胞の進化のシナリオ</strong><br/>表皮と神経板の境界に感覚ニューロンの生じる神経板の境界領域が獲得される．ホヤと脊椎動物の共通祖先の神経板の境界領域は，脊椎動物のプラコードおよび神経堤細胞の共通の進化的な起源であるというモデルを提唱する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Horie-Nature-18.8.1-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　プラコードおよび神経堤細胞の進化のシナリオ" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Horie-Nature-18.8.1-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Horie-Nature-18.8.1-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Northcutt, R. G. & Gans, C.</span>: <span class="ti">The genesis of neural crest and epidermal placodes: a reinterpretation of vertebrate origins.</span> <span class='so'>Q. Rev. Biol., 58, 1-28 (1983)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/6346380" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Baker, C. V. & Bronner-Fraser, M.</span>: <span class="ti">The origins of the neural crest. Part II: an evolutionary perspective.</span> <span class='so'>Mech. Dev., 69, 13-29 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9486528" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Schlosser, G.</span>: <span class="ti">Do vertebrate neural crest and cranial placodes have a common evolutionary origin?</span> <span class='so'>Bioessays, 30, 659-672 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18536035" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Schlosser, G., Patthey, C. & Shimeld, S. M.</span>: <span class="ti">The evolutionary history of vertebrate cranial placodes II. Evolution of ectodermal patterning.</span> <span class='so'>Dev. Biol., 389, 98-119 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24491817" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Manni, L., Lane, N. J., Joly, J. S. et al.</span>: <span class="ti">Neurogenic and non-neurogenic placodes in ascidians.</span> <span class='so'>J. Exp. Zool. B Mol. Dev. Evol., 302, 483-504 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15384166" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Abitua, P. B., Gainous, T. B., Kaczmarczyk, A. N. et al.</span>: <span class="ti">The pre-vertebrate origins of neurogenic placodes.</span> <span class='so'>Nature, 524, 462-465 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26258298" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Stolfi, A., Ryan, K., Meinertzhagen, I. A. et al.</span>: <span class="ti">Migratory neuronal progenitors arise from the neural plate borders in tunicates.</span> <span class='so'>Nature, 527, 371-374 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26524532" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Imai, J. H. & Meinerzhagen, I. A.</span>: <span class="ti">Neurons of the ascidian larval nervous system in <em>Ciona intestinalis</em>: II. peripheral nervous system.</span> <span class='so'>J. Comp. Neurol., 501, 335-352 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17245709" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Imai, K. S., Levine, M., Satoh, N. et al.</span>: <span class="ti">Regulatory blueprint for a chordate embryo.</span> <span class='so'>Science, 312, 1183-1187 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16728634" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Schlosser, G.</span>: <span class="ti">Induction and specification of cranial placode.</span> <span class='so'>Dev. Biol., 294, 303-351 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16677629" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=GEO" target="_blank">GEO</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=転写因子" target="_blank">転写因子データベース</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=RNA-seq" target="_blank">RNA-seq</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">堀江 良子（Ryoko Horie）</span><br>略歴：2015年より米国Princeton大学Research Specialist．<br>研究テーマ：脊椎動物への進化の背景にある遺伝子プログラム．<br>関心事：家事と仕事の時短．<br><br><strong>堀江 健生（Takeo Horie）</strong><br>筑波大学生命環境系 助教．<br>研究室URL：<a href="http://accafe.jp/Horie_Takeo/index.php" target="_blank">http://accafe.jp/Horie_Takeo/index.php</a><br></div><br>© 2018 堀江良子・堀江健生 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

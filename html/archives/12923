@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 抗CD47抗体はアポトーシスを起こした細胞の除去を亢進することにより動脈硬化を抑制する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>抗CD47抗体はアポトーシスを起こした細胞の除去を亢進することにより動脈硬化を抑制する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>児島陽子・Nicholas J. Leeper</strong><br>（米国Stanford大学School of Medicine，Division of Vascular Surgery）<br>email：<a href="mailto:ykojima@stanford.edu">児島陽子</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.086">10.7875/first.author.2016.086</a><br><div class="reference"><br><span class="ti">CD47-blocking antibodies restore phagocytosis and prevent atherosclerosis.</span><br><span class="au">Yoko Kojima, Jens-Peter Volkmer, Kelly McKenna, Mete Civelek, Aldons Jake Lusis, Clint L. Miller, Daniel Direnzo, Vivek Nanda, Jianqin Ye, Andrew J. Connolly, Eric E. Schadt, Thomas Quertermous, Paola Betancur, Lars Maegdefessel, Ljubica Perisic Matic, Ulf Hedin, Irving L. Weissman, Nicholas J. Leeper</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27437576" target="_blank"><em>Nature</em>, <strong>536</strong>, 86-90 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　アポトーシスを起こした細胞がマクロファージによる貪食により除去されるしくみをエフェロサイトーシスという．動脈硬化を含む種々の疾患においてエフェロサイトーシスの低下が報告されている．今回，筆者らは，ヒトおよびマウスの動脈硬化の病変においてはエフェロサイトーシスを抑制する役割をもつ<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現が亢進しており，これにより，アポトーシスを起こした細胞が蓄積し動脈硬化が促進されることを明らかにした．<a href="#" class="anno" data-query="TNF-alpha" data-uniprot="P01375">TNFα</a>は<a href="#" class="anno" data-query="NF-kappaB" data-uniprot="">NF-κB</a>を介して血管平滑筋において<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現を上昇させ，<a href="#" class="anno" data-query="TNF-alpha" data-uniprot="P01375">TNFα</a>により刺激された細胞はエフェロサイトーシスに対し抵抗性を示した．マウスにおいて，抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体の投与によりエフェロサイトーシスは回復し，動脈硬化の進展および不安定化が抑制された．現在，悪性疾患の患者に対する抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体による治療の臨床試験が行われている．<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>は動脈硬化を含む炎症性疾患の新たな治療法において有効な標的になると考えられる．<br/><br/><h2>はじめに</h2><br/>　正常な組織においてアポトーシスを起こした細胞は通常はほとんど検出されないが，これは，アポトーシスを起こした細胞がエフェロサイトーシス（efferocytosis）とよばれる過程によりマクロファージなどに効率よく貪食され迅速に除去されるためである<a href="#R1"><sup>1)</sup></a>．エフェロサイトーシスには，アポトーシスを起こした細胞に存在するリガンド，マクロファージに発現する受容体，それらのあいだを結ぶブリッジタンパク質など，多くの分子が関与する（<a href="#F1">図1a</a>）．アポトーシスを起こした細胞は細胞の表面にホスファチジルセリンなどのeat meリガンドを提示し，マクロファージはこれを認識してエフェロサイトーシスを起こす．一方，健常な細胞には<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>が発現しており，マクロファージに<a href="#" class="anno" data-query="SIRP-alpha" data-uniprot="P78324">SIRPα</a>を介しdon’t eat meシグナルが伝達されることによりマクロファージによる貪食に抵抗する．アポトーシスを起こした細胞や老化した赤血球においては<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現が低下しており，マクロファージなどにより貪食されることが報告されている<a href="#R2"><sup>2,3)</sup></a>．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　CD47によるエフェロサイトーシスの制御</strong><br/>（a）正常な細胞にはCD47が発現しており，マクロファージのSIRPαに認識されSHP1のリン酸化を介してdon’t eat meシグナルが伝達される．アポトーシスを起こした細胞においてはCD47の発現が低下するとともに，eat meリガンドが発現しマクロファージに発現する受容体により認識されて，貪食により除去される．<br/>（b）動脈硬化プラークにおいてはTNFαによる刺激によりCD47の発現が上昇しておりエフェロサイトーシスが低下している．アポトーシスを起こした細胞は2次的なネクローシスを起こしさらなる炎症反応をひき起こす．<br/>P：リン酸化．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kojima-Nature-16.8.4-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　CD47によるエフェロサイトーシスの制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kojima-Nature-16.8.4-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kojima-Nature-16.8.4-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　動脈硬化は心筋梗塞や脳梗塞の基礎となる病変である．動脈硬化においては血管に脂質，細胞，細胞外基質などが蓄積し血管内腔の狭窄が起こる．また，動脈硬化プラークが破綻すると，続発した血栓が血管内腔を閉塞して血液の供給を途絶させ心筋梗塞などをひき起こす．進行した動脈硬化の病変においてはアポトーシスを起こした細胞が蓄積し，これがさらなる炎症反応をひき起こし，病変の進行，壊死巣の拡大，動脈硬化プラークの不安定化に寄与すると考えられる．動脈硬化の病変におけるアポトーシスを起こした細胞の蓄積は，低酸素や酸化ストレスによるアポトーシスの増加とともに，エフェロサイトーシスの低下によると考えられる<a href="#R4"><sup>4)</sup></a>．なぜ，動脈硬化の病変においてエフェロサイトーシスが低下しているかにつきいくつかの原因があげられてはいるが，完全には解明されていない．また，近年，エフェロサイトーシスの低下は悪性腫瘍や自己免疫疾患などの病因になることがわかってきた．多くの悪性腫瘍の細胞において<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現が亢進しており，免疫機構による監視からのがれている<a href="#R5"><sup>5)</sup></a>．今回，筆者らは，<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の動脈硬化の病変における役割および治療への応用について検討した．<br/><br/><h2>1．<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現はヒトおよびマウスの動脈硬化プラークにおいて亢進する</h2><br/>　ヒトの頚動脈に対するマイクロアレイ法による遺伝子発現の解析において，<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現は動脈硬化の病変において健常な動脈と比べ有意に上昇していた．さらに，脳梗塞などの症状をもつ患者の頚動脈においては症状のない患者の病変と比べ，<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現は上昇していた．健常な動脈においては免疫染色により血管内膜および血管中膜に<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の弱い発現がみられ，動脈硬化の進展とともに<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現は亢進した．進行した動脈硬化の病変においては壊死性コアとその周辺に<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>のとくに強い発現がみられた．同様に，<a href="#" class="anno" data-query="apoE" data-uniprot="P08226">apoE</a>ノックアウトマウスに高コレステロール食を負荷し動脈硬化を起こさせると，大動脈における<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現は経時的に上昇の傾向を示した．動脈硬化の病変における<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現の亢進は，動脈硬化巣におけるエフェロサイトーシスの低下の原因のひとつであると考えられた．<br/><br/><h2>2．抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体は動脈硬化を抑制する</h2><br/>　<a href="#" class="anno" data-query="apoE" data-uniprot="P08226">apoE</a>ノックアウトマウスにアンジオテンシンIIの投与および高コレステロール食の負荷を開始するとともに，<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>を阻害する抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体を4週間にわたり投与した．抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体を投与したマウスは対照となる抗体を投与したマウスと比べ，動脈硬化が著明に抑制された．マクロファージあるいはリンパ球の侵入および血管平滑筋の増殖に差はみられなかった．活性化カスパーゼ3染色やTUNEL染色によりアポトーシスを検出したところ，抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体を投与したマウスにおいてアポトーシスは有意に減少していた．<em>in vitro</em>における実験においては，抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体にアポトーシスを直接的に抑制する作用はみられず，マクロファージおよびアポトーシスを起こした血管平滑筋細胞においては，抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体はアポトーシスを起こした細胞のマクロファージによる貪食を有意に促進した．抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体を投与したマウスにおいてみられたアポトーシスの減少はエフェロサイトーシスの亢進によるものと考え，これを<em>in vivo</em>において証明するため，アポトーシスおよびマクロファージの二重染色をしたところ，対照となるマウスにおいては活性化カスパーゼ3陽性を示す遊離のアポトーシス細胞が動脈硬化の病変に多くみられたのに対し，抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体を投与したマウスにおいてはアポトーシスを起こしたほとんどの細胞はマクロファージに貪食あるいはマクロファージと隣接していた．電子顕微鏡による観察においても，対照となるマウスにおいてはアポトーシスを起こした遊離の細胞が多くみられたが，抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体を投与したマウスにおいてはほとんどみられず，マクロファージがアポトーシス小体を大量に貪食しているようすが観察された．<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体を投与したマウスにおいては対照となるマウスと比べ，動脈硬化プラークにおける壊死性コアの大きさも抑制されていた．抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体によりdon’t eat meシグナルが抑制されることを証明するため，<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の受容体である<a href="#" class="anno" data-query="SIRP-alpha" data-uniprot="P78324">SIRPα</a>の下流に存在する<a href="#" class="anno" data-query="SHP1" data-uniprot="P29350">SHP1</a>のリン酸化を測定したところ，<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体を投与したマウスにおいては有意に抑制されていた．アポトーシスを起こした細胞が除去されないと2次的なネクローシスが起こり，さらなる炎症反応のカスケードがひき起こされ動脈硬化は悪化する．抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体はエフェロサイトーシスを亢進することにより動脈硬化の進展を抑制すると考えられた．<br/>　同様の作用は，<a href="#" class="anno" data-query="apoE" data-uniprot="P08226">apoE</a>ノックアウトマウスに12週間にわたり高コレステロール食を負荷した長期モデルにおいても認められ，頚動脈のタンデムな狭窄を用いた動脈硬化プラーク破綻モデル<a href="#R6"><sup>6)</sup></a> においては動脈硬化プラークにおける出血が抑制され，抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体は動脈硬化プラークの拡大とともにその不安定化も抑制することが示唆された．<br/>　抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体は体重，血糖値，血清脂質，インスリン値，肝臓および腎臓の機能には影響をおよぼさなかった．<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体を投与したマウスにおいては対照となるマウスと比べ，血中のヘモグロビン値の低下，網赤血球値の上昇，脾腫が認められた．これは，脾臓における<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体による赤血球の破壊の亢進によるものと考えられた．<br/>　<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>はマクロファージに発現する<a href="#" class="anno" data-query="SIRP-alpha" data-uniprot="P78324">SIRPα</a>のリガンドとしてdon’t eat meシグナルを伝達するほか，<a href="#" class="anno" data-query="integrin" data-uniprot="">インテグリン</a>や<a href="#" class="anno" data-query="VEGFR-2" data-uniprot="P35968">VEGF受容体2</a>などとも相互作用することが知られており，なかでも，<a href="#" class="anno" data-query="Thbs1" data-uniprot="P07996">トロンボスポンジン1</a>は動脈硬化の病変において重要な役割をはたす<a href="#R7"><sup>7)</sup></a>．<a href="#" class="anno" data-query="Thbs1" data-uniprot="P07996">トロンボスポンジン1</a>が<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>と結合すると内皮型<a href="#" class="anno" data-query="Nos2" data-uniprot="P29477">NO合成酵素</a>の活性化が抑制される．内皮型<a href="#" class="anno" data-query="Nos2" data-uniprot="P29477">NO合成酵素</a>により産生されるNOは，血管平滑筋の収縮の抑制による血圧の低下の作用や<a href="#" class="anno" data-query="proinflammatory cytokine" data-uniprot="">炎症性サイトカイン</a>の分泌の抑制の作用など動脈硬化の抑制にはたらく多くの作用をもつ．抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体による動脈硬化の抑制の作用は，<a href="#" class="anno" data-query="Thbs1" data-uniprot="P07996">トロンボスポンジン1</a>による内皮型<a href="#" class="anno" data-query="Nos2" data-uniprot="P29477">NO合成酵素</a>の抑制を阻害することによるものかどうかを確かめるため，マウスの血圧および肺におけるNOの産生量を測定したが対象となるマウスとのあいだに差はみられなかった．<em>in vitro</em>においても，抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体の投与は内皮型<a href="#" class="anno" data-query="Nos2" data-uniprot="P29477">NO合成酵素</a>のリン酸化および<a href="#" class="anno" data-query="Thbs1" data-uniprot="P07996">トロンボスポンジン1</a>のシグナルには影響をおよぼさなかった．<br/><br/><h2>3．<a href="#" class="anno" data-query="TNF-alpha" data-uniprot="P01375">TNFα</a>は<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現を上昇させる</h2><br/>　動脈硬化プラークにおいては，酸化ストレスや<a href="#" class="anno" data-query="proinflammatory cytokine" data-uniprot="">炎症性サイトカイン</a>などの作用によりアポトーシスは亢進すると考えられる．通常なら，don’t eat meシグナルである<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現は低下しアポトーシスを起こした細胞はマクロファージなどによりすみやかに貪食されるはずであるが，さきに述べたように，動脈硬化の病変において<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現は上昇していた．この発現の上昇の機序について解明するためヒトおよびマウスの血管組織についてバイオインフォマティクスにより解析したところ，<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現を制御するタンパク質として<a href="#" class="anno" data-query="TNF-alpha" data-uniprot="P01375">TNFα</a>がうかびあがった．ヒトの動脈硬化の病変における<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現と<a href="#" class="anno" data-query="TNF-alpha" data-uniprot="P01375">TNFα</a>との発現のあいだには正の相関がみられたが，<a href="#" class="anno" data-query="IL-4" data-uniprot="">インターロイキン4</a>や<a href="#" class="anno" data-query="TGF-beta" data-uniprot="">TGFβ</a>などそのほかの<a href="#" class="anno" data-query="cytokine" data-uniprot="">サイトカイン</a>の発現との相関はみられなかった．<br/>　血管平滑筋細胞において<a href="#" class="anno" data-query="TNF-alpha" data-uniprot="P01375">TNFα</a>による刺激により<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>のmRNAレベルおよびタンパク質レベルでの発現の上昇が認められた．<a href="#" class="anno" data-query="TNF-alpha" data-uniprot="P01375">TNFα</a>は<a href="#" class="anno" data-query="NF-kappaB" data-uniprot="">NF-κB</a>を介して<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現を上昇させた．細胞をスタウロスポリンにより刺激しアポトーシスを起こさせると，以前から報告されていたとおり<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現は低下したが，<a href="#" class="anno" data-query="TNF-alpha" data-uniprot="P01375">TNFα</a>の存在のもとでは<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現の低下は抑制された．また，<a href="#" class="anno" data-query="TNF-alpha" data-uniprot="P01375">TNFα</a>により刺激した細胞はマクロファージによる貪食に対し抵抗性を示し，抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体は<a href="#" class="anno" data-query="TNF-alpha" data-uniprot="P01375">TNFα</a>により刺激した細胞においても有効であった．抗<a href="#" class="anno" data-query="TNF-alpha" data-uniprot="P01375">TNFα</a>療法と抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体の併用により，<em>in vitro</em>においてマクロファージによる貪食の増加がみられ，マウスの動脈硬化の病変におけるアポトーシスを起こした細胞の蓄積およびエフェロサイトーシスの低下は改善された．<br/><br/><h2>おわりに</h2><br/>　この研究により，動脈硬化の病変においては<a href="#" class="anno" data-query="TNF-alpha" data-uniprot="P01375">TNFα</a>により<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>の発現が亢進しており，これが動脈硬化プラークにおけるエフェロサイトーシスの低下の一因であることがわかった．増加した<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>は<a href="#" class="anno" data-query="SIRP-alpha" data-uniprot="P78324">SIRPα</a>および<a href="#" class="anno" data-query="SHP1" data-uniprot="P29350">SHP1</a>を介してeat meシグナルを抑制し，アポトーシスを起こした細胞は2次的なネクローシスを起こし炎症性物質を放出して<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>をさらに増加させると考えられた（<a href="#F1">図1b</a>）．抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体の投与によりエフェロサイトーシスは回復し動脈硬化の進展および不安定化は抑制された．<br/>　新しい抗ヒト<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体Hu5F9-G4が開発され，この抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体はヒトの<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>に対し高い親和性を示し<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>と<a href="#" class="anno" data-query="SIRP-alpha" data-uniprot="P78324">SIRPα</a>との結合を阻害してマクロファージによる白血病細胞の貪食を促進した．サルにおいては用量に依存して貧血がみられたが2週間後には正常になり，そのほか心臓，腎臓，肝臓の機能に異常はみられなかった<a href="#R8"><sup>8)</sup></a>．2015年より，この抗<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>抗体を用いて白血病およびリンパ腫の患者に対するフェーズ1の臨床試験が行われている．<a href="#" class="anno" data-query="CD47" data-uniprot="Q08722">CD47</a>は動脈硬化においても有効な治療の標的と考えられ，臨床への迅速な応用が期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Elliott, M. R. & Ravichandran, K. S.</span>: <span class="ti">Clearance of apoptotic cells: implications in health and disease.</span> <span class='so'>J. Cell Biol., 189, 1059-1070 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20584912" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Oldenborg, P. A., Zheleznyak, A., Fang, Y. F. et al.</span>: <span class="ti">Role of CD47 as a marker of self on red blood cells.</span> <span class='so'>Science, 288, 2051-2054 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10856220" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Gardai, S. J., McPhillips, K. A., Frasch, S. C. et al.</span>: <span class="ti">Cell-surface calreticulin initiates clearance of viable or apoptotic cells through trans-activation of LRP on the phagocyte.</span> <span class='so'>Cell, 123, 321-334 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16239148" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Schrijvers, D. M., De Meyer, G. R., Kockx, M. M. et al.</span>: <span class="ti">Phagocytosis of apoptotic cells by macrophages is impaired in atherosclerosis.</span> <span class='so'>Arterioscler. Thromb. Vasc. Biol., 25, 1256-1261 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15831805" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Majeti, R., Chao, M. P., Alizadeh, A. A. et al.</span>: <span class="ti">CD47 is an adverse prognostic factor and therapeutic antibody target on human acute myeloid leukemia stem cells.</span> <span class='so'>Cell, 138, 286-299 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19632179" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Chen, Y. C., Bui, A. V., Diesch, J. et al.</span>: <span class="ti">A novel mouse model of atherosclerotic plaque instability for drug testing and mechanistic/therapeutic discoveries using gene and microRNA expression profiling.</span> <span class='so'>Circ. Res., 113, 252-265 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23748430" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Soto-Pantoja, D. R., Stein, E. V., Rogers, N. M. et al.</span>: <span class="ti">Therapeutic opportunities for targeting the ubiquitous cell surface receptor CD47.</span> <span class='so'>Expert Opin. Ther. Targets, 17, 89-103 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23101472" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Liu, J., Wang, L., Zhao F., et al.</span>: <span class="ti">Pre-clinical development of a humanized anti-CD47 antibody with anti-cancer therapeutic potential.</span> <span class='so'>PLoS One, 10, e0137345 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26390038" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=GEO" target="_blank">GEO</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=UCSC" target="_blank">UCSC</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=転写因子" target="_blank">転写因子データベース</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=パスウェイ解析" target="_blank">パスウェイ解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=RNA-seq" target="_blank">RNA-seq</a></li><br></ul><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">児島 陽子（Yoko Kojima）</span><br>略歴：2005年 神戸大学大学院医学系研究科 修了，2006年 米国Stanford大学Postdoctoral Fellow，2010年 米国Yale大学を経て，2012年より米国Stanford大学School of MedicineにてResearch Associate．<br><br><strong>Nicholas J. Leeper</strong><br>米国Stanford大学School of MedicineにてAssociate Professor．<br>研究室URL：<a href="http://med.stanford.edu/leeperlab.html" target="_blank">http://med.stanford.edu/leeperlab.html</a><br></div><br>© 2016 児島陽子・Nicholas J. Leeper Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

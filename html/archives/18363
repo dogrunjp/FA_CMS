@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 分化の多能性の獲得に必要なクロマチンの再編成において転写因子Esrrbのはたす役割 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>分化の多能性の獲得に必要なクロマチンの再編成において転写因子Esrrbのはたす役割</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>足立健次郎・Hans R. Schöler</strong><br>（ドイツMax Planck Institute for Molecular Biomedicine，Department of Cell and Developmental Biology）<br>email：<a href="mailto:kenjiro.adachi@mpi-muenster.mpg.de">足立健次郎</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2018.066">10.7875/first.author.2018.066</a><br><div class="reference"><br><span class="ti">Esrrb unlocks silenced enhancers for reprogramming to naive pluripotency.</span><br><span class="au">Kenjiro Adachi, Wolfgang Kopp, Guangming Wu, Sandra Heising, Boris Greber, Martin Stehling, Marcos J. Araúzo-Bravo, Stefan T. Boerno, Bernd Timmermann, Martin Vingron, Hans R. Schöler</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/29910149" target="_blank"><em>Cell Stem Cell</em>, <strong>23</strong>, 266-275.e6 (2018)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　転写因子は細胞に特有の表現型を獲得し維持するうえで中心的な役割をはたす．とくに，ひとにぎりの転写因子は細胞の分化において運命の決定をつかさどるばかりか，任意の細胞においてもクロマチンの構造を再編成し，転写の自律的な制御ネットワークを再構築して細胞をリプログラミングする．分化の多能性をもつ細胞はOct4，Sox2，Klf4などの転写因子のはたらきにより体細胞からリプログラミングされるが，長く複雑なリプログラミングの過程をへて多能性の細胞に特有のクロマチンの構造がどのように確立されるのかについてはいまだ明らかではない．この研究において，筆者らは，転写因子Esrrbがリプログラミングの最終段階において多能性に関連する遺伝子の発現の誘導に重要な役割をはたすことを見い出した．Esrrbはほかの転写因子の結合しない抑制的な閉じたクロマチン構造をもつエンハンサーと結合し，DNAの脱メチル化およびクロマチン修飾タンパク質のリクルートを介してヌクレオソームを不安定化させることにより，最終的に，マスター転写因子であるOct4，Sox2，Nanogのリクルートを促進することがわかった．<br/><br/><h2>はじめに</h2><br/>　細胞の分化の過程においては，かぎられた数の転写因子の特異的な組合せにより細胞の運命が決定されることが多くみられる．運命の決定をつかさどる転写因子は“マスター転写因子”とよばれ，その多くは任意の細胞においても本来の機能をはたし，一過性の発現により最終的に細胞をリプログラミング，すなわち，分子的および生物学的な特性を永続的に変化させる．分化の多能性をもつ細胞は胚発生の過程のごく初期に一時的に存在するが，多能性の細胞に特異的な転写因子であるOct4，Sox2，Klf4などのはたらきにより，分化能を失った体細胞からもリプログラミングされる．しかしながら，リプログラミングの効率は低く，その過程は複雑で現在の実験条件においては確率論的であるため，細胞ごとに非同時的に進行する．多能性の細胞に特有の分子的な特性，とくにクロマチンの構造の確立はリプログラミングにいたる長い過程の最終段階において起こるため，その分子機構の解析は細胞の集団の不均一性に起因する実験上の制約をともなう．RNA-seq法やChIP-seq法などの細胞の集団を対象としたゲノムワイドな解析，強制発現系やRNAi法などを用いた遺伝子の機能の解析，あるいは，表面抗原を用いた細胞の状態の遷移の解析にもとづき，さまざまなモデルが提唱されているが，条件により異なる結果が得られたり，信頼性のある結果は比較的不均一性の小さいリプログラミングの初期の現象にかぎられたりする．<br/>　リプログラミングの効率が低い理由として，体細胞のクロマチンの構造によりリプログラミングにはたらく多能性に関連する遺伝子の発現が制限されることがあげられる．ゲノムのほとんどの領域はヒストンと強く相互作用しヌクレオソームを形成する．ヌクレオソームは転写因子のDNAへの結合をさまたげるため，ごく一部の領域，とくに，複数の転写因子の結合モチーフが密集する領域でのみ，複数の転写因子の協調的な結合によりヌクレオソームの形成と競合する．さらに，ヌクレオソームはさまざまな程度に凝集し，高次のクロマチンの構造を形成して転写因子の接近を阻害する．こういったクロマチンの構造は細胞に特有の転写因子およびクロマチン修飾タンパク質により制御されており，細胞の分裂をへても安定に維持されるため，細胞に特有の形質の維持，および，細胞の履歴の記憶にはたらく．リプログラミングにおいて多能性の細胞に特異的な転写因子はこういった安定なクロマチンの修飾を消去し再構成をひき起こさなければならないが，これは容易ではない．多能性の細胞に特異的な転写因子が本来の標的とする領域は体細胞においてヌクレオソームおよびメチル化DNAを含む“閉じた”クロマチン構造をもつため，これらの転写因子はすでに“開いた”クロマチン構造をもつ領域とおもに結合する<a href="#R1"><sup>1,2)</sup></a>．多能性に関連する遺伝子の発現を制御するエンハンサーにおいてDNAの脱メチル化が起こり転写因子のアクセシビリティが上昇するのはリプログラミングの最終段階である<a href="#R1"><sup>1,3,4)</sup></a>．ゲノムの特定の領域を開いたクロマチン構造に変換する分子機構として，ヌクレオソームDNAと直接的に結合する“パイオニア転写因子”によるクロマチンの再構成のモデルが広く受け入れられている．転写因子Oct4，Sox2，Klf4についても，<em>in vitro</em>においてヌクレオソームDNAと結合することが示されているが<a href="#R5"><sup>5)</sup></a>，<em>in vivo</em>においてはおもにヌクレオソームを欠く領域と結合するようであり<a href="#R2"><sup>2)</sup></a>，多能性に関連する遺伝子を制御するエンハンサーが活性化される分子機構についてはいまだによくわかっていない．<br/><br/><h2>1．転写因子EsrrbはES細胞様の多能性の獲得に必須である</h2><br/>　着床後胚から樹立されたエピブラスト幹細胞は，着床前胚に由来するES細胞と同様に，Oct4，Sox2，Nanogといったマスター転写因子を発現しているものの，Esrrb，Klf4，Klf2，Tbx3といった多能性の細胞に特異的な転写因子の多くを発現していない．また，ES細胞とは異なり，ゲノムDNAは高度にメチル化され<a href="#R6"><sup>6)</sup></a>，電子顕微鏡により密に凝集したヘテロクロマチンが明瞭に観察される<a href="#R7"><sup>7)</sup></a>．エピブラスト幹細胞はKlf4などの強制発現によりES細胞様の多能性の幹細胞へとリプログラミングされることが示されているが，その効率は低い<a href="#R8"><sup>8)</sup></a>．そこで，強制発現系によりリプログラミングに必要な転写因子を探索したところ，エピブラスト幹細胞は恒常活性型の核内受容体であるEsrrbの発現により高効率かつ短期間でリプログラミングされることがわかった．エピブラスト幹細胞のリプログラミングはOct4およびSox2の存在下においてクロマチンが再構成され多能性の細胞に特異的な転写因子の発現が誘導される点において，体細胞のリプログラミングの最終段階において起こる現象と類似している．実際に，<em>Esrrb</em>遺伝子はOct4，Sox2，Klf4による線維芽細胞のリプログラミングの過程の後期に発現が誘導され，Esrrbを欠損した線維芽細胞にリプログラミングをひき起こそうとすると，ES細胞様のコロニーが形成されるものの，リプログラミングの後期のマーカーであるDppa4あるいはNanogの発現や多くの死細胞が認められたりした．これらのことから，転写因子Esrrbはリプログラミングの最終段階において多能性に関連する遺伝子の発現の誘導に重要な役割をはたすことが示唆された．<br/><br/><h2>2．EsrrbおよびLIFによりマスター転写因子Oct4，Sox2，NanogのES細胞に特有の結合パターンが確立される</h2><br/>　効率の低い体細胞のリプログラミングの後期に起こる現象に対し，しかも，機能欠失型の表現型から，詳細な分子機構にせまるのはむずかしい．そこで，エピブラスト幹細胞のリプログラミングにおけるEsrrbの役割を機能獲得型の表現型から解析した．ドキシサイクリンによりEsrrbの発現を誘導したところ，ほとんどの細胞において同時的に多能性に関連する遺伝子の発現，および，それらのプロモーターにおいてDNAの脱メチル化がみられた．発現の誘導から48～72時間後にかけて，グローバルな遺伝子の発現パターンはES細胞に類似し，導入された<em>Esrrb</em>遺伝子に対する非依存性を獲得し，ES細胞と同様にキメラの形成を介して生殖系列を含む分化の多能性を発揮するようになった．また，このリプログラミングにはES細胞の維持に必須の増殖因子であるLIFの存在が不可欠であった．<br/>　多能性の獲得においてEsrrbおよびマスター転写因子であるOct4，Sox2，Nanogがどのように関与するのかを調べるため，リプログラミングの過程においてこれら転写因子の結合するゲノムの領域をChIP-seq法により経時的に解析した．Esrrbの発現の誘導から8時間後にはすでにEsrrbの結合がゲノムワイドにみられ，それらは発現の誘導から72時間後までに徐々に強まった．また，Esrrbの結合する領域は着床前胚に発現する遺伝子の近傍に多く認められた．これに対し，Esrrbの発現の誘導を開始するまえからエピブラスト幹細胞においてみられるOct4，Sox2，Nanogの結合の一部はリプログラミングにともない徐々に失われ，代わりに，発現の誘導から48～72時間後にかけて新しい結合が現われる，あるいは，弱い結合が徐々に強まった．これらの新しく現われた結合領域はES細胞における結合領域と類似し，着床前胚に発現する遺伝子，および，LIFの存在下においてリプログラミングにともない発現の上昇する遺伝子の近傍に多くみられた．さらに，これらの領域にはEsrrbの結合モチーフが高頻度で存在した．これらの結果から，EsrrbおよびLIFによりOct4，Sox2，NanogのES細胞に特有の結合パターンが確立され，それが多能性に関連する遺伝子の発現およびそれらのあいだの自律的な制御ネットワークの確立に不可欠であることが示唆された．<br/><br/><h2>3．Esrrbは不活性なエンハンサーと結合し活性化に必要な開いたクロマチン構造を確立する</h2><br/>　ほかの研究からのデータをもとにEsrrbの結合領域のクロマチンの構造を調べてみると，EsrrbはヒストンH3のLys27のアセチル化修飾やヒストンH3のLys4のモノメチル化修飾といった活性化の状態にあるエンハンサーに特徴的なヒストン修飾をもたず，DNAが高メチル化された，閉じたクロマチン構造をもつ領域と結合する傾向がみられた．また，これらの領域はES細胞においては高レベルのヒストンH3のLys27のアセチル化修飾および低レベルのDNAメチル化を示したことから，ES細胞に特異的なエンハンサーが多く含まれることが示唆された．閉じたクロマチン構造をもつ不活性なエンハンサーがEsrrbにより活性化される分子機構についてくわしく調べるため，<em>Esrrb</em>遺伝子，<em>Klf4</em>遺伝子，<em>Klf2</em>遺伝子，<em>Tbx3</em>遺伝子のエンハンサーに注目した．これらの領域はエピブラスト幹細胞においてヒストンアセチル化酵素p300や転写共役活性化因子Mediatorなどの結合が認められず，DNAは高メチル化され，ヌクレオソームによりクロマチンのアクセシビリティが制限されていた．しかし，Esrrbの発現の誘導から24時間後にはEsrrbが結合し，p300およびMediatorにくわえ，LIFシグナルを伝達する転写因子Stat3や，Esrrbにより急速に発現が誘導されるKlf4などがリクルートされた．一方，Oct4およびNanogの結合はこれよりおくれて顕著になった．DNAのメチル化は発現の誘導から24時間後には急速に低下した．クロマチンのアクセシビリティはEsrrbの結合モチーフを中心に上昇し，とくに，DNAが脱メチル化されたクロマチンにおいて顕著であった．多能性に関連する遺伝子の発現の誘導にはLIFが不可欠であったが，LIFの非存在下においてはp300のリクルートがいちじるしく低下し，Esrrbの結合は徐々に失われた．また，ノックアウトおよび阻害剤を用いた実験から，p300およびCBPが多能性に関連する遺伝子の発現の誘導に必須であることが示された．以上の結果から，EsrrbおよびLIF-Stat3シグナルの活性化によりリクルートされたp300およびそのほかのクロマチン修飾タンパク質のはたらきにより開いたクロマチン構造が確立されることが，マスター転写因子であるOct4，Sox2，NanogのES細胞に特異的なエンハンサーへのリクルートに必須であることが示唆された．<br/>　Esrrbが閉じたクロマチン構造をもつ領域に直接的に結合するかどうかを調べるため，ミクロコッカスヌクレアーゼおよびエキソヌクレアーゼIIIによりモノヌクレオソームからなるクロマチンを調製してクロマチン免疫沈降法により解析したところ，ES細胞に特異的なエンハンサーのいくつかにおいてEsrrbの結合がみられた．また，Esrrbと結合したDNAをクロマチン免疫沈降法により回収しDNAのメチル化について解析したところ，沈降するまえのDNAと同じ程度のDNAメチル化がみられた．これらの結果から，Esrrbがヌクレオソームおよびメチル化DNAを含む不活性なエンハンサーに直接的に結合することが示された．<br/><br/><h2>4．DNAメチル化酵素の欠損によるゲノムDNAの低メチル化はLIFによるリプログラミングを可能にする</h2><br/>　リプログラミングにおけるDNAメチル化の影響を調べるため，維持型DNAメチル化酵素であるDnmt1を欠損したエピブラスト幹細胞を作製したところ，LIFの存在下においてES細胞様の多能性の幹細胞に容易にリプログラミングされることがわかった．LIFを添加したのちすみやかに，ES細胞に特異的なエンハンサーにおける多能性の細胞に特異的な転写因子およびp300のリクルート，クロマチンのアクセシビリティの上昇，多能性に関連する遺伝子の発現の誘導およびエピブラスト幹細胞に特異的な遺伝子の発現の抑制がみられた．これらのことから，DNAの脱メチル化がエンハンサーの活性化の律速であり，ヌクレオソームのダイナミクスを増加させて転写因子の結合の安定化にはたらくことが示唆された．<br/><br/><h2>おわりに</h2><br/>　この研究において，転写因子Esrrbはリプログラミングの最終段階において，閉じたクロマチン構造をもつ不活性なエンハンサーと結合し，DNAの脱メチル化およびクロマチン修飾タンパク質のリクルートを介してヌクレオソームを不安定化させ，最終的に，マスター転写因子であるOct4，Sox2，Nanogのリクルートを促進することが示唆された（<a href="#F1">図1</a>）．この点において，EsrrbはOct4，Sox2，Nanogのパイオニア転写因子として機能するといえる．転写因子の結合にはじまる一連のクロマチンの再構成が，迅速に，また，ある程度まで決定論的に起こりうることは明らかにされたが，Esrrbを含む多能性の細胞に特異的な転写因子について，体細胞のリプログラミングの初期におけるパイオニア転写因子としての機能は限定的であり<a href="#R2"><sup>2)</sup></a>，ES細胞に特異的なエンハンサーの活性化においては，まず体細胞において活性化の状態にある開いたクロマチン構造を閉じたクロマチン構造に変換する必要がありそうである<a href="#R4"><sup>4)</sup></a>．通常の細胞の分化の過程においても，マスター転写因子のパイオニア転写因子としての機能が限定的であるがゆえに，細胞の系譜を反映した局所的なクロマチンの再構成が起こるものと思われる．今後，実験技術および解析手法の進歩にともない，複雑なリプログラミングの過程が予測の可能な事象の連続として記述されるようになると期待される．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　リプログラミングの最終段階における転写因子Esrrbによるエンハンサーの活性化のモデル</strong><br/>Esrrbはリプログラミングの最終段階において多能性に関連する遺伝子の発現の誘導に重要な役割をはたす．Esrrbは不活性なエンハンサーと結合し開いたクロマチン構造を確立することによりマスター転写因子であるOct4，Sox2，Nanogのリクルートを促進するパイオニア転写因子としてはたらく．増殖因子LIFはヒストンアセチル化酵素p300のリクルートに必須であり，p300およびDNAの脱メチル化はヌクレオソームのダイナミクスを増加させて転写因子の結合の安定化にはたらく．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Adachi-Cell-Stem-Cell-18.6.14-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　リプログラミングの最終段階における転写因子Esrrbによるエンハンサーの活性化のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Adachi-Cell-Stem-Cell-18.6.14-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Adachi-Cell-Stem-Cell-18.6.14-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Chen, J., Chen, X., Li, M. et al.</span>: <span class="ti">Hierarchical Oct4 binding in concert with primed epigenetic rearrangements during somatic cell reprogramming.</span> <span class='so'>Cell Rep., 14, 1540-1554 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26832419" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Chronis, C., Fiziev, P., Papp, B. et al.</span>: <span class="ti">Cooperative binding of transcription factors orchestrates reprogramming.</span> <span class='so'>Cell, 168, 442-459 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28111071" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Polo, J. M., Anderssen. E., Walsh. R. M. et al.</span>: <span class="ti">A molecular roadmap of reprogramming somatic cells into iPS cells.</span> <span class='so'>Cell, 151, 1617-1632 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23260147" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Li, D., Liu, J., Yang, X. et al.</span>: <span class="ti">Chromatin accessibility dynamics during iPSC reprogramming.</span> <span class='so'>Cell Stem Cell, 21, 819-833 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/29220666" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Soufi, A., Garcia, M. F., Jaroszewicz, A. et al.</span>: <span class="ti">Pioneer transcription factors target partial DNA motifs on nucleosomes to initiate reprogramming.</span> <span class='so'>Cell, 161, 555-568 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25892221" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Wu, J., Okamura, D., Li, M. et al.</span>: <span class="ti">An alternative pluripotent state confers interspecies chimaeric competency.</span> <span class='so'>Nature, 521, 316-321 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25945737" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Ahmed, K., Dehghani, H., Rugg-Gunn, P. et al.</span>: <span class="ti">Global chromatin architecture reflects pluripotency and lineage commitment in the early mouse embryo.</span> <span class='so'>PLoS One, 5, e10531 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20479880" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Guo, G., Yang, J., Nichols, J. et al.</span>: <span class="ti">Klf4 reverts developmentally programmed restriction of ground state pluripotency.</span> <span class='so'>Development, 136, 1063-1069 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19224983" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=UCSC" target="_blank">UCSC</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=ChIP-seq" target="_blank">ChIP-seq</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">足立 健次郎（Kenjiro Adachi）</span><br>略歴：2007年 東京大学大学院理学系研究科 修了，同年 理化学研究所発生・再生科学総合研究センター 研究員を経て，2011年よりドイツMax Planck Institute for Molecular Biomedicine研究員．<br>研究テーマ：多能性．転写因子．<br><br><strong>Hans R. Schöler</strong><br>ドイツMax Planck Institute for Molecular BiomedicineにてProfessor．<br>研究室URL：<a href="http://www.mpi-muenster.mpg.de/97787/schoeler" target="_blank">http://www.mpi-muenster.mpg.de/97787/schoeler</a><br></div><br>© 2018 足立健次郎・Hans R. Schöler Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

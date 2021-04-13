@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 上皮細胞のダイナミクスと分枝形態形成はBtbd7によって制御される : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>上皮細胞のダイナミクスと分枝形態形成はBtbd7によって制御される</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>小野寺智洋<sup>1</sup>・阪井丘芳<sup>2</sup></strong><br>（<sup>1</sup>北海道大学大学院医学研究科 整形外科学分野，<sup>2</sup>大阪大学大学院歯学研究科 顎口腔機能治療学教室）<br>email：<a href="mailto: tomozou@med.hokudai.ac.jp">小野寺智洋</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2010.010">10.7875/first.author.2010.010</a><br><div class="reference"><br><span class="ti">Btbd7 regulates epithelial cell dynamics and branching morphogenesis.</span><br><span class="au">Tomohiro Onodera, Takayoshi Sakai, Jeff Chi-feng Hsu, Kazue Matsumoto, John A. Chiorini, Kenneth M. Yamada</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/20671187" target="_blank"><em>Science</em>, <strong>329</strong>, 562-565 (2010)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　胚発生において，内臓器官の多くは上皮組織が分枝をくり返すことにより形成される．今回，筆者らは，この過程に重要な役割をもつBtbd7を発見し，その機能を解析した．マウスの胚発生過程を調べたところ，Btbd7は唾液腺および肺が形成される際に上皮組織の分枝形態形成を制御していた．Btbd7は，唾液腺や肺に特徴的な構造であるクレフトを形成する細胞器官の分枝を制御しており，Snail2やE-カドヘリンといったほかのタンパク質に作用することでこの形態形成を行っていた．また，哺乳類において，Btbd7により細胞-細胞間接着が阻害されることによって，上皮細胞は臓器の分枝形態形成に必要な遊走が可能となっていた．<br/><br/><h2>はじめに</h2><br/>　胎生期において，多くの臓器は上皮細胞が分枝形態形成（枝分かれ）をくり返すことにより形成される<a href="#R1"><sup>1-5)</sup></a>．その分枝形態形成の過程において，上皮細胞が細胞-細胞間接着から細胞-マトリックス接着へと変換することによりクレフト（裂け目）の形成されることが知られているが<a href="#R6"><sup>6)</sup></a>，いままで，その詳細な分子機構はわかっていなかった．今回，筆者らが発見したBtbd7は，分枝形態形成の過程をダイナミックに誘導する作用をもち，Snail2（Slug）やE-カドヘリンを局所的に調節することにより細胞外マトリックスとクレフト形成とを橋渡しする役目をもっていた．Btbd7は胎生期マウスの唾液腺および肺の形成に必須であり，上皮組織のリモデリングや分枝形態形成を調節していた．<br/><br/><h2>1．分枝形態形成の分子機構とは？</h2><br/>　分枝形態形成は，肺や腎臓，乳腺，唾液腺といった上皮細胞に由来する組織の発生において重要な過程である．分枝のためには，局所の伸長にともないクレフトの形成されることが必要となる．局所の伸長をつかさどる因子としてすでにいくつかの成長因子が同定されているが，クレフト形成の分子機構はよくわかっていなかった．これを説明するモデルのひとつとして，細胞外マトリックスの沈着にともなって細胞-細胞間接着の減少することがあげられる<a href="#R6"><sup>6-8)</sup></a>．フィブロネクチンはクレフトの形成に必須な細胞外マトリックスであり，クレフトの周囲に局在することにより細胞-細胞間接着に重要なはたらきをもつE-カドヘリンを局所的に減少させることが知られていたが，その現象が起こる詳細な分子機構は不明であった．<br/><br/><h2>2．クレフトの周囲にはBtbd7が発現し細胞配列の乱れが生じている</h2><br/>　最初に，分枝形態形成の古典的モデル器官である胎生期のマウス唾液腺の器官培養を行った<a href="#R9"><sup>9)</sup></a>．細胞レベルでの詳細な観察を試みたところ，クレフト先端周囲の上皮細胞の配列に乱れが生じていることを発見した．つづいて，個々の細胞運動を詳細に検討するためGFPトランスジェニックマウスを用いて胎児期マウス唾液腺を観察したところ，クレフトが形成される周囲に一時的に細胞-細胞間に小さなギャップの形成されることが観察された．そこで，クレフトの周囲には特殊な遺伝子発現があるのではないかという仮説をたて，レーザーマイクロダイセクション法とT7-SAGE法を用いてクレフトの周囲の発現を検討した．すると，フィブロネクチンの発現とともに，Btbd7（BTB (POZ) domain containing 7）がクレフトの周囲のみに発現していることを発見した．Btbd7はBTBドメインを含む1130アミノ酸残基で構成されており，ショウジョウバエから哺乳類まで保存されている．<em>in situ</em>ハイブリダイゼーション法によりBtbd7はクレフトの周囲にのみに特異的に発現していることが明らかになった．<br/><br/><h2>3．フィブロネクチンはBtbd7の発現を介して細胞配列の乱れをひき起こす</h2><br/>　そこで，つぎの仮説として，フィブロネクチンの周囲で発現しているBtbd7がフィブロネクチン自体により誘導されている可能性を検討した．マウス唾液腺における上皮細胞はそのまわりを間葉系細胞に取り囲まれているので，実体顕微鏡下でマイクロピンセットを用いて間葉系細胞を取り除いた上皮組織を用いてフィブロネクチンの添加を行ったところ，フィブロネクチンによってBtbd7が誘導されることが証明された．また，実際にフィブロネクチンを添加した上皮細胞を観察したところ，クレフトの周囲ではない細胞も，クレフトの周囲と同じように細胞配列の乱れを生じることが明らかとなった．フィブロネクチンの添加による細胞配列の乱れがBtbd7の発現によるものなのかどうかを確認するためBtbd7のノックダウン実験を行ったところ，フィブロネクチンの添加によって起こるはずの細胞配列の乱れは起こらなかった．したがって，フィブロネクチンによる細胞配列の乱れにBtbd7の関与していることが明らかとなった．<br/><br/><h2>4．Btbd7の発現によりE-カドヘリンは低下する</h2><br/>　Btbd7の機能を解明するため，上皮細胞の細胞系列に属するMDCK細胞を用いた実験を行った．MDCK細胞においてBtbd7の過剰発現を行い詳細に観察したところ，細胞運動能の亢進がみられた．また，安定発現細胞を確立したところ，平面培養およびコラーゲンゲル内3次元培養において，Btbd7を過剰発現することにより3次元培養での細胞コロニーの離散が強まり，E-カドヘリンの発現が低下することを確認した．これらの結果より，唾液腺におけるクレフトの周囲のE-カドヘリン発現の低下とそれにともなう細胞配列の乱れは，Btbd7の局所的な発現によるものと考えられた．<br/><br/><h2>5．Btbd7はSnail2の発現を誘導する</h2><br/>　発生過程においてE-カドヘリンの発現低下が重要な引き金となる場合，Snail1やSnail2（Slug），Twist1といった転写因子が深いかかわりをもつことが知られている．そこで，Btbd7を過剰発現させたMDCK細胞においてこれら転写因子の発現量を調べたところ，Btbd7の過剰発現にともなってSnail2の発現上昇がみられた．<br/>　以上の結果より，上皮細胞モデルにおいてBtbd7によるおおまかな制御経路が明らかとなったので，つぎに，胎生期マウスにおけるこれらカスケードの発現を確認した．すると，クレフトの周囲での発現量は，フィブロネクチン，Btbd7のほか，Snail2も高値を示した．フィブロネクチンの添加によるBtbd7の誘導実験において，Btbd7の発現開始時間は約20分程度であったのに対し，Snail2はBtbd7の発現をおうように，フィブロネクチン添加ののち60分で高い発現量となった．<br/>　この結果は，MDCK細胞を用いた<em>in vitro</em>での結果と一致する．より直接的な証明方法としてBtbd7とSnail2の<em>in vivo</em>ノックダウン実験を行ったところ，Btbd7をノックダウンしたときにフィブロネクチンを負荷してもSnail2の発現量は上昇しないのに対し，Snail2をノックダウンしてもBtbd7の発現量は増大することがわかった．このことより，Btbd7がSnail2の上流のカスケードに位置していることが明らかになった．<br/><br/><h2>6．Btbd7は肺と唾液腺の形成に必須である</h2><br/>　Btbd7が分枝形態形成に必須であるかどうかを確認するため，胎生期の唾液腺の器官培養モデルを用いてBtbd7ノックダウン実験を行ったところ，培養48時間～72時間において分枝形成の抑制されることが確認された．64％のクレフト形成が抑制され，クレフト形成の速度の遅延が確認されたが，唾液腺の体積の減少はみられなかった．以上のことより，クレフト形成におけるBtbd7の役割が確認された．Snail2に対しても同様の実験を行ったところ，Snail2のノックダウンにおいても同様にクレフト形成の抑制が認められた．<br/>　通常，Btbd7は胎生期の上皮細胞に局所的にしか発現していないが，唾液腺の上皮細胞にBtbd7を過剰発現させることにより分枝形成を亢進させることができるかどうかを確認した．唾液腺上皮細胞の一部を生体外に取り出しアデノウイルスによりBtbd7をトランスフェクションさせたところ，細胞塊の拡散が増強された．また，大きな変化ではなかったが，アデノウイルスのマイクロインジェクションによって分枝形態形成の亢進がみられた．<br/>　肺や腎臓といった唾液腺と同じように分枝形態形成する器官は，それぞれ異なった様式で分枝形態形成していくが，とくに，肺と唾液腺におけるフィブロネクチンのように複数の器官に共通した分子機構も存在する．そこで，胎生期の肺の分枝部先端を観察してみると，唾液腺と同じようにクレフトの周囲にBtbd7の発現が確認された．そこで，唾液腺と同様に，胎生期の肺のBtbd7をノックダウンすると分枝形態形成を阻害できることが確認された．このことより，Btbd7は唾液腺だけでなく肺の分枝形成にも必須であることが確認された．<br/><br/><h2>おわりに</h2><br/>　今回の実験結果から，Btbd7を含んだクレフトの形成における段階的な分子機構が導き出された（<a href="#F1">図1</a>）．クレフト部位に局所的に集積したフィブロネクチンによって制御因子であるBtbd7が誘導され，ひき続いて，クレフトの周囲では細胞を離散させる作用のあるSnail2の発現が高まり，E-カドヘリンが減少する．それによって細胞配列の乱れが生じ，細胞-細胞間接着が減少する．これら一連の過程がクレフトの底で起こることにより，ダイナミックな局所の細胞間ギャップとクレフトの形成が行われる．このうち，フィブロネクチン，Btbd7，Snail2のどの過程を阻害しても分枝形態形成は阻害されてしまう．このヒエラルキーは，上皮細胞の分枝形態形成におけるクレフト形成の重要な分子機構を担っているものと考えられる．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　クレフト形成における段階的な分子機構</strong><br/>（1）クレフト周囲に蓄積されたフィブロネクチンからの刺激を周囲の上皮細胞がうけることにより，（2）Btbd7が発現する．（3）Btbd7の発現によりSnail2の発現の亢進，（4）E-カドヘリンの発現の低下をきたし，クレフトの周囲の細胞-細胞間接着が低下する．（5）クレフトの周囲の細胞配列は乱れクレフトの形成が促進される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sakai-Science-10.7.30-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　クレフト形成における段階的な分子機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sakai-Science-10.7.30-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sakai-Science-10.7.30-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Zegers, M. M. et al.</span>: <span class="ti">Epithelial polarity and tubulogenesis <em>in vitro</em>.</span> <span class='so'>Trends Cell Biol., 13, 169-176 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12667754" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Que, J. et al.</span>: <span class="ti">Morphogenesis of the trachea and esophagus: current players and new roles for noggin and Bmps.</span> <span class='so'>Differentiation, 74, 422-437 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16916379" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Metzger, R. J. & Krasnow, M. A.</span>: <span class="ti">Genetic control of branching morphogenesis.</span> <span class='so'>Science, 284, 1635-1639 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10383344" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Hogan, B. L. & Kolodziej, P. A.</span>: <span class="ti">Organogenesis: molecular mechanisms of tubulogenesis.</span> <span class='so'>Nat. Rev. Genet., 3, 513-523 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12094229" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Davies, J. A.</span>: <span class="ti">Do different branching epithelia use a conserved developmental mechanism?</span> <span class='so'>Bioessays, 24, 937-948 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12325126" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Sakai, T., Larsen, M., Yamada, K. M.</span>: <span class="ti">Fibronectin requirement in branching morphogenesis.</span> <span class='so'>Nature, 423, 876-881 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12815434" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Patel, V. N., Rebustini, I. T., Hoffman M. P.</span>: <span class="ti">Salivary gland branching morphogenesis.</span> <span class='so'>Differentiation, 74, 349-364 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16916374" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Larsen, M., Wei, C., Yamada, K. M.</span>: <span class="ti">Cell and fibronectin dynamics during branching morphogenesis.</span> <span class='so'>J. Cell Sci., 119, 3376-3384 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16882689" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Sakai, T. & Onodera, T.</span>: <span class="ti">Embryonic organ culture.</span> <span class='so'>Curr. Protoc. Cell Biol., Chapter 19: Unit 19 8. (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19085985" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">小野寺 智洋（Tomohiro Onodera）</span><br>略歴：2007年 北海道大学大学院医学研究科博士課程 修了，2006年より米国NIH National Institute of Dental and Craniofacial Research Visiting fellowとしてこの研究を行う．2009年より北海道大学大学院医学研究科 助教．<br>研究テーマ：足の外科，膝関節外科，先天性小児疾患，器官形態形成．<br>抱負：現在は，整形外科医としての臨床業務と基礎研究との二足の草鞋を履かせてもらっています．両立は非常に困難ですが，基礎・臨床を両方とも経験している立場として，少しでも互いの橋渡しができるようがんばっていきたいと思います．<br><br><strong>阪井丘芳（Takayoshi Sakai）</strong><br>略歴：1999年 大阪大学大学院歯学研究科博士課程 修了，2000年 米国NIH National Institute of Dental and Craniofacial Research Visiting fellow，2004年 大阪大学歯学部附属病院 講師をへて，2006年より大阪大学大学院歯学研究科 教授．<br>研究テーマ：口腔外科，口腔乾燥症，唾液腺発生および再生．<br>抱負：現在は，口腔外科とリハビリテーションにかかわる臨床・教育・研究を行っています．歯科口腔外科と基礎医学にかかわる歯科医師として，唾液腺の研究に貢献したいと思っています．<br></div><br>© 2010 小野寺智洋・阪井丘芳 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

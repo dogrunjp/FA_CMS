@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 局所において同期したシナプス入力 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>局所において同期したシナプス入力</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>池谷裕二・高橋直矢</strong><br>（東京大学大学院薬学系研究科 薬品作用学教室）<br>email：<a href="mailto:ikegaya@mol.f.u-tokyo.ac.jp">池谷裕二</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.016">10.7875/first.author.2012.016</a><br><div class="reference"><br><span class="ti">Locally synchronized synaptic inputs.</span><br><span class="au">Naoya Takahashi, Kazuo Kitamura, Naoki Matsuo, Mark Mayford, Masanobu Kano, Norio Matsuki, Yuji Ikegaya</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22267814" target="_blank"><em>Science</em>, <strong>335</strong>, 353-356 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　脳のはたらきの基本には，ニューロンどうしが巧みにつながり“配線”された神経回路のあることが知られている．しかし，どこまで微細な構造のレベルまで機能的な配線がなされているのかについては知られていない．筆者らは，多くのシナプス活動を観察できる新しい撮影技術“大規模スパインイメージング法”を開発した．この手法によりニューロンが1/1000ミリレベルで局所に集中した回路を正確に編んでいることを証明し，数十年に及んだ神経科学界の重要な議論にひとつのめどをつけた．また，いくつかの状況証拠から，長期増強という学習プロセスにより精度の高い配線が実現することを示した．以上の結果は，脳が精細な配線機構にもとづき回路を編成していることを示唆しており，脳がどう機能を発揮しているのかについて基本的な知見をあたえるものである．今後，この方法の活用が記憶や学習の分子機構，神経疾患の原因の解明に役立つことが期待される．<br/><br/><h2>はじめに</h2><br/>　細胞体より伸びる樹状突起にはスパインとよばれる多数の後シナプス構造が存在する．上流のニューロンからの情報はシナプス入力としてスパインを介し受容され，樹状突起において統合される．このとき，入力は単調に加算されるわけではない．複雑に分岐した突起の形態や，そこに発現する種々のイオンチャネルや受容体により加算様式は非線形となる<a href="#R1"><sup>1)</sup></a>．すなわち“どのスパインが，いつ，どこで入力をうけたか”という入力の時空間パターンがニューロンの発火活動のパターンに大きく影響する<a href="#R2"><sup>2,3)</sup></a>．しかし，実際のニューロンがどのようなパターンのシナプス入力をうけているのかについてはほとんどわかっていない．<br/>　現在，統合の過程を大きく左右する同期したシナプス入力の空間パターンについて2つのモデルが提唱されている．1つ目は，同期した入力は樹状突起において局所に収束するというクラスター入力モデルである（<a href="#F1">図1a</a>）．2つ目は，同期した入力は樹状突起において全体に分布するという分散型入力モデルである（<a href="#F1">図1b</a>）．クラスター入力モデルはニューロンの一部を強く活動させるのに有利とされ，一方，分散型入力モデルは情報のロスが少ないという利点のあるものと考えられている．いずれのモデルが正しいのかについては数十年来の議論の的となっているものの，これを検証するための実験技術がなかったためこれまでに明確な解答は得られていなかった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　同期したシナプス入力の空間パターンについての2つの仮説</strong><br/>（a）クラスター入力モデル．同期するニューロン群が相手のニューロンの線維の近くに集中的に投射している．<br/>（b）分散型入力モデル．同期するニューロン群に秩序はみられない．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikegaya-Science-12.1.20-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　同期したシナプス入力の空間パターンについての2つの仮説" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikegaya-Science-12.1.20-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikegaya-Science-12.1.20-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．大規模スパインイメージング法の確立</h2><br/>　現在，活動しているニューロンの観測にはCa<sup>2+</sup>イメージング法が広く利用されており，この手法では発火したニューロンを検出するのに活動時に上昇する細胞内Ca<sup>2+</sup>により蛍光を発する色素（Ca<sup>2+</sup>蛍光指示薬）を用いる．しかし，この蛍光は微弱なため，従来の手法では強いレーザー光が当たることにより観察中に細胞が死んでしまうことを回避できなかった．今回，筆者らは，光透過性の高い光学レンズと超高感度のデジタルカメラを用いることなど多くの改良を行い“大規模スパインイメージング法”を開発した．その結果，多数のシナプスから一斉にCa<sup>2+</sup>活動を計測することができるようになった．<br/>　まず，海馬CA3野の自発的なシナプス入力に着目しその時空間パターンの解明に取り組んだ．生理学的な研究で汎用される急性脳切片では，切片を作製する過程で大部分の神経投射が切断されるため自発的な入力はほとんど観察されない．そこで，海馬切片を一定の期間（12～19日間）培養し神経投射が修復された培養切片を用いて実験を行った．このような培養切片の海馬CA3野では豊富な再帰性のシナプスが保持され，生体の脳で観測される同期性のシナプス入力が<em>in vitro</em>においても再現されている<a href="#R4"><sup>4)</sup></a>．<br/>　海馬CA3野の錐体細胞からパッチクランプ記録を行い，ガラス電極をつうじ細胞体にCa<sup>2+</sup>蛍光指示薬Fluo-5Fを注入した（<a href="#F2">図2</a>，ステップ1）．シナプス入力をうけたスパインではNMDA受容体を介したCa<sup>2+</sup>流入が生じ，それをスパインに限局した蛍光の上昇としてとらえることができる．そして，複数のスパインについて同時にその蛍光の変化を参照することで，どのスパインが，いつ，どこで入力をうけたのかというシナプス入力のパターンがわかる．この研究では，同時に数百個ものスパインから個別にシナプスの活動パターンを計測することに成功した．観測されたスパインの配置は，実験ののち再構築された樹状突起の形態にもとづいて三次元的に同定し（<a href="#F2">図2</a>，ステップ2），それぞれのスパインでの入力の時系列パターンはラスタープロットとして表記した（<a href="#F2">図2</a>，ステップ3）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　大規模スパインイメージング法</strong><br/>ステップ1：シナプス入力をスパインのCa<sup>2+</sup>活動として撮影する．ステップ2：スパインの位置を三次元的に再構築しそれぞれのシナプスのあいだの距離を測定する．ステップ3：活動パターンの時空間構造（とくに，同期活動）を解析する．ステップ4：同期活動したシナプスを空間プロットする．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikegaya-Science-12.1.20-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　大規模スパインイメージング法" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikegaya-Science-12.1.20-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikegaya-Science-12.1.20-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　まず，それぞれのスパインの空間位置と入力頻度との関係を検討した．細胞体より尖端側および基底側，もしくは，近位および遠位でのそれぞれのスパインの入力頻度を比較したが，それらに有意な違いは観察されなかった．興味深いことに，スパインのあいだでの入力頻度の偏りは大きく，20％のスパインが全体の入力数のうち80％程度をしめていることがわかった．一部のシナプスが大部分の情報を伝達しているものと考察された．<br/><br/><h2>2．同期した入力の空間特性</h2><br/>　大規模スパインイメージング法により海馬CA3野におけるニューロンのシナプス活動を観察していると，しばしば同期したシナプス入力にともなって複数のスパインが同時に活動するようすがみられた（<a href="#F2">図2</a>，ステップ4）．ここでは，それら同時に入力をうけたスパインの空間分布を検討した．100ミリ秒以内に同期したスパインの対の樹状突起にそった距離を測定したところ，8μm以内に近接したスパインのあいだでは有意に高い頻度で同期した入力をうけていることを見い出した．同様の結果は，生体のマウスの皮質ニューロンの樹状突起においても確認された．すなわち，麻酔をしたマウスのバレル皮質2/3層の錐体細胞からパッチクランプ記録を行い自発的なシナプス活動を観察したところ，6μm以内の近傍のスパインのあいだで同期した入力が多くみられた．<br/>　以上の結果はクラスター入力モデル（<a href="#F1">図1a</a>）を支持していた．そこで，以下では，同期した入力をうけて活動する近傍（10μm以内）のスパイン群をアセンブレット（assemblet）と定義し，その特性についてより詳細な検討を行った．<br/>　まず，局在化した同期入力の成因を探った．クラスター入力が観察される理由として，つぎの3つの可能性が考えられた．1）同期発火したニューロンからの投射が近傍のスパインのあいだで収束している，2）同一の軸索が近傍のスパイン群に対し複数のシナプスを形成している，3）単一のシナプスから放出されたグルタミン酸があふれ出ることにより近傍のスパインが同時に活性化される．まず，2）および3）の妥当性を検証するため，電気刺激により同時に活動させたスパインの空間分布を計測した．2）および3）が正しいのならば，海馬CA3野のニューロンの入力層である放線層を刺激した場合にも同期入力の局在化がみられるはずである．ところが，刺激により同期したスパインの局在化は観測されなかった．さらに，2）については，シナプス結合したニューロン対の形態を可視化することにより結合構造を精査したが，同一の軸索が複数の近傍スパインに連続して投射することはまれであった．以上の結果から，自発入力でみられた局在性は2）や3）に起因するとは考えにくく，1）同期発火するニューロン群からの収束性のシナプス投射を反映しているものと考えられた．<br/>　アセンブレットの統計値を以下にまとめる．観測した全スパインのうちアセンブレットに参加したのは31.5％であり，全スパイン活動のうちアセンブレットを形成した活動は29.5％であった．それぞれのアセンブレットには3.6±0.7個のスパインが含まれており，樹状突起は4.7±3.3μmの広がりをもっていた．アセンブレットの28.0％は2～3分間の観察時間においてくり返し発生した．特定のアセンブレットに参加したスパインのうち58.9％は別のアセンブレットにも参加した．こうした挙動はスパインの活動をランダム化した疑似データにおいては観察されなかったことから，自発的なシナプスの活動に特有の現象であるものと考えられた．<br/><br/><h2>3．クラスター入力の分子機構</h2><br/>　では，同期した入力を樹状突起において局在化させるようなシナプス回路はどのように形成されるのであろうか？　観測したスパインのサイズを定量化したところ，アセンブレットに参加するスパインはほかのスパインと比較して有意に大きいことが見い出された．スパインの大きさはそのシナプスがうける入力強度と相関し，その変化は長期増強（long term potentiation：LTP，NMDA受容体に依存したシナプス可塑性の一種で，記憶の素過程と考えられている）と関連することが知られている<a href="#R5"><sup>5)</sup></a>．そこで，海馬の切片をNMDA受容体の遮断薬であるAP5の存在下で培養したところクラスター入力は観察されなかった．同様に，培養日数の短い標本（3～4日間）を用いた場合にもクラスター入力は観察されなかったことから，クラスター入力の形成にはNMDA受容体に依存したシナプス回路の編成が関与していることが推察された．<br/><br/><h2>4．局所的なシナプス可塑性</h2><br/>　最後に，シナプス可塑性の樹状突起における空間パターンについての検討を行った．経験や学習にともない新規に合成されるAMPA受容体は直前に活性化されたスパインに輸送され長期増強を導くことが知られている．そこで，AMPA受容体のGluR1サブユニットにGFPを結合した遺伝子改変マウスを用いてその空間局在パターンの検討を行った<a href="#R6"><sup>6)</sup></a>．この遺伝子改変マウスはTet-On/Off系により時期特異的にc-<em>fos</em>遺伝子プロモーターのもとGFP-GluR1融合タンパク質の発現を制御することでき，特定の行動課題において活動したニューロンにおけるGluR1の細胞内局在を観察することが可能である．この遺伝子改変マウスを新しい環境において500秒間のあいだ自由に探索させたところ，約25％のニューロンにおいてGluR1の発現が確認された．そして，ニューロンの樹状突起においてGluR1をもつスパインの空間配置を検討した結果，8μm以内に局在化していることを見い出した．つまり，長期増強は近傍のスパインのあいだで生じやすいことがわかった．局所的な長期増強の分子機構についてはいくつかの<em>in vitro</em>での研究により局所的な脱分極や可塑性に関連する分子の拡散が寄与するというモデルが提唱されている<a href="#R7"><sup>7-9)</sup></a>．今回，得られた結果にもこうした分子機構が関与しているものと解釈された．<br/><br/><h2>おわりに</h2><br/>　筆者らは，同期した入力が近傍のスパインのあいだで選択的に集束することを明らかにした．これは，クラスター入力モデル（<a href="#F1">図1a</a>）を支持する結果であった．培養切片標本という外部入力から単離された系において観察されたことや薬理学的な実験の結果から，クラスター入力はNMDA受容体に依存した活動の履歴により獲得され，ニューロンの情報処理のプロセスに備わった本質的な特性であるものと考えられた．また，遺伝子改変マウスにより示された局所的なシナプス可塑性の機構の存在から，神経回路は自律的にクラスター入力を形成するのに寄与しているものと推測された．筆者らが提案する，クラスター入力の形成過程を示す（<a href="#F3">図3</a>）．初期過程ではランダムに結合したシナプスは，しだいに刈り込まれていく．その際，局所的な長期増強がはたらくことで近傍に投射する同期性のシナプスがより選択的に保持され，そのほかのシナプスは刈り込まれる．この一連のプロセスをくり返すことで最終的にクラスター入力が形成される．<br/><br/><a name="F3"></a><div id="fig3-caption-text" style="display: none;"><strong>図3　クラスター入力を生じさせるため想定される3つのステップ</strong><br/>ステップ1：初期のニューロン回路では結合の相手の選定は無秩序である．ステップ2：たまたま近くに同期した入力をあたえるような結合ができると長期増強が生じ強化される．ステップ3：強化されなかったシナプスが消えることでクラスター入力をもつ回路が残存する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikegaya-Science-12.1.20-Fig.3.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure3" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図3　クラスター入力を生じさせるため想定される3つのステップ" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikegaya-Science-12.1.20-Fig.3.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ikegaya-Science-12.1.20-Fig.3.jpg" alt="figure3" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig3-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig3-caption').innerHTML = document.getElementById('fig3-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　今回，見い出されたクラスター入力は樹状突起における非線形的な入力の加算を促し，個々のニューロンがもつ演算能力を高めているものと考えられる．また，近年，近接したスパインが異なる情報を中継しているという報告がなされており<a href="#R10"><sup>10,11)</sup></a>，局所での同期がそれらの情報を統合するような関連学習に寄与している可能性もある．この研究では，スパインのイメージングでの時間解像度が20 Hz程度に制限されていたため，アセンブレットのより詳細な内部構造，すなわち，スパインが活性化される順番を決定することはできなかった．海馬で観測されるリップル波では一部のニューロンが特定の順番で一斉に発火することが知られている．これらはミリ秒オーダーの時間精度で生じており，事実，このレベルでの入力の時間差が樹状突起における入力の加算に大きく影響することが報告されている<a href="#R3"><sup>3)</sup></a>．現在，筆者らは，このイメージング技術の時間分解能の向上に取り組んでおり，今後は，より詳細なシナプス入力の時空間特性にせまっていきたい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>London, M. & Hausser, M.</span>: <span class="ti">Dendritic computation.</span> <span class='so'>Annu. Rev. Neurosci., 28, 503-532 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16033324" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Larkum, M. E., Zhu, J. J. & Sakmann, B.</span>: <span class="ti">A new cellular mechanism for coupling inputs arriving at different cortical layers.</span> <span class='so'>Nature, 398, 338-341 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10192334" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Branco, T., Clark, B. A. & Hausser, M.</span>: <span class="ti">Dendritic discrimination of temporal input sequences in cortical neurons.</span> <span class='so'>Science, 329, 1671-1675 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20705816" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Takahashi, N., Sasaki, T., Matsumoto, W. et al.</span>: <span class="ti">Circuit topology for synchronizing neurons in spontaneously active networks.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 107, 10244-10249 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20479225" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Matsuzaki, M., Honkura, N., Ellis-Davies, G. C. et al.</span>: <span class="ti">Structural basis of long-term potentiation in single dendritic spines.</span> <span class='so'>Nature, 429, 761-766 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15190253" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Matsuo, N., Reijmers, L. & Mayford, M.</span>: <span class="ti">Spine-type-specific recruitment of newly synthesized AMPA receptors with learning.</span> <span class='so'>Science, 319, 1104-1107 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18292343" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Harvey, C. D. & Svoboda, K.</span>: <span class="ti">Locally dynamic synaptic learning rules in pyramidal neuron dendrites.</span> <span class='so'>Nature, 450, 1195-1200 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18097401" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Losonczy, A., Makara, J. K. & Magee, J. C.</span>: <span class="ti">Compartmentalized dendritic plasticity and input feature storage in neurons.</span> <span class='so'>Nature, 452, 436-441 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18368112" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Govindarajan, A., Israely, I., Huang, S. Y. et al.</span>: <span class="ti">The dendritic branch is the preferred integrative unit for protein synthesis-dependent LTP.</span> <span class='so'>Neuron, 69, 132-146 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21220104" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Chen, X., Leischner, U., Rochefort, N. L. et al.</span>: <span class="ti">Functional mapping of single spines in cortical neurons <em>in vivo</em>.</span> <span class='so'>Nature, 475, 501-505 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21706031" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Varga, Z., Jia, H., Sakmann, B. et al.</span>: <span class="ti">Dendritic coding of multiple sensory inputs in single cortical neurons in vivo.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 108, 15420-15425 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21876170" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">池谷 裕二（Yuji Ikegaya）</span><br>略歴：1998年 東京大学大学院薬学系研究科博士課程 修了，同年 同 助手，2002年 米国Columbia大学 客員研究員，2006年 東京大学大学院薬学系研究科 講師を経て，2007年より同 准教授．<br>研究テーマ：システム薬理学，脳回路学．<br>抱負：大脳皮質や海馬の研究をつうじて脳の健康や老化について探求したい．<br><br><strong>高橋 直矢（Naoya Takahashi）</strong><br>東京大学大学院薬学系研究科 助教．<br></div><br>© 2012 池谷裕二・高橋直矢 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 信頼度の異なる情報を組み合わせて判断を形成する神経機構 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>信頼度の異なる情報を組み合わせて判断を形成する神経機構</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>吉良 信一郎</strong><br>（米国Harvard Medical School，Department of Neurobiology）<br>email：<a href="mailto:shin_kira@hms.harvard.edu">吉良信一郎</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.026">10.7875/first.author.2015.026</a><br><div class="reference"><br><span class="ti">A neural implementation of Wald's sequential probability ratio test.</span><br><span class="au">Shinichiro Kira, Tianming Yang, Michael N. Shadlen</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25661183" target="_blank"><em>Neuron</em>, <strong>85</strong>, 861-873 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　多くの複雑な判断においては，つぎつぎに得られる情報を適切に重みづけし蓄積することにより，より正確な判断をくだすことが可能になる．さらに，つぎつぎに得られる情報のあいだで信頼度が異なる場合には，信頼度の高い情報により重く重みづけすることがもとめられる．二者択一の判断における統計学的に最適な方法として，情報が得られるごとにその情報をいずれの選択肢を支持するかの確率の比として蓄積し，蓄積量が一定の値をこえた時点で判断をくだす方法が知られている．過去の研究において，脳はこれに似た方法で判断をくだしていると推測されていたが，直接的な検証はされていなかった．この研究では，サルをトレーニングし，異なる情報量をもつ図形をつぎつぎに提示してそれらの情報にもとづき判断をくださせる実験を行った．その結果，外側頭頂間野のニューロンの活動は情報の蓄積量と比例関係にあり，サルは神経活動が一定の値に達した時点で判断をくだしていることが明らかにされた．さらに，この実験により明らかにされた神経活動にもとづくモデルにより，サルの判断の行動を再現し説明できることが示された．<br/><br/><h2>はじめに</h2><br/>　なにかの判断をくだす際，われわれは種々の情報を組み合わせ，それらを総合して判断する．情報の信頼度は個々の情報において異なることが多い．たとえば，医師は患者のうったえる症状や検査の結果の組合せにもとづき総合的に診断をくだす．この場合，“だるい”“咳がでる”などの患者の個々のうったえが，判断をくだすために必要な個々の情報である．患者の既往歴などから呼吸器系の疾患がうたがわれる場合，“だるい”という情報はほかの多くの疾患においても現われる症状のためあまり役にたたないが，“咳がでる”という情報は呼吸器系の疾患によく現われる症状のためその診断に大きく役だつ．したがって，咳の有無という情報は呼吸器系の疾患の診断において信頼度が高く，この情報により重く重みづけして診断をくだすべきことになる．<br/>　過去の心理物理的な実験において，信頼度の異なる情報に対し脳が適切に重みづけし，適切な判断をくだすことが示されていた<a href="#R1"><sup>1)</sup></a>．しかし，それらの研究の多くは，すべての情報を同時に提示しているか，得られる情報の数が決まっているかしており，脳が判断をくだすのに必要な情報量などについては明らかにされていなかった．そこで，この研究においては，定量化された情報を個別に連続してあたえることにより，脳が判断をくだすのに必要な条件について調べた．<br/>　効率のよい判断にもとめられるのは，短時間で正確な選択を行うことである．二者択一の判断において信頼度の異なる情報が制限なくつぎつぎに得られる場合，最小数の情報から定められた正答率を導き出す最適な統計学的な手法が確立しており，逐次確率比検定として知られている<a href="#R2"><sup>2)</sup></a>．この手法では，おのおのの情報がどちらの選択肢を支持するかの確率比を対数で評価し，一定の値まで蓄積する．じつは，この過程に類似した神経活動が過去の神経生理的な実験から得られている<a href="#R3"><sup>3,4)</sup></a>．この実験では，ノイズをともなう視覚刺激の動く方向をサルに判断させるという課題を用い，外側頭頂間野という領域のニューロンが判断に相関した活動を示すという結果が得られた．外側頭頂間野のニューロンは視野の一部に応答野とよばれる領域をもち，応答野に視覚刺激が提示されたり，応答野にむけ眼を動かそうと計画したりするとき，その神経活動（発火の頻度）が増加する<a href="#R5"><sup>5)</sup></a>．この実験では，サルがある判断をくだした時点で選択肢となるターゲットにむけ眼を動かすことにより判断の結果を表すのだが，その際，1）ターゲットが外側頭頂間野のニューロンの応答野にあるとき，そのターゲットを選択する判断が近づくにつれ外側頭頂間野のニューロンの活動は増加する，2）活動が閾値に達すると，サルは眼を動かし判断が終了する，3）視覚刺激の動きが強まり動きについてより信頼度の高い情報が得られるようになると，ニューロンの活動は閾値までより急激に増加し，すばやい判断がくだされる．このような生理学的な機序によると，判断の速度と正確さとの関係をうまく説明することが可能になる．<br/>　この実験では，感覚情報が神経活動として蓄積され閾値に達した時点で判断がくだされるという点が，逐次確率比検定の判断の方法と類似する一方，情報の信頼度は試行におけるあらゆるタイミングで一定であったので，逐次確率比検定のように信頼度の異なる情報を脳が閾値まで適切に蓄積できるかどうかは明らかにされなかった．そこで，この研究においては，信頼度の異なる情報がつぎつぎに提示される場合に脳は逐次確率比検定に相当する神経機構により判断をくだすという仮説をたてた．<br/><br/><h2>1．情報が蓄積されその量が閾値に達したときに判断がくだされる</h2><br/>　この仮説を検証する実験として，サルをトレーニングし，画面につぎつぎに現われる図形から得られる情報をもとに判断をくだせるよう学習させた（<a href="#F1">図1a</a>）．2つの選択肢に相当するターゲットAおよびターゲットBがあり，サルはそのいずれか報酬の割り当てられているほうのターゲットにむけ眼を動かすことで選択した場合にのみ，報酬を得ることができる．全8種類の図形のうち，4種類はターゲットAから報酬が得られる場合に多く出現するため，ターゲットAから報酬が得られる確率の高いことを示す（<a href="#F1">図1b</a>）．他方，残りの4種類はターゲットBから報酬が得られる確率の高いことを示す．どの程度の確率で報酬が得られるかという信頼度はおのおのの図形により異なり，報酬を得たいサルは信頼度の高い図形により重く重みづけして判断をくだすことがもとめられる．サルがいずれかのターゲットを選択するまで，図形は毎秒4つの割合で1つずつ出現と消失とをくり返す．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　複数の図形の情報にもとづく確率的な推測を要する課題</strong><br/>（a）表示された複数の図形から得られる情報を手がかりにして，サルが2つの選択肢のうちいずれかを選択する課題を行った．まず，注視点が画面の中央に現われ，注視が確認されると周囲の左右対称な位置に選択肢となるターゲットが出現し，つづいて，最初の図形が出現する．そののちは，毎秒4つの割合でつぎつぎに図形が出現と消失とをくり返し，サルがターゲットに眼を動かして判断の結果を表示するまでつづく．正しいターゲットを選択した場合にのみ，報酬として水が得られる．<br/>（b）報酬が2つのターゲットのどちらから得られるかにより，全8種類の図形が異なる確率の分布からサンプリングされて出現する．半数の図形はターゲットAから報酬がもらえる場合に出現する確率が高いのでターゲットAを支持する情報をあたえ，残りの半数はターゲットBを支持する情報をあたえる．図形のあたえる確率の情報は対数尤度比により評価することができ，その符号はいずれのターゲットを支持する情報であるかを示し，その絶対値は信頼度を示す．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kira-Neuron-15.2.18-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　複数の図形の情報にもとづく確率的な推測を要する課題" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kira-Neuron-15.2.18-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kira-Neuron-15.2.18-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　この課題では，複数の図形から得られる情報を蓄積することにより正確な判断が可能になる．そのため，サルは学習により複数の図形を観察したのち判断をくだすようになり，90％以上の試行において，図形から得られる情報にもとづきより確率の高い選択肢を選ぶようになった．判断の時点におけるそれまでに提示された図形のあたえた情報の量を調べたところ，おのおのの試行においていくつの図形を観察したかにかかわらずほぼ一定であった．これは，累積した情報量が閾値をこえたときにサルが判断をくだしたためと考えられた．また，おのおのの図形の対数尤度比に応じて妥当な重みづけをして判断をくだしており，サルは特定の図形に反応して判断をくだしているわけではなく，すべての種類の図形の情報を用いて判断をくだしていることも明らかにされた．これらの結果より，サルは逐次確率比検定と同様の方法で判断をくだしていることが示された．<br/><br/><h2>2．外側頭頂間野における神経活動は蓄積した情報量を表す</h2><br/>　こうした逐次確率比検定に相当する判断が脳においてどのような神経機構により実現されているのかを調べるため，サルがこの課題を行っているときに外側頭頂間野のニューロンの活動記録を行った．その際，一方のターゲットは記録しているニューロンの応答野の中に，他方のターゲットは応答野の外の対称な位置に設定した．<br/>　最初の図形が出現したのち，外側頭頂間野のニューロンの活動は，どちらのターゲットから報酬がもらえるかを示す情報量に比例した変化をみせた．対数尤度比の値が大きな図形，すなわち，応答野の中にあるターゲットに眼を動かした場合に報酬の得られる確率の高いことを示す図形が出現した場合，神経活動はより増加した．最初の図形についてのみではなく，2番目，3番目とつぎつぎに図形が出現したのちにも，それらの図形から得られた累積対数尤度比と神経活動とは比例関係にあり，外側頭頂間野のニューロンの活動は図形から得た情報を蓄積し対数尤度比の単位で表現していることが示された．また，新しい図形の出現が神経活動を変化させる程度を調べたところ，その変化量は直前に提示された図形の対数尤度比と比例していた．これはつまり，新しい図形が出現するたびにその図形の対数尤度比に応じた分だけ神経活動が増加または減少することを示しており，まさに逐次確率比検定において対数尤度比が蓄積される過程と一致していた（<a href="#F2">図2a</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　逐次確率比検定と外側頭頂間野における神経活動との類似</strong><br/>（a）統計学的に最適な判断の方法．逐次確率比検定では，新しく得られる情報を対数尤度比を単位として評価し，その累積値が正あるいは負の閾値に達したところで判断がくだされる．この例では，7番目の図形が出現したとき（★）に累積対数尤度比がターゲットAを選択する閾値に達し，ターゲットAが選択されている．<br/>（b）神経活動が示唆する脳における判断の方法．外側頭頂間野のニューロンは，出現する図形が応答野の中のターゲットを支持するか，応答野の外のターゲットを支持するかにより活動を増加または減少させる傾向があり，その変化量は対数尤度比と相関がある．サルはさきに活動が閾値に達したニューロンの応答野の中にあるターゲットへむけ眼を動かし判断を示す．この例では，7番目の図形が出現したとき（★）に得られた情報が神経活動に反映されたときに応答野の中にターゲットAのある外側頭頂間野のニューロンが閾値に達し，ターゲットAが選択されている．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kira-Neuron-15.2.18-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　逐次確率比検定と外側頭頂間野における神経活動との類似" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kira-Neuron-15.2.18-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kira-Neuron-15.2.18-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．外側頭頂間野における神経活動が閾値に達したときに判断がくだされる</h2><br/>　サルが判断をくだすときの神経機構を調べるため，サルが判断をくだした時点（ターゲットへの眼を動かした時点）にタイミングをそろえて神経活動のデータを解析した．記録しているニューロンの応答野の中のターゲットを選択した試行を選別し累積対数尤度比と神経活動との相関を調べたところ，判断をくだした時点からさかのぼり約0.5秒前までは神経活動は累積対数尤度比に比例していたが，そののち，判断の終了にむけこの比例関係は低下していき，判断の0.05秒前～0.2秒前に神経活動は一定の最高値へと収束した．神経活動は一定の最高値へと収束していった．これはすなわち，神経活動は累積対数尤度比に比例して変化しつづけ，神経活動が閾値に達した時点で判断がくだされることを意味しており，逐次確率比検定において判断の過程が終了するしくみと一致した（<a href="#F2">図2a</a>）．<br/>　他方，ニューロンの応答野の外のターゲットを選択した試行を選別して相関を調べたところ，神経活動は判断がくだされるまで累積対数尤度比に比例しており，一定の値への収束は応答野の中のターゲットを選択した試行の場合ほど明確ではなかった．このことから，応答野の外のターゲットを選択した場合には下限となる閾値が存在するわけではなく，このニューロンの応答野の外のターゲットの領域にある別のニューロンの神経活動が閾値に達したときにこのターゲットが選択されるしくみになっていると考えられる．すなわち，おのおののニューロンはおもに応答野の中にあるターゲットを選択するための情報を収集し，そのターゲットの選択を制御しているといえる．<br/><br/><h2>4．外側頭頂間野における神経活動のモデルにより判断の行動は再現される</h2><br/>　ここまでの結果は，おおむね逐次確率比検定と一致するものであった．しかし，判断がくだされたときの累積対数尤度比の平均値は，サルが観察した図形の数にかかわらずほぼ一定ではあったものの，試行ごとの値のばらつきは逐次確率比検定から予測されるよりも大きく，厳密に逐次確率比検定と一致するものではなかった．この点を説明するため，外側頭頂間野における神経活動は対数尤度比と完全に一致するものではなく，出現する図形の対数尤度比に応じた神経活動に，さらにノイズがくわわった値が蓄積されているという仮説をたてた．この仮説の検証のため，ターゲットAを応答野にもつニューロンの集団AとターゲットBを応答野にもつニューロンの集団Bをそれぞれ想定し，2つのニューロンの集団が競合しながら判断を形成するというモデルを作製した（<a href="#F2">図2b</a>）．それぞれのニューロンの集団はこの実験において観察された図形の出現による神経活動の変化量の平均値にノイズをくわえた値を蓄積する．この際，一方のターゲットの選択を支持する情報はもう一方のターゲットの選択を否定する情報であるので，神経活動の変化量は2つのニューロンの集団で反比例する．たとえば，ターゲットAを支持する図形が出現した場合には集団Aは活動を増加させ，集団Bは活動を減少させる傾向がある．それぞれのニューロンの集団は閾値に達するまで図形の情報を神経活動として蓄積する．どちらかのニューロンの集団がさきに閾値に達した時点でその集団に対応するターゲットが選択され，判断の過程は終了する．このモデルにもとづくコンピューターシミューレーションにより，この実験において観察された判断のタイミング，正答率，判断の終了したときの累積対数尤度比のばらつきは定量的に再現された．これにより，外側頭頂間野における神経活動は蓄積した情報の対数尤度比をノイズをともない表現し，神経活動が閾値に達した時点で判断がくだされることになるという神経機構がより確実なものであることが示された．<br/><br/><h2>おわりに</h2><br/>　信頼度の異なる情報がつぎつぎに得られるような状況では，それらの情報を対数尤度比で評価して蓄積し，それが一定の値に達した時点で判断をくだすことにより，最小数の情報から一定の正答率を達成することができる．この方法は統計学的にもっとも効率的な方法であり逐次確率比検定として知られる．この研究においては，信頼度の異なる情報をあたえる図形がつぎつぎに出現する課題を使用したところ，サルはおのおのの図形の対数尤度比を蓄積し，累積対数尤度比が一定の値に達したところで判断をくだすことが観察された．また，判断をくだす際に眼の動きをともなうが，その判断の際に外側頭頂間野のニューロンが累積対数尤度比を反映した活動を示し，神経活動が閾値に達したところで眼の動きによる判断がくだされることが判明した．さらに，逐次確率比検定による結果と一致しない点について外側頭頂間野における神経活動のモデルを作製し，このモデルによりサルの判断の行動を再現し説明できることが示された．<br/>　外側頭頂間野は最終的な判断を表す眼の動きに深くかかわる領域であるが，外側頭頂間野が判断の行動の過程すべてをつかさどるものではないのかもしれない．しかし，眼の動きにより判断の結果を表示させる手法を採用することにより，判断に関連する情報が脳においていかに表現されているかを外側頭頂間野をつうじ観察することが可能になり，少なくとも，外側頭頂間野は観察のための便利な窓口になるといってよい．また，信頼度の異なる情報を一定の値まで蓄積して判断をくだすという神経機構は，手を用いて選択する場合などほかの運動出力系を使用した判断においても共通すると考えられている<a href="#R6"><sup>6)</sup></a>．もっとも，意思の表示を行う際に用いる運動出力系にかかわらず，脳は判断をくだすことができるはずである．そのような運動と独立した判断の情報が脳のどこで形成され，どのように外側頭頂間野あるいはそのほかの運動に関連する領域に適切に伝達されていくのかについてはいまだ解明されておらず，今後の研究において明らかにしていく必要がある．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Pouget, A., Beck, J. M., Ma, W. J. et al.</span>: <span class="ti">Probabilistic brains: knowns and unknowns.</span> <span class='so'>Nat. Neurosci., 16, 1170-1178 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23955561" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Wald, A. & Wolfowitz, J.</span>: <span class="ti">Optimum character of the sequential probability ratio test.</span> <span class='so'>Ann. Math. Statist., 19, 326-339 (1948)</span></li><br><li id="R3"><span class='au'>Roitman, J. D. & Shadlen, M. N.</span>: <span class="ti">Response of neurons in the lateral intraparietal area during a combined visual discrimination reaction time task.</span> <span class='so'>J. Neurosci., 22, 9475-9489 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12417672" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Gold, J. I. & Shadlen, M. N.</span>: <span class="ti">Neural computations that underlie decisions about sensory stimuli.</span> <span class='so'>Trends Cogn. Sci., 5, 10-16 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11164731" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Gnadt, J. W. & Andersen, R. A.</span>: <span class="ti">Memory related motor planning activity in posterior parietal cortex of macaque.</span> <span class='so'>Exp. Brain Res., 70, 216-220 (1988)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/3402565" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Resulaj, A., Kiani, R., Wolpert, D. M. et al.</span>: <span class="ti">Changes of mind in decision-making.</span> <span class='so'>Nature, 461, 263-266 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19693010" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">吉良 信一郎（Shinichiro Kira）</span><br>略歴：2014年 米国Washington州立大学大学院 修了，同年より米国Harvard Medical School研究員．<br>研究テーマ：短期記憶にもとづいた判断の行動を生み出す神経機構．<br>関心事：条件により柔軟な判断の行動を生み出す神経機構．<br></div><br>© 2015 吉良 信一郎 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

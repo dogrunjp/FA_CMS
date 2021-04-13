@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 紡錘体形成チェックポイントタンパク質Mad1はキネシンをキネトコアにつなぎとめることにより染色体の整列を促進する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>紡錘体形成チェックポイントタンパク質Mad1はキネシンをキネトコアにつなぎとめることにより染色体の整列を促進する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>明楽隆志・渡邊嘉典</strong><br>（東京大学分子細胞生物学研究所 染色体動態研究分野）<br>email：<a href="mailto:akera@sas.upenn.edu">明楽隆志</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.103">10.7875/first.author.2015.103</a><br><div class="reference"><br><span class="ti">Mad1 promotes chromosome congression by anchoring a kinesin motor to the kinetochore.</span><br><span class="au">Takashi Akera, Yuhei Goto, Masamitsu Sato, Masayuki Yamamoto, Yoshinori Watanabe</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26258632" target="_blank"><em>Nature Cell Biology</em>, <strong>17</strong>, 1124-1133 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　遺伝情報であるゲノムDNAを子孫に正しくひき継ぐためには，分裂期における正確な染色体分配が必須である．細胞は染色体を分配するため，紡錘体という微小管からなる分配装置を備えている．染色体は紡錘体のうえを動きまわったのち，紡錘体の赤道面に整列する．この染色体の整列は，そののち，染色体が娘細胞に正しく分配されるのに必須の過程である．しかしながら，染色体の整列を達成する機構については未知の部分が多かった．今回，筆者らは，染色体の整列が完了したことをチェックする機能をもつタンパク質<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>が，染色体の整列を促進する役目もあわせもつことを発見した．<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>は微小管のうえを移動するモータータンパク質である<a href="#" class="anno" data-query="Kinesin" data-uniprot="">キネシン</a>を整列していない染色体に局在させて，染色体を紡錘体の赤道面に輸送させていた．また，この機能は酵母からヒトまで進化的に保存されていたことから，真核生物の細胞分裂において根幹をなす分子機構であると考えられた．<br/><br/><h2>はじめに</h2><br/>　細胞が分裂期に突入すると分配装置である紡錘体が構築され，姉妹染色分体は娘細胞へと均等に分配される（<a href="#F1">図1</a>）．分裂前中期および分裂中期において姉妹染色分体は両方の極から伸長してきた紡錘体微小管によりしだいに捕捉され，分裂後期において分離する<a href="#R1"><sup>1)</sup></a>．姉妹染色分体を均等に分離するためには，染色体のキネトコア（動原体）と紡錘体微小管との正しい結合が必要であり，そのためには，紡錘体の赤道面への染色体の整列が不可欠である<a href="#R2"><sup>2)</sup></a>．この染色体の整列の過程に異常があると染色体の不均等な分配および細胞死が誘発されることになるので，実際には，細胞は整列していない染色体が存在した状態のまま分裂後期に移行しないよう細胞周期を一時停止させる監視機構を備えている．この紡錘体形成チェックポイントとよばれる機構は<a href="#R3"><sup>3)</sup></a>，整列していない染色体のキネトコアを感知し，細胞周期を停止させるシグナルを細胞内に拡散させるはたらきをもつ（<a href="#F1">図1</a>）．この染色体の整列を監視する機構の理解が進む一方で，実際に染色体の整列を促進する分子機構については未知の点が多く残されていた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　染色体の分配と紡錘体形成チェックポイント</strong><br/>分裂期において染色体が正しく分配されるためには，分配のまえにすべての染色体が紡錘体の赤道面に整列する必要がある．Mad1は整列していない染色体のキネトコアに局在し，Mad2を介して細胞周期を停止させるシグナルを細胞内に拡散させる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Watanabe-Nature-Cell-Biology-15.8.28-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　染色体の分配と紡錘体形成チェックポイント" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Watanabe-Nature-Cell-Biology-15.8.28-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Watanabe-Nature-Cell-Biology-15.8.28-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　紡錘体形成チェックポイントにおいて中心となるタンパク質である<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>は，紡錘体微小管に結合していないキネトコアに局在し，<a href="#" class="anno" data-query="Mad2" data-uniprot="O14417">Mad2</a>を活性化することにより細胞周期を停止させる<a href="#R4"><sup>4,5)</sup></a>．この<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>はいくつかの生物において紡錘体形成チェックポイントのほかにも機能をもつ可能性が示唆されていたが，具体的な解析はされていなかった<a href="#R6"><sup>6)</sup></a>．<br/><br/><h2>1．分裂酵母において<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>は<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>をキネトコアに局在させる</h2><br/>　分裂酵母において，<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>の破壊株および<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>がキネトコアに局在できない変異株は，その下流のタンパク質である<a href="#" class="anno" data-query="Mad2" data-uniprot="O14417">Mad2</a>の破壊株と比較して染色体分配に異常の起こる頻度の高いことが知られていた<a href="#R7"><sup>7)</sup></a>．これは，<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>がキネトコアにおいて，<a href="#" class="anno" data-query="Mad2" data-uniprot="O14417">Mad2</a>の活性化だけではなく染色体分配に必要なほかの機能も担っている可能性を示唆した．そこで，<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>のもつ紡錘体形成チェックポイントのほかの機能について探るため，分裂酵母において<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>と相互作用するタンパク質を酵母ツーハイブリッド法によりスクリーニングした．その結果，<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>と相互作用するタンパク質のひとつとしてモータータンパク質である<a href="#" class="anno" data-query="Kinesin" data-uniprot="">キネシン</a>のひとつ<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>/kinesin-5が同定された．<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>は紡錘体に局在しその双極性を確立するのに必須のタンパク質であるが，そのほかの機能は知られていなかった<a href="#R8"><sup>8)</sup></a>．分裂期において<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>の局在を観察したところ，<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>と同様に微小管と結合していないキネトコアに局在していた．また，<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>と結合できない<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>の変異株の解析から，<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>は<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>と直接的に結合することによりキネトコアにつなぎとめられていることが判明した．<br/><br/><h2>2．キネトコアに局在する<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>は染色体の整列を促進する</h2><br/>　微小管と結合していないキネトコアに局在した<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>は，どのような機能を担うのだろうか．<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>は紡錘体の形成に必須であるため，その破壊株は致死でありキネトコアにおける<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>の機能解析は不可能だと考えられた．そこで，<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>と結合できない<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>の変異株を用いて，<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>のキネトコアにおける機能を探索した．<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>がキネトコアに局在できない変異株について，分裂期においてライブイメージング法により観察したところ，紡錘体の赤道面に整列できない染色体がみられた．また，この変異株における染色体の整列の異常は<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>がキネトコアに局在できなくなったことに起因するのかどうかを確かめるため，<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>を<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>に依存することなく人工的にキネトコアにつなぎとめた．これにより染色体の整列の異常は回復したことから，<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>のキネトコアにおける機能は染色体の整列にあると結論された．<br/><br/><h2>3．<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>は染色体を微小管のプラス端にむかって輸送することにより染色体の整列を促進する</h2><br/>　<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>がどのようにして染色体の整列を促進しているかについて検討した．<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>を含む<a href="#" class="anno" data-query="Kinesin" data-uniprot="">キネシン</a>は，一般的に微小管のプラス端にむかって移動する．双極性の紡錘体にある微小管は，大雑把にいって紡錘体の赤道面にプラス端，紡錘体の極にマイナス端をむけた配向をとる．つまり，紡錘体の極において整列していない染色体に局在した<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>が微小管のプラス端にむかって移動すると，結果として，染色体を紡錘体の赤道面に輸送することになると推察された．この仮説を確かめるため，微小管のマイナス端からプラス端への染色体の動きを観察するのに適した単極性の紡錘体を用いた系を構築した．単極性の紡錘体において染色体の動きを詳細に追跡したところ，<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>がキネトコアに局在できない場合には染色体が微小管のプラス端にむかって動く頻度がいちじるしく低下した．したがって，<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>は染色体を微小管のプラス端にむかって輸送することにより染色体の整列に寄与していると示唆された．また，これまでの結果から，<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>を介した染色体の整列こそが<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>のもつ紡錘体形成チェックポイントのほかの機能であることがわかった（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　Mad1はキネシンのキネトコアへの局在を介して染色体の整列を促進する</strong><br/>微小管と正しく結合していない染色体のキネトコアにはMad1が局在し，Mad2を介して紡錘体形成チェックポイントを活性化することにより時間をかせぎつつ，キネシンをキネトコアに局在させることにより染色体の整列を促進する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Watanabe-Nature-Cell-Biology-15.8.28-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　Mad1はキネシンのキネトコアへの局在を介して染色体の整列を促進する" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Watanabe-Nature-Cell-Biology-15.8.28-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Watanabe-Nature-Cell-Biology-15.8.28-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>4．ヒトにおいても<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>は染色体の整列を促進する</h2><br/>　<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>は真核生物に広く保存されたタンパク質であるため，<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>による染色体の整列の機構も進化的に保存されている可能性があった．この可能性をヒトの培養細胞であるHeLa細胞を使い検討したところ，<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>をノックダウンしたHeLa細胞においては整列していない染色体が多く観察された．したがって，ヒトにおいても<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>は染色体の整列に必要であるといえた．そこで，分裂酵母の場合と同様に，<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>のヒトにおけるホモログである<a href="#" class="anno" data-query="Eg5" data-uniprot="P52732">Eg5</a>が<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>によりキネトコアに局在しているかどうか検討したが，<a href="#" class="anno" data-query="Eg5" data-uniprot="P52732">Eg5</a>はキネトコアには局在しなかった．そこで，キネトコアに局在し染色体の整列に必要であることが報告されていた<a href="#" class="anno" data-query="CENP-E" data-uniprot="Q02224">CENP-E/kinesin-7</a>に着目した<a href="#R9"><sup>9)</sup></a>．<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>をノックダウンしたHeLa細胞において<a href="#" class="anno" data-query="CENP-E" data-uniprot="Q02224">CENP-E</a>のキネトコアへの局在を観察したところ，顕著に減弱していた．このことから，<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>はヒトにおいても<a href="#" class="anno" data-query="Kinesin" data-uniprot="">キネシン</a>をキネトコアにつなぎとめることにより染色体の整列を促進すると示唆された．よって，分裂酵母およびヒトにおいて染色体の整列の分子機構は保存されており，紡錘体形成チェックポイントの中心となる<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>は，染色体の整列をチェックするだけでなく，染色体の整列を直接的に促進していることが明らかにされた．<br/><br/><h2>おわりに</h2><br/>　紡錘体の赤道面に整列できず紡錘体の極に取り残された染色体は，時間的な猶予を得るため紡錘体形成チェックポイントを活性化すると同時に，染色体の整列を促進するため<a href="#" class="anno" data-query="Kinesin" data-uniprot="">キネシン</a>をキネトコアへ局在させる．この同時に必要性の生じる2つの分子機構を<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>というひとつのタンパク質が制御していることは，非常に理にかなっている．また，分裂酵母とヒトにおいて，染色体の整列に異なる<a href="#" class="anno" data-query="Kinesin" data-uniprot="">キネシン</a>を用いている点も興味深い．ヒトを含めた高等生物において染色体の整列に寄与する<a href="#" class="anno" data-query="CENP-E" data-uniprot="Q02224">CENP-E</a>は，酵母においてホモログがみつかっていない．<a href="#" class="anno" data-query="CENP-E" data-uniprot="Q02224">CENP-E</a>は<a href="#" class="anno" data-query="Cut7" data-uniprot="P24339">Cut7</a>あるいは<a href="#" class="anno" data-query="Eg5" data-uniprot="P52732">Eg5</a>と比べ3倍以上も長いストークをもち，最近，この並外れて長いストークがヒトの染色体を輸送するのに必要であることが明らかにされた<a href="#R10"><sup>10)</sup></a>．ヒトの染色体は酵母に比べいちじるしく大きなキネトコアを形成することを考えると，高等生物において染色体を整列するために，適応進化により<a href="#" class="anno" data-query="CENP-E" data-uniprot="Q02224">CENP-E</a>が誕生したことが示唆される．染色体分配の異常はがんにおいてよく観察される．また，<a href="#" class="anno" data-query="Mad1" data-uniprot="P87169">Mad1</a>や<a href="#" class="anno" data-query="CENP-E" data-uniprot="Q02224">CENP-E</a>をコードする遺伝子の変異はがんにつながることが報告されていることから，この研究はがんの発症機構の観点からも注目される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Cheeseman, I. M. & Desai, A.</span>: <span class="ti">Molecular architecture of the kinetochore-microtubule interface.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 9, 33-46 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18097444" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Kapoor, T. M., Lampson, M. A., Hergert, P. et al.</span>: <span class="ti">Chromosomes can congress to the metaphase plate before biorientation.</span> <span class='so'>Science, 311, 388-391 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16424343" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Musacchio, A. & Salmon, E. D.</span>: <span class="ti">The spindle-assembly checkpoint in space and time.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 8, 379-393 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17426725" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Maldonado, M. & Kapoor, T. M.</span>: <span class="ti">Constitutive Mad1 targeting to kinetochores uncouples checkpoint signalling from chromosome biorientation.</span> <span class='so'>Nat. Cell Biol., 13, 475-482 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21394085" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Ikui, A. E., Furuya, K., Yanagida, M. et al.</span>: <span class="ti">Control of localization of a spindle checkpoint protein, Mad2, in fission yeast.</span> <span class='so'>J. Cell Sci., 115, 1603-1610 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11950879" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Emre, D., Terracol, R., Poncet, A. et al.</span>: <span class="ti">A mitotic role for Mad1 beyond the spindle checkpoint.</span> <span class='so'>J. Cell Sci., 124, 1664-1671 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21511728" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Vanoosthuyse, V., Valsdottir, R., Javerzat, J. P. et al.</span>: <span class="ti">Kinetochore targeting of fission yeast Mad and Bub proteins is essential for spindle checkpoint function but not for all chromosome segregation roles of Bub1p.</span> <span class='so'>Mol. Cell. Biol., 24, 9786-9801 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15509783" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Hagan, I. & Yanagida, M.</span>: <span class="ti">Kinesin-related cut7 protein associates with mitotic and meiotic spindles in fission yeast.</span> <span class='so'>Nature, 356, 74-76 (1992)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1538784" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Wood, K. W., Sakowicz, R., Goldstein, L. S. et al.</span>: <span class="ti">CENP-E is a plus end-directed kinetochore motor required for metaphase chromosome alignment.</span> <span class='so'>Cell, 91, 357-366 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9363944" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Vitre, B., Gudimchuk, N., Borda, R. et al.</span>: <span class="ti">Kinetochore-microtubule attachment throughout mitosis potentiated by the elongated stalk of the kinetochore kinesin CENP-E.</span> <span class='so'>Mol. Biol. Cell, 25, 2272-2281 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24920822" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">明楽 隆志（Takashi Akera）</span><br>略歴：2014年 東京大学大学院理学系研究科博士課程 修了，東京大学分子細胞生物学研究所 ポスドクを経て，2015年より米国Pennsylvania大学 ポスドク．<br>研究テーマ：染色体分配と進化．<br>抱負：サイエンスを楽しみつづける．<br><br><strong>渡邊 嘉典（Yoshinori Watanabe）</strong><br>東京大学分子細胞生物学研究所 教授．<br>研究室URL：<a href="http://www.iam.u-tokyo.ac.jp/watanabe-lab/" target="_blank">http://www.iam.u-tokyo.ac.jp/watanabe-lab/</a><br></div><br>© 2015 明楽隆志・渡邊嘉典 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

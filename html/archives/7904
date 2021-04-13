@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> エピジェネティックなヒストンH2A.Zの排除により異所的なセントロメアは安定化する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>エピジェネティックなヒストンH2A.Zの排除により異所的なセントロメアは安定化する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>荻山友貴・石井浩二郎</strong><br>（大阪大学大学院生命機能研究科 染色体機能制御研究室）<br>email：<a href="mailto:ogiyama@fbs.osaka-u.ac.jp">荻山友貴</a>，<a href="mailto:ishii@fbs.osaka-u.ac.jp">石井浩二郎</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.146">10.7875/first.author.2013.146</a><br><div class="reference"><br><span class="ti">Epigenetically induced paucity of histone H2A.Z stabilizes fission-yeast ectopic centromeres.</span><br><span class="au">Yuki Ogiyama, Yuko Ohno, Yoshino Kubota, Kojiro Ishii</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24186062" target="_blank"><em>Nature Structural & Molecular Biology</em>, <strong>20</strong>, 1397-1406 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　セントロメアは染色体の娘細胞への均等分配において不可欠な染色体の領域である．セントロメアはエピジェネティックに維持され，ごくまれに染色体の異なる領域にも形成される．しかし，ネオセントロメアとよばれるそのような領域が安定に維持される機構は不明であった．筆者らは，分裂酵母において安定性の低いネオセントロメアを解析することにより，その原因がヒストンH2AのバリアントのひとつであるヒストンH2A.Zの分布にあることを見い出した．不安定なネオセントロメアはヒストンH2A.Zの分布する染色体の腕部に形成されるが，このネオセントロメアをヒストンH2A.Zの排除された領域に配置することによりそのセントロメアとしての機能は回復した．また，安定性の低下したネオセントロメアではヒストンシャペロンであるScm3の結合量が顕著に低下していたが，ヒストンH2A.Zの排除された領域に配置されたネオセントロメアではScm3の結合に回復がみられた．ヒストンH2A.Zの排除には染色体の末端の領域およびヘテロクロマチンが関与し，これら2つのエピジェネティックな協調によりネオセントロメアは安定化されることがわかった．<br/><br/><h2>はじめに</h2><br/>　生命の設計図を記した染色体を娘細胞に正確に分配できるのは，微小管が染色体にあるセントロメアを認識して結合しこれを牽引するからである．ゆえに，染色体は必ずセントロメアをもつ．ヒトを含め，多くの真核生物においてセントロメアの位置はエピジェネティックに規定されていることが知られ，生物種のなかでは規定された領域が必ずセントロメアとして受け継がれていく<a href="#R1"><sup>1)</sup></a>．しかしながら，ごくまれに本来とは異なる位置に新たなセントロメアがつくりだされる例があり，形成された新たなセントロメアは“ネオセントロメア”とよばれる<a href="#R2"><sup>2)</sup></a>（<a href="#F1">図1</a>）．ネオセントロメアは染色体の分断などによりセントロメアが染色体からなくなった場合の柔軟なレスキュー機構と考えられるが，正常な染色体において起こると有害であるため，そのバランスを制御するための機構を理解することはゲノムの安定性を理解するうえで非常に重要である．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　セントロメアの除去によるネオセントロメアの形成</strong><br/>セントロメアは，基盤となるセントロメアに特異的なヌクレオソームと，このヌクレオソームを認識して集合するセントロメアに特異的なタンパク質からなる．分裂酵母において染色体からセントロメアを除去すると，本来はセントロメアではなかった領域にネオセントロメアが形成される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishii-Nature-Structural-Molecular-Biology-13.12.6-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　セントロメアの除去によるネオセントロメアの形成" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishii-Nature-Structural-Molecular-Biology-13.12.6-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishii-Nature-Structural-Molecular-Biology-13.12.6-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　筆者らは，これまでに，モデル生物である分裂酵母において染色体からセントロメアを除去する系を確立し，この系により構築されたセントロメアをもたない染色体は染色体の末端の付近にネオセントロメアを形成し，さらに，このネオセントロメアは本来のセントロメアとほぼ同等の染色体分配能と安定性を保持することを明らかにしてきた<a href="#R3"><sup>3)</sup></a>．今回，筆者らは，この系を用いて分裂酵母の第3染色体にネオセントロメアを形成させることにより，染色体の腕部に機能欠損型のネオセントロメアがつくられることを見い出した．この機能欠損型のネオセントロメアの特徴を解析した結果，セントロメアに特異的なタンパク質のひとつであるScm3が，ヒストンH2AのバリアントのひとつであるヒストンH2A.Zによりそのセントロメアへの結合を阻害され，その結果，セントロメアが不安定になっていることを見い出した．<br/><br/><h2>1．ネオセントロメアは形成される位置により機能に違いが生じる</h2><br/>　セントロメアを染色体から除去すると染色体の正確な分配に異常をきたし細胞は死ぬ運命にあるが，筆者らはこれまでに，ごく少数の細胞はネオセントロメアの形成，あるいは，セントロメアをもつほかの染色体との融合により生き残ることを見い出してきた．3本の染色体をもつ分裂酵母の第1染色体および第2染色体において形成されたネオセントロメアの位置を同定した結果，多くのネオセントロメアは染色体の末端より少し内側のサブテロメア領域に形成されており，サブテロメア領域がネオセントロメアの形成におけるホットスポットであることがわかった．このネオセントロメアは本来のセントロメアとほぼ同等の染色体分配能と安定性を示した．一方，第3染色体に形成されたネオセントロメアは染色体の分配が異常になるなどセントロメアとしての機能の一部を欠損しており，形成される位置もサブテロメア領域ではなく染色体の腕部であることがわかった．染色体の腕部においてはネオセントロメアの安定化に関与する未知の因子の量が低下していることが予測されたため，この機能欠損型のネオセントロメアに注目し，その構成タンパク質を詳細に解析して機能的なセントロメアおよびネオセントロメアと比較することにより，この未知の因子を明らかにすることを試みた．<br/><br/><h2>2．機能欠損型のネオセントロメアではScm3の結合量が低下している</h2><br/>　セントロメアはセントロメアに特異的なヒストンH3のバリアントであるCENP-Aを含む特殊なヌクレオソームを構築することで，ほかの領域とは異なっている<a href="#R4"><sup>4)</sup></a>．セントロメアのクロマチンには多くのセントロメアに特異的なタンパク質が集合してDNA-タンパク質複合体を形成し，微小管を介した染色体の正確な分配を保証している．第3染色体に形成されたネオセントロメアが機能の欠損を示す原因を解明するため，セントロメアに特異的なタンパク質のネオセントロメアへの結合量をクロマチン免疫沈降法により解析した．その結果，CENP-AのヒストンシャペロンであるScm3の結合量が機能欠損型のネオセントロメアにおいて減少していることがわかった．Scm3の欠失はセントロメアへのCENP-Aの取り込みを減少させることによりセントロメアの機能を低下させることが知られている<a href="#R5"><sup>5,6)</sup></a>．蛍光観察により第3染色体に形成されたネオセントロメアにおけるCENP-Aを定量したところ，その結合量が低下していることがわかった．これらの結果から，機能欠損型のネオセントロメアはScm3を効率的に取り込めないためネオセントロメアに十分な量のCENP-Aを取り込むことができず，セントロメアとしての機能の低下と不安定化をひき起こすことが示唆された．<br/><br/><h2>3．サブテロメア領域へのネオセントロメアの移植は機能の欠損を回復させる</h2><br/>　第3染色体に機能の欠損を示すネオセントロメアをもつ細胞を数十世代にわたり培養しつづけたところ，セントロメアとしての機能を回復する細胞が現われた．これらの細胞の染色体の構造を調べると，ネオセントロメアを欠失した第3染色体がほかの染色体と融合した融合型回復と，ネオセントロメアを維持しつつ第3染色体に特有のrDNAリピート配列のリピート数を約60コピーから1～2コピーにまで減少させたrDNA減少型回復の2種類に分類することができた．rDNA減少型回復を示した細胞のネオセントロメアにおいては，機能の回復にともないScm3およびCENP-Aの結合量の回復が観察された．rDNAリピート配列は第3染色体においてサブテロメア領域のさらに内側に位置する．機能の回復したネオセントロメアはこのrDNAリピート配列のとなりに形成されており，rDNAリピート配列におけるリピート数の減少の結果，サブテロメア領域にネオセントロメアが近接する状況が生じたと考えられた．この状況は，第1染色体および第2染色体にみられる機能的なネオセントロメアと類似していたことから，ネオセントロメアがサブテロメア領域に近接することがその機能において重要であることが示唆された．野生型の細胞において，第3染色体のrDNAリピート配列を含む末端の領域を第1染色体の末端の領域と交換することにより，第3染色体においてネオセントロメアの形成される領域をあらかじめサブテロメア領域に近接させると，この第3染色体においてネオセントロメアの形成の効率は上昇し，さらに，形成されたネオセントロメアはすべて正常な機能と高い安定性を保持していた．ネオセントロメアにおけるDNA配列は変化していなかったことから，ネオセントロメアの周辺の環境がセントロメアの機能にとって重要であることがわかった．<br/><br/><h2>4．ヒストンH2A.ZはScm3の取り込みをさまたげる</h2><br/>　ネオセントロメアにおいてセントロメアとしての機能に差を生み出す因子を明らかにするため，サブテロメア領域と染色体の腕部の領域とで分布に違いのある因子に着目した．ヒストンH2AのバリアントであるヒストンH2A.Zは，活発に遺伝子を発現する染色体の腕部に多く分布し，サブテロメア領域における分布の少ない代表的なタンパク質である<a href="#R7"><sup>7)</sup></a>．興味深いことに，セントロメアあるいは機能的なネオセントロメアにおいてヒストンH2A.Zの分布とCENP-Aの分布は負の相関を示したのに対し，機能欠損型のネオセントロメアではヒストンH2A.Zがより多く分布していた．また，セントロメアおよびサブテロメア領域においてヒストンH2A.Zの分布を上昇させることが知られる<em>msc1</em>変異株では，セントロメアへのScm3の取り込みが減少し，細胞周期のM期におけるセントロメアへのCENP-Aの取り込みも減少していた．これらの事実から，セントロメアへのヒストンH2A.Zのあやまった取り込みがセントロメアへのScm3の取り込みを阻害することが示唆された．<br/><br/><h2>5．ヘテロクロマチンはネオセントロメアにおいてヒストンH2A.Zを減少させる</h2><br/>　サブテロメア領域と染色体の腕部とのもうひとつの大きな違いとして，ヘテロクロマチンがある．分裂酵母においてヘテロクロマチンは，テロメア領域およびサブテロメア領域，セントロメア領域，接合型遺伝子座位の3つの領域に存在し，セントロメアにおいてはコヒーシンをリクルートすることによりセントロメアの安定性を保証している<a href="#R8"><sup>8,9)</sup></a>．Scm3の取り込みにヘテロクロマチンが関与している可能性を検証するため，第3染色体に形成された機能欠損型のネオセントロメアのとなりにセントロメア領域のヘテロクロマチンの部分配列を挿入することにより人工的にヘテロクロマチンをつくりだした．このヘテロクロマチンを挿入した細胞はネオセントロメアにおいてセントロメアとしての機能を部分的に回復し，ネオセントロメアへのScm3の結合量も部分的に回復した．一方，ネオセントロメアにおけるヒストンH2A.Zの結合量は減少していたことから，ヘテロクロマチンがヒストンH2A.Zを取り除くことによりScm3がネオセントロメアに取り込まれやすくなることが示唆された．<br/>　さきに述べた，数十世代にわたる培養によりネオセントロメアがセントロメアとしての機能を回復した細胞のうち，rDNA減少型回復を示した細胞ではネオセントロメアがサブテロメア領域のヘテロクロマチンと近接するようになるため，ヘテロクロマチンの影響によりネオセントロメアにおいて機能の回復が起こった可能性も考えられた．この仮説を検証するため，rDNA減少型回復を示した細胞においてヘテロクロマチンの形成に関与するタンパク質HP1（分裂酵母では，Swi6）の遺伝子を破壊することにより，ネオセントロメアが機能を回復するまえの不安定な状態に逆もどりするかどうか観察した．しかし，ヘテロクロマチンを欠失してもいちど回復したネオセントロメアのセントロメアとしての機能と安定性は損なわれなかった．これらの実験の結果より，ヘテロクロマチンと，少なくとも染色体の末端に存在するもうひとつの未知の因子が協調し，ヒストンH2A.Zをクロマチンから排除することによりネオセントロメアの安定性を高めていることが考えられた．<br/><br/><h2>おわりに</h2><br/>　セントロメアは染色体においてひとつの領域に規定されることにより染色体の分配を確実なものにしている．ひとつの染色体に複数のセントロメアが存在しても，逆に，セントロメアがなくなっても，染色体は分配の異常をひき起こすことから，セントロメアの形成は正確に制御されなければならない．一方，生物種のあいだで比較するとセントロメアの位置は必ずしも同じではなく，セントロメアが移動または新規に形成された痕跡が残っていることがある<a href="#R10"><sup>10)</sup></a>．セントロメアは生物種のなかでは正確に受け継がれながら，一方で，染色体の構成に変化が起こればそれに柔軟に対応してネオセントロメアを形成してきたことになる．筆者らの研究により，遺伝子の発現が比較的活発に起こっている染色体の腕部では，ヒストンH2A.Zの高頻度な分布によりネオセントロメアが不安定化することがわかった（<a href="#F2">図2</a>）．この機構により，染色体からセントロメアがなくなった場合にも遺伝子の発現と重複することなく新たな位置に機能的なネオセントロメアを形成することができる．また，染色体の腕部に不安定ながらも一過的に形成されたネオセントロメアは，そこからさらに適応した細胞が生じるための時間的な猶予を生み出すことができると考えられる．ネオセントロメアの段階的な安定化の機構により，生物種のなかでのセントロメアの確実な継承と，染色体が再編成されたときの柔軟な対応，という二面性を維持することができる．また，今回の研究により，染色体の末端に形成されたネオセントロメアを安定化させる，未知の因子の存在が明らかになった．ネオセントロメアの安定化の機構のさらなる解明が期待される．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ネオセントロメアはヒストンH2A.ZがScm3の取り込みをさまたげることにより不安定化する</strong><br/>染色体の腕部にはヒストンH2A.Zが分布する．ヒストンH2A.Zはセントロメアに特異的なタンパク質であるScm3のネオセントロメアへの取り込みをさまたげるため，ネオセントロメアは不安定化する．一方，染色体の末端の領域ではヒストンH2A.Zは排除されているため，Scm3が安定に供給されることにより，ネオセントロメアは安定化すると考えられる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishii-Nature-Structural-Molecular-Biology-13.12.6-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ネオセントロメアはヒストンH2A.ZがScm3の取り込みをさまたげることにより不安定化する" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishii-Nature-Structural-Molecular-Biology-13.12.6-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishii-Nature-Structural-Molecular-Biology-13.12.6-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Santaguida, S. & Musacchio, A.</span>: <span class="ti">The life and miracles of kinetochores.</span> <span class='so'>EMBO J., 28, 2511-2531 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19629042" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Marshall, O. J., Chueh, A. C., Wong, L. H. et al.</span>: <span class="ti">Neocentromeres: new insights into centromere structure, disease development, and karyotype evolution.</span> <span class='so'>Am. J. Hum. Genet., 82, 261-282 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18252209" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Ishii, K., Ogiyama, Y., Chikashige, Y. et al.</span>: <span class="ti">Heterochromatin integrity affects chromosome reorganization after centromere dysfunction.</span> <span class='so'>Science, 321, 1088-1091 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18719285" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Allshire, R. C. & Karpen, G. H.</span>: <span class="ti">Epigenetic regulation of centromeric chromatin: old dogs, new tricks?</span> <span class='so'>Nat. Rev. Genet., 9, 923-937 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19002142" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Williams, J. S., Hayashi, T., Yanagida, M. et al.</span>: <span class="ti">Fission yeast Scm3 mediates stable assembly of Cnp1/CENP-A into centromeric chromatin.</span> <span class='so'>Mol. Cell, 33, 287-298 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19217403" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Pidoux, A. L., Choi, E. S., Abbott, J. K. et al.</span>: <span class="ti">Fission yeast Scm3: A CENP-A receptor required for integrity of subkinetochore chromatin.</span> <span class='so'>Mol. Cell, 33, 299-311 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19217404" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Buchanan, L., Durand-Dubief, M., Roguev, A. et al.</span>: <span class="ti">The <em>Schizosaccharomyces pombe</em> JmjC-protein, Msc1, prevents H2A.Z localization in centromeric and subtelomeric chromatin domains.</span> <span class='so'>PLos Genet., 5, e1000726 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19911051" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Ekwall, K., Javerzat, J. P., Lorentz, A. et al.</span>: <span class="ti">The chromodomain protein Swi6: a key component at fission yeast centromeres.</span> <span class='so'>Science, 269, 1429-1431 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7660126" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Watanabe, Y.</span>: <span class="ti">Geometry and force behind kinetochore orientation: lessons from meiosis.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 13, 370-382 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22588367" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Ventura, M., Antonacci, F., Cardone, M. F. et al.</span>: <span class="ti">Evolutionary formation of new centromeres in macaque.</span> <span class='so'>Science, 316, 243-246 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17431171" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">荻山 友貴（Yuki Ogiyama）</span><br>略歴：2009年より大阪大学大学院生命機能研究科 研究員．2010年 久留米大学大学院医学研究科にて博士号取得．<br>研究テーマ：分裂酵母におけるネオセントロメアの形成の機構．<br><br><strong>石井 浩二郎（Kojiro Ishii）</strong><br>大阪大学大学院生命機能研究科 特任准教授．<br>研究室URL：<a href="http://www.fbs.osaka-u.ac.jp/labs/ishii/index.html" target="_blank">http://www.fbs.osaka-u.ac.jp/labs/ishii/index.html</a><br></div><br>© 2013 荻山友貴・石井浩二郎 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

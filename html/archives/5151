@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> NMDA受容体におけるMg2+ブロックはCREBに依存性の長期記憶に関連する遺伝子の発現誘導に必須である : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>NMDA受容体におけるMg<sup>2+</sup>ブロックはCREBに依存性の長期記憶に関連する遺伝子の発現誘導に必須である</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>宮下知之・齊藤 実</strong><br>（東京都医学総合研究所 学習記憶プロジェクト）<br>email：<a href="mailto:saito-mn@igakuken.or.jp">齊藤 実</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.079">10.7875/first.author.2012.079</a><br><div class="reference"><br><span class="ti">Mg<sup>2+</sup> block of <em>Drosophila</em> NMDA receptors is required for long-term memory formation and CREB-dependent gene expression.</span><br><span class="au">Tomoyuki Miyashita, Yoshiaki Oda, Junjiro Horiuchi, Jerry C. P. Yin, Takako Morimoto, Minoru Saitoe</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22681692" target="_blank"><em>Neuron</em>, <strong>74</strong>, 887-898 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　NMDA受容体はMg<sup>2+</sup>ブロックという機構をもち，これにより，シナプス後細胞は興奮していないときにはNMDA受容体を介したCa<sup>2+</sup>の流入が抑制されている．これまで，NMDA受容体は連合学習の成立や長期記憶の形成に必要であることが示されてきたが，Mg<sup>2+</sup>ブロックがこれらにおいてどのような役割をはたしているかは不明であった．筆者らは，Mg<sup>2+</sup>ブロックを欠損した変異NMDA受容体を発現するトランスジェニックショウジョウバエを作製し，Mg<sup>2+</sup>ブロックは連合学習の成立には不要だが，長期記憶の形成には必須であることを示す結果を得た．このトランスジェニックショウジョウバエにおいては長期記憶学習に応じ転写因子CREBに依存して上昇する，長期記憶あるいは長期増強に関連する遺伝子の発現が顕著に抑制されていた．興味深いことに，Mg<sup>2+</sup>ブロック変異NMDA受容体トランスジェニックショウジョウバエの脳においては抑制型CREBの発現が顕著に増加していた．抑制型CREBの発現量と長期記憶の形成阻害とには顕著な正の相関があり，このトランスジェニックショウジョウバエでみられた長期記憶の形成阻害の一因は抑制型CREBの発現上昇にあることが示唆された．こうした結果から，Mg<sup>2+</sup>ブロックの生理的な役割は学習を行っていない定常状態においてNMDA受容体を介したCa<sup>2+</sup>の流入を阻止して抑制型CREBの発現を抑制することであり，これにより，長期記憶学習のときにCREBに依存した遺伝子発現は可能となることが示唆された．<br/><br/><h2>はじめに</h2><br/>　イオン透過型グルタミン酸受容体のひとつNMDA受容体は高いCa<sup>2+</sup>透過性をもち，細胞におけるシグナル伝達系の起点として重要な役割をはたしている．シナプス後細胞の興奮していないときにはNMDA受容体のイオン通過孔はMg<sup>2+</sup>によりふさがれていて<a href="#R1"><sup>1,2)</sup></a>，グルタミン酸が結合してもCa<sup>2+</sup>は流入できない（<a href="#F1">図1</a>）．しかし，ほかのイオン透過型受容体の活性化などによりシナプス後細胞が脱分極の状態になるとこのMg<sup>2+</sup>は外れ，このとき，NMDA受容体にグルタミン酸が結合するとCa<sup>2+</sup>はシナプス後細胞に流入する．このように，NMDA受容体はMg<sup>2+</sup>ブロックを介してシナプス前細胞の活動とシナプス後細胞の活動の同期性と非同期性を判別できるため，連合学習において重要な役割を担うと考えられてきた（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　匂いと電気ショックによる匂い回避行動のモデルによるMg<sup>2+</sup>ブロックをもとにした連合学習</strong><br/>（a）条件付けのまえ．Mg<sup>2+</sup>ブロックの存在のもとでは入力1のみではシナプス後神経は興奮せず回避行動も起こらない．<br/>（b）条件付けの成立．入力1に入力2がともなうとMg<sup>2+</sup>ブロックが外れ，NMDA受容体からのCa<sup>2+</sup>の流入によりCa<sup>2+</sup>シグナル伝達系が活性化される．<br/>（c）条件付けののち．入力1と入力2との連合の結果，非NMDA型受容体の挿入などにより入力1のシナプスが強化される．これにより，入力1のみで回避行動が起こるようになる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Saitoe-Neuron-12.6.6-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　匂いと電気ショックによる匂い回避行動のモデルによるMg<sup>2+</sup>ブロックをもとにした連合学習" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Saitoe-Neuron-12.6.6-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Saitoe-Neuron-12.6.6-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　ショウジョウバエにおいてNMDA受容体は連合学習の成立と長期記憶の形成に必要である<a href="#R3"><sup>3)</sup></a>．しかし，こうした過程にMg<sup>2+</sup>ブロックはどのように関与しているのか？　なぜ非同期性のCa<sup>2+</sup>流入を抑制する必要があるのか？　など，Mg<sup>2+</sup>ブロックの生理的な役割は不明であった．<br/><br/><h2>1．Mg<sup>2+</sup>ブロックを欠損した変異NMDA受容体を発現するトランスジェニックショウジョウバエ</h2><br/>　NMDA受容体はNR1サブユニットとNR2サブユニットからなるヘテロサブユニット複合体であり，Mg<sup>2+</sup>ブロックはそれぞれサブユニットの第2膜貫通領域のいわゆる“Mg<sup>2+</sup>ブロック部位”にあるアスパラギン残基に依存している<a href="#R4"><sup>4,5)</sup></a>．このアスパラギン残基をグルタミン残基に置換するとMg<sup>2+</sup>ブロックは消失する<a href="#R4"><sup>4,6)</sup></a>．<br/>　ショウジョウバエにおいて，NR1サブユニットのMg<sup>2+</sup>ブロック部位にあるアスパラギン残基をグルタミン残基に置換した変異体を神経系において発現するトランスジェニックショウジョウバエを作製した．このトランスジェニックショウジョウバエにおいて発現するNMDA受容体の電気生理学的な性質を調べたところ，Mg<sup>2+</sup>ブロックの顕著な欠損が観察された．哺乳類においてはNR1サブユニットのMg<sup>2+</sup>ブロック部位に変異を導入するとMg<sup>2+</sup>ブロックが消失するだけでなくCa<sup>2+</sup>透過性も減少する．しかし興味深いことに，このトランスジェニックショウジョウバエの発現する変異NMDA受容体においてはMg<sup>2+</sup>ブロックの消失に相関したCa<sup>2+</sup>透過性の顕著な減少は観察されなかった．<br/><br/><h2>2．Mg<sup>2+</sup>ブロック変異NMDA受容体トランスジェニックショウジョウバエにおいては長期記憶の形成が特異的に阻害される</h2><br/>　この結果から，作製されたトランスジェニックショウジョウバエはMg<sup>2+</sup>ブロックを欠損した変異NMDA受容体を発現していることがわかった．そこで，このトランスジェニックショウジョウバエを用いMg<sup>2+</sup>ブロックの生理的な役割を，匂い条件付け連合学習課題により調べた．Mg<sup>2+</sup>ブロック変異NMDA受容体トランスジェニックショウジョウバエは，NMDA受容体のNR1サブユニットの発現を抑制した変異ショウジョウバエとは異なり，連合学習と短期記憶は正常だった．しかし，間隔を空けて行うくり返し学習による長期記憶学習により形成される長期記憶は，同様に阻害されていた．<br/>　Mg<sup>2+</sup>ブロック変異NMDA受容体トランスジェニックショウジョウバエにおいては内因性のNMDA受容体NR1サブユニットが残存しているため正常な連合学習が成立した可能性があった．しかし，NMDA受容体NR1サブユニット変異ショウジョウバエにおける連合学習は，Mg<sup>2+</sup>ブロックを欠失したNMDA受容体NR1サブユニットの発現により回復したことから，連合学習の成立にはMg<sup>2+</sup>ブロックは関与していないことが示唆された．<br/>　従来，Mg<sup>2+</sup>ブロックは連合学習の成立に必須であり，Mg<sup>2+</sup>ブロックによる連合性の入力と非連合性の入力との識別がなければ匂い条件付けにおいて特定の匂い刺激に対する連合学習は成立せず，あらゆる匂いに対し記憶の般化（generalization）が起こるものと想像されていた．しかし，調べた範囲において記憶の般化はみられなかった．<br/><br/><h2>3．Mg<sup>2+</sup>ブロック変異NMDA受容体トランスジェニックショウジョウバエにおいてはCREBに依存して発現する長期記憶に関連する遺伝子の発現誘導が阻害されている</h2><br/>　長期記憶の形成には長期記憶学習に応じた遺伝子発現が必要である．そこで，<em>stau</em>遺伝子，<em>homer</em>遺伝子，<em>activin</em>遺伝子といった長期記憶あるいは後期の長期増強の形成に必要な遺伝子の発現を長期記憶学習ののち調べたところ，野生型ショウジョウバエでみられるこれら遺伝子の発現上昇は，NMDA受容体NR1サブユニット変異ショウジョウバエのみならず，Mg<sup>2+</sup>ブロック変異NMDA受容体トランスジェニックショウジョウバエにおいても顕著に抑制されていた．<br/>　長期記憶に関連する多くの遺伝子の発現には転写因子CREBの活性が重要な役割をはたしている<a href="#R7"><sup>7)</sup></a>．<em>stau</em>遺伝子，<em>homer</em>遺伝子，<em>activin</em>遺伝子の長期記憶学習ののちの発現上昇もCREBに依存性であることがわかった．以上の結果から，Mg<sup>2+</sup>ブロックは長期記憶学習に応じCREBに依存して，長期記憶に関連する遺伝子が発現誘導されるために必要な機構であることがわかった．<br/><br/><h2>4．Mg<sup>2+</sup>ブロックは学習を行っていないときの抑制型CREBの発現上昇を抑制する</h2><br/>　転写因子CREBには転写活性をもつ活性型ともたない抑制型とがあり，学習を行っていない定常状態において抑制型CREBの発現が上昇すると，Mg<sup>2+</sup>ブロック変異NMDA受容体トランスジェニックショウジョウバエと同様に，長期記憶の形成が特異的に抑制される<a href="#R7"><sup>7)</sup></a>．そこで，抑制型CREBの発現を調べたところ，Mg<sup>2+</sup>ブロック変異NMDA受容体トランスジェニックショウジョウバエにおいては対照となる系統に比べ4倍近くも発現が上昇していた．この抑制型CREBの発現上昇がMg<sup>2+</sup>ブロックの消失によるものかどうかを調べるため，野生型ショウジョウバエの脳をMg<sup>2+</sup>の非存在において培養したところやはり抑制型CREBの発現が上昇し，この発現上昇はNMDA受容体の阻害剤により抑制された．<br/>　Mg<sup>2+</sup>ブロック変異NMDA受容体トランスジェニックショウジョウバエにおいて発現の上昇した抑制型CREBは長期記憶の形成を抑制するに十分なのか，抑制型CREBの発現量と長期記憶の形成阻害との相関を定量的に解析したところ正の相関が認められ，抑制型CREBの4倍近くの発現上昇より長期記憶の形成を顕著に阻害しうることが示された．以上の結果から，Mg<sup>2+</sup>ブロック変異NMDA受容体トランスジェニックショウジョウバエにおいて学習を行っていない定常状態ではNMDA受容体を介したCa<sup>2+</sup>流入の抑制の不全が起こり，その結果，抑制型CREBの発現が上昇し長期記憶の形成が阻害されることが示唆された．<br/><br/><h2>おわりに</h2><br/>　Mg<sup>2+</sup>ブロックはNMDA受容体のHebb型一致検出器（coincidence detector）としての機能をもたらす機構であり，シナプス後細胞における長期増強の誘発や連合学習におけるシナプスの機序を説明するのにきわめて都合のよい性質であると考えられてきた．しかし，今回の結果は，Mg<sup>2+</sup>ブロックは連合学習の成立ではなく，むしろ，長期記憶を成立させるために必要であることを強く示唆した．<br/>　筆者らの結果は，NMDA受容体を介したCa<sup>2+</sup>の流入は，学習していないとき（非同期性）に起こるか，連合学習のとき（同期性）に起こるかでまったく異なる役割をもつことを示した（<a href="#F2">図2</a>）．非同期性の，おそらく，自発的な開口放出などによる小さなCa<sup>2+</sup>流入は，なんらかの分子機構により抑制型CREBの発現を上昇させ長期記憶に関連する遺伝子の発現誘導を阻害する．一方，同期性の大きなCa<sup>2+</sup>流入は連合学習やCREBの活性化に必要なリン酸化酵素の活性を上昇させ，長期記憶に関連する遺伝子の発現をCREB依存性に誘導する．Mg<sup>2+</sup>ブロック変異NMDA受容体トランスジェニックショウジョウバエにおいて同期性の入力は正常だが，後者の非同期性のCa<sup>2+</sup>流入は抑制不全である．一方，NMDA受容体NR1サブユニット変異ショウジョウバエにおいて前者の同期性のCa<sup>2+</sup>流入は阻害されるが，非同期性のCa<sup>2+</sup>流入は正常に抑制される．非同期性のCa<sup>2+</sup>流入により抑制型CREBの発現を増加させるのは何か？　この機構の解明がつぎの重要な課題である．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　非同期性の入力と同期性の入力におけるCa<sup>2+</sup>の流入の違い</strong><br/>（a）非同期性の入力（学習していないとき）．長期記憶に関連する遺伝子の発現誘導は阻害される．Mg<sup>2+</sup>ブロック変異NMDA受容体トランスジェニックショウジョウバエにおいては非同期性の入力の抑制不全により長期記憶の形成が阻害されている，<br/>（b）同期性の入力（連合学習のとき）．長期記憶に関連する遺伝子の発現は誘導される．NMDA受容体NR1サブユニット変異ショウジョウバエにおいては同期性の入力の不全により長期記憶の形成が阻害されている．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Saitoe-Neuron-12.6.6-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　非同期性の入力と同期性の入力におけるCa<sup>2+</sup>の流入の違い" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Saitoe-Neuron-12.6.6-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Saitoe-Neuron-12.6.6-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Mayer, M. L., Westbrook, G. L. & Guthrie, P. B.</span>: <span class="ti">Voltage-dependent block by Mg<sup>2+</sup> of NMDA responses in spinal cord neurons.</span> <span class='so'>Nature, 309, 261-263 (1984)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/6325946" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Nowak, L., Bregestovski, P., Ascher, P. et al.</span>: <span class="ti">Magnesium gates glutamate-activated channels in mouse central neurons.</span> <span class='so'>Nature, 307, 462-465 (1984)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/6320006" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Xia, S., Miyashita, T., Fu, T. F. et al.</span>: <span class="ti">NMDA receptors mediate olfactory learning and memory in <em>Drosophila</em>.</span> <span class='so'>Curr. Biol., 15, 603-615 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15823532" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Burnashev, N., Schoepfer, R., Monyer, H. et al.</span>: <span class="ti">Control by asparagine residues of calcium permeability and magnesium blockade in the NMDA receptor.</span> <span class='so'>Science, 257, 1415-1419 (1992)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1382314" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Mori, H., Masaki, H., Yamakura, T. et al.</span>: <span class="ti">Identification by mutagenesis of a Mg<sup>2+</sup>-block site of the NMDA receptor channel.</span> <span class='so'>Nature, 358, 673-675 (1992)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1386653" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Single, F. N., Rozov, A., Burnashev, N. et al.</span>: <span class="ti">Dysfunctions in mice by NMDA receptor point mutations NR1(N598Q) and NR1(N598R).</span> <span class='so'>J. Neurosci., 20, 2558-2566 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10729336" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Yin, J. C., Wallach, J. S., Del Vecchio, M. et al.</span>: <span class="ti">Induction of a dominant negative CREB transgene specifically blocks long-term memory in <em>Drosophila</em>.</span> <span class='so'>Cell, 79, 49-58 (1994)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7923376" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">宮下 知之（Tomoyuki Miyashita）</span><br>略歴：1994年 東京都神経科学総合研究所 研究員，2000年 日本大学大学院農学研究科にて博士号取得，2011年より東京都医学総合研究所 主任研究員．<br>研究テーマ：分散効果（spacing effect）を中心とした長期記憶のシグナル伝達経路，老化による記憶障害の分子機構．<br><br><strong>齊藤  実（Minoru Saitoe）</strong><br>東京都医学総合研究所 参事研究員．<br>研究室URL：<a href="http://www.igakuken.or.jp/memory/index.html" target="_blank">http://www.igakuken.or.jp/memory/index.html</a><br></div><br>© 2012 宮下知之・齊藤 実 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

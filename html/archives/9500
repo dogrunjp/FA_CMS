@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> アンセリジオーゲンはジベレリンの生合成経路を時間的および空間的に分けることによりシダの性を決定する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>アンセリジオーゲンはジベレリンの生合成経路を時間的および空間的に分けることによりシダの性を決定する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>田中純夢・上口 (田中) 美弥子</strong><br>（名古屋大学生物機能開発利用研究センター 有用農業形質保存分野）<br>email：<a href="mailto:mueguchi@agr.nagoya-u.ac.jp">上口 (田中) 美弥子</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.144">10.7875/first.author.2014.144</a><br><div class="reference"><br><span class="ti">Antheridiogen determines sex in ferns via a spatiotemporally split gibberellin synthesis pathway.</span><br><span class="au">Junmu Tanaka, Kenji Yano, Koichiro Aya, Ko Hirano, Sayaka Takehara, Eriko Koketsu, Reynante Lacsamana Ordonio, Seung-Hyun Park, Masatoshi Nakajima, Miyako Ueguchi-Tanaka, Makoto Matsuoka</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25342803" target="_blank"><em>Science</em>, <strong>346</strong>, 469-473 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　シダ植物のいくつかは，集団における遺伝的な多様性を確保するため，雄と雌の比を制御するフェロモン様の物質を分泌する．このフェロモン様の物質はアンセリジオーゲンとよばれており，雄の個体を誘導するはたらきがある．いくつかのシダのアンセリジオーゲンの構造は植物ホルモンであるジベレリンと類似している．この論文において，筆者らは，シダにおけるアンセリジオーゲンを介した個体のあいだのコミュニケーションについて明らかにした．この個体間コミュニケーション系とは，異なる生育ステージにある個体のあいだでジベレリンの生合成経路を分けて所有することにより成立するもので，アンセリジオーゲンはこの2つの個体をつなぐ架け橋として機能する．すなわち，集団において早く成熟した配偶体はアンセリジオーゲンを周囲に分泌する．アンセリジオーゲンは活性型のジベレリンとは異なる構造をもち生理活性を示さないが，一方で，生体に取り込まれやすいという性質をもつ．遅れて発生した若い個体は分泌されたアンセリジオーゲンを取り込み，生体においてこれを活性型ジベレリンへと変換する．生理活性を示す活性型ジベレリンが産生されることにより雄の個体の形成がはじまる．<br/><br/><h2>はじめに</h2><br/>　シダ植物の生活環は，配偶体世代が主体のコケ植物と，胞子体世代が主体の種子植物の，ちょうど中間をとるような世代交代をする．シダ植物の配偶体世代は，とくに前葉体とよばれる，ハート型の形状をしている．この前葉体の時期に起こる特異的な現象として，フェロモン様の物質を介した雄性配偶体の形成の誘導がある．集団において成長ステージの進んだ個体がフェロモン様の物質を分泌し，遅く成長してきた性の決定していない個体に対し作用して，造精器のみをもつ前葉体へと変えるのである．現在までに，18種のシダ植物において同様の作用をもたらす物質のあることが報告されている<a href="#R1"><sup>1)</sup></a>．そののち，これら造精器の誘導物質はアンセリジオーゲンと名づけられた<a href="#R2"><sup>2)</sup></a>．アンセリジオーゲンの意義は他家受精を促進することにあると考えられている<a href="#R3"><sup>3-5)</sup></a>．雌雄同体種の多いシダ植物において他家受精を行うことは，遺伝的な多様性を確保するために重要だと考えられている．<br/>　この論文で取り扱ったカニクサ（<em>Lygodium japonicum</em>）のアンセリジオーゲンは，種子植物における活性型のジベレリンと類似した構造をもつ<a href="#R1"><sup>1,6)</sup></a>．筆者らは，アンセリジオーゲンによる造精器の形成の誘導がジベレリンと同様の系を使用している，あるいは，まったく別の系を使用している，という2つの可能性のもと検証を行った．<br/><br/><h2>1．アンセリジオーゲンの感受性と生合成</h2><br/>　まず，カニクサにおいてアンセリジオーゲンがどの生育ステージから分泌され，どの生育ステージまで感受性があるのかを調べた．分泌能については，前葉体を横幅0.5 mm，1.0 mm，1.5 mm，2.0 mm，3.5 mm，5.0 mmになるまで生育させ，そののち，同じ培地にアンセリジオーゲンへの感受性の高い原糸体を代わりに移植して指標体とし，造精器の形成される原糸体の個体を計数することにより算出した．一方，感受性については，アンセリジオーゲンを含んだ培地におのおのの生育ステージの個体を植え，造精器が形成される個体を計数することにより算出した．その結果，分泌は横幅1.5 mm以上の個体にてはじまり，横幅3.5 mm以上の個体は造精器の形成を100％誘導するのに十分なアンセリジオーゲンを分泌していることがわかった．一方，感受性については，横幅1.0 mm以下の個体は高い感受性をもつが，そののち徐々に低下し，横幅3.5 mm以上の個体は感受性を完全に失っていることがわかった．これらの結果は，アンセリジオーゲンの合成および分泌と感受性に対する能力が，成熟した個体と小さな若い個体とで逆平行な関係にあることを示唆した．<br/>　カニクサのアンセリジオーゲン（GA<sub>9</sub>-Me）の構造をみると，活性型のジベレリン（GA<sub>4</sub>）と同じ<em>ent</em>-ジベレラン骨格をもっている<a href="#R1"><sup>1,6)</sup></a>．しかし，活性型ジベレリンに必須のC3位の水酸基がなく，C6位のカルボキシル基はメチルエステル化されている<a href="#R7"><sup>7)</sup></a>（<a href="#F1">図1</a>）．そこで，活性型ジベレリンおよびアンセリジオーゲンによる造精器の形成の誘導活性について調べた．その結果，どちらも造精器の形成の誘導活性をもつが，その活性はアンセリジオーゲンのほうが10倍以上も高いことがわかった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　アンセリジオーゲンおよびジベレリンの構造</strong><br/>アンセリジオーゲン（GA<sub>9</sub>-Me）はジベレリン（GA<sub>4</sub>）と非常に似た構造をとっているが，C3位の水酸基を欠き，C6位のカルボキシル基がメチルエステル化されている点が異なる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuoka-Science-14.10.24-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　アンセリジオーゲンおよびジベレリンの構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuoka-Science-14.10.24-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuoka-Science-14.10.24-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　ジベレリンの生合成の阻害剤であるウニコナゾール<a href="#R8"><sup>8)</sup></a> を投与することにより造精器の形成が抑制されるかどうかを検討した．その結果，ウニコナゾールの濃度に依存して造精器の形成は抑制されることがわかった．このとき，造卵器の形成は阻害されなかった．活性型ジベレリンあるいはアンセリジオーゲンを同時に添加したところ，造精器の形成の抑制はもとにもどるとともに，造卵器の形成が抑制されることがわかった．このことから，活性型ジベレリンおよびアンセリジオーゲンは造精器の形成の誘導および造卵器の形成の阻害という2つの役割を担うことが示唆された<a href="#R9"><sup>9)</sup></a>．以上の結果，および，以前の報告から<a href="#R1"><sup>1)</sup></a>，アンセリジオーゲンの生合成の少なくとも一部はジベレリンの生合成と同じ経路を使用していることが考えられた．<br/><br/><h2>2．アンセリジオーゲンの受容系</h2><br/>　カニクサからジベレリンの生合成やシグナル伝達に関する遺伝子をクローニングした．カニクサを含むシダ類のゲノムサイズは非常に大きいため，次世代シークエンサーを利用してRNAシークエンスを行うという戦略をとった．その結果，生合成に関与する遺伝子として，<em>CPS</em>遺伝子，<em>KS</em>遺伝子，<em>KO</em>遺伝子，<em>GA20ox</em>遺伝子，<em>GA3ox</em>遺伝子を，シグナル伝達に関与する遺伝子として，<em>GID1</em>遺伝子，<em>DELLA</em>遺伝子，<em>GID2/SLY1</em>遺伝子の配列情報を得ることができ，それらの配列情報をもとにそれぞれの全長cDNAをクローニングした．<em>GA3ox</em>遺伝子，<em>GID1</em>遺伝子，<em>DELLA</em>遺伝子については複数のオルソログがクローニングされたが，前葉体における発現はそれぞれ<em>Lj_GA3ox1</em>遺伝子，<em>Lj_GID1-1</em>遺伝子，<em>Lj_DELLA1</em>遺伝子がもっとも高かった．<br/>　まず，活性型ジベレリンとアンセリジオーゲンが同じシグナル伝達経路において作用しているのかどうかを調べるため，ジベレリンシグナル伝達系における初期の反応であるDELLAタンパク質の分解<a href="#R10"><sup>10,11)</sup></a> について特異抗体を用いて調べた結果，若い前葉体に活性型ジベレリンあるいはアンセリジオーゲンを投与すると，どちらの場合も1時間でLj_DELLA1タンパク質が分解されることがわかった．つづいて，RNAシークエンスにより得られた冗長性のない遺伝子セットを用いて，同様の処理をした際におけるトランスクリプトームを解析した．この結果，活性型ジベレリンあるいはアンセリジオーゲンの投与により発現の変動した2213個の遺伝子はきわめて相関性が高く，下流にてほぼ同じ遺伝子が発現していることがわかった．これらの結果から，アンセリジオーゲンは活性型ジベレリンと同様に，GID1-DELLA系を介してジベレリンシグナルをオンにしていることが示唆された．<br/>　アンセリジオーゲンがGID1-DELLA系により直接に受容されているのかどうかを調べるため，カニクサから単離したGID1（Lj_GID1-1）およびDELLA（Lj_DELLA1）を用いて酵母ツーハイブリッドアッセイを行った．種子植物やイヌカタヒバなどにおいては活性型ジベレリンと結合したGID1はDELLAと特異的に結合することがわかっている．カニクサにおいて活性型ジベレリンを処理した場合，その濃度に依存的してLj_GID1-1とLj_DELLA1との結合活性がみられた．さらに，活性型ジベレリンの最小反応濃度は種子植物よりも10～100倍ほど低く<a href="#R12"><sup>12,13)</sup></a>，カニクサはわずかな活性型ジベレリンも感知して結合できるよう進化していることが示唆された．一方，アンセリジオーゲンは濃度を上げても結合活性がみられなかった．これは，ほかのGID1オルソログあるいはDELLAオルソログの組合せでも同じであった．このことから，アンセリジオーゲンはそのままではGID1とは結合せず，ジベレリンシグナルもオンにしないことが示唆された．さらに，GID1の競合阻害剤であるTSPC <a href="#R14"><sup>14)</sup></a> を用いて造精器の形成の誘導が抑制されるかどうかを調べた．すると，TSPCによりアンセリジオーゲンによる造精器の形成の誘導作用が抑制され，活性型ジベレリンによりその抑制はもとにもどることがわかった．このことは，アンセリジオーゲンがGID1を介して造精器の形成を誘導していることを強く示唆した．<br/><br/><h2>3．アンセリジオーゲンが分泌されたあとの動態</h2><br/>　ジベレリンの生合成にはたらく遺伝子について，定量RT-PCR法によりその発現量を調べた．その結果，<em>Lj_CPS/KS</em>遺伝子，<em>Lj_KO</em>遺伝子，<em>Lj_KAO</em>遺伝子，<em>Lj_GA20ox</em>遺伝子は成熟した前葉体ほど高く発現するようになり，とくに，<em>Lj_GA20ox</em>遺伝子は若い前葉体に比べ成熟した横幅3.5 mmの前葉体において10～20倍も発現が上昇していた．反対に，<em>Lj_GA3ox1</em>遺伝子は成熟した個体に比べ若い個体において10～20倍も発現が上昇しており，その傾向は<em>Lj_GID1-1</em>遺伝子の発現と類似していた．このような<em>Lj_GA20ox</em>遺伝子と<em>Lj_GA3ox1</em>遺伝子との逆平行な発現の関係は，アンセリジオーゲンの合成および分泌と感受性との関係に非常に類似していた．<br/>　アンセリジオーゲンにおけるC3位の水酸基の必要性について，C3位水酸化酵素GA3oxの競合阻害剤であるプロヘキサジオン<a href="#R15"><sup>15)</sup></a> を用いて検証した．ともに約75％の造精器の誘導率を示すよう活性型ジベレリンあるいはアンセリジオーゲンを添加した培地にそれぞれプロヘキサジオンをくわえたところ，C3位の水酸基のないアンセリジオーゲンではプロヘキサジオンの濃度の上昇にしたがい造精器の形成の誘導が阻害された．一方，C3位の水酸基のある活性型ジベレリンとプロヘキサジオンとを共存させた場合には造精器の形成の誘導の阻害はほとんど起こらなかった．これらの結果は，造精器の形成にはC3位の水酸化の存在が必須であり，アンセリジオーゲンが造精器の形成を直接にひき起こす物質の前駆体であることが示唆された．さらに，<em>Lj_GA3ox1</em>遺伝子の発現パターンはアンセリジオーゲンの感受性パターンと類似していた．カニクサのGA3ox（Lj_GA3ox1）およびイネのGA3ox（OsGA3ox1）の組換えタンパク質を作製しその酵素活性を比較した．すると，活性型ジベレリンに対するLj_GA3ox1の<em>K</em><sub>m</sub>値は，イネやシロイヌナズナと比較して<a href="#R16"><sup>16)</sup></a>，10倍以上も低いことがわかった．一方，Lj_GA20oxの<em>K</em><sub>m</sub>値はLj_GA3ox1に比べ100倍以上も高い値であった．これらの結果は，カニクサのもつLj_GA3ox1は少量の基質に対しても反応できるよう特別に感度の高い構造をもつことを示唆した．<br/><br/><h2>4．アンセリジオーゲンが疎水的な構造をとる理由</h2><br/>　ここまでの結果を統合すると，多くの結果はアンセリジオーゲンが造精器の形成の誘導を直接に起こす物質（すなわち，活性型ジベレリン）の前駆体であることを示唆した．では，なぜ，シダ植物は活性型ジベレリンをアンセリジオーゲンとして用いてこなかったのだろうか．ある前葉体から水環境をわたってその周囲の前葉体へと取り込まれることにより成立する個体間コミュニケーションのため，シダ植物はジベレリンの構造をアンセリジオーゲン様に適応させてきたのではないかと考えた．その可能性を明らかにするため，まず，若い前葉体をGA<sub>9</sub>，アンセリジオーゲン（GA<sub>9</sub>-Me），活性型ジベレリン（GA<sub>4</sub>），GA<sub>4</sub>-Meを含む培地において生育させた．そののち，前葉体を取り除き，培地に残存するジベレリン類をガスクロマトグラフィー-質量分析法により定量することで取り込まれるジベレリン類の傾向について調べた．その結果，アンセリジオーゲン（GA<sub>9</sub>-Me）とそれにつづきGA<sub>9</sub>が優先的に前葉体に取り込まれることが観察された．また，別の実験では，放射性同位体により標識したアンセリジオーゲンおよび活性型ジベレリンを含む培地において若い前葉体を生育させたのち，前葉体を回収しジベレリンの取り込み量を測定した．その結果，アンセリジオーゲンは短時間で濃度に依存して取り込まれたのに対し，活性型ジベレリンは相当な時間が経過してもほとんど取り込まれず，アンセリジオーゲンの取り込み量にはとても及ばなかった．アンセリジオーゲンは，C3位の水酸基を欠きC6位カルボキシル基がメチルエステル化することにより疎水的な物質になっている．そして，その疎水性により，前葉体のおかれた水環境において，より短時間で確実に取り込まれ個体間コミュニケーションを行えるようになったのだろう．さらに，前葉体におけるアンセリジオーゲン（GA<sub>9</sub>-Me）からGA<sub>9</sub>への変換量をガスクロマトグラフィー-質量分析法により直接的に定量した．まず，若い前葉体および成熟した前葉体において初期のGA<sub>9</sub>の量を定量した結果，その量はほぼ同じであった．つぎに，アンセリジオーゲン（GA<sub>9</sub>-Me）を投与したのちのGA<sub>9</sub>の量を定量したところ，若い前葉体では約3.5倍に増加していたのに対し，成熟した個体ではほとんど変化していなかった．このことから，アンセリジオーゲン（GA<sub>9</sub>-Me）の取り込みおよびGA<sub>9</sub>への変換は，成熟した前葉体では起こらず，若い前葉体のみで起こることが示唆された．<br/><br/><h2>おわりに</h2><br/>　以上の結果から，ジベレリンの生合成経路を分けてもつことにより形成される，カニクサにおけるアンセリジオーゲンの性別の制御機構は以下のようであると結論した（<a href="#F1">図2</a>）．まず，集団において早く成熟した前葉体にて<em>GA3ox</em>遺伝子を除くジベレリン生合成遺伝子が発現し，発現した酵素によりC3位の水酸基のないGA<sub>9</sub>が合成される．つぎに，周囲の前葉体にこれを効率よく輸送するため，C6位のカルボキシル基のメチルエステル化という改変が行われアンセリジオーゲン（GA<sub>9</sub>-Me）となり，分泌型となって水環境に放出される．この輸送の過程では，特異的な輸送タンパク質の介在する可能性もある．つづいて，アンセリジオーゲンは集団において遅く発生した若い個体に取り込まれる．若い個体では<em>GA3ox</em>遺伝子が強く発現しており，まず，メチルエステラーゼによりC6位のカルボキシル基のメチル基が外されると考えられる．これは，カニクサのGA3oxオルソログであるLj_GA3ox1はC6位にメチル基のついた状態では作用しないことがわかっているためである．そして，メチル基の欠けたアンセリジオーゲン（GA<sub>9</sub>）はGA3oxの作用によりC3位が水酸化され活性型ジベレリン（GA<sub>4</sub>）へと変換される．活性型ジベレリンはGID1-DELLA系とそれに付随するGID2により受容される．これによりジベレリンシグナルがオンになり，造精器の形成の誘導および造卵器の形成の抑制が起こる．この一連の系により集団における雌と雄の比が制御され，他家受精が維持される．カニクサではこの系を成立させるため，アンセリジオーゲンを受容する際に鍵となるGA3oxとGID1を進化させてきた．カニクサのGID1オルソログであるLj_GID1-1は活性型ジベレリンに対する親和性が種子植物のGID1に比べ10～100倍ほど高く，同様に，カニクサのGA3oxオルソログであるLj_GA3ox1は基質に対する親和性が非常に高い．これらの事実は，若い前葉体においてこの2つのタンパク質が非常に低い濃度でしか存在しない基質でも応答ができるように適応してきたことを示している．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　カニクサにおけるアンセリジオーゲンによる性別の制御機構</strong><br/>成熟した個体において，ジベレリンの生合成経路の上流にある酵素までを使用したのち，メチルトランスフェラーゼによるメチルエステル化をうけてアンセリジオーゲンは完成する．分泌ののち，若い個体に取り込まれたアンセリジオーゲンはメチルエステラーゼによる脱メチル化をうけ，つづいてGA3oxによる水酸化をうけてジベレリンへと変換される．さらに，GID1により受容されることでジベレリンシグナルがオンになり，造精器の形成が誘導される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuoka-Science-14.10.24-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　カニクサにおけるアンセリジオーゲンによる性別の制御機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuoka-Science-14.10.24-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuoka-Science-14.10.24-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Yaname, H.</span>: <span class="ti">Fern antheridiogens.</span> <span class='so'>Int. Rev. Cytol., 184, 1-32 (1998)</span></li><br><li id="R2"><span class='au'>Naf, U.</span>: <span class="ti">On dark-germination and antheridium formation in <em>Anemia phyllitidis</em>.</span> <span class='so'>Physiol. Planta., 19, 1079-1088 (1966)</span></li><br><li id="R3"><span class='au'>Naf, U.</span>: <span class="ti">Antheridiogens and antheridial development.</span> <span class='so'><em>in</em> The Experimental Biology of Ferns (Dyer, A. F. ed.), pp. 436-470, Academic Press, New York (1979)</span></li><br><li id="R4"><span class='au'>Schneller, J. J.</span>: <span class="ti">Antheridiogens.</span> <span class='so'><em>in</em> Biology and Evolution of Ferns and Lycophytes (Ranker, T. A. & Haufler, C. H. eds.), pp. 134-158, Cambridge University Press, Cambridge (2008)</span></li><br><li id="R5"><span class='au'>Voeller, B. & Weinberg, E.</span>: <span class="ti">Evolutionary and physiological aspects of antheridium induction in ferns.</span> <span class='so'><em>in</em> Current Topics in Plant Science (Gunkel, J. ed.), pp. 77-93, Academic Press, New York (1969)</span></li><br><li id="R6"><span class='au'>Yamane, H., Takahashi, N., Takeno, K. et al.</span>: <span class="ti">Identification of gibberellin A<sub>9</sub> methyl ester as a natural substance regulating formation of reproductive organs in <em>Lygodium japonicum</em>.</span> <span class='so'>Planta, 147, 251-256 (1979)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24311041" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Hedden, P.</span>: <span class="ti">Plant biology: Gibberellins close the lid.</span> <span class='so'>Nature, 456, 455-456 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19037306" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Izumi, K., Kamiya, Y., Sakurai, A. et al.</span>: <span class="ti">Studies of sites of action of a new plant growth retardant (E)-1-(4-chlorophenyl)-4,4-dimethyl-2-(1,2,4-triazol-1-yl)-1-penten-3-ol (S-3307) and comparative effects of its stereoisomers in a cell-free system from <em>Cucurbita maxima</em>.</span> <span class='so'>Plant Cell Physiol., 26, 821-827 (1985)</span></li><br><li id="R9"><span class='au'>Takeno, K. & Furuya, M.</span>: <span class="ti">Sexual differentation in population of prothallia in <em>Lygodium japonicum</em>.</span> <span class='so'>Bot. Mag., 93, 67-76 (1980)</span></li><br><li id="R10"><span class='au'>Dill, A., Jung, H. S. & Sun, T. P.</span>: <span class="ti">The DELLA motif is essential for gibberellin-induced degradation of RGA.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 98, 14162-14167 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11717468" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Itoh, H., Ueguchi-Tanaka, M., Sato, Y. et al.</span>: <span class="ti">The gibberellin signaling pathway is regulated by the appearance and disappearance of SLENDER RICE1 in nuclei.</span> <span class='so'>Plant Cell, 14, 57-70 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11826299" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Nakajima, M., Shimada, A., Takashi, Y. et al.</span>: <span class="ti">Identification and characterization of Arabidopsis gibberellin receptors.</span> <span class='so'>Plant J., 46, 880-889 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16709201" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Yamamoto, Y., Hirai, T., Yamamoto, E. et al.</span>: <span class="ti">A rice <em>gid1</em> suppressor mutant reveals that gibberellin is not always required for interaction between its receptor, GID1, and DELLA proteins.</span> <span class='so'>Plant Cell, 22, 3589-3602 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21098733" target="_blank">PubMed</a>]</span></li><br><li id="R14"><span class='au'>Yoon, J. M., Nakajima, M., Mashiguchi, K. et al.</span>: <span class="ti">Chemical screening of an inhibitor for gibberellin receptors based on a yeast two-hybrid system.</span> <span class='so'>Bioorg. Med. Chem. Lett., 23, 1096-1098 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23298808" target="_blank">PubMed</a>]</span></li><br><li id="R15"><span class='au'>Nakayama, I., Kamiya, Y., Kobayashi, M. et al.</span>: <span class="ti">Effects of a plant-growth regulator, prohexadione, on the biosynthesis of gibberellins in cell-free systems derived from immature seeds.</span> <span class='so'>Plant Cell Physiol., 31, 1183-1190 (1990)</span></li><br><li id="R16"><span class='au'>Williams, J., Phillips, A. L., Gaskin, P. et al.</span>: <span class="ti">Function and substrate specificity of the gibberellin 3β-hydroxylase encoded by the Arabidopsis <em>GA4</em> gene.</span> <span class='so'>Plant Physiol., 117, 559-563 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9625708" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">田中 純夢（Junmu Tanaka）</span><br>略歴：名古屋大学大学院生命農学研究科博士前期課程 修了．<br><br><strong>上口 (田中)  美弥子</strong><br>名古屋大学生物機能開発利用研究センター 准教授．<br>研究室URL：<a href="http://bbc.agr.nagoya-u.ac.jp/~yuyo/" target="_blank">http://bbc.agr.nagoya-u.ac.jp/~yuyo/</a><br></div><br>© 2014 田中純夢・上口 (田中) 美弥子 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

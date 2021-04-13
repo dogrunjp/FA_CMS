@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> マウスの胎盤のラビリンスを構成する細胞へと分化する前駆細胞の発見 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>マウスの胎盤のラビリンスを構成する細胞へと分化する前駆細胞の発見</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>上野 将也</strong><br>（米国California大学Los Angeles校Department of Molecular, Cell and Developmental Biology）<br>email：<a href="mailto:masayaueno@staff.kanazawa-u.ac.jp">上野将也</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.154">10.7875/first.author.2013.154</a><br><div class="reference"><br><span class="ti">c-Met-dependent multipotent labyrinth trophoblast progenitors establish placental exchange interface.</span><br><span class="au">Masaya Ueno, Lydia K. Lee, Akanksha Chhabra, Yeon Joo Kim, Rajkumar Sasidharan, Ben Van Handel, Ying Wang, Masakazu Kamata, Paniz Kamran, Konstantina-Ioanna Sereti, Reza Ardehali, Meisheng Jiang, Hanna K.A. Mikkola</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24286824" target="_blank"><em>Developmental Cell</em>, <strong>27</strong>, 373-386 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　胎盤は母体から胎仔へ栄養や酸素を供給する，胎仔の発育にとり不可欠な臓器である．マウスにおいて胎盤による母体と胎仔とのあいだの物質交換は，ヒトの胎盤の絨毛に相当する，複雑に分岐したラビリンスとよばれる部位が担うが，このラビリンスの形成の過程や機能の制御にかかわる分子機構はほとんどわかっていない．今回，筆者らは，発生の中期のマウスの胎盤から，ラビリンスを構成するすべての栄養芽細胞に分化できる特殊な前駆細胞を発見し，ラビリンス栄養芽細胞前駆細胞と命名した．さらに，ラビリンス栄養芽細胞前駆細胞の維持と最終分化にはHGFの受容体であるc-Metが不可欠であること，胎盤に特異的なc-Metノックアウトマウスの解析からラビリンスを構成する栄養芽細胞における細胞極性の維持が母体から胎仔への鉄の輸送にきわめて重要であることを明らかにした．ラビリンス栄養芽細胞前駆細胞の維持やその分化における分子機構の解明は，胎盤の異常が原因と考えられているさまざまな妊娠合併症の発症機序の理解にも貢献することが期待される．<br/><br/><h2>はじめに</h2><br/>　胎盤は母体の血液と胎仔の血液とが循環する唯一の組織であり，胎盤を介し母体から胎仔へと栄養や酸素が供給され，逆に，胎仔の代謝物は母体へと排泄される．くわえて，胎盤はさまざまな成長因子やホルモンを分泌することにより妊娠を継続させ，一方で，造血組織としても機能し造血幹細胞の供給および分化の制御に寄与する<a href="#R1"><sup>1)</sup></a>．胎盤の異常は胎仔の発育に重大な影響をあたえることは自明であるが，妊娠高血圧症候群などでは母体にも深刻な影響をひき起こすことが知られており，さまざまな妊娠合併症の発症機序の解明には，正常な胎盤の形成の過程およびその機能の維持の機構を分子レベルで解明することが重要である．<br/>　マウスにおいて胎盤における物質交換は，ヒトの胎盤において絨毛に相当する，ラビリンスとよばれる部位にて行われる．ラビリンスでは母体の血液と胎仔の血液とが循環しているが，ラビリンス栄養芽細胞とよばれる特殊な細胞が胎盤関門を形成し，両者の血液は直接には混合しない．したがって，母体と胎仔とのあいだの物質交換はラビリンス栄養芽細胞により制御されている．ラビリンスの胎盤関門は3種のラビリンス栄養芽細胞，合胞栄養芽細胞-I，合胞栄養芽細胞-II，洞様巨大栄養芽細胞から構成されるが，すべてのラビリンス栄養芽細胞は着床まえの初期胚である胚盤胞の栄養外胚葉を起源とすることが知られている（<a href="#F1">図1</a>）．胚盤胞や着床の早期の原始胎盤から多分化能を維持したまま長期間にわたり培養の可能な栄養膜幹細胞を樹立することができる<a href="#R2"><sup>2)</sup></a>．しかし，ラビリンスの形態形成は発生の中期において劇的に起こるが，この時期の胎盤からは栄養膜幹細胞を同定できないことから<a href="#R3"><sup>3)</sup></a>，栄養膜幹細胞とは異なる未同定の前駆細胞がラビリンスの形態形成にかかわることが想定されていた<a href="#R4"><sup>4)</sup></a>．そこで，この研究では，ラビリンスの形成の過程およびその機能の制御機構を解明することを目的として，マウスの胎盤のラビリンスからの前駆細胞の同定を試み，その維持および分化にかかわる分子機構について解析した．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　マウスの胎盤におけるラビリンスの分化</strong><br/>ラビリンスを形成するすべての栄養芽細胞は胚盤胞の栄養外胚葉に由来し，栄養膜幹細胞として多分化能を維持したまま培養することができるが，発生の中期にどのような過程をへてラビリンスに分化するかについてはまったくわかっていなかった．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ueno-Developmental-Cell-13.11.25-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　マウスの胎盤におけるラビリンスの分化" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ueno-Developmental-Cell-13.11.25-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ueno-Developmental-Cell-13.11.25-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．Epcamは分裂しかつ未分化な栄養芽細胞に強く発現している</h2><br/>　発生の中期のマウスの胎盤からの前駆細胞の同定を試みた．胎盤において未分化な細胞を区別できるような分子マーカーは知られていなかったが，さまざまな上皮組織の幹細胞において発現するEpcamを用いることにより，分化したラビリンス栄養芽細胞とは異なる細胞の集団を発生の中期のラビリンスにおいて同定することに成功した．このEpcam強発現細胞は高い分裂活性を保持していたが，発生の後期の成熟した胎盤には存在しなかった．また，ラビリンス栄養芽細胞のひとつである合胞栄養芽細胞の最終分化のマーカーであるMct4の発現がみられなかったこと，栄養膜幹細胞とは異なり，合胞栄養芽細胞に特異的なマーカーを発現したことなどから，Epcam強発現細胞をラビリンスを形成する前駆細胞の候補と考えた．<br/><br/><h2>2．Epcam強発現細胞は多分化能をもつラビリンス栄養芽細胞前駆細胞である</h2><br/>　Epcam強発現細胞が3種のラビリンス栄養芽細胞への分化能をもつかどうかを解析するために，Epcam強発現細胞の培養系を確立した．発生の初期の胎盤から未分化な栄養芽細胞を単離し培養しても，ラビリンス栄養芽細胞のひとつである合胞栄養芽細胞への分化の誘導はむずかしいことが知られていた<a href="#R5"><sup>5)</sup></a>．これは，<em>in vitro</em>においては，合胞栄養芽細胞への分化において必須なGcm1の発現が，未分化な栄養芽細胞においてはいちじるしく阻害されてしまうことが原因と考えられていた．生体において未分化な栄養芽細胞はストローマ細胞と接着しなんらかのシグナルをうけとることによりGcm1の発現を維持していることが知られていたことから<a href="#R5"><sup>5)</sup></a>，Epcam強発現細胞とOP9ストローマ細胞株とを共培養することにより，<em>in vitro</em>においても未分化な栄養芽細胞におけるGcm1の発現を維持することに成功した．この培養系を利用することにより，Epcam強発現細胞を3種のラビリンス栄養芽細胞へと分化させることができた．<br/>　Epcam強発現細胞の<em>in vivo</em>における分化能を解析するために，レインボーマウスを用いた細胞系譜の追跡実験を行った．レインボーマウスは複数の蛍光タンパク質の発現をランダムに誘導することのできる遺伝子改変マウスであり，このマウスを用いることにより“1個”の細胞の分化の系譜を詳細に解析することができ<a href="#R6"><sup>6)</sup></a>，とくに脳の形成の過程の研究などに利用されている．発生の初期に蛍光タンパク質により標識された“1個”のEpcam強発現細胞の分化の系譜を解析することにより，Epcam強発現細胞が3種のすべてのラビリンス栄養芽細胞に分化できることが明らかにされた．このEpcam強発現細胞を，ラビリンス栄養芽細胞前駆細胞（labyrinth trophoblast progenitor cell：LaTP細胞）と命名した（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ラビリンス栄養芽細胞前駆細胞の発見</strong><br/>栄養膜幹細胞からラビリンス栄養芽細胞前駆細胞をへて，3種のすべてのラビリンス栄養芽細胞が分化する．また，ラビリンス栄養芽細胞前駆細胞の維持および分化にはHGF-c-Metシグナル伝達系が重要な役割を担う．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ueno-Developmental-Cell-13.11.25-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ラビリンス栄養芽細胞前駆細胞の発見" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ueno-Developmental-Cell-13.11.25-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ueno-Developmental-Cell-13.11.25-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．c-Metはラビリンス栄養芽細胞前駆細胞の維持において必須である</h2><br/>　ラビリンス栄養芽細胞前駆細胞の分裂および分化の機構を分子レベルにおいて解明するうえで，HGF（hepatocyte growth factor，肝細胞増殖因子）とその受容体であるc-MetからなるHGF-c-Metシグナル伝達系に着目した．HGF-c-Metシグナル伝達系はとくにがんの転移における機能が詳細に解析されているが，興味深いことに，HGFノックアウトマウスあるいはc-Metノックアウトマウスは胎盤および肝臓の発育不全を示し胎性致死となる<a href="#R7"><sup>7-9)</sup></a>．栄養芽細胞におけるc-Metの直接的な機能を解析するため，栄養芽細胞において特異的にc-Metをノックアウトしたマウスを作製し，その胎盤および胎仔の表現型について解析した．c-Metを欠損した発生の初期の胎盤においては野生型の胎盤と同じ程度のラビリンス栄養芽細胞前駆細胞が観察されたが，驚いたことに，発生の中期の胎盤ではラビリンス栄養芽細胞前駆細胞はほぼ完全に消失していた．このことから，HGF-c-Metシグナル伝達系はとくにラビリンス栄養芽細胞前駆細胞の維持において必須であることが明らかになった．さらに興味深いことに，栄養芽細胞だけでc-Metをノックアウトしたにもかかわらず，胎仔の発育はc-Metの全身のノックアウトマウスと同様に遅延しており，ほかの臓器と比べ肝臓に強い発育不全が観察され胎性致死を示した．このことから，胎盤の発生と胎仔における肝臓の発生とのあいだになんらかの関連のあることが示唆された．<br/><br/><h2>4．c-Metはラビリンス栄養芽細胞前駆細胞の最終分化および細胞極性の維持において必須である</h2><br/>　胎盤の異常が胎仔において肝臓の発育不全をひき起こしたことから，HGF-c-Metシグナル伝達系は胎盤が胎仔に栄養を供給するという胎盤の本質的な機能，つまり，ラビリンス栄養芽細胞の機能にもかかわっているのではないかと考えた．c-Metを欠損した胎盤は野生型の胎盤と比べ小さいが，電子顕微鏡で観察すると3種のすべてのラビリンス栄養芽細胞が観察された．したがって，ラビリンス栄養芽細胞前駆細胞の分化運命の決定にはHGF-c-Metシグナル伝達系は関与しないことが示唆された．しかし，分化の後期のマーカーであるシンシチンを含む，合胞栄養芽細胞において特異的な複数の遺伝子の発現がc-Metの欠損により阻害されており，c-Metはラビリンス栄養芽細胞のうち合胞栄養芽細胞への最終分化に必須であることが示唆された．また，合胞栄養芽細胞は上皮細胞の性質をもち細胞極性を維持しているが，c-Metを欠損した合胞栄養芽細胞ではその細胞極性がいちじるしく破綻していることが明らかになった．細胞極性は細胞における物質輸送に密接にかかわることから，胎盤において特異的なc-Metの欠損により間接的にひき起こされる胎仔における肝臓の発育不全は，合胞栄養芽細胞における細胞極性の異常に起因した，母体と胎仔とのあいだのなんらかの物質輸送の障害が原因ではないかと考えた．<br/>　胎仔の肝臓は主要な造血組織であり赤血球を活発に産生している．このため，胎仔の肝臓はヘモグロビンの合成のため多量の鉄を必要とする．胎盤に特異的なc-Metノックアウトマウスは肝臓の強い発育不全を示したことから，母体と胎仔とのあいだの鉄の輸送に異常があるのではないかと考えた．母体の血中の鉄はトランスフェリンと結合しており，合胞栄養芽細胞の表面に発現するトランスフェリン受容体との結合を介して胎仔へと輸送される<a href="#R10"><sup>10)</sup></a>．トランスフェリン受容体の細胞内局在を解析した結果，驚いたことに，c-Metを欠損した合胞栄養芽細胞ではトランスフェリン受容体の細胞の表面における発現がいちじるしく阻害されていることが明らかになった．したがって，HGF-c-Metシグナル伝達系はラビリンス栄養芽細胞前駆細胞の維持のほか，ラビリンス栄養芽細胞前駆細胞から合胞栄養芽細胞への最終分化とその細胞極性の維持においても不可欠であり，合胞栄養芽細胞における細胞極性の異常はトランスフェリン受容体の細胞の表面への局在を阻害し，そのことにより胎仔への鉄の輸送が阻害されて，結果として，胎仔において肝臓の発育不全がひき起こされることが示唆された．<br/><br/><h2>5．HGF-c-Metシグナル伝達系はGcm1の発現を維持することによりラビリンス栄養芽細胞前駆細胞の分裂および分化を制御する</h2><br/>　HGF-c-Metシグナル伝達系の下流における分子機構を解明するために，野生型の合胞栄養芽細胞とc-Metを欠損した合胞栄養芽細胞とのあいだでマイクロアレイ解析による遺伝子発現パターンの比較を行った．その結果，c-Metを欠損した合胞栄養芽細胞においてはGcm1の発現が顕著に阻害されていることが見い出された．Gcm1はラビリンスの形成におけるマスターレギュレーターであり，Gcm1ノックアウトマウスの胎盤においてラビリンスはほとんど形成されない<a href="#R11"><sup>11)</sup></a>．Gcm1ノックアウトマウスの胎盤を詳細に解析したところ，Gcm1はラビリンス栄養芽細胞前駆細胞の分裂および合胞栄養芽細胞への分化に必須であることが明らかになった．したがって，ラビリンス栄養芽細胞前駆細胞の維持および分化には，HGF-c-Metシグナル伝達系によるGcm1の発現の維持が重要であることが示唆された．<br/><br/><h2>おわりに</h2><br/>　これまで，マウスの胎盤においてもっとも重要な機能部位であるラビリンスの分化におけるヒエラルキーについてはほとんどわかっていなかった．遺伝子改変マウスの解析から複数の遺伝子がラビリンスの形成にかかわることが明らかにされていたが<a href="#R12"><sup>12)</sup></a>，それらの遺伝子がどの細胞のどの段階において機能しているのかは不明のままであった．筆者らの研究により，ラビリンスにおいて，未分化なラビリンス栄養芽細胞前駆細胞と分化したラビリンス栄養芽細胞との区別および局在，あるいは，ラビリンス栄養芽細胞のうち合胞栄養芽細胞の細胞極性について詳細に解析することが可能になり，この研究を軸とすることで，今後，胎盤の形成の機構が分子レベルにおいて飛躍的に明らかになると期待される．<br/>　胎盤の解剖学的な構造はヒトとマウスとで大きく異なっているが，分子機構においては共通な点が多く，いくつかのすぐれた胎盤疾患モデルマウスが作製されている．したがって，筆者らのモデルを用いてラビリンスの発生およびその機能にかかわる分子基盤を明らかにすることは，ヒトの胎盤の発生および維持における分子機構の解明，あるいは，胎盤の異常によりひき起こされるさまざまな妊娠合併症の理解につながると期待される．さらに，この研究において確立された，ラビリンス栄養芽細胞前駆細胞の培養系を応用することにより，胎盤の発育あるいはその機能を改善できるような薬剤のスクリーニング，母体と胎児とのあいだの薬剤の移行の研究などにも貢献できるだろう．また，ヒトの胎盤の組織にもラビリンス栄養芽細胞前駆細胞に類似した未分化な栄養芽細胞の存在が示唆されており<a href="#R13"><sup>13)</sup></a>，胎盤における前駆細胞の同定や，その維持および分化における分子機構を明らかにすることは，妊娠合併症のまったく新しい診断法および治療法の開発につながる可能性がある．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Chhabra, A., Lechner, A. J., Ueno, M. et al.</span>: <span class="ti">Trophoblasts regulate the placental hematopoietic niche through PDGF-B signaling.</span> <span class='so'>Dev. Cell, 22, 651-659 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22387002" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Tanaka, S., Kunath, T., Hadjantonakis, A. K. et al.</span>: <span class="ti">Promotion of trophoblast stem cell proliferation by FGF4.</span> <span class='so'>Science, 282, 2072-2075 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9851926" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Uy, G. D., Downs, K. M. & Gardner, R. L.</span>: <span class="ti">Inhibition of trophoblast stem cell potential in chorionic ectoderm coincides with occlusion of the ectoplacental cavity in the mouse.</span> <span class='so'>Development, 129, 3913-3924 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12135928" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Simmons, D. G. & Cross, J. C.</span>: <span class="ti">Determinants of trophoblast lineage and cell subtype specification in the mouse placenta.</span> <span class='so'>Dev. Biol., 284, 12-24 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15963972" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Stecca, B., Nait-Oumesmar, B., Kelley, K. A. et al.</span>: <span class="ti"><em>Gcm1</em> expression defines three stages of chorio-allantoic interaction during placental development.</span> <span class='so'>Mech. Dev., 115, 27-34 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12049764" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Rinkevich, Y., Lindau, P., Ueno, H. et al.</span>: <span class="ti">Germ-layer and lineage-restricted stem/progenitors regenerate the mouse digit tip.</span> <span class='so'>Nature, 476, 409-413 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21866153" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Bladt, F., Riethmacher, D., Isenmann, S. et al.</span>: <span class="ti">Essential role for the c-<em>met</em> receptor in the migration of myogenic precursor cells into the limb bud.</span> <span class='so'>Nature, 376, 768-771 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7651534" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Schmidt, C., Bladt, F., Goedecke, S. et al.</span>: <span class="ti">Scatter factor/hepatocyte growth factor is essential for liver development.</span> <span class='so'>Nature, 373, 699-702 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7854452" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Uehara, Y., Minowa, O., Mori, C. et al.</span>: <span class="ti">Placental defect and embryonic lethality in mice lacking hepatocyte growth factor/scatter factor.</span> <span class='so'>Nature, 373, 702-705 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7854453" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>McArdle, H. J., Andersen, H. S., Jones, H. et al.</span>: <span class="ti">Copper and iron transport across the placenta: regulation and interactions.</span> <span class='so'>J. Neuroendocrinol., 20, 427-431 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18266949" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Anson-Cartwright, L., Dawson, K., Holmyard, D. et al.</span>: <span class="ti">The glial cells missing-1 protein is essential for branching morphogenesis in the chorioallantoic placenta.</span> <span class='so'>Nat. Genet., 25, 311-314 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10888880" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Watson, E. D., & Cross, J. C.</span>: <span class="ti">Development of structures and transport functions in the mouse placenta.</span> <span class='so'>Physiology, 20, 180-193 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15888575" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Genbacev, O., Donne, M., Kapidzic, M. et al.</span>: <span class="ti">Establishment of human trophoblast progenitor cell lines from the chorion.</span> <span class='so'>Stem Cells, 29, 1427-1436 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21755573" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">上野 将也（Masaya Ueno）</span><br>略歴：2001年 金沢大学がん研究所 助教，2006年 金沢大学大学院医学系研究科にて博士号取得，2006年 大阪大学微生物病研究所 助教，2009年 米国California大学Los Angeles校 ポストドクトラルフェローを経て，2013年より金沢大学がん進展制御研究所 特任助教．<br>研究テーマ：幹細胞，発生生物学．<br></div><br>© 2013 上野 将也 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

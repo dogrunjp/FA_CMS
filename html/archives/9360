@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> miRNAによる翻訳開始因子複合体の形成の阻害 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>miRNAによる翻訳開始因子複合体の形成の阻害</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>深谷雄志・岩川弘宙・泊 幸秀</strong><br>（東京大学分子細胞生物学研究所 RNA機能研究分野）<br>email：<a href="mailto:tomari@iam.u-tokyo.ac.jp">泊 幸秀</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.127">10.7875/first.author.2014.127</a><br><div class="reference"><br><span class="ti">MicroRNAs block assembly of eIF4F translation initiation complex in <em>Drosophila</em>.</span><br><span class="au">Takashi Fukaya, Hiro-oki Iwakawa, Yukihide Tomari</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25280104" target="_blank"><em>Molecular Cell</em>, <strong>56</strong>, 67-78 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　miRNAはゲノムにコードされた約22塩基の小分子RNAであり，配列に相補性をもつ標的mRNAからの翻訳を抑制する．miRNAは単独で機能を発揮するわけではなく，RISCとよばれるRNA-タンパク質複合体を形成することによりはじめてその機能を発揮する．ショウジョウバエにおけるmiRNA経路において中心的な役割を担うのは，miRNA結合タンパク質であるAgo1である．Ago1を含むRISCはポリA鎖の分解およびmRNAの不安定化をひき起こすとともに，それとは独立に翻訳そのものを抑制する．筆者らによる以前の解析により，Ago1を含むRISCによる翻訳の抑制はリボソームが標的mRNAへと呼び込まれるまでの翻訳開始の段階の阻害によることが示されている．しかし，Ago1を含むRISCがどのように翻訳開始の段階を抑制しているかという詳細な作用機序は不明であった．今回，筆者らは，標的mRNAにおいて形成された翻訳開始因子複合体を定量的に検出できる新たな解析手法を構築し，Ago1を含むRISCがeIF4Aとよばれる翻訳開始因子を標的mRNAから特異的に解離させることにより，リボソームの呼び込みを阻害していることを明らかにした．<br/><br/><h2>はじめに</h2><br/>　miRNA（マイクロRNA）はゲノムにコードされた約22塩基の小分子RNAであり，その配列に対して相補的な標的mRNAからの翻訳を抑制する転写後制御因子である．miRNAは単独ではたらくわけではなく，RISC（RNA-induced silencing complex）とよばれるRNA-タンパク質複合体を形成することによりはじめてその機能を発揮する．ショウジョウバエにおけるmiRNA経路において中心的な役割を担うのは，miRNA結合タンパク質であるArgonaute 1（Ago1）と，Ago1結合タンパク質であるGW182である．Ago1を含むRISCは標的mRNAのポリA鎖の分解をひき起こしその不安定化を誘導するとともに，それとは独立して翻訳そのものを抑制する<a href="#R1"><sup>1,2)</sup></a>．GW182はCCR4-NOT複合体およびPAN2-PAN3複合体とよばれるポリA鎖分解酵素と直接に結合することによりそれらを標的mRNAへと呼び込み，ポリA鎖の分解をひき起こすうえで必須の役割を担っている<a href="#R3"><sup>3-5)</sup></a>．一方で，以前の解析結果から，翻訳の抑制に関してはGW182に依存的および非依存的な2つの異なる経路の存在することが明らかにされている<a href="#R6"><sup>6,7)</sup></a>．これらの翻訳抑制機構はともに標的mRNAに40Sリボソームが呼び込まれるまでの翻訳開始の段階を阻害することが示されているが，どのように翻訳開始が抑制されているのかという詳細な作用機序は明らかにされていない．<br/>　真核生物における翻訳においてmRNAに40Sリボソームが呼び込まれるためには，eIF4F複合体とよばれる翻訳開始因子複合体がmRNAの5’末端にあらかじめ形成されている必要がある．eIF4F複合体は，5’末端のキャップ構造を直接に認識するeIF4E，40Sリボソームと43S複合体を形成するeIF3との相互作用を介してmRNAとリボソームとを橋渡しするeIF4G，DEADボックス型のRNAヘリカーゼであるeIF4A，の3つから構成されている．eIF4Aは5’側非翻訳領域の2次構造を解きほぐすことにより43S複合体の呼び込みを促進していると考えられている．さらに，ポリA鎖結合タンパク質であるPABPはeIF4Gとの相互作用を介してeIF4F複合体の形成を安定化し翻訳開始を促進する役割を担っている．miRNAによる翻訳開始の抑制においてはこれらの過程のいずれかが阻害されていると考えられるが，その分子機構は不明である．そこで今回，筆者らは，部位特異的な紫外線架橋法と独自の<em>in vitro</em>反応系とを組み合わせることにより，翻訳開始因子複合体の形成に対しmiRNAがどのような影響を及ぼすのかについて定量的に解析した．<br/><br/><h2>1．eIF4AのノックダウンによるmiRNAに依存的な翻訳抑制の脱抑制</h2><br/>　以前に筆者らは，Ago1を含むRISCによる翻訳抑制とポリA鎖の分解を忠実に再現する<em>in vitro</em>反応系を構築した．解析の結果，eIF4Gを直接的にmRNAに係留することにより活性化されるeIF4E非依存的かつeIF4A依存的な特殊な翻訳であっても，Ago1を含むRISCは翻訳抑制をひき起こすことが明らかになった．一方で，<em>reaper</em>遺伝子とよばれるアポトーシス誘導遺伝子のもつ5’側非翻訳領域を介したeIF4E非依存的かつeIF4A非依存的な翻訳は，Ago1を含むRISCによる翻訳抑制をほぼ完全にまぬがれることが示された<a href="#R6"><sup>6)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/6116" target="_blank">新着論文レビュー</a> でも掲載）．以上の結果から，eIF4Aのはたらきに依存した翻訳開始の段階がmiRNAによる翻訳抑制の標的であることが示唆されていた．そこで，eIF4Aは細胞においてもmiRNAに依存的な翻訳抑制の標的であるかどうかを確かめるため，eIF4F複合体を構成するタンパク質をノックダウンしたショウジョウバエの培養細胞を用いてレポーターアッセイを行った．なお，この実験では，miRNAによりポリA鎖の分解をうけないよう3’末端に保護配列を付加したレポーターmRNAを用いている．その結果，eIF4Aをノックダウンした場合においてのみ，翻訳抑制が顕著に解除された．この結果は，細胞においてもmiRNAが翻訳抑制をひき起こすにあたりeIF4Aが重要な役割を担っていることを示唆した．一方で，<em>in vitro</em>における実験において用いた特殊な翻訳開始の機構，あるいは，翻訳開始因子のノックダウンは，翻訳そのものの効率や性質を変化させてしまうことから，これらの実験結果は注意深く解釈する必要があった．<br/><br/><h2>2．部位特異的な紫外線架橋法によるmRNAに存在する翻訳開始因子の検出</h2><br/>　miRNAによる翻訳抑制が翻訳開始の段階のどこを標的としているのかをより詳細に解析するため，標的mRNAに存在する翻訳開始因子を検出する手法の開発した．<em>in vitro</em>においてmRNAを転写する際，通常のUTPの代わりに光架橋性の4-チオ-UTPを取り込ませることにより，すべてのUが4-チオ-Uに置換されたmRNAを作製した．転写ののち，このmRNAの5’末端のキャップ構造に放射性標識を導入した．5’末端から数えて2塩基目あるいは13塩基目にはじめてUが現われ，その直下ではじめてRNaseAによる切断をうけるように5’側非翻訳領域の配列を設計した．<em>in vitro</em>における翻訳ののち波長365 nmの紫外線を照射することにより，4-チオ-Uはそのごく近傍に位置するタンパク質と不可逆的な共有結合を形成する．そののち，RNaseAによりmRNAを断片化し，SDS-ポリアクリルアミドゲル泳動ののち放射性標識を検出することにより，2塩基目あるいは13塩基目の位置でmRNAと結合したタンパク質を検出した（<a href="#F1">図1</a>）．その結果，2塩基目の位置においてeIF4E，13塩基目の位置においてeIF4Aが，それぞれmRNAと相互作用しているようすが観察された．この部位特異的な紫外線架橋法を用いることにより，標的mRNAにおける翻訳開始因子複合体の形成を定量的に検出することが可能になった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　部位特異的な紫外線架橋法</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tomari-Molecular-Cell-14.10.2-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　部位特異的な紫外線架橋法" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tomari-Molecular-Cell-14.10.2-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tomari-Molecular-Cell-14.10.2-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．Ago1を含むRISCはeIF4Aの解離をひき起こす</h2><br/>　部位特異的な紫外線架橋法を用いて，Ago1を含むRISCが翻訳開始因子複合体の形成に及ぼす影響について解析した．実験に用いた標的mRNAは3’末端に保護配列をもつため，ポリA鎖の分解による影響を排除した純粋な翻訳抑制を解析することができた．<em>in vitro</em>においてAgo1を含むRISCによる翻訳抑制をひき起こしたのち，紫外線の照射により標的mRNAとタンパク質とを架橋し，標的mRNAに存在するeIF4EおよびeIF4Aを定量した．その結果，eIF4Eとの架橋に変動はなかったが，eIF4Aとの架橋は顕著に減少していた．この結果は，Ago1を含むRISCが標的mRNAからeIF4Aを特異的に解離させることにより翻訳抑制をひき起こしていることを示唆した．もし，この考えが正しければ，eIF4Aの濃度の上昇は翻訳抑制に対し拮抗的にはたらくはずである．そこで，<em>in vitro</em>反応系に過剰量のeIF4EおよびeIF4Aの存在する条件において，それらがAgo1を含むRISCによる翻訳抑制に対しどのような影響を及ぼすのかについて検証した．その結果，過剰量のeIF4Eは翻訳抑制に対し影響しなかったのに対し，eIF4Aの濃度を上昇させるにつれAgo1を含むRISCによるeIF4Aの解離および翻訳抑制が解除されるようすが観察された．以上の結果は，eIF4Aの解離がAgo1を含むRISCによる翻訳抑制において重要であることを示した．<br/><br/><h2>4．Ago1を含むRISCによるeIF4Aの解離はGW182およびPABPに非依存的である</h2><br/>　以前の解析により，GW182はmiRNAによるポリA鎖の分解において必須の役割をはたすが，翻訳抑制には必須でないことが示されている<a href="#R6"><sup>6,7)</sup></a>．Ago1を含むRISCによるeIF4Aの解離にGW182が必要かどうかを検証するため，GW182をノックダウンしたうえで紫外線架橋法により解析した．その結果，GW182がほとんど存在しない場合においてもeIF4Aの解離がみられた．このことは，Ago1を含むRISCがGW182に非依存的にeIF4Aの解離をひき起こすことを示した（<a href="#F2">図2a</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　miRNAによる翻訳開始因子複合体の形成の阻害</strong><br/>（a）GW182に非依存的な翻訳抑制．<br/>（b）mRNAに係留されたGW182による翻訳抑制．<br/>（c）生理的な条件におけるmiRNAに依存的な翻訳抑制．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tomari-Molecular-Cell-14.10.2-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　miRNAによる翻訳開始因子複合体の形成の阻害" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tomari-Molecular-Cell-14.10.2-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tomari-Molecular-Cell-14.10.2-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　以前の解析により，ポリA鎖結合タンパク質であるPABPがGW182との相互作用を介してmiRNAによる翻訳抑制に関与することが示唆されていたが<a href="#R8"><sup>8-10)</sup></a>，そののち，PABPはmiRNAの機能の発揮に必須ではないことが報告された<a href="#R1"><sup>1,2)</sup></a>．Ago1を含むRISCによるeIF4Aの解離にPABPが必要かどうかを検証するため，ポリA鎖をもたない標的mRNAを用いて解析した．その結果，そもそもPABPが標的mRNAに存在しない条件においてもeIF4Aの解離が観察された．以上の結果から，Ago1を含むRISCがGW182およびPABPに非依存的にeIF4Aの解離をひき起こすことが示された．<br/><br/><h2>5．GW182はeIF4EおよびeIF4Aの解離をひき起こす</h2><br/>　Ago1を含むRISCはGW182に非依存的に翻訳抑制をひき起こすが，一方で，以前の筆者らの解析により，λNタグおよびBoxB配列を介してGW182を標的mRNAに直接的に係留することにより，Ago1に非依存的に翻訳開始の段階が阻害されることが明らかになっている<a href="#R6"><sup>6)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/6116" target="_blank">新着論文レビュー</a> でも掲載）．そこで，標的mRNAに係留されたGW182が翻訳開始因子複合体の形成にどのように影響するのかについて，紫外線架橋法により解析した．その結果，Ago1を含むRISCの場合とは異なり，GW182はeIF4EおよびeIF4Aをともに標的mRNAから解離させるようすがみられた．内在性のAgo1をほぼ完全に除いた条件においても同様の活性がみられたことから，GW182はAgo1に非依存的に翻訳開始因子複合体の形成を阻害することが明らかになった（<a href="#F2">図2b</a>）．PABPの関与について検証するため，ポリA鎖をもたない標的mRNAを用いて解析した．その結果，GW182はPABPが標的mRNAに存在しない場合においてもeIF4EおよびeIF4Aの解離をひき起こした．つまり，GW182はAgo1およびPABPに非依存的に翻訳開始因子複合体の形成の阻害をひき起こすことが示された．<br/><br/><h2>6．生理的な条件においてmiRNAはeIF4Aのみを解離する</h2><br/>　これまでの結果より，Ago1を含むRISCがGW182に非依存的にeIF4Aを標的mRNAから解離させること，mRNAに係留されたGW182は標的mRNAからeIF4EおよびeIF4Aを解離させることが明らかになった．そこで，生理的な条件において，GW182に依存的あるいは非依存的，どちらの経路がよりmiRNAに依存した翻訳抑制に貢献しているのか解明を試みた．これまでの実験系においては，<em>in vitro</em>においてRISCを形成させるのにAgo1を過剰に発現した細胞抽出液を用いていた．そこで，Ago1およびGW182の濃度は内在性のままmiRNAのみを発現させた細胞抽出液を用いて紫外線架橋法により解析した．その結果，eIF4Eとの架橋に変動はなかったが，eIF4Aとの架橋は顕著に減少していた．eIF4Eは標的mRNAからは解離せずにeIF4Aのみが解離するというこの結果は，少なくともショウジョウバエの培養細胞においてはGW182に非依存的な翻訳抑制が主であることを示唆した（<a href="#F2">図2c</a>）．<br/><br/><h2>おわりに</h2><br/>　この研究により，ショウジョウバエにおいてはAgo1を含むRISCがeIF4Aの解離をひき起こすことにより標的mRNAへのリボソームの呼び込みを阻害していることが明らかになった．一方で，ヒトにおいて，翻訳の抑制されているmRNAをプルダウンし，結合していた翻訳開始因子をウェスタンブロッティングにより解析する手法によっても，Ago2を含むRISCがeIF4AIおよびeIF4AIIの解離をひき起こすことが報告された<a href="#R11"><sup>11)</sup></a>．異なる解析手法また異なる生物種を用いた解析により同様の結論が導かれたことは，miRNAによるeIF4Aの解離が生物種をこえた普遍的なしくみであることを示した．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Fukaya, T. & Tomari, Y.</span>: <span class="ti">PABP is not essential for microRNA-mediated translational repression and deadenylation <em>in vitro</em>.</span> <span class='so'>EMBO J., 30, 4998-5009 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22117217" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Mishima, Y., Fukao, A., Kishimoto, T. et al.</span>: <span class="ti">Translational inhibition by deadenylation-independent mechanisms is central to microRNA-mediated silencing in zebrafish.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 109, 1104-1109 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22232654" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Braun, J. E., Huntzinger, E., Fauser, M. et al.</span>: <span class="ti">GW182 proteins directly recruit cytoplasmic deadenylase complexes to miRNA targets.</span> <span class='so'>Mol. Cell, 44, 120-133 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21981923" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Chekulaeva, M., Mathys, H., Zipprich, J. T. et al.</span>: <span class="ti">miRNA repression involves GW182-mediated recruitment of CCR4-NOT through conserved W-containing motifs.</span> <span class='so'>Nat. Struct. Mol. Biol., 18, 1218-1226 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21984184" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Fabian, M. R., Cieplak, M. K., Frank, F. et al.</span>: <span class="ti">miRNA-mediated deadenylation is orchestrated by GW182 through two conserved motifs that interact with CCR4-NOT.</span> <span class='so'>Nat. Struct. Mol. Biol., 18, 1211-1217 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21984185" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Fukaya, T. & Tomari, Y.</span>: <span class="ti">MicroRNAs mediate gene silencing via multiple different pathways in <em>Drosophila</em>.</span> <span class='so'>Mol. Cell, 48, 825-836 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23123195" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/6116" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R7"><span class='au'>Wu, P. H., Isaji, M. & Carthew, R. W.</span>: <span class="ti">Functionally diverse microRNA effector complexes are regulated by extracellular signaling.</span> <span class='so'>Mol. Cell, 52, 113-123 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24055343" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Fabian, M. R., Mathonnet, G., Sundermeier, T. et al.</span>: <span class="ti">Mammalian miRNA RISC recruits CAF1 and PABP to affect PABP-dependent deadenylation.</span> <span class='so'>Mol. Cell, 35, 868-880 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19716330" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Huntzinger, E., Braun, J. E., Heimstadt, S. et al.</span>: <span class="ti">Two PABPC1-binding sites in GW182 proteins promote miRNA-mediated gene silencing.</span> <span class='so'>EMBO J., 29, 4146-4160 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21063388" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Zekri, L., Huntzinger, E., Heimstadt, S. et al.</span>: <span class="ti">The silencing domain of GW182 interacts with PABPC1 to promote translational repression and degradation of microRNA targets and is required for target release.</span> <span class='so'>Mol. Cell. Biol., 29, 6220-6231 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19797087" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Fukao, A., Mishima, Y., Takizawa, N. et al.</span>: <span class="ti">MicroRNAs trigger dissociation of eIF4AI and eIF4AII from target mRNAs in humans.</span> <span class='so'>Mol. Cell, 56, 79-89 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25280105" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">深谷 雄志（Takashi Fukaya）</span><br>略歴：2014年 東京大学大学院新領域創成科学研究科 修了，同年より米国California大学Berkeley校 ポスドク．<br>研究テーマ：非コードRNAおよび非コードDNA領域を介した遺伝子発現の制御機構．<br><br><strong>岩川 弘宙（Hiro-oki Iwakawa）</strong><br>略歴：2010年 京都大学大学院農学研究科博士課程 修了，同年 東京大学分子細胞生物学研究所 研究員を経て，2013年より同 助教．<br>研究テーマ：小さなRNAによる遺伝子発現の制御機構を分子レベルで理解する．<br><br><strong>泊  幸秀（Yukihide Tomari）</strong><br>東京大学分子細胞生物学研究所 教授．<br>研究室URL：<a href="http://www.iam.u-tokyo.ac.jp/tomari/" target="_blank">http://www.iam.u-tokyo.ac.jp/tomari/</a><br></div><br>© 2014 深谷雄志・岩川弘宙・泊 幸秀 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

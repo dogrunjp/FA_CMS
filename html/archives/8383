@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ペプチドホルモンとそのキナーゼ型受容体による植物における細胞の伸長の制御 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>ペプチドホルモンとそのキナーゼ型受容体による植物における細胞の伸長の制御</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>春田美好・Michael R. Sussman</strong><br>（米国Wisconsin大学Madison校Department of Biochemistry）<br>email：<a href="mailto:miyoshi.haruta@gmail.com">春田美好</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.025">10.7875/first.author.2014.025</a><br><div class="reference"><br><span class="ti">A peptide hormone and its receptor protein kinase regulate plant cell expansion.</span><br><span class="au">Miyoshi Haruta, Grzegorz Sabat, Kelly Stecker, Benjamin B. Minkoff, Michael R. Sussman</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24458638" target="_blank"><em>Science</em>, <strong>343</strong>, 408-411 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　細胞の伸長は植物の成長における基本的な機構である．細胞の伸長の制御には細胞膜に存在するプロトンポンプが深く関与していることが古くからわかっている．しかし，その制御の機構についてはまだわかっていないことが多い．筆者らは，細胞のあいだのシグナル伝達において機能するホルモン様ペプチドであるRALFが，細胞膜に存在するそのキナーゼ型受容体であるFERONIAを介して細胞の伸長を抑制することを発見した．また，RALFの処理により誘導されるタンパク質のリン酸化を解析することにより，細胞膜に存在するプロトンポンプの機能がリン酸化により阻害されることが示唆された．以上の結果より，RALFにより誘導される細胞外pHのアルカリ化と細胞の伸長の阻害について，分子生物学的な観点から明らかにされた．<br/><br/><h2>はじめに</h2><br/>　動物とは異なり，植物の成長は細胞の伸長が基本となっている．細胞伸長の促進あるいは阻害は植物の成長の過程において制御されている一方，環境に応答して変化する．植物における細胞伸長はプロテインキナーゼを含むシグナル伝達系により制御されている．例として，光あるいは成長ホルモンであるオーキシンにより誘導される，細胞膜に存在するプロトンポンプのリン酸化および活性化，それにともなう細胞外pHの酸性化と細胞の伸長があげられる<a href="#R1"><sup>1)</sup></a>．一方で，ホルモン様ペプチドであるRALFは細胞外pHをアルカリ化すること<a href="#R2"><sup>2,3)</sup></a>，細胞内Ca<sup>2+</sup>濃度を上昇させること<a href="#R4"><sup>4)</sup></a>，植物の根の成長を阻害することが報告されていたが<a href="#R2"><sup>2)</sup></a>，その分子機構はほとんど知られていなかった．筆者らは，モデル植物であるシロイヌナズナを用い，細胞膜タンパク質のリン酸化について網羅的に解析することによりRALFの受容体であるFERONIAを発見し，その欠損株の表現型を詳細に調べた．<br/><br/><h2>1．RALFにより誘導される細胞膜タンパク質のリン酸化の解析</h2><br/>　シロイヌナズナの苗を通常の培地あるいは<sup>15</sup>Nを含む培地において8日間にわたり生育させたのち，RALFにより5分間の処理を行い，細胞膜タンパク質を抽出して，タンパク質のリン酸化における変化を質量分析計により定量的に解析した．約550種類のリン酸化を含むペプチドの同定および定量の結果，RALFの処理によりリン酸化が上昇あるいは低下したタンパク質は5つあった．そのうち，もっとも強くリン酸化されたのはキナーゼ型受容体であるFERONIAであった．ペプチドによるその特異的な受容体のリン酸化の誘導は動物のEGF受容体においても知られていることから<a href="#R5"><sup>5)</sup></a>，FERONIAはRALFの受容体であると仮定した．<br/>　FERONIAのほかリン酸化に変化のみられたのは，細胞膜に存在するプロトンポンプ，Ca<sup>2+</sup>依存型プロテインキナーゼ，ABCG36輸送体におけるリン酸化の増加，そして，FERONIAと相同性のあるプロテインキナーゼERULUSにおけるリン酸化の低下であった．<br/><br/><h2>2．FERONIAの欠損株の解析</h2><br/>　FERONIAの生物学的な機能は，花粉管の伸長が卵細胞の付近で抑制されないシロイヌナズナの変異株として，2007年，はじめて報告された<a href="#R6"><sup>6)</sup></a>．通常の受精では花粉管の成長が助細胞あるいは卵細胞の付近で停止し精細胞を放出するが，FERONIAの変異株では花粉管の伸長が停止せず，そのため野生型に比べ受精率が低い．しかしながら，FERONIAはシロイヌナズナの成長において広範囲にわたり発現しており，その機能は受精の過程にかぎらないと予想されていた．FERONIAの欠損株の根の伸長をRALFの存在のもとで調べると，野生型では完全に伸長が阻害されるのに対し，FERONIAの欠損株はRALFに対し非感受性であった．さらに，野生型においてRALFにより誘導される細胞内Ca<sup>2+</sup>濃度の上昇についても，FERONIAの欠損株ではみられなかった．<br/><br/><h2>3．RALFとFERONIAによるシグナル伝達および根の伸長における機能</h2><br/>　RALFおよびFERONIAはともに根の成熟した領域において発現しており，このことから，このペプチドと受容体は根の細胞が伸長したのちの細胞伸長を抑制していると考えられた（<a href="#F1">図1</a>）．RALFにより処理したシロイヌナズナの苗における遺伝子発現をマイクロアレイ法により調べると，細胞伸長を促進することの知られるホルモンであるオーキシン，ジブレリン，ブラシノステロイドによるシグナル伝達系，あるいは，その生合成にかかわるタンパク質の発現が抑制されていた．これらの結果から，RALFは遺伝子発現のレベルにおいても細胞の伸長を負に制御すると考えられた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　この研究により明らかになった根の伸長制御のモデル</strong><br/>根が細胞分裂および細胞伸長により成長したのち，成熟した領域ではヘプチドホルモンRALFとその受容体FERONIAによる細胞伸長の抑制が起こる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Haruta-Science-14.1.24-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　この研究により明らかになった根の伸長制御のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Haruta-Science-14.1.24-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Haruta-Science-14.1.24-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　RALFにより発現の誘導される細胞膜に存在するプロトンポンプにおける899番目のセリン残基のリン酸化，および，細胞外pHのアルカリ化は，植物の細胞を植物病原菌の鞭毛に由来するペプチドエリシターであるflg22により処理したときにみられる現象と類似していた<a href="#R7"><sup>7,8)</sup></a>．また，シロイヌナズナの細胞膜のプロトンポンプを酵母において発現させる実験から，この899番目のセリン残基のリン酸化は酵母の生育に負の影響をあたえると考えられている．これらの結果から，flg22と同様に，RALFによる899番目のセリン残基のリン酸化は細胞膜のプロトンポンプの機能を阻害すると推測された．<br/>　FERONIAの欠損株のRALFに対する非感受性が特異的な反応であることを確認するため，flg22の受容体の変異株におけるRALFに対する感受性，および，FERONIAの欠損株におけるflg22に対する感受性について調べた．その結果，RALFあるいはflg22に対するそれぞれの受容体の欠損株の反応はリガンドに特異的であった．また，RALFにより遺伝子の発現が誘導される，あるいは，遺伝子の発現パターンが類似している17の受容体様のタンパク質の欠損株においてRALFに対する感受性を調べたところ，FERONIAの欠損株のほかはどの欠損株も非感受性を示さなかった．このことより，FERONIAの欠損株の反応は特異的であると推定された．<br/><br/><h2>4．FERONIAの欠損株の表現型の解析</h2><br/>　RALFとFERONIAによるシグナル伝達が細胞膜に存在するプロトンポンプの機能を阻害したことから，FERONIAの欠損株ではこのプロトンポンプの活性が上昇していると推定された．野生型およびFERONIAの欠損株の根から分泌されるプロトンによる培地のpHの酸性化について調べたところ，FERONIAの欠損株は野生型よりもプロトンを多く分泌していた．細胞膜に存在するプロトンポンプの活性による細胞膜の電位は根における陽イオンの取り込みに直接に影響している<a href="#R9"><sup>9)</sup></a>．そこで，野生型およびFERONIAの欠損株において，細胞毒性のあるLi<sup>+</sup>に対するストレス応答について調べた結果，FERONIAの欠損株における根の伸長は野生型よりも劣っていた．さらに，根の伸長を促進する青色光のもとでは，FERONIAの欠損株の根は野生型よりも速く伸長した．以上の結果もまた，FERONIAの欠損株では細胞膜に存在するプロトンポンプの活性が上昇していることを示唆した．<br/><br/><h2>5．RALFとFERONIAとの結合</h2><br/>　以上の結果から，FERONIAはRALFの受容体であることが予想されたため，RALFがFERONIAと直接に結合することを共免疫沈降法により調べた．タバコの葉においてHAタグにより標識したFERONIAを発現させたのち，抗HA樹脂に吸着させ，Hisタグにより標識したRALFがこの樹脂に吸着したFERONIAに対し特異的に親和性をもつことを確認した．また，FERONIAの欠損株から抽出した細胞膜では，RALFに対する親和性が野生株に比べ低かった．さらに，FERONIAの細胞外ドメインを大腸菌において発現させ，同様に共免疫沈降法により調べたところ，RALFは特異的な親和性をもつことが示された．<br/><br/><h2>おわりに</h2><br/>　この研究により，RALFがFERONIAのリガンドであることがわかっただけでなく，RALFとFERONIAのはたらきにより植物の根の伸長が抑制されることが明らかになった（<a href="#F1">図1</a>）．シロイヌナズナにおいては，RALFは少なくとも34の遺伝子によりコードされるファミリーを構成しており，それぞれの遺伝子がどのような機能をもつか調べることが重要であると思われる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Takahashi, K., Hayashi, K. & Kinoshita, T.</span>: <span class="ti">Auxin activates the plasma membrane H<sup>+</sup>-ATPase by phosphorylation during hypocotyl elongation in Arabidopsis.</span> <span class='so'>Plant Physiol., 159, 632-641 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22492846" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Pearce, G., Moura, D. S., Stratmann, J. et al.</span>: <span class="ti">RALF, a 5-kDa ubiquitous polypeptide in plants, arrests root growth and development.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 98, 12843-12847 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11675511" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Haruta, M. & Constabel, C. P.</span>: <span class="ti">Rapid alkalinization factors in poplar cell cultures. Peptide isolation, cDNA cloning, and differential expression in leaves and methyl jasmonate-treated cells.</span> <span class='so'>Plant Physiol., 131, 814-823 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12586905" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Haruta, M., Monshausen, G., Gilroy, S. et al.</span>: <span class="ti">A cytoplasmic Ca<sup>2+</sup> functional assay for identifying and purifying endogenous cell signaling peptides in Arabidopsis seedlings: identification of AtRALF1 peptide.</span> <span class='so'>Biochemistry, 47, 6311-6321 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18494498" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Olsen, J. V., Blagoev, B., Gnad, F. et al.</span>: <span class="ti">Global, in vivo, and site-specific phosphorylation dynamics in signaling networks.</span> <span class='so'>Cell, 127, 635-648 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17081983" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Escobar-Restrepo, J. M., Huck, N., Kessler, S. et al.</span>: <span class="ti">The FERONIA receptor-like kinase mediates male-female interactions during pollen tube reception.</span> <span class='so'>Science, 317, 656-660 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17673660" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Felix, G., Duran, J. D., Volko, S. et al.</span>: <span class="ti">Plants have a sensitive perception system for the most conserved domain of bacterial flagellin.</span> <span class='so'>Plant J., 18, 265-276 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10377992" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Nuhse, T. S., Bottrill, A. R., Jones, A. M. E. et al.</span>: <span class="ti">Quantitative phosphoproteomic analysis of plasma membrane proteins reveals regulatory mechanisms of plant innate immune responses.</span> <span class='so'>Plant J., 51, 931-940 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17651370" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Haruta, M. & Sussman, M. R.</span>: <span class="ti">The effect of a genetically reduced plasma membrane protonmotive force on vegetative growth of Arabidopsis.</span> <span class='so'>Plant Physiol., 158, 1158-1171 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22214817" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">春田 美好（Miyoshi Haruta）</span><br>略歴：2003年 カナダVictoria大学にてPh.D.取得，米国Wisconsin大学Madison校 博士研究員を経て，同 シニアサイエンティスト．<br>抱負：植物の基礎研究の結果を将来の応用につなげる，あるいは，社会に還元できるよう貢献したい．<br><br><strong>Michael R. Sussman</strong><br>米国Wisconsin大学Madison校 教授．<br>研究室URL：<a href="http://www.biotech.wisc.edu/sussmanlab/home" target="_blank">http://www.biotech.wisc.edu/sussmanlab/home</a><br></div><br>© 2014 春田美好・Michael R. Sussman Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

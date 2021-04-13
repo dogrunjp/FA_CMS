@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> はじめて経験する匂いと既知の匂いとを判別する神経回路の作用機序 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>はじめて経験する匂いと既知の匂いとを判別する神経回路の作用機序</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>服部 太祐</strong><br>（米国Columbia大学Department of Neuroscience）<br>email：<a href="mailto:dh2453@columbia.edu">服部太祐</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.044">10.7875/first.author.2017.044</a><br><div class="reference"><br><span class="ti">Representations of novelty and familiarity in a mushroom body compartment.</span><br><span class="au">Daisuke Hattori, Yoshinori Aso, Kurtis J. Swartz, Gerald M. Rubin, L.F. Abbott, Richard Axel</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28502772" target="_blank"><em>Cell</em>, <strong>169</strong>, 956-969.e17 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　動物は経験したことのない新奇の感覚刺激に対し敏感に反応する．この未知なものに対する反応は，その刺激をくり返し経験し既知となることにより弱まる．筆者らは，ショウジョウバエの嗅覚系において，はじめて経験する刺激と既知の刺激とを判別する神経回路を同定しその作用機序を解明した．キノコ体のα’3出力領域のキノコ体出力ニューロンは新奇な匂い刺激に強く反応するが，この反応は同じ匂い刺激をくり返し経験することにより抑制される．この経験にもとづく反応の抑制は，α’3出力領域に入力するドーパミンニューロンの匂い刺激に対する活性に依存した．新奇な匂い刺激はショウジョウバエに警戒行動をひき起こし，キノコ体出力ニューロンを強制的に活性化することにより同様の警戒行動がひき起こされた．逆に，キノコ体出力ニューロンを抑制することにより新奇な匂い刺激に対する警戒行動はみられなくなった．したがって，キノコ体のα’3出力領域はドーパミンによるシナプスの可塑的な変化により新奇な匂い刺激と既知の匂い刺激とを判別し，それぞれの匂い刺激に対する行動を決定するのに重要な役割をはたす．<br/><br/><h2>はじめに</h2><br/>　動物は経験したことのない未知の感覚刺激に対し敏感である．新奇な刺激は生存にかかわる重要な意味をもつ可能性があるため，動物はそれに対し警戒行動を示す．この警戒行動はその刺激が新奇であること，すなわち，その刺激を知らないことにもとづく．それに対し，動物の刺激に対する行動は，たいていその刺激を学習していることあるいは進化の過程において既知であること（すなわち，生得行動）に依存する．したがって，動物が経験したことのない刺激をどのように未知であると判別し警戒行動を示すのかは神経生物学的に興味深い現象である．<br/>　新奇で未知の刺激を感知する神経回路はどのような特徴を備えるのだろうか．まず，ひとつの感覚器においてすべての刺激に対し新奇でありさえすれば反応するという普遍性が必要である．つぎに，その刺激をくり返し経験し既知となった場合に，その反応性が既知の刺激に特異的に抑制されること，そして，その抑制された状態，いい換えれば，その刺激を知っているという記憶が保たれることが要求される．このような条件をみたす現象は“反復抑制”として記述されている<a href="#R1"><sup>1)</sup></a>．反復抑制は哺乳類の高次大脳皮質や中脳ドーパミンニューロン<a href="#R2"><sup>2)</sup></a> などにみられる現象で，新奇な刺激に対し強い反応を示し，その刺激がくり返されることにより刺激に対する反応が特異的かつ長期にわたり抑制されるもので，末梢感覚器における順応とは一線を画す．<br/>　筆者らは，洗練された遺伝学的な手法が確立され，同定されたニューロン個々の単位において神経回路を観察および操作することのできるショウジョウバエの嗅覚系をモデルにした．未知の刺激に対する警戒行動は，学習をへずにひき起こされるという点では生得的であるが，くり返しの刺激を経験することにより既知となるという点では学習に依存的である．節足動物においてはキノコ体が学習および記憶に中心的な役割をはたすことが知られている．ショウジョウバエのキノコ体は，約2000個のKenyon細胞，21種34個のキノコ体出力ニューロン，20種約130個のドーパミンニューロンからおもに構成される<a href="#R3"><sup>3)</sup></a>．匂い刺激の情報は触覚葉糸球体からKenyon細胞へと伝達され，個々の匂いはKenyon細胞の5～10％を匂いに特異的に活性化する．Kenyon細胞はキノコ体の出力部位である葉においてキノコ体出力ニューロンとシナプスを形成し，キノコ体出力ニューロンの神経活動が行動に影響をおよぼす．異なる種のキノコ体出力ニューロンの樹状突起は相互排他的な領域をしめ，キノコ体の葉はこれにより重複のない15の出力領域に分けられる．それぞれの出力領域は1～3種の特異的なドーパミンニューロンの入力をうける．ドーパミンニューロンの入力は出力領域に特異的にKenyon細胞とキノコ体出力ニューロンとのあいだのシナプスの可塑性に寄与し，また，個々の種のドーパミンニューロンは異なる無条件刺激に反応するため，キノコ体の葉における神経回路の構造により匂い刺激の無条件刺激に特異的な連合学習が可能になる（<a href="#F1">図1</a>）．筆者らは，未知の刺激と既知の刺激との判別に学習のかかわることに着目し，キノコ体の出力領域に新奇な匂い刺激を感知する役割を担う機構が存在するのではないかと仮説をたてた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　キノコ体における匂い刺激の伝達経路と連合学習</strong><br/>（a）Kenyon細胞へ伝達された匂い刺激の情報は，葉にある相互排他的な出力領域において処理され，キノコ体出力ニューロンによりほかの領域へと伝達される．<br/>（b）キノコ体の出力領域における連合学習のモデル．条件刺激である匂いは，匂いに特異的な少数のKenyon細胞を活性化させる．ある匂いと同時に無条件刺激があたえられると特異的なドーパミンニューロンが活性化されてドーパミンが放出され，その匂いにより活性化されるKenyon細胞とキノコ体出力ニューロンとのあいだのシナプスの可塑的な変化により長期抑圧をうける．これにより，キノコ体出力ニューロンの条件刺激に対する反応が低下し，行動が学習に依存して影響をうける．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hattori-Cell-17.5.18-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　キノコ体における匂い刺激の伝達経路と連合学習" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hattori-Cell-17.5.18-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hattori-Cell-17.5.18-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．キノコ体出力ニューロンMBON-α’3は強い反復抑制を示す</h2><br/>　反復抑制を示すキノコ体出力ニューロンを同定するため，同じ匂い刺激をくり返しあたえて神経活動の変化を観察した．個々のニューロンの神経活動は，蛍光Ca<sup>2+</sup>インジケータータンパク質GCaMP6fを特異的なキノコ体出力ニューロンに発現させ，2光子励起レーザー走査型蛍光顕微鏡を用いた<em>in vivo</em>機能的Ca<sup>2+</sup>イメージング法により記録した．その結果，キノコ体のα’3出力領域の出力ニューロンであるキノコ体出力ニューロンMBON-α’3は，はじめてあたえる匂い刺激に対し強い興奮性の反応を示したが，同じ匂い刺激をくり返すことによりこの興奮性の反応は急速に抑制された．抑制は匂いの種類にかかわらずくり返すことに依存してひき起こされ，また，抑制された状態は一定の時間のあいだ持続した．また，抑制はくり返しあたえられた匂い刺激に特異的であり，ひとつの匂い刺激に対する反応が完全に抑制されても，別の新奇の匂い刺激に対し強い興奮性の反応を示した．したがって，α’3出力領域の出力ニューロンであるMBON-α’3は反復抑制を示すことが明らかにされた．<br/>　このような強い反復抑制はほかの出力領域やKenyon細胞においてはみられなかったことから，反復抑制はキノコ体のα’3出力領域に特異的であり，また，抑制はKenyon細胞とMBON-α’3とのあいだのシナプスの可塑的な変化による可能性が示唆された．これらの結果から，MBON-α’3の神経活動は匂い刺激が新奇の場合に高く，その匂い刺激が既知となることと相関して抑制されること，また，この反復抑制にはシナプスの可塑性がかかわる可能性のあることが示された．<br/><br/><h2>2．キノコ体出力ニューロンMBON-α’3の反復抑制はドーパミンニューロンPPL1-α’3の入力に依存する</h2><br/>　これまでの研究により，キノコ体におけるシナプスの可塑性にはドーパミンニューロンのかかわることが示唆されていた<a href="#R4"><sup>4,5)</sup></a>．そこで，キノコ体のα’3出力領域に入力する唯一のドーパミンニューロンであるPPL1-α’3の神経活動がキノコ体出力ニューロンMBON-α’3の反復抑制にどのように影響するかを調べた．内向き整流性K<sup>+</sup>チャネルKir2.1を強制的に過剰に発現させることによりPPL1-α’3の神経活動を恒常的に抑制して反復刺激をあたえたところ，MBON-α’3の反復抑制はみられなくなり，くり返しあたえられた同一の匂い刺激に対しいつまでも興奮性の反応を示した．PPL1-α’3からのシナプス伝達を抑制することによっても同様の結果が得られた．逆に，PPL1-α’3に光駆動性の陽イオンチャネルCsChrimsonを発現させ，匂い刺激をあたえるのと同時に光遺伝学的な手法により活性化させたところ，MBON-α’3の反復抑制は促進された．これらの結果から，MBON-α’3の反復抑制はPPL1-α’3からのドーパミンの放出によりひき起こされることが示された．いい換えれば，α’3出力領域におけるドーパミンニューロンの神経活動は，ある匂い刺激が未知な状態から既知の状態へと変化する学習において必要なことが示唆された．<br/><br/><h2>3．ドーパミンニューロンPPL1-α’3は匂い刺激に反応する</h2><br/>　これまでの研究により，キノコ体のドーパミンニューロンは無条件刺激に対し反応し，条件刺激である匂いとの連合学習を促進する役割を担うことが知られている．これに対し，単純な反復によりある匂いが未知の状態から既知の状態へと変化する際には無条件刺激は存在しないため，キノコ体のα’3出力領域に入力するドーパミンニューロンPPL1-α’3が何に対し反応するかはきわめて重要である．そこで，PPL1-α’3の神経活動をCa<sup>2+</sup>イメージング法により記録したところ，匂い刺激それ自体に興奮性の反応を示し，その反応は匂い刺激が新奇であるほど平均的に強かった．ただし，キノコ体出力ニューロンMBON-α’3とは異なり，PPL1-α’3はくり返された匂い刺激に対しても興奮性の反応を示した．<br/>　以上の結果より，キノコ体のα’3出力領域においてどのような作用機序により反復抑制がひき起こされるか示唆された（<a href="#F2">図2</a>）．新奇な匂い刺激は，その匂いに反応する5～10％のKenyon細胞を興奮させ，それらのKenyon細胞から興奮性のシナプス入力をうけるキノコ体出力ニューロンMBON-α’3も興奮性の反応を示す．同時に，ドーパミンニューロンPPL1-α’3も興奮性の反応を示し，α’3出力領域にドーパミンが放出される．このドーパミンによりKenyon細胞とMBON-α’3とのあいだの活性化しているシナプスの可塑的な変化により長期抑圧をうける．そのため，つぎに同じ匂い刺激をあたえられた際にMBON-α’3の反応はくり返された匂いに特異的に抑制され既知の状態となる．これに対し，異なる新奇の匂い刺激は既知の匂いにより活性化されるKenyon細胞とは異なるKenyon細胞を活性化するため，MBON-α’3は興奮性の反応を示し反復抑制の匂いに対する特異性は保たれる．ほかのキノコ体の出力領域においても，ドーパミンは活性化されているKenyon細胞とキノコ体出力ニューロンとのあいだのシナプスを長期抑圧することが示されている．したがって，α’3出力領域では，ほかの出力領域と同じ分子機構を用いつつ，ドーパミンニューロンが匂い刺激それ自体に反応するという性質を利用して，匂い刺激に対するMBON-α’3の反応性を反復に依存して抑制する．いい換えれば，ほかの出力領域においては，Kenyon細胞により伝達される条件刺激である匂い刺激と，ドーパミンニューロンにより伝達される無条件刺激とが，同時にあたえられることにより連合学習が起こるが，α’3出力領域においては，条件刺激である匂い刺激それ自体がドーパミンニューロンを活性化することにより，新奇な匂い刺激が未知の状態から既知の状態へと匂いを経験するだけで変化する学習をささえる．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　キノコ体のα’3出力領域における新奇な刺激と既知の刺激とを判別する学習の作用機序</strong><br/>新奇な匂いAによりキノコ体出力ニューロンMBON-α’3は興奮性の反応を示し，これにより警戒行動がひき起こされる．同時に，ドーパミンニューロンPPL1-α’3からのドーパミンの放出により，匂いAにより活性化されるシナプスは可塑的な変化により長期抑圧をうけるため，MBON-α’3は匂いAに反応しなくなり既知と記憶される．別の新奇な匂いBは抑圧されていないシナプスを活性化するため，MBON-α’3の興奮性の反応，そして，警戒行動がひき起こされる．このとき，ドーパミンの放出は，活性化されている匂いBのシナプスには長期抑圧，活性化されていない匂いAのシナプスなどには長期増強をひき起こす．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hattori-Cell-17.5.18-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　キノコ体のα’3出力領域における新奇な刺激と既知の刺激とを判別する学習の作用機序" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hattori-Cell-17.5.18-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hattori-Cell-17.5.18-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>4．ドーパミンニューロンPPL1-α’3は経験したことのある匂い刺激の記憶の消去にもかかわる</h2><br/>　匂い刺激それ自体によるドーパミンニューロンの活性化とシナプスの長期抑圧はくり返し現われる匂い刺激を既知のものとして学習する作用機序として単純であるが，一方で，問題も想定される．環境に多種の匂い刺激が存在する場合，単純に計算して約20種の匂い刺激が既知となった時点でキノコ体のα’3出力領域のすべてのKenyon細胞とMBON-α’3とのあいだのシナプスは長期抑圧をうけ，それ以上の新奇の匂いに対しMBON-α’3は興奮性の反応を示すことが不可能になる．そこで，既知となった匂いの記憶の減衰にかかわる作用機序について検討した．ひとつの匂い刺激に対しMBON-α’3の反復抑制が達成されたのち，異なる新奇の匂い刺激をあたえ，最初の匂いに対するMBON-α’3の反応を調べたところ，新奇の匂いにより刺激することでMBON-α’3の反復抑制からの回復は促進された．<br/>　あるひとつの匂い刺激に対し反復抑制が保たれている状態において，別の匂いをあたえると，異なるKenyon細胞の集団，キノコ体出力ニューロンMBON-α’3，ドーパミンニューロンPPL1-α’3が活性化される．このとき，キノコ体のα’3出力領域に放出されるドーパミンは，あとからあたえた匂い刺激により活性化されるKenyon細胞とMBON-α’3とのあいだのシナプスを長期抑圧する．ドーパミンの放出はα’3出力領域の全域に影響するため，同時に，さきの匂い刺激により活性化されるシナプスはKenyon細胞の神経活動がない状態でドーパミンの放出をうけることになる（<a href="#F2">図2</a>）．これまでの研究により，ほかのキノコ体の出力領域においてシナプスの可塑性に対するドーパミンの影響はKenyon細胞の活動のない状態では長期増強の方向にはたらくことが示唆されている．実際に，PPL1-α’3を匂い刺激のない，つまり，Kenyon細胞の活動のない状態において活性化させたところ，ひとつの匂い刺激に対し達成されたMBON-α’3の反復抑制の回復が促進された．これらの結果より，ドーパミンによるシナプスの可塑性に対する双方向性の制御がα’3出力領域における新奇の匂いと既知の匂いとの判別に重要な役割を担うことが示された．匂い刺激によるPPL1-α’3からのドーパミンの放出は，環境に存在する匂いを長期抑圧により既知の匂いであると学習するのに必要である一方，以前に存在した匂いの記憶を長期増強により減衰させることにより，α’3出力領域における記憶容量の飽和をさまたげる機能をもはたす（<a href="#F2">図2</a>）．<br/><br/><h2>5．キノコ体出力ニューロンMBON-α’3の活性化は新奇な匂い刺激に対する警戒行動をひき起こす</h2><br/>　新奇の匂い刺激に対するショウジョウバエの警戒行動を行動生物学的に解析した．ショウジョウバエを微細な粉末でおおうことによりつねにグルーミングをしている状態とし，匂い刺激をあたえたとき，グルーミングを中断するかどうかをその匂い刺激がなんらかの警戒行動をひき起こすかどうかの指標とした．実際に，野生型のショウジョウバエは新奇の匂い刺激をあたえると約50％の確率でグルーミングを中断したが，同じ匂い刺激をくり返すことによりその確率は10～20％にまで低下した．したがって，グルーミングの中断は匂い刺激が未知か既知かに依存しており，匂いに対する警戒行動の表われのひとつであると示唆された．<br/>　キノコ体出力ニューロンMBON-α’3を強制的に活性化したところ約40％の確率でグルーミングは中断された．さらに，新奇な匂い刺激をあたえるのと同時にMBON-α’3の活性を向上させたところ80％以上の確率でグルーミングは中断された．逆に，MBON-α’3を強制的に抑制したところ，新奇な匂い刺激によるグルーミングの中断は約10％の確率にまで低下した．これらの結果より，MBON-α’3の神経活動は新奇な匂い刺激に対し警戒行動をひき起こすのに必要であり，さらに，匂い刺激のくり返しによるMBON-α’3の反復抑制は，既知の匂いに対し警戒行動をひき起こす確率を低下させることと因果関係のあることが示唆された．<br/><br/><h2>おわりに</h2><br/>　学習および記憶はもっとも基本的かつ重要な脳の機能のひとつである．動物は経験にもとづく学習により予測をたて，それを外部環境のモデルとして脳に記憶し，さまざまな場面において最適な行動を決定するのに用いる．予期しえなかった刺激あるいは現象は生存にかかわる場合もあるため格別な重要性をもち，とくに，哺乳類においてドーパミン系は現実と予測との誤差に反応し新たな学習を促進することが知られている<a href="#R6"><sup>6)</sup></a>．新奇な未知の刺激は予期しえない現象のうちもっとも単純なものであり，動物がどのようにそれを感知し警戒行動を示すのかは神経生物学的に重要な問題である．<br/>　今回の研究により，ショウジョウバエが新奇な匂い刺激を感知してそれに反応する神経回路の作用機構が明らかにされた．キノコ体のα’3出力領域は既知の匂い刺激を長期抑圧されたシナプスとして記憶するため，既知の匂いはキノコ体出力ニューロンMBON-α’3を活性化せず警戒行動をひき起こさない．それに対し，未知の匂いは抑圧されていないシナプスを活性化するため，MBON-α’3は強い興奮性の反応を示し警戒行動をひき起こす．それと同時に，これらの活性化されたシナプスはドーパミンニューロンPPL1-α’3からのドーパミンの放出により長期抑圧をうけ既知の匂いとして記憶される．このように，キノコ体のα’3出力領域は，長期抑圧という単純なシナプスの可塑性を用いて外部環境に存在する匂い刺激の“カタログ”を保存することにより，予期しえない新奇な匂いを効率的に感知する機構を確立する．<br/>　現実と予測との誤差による学習と同様に，新奇な刺激は警戒行動をひき起こすだけでなく，学習を促進することが知られている．哺乳類のドーパミンニューロンは新奇な刺激に対しても興奮性の反応を示すことが確認されている．個々のニューロンのレベルで配線地図が明らかにされつつあるショウジョウバエを用いて，キノコ体のα’3出力領域において感知される匂い刺激の新奇性がどのように警戒行動をひき起こし学習の促進に寄与するのかを明らかにしていくことは，脳の根源的な機能である学習および記憶の作用機構を明らかにするうえでも重要な位置をしめるものと期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Desimone, R.</span>: <span class="ti">Neural mechanisms for visual memory and their role in attention.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 93, 13494-13499 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8942962" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Bromberg-Martin, E. S., Matsumoto, M. & Hikosaka, O.</span>: <span class="ti">Dopamine in motivational control: rewarding, aversive, and alerting.</span> <span class='so'>Neuron, 68, 815-834 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21144997" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Aso, Y., Hattori, D., Yu, Y. et al.</span>: <span class="ti">The neuronal architecture of the mushroom body provides a logic for associative learning.</span> <span class='so'>Elife, 3, e04577 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25535793" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Hige, T., Aso, Y., Modi, M. N. et al.</span>: <span class="ti">Heterosynaptic plasticity underlies aversive olfactory learning in <em>Drosophila</em>.</span> <span class='so'>Neuron, 88, 985-998 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26637800" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Cohn, R., Morantte, I. & Ruta, V.</span>: <span class="ti">Coordinated and compartmentalized neuromodulation shapes sensory processing in <em>Drosophila</em>.</span> <span class='so'>Cell, 163, 1742-1755 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26687359" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Watabe-Uchida, M., Eshel, N. & Uchida, N.</span>: <span class="ti">Neural circuitry of reward prediction error.</span> <span class='so'>Annu. Rev. Neurosci., DOI: 10.1146/annurev-neuro-072116-031109[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28441114" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=塩基配列" target="_blank">塩基配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アミノ酸" target="_blank">アミノ酸配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=プログラミング" target="_blank">プログラミング</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=RDF" target="_blank">RDF</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">服部 太祐（Daisuke Hattori）</span><br>略歴：2009年 米国California大学Los Angeles校大学院博士課程 修了，同年より米国Columbia大学 ポスドク．<br>研究テーマ：ショウジョウバエを用いた，遺伝学的，生理学的，行動学的な見地からの学習，記憶，動機づけにかかわる神経回路の作用機序の解明．<br>抱負：“サイエンスは楽しんでやる”をモットーに今後も研究していきたい．<br></div><br>© 2017 服部 太祐 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ポリコーム抑制複合体PRC1はSAMドメインを介して重合し遺伝子発現を抑制する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>ポリコーム抑制複合体PRC1はSAMドメインを介して重合し遺伝子発現を抑制する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>磯野協一・古関明彦</strong><br>（理化学研究所統合生命医科学研究センター 免疫器官形成研究グループ）<br>email：<a href="mailto:isono@rcai.riken.jp">磯野協一</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.127">10.7875/first.author.2013.127</a><br><div class="reference"><br><span class="ti">SAM domain polymerization links subnuclear clustering of PRC1 to gene silencing.</span><br><span class="au">Kyoichi Isono, Takaho A. Endo, Manching Ku, Daisuke Yamada, Rie Suzuki, Jafar Sharif, Tomoyuki Ishikura, Tetsuro Toyoda, Bradley E. Bernstein, Haruhiko Koseki</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24091011" target="_blank"><em>Developmental Cell</em>, <strong>26</strong>, 565-577 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ポリコーム抑制複合体PRC1は核において斑点状の構造体として検出される．しかしながら，その遺伝子発現の抑制への貢献および分子機構については解明されていない．この研究において，筆者らは，PRC1を構成するタンパク質のひとつであるPhc2のもつSAMドメインによる“head-to-tail”結合が，PRC1構造体の形成の原動力であることを示した．PRC1構造体の形成は特定の遺伝子座におけるPRC1およびPRC2の局在を安定化させ，遺伝子発現の抑制に直結した．このSAMドメインに依存的な遺伝子発現の抑制には，標的となる遺伝子座におけるPRC1の捕捉および保持によるPRC1の重合の促進と，PRC2との相互作用の強化という2つの分子機構があると考えられた．この遺伝子発現の抑制のモデルは，胚発生における分化関連遺伝子の可逆的な発現抑制機構の解明にも貢献すると思われる．<br/><br/><h2>はじめに</h2><br/>　胚発生や細胞運命の決定は，特定の遺伝子が時間的および空間的にエピジェネティックに制御され発現することにもとづいている．ポリコーム群タンパク質はこのエピジェネティックな制御機構の中心であり，多くの分化関連遺伝子や細胞増殖遺伝子の発現を可逆的に抑制することにより，体幹および器官の形成のみならず，がん化や幹細胞の維持にも密接にかかわっている<a href="#R1"><sup>1)</sup></a>．一般的に，ポリコーム群タンパク質は構造的かつ機能的に異なる2つのポリコーム抑制複合体（polycomb repressive complex：PRC），PRC1およびPRC2を形成して機能する．PRC1はヒストンH2Aの119番目のLysをユビキチン化する活性，PRC2はヒストンH3の27番目のLysをトリメチル化する活性をもつ．遺伝子発現の抑制に関して，PRC2よりむしろPRC1のほうが効果的に機能すると考えられている<a href="#R2"><sup>2)</sup></a>．しかしながら，PRC1による遺伝子発現の抑制の分子機構は十分には理解されていない．<br/>　PRC1はショウジョウバエやヒトに由来する細胞において蛍光顕微鏡によりPcG構造体とよばれる数個から数十個の核内構造体として検出される．興味深いことに，ショウジョウバエにおいてポリコーム群タンパク質の標的となる代表的な遺伝子である<em>Hox</em>遺伝子クラスター領域に局在するPcG構造体は，その領域のクロマチンの凝集と遺伝子の発現抑制機構に関連することが報告されている<a href="#R3"><sup>3,4)</sup></a>．一方，ヒトの培養細胞においてPcG構造体はポリコーム群タンパク質の標的となる遺伝子が点在する核質ではなくセントロメアの近傍において形成されているが，初代培養細胞においてPcG構造体は核質に観察される<a href="#R5"><sup>5)</sup></a>．しかしながら，これまでPcG構造体の形成機構は不明であり，結果として，遺伝子の発現抑制機構におけるPcG構造体の重要性は解明されていなかった．<br/><br/><h2>1．マウス胚性繊維芽細胞におけるPRC1構造体の形成</h2><br/>　ポリコーム群タンパク質の機能と構造体との関係を理解するには，初代培養細胞系が適している．そこで，マウス胚性繊維芽細胞におけるPRC1の細胞内局在を共焦点蛍光顕微鏡により調べた．その結果，Ring1B，Phc1，Phc2，Mel18/Bmi1，Cbx2などPRC1の構成タンパク質は，多数のPcG構造体様の核内構造体を形成することがわかった（<a href="#F1">図1</a>）．このPRC1構造体の核における局在は，ヒト培養細胞におけるセントロメアの近傍とは異なり，核質にあるヒストンH3の27番目のLysのトリメチル化の部位と一致した．この結果は，PRC1構造体が機能的であることを示唆した．PRC1構造体のダイナミクスを知るため，Ring1B-YFP融合タンパク質およびMel18-GFP融合タンパク質のノックインマウスを作製し，これらのノックインマウスに由来する胚性繊維芽細胞を生細胞観察したところ，Ring1BはPRC1構造体の内外ですばやく分子交換していることが明らかになった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　核に存在するPRC1構造体</strong><br/>マウス胚性繊維芽細胞における抗体免疫染色．Ring1B（緑色），Phc2（赤色）などのポリコーム群タンパク質はPRC1構造体（黄色）を形成する．青色はDNA染色．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Koseki-Developmental-Cell-13.9.30-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　核に存在するPRC1構造体" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Koseki-Developmental-Cell-13.9.30-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Koseki-Developmental-Cell-13.9.30-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．PRC1構造体と遺伝子の発現抑制機構との相関</h2><br/>　マウス胚性繊維芽細胞においてPRC1構造体は不活性化した遺伝子座に形成されていることを免疫DNA蛍光<em>in situ</em>ハイブリダイゼーション（iFISH）法により確認した．少なくとも，PRC1構造体はポリコーム群タンパク質の標的である<em>Hox</em>遺伝子クラスター領域および<em>Cdkn2a</em>遺伝子において検出された．胚の前後軸にそった<em>Hox</em>遺伝子の発現は，<em>Hox</em>遺伝子クラスター領域における遺伝子の並びと一致することが知られる<a href="#R6"><sup>6)</sup></a>．PRC1構造体と遺伝子の発現抑制機構とに相関があるならば，頭部においてPRC1構造体は不活性状態である<em>Hox</em>遺伝子クラスターのすべての領域に存在し，尾部においては不活性状態である5’側の<em>Hox</em>遺伝子には存在するが，活性状態である3’側の<em>Hox</em>遺伝子には存在していないはずである．このことを検証するため，Mel18-GFP融合タンパク質ノックインマウスの胎生9.5日の胚に由来する頭部および尾部の細胞における3’側に位置する<em>Hoxb1</em>遺伝子および5’側に位置する<em>Hoxb13</em>遺伝子とPRC1構造体との関係を調べた．その結果は予想と一致した（<a href="#F2">図2</a>）．ここで興味深いのは，頭部において不活性化されている<em>Hoxb1</em>遺伝子と<em>Hoxb13</em>遺伝子とが同一のPRC1構造体において共局在していた点であった．これは，<em>Hoxb</em>遺伝子クラスター領域は凝集しひとつのPRC1構造体に封印されていることを示唆していた．これらの結果から，マウスにおいてPRC1構造体は遺伝子の発現抑制機構に相関していることが示された．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　PRC1構造体と遺伝子の発現抑制機構との相関</strong><br/>（a）<em>Hoxb</em>遺伝子クラスター領域の構造．iFISH実験のための<em>Hoxb1</em>遺伝子のプローブおよび<em>Hoxb13</em>遺伝子のプローブを示した．<br/>（b）胎生9.5日のマウスの胚における<em>Hoxb1</em>遺伝子の発現領域（紫色）とiFISH実験．左側に示す頭部において，<em>Hoxb1</em>遺伝子および<em>Hoxb13</em>遺伝子は発現オフであり，<em>Hoxb1</em>遺伝子および<em>Hoxb13</em>遺伝子は同一のPRC1構造体に重なっていた．右側に示す尾部において，<em>Hoxb1</em>遺伝子は発現オンだが<em>Hoxb13</em>遺伝子は発現オフであり，<em>Hoxb13</em>遺伝子はPRC1構造体に存在したが，<em>Hoxb1</em>遺伝子は離れていた．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Koseki-Developmental-Cell-13.9.30-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　PRC1構造体と遺伝子の発現抑制機構との相関" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Koseki-Developmental-Cell-13.9.30-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Koseki-Developmental-Cell-13.9.30-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．Phc2のもつSAMドメインはPRC1構造体の形成に必要である</h2><br/>　PRC1構造体の意義を本質的に理解するためには，PRC1構造体がどのように形成されるのかを解明する必要があった．そこで，PRC1の構成タンパク質でありSAM（sterile alpha motif）ドメインをもつPhc2に着目した．なぜなら，SAMドメインは構造学的に“head-to-tail”結合を介した自己重合活性をもつため<a href="#R7"><sup>7)</sup></a>，その活性がPRC1どうしの相互作用を促進すると考えたからである．<br/>　PRC1どうしの重合がPhc2のもつSAMドメインに依存的に起こるかどうかを生化学的に確かめた．293T細胞においてPRC1を形成させるため，その4つの構成タンパク質を標識したもの，Myc標識Ring1B，Myc標識Mel18，Myc標識Cbx2，および，FLAG標識した野生型のPhc2あるいはPhc2変異体を強制発現させた．ここで用いたPhc2変異体は，SAMドメインに自己重合が不全となる点変異をもつものである<a href="#R7"><sup>7)</sup></a>．抗FLAG抗体により精製したのち，スクロース密度勾配遠心法によりサイズで分画し，それぞれの画分を抗Myc抗体により2段階精製した．精製したPRC1を抗FLAG抗体および抗Myc抗体を用いウェスタンブロット法により検出した．その結果，野生型Phc2を含むPRC1のサイズは669 kDaをゆうにこえていたが，Phc2変異体を含むPRC1は数百kDaであった．PRC1単体は約200 kDaであることを考えると，PRC1はPhc2のもつSAMドメインに依存的に重合することが示唆された．<br/>　PRC1構造体の形成への影響を調べるため，野生型のPhc2およびSAMドメインに自己重合が不全となる点変異をもつPhc2変異体とGFPとの融合タンパク質をU2OS細胞に強制発現させた．その結果，野生型Phc2はPRC1構造体を構成したが，Phc2変異体を発現させた細胞ではPRC1構造体は消失していた．この消失は，強制発現させたPhc2変異体がドミナントネガティブ効果を示し，内在性のPhc2と結合してそれらの重合を阻害したためであるという結果も得られた．したがって，Phc2のもつSAMドメインの自己重合活性は，PRC1どうしの重合を促進させPRC1構造体を導く原動力であると結論づけた．<br/><br/><h2>4．Phc2のもつSAMドメインの自己重合活性は遺伝子の発現抑制機構に直結する</h2><br/>　遺伝子の発現抑制機構におけるPhc2のもつSAMドメインの自己重合活性の役割を調べるため，Phc2のSAMドメインに自己重合が不全となる点変異を導入したノックインマウスを作製した．この点変異マウスは，ポリコーム群タンパク質を欠損したマウスと同様に脊椎形成異常症を発症した．この点変異マウスに由来する胚性繊維芽細胞を用いたマクロアレイ法により測定した遺伝子発現のデータとクロマチン免疫沈降-シークエンシング法によるデータとをあわせたゲノムワイド解析により，<em>Hox</em>遺伝子や<em>Cdkn2a</em>遺伝子などを含む，PRC1の構成タンパク質であるRing1Bの結合およびヒストンH3の27番目のLysのトリメチル化のみられた遺伝子が，SAMドメインにおける点変異により有意に再活性化することが示された．さらに興味深いことに，それらのうち顕著に不活性化した遺伝子座からはRNAポリメラーゼIIが排除される傾向があった．<em>Hoxb</em>遺伝子クラスター領域に関しては，クロマチンの脱凝集も確認できた．これらの結果から，Phc2のSAMドメインに導入された自己重合が不全となる点変異は遺伝子の発現抑制機構を損ねることが示された．また重要なこととして，マウスの胚を使った免疫沈降解析により，SAMドメインの自己重合活性が不全となる点変異をもつPhc2は正常に発現し，ほかのPRC1構成タンパク質と正常に結合していることが示された．さらに，この点変異を導入したノックインマウスに由来する胚性繊維芽細胞ではPRC1構造体が消失していた．これらの結果より，Phc2のSAMドメインに点変異をもつ細胞にはPRC1は存在するものの，自己重合の不全によりPRC1の重合およびPRC1構造体の形成が損なわれていることが示された．したがって，Phc2のもつSAMドメインの自己重合活性は遺伝子の発現抑制機構に必要であると結論づけた．<br/><br/><h2>5．Phc2の重合によるPRC1およびPRC2の捕捉と保持</h2><br/>　PRC1の重合がPRC1自体の遺伝子座への局在に影響をあたえるかどうかを検証するため，PRC1の構成タンパク質であるRing1Bのクロマチンへの局在をクロマチン免疫沈降-シークエンシング法により解析した．その結果，Phc2のSAMドメインに自己重合が不全となる点変異を導入したノックインマウスに由来する胚性繊維芽細胞において，Ring1Bの結合およびヒストンH3の27番目のLysのトリメチル化のみられた遺伝子座に特異的にRing1Bの量は約50％まで減少していた．この点変異がヒストンH3の27番目のLysのトリメチル化のレベルにも影響する可能性を考え，このヒストンH3トリメチル化のみられた遺伝子についてクロマチン免疫沈降-シークエンシング法による解析を行った．Ring1Bの結合の変化と同様に，Phc2のSAMドメインに点変異を導入したノックインマウスに由来する胚性繊維芽細胞におけるヒストンH3の27番目のLysのトリメチル化のレベルは，Ring1Bの結合およびこのヒストンH3トリメチル化のみられた遺伝子において特異的に半減しており，さらに，その原因はPRC2の局在性の低下により説明された．これらの結果から，Phc2のもつSAMドメインの自己重合活性は，PRC1のみならず，PRC2の遺伝子座への局在においても重要であることが明らかになった．具体的には，この50％程度の減少とPRC1構成タンパク質のダイナミクスとを考慮すると，SAMドメインによる自己重合はPRC1を捕捉および保持することによりその安定した局在化に貢献していると考えられた．<br/><br/><h2>おわりに</h2><br/>　この研究の結果から，PRC1による遺伝子の発現抑制機構を改訂することができた（<a href="#F3">図3</a>）．ポリコーム群タンパク質の標的となる遺伝子，たとえば，<em>Hox</em>遺伝子クラスター領域や<em>Cdkn2a</em>遺伝子領域において，PRC1は（おそらく，ヒストンH3の27番目のLysのトリメチル化に依存して）低いレベルで存在するが，この状態はPRC1の不活性化に対し十分ではない．遊離のPRC1はSAMドメインどうしの相互作用により捕捉され停留し，結果としてPRC1は重合する．PRC1の重合はPRC2との結合に適した環境をつくりだし<a href="#R8"><sup>8)</sup></a>，増加したヒストンH3の27番目のLysのトリメチル化をプラットフォームとしてより安定化しPRC1構造体となる．この状態で，PRC1ははじめて遺伝子の発現抑制機構を発揮できるようになる．その理由のひとつにRNAポリメラーゼIIの排除が考えられる．しかしながら，遺伝子発現の抑制されたクロマチン高次構造の最終型は別にあるのかもしれない．以下がその理由である（<a href="#F3">図3</a>）．1）筆者らによる結果は，PRC1の重合の不全による<em>Hoxb</em>遺伝子領域の脱凝集を示している．2）SAMドメインによる重合の特性である6回らせん対称はPRC1の周期的な構造を生む可能性を示唆している<a href="#R7"><sup>7)</sup></a>．この周期性はクロモドメインおよびヒストンH3の27番目のLysのトリメチル化との結合を介したクロマチンどうしの相互作用を可能にする．3）これを支持するように，ヌクレオソームアレイ-PRC1複合体はPhc1に依存的に第2のヌクレオソームアレイと結合するという<em>in vitro</em>における報告がある<a href="#R9"><sup>9)</sup></a>．したがって，クロマチン高次構造の変換をまき込んだPRC1の重合状態も十分に考えられる．<br/><br/><a name="F3"></a><div id="fig3-caption-text" style="display: none;"><strong>図3　SAMドメインによる自己重合を介したPRC1による遺伝子の発現抑制機構のモデル</strong><br/>A型：PRC1は低いレベルで存在する．この状態はPRC1の不活性化に対し十分ではなく，遺伝子発現は活性的あるいは潜在的に活性的である．B型：PRC1はSAMドメインどうしの相互作用により重合する．遺伝子発現は抑制的である．C型：クロマチン高次構造の変換をともなうPRC1の重合状態も考えられる．遺伝子発現は抑制的である．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Koseki-Developmental-Cell-13.9.30-Fig.3.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure3" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図3　SAMドメインによる自己重合を介したPRC1による遺伝子の発現抑制機構のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Koseki-Developmental-Cell-13.9.30-Fig.3.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Koseki-Developmental-Cell-13.9.30-Fig.3.jpg" alt="figure3" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig3-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig3-caption').innerHTML = document.getElementById('fig3-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　SAMドメインに依存的なPRC1の重合機構の潜在性は，適切な強度の遺伝子発現の抑制となるようPRC1の量を最適化し，逆に，SAMドメインによるPRC1の重合の解除は遺伝子発現の活性化を導く．すなわち，SAMドメインによる重合の特性は，細胞の内外からの刺激に応答するポリコーム群タンパク質による遺伝子発現の抑制の可逆性における鍵になっているのかもしれない．事実，ES細胞への分化の刺激は<em>Hoxb</em>遺伝子クラスター領域の脱凝集をひき起こしこれを活性化させる<a href="#R10"><sup>10)</sup></a>．今後，ポリコーム群タンパク質の機能を医学的に応用するため，SAMドメインによる自己重合を制御する分子機構が解明されることを期待する．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Sawarkar, L. & Paro, R.</span>: <span class="ti">Interpretation of developmental signaling at chromatin: the Polycomb perspective.</span> <span class='so'>Dev. Cell, 19, 651-661 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21074716" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Endoh, M., Endo, T. A., Endoh, T. et al.</span>: <span class="ti">Histone H2A mono-ubiquitination is a crucial step to mediate PRC1-dependent repression of developmental genes to maintain ES cell identity.</span> <span class='so'>PLoS Genet., 4, e1002774 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22844243" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Lanzuolo, C., Roure, V., Dekker, J. et al.</span>: <span class="ti">Polycomb response elements mediate the formation of chromosome higher-order structures in the bithorax complex.</span> <span class='so'>Nat. Cell Biol., 9, 1167-1174 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17828248" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Bantignies, F., Roure, V., Comet, I. et al.</span>: <span class="ti">Polycomb-dependent regulatory contacts between distant Hox loci in <em>Drosophila</em>.</span> <span class='so'>Cell, 144, 214-226 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21241892" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Saurin, A. J., Shiels, C., Williamson, J. et al.</span>: <span class="ti">The human Polycomb group complex associates with pericentromeric heterochromatin to form a novel nuclear domain.</span> <span class='so'>J. Cell Biol., 142, 887-898 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9722603" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Kmita, M. & Duboule, D.</span>: <span class="ti">Organizing axes in time and space; 25 years of collinear tinkering.</span> <span class='so'>Science, 301, 331-333 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12869751" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Kim, C. A., Gingery, M., Pilpa, R. M.</span>: <span class="ti">The SAM domain of polyhomeotic forms a helical polymer.</span> <span class='so'>Nat. Struct. Biol., 9, 453-457 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11992127" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Yuan, W., Wu, T., Liu, N. et al.</span>: <span class="ti">Dense chromatin activates Polycomb repressive complex 2 to regulate H3 lysine 27 methylation.</span> <span class='so'>Science, 337, 971-975 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22923582" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Lavigne, M., Francis, N. J., King, I. F. G. et al.</span>: <span class="ti">Propagation of silencing: recruitment and repression of naive chromatin in trans by Polycomb repressed chromatin.</span> <span class='so'>Mol. Cell, 13, 415-425 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14967148" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Chambeyron, S. & Bickmore, W. A.</span>: <span class="ti">Chromatin decondensation and nuclear reorganization of the <em>HoxB</em> locus upon induction of transcription.</span> <span class='so'>Genes Dev., 18, 1119-1130 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15155579" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">磯野 協一（Kyoichi Isono）</span><br>略歴：1997年 岡山大学大学院自然科学研究科にて博士号取得，1998年 長寿科学技術振興財団 レサーチ・レジデント，2000年 千葉大学大学院医学研究院 助手を経て，2004年より理化学研究所免疫・アレルギー科学総合研究センター（現 統合生命医科学研究センター）上級研究員．<br>研究テーマ：遺伝子発現の制御．<br>関心事：草野球．<br><br><strong>古関 明彦（Haruhiko Koseki）</strong><br>理化学研究所統合生命医科学研究センター グループディレクター．<br>研究室URL：<a href="http://web.rcai.riken.jp/en/labo/genetics/" target="_blank">http://web.rcai.riken.jp/en/labo/genetics/</a><br></div><br>© 2013 磯野協一・古関明彦 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

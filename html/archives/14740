@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> リボソームの生合成を標的にした低分子阻害剤ribozinoindoleの発見 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>リボソームの生合成を標的にした低分子阻害剤ribozinoindoleの発見</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>川島茂裕・Tarun M. Kapoor</strong><br>（米国Rockefeller大学Laboratory of Chemistry and Cell Biology）<br>email：<a href="mailto:skawashima@mol.f.u-tokyo.ac.jp">川島茂裕</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.103">10.7875/first.author.2016.103</a><br><div class="reference"><br><span class="ti">Potent, reversible, and specific chemical inhibitors of eukaryotic ribosome biogenesis.</span><br><span class="au">Shigehiro A. Kawashima, Zhen Chen, Yuki Aoi, Anupam Patgiri, Yuki Kobayashi, Paul Nurse, Tarun M. Kapoor</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27667686" target="_blank"><em>Cell</em>, <strong>167</strong>, 512-524.e14 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　リボソームの生合成は真核生物において200以上の制御タンパク質の関与する複雑かつダイナミックな過程である．このような細胞における複雑な系の解析において，標的となるタンパク質の機能を数秒から数分という非常に速いタイムスケールで阻害する低分子阻害剤は非常にすぐれた研究ツールになる．しかし，これまで，真核生物においてリボソームの生合成を標的にした有用な低分子阻害剤は存在しなかった．筆者らは，独自に開発した薬剤感受性の分裂酵母を用いた化学遺伝学的なスクリーニング系により，リボソームの生合成に必須なAAA+タンパク質であるミダシンの特異的かつ可逆的な低分子阻害剤としてribozinoindoleを同定した．ribozinoindoleは<em>in vitro</em>においてミダシンのATPase活性を直接的に阻害した．また，ribozinoindoleを用いることにより細胞においてミダシンの機能をすばやく阻害あるいは活性化することが可能になり，リボソームの生合成におけるミダシンの新たな機能が発見された．<br/><br/><h2>はじめに</h2><br/>　細胞においてすべてのタンパク質はリボソームとよばれる巨大なRNA-タンパク質複合体により合成される．そのため，細胞は莫大なエネルギーをついやして毎分1000個以上のリボソームを生合成する．細胞はリボソームをすばやくかつ正確に生合成する必要があり，この過程に異常が生じるとリボソーム病などの疾患につながる可能性が考えられている．さらに，リボソームの生合成の亢進はがん化にも関連することが知られている．よって，リボソームの生合成の分子機構を理解すること，および，リボソームの生合成を標的とした低分子阻害剤を同定することは，基礎生物学的な観点，また，医学および薬学的な観点の両面において非常に重要な課題であるといえる．しかし，リボソームの阻害剤が数多く同定されてきたのと対照的に，リボソームの生合成を標的とした低分子化合物についてはこれまでほとんど報告がなかった．<br/>　リボソームの生合成をはじめとする細胞における複雑かつダイナミックな過程を理解するためには，標的となるタンパク質の機能を数秒から数分という非常に速いタイムスケールで阻害する低分子阻害剤はすぐれた研究ツールとなる．筆者らは，有用な低分子化合物を同定するため多剤耐性に関与する7つの遺伝子を欠損または変異させた薬剤感受性の分裂酵母株を作製した<a href="#R1"><sup>1,2)</sup></a>．これにより，酵母の遺伝学を組み合わせた効率的な化学遺伝学的なスクリーニング系を構築することが可能になった．これまでに，染色体分配の異常を示す化合物のスクリーニングにより脂肪酸合成酵素の新規の阻害剤を，染色体の構築に必須なコンデンシンの変異体と合成致死になる化合物のスクリーニングによりAuroraキナーゼの阻害剤を同定し，それらの阻害剤を研究ツールとして用いることにより染色体分配の制御機構の一端を明らかにした<a href="#R3"><sup>3,4)</sup></a>．<br/><br/><h2>1．化学遺伝学的なスクリーニングによるリボソームの生合成の低分子阻害剤の同定</h2><br/>　10353個の化合物を含むケミカルライブラリーと薬剤感受性の分裂酵母株を用いて化学遺伝学的なスクリーニングを行った．当初は，染色体分配に必須なタンパク質であるCut2/Securinの機能を阻害する化合物の同定をめざしており，<em>cut2</em>変異体と合成致死になる化合物をスクリーニングしたところ6個のヒット化合物が得られた．そのうち，もっとも強い増殖阻害を示した化合物をribozinoindoleと名づけて解析した．Cut2の機能を阻害する化合物であれば，ribozinoindoleを処理した細胞は染色体分配の異常を示すはずであった．しかし，細胞の増殖は阻害されたものの，予想とは異なり，染色体分配の異常はまったくみられなかった．この結果から，用いた<em>cut2</em>変異体のゲノムには<em>cut2</em>遺伝子のほかにも遺伝子変異があり，その変異がribozinoindoleと合成致死をひき起こしたのではないかという仮説をたてた．用いた<em>cut2</em>変異体の全ゲノム塩基配列を決定して変異を調べた結果，ミダシンをコードする<em>mdn1</em>遺伝子に点変異がみつかり，のちの詳細の解析により，ribozinoindoleは<em>mdn1</em>遺伝子の点変異と合成致死になることが確認された．つづいて，ribozinoindoleに対し耐性を示す13株の変異体を取得した．標的となるタンパク質においてribozinoindoleとの結合部位の近傍に変異が導入されると結合能が失われ，その結果，ribozinoindoleに対し耐性を示すことが予想された．実際に，ribozinoindoleに対し耐性を示す13株すべてにおいて<em>mdn1</em>遺伝子にミスセンス変異がみつかった．さらに，みつかった合計7種類のミスセンス変異はすべてAAA3とAAA4とのあいだのATP加水分解の触媒ポケットの近傍にあった（<a href="#F1">図1</a>）．これらの結果から，ribozinoindoleの標的はミダシンであり，とくにATPase活性を阻害する可能性が示唆された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　ミダシンの構造とその低分子阻害剤ribozinoindole</strong><br/>ミダシンはN末端側にAAA1～AAA6を含むリング状の構造をもち，長いリンカー領域をはさんで，C末側端側に酸性領域およびMIDAS領域をもつ．おのおののAAAドメインの境界にATPが結合し加水分解反応の起こりうる触媒ポケットが存在する．ribozinoindoleはミダシンのATPase活性を阻害する．<br/>*はribozinoindoleに耐性を示すミスセンス変異の位置を示す．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kawashima-Cell-16.10.6-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　ミダシンの構造とその低分子阻害剤ribozinoindole" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kawashima-Cell-16.10.6-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kawashima-Cell-16.10.6-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．ribozinoindoleはミダシンのATPase活性に対する阻害剤である</h2><br/>　ミダシンは真核生物において広く保存された，リボソームの生合成に必須の巨大なAAA+タンパク質である．多くのAAA+タンパク質がホモ六量体からなるリング状の構造を形成して機能するのに対し，ミダシンは微小管モータータンパク質であるダイニンとの相同性が高く，1分子で6つのAAAドメインを含むリング状の構造を形成し機能することが示唆されている<a href="#R5"><sup>5)</sup></a>（<a href="#F1">図1</a>）．さらに，長いリンカー領域および酸性領域をはさんでもっともC末端側にタンパク質との相互作用に必要と考えられるMIDAS領域をもつ<a href="#R6"><sup>6)</sup></a>（<a href="#F1">図1</a>）．しかし，その巨大さゆえ，これまでにミダシンの組換えタンパク質の精製およびそのATPase活性については報告がなかった．さまざまな条件検討の結果，昆虫細胞発現系と複数のステップからなるタンパク質の精製を組み合わせることにより，分裂酵母のミダシンの全長の組換えタンパク質（約542 kDa）を精製した．ミダシンの全長の組換えタンパク質においてATPase活性が検出され，ribozinoindoleはミダシンのATPase活性を阻害したことから，ribozinoindoleはミダシンのATPase活性に対する阻害剤であると結論づけた．ATP加水分解の触媒ポケットは2つのAAAドメインにはさまれるように存在することが知られていたものの<a href="#R7"><sup>7)</sup></a>（<a href="#F1">図1</a>），ミダシンに存在する6つの触媒ポケットのうちどれが機能に重要であるかは不明であった．ミダシンのおのおのの触媒ポケットの変異体を網羅的に作製し解析した結果，6つのうち4つの触媒ポケットにおけるATP加水分解が機能に必要であった．これまでの研究により，ダイニンにおいては6つのうちおもに2つの触媒ポケットにおけるATP加水分解が機能に重要であることが示唆されており<a href="#R8"><sup>8)</sup></a>，ミダシンとダイニンのATP加水分解の機構は異なることが示唆された．また，ribozinoindoleに対し耐性を示す株において見い出されたミスセンス変異の存在したAAA3とAAA4とのあいだの触媒ポケットにおけるATP加水分解はミダシンの機能に必須であった．<br/><br/><h2>3．Ribozinoindoleの処理により細胞においてミダシンの機能をすばやく阻害あるいは活性化できる</h2><br/>　真核生物におけるリボソームの生合成においては，約5500塩基長のリボソームRNAおよび約80個のリボソームタンパク質が核小体において集合し，核小体および核質におけるミダシンを含む200以上の制御タンパク質の関与する巧妙かつ複雑なリボソームRNA前駆体のプロセシングをへて，最終的に成熟したリボソームが核から細胞質へと放出される<a href="#R9"><sup>9)</sup></a>．ミダシンのリボソームの生合成における機能は，これまで，出芽酵母を用いた遺伝学的および生化学的な解析により調べられてきた．出芽酵母において，ミダシンはリボソーム60Sサブユニット前駆体の核から細胞質への移行，および，リボソームRNA前駆体のプロセシングに必須であったため<a href="#R10"><sup>10)</sup></a>，分裂酵母においてribozinoindoleを処理した細胞および<em>mdn1</em>遺伝子の温度感受性の変異株においてこれらの欠損があるかどうか調べた．その結果，いずれの場合においても出芽酵母の場合と同様の欠損がみられたことから，ミダシンの機能は出芽酵母と分裂酵母とのあいだで保存されていることが示唆された．温度感受性株においては制限温度に移行してから表現型が現われるまで約6時間かかったのに対し，ribozinoindoleは処理から30分後には表現型が現われた．つづいて，ribozinoindoleを培地から除いたところ，5分後には表現型が回復した．これらの結果から，ribozinoindoleはミダシンの機能を非常にすばやく阻害あるいは活性化する可逆的な低分子阻害剤であることがわかった．<br/><br/><h2>4．ミダシンは核小体のNsa1粒子における制御タンパク質の制御に必須である</h2><br/>　60Sサブユニット前駆体のプロセシングはいくつかの中間体をへることが示唆されており，たとえば，核小体に存在するNsa1を含む前駆体（Nsa1粒子）のあとに，核質に存在するRix1を含む前駆体（Rix1粒子）がはたらく<a href="#R5"><sup>5)</sup></a>（<a href="#F2">図2</a>）．出芽酵母における研究により，ミダシンはおもにRix1粒子に存在し，制御タンパク質であるRsa4およびYtm1をRix1粒子から除去する役割が示唆されていた<a href="#R11"><sup>11,12)</sup></a>（<a href="#F2">図2</a>）．このモデルが正しければ，ミダシンを不活性化した場合，Rix1粒子においてRsa4およびYtm1の量は増加することが予想された．しかし実際には，ribozinoindoleを1時間処理した分裂酵母のRix1粒子においてRsa4およびYtm1の量はむしろ減少した．より詳細な経時変化を調べたところ，Rix1粒子において，Rsa4はribozinoindoleの処理の15分後にいったん増加し，そののち，時間とともに減少した．これらの結果から，ミダシンのRix1粒子における機能は出芽酵母とのあいだで保存されているものの，それにくわえ，ミダシンはRix1粒子よりまえの核小体前駆体においても重要な機能があり，その機能がribozinoindoleにより阻害されたため，そののちのRix1粒子において異常が生じたのではないかという仮説をたてた．この仮説を検討するため，ribozinoindoleを処理した細胞において核小体に存在するNsa1粒子について詳細に調べた．その結果，Nsa1粒子にミダシンが含まれること，そして，Nsa1粒子と結合する制御タンパク質であるRix7がribozinoindoleの処理の15分後にNsa1粒子から消失することが見い出された．さらに，ミダシンもribozinoindoleの処理によりNsa1粒子からすみやかに消失した．ribozinoindoleの処理によりみられたすべての表現型は，ribozinoindoleに耐性を示す<em>mdn1</em>遺伝子の点変異体においてはみられなかったことから，これらの表現型はたしかにミダシンの機能の阻害によりひき起こされたことが確認された．以上の結果から，ミダシンは核小体のNsa1粒子における制御タンパク質の制御に必須の役割のあることが明らかにされた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　60Sサブユニット前駆体の生合成におけるミダシンの機能</strong><br/>ミダシンは60Sサブユニット前駆体の生合成の過程において少なくとも3つの役割をもつ．核小体においてはNsa1粒子と結合しRix7のNsa1粒子との結合を助ける．一方，核質においてはRix1粒子と結合しYtm1およびRsa4をRix1粒子から除去する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kawashima-Cell-16.10.6-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　60Sサブユニット前駆体の生合成におけるミダシンの機能" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kawashima-Cell-16.10.6-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kawashima-Cell-16.10.6-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究においては，独自に開発した薬剤感受性の分裂酵母を用いた化学遺伝学的なスクリーニング系によりミダシンの特異的かつ可逆的な低分子阻害剤としてribozinoindoleを同定し，リボソームの生合成の研究におけるその有用性を証明した．特筆すべきはその効果の速さであり，ミダシンの機能が数分から数十分で阻害あるいは活性化されたことが，ミダシンの核小体における新たな機能の発見につながった．リボソームの生合成の複雑かつダイナミックな機構を理解するためには，すばやい阻害および表現型の経時観察が必須であり，今後も，リボソームの生合成を標的とした新たな有用な低分子阻害剤を開発していく必要がある．近年，ほかのAAA+タンパク質であるp97/VCPおよびダイニンの低分子阻害剤が報告され，AAA+タンパク質が“druggable”な標的であることがわかってきた．ミダシンも酵母からヒトまで真核生物において広く保存されたタンパク質であるため，創薬という観点から考えてもribozinoindoleは興味深い阻害剤である．リボソームの生合成の亢進はがん化にも関連するため，ribozinoindoleあるいはそのアナログがヒトのリボソームの生合成に対し効果があるかどうかは早急に調べるべき課題である．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Kawashima, S. A., Takemoto, A., Nurse, P. et al.</span>: <span class="ti">Analyzing fission yeast multidrug resistance mechanisms to develop a genetically tractable model system for chemical biology.</span> <span class='so'>Chem. Biol., 19, 893-901 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22840777" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Aoi, Y., Sato, M., Sutani, T. et al.</span>: <span class="ti">Dissecting the first and the second meiotic divisions using a marker-less drug-hypersensitive fission yeast.</span> <span class='so'>Cell Cycle, 13, 1327-1334 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24621506" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Takemoto, A., Kawashima, S. A., Li, J. J. et al.</span>: <span class="ti">Nuclear envelope expansion is critical for proper chromosomal segregation during a closed mitosis.</span> <span class='so'>J. Cell Sci., 129, 1250-1259 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26869222" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Kawashima, S. A., Takemoto, A., Nurse, P. et al.</span>: <span class="ti">A chemical biology strategy to analyze rheostat-like protein kinase-dependent regulation.</span> <span class='so'>Chem. Biol., 20, 262-271 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23438755" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kressler, D., Hurt, E., Bergler, H. et al.</span>: <span class="ti">The power of AAA-ATPases on the road of pre-60S ribosome maturation: molecular machines that strip pre-ribosomal particles.</span> <span class='so'>Biochim Biophys Acta, 1823, 92-100 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21763358" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Garbarino, J. E. & Gibbons, I. R.</span>: <span class="ti">Expression and genomic analysis of midasin, a novel and highly conserved AAA protein distantly related to dynein.</span> <span class='so'>BMC Genomics, 3, 18 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12102729" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Erzberger, J. P. & Berger, J. M.</span>: <span class="ti">Evolutionary relationships and structural mechanisms of AAA+ proteins.</span> <span class='so'>Annu. Rev. Biophys. Biomol. Struct., 35, 93-114 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16689629" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Carter, A. P.</span>: <span class="ti">Crystal clear insights into how the dynein motor moves.</span> <span class='so'>J. Cell Sci., 126, 705-713 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23525020" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Thomson, E., Ferreira-Cerca, S. & Hurt, E.</span>: <span class="ti">Eukaryotic ribosome biogenesis at a glance.</span> <span class='so'>J. Cell Sci., 126, 4815-4821 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24172536" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Galani, K., Nissan, T. A., Petfalski, E. et al.</span>: <span class="ti">Rea1, a dynein-related nuclear AAA-ATPase, is involved in late rRNA processing and nuclear export of 60 S subunits.</span> <span class='so'>J. Biol. Chem., 279, 55411-55418 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15528184" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Bassler, J., Kallas, M., Pertschy, B. et al.</span>: <span class="ti">The AAA-ATPase Rea1 drives removal of biogenesis factors during multiple stages of 60S ribosome assembly.</span> <span class='so'>Mol. Cell, 38, 712-721 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20542003" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Ulbrich, C., Diepholz, M., Bassler, J. et al.</span>: <span class="ti">Mechanochemical removal of ribosome biogenesis factors from nascent 60S ribosomal subunits.</span> <span class='so'>Cell, 138, 911-922 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19737519" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=PDB" target="_blank">PDB</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=化合物" target="_blank">化合物データベース</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=変異解析" target="_blank">変異解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=塩基配列" target="_blank">塩基配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アミノ酸" target="_blank">アミノ酸配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=抗体" target="_blank">抗体解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アラインメント" target="_blank">アラインメント</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">川島 茂裕（Shigehiro A. Kawashima）</span><br>略歴：2008年 東京大学大学院理学系研究科博士課程 修了，同年 東京大学分子細胞生物学研究所 特任研究員，2009年 米国Rockefeller大学 ポストドクトラルフェローを経て，2012年よりERATO金井触媒分子生命プロジェクト グループリーダー．<br>研究テーマ：触媒医療による染色体の制御．<br>抱負：研究者人生，ひとつでも多くの発見をしたい．<br><br><strong>Tarun M. Kapoor</strong><br>米国Rockefeller大学 教授．<br>研究室URL：<a href="http://www.kapoorlab.com/" target="_blank">http://www.kapoorlab.com/</a><br></div><br>© 2016 川島茂裕・Tarun M. Kapoor Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

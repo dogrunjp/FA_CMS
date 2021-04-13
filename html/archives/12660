@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> モータータンパク質KIF1AはNGFの受容体であるTrkAの軸索輸送により痛覚をささえる : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>モータータンパク質KIF1AはNGFの受容体であるTrkAの軸索輸送により痛覚をささえる</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>田中庸介<sup>1</sup>・廣川信隆<sup>2</sup></strong><br>（東京大学大学院医学系研究科 <sup>1</sup>細胞生物学講座，<sup>2</sup>分子構造・動態・病態学講座）<br>email：<a href="mailto:tanaka@m.u-tokyo.ac.jp">田中庸介</a>，<a href="mailto:hirokawa@m.u-tokyo.ac.jp">廣川信隆</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.065">10.7875/first.author.2016.065</a><br><div class="reference"><br><span class="ti">The molecular motor KIF1A transports the TrkA neurotrophin receptor and is essential for sensory neuron survival and function.</span><br><span class="au">Yosuke Tanaka, Shinsuke Niwa, Ming Dong, Atena Farkhondeh, Li Wang, Ruyun Zhou, Nobutaka Hirokawa</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27263974" target="_blank"><em>Neuron</em>, <strong>90</strong>, 1215-1229 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　KIF1Aは軸索輸送における主要なモータータンパク質のひとつであるが，個体レベルにおける役割については不明な点が多い．今回，筆者らは，KIF1Aノックアウトマウスを作製し，KIF1Aヘテロノックアウトマウスが進行性の感覚神経の麻痺を生じることを発見した．KIF1Aヘテロノックアウトマウスの後根神経節の1次感覚神経ニューロンにおいて，NGFの受容体であるTrkAの軸索輸送が障害され，カプサイシンに対する感受性および生存率が有意に低下した．細胞生物学的な解析により，KIF1AがGTP結合型Rab3を介してTrkAを含む小胞と結合することが示唆された．一方，これまでの研究により，炎症などの際に増強されるNGF-TrkAシグナル伝達系によりカプサイシンの受容体であるTRPV1においてPI3キナーゼに依存性のリン酸化が亢進し，TRPV1が細胞の表面に提示されカプサイシンに対する感受性が上昇することが知られていた．そこで，KIF1Aヘテロノックアウトマウスの後根神経節のニューロンおよびKIF1Aをノックダウンしたニューロンにおいて確認したところ，NGFによるPI3キナーゼシグナル伝達系の活性，TRPV1のTyrリン酸化，TRPV1の細胞の表面への提示が，いずれも有意に低下していた．これらの表現型はPI3キナーゼシグナルの増強により回復したため，TrkAの軸索輸送の障害によるPI3キナーゼシグナル伝達系の不全がKIF1Aヘテロノックアウトマウスにおける感覚神経の麻痺の本体であることが示唆された．この研究は，末梢神経での感覚の制御におけるモータータンパク質の役割を分子レベルから個体レベルをとおし明らかにしたものであり，モータータンパク質によるシグナル伝達タンパク質の軸索輸送はシグナル伝達の制御における新しいパラダイムとしてさらなる展開が期待される．<br/><br/><h2>はじめに</h2><br/>　キネシンスーパーファミリータンパク質は細胞においてオルガネラや超分子複合体などを微小管にそって輸送するモータータンパク質の一大スーパーファミリーであり，45種類以上のそれぞれのキネシンスーパーファミリータンパク質のもつ異なるカーゴ結合ドメインによりさまざまなカーゴが運び分けられる<a href="#R1"><sup>1,2)</sup></a>．KIF1Aはkinesin-3ファミリーの一員であり，シナプス小胞の前駆体をGTP結合型Rab3をアダプターとして輸送すること<a href="#R3"><sup>3,4)</sup></a>，また，ニューロンの生存に必須であること<a href="#R5"><sup>5)</sup></a> がこれまで明らかにされたが，シナプス小胞の欠損だけではニューロンの細胞死は起こらないため<a href="#R6"><sup>6)</sup></a>，KIF1Aを欠損したニューロンの細胞死を説明する分子機構がもとめられていた．今回，筆者らは，新たにKIF1Aノックアウトマウスを作製し，KIF1Aヘテロノックアウトマウスの表現型を詳細に解析した．<br/><br/><h2>1．KIF1Aヘテロノックアウトマウスにおいて進行性の感覚神経の麻痺が生じる</h2><br/>　Cre/<em>loxP</em>系を用いて新たにKIF1Aノックアウトマウスを作出した．10カ月齢のKIF1Aノックアウトマウスの脳および後根神経節をイムノブロット解析したところ，KIF1Bβは脳にのみ発現していた．KIF1AヘテロノックアウトマウスにおけるKIF1Aのタンパク質量は，脳においては野生型マウスのほぼ半分，後根神経節においては約1/4に減少していた．7～12カ月齢のKIF1Aノックアウトマウスの行動を解析したところ，KIF1Aヘテロノックアウトマウスにおいて進行性の感覚神経の麻痺が生じていた．また，痛覚の障害は5カ月齢よりのちに出現することがわかった．<br/><br/><h2>2．KIF1Aヘテロノックアウトマウスの後根神経節においてTrkAをもつ感覚ニューロンが選択的に脱落する</h2><br/>　痛覚はおもにTrkAをもつ1次感覚ニューロンにより伝達される．そこで，後根神経節を免疫組織化学法により観察したところ，9カ月齢以上のKIF1AヘテロノックアウトマウスにおいてTrkAをもつニューロンが選択的に脱落した．TUNEL染色により，8カ月齢のKIF1Aヘテロノックアウトマウスにおいて特異的にニューロンのアポトーシスの増加がみられた．これは，TrkAをもつニューロンの細胞死のピークとは一致したが，痛覚の障害の出現した時期からは若干の遅れがあった．よって，細胞死が生じるまえに機能的な問題も生じることが示唆された．<br/><br/><h2>3．KIF1Aヘテロノックアウトマウスのニューロンにおいてカプサイシンに対する感受性は低下する</h2><br/>　TrkAをもつニューロンにおいて，痛覚はおもにカプサイシンの受容体であるTRPV1により受容される．KIF1Aヘテロノックアウトマウスの後根神経節のニューロンをカプサイシンにより刺激したところ，Ca<sup>2+</sup>の応答が有意に減弱していた．また，この刺激の際にホールセルパッチクランプ法により内向き電流を測定したところ，電流の密度は30％ほど有意に減弱した．NGFが存在しない場合にはCa<sup>2+</sup>の応答および内向き電流はいちじるしく減弱し，野生型マウスとKIF1Aノックアウトマウスとのあいだに差がなくなった．よって，NGFシグナル伝達系によるTRPV1の活性化はKIF1Aにより制御されることが予想された．<br/><br/><h2>4．KIF1AヘテロノックアウトマウスのニューロンにおいてTRPV1およびTrkAの局在は異なる</h2><br/>　後根神経節のニューロンの軸索の遠位部においてTRPV1およびTrkAを免疫細胞化学法により観察した．TRPV1の存在量には差はなかったが，細胞の表面から消失し細胞質においていちじるしく離散的なパターンを示した．これに対し，TrkAは存在量がいちじるしく低下した．さらに，後根神経節のニューロンのモデルであるTRPV1-F11細胞においてKIF1Aをノックダウンしたところ，細胞膜においてTRPV1およびTrkAは減少した．9カ月齢のマウスにおいて感覚神経である伏在神経にて神経を結紮することによりタンパク質の累積の軸索輸送の量を定量したところ，TRPV1について差はなかったが，TrkAについてはKIF1Aヘテロノックアウトマウスにおいて結紮した部位の近位端における集積量が特異的かつ有意に減少した．TRPV1とTrkAはほとんど共発現するので，この結果は，TrkAの順行性の軸索輸送の特異的な障害を示唆しており，その結果として，TRPV1の細胞の表面への提示が障害されたと考えられた．<br/><br/><h2>5．KIF1AヘテロノックアウトマウスのニューロンにおいてTrkAの軸索輸送は減弱する</h2><br/>　TrkAと蛍光タンパク質EYFPとの融合タンパク質を後根神経節のニューロンに導入しライブイメージング法により観察した．軸索の起始部における輸送の頻度を比較したところ，KIF1AヘテロノックアウトマウスにおいてTrkAの軸索輸送は双方向性に有意に減弱した．順行性の軸索輸送から逆行性の軸索輸送へと折り返すのに要する時間はKIF1Aヘテロノックアウトマウスにおいてほぼ半分になったが，逆行性の軸索輸送から順行性の軸索輸送へと折り返すのに要する時間は変化しなかった．また，順行性の軸索輸送の1～2μm/sの成分はほとんど消失していた．これらのことから，KIF1AはTrkAの順行性の速いプロセッシブな軸索輸送に必須な役割をはたすことが明らかにされた．<br/><br/><h2>6．TrkAはKIF1AとGTP結合型Rab3により軸索輸送される</h2><br/>　マウスの脊髄馬尾において小胞を免疫沈降したところ，KIF1AおよびTrkAは双方向の輸送に特異的に共沈した．KIF1Aの輸送アダプターであるGTP結合型Rab3との関係をRab3QL変異体<a href="#R3"><sup>3)</sup></a> をモデルとして解析した．TRPV1-F11細胞の細胞溶解液を用いてタグ免疫沈降したところ，Rab3QLとTrkAの共沈が確認された．1次培養ニューロンにおいてタイムラプス観察をしたところ，Rab3QL，KIF1A，TrkAは同一の小胞において軸索を移動しており，とくに，順行性に軸索輸送されるTrkAを含む小胞のほとんどはKIF1AおよびRab3QLを含んでいた．超高解像度顕微鏡により三重染色したところ，KIF1AおよびTrkAを含む小胞のほとんどはAPPL1およびTrkAを含むエンドソームとは一致しなかった．<br/>　KIF1AとKIF1Bβとの関係について調べるため，後根神経節のニューロンを免疫染色したところ，おもにKIF1Aが発現しており，培養のごく初期のほかはKIF1Bβは発現していなかった．脳において小胞を免疫沈降したところ，シナプス小胞タンパク質はKIF1AおよびKIF1Bβと共沈したが，TrkAはKIF1Aのみと特異的に共沈した．よって，TrkAはKIF1Aに特異的なカーゴであり，幼弱なニューロンにおいてはKIF1Bβによる未知の小胞輸送により同様の効果が発揮されると予想された．これは，KIF1Aヘテロノックアウトマウスにおける感覚麻痺が成年に発症し進行性であることを説明した．<br/><br/><h2>7．KIF1Aの減少によりNGF-TrkAシグナル伝達系は減弱する</h2><br/>　KIF1AをノックダウンしたニューロンにおいてNGF-TrkAシグナル伝達系の活性を測定した．培養液にくわえたNGFの6時間での取り込み量を比較したところ有意に減少した．PI3キナーゼシグナル伝達系のマーカーであるリン酸化Aktを定量したところ，NGFの刺激による上昇は起こらなかった．これは，活性化Rasの発現により回復したことから，KIF1Aの減少による可逆的なNGF-TrkA-Ras-PI3キナーゼシグナル伝達系の阻害が示唆された．<br/>　野生型のニューロンにおいては，1時間のNGFの刺激により，KIF1Aのタンパク質レベルでの発現が1.5倍，mRNAレベルでの発現が1.2倍に増加した．PI3キナーゼのアゴニストとして作用するPTEN阻害剤SF1670の処理によっても，KIF1Aの発現は同じくらい増加した．これは，エンリッチな環境における飼育によるKIF1Aの増加の結果<a href="#R7"><sup>7)</sup></a> とも一致した．すなわち，KIF1Aの発現とTrkA-PI3キナーゼシグナル伝達系の正のフィードバックによりKIF1Aヘテロノックアウトマウスの後根神経節のニューロンにおいてKIF1Aの激減が起こったことが示唆された．<br/><br/><h2>8．PI3キナーゼシグナル伝達系の増強によりKIF1Aヘテロノックアウトマウスのニューロンの表現型は回復する</h2><br/>　カプサイシンの受容体であるTRPV1はNGFによるTyrリン酸化により細胞膜に移行し，カプサイシンに対する感受性は増強する<a href="#R8"><sup>8)</sup></a>．そこで，このTyrリン酸化の程度を免疫沈降法およびPhosタグブロット法により比較したところ，KIF1Aを欠損したニューロンにおいて有意に減少した．活性化Rasの強制発現によりTRPV1のTyrリン酸化および細胞の表面における発現量は回復した．さらに，PTEN阻害剤SF1670処理によっても，Ca<sup>2+</sup>の顕微蛍光測光におけるカプサイシンに対する感受性および細胞の表面におけるTRPV1の発現量は同様に回復した．<br/>　以上のことから，KIF1Aヘテロノックアウトマウスの後根神経節のTrkAをもつ感覚ニューロンにおけるカプサイシンに対する感受性および生存率の低下は，KIF1AによるTrkAの軸索輸送をとおしたNGF-TrkA-Rasシグナル伝達系によるPI3キナーゼシグナルの増強によると考えられた（<a href="#F1">図1</a>）．さらに，このシグナル伝達系は複数のレベルにおいて自己組織化することにより，モータータンパク質の活性の微細な変化を増幅し細胞機能の制御に関与することも示唆された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　KIF1Aによる痛覚の制御機構についての作業仮説</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirokawa-Neuron-16.6.15-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　KIF1Aによる痛覚の制御機構についての作業仮説" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirokawa-Neuron-16.6.15-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirokawa-Neuron-16.6.15-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　痛覚の制御機構は非常に複雑であるが，この研究は，末梢神経における基礎的な分子制御機構についてモータータンパク質の生物学の観点から解明したものである．KIF1AによるTrkAの軸索輸送がNGF-TrkA-Ras-PI3キナーゼシグナル伝達系を増強し，TRPV1のTyrリン酸化および細胞の表面への提示により痛覚をささえることがはじめて示された．また，KIF1Aがニューロンの細胞死をふせぐ機構，あるいは，関連するモータータンパク質であるKIF1AとKIF1Bβとのあいだの機能の分化の証拠も提示された．細胞は複雑に機能の分化した形態をもち，機能をもつ分子の局在がその分子の役割を修飾するという地政学的なパラダイムから，モータータンパク質を用いた新たな創薬の標的の創出も大きく期待される．この観点を大切に，キネシンスーパーファミリータンパク質のマウスにおける分子遺伝学的な研究を進めていきたい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hirokawa, N., Niwa, S. & Tanaka, Y.</span>: <span class="ti">Molecular motors in neurons: transport mechanisms and roles in brain function, development, and disease.</span> <span class='so'>Neuron, 68, 610-638 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21092854" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Hirokawa, N. & Tanaka, Y.</span>: <span class="ti">Kinesin superfamily proteins (KIFs): various functions and their relevance for important phenomena in life and diseases.</span> <span class='so'>Exp. Cell Res., 334, 16-25 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25724902" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Niwa, S., Tanaka, Y. & Hirokawa, N.</span>: <span class="ti">KIF1Bβ- and KIF1A-mediated axonal transport of presynaptic regulator Rab3 occurs in a GTP-dependent manner through DENN/MADD.</span> <span class='so'>Nat. Cell Biol., 10, 1269-1279 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18849981" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Okada, Y., Yamazaki, H., Sekine-Aizawa, Y. et al.</span>: <span class="ti">The neuron-specific kinesin superfamily protein KIF1A is a unique monomeric motor for anterograde axonal transport of synaptic vesicle precursors.</span> <span class='so'>Cell, 81, 769-780 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7539720" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Yonekawa, Y., Harada, A., Okada, Y. et al.</span>: <span class="ti">Defect in synaptic vesicle precursor transport and neuronal cell death in KIF1A motor protein-deficient mice.</span> <span class='so'>J. Cell Biol., 141, 431-441 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9548721" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Geppert, M., Goda, Y., Stevens, C. F. et al.</span>: <span class="ti">The small GTP-binding protein Rab3A regulates a late step in synaptic vesicle fusion.</span> <span class='so'>Nature, 387, 810-814 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9194562" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Kondo, M., Takei, Y. & Hirokawa, N.</span>: <span class="ti">Motor protein KIF1A is essential for hippocampal synaptogenesis and learning enhancement in an enriched environment.</span> <span class='so'>Neuron, 73, 743-757 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22365548" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/4467" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R8"><span class='au'>Zhang, X., Huang, J. & McNaughton, P. A.</span>: <span class="ti">NGF rapidly increases membrane expression of TRPV1 heat-gated ion channels.</span> <span class='so'>EMBO J., 24, 4211-4223 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16319926" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=塩基配列" target="_blank">塩基配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=抗体" target="_blank">抗体解析</a></li><br></ul><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">田中 庸介（Yosuke Tanaka）</span><br>略歴：1999年 東京大学大学院医学系研究科にて博士号取得．東京大学大学院医学系研究科 助手．<br>研究テーマ：キネシンスーパーファミリータンパク質の分子遺伝学的および細胞生物学的な解析．<br>関心事：場所の移動によりカーゴがその役割を大きく変化させていくモータータンパク質のダイナミズムに魅せられています．分子のトポスの細胞生物学を深めたい．<br><br><strong>廣川 信隆（Nobutaka Hirokawa）</strong><br>東京大学大学院医学系研究科 特任教授．<br>研究室URL：<a href="http://cb.m.u-tokyo.ac.jp/" target="_blank">http://cb.m.u-tokyo.ac.jp/</a><br></div><br>© 2016 田中庸介・廣川信隆 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 出芽酵母のDicerによるsiRNA二本鎖の新しい生成機構 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>出芽酵母のDicerによるsiRNA二本鎖の新しい生成機構</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>中西 孝太郎</strong><br>（米国Memorial Sloan-Kettering Cancer Center，Structural Biology Program）<br>email：<a href="mailto:nakanik1@mskcc.org">中西孝太郎</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.124">10.7875/first.author.2011.124</a><br><div class="reference"><br><span class="ti">The inside-out mechanism of dicers from budding yeasts.</span><br><span class="au">David E. Weinberg, Kotaro Nakanishi, Dinshaw J. Patel, David P. Bartel</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21784247" target="_blank"><em>Cell</em>, <strong>146</strong>, 262-276 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　モデル生物<em>Saccharomyces cerevisiae</em>に代表される出芽酵母にはRNAi現象はないものと考えられてきた．しかし，最近，<em>S</em>. <em>cerevisiae</em>以外の数種の出芽酵母にはRNAi現象のあることが明らかになった．そこでの大きなブレイクスルーは，まったく新しいDicerの発見であった．従来から知られているヒトやショウジョウバエのもつDicerでは，二本鎖RNAの末端を認識するPAZドメインと，その反対側でRNAを切断するRNase IIIドメインとの距離が分子的な定規としてはたらくことで，生成されるsiRNA二本鎖の長さを決定している．一方，出芽酵母のもつDicerはPAZドメインをもたないにもかかわらず，特定の長さのsiRNA二本鎖を生成することができる．しかし，その機構は明らかにされていなかった．今回，筆者らは，X線結晶構造解析と生化学的な手法とを用い，出芽酵母のもつDicerが長い二本鎖RNAのうえに協調的に結合し活性部位が23塩基長の間隔で並ぶことにより二本鎖RNAが特定の長さに切断されるという，まったく新しいsiRNA二本鎖の生成機構を明らかにした．<br/><br/><h2>はじめに</h2><br/>　RNAi（RNA interference，RNA干渉）はRNA鎖に相補的なmRNAが分解されるという真核生物に特有の転写後遺伝子抑制現象である<a href="#R1"><sup>1)</sup></a>．その中心としてはたらくタンパク質Dicerは長い二本鎖RNAからはsiRNA二本鎖（siRNA：small interfering RNA）を生成し，また，ステムループ構造をとるmiRNA前駆体からはmiRNA二本鎖（miRNA：microRNA）を生成する．別の重要なタンパク質Argonauteはそれら二本鎖RNAと結合したのち，一方のRNA鎖を切断し，残った一本鎖RNAをガイド鎖として標的となるmRNAに結合する<a href="#R2"><sup>2)</sup></a>．<br/>　このように，RNAiにおいてはDicerとArgonauteの両方のタンパク質を必要とするが，モデル生物<em>Saccharomyces cerevisiae</em>ではゲノムにそれらをコードする遺伝子がみつからない．また，<em>S</em>. <em>cerevisiae</em>以外の数種の出芽酵母，<em>Saccharomyces castellii</em>，<em>Kluyveromyces polysporus</em>，<em>Candida albicans</em>では，Argonauteの遺伝子は同定されているがDicerの遺伝子がみつかっていない．そのため，出芽酵母はRNAi現象のない例外的な真核生物であると考えられてきた．しかしながら最近，Argonauteをもつこれら3種の出芽酵母にはRNAi現象のあることが明らかになった<a href="#R3"><sup>3)</sup></a>．ブレイクスルーは新しいDicerの発見であった．<br/>　これまで，出芽酵母においてDicerが発見されてこなかったことには理由がある．Dicerのドメイン構造は生物種のあいだで異なるが，2塩基の突出した3’側の末端を認識するPAZドメインと2つの連続したRNase IIIドメインをもつことがDicerのアイデンティティとされてきた．実際，このドメインセットのみで構成されるランブル鞭毛虫（<em>Giardia intestinalis</em>）に由来するDicerは25～27塩基長の二本鎖RNAを生成できる<a href="#R4"><sup>4)</sup></a>．また，ランブル鞭毛虫に由来するDicerの結晶構造は，PAZドメインがRNA鎖の末端を固定し，そこからRNase IIIドメインの活性部位までの長さに相当するsiRNA二本鎖が生成されるというモデルをよく説明した<a href="#R4"><sup>4,5)</sup></a>．したがって，ゲノムにおいてDicerの遺伝子を探す際には，1つのPAZドメインと2つの連続したRNase IIIドメインをもつ遺伝子がその候補となった．しかし，そのようなドメインセットをもつ遺伝子は出芽酵母のゲノムには存在しなかったのである．そこで，Dicerの遺伝子を探す際の指標を“少なくとも1つのRNase IIIドメインをもつこと”に緩和することが，出芽酵母に特有なDicer（Dcr1）の発見につながった<a href="#R3"><sup>3)</sup></a>．このDcr1は長い二本鎖RNAから特定の塩基長のsiRNA二本鎖を生成できるが，従来のDicerのもつドメイン構造とは大きく異なり，PAZドメインをもたずRNase IIIドメインも1つしかない．出芽酵母のもつDcr1がどのような機構でRNAの長さを測定しているかについてはまったくの謎であった．<br/><br/><h2>1．出芽酵母のもつDcr1の全体構造</h2><br/>　出芽酵母のもつDcr1は，N末端ドメイン，RNase IIIドメイン，そして，2つの二本鎖RNA結合ドメイン（dsRBD1，dsRBD2）から構成される．当初，<em>K</em>. <em>polysporus</em>に由来するDcr1の全長構造の決定を試みたが，核酸が強固に結合しており全長を高純度に精製することができなかった．そこで，核酸への結合能が低下しつつもDicing活性（特定の塩基長のsiRNA二本鎖を生成する活性）を維持するコンストラクトを模索した．その結果，N末端ドメインからdsRBD1までの領域を含むフラグメント（Dcr1ΔC）が全長構造と同じ程度のDicing活性をもつことがわかった<a href="#R4"><sup>4)</sup></a>．出芽酵母のもつDcr1に特徴的なC末端側のdsRBD2こそが特定の長さのsiRNA二本鎖を生成するために必須であろうと考えていたので，この結果は予想外であった．全長構造に比べるとその量は少ないが，Dcr1ΔCには依然として大量の核酸が強固に結合していた．筆者が所属する研究室ではRNaseの使用が全面的に禁止されているため，最終的に5種類のカラムを用いることにより夾雑する核酸を完全に除くことに成功し，Dcr1ΔCの結晶構造を2.3Åの分解能で決定した（<a href="#F1">図1</a>，PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=3rv0&amp;PAGEID=Summary" target="_blank">3RV0</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　<em>K</em>. <em>polysporus</em>に由来するDcr1ΔCの全体構造</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakanishi-Cell-11.7.21-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　<em>K</em>. <em>polysporus</em>に由来するDcr1ΔCの全体構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakanishi-Cell-11.7.21-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakanishi-Cell-11.7.21-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　Dcr1ΔCの立体構造は，N末端ドメインとRNase IIIドメインがそれぞれ二量体化したコアパートと，溶液において自由に動くと思われるdsRBD1から構成されていた（今回の結晶構造では，片方のdsRBD1のみ電子密度が明瞭であった）．二量体化したRNase IIIドメインから両側にdsRBD1の伸びるようすは，細菌のRNase IIIの立体構造と類似していた<a href="#R6"><sup>6)</sup></a>（<a href="#F2">図2a</a>）．RNAプロセシングにかかわる細菌のRNase IIIは，2つのdsRBDにより二本鎖RNAを抱き込んだのち，RNase IIIドメインにある2カ所の活性部位が二本鎖RNAをそれぞれ同時に切断する．今回のDcr1ΔCの立体構造からN末端ドメインがRNase IIIドメインの活性部位の反対側で二量体化することがわかり，Dcr1ΔCは細菌のRNase IIIと同様に二本鎖RNAを結合することが示唆された（<a href="#F2">図2a</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　Dcr1ΔCと二本鎖RNAとの結合の様式</strong><br/>（a）<em>K</em>. <em>polysporus</em>に由来するDcr1ΔC（赤色）の結晶構造と，<em>Aquifex aeolicus</em>に由来するRNase IIIと二本鎖RNAとの複合体（灰色）の結晶構造を，RNase IIIドメインにおいて重ねあわせた．<br/>（b）二本鎖RNAのうえに2分子のDcr1ΔC二量体が結合したドッキングモデル．みやすさのため，dsRBD1は省略した．切り出されるsiRNA二本鎖に相当する部分を緑色で示す．<br/>（c）ドッキングモデルを活性部位からみたところ．切断部位のリン酸基（黄色）のあいだの塩基を番号付けした．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakanishi-Cell-11.7.21-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　Dcr1ΔCと二本鎖RNAとの結合の様式" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakanishi-Cell-11.7.21-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakanishi-Cell-11.7.21-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．Dcr1は二本鎖RNAのうえで連結する</h2><br/>　従来のDicerは，PAZドメインが二本鎖RNAの3’末端を認識しRNase IIIドメインがその反対側を切断することでsiRNA二本鎖を生成する<a href="#R4"><sup>4,5)</sup></a>．その際，PAZドメインとRNase IIIドメインとの間隔がsiRNA二本鎖の長さを決定する．これに対し，Dcr1ΔCは二量体化することで二本鎖RNAと結合しこれを切断できるが，PAZドメインに代わり二本鎖RNAの末端を認識できるようなドメインがない．しかしながら，Dcr1ΔCのRNase IIIドメインから両側に突き出たループ，VL1とVL2が列車の連結器のように相補的な形状をもつことに気づいた（<a href="#F2">図2b</a>）．実際，Dcr1ΔC二量体を二本鎖RNAのうえで23塩基長の間隔をもって並べると，Dcr1ΔCどうしは立体障害なく連結することができた（<a href="#F2">図2 b,c</a>）．このことから，出芽酵母のもつDcr1によるsiRNA二本鎖の生成は，末端からではなく内部からはじまるのではないかと考えた．もし，Dcr1二量体が列車の車両のように二本鎖RNAのうえに並ぶことでsiRNA二本鎖を生成しているのであれば，野生型のDcr1ΔCに対し切断活性を失った変異型のDcr1ΔCを混ぜることにより，23塩基の倍数の長さのsiRNA二本鎖が生成されてくるに違いないと予想した．そして予想どおり，切断活性を失った変異型Dcr1ΔCの割合が増えるにつれ，46塩基長，69塩基長，92塩基長のsiRNA二本鎖が生成された．<br/><br/><h2>3．Dcr1は切断ののちもsiRNA二本鎖と結合したままである</h2><br/>　さきに述べた機構によりsiRNA二本鎖が連続的に生成されるためには，最初に二本鎖RNAと結合したDcr1二量体がRNAを切断してこれをはなすまえに，つぎのDcr1二量体がそのとなりに結合する必要がある．70塩基長の二本鎖RNAを基質としDcr1ΔCが複数回の反応を触媒する多重代謝回転キネティクス解析を行ったところ，前定常状態におけるsiRNA二本鎖の生成速度はDcr1ΔCの濃度に比例して上昇するが，定常状態におけるsiRNA二本鎖の生成速度はDcr1ΔCの濃度によらず著しく遅かった．この結果から，1回目の切断反応ののちもDcr1ΔCは二本鎖RNAと結合したままでいるために，2回目の切断反応が起こらないことが示唆された．<br/><br/><h2>4．Dcr1による切断部位は二本鎖RNAの2次構造により決定されている</h2><br/>　<em>in vitro</em>切断実験においては基質として完全に相補的な500塩基対の二本鎖RNAを用いた．二本鎖RNAに対するDcr1の結合は配列に非特異的であるため，siRNA二本鎖の生成は二本鎖RNAの任意の箇所からはじまる．一方，生体においてDcr1の基質となるRNAは特定の箇所で切断されることがわかっている<a href="#R3"><sup>3)</sup></a>．生体における基質RNAは完全に相補的な二本鎖RNAではなく，ミスマッチ塩基対やバルジなどを含み塩基配列に特異的な2次構造をもつであろう．それらが立体障害となりDcr1が結合できる場所を制限することで，生体では特定の箇所からsiRNA二本鎖の生成がはじまるものと考えている．<br/><br/><h2>5．新たにみつかった触媒残基にみるRNase IIIファミリーの進化の過程</h2><br/>　これまで，RNase IIIファミリーは分子量とドメイン構造により，クラス1：RNase III（細菌），クラスII：Drosha（真核生物），クラスIII：Dicer（真核生物）の3つのグループに分類されてきた<a href="#R7"><sup>7)</sup></a>．RNase IIIファミリーのすべてに共通な特徴として，触媒活性に必須なMg<sup>2+</sup>の配位に2つのアスパラギン酸残基と2つのグルタミン酸残基が直接または水分子を介しかかわっていることがあげられる．今回，Dcr1ΔCの活性部位において明瞭な八面体の電子密度を確認することができた．結晶化の条件にMg<sup>2+</sup>を含むことから，この電子密度の中心にはMg<sup>2+</sup>があるものと考えられた．この活性部位では，さきの保存された4残基にくわえ，アスパラギン残基とリジン残基とがMg<sup>2+</sup>の配位にくわわっており，それらのアラニン残基への置換体ではいずれもDicing活性の低下が観察された．特筆すべきは，この新たにみつかった2残基はクラスI RNase IIIファミリーでは保存されておらず，クラスIIとクラスIIIのみで保存されていることであった．つまり，出芽酵母のもつDcr1はその立体構造こそ細菌のもつクラスIに似ているものの，触媒残基としては真核生物のもつクラスIIおよびクラスIIIと同じセットをもつハイブリッド酵素であった．この事実は，細菌のRNase IIIが出芽酵母Dcr1をへて真核生物のDroshaやDicerへと進化していった可能性を連想させた．<br/><br/><h2>おわりに</h2><br/>　筆者らは，出芽酵母のもつDcr1が二本鎖RNAのうえでとなりあって結合することにより活性部位が一定の間隔で並び，特定の塩基長のsiRNA二本鎖を生成することを明らかにした．この機構は，二本鎖RNAの末端を必要とする従来のDicerによるsiRNA二本鎖の生成機構とはまったく異なることから，出芽酵母のもつDcr1と従来のDicerとは機能収斂のよい例といえよう．また，今回の研究では，RNAiという枠をこえ，分子定規の新しい概念をその実験的な証拠とともに提示できたのではないかと考えている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Tomari, Y. & Zamore, P. D.</span>: <span class="ti">Perspective: machines for RNAi.</span> <span class='so'>Genes Dev., 19, 517-529 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15741316" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Siomi, H. & Siomi, M. C.</span>: <span class="ti">On the road to reading the RNA-interference code.</span> <span class='so'>Nature, 457, 396-404 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19158785" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Drinnenberg, I. A., Weinberg, D. E., Xie, K. T. et al.</span>: <span class="ti">RNAi in budding yeast.</span> <span class='so'>Science, 326, 544-550 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19745116" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Macrae, I. J., Zhou, K., Li, F. et al.</span>: <span class="ti">Structural basis for double-stranded RNA processing by Dicer.</span> <span class='so'>Science, 311, 195-198 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16410517" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Zhang, H., Kolb, F. A., Jaskiewicz, L. et al.</span>: <span class="ti">Single processing center models for human Dicer and bacterial RNase III.</span> <span class='so'>Cell, 118, 57-68 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15242644" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Gan, J., Tropea, J., Austin, B. P. et al.</span>: <span class="ti">Structural insight into the mechanism of double-stranded RNA processing by ribonuclease III.</span> <span class='so'>Cell, 124, 355-366 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16439209" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Du, Z., Lee, J. K., Tjhen, R. et al.</span>: <span class="ti">Structural and biochemical insights into the dicing mechanism of mouse Dicer: a conserved lysine is critical for dsRNA cleavage.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 105, 2391-2396 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18268334" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">中西 孝太郎（Kotaro Nakanishi）</span><br>略歴：2007年 東京工業大学大学院生命理工学研究科 修了，同年 同 博士研究員，2008年 米国Memorial Sloan-Kettering Cancer Centerポスドク研究員を経て，2011年より同 リサーチアソシエート．<br>研究テーマ：ノンコーディングRNAによる制御機構の解明．<br>抱負：立体構造からみえてくる新しい知見をもとに生命現象の謎を解き明かしたい．<br></div><br>© 2011 中西 孝太郎 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

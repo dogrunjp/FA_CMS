@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> アーキアにおいてヌクレオシドの分解を担うペントースビスリン酸経路の発見 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>アーキアにおいてヌクレオシドの分解を担うペントースビスリン酸経路の発見</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>青野 陸・佐藤喬章・跡見晴幸</strong><br>（京都大学大学院工学研究科 合成・生物化学専攻生物化学工学分野）<br>email：<a href="mailto:atomi@sbchem.kyoto-u.ac.jp">跡見晴幸</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.050">10.7875/first.author.2015.050</a><br><div class="reference"><br><span class="ti">A pentose bisphosphate pathway for nucleoside degradation in Archaea.</span><br><span class="au">Riku Aono, Takaaki Sato, Tadayuki Imanaka, Haruyuki Atomi</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25822915" target="_blank"><em>Nature Chemical Biology</em>, <strong>11</strong>, 355-360 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　細菌や真核生物など多くの生物において，ヌクレオシドのペントース部位はペントースリン酸経路により分解され中央糖代謝へと導かれる．一方，第3の生物界を構成するアーキアの多くはペントースリン酸経路をもたないことが知られている．そのため，アーキアにおいてヌクレオシドがどのように分解されているのか長いあいだ不明であった．この研究において，筆者らは，超好熱性アーキアの一種<em>Thermococcus kodakarensis</em>においてヌクレオシドを分解し中央糖代謝へと導く代謝経路を発見した．ペントースリン酸経路はペントースモノリン酸化合物を介して代謝が進むのに対し，この経路はリボース1,5-ビスリン酸およびリブロース1,5-ビスリン酸といったペントースビスリン酸化合物を中心として代謝が進行することから，ペントースビスリン酸経路と名づけた．<br/><br/><h2>はじめに</h2><br/>　微生物の研究については古くから大腸菌などの細菌，および，酵母などの真核生物を対象として精力的に行われてきており，それらの微生物に関しては基盤的な知見が多く蓄積している．一方で，アーキア（archaea）は1970年代後半に細菌および真核生物とは異なる第3の生物界を構成することが提唱され，最近になりその存在が注目されだしたことから，細菌および真核生物と比べその研究の歴史は浅い．また，アーキアにおいてはメタンの産生など細菌および真核生物にはみられないユニークな代謝経路が数多く発見されている．以上のことから，アーキアの代謝を研究することにより，新規の反応を触媒する酵素や新規の代謝経路の発見につながることが期待される．アーキアのうち超好熱性アーキアの一種である<em>Thermococcus kodakarensis</em>は，全ゲノム塩基配列解析が完了しており<a href="#R1"><sup>1)</sup></a>，遺伝子組換え系が確立していることから<a href="#R2"><sup>2)</sup></a>，アーキアのモデル生物のひとつと考えられ，この研究においても用いられた．<br/>　細菌および真核生物においてヌクレオシドはヌクレオシドホスホリラーゼによる加リン酸分解によりリボース1-リン酸を生成し，ホスホリボムターゼによるリン酸の転移によりリボース5-リン酸へと変換され，非酸化的ペントースリン酸経路により中央糖代謝へと導かれる<a href="#R3"><sup>3)</sup></a>．しかしながら，<em>T</em>. <em>kodakarensis</em>を含む多くのアーキアにはペントースリン酸経路を構成するタンパク質をコードする遺伝子の多くは存在しない<a href="#R4"><sup>4)</sup></a>．そのため，ヌクレオシドはアーキアにおいて細菌および真核生物とは異なる機構により分解されると考えられていた．一方，<em>T</em>. <em>kodakarensis</em>においてヌクレオシドにリン酸基が結合したヌクレオシドモノリン酸を分解する経路が発見されていた<a href="#R5"><sup>5,6)</sup></a>．この経路はAMPホスホリラーゼ，リボース1,5-ビスリン酸イソメラーゼ，III型リブロース-1,5-ビスリン酸カルボキシラーゼ/オキシゲナーゼ（Rubisco）から構成されており<a href="#R7"><sup>7)</sup></a>，アーキアに特有で細菌および真核生物には存在しない．この経路では，AMPホスホリラーゼによるAMP，CMP，UMPの加リン酸分解によりリボース1,5-ビスリン酸を生成し，リボース1,5-ビスリン酸イソメラーゼによる異性化によりリブロース1,5-ビスリン酸を生成，Rubiscoによる炭酸固定反応により中央糖代謝における代謝中間体である3-ホスホグリセリン酸にまで分解される．また，培地にヌクレオシドを添加すると，AMPホスホリラーゼに変化はみられないが，リボース1,5-ビスリン酸イソメラーゼおよびRubiscoの量が増加することが明らかにされていた<a href="#R6"><sup>6)</sup></a>．これらのことから，アーキアに特有のヌクレオシドモノリン酸分解経路がヌクレオシドの分解にも関与している可能性が考えられた．<br/><br/><h2>1．ヌクレオシドモノリン酸分解経路の基質を供給する酵素の探索</h2><br/>　アーキアに特有のヌクレオシドモノリン酸分解経路がヌクレオシドの分解にも関与しているなら，ヌクレオシドをリン酸化してヌクレオシドモノリン酸を生成するヌクレオシドキナーゼが存在する可能性が考えられた．しかし，<em>T</em>. <em>kodakarensis</em>においてはヌクレオシドキナーゼ活性を示すタンパク質は同定されていなかったことから，未同定のヌクレオシドキナーゼの存在する可能性を考えた．これまで，アーキアにおいては3つのタンパク質，MJ0406（<em>Methanocaldococcus jannaschii</em>），APE0012（<em>Aeropyrum pernix</em>），Ta0880（<em>Thermoplasma acidophilum</em>）がヌクレオシドキナーゼ活性を示すと報告されていた<a href="#R8"><sup>8,9)</sup></a>．<em>T</em>. <em>kodakarensis</em>においてこれらと相同性を示すタンパク質を探索した結果，TK1843およびTK2029が18～28％ともっとも高い相同性を示した．そこで，これらの組換えタンパク質を調製し基質特異性について検討した．<br/>　ヌクレオシドキナーゼ活性はATPから生成するADPを定量することにより測定した．TK1843についてはシチジンの存在のもとADPの生成が観察された．一方，TK2029については各種のヌクレオシドを基質とした際にはADPの有意な生成は観察されなかったが，ヌクレオシドの加リン酸分解産物であるリボース1-リン酸の存在のもとではADPはむしろ減少することが見い出された．そこで，TK2029がATPではなくADPをリン酸基の供与体としている可能性を考え，ADPを添加した条件においてAMPの生成を観察したところ，TK2029はリボース1-リン酸の存在のもとAMPを生成した．さらに，TK1843およびTK2029について，速度論的な解析など生化学的に詳細に解析した結果，TK1843はATP依存性シチジンキナーゼ，TK2029はADP依存性リボース1-リン酸キナーゼであることが明らかにされた．TK2029にはヌクレオシドキナーゼ活性は観察されなかったものの，TK1843およびTK2029はアーキアに特有のヌクレオシドモノリン酸分解経路の基質（CMP）および代謝中間産物（リボース1,5-ビスリン酸）を生成することが示された．<br/><br/><h2>2．各種の遺伝子破壊株の細胞抽出液におけるヌクレオシドからのリボース1,5-ビスリン酸の生成</h2><br/>　細菌および真核生物においてリボース1-リン酸はヌクレオシドホスホリラーゼによるヌクレオシドの加リン酸分解により生成する．一方，<em>T</em>. <em>kodakarensis</em>には2つのプリンヌクレオシドホスホリラーゼ（TK1482，TK1895）と1つのウリジンヌクレオシドホスホリラーゼ（TK1479）が存在した．また，AMPホスホリラーゼがAMP，CMP，UMPをリボース1,5-ビスリン酸へと変換し，TK1843がシチジンをCMPへ，TK2029がリボース1-リン酸をリボース1,5-ビスリン酸へと変換することが明らかにされた．しかし，これらのタンパク質が細胞において実際に機能しているかどうかは不明であった．そこで，<em>T</em>. <em>kodakarensis</em>において各種の遺伝子破壊株を作製し，その細胞抽出液においてヌクレオシドからリボース1,5-ビスリン酸が生成するかどうかを検討することにより，おのおののタンパク質が細胞において機能しているかどうか検討した．<br/>　野生株に由来する細胞抽出液において，ADPの存在のもと，アデノシン，グアノシン，ウリジンからリボース1,5-ビスリン酸の生成が観察された．一方，TK2029の破壊株の細胞抽出液においてはリボース1,5-ビスリン酸は生成せず，TK2029がこれらの代謝に関与することが示された．また，TK1895の破壊株においてはアデノシンからのリボース1,5-ビスリン酸の生成がいちじるしく減少し，TK1482破壊株ではグアノシンから，TK1479の破壊株ではウリジンからリボース1,5-ビスリン酸の生成が観察されず，TK1895がアデノシンの，TK1482がグアノシンの，TK1479がウリジンの代謝に関与することが示唆された．<br/>　シチジンに関しては，野生株の細胞抽出液においてもADPあるいはATPの存在のもとリボース1,5-ビスリン酸の生成は観察されなかった．一方，野生株の細胞抽出液にシチジンキナーゼの反応産物であるCMPを添加した際にはリボース1,5-ビスリン酸の生成が観察されたのに対し，AMPホスホリラーゼの破壊株ではその生成は観察されなかった．つまり，シチジンキナーゼの活性が不十分なためシチジンからCMPが生成していない可能性が考えられた．この原因のひとつとして細胞においてシチジンキナーゼの少ない可能性が考えられたため，シチジンの添加によりシチジンキナーゼをコードする遺伝子の転写が誘導されるかどうか検討した．シチジンを添加した条件においてトランスクリプトームを解析したところ，予想に反して，TK1843をコードする遺伝子の転写に変化はみられなかった．それに対し，シチジンの添加によりAMPホスホリラーゼをコードする遺伝子の転写が上昇した．以上の結果から，細胞においてTK1843の関与は直接には確認されていないものの，AMPホスホリラーゼはシチジンの代謝に関与することが示唆された．<br/>　以上より，アデノシン，グアノシン，ウリジンは，それぞれ，TK1895，TK1482，TK1479によりリボース1-リン酸へと変換され，TK2029によりリボース1,5-ビスリン酸が生成する．一方，TK1843がどういった条件において機能するのかは不明であるが，シチジンはCMPへと変換され，AMPホスホリラーゼによりリボース1,5-ビスリン酸へと変換される可能性が考えられた．そして，生成したリボース1,5-ビスリン酸はリボース1,5-ビスリン酸イソメラーゼおよびRubiscoにより中央糖代謝の中間生成物である3-ホスホグリセリン酸へと変換されると考えられた．<br/><br/><h2>おわりに</h2><br/>　この研究においては，不明であったアーキアにおけるヌクレオシド分解経路が発見された．この経路においては，シチジンについてはほかのヌクレオシドと分解の様式の異なることが示唆された．一方，細菌および真核生物においてもシチジンはほかのヌクレオシドとは異なる様式により代謝されており，シチジンは脱アミノ化しウリジンに変換されたのち代謝されている<a href="#R10"><sup>10)</sup></a>．<br/>　細菌および真核生物における従来のヌクレオシド分解経路とアーキアにおける新しく発見された経路とを比較すると（<a href="#F1">図1</a>），最初にヌクレオシドを加リン酸分解してリボース1-リン酸を生成するという点では共通していた．一方，従来の経路ではリボース1-リン酸のリン酸の転移によりリボース5-リン酸が生成され，非酸化的ペントースリン酸経路により中央糖代謝へと導かれる．それに対し，今回の経路ではADP依存性リボース1-リン酸キナーゼ（TK2029）によりリボース1-リン酸からリボース1,5-ビスリン酸が生成され，リボース1,5-ビスリン酸イソメラーゼによる異性化によりリブロース1,5-ビスリン酸が生成，Rubiscoによる炭酸固定反応により中央糖代謝の中間生成物である3-ホスホグリセリン酸が生成される．また，3分子のリボース1-リン酸を出発物質とし3-ホスホグリセリン酸を最終産物とした場合，従来の経路では5分子の3-ホスホグリセリン酸が生成されるが，今回の経路ではRubiscoによる炭酸固定反応が存在することから6分子の3-ホスホグリセリン酸が生成される．すなわち，新しく発見された経路は炭素収率の観点から非酸化的ペントースリン酸経路よりも有利と考えられた．また，非酸化的ペントースリン酸経路ではリン酸基が1つだけ結合したモノリン酸化合物を介して代謝が進むのに対し，この経路ではリボース1,5-ビスリン酸およびリブロース1,5-ビスリン酸といったリン酸基が2つ結合したビスリン酸化合物を介して代謝が進行する．このことから，今回，新しく発見された代謝経路をペントースビスリン酸経路（pentose bisphosphate pathway）と名づけた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　従来のペントースリン酸経路と新しく発見されたペントースビスリン酸経路</strong><br/>炭素原子を青色の丸で示す．P：リン酸基．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Atomi-Nature-Chemical-Biology-15.4.17-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　従来のペントースリン酸経路と新しく発見されたペントースビスリン酸経路" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Atomi-Nature-Chemical-Biology-15.4.17-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Atomi-Nature-Chemical-Biology-15.4.17-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Fukui, T., Atomi, H., Kanai, T. et al.</span>: <span class="ti">Complete genome sequence of the hyperthermophilic archaeon <em>Thermococcus kodakaraensis</em> KOD1 and comparison with <em>Pyrococcus</em> genomes.</span> <span class='so'>Genome Res., 15, 352-363 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15710748" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Sato, T., Fukui, T., Atomi, H. et al.</span>: <span class="ti">Improved and versatile transformation system allowing multiple genetic manipulations of the hyperthermophilic archaeon <em>Thermococcus kodakaraensis</em>.</span> <span class='so'>Appl. Environ. Microbiol., 71, 3889-3899 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16000802" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Tozzi, M. G., Camici, M., Mascia, L. et al.</span>: <span class="ti">Pentose phosphates in nucleoside interconversion and catabolism.</span> <span class='so'>FEBS J., 273, 1089-1101 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16519676" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Soderberg, T.</span>: <span class="ti">Biosynthesis of ribose-5-phosphate and erythrose-4-phosphate in archaea: a phylogenetic analysis of archaeal genomes.</span> <span class='so'>Archaea, 1, 347-352 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15876568" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Sato, T., Atomi, H. & Imanaka, T.</span>: <span class="ti">Archaeal type III RuBisCOs function in a pathway for AMP metabolism.</span> <span class='so'>Science, 315, 1003-1006 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17303759" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Aono, R., Sato, T., Yano, A. et al.</span>: <span class="ti">Enzymatic characterization of AMP phosphorylase and ribose-1,5-bisphosphate isomerase functioning in an archaeal AMP metabolic pathway.</span> <span class='so'>J. Bacteriol., 194, 6847-6855 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23065974" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Ezaki, S., Maeda, N., Kishimoto, T. et al.</span>: <span class="ti">Presence of a structurally novel type ribulose-bisphosphate carboxylase/oxygenase in the hyperthermophilic archaeon, <em>Pyrococcus kodakaraensis</em> KOD1.</span> <span class='so'>J. Biol. Chem., 274, 5078-5082 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9988755" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Hansen, T., Arnfors, L., Ladenstein, R. et al.</span>: <span class="ti">The phosphofructokinase-B (MJ0406) from <em>Methanocaldococcus jannaschii</em> represents a nucleoside kinase with a broad substrate specificity.</span> <span class='so'>Extremophiles, 11, 105-114 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17021658" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Elkin, S. R., Kumar, A., Price, C. W. et al.</span>: <span class="ti">A broad specificity nucleoside kinase from <em>Thermoplasma acidophilum</em>.</span> <span class='so'>Proteins, 81, 568-582 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23161756" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Ipata, P. L., Camici, M., Micheli, V. et al.</span>: <span class="ti">Metabolic network of nucleosides in the brain.</span> <span class='so'>Curr. Top. Med. Chem., 11, 909-922 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21401502" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">青野  陸（Riku Aono）</span><br>略歴：京都大学大学院工学研究科博士後期課程 在学中．<br>研究テーマ：アーキアに特有の核酸およびペントースの新規の代謝機構．<br>抱負：今後はより自立し，独創的な研究を行っていきたい．また，若い学生の研究を導いていけるような研究者になっていきたい．<br><br><strong>佐藤 喬章（Takaaki Sato）</strong><br>京都大学大学院工学研究科 助教．<br><br><strong>跡見 晴幸（Haruyuki Atomi）</strong><br>京都大学大学院工学研究科 教授．<br></div><br>© 2015 青野 陸・佐藤喬章・跡見晴幸 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

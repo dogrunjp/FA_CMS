@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> in vitroにおける収縮環の収縮はミオシンIIに依存するがアクチンのダイナミクスには依存しない : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><em>in vitro</em>における収縮環の収縮はミオシンIIに依存するがアクチンのダイナミクスには依存しない</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>柏﨑 隼・高木智子・馬渕一誠</strong><br>（学習院大学理学部 生命科学科分子細胞生物学）<br>email：<a href="mailto:issei.mabuchi@gakushuin.ac.jp">馬渕一誠</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.094">10.7875/first.author.2013.094</a><br><div class="reference"><br><span class="ti"><em>In vitro</em> contraction of cytokinetic ring depends on myosin II but not on actin dynamics.</span><br><span class="au">Mithilesh Mishra, Jun Kashiwazaki, Tomoko Takagi, Ramanujam Srinivasan, Yinyi Huang, Mohan K. Balasubramanian, Issei Mabuchi</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23770677" target="_blank"><em>Nature Cell Biology</em>, <strong>15</strong>, 853-859 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　動物や酵母の細胞は収縮環とよばれる構造の収縮により細胞質分裂を行うと考えられている．収縮環のおもな成分はアクチンフィラメントであり，収縮環はアクチンとミオシンとの相互作用により収縮すると考えられる．しかし，収縮環の収縮の機構はよくわかっておらず，<em>in vitro</em>における収縮系の開発が待たれていた．この研究では，分裂酵母を用いて収縮環を含む細胞ゴーストの単離に成功し，ATPの添加により収縮環が<em>in vivo</em>における速度の30倍もの速さで収縮することを示した．これにより，分裂酵母の収縮環が自立的に収縮できる構造であることがはじめて示された．さらに，収縮環の収縮にはアクチンのダイナミクスあるいは脱重合が必須であると思われてきたが，収縮にともないアクチンは脱重合するものの，脱重合は収縮そのものには必須でないことが示された．また，ミオシンのATPase活性が収縮環の収縮に必須であること，アクチンフィラメント架橋タンパク質が過剰に存在すると収縮環の収縮が阻害されることなどが示された．収縮環の<em>in vitro</em>における収縮系の開発は，今後，細胞質分裂の分子機構の解明に大きく貢献するものと思われる．<br/><br/><h2>はじめに</h2><br/>　細胞分裂は染色体の分離とそれにつづく細胞質の分裂の連続した過程である．動物の細胞では，1968年，電子顕微鏡による観察により収縮環が発見され<a href="#R1"><sup>1)</sup></a>，そのおもな成分はアクチンフィラメントであることがわかった<a href="#R2"><sup>2)</sup></a>．1977年，細胞質分裂はアクチンとミオシンとの相互作用により起こることが判明した<a href="#R3"><sup>3)</sup></a>．これらのことから，細胞質分裂はアクチンとミオシンとの相互作用により収縮環が収縮することで進行すると考えられてきた．これまで，その詳細を調べるため収縮環の単離が試みられてきた．筆者らは，イモリの卵からATPの添加により収縮の可能な分裂溝の単離に成功し，電子顕微鏡により構造的な情報を得ることはできたが<a href="#R4"><sup>4)</sup></a>，収縮の機構について十分な情報を得ることはできなかった．また，ウニの卵から分裂溝の単離に成功したが，<em>in vitro</em>においてその収縮を再現するにはいたらなかった<a href="#R5"><sup>5)</sup></a>．そののち，細胞分裂の突然変異株が多く分離された分裂酵母において収縮環の形成に関する研究が進み，分裂酵母において収縮環の形成に必要なタンパク質は動物の細胞の場合に類似していること，動物の細胞の収縮環と同じように収縮のときにはアクチンフィラメントの方向性が反対のものも混在していることなどが判明し<a href="#R6"><sup>6)</sup></a>，分裂酵母も動物の細胞と同様の細胞質分裂を行っている可能性が考えられるようになった．<br/>　そこで，筆者らは，分裂酵母の収縮環を単離し<em>in vitro</em>においてその収縮の機構を研究できるような系の開発に挑戦した．この系ができれば，動物の細胞も含めて，細胞質分裂の分子機構の解明につながると考えられた．<br/><br/><h2>1．収縮環を保持した細胞ゴーストの単離</h2><br/>　用いた分裂酵母は<em>cdc25</em>温度感受性変異株であり，この変異を利用して細胞分裂の周期をそろえることができる．さらに，ミオシン軽鎖の遺伝子である<em>rlc</em>遺伝子を<em>rlc</em>遺伝子-3×<em>GFP</em>遺伝子で置き換えて，収縮環をミオシンの蛍光により観察できるようにした．<br/>　分裂酵母は細胞壁をもつ点が動物の細胞と異なる．細胞壁は細胞の変形をおさえ細胞を円筒形に保つはたらきがあり，そのため，ある程度の強度をもつと考えられている．まず，細胞壁を消化酵素で処理することにより除去した．その結果，細胞は球形となり，これをスフェロプラストとよぶ．このスフェロプラストの培養温度を36度として細胞周期を同調させ，収縮環を形成する時期に界面活性剤の処理により細胞膜を破壊しようとした．その結果，得られたものは細胞膜に穴の開いた“細胞ゴースト”であった（<a href="#F1">図1</a>）．ミオシンの蛍光の観察と電子顕微鏡によるアクチンフィラメントの観察により，細胞ゴーストには収縮環がきちんと残っていることがわかった．しかし，細胞質はほとんど流出して内部は空洞であった．実際に，ミオシンおよびアクチンをはじめ主要な収縮環の構成タンパク質は収縮環に保持されていたが，チューブリンをはじめ収縮環と関連のないタンパク質は検出されなかった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　細胞ゴーストの調製法</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mabuchi-Nature-Cell-Biology-13.7.1-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　細胞ゴーストの調製法" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mabuchi-Nature-Cell-Biology-13.7.1-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mabuchi-Nature-Cell-Biology-13.7.1-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．<em>in vitro</em>における収縮環の収縮</h2><br/>　この細胞ゴーストにATPを0.01～2 mMの範囲でくわえたところ，その濃度に依存してすみやかな収縮環の収縮が起こった．細胞内のATPの濃度はだいたい1 mMと報告されているので基本的に0.5 mMのATPをくわえたが，30秒から1分のあいだで収縮環の収縮は完了し，その速度は0.2μm/sec以上であった．この速度は動物の細胞における収縮環の収縮速度に近かった．非加水分解性のATPアナログであるAMP-PNPの添加では収縮環の収縮は起こらなかったので，この収縮はATPの加水分解によるエネルギーを利用して起こることがわかった．分裂酵母の収縮環が自力で収縮できることを明らかにしたのはこれがはじめてであった．ヌクレオチドに対する特異性について調べたところ，ATP &gt; ITP &gt; CTP &gt; GTPの順に収縮速度は速く<em>K</em><sub>m</sub>値が小さかった．また，細胞ゴーストの単離の際に細胞質分裂の時期は細胞により微妙にずれているため，細胞ゴーストごとに収縮環の大きさは少しずつ異なっていたが，その収縮速度は収縮環の大きさに依存せず同じだった．<br/>　この速度は非常に速かったため，生細胞における収縮環の収縮速度と比較した．その結果，<em>in vitro</em>の系における収縮速度は<em>in vivo</em>における収縮速度の30倍も速かった．細胞膜をFM4-64により蛍光染色し，ミオシンの蛍光との二重染色により観察したところ，収縮環は細胞膜をひっぱることなく，それのみで収縮した．収縮環と細胞膜との接点が細胞ゴーストの単離の際に分離した可能性が考えられた．生細胞ではさらに細胞膜の外側に細胞壁（細胞分裂のときには，隔壁）が存在するため，収縮環と細胞壁-細胞膜との接着のために収縮速度が遅くなっていることが考えられた．<br/>　細胞ゴーストのなかには円形でなく弧状の構造をもつものがあった．これは，収縮環の形成の途中の構造であった．このような細胞ゴーストにATPをくわえたところ，収縮環の収縮はまったく起こらなかった．これは，筆者らが以前に予想した，形成の途中にある収縮環はアクチンフィラメントの方向性がまだ混ざりあっていないため収縮できない<a href="#R6"><sup>6)</sup></a>，ということと符合した．<br/><br/><h2>3．収縮環の収縮におけるミオシンのはたらき</h2><br/>　動物の細胞では収縮環の収縮においてアクチンとミオシンとの相互作用が必要であることはすでに報告されているが，分裂酵母における収縮環の収縮について調べた．まず，ミオシンIIのもつATPase活性の阻害剤であるblebbistatinをくわえたところ，収縮環の収縮は阻害された．さらに，ミオシンだけでなくダイニンのATPase活性も阻害するdehydroxestoquinoneによっても収縮環の収縮は阻害された．細胞ゴーストには微小管（チューブリン）は含まれないので，これはミオシンのもつATPase活性の阻害によるものと考えられた．つぎに，Myo2の温度感受性変異株である<em>myo2E1</em>株および<em>myp2</em> (<em>myo3</em>) 欠損株から細胞ゴーストを作製して収縮環の収縮速度を調べたところ，いずれも野生株より遅かった．<em>myo2E1</em>と<em>myp2</em> (<em>myo3</em>) 欠損の二重変異株から作製した細胞ゴーストでは収縮環は収縮しなかった．これらの結果から，収縮環の収縮におけるミオシンIIの必要性が確認された．<br/><br/><h2>4．収縮環の収縮にアクチンのダイナミクスは必要ない</h2><br/>　つぎの問題は，収縮環の収縮にアクチンの脱重合やアクチンのダイナミクスが必要かどうかであった．以前に，ウニ（タコノマクラ）の受精卵にアクチンの安定化物質ファロイジンを顕微注入したところ，細胞質分裂の停止が観察された．この結果から，アクチンの脱重合あるいはアクチンのダイナミクスが収縮環の収縮に必須である可能性を考えた<a href="#R7"><sup>7)</sup></a>．実際に，収縮環のアクチンフィラメントは収縮により短くなっており<a href="#R6"><sup>6)</sup></a>，一般的に，収縮環の収縮ののちアクチンフィラメントは消失している．では，<em>in vitro</em>の系ではどうか調べた．細胞ゴーストにATPをくわえ，収縮環の収縮ののちアクチンの検出を試みたが，ミオシンはかたまりを形成して細胞ゴーストのなかに残っていたのに対し，アクチンフィラメントはもはやみられなかった．したがって，アクチンは収縮環の収縮とともに脱重合することが確かめられた．また，アクチンフィラメントの安定化物質であるjasplakinolide，phalloidin，あるいは，phallacidinをくわえたところ，収縮環の収縮は正常に起こり，アクチンはミオシンとともに残存していた．<br/>　生化学的な実験により収縮により脱重合するアクチンについて調べたところ，jasplakinolideの存在下ではアクチンの脱重合は起こらず，jasplakinolideの非存在化ではアクチン単量体が脱重合していることが判明した．これらの実験から，収縮環の収縮においてアクチンの脱重合が起こるが，それは収縮そのものには必須でないことがわかった（<a href="#F2">図2</a>）．これは予想外の結果であった．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　収縮環の収縮にアクチンのダイナミクスは必要ない</strong><br/>収縮環の収縮にともないアクチンの脱重合が起こるが，それは収縮そのものには必要でない．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mabuchi-Nature-Cell-Biology-13.7.1-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　収縮環の収縮にアクチンのダイナミクスは必要ない" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mabuchi-Nature-Cell-Biology-13.7.1-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mabuchi-Nature-Cell-Biology-13.7.1-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　収縮環にはアクチンフィラメント切断-脱重合タンパク質であるAdf1が存在する．これは正常な収縮環の構造を形成するため必須なタンパク質である．このタンパク質が収縮環の収縮にはたらいているかどうかを調べるため，Adf1の温度感受性変異株である<em>adf1-1</em>株から細胞ゴーストを調製し，制限温度において収縮環の収縮を調べた．その結果，正常な速さで収縮が起こっていた．したがって，Adf1は収縮環の収縮にははたらいていないことがわかった．<br/><br/><h2>5．収縮環の収縮には適正量のアクチンフィラメント架橋タンパク質が必要である</h2><br/>　収縮環にはαアクチニンやIQGAP，Fimbrinといったアクチンフィラメント架橋タンパク質が含まれ，これらは収縮環の構造を安定化していると考えられている．大腸菌において分裂酵母のIQGAPのN末端側断片，および，Fimbrinをそれぞれ発現して精製し，細胞ゴーストにくわえ収縮環の収縮を誘導した．その結果，これらのタンパク質の量に応じて収縮環の収縮は阻害された．つまり，アクチンフィラメント架橋タンパク質が多すぎるとかえって収縮環の収縮はさまたげられることがわかった．<br/><br/><h2>おわりに</h2><br/>　以上のように，分裂酵母を用いて収縮環の収縮を<em>in vitro</em>において研究できる系を構築することができた．今後，この系を用いることで，収縮環の収縮制御，細胞膜と収縮環との接点の研究などが展開されることを期待している．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Shroeder, T. E.</span>: <span class="ti">Cytokinesis: filaments in the cleavage furrow.</span> <span class='so'>Exp. Cell Res., 53, 272-276 (1968)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/4387145" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Perry, M. M., John, H. A. & Thomas, N. S. T.</span>: <span class="ti">Actin-like filaments in the cleavage furrow of newt egg.</span> <span class='so'>Exp. Cell Res., 65, 249-253 (1971)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/4101164" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Mabuchi, I. & Okuno, M.</span>: <span class="ti">The effect of myosin antibody on the division of starfish blastomeres.</span> <span class='so'>J. Cell Biol., 74, 251-263 (1977)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/141455" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Mabuchi, I., Tsukita, S., Tsukita, S. et al.</span>: <span class="ti">Cleavage furrow isolated from newt eggs: contraction, organization of the actin filaments, and protein components of the furrow.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 85, 5966-5970 (1988)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/3413069" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Yonemura, S., Mabuchi, I. & Tsukita, S.</span>: <span class="ti">Mass isolation of cleavage furrows from dividing sea urchin eggs.</span> <span class='so'>J. Cell Sci., 100, 73-84 (1991)</span></li><br><li id="R6"><span class='au'>Kamasaki, T., Osumi, M. & Mabuchi, I.</span>: <span class="ti">Three-dimensional arrangement of F-actin in the contractile ring of fission yeast.</span> <span class='so'>J. Cell Biol., 178, 765-771 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17724118" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Hamaguchi, Y. & Mabuchi, I.</span>: <span class="ti">Effects of phalloidin microinjection and localization of fluorescein-labeled phalloidin in living sand dollar eggs.</span> <span class='so'>Cell Motil., 2, 103-113 (1982)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7172218" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">柏﨑  隼（Jun Kashiwazaki）</span><br>学習院大学理学部 助教．<br><br><strong>高木 智子（Tomoko Takagi）</strong><br>日本女子大学理学部 学術研究員．<br><br><strong>馬渕 一誠（Issei Mabuchi）</strong><br>学習院大学理学部 教授．<br>研究室URL：<a href="http://www-cc.gakushuin.ac.jp/~e060105/mabuchilab/index.html" target="_blank">http://www-cc.gakushuin.ac.jp/~e060105/mabuchilab/index.html</a><br></div><br>© 2013 柏﨑 隼・高木智子・馬渕一誠 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

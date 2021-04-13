@@ -97,7 +97,8 @@ class UpdateItemList:
 
     def contentAsJson(self, title, ws):
         wks_num = ws
-        scope = ['https://spreadsheets.google.com/feeds/']
+        scope = ['https://spreadsheets.google.com/feeds/',
+                 'https://www.googleapis.com/auth/drive']
         # versionによっては（ubuntu 最新のauth）以下のようにscoprを設定する必要がある
         # scope = ['https://spreadsheets.google.com/feeds',
         # 'https://www.googleapis.com/auth/drive']
@@ -188,7 +189,7 @@ class RenderPage:
                 #txt = entry["Post_Content"]
 
                 # リストcapsの長さがfigの数としてFigureのcaptionを取得
-                caps = [entry.get("Fig{}_caption".format(i)) for i in range(1, 4) if entry.get("Fig{}_caption".format(i), None) is not ""]
+                caps = [entry.get("Fig{}_caption".format(i)) for i in range(1, 4) if entry.get("Fig{}_caption".format(i), None) != ""]
 
                 # 画像のキャプションを一時的に<tmp>タグに置き換える
                 soup = BeautifulSoup(txt, "html.parser")
@@ -204,13 +205,12 @@ class RenderPage:
 
                 # Hover card用のannotation追加
                 # keywordsはFA_URLの数字部分(FA_IDではなく)と一致するセットだけフィルターして渡す。また削除フラグに1が入っていた場合その語は使用しない。
-                keyword_work = [x[1] for x in self.keywords if str(x[0]) == str(entry["FA_URL"].split("/")[-1])]
+                keyword_work = [(x[1], x[2], x[3]) for x in self.keywords if str(x[0]) == str(entry["FA_URL"].split("/")[-1])]
 
                 # htmlにアノテーションのためのタグを付加
                 txt = add_annotation.add_annotation(keyword_work, txt)
 
 
-                """ for development
                 # 一時置換したタグをリストcaptionsから復元する
                 for i in range(len(caps)):
                     idx = i + 1
@@ -232,8 +232,6 @@ class RenderPage:
                 tmpl = env.get_template(template)
                 htm = tmpl.render(item=entry)
                 write_static_file(entry, htm, wks_conf["output_path"])
-                
-                """
 
 
 class GetPicTagMember:
@@ -365,10 +363,10 @@ def word_filter(lst):
     uniprot = conf["annotation"]["uniprot"]
     only_uniprot = conf["annotation"]["only_uniprot"]
 
+    # UniprotIDがあればUniprotID然もなくばOnlyUniProtIDをuniprot_idとして取得する
     uniprot_id  = uniprot if uniprot else only_uniprot
     # uniprotの値はuniprotIDもしくはonly_uniprot_idから
-    lst = [(x[page_id], x[cue], x[text_query], uniprot_id) for x in lst ]
-
+    lst = [(x[page_id], x[cue], x[text_query], x.get(uniprot_id) if x.get(uniprot_id, None) else x.get(only_uniprot)) for x in lst if x[cue]]
     return lst
 
 
@@ -583,7 +581,39 @@ def test_get_keywords():
     print(words)
 
 
+def test_get_addclass():
+    f = open(config_yaml, 'r', encoding='utf-8')
+    global conf
+    conf = yaml.load(f)
+    f.close()
+    kws = get_keywords(conf)
+
+    keyword_work = [(x[1], x[2], x[3]) for x in kws if str(x[0]) == "18929"]
+    txt = """
+PD-1やCTLA-4に対する...LAG-3は
+PD-1およびCTLA-4に..さまざまな..，
+LAG-3が免疫を抑制する..この研究において，筆者らは，LAG-3がMHCクラスII分子複合体を選択的に...
+MHCクラスII分子とヘルパーT細胞の活性化を、インスリンB鎖、CD4、CD8、pMHCII
+    """
+    s = add_annotation.add_class(keyword_work, txt)
+    print(s)
+
+
+def test_kws():
+    f = open(config_yaml, 'r', encoding='utf-8')
+    global conf
+    conf = yaml.load(f)
+    f.close()
+    kws = get_keywords(conf)
+    kws = [(x[1], x[2], x[3]) for x in kws]
+    print(kws[0:10])
+    for k in kws:
+        if len(k) != 3:
+            print(k)
+
+
 if __name__ == "__main__":
     #update_controller()
-    test_get_keywords()
+    test_kws()
+
 

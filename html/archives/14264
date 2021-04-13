@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> CRISPR-Cas9系を応用した特定のゲノム領域をDNA脱メチル化する手法の開発 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>CRISPR-Cas9系を応用した特定のゲノム領域をDNA脱メチル化する手法の開発</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>森田純代・堀居拓郎・畑田出穂</strong><br>（群馬大学生体調節研究所 附属生体情報ゲノムリソースセンターゲノム科学リソース分野）<br>email：<a href="mailto:hatada@gunma-u.ac.jp">畑田出穂</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.095">10.7875/first.author.2016.095</a><br><div class="reference"><br><span class="ti">Targeted DNA demethylation <em>in vivo</em> using dCas9-peptide repeat and scFv-TET1 catalytic domain fusions.</span><br><span class="au">Sumiyo Morita, Hirofumi Noguchi, Takuro Horii, Kazuhiko Nakabayashi, Mika Kimura, Kohji Okamura, Atsuhiko Sakai, Hideyuki Nakashima, Kenichiro Hata, Kinichi Nakashima, Izuho Hatada</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27571369" target="_blank"><em>Nature Biotechnology</em>, <strong>34</strong>, 1060-1065 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　DNAメチル化やヒストンの修飾などのエピジェネティックな変化は，発生や分化，さらには，がんや生活習慣病といったさまざまな疾患の基盤になることが明らかにされてきたが，特定のゲノム領域のエピジェネティックな状態を操作する技術はまだ発展の途上にある．今回，筆者らは，ゲノム編集技術に用いられるCRISPR-Cas9系を応用し，SunTag系と組み合わせることにより，特定のゲノム領域を効率的にDNA脱メチル化する手法を開発した．SunTag系は5アミノ酸残基のリンカーにより分割された10コピーのGCN4から構成されるが，リンカーの長さを22アミノ酸残基に改変することによりDNA脱メチル化の効率は上昇し，9つの遺伝子座において試験した結果，DNA脱メチル化の効率は7つの遺伝子座において50％以上，そのうち4つの遺伝子座において90％をこえた．さらに，この系を<em>in vivo</em>に適用することにも成功した．<br/><br/><h2>はじめに</h2><br/>　エピジェネティックな修飾のひとつであるDNAメチル化は発生や分化における遺伝子の発現制御において重要な役割をもち，さらには，がんや生活習慣病といったさまざまな疾患の基盤になることが明らかにされてきた．しかしながら，これまで特定のゲノム領域におけるDNAメチル化あるいはDNA脱メチル化を操作する技術はなかったため，特定の遺伝子だけをDNAメチル化あるいはDNA脱メチル化させたモデル動物を作製して詳細に解析することは困難であった．また，アザシチジンやデシタビンといったDNAメチラーゼの阻害剤は骨髄異型性症候群などの治療において非常に効果があるが，広範囲にDNA脱メチル化が起こるため副作用のリスクが指摘されていた．<br/>　近年，ZFN系<a href="#R1"><sup>1)</sup></a> あるいはTALEN系<a href="#R2"><sup>2)</sup></a> につづくゲノム編集技術としてCRISPR-Cas9系<a href="#R3"><sup>3-5)</sup></a> が注目をあつめている．これは，従来のゲノム編集技術と比較して標的配列のデザインが簡便であり，配列ごとに異なるタンパク質を合成する必要がないという特徴がある．このゲノム編集技術を応用し，エピジェネティックな修飾の状態のみを改変する“エピゲノム編集”技術の開発が待望されていた．今回，筆者らは，CRISPR-Cas9系を応用し，SunTag系と組み合わせることにより，特定のゲノム領域を効率的にDNA脱メチル化する手法を開発することに成功した．<br/><br/><h2>1．dCas9とTET1との融合タンパク質では効率的なDNA脱メチル化は起こらない</h2><br/>　標的配列を含むガイドRNAと複合体を形成して標的配列と結合するがDNA切断活性のないdCas9と，DNA脱メチル化酵素であるTET1とを融合させたものを系1として（<a href="#F1">図1</a>），マウスのES細胞において<em>Gfap</em>遺伝子のプロモーター領域のDNA脱メチル化を試みた．<em>Gfap</em>遺伝子はアストロサイトの分化に重要な遺伝子であり，胎生中期の神経前駆細胞においてそのプロモーター領域は高度にDNAメチル化されているが，胎生後期においてこの領域にDNA脱メチル化が起こり神経前駆細胞はアストロサイトに分化することが可能になる<a href="#R6"><sup>6)</sup></a>．マウスのES細胞においても<em>Gfap</em>遺伝子のプロモーター領域は高度にDNAメチル化されていた．この系1の細胞への導入ではDNA脱メチル化の効率は約10％にとどまり，さらなる改善の余地があると考えられた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　検討したDNA脱メチル化の系の構成</strong><br/>オールインワンベクターにおいて，翻訳産物は2A配列にて切断される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatada-Nature-Biotechnology-16.10.11-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　検討したDNA脱メチル化の系の構成" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatada-Nature-Biotechnology-16.10.11-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatada-Nature-Biotechnology-16.10.11-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．SunTag系を組み合わせることによりDNA脱メチル化の効率は上昇する</h2><br/>　ひとつのdCas9に対し複数のTET1が結合すればDNA脱メチル化の効率も上昇するのではないかと考え，SunTag系<a href="#R7"><sup>7)</sup></a> を組み合わせた（<a href="#F2">図2a</a>）．SunTag系は5アミノ酸残基のリンカーにより分割された10コピーのGCN4から構成され，ミニ抗体によりこのGCN4が認識される．そこで，dCas9の下流にSunTag系をつないだものと，GCN4を認識して結合するミニ抗体にTET1を融合したものを系2として（<a href="#F1">図1</a>），これらを同時に細胞に導入し，DNA脱メチル化の効率を調べた．しかし，予想に反し，系1と比較してDNA脱メチル化の効率は上昇しなかった．その原因として，リンカーが短いためTET1が機能するだけの空間がなく，TET1どうしが立体障害を起こしてうまく機能しないのではないかと考えた（<a href="#F2">図2b</a>）．そこで，リンカーを22アミノ酸残基としたものを系3，および，43アミノ酸残基としたものを系4とした（<a href="#F1">図1</a>）．系3あるいは系4の細胞への導入において，DNA脱メチル化の効率はそれぞれ約40％あるいは約30％にまで上昇した．また，これらのDNA脱メチル化はTET1の過剰な発現によるものでないことが確認された．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　dCas9とSunTag系を組み合わせた系</strong><br/>（a）リンカーにより分割された10コピーのGCN4を，TET1を融合したミニ抗体が認識することにより，DNA脱メチル化が起こる．<br/>（b）リンカーが短いと立体障害によりTET1がうまく機能しないが，リンカーを長くすることによりTET1が機能する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatada-Nature-Biotechnology-16.10.11-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　dCas9とSunTag系を組み合わせた系" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatada-Nature-Biotechnology-16.10.11-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatada-Nature-Biotechnology-16.10.11-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　系3を導入した細胞を，ミニ抗体に組み込まれたGFPを指標にして蛍光セルソーターにより分別したところ，DNA脱メチル化の効率は90％をこえた．さらに効率を上昇させる目的で，系3をもとにオールインワンベクターを作製し（<a href="#F1">図1</a>），これを導入した細胞を同様に分別したところ，DNA脱メチル化の効率は90％をこえた．これらのことから，トランスフェクションするベクターが複数に分かれていても，この系においてはGFPを指標として分別することで十分であると考えられた．また，DNA脱メチル化は少なくともgRNAの標的配列から200 bpほど離れた領域にまで及んでいた．<br/>　この系において非特異的なDNA脱メチル化が起こっていないか調べるため，全ゲノムバイサルファイトシーケンス法<a href="#R8"><sup>8)</sup></a> によりDNAメチル化について解析した．その結果，gRNAの標的配列と同じ程度にDNA脱メチル化されているゲノム領域はなかった．またRNA-seq法により遺伝子の発現を解析したところ，変化はほとんどみられなかった．<br/>　以上は，マウスのES細胞において<em>Gfap</em>遺伝子のプロモーター領域をDNA脱メチル化したときの結果であるが，この系はマウスの神経前駆細胞やヒトの細胞にも応用が可能であった．9つの遺伝子座において検討した結果，7つの遺伝子座においてDNA脱メチル化の効率は50％以上であり，そのうち4つの遺伝子座において90％以上であった．さらに，DNA脱メチル化によりこれらの遺伝子の発現が誘導された．また，複数のgRNAを導入することにより広いゲノム領域をDNA脱メチル化することも可能であった．<br/><br/><h2>3．この系は<em>in vivo</em>においても機能する</h2><br/>　この系が<em>in vivo</em>においても機能するかどうか検討するため，マウスの胎仔の脳において<em>Gfap</em>遺伝子のプロモーター領域のDNA脱メチル化を試みた．さきに述べたように，胎生中期の神経前駆細胞において<em>Gfap</em>遺伝子のプロモーター領域は高度にDNAメチル化されているが，胎生後期においてこの領域にDNA脱メチル化が起こり，<em>Gfap</em>遺伝子の発現は上昇しアストロサイトに分化する．この領域がDNA脱メチル化されない神経前駆細胞はニューロンへの分化が可能になる．胎生14日目において母体から胎仔を取り出し，オールインワンベクターを脳室帯にエレクトロポレーションした．胎仔を母体にもどして1日後には<em>Gfap</em>遺伝子のプロモーター領域はDNA脱メチル化され，4日後にはGFAPのタンパク質レベルでの発現が上昇していた．したがって，<em>in vivo</em>においても，この系は特定のゲノム領域をDNA脱メチル化することが明らかにされた．<br/><br/><h2>おわりに</h2><br/>　筆者らは，CRISPR-Cas9系を応用し，dCas9とSunTag系を組み合わせることにより，特定のゲノム領域をきわめて効率的にDNA脱メチル化する系を開発した．さらに，この系を<em>in vivo</em>に適用することにも成功した．<br/>　すでにZFN系やTALEN系などによるゲノム編集技術を応用したDNA脱メチル化の手法について報告されているが<a href="#R9"><sup>9,10)</sup></a>，筆者らの開発した系と比較して，そのDNA脱メチル化の効率はあまり高くなく，DNA脱メチル化される領域も30 bp程度とせまい．その理由として，2つのことが考えられる．ひとつは，Cas9はZFNやTALENと比較してDNAメチル化されたゲノム領域と結合しやすいことが考えられる<a href="#R11"><sup>11-13)</sup></a>．つまり，Cas9はDNAの修飾に影響されることなく標的配列と結合する．もうひとつは，筆者らの開発した系は複数のTET1をリクルートするため，標的配列を含むより広い範囲で効率的にDNA脱メチル化が起こることが考えられる．この技術を用いて，将来的にはDNA脱メチル化を必要とする遺伝子治療への応用が可能ではないかと考えている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Porteus, M. H. & Carroll, D.</span>: <span class="ti">Gene targeting using zinc finger nucleases.</span> <span class='so'>Nat. Biotechnol., 23, 967-973 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16082368" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Miller, J. C., Tan, S., Qiao, G. et al.</span>: <span class="ti">A TALE nuclease architecture for efficient genome editing.</span> <span class='so'>Nat. Biotechnol., 29, 143-148 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21179091" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Jinek, M., Chylinski, K., Fonfara, I. et al.</span>: <span class="ti">A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity.</span> <span class='so'>Science, 337, 816-821 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22745249" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Mali, P., Yang, L., Esvelt, K. M. et al.</span>: <span class="ti">RNA-guided human genome engineering via Cas9.</span> <span class='so'>Science, 339, 823-826 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23287722" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Cong, L., Ran, F. A., Cox, D. et al.</span>: <span class="ti">Multiplex genome engineering using CRISPR/Cas systems.</span> <span class='so'>Science, 339, 819-823 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23287718" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Takizawa, T., Nakashima, K., Namihira, M. et al.</span>: <span class="ti">DNA methylation is a critical cell-intrinsic determinant of astrocyte differentiation in the fetal brain.</span> <span class='so'>Dev. Cell, 1, 749-758 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11740937" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Tanenbaum, M. E., Gilbert, L. A., Qi, L. S. et al.</span>: <span class="ti">A protein-tagging system for signal amplification in gene expression and fluorescence imaging.</span> <span class='so'>Cell, 159, 635-646 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25307933" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Miura, F., Enomoto, Y., Dairiki, R. et al.</span>: <span class="ti">Amplification-free whole-genome bisulfite sequencing by post-bisulfite adaptor tagging.</span> <span class='so'>Nucleic Acids Res., 40, e136 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22649061" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Chen, H., Kazemier, H. G., de Groote, M. L. et al.</span>: <span class="ti">Induced DNA demethylation by targeting Ten-Eleven Translocation 2 to the human <em>ICAM-1</em> promoter.</span> <span class='so'>Nucleic Acids Res., 42, 1563-1574 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24194590" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Maeder, M. L., Angstman, J. F., Richardson, M. E. et al.</span>: <span class="ti">Targeted DNA demethylation and activation of endogenous genes using programmable TALE-TET1 fusion proteins.</span> <span class='so'>Nat. Biotechnol., 31, 1137-1142 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24108092" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Hsu, P. D., Scott, D. A., Weinstein, J. A. et al.</span>: <span class="ti">DNA targeting specificity of RNA-guided Cas9 nucleases.</span> <span class='so'>Nat. Biotechnol., 31, 827-832 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23873081" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Bultmann, S., Morbitzer, R., Schmidt, C. S. et al.</span>: <span class="ti">Targeted transcriptional activation of silent <em>oct4</em> pluripotency gene by combining designer TALEs and inhibition of epigenetic modifiers.</span> <span class='so'>Nucleic Acids Res., 40, 5368-5377 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22387464" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Chen, S., Oikonomou, G., Chiu, C. N. et al.</span>: <span class="ti">A large-scale <em>in vivo</em> analysis reveals that TALENs are significantly more mutagenic than ZFNs generated using context-dependent assembly.</span> <span class='so'>Nucleic Acids Res., 41, 2769-2778 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23303782" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=UCSC" target="_blank">UCSC</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=Ensembl" target="_blank">Ensembl</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=CRISPR" target="_blank">CRISPR</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=塩基配列" target="_blank">塩基配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=RNA-seq" target="_blank">RNA-seq</a></li><br><li><a href="http://togotv.dbcls.jp/ja/?search=CRISPRdirect" target="_blank">CRISPRdirect</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">森田 純代（Sumiyo Morita）</span><br>略歴：2000年 東京大学大学院医学系研究科 修了，同年より群馬大学生体調節研究所 研究員．<br>研究テーマ：エピジェネティクス．<br><br><strong>堀居 拓郎（Takuro Horii）</strong><br>群馬大学生体調節研究所 助教．<br><br><strong>畑田 出穂（Izuho Hatada）</strong><br>群馬大学生体調節研究所 教授．<br>研究室URL：<a href="http://epigenome.dept.showa.gunma-u.ac.jp/~hatada/" target="_blank">http://epigenome.dept.showa.gunma-u.ac.jp/~hatada/</a><br></div><br>© 2016 森田純代・堀居拓郎・畑田出穂 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

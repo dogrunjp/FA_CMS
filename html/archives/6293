@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Dclk1は腸管において正常な組織の幹細胞と腫瘍幹細胞とを区別するマーカーである : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>Dclk1は腸管において正常な組織の幹細胞と腫瘍幹細胞とを区別するマーカーである</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>中西祐貴・妹尾 浩</strong><br>（京都大学大学院医学研究科 消化器内科学）<br>email：<a href="mailto:yuki@kuhp.kyoto-u.ac.jp">中西祐貴</a>，<a href="mailto:seno@kuhp.kyoto-u.ac.jp">妹尾 浩</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.157">10.7875/first.author.2012.157</a><br><div class="reference"><br><span class="ti">Dclk1 distinguishes between tumor and normal stem cells in the intestine.</span><br><span class="au">Yuki Nakanishi, Hiroshi Seno, Ayumi Fukuoka, Taro Ueo, Yuichi Yamaga, Takahisa Maruno, Naoko Nakanishi, Keitaro Kanda, Hideyuki Komekado, Mayumi Kawada, Akihiro Isomura, Kenji Kawada, Yoshiharu Sakai, Motoko Yanagita, Ryoichiro Kageyama, Yoshiya Kawaguchi, Makoto M. Taketo, Shin Yonehara, Tsutomu Chiba</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23202126" target="_blank"><em>Nature Genetics</em>, <strong>45</strong>, 98-103 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　腫瘍には正常な組織の幹細胞と類似した腫瘍幹細胞が存在するというモデルが提唱されている．これまで，腫瘍幹細胞のマーカーとして多数の候補が報告されてきたが，その大半は同時に正常な組織の幹細胞のマーカーでもある．もし，これらのマーカーを標的としてがん治療を行った場合，腫瘍のみならず正常な組織にも重大な障害をもたらすことが予想されるため，腫瘍幹細胞を標的とする治療は困難であった．今回，筆者らは，Dclk1に着目し正常な腸管と腸腫瘍において幹細胞マーカーになりうるか検討した．細胞系譜解析により，Dclk1は正常な腸管において幹細胞マーカーとはならず，腸腫瘍においてのみ幹細胞マーカーとなることが明らかになった．また，Dclk1陽性細胞を選択的に除去したところ，正常な腸管に障害はなく，腸腫瘍のみが退縮した．これらの結果は，Dclk1は正常な腸管と腸腫瘍におけるそれぞれの幹細胞を区別するマーカーであることを示しており，Dclk1に陽性を示す腫瘍幹細胞を標的とすることが，今後のがん治療においてきわめて有効なストラテジーである可能性が示された．<br/><br/><h2>はじめに</h2><br/>　iPS細胞をはじめとして，さまざまな段階の幹細胞に対する研究は急速に進んでおり，腸管に存在する組織幹細胞に対しても多くの新しい知見が得られている．組織幹細胞は自己再生能と子孫を供給する能力とをあわせもつ細胞と定義され，小腸の組織幹細胞は陰窩の底部に存在する．小腸の腸管上皮は陰窩と絨毛の2つのコンパートメントから構成されており，陰窩の底部に存在する組織幹細胞からつくられた子孫細胞は分化しながら絨毛へと移動し，絨毛の頂部の付近で腸管の内腔へとはがれ落ちる．20世紀半ばから腸管に存在する組織幹細胞に対するマーカーが探索されてきたが，遺伝子工学を用いた実験系の発展から21世紀になりLgr5，Bmi1，CD133など種々の幹細胞マーカーが証明された<a href="#R1"><sup>1-3)</sup></a>．一方，腫瘍にも正常な組織の幹細胞と類似した自己再生能と子孫の腫瘍細胞を供給する能力をあわせもつ“腫瘍幹細胞（がん幹細胞）”が存在するという説があり，近年，この説を支持する報告が多数みられるようになった<a href="#R4"><sup>4,5)</sup></a>．この説にそった場合，従来の抗がん剤による治療では腫瘍の子孫細胞には効果があるものの，治療に対し抵抗性をもつ腫瘍幹細胞が残存してしまうため，最終的に腫瘍の再発および増大をきたしてしまうと考えられる．ゆえに，腫瘍幹細胞を標的とする治療の開発が強く期待されているが，その実現に対する大きな障害として，いまだ腫瘍幹細胞に特異的なマーカーがみつかっていないことがあげられる．現在までに報告されている腫瘍幹細胞のマーカーのほぼすべては正常な組織の幹細胞にも発現しているため，このマーカーをもつ細胞をひとしく治療の標的とした場合，腫瘍幹細胞だけでなく正常な組織の幹細胞にも障害をあたえてしまう．このことは正常な組織に重大な副作用をもたらすと予想されるため，腫瘍幹細胞を標的としたがん治療の実現には，正常な組織の幹細胞には発現せず腫瘍幹細胞にのみ発現するマーカーをみつける必要がある．<br/>　今回，筆者らは，そのような腫瘍幹細胞に特異的なマーカーを同定するのに，Dclk1（Doublecortin-like kinase 1）に着目した．Dclk1は胎生期における神経の発生において重要な役割をはたしているが，出生ののちは消化管の上皮において一部の細胞にも発現しており，近年，腸管における正常な組織の幹細胞のマーカーの候補のひとつとして報告された<a href="#R6"><sup>6,7)</sup></a>．しかし，そののち，Dclk1は分化細胞のマーカーであるとの報告も多数あり<a href="#R8"><sup>8)</sup></a>，Dclk1を発現する細胞の幹細胞性については十分な検討がなされていない．また，Dclk1陽性細胞はマウスの腸腫瘍やヒトの大腸がん組織にも散在性に存在しているが，腫瘍におけるDclk1陽性細胞の役割も明らかにされていない．筆者らは，今回の研究において，Dclk1が正常な組織および腫瘍組織において幹細胞マーカーとなりうるかどうか，種々の遺伝子改変マウスを用いて検討した．<br/><br/><h2>1．正常な組織においてDclk1は幹細胞ではなく分化細胞のマーカーである</h2><br/>　Dclk1を発現する細胞において遺伝子組換え酵素であるCreを発現する遺伝子改変マウスを作製した．このマウスにおいては，Creはタモキシフェンの投与により活性化されてDclk1を発現した細胞において遺伝子組換えを生じ，さらに，この組換え遺伝子は子孫細胞にも伝わっていく．この遺伝子改変マウスと，Creに依存してLacZを発現するマウスとを交配した．このマウスにタモキシフェンを投与するとDclk1陽性細胞において遺伝子組換えが起こり，LacZが発現するためその細胞は青色に染色される．そして，子孫細胞にもこの遺伝子組換えは受け継がれ青色に染色されるため，子孫細胞がどの程度つくられているか視覚的な情報を得ることができる．このような手法は細胞系譜解析とよばれる．<br/>　この遺伝子改変マウスにタモキシフェンを投与して1日後，正常な腸管の陰窩や絨毛において，ぱらぱらと散在性に存在するDclk1陽性細胞が検出された．Dclk1が本当に正常な組織の幹細胞のマーカーであるとすれば，時間の経過とともにDclk1陽性細胞から陰窩そして絨毛にかけ子孫細胞からなる青色の細胞の並びが延びていくはずであるが，経時的に観察したところ，Dclk1陽性細胞から子孫細胞のつくられることはなかった．Dclk1陽性細胞はしだいに陰窩から絨毛の上方へと移動し，そのほとんどが2～3週間のあいだに消失した．この結果は，Dclk1は正常な組織の幹細胞のマーカーではなく，すでに分裂をおえた分化細胞のマーカーであることを示していた．<br/><br/><h2>2．Dclk1はマウスの腸腫瘍モデルにおける腫瘍幹細胞のマーカーである</h2><br/>　Dclk1陽性細胞とその子孫細胞においてLacZを発現する遺伝子改変マウスと，代表的な腸腫瘍モデルマウスである<em>Apc<sup>Min</sup></em>マウスとを交配させ，このマウスを用い腸腫瘍においてDclk1が腫瘍幹細胞のマーカーであるかどうか細胞系譜解析を行った．非常に驚くべきことに，この遺伝子改変マウスにおいてはタモキシフェンを投与して7日後，腸腫瘍の全体がDclk1陽性細胞の子孫細胞によりしめられた．また重要なことに，この遺伝子改変マウスの正常な腸管部において，Dclk1陽性細胞はやはり散在性に認められるのみでありその子孫細胞は認められなかった．この結果は，正常な組織の幹細胞と腸腫瘍における腫瘍幹細胞の両方のマーカーであるLgr5の細胞系譜解析の結果と対照的であった．すなわち，Lgr5陽性細胞からは正常な腸管においても腸腫瘍においても同じように子孫細胞がつくられるため，腸腫瘍は青色に染色されるが，正常な腸管にも多数の青色の細胞の並びが延びていた．一方，Dclk1陽性細胞においては腸腫瘍のみで子孫細胞をつくっていたことから，Dclk1陽性細胞は腸腫瘍においてのみ子孫細胞を供給する能力をもつことが示された．<br/>　Dclk1陽性細胞からどのように子孫細胞がつくられていくか経時的に解析した．タモキシフェンを投与して1日後，Dclk1陽性細胞のみが青色に染色されていた．時間がたつにつれ，腫瘍の底部の付近のDclk1陽性細胞から腸の内腔側にむけ腫瘍の子孫細胞からなる青色の細胞の並びが延びていき，5～7日後には腫瘍のほぼ全体がDclk1陽性細胞の子孫細胞により置き換えられた．さらに長期の解析をつづけたところ，観察のできたタモキシフェン投与105日後にいたるまで，Dclk1陽性細胞の子孫細胞からなる腸腫瘍は数を減ずることなくそのまま残存していた．これらの結果は，Dclk1陽性細胞が長期間にわたり子孫細胞を供給しつづけていることを明確に示しており，Dclk1が自己再生能と子孫供給能とをあわせもつ腫瘍幹細胞の特異的なマーカーであることが明らかになった．<br/><br/><h2>3．Dclk1とLgr5の共陽性を示す細胞は真の腫瘍幹細胞としての能力をもつ</h2><br/>　腫瘍においてDclk1陽性細胞はどのような性質をもつのか検討した．免疫染色から，正常な腸管においてDclk1陽性細胞はほとんど増殖状態とはなっていないが，腫瘍においてはとくに腫瘍の底部に増殖状態のDclk1陽性細胞が少数ながら存在することが判明した．そして興味深いことに，この腫瘍の底部においては幹細胞マーカーであるLgr5とDclk1の共陽性を示す細胞が正常な腸管に比べ高頻度に観察された．さきに述べた細胞系譜解析において腫瘍の底部のDclk1陽性細胞から腫瘍の子孫細胞からなる青色の細胞の並びが延びていたという観察結果からも，このDclk Lgr5共陽性細胞が幹細胞性をもつものと考えられた．この仮説を証明するため，FACS（fluorescence activated cell sorter，蛍光セルソーター）を用いてDclk1 Lgr5共陽性細胞の性質を調べた．その結果，Dclk1 Lgr5共陽性細胞はほかの細胞と比べ，腫瘍幹細胞のマーカーであり，同時に，正常な組織の幹細胞のマーカーでもあるCD44やCD133の発現が高く，また，アポトーシス抵抗性を示すBcl2の発現も亢進しており，真の腫瘍幹細胞としての能力をもつものと考えられた．<br/>　筆者らの研究と同じ時期に，マウスにおいてLgr5陽性細胞が腫瘍の底部に存在し腫瘍幹細胞としてはたらいているという報告がなされており<a href="#R9"><sup>9)</sup></a>，これは，筆者らの説を支持するものと考えられる．<br/><br/><h2>4．Dclk1は腫瘍幹細胞において腫瘍の形成がはじまったのちに発現する</h2><br/>　Dclk1が腫瘍幹細胞のマーカーであり，とくに，Dclk1 Lgr5共陽性細胞が真の腫瘍幹細胞であることが示唆されたが，その背景に関してはいまだわかっていない．とくに，正常な組織に存在するDclk1陽性細胞が形質転換して腫瘍の起源となるとともにLgr5を発現するようになる，あるいは，正常な組織には別に腫瘍の起源となる細胞がありその細胞が腫瘍幹細胞となってDclk1を発現するようになる，という2つの可能性がある．近年，正常な組織の幹細胞を形質転換させると腫瘍が形成されるというマウスにおける実験から，腸腫瘍の起源は正常な組織の幹細胞であるとする報告がある<a href="#R10"><sup>10)</sup></a>．<br/>　そこで，遺伝子組換え酵素Creの誘導のもとWnt-βカテニンシグナル伝達系を活性化するマウスを利用して，正常な組織に存在するDclk1陽性細胞が腫瘍の起源細胞となるかどうか検討した．その結果，Dclk1陽性細胞においてWnt-βカテニンシグナル伝達系を活性化させても腫瘍は形成されなかった．一方，正常な組織の幹細胞であるLgr5陽性細胞を用いて同様の実験を行った場合，既報にもあるとおり，多数の腸腫瘍が形成された．また，このLgr5陽性細胞から形成された腸腫瘍には，非常に幼弱な腸腫瘍においてさえも，Dclk1 Lgr5共陽性細胞の存在が確認された．これらの結果をまとめると，正常な組織に存在するDclk1陽性細胞が腫瘍の起源細胞となるわけではなく，Lgr5陽性を示す腫瘍の起源細胞からつくられた腫瘍においてDclk1が発現されるようになり，それ以後，Dclk1 Lgr5共陽性細胞が腫瘍幹細胞として機能しつづけるという可能性が示唆された．<br/><br/><h2>5．Dclk1陽性を示す腫瘍幹細胞を標的とすることで正常な組織には障害なく腫瘍の退縮が得られた</h2><br/>　Dclk1陽性細胞を標的とすることが有効ながん治療になりうるかどうか，マウスの腸腫瘍を用い実験を行った．さきのDclk1陽性細胞とその子孫細胞においてLacZを発現する遺伝子改変マウスと腸腫瘍モデルマウスである<em>Apc<sup>Min</sup></em>マウスを掛け合わせたマウスと，遺伝子組換え酵素Cre誘導のもとジフテリア毒素受容体を発現する遺伝子組換えマウスとを交配し，Dclk1陽性細胞に対する選択的な障害が正常な腸管および腸腫瘍にあたえる効果を検討した．この遺伝子組換えマウスにおいては，タモキシフェンとジフテリア毒素を投与することにより正常な組織に存在するDclk1陽性細胞はアポトーシスにより消失したが，腸組織の構造は保たれておりほかの臓器にも明らかな障害は認められなかった．これは，正常な腸管においてごく少数の分化細胞にすぎないDclk1陽性細胞が除去されても，正常な組織の幹細胞は障害をうけることなく残存するため，腸管の全体の構造としてほぼ影響はなかったものと考えられた（<a href="#F1">図1a</a>）．一方，腸腫瘍においてDclk1陽性細胞を選択的に障害することにより腫瘍は経時的に縮小していき，ジフテリア毒素を投与して5日後には多くの腫瘍が退縮あるいは消失していた．Dclk1は腫瘍において腫瘍幹細胞に発現しているため，この腫瘍幹細胞が障害をうけることにより腫瘍の子孫細胞の供給源がなくなり腫瘍が崩壊したものと考えられた（<a href="#F1">図1b</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　幹細胞を頂点とする階層性とDclk1陽性細胞を標的とするがん治療</strong><br/>（a）正常な組織．<br/>（b）腫瘍組織．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Seno-Nature-Genetics-12.12.27-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　幹細胞を頂点とする階層性とDclk1陽性細胞を標的とするがん治療" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Seno-Nature-Genetics-12.12.27-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Seno-Nature-Genetics-12.12.27-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　これまで，腫瘍幹細胞に関する多数のすぐれた知見が得られてきたが，この研究のように<em>in vivo</em>の系において腫瘍幹細胞から腫瘍の子孫細胞がつくられることを視覚的に証明した実験はほとんどなかった．また，この研究では，マウスの腸管においてDclk1は正常な組織の幹細胞のマーカーとはならず腫瘍幹細胞の特異的なマーカーとなる，つまり，正常な組織の幹細胞と腫瘍幹細胞とを区別できるマーカーであることが示された．さらに，ヒトの大腸がんにおいてDclk1がマウスの腸腫瘍と類似した発現パターンをもつことも示されており，Dclk1陽性細胞を標的とすることが大腸がんの治療につながる可能性が示唆された．腫瘍幹細胞がどのような理由や機序によりDclk1を発現するようになるのか，ヒトの大腸がん，あるいは，ほかの臓器のがんにおいて，マウスの腸腫瘍と同じ現象が実際に起こっているのかどうかなど，今後，解決すべき問題は数多く残っているが，この研究が，がんの病態生理の解明と，正常な組織に対し障害のない理想的な“腫瘍幹細胞を標的とする治療”の実現に貢献することを期待している．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Barker, N., van Es, J. H., Kuipers, J. et al.</span>: <span class="ti">Identification of stem cells in small intestine and colon by marker gene <em>Lgr5</em>.</span> <span class='so'>Nature, 449, 1003-1007 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17934449" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Sangiorgi, E. & Capecchi, M. R.</span>: <span class="ti"><em>Bmi1</em> is expressed <em>in vivo</em> in intestinal stem cells.</span> <span class='so'>Nat. Genet., 40, 915-920 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18536716" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Zhu, L., Gibson, P., Currle, D. S. et al.</span>: <span class="ti">Prominin 1 marks intestinal stem cells that are susceptible to neoplastic transformation.</span> <span class='so'>Nature, 457, 603-607 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19092805" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Dalerba, P., Dylla, S. J., Park, I. K. et al.</span>: <span class="ti">Phenotypic characterization of human colorectal cancer stem cells.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 104, 10158-10163 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17548814" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>O'Brien, C. A., Pollett, A., Gallinger, S. et al.</span>: <span class="ti">A human colon cancer cell capable of initiating tumour growth in immunodeficient mice.</span> <span class='so'>Nature, 445, 106-110 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17122772" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Giannakis, M., Stappenbeck, T. S., Mills, J. C. et al.</span>: <span class="ti">Molecular properties of adult mouse gastric and intestinal epithelial progenitors in their niches.</span> <span class='so'>J. Biol. Chem., 281, 11292-11300 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16464855" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>May, R., Riehl, T. E., Hunt, C. et al.</span>: <span class="ti">Identification of a novel putative gastrointestinal stem cell and adenoma stem cell marker, doublecortin and CaM kinase-like-1, following radiation injury and in adenomatous polyposis coli/multiple intestinal neoplasia mice.</span> <span class='so'>Stem Cells, 26, 630-637 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18055444" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Gerbe, F., Brulin, B., Makrini, L. et al.</span>: <span class="ti">DCAMKL-1 expression identifies Tuft cells rather than stem cells in the adult mouse intestinal epithelium.</span> <span class='so'>Gastroenterology, 137, 2179-2180 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19879217" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Schepers, A. G., Snippert, H. J., Stange, D. E. et al.</span>: <span class="ti">Lineage tracing reveals Lgr5<sup>+</sup> stem cell activity in mouse intestinal adenomas.</span> <span class='so'>Science, 337, 730-735 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22855427" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Barker, N., Ridgway, R. A., van Es, J. H. et al.</span>: <span class="ti">Crypt stem cells as the cells-of-origin of intestinal cancer.</span> <span class='so'>Nature, 457, 608-611 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19092804" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">中西 祐貴（Yuki Nakanishi）</span><br>略歴：京都大学大学院医学研究科博士課程 在学中．<br>研究テーマ：大腸がん，腸管上皮の幹細胞，炎症性腸疾患．<br>抱負：臨床医として得た経験を活かして，臨床に還元できるような研究を続けていきたい．<br><br><strong>妹尾  浩（Hiroshi Seno）</strong><br>京都大学大学院医学研究科 講師．<br></div><br>© 2012 中西祐貴・妹尾 浩 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

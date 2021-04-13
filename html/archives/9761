@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> RIG-IはB型肝炎ウイルスに対しセンサータンパク質および直接的な抗ウイルスタンパク質としての2つの機能をもつ : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>RIG-IはB型肝炎ウイルスに対しセンサータンパク質および直接的な抗ウイルスタンパク質としての2つの機能をもつ</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>佐藤精一・高岡晃教</strong><br>（北海道大学遺伝子病制御研究所 分子生体防御分野）<br>email：<a href="mailto:takaoka@igm.hokudai.ac.jp">高岡晃教</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.014">10.7875/first.author.2015.014</a><br><div class="reference"><br><span class="ti">The RNA sensor RIG-I dually functions as an innate sensor and direct antiviral factor for hepatitis B virus.</span><br><span class="au">Seiichi Sato, Kai Li, Takeshi Kameyama, Takaya Hayashi, Yuji Ishida, Shuko Murakami, Tsunamasa Watanabe, Sayuki Iijima, Yu Sakurai, Koichi Watashi, Susumu Tsutsumi, Yusuke Sato, Hidetaka Akita, Takaji Wakita, Charles M. Rice, Hideyoshi Harashima, Michinori Kohara, Yasuhito Tanaka, Akinori Takaoka</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25557055" target="_blank"><em>Immunity</em>, <strong>42</strong>, 123-132 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ウイルスを排除するのに重要な宿主の免疫応答のうち，ウイルスの認識は重要な過程である．DNAウイルスであるB型肝炎ウイルスに対する認識機構や，その下流のシグナル伝達経路については，いまだ不明な点が多い．この研究において，筆者らは，B型肝炎ウイルスに感染したヒトの肝細胞において，RIG-IがB型肝炎ウイルスのプレゲノムRNAにあるε構造を認識することにより，I型インターフェロンではなくIII型インターフェロンの発現を優先的に誘導することを見い出した．さらに，RIG-IはB型肝炎ウイルスのポリメラーゼとプレゲノムRNAとの結合を阻害するという，直接的な抗ウイルスタンパク質としての機能をもつことも見い出した．これらの結果にもとづき，ヒトの肝臓を移植したキメラマウスを用いた<em>in vivo</em>のB型肝炎ウイルス感染モデルにおいて，ε構造をもつRNAを肝臓に選択的に輸送させたところ，B型肝炎ウイルスの複製の抑制が認められ，ε構造をもつRNAの治療への応用の可能性が示唆された．今回の研究により，RIG-IはB型肝炎ウイルスに対し，センサータンパク質としてのみならず，直接的な抗ウイルスタンパク質としてもはたらくという2つの機能により，感染防御に機能していることが明らかにされた．<br/><br/><h2>はじめに</h2><br/>　B型肝炎ウイルスは，ヘパドナウイルス科オルソヘパドナウイルス属に属する3.2 kbほどの環状の不完全な2本鎖ゲノムDNAをもつウイルスで，プレゲノムRNAの逆転写反応を介し複製される．ヒトの肝細胞に感染し，慢性的な感染により肝炎ならびに肝硬変および肝臓癌をひき起こす危険性がある<a href="#R1"><sup>1)</sup></a>．世界全体で約4億人が持続感染していると推定され，わが国においては100万人をこえる患者がおり，社会的にも解決すべき重要な疾患である．しかし，その病態は十分には解明されていない．現在，B型肝炎ウイルスに対してはおもにインターフェロンや核酸アナログ製剤が使用されているが，薬剤耐性株の出現などの問題が表面化しており，治療はいまだ難航している．B型肝炎ウイルスの感染の際の宿主における免疫応答の解明は，病態やウイルスの排除を理解するうえで重要な課題である．<br/>　ヒトは侵入した微生物を排除する免疫機構を備えている．ウイルスや細菌への感染が起こった際にその最前線として活性化されるのが自然免疫である．自然免疫応答の活性化は，感染の最前線でパターン認識受容体（pattern recognition receptor：PRR）が病原微生物に由来する病原関連分子パターン（pathogen-associated molecular pattern：PAMP）を認識することにより発動する．ウイルスの感染においては，細胞に侵入したRNAおよびDNAが病原関連分子パターンになり，これらをRIG-I，MDA5，cGAS，IFI16などのセンサータンパク質が認識する<a href="#R2"><sup>2)</sup></a>．なかでも，RIG-Iはインフルエンザウイルス，C型肝炎ウイルス，麻疹ウイルスなどヒトに甚大な被害を及ぼすウイルスの感染においてウイルスに由来するRNAを認識することが報告されており，活性化されたRIG-Iは下流のアダプタータンパク質MAVS（別名IPS-1，Cardif，Visa）を介し，キナーゼTBK1および転写因子IRF-3の活性化，あるいは，転写因子NF-κBの活性化を誘導することにより，抗ウイルス作用をもつサイトカインであるI型インターフェロンあるいはIII型インターフェロンの発現を誘導する<a href="#R3"><sup>3)</sup></a>．I型インターフェロンとIII型インターフェロンに対する受容体は異なるが，それぞれのシグナルの下流においてインターフェロン誘導遺伝子の発現を誘導することにより，同様に抗ウイルス活性が発揮される<a href="#R4"><sup>4)</sup></a>．さらに，このような自然免疫応答の活性化はあとにつづく獲得免疫系を活性化し，ウイルスに対する特異的な生体防御能の発揮においても重要な過程である．このような免疫応答により病原微生物は効果的に排除される．<br/>　C型肝炎ウイルスの感染によっても，RIG-Iを介し自然免疫応答が誘導される．RIG-IはC型肝炎ウイルスのゲノムRNAの3’側非翻訳領域に存在するポリU/UCモチーフを認識してI型インターフェロンの発現を誘導する<a href="#R5"><sup>5)</sup></a>．しかしながら，B型肝炎ウイルスが肝細胞においてどのように認識され，また，III型インターフェロンがどのような役割をもつかについては，いまだ十分には明らかにされていない．この研究では，B型肝炎ウイルスの感染による自然免疫応答の解析をつうじRIG-IがB型肝炎ウイルスの感染における自然免疫系のセンサータンパク質であることを同定し，さらに，RIG-IによるB型肝炎ウイルスの認識機構およびその応用に焦点をあてて解析を進めた．<br/><br/><h2>1．B型肝炎ウイルスの感染によりIII型インターフェロンの発現が誘導される</h2><br/>　B型肝炎ウイルスの感染により活性化される自然免疫系におけるウイルスの認識機構を探るため，肝がん細胞株であるHepG2細胞およびHuh-7細胞にB型肝炎ウイルス1.24倍長ゲノムを導入する系を用いて，インターフェロンの発現を定量RT-PCR法により解析した．以前の報告により，<em>in vivo</em>のB型肝炎ウイルス感染モデルにおいて，C型肝炎ウイルスの感染と比べI型インターフェロンの発現が観察されにくいことが示されていたが<a href="#R6"><sup>6)</sup></a>，これと一致し，I型インターフェロンのmRNAレベルでの発現の上昇は認められなかった．一方で，III型インターフェロンであるインターフェロンλ1（インターロイキン29）のmRNAレベルでの発現の誘導が認められた．HepG2細胞において，ELISA法により弱いながらインターフェロンλ1のタンパク質レベルでの産生が確認され，また，このB型肝炎ウイルスの感染により発現したインターフェロンλ1は，水疱性口内炎ウイルスおよびB型肝炎ウイルスの複製を阻害したことから抗ウイルス活性をもつことが確認された．さらに，初代ヒト肝細胞およびヒト肝細胞を保持したキメラマウスを用いたB型肝炎ウイルス感染系でも同様に，I型インターフェロンのmRNAレベルでの発現の上昇は認められなかったが，インターフェロンλ1の発現の上昇が認められた．また，インターフェロン誘導遺伝子の産物であるCXCL10，OAS2，RSAD2の発現の誘導がみられた．以上の結果より，B型肝炎ウイルスの感染により，肝細胞においてI型インターフェロンではなくIII型インターフェロンの発現が優先的に誘導されることが示された．<br/><br/><h2>2．B型肝炎ウイルスの感染によるIII型インターフェロンの発現の誘導はRIG-Iを介する</h2><br/>　B型肝炎ウイルスの感染に関与する自然免疫系におけるセンサータンパク質を同定するために，RIG-I，IFI16，cGASといった既知のセンサータンパク質がB型肝炎ウイルスの感染によるインターフェロンλ1の発現の誘導に関与するかどうか調べた．HepG2細胞およびHuh-7細胞に各種のsiRNAを導入し，そののち，B型肝炎ウイルス1.24倍長ゲノムを導入して，インターフェロンλ1の発現について解析した．その結果，RIG-Iをノックダウンした場合のみインターフェロンλ1の発現の誘導は有意に阻害されたが，IFI16あるいはcGASのノックダウンにより発現は阻害されなかった．また，RIG-Iの遺伝子に変異をもちRIG-Iからのシグナルが発生しないHuh-7.5細胞においては，インターフェロンλ1の発現は誘導されなかった．さらに，初代ヒト肝細胞を使用したB型肝炎ウイルス感染系においても，RIG-Iに依存してインターフェロンλ1のmRNAレベルでの発現が誘導されていることがわかった．RIG-Iの下流のシグナルタンパク質であるTRIM25，MAVS，TBK1，IRF-3が関与していることも明らかにされた．以上の結果より，B型肝炎ウイルスの感染によるインターフェロンλ1の発現の誘導はRIG-Iを介することが示された．<br/><br/><h2>3．B型肝炎ウイルスのプレゲノムRNAにあるε構造がRIG-Iのリガンドである</h2><br/>　RIG-IはRNAおよびDNAの認識との関連性が報告されている<a href="#R7"><sup>7-9)</sup></a>．B型肝炎ウイルスに由来するRNAを標的とするsiRNAを導入することにより，B型肝炎ウイルスのゲノムの導入によりひき起こされるインターフェロンλ1の発現の誘導が低下したことから，B型肝炎ウイルスに由来するRNAがRIG-Iの活性化に関与していることが考えられた．そこで，B型肝炎ウイルスに由来する4種類のRNAをそれぞれHEK293T細胞に過剰に発現させたところ，もっとも長いRNAであるプレゲノムRNAを発現させたときのみインターフェロンλ1の発現の誘導が観察された．さらに，プレゲノムRNAの変異体を用いて解析したところ，5’末端側に存在するε構造がインターフェロンλ1の発現の誘導に重要であることが示された．ε構造を含む領域を<em>in vitro</em>にて転写したRNAを細胞に導入する系においても，これを支持する結果が得られた．さらに，RNA免疫沈降法および蛍光共鳴エネルギー移動（fluorescence resonance energy transfer，FRET）法により，RIG-IがプレゲノムRNAおよびそのε構造と結合することが示された．以上の結果より，B型肝炎ウイルスのプレゲノムRNAにあるε構造がRIG-Iのリガンドであることが示された．<br/><br/><h2>4．RIG-IはB型肝炎ウイルスのポリメラーゼとε構造との結合を阻害する</h2><br/>　siRNAによりRIG-Iをノックダウンした初代ヒト肝細胞にB型肝炎ウイルスを感染させたところ，B型肝炎ウイルスの量が増加したことから，RIG-IはB型肝炎ウイルスの感染において抗ウイルス活性を上昇させることが示された．一方で，B型肝炎ウイルスのプレゲノムRNAにあるε構造は，ウイルスの複製において重要な逆転写反応を導くポリメラーゼ（Pタンパク質）の結合部位であることが明らかにされていた<a href="#R10"><sup>10)</sup></a>．そこで，RIG-Iはポリメラーゼとε構造との結合を阻害するのではないかと仮説をたてた．実際に，<em>in vitro</em>の系において，RIG-Iの量に依存してポリメラーゼとプレゲノムRNAとの相互作用が阻害された．さらに，RIG-IのRNA結合ドメインをHuh-7.5細胞に発現させるとB型肝炎ウイルスの複製は抑制されたが，RNAとの結合能のないRIG-I変異体はその能力を失ったことから，B型肝炎ウイルスの感染において，RIG-IはポリメラーゼとプレゲノムRNAのε構造との結合を直接的に阻害する抗ウイルスタンパク質であることが明らかにされた．<br/>　以上の結果にもとづき，ε構造をもつRNAの治療への応用の可能性について検討した．<em>in vitro</em>において，ε構造をもつRNAはポリメラーゼとプレゲノムRNAとの相互作用を阻害し，B型肝炎ウイルスの複製を特異的に阻害した．また，多機能性エンベロープ型ナノ構造体（Multifunctional envelop-type nanodevice，MEND）というリポソームにε構造をもつRNAの発現ベクターを内封し，ヒトの肝細胞を移植したキメラマウスにおいて肝臓に選択的に輸送させ，<em>in vivo</em>のB型肝炎ウイルス感染系を用いてその効果を解析した．その結果，ε構造をもつRNAの発現ベクターを投与したマウスにおいて，対照と比べ，血清におけるB型肝炎ウイルスのゲノムの量の減少，および，肝臓におけるB型肝炎ウイルスのコアタンパク質の発現の低下が認められた．<br/><br/><h2>おわりに</h2><br/>　今回の研究により，RIG-IはB型肝炎ウイルスの感染においてIII型インターフェロンの発現を誘導するセンサータンパク質であることが示された．また，RIG-IはB型肝炎ウイルスのポリメラーゼとプレゲノムRNAのε構造との結合を阻害することによりウイルスの複製を阻害する直接的な抗ウイルスタンパク質であることが示された．これらの結果は，RIG-IはB型肝炎ウイルスに対するセンサータンパク質として自然免疫応答を活性化するのみならず，直接的な作用により抗ウイルスタンパク質としても機能し，この両面からの作用を介してB型肝炎ウイルスに対する自然免疫による感染防御にはたらくことが明らかにされた（<a href="#F1">図1</a>）．さらに，RIG-IによるB型肝炎ウイルスの複製の阻害のしくみにもとづいた新たな視点からε構造をもつRNAを作製し，ヒトの肝臓を移植したキメラマウスを用いたB型肝炎ウイルス感染系において，ε構造をもつRNAによりウイルスの量が抑制されることが示された．この研究は，B型肝炎ウイルスの感染におけるセンサータンパク質の同定やその認識機構の一端を明らかにしたのみならず，デコイ核酸によるウイルスの抑制の可能性を示唆する結果も得られたことから，今後は，B型肝炎ウイルスの治療において新たな視点からの創薬や予防の展開が期待される．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　B型肝炎ウイルスに対するRIG-Iの2つの機能</strong><br/>1）B型肝炎ウイルスのセンサータンパク質として，ウイルスの複製の過程においてB型肝炎ウイルスのDNAから転写されるプレゲノムRNAを認識し，III型インターフェロンの発現の誘導をつうじ抗ウイルス作用を発揮する．2）B型肝炎ウイルスに対する直接的な抗ウイルスタンパク質として，ウイルスの複製にかかわるB型肝炎ウイルスのポリメラーゼとプレゲノムRNAとの結合を直接的に阻害する．この2つの機能により，RIG-IはB型肝炎ウイルスに対する自然免疫による感染防御においてはたらく．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takaoka-Immunity-15.1.20-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　B型肝炎ウイルスに対するRIG-Iの2つの機能" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takaoka-Immunity-15.1.20-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takaoka-Immunity-15.1.20-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Rehermann, B. & Nascimbeni, M.</span>: <span class="ti">Immunology of hepatitis B virus and hepatitis C virus infection.</span> <span class='so'>Nat. Rev. Immunol., 5, 215-229 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15738952" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Wu, J. & Chen, Z. J.</span>: <span class="ti">Innate immune sensing and signaling of cytosolic nucleic acids.</span> <span class='so'>Annu. Rev. Immunol., 32, 461-488 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24655297" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Takeuchi, O. & Akira, S.</span>: <span class="ti">Innate immunity to virus infection.</span> <span class='so'>Immunol. Rev., 227, 75-86 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19120477" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Kotenko, S. V.</span>: <span class="ti">IFN-λs.</span> <span class='so'>Curr. Opin. Immunol., 23, 583-590 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21840693" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Saito, T., Owen, D. M., Jiang, F. et al.</span>: <span class="ti">Innate immunity induced by composition-dependent RIG-I recognition of hepatitis C virus RNA.</span> <span class='so'>Nature, 454, 523-527 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18548002" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Wieland, S., Thimme, R., Purcell, R. H. et al.</span>: <span class="ti">Genomic analysis of the host response to hepatitis B virus infection.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 101, 6669-6674 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15100412" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Ablasser, A., Bauernfeind, F., Hartmann, G. et al.</span>: <span class="ti">RIG-I-dependent sensing of poly(dA:dT) through the induction of an RNA polymerase III-transcribed RNA intermediate.</span> <span class='so'>Nat. Immunol., 10, 1065-1072 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19609254" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Chiu, Y. H., Macmillan, J. B. & Chen, Z. J.</span>: <span class="ti">RNA polymerase III detects cytosolic DNA and induces type I interferons through the RIG-I pathway.</span> <span class='so'>Cell, 138, 576-591 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19631370" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Choi, M. K., Wang, Z., Ban, T. et al.</span>: <span class="ti">A selective contribution of the RIG-I-like receptor pathway to type I interferon responses activated by cytosolic DNA.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 106, 17870-17875 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19805092" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Junker-Niepmann, M., Bartenschlager, R. & Schaller, H.</span>: <span class="ti">A short cis-acting sequence is required for hepatitis B virus pregenome encapsidation and sufficient for packaging of foreign RNA.</span> <span class='so'>EMBO J., 9, 3389-3396 (1990)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2209549" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">佐藤 精一（Seiichi Sato）</span><br>略歴：2007年 東京薬科大学大学院生命科学研究科博士課程 修了，同年 東京薬科大学生命科学部 助手，2008年 米国Tufts大学School of Medicine博士研究員を経て，2012年より北海道大学遺伝子病制御研究所 助教．<br>研究テーマ：がんおよび免疫における自然免疫応答の機構．<br><br><strong>高岡 晃教（Akinori Takaoka）</strong><br>北海道大学遺伝子病制御研究所 教授．<br>研究室URL：<a href="http://www.igm.hokudai.ac.jp/sci/" target="_blank">http://www.igm.hokudai.ac.jp/sci/</a><br></div><br>© 2015 佐藤精一・高岡晃教 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> sorLAによるアミロイドβペプチドの認識 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>sorLAによるアミロイドβペプチドの認識</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>北郷 悠・高木淳一</strong><br>（大阪大学蛋白質研究所 附属蛋白質解析先端研究センター分子創製学研究室）<br>email：<a href="mailto:takagi@protein.osaka-u.ac.jp">高木淳一</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.027">10.7875/first.author.2015.027</a><br><div class="reference"><br><span class="ti">Structural basis for amyloidogenic peptide recognition by sorLA.</span><br><span class="au">Yu Kitago, Masamichi Nagae, Zenzaburo Nakata, Maho Yagi-Utsumi, Shizuka Takagi-Niidome, Emiko Mihara, Terukazu Nogi, Koichi Kato, Junichi Takagi</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25643321" target="_blank"><em>Nature Structural & Molecular Biology</em>, <strong>22</strong>, 199-206 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　sorLAはニューロンに豊富に発現している受容体であり，アルツハイマー病の発症リスクに関与すると考えられている．以前に，筆者らは，sorLAがアルツハイマー病の原因物質であるとされるアミロイドβペプチドを細胞において直接に捕捉し，そのままリソソームに輸送することによりその分解を促進していることを報告した．今回，sorLAのVps10pドメインについて，リガンドとなるペプチドとの結合活性を詳細に解析するとともに，アポ体およびアミロイドβペプチドを含む2種のリガンドとなるペプチドとの複合体の結晶構造を決定することに成功した．sorLAのVps10pドメインは中央に貫通したトンネルをもつβプロペラ構造をとっており，リガンドとなるペプチドはトンネルの内部の特定の部位にβシートの拡張により単量体の状態で結合していた．この結合の様式は特定のアミノ酸配列には強く依存しないゆるやかなものであり，sorLAが凝集を起こしやすい性質をもつさまざまなペプチドを幅広く認識して分解系へと輸送する役割をもつことが示唆された．<br/><br/><h2>はじめに</h2><br/>　sorLA（LR11，あるいは，SORL1ともよばれる）はニューロンに高発現している1回膜貫通型の低密度リポタンパク質受容体ファミリーに属するタンパク質であり，多数のドメインから構成される2000残基をこえる巨大な細胞外領域をもつ．sorLAは，アルツハイマー病の患者の脳において発現量が減少していること<a href="#R1"><sup>1)</sup></a>，および，sorLAノックアウトマウスの脳においてアルツハイマー病の有力な原因物質とされるアミロイドβペプチド（アミロイドβタンパク質）の量が増加しておりこのマウスがアルツハイマー病様の症状を示したことから<a href="#R2"><sup>2,3)</sup></a>，アルツハイマー病に対し保護的にはたらいているとして大きな注目をあつめた．2014年，筆者らは，sorLAが産生されたアミロイドβペプチドと直接に結合し，それをそのままリソソームへと輸送することによりその分解を促進していることを発見した<a href="#R4"><sup>4)</sup></a>．この際，sorLAのN末端に位置するVps10pドメインがアミロイドβペプチドの直接の認識を担っていることをつきとめたが，そのくわしい分子機構は不明であった．<br/>　Vps10pドメインは単一のドメインで700残基という非常に大きな構造単位である．哺乳類ではVps10pドメインを含むタンパク質として5種類が知られており，そのひとつであるsortilinの構造解析からVps10pドメインは羽状のβシート10枚から構成されるβプロペラ構造をとることがわかっていた<a href="#R5"><sup>5)</sup></a>．しかしながら，なぜsorLAのVps10pドメインだけがアミロイドβペプチドを特異的に認識し，さらに，これをリソソームへと輸送するのかは不明であったため，結晶構造解析を中心とした構造生物学的な手法によりヒトに由来するsorLAのVps10pドメインの構造-機能相関を明らかにすることを試みた．<br/><br/><h2>1．sorLAのVps10pドメインによるリガンドとなるペプチドの認識</h2><br/>　これまでに，sorLAは複数のペプチドと結合することが報告されていた<a href="#R6"><sup>6-8)</sup></a>．そこで，低密度リポタンパク質受容体ファミリーのうち唯一sorLAのみがもつVps10pドメインに着目し，sorLAのVps10pドメインに対するさまざまなペプチドの結合活性を，目的のペプチドと融合したアルカリホスファターゼを用いて高感度に定量する方法により網羅的に調べた．sorLAのVps10pドメインにはそのN末端側に存在し成熟の過程において切り離されるプロペプチドが結合することが報告されていたが<a href="#R6"><sup>6)</sup></a>，53残基からなるプロペプチドのなかほどの6残基がこの結合において重要であることがわかった．また，Aβ40とよばれる主要なアミロイドβペプチドのうち，N末端側の22残基がやはりsorLAのVps10pドメインに認識されることが見い出された．ただし，それよりも結合領域をせばめることはできず，1残基置換を施した変異ペプチドとの結合実験からは，Aβ40にはただひとつの明確な認識配列が存在するわけではないことが予想された．<sup>15</sup>Nにより標識したAβ40を用いたNMR実験によりsorLAのVps10pドメインとAβ40との結合を観察したところ，確かに両者のあいだには特異的な相互作用が観測されたものの，結合に関与する残基はAβ40の3箇所にクラスターとして分布し，しかも個々の相互作用は一過性（短寿命）であることが示唆された．<br/>　蛍光標識したペプチドと精製タンパク質を使用した蛍光偏光法により定常状態における結合を定量的に評価したところ，sorLAとAβ40とのあいだの結合は約200 nMの<em>K</em><sub>D</sub>値の親和性をもち，Aβ40は約440 nMの<em>K</em><sub>D</sub>値のプロペプチドより高い親和性で認識されることがわかった．また，系のpHを変えた結果から，sorLAのVps10pドメインはpH 5.0付近を境界として，それより中性側ではペプチドとの結合活性を示すが，それより酸性側ではタンパク質自体は安定に存在するにもかかわらず結合活性を示さないことが明らかにされた．<br/><br/><h2>2．sorLAのVps10pドメインの結晶構造</h2><br/>　ここまでの実験結果から，sorLAのVps10pドメインは約15残基という比較的短いペプチドを認識することができるが，その認識はペプチドのアミノ酸配列には必ずしも強く依存しないという，ほかのペプチド結合タンパク質ではあまり例をみない結合の様式をもつことがわかった．その結合機構を詳細に理解するため，sorLAのVps10pドメインの結晶構造解析を行った．リガンドとなるペプチドの結合していない状態（アポ体）では，結晶化の条件の広範囲にわたるスクリーニングのなかでも，pH 5.0を下まわる酸性条件でのみ結晶が得られた．pH 4.5において得られた結晶の分解能2.35Åの構造解析の結果から，sorLAのVps10pドメインはsortilinと同様のβプロペラ構造をとり，プロペラ構造の中央には直径約25Åの貫通したトンネル構造があった（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=3wsx&amp;PAGEID=Summary" target="_blank">3WSX</a>）．ただし，プロペラ構造の上部のいくつかのループは結晶において構造をとっていなかった．プロペラ構造のC末端側の10CCとよばれる約100残基の領域は，プロペラ構造の下部に部分的にまきつくように位置していた．<br/>　また，結合活性のある15残基のプロペプチドの断片を過剰に添加した条件においてsorLAのVps10pドメインの結晶化に成功した．アポ体とは異なり，pH 6.0をこえる中性付近でのみ結晶が得られ，最終的にpH 6.5の条件で得られた結晶から分解能3.1Åの回折データを取得した．結晶構造解析の結果，ドメイン全体の構成に変化はなかったものの，pH 4.5の条件で結晶が得られたアポ体では構造をとっていなかったプロペラ構造の上部のループが構造をとるようになっていた（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=3wsy&amp;PAGEID=Summary" target="_blank">3WSY</a>，<a href="#F1">図1a</a>）．プロペラ構造のトンネルの内部の1番目の羽に相当するβシート（ブレード1）の縁には結合したプロペプチドの断片と考えられる電子密度を確認することができ，15残基のプロペプチドの断片のうち11残基のモデルを構築することができた．この結合の様式を詳細に観察すると，プロペプチドはブレード1のβシートをプロペラ構造の内側に拡張する様式で結合していた．さらに，アミロイドβペプチドとsorLAのVps10pドメインとの複合体の結晶の調製を試み，さまざまなアミロイドβペプチドの断片との共結晶化を行った結果，pH 7.8の条件において10残基のアミロイドβペプチドの断片との共結晶化に成功し，分解能3.2Åの結晶構造を得た（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=3wsz&amp;PAGEID=Summary" target="_blank">3WSZ</a>）．βプロペラ構造の中央のトンネルには，プロペプチドとの複合体と同様に，ブレード1を拡張する様式で長く伸びた電子密度が確認でき，これがsorLAのVps10pドメインに結合したアミロイドβペプチドの断片であると考えられた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　sorLAのVps10pドメインの結晶構造</strong><br/>（a）sorLAのVps10pドメインとプロペプチドとの複合体の分子モデル．リガンドとなるペプチドはβプロペラ構造の中心にあるトンネルの内側に結合する．βプロペラ構造の模式図では，羽状のβシートを方形で示した．<br/>（b）アポ体（酸性条件）とペプチドとの複合体（中性条件）の比較．酸性条件ではL1ループは伸びた構造をとりL2ループは構造をとらないが，中性条件ではL1ループとL2ループは互いに接した短いヘリックス構造をとる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takagi-Nature-Structural-Molecular-Biology-15.3.4-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　sorLAのVps10pドメインの結晶構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takagi-Nature-Structural-Molecular-Biology-15.3.4-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takagi-Nature-Structural-Molecular-Biology-15.3.4-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　結合したペプチドは，ブレード1および背面のVps10pドメインの表面にくわえ，L2ループとよばれるトンネルの上部に位置するループと接しており，これによりVps10pドメインの表面に押し付けられるような構造をとっていた．興味深いことに，L2ループ，あるいは，L2ループと接して同じくトンネルの上部に位置しているL1ループを欠失させた変異体ではペプチドとの結合活性がほぼ消失した．また，トンネルの内部のペプチド結合部位の表面に位置するLeu587をArgに置換した変異体でもペプチドとの結合活性が完全に消失することが確かめられた．<br/>　ペプチド結合部位の構造を詳細にみると，sorLAのVps10pドメインはブレード1の内縁部においてリガンドとなるペプチドを特異的に認識していたが，その相互作用はおもに主鎖のあいだの水素結合であり，リガンドとなるペプチドの側鎖はとくに積極的な寄与をしていないことがわかった．つまり，sorLAのVps10pドメインは特定のアミノ酸配列に強く依存せずに複数の種類のペプチドを認識することが可能であることを示唆しており，ペプチド結合アッセイの結果とよく一致した．<br/><br/><h2>3．sorLAのVps10pドメインの構造の変化</h2><br/>　sorLAのVps10pドメインのペプチドとの結合活性はpHに依存していたことから，pHに関連したVps10pドメインの構造の変化がそれ自体の生理活性に重要であると考えられた．pH 4.5でのアポ体の構造とpH 6.5およびpH 7.8でのペプチドとの複合体の構造を比べると，L1ループおよびL2ループの再構成という大きな構造変化が起こっていた（<a href="#F1">図1b</a>）．中性条件でのsorLAのVps10pドメインとペプチドとの複合体の構造を用い計算時間10 nsにて分子動力学法によるシミュレーションを行ったところ，トンネルの上部の入り口付近に位置するL1ループとL2ループ，および，その対面に位置する1B-1Cループに関しては，結晶学的な温度因子が高いにもかかわらず運動性は比較的少ないという結果が得られた．とくに，L1ループとL2ループは10 nsの計算時間をつうじて協調したような動きをみせており，L1ループ，L2ループ，リガンドとなるペプチドという運動性の高い3者がささえあうようにして互いの構造を安定化させているのではないかと考えられた．<br/><br/><h2>4．家族性アルツハイマー病にみられるsorLAのVps10pドメインにおけるGly511のArgへの置換の効果</h2><br/>　筆者らは，一部の家族性アルツハイマー病において報告されているsorLAのVps10pドメインにおけるGly511のArgへの置換が<a href="#R9"><sup>9)</sup></a>，産生されたアミロイドβペプチドのsorLAによる捕捉と分解という機能を不能にしてしまうことを細胞を用いて証明している<a href="#R5"><sup>5)</sup></a>．そこで，sorLAのVps10pドメインにおいてGly511をArgに置換した変異タンパク質を調製し，蛍光偏光法によりそのペプチドとの結合活性を定量的に評価することで，この変異がsorLAのVps10pドメインにあたえる影響について調べた．その結果，この変異Vps10pドメインはプロペプチドおよびアミロイドβペプチドの両方に対し完全に結合活性を消失していた．Argのほか，Glu，Phe，Lys，Leu，Glnといった比較的大きな側鎖をもつ残基への置換でも同様の機能阻害がみられた．これらの変異タンパク質は正常に発現し分泌されたことから，Gly511はsorLAのVps10pドメインの全体の構造や安定性に影響するのではなく，ペプチドとの結合活性に対しなにか特定の効果をあたえていると考えられた．Gly511はペプチド結合部位から約30Å離れたL2ループの終端に位置する短いβシートに存在する（<a href="#F1">図1b</a>）．このβシートが分子動力学法によるシミュレーションにおいて非常に運動性の少ない箇所であったことから推測すると，Gly511をかさ高い側鎖をもつ残基へと置換させることによりL2ループの構造もしくは安定性が大きな影響をうけ，結果として，アミロイドβペプチドとの結合活性を消失するのではないかと考えられた．<br/><br/><h2>おわりに</h2><br/>　筆者らは，ペプチド結合アッセイおよびNMR法により，sorLAのVps10pドメインによるペプチドの認識は対象のアミノ酸配列に対する依存性がそれほど高くないゆるやかなものであることを示した．そして，結晶構造解析により，このペプチドの認識モードが“βシート拡張”という通常の分子認識における“鍵と鍵穴”式の厳密な認識機構とは異なるものであることを明らかにした．生体において形成されるアミロイド線維の多くは，いわゆるクロスβ構造をとる単線維の束状の凝集体であると考えられているが，βシート拡張はまさにこのクロスβ構造の構築原理である．今回の結果は，アミロイドβペプチドがアミロイド線維を形成するのと同じ原理を利用して，せまいトンネルの内側に単量体のアミロイドβペプチドを取り込むというsorLAの巧妙な戦略を示唆した．このことはまた，sorLAが産生されたアミロイドβペプチドをつねに分解系へと輸送することによりその蓄積をふせぎアルツハイマー病の発症を遅らせているという仮説と非常によく一致した．また，ペプチドとの結合活性のpH依存性もこの仮説と符合した．すなわち，sorLAはアミロイドβペプチドが産生される中性のエンドソームの環境ではアミロイドβペプチドを捕捉し，酸性（pH 5.5以下）のリソソームの環境になるとアミロイドβペプチドを放出すると考えることができた（<a href="#F2">図2</a>）．さらに，一部の家族性アルツハイマー病にみられるsorLAのVps10pドメインにおけるGly511のArgへの置換がアミロイドβペプチドとの結合活性を消失させるという結果は，sorLAにおけるVps10pドメインの機能とアルツハイマー病の発症リスクとの直接的な因果関係を証明したことになりたいへん意義深い．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　sorLAの細胞において想定される機能</strong><br/>中性条件にあるエンドソームでは産生されたアミロイドβペプチドを補捉しそのままリソソームへと輸送する．リソソームは酸性条件にあるため，補捉されたアミロイドβペプチドは解離し最終的に分解される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takagi-Nature-Structural-Molecular-Biology-15.3.4-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　sorLAの細胞において想定される機能" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takagi-Nature-Structural-Molecular-Biology-15.3.4-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takagi-Nature-Structural-Molecular-Biology-15.3.4-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　これまで，アルツハイマー病の予防のためにはアミロイドβペプチドの産生の抑制（セクレターゼの阻害）や集積したアミロイドβペプチドの分解（分解酵素の活性化）などのアプローチが想定されてきたが，いまのところ有効な方法は知られていない．筆者らの結果は，アルツハイマー病の予防の標的としてこれまでに知られていなかったsorLAによる産生されたアミロイドβペプチドの分解という新しい経路を提示したことになる．今後，sorLAの発現や機能そのものを亢進するような方法の開発を期待したい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Scherzer, C. R., Offe, K., Gearing, M. et al.</span>: <span class="ti">Loss of apolipoprotein E receptor LR11 in Alzheimer disease.</span> <span class='so'>Arch. Neurol., 61, 1200-1205 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15313836" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Andersen, O. M., Reiche, J., Schmidt, V. et al.</span>: <span class="ti">Neuronal sorting protein-related receptor sorLA/LR11 regulates processing of the amyloid precursor protein.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 102, 13461-13466 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16174740" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Dodson, S. E., Andersen, O. M., Karmali, V. et al.</span>: <span class="ti">Loss of LR11/SORLA enhances early pathology in a mouse model of amyloidosis: evidence for a proximal role in Alzheimer’s disease.</span> <span class='so'>J. Neurosci., 28, 12877-12886 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19036982" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Caglayan, S., Takagi-Niidome, S., Liao, F. et al.</span>: <span class="ti">Lysosomal sorting of amyloid-β by the SORLA receptor is impaired by a familial Alzheimer’s disease mutation.</span> <span class='so'>Sci. Transl. Med., 6, 223ra20 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24523320" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Quistgaard, E. M., Madsen, P., Groftehauge, M. K. et al.</span>: <span class="ti">Ligands bind to Sortilin in the tunnel of a ten-bladed β-propeller domain.</span> <span class='so'>Nat. Struct. Mol. Biol., 16, 96-98 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19122660" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Jacobsen, L., Madsen, P., Jacobsen, C. et al.</span>: <span class="ti">Activation and functional characterization of the mosaic receptor SorLA/LR11.</span> <span class='so'>J. Biol. Chem., 276, 22788-22796 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11294867" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Lintzel, J., Franke, I., Riedel, I. B. et al.</span>: <span class="ti">Characterization of the VPS10 domain of SorLA/LR11 as binding site for the neuropeptide HA.</span> <span class='so'>Biol. Chem., 383, 1727-1733 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12530537" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Westergaard, U. B., Sorensen, E. S., Hermey, G. et al.</span>: <span class="ti">Functional organization of the sortilin Vps10p domain.</span> <span class='so'>J. Biol. Chem., 279, 50221-50229 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15364913" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Pottier, C., Hannequin, D., Coutant, S. et al.</span>: <span class="ti">High frequency of potentially pathogenic SOR1 mutations in autosomal dominant early-onset Alzheimer disease.</span> <span class='so'>Mol. Psychiatry, 17, 875-879 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22472873" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">北郷  悠（Yu Kitago）</span><br>略歴：2008年 北海道大学大学院理学研究科 修了，同年 北海道大学大学院先端生命科学研究院 博士研究員，2010年 東京大学大学院農学生命科学研究科 特任研究員，2011年 大阪大学蛋白質研究所 特任研究員を経て，2012年より同 助教．<br>研究テーマ：X線結晶構造解析，細胞外タンパク質の構造生物学的な研究．<br>関心事：料理，ギター．<br><br><strong>高木 淳一（Junichi Takagi）</strong><br>大阪大学蛋白質研究所 教授．<br>研究室URL：<a href="http://www.protein.osaka-u.ac.jp/rcsfp/synthesis/" target="_blank">http://www.protein.osaka-u.ac.jp/rcsfp/synthesis/</a><br></div><br>© 2015 北郷 悠・高木淳一 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

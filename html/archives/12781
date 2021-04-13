@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 小鳥の歌のタイミングを生成する大域的なチェーン状の神経回路 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>小鳥の歌のタイミングを生成する大域的なチェーン状の神経回路</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>濱口航介・Richard Mooney</strong><br>（米国Duke大学School of Medicine，Department of Neurobiology）<br>email：<a href="mailto:hamaguchi@phy.med.kyoto-u.ac.jp">濱口航介</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.078">10.7875/first.author.2016.078</a><br><div class="reference"><br><span class="ti">A distributed recurrent network contributes to temporally precise vocalizations.</span><br><span class="au">Kosuke Hamaguchi, Masashi Tanaka, Richard Mooney</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27397518" target="_blank"><em>Neuron</em>, <strong>91</strong>, 680-693 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　われわれが会話するとき，喉や口の筋肉は呼吸とともにさまざまなタイミングで制御される．この複雑な運動は大脳皮質および脳幹の神経活動に依存し，ヒトであれば大脳皮質の運動性の言語野および呼吸や舌の筋肉を直接に制御する脳幹が必要である．しかし，大脳皮質と脳幹とがどのように相互作用して発声を制御するかについてはほとんど明らかにされていない．小鳥は複雑な歌を歌い，歌に必要な神経核が大脳皮質から脳幹にわたり同定されているため，大脳皮質と脳幹との相互作用を理解するうえで有用である．従来の仮説において，歌のタイミングは小鳥の運動前野であるHVCに存在するチェーン状の神経回路において生成されると考えられてきた．この研究においては，HVCの温度の操作および神経回路のシミュレーション，さらに，歌っている小鳥からの細胞内膜電位記録の技術を用い，歌のタイミングはHVCを含む大域的なチェーン状の神経回路により生成されることが明らかにされた．<br/><br/><h2>はじめに</h2><br/>　われわれが会話するときに生じる音は，音声の記憶にかかわる大脳と種々の筋肉を制御する脳幹との相互作用により生成される．このとき，おのおのの音素が正しいタイミングで生成されなければ音声によるコミュニケーションは成り立たない．このような複雑な運動を順序よく正しいタイミングで生成するしくみはどのようなものなのだろうか？　筆者らは，スズメ亜目の小鳥を用いてこの問題に取り組んでいる．小鳥は幼いころに聴いた歌を記憶し何千回と練習することにより歌をさえずるようになる．小鳥の脳において歌を歌うために発達した領域が同定されており，複雑な運動学習および運動生成のよいモデルである．小鳥の運動前野であるHVCには歌のなかでいちどだけ発火するニューロンが集合しており<a href="#R1"><sup>1)</sup></a>，これらを発火の順番にならべれば神経活動がつぎつぎと伝播するよう図示される．このように順序よく神経活動をひき起こすモデルに，ニューロンが直列に結合したチェーン状の神経回路がある<a href="#R2"><sup>2)</sup></a>．HVCにはこのチェーン状の神経回路が存在し，波のように伝播する神経活動が歌のタイミングを生成すると提案されていた<a href="#R3"><sup>3)</sup></a>．しかし，歌は呼吸の状態にも大きく依存する．呼吸をつかさどる脳幹を含め，HVCのほか歌に必要な神経核は全体としてループを形成する（<a href="#F1">図1</a>）．したがって，チェーン状の神経回路がHVCだけに存在するのか，それとも，呼吸にかかわる脳幹を含む大域的な神経回路が存在するのかは明らかでなかった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　小鳥において歌に関連する領域</strong><br/>運動前野であるHVCは，運動野であるRAへと投射する．RAは呼吸や喉の筋肉を制御する脳幹へ，脳幹からは視床において歌に関連する領域であるUvaへと投射し，Uvaからの投射はHVCにもどる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hamaguchi-Neuron-16.8.3-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　小鳥において歌に関連する領域" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hamaguchi-Neuron-16.8.3-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hamaguchi-Neuron-16.8.3-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．歌の速度の温度依存性とニューロンのもつ温度依存性とは一致しない</h2><br/>　歌のタイミングが生成される機構を理解するうえで温度依存性は重要な指標である．歌っている小鳥のHVCを冷却すると歌の速度は遅くなることから<a href="#R4"><sup>4)</sup></a>，HVCには歌のタイミングを制御する神経回路が存在すると提案されていた．実際に，HVCを10℃ほど冷却すると歌の速度が20～30％ほど遅くなることが確認された．しかし，この歌の速度の温度依存性は，ニューロンのもつ温度依存性から想定される効果とは大きく異なっていた．イオンチャネルの時定数や神経回路のリズムの温度感受性は，イカから哺乳類までQ<sub>10</sub>値が2～3という普遍的な値をとる．これは，10℃の冷却により速度定数が2～3倍ほど遅くなるという意味である．これと比較すると，HVCを冷却したときの歌の速度の温度感受性Q<sub>10</sub>値は，実測および過去の実験において約1.25であった．もし，HVCにチェーン状の神経回路が存在し局所的に歌のタイミングが生成されているなら，歌の速度はHVCを10℃ほど冷却したときには2倍ほど遅くなるはずである．<br/>　そこで，HVCが歌のタイミングの制御にかかわる神経回路の一部であるなら，この予想より小さい温度感受性を説明できると考えた．恒温動物の脳を一様に温度変化させることはむずかしく，もし，大脳皮質と脳幹とが協同して歌のタイミングを制御しているなら，HVCを冷却する実験は歌のタイミングにかかわる神経回路のごく一部しか冷却していないことになる．これなら，歌の速度の低下が予想より小さかった理由が説明される．そこで，HVCの内部のニューロンの相互作用の時定数，シナプス入力の潜時，電気刺激から活動電位までの時間，Ca<sup>2+</sup>チャネルの時定数を<em>in vivo</em>および<em>in vitro</em>において電気生理的な手法により温度を変えながら測定したところ，その温度感受性Q<sub>10</sub>値はすべて2前後になった．このことから，HVCのニューロンはほかと同様に普遍的な値の温度感受性をもつことが示された．<br/><br/><h2>2．歌の速度の温度依存性は大域的なチェーン状の神経回路を伝播する神経活動の温度依存性と一致する</h2><br/>　HVCを冷却するとHVCを通過する神経活動は2倍ほど遅くなるものの，HVCから脳幹および視床を経てHVCにもどる神経回路は冷却されていないため，歌の速度の温度感受性は実効的に小さくなるという仮説をたてた．この仮説を確かめるため，HVCから脳幹および視床を経てHVCにもどる神経回路の伝播の時間を測定したところ，HVCの10℃の冷却により約25％の遅延が生じた．これは歌の速度の温度感受性とよく一致した．<br/><br/><h2>3．視床にある歌に関連する神経核を冷却すると歌の速度は遅くなる</h2><br/>　歌のタイミングが大域的なチェーン状の神経回路から生成されるなら，HVC以外の歌に関連する領域を冷却しても歌の速度は遅くなるはずである．このことを確かめるため，脳の深部を冷却するデバイスを開発した．脳幹からの情報をHVCに伝達する視床の神経核であるUvaは歌に必須である．このUvaを冷却したところ，やはり歌の速度は遅くなった．これは，歌のタイミングが大域的な神経回路から生成されることをさらに支持した．ただし，Uvaの冷却の効果はHVCの半分程度であり，これは，HVCの内部に短いチェーン状の神経回路の存在する可能性を残すものであった．<br/><br/><h2>4．局所チェーンモデルと大域チェーンモデルにおける神経活動の違い</h2><br/>　ここまでの温度の操作の結果は，大域的なチェーン状の神経回路が歌のタイミングを生成するという仮説とよく一致した．では，大域的なチェーン状の神経回路によりHVCにおける疎な発火は再現されるだろうか？　もし再現されるなら，局所チェーンモデルと大域チェーンモデルとで神経活動にはどのような違いが生じるだろうか？　これを知るため，神経回路のシミュレーションを行った．局所チェーンモデルにおいてチェーン状の構造はHVCの内部にだけ存在し，大域チェーンモデルにおいてチェーン状の構造はHVC-運動野-脳幹-視床-HVCのループに埋め込まれているとした．シミュレーションの結果，どちらのモデルにおいてもHVCの疎な活動電位が再現された．一方で，シナプス入力には大きな違いが現われた．局所チェーンモデルにおいて2つのニューロンに入力するシナプス入力に相関はなかったが，大域チェーンモデルにおいては高い相関がみられた．このような差の生じた理由は以下のように考えられた．局所チェーンモデルにおいてシナプス入力は局所的なチェーン状の構造を伝播する一様な神経活動をランダムな結合によりばらまくことにより形成される．時間的に一様に伝播する神経活動からシナプス入力をランダムにサンプリングするのだから，異なるニューロンどうしのシナプス入力には時間相関はない．ところが，大域チェーンモデルにおいては4つの神経核を神経活動が順にめぐるため，4つのステップに1回だけ多くのニューロンにおいてシナプス入力が生じ，そのなかのごく一部だけが発火する．ほかの3つのステップにおいてはシナプス入力が少ないため，異なるニューロンどうしのシナプス入力に時間相関が生じる．<br/><br/><h2>5．歌っている鳥のHVCへの同期したシナプス入力</h2><br/>　このシナプス入力の違いを検出するため，歌っている小鳥においてHVCのシナプス入力を測定する小型マイクロドライブを作製した．微小ガラス電極による細胞内膜電位記録のため小型化した増幅回路と小型モーターを搭載し，総重量は1.7 g程度におさえた．HVCから投射するニューロンのなかでも，下流の運動野であるRAに投射するニューロンがチェーン状の神経回路を形成すると考えられたため，このニューロンを逆行性の刺激により同定した．その結果，歌の異なるタイミングにおいて発火するHVCからRAに投射するニューロンも同期したシナプス入力をうけることが明らかにされた．この結果は，HVCから投射するほかのニューロンにおいても同じであったため，HVCから投射するニューロンは同期したシナプス入力をうけつつ異なるタイミングで疎に発火することが明らかにされた．この結果は，視床からの共通の入力によりHVCのニューロンの発火のタイミングが決まるという大域チェーンモデルとよく一致した．したがって，これまで考えられていたようにHVCの局所の神経回路により歌のタイミングが生成されるのではなく，大域的なチェーン状の神経回路が重要であることが示された（<a href="#F2">図2</a>）．この神経回路は，歌のように大脳皮質における運動記憶の読み出しと脳幹における呼吸のタイミングの制御の両方が必要な運動制御を可能にするものであると考えられた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　歌のタイミングの生成における2つのモデル</strong><br/>（a）局所チェーンモデル．HVCに存在すると仮定されたチェーン状の神経回路を伝播する神経活動が歌のタイミングを生成する．<br/>（b）大域チェーンモデル．チェーン状の神経回路はHVCを含む脳の全体のループに存在すると考えると，歌の速度の温度依存性およびシナプス活動のパターンがよく説明される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hamaguchi-Neuron-16.8.3-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　歌のタイミングの生成における2つのモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hamaguchi-Neuron-16.8.3-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hamaguchi-Neuron-16.8.3-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　HVCにおける神経活動を順番にならべると，歌のあいだに波のように伝播する神経活動が図示される．筆者が小鳥の神経回路の研究をはじめたのも，この波のような神経活動はニューロンどうしがチェーンのようにつながった神経回路でできているからではないかと考えたからであった．では，そのチェーン状の神経回路はHVCのなかにあるのだろうか，それとも，HVCを含む脳の全体のループに埋め込まれているのだろうか，というのが今回の論文の主題であった．これまで，研究者の多くは前者を意図した局所チェーンモデルを作製することが多く，筆者もそうであった．しかし，実際に研究を進めたところ，意外にも後者を支持する結果が得られた．温度感受性Q<sub>10</sub>値はほとんどすべてのニューロンにおいて高い値をとるという事実から大域的なチェーン状の神経回路の存在が示唆されることに気づいたのは，別の目的で作製した冷却のためのデバイスを電気生理学的な測定をしつつ試験していたときであった．結果的に，チェーン状の神経回路をつきとめることができたのはうれしい驚きであった．<br/>　近年，HVCにおける神経活動は，楽譜のなかの音符のように歌の特定の変化のタイミングを表現する<a href="#R5"><sup>5)</sup></a>，あるいは，テープレコーダーのように一様に歌の時間を表現する<a href="#R6"><sup>6,7)</sup></a>，という対立するアイデアがあり，活発な議論がまき起こっている．この研究においても，HVCへのシナプス入力の多くは音のはじまる直前に起こっていた．したがって，活動電位の分布もある程度は音圧の上昇するタイミング（多くの場合，音の変化するタイミング）で起こると期待された．実際に，活動電位の分布は歌の学習の初期においてはシナプス入力と同様に音のはじまる直前に集中しているが，学習が進むにつれ活動電位の分布はより時間的にあとへ（音の開始よりあとへ）広がることが報告されている<a href="#R8"><sup>8)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/12002" target="_blank">新着論文レビュー</a> でも掲載）．この研究のシナプス入力のデータは学習が進んだ成鳥から取得されたものであり，成鳥でもシナプス入力は音の直前にかたよっていた．活動電位のレベルにおいては，おそらくHVCの局所の神経回路が学習により変化し，よりなめらかな時間の表現に移行することは十分にありえるだろう．つまり，HVCによる時間の表現は，音符のように変化のタイミングだけを表現する，あるいは，テープレコーダーのように時間を均一に表現する，といった両極端なモデルのどちらでもなく，その中間というのが現実的なのであろう．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hahnloser, R. H. R., Kozhevnikov, A. A. & Fee, M. S.</span>: <span class="ti">An ultra-sparse code underliesthe generation of neural sequences in a songbird.</span> <span class='so'>Nature, 419, 65-70 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12214232" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Abeles, M.</span>: <span class="ti">Corticonics: Neural Circuits of the Cerebral Cortex.</span> <span class='so'>Cambridge University Press, Cambridge (1991)</span></li><br><li id="R3"><span class='au'>Fee, M. S., Kozhevnikov, A. A. & Hahnloser, R. H. R.</span>: <span class="ti">Neural mechanisms of vocal sequence generation in the songbird.</span> <span class='so'>Ann. NY Acad. Sci., 1016, 153-170 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15313774" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Long, M. A. & Fee, M. S.</span>: <span class="ti">Using temperature to analyse temporal dynamics in the songbird motor pathway.</span> <span class='so'>Nature, 456, 189-194 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19005546" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Amador, A., Perl, Y. S., Mindlin, G. B. et al.</span>: <span class="ti">Elemental gesture dynamics are encoded by song premotor cortical neurons.</span> <span class='so'>Nature, 495, 59-64 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23446354" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Lynch, G. F., Okubo, T. S., Hanuschkin, A. et al.</span>: <span class="ti">Rhythmic continuous-time coding in the songbird analog of vocal motor cortex.</span> <span class='so'>Neuron, 90, 877-892 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27196977" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/12565" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R7"><span class='au'>Picardo, M. A., Merel, J., Katlowitz, K. A. et al.</span>: <span class="ti">Population-level representation of a temporal sequence underlying song production in the zebra finch.</span> <span class='so'>Neuron, 90, 866-876 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27196976" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Okubo, T. S., Mackevicius, E. L., Payne, H. L. et al.</span>: <span class="ti">Growth and splitting of neural sequences in songbird vocal development.</span> <span class='so'>Nature, 528, 352-357 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26618871" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/12002" target="_blank">新着論文レビュー</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br></ul><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">濱口 航介（Kosuke Hamaguchi）</span><br>略歴：2004年 東京大学大学院新領域創成科学研究科博士課程 修了，同年 理化学研究所脳科学総合研究センター 研究員，2006年 フランスParis Descartes大学 研究員，2008年 米国Duke大学School of Medicine研究員を経て，2014年より京都大学大学院医学研究科 講師．<br>研究テーマ：運動学習と報酬学習とを結びつけること．<br>抱負：複雑な現象のなかに存在する単純な規則あるいは法則をみつけたい．<br><br><strong>Richard Mooney</strong><br>米国Duke大学School of MedicineにてProfessor．<br>研究室URL：<a href="http://www.mooneylab.com/" target="_blank">http://www.mooneylab.com/</a><br></div><br>© 2016 濱口航介・Richard Mooney Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

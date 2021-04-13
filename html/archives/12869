@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ヒトのiPS細胞の分化能はエピゲノムの状態により予測が可能である : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>ヒトのiPS細胞の分化能はエピゲノムの状態により予測が可能である</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>西澤正俊・吉田善紀</strong><br>（京都大学iPS細胞研究所 未来生命科学開拓部門）<br>email：<a href="mailto:masatoshi.nishizawa@cira.kyoto-u.ac.jp">西澤正俊</a>，<a href="mailto:yoshinor@cira.kyoto-u.ac.jp">吉田善紀</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.084">10.7875/first.author.2016.084</a><br><div class="reference"><br><span class="ti">Epigenetic variation between human induced pluripotent stem cell lines is an indicator of differentiation capacity.</span><br><span class="au">Masatoshi Nishizawa, Kazuhisa Chonabayashi, Masaki Nomura, Azusa Tanaka, Masahiro Nakamura, Azusa Inagaki, Misato Nishikawa, Ikue Takei, Akiko Oishi, Koji Tanabe, Mari Ohnuki, Hidaka Yokota, Michiyo Koyanagi-Aoi, Keisuke Okita, Akira Watanabe, Akifumi Takaori-Kondo, Shinya Yamanaka, Yoshinori Yoshida</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27476965" target="_blank"><em>Cell Stem Cell</em>, <strong>19</strong>, 341-354 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ヒトのiPS細胞は株ごとに分化能が大きく異なる．ヒトのiPS細胞は再生医療および輸血医療への応用が期待されているが，この株ごとの分化能の差は臨床への応用にむけ解決すべき喫緊の課題である．筆者らは，その原因を明らかにするため，多数のiPS細胞株およびES細胞株について血液細胞への分化能を詳細に解析し，同時に，遺伝子の発現やエピゲノムの状態を網羅的に調べ，それらの関連について解析した．その結果，血液細胞への初期の分化は<em>IGF2</em>遺伝子の発現と正に相関していた．また，成熟した血液細胞への分化は体細胞の初期化の過程において生じた異常なDNAメチル化の量と逆相関を示した．iPS細胞の由来する体細胞の種類の影響は主要な原因ではなかった．これらの知見は，ヒトのiPS細胞の生物学的な理解のみならず，臨床への応用や疾患モデルにふさわしい細胞株を選別するのに役だつと考えられた．<br/><br/><h2>はじめに</h2><br/>　iPS細胞（induced pluripotent stem cell，人工多能性幹細胞）は血液の研究分野においても再生医療，輸血医療，先天性疾患の疾患モデルの構築などに非常に有用であり大きな注目をあつめている．しかしながら，ヒトのiPS細胞は株ごとの分化能の差が非常に大きいことが知られ，その応用にむけ大きな障害になっている．過去の報告において，その原因についていくつかの説がとなえられている．ひとつは，iPS細胞の由来する体細胞の種類が分化に影響をおよぼすという説で，体細胞メモリーといわれる現象である<a href="#R1"><sup>1-4)</sup></a>．そのほか，体細胞の初期化の過程において一部の株に異常が生じるという説もあり，とくに，DNAメチル化の異常がもっともよく調べられている<a href="#R3"><sup>3,5-8)</sup></a>．しかしながら，とくに分化能とiPS細胞の性質について調べた論文においては，使用された株の数が少ないなどの問題点から決定的な結論にはいたっておらず，また，原因とされたさまざまな因子がiPS細胞の分化能にそれぞれどのくらい影響をおよぼすのかなど，依然として不明な点が多い．このような背景から，ヒトのiPS細胞の株ごとの分化能の差の原因について，複数の種類の体細胞に由来する多数の株を用いた研究，そして，iPS細胞の分子マーカーと分化能との関係や由来する体細胞の種類との関係などを網羅した包括的な研究がもとめられていた．<br/><br/><h2>1．種々の体細胞に由来するiPS細胞の血液細胞への分化</h2><br/>　線維芽細胞，血液細胞（末梢血および臍帯血），ケラチノサイト，歯髄幹細胞に由来するヒトのiPS細胞35株およびヒトのES細胞4株の血液細胞への分化能について評価した．分化能は，iPS細胞あるいはES細胞から血液前駆細胞までの初期の分化能と，血液前駆細胞から成熟した血液細胞までの分化能とに分けて評価した．さらに，これらの分化能と相関する因子や分子マーカーについて明らかにするため，マイクロアレイや次世代シークエンサーなどの技術を用いて，遺伝子の発現およびDNAメチル化やクロマチンの状態などエピゲノムの状態を解析した．これらのデータの関連を解析することにより分化能に影響をおよぼす因子を同定した．とくに，iPS細胞の分子マーカーについては，iPS細胞の由来する体細胞からiPS細胞，そして，iPS細胞から分化した血液前駆細胞さらに成熟した血液細胞にいたるまでの変化をおうことにより，iPS細胞の由来する体細胞の種類による影響や，どの時期に分化能の差異の原因が生じるかについて詳細に検討した（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　実験の計画</strong><br/>ヒトの複数の体細胞に由来する多数のiPS細胞を作製した．iPS細胞の血液細胞への分化能を，iPS細胞から血液前駆細胞までの初期の分化能と，血液前駆細胞から成熟した血液細胞までの分化能とに分けて評価した．同時に，遺伝子の発現やエピゲノムの状態について，iPS細胞の由来する体細胞，iPS細胞，iPS細胞から分化した血液前駆細胞さらに成熟した血液細胞にいたるまで調べ，それぞれの分化能と関連する分子マーカーを同定した．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yoshida-Cell-Stem-Cell-16.9.1-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　実験の計画" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yoshida-Cell-Stem-Cell-16.9.1-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yoshida-Cell-Stem-Cell-16.9.1-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．iPS細胞の血液細胞への初期の分化能は<em>IGF2</em>遺伝子の発現量と相関する</h2><br/>　iPS細胞あるいはES細胞から血液前駆細胞までの初期の分化において，分化能には株のあいだで約10倍の差が認められた．その原因を明らかにするため，分化能の高い12株および分化能の低い12株における遺伝子の発現をマイクロアレイ法を用いて比較したところ，分化能の高い株において<em>IGF2</em>遺伝子が高く発現していた．また，分化能および<em>IGF2</em>遺伝子の発現量は，iPS細胞の由来する体細胞の種類とは関連がなかった．さらに，<em>IGF2</em>遺伝子の強制発現あるいはIGF2の培養液への添加により分化は促進され，RNAi法によるノックダウンあるいはIGF2の主要な細胞膜受容体であるIGF1受容体に対する抗体の添加により分化は抑制された．これらの結果より，iPS細胞の血液細胞への初期の分化において<em>IGF2</em>遺伝子の発現が重要な役割をはたしており，さらに，<em>IGF2</em>遺伝子の発現量の差がiPS細胞の血液細胞への初期の分化能の株ごとの差の原因であることが実験的に示された（<a href="#F2">図2a</a>）．IGF2の培養液への添加により，中内胚葉への分化に関連する<em>GATA6</em>遺伝子および<em>T</em>遺伝子，また，造血幹細胞に関連する<em>HOXB4</em>遺伝子などの発現が上昇したことから，<em>IGF2</em>遺伝子はこれらの遺伝子の発現の上昇を介してiPS細胞の血液細胞への初期の分化を促進することが明らかにされた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ヒトのiPS細胞の血液細胞への分化</strong><br/>（a）血液細胞への初期の分化．<br/>（b）成熟した血液細胞への分化．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yoshida-Cell-Stem-Cell-16.9.1-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ヒトのiPS細胞の血液細胞への分化" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yoshida-Cell-Stem-Cell-16.9.1-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Yoshida-Cell-Stem-Cell-16.9.1-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．iPS細胞における<em>IGF2</em>遺伝子の発現の制御機構</h2><br/>　WGCNA（weighted gene co-expression network analysis，加重遺伝子共発現ネットワーク解析）法などのネットワーク解析および遺伝子間の相関関連解析により，<em>IGF2</em>遺伝子は<em>GATA6</em>遺伝子，<em>CDX2</em>遺伝子，<em>BMP4</em>遺伝子などの中内胚葉と関連する遺伝子と発現量の強い相関が認められ，これらの遺伝子は遺伝子ネットワークを構成して相互の発現量に影響をおよぼすとともに，協調してiPS細胞の中内胚葉への分化を促進する可能性が示唆された．また，<em>IGF2</em>遺伝子はインプリント遺伝子であることから，iPS細胞における株ごとの発現量の差異の原因としてインプリント制御領域におけるDNAメチル化について詳細に調べたが，インプリント制御領域におけるDNAメチル化の量と<em>IGF2</em>遺伝子の発現量との関連は認められなかった．<em>IGF2</em>遺伝子および相関する遺伝子がどのようなシグナル伝達経路により制御されるか調べたところ，<em>IGF2</em>遺伝子および中内胚葉と関連する遺伝子の発現はFGF2やアクチビンAにより著明に抑制された．ATAC-seq法を用いてiPS細胞におけるクロマチンの状態を解析したところ，<em>IGF2</em>遺伝子を高発現する株と低発現する株とでは<em>IGF2</em>遺伝子および相関する遺伝子におけるクロマチンの構造のゆるみに違いが認められ，また，FGFシグナルはクロマチンの構造を閉じることにより<em>IGF2</em>遺伝子および<em>GATA6</em>遺伝子の発現を抑制した．<br/><br/><h2>4．iPS細胞の成熟した血液細胞への分化能は体細胞の初期化の過程において生じた異常なDNAメチル化の量により決定される</h2><br/>　血液前駆細胞から成熟した血液細胞への分化能についても，iPS細胞の株ごとに大きな差が認められた．また，それぞれのiPS細胞において，初期の分化能と成熟した血液細胞への分化能とに相関は認められなかったことから，初期分化能および成熟した血液細胞への分化能の株ごとの差は別の原因によると考えられた．成熟した血液細胞への分化能の高い株18株および低い株18株を選定しiPS細胞の由来する体細胞ごとに分類したところ，血液細胞に由来するiPS細胞はほかの体細胞に由来するiPS細胞と比べ分化能が高い傾向にあったが，過去の報告とは異なり，線維芽細胞や歯髄幹細胞に由来するiPS細胞でも半数弱の株は血液細胞に由来するiPS細胞と同等に高い分化能を示した．これらの結果は，いっけん，iPS細胞の由来する体細胞の種類の影響，すなわち，体細胞メモリーの影響をうたがわせたが，線維芽細胞や歯髄幹細胞に由来するiPS細胞でも半数弱の株は高い分化能を示したことは体細胞メモリーにより説明がつかないため，それ以外の因子の影響する可能性が示唆された．<br/>　成熟した血液細胞への分化能の高い株および低い株についてマイクロアレイ法により遺伝子の発現を比較したところ，過去の報告にて一部のiPS細胞において特徴的にDNAメチル化が存在するとされた<em>TCERG1L</em>遺伝子および<em>FAM19A5</em>遺伝子<a href="#R6"><sup>6,7,9)</sup></a> に発現の差がみられた．そのため，DNAメチル化がiPS細胞の成熟した血液細胞への分化能の株ごとの差の主要な原因である可能性を考え，iPS細胞のDNAメチル化の状態について詳細に調べた．DNAメチル化アレイを用いて成熟した血液細胞への分化能の高い株と低い株とを比較したところ，分化能の低いiPS細胞において特徴的にDNAメチル化されているゲノム領域を同定し，成熟分化障害関連DNAメチル化領域と名づけた．分化能の低い株における成熟分化障害関連DNAメチル化領域の高メチル化は，由来する体細胞からiPS細胞へ受け継がれたものなのか，体細胞の初期化の過程において新たに生じたものなのかを調べたところ，成熟分化障害関連DNAメチル化領域はiPS細胞の由来するいずれの体細胞においてもDNAメチル化されていないこと，そして，分化能の低い株においてのみ，体細胞の初期化の後期において高メチル化されることが明らかにされた．このことから，DNAメチル化が成熟した血液細胞への分化能の株ごとの差の原因であることが示唆されたのみならず，成熟した血液細胞への分化能の株ごとの差は体細胞から受け継がれた性質ではなく，体細胞からiPS細胞へと初期化される段階において異常なDNAメチル化が生じるか生じないかという，おそらく偶然の事象により決定されることが示唆された．<br/>　血液細胞に由来するiPS細胞は全般的に成熟した血液への分化能が高い傾向にあることに注目したところ，血液細胞に由来するiPS細胞は体細胞の初期化の過程において成熟分化障害関連DNAメチル化領域に生じる異常なDNAメチル化の量が，ほかの種類の体細胞の初期化のときと比べ少ないことがわかった．これらの結果から，血液細胞に由来するiPS細胞においても，初期化の過程におけるDNAメチル化の異常が少ないことが全般的に成熟した血液細胞への分化能が高いことの主要な要因である可能性が示唆された．<br/>　成熟分化障害関連DNAメチル化領域に存在する遺伝子について詳細に調べたところ，iPS細胞の成熟した血液細胞への分化能ともっとも相関していたのは<em>TRIM58</em>遺伝子という赤血球や血小板に特異的に発現する遺伝子におけるDNAメチル化であった．<em>TRIM58</em>遺伝子はiPS細胞の由来する体細胞においてはDNAメチル化されていなかったが，成熟した血液細胞への分化能の低い株においてのみ，初期化の過程においてDNAメチル化されていた．成熟した血液細胞への分化能の高い株においてCRISPR-Cas技術を用いてTRIM58をノックアウトしたところ分化能は低下し，分化能の低い株に<em>TRIM58</em>遺伝子を強制発現させたところ部分的ではあったが分化能は回復した．これらの結果により，特定のゲノム領域の初期化の過程におけるDNAメチル化がiPS細胞の成熟した血液細胞への分化能に影響をおよぼすことが実験的に証明された（<a href="#F2">図2b</a>）．<br/>　成熟分化障害関連DNAメチル化領域におけるDNAメチル化の量はほかの細胞への分化においても影響をおよぼすのかどうかを調べるため，過去の論文における，ヒトの多くのiPS細胞を肝細胞へと分化させてアルブミンの産生能を比較したデータを利用した<a href="#R10"><sup>10)</sup></a>．その結果，iPS細胞から肝臓への分化においても，成熟分化障害関連DNAメチル化領域の高メチル化は分化能と逆相関することがわかった．このことから，作製する細胞の種類によらず，一部のiPS細胞に体細胞の初期化の過程において生じる成熟分化障害関連DNAメチル化領域の高メチル化が成熟した細胞への分化の障害になることが明らかにされた．<br/><br/><h2>おわりに</h2><br/>　この研究において，ヒトのiPS細胞における分化能の株ごとの差の原因が明らかにされた．これらの知見は，iPS細胞の生物学的な理解のみならず，臨床への応用や疾患モデルにふさわしい株を選別するのに役だつと考えられる．また，線維芽細胞に由来するiPS細胞も異常なDNAメチル化が少なければ良好な赤血球あるいは血小板などの成熟した血液細胞へと分化したことは，自己に由来するiPS細胞の輸血医療などへの応用への可能性を広げる知見であると考えられる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Polo, J. M., Liu, S., Figueroa, M. E. et al.</span>: <span class="ti">Cell type of origin influences the molecular and functional properties of mouse induced pluripotent stem cells.</span> <span class='so'>Nat. Biotechnol., 28, 848-855 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20644536" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Kim, K., Zhao, R., Doi, A. et al.</span>: <span class="ti">Donor cell type can influence the epigenome and differentiation potential of human induced pluripotent stem cells.</span> <span class='so'>Nat. Biotechnol., 29, 1117-1119 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22119740" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Lister, R., Pelizzola, M., Kida, Y. S. et al.</span>: <span class="ti">Hotspots of aberrant epigenomic reprogramming in human induced pluripotent stem cells.</span> <span class='so'>Nature, 471, 68-73 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21289626" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Ohi, Y., Qin, H., Hong, C. et al.</span>: <span class="ti">Incomplete DNA methylation underlies a transcriptional memory of somatic cells in human iPS cells.</span> <span class='so'>Nat. Cell. Biol., 13, 541-549 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21499256" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Stadtfeld, M., Apostolou, E., Akutsu, H. et al.</span>: <span class="ti">Aberrant silencing of imprinted genes on chromosome 12qF1 in mouse induced pluripotent stem cells.</span> <span class='so'>Nature, 465, 175-181 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20418860" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Koyanagi-Aoi, M., Ohnuki, M., Takahashi, K. et al.</span>: <span class="ti">Differentiation-defective phenotypes revealed by large-scale analyses of human pluripotent stem cells.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 110, 20569-20574 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24259714" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Ruiz, S., Diep, D., Gore, A. et al.</span>: <span class="ti">Identification of a specific reprogramming-associated epigenetic signature in human induced pluripotent stem cells.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 109, 16196-16201 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22991473" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Nazor, K. L., Altun, G., Lynch, C. et al.</span>: <span class="ti">Recurrent variations in DNA methylation in human pluripotent stem cells and their differentiated derivatives.</span> <span class='so'>Cell Stem Cell, 10, 620-634 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22560082" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Huang, K., Shen, Y., Xue, Z. et al.</span>: <span class="ti">A panel of CpG methylation sites distinguishes human embryonic stem cells and induced pluripotent stem cells.</span> <span class='so'>Stem Cell Rep., 2, 36-43 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24511466" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Kajiwara, M., Aoi, T., Okita, K. et al.</span>: <span class="ti">Donor-dependent variations in hepatic differentiation from human-induced pluripotent stem cells.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 109, 12538-12543 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22802639" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=UCSC" target="_blank">UCSC</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=Ensembl" target="_blank">Ensembl</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=CRISPR" target="_blank">CRISPR</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=ChIP-seq" target="_blank">ChIP-seq</a></li><br></ul><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">西澤 正俊（Masatoshi Nishizawa）</span><br>略歴：2014年 京都大学大学院医学研究科博士課程 修了，同年より京都大学iPS細胞研究所 研究員．<br>抱負：医師としての経験を基礎研究に活かし，基礎研究の経験を医師の仕事に活かしたい．<br><br><strong>吉田 善紀（Yoshinori Yoshida）</strong><br>京都大学iPS細胞研究所 准教授．<br>研究室URL：<a href="http://www.cira.kyoto-u.ac.jp/yoshida/" target="_blank">http://www.cira.kyoto-u.ac.jp/yoshida/</a><br></div><br>© 2016 西澤正俊・吉田善紀 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

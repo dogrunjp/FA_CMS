@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> マイクロRNAのスクリーニングによるインスリン抵抗性における新たな機構の発見 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>マイクロRNAのスクリーニングによるインスリン抵抗性における新たな機構の発見</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>粟澤元晴・Jens C. Brüning</strong><br>（ドイツMax Planck Institute for Metabolism Research，Department of Neuronal Control of Metabolism）<br>email：<a href="mailto:motoharu.awazawa@sf.mpg.de">粟澤元晴</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.129">10.7875/first.author.2017.129</a><br><div class="reference"><br><span class="ti">A microRNA screen reveals that elevated hepatic ectodysplasin A expression contributes to obesity-induced insulin resistance in skeletal muscle.</span><br><span class="au">Motoharu Awazawa, Paula Gabel, Eva Tsaousidou, Hendrik Nolte, Marcus Krüger, Joel Schmitz, P. Justus Ackermann, Claus Brandt, Janine Altmüller, Susanne Motameny, F. Thomas Wunderlich, Jan-Wilhelm Kornfeld, Matthias Blüher, Jens C. Brüning</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/29106399" target="_blank"><em>Nature Medicine</em>, <strong>23</strong>, 1466-1473 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　マイクロRNAの40％以上はタンパク質コード遺伝子のイントロンに存在し，そのコード遺伝子と協調的に発現が制御される．この研究において，筆者らは，肥満モデルマウスの肝臓において増加するイントロン性のマイクロRNAをスクリーニングすることにより，miR-676およびmiR-676の存在する遺伝子座によりコードされるタンパク質EDAが肥満により増加することを見い出した．ヒトにおいても，肝臓におけるEDAの発現は内臓脂肪の蓄積と強く相関した．EDAは無汗成外胚葉形成不全症の原因遺伝子の産物として知られる分泌タンパク質であるが，この研究において，EDAがPPARγにより制御され肥満により増加するヘパトカインであること，骨格筋を標的としてJNK経路を活性化し，筋肉におけるインスリンの作用の変化を介して全身の糖代謝に影響しうることが示された．さらに，肥満モデルマウスにおけるmiR-676のノックダウンにより，肝臓における脂肪酸の酸化経路の活性に関連するタンパク質の発現が上昇する一方，炎症に関連するタンパク質の発現が低下し，筋肉におけるEDAの作用と協調的に全身のエネルギー代謝に寄与しうることが示唆された．<br/><br/><h2>はじめに</h2><br/>　近年のゲノム解析手法の進歩により，生体には多くの非コード性RNAが存在することが明らかにされた<a href="#R1"><sup>1)</sup></a>．しかしながら，概してわれわれの理解はそれらRNAがゲノムのどこに位置するかという“地理学的”な情報にとどまっており，大多数の例においてその機能的な意義は明らかにされてない．マイクロRNA（miRNA）は非コード性RNAのなかでもっとも研究が進められているが，ひとつのmiRNAが標的とする遺伝子は100以上ともいわれ，かつ，それぞれの標的に及ぼす影響は一般におだやかであることから<a href="#R2"><sup>2)</sup></a>，その機能的な意義づけは必ずしも容易とはいえない．<br/>　この研究において，筆者らは，40％以上のmiRNAがコード遺伝子のイントロンに存在するという事実に着目した<a href="#R3"><sup>3,4)</sup></a>．このようなイントロン性miRNAの発現はそのコード遺伝子の発現と協調的に制御され，さらに，標的となる遺伝子あるいはシグナル伝達経路に対しこの両者が協調的にはたらくことにより，個体により大きく影響することが期待される．この仮説にもとづき，肥満モデルマウスの肝臓において変化するイントロン性miRNAをスクリーニングすることにより，肥満により変化する新たなmiRNAおよびコード遺伝子との組合せの同定を試みた．<br/><br/><h2>1．<em>Eda</em>遺伝子およびmiR-676の発現は肥満状態の肝臓において上昇する</h2><br/>　肥満モデルマウスの肝臓において発現の上昇するmiRNAをスクリーニングしたところ，2種類の肥満モデルマウスの肝臓において共通して発現の上昇したmiRNAとして70種が同定され，その約半数にあたる34種のmiRNAはタンパク質コード遺伝子座に存在した．そのなかで，これまでに解析されていない7つのmiRNAおよびそれらの存在するコード遺伝子の発現について調べたところ，miR-676およびmiR-676をコードする<em>Eda</em>遺伝子のみ，肥満モデルマウスの肝臓において発現が強く上昇していた．さまざまな臓器においてmiR-676および<em>Eda</em>遺伝子のRNAレベルでの発現について調べたところ，こうした肥満における発現の上昇は肝臓のみで観察されほかの臓器においては認められなかった．さらに，ヒトにおいても，肝臓における<em>EDA</em>遺伝子のmRNAの量は内臓脂肪および肝臓における脂肪の蓄積の程度と強い正の相関を示し，インスリン抵抗性の度合いと負に相関した．また，肥満の患者において減量手術の前後で肝臓における<em>EDA</em>遺伝子の発現を比較したところ，減量手術によりその発現が有意に低下することが確認された．これらの結果から，マウスおよびヒトにおいて，肝臓における<em>EDA</em>遺伝子の発現が肥満およびインスリン抵抗性と相関することがわかった．<br/><br/><h2>2．EDAは肥満にともない増加するヘパトカインである</h2><br/>　EDAはTNFファミリーに属する分泌タンパク質であり，無汗成外胚葉形成不全症とよばれるまれな疾患の原因遺伝子の産物であることが知られていた<a href="#R5"><sup>5)</sup></a>．EDAは発生段階の皮膚においてNF-κB経路を活性化することにより皮膚附属器の形成にかかわり，その変異は無汗と毛髪および歯の形成の異常からなる症候群をひき起こすことがわかっていたが，ほかの組織においてEDAがどのようなはたらきをするのか，さらには，EDAが成人においてどのような役割を担うのかは明らかにされていなかった．そこで，EDAが肝臓から分泌タンパク質として分泌されるかどうか，すなわち，ヘパトカインなのかどうか調べた．肝細胞系の培養細胞から過剰に発現させたEDAが分泌され，この分泌は皮膚において知られていたのと同様にFurinとよばれるプロテアーゼに依存的に制御された．また，EDAはマウスの血中にも検出され，さらに，その濃度は肥満にともない増加した．以上から，EDAは肥満にともない増加するヘパトカインであることが示された．<br/><br/><h2>3．<em>Eda</em>遺伝子の発現はPPARγにより増加する</h2><br/>　肥満した個体の肝臓において<em>EDA</em>遺伝子の発現が亢進する機構について調べた．<em>Eda</em>遺伝子のプロモーター領域にはPPARγ，FOXO1，NF-κBなどの転写因子との結合モチーフが存在したが，培養細胞を用いたプロモーター解析においては，PPARγとその結合パートナーであるRXRαとの共発現のみが<em>Eda</em>遺伝子プロモーターを活性化した．NF-κBは<em>Eda</em>遺伝子プロモーターの活性に影響せず，FOXO1の発現はむしろ<em>Eda</em>遺伝子プロモーターの活性を低下させる傾向を示した．3箇所あったPPARγの結合モチーフのうち<em>Eda</em>遺伝子プロモーターの活性化にかかわる領域を同定したしたところ，そこではPPARγの結合モチーフとFOXO1の結合モチーフとが近接しており，PPARγとFOXO1が互いに競合しながら<em>Eda</em>遺伝子の発現を制御する可能性が示唆された．また，EDAはNF-κB経路を活性化することが知られているが，このような炎症性のタンパク質は多くの場合，それ自体も炎症性シグナルにより制御され，結果として正のフィードバックループを形成する．この意味で，EDAはPPARγという脂肪の代謝にかかわる転写因子により制御されるユニークな炎症性タンパク質であると考えられた．<br/><br/><h2>4．EDA-A2は筋肉を標的としてJNK経路を活性化する</h2><br/>　EDAには選択的スプライシングにより生じる複数のアイソフォームが存在し，なかでもEDA-A1およびEDA-A2が主要なアイソフォームである<a href="#R5"><sup>5)</sup></a>．EDA-A1とEDA-A2はわずか6塩基，2アミノ酸残基が異なるだけだが，それぞれ特異的な受容体に結合する<a href="#R6"><sup>6)</sup></a>．EDA-A1とEDA-A2およびそれぞれの受容体により制御されるシグナル伝達経路は機能的には異なるものの，どちらも最終的にNF-κB経路を活性化する．無汗成外胚葉形成不全症は基本的にすべてEDA-A1あるいはその受容体であるEDA-A1受容体の変異に関連しており，EDA-A2およびEDA-A2受容体がはたす役割は不明であった<a href="#R7"><sup>7)</sup></a>．EDAの標的となる臓器を明らかにするため，マウスにおいてEDA-A1受容体およびEDA-A2受容体がさまざまな臓器にどのように分布するか調べた．すると，EDA-A1受容体およびEDA-A2受容体は骨格筋において強い発現を示し，とくに，EDA-A2受容体の発現は骨格筋において非常に高く，かつ，ほぼ特異的であった．この結果から，肝臓から分泌されたEDA-A2が骨格筋を標的として作用する可能性が示された．<br/>　骨格筋はインスリンの主要な標的のひとつであり，かつ，炎症性シグナルは骨格筋を含むさまざまな臓器においてインスリン抵抗性をひき起こす<a href="#R8"><sup>8)</sup></a>．もし，EDA-A2が骨格筋において炎症性シグナルを活性化するなら，結果として，骨格筋においてインスリン抵抗性を惹起することにより全身の糖代謝に影響をおよぼす可能性がある．筋細胞系の培養細胞およびマウスの骨格筋に組換え体のEDA-A1あるいはEDA-A2を投与したところ，EDA-A2の投与のみによりインスリン抵抗性に深くかかわる炎症性タンパク質JNKのリン酸化が亢進し，さらに，これにともない，インスリンシグナルタンパク質IRS-1の抑制性のSerリン酸化<a href="#R9"><sup>9)</sup></a> が増加した．この応答は肝細胞系の培養細胞およびマウスの肝臓においてはみられず，このことはEDA-A1およびEDA-A2受容体の発現パターンと合致した．<br/><br/><h2>5．EDA-A2の発現はマウスにおいて全身の糖代謝に影響する</h2><br/>　炎症は骨格筋においてもインスリン抵抗性を惹起するため，EDA-A2による骨格筋におけるJNK経路の活性化は全身の糖代謝に影響をおよぼす可能性がある．この可能性を実証するため，マウスの肝臓においてアデノ関連ウイルスを用いてEDAを過剰発現あるいはノックダウンし，その糖代謝への影響を個体のレベルで調べた．やせ型のマウスにおいてEDA-A2を過剰に発現させたところ，体重および摂食に影響はなく，対照と比較してエネルギーの消費に低下の傾向がみられたが，この傾向は少なくとも過剰発現から5週間後の段階においては有意ではなかった．グルコース負荷試験において，EDA-A2の過剰発現により対照と比較して血糖値が有意に上昇した．また，骨格筋においてはJNKのリン酸化とともにIRS-1の抑制性のSerリン酸化も増加した．一方，肥満モデルマウスにおいてEDAをノックダウンしたところ，体重，摂食，エネルギーの消費に変化はみられなかったが，グルコース負荷試験において対照と比較して血糖値が低下した．さらに，EDAのノックダウンによりインスリン抵抗性の改善が確認され，この改善は骨格筋，とくにヒラメ筋における糖の取り込みの増大によるものであることがわかった．以上より，肥満したマウスの肝臓におけるEDAの発現の変化が，おもに骨格筋への作用を介し全身の糖代謝に影響しうることがわかった．<br/><br/><h2>6．miR-676は肝臓において脂肪酸の酸化に関連するタンパク質および炎症に関連するタンパク質を制御しうる</h2><br/>　肥満におけるmiR-676の増加がどのような病態的な意義をもつのか明らかにする目的で，肥満モデルマウスにおいてLNA（locked nucleic acid）の投与によりmiR-676を抑制した．一般に，miRNAはその標的となる遺伝子のmRNAの3’側非翻訳領域に結合することにより発現を抑制するが，この発現の抑制はmRNAのレベルよりもタンパク質のレベルにおいて強い<a href="#R2"><sup>2,10)</sup></a>．このことをふまえ，miR-676の抑制のもとで肝臓のプロテオームを解析することにより，どのようなタンパク質がmiR-676により制御されうるか解析した．2週間にわたるmiR-676の抑制により体重および糖代謝に変化はみられなかったが，プロテオミクス解析において，miR-676を抑制した肥満モデルマウスの肝臓においては対照と比較して脂肪酸の酸化に関連するタンパク質が増加し，一方，CRPをはじめとする一群の炎症に関連するタンパク質が減少した．この結果から，肥満におけるmiR-676の増加が脂肪酸の酸化を低下させ，さらに炎症を活性化する可能性が示唆された．<br/>　<em>EDA</em>遺伝子およびmiR-676の転写の活性は脂肪の蓄積におけるキー転写因子であるPPARγにより制御されること，また，EDAが炎症性シグナル伝達経路を構成するJNKおよびNF-κBを活性化することを考えると，この結果は興味深い．ただし，miR-676の直接の標的となる遺伝子の同定にはいたっておらず，また，LNAの投与は肝臓のみならずほかの組織においてもmiR-676を抑制する可能性があるため，肝臓において発現の変化したタンパク質がmiR-676の直接の下流にあるのかどうかも明らかにされていない．これらについては，今後の検討課題と考えている．<br/><br/><h2>おわりに</h2><br/>　この研究において，筆者らは，イントロン性miRNAに着目することにより，miR-676およびmiR-676をコードする<em>EDA</em>遺伝子の発現が肥満した動物の肝臓において上昇し，全身の糖脂質の代謝に影響しうることを見い出した（<a href="#F1">図1</a>）．EDAの成人における意義，さらに，そのアイソフォームであるEDA-A2のはたらきはこれまで明らかにされていなかったが，もともと，EDAが皮膚においてのみ知られるタンパク質であったことから，その糖代謝における新たな役割の発見は驚きであった．では，こうした皮膚において重要なタンパク質が肥満した動物の肝臓において増加することの意味はなんであろうか．現段階においては，その全体像を想像することはむずかしい．しかしながら，筆者らは，この結果は代謝と皮膚とのあいだにこれまで考えられていた以上の関連が存在することを示唆するものではないかと考えている．皮膚は面積でいえば動物にとり最大の臓器であり，かつ，外界の環境との重要なインターフェースである．さらに，皮膚は皮脂の分泌，発汗，皮膚血管の収縮および拡張などにより代謝に積極的にかかわる可能性がある．この分野は現段階ではまだ十分に研究されているとはいいがたく，今後の研究の発展が楽しみである．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　肥満におけるEDAおよびmiR-676の増加は全身の糖脂質の代謝に影響をおよぼしうる</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Awazawa-Nature-Medicine-17.12.8-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　肥満におけるEDAおよびmiR-676の増加は全身の糖脂質の代謝に影響をおよぼしうる" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Awazawa-Nature-Medicine-17.12.8-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Awazawa-Nature-Medicine-17.12.8-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>ENCODE Project Consortium</span>: <span class="ti">An integrated encyclopedia of DNA elements in the human genome.</span> <span class='so'>Nature, 489, 57-74 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22955616" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Baek, D., Villen, J., Shin, C. et al.</span>: <span class="ti">The impact of microRNAs on protein output.</span> <span class='so'>Nature, 455, 64-71 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18668037" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Davis, B. N. & Hata, A.</span>: <span class="ti">Regulation of microRNA biogenesis: a miRiad of mechanisms.</span> <span class='so'>Cell Commun. Signal., 7, 18 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19664273" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Gromak, N.</span>: <span class="ti">Intronic microRNAs: a crossroad in gene regulation.</span> <span class='so'>Biochem. Soc. Trans., 40, 759-761 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22817729" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Mikkola, M. L.</span>: <span class="ti">Molecular aspects of hypohidrotic ectodermal dysplasia.</span> <span class='so'>Am. J. Med. Genet. A., 149A, 2031-2036 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19681132" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Yan, M., Wang, L. C., Hymowitz, S. G. et al.</span>: <span class="ti">Two-amino acid molecular switch in an epithelial morphogen that regulates binding to two distinct receptors.</span> <span class='so'>Science, 290, 523-527 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11039935" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Lindfors, P. H., Voutilainen, M. & Mikkola, M. L.</span>: <span class="ti">Ectodysplasin/NF-κB signaling in embryonic mammary gland development.</span> <span class='so'>J. Mammary Gland Biol. Neoplasia, 18, 165-169 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23591968" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Hotamisligil, G. S., Shargill, N. S. & Spiegelman, B. M.</span>: <span class="ti">Adipose expression of tumor necrosis factor-alpha: direct role in obesity-linked insulin resistance.</span> <span class='so'>Science, 259, 87-91 (1993)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7678183" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Copps, K. D. & White, M. F.</span>: <span class="ti">Regulation of insulin sensitivity by serine/threonine phosphorylation of insulin receptor substrate proteins IRS1 and IRS2.</span> <span class='so'>Diabetologia, 55, 2565-2582 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22869320" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Selbach, M., Schwanhausser, B., Thierfelder, N. et al.</span>: <span class="ti">Widespread changes in protein synthesis induced by microRNAs.</span> <span class='so'>Nature, 455, 58-63 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18668040" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=GEO" target="_blank">GEO</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=UCSC" target="_blank">UCSC</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=Ensembl" target="_blank">Ensembl</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=KEGG" target="_blank">KEGG</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=転写因子" target="_blank">転写因子データベース</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=プロテオーム" target="_blank">プロテオーム</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アラインメント" target="_blank">アラインメント</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=RNA-seq" target="_blank">RNA-seq</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">粟澤 元晴（Motoharu Awazawa）</span><br>略歴：2007年 東京大学大学院医学系研究科博士課程 修了，2009年 東京大学医学部附属病院 助教，2012年 ドイツCologne大学を経て，2014年よりドイツMax Planck Institute for Metabolism ResearchにてPost Doctoral Fellow．<br>研究テーマ：肝臓を中心とした糖尿病およびインスリン抵抗性の病理的な機構．<br><br><strong>Jens C. Brüning</strong><br>ドイツMax Planck Institute for Metabolism ResearchにてDirector．<br></div><br>© 2017 粟澤元晴・Jens C. Brüning Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

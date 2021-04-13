@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 染色体の高次構造とS期チェックポイントを減数分裂期の組換えの開始と連係させるリエゾンタンパク質 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>染色体の高次構造とS期チェックポイントを減数分裂期の組換えの開始と連係させるリエゾンタンパク質</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>三好知一郎・伊藤 将・太田邦史</strong><br>（東京大学大学院総合文化研究科 広域科学専攻生命環境科学系）<br>email：<a href="mailto:kohta@bio.c.u-tokyo.ac.jp">太田邦史</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.106">10.7875/first.author.2012.106</a><br><div class="reference"><br><span class="ti">A central coupler for recombination initiation linking chromosome architecture to S phase checkpoint.</span><br><span class="au">Tomoichiro Miyoshi, Masaru Ito, Kazuto Kugou, Shintaro Yamada, Masaki Furuichi, Arisa Oda, Takatomi Yamada, Kouji Hirota, Hisao Masai, Kunihiro Ohta</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22841486" target="_blank"><em>Molecular Cell</em>, <strong>47</strong>, 722-733 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　真核生物は減数分裂期において遺伝的組換えを起こすことにより子孫に遺伝的な多様性をもたらしている．減数分裂期に入るとDNAが複製され，ついで，軸およびループとよばれる高次構造が染色体に形成される．ループにはホットスポットとよばれる領域が含まれており，DNAの複製ののち，DNAはこのホットスポットにおいて切断される．このDNA二本鎖切断ののち，切断されたDNAの末端は無傷の相同染色体のDNA二本鎖に挿入され，遺伝的組換えが開始される．DNA二本鎖切断にかかわるタンパク質は酵母を中心に数多く単離されてきたが，DNA二本鎖切断が時間的および空間的に制御される分子機構については不明な点が多く残されていた．今回，分裂酵母を用いた解析から，DNA二本鎖切断にかかわるタンパク質は，DSBC複合体とSFT複合体と名づけた2つの複合体を形成することがわかった．DSBC複合体の中核をなすSpo11という酵母からヒトまで保存されたタンパク質は，基本的にループにあるホットスポットにDNA二本鎖切断を導入する．一方，SFT複合体は軸の全域に結合していたが，その一部はループにあるホットスポットにも結合していた．このことから，軸とループとのあいだに相互作用が生じ，DSBC複合体とSFT複合体とが結びついてDNA二本鎖切断が起こることが示唆された．DNAの複製が完了すると，S期チェックポイントが解除され，Mde2という第3のグループのDNA二本鎖切断タンパク質が発現する．Mde2はホットスポットにおけるSFT複合体の安定的な結合を促進し，ループにあるホットスポットを軸に連結させるはたらきをもつことがわかった．Mde2により軸とループとの連結が生じると，DSBC複合体がホットスポットに作用してDNA二本鎖切断が形成され遺伝的組換えが開始される．すなわち，Mde2が，DNAの複製，染色体の高次構造の形成，DNA二本鎖切断タンパク質の集合を統合的に調整するリエゾンタンパク質としてはたらいていることが，今回，はじめて明らかになった．<br/><br/><h2>はじめに</h2><br/>　多様性は生物の大きな特質である．一方で，生物は遺伝情報を安定的に子孫に継承していく必要がある．いっけんすると，遺伝情報の多様性の獲得という変革的な側面と，生命の安定的な継承という保守的な側面は二律背反するようにみえる．しかし，生物は減数分裂という巧妙なしくみによりこれを破綻なく達成している．減数分裂は有性生殖を行う生物の生殖細胞においてみられ，染色体セットの数が半減する特別な分裂様式である．この減数分裂の最大の特徴のひとつは“遺伝的組換え”である．遺伝的組換えはDNAの複製ののち，あらかじめプログラムされたDNA二本鎖切断（DNA double-strand break：DSB）が生じ，切断されたDNA末端が無傷の相同染色体のDNA二本鎖に挿入されることで相同組換えが起こりゲノム情報が再編成される現象である（<a href="#F1">図1</a>）．このとき，両親に由来する相同染色体のあいだにキアズマという構造が形成され，これにより相同染色体の正確な分配が保証されている．したがって，遺伝的組換えの異常は相同染色体の不分離をもたらし，ひいては，染色体の異数性による先天的な染色体異常疾患，あるいは，精子や卵などの配偶子の形成異常をきたし不妊症などにつながることが知られている．すなわち，多様性を獲得する遺伝的組換えは，子孫への遺伝情報の安定的な継承と表裏一体で不可分な関係にある．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　減数分裂期における染色体の構造，DNA組換え，染色体の分配</strong><br/>減数分裂期に入ると，DNAの複製ののち，姉妹染色分体はコヒーシンにより接着される．この接着部位を中心に軸の構造が形成される．ループは軸から遠位に位置する領域をさす．つづいて，DNA二本鎖切断が起こり，両親に由来する相同染色体のあいだでの組換えをへてゲノムの再編成が行われる．ひきつづき起こる連続した2回の細胞分裂にともない，それぞれの配偶子に半数体のゲノムセットが受け継がれる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ohta-Molecular-Cell-12.8.23-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　減数分裂期における染色体の構造，DNA組換え，染色体の分配" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ohta-Molecular-Cell-12.8.23-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ohta-Molecular-Cell-12.8.23-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　DNA二本鎖切断の分子機構の理解は出芽酵母（<em>Saccharomyces cerevisiae</em>）の研究が端緒となった．まず，酵母からヒトまで保存されたSpo11というDNA切断活性をもつタンパク質が出芽酵母において同定された<a href="#R1"><sup>1,2)</sup></a>．Spo11は減数分裂期に特異的に発現し，DNAの複製ののち，相同染色体の分離にさきだちDNA二本鎖切断を導入し組換えを開始する．そのほか，DNA二本鎖切断に必要な補助タンパク質（出芽酵母では，9つ）が存在することや，それらの一部はSpo11と複合体を形成することなどが明らかにされた．Spo11の活性化はどのように制御されているのだろうか？　注目すべきこととして，放射線など偶発的な要因ではランダムな位置にDNAの損傷が生じるのに対し，Spo11によるDNA二本鎖切断の導入部位は“ホットスポット”とよばれる染色体の特定の領域に限定されていることがあげられる．減数分裂期の染色体では，DNAの複製にともない“軸”と“ループ”とに区分の可能な染色体の高次構造が構築される（<a href="#F1">図1</a>）．ホットスポットはこのループに多く観察される．一方，軸の形成に異常を示す酵母株ではDNA二本鎖切断に顕著な異常がみられることから<a href="#R3"><sup>3-7)</sup></a>，ホットスポットとは離れた位置にあると考えられる軸もDNA二本鎖切断に関与することが示された．<br/>　この研究では，軸とループからなる染色体の高次構造を介しDNA二本鎖切断はどのように制御されているのか，出芽酵母とは異なる分裂酵母（<em>Schizosaccharomyces pombe</em>）を用いて，その分子機構の解明に取り組んだ．<br/><br/><h2>1．DNA二本鎖切断タンパク質はDSBC複合体とSFT複合体を構成しMde2がこの複合体2つを結びつける</h2><br/>　分裂酵母ではSpo11のホモログであるRec12のほか，Rec6，Rec7，Rec14，Rec15，Rec24，Mde2がDNA二本鎖切断に必要な補助タンパク質として知られていたが，それぞれの役割はよくわかっていなかった．そこで，まず酵母ツーハイブリッド法，および，それぞれのタンパク質複合体の質量分析による解析により，分子間相互作用ネットワークを網羅的に明らかにした．その結果，これらのタンパク質は，Rec12を含むRec6-Rec12-Rec14（DSB core：DSBC）複合体と，Rec7-Rec15-Rec24（seven, fifteen, twenty-four：SFT）複合体を構成することがわかった．これら以外の第3のカテゴリーに属するMde2は，この2つの複合体にそれぞれ含まれるRec14およびRec15と相互作用することが示された．したがって，Mde2はDSBC複合体とSFT複合体とを結びつけるタンパク質であると推測された．また，それぞれのタンパク質の発現時期を調べたところ，SFT複合体の構成タンパク質はほかのタンパク質にさきがけ，S期の後半から発現することがわかった．このことから，SFT複合体はDNA二本鎖切断に先行して，なんらかの重要な役割をはたしている可能性が示唆された．<br/><br/><h2>2．軸を構成するタンパク質Rec10はSFT複合体を軸に呼び込む</h2><br/>　組換えのホットスポットは軸ではなくループに偏在している．ところが，さきに述べたとおり，軸もDNA二本鎖切断に決定的な役割をはたしている．分裂酵母ではさきにあげたDNA二本鎖切断タンパク質とは別に，Rec10という軸を構成するタンパク質のひとつがDNA二本鎖切断に必要である<a href="#R6"><sup>6)</sup></a>．DNA二本鎖切断の部位から空間的に隔たった軸が，どのようにしてDNA二本鎖切断を制御しているのであろうか？　このパラドックスを解決する仮説として，DNA二本鎖切断にさきだちループにあるホットスポットが一過的に軸に接触するという“軸-ループ連結”仮説が提唱されていた<a href="#R4"><sup>4)</sup></a>．この仮説をもとに，DNA二本鎖切断タンパク質と軸を構成するタンパク質とが相互作用する可能性を網羅的に検証した．その結果，SFT複合体の構成タンパク質であるRec15が，軸を構成するタンパク質Rec10と相互作用することを見い出した．Rec15とRec10の発現時期はともに軸とループとが相互作用すると考えられているS期であり，上記の仮説によく合致した．そこで，これらのタンパク質の染色体への局在化のタイミングやその分子機構について解析を進めた．<br/>　それぞれのタンパク質の局在を全ゲノムにおいて決定するため，クロマチン免疫沈降法（chromatin immunoprecipitation：ChIP）とゲノムタイリングアレイ法とを組み合わせたChIP-on-chip法を用いた．軸を構成するタンパク質であるRec10の結合部位を調べたところ，減数分裂期において染色体の全域に散在して結合がみられた．Rec10の結合はほとんどが軸を示すものであったが，慎重に観察するとホットスポットに結合する成分も認められた．Rec10はホットスポットへの直接的な結合が想定されない軸を構成するタンパク質である．したがって，この現象は軸とループにあるホットスポットが，おそらくDNA二本鎖切断タンパク質を介して相互作用した結果，Rec10がホットスポットに近接することになり，その帰結としてホットスポットにRec10が結合しているように観察されたと解釈することができた．この考えを検証する目的で，SFT複合体の構成タンパク質またはMde2を欠損させ，Rec10のホットスポットへの結合を調べた．その結果，予想どおり，これらの変異株ではRec10の軸への結合は影響をうけないのに対し，ホットスポットへの結合だけが特異的に消失することが確認された．また，DSBC複合体の構成タンパク質を欠損させた場合はRec10の分布に変化はみられなかった．以上の結果から，Rec10を含む軸は，SFT複合体およびMde2のはたらきを介してホットスポットと相互作用することが明らかになった．<br/>　この仮説をさらに補強する目的で，SFT複合体の構成タンパク質であるRec15の局在をくわしく解析した．その結果，Rec15はホットスポットのほか軸にも結合し，Rec10と非常によく似た局在を示すことがわかった．Rec10の欠損株においてRec15の局在を調べると，ホットスポットへの結合は保持される一方，軸における結合はほぼ完全に失われていた．この結果は，さきの仮説とは矛盾しなかった．また，この結果から，SFT複合体の軸への結合にはRec10が重要であること，また，SFT複合体のホットスポットへの結合には別のタンパク質が必要であることが明らかになった．<br/><br/><h2>3．DNA複製の完了をまって発現するMde2</h2><br/>　SFT複合体がホットスポットに結合するしくみについて解析を行った．まず，SFT複合体の構成タンパク質であるRec7あるいはRec24を欠損させ，もうひとつのSFT複合体の構成タンパク質Rec15の染色体における局在がどのように変化するかを調べた．その結果，Rec15の軸への結合は保持されていたが，ホットスポットへの結合は大きく減少していた．この結果から，SFT複合体を構成するそれぞれのタンパク質は，複合体を形成してはじめてホットスポットに結合することが推測された．<br/>　SFT複合体を安定化しホットスポットに結合させるタンパク質として，Mde2に注目した．解析の結果，Mde2は軸にはほとんど結合しておらず，おもにホットスポットに局在することがわかった．興味深いことに，Mde2の欠損株ではSFT複合体の安定性が著しく損なわれ，Rec15のホットスポットへの結合は消失した．一方，Rec15を欠損させると，Mde2もSFT複合体と同様にホットスポットに結合できなくなった．これらの結果から，Mde2はSFT複合体を安定化し，高次の複合体の形成をつうじてホットスポットに結合することが示唆された．<br/>　<em>mde2</em><sup>+</sup>遺伝子はDNA複製の完了ののち転写されると報告されていた<a href="#R8"><sup>8)</sup></a>．ヒドロキシ尿素のようなDNA複製阻害剤を添加すると，S期チェックポイントが活性化され，その下流にある転写因子の発現が抑制されることで，<em>mde2</em><sup>+</sup>遺伝子の転写が抑制される．そこで，DNA複製阻害剤で処理したときのすべてのDNA二本鎖切断タンパク質およびRec10の存在量をイムノブロット法により調べた．その結果，DNA複製阻害剤の処理によりMde2だけは発現しなかったが，ほかのすべてのタンパク質（Rec6，Rec7，Rec12，Rec14，Rec15，Rec24，Rec10）は発現が確認された．以上の結果から，DNA複製の完了ののち“軸とホットスポットとの連結”を保障するMde2が発現し，染色体の高次構造の構築が完了するというスキームが明らかになった．<br/><br/><h2>4．3つの異なるプロセスを連係させるリエゾンタンパク質Mde2</h2><br/>　Mde2はSFT複合体とともにホットスポットへ呼び込まれて結合した．そして，Mde2はSFT複合体のみならず，DSBC複合体の構成タンパク質であるRec14とも相互作用した．DSBC複合体の構成タンパク質の欠損株では，SFT複合体および軸を構成するタンパク質Rec10の局在は変化しなかった．以上を総合すると，DSBC複合体はSFT複合体とは独立に構築され，SFT複合体とMde2により形成された軸-ループ複合体を着地点として最終的に呼び込まれると考えることができた．この仮説を検証する目的で，Mde2の欠損株におけるDSBC複合体の構成タンパク質Rec12のホットスポットへの結合を調べたところ，その結合にはMde2が必要であることがわかった．<br/>　以上の結果をまとめると，つぎのようなモデルが考えられた（<a href="#F2">図2</a>）．減数分裂期に入るとDNAの複製がはじまり，減数分裂の進行に重要な染色体の高次構造である軸とループが形成される．このとき，Rec10が軸へと結合し，つづいてここにSFT複合体の一部であるRec15が呼び込まれる．S期チェックポイントがDNA複製の完了を検知してMde2の発現を誘導する．そののち，Mde2がSFT複合体の安定化をつうじて軸とループにあるホットスポットを連結し，軸-ループ複合体を形成する．最後に，Mde2を介してDSBC複合体がホットスポットに呼び込まれ，DNA二本鎖切断が導入される．このようなはたらきをするMde2を，“結びつける”というフランス語liaisonにちなみ，“リエゾニン”（liaisonin）と名づけた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　リエゾンタンパク質Mde2によりDNA複製と染色体の高次構造の変化とが連係してDNA組換えが開始されるモデル</strong><br/>Rec6，Rec7，Rec10，Rec12，Rec14，Rec15，Rec24は，数字のみで示した．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ohta-Molecular-Cell-12.8.23-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　リエゾンタンパク質Mde2によりDNA複製と染色体の高次構造の変化とが連係してDNA組換えが開始されるモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ohta-Molecular-Cell-12.8.23-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ohta-Molecular-Cell-12.8.23-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　減数分裂期におけるDNA組換えは，つねにリスクととなりあわせのプロセスともいえる．たとえば，ヒトなど高等真核生物のゲノムDNAには反復配列が非常に高頻度で現われるため，DNAの複製のまえにDNA二本鎖切断が導入されると，相同組換えによりヘテロ接合性喪失（loss of heterozygosity）や染色体の転座あるいは欠失をひき起こしかねない．リエゾニンの存在は，そのような危険性を回避するうえできわめて意義が大きいと思われる．<br/>　今回，分裂酵母を用いてリエゾニンの存在を示したが，種々の状況証拠から，多くの真核生物に共通した分子機構が存在するものと考えられる．今回，データベースの検索からはMde2のホモログは見い出せなかったが，多くのDNA二本鎖切断タンパク質は進化的に保存されていることが明らかになりつつある<a href="#R9"><sup>9,10)</sup></a>．今後，構造生物学的あるいは機能解析的な手法からリエゾニンのオーソログが発見されるだろう．<br/>　遺伝子内領域において頻繁に組換えが起こると，重篤な変異が簡単に伝播してしまうだろう．興味深いことに，多くの場合，組換えのホットスポットは遺伝子内領域ではなく遺伝子間領域に位置する．軸を構成するタンパク質Rec10の欠損株でもSFT複合体は依然としてホットスポットに結合したことから，ホットスポットには，それ自体を規定するある種の情報（メタ情報）が存在するに違いない．このようなメタ情報については，ヒストンの化学修飾などによるエピゲノム修飾の重要性が示唆されている．Mde2とSFTとの複合体がどのようなメタ情報を認識してホットスポットを形成しているのか，新たな研究課題が提起されたといえる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Bergerat, A., de Massy, B., Gadelle, D. et al.</span>: <span class="ti">An atypical topoisomerase II from Archaea with implications for meiotic recombination.</span> <span class='so'>Nature, 386, 414-417 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9121560" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Keeney, S., Giroux, C. N. & Kleckner, N.</span>: <span class="ti">Meiosis-specific DNA double-strand breaks are catalyzed by Spo11, a member of a widely conserved protein family.</span> <span class='so'>Cell, 88, 375-384 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9039264" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Klein, F., Mahr, P., Galova, M. et al.</span>: <span class="ti">A central role for cohesins in sister chromatid cohesion, formation of axial elements, and recombination during yeast meiosis.</span> <span class='so'>Cell, 98, 91-103 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10412984" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Blat, Y., Protacio, R. U., Hunter, N. et al.</span>: <span class="ti">Physical and functional interactions among basic chromosome organizational features govern early steps of meiotic chiasma formation.</span> <span class='so'>Cell, 111, 791-802 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12526806" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kugou, K., Fukuda, T., Yamada, S. et al.</span>: <span class="ti">Rec8 guides canonical Spo11 distribution along yeast meiotic chromosomes.</span> <span class='so'>Mol. Biol. Cell, 20, 3064-3076 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19439448" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Ellermeier, C. & Smith, G. R.</span>: <span class="ti">Cohesins are required for meiotic DNA breakage and recombination in <em>Schizosaccharomyces pombe</em>.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 102, 10952-10957 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16043696" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Kleckner, N.</span>: <span class="ti">Chiasma formation: chromatin/axis interplay and the role(s) of the synaptonemal complex.</span> <span class='so'>Chromosoma, 115, 175-194 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16555016" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Ogino, K. & Masai, H.</span>: <span class="ti">Rad3-Cds1 mediates coupling of initiation of meiotic recombination with DNA replication. Mei4-dependent transcription as a potential target of meiotic checkpoint.</span> <span class='so'>J. Biol. Chem., 281, 1338-1344 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16286472" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Steiner, S., Kohli, J. & Ludin, K.</span>: <span class="ti">Functional interactions among members of the meiotic initiation complex in fission yeast.</span> <span class='so'>Curr. Genet., 56, 237-249 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20364342" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Kumar, R., Bourbon, H. M. & de Massy, B.</span>: <span class="ti">Functional conservation of Mei4 for meiotic DNA double-strand break formation from yeasts to mice.</span> <span class='so'>Genes Dev., 24, 1266-1280 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20551173" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">三好 知一郎（Tomoichiro Miyoshi）</span><br>略歴：2004年 東京工業大学大学院生命理工学研究科博士課程 修了，京都大学大学院生命科学研究科 ポスドク，東京大学大学院総合文化研究科 ポスドクを経て，米国Michigan大学 ポスドク．<br><br><strong>伊藤  将（Masaru Ito）</strong><br>東京大学大学院総合文化研究科博士課程 在学中．<br><br><strong>太田 邦史（Kunihiro Ohta）</strong><br>東京大学大学院総合文化研究科 教授．<br>研究室URL：<a href="http://www.ohta-lab.c.u-tokyo.ac.jp/index.html" target="_blank">http://www.ohta-lab.c.u-tokyo.ac.jp/index.html</a><br></div><br>© 2012 三好知一郎・伊藤 将・太田邦史 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

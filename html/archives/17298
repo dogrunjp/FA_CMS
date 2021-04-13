@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ヒトのiPS細胞に由来するエリスロポエチン産生細胞はマウスにおいて腎性貧血を改善する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>ヒトのiPS細胞に由来するエリスロポエチン産生細胞はマウスにおいて腎性貧血を改善する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>人見浩史・長船健二</strong><br>（京都大学iPS細胞研究所 増殖分化機構研究部門）<br>email：<a href="mailto:osafu@cira.kyoto-u.ac.jp">長船健二</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.115">10.7875/first.author.2017.115</a><br><div class="reference"><br><span class="ti">Human pluripotent stem cell-derived erythropoietin-producing cells ameliorate renal anemia in mice.</span><br><span class="au">Hirofumi Hitomi, Tomoko Kasahara, Naoko Katagiri, Azusa Hoshina, Shin-Ichi Mae, Maki Kotaka, Takafumi Toyohara, Asadur Rahman, Daisuke Nakano, Akira Niwa, Megumu K. Saito, Tatsutoshi Nakahata, Akira Nishiyama, Kenji Osafune</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28954928" target="_blank"><em>Science Translational Medicine</em>, <strong>9</strong>, eaaj2300 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　腎不全の患者は造血ホルモンであるエリスロポエチンの産生が低下するため腎性貧血をきたす．現在，用いられているヒト遺伝子組換えエリスロポエチン製剤の間歇的な投与では腎性貧血の生理的な制御はむずかしいため，新規の治療法が切望されている．筆者らは，ヒトのiPS細胞を肝細胞の系譜へと分化を誘導することによりエリスロポエチンを産生する細胞を作製した．このエリスロポエチン産生細胞は低酸素状態に応答してエリスロポエチンを産生し細胞外へと分泌した．同じ方法を用いて，ヒトのES細胞，マウスのiPS細胞およびES細胞からもエリスロポエチン産生細胞が作製された．さらに，腎性貧血の経口治療薬として開発中のプロリン水酸化酵素阻害剤の投与によりエリスロポエチンの産生は増加した．また，エリスロポエチン産生細胞の培養上清は，コロニーアッセイにおいてヒトの臍帯血から得たCD34陽性の造血前駆細胞を赤芽球へと分化させ，腎性貧血のモデルマウスにおいて貧血を改善した．さらに，エリスロポエチン産生細胞を腎性貧血状態の免疫不全マウスの腎被膜下に移植したところ，生着および腎性貧血の改善が認められた．iPS細胞に由来するエリスロポエチン産生細胞は，エリスロポエチンの産生機序の解明など基礎的な研究にくわえ，腎性貧血に対する新規の治療薬および再生医療の開発に有用と考えられる．<br/><br/><h2>はじめに</h2><br/>　腎臓の主要な機能のひとつは骨髄において赤血球系の造血を制御するエリスロポエチンを産生および分泌することであり，種々の原因により腎臓の機能が低下するとエリスロポエチンの分泌が減少するため腎性貧血をきたす．末期の腎不全の患者の約9割が遺伝子組換え技術により合成されたヒトのエリスロポエチン製剤の投与をうけており，これにより腎性貧血の制御は比較的容易になり非常に有効な治療であるといえる．しかしながら，使用量の増大による医療費の圧迫，間歇的な投与による赤血球数の変動，抗エリスロポエチン抗体の産生による薬剤不応などの問題がある．そこで，従来のエリスロポエチン製剤に代わる腎性貧血の新しい治療法の研究が進んでいる．一方，iPS細胞はさまざまな組織や臓器を構成する細胞への分化が可能な多能性幹細胞であり<a href="#R1"><sup>1)</sup></a>，再生医療の実現において重要な役割をはたすと期待されている．これまで，iPS細胞は種々の刺激をくわえることによりニューロン，心筋細胞，肝細胞などに分化することが報告されている．近年，筆者らを含む複数の研究グループにより，腎臓を構成する細胞の分化についても報告されており<a href="#R2"><sup>2)</sup></a>，腎臓を含む再生医療に期待が高まっている．しかしながら，これまで，ヒトのiPS細胞からエリスロポエチン産生細胞への分化を誘導した報告はなかった．<br/><br/><h2>1．ヒトのiPS細胞からエリスロポエチン産生細胞への分化の誘導</h2><br/>　エリスロポエチン産生細胞は腎尿細管の近傍に存在することが報告されていたが<a href="#R3"><sup>3)</sup></a>，その起源について多くはわかっていなかった．また，エリスロポエチン産生細胞が存在するとされる腎間質細胞について，iPS細胞からの分化の誘導はほとんど報告されていなかった．一方，エリスロポエチンは胎生期には肝臓にて産生され，出生ののちには腎臓のエリスロポエチン産生細胞がその役割を担う．肝臓におけるエリスロポエチンの産生は，重度の貧血などの病態のほかには，出生ののちにほぼ消失すると考えられている．筆者らは，この点に着目し，これまで報告のあったヒトのiPS細胞から肝細胞の系譜へと分化を誘導する方法<a href="#R4"><sup>4)</sup></a> を改良することにより，エリスロポエチンを産生する細胞へと分化を誘導することに成功した．肝細胞は成熟化するとエリスロポエチンの産生が減少することがわかり，肝芽細胞の段階にとどめることにより持続的なエリスロポエチンの産生が確認された．この方法により，ヒトの8種類のiPS細胞株から同様にエリスロポエチン産生細胞が分化することが確認され，さらには，ヒトの2種類のES細胞株にも適用が可能であった．また，マウスのiPS細胞およびES細胞からもエリスロポエチン産生細胞が分化した．拡大培養法を開発してエリスロポエチン産生細胞を継代することにより，約70日間の維持培養が可能であった．さらに，IGF1の刺激によりエリスロポエチンの産生は増加した．<br/><br/><h2>2．エリスロポエチンの産生の機序</h2><br/>　一般に，エリスロポエチンは貧血により産生が亢進し，その機序として低酸素の感知による制御が考えられている．ヒトのiPS細胞から分化させたエリスロポエチン産生細胞は，酸素濃度1％の低酸素の刺激に応答してエリスロポエチンを産生し細胞外へと分泌した．この結果から，ヒトのiPS細胞に由来するエリスロポエチン産生細胞は生体内と同様の生理的なエリスロポエチンの産生制御の機構をもつ可能性が示唆された．また，腎性貧血の治療薬として臨床への応用が期待されているプロリン水酸化酵素阻害剤<a href="#R5"><sup>5)</sup></a> をエリスロポエチン産生細胞に投与したところ，エリスロポエチンの分泌量は増加した．エリスロポエチンの産生の培養細胞による実験モデルとしてこれまで用いられることの多かったHepG2細胞においては，プロリン水酸化酵素阻害剤による応答は認められなかった．これらの結果から，iPS細胞に由来するエリスロポエチン産生細胞は，基礎的な研究の面ではその産生の機序の解明に，そして，臨床への応用として貧血の新しい治療薬を開発するツールとして使用できることが明らかにされた．<br/><br/><h2>3．エリスロポエチン産生細胞の培養上清の赤血球系の造血への効果</h2><br/>　エリスロポエチンのもっとも重要なはたらきは，骨髄における赤血球系の造血を促進することである．エリスロポエチン産生細胞の培養上清に分泌されたエリスロポエチンの造血作用について，メチルセルロース半固形培地を用いた造血前駆細胞の<em>in vitro</em>におけるコロニー形成アッセイ，および，アデニンの経口投与により作製した腎性貧血のマウスモデルへの皮下投与により評価した．その結果，コロニー形成アッセイにおいてエリスロポエチン産生細胞の培養上清はヒトの臍帯血から得たCD34陽性の造血前駆細胞を赤芽球へと分化させた．この効果は抗エリスロポエチン中和抗体により抑制されたことから，培養上清中のエリスロポエチンによる作用であると考えられた．また，腎性貧血のモデルマウスにおいてエリスロポエチン産生細胞の培養上清はヒト遺伝子組換えエリスロポエチン製剤と同等以上の貧血の改善効果を発揮した．一方，白血球や血小板の数には影響はなかった．これらの結果から，iPS細胞に由来するエリスロポエチン産生細胞からは赤血球系の造血作用をもつエリスロポエチンが産生されることが示された．<br/><br/><h2>4．エリスロポエチン産生細胞を用いた細胞療法</h2><br/>　臨床への応用を考慮し生理的な腎性貧血の治療を目的として，ヒトのiPS細胞に由来するエリスロポエチン産生細胞の細胞療法について検討した．免疫不全マウスにアデニンを経口投与することにより慢性腎不全および腎性貧血のモデルマウスを作製した．このマウスの腎被膜下にヒトのiPS細胞から分化させたエリスロポエチン産生細胞を移植したところ，約7カ月間の長期間にわたり貧血の改善が認められた．細胞の移植により多血症を呈することはなく，赤血球の数は正常な範囲にとどまっていた．移植片において宿主のマウスに由来する血管が新生されていることは，免疫組織化学染色法およびヘマトキシリン-エオシン染色法により確認された．ヒトのiPS細胞から分化させたエリスロポエチン産生細胞をマウスに移植することにより，エリスロポエチンが生理的な制御により分泌され腎性貧血が改善されたことから，このエリスロポエチン産生細胞を用いた細胞療法の可能性が示された．<br/><br/><h2>おわりに</h2><br/>　慢性腎臓病の患者の増加にともないヒト遺伝子組換えエリスロポエチン製剤の需要は増加しているが，腎性貧血のより生理的な新規の治療法が切望されている．また，これまで，エリスロポエチン産生細胞の単離や維持培養法が確立されていなかったため，現状では培養実験は十分に行えていなかった．この研究により確立されたエリスロポエチン産生細胞の分化の誘導は，基礎的な研究において詳細が明らかにされていないエリスロポエチン産生および分泌の機序の解明に有用である．さらに，臨床への応用において腎性貧血の新規の治療薬の開発や薬効の評価，iPS細胞を用いた腎性貧血の生理的な細胞療法の可能性を期待させる重要な知見と考えられる（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　エリスロポエチン産生細胞の赤血球系の造血への効果</strong><br/>ヒトのiPS細胞を肝細胞の系譜へと分化を誘導し，エリスロポエチン産生細胞を作製した．エリスロポエチン産生細胞の培養上清はコロニーアッセイにおいて赤血球系の造血を促進し腎性貧血のモデルマウスにおいて貧血を改善した．エリスロポエチン産生細胞を腎性貧血状態の免疫不全マウスの腎被膜下に移植したところ，腎性貧血の改善が認められた．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Osafune-Science-Translational-Medicine-17.9.27-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　エリスロポエチン産生細胞の赤血球系の造血への効果" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Osafune-Science-Translational-Medicine-17.9.27-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Osafune-Science-Translational-Medicine-17.9.27-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Takahashi, K., Tanabe, K., Ohnuki, M. et al.</span>: <span class="ti">Induction of pluripotent stem cells from adult human fibroblasts by defined factors.</span> <span class='so'>Cell, 131, 861-872 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18035408" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Mae, S., Shono, A., Shiota, F. et al.</span>: <span class="ti">Monitoring and robust induction of nephrogenic intermediate mesoderm from human pluripotent stem cells.</span> <span class='so'>Nat. Commun., 4, 1367 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23340407" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Obara, N., Suzuki, N., Kim, K. et al.</span>: <span class="ti">Repression via the GATA box is essential for tissue-specific erythropoietin gene expression.</span> <span class='so'>Blood, 111, 5223-5232 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18202227" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Kajiwara, M., Aoi, T., Okita, K. et al.</span>: <span class="ti">Donor-dependent variations in hepatic differentiation from human-induced pluripotent stem cells.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 109, 12538-12543 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22802639" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Wyatt, C. M. & Drueke, T. B.</span>: <span class="ti">HIF stabilization by prolyl hydroxylase inhibitors for the treatment of anemia in chronic kidney disease.</span> <span class='so'>Kidney Int., 90, 923-925 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27742192" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">人見 浩史（Hirofumi Hitomi）</span><br>略歴：2000年 香川大学大学院医学系研究科 修了，2002年 香川大学医学部 助教，2003年 米国Emory大学 ポスドク，2005年 香川大学医学部 助教を経て，2017年より同 准教授．<br>研究テーマ：iPS細胞を用いた腎臓の再生および細胞療法の開発．<br><br><strong>長船 健二（Kenji Osafune）</strong><br>京都大学iPS細胞研究所 教授．<br>研究室URL：<a href="http://www.cira.kyoto-u.ac.jp/osafune/" target="_blank">http://www.cira.kyoto-u.ac.jp/osafune/</a><br></div><br>© 2017 人見浩史・長船健二 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

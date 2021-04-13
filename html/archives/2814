@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> マウスRasgrf1遺伝子のインプリンティングとDNAメチル化にはpiRNAおよびその標的となる非コードRNAが必要である : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>マウス<em>Rasgrf1</em>遺伝子のインプリンティングとDNAメチル化にはpiRNAおよびその標的となる非コードRNAが必要である</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>佐々木裕之<sup>1</sup>・渡部聡朗<sup>2</sup></strong><br>（<sup>1</sup>九州大学生体防御医学研究所 エピゲノム学分野，<sup>2</sup>米国Yale大学School of Medicine，Department of Cell Biology）<br>email：<a href="mailto:hsasaki@bioreg.kyushu-u.ac.jp">佐々木裕之</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.087">10.7875/first.author.2011.087</a><br><div class="reference"><br><span class="ti">Role for piRNAs and noncoding RNA in de novo DNA methylation of the imprinted mouse <em>Rasgrf1</em> locus.</span><br><span class="au">Toshiaki Watanabe, Shin-ichi Tomizawa, Kohzoh Mitsuya, Yasushi Totoki, Yasuhiro Yamamoto, Satomi Kuramochi-Miyagawa, Naoko Iida, Yuko Hoki, Patrick J. Murphy, Atsushi Toyoda, Kengo Gotoh, Hitoshi Hiura, Takahiro Arima, Asao Fujiyama, Takashi Sado, Tatsuhiro Shibata, Toru Nakano, Haifan Lin, Kenji Ichiyanagi, Paul D. Soloway, Hiroyuki Sasaki</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21566194" target="_blank"><em>Science</em>, <strong>332</strong>, 848-852 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　インプリンティングは雌雄の生殖細胞で確立されるDNAメチル化の違いにもとづき両親に由来する対立遺伝子のうち一方だけが発現する現象である．インプリンティングは哺乳類の正常な発生に必須で，その異常は奇形症候群や腫瘍を起こす．しかしながら，生殖細胞においてどのような機構により特定の遺伝子が選ばれDNAメチル化されているのかはほとんどわかっていない．筆者らは，レトロトランスポゾンを抑制するpiRNA経路がマウスのインプリント遺伝子<em>Rasgrf1</em>のDNAメチル化に必須であることをみつけた．この遺伝子のインプリンティングには雄の生殖細胞におけるDNAメチル化が必要だが，<em>Rasgrf1</em>遺伝子とは別の染色体に存在するレトロトランスポゾン配列から産生されるpiRNAが，<em>Rasgrf1</em>遺伝子の制御領域から転写される非コードRNAと相互作用していることが明らかになった．筆者らは，piRNAが非コードRNAとの相互作用を介してDNAメチル化酵素を特定の配列へとリクルートするモデルを提唱した．<br/><br/><h2>はじめに</h2><br/>　ゲノムインプリンティング（以下，インプリンティング）をうける遺伝子の近傍にはメチル化可変領域（differentially methylated region：DMR）とよばれる領域があり，この領域のDNAメチル化の状態が対立遺伝子に特異的な発現を制御している．メチル化可変領域における両親に由来するDNAメチル化の違いは雌雄の生殖細胞において確立され，これが受精卵にもち込まれて維持されたものである<a href="#R1"><sup>1,2)</sup></a>．しかしながら，雌雄の生殖細胞においてどのような機構で特定の遺伝子が選ばれDNAメチル化されているのかはほとんどわかっていない．<br/>　胎生12.5日の始原生殖細胞においてメチル化可変領域はDNA脱メチル化状態であり（インプリントは消去されている），そののち，雄の生殖細胞系列では胎生12.5～18.5日の前精原細胞（または，ゴノサイトとよばれる）において新規のDNAメチル化が起こる（インプリントが確立される）．マウスの<em>Rasgrf1</em>遺伝子はこのように雄の生殖細胞でDNAメチル化されるインプリント遺伝子である<a href="#R3"><sup>3)</sup></a>（<a href="#F1">図1</a>）．一方，雄の生殖細胞の発生過程においてメチル化可変領域がDNAメチル化される時期は，IAPやLINE-1（または，L1）などのレトロトランスポゾン配列がDNAメチル化される時期と一致する<a href="#R3"><sup>3)</sup></a>．これらレトロトランスポゾン配列のDNAメチル化には，DNAメチル化酵素Dnmt3aおよびDnmt3bと，PIWIタンパク質，および，piRNA（PIWI-interacting RNApiRNA）が必要であることがわかっている<a href="#R3"><sup>3-5)</sup></a>．piRNAは24～30ヌクレオチド程度の生殖巣に特異的なRNAでPIWIタンパク質と結合する．PIWIタンパク質はpiRNAをガイドとして標的RNA（おもに，レトロトランスポゾン配列に由来）を認識し分解するが，レトロトランスポゾン配列のDNAメチル化にもかかわっている．しかし，その機構は不明である．DNAメチル化酵素Dnmt3aのみでDNAメチル化されるおおかたのインプリント遺伝子とは異なり，<em>Rasgrf1</em>遺伝子のDNAメチル化には別のDNAメチル化酵素Dnmt3bもかかわることがわかっている<a href="#R3"><sup>3,6)</sup></a>．そこで，筆者らは，piRNAの生合成および作用経路が<em>Rasgrf1</em>遺伝子のDNAメチル化とインプリンティングの特異性の決定にかかわるのではないかとの仮説をたてた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　マウス<em>Rasgrf1</em>遺伝子のインプリンティングの模式図</strong><br/>DMR：メチル化可変領域．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasaki-Science-11.5.13-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　マウス<em>Rasgrf1</em>遺伝子のインプリンティングの模式図" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasaki-Science-11.5.13-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasaki-Science-11.5.13-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．<em>Rasgrf1</em>遺伝子のDNAメチル化にはpiRNA経路が必要である</h2><br/>　生殖細胞におけるメチル化可変領域のDNAメチル化にpiRNAがかかわるかどうかを調べるため，<em>Mili</em>遺伝子，<em>Miwi2</em>遺伝子，<em>MitoPLD</em>遺伝子の変異マウスを解析した．<em>Mili</em>遺伝子と<em>Miwi2</em>遺伝子はPIWIファミリーのメンバーを，<em>MitoPLD</em>遺伝子はミトコンドリア膜に存在するホスホリパーゼをコードしており，これらの変異マウスでは精巣のpiRNAが減少し減数分裂期に精子の形成が停止する<a href="#R5"><sup>5,7)</sup></a>．変異マウスの精原細胞において<em>H19</em>遺伝子，<em>Dlk1</em>遺伝子-<em>Gtl2</em>遺伝子，<em>Gpr1</em>遺伝子-<em>Zdbf2</em>遺伝子，<em>Rasgrf1</em>遺伝子のメチル化可変領域（すべて，雄の生殖細胞においてDNAメチル化される）を調べたところ，<em>Rasgrf1</em>遺伝子のメチル化可変領域においてのみDNAメチル化レベルの低下がみられた．影響をうけたのはCpG配列が比較的密に存在する約2 kbの領域で，野生型の精原細胞では77.2～93.4％がDNAメチル化されていたのに対し，<em>Mili</em>変異体で23.3％，<em>Miwi2</em>変異体で58.6％，<em>MitoPLD</em>変異体では16.8％がDNAメチル化されていた．この領域のDNAメチル化が<em>Rasgrf1</em>遺伝子のインプリンティングに必須であることはすでに示されており<a href="#R8"><sup>8)</sup></a>，今回の結果は，piRNAが<em>Rasgrf1</em>遺伝子のインプリンティングに関与することを遺伝学的に証明するものであった．<br/><br/><h2>2．<em>Rasgrf1</em>遺伝子のメチル化可変領域にマップされるpiRNAの解析</h2><br/>　つぎに，マウス胎仔の精巣から小分子RNAライブラリーを作製し超高速シークエンサーによる網羅的な配列解析を行った．<em>Mili</em>変異体，<em>Miwi2</em>変異体，<em>MitoPLD</em>変異体の3つのpiRNA経路の変異体ではいずれもpiRNAの減少がみられたが，その程度はさきに述べたDNAメチル化の低下とおおまかに相関していた．野生型マウスに由来するpiRNAの配列をくわしく調べたところ，得られた約150万の配列のうち21個が<em>Rasgrf1</em>遺伝子のメチル化可変領域にユニークにマップされ，かつ，メチル化可変領域の片方の鎖側の配列と完全に一致していた．この21個の配列は<em>MitoPLD</em>変異体の精巣には存在しなかったことからpiRNAであることがわかった．piRNAは長い1本鎖からなる前駆体RNAが切断をうけ加工されてつくられるので，胎仔の精巣にはこのメチル化可変領域から転写されるRNAがあるものと推測された．<br/>　一方，最高2カ所まで配列の違いを許すと，これとは反対の鎖側の狭い領域に数百個のpiRNAがマップされることがわかった．非常に興味深いことに，その領域にはRMER4Bとよばれるレトロトランスポゾン配列が存在していた．RMER4Bはマウスゲノムに数千コピー存在するLTR型レトロトランスポゾンである．この数百個のpiRNAの由来を調べたところ，<em>Rasgrf1</em>遺伝子（第9染色体）とは異なる染色体（第7染色体）に存在するあるひとつのRMER4Bのコピーと配列が完全に一致すること，また，ほかには配列の完全に一致するコピーはないことがわかった．このRMER4Bのコピーを含む第7染色体の領域には多種多様なレトロトランスポゾン配列が存在しており，piRNAの一大生産地となっていた．<br/>　この数百個のpiRNAの配列と<em>Rasgrf1</em>遺伝子のメチル化可変領域に由来するpiRNAの配列とを比較すると，多くが10ヌクレオチドの相補性をもっていた．これは，いわゆるピンポンサイクルとよばれるpiRNAの産生サイクルがはたらいていることを示す<a href="#R9"><sup>9,10)</sup></a>．すなわち，ここでは第7染色体から産生されたpiRNAがPIWIタンパク質（MILIなど）に取り込まれ，これが<em>Rasgrf1</em>遺伝子のメチル化可変領域に由来する標的RNAを認識し切断することで2次piRNAがつくられているものと考えられた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　レトロトランスポゾンRMER4Bに由来するpiRNAを産生するピンポンサイクル</strong><br/>DMR：メチル化可変領域．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasaki-Science-11.5.13-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　レトロトランスポゾンRMER4Bに由来するpiRNAを産生するピンポンサイクル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasaki-Science-11.5.13-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasaki-Science-11.5.13-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．piRNAの標的となる非コードRNAの役割</h2><br/>　<em>Rasgrf1</em>遺伝子のメチル化可変領域から転写されるRNAを検出するため，野生型マウスの胎仔の精巣サンプルを用いてRT-PCR法による解析を試みた．その結果，2次piRNAと同一の鎖側に少なくとも2 kbのRNAが存在していることがわかった．このRNAはタンパク質をコードしない非コードRNAであり，胎生12.5日の始原生殖細胞と16.5日の前精原細胞には存在するが胎仔期の精巣の体細胞や生後の精巣には存在せず，卵巣およびさまざまな体細胞組織でも検出されなかった．すなわち，胎仔期の生殖細胞に特異的に存在していた．筆者らは，このRNAをpiRNA-targeted noncoding RNA（pit-RNA）と名づけた．<br/>　つぎに，5’RACE法（RACE：rapid amplification of cDNA ends）の変法を用いてpit-RNAに存在する2次piRNA産生のための切断点の検出を試みたところ，主要な切断点のひとつが確認できた．<em>MitoPLD</em>変異体ではこの切断によってできる断片は検出されず，切断をうけていないpit-RNAの量が約5倍に増加していた．これらの結果は，切断がpiRNAに依存的であることを強く支持した．<br/>　一方，完全長のpit-RNAを5’RACE法により解析したところ，<em>Rasgrf1</em>遺伝子のメチル化可変領域に隣接するタンデムリピート（直列型の反復配列）に転写開始点のあることがわかった．このタンデムリピートは<em>Rasgrf1</em>遺伝子のインプリンティングに必須であり，これを欠失すると雄の生殖細胞におけるメチル化可変領域のDNAメチル化が起こらないことが示されている<a href="#R8"><sup>8)</sup></a>．この欠失がpit-RNAの転写を失わせるのではないかと考え，このタンデムリピートを欠損したマウスの前精原細胞を調べたところ確かにpit-RNAが激減していた．このことは，pit-RNAがメチル化可変領域のDNAメチル化に重要なはたらきをしている可能性を示唆した．<br/><br/><h2>4．想定されるモデル</h2><br/>　以上より，1）雄の生殖細胞における<em>Rasgrf1</em>遺伝子のメチル化可変領域のDNAメチル化にはpiRNA経路が必要で，2）pit-RNAも関与しており，3）piRNAとpit-RNAとは少なくとも細胞質において直接に相互作用する（ピンポンサイクル），ことがわかった．筆者らは，3）の知見を核内まで延長し，<em>Rasgrf1</em>遺伝子のメチル化可変領域において転写されつつある新生pit-RNAをpiRNA-PIWI複合体が認識し，これがなんらかのシグナルとなってDNAメチル化酵素が配列に特異的にリクルートされる，というモデルを提唱した（<a href="#F3">図3</a>）．このモデルは，分裂酵母やシロイヌナズナにおいてsiRNA（small interfering RNA）が配列に特異的にエピジェネティックな遺伝子サイレンシングを起こす機構とつうじる．<em>Rasgrf1</em>遺伝子のインプリンティングは哺乳類のなかでマウスとラットにのみみられるが，これらの種の特徴は<em>Rasgrf1</em>遺伝子のメチル化可変領域にRMER4Bのコピーとさきに述べたタンデムリピートが存在することである．また，このタンデムリピートの欠失がシスに隣接する領域に影響をあたえること<a href="#R8"><sup>8)</sup></a> は新生pit-RNAの役割と一致した．これらの観察結果は筆者らのモデルを支持していた．<br/><br/><a name="F3"></a><div id="fig3-caption-text" style="display: none;"><strong>図3　転写している新生pit-RNAを介したDNAメチル化機構のモデル</strong><br/>DMR：メチル化可変領域．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasaki-Science-11.5.13-Fig.3.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure3" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図3　転写している新生pit-RNAを介したDNAメチル化機構のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasaki-Science-11.5.13-Fig.3.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasaki-Science-11.5.13-Fig.3.jpg" alt="figure3" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig3-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig3-caption').innerHTML = document.getElementById('fig3-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　マウス<em>Rasgrf1</em>遺伝子のインプリンティングにレトロトランスポゾンの抑制機構であるpiRNA経路が必要であることがわかった．これは，進化の過程で既存の機構を借用し新たな機能を獲得した例なのであろう．<em>Rasgrf1</em>遺伝子は生後の成長を促進する遺伝子なので，その父由来で発現するパターン（新生仔の脳でみられる）はインプリンティングの進化に関するコンフリクト仮説と合致する<a href="#R11"><sup>11)</sup></a>．しかしながら，単にレトロトランスポゾン抑制機構に巻き込まれた傍観者（innocent bystander）であるという可能性も否定できない．<br/>　piRNA経路はヒトやマウスのゲノムの40％をしめるレトロトランスポゾン配列のDNAメチル化に必須だが，その標的認識機構はわかっていなかった．筆者らが提唱したモデルはこの過程にあてはまるであろう．レトロトランスポゾン配列がインプリンティングをうけないのは，<em>Rasgrf1</em>遺伝子とは異なり，受精ののちの大規模なDNA脱メチル化と新規のDNAメチル化の過程で両親からの由来に関して差がなくなるからであろう．一方，<em>Rasgrf1</em>遺伝子以外のインプリンティングにpiRNA経路は不必要だったことから，DNAメチル化酵素をリクルートする別の機構があるのは明らかである．<br/>　今回の発見は不妊，流産，遺伝病の解明に役立つほか，さらに筆者らが提示したDNAメチル化機構のモデルにさらに詳細がくわわれば，疾患治療や生命工学で特定の遺伝子を制御する技術につながる可能性がある．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Bartolomei, M. S.</span>: <span class="ti">Genomic imprinting: employing and avoiding epigenetic processes.</span> <span class='so'>Genes Dev., 23, 2124-2133 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19759261" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Sasaki, H. & Matsui, Y.</span>: <span class="ti">Epigenetic events in mammalian germ-cell development: reprogramming and beyond.</span> <span class='so'>Nat. Rev. Genet., 9, 129-140 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18197165" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Kato, Y., Kaneda, M., Hata, K. et al.</span>: <span class="ti">Role of the Dnmt3 family in <em>de novo</em> methylation of imprinted and repetitive sequences during male germ cell development in the mouse.</span> <span class='so'>Hum. Mol. Genet., 16, 2272-2280 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17616512" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Aravin, A. A., Sachidanandam, R., Bourc'his, D. et al.</span>: <span class="ti">A piRNA pathway primed by individual transposons is linked to <em>de novo</em> DNA methylation in mice.</span> <span class='so'>Mol. Cell, 31, 785-799 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18922463" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kuramochi-Miyagawa, S., Watanabe, T., Gotoh, K. et al.</span>: <span class="ti">DNA methylation of retrotransposon genes is regulated by Piwi family members MILI and MIWI2 in murine fetal testes.</span> <span class='so'>Genes Dev., 22, 908-917 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18381894" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Hirasawa, R., Chiba, H., Kaneda, M. et al.</span>: <span class="ti">Maternal and zygotic Dnmt1 are necessary and sufficient for the maintenance of DNA methylation imprints during preimplantation development.</span> <span class='so'>Genes Dev., 22, 1607-1616 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18559477" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Watanabe, T., Chuma, S., Yamamoto, Y. et al.</span>: <span class="ti">MITOPLD is a mitochondrial protein essential for nuage formation and piRNA biogenesis in the mouse germline.</span> <span class='so'>Dev. Cell, 20, 364-375 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21397847" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/2596" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R8"><span class='au'>Yoon, B. J., Herman, H., Sikora, A. et al.</span>: <span class="ti">Regulation of DNA methylation of <em>Rasgrf1</em>.</span> <span class='so'>Nat. Genet., 30, 92-96 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11753386" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Aravin, A. A., Hannon, G. J. & Brennecke, J.</span>: <span class="ti">The Piwi-piRNA pathway provides an adaptive defense in the transposon arms race.</span> <span class='so'>Science, 318, 761-764 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17975059" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Brennecke, J., Aravin, A. A., Stark, A. et al.</span>: <span class="ti">Discrete small RNA-generating loci as master regulators of transposon activity in <em>Drosophila</em>.</span> <span class='so'>Cell, 128, 1089-1103 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17346786" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Drake, N. M., Park, Y. J., Shirali, A. S. et al.</span>: <span class="ti">Imprint switch mutations at <em>Rasgrf1</em> support conflict hypothesis of imprinting and define a growth control mechanism upstream of IGF1.</span> <span class='so'>Mamm. Genome, 20, 654-663 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19513790" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">佐々木 裕之（Hiroyuki Sasaki）</span><br>略歴：1987年 九州大学大学院医学系研究科 修了，国立遺伝学研究所 教授を経て，2010年より九州大学生体防御医学研究所 教授．<br>研究テーマ：エピゲノムの制御機構．<br>関心事：自分の時間をつくりだすこと．趣味は歴史と芸術と旅行および桐の花の鑑賞．登山とテニスの再開が目下の関心事．<br>研究室URL：<a href="http://www.bioreg.kyushu-u.ac.jp/labo/epigenome/" target="_blank">http://www.bioreg.kyushu-u.ac.jp/labo/epigenome/</a><br><br><strong>渡部 聡朗（Toshiaki Watanabe）</strong><br>米国Yale大学School of MedicineにてPostdoctoral Fellow．<br></div><br>© 2011 佐々木裕之・渡部聡朗 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

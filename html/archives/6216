@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Cbln1は小脳において軸索にダイナミックな形態変化をひき起こしシナプスの成熟を促す : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>Cbln1は小脳において軸索にダイナミックな形態変化をひき起こしシナプスの成熟を促す</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>石田 綾<sup>1</sup>・柚崎通介<sup>2</sup>・岡部繁男<sup>1</sup></strong><br>（<sup>1</sup>東京大学大学院医学系研究科 神経細胞生物学，<sup>2</sup>慶應義塾大学医学部 生理学教室）<br>email：<a href="mailto:aitou-tky@umin.ac.jp">石田 綾</a>，<a href="mailto:myuzaki@keio.a5.jp">柚崎通介</a>，<a href="mailto:okabe@m.u-tokyo.ac.jp">岡部繁男</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.151">10.7875/first.author.2012.151</a><br><div class="reference"><br><span class="ti">Presynaptically released Cbln1 induces dynamic axonal structural changes by interacting with GluD2 during cerebellar synapse formation.</span><br><span class="au">Aya Ito-Ishida, Taisuke Miyazaki, Eriko Miura, Keiko Matsuda, Masahiko Watanabe, Michisuke Yuzaki, Shigeo Okabe</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23141067" target="_blank"><em>Neuron</em>, <strong>76</strong>, 549-564 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　発達期の脳において，興奮性シナプスはシナプス前部の軸索終末とシナプス後部のスパインとの相互作用を介して形成されると考えられている．一方，平行線維とプルキンエ細胞とのあいだのシナプスでは，スパインは軸索からの入力の有無とは関係なく自律的に形成されることが知られていた．しかし，このスパインの形成ののち，どのように平行線維の形態が変化し機能をもつシナプス前部が形成されるのかについては未解明であった．この研究において，筆者らは，平行線維とプルキンエ細胞とのあいだのシナプスの形成過程を可視化することに成功し，Cbln1がδ2型グルタミン酸受容体とニューレキシンとの相互作用を介して平行線維のダイナミックな形態変化をひき起こすことを発見した．平行線維とスパインとが接触しCbln1シグナルが活性化すると，平行線維から“小さな突起”が伸びてスパインを一過性にとりかこんだ．この過程にともないシナプス小胞とδ2型グルタミン酸受容体の集積が亢進したことから，小さな突起は正のフィードバック機構によりシナプスの成熟を促していることが示唆された．<br/><br/><h2>はじめに</h2><br/>　シナプスの形成過程はシナプス前部（軸索終末）とシナプス後部との相互作用により制御されていると考えられているが，そのくわしい分子機構については未解明な点が多い<a href="#R1"><sup>1,2)</sup></a>．海馬や大脳皮質の興奮性ニューロン（錐体細胞）にはシナプス後部にスパインがあり，このスパインシナプスの形成については<em>in vitro</em>の実験結果から2つのモデルが提唱されてきた<a href="#R1"><sup>1)</sup></a>．一方のモデルによると，軸索終末が樹状突起に接触しはたらきかけることによりシャフトシナプスをスパインに変換する．もう一方のモデルによれば，樹状突起のフィロポディアが軸索に接触しはたらきかけることによりシナプス前部の形成を促す．これら2つのモデルでは，シナプス前部とシナプス後部の成熟は同時に進行してシナプスは形成される．一方で，小脳のプルキンエ細胞は抑制性ニューロンだが，その樹状突起に多数のスパインシナプスを形成し，このスパインは軸索からの入力の有無とは関係なく自律的に形成される<a href="#R3"><sup>3)</sup></a>．そのため，プルキンエ細胞のシナプスは大脳皮質や海馬の錐体細胞とは異なる原理により形成されると考えられてきた．しかし，どのようにシナプス前部に形態変化が起こり機能するシナプスとして成熟するのかは不明であった．<br/>　Cbln1はC1qファミリーに属する分泌性のタンパク質であり，小脳の顆粒細胞において産生され分泌される<a href="#R4"><sup>4)</sup></a>．近年，Cbln1はδ2型グルタミン酸受容体およびニューレキシンと結合し，顆粒細胞の軸索である平行線維とプルキンエ細胞とのあいだのシナプス（平行線維シナプス）の形成に必要であることが示された<a href="#R5"><sup>5-7)</sup></a>．Cbln1は個体レベルにおけるシナプスの形成および維持に必須であり，Cbln1ノックアウトマウスは平行線維シナプスの密度が激減し重度の小脳失調症状を呈す<a href="#R4"><sup>4,8)</sup></a>（<a href="#F1">図1</a>）．Cbln1ノックアウトマウスのプルキンエ細胞においては80％以上のスパインでシナプス前部が形成されずにシナプス結合をもたないスパインとして存在し<a href="#R4"><sup>4)</sup></a>，これは組換えCbln1の投与により正常化する<a href="#R8"><sup>8)</sup></a>．これは，スパインは自律的に形成されるというモデルの正しいことを支持するが，Cbln1がどのように平行線維の形態変化をひき起こし成熟したシナプス前部の形成を誘導するのかは不明であった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Cbln1はマウスの小脳におけるシナプスの形成に必須である</strong><br/>Cbln1ノックアウトマウスではプルキンエ細胞の80％以上のスパインがシナプス前部をもたずシナプス結合をもたないスパインとなる．そのため，Cbln1ノックアウトマウスは重度の小脳失調症状を呈すが，組換えCbln1を投与すると，正常なシナプスの密度が2日間で野生型マウスと同じ程度にまで増加し，歩行は顕著に回復する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okabe-Neuron-12.11.7-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Cbln1はマウスの小脳におけるシナプスの形成に必須である" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okabe-Neuron-12.11.7-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okabe-Neuron-12.11.7-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　今回，筆者らは，組換えCbln1の作用を利用して平行線維シナプスの形成過程を可視化することに成功した．興味深いことに，シナプスの形成途上において平行線維から“小さな突起”が伸び，これがプルキンエ細胞のスパインをとりかこむことを発見した．この現象と同期してシナプス小胞とδ2型グルタミン酸受容体の集積が増強したことから，この小さな突起にはシナプスの成熟を促す作用のあることが示唆された．<br/><br/><h2>1．Cbln1は平行線維にダイナミックな形態変化をひき起こす</h2><br/>　平行線維シナプスを可視化するため，小脳のスライス培養を用い，プルキンエ細胞と顆粒細胞を異なる蛍光タンパク質で標識し共焦点顕微鏡で観察した．普通の小脳スライスではシナプスはランダムに形成されるため系統的に観察することはむずかしい．そこで，Cbln1ノックアウトマウスから小脳スライスを作製し，培養液に組換えCbln1を投与することによりシナプスの形成を一挙に誘導して，平行線維の形態変化を1時間おきに約8時間にわたり観察した．組換えCbln1を作用させると，平行線維とプルキンエ細胞のスパインとの接触部位に成熟したシナプス前部の構造（ブトン）が確認され，これは先行研究の所見と合致した<a href="#R8"><sup>8)</sup></a>．しかし興味深いことに，ブトンの形成にさきだち，平行線維から小さな突起が伸びダイナミックに形態を変化させることがわかった．このような形態変化はCbln1の存在しない場合，また，シナプスの誘導作用をもたない変異型Cbln1を投与した場合には起こらず，Cbln1の作用により特異的に起こることが示された．<br/>　ブトンが形成される際にはシナプス小胞がクラスター化することが必須である．シナプス小胞を蛍光タンパク質で標識し平行線維の形態変化と同時に観察した結果，小さな突起の形成はシナプス小胞がクラスターとして集積したのちに起こることがわかった．<br/>　平行線維から伸びる小さな突起とシナプス後部との関係をさらに明確にするため，プルキンエ細胞にGFPとδ2型グルタミン酸受容体との融合タンパク質を導入することによりシナプス後部を可視化した．小さな突起はしばしば直線状の単純な構造から環状の構造へと変化し，δ2型グルタミン酸受容体のクラスターをとりかこむようすが観察された．また，環状の構造はより安定なブトンの形成される際に出現したことから，シナプスを成熟させる機能をもつことが示唆された．<br/><br/><h2>2．Cbln1による平行線維の形態変化はδ2型グルタミン酸受容体とニューレキシンとの相互作用を介する</h2><br/>　Cbln1とδ2型グルタミン酸受容体のダブルノックアウトマウスから作製した小脳スライスに組換えCbln1を作用させても平行線維の形態変化は起こらなかった．よって，小さな突起の形成にはδ2型グルタミン酸受容体の必要であることが明らかになった．Cbln1とδ2型グルタミン酸受容体との複合体は平行線維の形態変化を起こすのに十分かどうかを検証するため，HEK細胞を用いて顆粒細胞との共培養実験を行った．先行研究から，δ2型グルタミン酸受容体を発現するHEK細胞を顆粒細胞に滴下すると，HEK細胞にシナプス前部の形成が誘導されることが示されている<a href="#R5"><sup>5)</sup></a>．この実験系を用いて顆粒細胞の軸索を観察すると，HEK細胞との接触部位から小さな突起が伸びていた．以上の結果は，平行線維の形態変化にはCbln1とδ2型グルタミン酸受容体とが必要であり，Cbln1-δ2型グルタミン酸受容体複合体が直接に形態変化を誘導することを示した．また，共培養実験の際に可溶性Fc融合ニューレキシンを培養液にくわえてニューレキシンとCbln1との相互作用をさまたげると，平行線維の形態変化は阻害された．この結果は，平行線維の形態変化にはニューレキシンも必要であることを示した．<br/><br/><h2>3．幼若期のマウスの平行線維には小さな突起が存在する</h2><br/>　平行線維の形態変化を<em>in vivo</em>において検証するため，マウス個体の小脳の顆粒細胞に対し電気穿孔法によりGFPを導入することでこれを標識した．幼若期のマウスの小脳には，小脳のスライス培養においてみられた，直線状の単純な構造および環状の構造をとる小さな突起が存在した．この小さな突起の密度は成熟したブトンの増加速度が最大となる時期に一致してピークに達した．さらに，光学顕微鏡により同定した小さな突起を電子顕微鏡により解析することにより，プルキンエ細胞のスパインをこの小さな突起がとりかこむようすが観察された．<br/><br/><h2>4．幼若期のマウスにおける小さな突起の形成にはCbln1，δ2型グルタミン酸受容体，ニューレキシンが必要である</h2><br/>　Cbln1ノックアウトマウスおよびδ2型グルタミン酸受容体ノックアウトマウスの小脳では，野生型マウスよりも小さな突起およびブトンの密度が減少していた．また，Cbln1ノックアウトマウスの小脳に組換えCbln1を投与すると小さな突起の密度は上昇した．ニューレキシンの関与を検証するため，幼若期マウスの小脳の顆粒細胞において6種類のニューレキシンをsiRNAを用い<em>in vivo</em>にてノックダウンしたところ，小さな突起およびブトンの密度が著しく減少した．以上の結果から，個体レベルでの小さな突起の形成にはCbln1，δ2型グルタミン酸受容体，ニューレキシンの相互作用が必要であることが明らかになった．<br/><br/><h2>5．小さな突起の機能的な意義</h2><br/>　小さな突起の生理的な機能を検証するため，平行線維の形態変化とシナプス構成タンパク質の集積量との関連を解析した．野生型マウスの小脳スライス培養を用い，シナプス小胞とδ2型グルタミン酸受容体を蛍光色素で標識しその輝度の時間変化を定量した．小さな突起が環状の構造を形成すると，それにともないシナプス前部のシナプス小胞，および，シナプス後部のδ2型グルタミン酸受容体の輝度が上昇した．小さな突起が直線状の構造のままであるときにはシナプス構成タンパク質は変化しなかった．よって，小さな突起の形態が環状の構造に変化することがシナプス成熟の進行に重要であることが示唆された．<br/><br/><h2>おわりに</h2><br/>　以上の観察結果は，平行線維シナプスが4つのステップをへて形成されることを示す（<a href="#F2">図2</a>）．1）プルキンエ細胞のスパインは平行線維の入力に非依存的に形成される．2）平行線維とスパインとが接触するとシナプス間隙においてニューレキシン，Cbln1，δ2型グルタミン酸受容体からなる三者複合体が形成されシナプス小胞が集積する．3）平行線維から小さな突起が伸びスパインの周囲をとりかこむと平行線維とスパインとの接触が増えCbln1シグナルが増強する．4）δ2型グルタミン酸受容体とシナプス小胞の集積が促進しシナプスは成熟する．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　小さな突起を介する平行線維シナプスの形成過程</strong><br/>プルキンエ細胞のスパインは平行線維の入力に非依存的に形成される．2）平行線維とスパインとが接触するとニューレキシン-Cbln1-δ2型グルタミン酸受容体複合体が形成されシナプス小胞が集積する．3）平行線維から小さな突起が伸びスパインの周囲をとりかこむとCbln1シグナルが増強する．4）δ2型グルタミン酸受容体とシナプス小胞の集積が促進しシナプスは成熟する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okabe-Neuron-12.11.7-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　小さな突起を介する平行線維シナプスの形成過程" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okabe-Neuron-12.11.7-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Okabe-Neuron-12.11.7-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　この研究において，筆者らは，“小さな突起”が幼若期のマウスの平行線維に存在することを明らかにし，そのシナプス形成における意義を解明した．先行研究においても，野生型マウスの小脳スライスを用いて平行線維からフィロポディアの伸びるようすが観察されている<a href="#R9"><sup>9)</sup></a>．野生型マウスではこのフィロポディアの密度は非常に低く，これは筆者らの観察結果と合致した．このことは，野生型マウスにおけるシナプスの形成はゆっくりかつランダムに起こることを反映しているものと考えられた．また，幼若期のマウスのプルキンエ細胞には平行線維に周囲を完全におおわれているスパインの存在することが電子顕微鏡を用いた観察より報告されている<a href="#R10"><sup>10)</sup></a>．小さな突起がスパインをおおうことにより，細胞膜に存在するニューレキシン，Cbln1，δ2型グルタミン酸受容体の拡散が阻害され，シナプス前部およびシナプス後部への両方向性のシグナルが正のフィードバック機構により増強されると考えられた．δ2型グルタミン酸受容体の細胞内領域はシナプス後部を構成する複数のタンパク質と結合する．また，ニューレキシンの細胞内領域はアクティブゾーンを構築するCASKと結合する．CASKはProtein4.1と結合しアクチンフィラメントの重合を促進することから，今回，観察された小さな突起の形成を制御する有力な候補タンパク質と考えられた<a href="#R11"><sup>11)</sup></a>．<br/>　Cbln1のアイソフォームにはCbln2とCbln4，δ2型グルタミン酸受容体のアイソフォームにはδ1型グルタミン酸受容体があり，小脳のほか大脳皮質や海馬などに広く発現している<a href="#R12"><sup>12)</sup></a>．Cbln1はδ1型グルタミン酸受容体にも結合し，Cbln2はδ1型グルタミン酸受容体とδ2型グルタミン酸受容体の両方に結合することが示されている．Cbln-δ型グルタミン酸受容体経路を介するシナプスの形成における新しい分子機構は，小脳のほかでも機能している可能性が高いと考えられる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Yuste, R. & Bonhoeffer, T.</span>: <span class="ti">Genesis of dendritic spines: insights from ultrastructural and imaging studies.</span> <span class='so'>Nat. Rev. Neurosci., 5, 24-34 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14708001" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Okabe, S., Miwa, A. & Okado, H.</span>: <span class="ti">Spine formation and correlated assembly of presynaptic and postsynaptic molecules.</span> <span class='so'>J. Neurosci., 21, 6105-6114 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11487634" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Sotelo, C.</span>: <span class="ti">Cerebellar synaptogenesis: what we can learn from mutant mice.</span> <span class='so'>J. Exp. Biol., 153, 225-249 (1990)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2280222" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Hirai, H., Pang, Z., Bao, D. et al.</span>: <span class="ti">Cbln1 is essential for synaptic integrity and plasticity in the cerebellum.</span> <span class='so'>Nat. Neurosci., 8, 1534-1541 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16234806" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Matsuda, K., Miura, E., Miyazaki, T. et al.</span>: <span class="ti">Cbln1 is a ligand for an orphan glutamate receptor δ2, a bidirectional synapse organizer.</span> <span class='so'>Science, 328, 363-368 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20395510" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Matsuda, K. & Yuzaki, M.</span>: <span class="ti">Cbln family proteins promote synapse formation by regulating distinct neurexin signaling pathways in various brain regions.</span> <span class='so'>Eur. J. Neurosci., 33, 1447-1461 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21410790" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Uemura, T., Lee, S. J., Yasumura, M. et al.</span>: <span class="ti"><em>Trans</em>-synaptic interaction of GluRδ2 and Neurexin through Cbln1 mediates synapse formation in the cerebellum.</span> <span class='so'>Cell, 141, 1068-1079 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20537373" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Ito-Ishida, A., Miura, E., Emi, K. et al.</span>: <span class="ti">Cbln1 regulates rapid formation and maintenance of excitatory synapses in mature cerebellar Purkinje cells <em>in vitro</em> and <em>in vivo</em>.</span> <span class='so'>J. Neurosci., 28, 5920-5930 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18524896" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Deng, J. & Dunaevsky, A.</span>: <span class="ti">Dynamics of dendritic spines and their afferent terminals: spines are more motile than presynaptic boutons.</span> <span class='so'>Dev. Biol., 277, 366-377 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15617680" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Altman, A. & Bayer, S. A.</span>: <span class="ti">Early synaptogenesis and the development of parallel fiber synapses with Purkinje cells.</span> <span class='so'> <em>in</em> Development of the Cerebellar System: In Relation to Its Evolution, Structure, and Functions. pp. 412-445, Boca Raton, CRC press (1996)</span></li><br><li id="R11"><span class='au'>Biederer, T. & Sudhof, T. C.</span>: <span class="ti">CASK and protein 4.1 support F-actin nucleation on neurexins.</span> <span class='so'>J. Biol. Chem., 276, 47869-47876 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11604393" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Miura, E. A., Iijima, T., Yuzaki, M. et al.</span>: <span class="ti">Distinct expression of Cbln family mRNAs in developing and adult mouse brains.</span> <span class='so'>Eur. J. Neurosci., 24, 750-760 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16930405" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">石田  綾（Aya Ito-Ishida）</span><br>略歴：2009年 慶應義塾大学大学院医学研究科博士課程 修了，同年 東京大学大学院医学系研究科 研究員を経て，2012年より米国Baylor College of Medicine研究員．<br>研究テーマ：小脳におけるシナプスの形成機構．現在は，MeCP2に関連する疾患の分子病態機構．<br><br><strong>柚崎 通介（Michisuke Yuzaki）</strong><br>慶應義塾大学医学部 教授．<br>研究室URL：<a href="http://www.yuzaki-lab.org/" target="_blank">http://www.yuzaki-lab.org/</a><br><br><strong>岡部 繁男（Shigeo Okabe）</strong><br>東京大学大学院医学系研究科 教授．<br>研究室URL：<a href="http://synapse.m.u-tokyo.ac.jp/" target="_blank">http://synapse.m.u-tokyo.ac.jp/</a><br></div><br>© 2012 石田 綾・柚崎通介・岡部繁男 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

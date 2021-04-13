@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Esrrb遺伝子はマウスのES細胞において自己複製を制御するGsk3-Tcf3経路の主要な標的遺伝子である : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><em>Esrrb</em>遺伝子はマウスのES細胞において自己複製を制御するGsk3-Tcf3経路の主要な標的遺伝子である</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>杉本敏美・丹羽仁史</strong><br>（理化学研究所発生・再生科学総合研究センター 多能性幹細胞研究プロジェクト）<br>email：<a href="mailto:niwa@cdb.riken.jp">丹羽仁史</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.132">10.7875/first.author.2012.132</a><br><div class="reference"><br><span class="ti">Esrrb is a pivotal target of the Gsk3/Tcf3 axis regulating embryonic stem cell self-renewal.</span><br><span class="au">Graziano Martello, Toshimi Sugimoto, Evangelia Diamanti, Anagha Joshi, Rebecca Hannah, Satoshi Ohtsuka, Berthold Göttgens, Hitoshi Niwa, Austin Smith</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23040478" target="_blank"><em>Cell Stem Cell</em>, <strong>11</strong>，491-504 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ES細胞は個体を形成するすべての種類の細胞へと分化できる多能性をもち，かつ，それ自体が複製の可能な細胞である．筆者らは，とくにマウスのES細胞の多能性にかかわる分子機構について研究しており，これまでに，LIFシグナルの下流にあるJak-Stat3経路とPI3キナーゼ-Akt経路の2つが互いに協調しあうことにより多能性の維持されていることを示してきた．さらに，このLIFに依存的な多能性の維持機構にくわえ，最近では，Wnt-βカテニン経路においてGsk3を阻害することでもマウスES細胞の多能性の維持に寄与できるというLIFに非依存的な多能性の維持機構も知られるところとなったが，その詳細は不明であった．この研究では，Wnt-βカテニン経路の下流にある転写因子Tcf3が，<em>Esrrb</em>遺伝子の発現を直接に負に制御することにより，さらにその下流にある多能性に関連するタンパク質の発現制御にかかわっていることを明らかにした．<br/><br/><h2>はじめに</h2><br/>　ES細胞（embryonic stem cell，胚性幹細胞）とは，個体を形成するすべての種類の細胞へと分化できる多能性をもち，かつ，それ自体が複製の可能な細胞と定義されている．マウスのES細胞は1981年にはじめて樹立されたが，当初は，マウス胎仔線維芽細胞をフィーダー細胞として用いることでのみ，生体外での培養が可能とされていた<a href="#R1"><sup>1)</sup></a>．しかし，そののち，サイトカインの一種であるLIF（leukemia inhibitory factor，白血病抑制因子）が同定され，このLIFをゼラチンコートした培養皿を用いることにより，マウス胎仔線維芽細胞なしでも未分化の状態を保持したままマウスES細胞を培養することが可能となった<a href="#R2"><sup>2)</sup></a>．このことから，LIFは多能性の維持に必要な転写因子の発現を制御することにより，マウスES細胞の自己複製能の維持にかかわっていることが示唆された．<br/>　筆者らは，以前より，マウスES細胞の多能性にかかわる分子機構について研究しており，これまでに，LIFシグナルの下流において，おもにJak-Stat3経路とPI3キナーゼ-Akt経路の2つの経路が互いに協調しあうことにより多能性の維持されることを報告している<a href="#R3"><sup>3)</sup></a>（<a href="#F1">図1a</a>）．一方，Wnt-βカテニン経路において，Gsk3シグナルを阻害することでもマウスES細胞は自己複製能を維持できることなどから<a href="#R4"><sup>4,5)</sup></a>，LIFに非依存的な多能性の維持機構の存在することも明らかになってきた<a href="#R6"><sup>6)</sup></a>．Wnt-βカテニン経路の下流では，βカテニンの共役タンパク質であるTcf3が，マウスES細胞の多能性の維持にはたらく転写因子であるNanogやOct3/4などの遺伝子に対し負の転写因子として機能し，βカテニンはこのTcf3の機能を抑制することにより多能性の維持に寄与するという報告がある<a href="#R7"><sup>7)</sup></a>．しかし，Tcf3が多能性に関連する遺伝子の全般のリプレッサーとして機能するのか，あるいは，選択的に，または，一部の標的遺伝子を介して作用するのかについて，これまでのところその詳細は明らかではなかった（<a href="#F1">図1b</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　マウスES細胞の多能性の維持にかかわる分子機構</strong><br/>（a）LIFに依存的なネットワーク．<br/>（b）LIFに非依存的なネットワーク．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Niwa-Cell-Stem-Cell-12.10.4-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　マウスES細胞の多能性の維持にかかわる分子機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Niwa-Cell-Stem-Cell-12.10.4-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Niwa-Cell-Stem-Cell-12.10.4-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．バイオインフォマティクスによるTcf3の標的遺伝子の候補の抽出</h2><br/>　Tcf3の標的遺伝子を特定するため，まず，過去これまでに報告されているデータを見直すことにした．Tcf3ノックアウトES細胞，および，Tcf3ノックダウンES細胞のマイクロアレイ解析による遺伝子発現プロファイルにおいて，Tcf3の不活性化により多能性に関連する遺伝子の発現の亢進することが示されていた<a href="#R8"><sup>8,9)</sup></a> ことから，Tcf3ノックアウトにより発現の上昇する遺伝子として379遺伝子，Tcf3ノックダウンにより発現の上昇する遺伝子として1972遺伝子を抽出し，これらに共通していた120遺伝子を当初のTcf3標的遺伝子の候補と考えた．つぎに，Tcf3に関する高解像度のクロマチン免疫沈降-大規模シークエンシング（ChIP-seq）のデータから，Tcf3のほか，NanogやOct3/4など多能性に関連する転写因子とも結合する遺伝子のリストをもとに，Tcf3の標的遺伝子の候補を50遺伝子にまで絞り込んだ．さらに，遺伝子オントロジー解析（遺伝子の機能定義と分類体系による解析）により，これら50遺伝子のなかから細胞の分化および発生にかかわるとされる転写因子をコードする遺伝子として，最終的に，<em>Esrrb</em>遺伝子，<em>Klf2</em>遺伝子，<em>Nanog</em>遺伝子，<em>Nr0b1</em>遺伝子，<em>Tcfcp2l1</em>遺伝子の5つの遺伝子を特定し，Tcf3の標的遺伝子の候補とした（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　バイオインフォマティクスによるTcf3の標的遺伝子の候補の抽出</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Niwa-Cell-Stem-Cell-12.10.4-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　バイオインフォマティクスによるTcf3の標的遺伝子の候補の抽出" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Niwa-Cell-Stem-Cell-12.10.4-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Niwa-Cell-Stem-Cell-12.10.4-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．Gsk3阻害剤の存在のもとではEsrrbノックダウンES細胞は著しく分化する</h2><br/>　通常，マウスES細胞の培養には血清入りの基本培地にLIFをくわえたものが広く用いられているが，基本培地にFGF-MAPキナーゼシグナル阻害剤（PD0325901）およびGsk3阻害剤（CHIR99021）をくわえた培養条件にでも，多能性を保持したまま長期の維持が可能である<a href="#R6"><sup>6)</sup></a>．バイオインフォマティクスによりTcf3の標的遺伝子の候補とした5つの遺伝子それぞれについてノックダウンしたマウスES細胞を作製し，それらをGsk3阻害剤の存在のもと培養した．おのおののノックダウン細胞では，あらかじめ未分化マーカーRex1の遺伝子座に蛍光タンパク質GFPの遺伝子をノックインしており，この実験では，多能性を保持する細胞を識別するためこのRex1制御におけるGFPの発現頻度をみた．その結果，EsrrbノックダウンES細胞は，残り4遺伝子のノックダウンES細胞に比べ多能性細胞の出現率がもっとも低く，Gsk3阻害剤の存在において著しい分化が認められた．さらに，このGsk3阻害剤の存在のもと培養したEsrrbノックダウンES細胞を回収しmRNAの発現を調べたところ，Sox2，Nr0b1，Tcfcp2l1，Klf2など未分化マーカーの発現低下とともに，分化マーカーであるFgf5の著しい発現上昇がみられた．したがって，これら遺伝子発現パターンの変化はEsrrbのノックダウンにともなうものであることが示唆され，<em>Esrrb</em>遺伝子がTcf3により制御される遺伝子の最有力候補と考えられた（<a href="#F1">図1b</a>）．<br/><br/><h2>3．EsrrbはマウスES細胞の自己複製能の亢進にはたらく</h2><br/>　Esrrbを過剰発現するマウスES細胞を作製し，Esrrbを過剰発現するとどのような影響が現われるのかを調べた．この実験では，Esrrbを過剰発現するES細胞から，のちに導入した<em>Esrrb</em>遺伝子を取り除くことができるようにしておいた．通常の培養では培地にLIFを添加しないときにはマウスES細胞はただちに分化を開始するが，Esrrbを過剰発現したマウスES細胞はLIFの存在しないときにも未分化なコロニーを形成し，その状態でさらに長期の培養が可能であった．そののち，導入した<em>Esrrb</em>遺伝子を取り除くと，LIFの存在しないときには野生型のES細胞と同様にただちに分化を開始した．また，導入した<em>Esrrb</em>遺伝子を除いたマウスES細胞にはキメラ形成能のあることも確認できた．<br/>　基本培地にFGF-MAPキナーゼシグナル阻害剤とGsk3阻害剤をくわえて培養した野生型のマウスES細胞と，基本培地にFGF-MAPキナーゼシグナル阻害剤のみをくわえて培養したEsrrbを過剰発現したマウスES細胞とを比較した．通常，マウスES細胞はFGF-MAPキナーゼシグナル阻害剤とGsk3阻害剤をくわえることにより長期の培養が可能であるが，FGF-MAPキナーゼシグナル阻害剤の単独では長期の培養は困難であることが知られている．しかし，Esrrbを過剰発現したマウスES細胞はFGF-MAPキナーゼシグナル阻害剤のみでの培養により長期間にわたり維持することができ，そのコロニーはFGF-MAPキナーゼシグナル阻害剤とGsk3阻害剤をくわえて培養した野生型マウスES細胞のコロニーと同様の形態を呈した．また，タンパク質レベルでのEsrrbの発現も両者でほぼ同じ程度であった．このように，Esrrbを過剰発現することによりGsk3阻害剤の機能を代償できたことから，Gsk3を阻害したときと同様に，EsrrbはマウスES細胞の自己複製能の亢進にはたらくことが示唆された（<a href="#F1">図1b</a>）．<br/><br/><h2>4．マウスES細胞におけるEsrrbの機能はLIFにより代償できる</h2><br/>　EsrrbをノックアウトしたマウスES細胞を作製した．EsrrbノックアウトES細胞はLIFを含む通常の培養条件において，やや平らに広がっているものの野生型のマウスES細胞と同様のコロニー形態を呈し，未分化な状態を保ちながら長期の培養が可能であった．また，EsrrbノックアウトES細胞にはキメラ形成能のあることも確認できた．さらに，mRNAの発現パターンを調べたところ，EsrrbノックアウトES細胞ではKlf4とTbx3の発現レベルが低下していたものの，Oct3/4，Sox2，Nanogなど主要な多能性マーカーの発現はほぼ保たれていた．<br/>　EsrrbノックアウトES細胞をさまざまな培養条件において48時間培養したところ，LIFを含む通常の培養条件のときと同様に，FGF-MAPキナーゼシグナル阻害剤およびLIFの存在においてはKlf4とTbx3の発現レベルが低下したものの，そのほかの主要な多能性マーカーは対象となる細胞と同じ程度の発現を示した．しかし，Gsk3阻害剤のみをくわえて培養したときには，EsrrbノックアウトES細胞においてほとんどの多能性マーカーの発現レベルは著しく低下した．一般に，野生型のマウスES細胞は短期間であればGsk3阻害剤のみの存在での培養が可能であるが，Esrrbのノックアウトによりこのような培養の困難になったことは，EsrrbがGsk3およびTcf3の下流に存在しその発現はGsk3阻害剤の影響をうけるという，さきに述べたEsrrbノックダウン実験のデータと一致した．さらに，おのおのの培養条件における未分化のコロニーの形成能を調べたところ，EsrrbノックアウトES細胞は，FGF-MAPキナーゼシグナル阻害剤とGsk3阻害剤をくわえて培養したときやGsk3阻害剤のみをくわえて培養したときには著しく低い未分化コロニーの形成能を示したが，FGF-MAPキナーゼシグナル阻害剤とGsk3阻害剤のほかLIFをくわえて培養したとき，あるいは，FGF-MAPキナーゼシグナル阻害剤のほかLIFをくわえて培養したときには，ほとんど影響はみられなかった．これらのことから，マウスES細胞におけるEsrrbの機能はLIFの添加により代償できることが示唆された（<a href="#F1">図1b</a>）．<br/><br/><h2>おわりに</h2><br/>　これまでにもすでに，Esrrbは<em>Nanog</em>遺伝子のプロモーターに存在するOct-Sox配列にリクルートされることによりNanogの発現を正に制御するという報告や，<em>Oct3/4</em>遺伝子のプロモーターにはNanog結合部位とともにその近傍にEsrrb結合部位が存在し，EsrrbとNanogはともにそのプロモーター活性の維持に必要であるなど，マウスES細胞においてEsrrbと多能性に関連する主要な遺伝子あるいはタンパク質とのかかわりの示唆される報告はされていたのだが，その詳細は明らかではなかった<a href="#R10"><sup>10,11)</sup></a>．この研究により，EsrrbはGsk3の下流においてTcf3の負の制御を直接にうけることにより，マウスES細胞の多能性を維持するネットワークに寄与していることが示された（<a href="#F1">図1b</a>）．このことより，今後は，LIFに依存的なネットワークとLIFに非依存的なネットワークとが，どのように協調しあうことでマウスES細胞の多能性を維持しているのか，その詳細をより明らかにしていくうえで，この研究の成果がその一助となることが期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Evans, M. J. & Kaufman, M. H.</span>: <span class="ti">Establishment in culture of pluripotential cells from mouse embryos.</span> <span class='so'>Nature, 292, 154-156 (1981)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7242681" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Smith, A. G., Heath, J. K., Donaldson, D. D. et al.</span>: <span class="ti">Inhibition of pluripotential embryonic stem cell differentiation by purified polypeptides.</span> <span class='so'>Nature, 336, 688-690 (1988)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/3143917" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Niwa, H., Ogawa, K., Shimosato, D. et al.</span>: <span class="ti">A parallel circuit of LIF signalling pathways maintains pluripotency of mouse ES cells.</span> <span class='so'>Nature, 460, 118-122 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19571885" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Lyashenko, N., Winter, M., Migliorini. D. et al.</span>: <span class="ti">Differential requirement for the dual functions of β-catenin in embryonic stem cell self-renewal and germ layer formation.</span> <span class='so'>Nat. Cell Biol., 13,753-761 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21685890" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Wray, J., Kalkan, T., Gomez-Lopez. S. et al.</span>: <span class="ti">Inhibition of glycogen synthase kinase-3 alleviates Tcf3 repression of the pluripotency network and increases embryonic stem cell resistance to differentiation.</span> <span class='so'>Nat. Cell Biol., 13, 838-845 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21685889" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Ying, Q. L., Wray, J., Nichols, J. et al.</span>: <span class="ti">The ground state of embryonic stem cell self-renewal.</span> <span class='so'>Nature, 453, 519-523 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18497825" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Yi, F., Pereira, L. & Merrill, B. J.</span>: <span class="ti">Tcf3 functions as a steady-state limiter of transcriptional programs of mouse embryonic stem cell self-renewal.</span> <span class='so'>Stem Cells, 5, 1951-1960 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18483421" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Cole, M. F., Johnstone, S. E., Newman, J. J. et al.</span>: <span class="ti">Tcf3 is an integral component of the core regulatory circuitry of embryonic stem cells.</span> <span class='so'>Genes Dev., 22, 746-755 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18347094" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Yi, F., Pereira, L., Hoffman, J. A. et al.</span>: <span class="ti">Opposing effects of Tcf3 and Tcf1 control Wnt stimulation of embryonic stem cell self-renewal.</span> <span class='so'>Nat. Cell Biol., 13, 762-770 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21685894" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Van den Berg, D. L., Zhang, W., Yates, A. et al.</span>: <span class="ti">Estrogen-related receptor beta interacts with Oct4 to positively regulate <em>Nanog</em>gene expression.</span> <span class='so'>Mol. Cell. Biol., 28, 5986-5995 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18662995" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Zhang, X., Zhang, J., Wang, T. et al.</span>: <span class="ti">Esrrb activates Oct4 transcription and sustains self-renewal and pluripotency in embryonic stem cells.</span> <span class='so'>J. Biol. Chem. 283, 35825-35833 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18957414" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">杉本 敏美（Toshimi Sugimoto）</span><br>略歴：2012年 神戸大学大学院医学系研究科 修了，同年より理化学研究所発生・再生科学総合研究センター 研究員．<br><br><strong>丹羽 仁史（Hitoshi Niwa）</strong><br>理化学研究所発生・再生科学総合研究センター プロジェクトリーダー．<br>研究室URL：<a href="http://www.cdb.riken.jp/pcs/" target="_blank">http://www.cdb.riken.jp/pcs/</a><br></div><br>© 2012 杉本敏美・丹羽仁史 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

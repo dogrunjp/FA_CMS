@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 2つの雌性生殖細胞による独立の制御が複数の花粉管の誘引を阻止する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>2つの雌性生殖細胞による独立の制御が複数の花粉管の誘引を阻止する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>丸山大輔・東山哲也</strong><br>（名古屋大学トランスフォーマティブ生命分子研究所）<br>email：<a href="mailto:maruyama.daisuke@f.mbox.nagoya-u.ac.jp">丸山大輔</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.070">10.7875/first.author.2013.070</a><br><div class="reference"><br><span class="ti">Independent control by each female gamete prevents the attraction of multiple pollen tubes.</span><br><span class="au">Daisuke Maruyama, Yuki Hamamura, Hidenori Takeuchi, Daichi Susaki, Moe Nishimaki, Daisuke Kurihara, Ryushiro D. Kasahara, Tetsuya Higashiyama</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23673333" target="_blank"><em>Developmental Cell</em>, <strong>25</strong>, 317-323 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　被子植物の生殖の過程では，通常，最初に到達した花粉管により重複受精が完了する．受精した胚珠は後続の花粉管が来ないよう制御しているが，そのしくみについては明らかにされていなかった．筆者らは，シロイヌナズナを用いて，卵細胞または中央細胞のどちらかにおける受精の失敗が，2本目以降の花粉管の誘引を停止させる活性の低下をまねくことを示した．同様の表現型は，中央細胞において遺伝子発現を負に制御するFIS-PRC2の機能欠損によっても観察された．FIS-PRC2は胚乳において特異的に機能することから，卵細胞と中央細胞はそれぞれ独自のシグナル伝達経路を発達させてきたものと考えられた．興味深いことに，卵細胞または中央細胞のどちらか一方が受精した胚珠では，その不完全な重複受精を原因として誘引された2本目の花粉管により受精が回復し，その結果，遺伝子型の異なる胚と胚乳をもつ種子が得られた．したがって，卵細胞と中央細胞のそれぞれが受精したかどうかを独自に判断し，2本目の花粉管の誘引をつうじた受精回復システムを構築することにより，生殖における適応度をあげている可能性が示唆された．<br/><br/><h2>はじめに</h2><br/>　鞭毛や繊毛をもたない被子植物の精細胞は自律的な移動ができず，代わりに，精細胞は花粉管という管状の細胞により輸送される．雌しべの柱頭において受粉が起こると，花粉から伸長をはじめた花粉管は互いに競争しながら雌しべの内部へと進んでいく．雌しべの内部には受精ののちに種子となる胚珠がならんでいる．花粉管は受精を完了した胚珠をさけて未受精の胚珠にむかうため，結果として，ほぼすべての胚珠が花粉管と一対一の関係で受精する<a href="#R1"><sup>1)</sup></a>（<a href="#F1">図1</a>）．この2本目の花粉管をしりぞけるしくみは多花粉管拒否とよばれ<a href="#R2"><sup>2)</sup></a>，古くからその存在は知られていたものの，どのような分子機構によるものなのかは不明であった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　雌しべの内部を伸長する花粉管と重複受精のときの胚珠のようす</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Higashiyama-Developmental-Cell-13.5.13-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　雌しべの内部を伸長する花粉管と重複受精のときの胚珠のようす" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Higashiyama-Developmental-Cell-13.5.13-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Higashiyama-Developmental-Cell-13.5.13-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　そのようななか，2012年，筆者らのグループおよび米国のグループは，シロイヌナズナを用い，重複受精が多花粉管拒否の開始の鍵をにぎることを示した<a href="#R2"><sup>2,3)</sup></a>．胚珠には花粉管を誘引する物質を分泌する助細胞が2つ存在する．到達した花粉管は，片方の助細胞の崩壊とともに，2個の精細胞を放出して卵細胞と中央細胞という雌側の2つの配偶子の受精を完了する．この被子植物に独特の受精現象が重複受精である（<a href="#F1">図1</a>，植物の受精のしくみについては，<a href="http://leading.lifesciencedb.jp/1-e007/" target="_blank">東山 哲也, 領域融合レビュー, <strong>1</strong>, e007, 2012</a> も参照されたい）．受精機能を欠損した精細胞のつくられる<em>gcs1</em>/<em>hap2</em>変異体<a href="#R4"><sup>4)</sup></a> の花粉管を受容することで重複受精に失敗した胚珠は，高頻度で2本目の花粉管を誘引することが明らかにされた<a href="#R2"><sup>2,3)</sup></a>．このことから，多花粉管拒否の開始における重複受精の役割が示されたが，雌しべの組織の奥深くでほぼ同時に起こる卵細胞の受精および中央細胞の受精が，それぞれどれくらい多花粉管拒否に貢献しているかについては明らかにされていなかった．<br/><br/><h2>1．多花粉管拒否は卵細胞と中央細胞の二重支配をうける</h2><br/>　精細胞が1つしかつくられない<em>cdka</em>;<em>1</em>変異体の花粉を用いて受粉実験を行った<a href="#R5"><sup>5)</sup></a>．これにより，卵細胞のみが受精することで次世代の植物体となる胚だけが発達した種子や，反対に，中央細胞のみが受精することで胚乳だけが発達した種子がランダムにつくられる．これら単独受精を起こした種子は花粉管の誘引が完全には停止せず，いずれの場合も，2本目の花粉管を受け入れたものが約30％みられた．一方で，卵細胞および中央細胞ともに受精できなかった種子における2本目の花粉管の受容率80％と比較すると<a href="#R3"><sup>3)</sup></a>，これら単独受精を示した種子は，ある程度の多花粉管拒否を起こしていることがわかった．したがって，多花粉管拒否には卵細胞の受精および中央細胞の受精により活性化される独立した経路の存在が示唆された．重複受精ではこの2つの経路は相加的に機能し，より強い多花粉管拒否が誘起されると考えられた（<a href="#F1">図1</a>）．<br/><br/><h2>2．受精により花粉管の誘引能力はすばやく低下する</h2><br/>　多花粉管拒否のしくみが花粉管への誘引能力の低下によるものかどうかを調べるため，授粉ののちの雌しべから摘出した胚珠が花粉管を誘引するかどうか培地において評価した．すると，<em>gcs1</em>/<em>hap2</em>により重複受精に失敗した約90％の胚珠，<em>cdka</em>;<em>1</em>変異体により卵細胞のみが受精した約50％の胚珠，そして，野生型の花粉管を受容して重複受精に成功した約20％の胚珠が，花粉管の誘引応答を示した．これらの傾向は，最終的な種子の表現型を調べたさきの実験結果とほぼ一致した．重要なのは，多花粉管拒否に重要なステップとみられていた“残されたほうの助細胞の核崩壊”よりまえで得られたことである．これにより，受精ののち花粉管への誘引能力を急速に低下させる多花粉管拒否のようすが明らかになった．<br/><br/><h2>3．FIS-PRC2は多花粉管拒否の中央細胞経路において機能する</h2><br/>　多花粉管拒否について分子的な理解の手がかりを得ることを目的に，中央細胞の機能に欠損を示す既知のシロイヌナズナ変異体について解析を行った．その結果，MEDEA，FIS2，FIEといったタンパク質を欠損する変異体は，重複受精するにもかかわらず高頻度で2本目の花粉管を受容することが示された．これらのタンパク質はヒストンH3の27番目のリジン残基のメチル化修飾を介して遺伝子発現を負に制御するポリコーム複合体のひとつ，FIS-PRC2（fertilization-independent seed polycomb repressive complex 2）を構成する<a href="#R6"><sup>6)</sup></a>．MEAやFIS2は中央細胞や胚乳に特異的に発現することなどから，FIS-PRC2が中央細胞の受精のときに起こる多花粉管拒否の経路において機能していると結論づけた．<br/><br/><h2>4．単独受精ののちの能動的な受精回復によりヘテロ受精が起こる</h2><br/>　被子植物の多花粉管拒否は，どうして2種類の受精により制御される複雑なしくみになっているのだろうか？　卵細胞または中央細胞のみが受精に失敗した場合，それぞれの細胞が2本目の花粉管誘引を許可できたほうが，受精の失敗を柔軟に回復することができるのだろうと予想した．そこで，このような現象が起こりうるのかどうか検証するため，卵細胞や中央細胞において合計10％程度の単独受精をひき起こす精細胞異常変異体である<em>kokopelli</em>変異体を実験に用いた<a href="#R7"><sup>7)</sup></a>．まず，構成的な遺伝子プロモーターによりヒストンH2B-tdTomato融合タンパク質を発現する<em>kokopelli</em>変異体の花粉を，野生株の雌しべに授粉して一部に単独受精を誘起したのち，ヒストンH2B-GFP融合タンパク質を構成的に発現する形質転換体の花粉を追加するよう授粉した．すると予想どおり，胚の核がtdTomatoで胚乳の核がGFPで標識された種子や，逆に，胚の核がGFPで胚乳の核がtdTomatoで標識された種子が得られた（<a href="#F2">図2</a>）．このように，通常の受精様式では同じ遺伝子構成となるべき胚と胚乳が異なる遺伝子型をもつ特殊な受精現象はヘテロ受精とよばれ，これまでトウモロコシで研究されてきた<a href="#R8"><sup>8)</sup></a>．今回，シロイヌナズナにおいてはじめてヘテロ受精を誘起することに成功した．これにより，ヘテロ受精が生じる背景には，卵細胞と中央細胞のそれぞれの受精による協調的な花粉管誘引の停止のしくみの存在することが示された．もしかすると，この柔軟なしくみが生殖における適応度の上昇に貢献したのかもしれない．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　<em>kokopelli</em>変異体による単独受精とヘテロ受精</strong><br/>（a）<em>kokopelli</em>変異体の花粉を授粉して一部に単独受精を誘起したのち，追加で授粉を行ったところ，胚と胚乳が異なる遺伝子型をもつヘテロ受精が生じた．<br/>（b）多光子顕微鏡により撮影したヘテロ受精した種子の3次元構築像（画像処理：科学技術振興機構ERATO東山ライブホロニクスプロジェクト 栗原大輔 博士）．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Higashiyama-Developmental-Cell-13.5.13-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　<em>kokopelli</em>変異体による単独受精とヘテロ受精" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Higashiyama-Developmental-Cell-13.5.13-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Higashiyama-Developmental-Cell-13.5.13-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究により，これまで不可分とされてきた卵細胞の受精および中央細胞の受精が，それぞれ多花粉管拒否にはたす役割が明らかになった．ドイツのグループは，筆者らの報告と連報というかたちで，受精ののちに残されたほうの助細胞核の崩壊にエチレンシグナル伝達系が必要とされることを示している<a href="#R9"><sup>9)</sup></a>．今後は，卵細胞あるいは中央細胞の受精がFIS-PRC2やエチレンシグナル伝達系とどのような関係にあるのかを特定することがひとつの課題になるだろう．そこで，助細胞の示す花粉管誘引の動的な変化をとらえる方法が重要になってくる．筆者らのグループは，シロイヌナズナにおいて助細胞から分泌される花粉管誘引ペプチドAtLURE1を同定した<a href="#R10"><sup>10)</sup></a>．これにより，多花粉管拒否をAtLURE1の合成や分泌などの動的な制御の変化として理解することができるだろう．<br/>　一方で，シロイヌナズナにおいて誘導することのできるようになったヘテロ受精は，父親側から遺伝子型の異なる胚と胚乳をつくらせるツールとして利用できる．たとえば，胚乳から胚へと移動する小分子RNAなど情報分子の解析に役立つだろう．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Yadegari, R. & Drews, G. N.</span>: <span class="ti">Female gametophyte development.</span> <span class='so'>Plant Cell, 16, S133-S141 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15075395" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Beale, K. M., Leydon, A. R. & Johnson, M. A.</span>: <span class="ti">Gamete fusion is required to block multiple pollen tubes from entering an <em>Arabidopsis</em> ovule.</span> <span class='so'>Curr. Biol., 22, 1090-1094 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22608506" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Kasahara, R. D., Maruyama, D., Hamamura, Y. et al.</span>: <span class="ti">Fertilization recovery after defective sperm cell release in <em>Arabidopsis</em>.</span> <span class='so'>Curr. Biol., 22, 1084-1089 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22608509" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Mori, T., Kuroiwa, H., Higashiyama, T. et al.</span>: <span class="ti">GENERATIVE CELL SPECIFIC 1 is essential for angiosperm fertilization.</span> <span class='so'>Nat. Cell Biol., 8, 64-71 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16378100" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Aw, S. J., Hamamura, Y., Chen, Z. et al.</span>: <span class="ti">Sperm entry is sufficient to trigger division of the central cell but the paternal genome is required for endosperm development in <em>Arabidopsis</em>.</span> <span class='so'>Development, 137, 2683-2690 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20610483" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Kohler, C., Wolff, P. & Spillane, C.</span>: <span class="ti">Epigenetic mechanisms underlying genomic imprinting in plants.</span> <span class='so'>Annu. Rev. Plant Biol., 63, 331-352 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22404470" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Ron, M., Saez, M. A., Williams, L. E. et al.</span>: <span class="ti">Proper regulation of a sperm-specific <em>cis</em>-nat-siRNA is essential for double fertilization in <em>Arabidopsis</em>.</span> <span class='so'>Genes Dev., 24, 1010-1021 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20478994" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Sprague, G. F.</span>: <span class="ti">HETERO-FERTILIZATION IN MAIZE.</span> <span class='so'>Science, 69, 526-527 (1929)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17797937" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Volz, R., Heydlauff, J., Ripper, D. et al.</span>: <span class="ti">Ethylene signaling is required for synergid degeneration and the establishment of a pollen tube block.</span> <span class='so'>Dev. Cell, 25, 310-316 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23673332" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Takeuchi, H. & Higashiyama, T.</span>: <span class="ti">A species-specific cluster of defensin-like genes encodes diffusible pollen tube attractants in <em>Arabidopsis</em>.</span> <span class='so'>PLoS Biol., 10, e1001449 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23271953" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">丸山 大輔（Daisuke Maruyama）</span><br>略歴：2010年 名古屋大学大学院理学研究科 修了，同年 同 研究員を経て，2013年より名古屋大学トランスフォーマティブ生命分子研究所 研究員．<br><br><strong>東山 哲也（Tetsuya Higashiyama）</strong><br>名古屋大学トランスフォーマティブ生命分子研究所 教授．科学技術振興機構ERATO東山ライブホロニクスプロジェクト 研究総括 兼任．<br>研究室URL：<a href="http://www.higashiyama-lab.com" target="_blank">http://www.higashiyama-lab.com</a>，<a href="http://www.liveholonics.com/" target="_blank">http://www.liveholonics.com/</a><br></div><br>© 2013 丸山大輔・東山哲也 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

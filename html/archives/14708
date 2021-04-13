@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ユビキチン結合酵素UBC6eを介した翻訳ののちに起こる小胞体関連分解の活性の制御 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>ユビキチン結合酵素UBC6eを介した翻訳ののちに起こる小胞体関連分解の活性の制御</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>萩原 誠智</strong><br>（米国Whitehead Institute for Biomedical Research）<br>email：<a href="mailto:hagiwara.masatoshi.e3@daiichisankyo.co.jp">萩原誠智</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.101">10.7875/first.author.2016.101</a><br><div class="reference"><br><span class="ti">Posttranscriptional regulation of glycoprotein quality control in the endoplasmic reticulum is controlled by the E2 Ub-conjugating enzyme UBC6e.</span><br><span class="au">Masatoshi Hagiwara, Jingjing Ling, Paul-Albert Koenig, Hidde L. Ploegh</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27570074" target="_blank"><em>Molecular Cell</em>, <strong>63</strong>, 753-767 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　小胞体は分泌タンパク質や膜タンパク質の合成の場であり，新規に合成されたタンパク質に対し厳密な品質管理機構を備えている．構造の異常なタンパク質に対する分解系である小胞体関連分解は，小胞体ストレスの際のみならず，定常状態においても小胞体における品質管理機構の恒常性の維持のために必須である．この研究において，糖タンパク質に対する小胞体関連分解の促進タンパク質であるEDEM1やOS-9およびSEL1Lの量が，ユビキチン結合酵素であるUBC6eによりユビキチン結合酵素活性および複合体の形成に依存して制御されることが明らかにされた．この制御は翻訳ののちの機能的な小胞体関連分解の促進タンパク質に対するものであり，既知の小胞体ストレス応答とは別の機構であった．UBC6eを欠損した細胞においては小胞体関連分解の活性化が観察され，異常なタンパク質だけでなくフォールディングのむずかしい糖タンパク質の構造形成中間体の分解の促進もみられた．定常状態において小胞体関連分解の活性が制御されることは小胞体における恒常性の維持においてまったく新しい概念であった．この研究により，小胞体関連分解に関与するタンパク質が慎重に制御されることにより，新規に合成された幅広いタンパク質に対する小胞体品質管理機構が維持されることが示唆された．<br/><br/><h2>はじめに</h2><br/>　小胞体における恒常性の維持については，基本的には小胞体ストレス応答を介した制御のみが考えられてきた．異常なタンパク質の蓄積などにより小胞体がストレスを感知すると，そのストレスのレベルに応じてタンパク質の翻訳の停止，フォールディングに関与する分子シャペロンおよび小胞体関連分解にかかわるタンパク質の発現の誘導あるいはアポトーシスによる細胞死という対応がとられる<a href="#R1"><sup>1)</sup></a>．一方で，ストレスのかかっていない細胞においては定常状態が維持されると考えられており，小胞体関連分解の活性が制御されるとは考えられていない．しかし，小胞体関連分解を促進するレクチン様タンパク質であるEDEM1やOS-9，また，それらのレクチン様タンパク質から異常な糖タンパク質を受け取りHRD1複合体に受けわたすSEL1Lといったタンパク質が短寿命であることは知られている<a href="#R2"><sup>2,3)</sup></a>．ただ，それらタンパク質の分解系については一貫した知見が得られておらず，短寿命である意味は不明であった．<br/>　UBC6eは小胞体に局在するテールアンカー型のユビキチン結合酵素である．UBC6eは小胞体関連分解に関与するHRD1複合体の足場タンパク質であるSEL1Lとの結合により同定されたため，HRD1複合体の構成タンパク質のひとつと考えられている<a href="#R3"><sup>3)</sup></a>．先行研究により，UBC6eのノックダウンにより内在性のMHCクラスI重鎖や小胞体関連分解のモデル基質として知られるCFTRΔF508の分解が抑制されることが報告されている<a href="#R4"><sup>4,5)</sup></a>．CFTRΔF508の分解においては，HRD1とは異なるユビキチンリガーゼであるRMA1およびDerlin1と複合体を形成し機能すると考えられている．UBC6eノックアウトマウスにおいては精子の形成の異常による雄のマウスの不妊および聴力の障害が報告されているが，その発症機構は不明である<a href="#R6"><sup>6)</sup></a>．また，UBC6eノックアウトマウスの臓器およびUBC6eノックアウトマウスから作製された胎仔線維芽細胞は野生型と比較し小胞体関連分解の促進タンパク質であるEDEM1やOS-9およびSEL1Lのタンパク質の量が特異的に増加していた．<br/><br/><h2>1．小胞体関連分解の促進タンパク質は翻訳ののちUBC6eのユビキチン結合酵素活性に依存してタンパク質のレベルにおいて制御される</h2><br/>　小胞体関連分解の促進タンパク質は小胞体ストレス応答により転写のレベルにおいて発現の上昇することも知られている．小胞体関連分解の促進タンパク質のタンパク質の量の変化が転写を介したものかどうかを検討するため，野生型およびUBC6e欠損型のマウス胎仔線維芽細胞を用いて，RNA-seq法によりmRNAの量の変化を網羅的に解析した．その結果，mRNAの量は小胞体関連分解の促進タンパク質，HRD1複合体，フォールディングにかかわるタンパク質，小胞体ストレス応答の関連タンパク質のすべてにおいて変化はなかった．このことから，小胞体関連分解の促進タンパク質のタンパク質の量の増加は翻訳ののち制御されること，UBC6eを欠損したマウス胎仔線維芽細胞において小胞体ストレス応答は活性化されていない，つまり，定常状態を維持していることが明らかにされた．小胞体関連分解の促進タンパク質がタンパク質のレベルにおいて制御されていたことから，この制御に対するUBC6eのユビキチン結合酵素活性への依存性について調べた．UBC6eを欠損したマウス胎仔線維芽細胞に対するUBC6e変異体の入れ戻し実験により，小胞体関連分解の促進タンパク質はそのユビキチン結合酵素活性に依存的に制御されていることが明らかにされた．また，UBC6eのSer184が種々のストレスに応じてリン酸化されることから，リン酸化によるUBC6eの活性の制御が示唆されていた．しかし，リン酸化に着目したUBC6e変異体の入れ戻し実験により，このリン酸化は小胞体関連分解の促進タンパク質の制御には関与しないことが明らかにされた．<br/><br/><h2>2．UBC6eの欠損により蓄積した小胞体関連分解の促進タンパク質は活性をもつ</h2><br/>　UBC6eはHRD1複合体におけるユビキチン結合酵素と考えられていたことから，小胞体関連分解の促進タンパク質のタンパク質の量の増加はユビキチン結合酵素が欠損したことによりミスフォールディングした小胞体関連分解の促進タンパク質が分解されず蓄積したものと考えるのが一般的と思われた．しかし，UBC6eによるタンパク質のレベルにおける制御は小胞体関連分解の促進タンパク質のみに特異的なものであったことから，異常なタンパク質に対する品質管理ではなく，機能的なタンパク質に対する量的な制御である可能性を考えた．もし，量の制御であればUBC6eの欠損により蓄積した小胞体関連分解の促進タンパク質は機能体であり小胞体関連分解を促進すると予想された．この仮説を検証するため，糖タンパク質の小胞体関連分解のモデル基質であるNHKおよびRI332を用いてパルス＆チェイス法により分解キネティクスについて調べた．その結果，どちらの基質に対してもUBC6eを欠損したマウス胎仔線維芽細胞においては分解の促進がみられた．また，この小胞体関連分解の促進は小胞体マンノシダーゼの阻害剤を処理することにより消失したことから，EDEM1により開始されることが示唆された．小胞体にはEDEM1のほか2種類のEDEMファミリータンパク質が存在するが，EDEM3の量もUBC6eにより制御されていた．<br/><br/><h2>3．UBC6eの欠損による小胞体関連分解の活性化からみえてきた糖タンパク質の小胞体関連分解のカスケード</h2><br/>　小胞体関連分解の活性化がどのように起こるのか，その分子機構を解析した．タンパク質のフォールディングに関与するレクチンであるCalnexinからの基質の解離のタイミングをパルス＆チェイス法を用いた免疫共沈降実験により調べたところ，基質として用いたNHKはUBC6eの欠損によりCalnexinから早期に解離した．また，UBC6eを欠損したマウス胎仔線維芽細胞においてはCalnexinと結合するNHKの泳動度が経時的に早まり，この泳動度の変化はUBC6eのユビキチン結合酵素活性に依存的であった．このことから，UBC6eの欠損により蓄積した機能的なEDEM1およびEDEM3がCalnexinサイクルにあるNHKの<em>N</em>-結合型糖鎖からマンノースをトリミングし，その時期尚早な放出が促進されたことが示唆された．UBC6eを欠損したマウス胎仔線維芽細胞においてCalnexinと結合するEDEM1，EDEM3さらにはOS-9が増加したことからも，Calnexinサイクルからの基質の時期尚早な解離が推測された．また，OS-9とSEL1Lとの結合の量もUBC6eの欠損により増加した．以上から，小胞体関連分解の活性化はCalnexinからの基質の時期尚早な放出，および，Calnexin→EDEM1，EDEM3→OS-9→SEL1Lというカスケードの全体を促進することによりひき起こされると考えられた（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　UBC6eの欠損による小胞体関連分解の活性化のモデル</strong><br/>（a）野生型の細胞．<br/>（b）UBC6eを欠損した細胞．EDEM1およびEDEM3がCalnexinと結合した小胞体関連分解の基質の<em>N</em>-結合型糖鎖からマンノースをトリミングすることにより，基質は時期尚早な段階においてCalnexinサイクルから放出される．さらに，OS-9を介した基質のSEL1Lへの受けわたしも促進される．蓄積した機能的な小胞体関連分解の促進タンパク質により，小胞体関連分解のカスケードの全体の活性が高まり，小胞体関連分解が活性化する．<br/>マンノースのトリミングされた基質は灰色で示している．UGGT：UDP-グルコース糖タンパク質グルコース転移酵素．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hagiwara-Molecular-Cell-16.9.1-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　UBC6eの欠損による小胞体関連分解の活性化のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hagiwara-Molecular-Cell-16.9.1-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hagiwara-Molecular-Cell-16.9.1-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>4．UBC6eはその局在および複合体の形成により特異的に機能する</h2><br/>　UBC6eはどのように特異性を獲得し小胞体関連分解の促進タンパク質の量を制御しているのだろうか．UBC6eの膜貫通領域に着目した変異体の解析により，小胞体への局在がUBC6eの活性に必須であることが明らかにされた．膜貫通領域を小胞体局在タンパク質であるCD4のものと置換したUBC6e-CD4変異体は，同じ小胞体への局在でありながら野生型のUBC6eと比べ低い活性しか示さなかった．免疫沈降法を用いた小胞体関連分解の促進タンパク質との結合実験およびスクロース密度勾配法による複合体の解析により，UBC6eの膜貫通領域は基質との結合に必須であること，UBC6eと基質は複合体においてのみ結合することが明らかにされた．これらのことから，UBC6eは複合体に存在してはじめて小胞体関連分解の促進タンパク質の量を制御できることが示唆された．そこで，複合体に対するUBC6eの占有率について検討した．野生型のマウス胎仔線維芽細胞を用いて，ドキシサイクリンの濃度に依存して野生型のUBC6eあるいはユビキチン結合酵素活性のないUBC6e変異体の発現量を制御することのできる誘導細胞株を作製した．種々のドキシサイクリンの濃度において小胞体関連分解の促進タンパク質の量を調べたところ，野生型のUBC6eを発現させても変化はなく，一方で，ユビキチン結合酵素活性のないUBC6e変異体においては内在性のUBC6eと比較して約10倍の量を発現させることにより優性阻害効果を示した．これらの結果から，小胞体関連分解の促進タンパク質の量の制御にかかわる複合体におけるUBC6eの占有率には制限のあることが示唆された．ユビキチン結合酵素活性のないUBC6e変異体を大過剰に発現させることにより内在性のUBC6eが複合体を形成できなくなり阻害を示したと考えられた．一方で，野生型のUBC6eを大過剰に発現させても小胞体関連分解の促進タンパク質の量に変化がなかったことから，複合体の数が小胞体関連分解の促進タンパク質の量の制御に寄与することも示唆された．筆者らの研究室において作製されたHRD1複合体の構成タンパク質として知られるDerlin2のノックアウトマウスにおいて，小胞体関連分解の促進タンパク質が増加することが見い出されていた<a href="#R7"><sup>7)</sup></a>．Derlin2はUBC6eの膜貫通領域に依存して結合するが，UBC6eの欠損により量は制御されていなかったことから，Derlin2はUBC6eと同じく小胞体関連分解の促進タンパク質の量を制御する複合体の構成タンパク質であることが示唆された．<br/><br/><h2>5．フォールディングのむずかしい糖タンパク質もUBC6eの欠損により分解が促進される</h2><br/>　なぜ定常状態において小胞体関連分解の活性は弱く制御される必要があるのか，あるいは，小胞体関連分解の活性化は生理的な条件においてどのような不都合を生じるのか．Calnexinサイクルにおいて，構造形成中間体もミスフォールディングしたタンパク質も同じG1Man9型の糖鎖構造をもつ<a href="#R8"><sup>8)</sup></a>．一般的に，フォールディングのむずかしいタンパク質，たとえば，複数回膜貫通タンパク質やジスルフィド結合を多くもつタンパク質はCalnexinサイクルにより長時間のフォールディングが試みられたのち成熟することが知られている．そこで，小胞体関連分解の促進タンパク質による小胞体関連分解の活性化においては，G1Man9型の糖鎖構造をもつ構造形成中間体も小胞体関連分解の促進タンパク質により未成熟な段階において分解されるのではないかと考えた．チロシナーゼは分子内に多くのジスルフィド結合および5個の<em>N</em>-結合型糖鎖をもつためフォールディングがむずかしく，新規に合成されたチロシナーゼのうち約30％のみが成熟体となり残りは小胞体関連分解により分解されることが知られていたため<a href="#R9"><sup>9)</sup></a>，チロシナーゼを基質として用いた．野生型のチロシナーゼを用いたパルス＆チェイス実験において，UBC6eを欠損したマウス胎仔線維芽細胞においてはチロシナーゼの分解が野生型のマウス胎仔線維芽細胞と比べ促進された．また，UBC6eを欠損したマウス胎仔線維芽細胞においてはendo Hに耐性のチロシナーゼの量が野生型のマウス胎仔線維芽細胞と比べ減少したことから，小胞体関連分解の活性化により未成熟な段階において分解されることでチロシナーゼの成熟が抑制されることが明らかにされた．このことは，マウスの皮膚の試料においても確かめられた．野生型のマウスあるいはUBC6eヘテロノックアウトマウスと比べ，UBC6eホモノックアウトマウスから採集した皮膚におけるチロシナーゼの量は約半分に減少していた．このチロシナーゼの蓄積は小胞体関連分解の促進タンパク質の量の制御に依存していた．<br/><br/><h2>おわりに</h2><br/>　小胞体における品質管理機構の研究は非常にさかんであり，今日においても，それにかかわる多くのタンパク質が同定されつづけている．また，小胞体ストレス状態における変化についてはさかんに研究されている一方，定常状態において小胞体における品質管理機構がどのように制御され恒常性を維持しているのかといった研究はあまりされていない．この研究は，定常状態における恒常性の維持として小胞体関連分解の活性が制御されていることを明らかにしたものであり，小胞体ストレス応答とは異なり転写を介さない制御という意味で新規性が高い．この制御の欠如は死にいたるようなものではなかった．HRD1ノックアウトマウスやSEL1Lノックアウトマウスなど小胞体関連分解複合体の主要な構成タンパク質のノックアウトマウスの多くは胎生致死だが，UBC6eノックアウトマウスは胎生致死とはならない<a href="#R10"><sup>10)</sup></a>．これは，UBC6eを欠損しても糖タンパク質の大部分は影響をうけないためだと考えられる．一方で，UBC6eノックアウトマウスにおいては精子の形成の異常による雄のマウスの不妊および聴力の障害が報告されているが，今回の研究の結果から，これらの症状は精子の形成あるいは聴力に関与するフォールディングのむずかしい糖タンパク質がUBC6eの欠損による小胞体関連分解の活性化により分解されたため起こった可能性が大いにあり，今後の研究が待たれる．<br/>　タンパク質の品質管理は社会学にたとえられるほど人間社会と似かよっている．この研究により明らかにされた小胞体関連分解の活性の制御機構も現実の人間社会になぞらえることができる．製品の生産工場を考えたとき，品質管理部は製品の品質を維持するため必要不可欠である．しかし，あまりに品質管理が厳しいと品質は頭打ちになり生産性のみが落ちる．この状態では会社の利益は得られず廃業を余儀なくされるであろう．生産性が安定していても（細胞の場合には，定常状態にあっても），品質と生産量のバランスをとるため品質管理部（小胞体関連分解の促進タンパク質）の制御は会社の維持（小胞体における恒常性の維持）において重要であろう．このように，人間社会になぞらえて考えると今回の研究の意義が伝わるのではないかと思う．今後も，この研究をブレイクスルーとして，定常状態を維持するための小胞体における品質管理機構についてさかんに研究されることを大いに期待するとともに，今後も貢献できるよう研究を進めていきたい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hetz, C., Chevet, E. & Oakes, S. A.</span>: <span class="ti">Proteostasis control by the unfolded protein response.</span> <span class='so'>Nat. Cell Biol., 17, 829-838 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26123108" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Mueller, B., Klemm, E. J., Spooner, E. et al.</span>: <span class="ti">SEL1L nucleates a protein complex required for dislocation of misfolded glycoproteins.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 105, 12325-12330 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18711132" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Reggiori, F., Monastyrska, I., Verheije, M. H. et al.</span>: <span class="ti">Coronaviruses hijack the LC3-I-positive EDEMosomes, ER-derived vesicles exporting short-lived ERAD regulators, for replication.</span> <span class='so'>Cell Host Microbe, 7, 500-508 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20542253" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Burr, M. L., Cano, F., Svobodova, S. et al.</span>: <span class="ti">HRD1 and UBE2J1 target misfolded MHC class I heavy chains for endoplasmic reticulum-associated degradation.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 108, 2034-2039 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21245296" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Younger, J. M., Chen, L., Ren, H. Y. et al.</span>: <span class="ti">Sequential quality-control checkpoints triage misfolded cystic fibrosis transmembrane conductance regulator.</span> <span class='so'>Cell, 126, 571-582 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16901789" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Koenig, P. A., Nicholls, P. K., Schmidt, F. I. et al.</span>: <span class="ti">The E2 ubiquitin-conjugating enzyme UBE2J1 is required for spermiogenesis in mice.</span> <span class='so'>J. Biol. Chem., 289, 34490-34502 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25320092" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Dougan, S. K., Hu, C. C., Paquet, M. E. et al.</span>: <span class="ti">Derlin-2-deficient mice reveal an essential role for protein dislocation in chondrocytes.</span> <span class='so'>Mol. Cell. Biol., 31, 1145-1159 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21220515" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Xu, C., & Ng, D. T.</span>: <span class="ti">Glycosylation-directed quality control of protein folding.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 16, 742-752 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26465718" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Wang, N. & Hebert, D. N.</span>: <span class="ti">Tyrosinase maturation through the mammalian secretory pathway: bringing color to life.</span> <span class='so'>Pigment Cell Res., 19, 3-18 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16420243" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Koenig, P. A. & Ploegh, H. L.</span>: <span class="ti">Protein quality control in the endoplasmic reticulum.</span> <span class='so'>F1000Prime Rep., 6, 49 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25184039" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=塩基配列" target="_blank">塩基配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=抗体" target="_blank">抗体解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=RNA-seq" target="_blank">RNA-seq</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">萩原 誠智（Masatoshi Hagiwara）</span><br>略歴：2011年 京都大学大学院理学研究科博士課程 修了，同年 京都産業大学総合生命科学部 博士研究員，2012年 九州大学生体防御医学研究所 研究員，2013年 東北大学多元物質科学研究所 研究員，同年 米国Whitehead Institute for Biomedical Research研究員を経て，2016年より第一三共．<br>研究テーマ：タンパク質の品質管理．<br>関心事：生命の神秘．<br></div><br>© 2016 萩原 誠智 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

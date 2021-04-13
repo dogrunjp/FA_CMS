@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 細菌におけるリポ多糖の修飾の状態とシグナル伝達系との相互フィードバック制御 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>細菌におけるリポ多糖の修飾の状態とシグナル伝達系との相互フィードバック制御</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>加藤明宣・Eduardo A. Groisman</strong><br>（米国Washington大学School of Medicine，Department of Molecular Microbiology）<br>email：<a href="mailto:kato_a@nara.kindai.ac.jp">加藤明宣</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.119">10.7875/first.author.2012.119</a><br><div class="reference"><br><span class="ti">Reciprocal control between a bacterium's regulatory system and the modification status of its lipopolysaccharide.</span><br><span class="au">Akinori Kato, H. Deborah Chen, Tammy Latifi, Eduardo A. Groisman</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22921935" target="_blank"><em>Molecular Cell</em>, <strong>47</strong>, 897-908 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　グラム陰性細菌の外膜はリポ多糖におおわれ，その修飾は抗菌剤への抵抗性や宿主の自然免疫からの回避などに重要であることが知られている．しかし，これまで，リポ多糖の修飾の状態が細菌それ自体によりどのように認識されているのかはよくわかっていない．筆者らは，サルモネラ菌が細胞の外部のFe<sup>3+</sup>に応答してリポ多糖を修飾する際に中心的な役割を担う二成分制御系PmrA-PmrB系について，そのインプットとアウトプットとの関係性に着目した．まず，Fe<sup>3+</sup>センサーであるPmrBをコードする遺伝子の下流に，内膜に局在するペプチドPmrRのコードされていることが見い出された．つぎに，レギュレーターであるPmrAにより転写の活性化されるリポ多糖修飾遺伝子のうち，とくにリポ多糖を正に荷電するはたらきをもつ4-アミノアラビノース修飾酵素の遺伝子の欠損株において，同時に<em>pmrR</em>遺伝子を欠損させるとPmrA-PmrB系の活性化のレベルが著しく高まったことから，PmrRもリポ多糖修飾酵素を制御していることが示唆された．実際に，PmrRはリピドAの1位をピロリン酸により修飾する膜酵素LpxTと相互作用することでその活性を抑制し，細胞の表層の負電荷を減少させることによりFe<sup>3+</sup>との結合性を低下させ，Fe<sup>3+</sup>センサーPmrBを刺激するFe<sup>3+</sup>の量を減少させることでPmrAにより転写の活性化される遺伝子の転写のレベルを低下させた．これらのことから，ピロリン酸により1位の修飾されたリピドAとFe<sup>3+</sup>との結合性を基軸とした，リポ多糖の修飾の状態と二成分制御系PmrA-PmrB系のあいだの相互フィードバック制御機構が明らかになった．<br/><br/><h2>はじめに</h2><br/>　グラム陰性細菌の外膜は抗生物質や抗菌剤に対する透過性バリアを形成している<a href="#R1"><sup>1)</sup></a>．外膜はタンパク質，内側のリン脂質，外側のリポ多糖から構成されている．細菌は環境変化に応答しリポ多糖のさまざまな部位において種々の化学修飾を行うため，その構造はダイナミックに変化する．リポ多糖の修飾は抗菌剤への抵抗性や宿主の自然免疫からの回避に欠かせないが，その一方で，リポ多糖修飾遺伝子の構成的な発現は胆汁に対し感受性を示すことから，その修飾のレベルは適度な厳密性をもって制御されているものと考えられている．<br/>　病原細菌であるサルモネラ菌（<em>Salmonella typhimurium</em>）において，二成分制御系PmrA-PmrB系は細胞の外部のFe<sup>3+</sup>に応答しリポ多糖修飾遺伝子の発現を制御する主要な制御機構である．リポ多糖は内側のリピドA，中間のコア，外側のO抗原から構成され（<a href="#F1">図1</a>），PmrAに依存的なリポ多糖の修飾はこれらそれぞれの部位において起こる<a href="#R2"><sup>2)</sup></a>．たとえば，PmrAにより転写の活性化される遺伝子の産物であるUgdおよびPmrCは，リピドAの1位と4’位を4-アミノアラビノースおよびホスホエタノールアミンにより，それぞれ修飾する．その結果，サルモネラ菌のリピドAはリン酸基による負の荷電が中和され，正の荷電をもつ抗生物質ポリミキシンBや金属イオンFe<sup>3+</sup>あるいはAl<sup>3+</sup>に抵抗性を示すようになる．これらリピドA修飾遺伝子を含め，PmrA-PmrB系は7つのリポ多糖修飾遺伝子座（<em>ugd</em>遺伝子，<em>pbgP</em>遺伝子，<em>pmrC</em>遺伝子，<em>pmrG</em>遺伝子，<em>cptA</em>遺伝子，<em>wzz<sub>ST</sub></em>遺伝子，<em>wzz<sub>FepE</sub></em>遺伝子）を直接に制御している．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　細菌におけるリポ多糖の修飾の状態とシグナル伝達系との相互フィードバック制御</strong><br/>PmrRは，リピドAの1位をピロリン酸により修飾する膜酵素LpxTと相互作用することによりその活性を抑制し，細胞の表層の負の電荷を減少させることによりFe<sup>3+</sup>との結合性を低下させ，Fe<sup>3+</sup>センサーであるPmrBを刺激するFe<sup>3+</sup>の量を減少させることによりレギュレーターであるPmrAの活性化のレベルを低下させる．<br/>P：リン酸化．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kato-Molecular-Cell-12.9.27-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　細菌におけるリポ多糖の修飾の状態とシグナル伝達系との相互フィードバック制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kato-Molecular-Cell-12.9.27-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kato-Molecular-Cell-12.9.27-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　細菌のもつシグナル伝達機構として二成分制御系が知られている．PmrA-PmrB系においては，センサーであるPmrBが細胞の外部のFe<sup>3+</sup>を感知すると，レギュレーターであるPmrAをリン酸化し，PmrAに依存的なリポ多糖修飾遺伝子の転写は活性化される<a href="#R3"><sup>3)</sup></a>（<a href="#F2">図2</a>）．一方，低Mg<sup>2+</sup>シグナルもPmrA-PmrB系を活性化する．低Mg<sup>2+</sup>シグナルを感知する別の二成分制御系，PhoP-PhoQ系が85アミノ酸残基からなるコネクターPmrDを発現させ，これがリン酸化されたPmrAと結合することでPmrBによる脱リン酸化から保護するという分子機構がこれまでに明らかになっている<a href="#R4"><sup>4)</sup></a>（<a href="#F2">図2</a>）．また，低Mg<sup>2+</sup>かつ高Fe<sup>3+</sup>の条件では，リン酸化されたPmrAが<em>pmrD</em>遺伝子のプロモーターに結合し負のフィードバック制御を行う<a href="#R5"><sup>5)</sup></a>（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　PhoP-PhoQ系とPmrA-PmrB系の2つの二成分制御系によるネットワーク</strong><br/>PhoP-PhoQ系により発現の誘導されたPmrDは，リン酸化されたPmrAと相互作用してPmrBによる脱リン酸化から保護する．一方，リン酸化されたPmrAは，<em>pmrD</em>遺伝子のプロモーターのPhoP結合部位であるPhoPボックス（青色の四角）の上流にあるPmrAボックス（赤色の四角）に結合し，PmrDの発現を抑制する．また，リン酸化されたPmrAは<em>pmrR</em>遺伝子のプロモーターにも結合し，そこにコードされるペプチドPmrRの発現を誘導する．PmrRは内膜においてリピドAを修飾する膜酵素LpxTと相互作用することでその活性を抑制する．<br/>P：リン酸化．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kato-Molecular-Cell-12.9.27-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　PhoP-PhoQ系とPmrA-PmrB系の2つの二成分制御系によるネットワーク" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kato-Molecular-Cell-12.9.27-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kato-Molecular-Cell-12.9.27-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　この研究において，筆者らは，細菌がいつどのようにしてリポ多糖の修飾の状態に応答し，リポ多糖修飾遺伝子の産物あるいは活性化のレベルを制御しているのか，その分子機構の解明を試みた．<br/><br/><h2>1．PmrAにより転写の活性化される遺伝子にコードされるペプチドPmrRの発見</h2><br/>　これまでの実験的な解析やコンピューターによる予測において報告のされていない，PmrAにより活性化される遺伝子プロモーターを<em>pmrB</em>遺伝子のコード領域のすぐ下流に同定し，<em>pmrB</em>遺伝子の方向にむかい転写されるRNAを確認した（<a href="#F2">図2</a>）．この遺伝子プロモーターのもつ，PmrAにより認識されるDNA結合モチーフであるPmrAボックスは，近縁の腸内細菌である大腸菌，肺炎桿菌，<em>Citrobacter koseri</em>のゲノムの<em>pmrB</em>遺伝子の下流においても認められた．このRNAはリボソーム結合部位とそれにつづく30コドンからなるORFを含み，これらの特徴もやはり近縁の腸内細菌において保存されていた．このORFから実際にペプチドが翻訳されていることを検証するため，サルモネラ菌の染色体においてこのORFの終止コドンのまえにFLAGタグを挿入した．PmrA-PmrB系が活性化される条件において培養したサルモネラ菌の抽出液をFLAG抗体アフィニティーカラムにより精製したところ，予測された分子量のペプチドが溶出されたことから，このORFがサルモネラ菌において実際に翻訳されていることが確認された．機能が既知のペプチドあるいはタンパク質の配列とほとんど類似性を示さないこの29アミノ酸残基からなるペプチドはPmrRと命名された．疎水性アミノ酸残基の存在から予測されたように，PmrRは内膜画分に局在することも実験的に示された．<br/><br/><h2>2．PmrRは膜酵素LpxTと相互作用しリピドAの1位のピロリン酸による修飾を抑制する</h2><br/>　これまで，PmrA-PmrB系が活性化されると，膜酵素LpxTに依存的なリピドAの1位のピロリン酸による修飾が抑制されるという報告がなされていたが<a href="#R6"><sup>6)</sup></a>，この抑制に直接にかかわるタンパク質の存在は不明であった．PmrRとLpxTはどちらも内膜に局在すること，後述するように，PmrAに依存的なリピドA修飾遺伝子の欠失した株においてPmrRのはたらきが顕著となることなどから，PmrAが活性化された際にPmrRはLpxTを標的としそのはたらきを抑制する可能性が考えられた．このことを検証するにあたり，大腸菌のツーハイブリッド系や生化学的なアプローチを適用することにより，LpxTとPmrRとのあいだの特異的な相互作用が検出された．つぎに，PmrRがLpxTと相互作用することにより，リピドAの1位のピロリン酸による修飾は抑制されるかどうかを検証した．低Mg<sup>2+</sup>条件においてPhoP-PhoQ系とPmrA-PmrB系が活性化されると，PhoPに依存的なリポ多糖の修飾とPmrAに依存的なリポ多糖の修飾とが組み合わさり，多種多様な修飾をうけたリピドAが形成される．そこで，これらの修飾の抑制される高Mg<sup>2+</sup>条件において，PmrRをコードするプラスミドベクターを導入することでPmrRを発現させた野生株と，ベクターのみを導入した野生株からリピドAを単離し，薄層クロマトグラフィーに展開してその修飾のパターンを比較した．その結果，PmrRはLpxTに依存的なリピドAの1位のピロリン酸による修飾を抑制することが確認された．PmrRの発現によるこの抑制は<em>lpxT</em>欠損株において消失したことから，PmrRのもつこの機能はLpxTに依存することが明らかになった．<br/><br/><h2>3．PmrRはPmrAにより転写の活性化される遺伝子の転写のレベルを低下させる</h2><br/>　リピドAを修飾する膜酵素LpxTのPmrRによる抑制は，細胞の表層の負電荷を減少させることにより，サルモネラ菌と正電荷をもつFe<sup>3+</sup>との静電的な相互作用を抑制することが予測された．実際に，<em>pmrR</em>変異株は野生株と比較してより多くのFe<sup>3+</sup>と結合した．対照的に，<em>lpxT</em>変異株は野生株より少ないFe<sup>3+</sup>と結合した．PmrRの発現によりもたらされるFe<sup>3+</sup>との結合性の低下は，Fe<sup>3+</sup>センサーPmrBの活性化に利用されるFe<sup>3+</sup>の量を減少させ，結果として，PmrAにより転写の活性化される遺伝子の転写のレベルの低下につながるものと予測された．そこで，サルモネラ菌をFe<sup>3+</sup>を含有する培地で生育させてPmrAにより転写の活性化される遺伝子の転写のレベルを測定したところ，<em>pmrR</em>変異株は野生株に比べ高い転写レベルを示したことで，この予測は確認された．<br/><br/><h2>4．リピドAの1位の4-アミノアラビノースによる修飾が阻害されるとPmrAにより転写の活性化される遺伝子の転写のレベルは上昇する</h2><br/>　PmrRのほか，PmrAにより転写の活性化される遺伝子の産物もPmrA-PmrB系における負のフィードバック制御にかかわるかどうかを調べたところ，リピドAを正に荷電するはたらきをもつ，Ugdに依存的なリピドAの1位の4-アミノアラビノースによる修飾が重要であることが明らかになった．PmrAにより転写の活性化される遺伝子のmRNAの量は，<em>ugd</em>変異体において野生株に比べ4倍ほど増加していた．これらのmRNAの量は<em>pmrR</em>変異株よりも<em>ugd pmrR</em>二重変異体においてさらに増加していたので，<em>ugd</em>遺伝子による負のフィードバック制御は<em>pmrR</em>遺伝子による負のフィードバック制御とは独立していることがわかった．しかし，<em>pmrR</em>遺伝子の欠損の影響は<em>ugd</em>遺伝子も同時に欠損しているときもっとも顕著であったことは特筆すべき点であった．また，Ugdに依存的なリピドAの1位の4-アミノアラビノースによる修飾も，細胞の表層におけるFe<sup>3+</sup>との結合性を減少させることによりPmrA-PmrB系を抑制することが明らかになった．<br/>　PmrA-PmrB系のフィードバック制御は，PmrAにより転写の活性化される遺伝子の産物のうち，リピドAの1位のピロリン酸による修飾を標的とするPmrRによりひき起こされていたが，同じくPmrAにより転写の活性化される遺伝子の産物のうち，リポ多糖のほかの領域を修飾するタンパク質によっては生じないようであった．一方，<em>ugd</em>変異体において，PmrAにより転写の活性化される遺伝子のmRNAの量の上昇およびFe<sup>3+</sup>との結合性の上昇は，<em>lpxT</em>遺伝子の欠損により完全にキャンセルされた．これらのことから，PmrA-PmrB系のPmrRおよびUgdによる2つの負のフィードバックループ，および，リポ多糖へのFe<sup>3+</sup>の結合には，膜酵素LpxTに依存的にピロリン酸により1位の修飾されたリピドAの形成が不可欠であることが明らかになった．<br/><br/><h2>5．PmrAに依存的なリピドAの修飾によるPmrA-PmrB系のゆっくりとしたフィードバック制御</h2><br/>　Fe<sup>3+</sup>を含む培地に切り替えた20分後においてPmrAにより転写の活性化される遺伝子の転写はすでに起こっていたが，野生型と<em>ugd</em>欠損株を比較しても，Fe<sup>3+</sup>との結合性および<em>pbgP</em> mRNAの量はほぼ同じ程度であった．Fe<sup>3+</sup>の添加から20分後に<em>ugd</em>変異株が野生株と同様にふるまっていたのは，おそらく，PmrAに依存的なリピドAの修飾は新しく合成されたリポ多糖においてのみ生じ<a href="#R2"><sup>2)</sup></a>，Fe<sup>3+</sup>の添加から20分後ではまだ検出されないくらいゆっくりとした回転速度で進行していることによるものと考えられた．一方，Fe<sup>3+</sup>を含む培地に切り替えた120分後においては，野生株ではPmrAに依存的なリピドAの修飾が認められ，<em>ugd</em>変異株と比較し，野生株はより少ないFe<sup>3+</sup>と結合し，より低い<em>pbgP</em> mRNAの量を示した．<br/><br/><h2>おわりに</h2><br/>　今回の研究により，細菌は一定のストレス刺激に連続的にさらされている状態においても，シグナル伝達系の活性化のレベルをつねに微調整するフィードバック制御機構の存在することが明らかになった．この微調整は，シグナル伝達系によりもたらされた細胞の表層の変化（アウトプット）より生じた，活性化シグナル（インプット）へのアクセスの低下により行われていた．より具体的には，サルモネラ菌がリポ多糖の修飾を指揮するPmrA-PmrB系の活性化リガンドであるFe<sup>3+</sup>との結合性をモニターすることにより，リポ多糖の修飾の状態を認識する分子機構が明らかとなったといえる．この機構は，細胞質における転写制御タンパク質だけで完結する一般的なフィードバック制御機構と<a href="#R5"><sup>5,7)</sup></a>，制御のタイミングおよび標的という点で異なっていた．<br/>　これまで，二成分制御系を中心とした細菌における病原性の制御の研究などから，PmrRのような新規なペプチド<a href="#R8"><sup>8)</sup></a> あるいは低分子タンパク質<a href="#R9"><sup>9,10)</sup></a> がいくつか報告されている．これらのペプチドは，ゲノムアノテーションにおいて見落とされたものであろうことをふまえると，ゲノムにはユニークな役割と機能をもつ未知のペプチドがまだまだかくされているに違いない．それらの進化や起源の探求も興味深い．今後，この分野のさらなる進展が期待される．さらに，それらのペプチドをもとにした新薬の開発にもつなげていきたい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Nikaido, H.</span>: <span class="ti">Molecular basis of bacterial outer membrane permeability revisited.</span> <span class='so'>Microbiol. Mol. Biol. Rev., 67, 593-656 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14665678" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Raetz, C. R., Reynolds, C M., Trent, M. S. et al.</span>: <span class="ti">Lipid A modification systems in gram-negative bacteria.</span> <span class='so'>Annu. Rev. Biochem., 76, 295-329 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17362200" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Wosten, M. M., Kox, L. F., Chamnongpol, S. et al.</span>: <span class="ti">A signal transduction system that responds to extracellular iron.</span> <span class='so'>Cell, 103, 113-125 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11051552" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Kato, A. & Groisman, E. A.</span>: <span class="ti">Connecting two-component regulatory systems by a protein that protects a response regulator from dephosphorylation by its cognate sensor.</span> <span class='so'>Genes Dev., 18, 2302-2313 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15371344" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kato, A., Latify, T. & Groisman, E. A.</span>: <span class="ti">Closing the loop: the PmrA/PmrB two-component system negatively controls expression of its posttranscriptional activator PmrD.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 100, 4706-4711 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12676988" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Herrera, C. M., Hankins, J. V. & Trent, M. S.</span>: <span class="ti">Activation of PmrA inhibits LpxT-dependent phosphorylation of lipid A promoting resistance to antimicrobial peptides.</span> <span class='so'>Mol. Microbiol., 76, 1444-1460 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20384697" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Yeo, W. S., Zwir, I., Huang, H. V. et al.</span>: <span class="ti">Intrinsic negative feedback governs activation surge in two-component regulatory systems.</span> <span class='so'>Mol. Cell, 45, 409-421 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22325356" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Alix, E. & Blanc-Potard, A. B.</span>: <span class="ti">Hydrophobic peptides: novel regulators within bacterial membrane.</span> <span class='so'>Mol. Microbiol., 72, 5-11 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19210615" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Kato, A., Mitrophanov, A. Y. & Groisman, E. A.</span>: <span class="ti">A connector of two-component regulatory systems promotes signal amplification and persistence of expression.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 104, 12063-12068 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17615238" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Mitrophanov, A. Y. & Groisman, E. A.</span>: <span class="ti">Signal integration in bacterial two-component regulatory systems.</span> <span class='so'>Genes Dev., 22, 2601-2611 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18832064" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">加藤 明宣（Akinori Kato）</span><br>略歴：2000年 近畿大学大学院農学研究科博士後期課程 修了，同年 米国Washington大学School of Medicineポストドクトラルフェロー，2002年 同 リサーチアソシエートを経て，2007年より近畿大学大学院農学研究科 講師．<br>研究テーマ：サルモネラ菌を中心とした近縁の病原細菌におけるシグナル伝達ネットワークの分子機構および進化．機能未知のペプチドの研究，また，ペプチドドラッグへの応用展開も進行中．<br><br><strong>Eduardo A. Groisman</strong><br>米国Yale School of MedicineにてProfessor．<br></div><br>© 2012 加藤明宣・Eduardo A. Groisman Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

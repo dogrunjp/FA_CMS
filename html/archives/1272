@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> U1 snRNPはmRNA前駆体を異常な切断とポリA化から保護する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>U1 snRNPはmRNA前駆体を異常な切断とポリA化から保護する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>甲斐田 大輔</strong><br>（米国Pennsylvania大学School of Medicine，Department of Biochemistry and Biophysics）<br>email：<a href="mailto:kaida@mail.med.upenn.edu">甲斐田大輔</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2010.043">10.7875/first.author.2010.043</a><br><div class="reference"><br><span class="ti">U1 snRNP protects pre-mRNAs from premature cleavage and polyadenylation.</span><br><span class="au">Daisuke Kaida, Michael G. Berg, Ihab Younis, Mumtaz Kasim, Larry N. Singh, Lili Wan, Gideon Dreyfuss</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/20881964" target="_blank"><em>Nature</em>, <strong>468</strong>, 664-668 (2010)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<a href="#" class="anno" data-query="spliceosome" data-uniprot="">スプライソソーム</a>は<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a>，<a href="#" class="anno" data-query="U2 snRNP" data-uniprot="">U2</a>，<a href="#" class="anno" data-query="U4 snRNP" data-uniprot="">U4</a>，<a href="#" class="anno" data-query="U5 snRNP" data-uniprot="">U5</a>，<a href="#" class="anno" data-query="U6 snRNP" data-uniprot="">U6</a>という5つの低分子リボヌクレオタンパク質（<a href="#" class="anno" data-query="snRNP" data-uniprot="">snRNP</a>）が一対一の割合で会合することで構成されているが，ヒトにおいては<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>がほかの<a href="#" class="anno" data-query="snRNP" data-uniprot="">snRNP</a>と比べ過剰に存在している．このことから，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>にはスプライシング以外の機能があるのではないかと考え，その機能阻害によるトランスクリプトームへの影響を観察した．予想どおり，さまざまなイントロンにおいてスプライシングの阻害が観察されたが，驚くべきことに，多くの遺伝子においてmRNAがイントロンでの異常な切断とポリA化をうけることが明らかとなった．この現象はスプライシング阻害剤によってはひき起こされなかったことから，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>はスプライシングにくわえ，新規の転写産物を異常な切断とポリA化から保護するという機能をもっており，この機能のためほかの<a href="#" class="anno" data-query="snRNP" data-uniprot="">snRNP</a>より多く存在しているのではないかと考えられた．<br/><br/><h2>はじめに</h2><br/>　真核細胞において転写されたばかりのmRNA前駆体（precursor mRNA）は，タンパク質をコードする遺伝情報をもつエキソンとその情報をもたないイントロンとからなっている<a href="#R1"><sup>1)</sup></a>．スプライシングによるイントロンの除去にくわえ，5’末端でのキャッピング，3’末端でのポリA化などの転写後修飾をうけて，mRNAは核外へと輸送される<a href="#R2"><sup>2)</sup></a>（<a href="#F1">図1</a>）．スプライシング反応は，高分子のリボヌクレオタンパク質である<a href="#" class="anno" data-query="spliceosome" data-uniprot="">スプライソソーム</a>によって行われており，そのおもな構成因子は<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a>，<a href="#" class="anno" data-query="U2 snRNP" data-uniprot="">U2</a>，<a href="#" class="anno" data-query="U4 snRNP" data-uniprot="">U4</a>，<a href="#" class="anno" data-query="U5 snRNP" data-uniprot="">U5</a>，<a href="#" class="anno" data-query="U6 snRNP" data-uniprot="">U6</a>という5つの<a href="#" class="anno" data-query="snRNP" data-uniprot="">低分子核内リボヌクレオタンパク質</a>（<a href="#" class="anno" data-query="snRNP" data-uniprot="">small nuclear ribonucleoprotein</a>：<a href="#" class="anno" data-query="snRNP" data-uniprot="">snRNP</a>）である<a href="#R3"><sup>3)</sup></a>．おのおのの<a href="#" class="anno" data-query="snRNP" data-uniprot="">snRNP</a>は核となる<a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>とそれぞれの<a href="#" class="anno" data-query="snRNP" data-uniprot="">snRNP</a>に特異的なタンパク質から構成されている．一方，mRNA前駆体にはイントロンの5’末端と3’末端に<a href="#" class="anno" data-query="spliceosome" data-uniprot="">スプライソソーム</a>によって認識される配列が存在し，それぞれ，5’側スプライス部位，3’側スプライス部位とよばれている．おのおのの<a href="#" class="anno" data-query="snRNP" data-uniprot="">snRNP</a>がRNA-RNA結合，タンパク質-RNA結合，タンパク質-タンパク質結合を介してこれらスプライス部位を認識することによって，正確にイントロンを切り出してエキソンどうしをつなげている（<a href="#F2">図2</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　mRNAの成熟</strong><br/>RNAポリメラーゼ II（Pol II）によって転写されたmRNA前駆体は，イントロンのスプライシング，5’末端のキャッピング，3’末端のポリA化という一連の転写後修飾をへて，核外輸送され，翻訳される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kaida-Nature-10.10.28-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　mRNAの成熟" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kaida-Nature-10.10.28-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kaida-Nature-10.10.28-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　mRNAのスプライシング</strong><br/>mRNA前駆体に5つのsnRNP（U1，U2，U4，U5，U6）ならびにさまざまな因子が段階的に結合し，高次構造変化をすることで最終的にイントロンを切り出し，エキソンどうしをつなぐ．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kaida-Nature-10.10.28-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　mRNAのスプライシング" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kaida-Nature-10.10.28-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kaida-Nature-10.10.28-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　<a href="#" class="anno" data-query="spliceosome" data-uniprot="">スプライソソーム</a>はおのおのの<a href="#" class="anno" data-query="snRNP" data-uniprot="">snRNP</a>が一対一の割合で会合することで形成されているが，ヒトにおいては<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>がほかの<a href="#" class="anno" data-query="snRNP" data-uniprot="">snRNP</a>と比べて過剰に存在している<a href="#R4"><sup>4)</sup></a>．このことから筆者らは，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>にはスプライシング以外の機能があるのではないかと考え，その機能阻害がトランスクリプトームにあたえる影響について解析を行うことにした．<br/><br/><h2>1．アンチセンスモルフォリノオリゴによる<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>の機能阻害</h2><br/>　<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>は<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>と5’側スプライス部位とのあいだのRNA-RNA結合を介して5’側スプライス部位を認識している<a href="#R1"><sup>1,3)</sup></a>．そこで，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>の5’側スプライス部位との結合領域に対するアンチセンスモルフォリノオリゴを用い，RNA-RNA結合をさまたげることによってその機能阻害を試みた．実際にこのアンチセンスモルフォリノオリゴが<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>に結合しているかどうかを確認するためRNase保護アッセイを行った．RNase HはDNA-RNA 2本鎖を認識してRNA鎖を分解するが，アンチセンスモルフォリノオリゴとRNAの形成する2本鎖はRNase H耐性である．もし，アンチセンスモルフォリノオリゴがすでに<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>と結合しているなら，あとからくわえられた1本鎖DNAは<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>と結合できず，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>はRNase Hにより切断されることはない．この実験から，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>の5’側スプライス部位との結合領域に対するアンチセンスモルフォリノオリゴが実際に<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>に結合しており，ほぼ100％の<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>の阻害されていることが確認された．さらには，このアンチセンスモルフォリノオリゴは<em>in vitro</em>でのスプライシング反応を阻害することから，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>の5’側スプライス部位との結合領域に対するアンチセンスモルフォリノオリゴは<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>と結合し，5’側スプライス部位との結合を阻害することでその機能を阻害しているものと考えられた．<br/><br/><h2>2．タイリングアレイを用いた<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>の阻害によるトランスクリプトーム変化の解析</h2><br/>　つぎに，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>の阻害がトランスクリプトームにどのような変化をあたえるかタイリングアレイを用いて解析した．通常のマイクロアレイがエキソン領域に対応するプローブしかもたないのに対し，タイリングアレイは全ゲノム領域に対応するプローブをチップに敷き詰めたものであり，通常のマイクロアレイでは得られないイントロン配列の情報をも解析することが可能である．また，対照として<a href="#" class="anno" data-query="U2 snRNP" data-uniprot="">U2</a> <a href="#" class="anno" data-query="snRNP" data-uniprot="">snRNP</a>に結合してスプライシングを阻害する化合物スプライソスタチンA（spliceostatin A）を用いた<a href="#R5"><sup>5)</sup></a>．<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>の5’側スプライス部位との結合領域に対するアンチセンスモルフォリノオリゴまたはスプライソスタチンAで細胞を処理した結果，予想どおり，スプライシング阻害により遺伝子全体のイントロンの蓄積している例がいくつも観察された．<br/>　しかしながら，アンチセンスモルフォリノオリゴ処理細胞においては，より多くの遺伝子において遺伝子の5’側のいくつかのイントロンしか蓄積しないという予想外の現象が観察された．この理由として，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>の阻害により転写の早期終結がひき起こされているのではないかと考えた．そこで，3’RACE（rapid amplification of cDNA end）法を用いて転写終結点を明らかにしたところ，驚くべきことに，それら早期に転写が終結したmRNAはイントロンにおいて異常な切断とポリA化をうけていることが明らかになった．<br/><br/><h2>3．転写の早期終結機構の解析</h2><br/>　通常，mRNAは3’末端において切断され，ポリA鎖が付加されることにより転写が終結しエキソヌクレアーゼから保護される．mRNAの3’末端にはポリA付加シグナル（AATAAAもしくはATTAAA）が存在し，このシグナルをポリA化酵素が認識することにより切断とポリA化が行われる<a href="#R6"><sup>6)</sup></a>．しかしながら，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>が阻害されることによってイントロンでポリA化がひき起こされた．さらには，ポリA化をうけたイントロンにも同様のポリA付加シグナルが存在したことから，この異常な切断とポリA化は3’末端におけるmRNAのポリA化と同一の分子機構で行われているのではないかと考えた．そこで，実際にイントロンでのポリA化が観察された遺伝子のミニ遺伝子を作製し，そのポリA付加シグナルに変異を導入した．野生型のポリA付加シグナルをもつミニ遺伝子は内在性の遺伝子と同様に<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>の阻害によりイントロンにおいてポリA化をうけたが，ポリA付加シグナルに変異をもつミニ遺伝子においてはポリA化は観察されなかった．このことから，この異常なポリA化は3’末端のポリA化と同様の分子機構で行われていることが示唆された．<br/><br/><h2>4．mRNA前駆体の保護という<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>の新たな機能</h2><br/>　スプライソスタチンA処理細胞ではこのような転写の早期終結は観察されなかったことから，この現象はスプライシングの阻害によるものではなく，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>の阻害に特有なものであると考えられた．そこで，その可能性をより直接的に検証するため，ほかのスプライシング阻害法によりmRNA前駆体の切断とポリA化が観察されるかどうかを検証した．<a href="#" class="anno" data-query="U2 snRNP" data-uniprot="">U2</a> <a href="#" class="anno" data-query="snRNP" data-uniprot="">snRNP</a>は<a href="#" class="anno" data-query="U2 snRNP" data-uniprot="">U2</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>とmRNA前駆体のあいだのRNA-RNA結合をとおしてmRNA前駆体の結合部位を認識しており，<a href="#" class="anno" data-query="U2 snRNP" data-uniprot="">U2</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>のmRNA前駆体の認識部位に対するアンチセンスオリゴを用いることでその機能を阻害することができる<a href="#R7"><sup>7)</sup></a>．そこで，細胞を，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>の5’側スプライス部位との結合領域に対するアンチセンスオリゴ，<a href="#" class="anno" data-query="U2 snRNP" data-uniprot="">U2</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>のmRNA前駆体の認識部位に対するアンチセンスオリゴ，スプライソスタチンAで処理したのち，細胞での異常な切断とポリA化を3’RACE法によって検出したところ，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>の5’側スプライス部位との結合領域に対するアンチセンスオリゴ処理細胞でのみこの異常なポリA化が観察された．以上のことから，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>にはスプライシング以外の機能として，mRNA前駆体を異常なポリA化から保護するという役割のあることが明らかとなった．<br/><br/><h2>5．<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>は5’側スプライス部位以外にも結合しmRNA前駆体を保護している</h2><br/>　<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>と5’側スプライス部位とのRNA-RNA結合はスプライシングに重要であるが，このRNA-RNA結合がmRNA前駆体を異常な切断とポリA化から保護することにも必要であるかどうかを確かめるため，さきに用いた，実際にイントロンでのポリA化が観察された遺伝子のミニ遺伝子において5’側スプライス部位に変異を導入し<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>と5’側スプライス部位との結合を阻害したところ，イントロンでの異常なポリA化が観察された．このことから，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>と5’側スプライス部位とのあいだのRNA-RNA結合がmRNA前駆体の保護にも重要であることがわかった．しかしながら，驚くべきことに，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1</a> <a href="#" class="anno" data-query="snRNA" data-uniprot="">snRNA</a>の5’側スプライス部位との結合領域に対するアンチセンスオリゴを処理することにより，さらに多くのポリA化が観察された．このことから，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>は5’側スプライス部位のみならず，mRNA前駆体のさまざまな部位に結合することで，mRNA前駆体の全体をこの異常な切断とポリA化から保護しているものと考えられた（<a href="#F3">図3</a>）．<br/><br/><a name="F3"></a><div id="fig3-caption-text" style="display: none;"><strong>図3　U1 snRNPによるmRNA前駆体の保護</strong><br/>（a）U1 snRNPは5’側スプライス部位のみならず，さまざまな領域に結合し，新規の転写産物を異常な切断とポリA化から保護している．<br/>（b）U1 snRNPが阻害されると，mRNA前駆体にあるポリA付加シグナルが認識され，転写が終結していないにもかかわらず異常な切断とポリA化をうける．<br/>Pol II：RNAポリメラーゼII，U1：U1 snRNP．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kaida-Nature-10.10.28-Fig.3.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure3" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図3　U1 snRNPによるmRNA前駆体の保護" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kaida-Nature-10.10.28-Fig.3.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kaida-Nature-10.10.28-Fig.3.jpg" alt="figure3" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig3-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig3-caption').innerHTML = document.getElementById('fig3-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>の阻害によるmRNA前駆体の異常な切断とポリA化の発見は，大きな驚きであった．これにより，なぜ<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>がほかの<a href="#" class="anno" data-query="snRNP" data-uniprot="">snRNP</a>と比較して過剰に存在しているのかが説明できるのではなかろうか．mRNA前駆体はイントロンにも多くのポリA付加シグナルをもち，つねに切断とポリA化の危機にさらされている．とくに，ヒトのような高等真核生物ではイントロンが非常に長く<a href="#R8"><sup>8)</sup></a>，イントロンが短い生物と比較して異常な切断とポリA化をうける危険性が高い．<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>はmRNA前駆体の異常な切断とポリA化を阻害するが，5’側スプライス部位に結合する<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>だけでは長いイントロンの全体を保護することができない．そのため，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>は5’側スプライス部位のみならず，イントロンのさまざまな部位に結合する必要があり，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>はほかの<a href="#" class="anno" data-query="snRNP" data-uniprot="">snRNP</a>と比較してより多くが必要なのであろう．もちろん，このような<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>は選択的スプライシングにも用いられている可能性があり<a href="#R9"><sup>9)</sup></a>，<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>のイントロン配列への結合はmRNA前駆体の保護と選択的スプライシングという2つの意味をもつのかもしれない．<a href="#" class="anno" data-query="U1 snRNP" data-uniprot="">U1 snRNP</a>はスプライシングに必須であるという点のみならず，新規の転写産物を異常な切断とポリA化から保護するという点においても，トランスクリプトーム全体を守るためになくてはならない因子のひとつである．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Will, C. L. & Luhrmann, R.</span>: <span class="ti">Splicing of a rare class of introns by the U12-dependent spliceosome.</span> <span class='so'>Biol. Chem., 386, 713-724 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16201866" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Moore, M. J. & Proudfoot, N. J.</span>: <span class="ti">Pre-mRNA processing reaches back to transcription and ahead to translation.</span> <span class='so'>Cell, 136, 688-700 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19239889" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Wahl, M. C., Will, C. L. & Luhrmann, R.</span>: <span class="ti">The spliceosome: design principles of a dynamic RNP machine.</span> <span class='so'>Cell, 136, 701-718 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19239890" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Baserga, S. J., Steitz, J. A.</span>: <span class='so'><em>in</em> The RNA World (Gesteland, R. F. & Atkins, J. F. eds.), pp. 359-381, Cold Spring Harbor Laboratory Press, Cold Spring Harbor (1993)</span></li><br><li id="R5"><span class='au'>Kaida, D., Motoyoshi, H., Tashiro, E. et al.</span>: <span class="ti">Spliceostatin A targets SF3b and inhibits both splicing and nuclear retention of pre-mRNA.</span> <span class='so'>Nat. Chem. Biol., 3, 576-583 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17643111" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Millevoi, S. & Vagner, S.</span>: <span class="ti">Molecular mechanisms of eukaryotic pre-mRNA 3' end processing regulation.</span> <span class='so'>Nucleic Acids Res., 38, 2757-2774 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20044349" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Matter, N. & Konig, H.</span>: <span class="ti">Targeted 'knockdown' of spliceosome function in mammalian cells.</span> <span class='so'>Nucleic Acids Res., 33, e41 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15731334" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Deutsch, M. & Long, M.</span>: <span class="ti">Intron-exon structures of eukaryotic model organisms.</span> <span class='so'>Nucleic Acids Res., 27, 3219-3228 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10454621" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Keren, H., Lev-Maor, G. & Ast, G.</span>: <span class="ti">Alternative splicing and evolution: diversification, exon definition and function.</span> <span class='so'>Nat. Rev. Genet., 11, 345-355 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20376054" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">甲斐田 大輔（Daisuke Kaida）</span><br>略歴：2003年 東京大学大学院理学系研究科博士課程 修了，同年 理化学研究所 協力研究員，2004年 同 基礎科学特別研究員を経て，2007年より米国Pennsylvania大学Postdoctoral fellow．<br>研究テーマ：スプライソソームの機能解析．<br>抱負：サイエンスを楽しみつつ，教科書に載るような仕事をする．<br></div><br>© 2010 甲斐田 大輔 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> セントロメア領域の基盤構造であるCENP-AヌクレオソームのX線結晶構造解析 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>セントロメア領域の基盤構造であるCENP-AヌクレオソームのX線結晶構造解析</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>立和名博昭・胡桃坂仁志</strong><br>（早稲田大学理工学術院 電気・情報生命工学科）<br>email：<a href="mailto:tachiwana@akane.waseda.jp">立和名博昭</a>，<a href="mailto:kurumizaka@waseda.jp">胡桃坂仁志</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.118">10.7875/first.author.2011.118</a><br><div class="reference"><br><span class="ti">Crystal structure of the human centromeric nucleosome containing CENP-A.</span><br><span class="au">Hiroaki Tachiwana, Wataru Kagawa, Tatsuya Shiga, Akihisa Osakabe, Yuta Miya, Kengo Saito, Yoko Hayashi-Takanaka, Takashi Oda, Mamoru Sato, Sam-Yong Park, Hiroshi Kimura, Hitoshi Kurumizaka</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21743476" target="_blank"><em>Nature</em>, <strong>476</strong>, 232-235 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　染色体は細胞分裂の際に2つの娘細胞に均等に分配される．そのとき，染色体のセントロメア領域にはキネトコア複合体が形成され，細胞の両極から伸びてくる紡錘糸と結合する．そのため，セントロメア領域の異常は染色体の不均等分配につながり，異数体細胞の形成される原因のひとつと考えられている．セントロメア領域の形成に中心的な役割を担うタンパク質として，ヒストンH3のバリアントであるCENP-Aが知られている．CENP-Aはセントロメア領域に特徴的なヌクレオソームを形成し，このCENP-Aヌクレオソームが核となりセントロメア領域が確立されるものと考えられている．これまで，CENP-Aヌクレオソームの構造についてさまざまなモデルが提唱され議論されてきたが，その立体構造の解析はたちおくれていた．筆者らは，試験管内において再構成したヒトのCENP-AヌクレオソームのX線結晶構造解析に成功し，はじめてその立体構造を明らかにした．この研究により，CENP-Aヌクレオソームではヒストン八量体に安定的に結合しているDNAの長さが通常のヌクレオソームより短いこと，CENP-Aのループ1領域がヌクレオソームの表面から突出していることなどがわかった．さらに，細胞生物学的な解析により，ループ1領域がセントロメアにおけるCENP-Aの保持に重要であることを見い出した．<br/><br/><h2>はじめに</h2><br/>　真核生物のゲノムDNAはS期に複製されたのち凝縮した染色体を形成し，M期に2つの娘細胞に均等に分配される．染色体の均等分配は遺伝情報の正確な継承の根幹となる事象である．染色体にはセントロメアとよばれる非常に密に凝縮した領域が存在する．このセントロメア領域を土台としてキネトコア複合体が形成され，両極から伸びてきた紡錘糸がキネトコア複合体に結合しこれを引っ張ることで染色体の均等分配がなされる．このようにセントロメアはゲノムDNAにおいて重要な領域であるにもかかわらず，その形成機構および維持機構は不明であった．<br/>　セントロメア領域の形成機構および維持機構の解明にあたり，セントロメア領域に特異的に局在するタンパク質の解析が精力的に行われ，多くのタンパク質がセントロメアの形成に重要であることが明らかになってきた<a href="#R1"><sup>1)</sup></a>．CENP-Aはセントロメアに特異的なヒストンH3のバリアントであり，セントロメア領域の形成および維持に中心的な役割をはたしていると考えられている<a href="#R2"><sup>2)</sup></a>．ゲノムDNAは4種類のヒストン（ヒストンH2A，ヒストンH2B，ヒストンH3，ヒストンH4）の2分子ずつからなるヒストン八量体に対してDNAが左巻きに1.65回転巻きついたヌクレオソームを基本単位とするクロマチン構造を形成している<a href="#R3"><sup>3)</sup></a>．セントロメア領域には一部のヌクレオソームのヒストンH3がCENP-Aに置き換わったCENP-Aヌクレオソームが存在し，セントロメア領域に特徴的なクロマチン構造の形成の核となっているものと考えられている．現在までに，CENP-Aヌクレオソームの構造についていくつかのモデルが提唱されている<a href="#R4"><sup>4)</sup></a>．代表的なモデルとして，1）通常のヒストンH3を含むヌクレオソームと同様にCENP-Aを含むヒストン八量体にDNAが左巻きに結合したモデル，2）CENP-Aを含むヒストン四量体にDNAが左巻きに結合したモデル，3）CENP-Aを含むヒストン四量体にDNAが右巻きに結合したモデル，4）ヒストンH2A-ヒストンH2B複合体の代わりにCENP-Aに特異的なヒストンシャペロンであるScm3（出芽酵母，ヒトの場合はHJURP）とCENP-A，ヒストンH4とが複合体を形成しこれにDNAが左巻きに結合したモデル，などがある．しかし，いずれのモデルにも決定的な証拠がなく，CENP-Aヌクレオソームの立体構造については論争となっていた．筆者らは，ヒトのCENP-Aヌクレオソームを試験管内において再構成する技術を確立し，X線結晶構造解析により世界ではじめてCENP-Aヌクレオソームの立体構造を原子分解能で決定した．<br/><br/><h2>1．CENP-Aヌクレオソームの結晶化</h2><br/>　ヒトCENP-Aを組換えタンパク質として大腸菌において大量発現し高純度に精製した．同様に，組換えタンパク質として精製したヒトのヒストンH2A，ヒストンH2B，ヒストンH4を用い，塩透析法によりCENP-Aを含むヒストン八量体を再構成した．得られたCENP-Aヒストン八量体をゲルろ過カラムクロマトグラフィーにより精製し，等モル数のヒストンH2A，ヒストンH2B，CENP-A，ヒストンH4の含まれているヒストン八量体を調製した．結晶化に用いるDNAの配列として，ヒトのセントロメア領域に存在するくり返し配列であるアルフォイドDNAの配列を用いた．アルフォイドDNAのくり返し配列にはセントロメア領域に特異的なDNA結合タンパク質CENP-Bの結合配列であるCENP-Bボックスが2回に1回の割合で存在する<a href="#R5"><sup>5)</sup></a>．今回は，両方の末端の付近に17塩基対のCENP-Bボックスを含む147塩基対のDNAを使用した．中央にA:Aのミスマッチをもち，対称な73塩基対の回文配列から構成される．精製したDNAとCENP-Aヒストン八量体を混合し，塩透析法によりCENP-Aヌクレオソームの再構成を行った．再構成ののち未反応のDNAとヒストンをPrep Cell装置を用いた分取用電気泳動法により除去し，CENP-Aヌクレオソームの精製を行った．精製したCENP-Aヌクレオソームの結晶化をハンギングドロップ蒸気拡散法により行い，単結晶を得ることに成功した．このCENP-Aヌクレオソームの単結晶を用い，大型放射光施設SPring-8により回折データを得て，さきに構造解析の終了しているH3.1ヌクレオソームの構造をサーチモデルとし<a href="#R6"><sup>6)</sup></a>，分子置換法によりCENP-Aヌクレオソームの立体構造を決定した（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=3an2&amp;PAGEID=Summary" target="_blank">3AN2</a>）．<br/><br/><h2>2．CENP-Aヌクレオソームの全体構造</h2><br/>　立体構造を決定したCENP-Aヌクレオソームは，ヒストンH2A，ヒストンH2B，CENP-A，ヒストンH4のそれぞれ2分子ずつからなるヒストン八量体にDNAが左巻きに結合した構造をとっていた．このことから，これまで議論されていたCENP-Aヌクレオソームの立体構造は，通常のヒストンH3を含むヌクレオソームと同じ様式で構成されていることが明らかになった．また，さきに報告されていたCENP-A-ヒストンH4四量体の結晶構造において，CENP-A-ヒストンH4二量体のあいだの角度が，ヒストンH3ヌクレオソームの結晶構造において観察されていたヒストンH3-ヒストンH4二量体のあいだの角度より狭くコンパクトな構造であることが指摘されていたが<a href="#R7"><sup>7)</sup></a>，CENP-AヌクレオソームにおけるCENP-A-ヒストンH4二量体のあいだの角度は，ヒストンH3-ヒストンH4二量体のそれとほとんど同一であった．この事実より，さきに報告されていたコンパクトなCENP-A-ヒストンH4四量体は，ヌクレオソームに取り込まれるまえの前駆体の構造であり，ヌクレオソームにおいてCENP-A-ヒストンH4四量体はヒストンH3-ヒストンH4四量体ときわめて類似した立体構造をとっていると結論された．<br/><br/><h2>3．CENP-AヌクレオソームにおけるDNA構造の特徴</h2><br/>　CENP-Aヌクレオソームの立体構造から明らかになった通常のヒストンH3ヌクレオソームとは異なる特徴として，ヒストン八量体に安定に結合しているDNAの長さがあげられた．ヒストンH3ヌクレオソームではヒストン八量体に安定に結合しているDNAの長さは146塩基対もしくは147塩基対である．今回，CENP-Aヌクレオソームの結晶化に147塩基対のDNAを用いたが，結晶構造では121塩基対のDNAのみがCENP-A八量体に安定に結合しており，両端の13塩基対のDNA領域はきわめてフレキシブルであることが明らかになった．このことは，CENP-Aヌクレオソームでは入り口と出口の付近のDNAの運動性の高いことを示しており，ヒストンとDNAとのあいだの結合が失われていることを示唆した．CENP-Aヌクレオソームが溶液中においても同様の性質を保持していることを確認するため，DNA末端のエキソヌクレアーゼへの感受性を調べた．その結果，CENP-AヌクレオソームのほうがヒストンH3ヌクレオソームと比較してエキソヌクレアーゼへの感受性の高いことが明らかになった．このことは，溶液中においてもCENP-AヌクレオソームのDNA末端はフレキシブルであることを示した．また，溶液中におけるCENP-Aヌクレオソームの構造をX線小角散乱法により解析した結果，CENP-Aヌクレオソームの最大分子径はヒストンH3ヌクレオソームのそれと比較して大きいことが示された．このことは，溶液中ではCENP-AヌクレオソームのフレキシブルなDNA末端は大きく開いた構造をとっていることを示唆した．そこで，両方のDNA末端に13塩基対を補ったCENP-Aヌクレオソームの立体構造モデルを作製し同様の解析を行ったところ，実際にCENP-Aヌクレオソームの両端のDNAが大きく開いた構造モデルが，実測したX線小角散乱データとよい一致を示すことが明らかになった（<a href="#F1">図1</a>）．この末端のDNAの運動性が高いという性質は，CENP-AのN末端のヘリックスがヒストンH3のN末端のヘリックスと比べ，短いことが原因となっていると考えられた．末端のDNAが開いた構造は，CENP-BやCENP-Cなどのセントロメア領域に特異的なDNA結合タンパク質がセントロメア領域のDNAに結合しやすくなるよう，構造的な場を提供している可能性が考えられた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　CENP-AヌクレオソームとヒストンH3ヌクレオソームの立体構造</strong><br/>（a）決定されたCENP-Aヌクレオソームの構造に対し，両方のDNA末端に13塩基対のDNA（オレンジ色）を補ったモデル．<br/>（b）H3ヌクレオソームの構造．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kurumizaka-Nature-11.7.28-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　CENP-AヌクレオソームとヒストンH3ヌクレオソームの立体構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kurumizaka-Nature-11.7.28-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kurumizaka-Nature-11.7.28-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>4．CENP-Aヌクレオソームにおけるループ1領域の特徴</h2><br/>　CENP-AにはヒストンH3と比べ，ヒストンフォールドのループ1領域に2アミノ酸残基（Arg80とGly81）の挿入が存在する（<a href="#F2">図2</a>）．CENP-Aヌクレオソームの立体構造において，この領域はヌクレオソームの表面から突出した位置に存在し，ほかのタンパク質の相互作用できる可能性を示唆した．そこで，このループ1領域の2アミノ酸残基の挿入を欠失させたCENP-A変異体を，蛍光タンパク質との融合タンパク質としてヒト培養細胞において発現させその局在を解析した．その結果，この2アミノ酸残基を欠失した変異体は，トランスフェクションの1日後にはセントロメア領域に局在するものの，3日後にはセントロメア領域への局在は消失する傾向にあることが明らかになった．また，欠失変異体ではなく，この挿入されている2アミノ酸残基をアラニン残基に置換した変異体においても同様の動態が観察されたことから，CENP-Aのセントロメア領域への安定的な局在において，ループ1領域の配列と長さの両方が重要であることが明らかになった．CENP-Aのループ1領域を認識するタンパク質は同定されておらず，CENP-Aに特異的なヒストンシャペロンであるHJURPもCENP-Aのループ1領域には結合していないことがX線結晶構造解析により明らかにされた<a href="#R8"><sup>8)</sup></a>．今後，ループ1領域に直接に相互作用するタンパク質を同定することにより，セントロメア領域の維持機構が明らかとなるものと考えられる．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　CENP-Aのループ1領域の構造</strong><br/>（a）ループ1領域の位置．<br/>（b）拡大図．<br/>赤色はCENP-A，水色はヒストンH3を示す．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kurumizaka-Nature-11.7.28-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　CENP-Aのループ1領域の構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kurumizaka-Nature-11.7.28-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kurumizaka-Nature-11.7.28-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　セントロメア領域の形成および維持は染色体の均等分配による遺伝情報の正確な継承を保証する機構の根源である．セントロメア領域がどのようにしてほかの領域と区別され細胞周期をとおして維持されるのかは未解決の重要な課題であるが，その基盤であるCENP-Aヌクレオソームの立体構造情報が未知であったことが研究の進展をさまたげていた．CENP-Aは酵母からヒトにいたるまで広く保存されているヒストンH3のバリアントであり，セントロメア領域の形成および維持に必須である．また，出芽酵母のCENP-AホモログであるCSE4を含むヌクレオソームのX線小角散乱解析が行われ，今回，筆者らが明らかにしたヒトCENP-Aヌクレオソームの構造的な特徴が，出芽酵母のCSE4ヌクレオソームにおいても保存されていることが報告され<a href="#R9"><sup>9)</sup></a>，セントロメア領域に特異的なヌクレオソームの種をこえた高度な保存性が明らかになりつつある．<br/>　今回，筆者らは，ヒトCENP-Aヌクレオソームの立体構造をはじめて原子分解能で解明することに成功した．この立体構造の解析により得られた新たな知見にもとづいて，今後，CENP-Aの高次クロマチンの形成における役割を解明することが，セントロメアの形成機構および維持機構を理解するうえで重要である．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hori, T., Amano, M., Suzuki, A. et al.</span>: <span class="ti">CCAN makes multiple contacts with centromeric DNA to provide distinct pathways to the outer kinetochore.</span> <span class='so'>Cell, 135, 1039-1052 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19070575" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Palmer, D. K., O'Day, K., Wener, M. H. et al.</span>: <span class="ti">A 17-kD centromere protein (CENP-A) copurifies with nucleosome core particles and with histones.</span> <span class='so'>J. Cell Biol., 104, 805-815 (1987)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/3558482" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Luger, K., Mader, A. W., Richmond, R. K. et al.</span>: <span class="ti">Crystal structure of the nucleosome core particle at 2.8Å resolution.</span> <span class='so'>Nature, 389, 251-260 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9305837" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Black, B. E. & Cleveland, D. W.</span>: <span class="ti">Epigenetic centromere propagation and the nature of CENP-a nucleosomes.</span> <span class='so'>Cell, 144, 471-479 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21335232" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Masumoto, H., Masukata, H., Muro, Y. et al.</span>: <span class="ti">A human centromere antigen (CENP-B) interacts with a short specific sequence in alphoid DNA, a human centromeric satellite.</span> <span class='so'>J. Cell Biol., 109, 1963-1973 (1989)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2808515" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Tachiwana, H., Kagawa, W., Osakabe, A. et al.</span>: <span class="ti">Structural basis of instability of the nucleosome containing a testis-specific histone variant, human H3T.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 107, 10454-10459 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20498094" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Sekulic, N., Bassett, E. A., Rogers, D. J. et al.</span>: <span class="ti">The structure of (CENP-A-H4)<sub>2</sub> reveals physical features that mark centromeres.</span> <span class='so'>Nature, 467, 347-351 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20739937" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Hu, H., Liu, Y., Wang, M. et al.</span>: <span class="ti">Structure of a CENP-A-histone H4 heterodimer in complex with chaperone HJURP.</span> <span class='so'>Genes Dev., 25, 901-906 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21478274" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Dechassa, M. L., Wyns, K., Li, M. et al.</span>: <span class="ti">Structure and Scm3-mediated assembly of budding yeast centromeric nucleosomes.</span> <span class='so'>Nature Commun., 2, 313 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21587230" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">立和名 博昭（Hiroaki Tachiwana）</span><br>略歴：2008年 早稲田大学大学院理工学研究科博士後期課程 修了，同年より同 理工学研究所 助手（現 同 理工学術院 助教）．<br>研究テーマ：クロマチン構造の解析．<br>抱負：生命の基礎といえる高次クロマチンの構造を，より細胞内に近い状態で再構成する系を構築し，クロマチン構造の解析を行っていきたい．<br><br><strong>胡桃坂 仁志（Hitoshi Kurumizaka）</strong><br>早稲田大学理工学術院 教授．<br>研究室URL：<a href="http://www.kurumizaka.sci.waseda.ac.jp/" target="_blank">http://www.kurumizaka.sci.waseda.ac.jp/</a><br></div><br>© 2011 立和名博昭・胡桃坂仁志 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> miR-310クラスターはショウジョウバエの筋接合部におけるシナプス強度を抑制的に制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>miR-310クラスターはショウジョウバエの筋接合部におけるシナプス強度を抑制的に制御する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>鶴留 一也</strong><br>（カナダMcGill大学Department of Physiology）<br>email：<a href="mailto:kazuya.tsurudome@mcgill.ca">鶴留一也</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.009">10.7875/first.author.2011.009</a><br><div class="reference"><br><span class="ti">The <em>Drosophila</em> miR-310 cluster negatively regulates synaptic strength at the neuromuscular junction.</span><br><span class="au">Kazuya Tsurudome, Karen Tsang, Edward H. Liao, Robin Ball, Jay Penney, Jr-Shiuan Yang, Fatima Elazzouzi, Tao He, Athar Chishti, Greg Lnenicka, Eric C. Lai, A. Pejmun Haghighi</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21145002" target="_blank"><em>Neuron</em>, <strong>68</strong>, 879-893 (2010)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ニューロンにおいてほかの細胞との情報の伝達部位であるシナプスの形成および機能の制御機構は，神経回路を構築し情報処理を行ううえで欠かせない本質的な性質である．形成されたシナプスにおいて，シナプス後細胞に適当な大きさの反応をひき起こすためにシナプス前細胞からの神経伝達物質の放出量を制御する機構は，その重要性にもかかわらずいまだその全容は解明されていない．この論文で筆者らは，遺伝子スクリーニングにより神経伝達物質の放出量の制御にかかわる新規の遺伝子を特定した．この遺伝子にはmiR-310からmiR-313の4つのマイクロRNAが含まれており，これらmiR-310クラスターがKhc-73の発現を抑制することにより神経伝達物質の放出量を抑制的に制御していることを示した．さらに，シナプス後細胞の神経伝達物質の放出に対する反応が通常より小さくなった場合にはmiR-310クラスターのはたらきを弱めることによって神経伝達物質の放出量を増加させ，シナプスの伝達強度を補償していることを明らかにした．これらの結果は，マイクロRNAがシナプスの機能制御においても重要な役割を担っている可能性を示唆した．<br/><br/><h2>はじめに</h2><br/>　マイクロRNA（microRNA：miRNA）は線虫においてその機能が発見されて以来<a href="#R1"><sup>1)</sup></a>，詳細な作用機序やさまざまな生物種また組織における多彩な役割が明らかにされてきており，生命現象の解明においてその重要性をますます高めつつある<a href="#R2"><sup>2)</sup></a>．ニューロンのシナプス形成においてもその形態的な制御にマイクロRNAの関与が示されているが<a href="#R3"><sup>3)</sup></a>，シナプス伝達物質の放出の制御にどのようにかかわっているかについては不明な点が多い．<br/>　ショウジョウバエ幼虫の筋接合部についてはシナプスの形態と機能における恒常性の維持機構のモデルとして多くの研究が行われている<a href="#R4"><sup>4)</sup></a>．筋接合部シナプスではおもにグルタミン酸が神経伝達物質として放出されており，シナプス後細胞に存在するグルタミン酸作動性チャネルがシナプス伝達を介在している．グルタミン酸作動性チャネルのサブユニットをコードする遺伝子のうち<em>GluRIIA</em>遺伝子に変異が起こるとこのチャネルを介したシナプス伝達は大きく阻害をうけ，同じ量のグルタミン酸の放出に対しておよそ半分の反応（膜電位の上昇）しか示さなくなる．ところが，<em>GluRIIA</em>変異体の神経伝達物質の放出を調べたところ，放出量を増加することによってシナプス後細胞における反応を補償するというシナプス機能の恒常性の維持機構のはたらいていることが発見された<a href="#R5"><sup>5)</sup></a>．今日にいたるまで，この恒常性の維持機構にかかわるさまざまな分子が同定されまた検証されてきたが<a href="#R4"><sup>4,6,7)</sup></a>，神経伝達物質の放出を制御する機構の全容はいまだ解明にはいたっていない．<br/>　この研究では，データベースの解析によりおもにマイクロRNAをコードしていると推測された遺伝子領域について，遺伝学的なスクリーニングにより神経伝達物質の放出の制御にかかわる遺伝子の同定を試みた．<br/><br/><h2>1．miR-310クラスターは正常な神経伝達物質の放出量の制御に必要である</h2><br/>　筆者らは，ショウジョウバエにおける遺伝学的なスクリーニングによって，遺伝子産物が発達段階のニューロンにおいて特異的に発現するような遺伝子を見い出した．この遺伝子にはmiR-310，miR-311，miR-312，miR-313の4つのマイクロRNAが含まれており，これら4つをまとめてmiR-310クラスターとよぶ（<a href="#F1">図1a</a>）．このmiR-310クラスターの神経伝達物質の放出に対する影響を調べるため，まずmiR-310クラスターの欠損変異体を作製し3令幼虫の筋接合部シナプスにおいて電気生理学的な手法により神経伝達物質の放出量を測定した．その結果，miR-310クラスター欠損変異体では神経伝達物質の放出量が野生型に比べ有意に増加していることが明らかになった．これは，シナプス前細胞（運動ニューロン）において特異的にmiR-310クラスターを発現させることにより回復した．このことから，miR-310クラスターの前シナプス細胞における活動が正常な神経伝達物質の放出量の制御に必要であることが示唆された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　miR-310クラスターとKhc-73をコードするmRNAの構造</strong><br/>（a）miR-310クラスター．ショウジョウバエの第2染色体右腕に存在する．miR-313の近接部に挿入されたトランスポゾンの一種P因子を転移させることによりmiR-310クラスター部分の染色体領域を失ったmiR-310クラスター欠損変異体を作製した．<br/>（b）Khc-73をコードするmRNA．3’側非翻訳領域に5つ，ORFに1つ，miR-310クラスター認識配列をもつ．miR-310クラスターはこれらの認識配列によりKhc-73の発現を強く抑制するはたらきをもつ．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsurudome-Neuron-10.12.8-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　miR-310クラスターとKhc-73をコードするmRNAの構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsurudome-Neuron-10.12.8-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsurudome-Neuron-10.12.8-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．miR-310クラスターは<em>khc-73</em>遺伝子を標的遺伝子とする</h2><br/>　マイクロRNAの理論的な標的遺伝子は数百に及ぶこともめずらしくなく，ひとつのマイクロRNAの生体における影響を調べるのは非常に困難であると予想される<a href="#R2"><sup>2)</sup></a>．しかし近年の報告では，特定のマイクロRNAの変異によりひき起こされる表現型はひとつか非常に少数の標的遺伝子に帰結することが示されている<a href="#R8"><sup>8)</sup></a>．miR-310クラスターには最大で350の標的遺伝子の候補があった．認識配列の数や保存の度合いを指標とするマイクロRNA標的遺伝子の検索において上位にランクされた遺伝子のうち，miR-310クラスターが発現する発達段階のニューロンではたらいていると考えられる3つの遺伝子，<em>crebA</em>遺伝子，<em>lap</em>遺伝子，<em>khc-73</em>遺伝子について検討した．遺伝的な相互作用実験により3つの遺伝子のうち<em>khc-73</em>遺伝子だけがmiR-310クラスター欠損変異体における神経伝達物質の過剰放出を抑制することが示された．さらに，miR-310クラスター欠損変異体では野生型に比べKhc-73タンパク質の発現量の増加していることが明らかになった．Khc-73の発現をRNAi法によりノックダウンしたところmiR-310クラスター欠損変異体における神経伝達物質の過剰放出も抑制された．これらの結果から，Khc-73の発現量の増加が神経伝達物質の放出量の増加に必要であることが示唆された．このことは，野生型においてKhc-73をニューロンで過剰発現させると神経伝達物質の過剰放出の起こることからも確認された．<br/>　Khc-73をコードするmRNAは3’側非翻訳領域に5つのmiR-310クラスター認識配列をもっていた（<a href="#F1">図1b</a>）．そこで，Khc-73をコードするmRNAから3’側非翻訳領域を取り除いたものをニューロンにおいて発現させたところ，miR-310クラスターによるKhc-73発現の抑制効果は激減したものの完全には消失しなかった．そこで，あらためて<em>khc-73</em>遺伝子の構造を解析したところ，タンパク質をコードするORFにおいて1つのmiR-310クラスター認識配列を発見した．この認識配列に含まれる塩基配列のうち2つの塩基をコードするアミノ酸の変わらないよう変異させ認識配列を無効化したところ，miR-310クラスターの影響は完全に消失しKhc-73は発現抑制をうけなくなった．このことから，Khc-73タンパク質がなんらかの制御をうけているのではなく，Khc-73をコードするmRNAが複数の認識部位においてmiR-310クラスターのはたらきをうけることで発現抑制の起こっていることが確認された．またこの結果は，3’側非翻訳領域にかぎらずORFに存在するマイクロRNA認識配列も生体において実際にマイクロRNAの標的となりうるという具体的な証拠を提示した．<br/><br/><h2>3．Khc-73はBrpのシナプス前膜への局在を促進する</h2><br/>　<em>khc-73</em>遺伝子がmiR-310クラスターによって制御される標的遺伝子であることがわかったが，Khc-73はどのように神経伝達物質の放出量の増加に寄与しているのであろうか？　Khc-73の属するKinesinファミリーはモータータンパク質として軸索でもさまざまな分子を輸送していることが知られており<a href="#R9"><sup>9)</sup></a>，その機能が阻害されるとシナプスの成長に必要な分子が輸送されずシナプスの構造や機能に障害をもたらす<a href="#R10"><sup>10)</sup></a>．したがって，miR-310クラスターの欠失がシナプスを形成する分子の分布に影響を及ぼしている可能性を考え，miR-310クラスター欠損変異体の運動ニューロンの軸索末端を免疫染色法により調べた．多くの分子については野生型と変わりなかったものの，神経伝達物質の放出にかかわりのある活性帯（active zone）の関連遺伝子である<em>bruchpilot</em> <a href="#R11"><sup>11)</sup></a>（<em>brp</em>）のタンパク質レベルが有意に増加していることを発見した．この増加したBrpはmiR-310クラスター欠損変異体で増加しているKhc-73をRNAi法でノックダウンすると野生型のレベルまでもどることが確認された．さらに，Brpをニューロンにおいて過剰発現させるとKhc-73の過剰発現やmiR-310クラスター欠損変異体と同様に神経伝達物質の過剰放出が起こった．Brpの過剰発現と<em>khc-73</em>遺伝子，そして，miR-310クラスター欠損変異体と<em>brp</em>遺伝子とのあいだにはそれぞれ遺伝的な相互作用が認められ，miR-310クラスター，<em>khc-73</em>遺伝子，そして，<em>brp</em>遺伝子は互いに遺伝子レベルで密接な関係をもつことが示された．<br/>　Brpは電子顕微鏡で観察される活性帯に関連した高電子密度の構造体（T-bar）の形成に関与しているとされる<a href="#R11"><sup>11)</sup></a>．miR-310クラスター欠損変異体，および，Khc-73をニューロンに過剰発現させた3令幼虫の筋接合部を電子顕微鏡にて観察したところ，シナプスにおけるT-barはどちらも野生型に比べ増加していることがわかった．このことは，miR-310クラスター欠損変異体のシナプス前膜におけるBrpの集積によりシナプス前膜の神経伝達物質の放出にかかわる構造体が過剰に形成されていることを示唆していた．<br/><br/><h2>4．Brpのシナプス前膜への局在が神経伝達物質の放出量を左右する</h2><br/>　Brpはシナプス前膜において電位依存性Ca<sup>2+</sup>チャネルやシナプス伝達物質の封入したシナプス小胞などと集合した立体的な構造をとるものと考えられている<a href="#R11"><sup>11)</sup></a>．このモデルにしたがえば，miR-310クラスター欠損変異体でみられるようにシナプス前膜でのBrpの集積度が高まれば電位依存性Ca<sup>2+</sup>チャネルの集合も促進され，シナプス前細胞へのCa<sup>2+</sup>の流入量が増加しより多くのシナプス小胞がシナプス前膜と融合して，大規模な伝達物質の放出の起こることと推察された．この仮説を確かめるため，まず，電位依存性Ca<sup>2+</sup>チャネルのサブユニットをコードする<em>cacophony</em>（<em>cac</em>）遺伝子とmiR-310クラスターとの遺伝的な相互作用を調べたところ，<em>cac</em>遺伝子は野生型と機能欠損変異型とのヘテロ接合型でもmiR-310クラスター欠損変異体での神経伝達物質の過剰放出を有意に抑制することが明らかになり，両者のあいだに強い遺伝的な相関があることが示された．さらに，筋接合部の運動ニューロンの軸索末端へのCa<sup>2+</sup>の流入量をCa<sup>2+</sup>イメージング法により直接的に測定したところ，miR-310クラスター欠損変異体では野生型より有意に大きなCa<sup>2+</sup>の流入が観察された．以上の結果から，miR-310クラスター欠損変異体における神経伝達物質の過剰放出は，シナプス前膜におけるBrpの過剰集積が電位依存性Ca<sup>2+</sup>チャネルの集合を促進し，シナプス前細胞におけるCa<sup>2+</sup>の流入を増大させることによって起こっているものと結論づけられた．すなわち，野生型ではmiR-310クラスターがはたらくことによりKhc-73を介してBrpの量を制御し，神経伝達物質の放出量を適切なレベルに抑制していることが明らかになった．<br/><br/><h2>5．miR-310クラスターによる抑制的な制御はシナプス機能の恒常性の維持機構により弱められる</h2><br/>　<em>GluRIIA</em>変異体のショウジョウバエの筋接合部では恒常性の維持機構がはたらいてシナプスにおける神経伝達物質の放出量の増加の起こることが明らかになっている<a href="#R5"><sup>5)</sup></a>．miR-310クラスターによる神経伝達物質の放出量の制御がこの恒常性の維持機構によって制御されているかどうかはmiR-310クラスターのシナプス機能の制御機構への寄与を知るうえで重要である．まず，<em>GluRIIA</em>変異体においてmiR-310クラスターも欠損させた二重変異体を作製したところ，神経伝達物質の放出量の増加は<em>GluRIIA</em>変異体におけるものと変わりなく2つの遺伝子の変異による加算的な相乗効果は現われなかった．このことから<em>GluRIIA</em>変異体においてはmiR-310クラスターのはたらきが強く抑制されていることが予想されたため，<em>GluRIIA</em>変異体のニューロンにおいてmiR-310クラスターを過剰発現させたところ<em>GluRIIA</em>変異体における神経伝達物質の放出量の増加は消失した．この現象はKhc-73をRNAi法によりノックダウンすることにより再現された．これらの結果から，<em>GluRIIA</em>変異体における神経伝達物質の放出量の増加はmiR-310クラスターによるKhc-73の制御を抑制することによりひき起こされていることが示された．<br/><br/><h2>おわりに</h2><br/>　この研究では，ショウジョウバエ幼虫の筋接合部シナプスにおいてマイクロRNAが神経伝達物質の放出量の制御にかかわっていることを明らかにした．筋接合部シナプスではシナプス後細胞に発現する<em>GluRIIA</em>遺伝子の変異が逆行性のシグナル伝達をひき起こしシナプス機能の恒常性の維持機構を担っていることがわかっている<a href="#R5"><sup>5)</sup></a>．今回，その機能の明らかになったmiR-310クラスターはシナプス前細胞ではたらきシナプス後細胞からの逆行性のシグナル伝達をうけてそのはたらきの制御されていることが示された（<a href="#F2">図2</a>）．この研究の成果のひとつには，逆行性のシグナル伝達経路がマイクロRNAを介して特定のタンパク質の翻訳を阻害することによりその機能を実現していることを示したことがあげられる．最近の研究で，逆行性のシグナル伝達が特定の遺伝子の転写を制御することで運動ニューロンの末端の発達を促すことが報告されているが<a href="#R7"><sup>7)</sup></a>，転写段階にくわえ翻訳段階でも制御が行なわれ多様な方法で機能の制御されていることが明らかにされた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　miR-310クラスターによる神経伝達物質の放出の制御機構とシナプス機能の恒常性の維持機構</strong><br/>（1）<em>GluRIIA</em>変異体ではたらく逆行性のシグナル伝達がmiR-310クラスターの機能を抑制する．（2）Khc-73はBrpのシナプス前膜への局在を促進する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsurudome-Neuron-10.12.8-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　miR-310クラスターによる神経伝達物質の放出の制御機構とシナプス機能の恒常性の維持機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsurudome-Neuron-10.12.8-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsurudome-Neuron-10.12.8-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　逆行性のシグナル伝達の正体としてBMPシグナル伝達経路<a href="#R7"><sup>7)</sup></a> やEph受容体<a href="#R6"><sup>6)</sup></a> を介したシグナル伝達などが考えられており，複数のシグナル伝達経路を用いた複合的な機構をもつ可能性もあるがいまだ結論はでていない．また，miR-310クラスターがKhc-73の発現を抑制することが示されたが，Khc-73がどのようにBrpのシナプス前膜への局在を制御しているのかは明らかにすることができなかった．今後の課題として，miR-310クラスターがどの逆行性のシグナル伝達をうけてどのようなしくみで制御されているのか，また，Khc-73がいかにしてBrpのシナプス前膜への局在を促進しているのか，といった点を解明し（<a href="#F2">図2</a>），シナプス伝達物質の放出量の制御の全容を明らかにする必要がある．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Lee, R. C., Feinbaum, R. L. & Ambros, V.</span>: <span class="ti">The <em>C</em>. <em>elegans</em> heterochronic gene <em>lin-4</em> encodes small RNAs with antisense complementarity to <em>lin-14</em>.</span> <span class='so'>Cell, 75, 843-854 (1993)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8252621" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Bartel, D. P.</span>: <span class="ti">MicroRNAs: target recognition and regulatory functions.</span> <span class='so'>Cell, 136, 215-233 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19167326" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Schratt, G. M., Tuebing, F., Nigh, E. A. et al.</span>: <span class="ti">A brain-specific microRNA regulates dendritic spine development.</span> <span class='so'>Nature, 439, 283-289 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16421561" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Davis, G. W.</span>: <span class="ti">Homeostatic control of neural activity: from phenomenology to molecular design.</span> <span class='so'>Annu. Rev. Neurosci., 29, 307-323 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16776588" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Petersen, S. A., Fetter, R. D., Noordermeer, J. N. et al.</span>: <span class="ti">Genetic analysis of glutamate receptors in <em>Drosophila</em> reveals a retrograde signal regulating presynaptic transmitter release.</span> <span class='so'>Neuron, 19, 1237-1248 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9427247" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Frank, C. A., Pielage, J. & Davis, G. W.</span>: <span class="ti">A presynaptic homeostatic signaling system composed of the Eph receptor, ephexin, Cdc42, and Ca<sub>V</sub>2.1 calcium channels.</span> <span class='so'>Neuron, 61, 556-569 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19249276" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Ball, R. W., Warren-Paquin, M., Tsurudome, K. et al.</span>: <span class="ti">Retrograde BMP signalling controls synaptic growth at the NMJ by regulating trio expression in motor neurons.</span> <span class='so'>Neuron, 66, 536-549 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20510858" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Flynt, A. S. & Lai, E. C.</span>: <span class="ti">Biological principles of microRNA-mediated regulation: shared themes amid diversity.</span> <span class='so'>Nat. Rev. Genet., 9, 831-842 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18852696" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Hirokawa, N., Noda, Y., Tanaka, Y. et al.</span>: <span class="ti">Kinesin superfamily motor proteins and intracellular transport.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 10, 682-696 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19773780" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Hurd, D. D. & Saxton, W. M.</span>: <span class="ti">Kinesin mutations cause motor neuron disease phenotypes by disrupting fast axonal transport in <em>Drosophila</em>.</span> <span class='so'>Genetics, 144, 1075-1085 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8913751" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Fouquet, W., Owald, D., Wichmann, C. et al.</span>: <span class="ti">Maturation of active zone assembly by <em>Drosophila</em> Bruchpilot.</span> <span class='so'>J. Cell Biol., 186, 129-145 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19596851" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">鶴留 一也（Kazuya Tsurudome）</span><br>略歴：2006年 九州工業大学大学院生命体工学研究科博士課程 修了，同年よりカナダMcGill大学 博士研究員．<br>研究テーマ：ショウジョウバエの筋接合部におけるシナプス機能の制御機構の解明．<br>抱負：基礎的な分野の研究にたずさわっているが，医学的あるいは工学的な応用を視野に入れた広がりのある研究をめざしたい．<br></div><br>© 2011 鶴留 一也 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

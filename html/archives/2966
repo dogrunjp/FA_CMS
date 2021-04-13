@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Tecpr1は病原体・アグリソーム・ミトコンドリアを標的とする選択的なオートファジーに必要なカーゴ受容体である : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>Tecpr1は病原体・アグリソーム・ミトコンドリアを標的とする選択的なオートファジーに必要なカーゴ受容体である</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>小川道永・笹川千尋</strong><br>（東京大学医科学研究所 細菌感染分野）<br>email：<a href="mailto:ogacho@ims.u-tokyo.ac.jp">小川道永</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.095">10.7875/first.author.2011.095</a><br><div class="reference"><br><span class="ti">A Tecpr1-dependent selective autophagy pathway targets bacterial pathogens.</span><br><span class="au">Michinaga Ogawa, Yuko Yoshikawa, Taira Kobayashi, Hitomi Mimuro, Makoto Fukumatsu, Kotaro Kiga, Zhenzi Piao, Hiroshi Ashida, Mitsutaka Yoshida, Shigeru Kakuta, Tomohiro Koyama, Yoshiyuki Goto, Takahiro Nagatake, Shinya Nagai, Hiroshi Kiyono, Magdalena Kawalec, Jean-Marc Reichhart, Chihiro Sasakawa</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21575909" target="_blank"><em>Cell Host & Microbe</em>, <strong>9</strong>, 376-389 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　オートファジーには，栄養飢餓状態におかれた細胞においてオルガネラを非選択的に分解する“非選択的オートファジー”と，細胞において損傷をうけたオルガネラ，変性タンパク質，病原体などを選択的に認識し分解する“選択的オートファジー”とがある．筆者らは，宿主細胞が侵入した赤痢菌を特異的に認識しオートファジーにより分解するために必要な新規タンパク質Tecpr1を見い出した．細胞においてTecpr1はオートファジーに必須のタンパク質複合体Atg12-Atg5-Atg16L1と複合体を形成し，赤痢菌を捕捉しているオートファゴソームではTecpr1とAtg5，LC3とが共局在していた．さらに，Tecpr1はホスファチジルイノシトールトリスリン酸結合タンパク質であるWIPI-2と結合し，初期オートファゴソームであるファゴホアにこのWIPI-2を介してリクルートされることが明らかになった．Tecpr1ノックダウン細胞またはTecpr1ノックアウトマウスに由来する胎仔線維芽細胞では赤痢菌の増殖が顕著に増加しており，このことは赤痢菌を特異的に認識するオートファジーにおいてTecpr1がきわめて重要な役割をはたしていることを示していた．一方で，興味深いことに，栄養飢餓やラパマイシンにより誘導される非選択的オートファジーではTecpr1は必須ではないことも明らかになった．さらに，Tecpr1は赤痢菌だけではなく，サルモネラ菌，A群連鎖球菌などの病原細菌，変性タンパク質からなる凝集体や脱分極したミトコンドリアを選択的に認識するオートファジーにも関与しており，Tecpr1が選択的オートファジーにおいて広く一般的に関与していることが明らかになった．<br/><br/><h2>はじめに</h2><br/>　オートファジーは細胞が栄養飢餓状態におちいったときやストレスにさらされた場合にオルガネラをまとめて非選択的に分解する現象であることが知られていた<a href="#R1"><sup>1)</sup></a>．近年の研究からは，オートファジーは損傷をうけたオルガネラや変性タンパク質からなる凝集体を異物として特異的に認識し分解する重要な恒常性の維持システムであり，その機能異常は不要物の蓄積をひき起こすため，細胞の恒常性の維持，細胞寿命，発生および分化，がんなど多岐に影響しさまざまな変性疾患の一因となることがわかってきた<a href="#R2"><sup>2)</sup></a>．さらに最新の研究から，オートファジーは，1）細胞に侵入した病原細菌を特異的に異物として認識し分解殺菌するとともに，2）宿主の自然免疫系における病原体センサーのひとつとして機能し炎症反応を誘導することで病原細菌の排除を促進することが明らかになってきており<a href="#R3"><sup>3-5)</sup></a>，その異物認識機構の解明は感染制御の面からもきわめて重要な課題である．このような選択的オートファジーでは標的を特異的なカーゴ受容体により認識することが知られているが<a href="#R6"><sup>6)</sup></a>，個々の標的に対するカーゴ受容体の認識機構に関する研究は緒に就いたばかりである．<br/>　赤痢菌は細菌性赤痢の原因となる細菌として知られており，分泌するエフェクターとよばれる一連の病原タンパク質により宿主細胞が本来もっている機能をハイジャックすることで感染が成立する<a href="#R7"><sup>7)</sup></a>．現在までに筆者らは，1）赤痢菌の表面にあるVirGがオートファジー関連タンパク質であるAtg5と直接に結合することによりオートファジーが誘導され，2）それに対し，赤痢菌はIcsBを分泌し，Atg5とVirGとの結合を競合的に阻害することでオートファジーによる認識を回避していることを明らかにした<a href="#R4"><sup>4)</sup></a>．今回，これらの研究をさらに発展させ，Atg5結合性の新規タンパク質としてTecpr1（Tectonin domain-containing protein 1）を見い出し，このTecpr1が細胞質においてオートファジーに必須のタンパク質複合体Atg12-Atg5-Atg16L1と複合体を形成し，赤痢菌，サルモネラ菌，A群連鎖球菌，さらには，変性タンパク質からなる凝集体や損傷をうけたミトコンドリアを選択的に認識するオートファジーに関与していることを明らかにした．<br/><br/><h2>1．Tecpr1はAtg5と直接に結合しAtg12-Atg5-Atg16L1と複合体を形成する</h2><br/>　赤痢菌のオートファジー認識機構の解析を行うにあたり，まず，Atg5をバイトにした酵母ツーハイブリッド法によるスクリーニングを行った．その結果，機能未知のタンパク質であるTecpr1を得た．Tecpr1は線虫からヒトまで高度に保存された約130 kDaの機能未知のタンパク質であり，DysferinドメインとTECPRドメインのペアをN末端領域とC末端領域に1対ずつもち，中央部分にはPHドメイン様配列があるという特徴的な構造をもっていた（<a href="#F1">図1</a>）．Tecpr1のヒトにおける組織分布をリアルタイムPCRにより調べた結果，発現量の程度に差はあるが調べたすべての組織において普遍的に発現していた．Tecpr1とAtg5との直接の結合を確認するためGSTプルダウンアッセイを行ったところ，GST-Tecpr1融合タンパク質と組換えAtg5との結合が確認された．さらに，細胞におけるTecpr1とAtg5との結合を調べるため抗Tecpr1抗体を用いた免疫沈降実験を行った結果，Tecpr1はヒト培養細胞においてAtg12-Atg5-Atg16L1複合体とAtg5を介し複合体を形成していることが明らかになった．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Tecpr1のドメイン構造</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasakawa-Cell-Host-Microbe-11.5.18-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Tecpr1のドメイン構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasakawa-Cell-Host-Microbe-11.5.18-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasakawa-Cell-Host-Microbe-11.5.18-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．Tecpr1は赤痢菌を標的とするオートファゴソームに局在する</h2><br/>　Tecpr1のオートファジーにおける機能解析を行うため，赤痢菌を標的とするオートファゴソームにおけるTecpr1の局在を調べた．オートファジー感受性株である赤痢菌ΔIcsB株をTecpr1-3×Myc融合タンパク質を発現させた細胞に感染させたところ，感染の1時間のちに赤痢菌の周囲にTecpr1とAtg5との共局在が観察された．さらに，赤痢菌のVirGと宿主細胞のAtg5との結合が明らかになっていたことから，VirG，Atg5，Tecpr1の局在を調べた結果，宿主細胞に侵入した赤痢菌の一極にVirG，Atg5，Tecpr1の共局在することが認められた．さらに，オートファゴソームのマーカーであるLC3とTecpr1の局在を調べたところ，感染の90分のちにおいて赤痢菌の周囲にTecpr1とGFP-LC3融合タンパク質の共局在することが認められた．<br/>　赤痢菌に対するオートファジーはVirGに依存することを報告していることから，<em>virG</em>遺伝子に変異をもつ赤痢菌ΔIcsB株を感染させた細胞におけるTecpr1の局在を調べた結果，この株の周囲へのTecpr1の局在は認めらなかった．オートファジーに必須の因子であるホスファチジルイノシトールトリスリン酸はIII型PI3キナーゼにより産生されるが，その阻害剤である3-メチルアデニンにより処理した細胞においてTecpr1の局在を調べたところ，赤痢菌ΔIcsB株の周囲へのTecpr1の局在は消失していた．これらの結果は，Tecpr1が赤痢菌を標的としたオートファゴソームに局在するためには，VirGおよびホスファチジルイノシトールトリスリン酸が必要であることを示唆していた．<br/><br/><h2>3．Tecpr1はWIPI-2を介してファゴホアにリクルートされる</h2><br/>　さきに述べたように，Tecpr1が赤痢菌を標的とするオートファゴソームにリクルートされるためには，ホスファチジルイノシトールトリスリン酸を介しファゴホア（初期オートファゴソーム）に結合することが必要である．Tecpr1にはホスファチジルイノシトールトリスリン酸結合モチーフであるFRRG配列が存在し，中央部分にはPHドメイン様配列が存在することから，Tecpr1とホスファチジルイノシトールトリスリン酸との直接の結合の可能性を調べたが両者の結合は認められなかった．また，オートファジーにおいてホスファチジルイノシトールトリスリン酸を産生するため必要な複合体の構成タンパク質であるBeclin1，Vps34，Atg14，Vps15とTecpr1との結合も認められなかった．赤痢菌は細胞への侵入の直後にファゴソーム膜の断片化をひき起こし，そこには内在性のレクチンであるガレクチン3の局在することが報告されている<a href="#R8"><sup>8)</sup></a>．Tecpr1に存在するTECPRドメインもカブトガニレクチンに類似したレクチン様ドメインであることから<a href="#R9"><sup>9)</sup></a>，Tecpr1とガラクトースおよびアセチル化グルコースとの結合解析を行ったが結合は認められなかった．<br/>　つぎに，形成初期のオートファゴソームに局在しホスファチジルイノシトールトリスリン酸に結合することが知られているWIPI-2に着目し<a href="#R10"><sup>10)</sup></a>，赤痢菌に感染した細胞におけるWIPI-2-GFP融合タンパク質とTecpr1-3×Myc融合タンパク質の局在を調べた結果，オートファジー感受性株である赤痢菌ΔIcsB株の周囲にTecpr1とWIPI-2との共局在が観察された．Tecpr1とWIPI-2との結合を免疫沈降実験により解析したところ，WIPI-2はTecpr1のC末端側のTECPRドメインと相互作用することが明らかになった．そこで，WIPI-2のノックダウン実験を行ったところ，赤痢菌の周囲へのTecpr1の局在は大幅に低下した．以上の結果から，Tecpr1はホスファチジルイノシトールトリスリン酸を結合したWIPI2を介してファゴホアにリクルートされることが明らかになった．<br/><br/><h2>4．Tecpr1は赤痢菌に対するオートファジーに必須である</h2><br/>　赤痢菌を標的としたオートファジーにおけるTecpr1の役割をさらに詳細に調べるため，Tecpr1をノックダウンしたHeLa細胞にオートファジー感受性株である赤痢菌ΔIcsB株を感染させ，オートファジーによる赤痢菌の捕捉をGFP-LC3融合タンパク質の局在を指標に調べた．その結果，対照細胞と比較して，Tecpr1ノックダウン細胞では赤痢菌の感染により誘導されるオートファジーは顕著に抑制された．さらに，Tecpr1ノックダウン細胞における赤痢菌の増殖性を調べたところ，対照細胞と比較して顕著に上昇していた．<br/>　この結果をさらに解析するため，Tecpr1ノックアウトマウスを作製した．Tecpr1ノックアウトマウスから得られたマウス胎仔線維芽細胞を用いて同様の解析を行った結果，野生型マウス胎仔線維芽細胞と比較して，Tecpr1ノックアウトマウスに由来する胎仔線維芽細胞では赤痢菌ΔIcsB株に対するオートファジーが大幅に低下し，細胞内における赤痢菌の増殖性が顕著に上昇した．これらの結果から，Tecpr1は赤痢菌に対する選択的オートファジーに必須のタンパク質であることが明らかになった．興味深いことに，アミノ酸飢餓やラパマイシン処理により誘導される非選択的オートファジーでは，Tecpr1はオートファゴソームに局在するにもかかわらずその役割はきわめて小さいことが，Tecpr1ノックダウン細胞やTecpr1ノックアウトマウスに由来する胎仔線維芽細胞を用いた実験から明らかになった．以上の結果から，Tecpr1は選択的オートファジーにおいてカーゴ受容体として機能していることが強く示唆された．<br/><br/><h2>5．Tecpr1は選択的オートファジーに広く関与している</h2><br/>　Tecpr1が赤痢菌を選択的に認識するオートファジーにおいて機能していることが明らかになったことから，A群連鎖球菌やサルモネラ菌を標的とするオートファジーにおけるTecpr1の機能を解析した．その結果，A群連鎖球菌やサルモネラ菌を標的とするオートファゴソームにもTecpr1の局在することが明らかになった．さらに，Tecpr1ノックダウン細胞ではA群連鎖球菌に対するオートファジーも大幅に低下していた．<br/>　選択的オートファジーの標的として，脱分極したミトコンドリアや変性タンパク質の凝集塊などが報告されている<a href="#R2"><sup>2,6)</sup></a>．そこで，これらを標的とするオートファジーにおけるTecpr1の機能について検討を行った．その結果，HeLa細胞に人為的に誘導したマイトファジー（ミトコンドリアに特異的なオートファジー），あるいは，易凝集性のタンパク質を発現させた場合に形成されるアグリソームを標的とするオートファゴソームにTecpr1の局在することが明らかになった．さらに，電子顕微鏡や共焦点レーザー顕微鏡による観察により，Tecpr1ノックアウトマウスに由来する胎仔線維芽細胞では変性タンパク質からなる凝集体や損傷をうけたミトコンドリアなど，選択的オートファジーの標的となる基質の蓄積が認められた．このことは，赤痢菌だけではなく，サルモネラ菌，A群連鎖球菌などの病原細菌，脱分極したミトコンドリアや変性タンパク質からなる凝集体を選択的に認識するオートファジーにもTecpr1が関与することを示しており，Tecpr1は選択的オートファジーにおいて広く一般的に関与することを示唆していた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　Tecpr1による選択的オートファジー</strong><br/>Tecpr1は赤痢菌などの病原細菌だけでなく，変性タンパク質や脱分極したミトコンドリアに対する選択的オートファジーに広く関与している．<br/>PI(3)P：ホスファチジルイノシトールトリスリン酸．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasakawa-Cell-Host-Microbe-11.5.18-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　Tecpr1による選択的オートファジー" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasakawa-Cell-Host-Microbe-11.5.18-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Sasakawa-Cell-Host-Microbe-11.5.18-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/>おわりに<br/>　この研究の成果から，選択的オートファジーにおいてWIPI-2-Tecpr1-Atg5複合体という基質認識のための新たなカーゴ受容体の存在することが明らかになった．このことは，病原細菌を標的とするオートファジーの選択的な認識機構の解明のみならず，変性タンパク質の蓄積によるハンチントン病などの神経変性疾患や，異常ミトコンドリアの蓄積による若年性パーキンソン病の発症機序の解明，治療薬の開発にも重要な手がかりをあたえるものと考えられる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Kroemer, G., Marino, G. & Levine, B.</span>: <span class="ti">Autophagy and the integrated stress response.</span> <span class='so'>Mol. Cell, 40, 280-293 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20965422" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Komatsu, M. & Ichimura, Y.</span>: <span class="ti">Selective autophagy regulates various cellular functions.</span> <span class='so'>Genes Cells, 15, 923-933 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20670274" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Deretic, V.</span>: <span class="ti">Autophagy in infection.</span> <span class='so'>Curr. Opin. Cell Biol., 22, 252-262 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20116986" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Ogawa, M., Yoshimori, T., Suzuki, T. et al.</span>: <span class="ti">Escape of intracellular <em>Shigella</em> from autophagy.</span> <span class='so'>Science, 307, 727-731 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15576571" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Yoshikawa, Y., Ogawa, M., Hain, T. et al.</span>: <span class="ti"><em>Listeria</em> monocytogenes ActA-mediated escape from autophagic recognition.</span> <span class='so'>Nat. Cell Biol., 11, 1233-1240 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19749745" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Johansen, T. & Lamark, T.</span>: <span class="ti">Selective autophagy mediated by autophagic adapter proteins.</span> <span class='so'>Autophagy, 7, 279-296 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21189453" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Ogawa, M., Handa, Y., Ashida, H. et al.</span>: <span class="ti">The versatility of <em>Shigella</em> effectors.</span> <span class='so'>Nat. Rev. Microbiol., 6, 11-16 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18059288" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Dupont, N., Lacas-Gervais, S., Bertout, J. et al.</span>: <span class="ti"><em>Shigella</em> phagocytic vacuolar membrane remnants participate in the cellular response to pathogen invasion and are regulated by autophagy.</span> <span class='so'>Cell Host Microbe, 6, 137-149 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19683680" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Low, D. H., Ang, Z., Yuan, Q. et al.</span>: <span class="ti">A novel human tectonin protein with multivalent beta-propeller folds interacts with ficolin and binds bacterial LPS.</span> <span class='so'>PLoS One, 4, e6260 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19606221" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Polson, H. E. J., de Lartigue, J., Rigden, D. J. et al.</span>: <span class="ti">Mammalian Atg18 (WIPI2) localizes to omegasome-anchored phagophores and positively regulates LC3 lipidation.</span> <span class='so'>Autophagy, 6, 506-522 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20505359" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">小川 道永（Michinaga Ogawa）</span><br>略歴：1996年 東京大学大学院農学生命科学研究科修士課程 修了，同年 ヤクルト本社，2003年 東京大学大学院医学系研究科博士課程 修了，同年より東京大学医科学研究所 助教．<br>研究テーマ：赤痢菌の病原エフェクターの機能解析，赤痢菌をはじめとする病原細菌のオートファジー認識機構および回避機構．<br>関心事：病原細菌による感染戦略．<br><br><strong>笹川 千尋（Chihiro Sasakawa）</strong><br>東京大学医科学研究所 教授．<br>研究室URL：<a href="http://www.ims.u-tokyo.ac.jp/bac/hp/mainpage.html" target="_blank">http://www.ims.u-tokyo.ac.jp/bac/hp/mainpage.html</a><br></div><br>© 2011 小川道永・笹川千尋 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

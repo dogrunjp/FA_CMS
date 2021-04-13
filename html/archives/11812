@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 相同組換えにより再開された複製においてはDNAポリメラーゼδがリーディング鎖およびラギング鎖を合成する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>相同組換えにより再開された複製においてはDNAポリメラーゼδがリーディング鎖およびラギング鎖を合成する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>宮部  泉</strong><br>（英国Sussex大学Genome Damage and Stability Centre）<br>email：<a href="mailto:i.miyabe@sussex.ac.uk">宮部 泉</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.120">10.7875/first.author.2015.120</a><br><div class="reference"><br><span class="ti">Polymeraseδreplicates both strands after homologous recombination-dependent fork restart.</span><br><span class="au">Izumi Miyabe, Ken'Ichi Mizuno, Andrea Keszthelyi, Yasukazu Daigaku, Meliti Skouteri, Saed Mohebi, Thomas A. Kunkel, Johanne M. Murray, Antony M. Carr</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26436826" target="_blank"><em>Nature Structural & Molecular Biology</em>, <strong>22</strong>, 932-938 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ゲノムを安定に維持するため，複製は細胞周期においていちどだけ正確に起こらなければならない．しかし，複製フォークはさまざまな要因により障害され不活性化される．複製フォークの不活性化は高い頻度で起こるため，隣接した複製フォークからの複製だけではこれを補うことはできない．そのため，真核生物は不活性状態にある複製フォークを相同組換えに依存して再開する機構を進化させてきた．再開された複製は細胞の生存率を上げる一方，その複製は不正確で変異を起こしやすい．このことから，再開された複製は通常の複製とは異なる機構によりDNAを合成していることが示唆される．筆者らは，分裂酵母において相同組換えに依存的に再開された複製は通常の複製と同様に半保存的であるが，リーディング鎖およびラギング鎖ともDNAポリメラーゼδにより合成されていることを証明した．<br/><br/><h2>はじめに</h2><br/>　複製が正確に起こることはゲノムの維持において必要不可欠である．複製への障害は，がん細胞やある種の遺伝病の細胞においてみられる転座やコピー数多型など，種々の遺伝的な変化の原因になる．複製は細胞において，DNAの損傷，非ヒストンタンパク質とDNAとの結合，DNAの2次構造，転写装置との衝突などによりつねに障害されている．複製フォークがそれらの障害物に衝突すると複製は一時的に停止し，S期チェックポイントにより保護される．休止した複製フォークから障害が除去されると複製はそのまま続行される．しかし，複製フォークの一部は障害物の性質やS期チェックポイントによる保護の不首尾などにより複製を続行できなくなる．真核生物においては，崩壊した複製フォークから複製を再開するため，相同組換え機構が用いられている（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　複製フォークの停止と複製の再開</strong><br/>停止した複製フォークにおいてS期チェックポイントによる安定化が破綻すると，複製フォークからレプリソームが解離する（複製フォークの崩壊）．崩壊した複製フォークから複製を再開するには，相同組換えが必要である．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyabe-Nature-Structural-Molecular-Biology-15.11.3-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　複製フォークの停止と複製の再開" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyabe-Nature-Structural-Molecular-Biology-15.11.3-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyabe-Nature-Structural-Molecular-Biology-15.11.3-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　相同組換えによる複製の開始の機構を解明するため，いくつかの部位特異的な実験系が構築されてきた．出芽酵母においては複製を開始させるのに2本鎖DNA切断が用いられており，これはDNA鎖切断により誘発される複製とよばれている．実験的には，DNA鎖切断により誘発される複製はS期以外で起こり，複製の開始には数時間がかかる．一方，分裂酵母においてはRTS1とよばれる複製停止配列が用いられている．RTS1による停止から再開された複製はS期に起こり，2本鎖DNA切断をともなわないことから，DNA鎖切断により誘発される複製とは区別される．<br/>　相同組換えによる複製の開始は複製の困難な状況においても複製を完了させることを可能にするが，そこにはリスクも存在する．1つ目のリスクは，相同組換えが異所的に起こり複製が本来とは異なる遺伝子座において開始されてしまう可能性のあることである．最近になり，2つ目のリスクとして，再開された複製はエラーを起こしやすいことが明らかにされた<a href="#R1"><sup>1,2)</sup></a>．この複製のエラーの増加から，相同組換えにより開始される複製は通常の複製とは異なる機構によることが示唆された．<br/><br/><h2>1．相同組換えにより再開された複製に用いられるDNAポリメラーゼ</h2><br/>　複製停止配列RTS1は約850塩基からなり，Rtf1の結合部位をいくつか含んでいる．Rtf1は複製の停止に必須であり欠失するとRTS1は通常どおりに複製される．つまり，RTS1の塩基配列それ自体に複製を停止させる効果はなく，複製の停止はRtf1に完全に依存する<a href="#R3"><sup>3)</sup></a>．複製起点の近傍にRTS1を配置すると，複製起点からRTS1までの領域はRtf1のあるなしにかかわらず通常どおり複製される．RTS1の下流の領域は複製の阻害のないときには通常どおり複製されるが，複製の阻害があると相同組換えにより再開される<a href="#R4"><sup>4)</sup></a>．<br/>　これまでに筆者らは，リボヌクレオチドを高頻度で取り込む変異型のDNAポリメラーゼを用いて，通常の複製においてはDNAポリメラーゼεがリーディング鎖を，DNAポリメラーゼδがラギング鎖を合成することを証明した<a href="#R5"><sup>5,6)</sup></a>．RNaseH2の活性を欠失した細胞において，それら変異型のDNAポリメラーゼが合成したDNA鎖は過剰なリボヌクレオチドを含みアルカリ処理に対し高感受性になる．つまり，変異型のDNAポリメラーゼにより合成されたDNA鎖はアルカリ処理により特異的に分解される．通常の複製においては，変異型DNAポリメラーゼεをもつ細胞においてはリーディング鎖のみが，変異型DNAポリメラーゼδをもつ細胞においてはラギング鎖のみが，アルカリ処理により分解される．<br/>　これらの実験系を用いて，RTS1による停止から再開された複製に用いられるDNAポリメラーゼの同定を試みた．複製起点からRTS1までの領域をみると，複製の阻害の有無にかかわらず通常の複製と同じパターンを示した．この結果は，Rtf1は複製に用いられるDNAポリメラーゼに影響しないことを示した．そして，RTS1の下流においては，複製の阻害がないときは通常の複製と同じパターンを示したが，複製の阻害のあるときには変異型DNAポリメラーゼεをもつ細胞においてリーディング鎖およびラギング鎖ともアルカリ処理に耐性になり，変異型DNAポリメラーゼδをもつ細胞においてはリーディング鎖およびラギング鎖ともアルカリ処理に感受性になった．以上のことから，相同組換えにより再開された複製においては，リーディング鎖およびラギング鎖ともDNAポリメラーゼδにより合成され，DNAポリメラーゼεは複製にほとんど寄与しないことが示された．また，これまでの研究により，再開された複製は最初の約1 kbが非常に不安定であり，その下流の約1.5 kbにおいてある程度まで安定化されることが明らかにされている．そこで，RTS1のすぐ下流の約1.1 kb，および，さらにその下流の約1.8 kbにおけるアルカリ処理に対する感受性を変異型DNAポリメラーゼδをもつ細胞において比較したところ，差はみられなかった．この結果から，相同組換えによる複製の再開ののち少なくとも約3 kbはリーディング鎖およびラギング鎖ともDNAポリメラーゼδにより安定に複製されていることが示された．<br/>　DNAポリメラーゼαは複製の開始に必要とされ，岡崎フラグメントの合成はDNAポリメラーゼαにより開始される．つまり，DNAポリメラーゼαはおもにラギング鎖の合成に寄与している．RTS1による停止から再開された複製におけるDNAポリメラーゼαの役割を調べるため，高い頻度で変異を起こす変異型のDNAポリメラーゼαを用いて解析した．野生株では複製の阻害があるとRTS1の下流における変異の頻度は5倍ほど高くなるが，変異型DNAポリメラーゼαをもつ細胞では変異の頻度は逆に約1/5にまで下がった．このことから，相同組換えにより再開された複製においてDNAポリメラーゼαの使用頻度は通常の複製よりも顕著に低くなっていることが示唆された．<br/><br/><h2>2．相同組換えにより再開された複製は半保存的である</h2><br/>　DNA鎖切断により誘発される複製においては，1本鎖DNAが相同な2本鎖DNAに入り込んだ構造であるDループが移動することにより複製が進行することが知られている<a href="#R7"><sup>7,8)</sup></a>．RTS1による停止から再開された複製は2本鎖DNA切断をともなわないが，DNA鎖切断により誘発される複製と同様の機構により複製が進行している可能性は十分に考えられた．Dループの移動により複製が進行する場合，新生したリーディング鎖がラギング鎖の合成の鋳型になるため複製は保存的になる．この可能性をメセルソン-スタールの実験により検証した結果，相同組換えにより停止から再開された複製は半保存的であり，DNA鎖切断により誘発される複製とは異なる機構によることが示された．<br/><br/><h2>3．相同組換えにより再開された複製の不安定性はDNAポリメラーゼδによる複製だけでは説明できない</h2><br/>　停止ののち再開された複製は不安定であり，マイクロホモロジーの欠失や逆向きくり返し配列において染色体の再編成が高い頻度で誘発される．そこで，DNAポリメラーゼδによるリーディング鎖およびラギング鎖の複製がこの直接の原因なのかどうか検証した．DNAポリメラーゼεのDNA合成活性は細胞の生存に必須ではないことが知られており，DNAポリメラーゼεの活性部位を欠失した細胞においてバルクのDNA合成はDNAポリメラーゼδのみによると考えられている<a href="#R9"><sup>9)</sup></a>．そこで，DNAポリメラーゼεの活性部位を欠失した細胞において実際にDNAポリメラーゼδがリーディング鎖およびラギング鎖を合成しているかどうか確かめるため，変異型DNAポリメラーゼδをもつ細胞においてアルカリ感受性試験を行った．その結果，リーディング鎖およびラギング鎖ともアルカリ処理による分解が観察され，DNAポリメラーゼεのDNA合成活性が欠失したときにはDNAポリメラーゼδにより代替されることが確認された．<br/>　マイクロホモロジーの欠失を測定するため，20 bpの重複配列をもつ<em>ura4</em>遺伝子を用いた．重複した20 bpが欠失するとウラシル原栄養能が回復する．RTS1の下流にこの<em>ura4</em>遺伝子を配置して複製の阻害の有無により欠失の頻度を測定したところ，これまでの報告のとおり<a href="#R10"><sup>10)</sup></a>，DNAポリメラーゼεをもつ細胞では複製を阻害すると欠失の頻度は約10倍に上昇した．DNAポリメラーゼεの活性部位を欠失した細胞においては，複製の阻害がない条件における欠失の頻度がDNAポリメラーゼεをもつ細胞と比べ約5倍に上昇したが，複製の阻害があるときには欠失の頻度はさらに上昇し，DNAポリメラーゼεをもつ細胞において複製の阻害があるときと同じくらいになった．したがって，DNAポリメラーゼδによるリーディング鎖およびラギング鎖の複製はマイクロホモロジーの欠失においてエラーをひき起こしやすいが，相同組換えにより再開された複製のエラーの頻度はそれだけでは説明できなかった．<br/>　また，RTS1の下流に逆向きくり返し配列を配置すると，複製の阻害に依存して染色体の再編成が増加する<a href="#R1"><sup>1)</sup></a>．DNAポリメラーゼεの活性部位を欠失した細胞においてサザンブロット法により染色体の再編成を検出したところ，複製の阻害の有無にかかわらず，野生型の細胞とのあいだに大きな差はみられなかった．DNAポリメラーゼδによるリーディング鎖およびラギング鎖の複製は，このタイプの染色体の再編成にはほとんど寄与していないと考えられた．<br/><br/><h2>4．DNAポリメラーゼδの使用頻度が染色体の不安定性の指標となる可能性</h2><br/>　停止ののち再開された複製は染色体異常をひき起こしやすいため，ゲノム不安定性の一因になりうる．もし，DNAポリメラーゼδによるリーディング鎖およびラギング鎖の複製が停止から再開された複製における共通の特徴であるなら，ゲノムにおいて染色体異常をひき起こしやすい領域においてはDNAポリメラーゼδの使用頻度が高くなっている可能性がある．つまり，DNAポリメラーゼδの使用頻度の高さが内在性の脆弱部位を反映すると推測された．これまでに筆者らは，多くの領域において，DNAポリメラーゼδの使用頻度がゲノム全体の平均よりも高くなっていることを報告している<a href="#R5"><sup>5)</sup></a>．そのほとんどは複製起点と重なることから，複製の開始の際にリーディング鎖がDNAポリメラーゼδにより合成されることがあり，その場合は，複製の進行とともにDNAポリメラーゼεと入れ替わるとの仮説をたてた．<br/>　複製起点にくわえ，セントロメアや接合型変換のような特殊な領域を除き，DNAポリメラーゼδの使用頻度が高い領域がいくつかみつかった．そのうち4つの領域にそれぞれ逆向きくり返し配列を配置し，サザンブロット法によりその安定性を検証したところ，2つの領域においてゲノム再編成の有意な上昇がみられた．3つ目の領域は統計的に有意ではないものの同様の傾向がみられたが，残りの1つでは差はみられなかった．<br/><br/><h2>おわりに</h2><br/>　筆者らは，分裂酵母の複製阻害配列RTS1を用いて，相同組換えにより再開された複製においては，DNAポリメラーゼδがリーディング鎖およびラギング鎖を合成すること，DNAポリメラーゼαの使用頻度が低くなること，複製は半保存的であること，を証明した（<a href="#F2">図2</a>）．しかしながら，DNAポリメラーゼδによるリーディング鎖およびラギング鎖の合成は，停止ののち再開された複製の不安定性の主要な原因ではないことがわかった．このことから，通常の複製と再開された複製とのあいだにそれ以外の様式の違いが存在し，それが不安定性の原因となることが示唆された．その様式の違いについてはさらなる解析が必要である．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　相同組換えにより再開された複製のモデル</strong><br/>（a）RTS1による停止から相同組換えにより再開された複製．Dループの形成は2本鎖DNA切断をともなわない．リーディング鎖およびラギング鎖ともDNAポリメラーゼδにより合成され，複製は半保存的である．Polε：DNAポリメラーゼε，Polδ：DNAポリメラーゼδ．<br/>（b）DNA鎖切断により誘発される複製．2本鎖DNA切断から複製が開始される．複製の進行にともないDループが移動する．複製は保存的である．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyabe-Nature-Structural-Molecular-Biology-15.11.3-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　相同組換えにより再開された複製のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyabe-Nature-Structural-Molecular-Biology-15.11.3-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Miyabe-Nature-Structural-Molecular-Biology-15.11.3-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　出芽酵母におけるDNA鎖切断により誘発される複製の系では，2本鎖DNA切断から複製が開始される．分裂酵母におけるRTS1による停止から再開された複製の系とは異なり，複製はS期以外で起こりその開始には数時間もかかることが知られている．また，この場合，Dループが移動することにより複製が進行するため複製は保存的になる．これらの2つの系の違いが生物種の違いに由来するのか，あるいは，細胞周期やDNAの構造の違いによるのかは不明である．<br/>　がん化の初期の過程においては，がん遺伝子の活性化により複製ストレスが生じており，それに対する細胞の応答が破綻するとがんは悪性化すると考えられている<a href="#R11"><sup>11-13)</sup></a>．また，がん細胞においてみられる染色体の再編成は，しばしば脆弱部位とよばれる特定の領域において起こることが知られている．そのような領域では複製フォークの崩壊が高い頻度で起こっており，相同組換えによる複製の再開の必要性が高くなっていると推測される．筆者らは，DNAポリメラーゼδの使用頻度がゲノムに内在する脆弱部位の指標になる可能性を示唆した．さらなる検証が必要であるが，がん細胞においてみられるある種のゲノム不安定性は，相同組換えによる複製の再開によりひき起こされているのかもしれない．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Mizuno, K., Miyabe, I., Schalbetter, S. A. et al.</span>: <span class="ti">Recombination-restarted replication makes inverted chromosome fusions at inverted repeats.</span> <span class='so'>Nature, 493, 246-249 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23178809" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/6355" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R2"><span class='au'>Smith, C. E., Llorente, B. & Symington, L. S.</span>: <span class="ti">Template switching during break-induced replication.</span> <span class='so'>Nature, 447, 102-105 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17410126" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Eydmann, T., Sommariva, E., Inagawa, T. et al.</span>: <span class="ti">Rtf1-mediated eukaryotic site-specific replication termination.</span> <span class='so'>Genetics, 180, 27-39 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18723894" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Lambert, S., Watson, A., Sheedy, D. M. et al.</span>: <span class="ti">Gross chromosomal rearrangements and elevated recombination at an inducible site-specific replication fork barrier.</span> <span class='so'>Cell, 121, 689-702 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15935756" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Daigaku, Y., Keszthelyi, A., Muller, C. A. et al.</span>: <span class="ti">A global profile of replicative polymerase usage.</span> <span class='so'>Nat. Struct. Mol. Biol., 22, 192-198 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25664722" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Miyabe, I., Kunkel, T. A. & Carr, A. M.</span>: <span class="ti">The major roles of DNA polymerases epsilon and delta at the eukaryotic replication fork are evolutionarily conserved.</span> <span class='so'>PLoS Genet., 7, e1002407 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22144917" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Saini, N., Ramakrishnan, S., Elango, R. et al.</span>: <span class="ti">Migrating bubble during break-induced replication drives conservative DNA synthesis.</span> <span class='so'>Nature, 502, 389-392 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24025772" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Wilson, M. A., Kwon, Y., Xu, Y. et al.</span>: <span class="ti">Pif1 helicase and Polδ promote recombination-coupled DNA synthesis via bubble migration.</span> <span class='so'>Nature, 502, 393-396 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24025768" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Kesti, T., Flick, K., Keranen, S. et al.</span>: <span class="ti">DNA polymerase ε catalytic domains are dispensable for DNA replication, DNA repair, and cell viability.</span> <span class='so'>Mol. Cell, 3, 679-685 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10360184" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Iraqui, I., Chekkal, Y., Jmari, N. et al.</span>: <span class="ti">Recovery of arrested replication forks by homologous recombination is error-prone.</span> <span class='so'>PLoS Genet., 8, e1002976 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23093942" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Bartkova, J., Horejsi, Z., Koed, K. et al.</span>: <span class="ti">DNA damage response as a candidate anti-cancer barrier in early human tumorigenesis.</span> <span class='so'>Nature, 434, 864-870 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15829956" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Bartkova, J., Rezaei, N., Liontos, M. et al.</span>: <span class="ti">Oncogene-induced senescence is part of the tumorigenesis barrier imposed by DNA damage checkpoints.</span> <span class='so'>Nature, 444, 633-637 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17136093" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Gorgoulis, V. G., Vassiliou, L. V., Karakaidos, P. et al.</span>: <span class="ti">Activation of the DNA damage checkpoint and genomic instability in human precancerous lesions.</span> <span class='so'>Nature, 434, 907-913 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15829965" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">宮部  泉（Izumi Miyabe）</span><br>略歴：2001年 京都大学大学院理学研究科 修了，同年 大阪大学微生物病研究所 研究員を経て，2005年より英国Sussex大学 リサーチフェロー．<br>研究テーマ：複製の阻害に対する応答機構．<br></div><br>© 2015 宮部  泉 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

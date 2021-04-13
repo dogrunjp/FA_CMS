@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 嫌気性の植物病原細菌は好気性の環境において増殖するために芳香族ポリケチドを利用する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>嫌気性の植物病原細菌は好気性の環境において増殖するために芳香族ポリケチドを利用する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>石田 啓史</strong><br>（ドイツLeibniz Institute for Natural Product Research and Infection Biology，Department of Biomolecular Chemistry）<br>email：<a href="mailto:keishi.ishida@leibniz-hki.de">石田啓史</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.139">10.7875/first.author.2015.139</a><br><div class="reference"><br><span class="ti">Plant pathogenic anaerobic bacteria use aromatic polyketides to access aerobic territory.</span><br><span class="au">Gulimila Shabuer, Keishi Ishida, Sacha J. Pidot, Martin Roth, Hans-Martin Dahse, Christian Hertweck</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26542569" target="_blank"><em>Science</em>, <strong>350</strong>, 670-674 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　いっけん容易に栽培できそうなジャガイモであるが，じつはつねに多くの病原細菌にさらされている．これらのジャガイモ病原細菌のうち，偏性嫌気性細菌である<em>Clostridium puniceum</em>は嫌気性を好むにもかかわらずジャガイモの塊茎に感染し粘性腐敗病をひき起こす．この<em>C</em>. <em>puniceum</em>は世界中に存在すると考えられているが，その性質や感染の機構などについてはほとんど報告されていない．筆者らは，<em>C</em>. <em>puniceum</em>がジャガイモの塊茎に感染したのちバイオフィルムとともに産生する桃色の色素は芳香族ポリケチドclostrubin Aであることを発見し，その機能に着目した．clostrubin Aを産生しない株を作製し野生株と比較したところ，嫌気条件における成長速度はほぼ同じであったものの，clostrubin Aを産生しない株は好気条件において生存できなかった．これらの結果から，clostrubin Aは<em>C</em>. <em>puniceum</em>が好気条件において生存するために不可欠であることが示唆された．さらに，clostrubin Aはほかのジャガイモ病原細菌に対し非常に強い抗菌活性を示したことから，二元性の機能をもつ可能性が考えられた．<br/><br/><h2>はじめに</h2><br/>　多くの穀物はそれらの生育，貯蔵，輸送の過程においてつねに微生物の感染にさらされている<a href="#R1"><sup>1)</sup></a>．四大穀物のひとつであるジャガイモにおいても，病原微生物の感染による損失は莫大である<a href="#R2"><sup>2)</sup></a>．もっともよく知られる19世紀にアイルランドにおいて起こったジャガイモ飢饉は疫病菌によるものであったが，この影響によりアイルランドの人口は半分にまで落ち込んだと報告されている．また，わが国でも貯蔵されたジャガイモの塊茎に発生する粘性腐敗病の研究がなされており，日本中から集められたジャガイモの塊茎に<em>Clostridium</em>属細菌の存在が報告されている<a href="#R3"><sup>3)</sup></a>．これらのジャガイモ疾病のうち半数近くはペクチン分解酵素生産細菌によりひき起こされる．多くの植物病原細菌が報告されているなか，ジャガイモ粘性腐敗病をひき起こす偏性嫌気性細菌<em>Clostridium puniceum</em>は，<em>Clostridium</em>属のなかで唯一，植物病原細菌として同定されている<a href="#R4"><sup>4,5)</sup></a>．<em>C</em>. <em>puniceum</em>は雨期に土壌が冠水することにより酸欠状態がつづいたときや湿った状態で貯蔵された塊茎において増殖する．ジャガイモの塊茎への感染の過程および感染ののちの過程は完全な嫌気条件ではない．しかしながら，<em>C</em>. <em>puniceum</em>はジャガイモの塊茎に粘性腐敗病をひき起こし，バイオフィルムとともに桃色の色素を産生することが報告されている．嫌気性細菌が酸素にさらされることにより生じる活性酸素種を無毒化する酵素についてはよく知られているが<a href="#R6"><sup>6-8)</sup></a>，これまで，嫌気性細菌により産生される2次代謝産物は2例しか報告されていない<a href="#R9"><sup>9,10)</sup></a>．<br/><br/><h2>1．<em>C</em>. <em>puniceum</em>の産生する桃色の色素は芳香族ポリケチドである</h2><br/>　研究室において<em>C</em>. <em>puniceum</em>をジャガイモの塊茎に感染させたところ，少なくとも4日後にはジャガイモの塊茎の内部の分解，および，桃色の色素とスライムの産生が観察された．この粘性腐敗を起こしたジャガイモを酢酸エチルにより抽出し高速液体クロマトグラフィーにより分析したところ，波長530 nmに強い吸収を示す2つの成分が検出された．これらのうち主成分に関しては，筆者らが，土壌に由来する偏性嫌気性細菌<em>Clostridium beijerinckii</em>から単離した芳香族ポリケチドclostrubin Aと同じ成分であることが確認された<a href="#R9"><sup>9)</sup></a>．また，もうひとつの成分はNMR解析などによりclostrubin Aの類縁体であると決定された．嫌気性細菌により産生される2次代謝産物としては，筆者らが<em>Clostridium cellulolyticum</em>より単離したclosthioamideにつづき<a href="#R10"><sup>10)</sup></a>，このclostrubin Aが2例目であった．<br/><br/><h2>2．clostrubin Aはジャガイモ病原細菌に対する抗菌活性をもつ</h2><br/>　clostrubin Aはジャガイモの塊茎に対する毒性因子として関与していると考えたが，そのような活性はまったく観察されなかった．そこで，clostrubin Aのもつメチシリン耐性黄色ブドウ球菌やバンコマイシン耐性腸球菌に対する強い抗菌活性を考慮して<a href="#R9"><sup>9)</sup></a>，ほかのジャガイモ病原細菌に対する効果について調べてみた．その結果，clostrubin Aは軟腐病，輪腐病，瘡痂病をひき起こすグラム陽性細菌に対しても非常に強い抗菌活性を示した．この結果から，<em>C</em>. <em>puniceum</em>は競合する細菌との生存競争においてclostrubin Aを産生している可能性が示唆された（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　clostrubin Aに推定される機能</strong><br/>好気条件におかれた偏性嫌気性細菌<em>C</em>. <em>puniceum</em>は，活性酸素種や競合する細菌からの保護のため芳香族ポリケチドclostrubin Aを産生する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishida-Science-15.11.6-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　clostrubin Aに推定される機能" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishida-Science-15.11.6-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishida-Science-15.11.6-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．clostrubin A生合成酵素遺伝子の同定</h2><br/>　clostrubin Aは競合の推定される細菌に対し強い抗菌活性を示したが，好気性細菌は嫌気性細菌である<em>C</em>. <em>puniceum</em>にとり競合するのであろうか？　偶然にも，<em>C</em>. <em>puniceum</em>は好気条件のアガロース寒天培地においても増殖し，clostrubin Aおよびバイオフィルムを産生することが見い出された．好気条件とclostrubin Aの産生とを結びつけるため，clostrubin Aを産生しない株を作製することを考えた．210をこえる嫌気性細菌のゲノム塩基配列を解析したが，clostrubin Aの生合成に関与すると推定されるタイプIIポリケチド合成酵素遺伝子は見い出されなかった<a href="#R11"><sup>11)</sup></a>．そこで，<em>C</em>. <em>puniceum</em>の全ゲノム塩基配列を決定したところ，clostrubin A生合成酵素遺伝子群の存在が確認された．この遺伝子群がclostrubin Aの生合成に関与しているかどうか確認するため，分子生物学的な手法によりこの遺伝子群を欠損する株を作製し，培養液の酢酸エチル抽出物を高速液体クロマトグラフィーにより分析したところ，clostrubin Aは検出されなかった．<br/><br/><h2>4．clostrubin Aは好気条件において<em>C</em>. <em>puniceum</em>が増殖するために必須である</h2><br/>　clostrubin A生合成酵素遺伝子群欠損株と野生株の表現型を比較するため，それぞれをジャガイモの塊茎に感染させて生育の状況を観察した．その結果，嫌気条件において相違はまったく観察されなかったが，好気条件においてclostrubin A生合成酵素遺伝子群欠損株の生育はほとんど認められなかった．明らかな違いは，野生株はclostrubin Aを産生し嫌気条件と同様に成長している点であった．clostrubin Aを添加してclostrubin A生合成酵素遺伝子群欠損株を培養したところ，野生株とほぼ同様の生育を示した．発酵槽を用いた高酸素分圧の液体培地における生育も観察したが，野生株は通常どおり増殖するのに比べ，clostrubin A生合成酵素遺伝子群欠損株はほとんど増殖しなかった．この結果は<em>C</em>. <em>puniceum</em>にかぎられないことを確認するため，clostrubin Aを産生する<em>C</em>. <em>beijerinckii</em>についても同様に実験したが，得られた結果は類似したものであった．<br/><br/><h2>5．clostrubin Aの真の機能は何か</h2><br/>　植物は病原細菌の感染あるいは創傷に対し，防御反応として活性酸素種を産生する．ジャガイモの塊茎においても同様の防御反応が起こっていることから，clostrubin Aが抗酸化物質としての機能をもち活性酸素種からの攻撃を防御している可能性が示唆された．しかしながら，clostrubin A生合成酵素欠損株は好気条件の合成培地あるいは減圧滅菌したジャガイモの塊茎の寒天培地では生存できず，また，野生株およびclostrubin A生合成酵素欠損株は高濃度の過酸化水素のもとでも生育することが確認された．残る活性酸素種として，スーパーオキシドアニオンラジカル，ヒドロキシルラジカル，一重項酸素に対しclostrubin Aが抗酸化活性をもつ可能性について調べるため，ビタミンC，システイン，リボフラビン，尿酸，ビタミンEといった抗酸化物質のclostrubin A生合成酵素欠損株に対する効果について調べた．その結果，ビタミンCあるいはシステインを添加した場合においては野生株に近い表現型が認められた．<br/>　これまで，偏性嫌気性細菌における酸素に対する耐性は，カタラーゼ，スーパーオキシドディスムターゼ，ペルオキシダーゼのような活性酸素種を無毒化する酵素についてのみ報告されてきたが<a href="#R12"><sup>12)</sup></a>，この発見は，<em>C</em>. <em>puniceum</em>や<em>C</em>. <em>beijerinckii</em>が酵素だけでなく，まったく異なる手段を用いて酸素が豊富に存在する環境において生存していることを示した．最近の報告において，多くの好気性細菌により産生されるフェナジンのような酸化還元活性をもつ色素が，競合する細菌の成長を阻害するだけでなくコミュニティーとしての行動を制御するレギュレーターとしての機能ももつ可能性が示唆された<a href="#R13"><sup>13)</sup></a>．また，<em>Pseudomonas</em>属細菌においてはフェナジンの酸化還元サイクルが嫌気条件における生存に関与しているとの報告もあり，この現象はclostrubin Aとは逆の効果をもつ可能性が示唆された．<br/><br/><h2>おわりに</h2><br/>　この研究において，偏性嫌気性細菌<em>C</em>. <em>puniceum</em>が好気条件において生存するため，活性酸素種を無毒化する酵素だけでなく，芳香族ポリケチドであるclostrubin Aを産生することにより，より厳しい条件における生存を可能にしていることが実証された．また，このclostrubin Aは競合する細菌に対し強い抗菌活性を示したことから，二元的な機能をもつ可能性も示唆された（<a href="#F1">図1</a>）．今後，clostrubin Aが実際に抗酸化物質としてはたらいているかどうかを検証するため，<em>in vitro</em>における詳細な抗酸化試験や遺伝子発現の制御機構の解明に取り組む予定である．この好気条件における嫌気性細菌のまったく新しい生存の機構は，ほかの嫌気性生物の研究の発展にも寄与することが期待される．また，clostrubin Aのもつ薬剤耐性細菌やジャガイモ病原細菌に対する抗菌活性は，人間だけでなく植物に対しても有用な創薬に役だつかもしれない．さらに，この新たな知見は偏性嫌気性細菌がどのようにして好気条件に適応していったのか，その進化的な意義からも興味深いと考えられる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Strange, R. N. & Scott, P. R.</span>: <span class="ti">Plant disease: a threat to global food security.</span> <span class='so'>Annu. Rev. Phytopathobiol., 43, 83-116 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16078878" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Czajkowski, R., Perombelon, M. C., van Veen, J. A. et al.</span>: <span class="ti">Control of blackleg and tuber soft rot of potato caused by <em>Pectobacterium</em> and <em>Dickeya</em> species: a review.</span> <span class='so'>Plant Pathol., 60, 999-1013 (2011)</span></li><br><li id="R3"><span class='au'>陶山一雄, Budi Tjahjono, 藤井 溥</span>: <span class="ti">貯蔵ジャガイモ塊茎に発生した粘性腐敗病.</span> <span class='so'>日本植物病理学会報, 56, 577-583 (1990)</span></li><br><li id="R4"><span class='au'>Lund, B., Brocklehurst, T. & Wyatt, G.</span>: <span class="ti">Characterization of strains of <em>Clostridium puniceum</em> sp. no v., a pink-pigmented, pectolytic bacterium.</span> <span class='so'>J. Gen. Microbiol., 122, 17-26 (1981)</span></li><br><li id="R5"><span class='au'>Bull, C. T., De Boer, S. H., Denny, T. P. et al.</span>: <span class="ti">Comprehensive list of names of plant pathogenic bacteria, 1980-2007.</span> <span class='so'>J. Plant Pathol., 551-592 (2010)</span></li><br><li id="R6"><span class='au'>Jenney, F. E. J., Verhagen, M. F., Cui, X. et al.</span>: <span class="ti">Anaerobic microbes: oxygen detoxification without superoxide dismutase.</span> <span class='so'>Science, 286, 306-309 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10514376" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Hillmann, F., Fischer, R. J., Saint-Prix, F. et al.</span>: <span class="ti">PerR acts as a switch for oxygen tolerance in the strict anaerobe <em>Clostridium acetobutylicum</em>.</span> <span class='so'>Mol. Microbiol., 68, 848-860 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18430081" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Riebe, O., Fischer, R. J., Wampler, D. A. et al.</span>: <span class="ti">Pathway for H<sub>2</sub>O<sub>2</sub> and O<sub>2</sub> detoxification in <em>Clostridium acetobutylicum</em>.</span> <span class='so'>Microbiology, 155, 16-24 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19118342" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Pidot, S., Ishida, K., Cyrulies, M. et al.</span>: <span class="ti">Discovery of clostrubin, an exceptional polyphenolic polyketide antibiotic from a strictly anaerobic bacterium.</span> <span class='so'>Angew. Chem. Int. Ed., 53, 7856-7859 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24827417" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Lincke, T., Behnken, S., Ishida, K. et al.</span>: <span class="ti">Closthioamide: an unprecedented polythioamide antibiotic from the strictly anaerobic bacterium <em>Clostridium cellulolyticum</em>.</span> <span class='so'>Angew. Chem. Int .Ed. 49, 2011-2013 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20157900" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Hertweck, C., Luzhetskyy, A., Rebets, Y. et al.</span>: <span class="ti">Type II polyketide synthases: gaining a deeper insight into enzymatic teamwork.</span> <span class='so'>Nat. Prod. Rep., 24, 162-190 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17268612" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Imlay, J. A.</span>: <span class="ti">How obligatory is anaerobiosis?</span> <span class='so'>Mol. Microbiol., 68, 801-804 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18363793" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Dietrich, L. E., Teal, T. K., Price-Whelan, A. et al.</span>: <span class="ti">Redox-active antibiotics control gene expression and community behavior in divergent bacteria.</span> <span class='so'>Science, 321, 1203-1206 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18755976" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">石田 啓史（Keishi Ishida）</span><br>略歴：1999年 東京大学大学院農学生命科学研究科 修了，同年 同 研究員，2002年 ドイツHumboldt大学 研究員を経て，2005年よりドイツLeibniz Institute for Natural Product Research and Infection Biology研究員．<br>研究テーマ：新規の天然有機化合物の探索と，生合成経路および機能の解明．<br>関心事：細菌における天然有機化合物の機能．<br></div><br>© 2015 石田 啓史 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

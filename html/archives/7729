@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 前頭前野における分散された注意の収束 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>前頭前野における分散された注意の収束</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>門久 美紀子</strong><br>（英国MRC Cognition and Brain Sciences Unit）<br>email：<a href="mailto:miki.kadohisa@psy.ox.ac.uk">門久美紀子</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.124">10.7875/first.author.2013.124</a><br><div class="reference"><br><span class="ti">Dynamic construction of a coherent attentional state in a prefrontal cell population.</span><br><span class="au">Mikiko Kadohisa, Philippe Petrov, Mark Stokes, Natasha Sigala, Mark Buckley, David Gaffan, Makoto Kusunoki, John Duncan</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24035763" target="_blank"><em>Neuron</em>, <strong>80</strong>, 235-246 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　前頭前野は課題に関連する情報を順応的に符号化し，すみやかに情報処理を進め課題の遂行へと導く重要な役割をはたすと考えられている．サルが視覚的な探索課題を遂行しているときの前頭前野におけるニューロンの活動を記録し，その迅速な情報処理の過程について調べた．課題の応答を指示する刺激であるターゲットと，課題を遂行するうえで無視できる刺激である非ターゲットを用い，非ターゲットはターゲットの反対側の視覚野に同時に呈示した．ニューロンは刺激の呈示期間の早期には反対側の視覚野に呈示された刺激に対し応答したが，刺激の呈示期間の後期には非ターゲットに対する応答を弱めターゲットにしぼり応答した．また，同時に呈示された非ターゲットの種類により2つの刺激のあいだの競合の程度は決定され，競合が弱いほど，この活動の変化はよりすみやかであった．このように，前頭前野は情報を順応的に符号化しながらターゲットに注意をしぼることにより，課題の遂行において重要な役割をはたしていることが示唆された．<br/><br/><h2>はじめに</h2><br/>　注意の有無は脳の活動に大いに影響する．視覚情報が行動を左右する場合，視床や上丘のほか多くの大脳皮質においてその視覚情報に対する応答は促進される<a href="#R1"><sup>1-3)</sup></a>．注意の方向はしばしばその対象がしぼられるまで時間の経過とともに変化していく<a href="#R4"><sup>4)</sup></a>．複数の視覚情報，たとえば，ある視覚ニューロンが2つの視覚刺激の情報を受容したとき，その情報のあいだで競合が起こりその活動は影響をうける<a href="#R4"><sup>4-6)</sup></a>．このような場合，その注意の方向はそれぞれの視覚刺激が単独で呈示されたときの応答にいかに類似しているかにより示される<a href="#R3"><sup>3,5)</sup></a>．このようなニューロンの活動を制御する刺激のあいだの競合は，古典的な注意モデルで説明される．すなわち，同時に呈示された刺激はそれぞれ特徴が解読されるが，その過程で競合し選択されていく<a href="#R7"><sup>7,8)</sup></a>．<br/>　視覚の注意における競合は視覚の情報処理の過程の早期に存在し<a href="#R3"><sup>3)</sup></a>，前頭前野における注意の移動は顕著である<a href="#R9"><sup>9)</sup></a>．一般に，前頭前野は注意における競合および制御において中心的な役割を担うと考えられている<a href="#R10"><sup>10-12)</sup></a>．さらに，前頭前野のニューロンは入力された情報に対し柔軟に応答する順応的な符号化を示す<a href="#R12"><sup>12)</sup></a>．しかしながら，まったく異なる作業を同時に行うことが困難なように，実際に行動する場合，前頭前野が同時にはらうことのできる注意には限界がある．そのため，柔軟に応答しつつ分散する注意の統一を図ることが前頭前野の重要な役割になるのであろう．<br/>　この研究では，サルが簡単な視覚的な探索課題を遂行しているあいだ前頭前野におけるニューロンの活動を記録することにより，注意が移動する過程について調べた．ヒトにおける探索実験により周知のように，相反する刺激のあいだの競合の過程には学習の経験が影響する．たとえば，前回のトライアルではターゲットとなった刺激が，今回のトライアルでは非ターゲットとなる刺激，つまり，手がかりとなる刺激との関係によりターゲットにも非ターゲットにもなりうる刺激は，無視しにくく競合は強くなる．一方，手がかりとなるいずれの刺激に対しても非ターゲットとなる刺激は，無視されその競合は弱い<a href="#R13"><sup>13)</sup></a>．今回，用いた課題は以下のとおりである（<a href="#F1">図1</a>）．まず，手がかりとなる刺激が中央に500 msのあいだ呈示される．手がかりとなる刺激は2種類あり，それぞれに対応したターゲットとなる刺激がある．短い遅延期間ののち，選択刺激が500 msのあいだ呈示される．選択刺激には，急速な眼球運動を意味するターゲットとなる刺激と，中央注視の維持を意味する非ターゲットとなる刺激とがあり，その呈示は，<strong>1）単独の刺激呈示</strong>：ターゲットとなる刺激，ターゲットにも非ターゲットにもなる刺激，つねに非ターゲットとなる刺激が，単独で左右の視覚野のいずれかに呈示される，<strong>2）複合した刺激呈示</strong>：ターゲットとなる刺激の反対側の視覚野に，ターゲットにも非ターゲットにもなる刺激，または，つねに非ターゲットとなる刺激が呈示される，あるいは，ターゲットにも非ターゲットにもなる刺激の反対側の視覚野に，つねに非ターゲットとなる刺激が呈示される．そののち，サルは短い遅延期間をおいて，ターゲットとなる刺激にむかい急速な眼球運動をする，あるいは，非ターゲットとなる刺激のみの呈示であれば中央注視を維持することにより，報酬を得る．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　課題および選択刺激の呈示のパターン</strong><br/>手がかり刺激（ポスト）を呈示したのち，遅延期間1をおいて，ターゲットとなる刺激（金魚鉢）およびターゲットにも非ターゲットにもなる刺激（金メダル）を呈示，あるいは，ターゲットにも非ターゲットにもなる刺激（金メダル）のみを呈示し，遅延期間2ののちの応答をみる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/kadohisa-Neuron-13.10.2-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　課題および選択刺激の呈示のパターン" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/kadohisa-Neuron-13.10.2-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/kadohisa-Neuron-13.10.2-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　これまでに報告されたように<a href="#R14"><sup>14)</sup></a>，前頭前野の多くのニューロンは課題における刺激のカテゴリーに対し選択的な応答した．情報処理の早期には注意は呈示された刺激のあいだの競合により二分された．つまり，複合した刺激呈示の場合，ニューロンはその反対側の視覚野に呈示された刺激に対しこれを識別して応答したが，同じ側の視覚野に呈示された刺激に対し識別は不十分だった．この結果は，古典的な注意モデルにみられる情報の不完全な符号化<a href="#R7"><sup>7)</sup></a> と共通するところであった．情報処理が進行するにしたがい，分散された注意は応答を指示するターゲットとなる刺激にしぼられ，つまり，両側の半球のニューロンはターゲットとなる刺激に対し応答するようになり，注意はターゲットとなる刺激にしぼられていった．この活動状態の変化の速さと広がりは注意における競合の強度を反映していた．すなわち，ターゲットとなる刺激+つねに非ターゲットとなる刺激に対する応答は，ターゲットとなる刺激+ターゲットにも非ターゲットにもなる刺激に対する応答より，すばやく注意の焦点がしぼられ，両側の半球のニューロンの活動は一致した状態へとむかった．このように得られた結果は，前頭前野がすみやかに情報を処理し，注意の方向をしぼり両側の半球の注意が一致した状態を確立する過程を示唆するものであり，古典的な注意モデルに類似していた．<br/><br/><h2>1．課題に対する応答の成績</h2><br/>　ターゲットとなる刺激，あるいは，つねに非ターゲットとなる刺激がそれぞれ単独で呈示された場合には正答率は高かったが，先行する手がかりとなる刺激との関係によりカテゴリーの変わりうる，ターゲットにも非ターゲットにもなる刺激の単独での呈示に対する正答率は低かった．さらに，このターゲットにも非ターゲットにもなる刺激に対するあやまった応答としては，この刺激に対し急速な眼球運動をする場合がもっとも多かった．この傾向は，ターゲットとなる刺激+ターゲットにも非ターゲットにもなる刺激の呈示に対してもみられた．一方，ターゲットとなる刺激+つねに非ターゲットとなる刺激の呈示に対するあやまった応答としては，中央注視の維持が多く観察された．このように，ターゲットとなる刺激が非ターゲットとなる刺激と同時に呈示された場合の応答は，訓練をとおして習得された非ターゲットとなる刺激による影響をうけることが示唆された．<br/><br/><h2>2．単独での刺激に対するカテゴリーの識別</h2><br/>　ニューロンの活動は背外側前頭前野から記録した．単独での刺激の呈示期間におけるニューロンの活動を，呈示期間の早期（刺激呈示の開始から50～250 ms）と呈示期間の後期（刺激呈示の開始から300～500 ms）とに分けて観察すると，早期では記録位置に対し反対側の視覚野に呈示された刺激に対する選択的な応答，後期では同じ側の視覚野に呈示された刺激に対する選択的な応答という傾向が示された．このように，背外側前頭前野のニューロンは刺激呈示期間の早期には反対側の視覚野への刺激を識別する傾向のあることが示唆された．<br/><br/><h2>3．刺激のあいだの競合</h2><br/>　複合した刺激に対するニューロンの活動の時間的な変化を観察し，注意の移動を調べるためにユークリッド距離を用いて刺激のあいだの応答の差を求めた．この距離が大きいほど2つの刺激のあいだの識別が良好であることを示す．まず，2つの単独での刺激のあいだの距離を，つぎに，複合した刺激として，それぞれの単独での刺激の反対側の視覚野に非ターゲットとなる刺激を呈示したときの，それぞれのあいだの距離を調べ，前者と後者を比較した．ターゲットとなる刺激および非ターゲットとなる刺激に対する平均の発火頻度（呈示期間は500 ms）に対し有意差を示したニューロンを対象とした．<br/>　ターゲットとなる刺激と非ターゲットとなる刺激が単独で反対側の視覚野に呈示された場合，その距離は刺激呈示の開始から100 msで顕著となった．ターゲットにも非ターゲットにもなる刺激，または，つねに非ターゲットとなる刺激を同じ側の視覚野に同時に呈示したときにも，その距離に大きな差は生じなかった．それに対し，ターゲットとなる刺激と非ターゲットとなる刺激が単独で同じ側の視覚野に呈示された場合，その距離は刺激呈示の開始から100 msごろから徐々に増大した．つねに非ターゲットとなる刺激が反対側の視覚野に同時に呈示されると，その距離は刺激呈示の開始から200 msごろまでは小さくなったが，そののちすみやかに単独の刺激のあいだの距離と同じ程度にまで増加した．これに対し，ターゲットにも非ターゲットにもなる刺激が反対側の視覚野に同時に呈示された場合の距離は，刺激呈示の開始から200 msごろまでは若干の低下を認めたが，そののち徐々に増加した．<br/>　このように，背外側前頭前野のニューロンによる刺激の識別は，競合する刺激が反対側の視覚野に呈示された場合，著明に低下した．その識別の障害は刺激の呈示期間の早期に起こり，手がかりとなる刺激との関係によりカテゴリーの変わる，ターゲットにも非ターゲットにもなる刺激による識別の障害は長期化した．<br/><br/><h2>4．複合した刺激を構成する刺激に対する応答</h2><br/>　さきに述べたように，背外側前頭前野のニューロンは情報処理の早期には同じ側の視覚野に呈示される刺激に対し明確な応答を示さない．背外側前頭前野に入力を送る下側頭葉視覚連合野におけるニューロンの活動は反対側の視覚野から入力する刺激により制御される<a href="#R4"><sup>4)</sup></a>．したがって，少なくとも刺激の呈示期間の早期においては，前頭前野のニューロンは反対側の視覚野からの入力に対し応答するかもしれない．つまり，情報処理の早期には，前頭前野は同じ側の視覚野からの競合する刺激の入力をほとんどうけていない．しかしながら，ターゲットとなる刺激と同時に呈示された非ターゲットとなる刺激は，課題を遂行するうえで無視できたことを考慮すると，情報処理が進むにつれ，両側の背外側前頭前野のニューロンの活動は課題の遂行に即するよう注意が一致した状態に制御されるという仮説が成り立つだろう．<br/>　ターゲットとなる刺激+非ターゲットとなる刺激に対する応答は，単独で呈示されたターゲットとなる刺激および非ターゲットとなる刺激に対する応答から予測される．反対側の視覚野に単独で呈示されたターゲットとなる刺激に対する応答が，同じ側の視覚野に単独で呈示された非ターゲットとなる刺激に対する応答より強い場合，反対側の視覚野に単独で呈示されたターゲットとなる刺激+同じ側の視覚野に同時に呈示された非ターゲットとなる刺激に対する応答は，反対側の視覚野に単独で呈示されたターゲットとなる刺激に対する応答と類似していた．同様な応答パターンは，反対側の視覚野に単独で呈示されたターゲットとなる刺激に対する応答が，同じ側の視覚野に単独で呈示された非ターゲットとなる刺激に対する応答より弱い場合にもみられた．同じ側の視覚野に単独で呈示されたターゲットとなる刺激に対する応答が，反対側の視覚野に単独で呈示された非ターゲットとなる刺激に対する応答より強い場合，同じ側の視覚野に単独で呈示されたターゲットとなる刺激+反対側の視覚野に単独で呈示された非ターゲットとなる刺激に対する応答は，刺激の呈示期間の早期には抑制されたが，刺激呈示の開始から200 msのちには回復の傾向を示した．同じ側の視覚野に単独で呈示されたターゲットとなる刺激+反対側の視覚野に同時に呈示されたつねに非ターゲットとなる刺激に対する応答は，同じ側の視覚野に単独で呈示されたターゲットとなる刺激のみに対する応答に急速に近づいたが，同じ側の視覚野に単独で呈示されたターゲットとなる刺激+反対側の視覚野に同時に呈示されたターゲットにも非ターゲットにもなる刺激に対する応答は，同じ側の視覚野に単独で呈示されたターゲットとなる刺激のみに対する応答と比べ減少を示し，その抑制は持続した．同様な応答パターンは，同じ側の視覚野に単独で呈示されたターゲットとなる刺激に対する応答が，反対側の視覚野に単独で呈示された非ターゲットとなる刺激に対する応答より弱い場合にもみられた．<br/>　さらに，単独での刺激と複合した刺激ではその応答に差が生じるかどうかを，得られたすべてのニューロンを対象にユークリッド距離を用いて調べた．反対側の視覚野に単独で呈示されたターゲットとなる刺激と，反対側の視覚野に単独で呈示されたターゲットとなる刺激+同じ側の視覚野に単独で呈示された非ターゲットとなる刺激とのあいだの距離は非常に小さかった．つまり，同じ側の視覚野に単独で呈示された非ターゲットとなる刺激は，ニューロンの活動にあまり影響しなかった．一方，同じ側の視覚野に単独で呈示されたターゲットとなる刺激と，同じ側の視覚野に単独で呈示されたターゲットとなる刺激+反対側の視覚野に同時に呈示されたつねに非ターゲットとなる刺激とのあいだの距離は，刺激の呈示期間の早期に最大となり，そののち徐々に低下した．ターゲットにも非ターゲットにもなる刺激のニューロンの活動に対する影響は，つねに非ターゲットとなる刺激よりも大きかった．では，ターゲットとなる刺激が，競合する刺激として呈示された場合はどうだろうか．反対側の視覚野に単独で呈示された非ターゲットとなる刺激と，同じ側の視覚野に単独で呈示されたターゲットとなる刺激+反対側の単独で視覚野に呈示された非ターゲットとなる刺激とのあいだの距離は，刺激の呈示期間の早期においては小さかったが，徐々に増加の傾向を示した．同じ側の視覚野に単独で呈示された非ターゲットとなる刺激と，反対側の視覚野に単独で呈示されたターゲットとなる刺激+同じ側の視覚野に単独で呈示された非ターゲットとなる刺激とのあいだの距離は，刺激の呈示期間の早期に最大に達し，そののち低下を示したが維持された．<br/>　選択刺激の呈示期間の早期には，背外側前頭前野のニューロンの活動は，反対側の視覚野に呈示された刺激に対する応答を反映した．複合した刺激に対する応答は，反対側の視覚野に単独で呈示された刺激に対する応答と類似していた．一方，選択刺激の呈示期間の後期には，両側の半球の背外側前頭前野におけるニューロンの活動の差異は，課題を遂行するうえで重要な意味をもつターゲットとなる刺激に対し応答することにより解消され，両側の半球で活動の状態は一致した．とくに，つねに非ターゲットとなる刺激が同時に呈示された場合には，すみやかに活動の状態は一致した．このように，ターゲットとなる刺激を含む複合した刺激に対する両側の半球の最終的な活動の状態は，ターゲットとなる刺激のみを呈示されたときの活動の状態と一致した．<br/><br/><h2>おわりに</h2><br/>　この研究では，視覚探索の課題を遂行しているサルにおいて背外側前頭前野からニューロンの活動を記録することにより，情報処理の進行にともなう注意の移動の過程を観察した．2つの刺激が両側の視覚野にそれぞれに呈示された場合，情報処理の早期には背外側前頭前野のニューロンはそれぞれ反対側に呈示された刺激に対し応答するが，情報処理が進むにつれ両側の半球とも課題を遂行するうえで重要な意味をもつ刺激に対し応答し，注意が一致した状態となった．このように，背外側前頭前野は情報処理をつねにすみやかに進め，両側の半球に分散された注意を収束することにより課題の遂行において重要な役割をはたしていた．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>O’Connor, D. H., Fukui, M. M., Pinsk, M. A. et al.</span>: <span class="ti">Attention modulates responses in the human lateral geniculate nucleus.</span> <span class='so'>Nat. Neurosci., 5, 1203-1209 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12379861" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Ignashchenkova, A., Dicke, P. W., Haarmeier, T. et al.</span>: <span class="ti">Neuron-specific contribution of the superior colliculus to overt and covert shifts of attention.</span> <span class='so'>Nat. Neurosci., 7, 56-64 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14699418" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Moran, J. & Desimone, R.</span>: <span class="ti">Selective attention gates visual processing in the extrastriate cortex.</span> <span class='so'>Science, 229, 782-784 (1985)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/4023713" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Chelazzi, L., Duncan, J., Miller, E. K. et al.</span>: <span class="ti">Responses of neurons in inferior temporal cortex during memory-guided visual search.</span> <span class='so'>J. Neurophysiol., 80, 2918-2940 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9862896" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Reynolds, J. H., Chelazzi, L. & Desimone, R.</span>: <span class="ti">Competitive mechanisms subserve attention in macaque areas V2 and V4.</span> <span class='so'>J. Neurosci., 19, 1736-1743 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10024360" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Bundesen, C., Habekost, T. & Kyllingsbaek, S.</span>: <span class="ti">A neural theory of visual attention: bridging cognition and neurophysiology.</span> <span class='so'>Psychol. Rev., 112, 291-328 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15783288" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Broadbent, D. E.</span>: <span class="ti">Perception and Communication.</span> <span class='so'>Pergamon, London (1958)</span></li><br><li id="R8"><span class='au'>Kahneman, D.</span>: <span class="ti">Attention and Effort.</span> <span class='so'>Prentice-Hall, Englewood Cliffs (1973)</span></li><br><li id="R9"><span class='au'>Everling, S., Tinsley, C. J., Gaffan, D. et al.</span>: <span class="ti">Filtering of neural signals by focused attention in the monkey prefrontal cortex.</span> <span class='so'>Nat. Neurosci., 5, 671-676 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12068302" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Norman, D. & Shallice, T.</span>: <span class="ti">Attention to Action: Willed and Automatic Control of Behavior.</span> <span class='so'>University of California San Diego, Center for Human Information Processing, San Diego (1980)</span></li><br><li id="R11"><span class='au'>Miller, E. K., & Cohen, J. D.</span>: <span class="ti">An integrative theory of prefrontal cortex function.</span> <span class='so'>Annu. Rev. Neurosci., 24, 167-202 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11283309" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Duncan, J.</span>: <span class="ti">An adaptive coding model of neural function in prefrontal cortex.</span> <span class='so'>Nat. Rev. Neurosci., 2, 820-829 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11715058" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Schneider, W. & Fisk, A. D.</span>: <span class="ti">Degree of consistent training: Improvements in search performance and automatic process development.</span> <span class='so'>Percept. Psychophys., 31, 160-168 (1982)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7079096" target="_blank">PubMed</a>]</span></li><br><li id="R14"><span class='au'>Kusunoki, M., Sigala, N., Nili, H. et al.</span>: <span class="ti">Target detection by opponent coding in monkey prefrontal cortex.</span> <span class='so'>J. Cogn. Neurosci., 22, 751-760 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19302000" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">門久 美紀子（Mikiko Kadohisa）</span><br>略歴：2001年 熊本大学大学院医学研究科にて博士号取得，同年 英国Oxford大学Academic Visitor，2004年 米国Oklahoma大学Post doc Fellow，2006年 英国MRC Cognition and Brain Sciences UnitにてCareer Development Fellowを経て，2011年より同Investigator Scientist．<br>研究テーマ：知覚（味覚，嗅覚，視覚）および認知に関連する脳の領域の神経生理学的な解明．<br></div><br>© 2013 門久 美紀子 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

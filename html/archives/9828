@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 飢餓においてオートファゴソームの形成に関与するSTX17は富栄養条件においてミトコンドリアの分裂を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>飢餓においてオートファゴソームの形成に関与するSTX17は富栄養条件においてミトコンドリアの分裂を制御する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>新崎恒平・多賀谷光男</strong><br>（東京薬科大学生命科学部 分子生命科学科分子細胞生物学研究室）<br>email：<a href="mailto:tagaya@toyaku.ac.jp">多賀谷光男</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.023">10.7875/first.author.2015.023</a><br><div class="reference"><br><span class="ti">A role for the ancient SNARE Syntaxin 17 in regulating mitochondrial division.</span><br><span class="au">Kohei Arasaki, Hiroaki Shimizu, Hirofumi Mogari, Naoki Nishida, Naohiko Hirota, Akiko Furuno, Yoshihisa Kudo, Misuzu Baba, Norio Baba, Jinglei Cheng, Toyoshi Fujimoto, Naotada Ishihara, Carolina Ortiz-Sandoval, Lael D. Barlow, Arun Raturi, Naoshi Dohmae, Yuichi Wakana, Hiroki Inoue, Katsuko Tani, Joel B. Dacks, Thomas Simmen, Mitsuo Tagaya</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25619926" target="_blank"><em>Developmental Cell</em>, <strong>32</strong>, 304-317 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　小胞体膜のミトコンドリアと接触する領域が脂質の合成やCa<sup>2+</sup>の放出に関与していることはよく知られている．さらに近年，小胞体膜のミトコンドリアと接触する領域がミトコンドリアの分裂の位置を決定し，また，飢餓にともなうオートファゴソームの形成をつかさどることが報告されている．オートファゴソームの形成においては，STX17はホスファチジルイノシトール3-キナーゼのサブユニットであるATG14と結合し足場としてはたらいている．筆者らは，富栄養条件におけるSTX17の局在および機能を解析し，小胞体膜のミトコンドリアと接触する領域のラフト様の膜構造に存在してDrp1によるミトコンドリアの分裂を制御していることを明らかにした．飢餓においてSTX17はラフト様の構造から非ラフト様の構造へと局在を変え，また，結合のパートナーをDrp1からATG14に変えて，その結果，Drp1の活性が低下してミトコンドリアが伸長し，ミトコンドリアはオートファジーによる分解をまぬがれていた．すなわち，STX17は栄養の状態に応答して局在および機能を変え，ミトコンドリアの分裂およびオートファジーを制御するユニークなタンパク質であった．<br/><br/><h2>はじめに</h2><br/>　真核生物の細胞にはさまざまなオルガネラが存在し，それらが固有の機能を発揮することにより細胞の維持，増殖，分化を可能にしている．分泌経路に位置するオルガネラのあいだのコミュニケーションは小胞により仲介されていることはよく知られているが，近年，別のコミュニケーションの方法として膜と膜の接触する部位が注目をあびつつある<a href="#R1"><sup>1,2)</sup></a>．<br/>　小胞体膜のミトコンドリアと接触する領域はMAM（mitochondria-associated membrane）とよばれる<a href="#R3"><sup>3)</sup></a>．その機能のひとつは，ミトコンドリアと連携した脂質の合成である．小胞体膜のミトコンドリアと接触する領域は脂質合成酵素に富むことから脂質の組成は小胞体膜のほかの領域とは異なっており，その一部あるいはすべてはコレステロールとスフィンゴ脂質に富む膜の微小ドメイン，いわゆる“ラフト”とよばれる構造に近いと考えられている．小胞体膜のミトコンドリアと接触する領域のもうひとつのよく知られた機能は，イノシトールトリスリン酸受容体を介したCa<sup>2+</sup>の放出である．放出されたCa<sup>2+</sup>は近接するミトコンドリアに取り込まれ，TCA回路を活性化してATPの産生を促進する．過剰なCa<sup>2+</sup>放出が長期にわたりつづくとミトコンドリアの膜透過性遷移孔が開口し，アポトーシス誘導タンパク質が放出されて細胞死がひき起こされる．<br/>　近年，小胞体膜のミトコンドリアと接触する領域に関して新たに2つの機能が報告された．ひとつは，小胞体膜のミトコンドリアと接触する領域がミトコンドリアの分裂の位置を決定していることが詳細な形態学的な解析により示されたことである<a href="#R4"><sup>4)</sup></a>．ミトコンドリアは分裂および融合をくり返しており，この膜ダイナミクスはミトコンドリアの機能の発現および維持において不可欠である<a href="#R5"><sup>5)</sup></a>．ミトコンドリアの分裂はGTPaseであるDrp1がサイトゾルからミトコンドリアへと移行することによりひき起こされるが，ミトコンドリア外膜のどの領域が切断の“目印”になっているかは不明であった．この研究は，小胞体がミトコンドリアの切断の位置を決定しているという新しい概念をもたらした．もうひとつは，オートファゴソームの形成である<a href="#R6"><sup>6)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/6749" target="_blank">新着論文レビュー</a> でも掲載）．オートファジーは飢餓にともないひき起こされるタンパク質やオルガネラなどの自己成分を分解する反応であり，分解される成分は隔離膜によりとりかこまれてオートファゴソームになり，オートファゴソームはリソソームと融合して分解される．オートファゴソームの形成にはホスファチジルイノシトール3-リン酸の産生が必要であるが，飢餓においてSTX17がミトコンドリアと小胞体の接触する部位に局在してホスファチジルイノシトール3-キナーゼのサブユニットであるATG14をリクルートし，その結果，そこでホスファチジルイノシトール3-リン酸が産生されオートファゴソームの形成がひき起こされることが示された．STX17は膜融合タンパク質であるSNARE（soluble NSF attachment protein receptor）タンパク質のひとつであるが，オートファゴソームの形成においては膜融合タンパク質としてではなく，ホスファチジルイノシトール3-キナーゼ複合体の足場としてはたらいていると考えられた．また，STX17はオートファジーの後期の段階にも関与し，STX17がオートファゴソームとリソソームとの融合を仲介することが明らかにされている<a href="#R7"><sup>7)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/6301" target="_blank">新着論文レビュー</a> でも掲載）．<br/>　筆者らは，小胞体に局在するSyntaxinの一種であるSTX18複合体の機能の解明を行っていたが<a href="#R8"><sup>8)</sup></a>，近年，小胞体に局在するもうひとつのSyntaxinであるSTX17についての解析をはじめた．小胞体膜のミトコンドリアと接触する領域についての新しい機能が報告されたのはちょうどそのころであり，筆者らは，STX17とミトコンドリアのダイナミズムとの関連について解析を進めた．<br/><br/><h2>1．STX17はミトコンドリアと小胞体の接触する部位のラフト様の構造に局在する</h2><br/>　STX17は細胞分画から小胞体，小胞体膜のミトコンドリアと接触する領域，ミトコンドリアに存在すると考えられたが，蛍光顕微鏡による観察ではほとんどがミトコンドリアと共局在していた．ミトコンドリアへの局在を示すSTX17がミトコンドリア外膜に結合しているのか，あるいは，小胞体膜のミトコンドリアと接触する領域に存在するのかを調べるため，低濃度のジギトニンにより処理した．界面活性剤であるジギトニンはコレステロールに対し高い親和性があるため，低濃度で使用するとコレステロールに富んだ細胞膜のみが可溶化される．ラフトもコレステロールおよびスフィンゴ脂質に富んでいるため同様に可溶化される．ジギトニンの処理によりSTX17はミトコンドリアから遊離し，小胞体様の局在を示した．この結果と合致して，ジギトニンの処理によりミトコンドリア画分および小胞体膜のミトコンドリアと接触する領域の画分に回収されるSTX17の量は大きく減少し，ミクロソーム画分に回収される量が増加した．<br/><br/><h2>2．STX17はDrp1の局在および活性を制御する</h2><br/>　STX17の発現をsiRNAによりノックダウンしたところ，ミトコンドリアが伸長し，また，ミトコンドリアの移動速度が上昇した．この原因を明らかにするため，ミトコンドリアのダイナミクスをつかさどるGTPaseについて解析した．ミトコンドリア内膜の融合はOpa1，ミトコンドリア外膜の融合はMfn1およびMfn2，ミトコンドリアの分裂はDrp1により制御されている<a href="#R5"><sup>5)</sup></a>．その結果，STX17のノックダウンによりミトコンドリアの融合は大きな影響をうけなかったが，Drp1の局在および動態に大きな変化が認められた．サイトゾルに存在するDrp1はその受容体であるMff，Mid49，Mid51を介してミトコンドリア外膜に結合し，重合してミトコンドリアをとりかこんだのち，GTPの加水分解にともなう構造の変化によりミトコンドリア外膜を切断しそこから解離する．ミトコンドリアと結合したDrp1は蛍光顕微鏡によりドット様の構造として検出されるが，STX17をノックダウンした細胞ではドットの蛍光輝度が減少していた．また，光退色後蛍光回復（fuorescence recovery after photobleaching：FRAP）法および細胞分画から，Drp1はミトコンドリア外膜から解離しにくくなっていることが判明した．これらの結果から，STX17が存在しないとミトコンドリア外膜におけるDrp1の重合が不十分になり，ミトコンドリアの切断が起こらず，また，Drp1がミトコンドリア外膜から解離しなくなると考えられた．<br/>　STX17はSNAREタンパク質の一種であり，C末端側に膜融合に関与するSNAREドメインと，それにつづく疎水性領域をもつ．通常のSNAREタンパク質の疎水性領域は約20残基からなり膜を貫通しているが，STX17はLys254により分断された44残基からなるヘアピン様の疎水構造をもつ．変異体を用いた解析により，Drp1との結合にはSNAREドメインではなく，疎水性領域とそれにつづくC末端側の塩基性領域が関与することがわかった．とくにLys254はきわめて重要であり，この残基をArg以外の残基に変異させるとDrp1との結合は消失し，また，その局在がミトコンドリアから小胞体へと変化した．<br/><br/><h2>3．STX17はミトコンドリアと小胞体の接触する部位においてMffおよびDrp1と複合体を形成する</h2><br/>　STX17はDrp1と直接に結合しているのか，そしてその場合，小胞体，小胞体膜のミトコンドリアと接触する領域，ミトコンドリアのうち，どこに局在するSTX17がDrp1と相互作用をしているのかを近接連結反応アッセイ（proximity ligation assay：PLA）法により調べた．この方法では，2つのタンパク質が近接していると蛍光シグナルが検出される．その結果，STX17とDrp1は近接していることが判明した．また，<em>in vitro</em>における結合実験からもその結合が確認された．近接連結反応アッセイ法においてSTX17とDrp1との近接によるシグナルはDrp1の受容体であるMffのノックダウンにより大きく減少したが，Drp1の別の受容体であるMid49あるいはMid51のノックダウンでは影響はなく，Mff，Drp1，STX17が複合体を形成していると考えられた．この複合体の形成は，小胞体膜のミトコンドリアと接触する領域の構築をつかさどるPACS2，および，小胞体とミトコンドリアとを繋留するMfn2のノックダウンにより消失した．STX17はミトコンドリアへの局在を示すにもかかわらず，STX17とDrp1との近接によるシグナルはもっぱら小胞体において検出され，しばしば，ミトコンドリアの末端あるいはミトコンドリアが切断されたと思われるような位置に検出された．これらの結果は，小胞体膜のミトコンドリアと接触する領域に局在するSTX17が，ミトコンドリアに局在するDrp1と結合していることを示唆した．<br/><br/><h2>4．STX17はRab32によるDrp1の活性の抑制をさまたげCa<sup>2+</sup>の動態を制御する</h2><br/>　Rab32はcAMP依存性プロテインキナーゼを膜に結合させる活性をもつ．Drp1はcAMP依存性プロテインキナーゼによりSer637がリン酸化されると活性が低下し，それによりミトコンドリアは伸長する．STX17をノックダウンするとDrp1のSer637のリン酸化が亢進したが，同時にRab32もノックダウンするとそのリン酸化はまったくみられなくなり，ミトコンドリアは分裂した．これらの結果は，Rab32を介したcAMP依存性プロテインキナーゼによるDrp1のリン酸化をSTX17が抑制していることを示唆した．Rab32をノックダウンすると近接連結反応アッセイ法においてSTX17とDrp1との近接によるシグナルが増加したことから，Drp1との結合においてSTX17とRab32は競合すると考えられた．STX17がDrp1のリン酸化を抑制することによりDrp1の活性を維持しているとすると，非リン酸化型のDrp1変異体の活性はSyn17に依存しなくなると推測された．実際に，Ser637をAlaに置換した非リン酸化型Drp1変異体を発現させると，STX17をノックダウンしてもミトコンドリアは分裂し短くなった．<br/>　小胞体膜のミトコンドリアと接触する領域はCa<sup>2+</sup>の放出を制御していることからCa<sup>2+</sup>の動態について調べた．STX17のノックダウンにより小胞体の内部のCa<sup>2+</sup>濃度は低下し，また，ヒスタミンによる誘導により放出されるCa<sup>2+</sup>の量は減少した．これと相関して，ミトコンドリアへ取り込まれるCa<sup>2+</sup>の量も減少した．一方，STX17を過剰に発現させると小胞体の内部のCa<sup>2+</sup>濃度は上昇した．これらの結果は，STX17はミトコンドリアと小胞体の接触する部位においてCa<sup>2+</sup>の動態を制御していることを示した．<br/><br/><h2>5．STX17は栄養状態に応じて結合のパートナーをスイッチする</h2><br/>　さきに述べたように，STX17はATG14と結合してオートファジーに関与するが，オートファジーとミトコンドリアのダイナミクスとには関連がある．飢餓においてはミトコンドリアの分裂は抑制され伸長し，それにより，ミトコンドリアは隔離膜にとり込まれることをまぬがれる．また，伸長したミトコンドリアにおいてはATPの産生の効率が上昇しており細胞死は抑制される<a href="#R9"><sup>9,10)</sup></a>．<br/>　飢餓においてミトコンドリアが伸長するという現象は，STX17とDrp1との相互作用がなくなると考えることによりうまく説明できる．そこで，近接連結反応アッセイ法により富栄養条件および飢餓におけるSTX17とDrp1との近接，および，STX17とATG14との近接について調べたところ，富栄養条件において検出されたSTX17とDrp1との近接によるシグナルは飢餓において大きく減少し，反対に，富栄養条件において検出されなかったSTX17とATG14との近接によるシグナルは飢餓において顕著に増加した．さらに，FLAGタグを付加したSTX17の局在を調べたところ，富栄養条件においてSTX17はジギトニンの処理によりミトコンドリア外膜から解離したが，飢餓においてはその局在は変化しなかった．これらの結果は，STX17は飢餓にともないその結合のパートナーをDrp1からATG14へとスイッチし，また，その局在もジギトニンに感受性を示す小胞体膜のミトコンドリアと接触する領域からジギトニンに非感受性の膜構造へと変化したことを意味した．<br/><br/><h2>おわりに</h2><br/>　今回の研究により，STX17は富栄養条件において小胞体膜のミトコンドリアと接触する領域のラフト様の膜構造に存在し，Drp1と結合してその局在および活性を制御することによりミトコンドリアの分裂を促進していることが判明した（<a href="#F1">図1a</a>）．一方，飢餓においては，STX17はラフト様の膜構造から解離し，結合のパートナーをATG14に変えてオートファジーを促進させ，その結果，ミトコンドリアは伸長しオートファジーによる分解からまぬがれていた（<a href="#F1">図1b</a>）．STX17はその局在をラフト様の構造から非ラフト様の構造へと変えることにより，結合のパートナーを限定していると考えられた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　富栄養条件および飢餓におけるSTX17の役割</strong><br/>（a）富栄養条件．STX17はDrp1と相互作用し，ミトコンドリアは分裂する．<br/>（b）飢餓．STX17は結合のパートナーをホスファチジルイノシトール3-キナーゼ（PI3K）のサブユニットであるATG14に変え，オートファゴソームの形成にはたらき，ミトコンドリアは伸長する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tagaya-Developmental-Cell-15.2.9-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　富栄養条件および飢餓におけるSTX17の役割" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tagaya-Developmental-Cell-15.2.9-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tagaya-Developmental-Cell-15.2.9-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　近年，ミトコンドリアと小胞体の接触する部位は医学的な見地からも注目をあつめつつあり，アルツハイマー病あるいはパーキンソン病に関連するタンパク質の多くが小胞体膜のミトコンドリアと接触する領域のラフト様の膜構造に局在することが判明している．また，ミトコンドリアと小胞体の接触する部位は糖尿病，炎症，感染にも関与している．最近，筆者らは，多数のSTX17結合タンパク質の候補を同定しているが，それらのなかには神経変性疾患に関連するタンパク質もあった．おそらく，STX17はDrp1やATG14の機能の制御にとどまらず，ミトコンドリアと小胞体の接触する部位の機能の全般において重要な役割をはたしているのであろう．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>多賀谷光男, 谷佳津子, 新崎恒平</span>: <span class="ti">オルガネラ接触部位：多様な機能と疾患.</span> <span class='so'>実験医学, 31, 1791-1797 (2013)</span></li><br><li id="R2"><span class='au'>多賀谷光男, 若菜裕一, 川端美緒</span>: <span class="ti">MAMの新たな機能と関連疾患.</span> <span class='so'>細胞工学, 33, 436-442 (2014)</span></li><br><li id="R3"><span class='au'>Rowland, A. A. & Voeltz, G. K.</span>: <span class="ti">Endoplasmic reticulum-mitochondria contacts: function of the junction.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 13, 607-625 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22992592" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Friedman, J. R., Lackner, L. L., West, M. et al.</span>: <span class="ti">ER tubules mark sites of mitochondrial division.</span> <span class='so'>Science, 334, 358-362 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21885730" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Chan, D. C.</span>: <span class="ti">Fusion and fission: interlinked processes critical for mitochondrial health.</span> <span class='so'>Annu. Rev. Genet., 46, 265-287 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22934639" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Hamasaki, M., Furuta, N., Matsuda, A. et al.</span>: <span class="ti">Autophagosomes form at ER-mitochondria contact sites.</span> <span class='so'>Nature, 495, 389-393 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23455425" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/6749" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R7"><span class='au'>Itakura, E., Kishi-Itakura, C. & Mizushima, N.</span>: <span class="ti">The hairpin-type tail-anchored SNARE syntaxin 17 targets to autophagosomes for fusion with endosomes/lysosomes.</span> <span class='so'>Cell, 151, 1256-1269 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23217709" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/6301" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R8"><span class='au'>多賀谷光男</span>: <span class="ti">小胞体におけるSNARE複合体の構造と機能.</span> <span class='so'>生体の科学, 61, 209-215 (2010)</span></li><br><li id="R9"><span class='au'>Gomes, L. C., Di Benedetto, G. & Scorrano, L.</span>: <span class="ti">During autophagy mitochondria elongate, are spared from degradation and sustain cell viability.</span> <span class='so'>Nat. Cell Biol., 13, 589-598 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21478857" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Rambold, A. S., Kostelecky, B., Elia, N. et al.</span>: <span class="ti">Tubular network formation protects mitochondria from autophagosomal degradation during nutrient starvation.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 108, 10190-10195 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21646527" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">新崎 恒平（Kohei Arasaki）</span><br>略歴：2006年 東京薬科大学大学院生命科学研究科博士課程 修了，米国Yale School of Medicine研究員を経て，2011年より東京薬科大学生命科学部 助教．<br><br><strong>多賀谷 光男（Mitsuo Tagaya）</strong><br>東京薬科大学生命科学部 教授．<br>研究室URL：<a href="http://pathos.ls.toyaku.ac.jp/?page_id=121" target="_blank">http://pathos.ls.toyaku.ac.jp/?page_id=121</a><br></div><br>© 2015 新崎恒平・多賀谷光男 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

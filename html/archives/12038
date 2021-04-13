@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> テトラヒメナにおいてHP1様タンパク質の脱リン酸化はヘテロクロマチンボディの形成を促進する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>テトラヒメナにおいてHP1様タンパク質の脱リン酸化はヘテロクロマチンボディの形成を促進する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>片岡研介・望月一史</strong><br>（オーストリアInstitute of Molecular Biotechnology of the Austrian Academy of Sciences）<br>email：<a href="mailto:kensuke.kataoka@imba.oeaw.ac.at">片岡研介</a>，<a href="mailto:kazufumi.mochizuki@imba.oeaw.ac.at">望月一史</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.003">10.7875/first.author.2016.003</a><br><div class="reference"><br><span class="ti">Phosphorylation of an HP1-like protein regulates heterochromatin body assembly for DNA elimination.</span><br><span class="au">Kensuke Kataoka, Kazufumi Mochizuki</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26688337" target="_blank"><em>Developmental Cell</em>, <strong>35</strong>, 775-788 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　複数のヘテロクロマチン領域は集合して高次に凝集したヘテロクロマチンボディを形成するが，その形成機構および生理的な役割についてはよく知られていない．テトラヒメナの大核の分化の過程においては，ゲノムに散在するトランスポゾンに由来するDNA配列がヘテロクロマチン化され，そののち，それらが集合することによりヘテロクロマチンボディが形成され，最終的に，そこに含まれるDNAは大核のゲノムから除去される．この研究において，このヘテロクロマチンボディの形成には新奇のヘテロクロマチン構成タンパク質Jub1pと，それによりひき起こされるHP1様タンパク質Pdd1pの脱リン酸化が必要であることが示された．また，Pdd1pの脱リン酸化はRNAとの静電結合能を高めたことから，ヘテロクロマチンボディは脱リン酸化Pdd1pとRNAとの相互作用により形成されることが示唆された．Pdd1pの脱リン酸化の阻害は，ヘテロクロマチンの局所的な形成には影響せず，ヘテロクロマチンボディの形成およびDNAの削減を阻害した．よって，ヘテロクロマチンボディにはヘテロクロマチンの局所的な形成とは遺伝学的に区別しうる生理的な役割のあることが示された．<br/><br/><h2>はじめに</h2><br/>　ヘテロクロマチンは高度に凝縮した染色体の領域であり，一般に転写活性が低い．個々のヘテロクロマチン領域の凝集にはヒストンの翻訳後修飾が関与する．たとえば，ヒストンの脱アセチル化はDNAとの静電結合を強めることによりクロマチンを凝集させ，ヒストンH3のLys9のメチル化はHP1に認識されてその領域のクロマチンを局所的に凝縮させる．<br/>　ヘテロクロマチンは局所的に凝集するだけでなく，染色体において離れた位置にある複数のヘテロクロマチン領域が集合することにより光学顕微鏡により容易に観察の可能なヘテロクロマチンボディを形成することがある．植物や哺乳類細胞の染色体中心，メスの哺乳類細胞にみられる不活性化X染色体の凝集体であるバー小体，老化した哺乳類細胞にみられるSAHF（senescence associated heterochromatin foci）などがその顕著な例である．染色体中心は未分化な哺乳類細胞にはみられず，細胞の分化とともに形成され，がん化にともない消失する例が報告されている．したがって，ヘテロクロマチンボディは真核生物においてなんらかの重要な役割をもつものと類推される．しかし，ヘテロクロマチンボディがそれを構成する個々のヘテロクロマチン領域の作用をこえる役割をもつかどうかは明らかでない．また，その形成機構には未解明な点が多い．<br/>　繊毛虫類に属する原生生物であるテトラヒメナは，ひとつの細胞に大核および小核の2つの異なる核をもつ（<a href="#F1">図1a</a>）．全ゲノムを維持する小核は転写活性を欠くのに対し，全ゲノムの約1/3を欠く大核はすべての遺伝子発現を担う．これらの核の差異は，有性生殖の過程において小核から大核が分化することにより生じる<a href="#R1"><sup>1)</sup></a>．この過程においては，ゲノムの約1万箇所に散在するトランスポゾンに由来する配列であるIES（internal eliminated sequence）が大核のゲノムから除去される．実験室の条件においては，有性生殖の開始からこのDNAの削減の完了までに約16～18時間を要する（<a href="#F1">図1b</a>）．大核が分化した直後に，約29塩基の小分子RNAによりヒストンメチル化酵素Ezl1pがIESに特異的にリクルートされ，IESに存在するヒストンH3のLys9およびLys27がメチル化される．つづいて，HP1様タンパク質であるPdd1pがこれらメチル化されたヒストンに結合し，IESがヘテロクロマチン化される．そののち，ヘテロクロマチン化された約1万のIESは互いに凝集して十数個のヘテロクロマチンボディを形成し，最終的に，ヘテロクロマチンボディはIESとともに分解される．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　テトラヒメナのDNAの削減におけるヘテロクロマチンボディの形成</strong><br/>（a）有性生殖において，親の小核から新たに子の小核および大核がつくられ，親の大核は分解される．<br/>（b）新しい大核においてIESは小分子RNAにより認識され，ヒストンメチル化酵素Ezl1pによりIESのヒストンがメチル化される．HP1様タンパク質Pdd1pはこれらメチル化されたヒストンを特異的に認識し，IESをヘテロクロマチン化する．ヘテロクロマチン化された複数のIESは凝集しヘテロクロマチンボディを形成する．最終的に，ヘテロクロマチンボディとともにIESが分解される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mochizuki-Developmental-Cell-15.12.21-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　テトラヒメナのDNAの削減におけるヘテロクロマチンボディの形成" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mochizuki-Developmental-Cell-15.12.21-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mochizuki-Developmental-Cell-15.12.21-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　この研究においては，ヘテロクロマチンボディの形成を同調することのできるテトラヒメナにおけるDNAの削減の過程を用いて，ヘテロクロマチンボディの形成機構およびその生理的な役割の一端を明らかにした．<br/><br/><h2>1．ヘテロクロマチン構成タンパク質Jub1pはヘテロクロマチンボディの形成に必須である</h2><br/>　ヘテロクロマチンボディの形成に関与する新奇のタンパク質を見い出すため，ヘテロクロマチンボディに局在するタンパク質を探索した．有性生殖の過程において特異的に発現する86の遺伝子について，それぞれ，GFPとの融合タンパク質を発現するトランスジェニック株を樹立し，これら融合タンパク質の局在を解析した．その結果，ヘテロクロマチンボディに局在する8つの新奇のタンパク質が同定された．<br/>　そのうちのひとつJub1pをコードする<em>JUB1</em>遺伝子の破壊株を作製し，ヘテロクロマチンボディの形成を時系列にそって解析した．<em>JUB1</em>破壊株は，野生株においてヘテロクロマチンボディの形成が起こる有性生殖の開始から14時間後あるいはそれ以降においても，ヘテロクロマチンを構成するヒストンのメチル化やPdd1pが新しい大核に一様に分布したままであった．また，<em>JUB1</em>破壊株においてはほぼすべてのIESの分解が阻害されていた．したがって，Jub1pはヘテロクロマチンボディの形成およびそののちに起こるDNAの削減に必須であるとことが示された．<br/><br/><h2>2．IESの局所的なヘテロクロマチン化にJub1pは必要ない</h2><br/>　ヘテロクロマチンボディの形成には，それにさきだつIESの局所的なヘテロクロマチン化が必要である．<em>JUB1</em>破壊株において，染色体におけるPdd1pの局在をクロマチン免疫沈降-シークエンシング法により解析したところ，野生株と同様にIESに特異的に局在することがわかった．したがって，Jub1pはIESの局所的なヘテロクロマチン化には必要ではないが，それらが凝集してヘテロクロマチンボディを形成する過程に必要であると結論づけられた．また，この結果は，DNAの削減においてヘテロクロマチンボディは局所的なヘテロクロマチン化とは独立した役割をもつことを明示した．<br/><br/><h2>3．Jub1pはPdd1pの脱リン酸化をひき起こす</h2><br/>　有性生殖の過程において，Pdd1pはまずリン酸化され，そののち，脱リン酸化される．また，その脱リン酸化の時期はヘテロクロマチンボディの形成の時期と一致することが知られていた<a href="#R2"><sup>2)</sup></a>．そこで，<em>JUB1</em>破壊株におけるPdd1pのリン酸化の状態を解析したところ，野生株と同様にPdd1pは正常にリン酸化されていたが，そののちの脱リン酸化が阻害されていることがわかった．したがって，Jub1pはPdd1pの脱リン酸化に必要であることが示された．Jub1pは既知の脱リン酸化酵素との相同性を示さなかったため，Jub1pは未知の脱リン酸化酵素をリクルートすることによりPdd1pの脱リン酸化をひき起こすと考えられた．さらに，野生株をセリン/スレオニン脱リン酸化酵素に対する阻害剤であるオカダ酸により処理したところ，<em>JUB1</em>破壊株と同様に，Pdd1pの脱リン酸化，ヘテロクロマチンボディの形成，DNAの削減が阻害された．以上のことから，Jub1pはPdd1pの脱リン酸化をひき起こすことによりヘテロクロマチンボディの形成を促進するものと予想された．<br/><br/><h2>4．Pdd1pの脱リン酸化による負電荷の減少はヘテロクロマチンボディの形成を促進する</h2><br/>　ヘテロクロマチンボディの形成におけるPdd1pの脱リン酸化の役割を明らかにするため，テトラヒメナから精製したPdd1pのリン酸化部位を質量分析法により解析した．その結果，先行研究の結果とあわせ，リン酸化部位として33箇所のSer残基あるいはThr残基が同定された．同定されたPdd1pのリン酸化部位のうち，10箇所，14箇所，18箇所，22箇所を負電荷をもつGluと置換することにより，異なるレベルで恒常的にSer残基あるいはThr残基がリン酸化された状態を模倣する変異型Pdd1pを作製し，それらを発現するテトラヒメナ株を樹立した．その結果，置換されたリン酸化部位の数が増加すればするほど，ヘテロクロマチンボディの形成およびDNAの削減が阻害されるという傾向が観察された．なかでも，リン酸化部位22箇所を置換した変異型Pdd1pを発現させた株の表現型は，<em>JUB1</em>破壊株の表現型と類似していた．クロマチン免疫沈降-シークエンシング法による解析の結果，<em>JUB1</em>破壊体においてみられたように，この22箇所を置換した変異型Pdd1pを発現させた株においてもIESは正常にヘテロクロマチン化されていた．また，リン酸化部位22箇所の置換に正電荷をもつLysを6残基くわえた変異型Pdd1pを発現させることにより，ヘテロクロマチンボディの形成能およびDNAの削減能は回復した．これらのことから，Pdd1pの脱リン酸化はPdd1pのもつ負電荷を減少させることによりヘテロクロマチンボディの形成を促進すると考えられた．<br/><br/><h2>5．Pdd1pはRNAと静電的に結合する</h2><br/>　Pdd1pは，ほかの生物のHP1と同様に，メチル化したヒストンを認識するクロモドメインおよびホモ二量体化に必要なクロモシャドードメインをもっていた．哺乳類や酵母のHP1はこれら進化的に保存された領域以外の保存されていない領域を介しRNAと結合することが知られていた<a href="#R3"><sup>3-5)</sup></a>．同定されたPdd1pのリン酸化部位のほぼすべては進化的に保存されていない領域に存在した．また，ヘテロクロマチンボディの形成が起こる時期にIESから非コードRNAが転写されていることも知られていた<a href="#R6"><sup>6)</sup></a>．そこで，組換えPdd1pを用いてそのRNA結合能をゲルシフトアッセイにより検討した．その結果，リン酸化されていない状態の野生型Pdd1pの非保存領域は配列に非依存的にRNAと強く結合したのに対し，リン酸化部位22箇所をGluと置換したリン酸化された状態を模倣する変異型Pdd1pではRNAとの結合が検出されなかった．また，リン酸化部位22箇所の置換にLysを6残基くわえた変異型Pdd1pはRNAとの結合能をもっていた．したがって，Pdd1pはその進化的に保存されていない領域を介してRNAと静電的に相互作用し，Pdd1pのリン酸化はその相互作用を阻害することが示された．試験管内におけるPdd1p変異体のRNA結合能は，同じPdd1p変異体を発現する細胞におけるヘテロクロマチンボディの形成能と相関したことから，Pdd1pの脱リン酸化はRNAとの結合を促進することによりヘテロクロマチンボディの形成をひき起こしている可能性が示唆された．<br/><br/><h2>おわりに</h2><br/>　この研究により，ヘテロクロマチンボディの形成の分子機構のモデルが提唱された（<a href="#F2">図2</a>）．ヘテロクロマチン化されたIESに存在するリン酸化Pdd1pは，Jub1pによりリクルートされた未知の脱リン酸化酵素により脱リン酸化される．脱リン酸化されたPdd1pは非コードRNAと静電的に結合し，この非コードRNAが橋わたしするようにヘテロクロマチン化された複数のIESが凝集しヘテロクロマチンボディが形成される．最終的に，ヘテロクロマチンボディには未知の機構によりDNAの削減に必要なタンパク質がリクルートされ，IESは切り出され分解される．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ヘテロクロマチンボディの形成機構のモデル</strong><br/>ヘテロクロマチン化されたIESに存在するPdd1pはリン酸化されている．Jub1pは未知の脱リン酸化酵素をリクルートし，Pdd1pを脱リン酸化する．脱リン酸化されたPdd1pは非コードRNAと静電的に相互作用し，複数のIESを凝集させることによりヘテロクロマチンボディを形成する．IESはヘテロクロマチンボディに依存して切り出され分解される．<br/>P：リン酸化．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mochizuki-Developmental-Cell-15.12.21-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ヘテロクロマチンボディの形成機構のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mochizuki-Developmental-Cell-15.12.21-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mochizuki-Developmental-Cell-15.12.21-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　近年のプロテオミクス研究により，多くの生物のHP1の非保存領域において多数のリン酸化部位が同定されている．したがって，ほかの生物においても，HP1のリン酸化がRNAとの相互作用を制御することによりヘテロクロマチンの動態に関与している可能性がある．これらHP1のリン酸化の生理的な役割にせまるうえで，この研究から得られた知見が手がかりになるものと期待している．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Chalker, D. L., Meyer, E. & Mochizuki, K.</span>: <span class="ti">Epigenetics of ciliates.</span> <span class='so'>Cold Spring Harb. Perspect. Biol., 5, a017764 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24296171" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Madireddi, M. T., Coyne, R. S., Smothers, J. F. et al.</span>: <span class="ti">Pdd1p, a novel chromodomain-containing protein, links heterochromatin assembly and DNA elimination in Tetrahymena.</span> <span class='so'>Cell, 87, 75-84 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8858150" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Muchardt, C., Guilleme, M., Seeler, J. S. et al.</span>: <span class="ti">Coordinated methyl and RNA binding is required for heterochromatin localization of mammalian HP1α.</span> <span class='so'>EMBO Rep., 3, 975-981 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12231507" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Maison, C., Bailly, D., Roche, D. et al.</span>: <span class="ti">SUMOylation promotes <em>de novo</em> targeting of HP1α to pericentric heterochromatin.</span> <span class='so'>Nat. Genet., 43, 220-227 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21317888" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Keller, C., Adaixo, R., Stunnenberg, R. et al.</span>: <span class="ti">HP1<sup>Swi6</sup> mediates the recognition and destruction of heterochromatic RNA transcripts.</span> <span class='so'>Mol. Cell, 47, 215-227 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22683269" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Aronica, L., Bednenko, J., Noto, T. et al.</span>: <span class="ti">Study of an RNA helicase implicates small RNA-noncoding RNA interactions in programmed DNA elimination in <em>Tetrahymena</em>.</span> <span class='so'>Genes Dev., 22, 2228-2241 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18708581" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">片岡 研介（Kensuke Kataoka）</span><br>略歴：2007年 兵庫県立大学大学院生命理学研究科 修了，同年よりオーストリアInstitute of Molecular Biotechnology of the Austrian Academy of Sciences博士研究員．<br>研究テーマ：テトラヒメナのDNAの削減におけるヘテロクロマチンの役割．<br>関心事：ゲノムの再編成能がどのようにして獲得され，多様な生物の進化にどのように寄与してきたのか．<br><br><strong>望月 一史（Kazufumi Mochizuki）</strong><br>オーストリアInstitute of Molecular Biotechnology of the Austrian Academy of Sciencesグループリーダー．<br>研究室URL：<a href="http://www.imba.oeaw.ac.at/research/kazufumi-mochizuki/" target="_blank">http://www.imba.oeaw.ac.at/research/kazufumi-mochizuki/</a><br></div><br>© 2016 片岡研介・望月一史 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

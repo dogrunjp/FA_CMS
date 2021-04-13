@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 体細胞クローン胚においてはヒストンのメチル化によるインプリント制御が破綻している : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>体細胞クローン胚においてはヒストンのメチル化によるインプリント制御が破綻している</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>的場章悟・Yi Zhang</strong><br>（米国Boston Children’s Hospital，Program in Cellular and Molecular Medicine）<br>email：<a href="mailto:shogo.matoba@riken.jp">的場章悟</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2018.075">10.7875/first.author.2018.075</a><br><div class="reference"><br><span class="ti">Loss of H3K27me3 imprinting in somatic cell nuclear transfer embryos disrupts post-implantation development.</span><br><span class="au">Shogo Matoba, Huihan Wang, Lan Jiang, Falong Lu, Kumiko A. Iwabuchi, Xiaoji Wu, Kimiko Inoue, Lin Yang, William Press, Jeannie T. Lee, Atsuo Ogura, Li Shen, Yi Zhang</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/30033120" target="_blank"><em>Cell Stem Cell</em>, <strong>23</strong>, 343-354.e5 (2018)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　体細胞核移植法により哺乳動物のさまざまな種においてクローン動物が作出されてきたが，クローン胚の多くは胚の時期に発生を停止するためその作出の効率は種にかかわらず低い．筆者らは，これまでの研究において，マウスのクローン胚における発生の異常の原因として，ドナー細胞にあるヒストンH3のLys9のトリメチル化，および，核の移植ののちの<em>Xist</em>遺伝子の過剰な発現を報告した．この研究において，この2つを同時に回避させることにより，マウスにおいてクローン個体の作出の効率をこれまでの最高のレベルにまで改善した．一方で，胎盤の過形成や着床ののちの発生の停止など，クローン胚に特有の異常な表現型はなお認められた．着床前期のクローン胚における遺伝子の発現およびエピゲノムについて包括的に解析することにより，ヒストンH3のLys27のトリメチル化により制御されるインプリント遺伝子がアレルに特異的なインプリントの情報を失っており，父母の両方のアレルから異常に発現することが明らかにされた．これらインプリント遺伝子の多くが胎盤の形成や着床ののちの発生に関与することから，クローン胚に特有の発生の異常の原因であることが強く示唆された．<br/><br/><h2>はじめに</h2><br/>　体細胞核移植法は，卵子に分化した体細胞核を注入することにより全能性をもつ受精卵の状態へと初期化する技術である．この過程においては，ドナー細胞のもつ種々のエピジェネティックな修飾が大規模に初期化されると想定される．体細胞核移植法はドナーとして使用した体細胞と同じゲノムをもつクローン個体が作出されることから，畜産や絶滅危惧種の保存など幅広い応用が期待されてきた<a href="#R1"><sup>1)</sup></a>．しかしながら，体細胞核移植法を実際に応用するうえで，クローン個体の作出の効率が非常に低いことが大きなハードルとなっている．たとえば，マウスの場合，クローン胚のうち正常に胚盤胞期に到達するのは約30％であり，胚を子宮へと移植したのち出生にいたるのはわずか1～2％である．さらに，このようにして出生にいたったクローン個体は，胎盤の過形成などの異常をともなうことが知られている．これらの表現型から，体細胞核移植による初期化においてはのちのクローン胚の発生を阻害するようなエピジェネティックな因子の存在することが強く想定された．<br/>　筆者らの研究グループは，これまでの研究において，マウスにおいてクローン胚の発生を阻害する2つの重要な因子を同定した．ひとつはドナー体細胞に存在する抑制性のヒストン修飾の一種であるヒストンH3のLys9のトリメチル化である<a href="#R2"><sup>2,3)</sup></a>（文献<a href="#R2"><sup>2)</sup></a> は <a href="http://first.lifesciencedb.jp/archives/9463" target="_blank">新着論文レビュー</a> でも掲載）．このヒストン修飾はヒストン脱メチル化酵素をコードする<em>Kdm4d</em>遺伝子を強制発現させることにより除くことができ，その結果，クローン個体の作出の効率は8倍ほど上昇する．もうひとつはクローン胚において過剰に発現する<em>Xist</em>遺伝子である<a href="#R4"><sup>4)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/1190" target="_blank">新着論文レビュー</a> でも掲載）．この異常な<em>Xist</em>遺伝子の発現はドナー体細胞として片方のアレルにおいて<em>Xist</em>遺伝子をノックアウトした細胞を用いることにより抑制でき，その結果，クローン個体の作出の効率は8～9倍ほど上昇する．この研究においては，これらのクローン胚の発生を阻害する2つの因子を同時に取り除き，クローン個体の作出の効率がどのくらい改善するのか，そして，この系を用いて初期化を阻害するほかの因子を探索した．<br/><br/><h2>1．<em>Xist</em>遺伝子をノックアウトしたドナー細胞と<em>Kdm4d</em>遺伝子の過剰発現との組合せによりクローン個体の作出の効率は相加的に上昇する</h2><br/>　ドナーとして<em>Xist</em>遺伝子のノックアウト細胞を用いたクローン胚において<em>Kdm4d</em>遺伝子を強制発現し，クローン胚の発生を阻害する2つの因子を同時に取り除くことにより胚はどのくらい発生するか検証した．卵丘細胞をドナー細胞とした場合，対照である通常のクローン胚における出生率は約1％であったのに対し，<em>Kdm4d</em>遺伝子の強制発現により出生率は約8％にまで上昇した．さらに，<em>Xist</em>遺伝子をノックアウトしたドナー細胞と<em>Kdm4d</em>遺伝子の強制発現とを組み合わせると出生率は18％以上にまで相加的に上昇した．同様に，セルトリ細胞をドナー細胞として使用した場合も，対照である通常のクローン胚における出生率は2％以下であったが，<em>Kdm4d</em>遺伝子の強制発現により約9％，さらに，<em>Xist</em>遺伝子をノックアウトしたドナー細胞と<em>Kdm4d</em>遺伝子の強制発現を組み合わせると24％近くまで上昇した．この24％というクローン個体の作出の効率はマウスにおいてこれまでで最高のレベルであった．<br/>　しかし，このように高い効率で発生するクローン胚においても，着床ののち半数以上が発生を停止しており，さらに胎盤の過形成といった表現型はまったく改善されていなかったことから，クローン胚の発生を阻害する重要な因子がほかにも存在することが強く示唆された（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　マウスにおけるクローン個体の作出の効率</strong><br/>通常のクローン胚は約1％しか出生にいたらないが，これまでに同定されたクローン胚の発生を阻害する2つの因子を，<em>Xist</em>遺伝子をノックアウトしたドナー細胞および<em>Kdm4d</em>遺伝子の過剰発現により同時に回避するとクローン個体の作出の効率は大幅に向上する．しかし，その効率は受精胚の出生率と比較するとまだ半分以下であり，クローン胚の発生を阻害する重要な因子がほかにも存在することが想定される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matoba-Cell-Stem-Cell-18.7.19-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　マウスにおけるクローン個体の作出の効率" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matoba-Cell-Stem-Cell-18.7.19-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matoba-Cell-Stem-Cell-18.7.19-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．胚盤胞期のクローン胚においてはDNAメチル化が大規模に初期化されている</h2><br/>　<em>Xist</em>遺伝子をノックアウトしたドナー細胞と<em>Kdm4d</em>遺伝子の強制発現との組合せにより作製したクローン胚の多くは着床の直後から発生の異常を示しはじめたことから，クローン胚の発生を阻害するエピジェネティックな因子は着床の直前の胚盤胞期胚においてすでに存在すると想定された．そこで，組合せにより作製した胚盤胞期のクローン胚においてDNAメチル化をゲノムワイドに解析し，受精胚，ドナー体細胞，精子，卵子の情報と比較した．その結果，受精胚においてはもとの精子および卵子のDNAメチル化の平均が約70％であったのに対し，胚盤胞期においては約19％にまで脱メチル化された．これは，着床前期の卵割の過程においてDNAメチル化が大規模に脱メチル化されるという報告と一致した<a href="#R5"><sup>5,6)</sup></a>．一方で，クローン胚の場合，ドナーである胎仔線維芽細胞においては約78％と高度にDNAメチル化されていたのに対し，胚盤胞期おいては約16％にまで脱メチル化されたことから，着床前期の卵割の過程においてDNAメチル化が大規模に初期化されることが明らかにされた．実際に，RNA-seq法により胚盤胞期のトランスクリプトームを比較した結果，検出された8921個の遺伝子のうち受精胚とクローン胚とで発現量が3倍以上の差を示したものはわずか92個であった．これらの結果から，<em>Xist</em>遺伝子をノックアウトしたドナー細胞と<em>Kdm4d</em>遺伝子の強制発現との組合せにより作製されたクローン胚においては，DNAメチル化およびトランスクリプトームが胚盤胞期までに正常なレベルにまで大規模に初期化されることが明らかにされた．<br/><br/><h2>3．DNAメチル化に依存的なインプリント遺伝子はクローン胚においてほとんど正常である</h2><br/>　胎盤の形成の異常はクローン胚に特徴的な表現型である．これまで，胎盤の発生にはインプリント遺伝子が大きく関与することが報告されていたことから<a href="#R7"><sup>7)</sup></a>，クローン胚においてインプリント遺伝子がどのような影響をうけているかを検証した．まず，インプリント遺伝子の多くはインプリント制御領域のアレルに特異的なDNAメチル化により制御されることから，これまで同定されている23個のインプリント制御領域について胚盤胞期胚におけるDNAメチル化のレベルを解析した．その結果，クローン胚ではほとんどのインプリント制御領域においてDNAメチル化のレベルがやや低下していたものの，ほとんどのインプリント制御領域は受精胚の半分以上のレベルでDNAメチル化を維持していた．クローン胚のインプリント制御領域におけるアレルに特異的なDNAメチル化のパターンを解析したところ，アレルの情報の解析が可能な20個のインプリント制御領域のうち，1個の例外を除き，ほとんどが受精胚と同様のアレルの特異性を維持していた．<br/>　既知の126個のインプリント遺伝子の発現パターンについてRNA-seq法のデータを詳細に解析した．その結果，今回の胚盤胞期の受精胚において検出の可能であった45個のインプリント遺伝子のうち，6個だけがクローン胚において有意に発現が上昇していた．受精胚においては，アレルの情報の解析が可能な36個の遺伝子のうち，6個は母方のアレルから発現し，13個が父方のアレルから発現していた．6個の母方由来発現遺伝子（MEG）のすべてがクローン胚においても同様の母方に由来する発現を示した一方，13個の父方由来発現遺伝子（PEG）のうち7個はクローン胚において父方のアレルへのかたよりを失っており，父母の両方のアレルから発現していた．クローン胚において発現の上昇がみられた6個の遺伝子と，両方のアレルからの発現を示した7個の遺伝子には，ヒストンH3のLys27のトリメチル化に依存的なインプリント制御をうける遺伝子<a href="#R8"><sup>8,9)</sup></a> が共通して多く含まれた．<br/><br/><h2>4．クローン胚におけるヒストンH3のLys27のトリメチル化によるインプリント制御の破綻</h2><br/>　ヒストンH3のLys27のトリメチル化に依存的なインプリント遺伝子はクローン胚においてどのような発現を示すか解析した．これまでの桑実胚の解析から同定されたヒストンH3のLys27のトリメチル化に依存的なインプリント発現を示す76個の遺伝子のうち，胚盤胞期の受精胚においては26個が検出された．その半数以上にあたる15個はクローン胚において発現量が上昇していた．受精胚においてはアレルの情報の解析が可能な23個の遺伝子のうち17個が父方のアレルから発現しており，母方のアレルに発現がかたよったものはなかった．クローン胚においてはこの17個の遺伝子のすべてが父方のアレルへのかたよりを失っており，父母の両方のアレルから発現していた．これらの結果から，ヒストンH3のLys27のトリメチル化によるインプリントのマークがクローン胚においては消失することが強く示唆された．<br/>　これらの遺伝子のインプリント発現のパターンの喪失がヒストンH3のLys27のトリメチル化の消失によるものであるという直接的な証拠を得るため，桑実胚期の受精胚およびクローン胚においてChIP-seq法によりヒストンH3のLys27のトリメチル化のアレルに特異的な集積について解析した．受精胚のデータから，ヒストンH3のLys27のトリメチル化の局在が母方のアレルにかたよる4135個の領域が同定された．クローン胚ではこれらの領域におけるヒストンH3のLys27のトリメチル化の母方のアレルへのかたよりはほぼ完全に失われ，父母のアレルにおいてほぼ同じレベルになっていた．さらに，ヒストンH3のLys27のトリメチル化に依存的なインプリント遺伝子として同定されている76個の遺伝子に注目したところ，これらの遺伝子においてヒストンH3のLys27のトリメチル化のかたよりが完全に失われていた．実際に，ゲノムブラウザにてこれらの領域におけるヒストンH3のLys27のトリメチル化の局在のパターンをみると，受精胚においては母方のアレルに存在する大きなヒストンH3のLys27のトリメチル化のドメインが，クローン胚においては完全に消失していた．これらの結果から，クローン胚においてはヒストンH3のLys27のトリメチル化によるインプリント制御が完全に破綻することが示された．<br/>　なぜクローン胚においてはこれらのヒストンH3のLys27のトリメチル化によるインプリント制御が破綻するのか解析した．受精胚にみられる母方のアレルに特異的なヒストンH3のLys27のトリメチル化は卵子の発生および成熟の過程において蓄積することが知られていたことから，ドナーとして使用した胎仔線維芽細胞の時点ですでにヒストンH3のLys27のトリメチル化の局在のパターンが卵子と大きく異なるのではないかと考えた．実際に，公開されているこれらの細胞におけるヒストンH3のLys27のトリメチル化のChIP-seq法のデータを解析したところ，卵子においてこれらのインプリント遺伝子に存在するヒストンH3のLys27のトリメチル化の大きなドメインが，胎仔線維芽細胞にはまったく存在しないことが明らかにされた．さらに，ほかのさまざまな細胞種についても，公開されているヒストンH3のLys27のトリメチル化のChIP-seq法のデータを解析したところ，一般的に体細胞ではそのようなヒストンH3のLys27のトリメチル化のドメインは存在せず，卵子に特異的なものであることがわかった．以上の結果から，クローン胚においてヒストンH3のLys27のトリメチル化に依存的なインプリント制御が破綻するのは，もとの体細胞に卵子型のヒストンH3のLys27のトリメチル化によるインプリントのマークが存在しないことが原因であると考えられた．<br/><br/><h2>おわりに</h2><br/>　カエルにおける最初のクローンの報告から50年以上，そして，クローンヒツジの報告から20年以上がたつが，卵子における体細胞核の初期化の機構はいまだにほとんど明らかにされていない<a href="#R1"><sup>1)</sup></a>．この研究において，筆者らは，今後のクローンの研究を進めるうえで重要と思われるいくつかの情報を示した．まず，これまで筆者らが同定してきたクローン胚の発生を阻害する主要な因子を回避することにより，マウスを用いた過去のいずれの報告よりも高いクローン個体の作出の効率が記録された．今後は，複雑にからみあう初期化の機構およびその阻害の機構をシンプルに理解するためにも，これらの因子を除去した条件で詳細な解析を進めるべきであろう．一方で，クローン胚に特有の胎盤の形成の異常や着床ののちの発生の停止はいまだに残る謎である．その原因の可能性として，クローン胚においてはヒストンH3のLys27のトリメチル化によるインプリント制御が完全に破綻することが見い出された．ヒストンH3のLys27のトリメチル化によるインプリント制御をうける数十個の遺伝子のなかには胎盤の形成に関与する遺伝子や着床ののちの発生にかかわる遺伝子が多く存在したことから，おそらく，これらの遺伝子がインプリント発現のパターンの喪失により過剰に発現することがクローン胚の発生の異常の主たる原因なのではないかと考えられた（<a href="#F2">図2</a>）．じつは，<em>Xist</em>遺伝子もそのようなヒストンH3のLys27のトリメチル化によりインプリント制御をうける遺伝子であり<a href="#R10"><sup>10)</sup></a>，クローン胚において<em>Xist</em>遺伝子が過剰に発現するのはヒストンH3のLys27のトリメチル化によるインプリントのマークが存在しないことによると考えられた．マウスを用いた今後の研究としては，これらの遺伝子について個別にノックアウトしたドナー体細胞を用意することにより個々の遺伝子がクローン胚の発生におよぼす影響を検証するとともに，ヒストンH3のLys27のトリメチル化を人為的に導入するようなエピゲノムの編集技術の開発も期待される．もし，クローン胚の発生に関与するすべての遺伝子座にヒストンH3のLys27のトリメチル化を導入する技術が開発されれば，クローン個体の作出の効率は飛躍的に改善する可能性がある．その一方で，ヒストンH3のLys27のトリメチル化によるインプリント制御の破綻はほかの種においてもみられるのか，ほかの研究者による検証を待ちたい．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　マウスのクローン胚においてはヒストンH3のLys27のトリメチル化によるインプリント制御が破綻する</strong><br/>（a）受精胚．ヒストンH3のLys27のトリメチル化に依存的なインプリント遺伝子は，母方のアレルにヒストンH3のLys27のトリメチル化（赤色の丸）が存在するため，父方のアレルからのみ発現する．<br/>（b）クローン胚．ヒストンH3のLys27のトリメチル化に依存的なインプリント遺伝子はすべてがヒストンH3のLys27のトリメチル化を失うため，父母の両方のアレルから発現する．このため，胎盤の過形成や発生の停止などのクローン胚に特有の異常がひき起こされる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matoba-Cell-Stem-Cell-18.7.19-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　マウスのクローン胚においてはヒストンH3のLys27のトリメチル化によるインプリント制御が破綻する" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matoba-Cell-Stem-Cell-18.7.19-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matoba-Cell-Stem-Cell-18.7.19-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Matoba, S. & Zhang. Y.</span>: <span class="ti">Somatic cell nuclear transfer reprogramming: mechanisms and applications.</span> <span class='so'>Cell Stem Cell, 23, 471-485 (2018)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/30033121" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Matoba, S., Liu, Y., Lu, F. et al.</span>: <span class="ti">Embryonic development following somatic cell nuclear transfer impeded by persisting histone methylation.</span> <span class='so'>Cell, 159, 884-895 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25417163" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/9463" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R3"><span class='au'>Chung, Y. G., Matoba, S., Liu, Y. et al.</span>: <span class="ti">Histone demethylase expression enhances human somatic cell nuclear transfer efficiency and promotes derivation of pluripotent stem cells.</span> <span class='so'>Cell Stem Cell, 17, 758-766 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26526725" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Inoue, K., Kohda, T., Sugimoto, M. et al.</span>: <span class="ti">Impeding <em>Xist</em> expression from the active X chromosome improves mouse somatic cell nuclear transfer.</span> <span class='so'>Science, 330, 496-499 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20847234" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/1190" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R5"><span class='au'>Wang, L., Zhang, J., Duan, J. et al.</span>: <span class="ti">Programming and inheritance of parental DNA methylomes in mammals.</span> <span class='so'>Cell, 157, 979-991 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24813617" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Shen, L., Inoue, A., He, J. et al.</span>: <span class="ti">Tet3 and DNA replication mediate demethylation of both the maternal and paternal genomes in mouse zygotes.</span> <span class='so'>Cell Stem Cell, 15, 459-470 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25280220" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Coan, P. M., Burton, G. J., Ferguson-Smith, A. C.</span>: <span class="ti">Imprinted genes in the placenta: a review.</span> <span class='so'>Placenta, 26, S10-S20 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15837057" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Inoue, A., Jiang, L., Lu, F. et al.</span>: <span class="ti">Maternal H3K27me3 controls DNA methylation-independent imprinting.</span> <span class='so'>Nature, 547, 419-424 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28723896" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/16871" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R9"><span class='au'>Okae, H., Matoba, S., Nagashima, T. et al.</span>: <span class="ti">RNA sequencing-based identification of aberrant imprinting in cloned mice.</span> <span class='so'>Hum. Mol. Genet., 23, 992-1001 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24105465" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Inoue, A., Jiang, L., Lu, F. et al.</span>: <span class="ti">Genomic imprinting of <em>Xist</em> by maternal H3K27me3.</span> <span class='so'>Genes Dev., 31, 1927-1932 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/29089420" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=GEO" target="_blank">GEO</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=多型" target="_blank">多型解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=RNA-seq" target="_blank">RNA-seq</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=ChIP-seq" target="_blank">ChIP-seq</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=R" target="_blank">R</a></li><br><li><a href="http://togotv.dbcls.jp/ja/?search=ENCODE" target="_blank">ENCODE</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">的場 章悟（Shogo Matoba）</span><br>略歴：2009年 東京大学大学院農学生命科学研究科 修了，同年 理化学研究所バイオリソースセンター 研究員，2012年 米国Boston Children’s Hospital博士研究員を経て，2015年より理化学研究所バイオリソースセンター（現 理化学研究所バイオリソース研究センター） 研究員．<br>研究テーマ：哺乳類の卵子における体細胞の初期化の機構．<br>関心事：3人の娘と獣医学の未来．<br><br><strong>Yi Zhang</strong><br>米国Harvard Medical School教授．<br>研究室URL：<a href="http://zhanglab.tch.harvard.edu/" target="_blank">http://zhanglab.tch.harvard.edu/</a><br></div><br>© 2018 的場章悟・Yi Zhang Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

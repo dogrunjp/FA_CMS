@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 植物における無細胞RISC形成系の確立と分子シャペロンHSP90によるRISC形成の促進 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>植物における無細胞RISC形成系の確立と分子シャペロンHSP90によるRISC形成の促進</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>井木太一郎・石川雅之</strong><br>（農業生物資源研究所植物科学研究領域 植物・微生物間相互作用研究ユニット）<br>email：<a href="mailto:ishika32@affrc.go.jp">石川雅之</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2010.004">10.7875/first.author.2010.004</a><br><div class="reference"><br><span class="ti">In vitro assembly of plant RNA-induced silencing complexes facilitated by molecular chaperone HSP90.</span><br><span class="au">Taichiro Iki, Manabu Yoshikawa, Masaki Nishikiori, Mauren C. Jaudal, Eiko Matsumoto-Yokoyama, Ichiro Mitsuhara, Tetsuo Meshi, Masayuki Ishikawa</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/20605502" target="_blank"><em>Molecular Cell</em>, <strong>39</strong>, 282-291 (2010)</a></span><br></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　RNA-induced silencing complex（RISC）はRNAサイレンシングの中核を担う複合体のひとつである．RISCにはARGONAUTEタンパク質（AGO）と一本鎖の小分子RNA（small RNA）とが含まれることが知られているが，これまで，植物のRISC形成を再現する無細胞系が存在しなかったため，その分子機構については十分な知見が得られていなかった．筆者らは，タバコ培養細胞BY-2の脱液胞化プロトプラスト抽出液中で，翻訳反応によりAGO1を新規合成し，つづいて，small RNAの前駆体である二本鎖small RNAを添加すると，RISCが形成されることを見いだした．さらに，この脱液胞化抽出液を用いた実験により，AGO1はATP結合型の分子シャペロンHSP90に結合した状態で二本鎖small RNAを取り込み，HSP90によるATPの加水分解を機にAGO1からHSP90と二本鎖small RNAの一方のRNA鎖が脱離することでRISCが形成される可能性を示した．<br/><br/><h2>はじめに</h2><br/>　植物における転写後遺伝子サイレンシング（post-transcriptional gene silencing；PTGS）や動物におけるRNAi（RNA interference，RNA干渉）は，20～30塩基程度の小分子RNA（small RNA）が関与して転写ののちに起こる遺伝子発現抑制機構で，同様にsmall RNAを介して誘起され転写そのものを抑制する転写型遺伝子サイレンシング（transcriptional gene silencing；TGS）とあわせて，RNAサイレンシングと総称される．RNAサイレンシングは広く真核生物に保存されており，形態形成，ウイルスに対する防御，トランスポゾンの鎮静化などにおいてきわめて重要な役割をはたしている<a href="#R1"><sup>1)</sup></a>．RNAサイレンシングは遺伝子発現を抑制する研究手法としてすでに汎用されており，将来的には医療などへの活用が期待されている．<br/><br/><h2>1．small RNAの生成から機能へ</h2><br/>　PTGS（RNAi）に関与するsmall RNAとしては，microRNA（miRNA）とsmall interfering RNA（siRNA）とが知られている．miRNAとsiRNAは，それぞれ，内在性遺伝子転写産物のヘアピン構造部分あるいはさまざまな機構により産生された長鎖二本鎖RNAから，RNaseⅢファミリーに属するDicerタンパク質によって二本鎖の状態で切り出される．一般に，二本鎖miRNAはミスマッチをもつが，二本鎖siRNAは完全に相補的である<a href="#R2"><sup>2)</sup></a>．切り出された二本鎖small RNAは3’末端側に2塩基の突出をもち，5’末端がモノリン酸化されている．また，植物ではsmall RNAの3’末端ヌクレオチド2'位の水酸基がメチル化され，この修飾は安定性に寄与していることが知られている．<br/>　生成した二本鎖small RNAは一本鎖の状態になってPTGSを誘起する．まず，二本鎖small RNAはArgonauteタンパク質（AGO）に結合する．つぎに，二本鎖の片方の鎖（siRNAではパッセンジャー鎖，miRNAではmiRNA*鎖）が取り除かれ，もう一方の鎖（siRNAではガイド鎖，miRNAではmiRNA鎖）がAGOに結合したまま残る．ショウジョウバエでは，完全に相補的である二本鎖siRNAはエンドヌクレアーゼ活性をもつAgo2に取り込まれ，パッセンジャー鎖は切断されて排除される．一方，ミスマッチをもつ二本鎖miRNAはおもにAgo1に取り込まれ，miRNA*鎖は切断されずにmiRNA鎖から引きはがされて排除される<a href="#R3"><sup>3,4)</sup></a>．以上により，最終的に一本鎖small RNA（ガイド鎖，または，miRNA鎖）とAGOを含むエフェクター複合体であるRNA-induced silencing complex（RISC）が完成する．ガイド鎖（または，miRNA鎖）としてはたらく一本鎖small RNAは，標的mRNAと塩基対を形成することで標的mRNAの認識にあたる．PTGSにおいては，標的mRNAはAGOのエンドヌクレアーゼ活性による切断をうけて分解されるか，あるいは，RISCとの結合をへて翻訳抑制をうける<a href="#R5"><sup>5)</sup></a>．いずれにせよ，標的mRNAからのタンパク質合成はRISCにより阻害される．<br/>　いくつかの動物細胞抽出液では，二本鎖small RNAの添加により内在性のAGOからRISCを形成させることができる．このため，動物ではRISCの形成や機能に関する知見が積み重ねられてきた．しかしながら，RISC形成の初期段階において二本鎖small RNAがAGOに結合する分子機構はよくわかっていなかった．<br/><br/><h2>2．植物におけるRISC形成</h2><br/>　シロイヌナズナのゲノムには10個の<em>AGO</em>遺伝子がコードされていて，それぞれのAGOタンパク質はRNAサイレンシングにおいて一部重複しながらも異なった役割を担っている<a href="#R6"><sup>6)</sup></a>．そのなかでも，AGO1はmiRNAを介した成長および形態形成の制御において中心的に機能し，また，siRNAを介したウイルス防御機構においても重要な役割を担っている．AGO1はエンドヌクレアーゼ活性をもち，植物細胞から精製されたAGO1を含むRISCは標的RNAを切断する．AGO1に結合したsmall RNAの塩基配列の解析結果などから，AGO1は5’末端にウリジル酸をもつ約21塩基のsmall RNAに優先して結合することが知られている．<br/>　動物細胞抽出液とは異なり，植物細胞抽出液では二本鎖small RNAを添加してもRISCは形成されない．このため，RISC形成に関する生化学的な解析を進めることができず，植物におけるRISC形成機構の解明は動物に比べ大きく後れをとっていた．植物細胞抽出液中でRISCが形成されない原因のひとつとして，植物細胞の大部分をしめる液胞に由来する非特異的なプロテアーゼやヌクレアーゼの混入があげられる．筆者らは，以前の研究において，タバコ培養細胞BY-2の脱液胞化プロトプラスト抽出液にはそうした非特異的なプロテアーゼあるいはヌクレアーゼの混入が少なく，この脱液胞化抽出液を用いることによりタバコモザイクウイルスRNAの翻訳および複製を生体内と同様のパターンで再現できることを示した<a href="#R7"><sup>7)</sup></a>．こうした背景から，筆者らは，このBY-2脱液胞化プロトプラスト抽出液を使えばRISCの形成が再現できるのではないかと考えた．そこで，AGO1に取り込まれるようにデザインした合成二本鎖siRNAをこの脱液胞化抽出液に添加し，ここに含まれるAGO1からRISCの形成を試みた．しかしながら，期待に反してRISCは形成されなかった．<br/>　植物細胞には，AGO1 mRNAを標的RNAとするmiRNAであるmiR168を介した<em>AGO1</em>遺伝子発現の恒常性維持機構が存在する<a href="#R8"><sup>8)</sup></a>．miR168/miR168*二本鎖RNAはなんらかの分子機構によりほかの二本鎖small RNAよりもAGO1に取り込まれにくく，細胞中にはmiR168/miR168*が余っていることが示唆されている<a href="#F1">（図1a）</a>．“空”のAGO1（RISCを形成していないもの）が増加すると，余っていたmiR168/miR168*がAGO1に取り込まれてmiR168を含むRISCが増加する．すると，AGO1 mRNAの分解が促進され，AGO1タンパク質の新規合成が抑制される．これにより，余計なAGO1の合成が阻止される<a href="#F1">（図1b）</a>．筆者らは，このモデルから，BY-2脱液胞化プロトプラスト抽出液に含まれる“空”のAGO1の量が限られているため，ここに二本鎖small RNAを添加しても検出可能な量のRISCが形成されなかったのではないかと考えた．そこで，この脱液胞化抽出液の翻訳活性を利用して合成AGO1 mRNAから新規にAGO1タンパク質を試験管内合成し，そこにAGO1に取り込まれるようにデザインした合成二本鎖siRNAを添加してみた．すると，期待どおり，AGO1はsiRNAの一方の鎖（パッセンジャー鎖）を排除してもう一方の鎖（ガイド鎖）のみを結合し，ガイド鎖と相補的な標的RNAを特異的に切断する活性を獲得した．すなわち，RISCが形成されたのである．同様に，二本鎖miRNAからもRISCが形成された．エンドヌクレアーゼ活性を失わせたAGO1の変異体は，二本鎖siRNAを取り込むことはできたがパッセンジャー鎖を排除することはできなかった．一方，同じAGO1の変異体は，二本鎖miRNAを取り込みmiRNA*を排除した．これらのことから，植物の系においても動物の系と同様に，RISCの形成において，siRNAのパッセンジャー鎖はAGO1によって切断されて除かれるのに対し，miRNAのmiRNA*鎖は切断をへずに除かれることが示唆された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　植物においてmiR168を介した<em>AGO1</em>遺伝子発現の恒常性維持機構について提示されているモデル</strong><br/>（a）二本鎖small RNAが過剰に存在するとき．AGO1合成は可能．<br/>（b）“空”のAGO1が増加したとき．AGO1の合成は抑制される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishikawa-Molecular-Cell-10.7.30-Fig.1.jpg" target="_blank">[Download]</a></div><br/>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　植物においてmiR168を介した<em>AGO1</em>遺伝子発現の恒常性維持機構について提示されているモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishikawa-Molecular-Cell-10.7.30-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishikawa-Molecular-Cell-10.7.30-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><h2>3．RISC形成における分子シャペロンHSP90の役割</h2><br/>　動物のRISC形成にはATPが必要であることが知られているので<a href="#R9"><sup>9)</sup></a>，筆者らは，植物のRISC形成にもATPが必要なのかどうか調べた．BY-2脱液胞化プロトプラスト抽出液においてAGO1を試験管内合成したのち，限外ろ過を利用してATPを除去すると，合成二本鎖siRNAを添加してもRISCの形成は起こらなくなった．RISC形成ののちにATPを除去してもRISC活性は影響をうけなかったこととあわせて，この結果から，植物でもRISCの形成にはATPが必要であることがわかった．<br/>　動物のRISC形成においてなぜATPが必要なのかは明らかでなかったが，一方で，分子シャペロンのひとつであるHSP90がRNAサイレンシングになんらかの関与をしていることが示唆されていた<a href="#R10"><sup>10)</sup></a>．HSP90はホモ2量体として機能するが，ATP結合型HSP90 2量体は標的となるタンパク質（クライアントタンパク質）と安定した複合体を形成し，ATPが加水分解されるとクライアントタンパク質から解離する．この過程で，クライアントタンパク質のフォールディングが促進される<a href="#R11"><sup>11)</sup></a>．このモデルは，HSP90の代表的なクライアントタンパク質のひとつである動物のステロイドホルモン受容体の研究などにもとづいて提唱された．HSP90のATP結合部位にATPと競合的に結合するHSP90特異的な阻害剤として，ゲルダナマイシンが知られている．筆者らは，HSP90が植物のRISC形成段階に関与する可能性を，まず，このゲルダナマイシンを用いて検討した．BY-2脱液胞化プロトプラスト抽出液において，AGO1を試験管内合成したのちゲルダナマイシンを添加すると，そののち，合成二本鎖siRNAをくわえてもRISCは形成されなくなった．ゲルダナマイシンはすでに形成されたRISCの活性には影響をあたえなかったこととあわせて，この結果は，HSP90が植物のRISC形成を促進することを示唆した．<br/>　では，HSP90はどのような分子機構でRISCの形成を促進しているのだろうか？　ATPγSは難加水分解性ATPアナログとして知られるが，BY-2脱液胞化プロトプラスト抽出液において，AGO1を試験管内合成したのちATPγSを添加すると，HSP90（おそらく，ATPγS結合型）とAGO1とを含む複合体が蓄積した．さらに，合成二本鎖siRNAを添加すると，HSP90，AGO1と合成二本鎖siRNAとを含む複合体が蓄積した（合成二本鎖siRNAの一本鎖化は阻害されていた）．これらの結果をもとに，筆者らは，① ATP結合型HSP90がAGO1と安定した複合体を形成し，② HSP90と結合したAGO1に二本鎖small RNAが結合し，③ ATP加水分解によりHSP90がAGO1-二本鎖small RNA複合体から解離し，④ AGO1の内部で二本鎖small RNAの一本鎖化が起こる，というRISC形成モデルを提示した<a href="#F2">（図2）</a>．すでに解かれたいくつかのAGOの立体構造から，二本鎖small RNAはAGOにあるRNAの結合する溝にそのまま入り込むには大きすぎるといわれてきた．このRISC形成モデルは，AGO1にHSP90が結合することによってその溝が広がり，二本鎖small RNAが入り込めるようになるという可能性を暗示する．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　この研究によって提示された植物におけるRISC形成モデル</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishikawa-Molecular-Cell-10.7.30-Fig.2.jpg" target="_blank">[Download]</a></div><br/>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　この研究によって提示された植物におけるRISC形成モデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishikawa-Molecular-Cell-10.7.30-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishikawa-Molecular-Cell-10.7.30-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><h2>おわりに</h2><br/>　この研究により，植物のAGO1は分子シャペロンHSP90の助けを借りて二本鎖small RNAというリガンドを受容していることが示された．動物においても同様の報告がなされ<a href="#R12"><sup>12,13)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/346" target="_blank">新着論文レビュー</a> でも掲載），RISCの形成における分子シャペロン依存性の普遍性が示唆された．HSP90はクライアントタンパク質によって異なるセットのコシャペロンとともに機能することが知られている．AGO1による二本鎖small RNAの受容にかかわるHSP90以外のコシャペロンなど因子の特定は，今後の課題のひとつである．また，二本鎖small RNAをAGOへとわたすタンパク質複合体（Dcr-2とR2D2のヘテロ2量体）がショウジョウバエのAgo2で報告されている<a href="#R4"><sup>4)</sup></a>．しかし，この受け渡しの機構が真核生物において普遍的であるのかどうは定かではない．植物において，二本鎖small RNAがHSP90に結合しているAGO1にどのようにして受け渡されるのかも，今後の重要な課題である．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Baulcombe, D.</span>: <span class='ti'>RNA silencing in plants.</span> <span class='so'>Nature, 431, 356-363 (2004) [<a href="http://www.ncbi.nlm.nih.gov/pubmed/15372043" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Tomari, Y., Zamore, P. D.</span>: <span class='ti'>Perspective: machines for RNAi.</span> <span class='so'>Genes Dev., 19, 517-529 (2005) [<a href="http://www.ncbi.nlm.nih.gov/pubmed/15741316" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Matranga, C. et al.</span>: <span class='ti'>Passenger-strand cleavage facilitates assembly of siRNA into Ago2-containing RNAi enzyme complexes.</span> <span class='so'>Cell, 123, 607-620 (2005) [<a href="http://www.ncbi.nlm.nih.gov/pubmed/16271386" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Tomari, Y., Du, T. & Zamore, P. D.</span>: <span class='ti'>Sorting of <em>Drosophila</em> small silencing RNAs.</span> <span class='so'>Cell, 130, 299-308 (2007) [<a href="http://www.ncbi.nlm.nih.gov/pubmed/17662944" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Carthew, R. W. & Sontheimer, E. J.</span>: <span class='ti'>Origins and mechanisms of miRNAs and siRNAs.</span> <span class='so'>Cell, 136, 642-655 (2009) [<a href="http://www.ncbi.nlm.nih.gov/pubmed/19239886" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Vaucheret, H.</span>: <span class='ti'>Plant ARGONAUTES.</span> <span class='so'>Trends Plant Sci., 13, 350-358 (2008) [<a href="http://www.ncbi.nlm.nih.gov/pubmed/18508405" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Komoda, K., Naito, S. & Ishikawa, M.</span>: <span class='ti'>Replication of plant RNA virus genomes in a cell-free extract of evacuolated plant protoplasts.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 101, 1863-1867 (2004) [<a href="http://www.ncbi.nlm.nih.gov/pubmed/14769932" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Vaucheret, H., Mallory, A. C. & Bartel, D. P.</span>: <span class='ti'>AGO1 homeostasis entails coexpression of <em>MIR168</em> and <em>AGO1</em> and preferential stabilization of miR168 by AGO1.</span> <span class='so'>Mol. Cell, 22, 129-136 (2006) [<a href="http://www.ncbi.nlm.nih.gov/pubmed/16600876" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Yoda, M. et al.</span>: <span class='ti'>ATP-dependent human RISC assembly pathways.</span> <span class='so'>Nat. Struct. Mol. Biol., 17, 17-23 (2010) [<a href="http://www.ncbi.nlm.nih.gov/pubmed/19966796" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Johnston, M. et al.</span>: <span class='ti'>HSP90 protein stabilizes unloaded Argonaute complexes and microscopic P-bodies in human cells.</span> <span class='so'>Mol. Biol. Cell, 21, 1462-1469 (2010) [<a href="http://www.ncbi.nlm.nih.gov/pubmed/20237157" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Pearl, L. H. & Prodromou, C.</span>: <span class='ti'>Structure and mechanism of the Hsp90 molecular chaperone machinery.</span> <span class='so'>Annu. Rev. Biochem., 75, 271-294 (2006) [<a href="http://www.ncbi.nlm.nih.gov/pubmed/16756493" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Iwasaki, S. et al.</span>: <span class='ti'>Hsc70/Hsp90 chaperone machinery mediates ATP-dependent RISC loading of small RNA duplexes.</span> <span class='so'>Mol. Cell, 39, 292-299 (2010) [<a href="http://www.ncbi.nlm.nih.gov/pubmed/20605501" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/346" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R13"><span class='au'>Miyoshi, T. et al.</span>: <span class='ti'>A direct role for Hsp90 in pre-RISC formation in <em>Drosophila</em>.</span> <span class='so'>Nat. Struct. Mol. Biol., 17, 1024-1026 (2010) [<a href="http://www.ncbi.nlm.nih.gov/pubmed/20639883" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">井木 太一郎（Taichiro Iki）</span><br>2008年 東京大学大学院農学生命科学研究科 博士課程 修了，同年より農業生物資源研究所植物科学研究領域 特別研究員．<br>研究テーマ：植物におけるRNAサイレンシングの分子機構．<br>関心事：RNAサイレンシング，mRNAメタボリズム，分子シャペロン，ウイルス複製，根粒形成．<br><br><strong>石川 雅之（Masayuki Ishikawa）</strong><br>農業生物資源研究所植物科学研究領域 上級研究員．<br></div><br>© 2010 井木太一郎・石川雅之 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

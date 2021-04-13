@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 転写因子NANOGはエンハンサーを活性化することによりエピブラスト細胞から生殖細胞系譜への分化を誘導する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>転写因子NANOGはエンハンサーを活性化することによりエピブラスト細胞から生殖細胞系譜への分化を誘導する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>村上 和弘</strong><br>（英国Wellcome Trust/Cancer Research UK Gurdon Institute）<br>email：<a href="mailto:murakami@sci.hokudai.ac.jp">村上和弘</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.016">10.7875/first.author.2016.016</a><br><div class="reference"><br><span class="ti">NANOG alone induces germ cells in primed epiblast <em>in vitro</em> by activation of enhancers.</span><br><span class="au">Kazuhiro Murakami, Ufuk Günesdogan, Jan J. Zylicz, Walfred W. C. Tang, Roopsha Sengupta, Toshihiro Kobayashi, Shinseog Kim, Richard Butler, Sabine Dietmann, M. Azim Surani</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26751055" target="_blank"><em>Nature</em>, <strong>529</strong>, 403-407 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　マウスの胚盤胞の内部細胞塊において発現する転写因子<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>は，生殖細胞のもとになる始原生殖細胞においても発現しているが，始原生殖細胞の発生の初期の過程における詳細な役割については明らかにされてない．筆者らは，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>が生殖細胞系譜への分化の過程において重要なはたらきを担い，ES細胞から分化を誘導させたエピブラスト様細胞において<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>を発現させるだけで生殖細胞系譜への分化が誘導されるという結果を得た．ES細胞とエピブラスト様細胞とではゲノムにおいて<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の結合する領域が異なり，発現の制御をうける下流の遺伝子も大きく変化していた．このことは，エピブラスト様細胞が分化する過程においてES細胞のもつ多能性が解消されるのにともない，生殖細胞系譜への分化に必須な遺伝子の制御領域においてエピゲノムがリセットされることを示唆した．この研究において，転写因子が状況に依存してその役割を変えつつ，細胞運命の決定に関与するという発生の過程に広く適用できる原理が明らかにされた．<br/><br/><h2>はじめに</h2><br/>　転写因子<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>は受精ののち3.5日目に生じる胚盤胞の内部に存在する内部細胞塊に発現し，胚のいかなる細胞にも分化できる多能性の獲得において重要なはたらきを担うことが明らかにされている．一方で，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>は生殖細胞のみに寄与する始原生殖細胞においても発現しており，その成熟の過程に必須であることが知られているが，始原生殖細胞の初期の発生における詳細な役割については明らかにされていない<a href="#R1"><sup>1,2)</sup></a>．そこで，筆者らは，マウスのES細胞から<em>in vitro</em>において始原生殖細胞様細胞を分化させるモデルを用いて，初期の始原生殖細胞における<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の役割について解析した．これまでに，ES細胞を<a href="#" class="anno" data-query="basic fibroblast growth factor" data-uniprot="">bFGF</a>およびアクチビンAの存在のもとで2日間にわたり培養することにより生殖細胞系譜への分化能を獲得したエピブラスト様細胞の分化を誘導し，つづいて，これらの細胞に必須の<a href="#" class="anno" data-query="cytokine" data-uniprot="">サイトカイン</a>である<a href="#" class="anno" data-query="BMP4" data-uniprot="P21275">BMP4</a>を作用させる，あるいは，転写因子である<a href="#" class="anno" data-query="BLIMP1" data-uniprot="Q60636">BLIMP1</a>，<a href="#" class="anno" data-query="PRDM14" data-uniprot="E9Q3T6">PRDM14</a>，<a href="#" class="anno" data-query="AP2-gamma" data-uniprot="Q61312">AP2γ</a>を発現させることにより<em>in vitro</em>において始原生殖細胞様細胞の分化を誘導できることが知られている<a href="#R3"><sup>3-5)</sup></a>．一方で，ES細胞にこれらのタンパク質を直接的に作用させても始原生殖細胞様細胞へは分化しない．<br/>　マウスのES細胞が始原生殖細胞様細胞へと直接的に分化せず，いちどエピブラスト様細胞の状態を通過する必要のあることは，エピブラストへと分化する過程において転写因子の発現およびエピジェネティックな制御機構が大きく変化することが始原生殖細胞の発生に必須であることを示唆していると思われた<a href="#R6"><sup>6,7)</sup></a>．<em>in vivo</em>のエピブラストにおいて起こる変化は，ES細胞が<a href="#" class="anno" data-query="basic fibroblast growth factor" data-uniprot="">bFGF</a>およびアクチビンAの存在のもとでエピブラスト様細胞へと分化する過程によりよく模倣されていることからも，始原生殖細胞様細胞の分化誘導系は始原生殖細胞の初期の発生の過程を解析するために最適な系であると思われた．<br/><br/><h2>1．<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>はエピブラスト様細胞を始原生殖細胞様細胞へと分化させる</h2><br/>　まず，始原生殖細胞様細胞への分化にともないGFPを発現するマウスのES細胞と，ドキシサイクリンの添加により時期特異的に<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>を発現させることのできる遺伝子発現系とを組み合わせて，始原生殖細胞様細胞の分化誘導系を確立した．この分化誘導系において，分化の誘導から2日目のエピブラスト様細胞にて<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>を発現させたところ，発現から1～2日目以降から生殖細胞の出現を示唆するGFP陽性の細胞集団が生じた．さらに，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>はマウスのES細胞において発現している程度の生理的な量でGFP陽性細胞の分化を誘導し，<a href="#" class="anno" data-query="BMP4" data-uniprot="P21275">BMP4</a>-Smadシグナルと協調する一方，独立してはたらいた．<br/>　生じたGFP陽性細胞を回収し分化のマーカーの発現を解析した結果，始原生殖細胞様細胞の分化に必要十分な転写因子である<a href="#" class="anno" data-query="BLIMP1" data-uniprot="Q60636">BLIMP1</a>，<a href="#" class="anno" data-query="PRDM14" data-uniprot="E9Q3T6">PRDM14</a>，<a href="#" class="anno" data-query="AP2-gamma" data-uniprot="Q61312">AP2γ</a>，および，ほかの生殖細胞マーカーを発現していた一方で，未分化マーカーは発現していなかった．さらに，マイクロアレイ法により遺伝子の発現パターンを比較した結果，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>により分化の誘導されたGFP陽性細胞における遺伝子の発現パターンは，<a href="#" class="anno" data-query="BMP4" data-uniprot="P21275">BMP4</a>により分化の誘導された始原生殖細胞様細胞と似ており，ES細胞とは異なっていた．また，免疫染色によっても生殖細胞マーカーの発現が確認され，さらに，始原生殖細胞に特徴的なエピゲノムの変化も観察された．<br/>　受精ののち8.5日目の胚から回収された始原生殖細胞は，胚盤胞に注入された場合には胚に寄与しない一方で，<a href="#" class="anno" data-query="basic fibroblast growth factor" data-uniprot="">bFGF</a>およびレチノイン酸に応答して増殖し脱分化して，<a href="#" class="anno" data-query="Leukemia Inhibitory Factor" data-uniprot="">LIF</a>の存在のもとで胚に寄与する多能性細胞である胚性生殖細胞に分化する．一方で，マウスのES細胞は<a href="#" class="anno" data-query="basic fibroblast growth factor" data-uniprot="">bFGF</a>およびレチノイン酸の存在のもとでは体細胞に分化してしまうことが知られている<a href="#R8"><sup>8)</sup></a>．<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>および<a href="#" class="anno" data-query="BMP4" data-uniprot="P21275">BMP4</a>により分化の誘導された始原生殖細胞様細胞は，<em>in vivo</em>の始原生殖細胞と同様に，<a href="#" class="anno" data-query="basic fibroblast growth factor" data-uniprot="">bFGF</a>，レチノイン酸，<a href="#" class="anno" data-query="Leukemia Inhibitory Factor" data-uniprot="">LIF</a>に応答して脱分化し多能性を再獲得し，胚から回収された始原生殖細胞の挙動をよく模倣した．<br/>　これらの結果より，分化の誘導から2日目のエピブラスト様細胞において<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>を発現させることにより，始原生殖細胞様細胞の分化が誘導されることが明らかにされた<br/><br/><h2>2．<a href="#" class="anno" data-query="BLIMP1" data-uniprot="Q60636">BLIMP1</a>および<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の欠損は始原生殖細胞様細胞への分化をさまたげる</h2><br/>　転写因子<a href="#" class="anno" data-query="BLIMP1" data-uniprot="Q60636">BLIMP1</a>は生殖細胞系譜への分化に必須である一方で，多能性の維持あるいは獲得には寄与しないことが明らかにされている<a href="#R9"><sup>9)</sup></a>．<a href="#" class="anno" data-query="BLIMP1" data-uniprot="Q60636">BLIMP1</a>を欠損した分化の誘導から2日目のエピブラスト様細胞において<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>を発現させたところ，始原生殖細胞様細胞は分化せず，これらの細胞は体細胞マーカーを発現していた．また，免疫染色によりこれらの細胞においてアポトーシスの割合が上昇していることが確認された．このことは，<em>in vivo</em>において<a href="#" class="anno" data-query="BLIMP1" data-uniprot="Q60636">BLIMP1</a>を欠損した初期始原生殖細胞にて起こる現象とよく似ており，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>が生殖細胞系譜への分化を誘導していることを支持した．<br/>　始原生殖細胞様細胞の分化の過程における<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の重要性を明らかにするため，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>を欠損した分化の誘導から2日目のエピブラスト様細胞において<a href="#" class="anno" data-query="BMP4" data-uniprot="P21275">BMP4</a>の添加により始原生殖細胞様細胞の分化を試みたところ，分化の効率はいちじるしく低下した．一方で，外来性の<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の発現により分化の効率の低下は相補されたことから，始原生殖細胞様細胞の分化の過程において<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の発現が重要であることが明らかにされた．<br/>　始原生殖細胞様細胞の分化に必須である<a href="#" class="anno" data-query="wnt" data-uniprot="">WNT</a>-BRACHYURY経路が<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>による始原生殖細胞様細胞の分化の誘導とどのようにかかわるのかを解析した<a href="#R10"><sup>10)</sup></a>．阻害剤の添加により<a href="#" class="anno" data-query="wnt" data-uniprot="">WNT</a>経路を阻害したうえで<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>による始原生殖細胞様細胞の分化の誘導を試みたところ，阻害剤の添加は分化の効率には影響しなかった．さらに，<a href="#" class="anno" data-query="wnt" data-uniprot="">WNT</a>経路の阻害は<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の発現量にも影響しなかったことから，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>は<a href="#" class="anno" data-query="wnt" data-uniprot="">WNT</a>-BRACHYURY経路とは独立して始原生殖細胞様細胞の分化を誘導することが明らかにされた．<br/><br/><h2>3．分化の誘導から1日目のエピブラスト様細胞と2日目のエピブラスト様細胞とでは<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>への応答性が異なる</h2><br/>　ES細胞がエピブラスト様細胞へと分化するどの段階において，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>による始原生殖細胞様細胞への分化の誘導への応答性を獲得するのかを明らかにするため，分化の誘導から1日目および2日目のエピブラスト様細胞をES細胞の培養条件へ移しつつ<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>を発現させた．数日後，未分化マーカーおよび生殖細胞マーカーの発現を指標として細胞の分化の状態を解析したところ，分化の誘導から1日目のエピブラスト様細胞はES細胞の状態へと逆もどりしやすく，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の発現は逆もどりする細胞の割合をさらに上昇させた．一方で，分化の誘導から2日目のエピブラスト様細胞はES細胞の状態へは逆もどりしにくく，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の発現は分化の誘導から2日目のほぼすべてのエピブラスト様細胞に対し分化を促進した．これらのことから，分化の誘導から1日目のエピブラスト様細胞と2日目のエピブラスト様細胞とのあいだで分化の可塑性および<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>への応答性が大きく変化し，分化の誘導から2日目のエピブラスト様細胞はもはや未分化な状態には逆もどりせず，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>に応答して始原生殖細胞様細胞へと分化する能力を獲得していることが明らかにされた．<br/><br/><h2>4．転写因子<a href="#" class="anno" data-query="SOX2" data-uniprot="P48432">SOX2</a>は<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>への応答性を制御する</h2><br/>　では，どのような機構がエピブラスト様細胞の分化の可塑性を決めているのであろうか？　この分化の可塑性を制御する候補として転写因子<a href="#" class="anno" data-query="SOX2" data-uniprot="P48432">SOX2</a>に着目した．<a href="#" class="anno" data-query="SOX2" data-uniprot="P48432">SOX2</a>は<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>と同様に胚盤胞の内部細胞塊において多能性の獲得および維持に重要な役割を担うことが知られている<a href="#R11"><sup>11)</sup></a>．しかし，着床ののちの胚の発生において，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>は始原生殖細胞の生じる受精ののち6.25日目のエピブラストの後部に発現が観察される一方で，<a href="#" class="anno" data-query="SOX2" data-uniprot="P48432">SOX2</a>はエピブラストの前部に観察され，神経の発生をひき起こすのと同時に始原生殖細胞の出現する中胚葉領域の発生を阻害することが知られている．また，<a href="#" class="anno" data-query="SOX2" data-uniprot="P48432">SOX2</a>はES細胞において生殖細胞因子の発現を抑制することも明らかにされている．これらの知見をもとに，始原生殖細胞様細胞の分化の過程における<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>と<a href="#" class="anno" data-query="SOX2" data-uniprot="P48432">SOX2</a>との相互作用を解析するため，<a href="#" class="anno" data-query="SOX2" data-uniprot="P48432">SOX2</a>を欠損したES細胞において<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>による始原生殖細胞様細胞の分化を試みた，その結果，<a href="#" class="anno" data-query="SOX2" data-uniprot="P48432">SOX2</a>を欠損した分化の誘導から1日目のエピブラスト様細胞において<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>を発現させることにより，野生型のES細胞においてはみられない生殖細胞マーカーの発現の上昇が観察され，始原生殖細胞様細胞の分化が誘導されていることが示唆された．さらに，分化の誘導から2日目のエピブラスト様細胞において<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>および<a href="#" class="anno" data-query="SOX2" data-uniprot="P48432">SOX2</a>を同時に発現させたところ，<a href="#" class="anno" data-query="SOX2" data-uniprot="P48432">SOX2</a>の発現は<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>による始原生殖細胞様細胞の分化の誘導を劇的に抑制した．エピブラスト様細胞の分化の誘導の過程において<a href="#" class="anno" data-query="SOX2" data-uniprot="P48432">SOX2</a>の発現は徐々に低下することから，得られた結果より，分化の誘導から1日目のエピブラスト様細胞においては<a href="#" class="anno" data-query="SOX2" data-uniprot="P48432">SOX2</a>が始原生殖細胞様細胞への分化能を抑制しつつ，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>によるES細胞への逆もどりを促進しており，分化の誘導から2日目のエピブラスト様細胞においては<a href="#" class="anno" data-query="SOX2" data-uniprot="P48432">SOX2</a>の発現が低下することにより，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>が始原生殖細胞様細胞の分化を誘導できる条件が整うのではないかと考えられた．<br/><br/><h2>5．始原生殖細胞の分化の過程において<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>は状況に依存して使い分けられる</h2><br/>　分化の誘導から2日目のエピブラスト様細胞において発現した<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>は，始原生殖細胞様細胞の分化に必要十分な転写因子である<a href="#" class="anno" data-query="BLIMP1" data-uniprot="Q60636">BLIMP1</a>，<a href="#" class="anno" data-query="PRDM14" data-uniprot="E9Q3T6">PRDM14</a>，<a href="#" class="anno" data-query="AP2-gamma" data-uniprot="Q61312">AP2γ</a>を24時間以内，とくに，<a href="#" class="anno" data-query="BLIMP1" data-uniprot="Q60636">BLIMP1</a>と<a href="#" class="anno" data-query="PRDM14" data-uniprot="E9Q3T6">PRDM14</a>の発現をごく短時間に誘導したことから，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>が<a href="#" class="anno" data-query="BLIMP1" data-uniprot="Q60636">BLIMP1</a>および<a href="#" class="anno" data-query="PRDM14" data-uniprot="E9Q3T6">PRDM14</a>の発現を直接的に制御する可能性が示唆された．また，別の実験により，<a href="#" class="anno" data-query="BLIMP1" data-uniprot="Q60636">BLIMP1</a>は<a href="#" class="anno" data-query="AP2-gamma" data-uniprot="Q61312">AP2γ</a>の発現を直接的に誘導することがわかった．<br/>　<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>がこれらの転写因子の発現をどのように制御しているかについて明らかにするため，ES細胞および分化の誘導から1日目および2日目のエピブラスト様細胞において，ChIP-seq法によりゲノムにおいて<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の結合する領域を網羅的に解析した．その結果，それぞれの細胞において，大部分の<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>結合領域はエンハンサーの内部に存在していた．また，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の結合領域はES細胞とエピブラスト様細胞とで大きく異なっていた．このことから，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>が細胞の分化の段階により異なるエンハンサーに結合し，細胞種に特異的な遺伝子発現を誘導していることが強く示唆された．エピブラスト様細胞において<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>は<a href="#" class="anno" data-query="BLIMP1" data-uniprot="Q60636">BLIMP1</a>をコードする<em><a href="#" class="anno" data-query="Prdm1" data-uniprot="Q60636">Prdm1</a></em>遺伝子および<a href="#" class="anno" data-query="PRDM14" data-uniprot="E9Q3T6">PRDM14</a>をコードする<em><a href="#" class="anno" data-query="Prdm1" data-uniprot="Q60636">Prdm1</a>4</em>遺伝子のエンハンサーに結合していたが，これらのエンハンサーは始原生殖細胞様細胞へと分化するのにともない活性化された．このことから，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>は始原生殖細胞様細胞への分化の過程において，生殖細胞系譜への分化に必須の転写因子をコードする遺伝子のエンハンサーに結合しそれらの発現を誘導する，あるいは，それらの転写因子と協調して生殖細胞系譜への分化を誘導する可能性が強く示された．<br/>　初期の始原生殖細胞様細胞において<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>が始原生殖細胞の発生に必須な転写因子をコードする遺伝子のエンハンサーを活性化するかどうかをルシフェラーゼアッセイにより確認した．その結果，<em><a href="#" class="anno" data-query="Prdm1" data-uniprot="Q60636">Prdm1</a></em>遺伝子のエンハンサーは分化の誘導から2日目のエピブラスト様細胞における<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の発現から24時間以内に活性化された．また，この実験から，<a href="#" class="anno" data-query="SOX2" data-uniprot="P48432">SOX2</a>が<em><a href="#" class="anno" data-query="Prdm1" data-uniprot="Q60636">Prdm1</a></em>遺伝子のエンハンサーにおいて<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>と競合し，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>による始原生殖細胞様細胞への分化の誘導を阻害することも明らかにされた．一方で，<em><a href="#" class="anno" data-query="Prdm1" data-uniprot="Q60636">Prdm1</a>4</em>遺伝子のエンハンサーはES細胞においてすでに活性化されており，この活性は分化の誘導から2日目のエピブラスト様細胞においていったん低下するもの，<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の発現から12時間以内に再活性化した．そのほかにもさまざまな遺伝子のエンハンサーにおける<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の結合が確認され，それらも同様な制御をうけていることが示唆された．<br/><br/><h2>おわりに</h2><br/>　ES細胞とエピブラスト様細胞とのあいだでゲノムにおける<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の結合領域が大きく変化したことは，ES細胞と始原生殖細胞様細胞において<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>が異なる遺伝子の発現を制御する事実をよく説明しており，この結合領域の変化はエピブラスト様細胞が生殖細胞系譜への分化能を獲得していく過程におけるエピゲノムの再編成によりひき起こされているのかもしれない<a href="#R6"><sup>6,7)</sup></a>．今回，筆者らは，生殖細胞系譜への分化の過程においてエピゲノムの再編成が転写因子<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の状況に依存した役割を決める可能性を示したが，同様の現象は，発生のおのおのの段階において普遍的にみられると考えられる．<a href="#" class="anno" data-query="SOX2" data-uniprot="P48432">SOX2</a>は<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>と協調してES細胞の多能性を保障する一方，エピブラスト様細胞においては<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>による始原生殖細胞様細胞への分化を阻害することが明らかにされた．今回の<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>と<a href="#" class="anno" data-query="SOX2" data-uniprot="P48432">SOX2</a>との関係のように，ほかの転写因子も異なる状況においてはまったく違う役割を担うケースもあるだろう．<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>は始原生殖細胞様細胞の分化の過程において<a href="#" class="anno" data-query="BMP4" data-uniprot="P21275">BMP4</a>とは独立してはたらきうることが明らかにされた．一方で，分化の誘導から2日目のエピブラスト様細胞における<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>の欠損は，<a href="#" class="anno" data-query="BMP4" data-uniprot="P21275">BMP4</a>による始原生殖細胞様細胞の分化の効率をいちじるしく低下させたことから，<em>in vivo</em>においてそれらは協調して生殖細胞系譜への分化を誘導している可能性が高い．<br/>　今回，筆者らは，マウスのES細胞から<em>in vitro</em>において始原生殖細胞様細胞の分化を誘導する系を用いて，生殖細胞系譜への分化能を獲得したエピブラスト様細胞において<a href="#" class="anno" data-query="NANOG" data-uniprot="Q80Z64">NANOG</a>が重要な役割を担うことを明らかにしたが（<a href="#F1">図1</a>），初期の始原生殖細胞の分化の過程におけるシグナルと転写因子およびエピジェネティックな制御機構の協調関係についてはいまだ大部分が明らかにされていない．有性生殖をする生物にとり生殖細胞は遺伝情報を次世代につなぐ唯一の細胞系譜であり，体細胞系譜からはじめて生じる生殖細胞系譜の細胞である始原生殖細胞を理解することは生命の連続性を理解するうえで要となる．今後は，始原生殖細胞の発生を制御する機構の全容を解明するため，細胞が分化能を獲得し，生殖細胞系譜へと分化していく過程におけるシグナル，転写因子，エピゲノムの協調作用を包括的にかつ詳細に解析していく必要があるだろう．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　この研究において得られた結果</strong><br/>エピブラスト様細胞は，分化の誘導から2日目にかけてbFGFおよびアクチビンAに応答して生殖細胞系譜への分化能を獲得する．この過程において，転写因子NANOGはゲノムにおける結合領域を変え，始原生殖細胞様細胞の分化に必要な遺伝子の制御領域に結合するようになる．一方で，NANOGによる始原生殖細胞様細胞の分化の誘導を阻害するSOX2の発現は分化の誘導から2日目のエピブラスト様細胞において低下する．NANOGは分化の誘導から2日目のエピブラスト様細胞において<em>Prdm1</em>遺伝子にコードされるBLIMP1および<em>Prdm14</em>遺伝子にコードされるPRDM14の発現を誘導し，ついで，BLIMP1が<em>Tfap2c</em>遺伝子にコードされるAP2γの発現を誘導する結果，始原生殖細胞様細胞の分化に必要十分な条件が整い，生殖細胞に特異的な遺伝子ネットワークが構築されることにより生殖細胞系譜への分化がひき起こされる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Murakami-Nature-16.1.21-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　この研究において得られた結果" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Murakami-Nature-16.1.21-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Murakami-Nature-16.1.21-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Chambers, I., Silva, J., Colby, D. et al.</span>: <span class="ti">Nanog safeguards pluripotency and mediates germline development.</span> <span class='so'>Nature, 450, 1230-1234 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18097409" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Yamaguchi, S., Kurimoto, K., Yabuta, Y. et al.</span>: <span class="ti">Conditional knockdown of <em>Nanog</em> induces apoptotic cell death in mouse migrating primordial germ cells.</span> <span class='so'>Development, 136, 4011-4020 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19906868" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Hayashi, K., Ohta, H., Kurimoto, K. et al.</span>: <span class="ti">Reconstitution of the mouse germ cell specification pathway in culture by pluripotent stem cells.</span> <span class='so'>Cell, 146, 519-532 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21820164" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Magnusdottir, E., Dietmann, S., Murakami, K. et al.</span>: <span class="ti">A tripartite transcription factor network regulates primordial germ cell specification in mice.</span> <span class='so'>Nat. Cell Biol., 15, 905-915 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23851488" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Nakaki, F., Katsuhiko, H., Ohta, H. et al.</span>: <span class="ti">Induction of mouse germ-cell fate by transcription factors <em>in vitro</em>.</span> <span class='so'>Nature, 501, 222-226 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23913270" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Buecker, C., Srinivasan, R., Wu, Z. et al.</span>: <span class="ti">Reorganization of enhancer patterns in transition from naive to primed pluripotency.</span> <span class='so'>Cell Stem Cell, 14, 838-853 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24905168" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Zylicz, J. J., Dietmann, S., Gunesdogan, U. et al.</span>: <span class="ti">Chromatin dynamics and the role of G9a in gene regulation and enhancer silencing during early mouse development.</span> <span class='so'>Elife, 4, e09571 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26551560" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>West, J. A., Viswanathan S. R., Yabuuchi, A. et al.</span>: <span class="ti">A role for Lin28 in primordial germ-cell development and germ-cell malignancy.</span> <span class='so'>Nature, 460, 909-913 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19578360" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Bao, S., Leitch, H. G., Gillich, A. et al.</span>: <span class="ti">The germ cell determinant Blimp1 is not required for derivation of pluripotent stem cells.</span> <span class='so'>Cell Stem Cell, 11, 110-117 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22770244" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Aramaki, S., Hayashi, K., Kurimoto, K. et al.</span>: <span class="ti">A mesodermal factor, T, specifies mouse germcell fate by directly activating germline determinants.</span> <span class='so'>Dev. Cell, 27, 516-529 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24331926" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/8123" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R11"><span class='au'>Masui, S., Nakatake, Y., Toyooka, Y. et al.</span>: <span class="ti">Pluripotency governed by <em>Sox2</em> via regulation of <em>Oct3/4</em> expression in mouse embryonic stem cells.</span> <span class='so'>Nat. Cell Biol., 9, 625-635 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17515932" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">村上 和弘（Kazuhiro Murakami）</span><br>略歴：2008年 鳥取大学大学院医学研究科 修了，同年 理化学研究所発生・再生科学総合研究センター 研究員，2011年 英国Wellcome Trust/Cancer Research UK Gurdon Institute研究員を経て，2013年より北海道大学大学院先端生命科学研究院 助教．<br>研究テーマ：幹細胞の維持，増殖，分化をささえる機構．<br>抱負：これまでの研究背景を活かし，オンリーワンの研究をめざします．<br></div><br>© 2016 村上 和弘 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

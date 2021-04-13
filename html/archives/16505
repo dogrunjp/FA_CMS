@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 多能性幹細胞においてCpGアイランドにCpG配列を含まないDNA配列を挿入すると新規のDNAメチル化がひき起される : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>多能性幹細胞においてCpGアイランドにCpG配列を含まないDNA配列を挿入すると新規のDNAメチル化がひき起される</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>高橋悠太・Juan Carlos Izpisua Belmonte</strong><br>（米国Salk Institute for Biological Studies，Gene Expression Laboratory）<br>email：<a href="mailto:ytakahashi@salk.edu">高橋悠太</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.045">10.7875/first.author.2017.045</a><br><div class="reference"><br><span class="ti">Integration of CpG-free DNA induces de novo methylation of CpG islands in pluripotent stem cells.</span><br><span class="au">Yuta Takahashi, Jun Wu, Keiichiro Suzuki, Paloma Martinez-Redondo, Mo Li, Hsin-Kai Liao, Min-Zu Wu, Reyna Hernández-Benítez, Tomoaki Hishida, Maxim Nikolaievich Shokhirev, Concepcion Rodriguez Esteban, Ignacio Sancho-Martinez, Juan Carlos Izpisua Belmonte</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28473583" target="_blank"><em>Science</em>, <strong>356</strong>, 503-508 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　高度にDNAメチル化されている哺乳類のゲノムにおいてもCpGアイランドは非メチル化状態に維持されているが，その機構については不明な部分が多い．筆者らは，この研究において，多能性幹細胞においてCpGアイランドにCpG配列を含まないDNA配列を挿入することにより，その標的となるCpGアイランドの全体に新規のDNAメチル化がひき起こされることを見い出した．CpGアイランドのDNAメチル化は，CpG配列を含まないDNA配列の除去，長期にわたる培養，細胞の分化をへたのちにも安定に維持された．その方法を用い，DNAのミスマッチ修復に関与する<em>MLH1</em>遺伝子のCpGアイランドを標的とすることにより，がんに関係するエピゲノム変異をもつ多能性幹細胞株が樹立された．また，Angelman症候群の患者に特異的なiPS細胞においてインプリンティング異常が修復された．さらに，CpG配列を含まないDNA配列の挿入がCpGアイランドに新規のDNAメチル化をひき起こすしくみが明らかにされた．この研究は，生物の発生やヒトの疾患をより深く理解するために有用なエピゲノム編集技術の基盤になりうる．<br/><br/><h2>はじめに</h2><br/>　近年の全ゲノムDNAメチル化解析により，哺乳類のゲノムにおいてCpG配列のシトシンの多くがメチル化されていることが明らかにされた<a href="#R1"><sup>1)</sup></a>．その高メチル化状態は，発生の初期の胚盤胞期から着床までのあいだにDNAメチル化酵素DNMT3AおよびDNMT3Bにより確立される<a href="#R2"><sup>2,3)</sup></a>．一方で，CpG配列が高い頻度で出現するCpGアイランドは，初期胚において新規のDNAメチル化をうけず，そののちも非メチル化状態に維持される<a href="#R2"><sup>2,4)</sup></a>．CpGアイランドは遺伝子プロモーターの多くに存在し，そのCpGリッチな配列に依存して確立される保護機構により，新規のDNAメチル化をうけずに非メチル化状態に維持されると考えられている<a href="#R5"><sup>5)</sup></a>．その保護機構においてはCXXCドメインをもつCXXCタンパク質が重要な役割をはたす．CXXCタンパク質はDNAメチル化されていないCpG配列にリクルートされるが，DNAメチル化されたCpG配列には結合できない．たとえば，CXXCドメインをもつCFP1はCpGアイランドに局在し，ヒストンH3の4番目のLysをメチル化するSet1複合体をCpGアイランドにリクルートする<a href="#R6"><sup>6)</sup></a>．ヒストンH3の4番目のLysのトリメチル化は転写活性を示すマークであり，DNAメチル化に対し拮抗作用をもつ．実際に，遺伝子プロモーターをもたないCpGリッチなDNA配列のゲノムへの挿入はヒストンH3の4番目のLysのトリメチル化を新規にひき起こす<a href="#R7"><sup>7)</sup></a>．しかし，同時に，CpGリッチなDNA配列のみでは安定した非メチル化状態を維持できないことも報告されている．それらにくわえ，転写活性や転写因子の結合もCpGアイランドの非メチル化状態の維持に寄与することが知られている<a href="#R8"><sup>8,9)</sup></a>．しかしながら，これまで，CpGリッチなDNA配列に依存して確立される保護機構および転写により，どのようにCpGアイランドが新規のDNAメチル化をうけずに非メチル化状態が維持されるのかは解明されていなかった．<br/><br/><h2>1．ヒトのES細胞においてCpG配列を含まないDNA配列の挿入はCpGアイランドに新規のDNAメチル化をひき起こす</h2><br/>　CpGリッチなDNA配列の阻害がCpGアイランドの非メチル化状態に対しどのような影響をおよぼすのかを検討するため，ヒトのES細胞において，DNAのミスマッチ修復に関与する<em>MLH1</em>遺伝子のプロモーターから第1イントロンに存在するCpGアイランドを標的とし，相同組換えを介してCpG配列を含まないDNA配列を挿入した．通常，<em>MLH1</em>遺伝子のCpGアイランドは非メチル化状態を維持しているが，エピゲノム変異とよばれる新規のDNAメチル化をうける場合があり，大腸における発がんに関与するといわれている．<em>MLH1</em>遺伝子の片方のアレルのCpGアイランドにCpG配列を含まないDNA配列を挿入しDNAメチル化の状態を解析したところ，CpG配列を含まないDNA配列が挿入されたCpGアイランドの全域において新規のDNAメチル化が観察された（<a href="#F1">図1</a>）．CpGアイランドのDNAメチル化は，Cre-<em>loxP</em>系を用いたCpG配列を含まないDNA配列の除去，および，それにつづく長期にわたる培養ののちにも安定に維持された．細胞における<em>MLH1</em> mRNA量およびMLH1タンパク質量は半減し，新規のDNAメチル化により<em>MLH1</em>遺伝子がサイレンシングされることが確認された．さらに，<em>HSP90AB1</em>遺伝子といったハウスキーピング遺伝子のCpGアイランドにおいても，CpG配列を含まないDNA配列の挿入により新規のDNAメチル化が観察された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　CpG配列を含まないDNA配列の挿入によるCpGアイランドにおける新規のDNAメチル化</strong><br/>（a）CpGアイランドは非メチル化状態に維持されている．<br/>（b）標的となるCpGアイランドにCpG配列を含まないDNA配列を挿入することにより，新規のDNAメチル化がひき起こされる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Science-17.5.5-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　CpG配列を含まないDNA配列の挿入によるCpGアイランドにおける新規のDNAメチル化" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Science-17.5.5-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Science-17.5.5-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　ES細胞とは異なり，線維芽細胞などの分化した細胞においてCpG配列を含まないDNA配列を<em>MLH1</em>遺伝子のCpGアイランドに挿入した場合には新規のDNAメチル化は観察されなかった．これは，分化した細胞におけるDNAメチル化酵素DNMT3Bの発現量の低さ，および，ゲノムに対する新規のDNAメチル化活性の低さに起因するのかもしれない．<br/><br/><h2>2．Angelman症候群におけるインプリンティング異常の修復</h2><br/>　Angelman症候群は，母性アレルのみから発現するユビキチンリガーゼUBE3Aがニューロンにおいて欠損することによりひき起こされる<a href="#R10"><sup>10)</sup></a>．Angelman症候群の責任領域である第15染色体q11-q13において<em>SNURF</em>遺伝子にCpGアイランドが存在し，健常人においては，母性アレルにおいて高メチル化状態，父性アレルにおいて非メチル化状態という，アレルに依存的なDNAメチル化のパターンを示す．アレルに依存的なDNAメチル化は<em>SNURF</em>遺伝子の下流にコードされる<em>UBE3A</em>アンチセンスRNAの発現を制御し，<em>UBE3A</em>アンチセンスRNAは同じアレルに存在する<em>UBE3A</em>遺伝子の発現を抑制する．つまり，<em>SNURF</em>遺伝子のCpGアイランドがDNAメチル化されていない父性アレルにおいては<em>UBE3A</em>アンチセンスRNAが発現しUBE3Aの発現が抑制される．一方，母性アレルにおいてはDNAメチル化により<em>UBE3A</em>アンチセンスRNAが発現せずUBE3Aが発現する．Angelman症候群の一部の患者は父親から両方の第15染色体を受け継いでおり，両方のアレルの<em>SNURF</em>遺伝子のCpGアイランドが非メチル化状態にある．それにより，ニューロンにおいてUBE3Aが欠損しAngelman症候群がひき起こされる．<br/>　父親から両方の第15染色体を受け継いだ型のAngelman症候群の患者の細胞からiPS細胞を樹立し，両方のアレルの<em>SNURF</em>遺伝子のCpGアイランドが非メチル化状態であることを確認した．Angelman症候群の患者に由来するiPS細胞において片方のアレルの<em>SNURF</em>遺伝子のCpGアイランドに相同組換えを介してCpG配列を含まないDNA配列を挿入しDNAメチル化の状態を解析したところ，野生型のiPS細胞と同じDNAメチル化のパターンを示し，新規のDNAメチル化はCpG配列を含まないDNA配列を除去したのちにも安定に維持された．それにともない，<em>SNURF</em>遺伝子のCpGアイランドにおけるCFP1の結合量およびヒストンH3の4番目のLysのトリメチル化の状態も野生型のiPS細胞と同じ程度までに回復し維持された．さらに，CpG配列を含まないDNA配列の挿入により修復された<em>SNURF</em>遺伝子のCpGアイランドのDNAメチル化の状態は，iPS細胞をニューロンへと分化させたのちにも安定に維持された．分化したニューロンにおいて，<em>UBE3A</em>アンチセンスRNAの発現は新規のDNAメチル化により阻害されており，UBE3Aのタンパク質量は野生型のニューロンと同じ程度にまで回復していた．<br/><br/><h2>3．新規のDNAメチル化をひき起こすには挿入されるDNA配列がCpG配列を含まないことが必須である</h2><br/>　CpG配列を含まないDNA配列の挿入にあたり，DNA二本鎖切断や相同組換えそれ自体は新規のDNAメチル化をひき起こさないことが確認された．また，用いたCpG配列を含まないDNA配列を断片化し，それぞれの断片をCpGアイランドに挿入したところ，1 kb以上の長さの複数の断片が新規のDNAメチル化をひき起こした．さらに，そのうちのひとつの断片に新たに10個のCpG配列を付加してCpGアイランドに挿入した場合，DNAメチル化はひき起こされなかった．つまり，新規のDNAメチル化をひき起こすには挿入されるDNA配列がCpG配列を含まないことが必須であった．<br/><br/><h2>4．転写の阻害および保護機構の分断の両方が新規のDNAメチル化に必要である</h2><br/>　CpGリッチなDNA配列に依存して確立される保護機構のほか，転写および転写因子の結合がCpGアイランドを非メチル化状態に維持するために重要とされている．Angelman症候群の患者から得たiPS細胞において，転写因子の結合部位を多く含む<em>SNURF</em>遺伝子のプロモーター領域を除去したうえで，<em>SNURF</em>遺伝子のCpGアイランドにおけるDNAメチル化の状態を解析した．その結果，転写の阻害のみでは新規のDNAメチル化はひき起こされないことが示された．CpG配列を含まないDNA配列を<em>SNURF</em>遺伝子の転写開始点から530 bpほど下流に挿入してDNAメチル化の状態を解析した．転写開始点の周辺にCpG配列を含まないDNA配列を挿入した場合にはCpGアイランドの全域が新規のDNAメチル化をうけるが，転写開始点から離れた下流の領域に挿入した場合，プロモーター領域や転写開始点を含む上流の領域において新規のDNAメチル化は観察されなかった．この結果から，CpGリッチなDNA配列に依存して確立される保護機構の分断のみではCpGアイランドの全域に新規のDNAメチル化はひき起こされないことが示された．転写の阻害およびCpGリッチなDNA配列に依存して確立される保護機構の分断の両方により新規のDNAメチル化がひき起こされるかどうか検討した．<em>SNURF</em>遺伝子のプロモーターが削除されたアレルにおいて転写開始点から離れた下流の領域にCpG配列を含まないDNA配列を挿入したところ，CpGアイランドの全域において新規のDNAメチル化がひき起された．これらの結果から，転写の阻害，および，CpGリッチなDNA配列に依存して確立される保護機構の分断が新規のDNAメチル化をひき起こすのに必要十分であることが明らかにされた．<br/><br/><h2>おわりに</h2><br/>　筆者らは，この研究において，多能性幹細胞においてCpGアイランドへのCpG配列を含まないDNA配列の挿入により，標的となるCpGアイランドの全体が新規にDNAメチル化されることを見い出した．さらに，その新規のDNAメチル化およびそれにともなうエピジェネティックなマークはCpG配列を含まないDNA配列の除去，長期にわたる培養，細胞の分化をへたのちにも安定に維持された．この手法を用いて，がんに関係するエピゲノム変異をもつ多能性幹細胞株が樹立された．また，Angelman症候群の患者に特異的なiPS細胞においてインプリンティング異常を修復することに成功し，このiPS細胞から分化させたニューロンにおいても原因遺伝子である<em>UBE3A</em>遺伝子の発現は回復していた．さらに，CpG配列を含まないDNA配列の挿入が転写の阻害およびCpGリッチなDNA配列に依存して確立される保護機構の分断を起こし，新規のDNAメチル化をひき起こすことを見い出した．この研究は，DNAメチル化およびエピジェネティクスにより制御されるさまざまな生命現象を研究するうえで重要なエピゲノム編集技術の基盤になりうる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Lister, R., Mukamel, E. A., Nery, J. R. et al.</span>: <span class="ti">Global epigenomic reconfiguration during mammalian brain development.</span> <span class='so'>Science, 341, 1237905 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23828890" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Guo, H., Zhu, P., Yan, L. et al.</span>: <span class="ti">The DNA methylation landscape of human early embryos.</span> <span class='so'>Nature, 511, 606-610 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25079557" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Okano, M., Bell, D. W., Haber, D. A. et al.</span>: <span class="ti">DNA methyltransferases Dnmt3a and Dnmt3b are essential for de novo methylation and mammalian development.</span> <span class='so'>Cell, 99, 247-257 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10555141" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Xie, W., Schultz, M. D., Lister, R. et al.</span>: <span class="ti">Epigenomic analysis of multilineage differentiation of human embryonic stem cells.</span> <span class='so'>Cell, 153, 1134-1148 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23664764" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Deaton, A. M. & Bird, A.</span>: <span class="ti">CpG islands and the regulation of transcription.</span> <span class='so'>Genes Dev., 25, 1010-1022 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21576262" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Clouaire, T., Webb, S., Skene, P. et al.</span>: <span class="ti">Cfp1 integrates both CpG content and gene activity for accurate H3K4me3 deposition in embryonic stem cells.</span> <span class='so'>Genes Dev., 26, 1714-1728 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22855832" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Thomson, J. P., Skene, P. J., Selfridge, J. et al.</span>: <span class="ti">CpG islands influence chromatin structure via the CpG-binding protein Cfp1.</span> <span class='so'>Nature, 464, 1082-1086 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20393567" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Brandeis, M., Frank, D., Keshet, I. et al.</span>: <span class="ti">Sp1 elements protect a CpG island from de novo methylation.</span> <span class='so'>Nature, 371, 435-438 (1994)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8090226" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Ginno, P. A., Lott, P. L., Christensen, H. C. et al.</span>: <span class="ti">R-loop formation is a distinctive characteristic of unmethylated human CpG island promoters.</span> <span class='so'>Mol. Cell, 45, 814-825 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22387027" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Lossie, A. C., Whitney, M. M., Amidon, D. et al.</span>: <span class="ti">Distinct phenotypes distinguish the molecular classes of Angelman syndrome.</span> <span class='so'>J. Med. Genet., 38, 834-845 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11748306" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=UCSC" target="_blank">UCSC</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=CRISPR" target="_blank">CRISPR</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">高橋 悠太（Yuta Takahashi）</span><br>略歴：2011年 筑波大学大学院生命環境科学研究科博士課程 修了，2012年 米国Salk Institute for Biological StudiesにてResearch Associate，2014年より筑波大学生命領域学際研究センター 国際テニュアトラック助教．<br>研究テーマ：幹細胞とエピゲノム．<br><br><strong>Juan Carlos Izpisua Belmonte</strong><br>米国Salk Institute for Biological StudiesにてProfessor．<br>研究室URL：<a href="http://www.salk.edu/labs/belmonte/" target="_blank">http://www.salk.edu/labs/belmonte/</a><br></div><br>© 2017 高橋悠太・Juan Carlos Izpisua Belmonte Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

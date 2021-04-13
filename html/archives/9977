@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> TGFβはがん幹細胞の不均一性を助長し抗がん剤に対する耐性およびがんの再発に関与する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>TGFβはがん幹細胞の不均一性を助長し抗がん剤に対する耐性およびがんの再発に関与する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>押森直木・Elaine Fuchs</strong><br>（米国Rockefeller大学Laboratory of Mammalian Cell Biology and Development）<br>email：<a href="mailto:noshimori@mail.rockefeller.edu">押森直木</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.041">10.7875/first.author.2015.041</a><br><div class="reference"><br><span class="ti">TGF-β promotes heterogeneity and drug resistance in squamous cell carcinoma.</span><br><span class="au">Naoki Oshimori, Daniel Oristian, Elaine Fuchs</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25723170" target="_blank"><em>Cell</em>, <strong>160</strong>, 963-976 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　もとはひとつのがん化した細胞が起源であっても，腫瘍のなかには性質や機能の異なるがん細胞が現われる．とくに“がん幹細胞”とよばれる細胞は，抗がん剤による治療をまぬがれてがんの再発や転移をひき起こすと考えられている．しかし，がん細胞の機能的な不均一性がどのようにして生み出されるかについてはいまだ不明である．筆者らは，がん幹細胞をとりまく微小環境およびシグナルタンパク質であるTGFβに着目した．TGFβシグナルの可視化，細胞系譜の追跡，遺伝子操作を可能にする次世代TGFβレポーターを作製し，マウスの表皮の扁平上皮がんを解析したところ，微小環境におけるTGFβの濃度勾配が，がん幹細胞の分裂，浸潤，分化，抗がん剤に対する抵抗性に違いをもたらすことが明らかにされた．遺伝子発現の解析，生化学的な解析，遺伝学的な解析から，TGFβに応答したがん細胞は下流のp21およびNRF2を介してグルタチオンの代謝を活性化していることが見い出された．さらに，がん幹細胞の細胞系譜を追跡した結果，抗がん剤による治療ののちにみられるがんの再発は，TGFβに応答したがん幹細胞とその子孫細胞が担っていることがわかった．<br/><br/><h2>はじめに</h2><br/>　腫瘍は通常，がん化したひとつの細胞が制限なく分裂をくり返すことにより生じたものである．しかし，腫瘍は均質な細胞の集塊ではない．頻繁に分裂するものやまれにしか分裂しないもの，となりの細胞と強く接着するものや接着をゆるめて周辺の組織に侵入していくもの，正常な分化を示すものや示さないものなど，腫瘍は成長するにつれ不均一な細胞集団になる．このようながん細胞の不均一性は，抗がん剤の効き方に違いを生んだり，ほかの臓器に転移する能力を獲得する細胞が現われたりと，がんの悪性化および再発に密接なかかわりをもつと考えられている<a href="#R1"><sup>1)</sup></a>．<br/>　がん細胞の不均一性は古くから認識されており<a href="#R2"><sup>2)</sup></a>，動物実験においてもがん細胞の機能的な差異は確認されてきた．その原因のひとつはDNA塩基配列レベルでの遺伝子変異の蓄積であり<a href="#R3"><sup>3)</sup></a>，現在，次世代シークエンサーを用いさかんに研究されている．一方で，われわれのからだに存在する約200種類の細胞は，幹細胞が適切な量，タイミング，さまざまな組合せの外部シグナルを受け取ることにより遺伝子の変異なしに生み出される．このことをふまえると，腫瘍を形成するがん細胞の集団の機能的な性質は，がん細胞をとりまく環境に影響されている可能性は十分に考えられる．<br/>　腫瘍は，がん化した上皮と基底膜をへだてて隣接する間質とに分けられる．間質には，繊維芽細胞，血管内皮細胞，免疫細胞と，それらが分泌するさまざまなタンパク質が存在する．多くの上皮に由来するがんには，基底層にがんの形成および発達を長期にわたり維持する細胞，いわゆる“がん幹細胞”とよばれるものが存在する．がん幹細胞は再発や転移の要になると想定されており，がん幹細胞の同定，幹細胞能の制御機構の解明，それらを標的にした薬剤の開発は，がんの根本的な治療において重要であると考えられる．<br/>　筆者らは，がん細胞の集団に不均一性の生じる要因として，がん幹細胞とそれらをとりまく微小環境に着目した．微小環境はシグナルタンパク質，酸素，代謝産物などの濃度勾配を形成することにより，がん幹細胞にさまざまな影響をあたえることが考えられる<a href="#R4"><sup>4)</sup></a>．その結果，がん幹細胞のなかに休眠状態になるものが現われた場合，抗がん剤による治療をまぬがれる可能性がある．さらに，がん組織の低酸素あるいは低栄養といったストレス環境においては，がん幹細胞は身を守るため細胞内代謝を変える可能性もあり，それが結果的にがん治療の効果を阻害しているのかもしれない．これらは非常に興味深い仮説ではあるが，遺伝子変異以外の機構によりがん細胞の不均一性が生み出されることを実験的に検証した例はいまだ少ない．しかし，もしそれがあるとすれば，どのような機構がはたらいているのだろうか？<br/>　がん細胞に不均一性を生み出すひとつの候補として，TGFβ（transforming growth factor-β，トランスフォーミング増殖因子β）という細胞外シグナルタンパク質に着目した．TGFβとがんとのかかわりについては，TGFβの同定からさかんに研究されている．細胞外に存在するTGFβは細胞の表面にあるTGFβ受容体と結合すると，TGFβ受容体のもつSer/Thrリン酸化酵素活性を活性化し，細胞内のシグナルタンパク質SMAD2あるいはSMAD3がリン酸化される．リン酸化されたSMAD2あるいはSMAD3は核へと移行し，SMAD4およびそのほかの転写因子とともに，細胞の増殖，分化，生存，遊走，さらに，細胞外基質の産生および修飾など，細胞のおかれた状況に応じさまざまな細胞機能を制御する<a href="#R5"><sup>5,6)</sup></a>．がんとのかかわりにおいてとくに興味深いのは，TGFβのもつ二面性である．その細胞増殖の抑制能からTGFβは発がんを抑制する．一方，がんが形成されてしまうと，TGFβは浸潤および転移を促進することによりがんを進展させる<a href="#R7"><sup>7)</sup></a>．これまで，TGFβのもつ二面性は，がんの発達の過程において生じる遺伝子変異の結果，逐次的に現われると考えられてきた．しかし，筆者らの最近の研究は，この二面性が同時に現われることがむしろ，がん細胞の不均一性を生み出し，抗がん剤による治療に効果の差をもたらし，がんの進展に貢献することを示唆していた．<br/><br/><h2>1．次世代TGFβレポーターを用いたマウスの表皮の扁平上皮がん実験系の確立</h2><br/>　マウスの表皮を実験モデルとして用い，扁平上皮がんの進行とTGFβとのかかわりについて調べた．TGFβシグナルに応答するがん細胞の存在を確認するため，リン酸化SMAD2に対する免疫蛍光染色を行った．良性の腫瘍では顕著なTGFβシグナルの活性化はみられなかったが，悪性の腫瘍へと進行するにしたがい，がん上皮組織にみられるTGFβシグナルの活性は強まった．興味深いことに，活性化しているがん細胞はおもに基底層に存在するがん細胞，つまり，がん幹細胞の存在する細胞集団においてみられた．<br/>　TGFβシグナルによるがん幹細胞の制御についてより詳細に調べるため，レンチウイルスを利用した新たなTGFβシグナルレポーターを作製した．以前に作製されたTGFβレポーターは蛍光タンパク質によりTGFβシグナルを可視化するものであった<a href="#R8"><sup>8)</sup></a>．次世代レポーターはTGFβシグナルに依存して蛍光タンパク質およびCreリコンビナーゼを同時に産生する．さらに，遺伝子発現を誘導するためのrtTA，および，遺伝子発現を抑制するためのshRNAを同一のコンストラクトに組み込こんだ．方法として，子宮の超音波画像をたよりに羊水にレンチウイルスを注入することにより<a href="#R9"><sup>9)</sup></a>，rtTAに依存して発がん性の<em>H</em>-<em>Ras</em>遺伝子の発現を誘導する遺伝子改変マウスの胎仔の表皮にこれを低頻度で感染させる．生後のマウスにおいてrtTAを活性化させると，感染した表皮の細胞のみで<em>H</em>-<em>Ras</em>遺伝子が発現し異常な増殖を開始する．結果的に，良性の腫瘍をへて，多くの場合，悪性の扁平上皮がんを形成する．低い感染多重度を用いたこと，そして，レンチウイルスマーカーの確認により，腫瘍は単一の細胞に由来する可能性の高いことを確認した．リン酸化SMAD2に対する免疫蛍光染色のときと同様に，この腫瘍において次世代TGFβレポーターは間質に隣接した基底層のがん細胞にて，活性化するTGFβシグナルを可視化した（<a href="#F1">図1a</a>）．重要なこととして，TGFβシグナルの活性は基底層のがん細胞において不均一であり，血管の密度の高いところに頻繁にみられた．この不均一性は，隣接する間質に存在するTGFβそれ自体の濃度勾配，さらに，TGFβのかたよりと単球細胞の密集の度合いとのあいだに関連がみられた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　次世代TGFβレポーターと細胞系譜の追跡</strong><br/>（a）次世代TGFβレポーターにより産生された蛍光タンパク質により，TGFβに応答した細胞が可視化される．扁平上皮がんは上皮と間質とに分けられるが，間質にかたよって存在するTGFβが上皮と間質との境界のがん幹細胞に不均一性を生み出す．<br/>（b）次世代TGFβレポーターにより産生されたCreリコンビナーゼを活性化することにより，TGFβに応答したがん幹細胞とその子孫細胞を追跡した．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Oshimori-Cell-15.2.26-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　次世代TGFβレポーターと細胞系譜の追跡" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Oshimori-Cell-15.2.26-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Oshimori-Cell-15.2.26-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．TGFβはがん幹細胞の機能およびその系列の子孫細胞に不均一性を生み出す</h2><br/>　この結果は，がん幹細胞のなかにTGFβシグナルに応答している集団とそうでない集団の存在することを示していた．そこで，この2つの細胞集団のあいだに機能的な差異があるのかどうか調べた．TGFβシグナルに応答している細胞集団では，がん幹細胞のマーカーのひとつであるCD34の発現が顕著に高かった．さらに，免疫不全マウスへの移植実験では，TGFβシグナルに応答している細胞集団のほうが高い頻度で2次腫瘍を形成した．つまり，TGFβシグナルに応答している細胞集団はがん幹細胞としての機能が高いことが示唆された．<br/>　では，TGFβシグナルに応答したがん細胞は，そののち，がんの進行の過程においてどのようにふるまうのだろうか？　その問いに答えるため，腫瘍を形成したのちCreリコンビナーゼを活性化させることにより，TGFβシグナルに応答したがん幹細胞の細胞系譜を追跡した．通常の基底層のがん細胞の系列とは異なり，TGFβシグナルに応答したがん幹細胞の系列では，細胞分裂の頻度の低下，伸張した細胞の形状および上皮間葉転換様の表現型，悪性腫瘍に特徴的な分化マーカーの発現，が観察された（<a href="#F1">図1b</a>）．つまり，間質にかたよって存在するTGFβは，がん幹細胞の集団に不均一なTGFβシグナルを生み出し，TGFβはがん幹細胞とその子孫細胞の挙動に影響をあたえることにより，がん細胞の不均一性にかかわることが強く示唆された．<br/><br/><h2>3．TGFβに応答したがん幹細胞は抗がん剤による治療をまぬがれがんの再発に寄与する</h2><br/>　一般的に，細胞分裂の頻度が低いがん細胞は抗がん剤が効きにくいと考えられている．TGFβはがん細胞の分裂の頻度を低下させることから，TGFβが抗がん剤の効果に影響を及ぼすかどうかを調べた．抗がん剤による治療において中心的な役割をはたし，さまざまな組織の扁平上皮がんに対しても使われているシスプラチンを用いた<a href="#R10"><sup>10)</sup></a>．ただし現在，シスプラチンは治療ののちのがんの再発が大きな問題になっている．シスプラチンはがん細胞の核にあるDNA鎖と共有結合し，DNAに損傷をあたえることにより細胞死をひき起こす．シスプラチンはマウスの表皮の扁平上皮がんのがん細胞にも強力にアポトーシスをひき起こすことを確認した．興味深いことに，その腫瘍のなかでTGFβシグナルに応答したがん細胞はシスプラチンによるアポトーシスをまぬがれた．<br/>　マウスにシスプラチンを投与すると腫瘍の大きさは顕著に縮小し，そのまま消失する腫瘍と，ふたたび成長する腫瘍とがみられた．TGFβに応答したがん細胞はシスプラチンによる細胞死を回避したことから，この生き残ったがん幹細胞が再発に寄与するのかどうかを調べるため，シスプラチンの投与とともに細胞系譜を追跡した．その結果，再発した腫瘍のなかでは，TGFβシグナルに応答したがん細胞の子孫細胞の割合が顕著に増加していた（<a href="#F2">図2</a>）．さらに，子孫細胞によりしめられた領域では正常分化マーカーの発現が抑制されていたことから，TGFβシグナルはがん幹細胞をシスプラチンによる治療から保護し，治療ののちにみられるがんの再発にかかわることが示された．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　TGFβに応答した細胞の抗がん剤に対する抵抗性とがんの再発</strong><br/>（a）TGFβに応答したがん細胞を細胞系譜の追跡マーカーにより標識する．<br/>（b）シスプラチンの投与により多くのがん細胞にアポトーシスにひき起こされ，腫瘍のサイズはいちじるしく縮小する．しかし，TGFβに応答した細胞は，グルタチオン代謝経路を活性化させることによりシスプラチンの細胞毒性からまぬがれる．<br/>（c）シスプラチンの投与ののち，多くのがんにおいて再発がみられたが，TGFβに応答して生き残ったがん幹細胞がその再発を担っていた．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Oshimori-Cell-15.2.26-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　TGFβに応答した細胞の抗がん剤に対する抵抗性とがんの再発" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Oshimori-Cell-15.2.26-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Oshimori-Cell-15.2.26-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>4．TGFβに応答したがん幹細胞はグルタチオンの代謝を亢進し抗がん剤の影響を軽減する</h2><br/>　では，どのようにTGFβはがん幹細胞を抗がん剤による治療から保護しているのか？　細胞分裂の頻度を低下させるためか，それとも，ほかの機構が存在するのか？　その答えのヒントを得るため，TGFβに応答したがん細胞と応答しなかったがん細胞とのあいだの遺伝子発現の違いを次世代シークエンサーを用いて調べた．興味深いことに，TGFβに応答したがん細胞では，さきに列挙したがん細胞の表現型を説明しうる遺伝子発現の変化にくわえ，細胞の活動と生存にとり重要なグルタチオン代謝経路にかかわる遺伝子の発現が顕著に上昇していることが見い出された．グルタチオンは細胞に存在する抗酸化物質であり，活性酸素の除去や抗がん剤など外来の化学物質の排出などにおいて重要な役割を担っている．放射線によるがん治療は活性酸素を生み出すことにより細胞毒性を起こすため，グルタチオン代謝経路の活性化は放射線による治療のさまたげになることが強く示唆されている．なかでも，遺伝子発現の上昇がもっとも大きかったグルタチオン転移酵素は，シスプラチンにグルタチオンを転移し弱効化する<a href="#R10"><sup>10)</sup></a>．実際に，TGFβに応答したがん細胞の細胞質には高い濃度のグルタチオン転移酵素が検出され，活性酸素の濃度も低く保たれていたため，TGFβとグルタチオンの代謝との関連が強く示唆された．<br/>　グルタチオンの代謝にかかわる遺伝子は転写因子NRF2により制御されている<a href="#R11"><sup>11)</sup></a>．通常，NRF2は負の制御因子KEAP1を介しユビキチン-プロテアソーム分解系により低い濃度に保たれているが，NRF2およびKEAP1のmRNAの量はTGFβシグナルには影響されなかった．先行研究において，CDK阻害タンパク質であるp21がKEAP1と競合してNRF2と結合しNRF2を活性化することが示されていた．p21はTGFβの下流の標的となる遺伝子にコードされているので<a href="#R12"><sup>12)</sup></a>，その可能性を遺伝学的な手法および生化学的な手法により検証したところ，TGFβにより発現の誘導されたp21はNRF2を安定化させNRF2による遺伝子発現を活性化した．<br/>　このTGFβ→p21→NRF2→グルタチオンの代謝という経路が，TGFβによる抗がん剤に対する耐性の機構なのかどうかを検証した．TGFβ受容体のノックアウト，p21あるいはNRF2のノックダウン，さらに，グルタチオン転移酵素に対する阻害剤の処理のすべてにおいて，がん幹細胞のシスプラチンに対する感受性は亢進されることが確認された．興味深いことに，p21あるいはNRF2のノックダウンではシスプラチンによるアポトーシスが増加したにもかかわらず，細胞分裂の頻度は低いままであった．この結果から，TGFβによるシスプラチンに対する耐性の機構は，細胞分裂の頻度の制御よりも，グルタチオンの代謝が主要であることが示唆された．この仮説を検証するため，活発に細胞分裂するTGFβ受容体を欠損させたがん細胞において，グルタチオン代謝経路を活性化させシスプラチンへの感受性を調べた．NRF2の負の制御因子KEAP1をノックダウンしたところNRF2のタンパク質量は増加し，シスプラチンによるアポトーシスは効果的に抑制された．<br/><br/><h2>おわりに</h2><br/>　この研究においては，がん細胞の不均一性は，腫瘍の微小環境にかたよって存在するTGFβが隣接するがん幹細胞に影響をあたえることにより生み出されることが見い出された．TGFβに応答したがん幹細胞は，まわりのがん細胞に比べ細胞分裂の頻度の低い細胞集団になるが，浸潤性の高い腫瘍を形成した．また，がん幹細胞の分化の方向を悪性の腫瘍にみられるタイプへと転換した．この不均一性はがんの進展を示唆するが，抗がん剤の効き方にも影響をあたえ，がんの再発にかかわることが実験的に示された．さらに，今回，明らかにされたTGFβの下流において起こる薬剤耐性の機構は，抗がん剤による治療の戦略に役だつものと考えられる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hanahan, D. & Weinberg, R. A.</span>: <span class="ti">Hallmarks of cancer: the next generation.</span> <span class='so'>Cell, 144, 646-674 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21376230" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Nowell, P. C.</span>: <span class="ti">The clonal evolution of tumor cell populations.</span> <span class='so'>Science, 194, 23-28 (1976)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/959840" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Greaves, M. & Maley, C. C.</span>: <span class="ti">Clonal evolution in cancer.</span> <span class='so'>Nature, 481, 306-313 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22258609" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Kreso, A. & Dick, J. E.</span>: <span class="ti">Evolution of the cancer stem cell model.</span> <span class='so'>Cell Stem Cell, 14, 275-291 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24607403" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Derynck, R. & Miyazono, K. (eds)</span>: <span class="ti">The TGF-β Family.</span> <span class='so'>Cold Spring Harbor Laboratory Press, New York (2008)</span></li><br><li id="R6"><span class='au'>Oshimori, N. & Fuchs, E.</span>: <span class="ti">The harmonies played by TGF-β in stem cell biology.</span> <span class='so'>Cell Stem Cell, 11, 751-764 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23217421" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Massague, J.</span>: <span class="ti">TGFβ signaling in context.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 13, 616-630 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22992590" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Oshimori, N. & Fuchs, E.</span>: <span class="ti">Paracrine TGF-β signaling counterbalances BMP-mediated repression in hair follicle stem cell activation.</span> <span class='so'>Cell Stem Cell, 10, 63-75 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22226356" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/4230" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R9"><span class='au'>Beronja, S., Livshits, G., Williams, S. et al.</span>: <span class="ti">Rapid functional dissection of genetic networks via tissue-specific transduction and RNAi in mouse embryos.</span> <span class='so'>Nat. Med., 16, 821-827 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20526348" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Kelland, L.</span>: <span class="ti">The resurgence of platinum-based cancer chemotherapy.</span> <span class='so'>Nat. Rev. Cancer, 7, 573-584 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17625587" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Gorrini, C., Harris, I. S. & Mak, T. W.</span>: <span class="ti">Modulation of oxidative stress as an anticancer strategy.</span> <span class='so'>Nat. Rev. Drug Discov., 12, 931-947 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24287781" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Seoane, J., Le, H.-V., Shen, L. et al.</span>: <span class="ti">Integration of Smad and forkhead pathways in the control of neuroepithelial and glioblastoma cell proliferation.</span> <span class='so'>Cell, 117, 211-223 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15084259" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">押森 直木（Naoki Oshimori）</span><br>略歴：2008年 東京大学大学院理学系研究科 修了，同年より米国Rockefeller大学 博士研究員．<br>研究テーマ：組織の形態形成，がんの発生および進行にかかわる幹細胞の制御機構．<br>抱負：からだで起こっている細胞間コミュニーケーションやストレス状態を可視化し，その生物学的な意味を理解したい．<br><br><strong>Elaine Fuchs</strong><br>米国Rockefeller大学 教授．<br>研究室URL：<a href="http://lab.rockefeller.edu/fuchs/" target="_blank">http://lab.rockefeller.edu/fuchs/</a><br></div><br>© 2015 押森直木・Elaine Fuchs Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

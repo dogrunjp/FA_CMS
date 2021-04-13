@@ -43,11 +43,15 @@ def create_keywordtree(lst, s):
 
 
 def add_class(kws, txt):
-    rep = r'<a href="#" class="anno \1">\1</a>'
     # 最初に現れた文字列だけでなく、マッチした文字列全てをannotationするように変更
     # cnt = 1
     for k in kws:
-        ptn = '(?<![a-zA-Z\.\-])({})(?![^<]*?</a>)'.format(k)
+        cue = k[0]
+        query = k[1]
+        uniprot = k[2]
+        ptn = '(?<![a-zA-Z\.\-])({})(?![^<]*?</a>)'.format(cue)
+        #rep = r'<a href="#" class="anno \1">\1</a>'
+        rep = '<a href="#" class="anno" data-query="{1}" data-uniprot="{2}">{0}</a>'.format(cue,query,uniprot)
         txt = re.sub(ptn, rep, txt)
     return txt
 
@@ -60,10 +64,10 @@ def create_regex_pattern(lst):
 
 
 def add_annotation(kws, txt):
-    kwt = create_keywordtree(kws, txt)
-    # レンジ被りをのぞいたキーワードリストを生成する。
-    w_kws = remove_overlapped(create_unique_word_list(kwt))
+    # kwt = create_keywordtree(kws, txt)
+    # 文章中のポジション被りをのぞいたキーワードリストを生成する。
+    # w_kws = remove_overlapped(create_unique_word_list(kwt))
     # 重複をのぞいたキーワードリストとテキストを渡す
-    s = add_class(w_kws, txt)
+    s = add_class(kws, txt)
     return s
 

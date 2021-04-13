@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> レプリケーターRNAの時限的な区画化は寄生体RNAによる絶滅をふせぐ : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>レプリケーターRNAの時限的な区画化は寄生体RNAによる絶滅をふせぐ</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>松村 茂祥</strong><br>（フランスÉcole Supérieure de Physique et de Chimie Industrielles de la Ville de Paris）<br>email：<a href="mailto:smatsumu@sci.u-toyama.ac.jp">松村茂祥</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.009">10.7875/first.author.2017.009</a><br><div class="reference"><br><span class="ti">Transient compartmentalization of RNA replicators prevents extinction due to parasites.</span><br><span class="au">Shigeyoshi Matsumura, Ádám Kun, Michael Ryckelynck, Faith Coldren, András Szilágyi, Fabrice Jossinet, Christian Rick, Philippe Nghe, Eörs Szathmáry, Andrew D. Griffiths</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27940874" target="_blank"><em>Science</em>, <strong>354</strong>, 1293-1296 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　自己複製の可能な高分子と定義されるレプリケーターの出現は，生命の起源においてきわめて重要な過程であったとされる．しかし，より速く複製する寄生体分子による乗っ取りが起こるため，生命の誕生のためにはレプリケーターは自己再生産するプロト細胞のなかに区画化される必要があったと考えられている．しかし，プロト細胞の再生産が適切に制御されるためには，高度に進化したレプリケーターが必要であるという矛盾が生じる．今回，筆者らは，レプリケーターRNAの一時的な区画化と再混合がくり返されるより原始的な状況において，寄生体RNAによる乗っ取りが抑制されレプリケーターRNAが進化しうることを実験により示した．この時限的な区画化により複数のレプリケーターRNAの複製の速度が同調し，また，そのことにより寄生体RNAの多様性が増大することが，つぎの進化をひき起こす源泉になった可能性がある．すなわち，プロト細胞の存在を仮定しなくても，さまざまな自然現象によりもたらされる時限的な区画化によりレプリケーターの初期の進化が起こり，生命は誕生しえたかのもしれない．<br/><br/><h2>はじめに</h2><br/>　自己複製の可能な高分子と定義されるレプリケーターの出現は，生命の起源においてもっとも重要な過程のひとつであると考えられる．しかし，レプリケーターの複製の速度はその複雑度に応じて変わる．つまり，単純な分子の増殖は速く，複雑な分子の増殖は遅い．すなわち，機能をもつ複雑な分子は，寄生体分子など機能をもたない単純な分子との競争において不利となり駆逐されてしまう．たとえば，QβファージのRNAゲノムを試験管内において連続して複製させると，複製速度の速い分子種が淘汰のうえで有利になるためそのゲノムの83％は消失する<a href="#R1"><sup>1)</sup></a>．このような状況においては，レプリケーターの機能の進化は起こらないため生命は誕生できないだろう．この問題は，分裂および増殖により自己再生産するプロト細胞が出現し，そのなかにレプリケーターが封入されて区画化されることにより解決されたと考えられてきた．区画化により寄生体分子の伝播が制限され，かつ，それぞれのプロト細胞の増殖が選択の対象になり群レベルでの淘汰が実現することにより，レプリケーターの消失はさけられる．<br/>　しかし，プロト細胞の増殖が適切に起こるためには，その内部に高機能なレプリケーターが必要であると考えられる．レプリケーターが進化するためにはプロト細胞が必要であるため，いわゆるニワトリと卵のパラドックスが生じる．また，進化の初期にレプリケーターが封入されたであろう区画の構造が，非常に安定かつ制御された分裂の機構をもっていたとは考えにくい．おそらく，自己再生産するプロト細胞が出現するよりまえに，もっと原始的かつ不安定な前生物的な構造，たとえば，大気中のエアロゾル<a href="#R2"><sup>2)</sup></a>，氷の共晶相の微細な構造<a href="#R3"><sup>3)</sup></a>，岩石の表面のクラスター<a href="#R4"><sup>4)</sup></a> などが一時的にレプリケーターを区画化していたのではないかと考えられている．それらはきわめて不安定なため，内部のレプリケーターは頻繁に混合される状態にあっただろう（<a href="#F1">図1</a>）．筆者らは，この研究において，このような時限的な区画化の状態において，レプリケーターが寄生体分子による駆逐をまぬがれて生存しうるかどうかを検証した．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　時限的な区画化のモデル</strong><br/>レプリケーター（緑色の丸）および寄生体分子（赤色の丸）が一時的に区画化され，それぞれの区画を単位とする淘汰をうけたのち，再混合される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsumura-Science-16.12.9-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　時限的な区画化のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsumura-Science-16.12.9-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsumura-Science-16.12.9-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．液滴マイクロ流体系を用いたRNAの時限的な区画化</h2><br/>　時限的な区画化の状態を実験的に精密に検証するため液滴マイクロ流体系<a href="#R5"><sup>5)</sup></a> を利用した．液滴マイクロ流体系は微小液滴をきわめて高い精度で操作する技術体系であり，これを用いることにより定量的かつ高い再現性での実験ができる．<br/>　レプリケーターはファージのもつRNA合成酵素Qβレプリカーゼにより複製されるMidivariant RNA <a href="#R6"><sup>6)</sup></a> を用いて構築した（<a href="#F2">図2</a>）．このRNAに触媒活性をもつRNAであるトランス型Varkud satelliteリボザイム<a href="#R7"><sup>7)</sup></a> を挿入することにより，触媒活性をもちかつQβレプリカーゼの存在のもと自己複製するRNAを作製した．Varkud satelliteリボザイムはヘアピン型の基質RNAを切断する機能をもつ．この触媒活性を蛍光により評価するため，基質RNAの両方の末端を蛍光色素Alexa 594およびBHQ-2により修飾した．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　液滴マイクロ流体系を用いた時限的な区画化の実験系および液滴における反応</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsumura-Science-16.12.9-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　液滴マイクロ流体系を用いた時限的な区画化の実験系および液滴における反応" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsumura-Science-16.12.9-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsumura-Science-16.12.9-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　このレプリケーターRNAを液滴マイクロ流体系により約100万個の約12 plの液滴に封入した．液滴にはレプリケーターRNAのほか，Qβレプリカーゼ，NTP，基質RNA，核酸染色色素SYBR-PEGなどを封入した．封入されたレプリケーターRNAは液滴の内部で複製され，かつ，複製されたRNAはその触媒活性により基質RNAを切断する．個々の液滴におけるレプリケーターRNAの複製およびその触媒活性は，SYBR-PEGによる緑色の蛍光およびAlexa 594による橙色の蛍光を測定することにより定量した．<br/>　なお，液滴マイクロ流体系はきわめて均一な大きさの液滴を作製できるため，おのおのの液滴に封入するレプリケーターRNAの分子数を精密に制御することができる．また，液滴の蛍光解析の際に一定以上の橙色蛍光をもつ液滴をソートすることにより，個々の液滴において発現する触媒活性に対し選択をかけることができる．そして，得られた液滴を破壊し内部のRNAを集めて混合し，ふたたび液滴に区画化する．以上の過程をくり返すことにより，レプリケーターRNAが区画化とそれにともなう選択，そして，再混合をくり返すとする，時限的な区画化の状況を実験的に再現することができた（<a href="#F2">図2</a>）．<br/><br/><h2>2．時限的な区画化によりレプリケーターRNAは寄生体RNAによる絶滅をまぬがれる</h2><br/>　構築したレプリケーターRNAを，区画化しない均一な溶液の状態（バルク条件），区画化するが液滴に選択はかからない状態（区画化・淘汰なしの条件），区画化かつ触媒活性をもつ液滴が有利に選択される状態（区画化・淘汰ありの条件），の3つの条件で複製させそれらの過程を解析した．反応溶液を37℃で3時間保温しレプリケーターRNAの複製および触媒活性の発現をさせた．ついで，バルク条件および区画化・淘汰なしの条件においては単純にRNAをプールした．区画化・淘汰ありの条件においては内部に十分な触媒活性をもつ液滴を分取してRNAをプールした．プールされたRNAを希釈し，一部を新たな反応溶液と混合したのち，ふたたび区画化してつぎのラウンドを開始した．この過程を，バルク条件においては4ラウンド，区画化・淘汰なしの条件および区画化・淘汰ありの条件においては9ラウンドくり返した．<br/>　バルク条件においては4ラウンドでレプリケーターRNAは消失した．これは，レプリケーターRNAよりも短く複製速度の速い寄生体RNAが出現し，これがレプリケーターRNAを駆逐してしまった結果であった．また，区画化・淘汰なしの条件においても，寄生体RNAの出現により7ラウンドでレプリケーターRNAは消失した．区画化により寄生体RNAの溶液における拡散が抑えられたため，バルク条件に比べレプリケーターRNAの消失は遅くなったものの，区画化だけではレプリケーターRNAは維持されなかった．しかし，区画化・淘汰ありの条件においては，9ラウンドの操作ののちにも寄生体RNAは出現したもののレプリケーターRNAは維持された．また，その際の全RNAにしめるレプリケーターRNAの割合は液滴に封入したRNAの量に応じて変化した．液滴あたりのRNA分子数が6.9個のときは残存するレプリケーターRNAの割合は28％であったのに対し，RNA分子数が0.6個のときはレプリケーターRNAの割合は83％になった．このことから，液滴においてRNA分子数が増加するとそこに寄生体RNAが侵入する確率が高くなり，レプリケーターRNAと寄生体RNAとの共存状態が生じることが示唆された．<br/>　区画化・淘汰ありの条件において9ラウンド以上の操作をつづけた場合に，レプリケーターRNAはいずれ消失するのか，それとも，定常状態となり維持されるのか調べた．バルク条件の実験において得られた寄生体RNAとレプリケーターRNAを4対1の割合で混合して寄生体RNAが過剰の状況をつくりだし，区画化・淘汰ありの条件において液滴あたりのRNA分子数を0.6個として実験した．その結果，3ラウンドの操作によりレプリケーターRNAの割合は92％まで上昇した．すなわち，区画化・淘汰ありの条件においてはレプリケーターRNAと寄生体RNAとが共存しつづける平衡点が存在し，そこより高いところもしくは低いところからはじめてもその平衡点に近づいていき，レプリケーターRNAは消失せずに維持されることが示された．<br/>　以上の結果から，触媒活性をもつレプリケーターが区画化され，それがその区画にて淘汰において有利な形質をもたらす場合には，時限的な区画化の状態，つまり，区画が不安定でレプリケーターが頻繁に混合されるような状況においてもレプリケーターは寄生体分子による駆逐をまぬがれ維持されうることが示された．ただし，レプリケーターRNAをもつ区画が有利になる淘汰がはたらいているにもかかわらず，寄生体RNAは完全には排除されず，また，その割合は区画におけるRNAの量に応じて変化することも確認された．<br/><br/><h2>3．時限的な区画化によりRNAの多様化が起こる</h2><br/>　レプリケーターRNAと寄生体RNAの共存状態を正確に理解するため，今回の実験を数理モデル化してシミュレーションした．複製速度の異なる10種類の寄生体RNAを仮定し，バルク条件，区画化・淘汰なしの条件，区画化・淘汰ありの条件においてレプリケーターRNAと競合させ，どの分子種が優勢となるか試行した．シミュレーションは区画におけるRNA分子数が少ない場合（0.6個）と多い場合（7個）の2通りとした．<br/>　バルク条件および区画化・淘汰なしの条件においては，レプリケーターRNAの1.6倍というもっとも速い複製速度をもつ寄生体RNAが優勢になりレプリケーターRNAを駆逐し，この結果は実験ときわめてよく一致した．区画化・淘汰ありの条件ではレプリケーターRNAは寄生体RNAとの平衡状態となり，区画におけるRNA分子数が少ない場合にはレプリケーターRNAが大きく優勢となったのに対し，RNA分子数が多い場合には寄生体RNAが優勢となり，これも実験とよく一致した．RNA分子数が多い場合にもっとも優勢になるのは複製速度のもっとも速い寄生体RNAではなく，レプリケーターRNAの1.18倍と少し速い程度の寄生体RNAであった．<br/>　区画化・淘汰ありの条件においては複製速度の速い“ハードな”寄生体RNAは同じ区画のレプリケーターRNAを大きく減少させるため，その区画は“生存”に必要なレプリケーターRNAの活性を失ってしまう．すなわち，区画が選択の単位となることにより，たんなる複製速度の速さはもはや淘汰に有利な性質とはならない．複製速度の遅い“ソフトな”寄生体RNAは同じ区画のレプリケーターRNAをそれほど減少させないため，レプリケーターRNAと共存するかたちで生き残ることができると考えられた．<br/>　この予測をもとに，今回の実験で得られた寄生体RNAについて調べたところ，区画のレプリケーターRNAの活性を完全には消失させない寄生体RNAが区画化・淘汰ありの条件において有意に多くみられた．また，区画のレプリケーターRNAの活性を完全には消失させない寄生体RNAが進化してくる，すなわち，寄生体分子の複製速度の速さに対し淘汰がかかりにくいということは，寄生体分子の大きさや配列に多様性が許容され一方向には収束しにくいと考えられた．そこで，実験において得られたRNAプールを次世代シークエンサーを用いて網羅的に解析したところ，区画化・淘汰ありの条件において得られたRNAプールにてその多様性が大きく増大していた．これらの結果より，時限的な区画化により異なるRNAが共存する状態が生じ，そこに淘汰がかかることによりRNAの多様化が自発的に起こることが示された．<br/><br/><h2>おわりに</h2><br/>　生命は単純なものから複雑なものへと進化してきたとされる．しかし，生命の起源のきわめて初期の段階において，複雑な機能をもつ分子がどのように単純で利己的な分子に駆逐されずに進化しえたのかについてはながらく議論の対象であった．この研究により，自己再生産するプロト細胞が出現するまえの，レプリケーターが区画化と再混合とをくり返すようなより原始的な状態においても生命の進化ははじまりうることが実験的に示された．また，そのような時限的な区画化の状態により，異なるレプリケーターの複製速度の同調が起こり，またその結果，ほかのレプリケーターの機能を損なわない“ソフトな”寄生体RNAが進化してくることも明らかにされた．“ソフトな”寄生体RNAの進化は，今日にみられる，宿主を殺さないように適応したウイルスの生存戦略に似ている．また，“ソフトな”寄生体RNAによりもたらされる遺伝的な多様性は，そこから新たな機能の生じるつぎの進化の原動力になったかもしれない<a href="#R8"><sup>8)</sup></a>．それは，遺伝子重複による進化<a href="#R9"><sup>9)</sup></a>，すなわち，重複した遺伝子の片方が選択圧より解放され，そこに蓄積された変異が進化をもたらす機構との類似性を想起させる．すなわち，原始的かつ前生物的な区画の構造によるレプリケーターの一時的な区画化がレプリケーターの機能の喪失を抑制し，かつ，さらなる進化の基盤を生み出して，いずれは自己再生産するプロト細胞へと移行したのではないかと考えている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Mills, D. R., Peterson, R. L. & Spiegelman, S.</span>: <span class="ti">An extracellular Darwinian experiment with a self-duplicating nucleic acid molecule.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 58, 217-224 (1967)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/5231602" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Dobson, C. M., Ellison, G. B., Tuck, A. F. et al.</span>: <span class="ti">Atmospheric aerosols as prebiotic chemical reactors.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 97, 11864-11868 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11035775" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Kanavarioti, A., Monnard, P. A. & Deamer, D. W.</span>: <span class="ti">Eutectic phases in ice facilitate nonenzymatic nucleic acid synthesis.</span> <span class='so'>Astrobiology, 1, 271-281 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12448990" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Szabo, P., Scheuring, I., Czaran, T. et al.</span>: <span class="ti"><em>In silico</em> simulations reveal that replicators with limited dispersal evolve towards higher efficiency and fidelity.</span> <span class='so'>Nature, 420, 340-343 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12447445" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Guo, M. T., Rotem, A., Heyman, J. A. et al.</span>: <span class="ti">Droplet microfluidics for high-throughput biological assays.</span> <span class='so'>Lab Chip, 12, 2146-2155 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22318506" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Mills, D. R., Kramer, F. R., Spiegelman, S.</span>: <span class="ti">Complete nucleotide sequence of a replicating RNA molecule.</span> <span class='so'>Science, 180, 916-927 (1973)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/4706684" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Guo, H. C. & Collins, R. A.</span>: <span class="ti">Efficient trans-cleavage of a stem-loop RNA substrate by a ribozyme derived from neurospora VS RNA.</span> <span class='so'>EMBO J., 14, 368-376 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7835347" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Konnyu, B., Czaran, T. & Szathmary, E.</span>: <span class="ti">Prebiotic replicase evolution in a surface-bound metabolic system: parasites as a source of adaptive evolution.</span> <span class='so'>BMC Evol. Biol., 8, 267 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18826645" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Onho, S.</span>: <span class="ti">Evolution by Gene Duplication.</span> <span class='so'>Springer, New York (1970)</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=パイプライン" target="_blank">パイプライン</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">松村 茂祥（Shigeyoshi Matsumura）</span><br>略歴：2007年 京都大学大学院生命科学研究科博士後期課程 修了，同年 フランスStrasbourg大学 ポストドクトラルフェロー，2012年 フランスÉcole Supérieure de Physique et de Chimie Industrielles de la Ville de Parisポストドクトラルフェローを経て，2014年より富山大学大学院理工学研究部 助教．<br>研究テーマ：液滴マイクロ流体系の開発，および，その進化分子工学への応用．<br>関心事：地球上だけではなく，より一般的な意味での生命の起源，区画化と進化との関係，利他性の起源など．また，それらの知見をどのように社会へ還元するか．<br></div><br>© 2017 松村 茂祥 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

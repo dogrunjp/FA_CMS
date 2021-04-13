@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> トランスポゾンを用いた大腸がんの悪性化にかかわる遺伝子のスクリーニング : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>トランスポゾンを用いた大腸がんの悪性化にかかわる遺伝子のスクリーニング</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>武田 はるな</strong><br>（シンガポールInstitute of Molecular and Cell Biology, Agency for Science, Technology and Research，Division of Genomics and Genetics）<br>email：<a href="mailto:htakeda@kanazawa-med.ac.jp">武田はるな</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.018">10.7875/first.author.2015.018</a><br><div class="reference"><br><span class="ti">Transposon mutagenesis identifies genes and evolutionary forces driving gastrointestinal tract tumor progression.</span><br><span class="au">Haruna Takeda, Zhubo Wei, Hideto Koso, Alistair G. Rust, Christopher Chin Kuan Yew, Michael B. Mann, Jerrold M. Ward, David J. Adams, Neal G. Copeland, Nancy A. Jenkins</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25559195" target="_blank"><em>Nature Genetics</em>, <strong>47</strong>, 142-150 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　筆者らは，大腸がんの形成にかかわる遺伝子を同定するために，マウスの生体においてランダムに遺伝子変異をひき起こすことのできる<em>Sleeping Beauty</em>挿入変異スクリーニング系を用いて，腸に腫瘍の形成を誘導した．これらの腫瘍から得られたゲノムの塩基配列を決定し挿入変異の部位を特定することにより，大腸がんの形成にかかわる1333個の候補遺伝子を同定し，さらに，がんの悪性化にかかわる遺伝子として6個を絞り込んだ．また，得られた遺伝子のひとつについてがん化能を機能的に評価することにより，新規の大腸がん抑制遺伝子として<em>ZNF292</em>遺伝子を同定した．<br/><br/><h2>はじめに</h2><br/>　大腸がんは世界で第2位の死亡率をしめるがんである．大腸がんは，<em>APC</em>遺伝子の両方のアリルへの変異により腫瘍の形成がはじまり，さらに，<em>KRAS</em>遺伝子，<em>SMAD4</em>遺伝子，<em>TP53</em>遺伝子への変異と，多段階的に遺伝子変異が積み重なることにより悪性化につながることが知られている<a href="#R1"><sup>1)</sup></a>．最近の大腸がんにおけるゲノムの塩基配列決定により，新しい大腸がん遺伝子が同定されたほか，腫瘍の組織は遺伝学的な異質性が高く，ひとつの大腸がんは70個以上もの遺伝子変異を含むことが明らかにされた<a href="#R2"><sup>2-4)</sup></a>．これらの遺伝子変異のうち，高頻度に検出されるのは<em>APC</em>遺伝子，<em>KRAS</em>遺伝子，<em>TP53</em>遺伝子などにおけるほんのひとにぎりであり，残りの多くは低頻度の遺伝子変異であった．こうした低頻度に変異の生じる遺伝子が，がんの形成に寄与するドライバー遺伝子なのか，がんの形成には寄与しないパッセンジャー遺伝子なのかを区別することは重要である．しかしながら，ゲノムの塩基配列決定のみからそれを明らかにすることはいまだ不可能である．そこで，筆者らは，マウスを用いて大腸がん遺伝子をスクリーニングし，ドライバー遺伝子のカタログを作成することを目的とした．<br/>　筆者らの用いた<em>Sleeping Beauty</em>挿入変異スクリーニング系は，DNAトランスポゾンを利用した遺伝学的な手法であり，マウスの生体において挿入変異をゲノムワイドに誘発し腫瘍の形成を誘導することができる<a href="#R5"><sup>5)</sup></a>．これまでの挿入変異導入系を用いた研究においては，変異原性のあるレトロウイルスをマウスに感染させることにより挿入変異をゲノムワイドに誘発してがん遺伝子をスクリーニングしてきたが，形成の誘導されるのは血球系のがんや乳がんが主で，そのほかのがんの形成はほとんど誘導できないという問題があった．近年，トランスポゾンを用いた挿入変異導入系が開発され，マウスの体細胞においてもがんの形成を誘導できるほど効率よく変異を誘発できるまでに改良されてきた．トランスポゾン<em>Sleeping Beauty</em>は，もともとは魚類に由来するが，人工的に変異を導入することにより活性をもつようになった．変異を導入することにより永い眠りから覚めてふたたび活性を示したことから<em>Sleeping Beauty</em>（眠れる森の美女）と名づけられている<a href="#R6"><sup>6)</sup></a>．この<em>Sleeping Beauty</em>を用いた挿入変異導入系のほか，トランスポゾン<em>Piggy Bac</em>を用いた挿入変異導入系も開発されている．これらの挿入変異導入系を用いることにより，肝臓がん，大腸がん，すい臓がんなど，ヒトに頻発するさまざまなタイプの固形がんの形成を誘導することが可能になり，がんの形成にかかわる遺伝子の同定に成功している<a href="#R7"><sup>7-9)</sup></a>．<br/>　<em>Sleeping Beauty</em>挿入変異スクリーニング系は，ゲノムを転移するDNA断片であるトランスポゾンと，その転移を触媒する酵素であるトランスポザーゼから構成される（<a href="#F1">図1a</a>）．トランスポゾンは遺伝子の上流に挿入された場合にはその過剰な発現を誘導でき，遺伝子の内部に挿入された場合にはその機能を欠損させることができるようにしてある．このように，トランスポゾンの挿入のパターンから，遺伝子が活性化されることによりがん化に寄与しているのか，あるいは，遺伝子の機能を欠損することによりがん化に寄与しているのかが推定できる（<a href="#F1">図1b</a>）．さらに，ドライバー遺伝子に変異が導入された場合には変異が選択的に保持されるため，その遺伝子変異が増幅されるが，パッセンジャー遺伝子にトランスポゾンが挿入された場合にはまた別の部位に転移するため，ドライバー遺伝子を効率よくスクリーニングすることが可能である．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　<em>Sleeping Beauty</em>挿入変異スクリーニング系</strong><br/>（a）ゲノムを転移するDNA断片であるトランスポゾンと，その転移を触媒する酵素であるトランスポザーゼ（SBase）から構成される．トランスポザーゼは上流に<em>lox</em>配列-終止コドン-<em>lox</em>配列をもつかたちで<em>ROSA26</em>遺伝子座にノックインされており，その発現をコンディショナルに制御できる．トランスポゾンは遺伝子発現を誘導するMSCVプロモーターおよびスプライスドナー（SD），また，遺伝子発現を阻害するスプライスアクセプター（SA）およびポリA配列（pA）をもち，数百コピーが導入されている．トランスポザーゼはトランスポゾンの両端にあるくり返し配列を認識してその転移を触媒する．<br/>（b）トランスポゾンが遺伝子の上流に挿入された場合には遺伝子の過剰な発現を誘導し，遺伝子の内部に挿入された場合には遺伝子の機能を欠損させる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takeda-Nature-Genetics-15.1.27-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　<em>Sleeping Beauty</em>挿入変異スクリーニング系" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takeda-Nature-Genetics-15.1.27-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takeda-Nature-Genetics-15.1.27-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．マウスの生体における<em>Sleeping Beauty</em>挿入変異スクリーニング</h2><br/>　マウスの腸上皮に特異的にトランスポゾンを導入して遺伝子変異を誘発した．腫瘍の形成の効率を上げるため，ヒトの大腸がんにおいて高頻度に変異が検出される<em>Apc</em>遺伝子，<em>Kras</em>遺伝子，<em>Smad4</em>遺伝子，<em>p53</em>遺伝子にそれぞれあらかじめ変異を導入したマウスのグループを用意した．おのおののグループにおいて，トランスポゾンを導入した場合には導入しない場合と比べ寿命が短くなり腫瘍の数が増加したことから，トランスポゾンによる挿入変異が腫瘍の形成を促進したことが確認された．<br/>　これらのマウス152匹から666個の腫瘍が得られた．腫瘍からゲノムDNAを抽出し，次世代シークエンサーを用いて塩基配列を決定することによりトランスポゾンの挿入部位を同定した．これをマウスのゲノムにマッピングし，統計学的な手法を用いて1383個の共通する挿入部位を同定した．そのうち，1333個が遺伝子の近傍にマッピングされた．これらの遺伝子をヒトの大腸がん遺伝子のデータベースと比較したところ，有意に重複がみられたことから，大腸がん遺伝子が効率的に同定されたことが示された．<br/><br/><h2>2．高頻度に遺伝子変異の生じていたシグナル伝達経路</h2><br/>　同定された1333個の遺伝子のうち，もっとも高頻度に変異が生じていたのは，ヒトの大腸がんにおいても変異が多く検出されるWnt経路およびTGFβ経路においてであった．たとえば，Wnt経路に注目すると，あらかじめ異なる遺伝子変異をもつ4つのグループにおいて，Wnt経路において変異の生じた腫瘍の割合は100％に近かった．しかし，変異の生じた遺伝子はそれぞれのグループにおいて異なっていた．<em>Apc</em>遺伝子，<em>Kras</em>遺伝子，<em>p53</em>遺伝子にあらかじめ変異をもつグループでは80％以上の腫瘍において<em>Apc</em>遺伝子に機能欠失型の変異が生じていた．<em>APC</em>遺伝子はヒトの大腸がんにおいても80％以上に変異が生じており，大腸においてもっとも重要な腫瘍抑制遺伝子であり，APCの機能が欠失することによりWnt経路の活性化がひき起こされることが知られている．一方，あらかじめ<em>Smad4</em>遺伝子に変異をもつグループでは<em>Rspo1</em>遺伝子および<em>Rspo2</em>遺伝子の過剰な発現が生じていた．Rspo1およびRspo2はWnt経路のアゴニストであり，その過剰な発現はWnt経路を活性化することが知られている．なぜ，<em>Smad4</em>遺伝子の変異と<em>Rspo1</em>遺伝子および<em>Rspo2</em>遺伝子の過剰発現とが腫瘍の形成の過程において協調作用を示すのかは不明であったが，ヒトの大腸がんにおいても，<em>APC</em>遺伝子には変異がないが<em>RSPO</em>遺伝子の過剰発現のある腫瘍において，<em>SMAD4</em>遺伝子の欠失あるいは発現の抑制がみられる場合がある．このように，がん化の過程の早い段階において獲得された遺伝子変異が，のちの遺伝子変異の蓄積のしかたに影響しており，悪性化に進むシグナル伝達経路や遺伝子変異の組合せはひとつではなく何通りかあることが示された．<br/><br/><h2>3．悪性度の高いがんにおいて高頻度に生じる遺伝子変異の同定</h2><br/>　大腸がんの悪性化にかかわる遺伝子をスクリーニングするため，悪性度の低い腫瘍と高い腫瘍とを病理学的に分類し，悪性度の高い腫瘍において高頻度に変異の生じている遺伝子をスクリーニングした．その結果，あらかじめ<em>Kras</em>遺伝子に変異をもつグループにおいては，ErbB経路の負の制御タンパク質をコードする<em>Lrig1</em>遺伝子やWnt経路の負の制御タンパク質をコードする<em>Axin1</em>遺伝子などが同定された．Lrig1ノックアウトマウスは腸に浸潤性の腫瘍を形成する．これらの遺伝子は機能欠失型の変異を生じていたことから，腫瘍抑制遺伝子としてがんの悪性化にかかわっていることが示された．また，あらかじめ<em>p53</em>遺伝子に変異をもつグループにおいては，19個の遺伝子に高頻度に変異が生じていた．これらの遺伝子はすべて腫瘍抑制遺伝子としてがんの悪性化にかかわっていることが示された．これらの遺伝子をさらに機能的に評価するため，大腸がん細胞株においてsiRNAを用いてノックダウンしてマトリゲルにおける浸潤度を評価したところ，6個の遺伝子はノックダウンにより有意な浸潤能の促進を示した．これらの遺伝子には，最近，大腸がんにおいて高頻度に変異の生じていることが報告された<em>Rnf43</em>遺伝子も含まれていた．これらの遺伝子は，がんの悪性化の過程において，とくに，がん細胞が浸潤していく過程に機能している可能性が考えられた．<br/><br/><h2>4．新規の大腸がん遺伝子の同定</h2><br/>　4つのグループから共通して同定された遺伝子は，がん化におけるどのシグナル伝達経路においても重要な遺伝子だと考えられた．共通して同定された111個の遺伝子のうち，ヒトの大腸がんにおいても変異が検出されているが，がん化における機能は未知であった<em>Zfp292</em>遺伝子を選び，過去に報告のあるがん化能を評価する実験系<a href="#R10"><sup>10)</sup></a> を用いて評価した．この<em>Zfp292</em>遺伝子は肝がん遺伝子の<em>Sleeping Beauty</em>挿入変異スクリーニングにおいても同定されており，さまざま臓器における腫瘍抑制遺伝子である可能性が考えられた．<em>Zfp292</em>遺伝子は機能欠失型の変異を生じていたことから腫瘍抑制遺伝子であることが示唆されたため，マウスに移植してもがん化しない細胞株に<em>Zfp292</em>遺伝子に対するshRNAを導入し，この細胞をマウスに移植したところ細胞はがん化能を獲得し腫瘍を形成した．この結果から，<em>Zfp292</em>遺伝子は腫瘍抑制遺伝子であることが証明された．<br/><br/><h2>おわりに</h2><br/>　<em>Sleeping Beauty</em>挿入変異スクリーニングは肝臓や膵臓を含むさまざまな組織において行われており，現在，これらのスクリーニングにより同定されたがん遺伝子のデータベースが構築中のようである．これらのデータベースは，ヒトのがんにおけるゲノムの塩基配列決定から同定された遺伝子変異のデータベースと比べあわせ，ヒトとマウスとに保存されたがん遺伝子を同定する比較ゲノム学の手法を用いることにより，どの遺伝子がドライバー遺伝子なのかを決める有用なデータセットになるだろう．<br/>　今回の研究において，<em>Sleeping Beauty</em>挿入変異スクリーニング系はがん遺伝子の同定に用いることができるのみならず，遺伝子変異がどのように積み重なりがんの悪性化へと進んでいくかを理解するためにも有用であることが示された．今後は，今回のスクリーニングにより同定された多くの新規の遺伝子に対してひとつひとつ実験的にがん化能を評価することにより，大腸がんにおけるドライバー遺伝子のカタログを作成していきたい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Fearon, E. R. & Vogelstein, B.</span>: <span class="ti">A genetic model for colorectal tumorigenesis.</span> <span class='so'>Cell, 61, 759-767 (1990)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2188735" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Cancer Genome Atlas Network</span>: <span class="ti">Comprehensive molecular characterization of human colon and rectal cancer.</span> <span class='so'>Nature, 487, 330-337 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22810696" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Wood, L. D. Parsons, D. W., Jones, S. et al.</span>: <span class="ti">The genomic landscapes of human breast and colorectal cancers.</span> <span class='so'>Science, 318, 1108-1113 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17932254" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Seshagiri, S., Stawiski, E. W., Durinck, S. et al.</span>: <span class="ti">Recurrent R-spondin fusions in colon cancer.</span> <span class='so'>Nature, 488, 660-664 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22895193" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Dupuy, A. J., Akagi, K., Largaespada, D. A. et al.</span>: <span class="ti">Mammalian mutagenesis using a highly mobile somatic <em>Sleeping Beauty</em> transposon system.</span> <span class='so'>Nature, 436, 221-226 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16015321" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Copeland, N. G. & Jenkins, N. A.</span>: <span class="ti">Harnessing trasnposons for cancer gene discovery.</span> <span class='so'>Nat. Rev. Cancer, 10, 696-706 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20844553" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>March, H. N., Rust, A. G., Wright, N A. et al.</span>: <span class="ti">Insertional mutagenesis identifies multiple networks of cooperating genes driving intestinal tumorigenesis.</span> <span class='so'>Nat. Genet., 43, 1202-1209 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22057237" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Starr, T. K., Allaei, R., Silverstein, K. A. et al.</span>: <span class="ti">A transposon-based genetic screen in mice identifies genes altered in colorectal cancer.</span> <span class='so'>Science, 323, 1747-1750 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19251594" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Bard-Chapeau, E. A., Nguyen, A. T., Rust, A. G. et al.</span>: <span class="ti">Transposon mutagenesis identifies genes driving hepatocellular carcinoma in a chronic hepatitis B mouse model.</span> <span class='so'>Nat. Genet., 46, 24-32 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24316982" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Zender, L., Xue, W., Zuber, J. et al.</span>: <span class="ti">An oncogenomics-based <em>in vivo</em> RNAi screen identifies tumor suppressors in liver cancer.</span> <span class='so'>Cell, 135, 852-864 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19012953" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">武田 はるな（Haruna Takeda）</span><br>略歴：2007年京都大学大学院医学研究科博士課程 修了，同年 シンガポールInstitute of Molecular and Cell Biology, Agency for Science, Technology and Research研究員，2012年 東京大学大学院医学系研究科 研究員を経て，2014年より金沢医科大学 助教．<br>抱負：これからも新しい研究テーマに挑戦していきたい．<br></div><br>© 2015 武田 はるな Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

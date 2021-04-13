@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ホヤの胚における神経管の閉鎖にともなう同調分裂からパターン分裂への遷移には発生プログラムによる細胞周期の補償的な制御がはたらく : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>ホヤの胚における神経管の閉鎖にともなう同調分裂からパターン分裂への遷移には発生プログラムによる細胞周期の補償的な制御がはたらく</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>小椋陽介・笹倉靖徳</strong><br>（筑波大学下田臨海実験センター）<br>email：<a href="mailto:ogura@cdb.riken.jp">小椋陽介</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.035">10.7875/first.author.2016.035</a><br><div class="reference"><br><span class="ti">Developmental control of cell-cycle compensation provides a switch for patterned mitosis at the onset of chordate neurulation.</span><br><span class="au">Yosuke Ogura, Yasunori Sasakura</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27093084" target="_blank"><em>Developmental Cell</em>, <strong>37</strong>, 148-161 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　脊索動物であるホヤにおいて，表皮細胞の細胞分裂は神経管の閉鎖の開始の直前まで同調性を保っているが，神経管の閉鎖の開始と同じ時期に前後軸にそった非同調的なパターン分裂へと遷移する．筆者らは，表皮細胞における最後の同調分裂において，S期がパターン分裂と同じ非同調性をもつことを見い出し，また，その非同調性がG2期の非同調性により相殺されることにより細胞分裂の同調性が維持されていることを発見した．このように，非同調的なS期がG2期により補償される細胞周期の制御は，細胞分裂の非同調性を同調分裂の時期からあらかじめ準備することを可能にし，パターン分裂を正確なタイミングで開始させるはたらきをもっていた．さらには，G2期を制御する<em>cdc25</em>遺伝子が転写因子であるGATAおよびAP-2のはたらきにより前後軸にそって非対称な発現を示すことが明らかにされた．GATAおよびAP-2の機能を阻害した胚においてはG2期によるS期の補償が起こらず，非同調的な分裂が神経管の閉鎖が開始するまえから生じ神経管の閉鎖が不全になった．このことから，非同調的な分裂の開始のタイミングは神経管の閉鎖の正確な進行のため，発生プログラムにより神経管の閉鎖の開始の時期に厳密に限定されることが示された．<br/><br/><h2>はじめに</h2><br/>　動物においては，一般に発生の初期において同調した細胞分裂が短時間にくり返されることにより細胞の数が急激に増加する．細胞分裂の同調性は発生が進むにつれしだいに失われ，やがて，組織ごとに特徴的な時空間パターンにより細胞分裂が進行するようになる<a href="#R1"><sup>1)</sup></a>．このようなパターン分裂は細胞分化や形態形成運動を秩序だてて進めるために重要である<a href="#R2"><sup>2)</sup></a>．しかし，同調分裂がパターン分裂へと遷移する際に，細胞周期のどの位相がおもに制御をうけるかについては十分に理解されていない．脊索動物に属するホヤにおいては，脊椎動物と同様に，背側中線において神経板がおりたたまれることにより背側神経管が形成される<a href="#R3"><sup>3,4)</sup></a>（<a href="#F1">図1</a>）．神経管の閉鎖はこれまでおもにマウスの胚を中心として研究が進められてきたが<a href="#R5"><sup>5)</sup></a>，細胞分裂のパターンの制御の役割については理解が十分ではない．細胞の数が少なく体制が単純なホヤの胚においては，細胞周期と神経管の閉鎖のタイミングの明確な対応づけが可能である<a href="#R6"><sup>6)</sup></a>．ホヤの表皮細胞における細胞分裂は，神経管の閉鎖の開始の際に同調分裂から前後軸にそったパターン分裂へと切り替わる．筆者らは，この細胞分裂のパターンの遷移の前後において，S期およびG2期の長さを生細胞イメージングを駆使して表皮の全長にわたり解析し，細胞分裂のパターンの遷移の機構を明らかにした．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　神経管の閉鎖にともなう表皮細胞における細胞分裂のパターン化</strong><br/>（a）原腸胚期．前後軸にわたりS期+ G2期の長さは同じ程度だが，S期とG2期の長さの比率が異なる．<br/>（b）神経胚期．S期の長さは前方ほど長くG2期の長さは一定なため，結果として，S期+ G2期の長さが前方ほど長くなる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ogura-Developmental-Cell-16.4.18-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　神経管の閉鎖にともなう表皮細胞における細胞分裂のパターン化" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ogura-Developmental-Cell-16.4.18-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ogura-Developmental-Cell-16.4.18-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．原腸胚の表皮での同調分裂において前後軸にそったS期のパターンがG2期により補償される</h2><br/>　筆者らは，以前に，細胞周期の進行にともなうユビキチン-プロテアソーム系によるタンパク質分解を利用したFucciとよばれる細胞周期プローブを用いて，G1期とS期+ G2期を区別した．その結果，ホヤの胚の表皮細胞における細胞周期の間期はG1期をほとんど含まずS期およびG2期からなること，神経管の閉鎖の際にはG2期の伸長にともない細胞周期が顕著に長くなることが示された<a href="#R6"><sup>6)</sup></a>．また，表皮細胞の原腸胚期における最後の細胞分裂（受精から数えて10回目の細胞分裂）は同調して起こるが，神経管の閉鎖の直後に起こる11回目の細胞分裂は神経管の閉鎖と同じ方向性をもって後方から前方にむかい波のように進行することが明らかにされた（<a href="#F1">図1</a>）．その一方で，S期とG2期とを明確に区別ができないことがこの研究の限界であった．<br/>　今回の研究においては，GFPを融合したPCNAの核への局在を利用してS期とG2期とを区別することにより，S期およびG2期の長さの制御と細胞分裂のパターンとの関係について調べた．その結果，非同調的な11回目の細胞分裂において，後方の細胞のほうがS期の長さが短く，前方の細胞のほうがS期が長い，というパターンがみられた．G2期にはそのようなパターンは確認されなかった．つまり，11回目の非同調的な細胞分裂のパターンはS期の長さにより制御されることが判明した．細胞分裂の同調性が失われる直前の10回目の細胞分裂においても解析したところ，S期の長さが後方から前方へむかうほど長いことは11回目の細胞分裂と同じであったが，反対に，G2期の長さは前方から後方へむかうほど長くなっていた．つまり，原腸胚においては細胞周期の合計の長さは前後軸にわたり一定だが，S期はすでに神経胚における細胞分裂のパターンを予期するパターンをかたちづくっており，S期がG2期により補償されることにより同調性を保っていた（<a href="#F1">図1</a>）．<br/><br/><h2>2．S期のパターンを補償するG2期の制御は同調性を保ったまま細胞分裂の非同調性を準備する役割をもつ</h2><br/>　S期における細胞分裂の非同調性を補償するG2期の役割を明らかにするため，G2期からM期への移行を促進する<em>cdc25</em>遺伝子（分裂酵母の<em>cdc25</em>遺伝子と相同）に注目した．原腸胚においては<em>cdc25</em>遺伝子が表皮の前方にいくほど強く発現しており（<a href="#F2">図2</a>），この時期にG2期が前方にいくほど短いことと対応していた．前後軸にそった<em>cdc25</em>遺伝子の発現の非対称性を<em>cdc25</em>遺伝子の過剰発現により失わせたところ，細胞分裂がS期の長さに応じたパターンで起こった．この実験の結果は，表皮の前方にいくほど短くなるG2期のパターンがS期のパターンを相殺するという考えを支持した．このようなG2期における制御は，細胞分裂の同調性を保ったまま，S期のパターン化によりひとつまえの細胞周期から細胞分裂のパターンの変化を準備する役割をもつと考えられた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　前後軸に非対称な<em>cdc25</em>遺伝子の発現</strong><br/>（a）原腸胚期．表皮における<em>cdc25</em>遺伝子の発現は前方にピークをもつ．<br/>（b）神経胚期．表皮の全体において<em>cdc25</em>遺伝子の発現量は低下し，発現のパターンにも前後の差がみられなくなる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ogura-Developmental-Cell-16.4.18-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　前後軸に非対称な<em>cdc25</em>遺伝子の発現" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ogura-Developmental-Cell-16.4.18-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ogura-Developmental-Cell-16.4.18-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．前後軸に非対称な<em>cdc25</em>遺伝子の発現は発生プログラムにより制御されている</h2><br/>　前後軸に対して非対称な<em>cdc25</em>遺伝子の発現は発生プログラムにより制御されているのだろうか？　この疑問に答えるため，表皮における<em>cdc25</em>遺伝子の発現を制御するシス制御領域をクローニングしてそこに結合する転写因子を探索したところ，原腸胚の表皮において前後軸にそった非対称な発現を示すGATAおよびAP-2の関与が示唆された．GATAおよびAP-2はホヤや脊椎動物において表皮の分化に必須の役割をはたすことが知られている転写因子である<a href="#R7"><sup>7,8)</sup></a>．GATAおよびAP-2の機能を阻害した胚においては<em>cdc25</em>遺伝子の非対称な発現が消失したことから，GATAおよびAP-2の前後軸に非対称な発現が原腸胚の表皮における<em>cdc25</em>遺伝子の発現を制御することが明らかにされた．GATAおよびAP-2の発現は神経胚期には消失し，これは，神経胚において<em>cdc25</em>遺伝子の前後軸に非対称な発現が消失する（<a href="#F2">図2</a>）ことと一致した．実際に，GATAおよびAP-2の機能を阻害した胚においてはG2期によるS期の長さの補償の機構がはたらかなくなり，10回目の細胞分裂がS期の長さに応じたパターンで起こった．このように，前後軸に非対称な<em>cdc25</em>遺伝子の発現は表皮の発生プログラムにより制御されており，GATAおよびAP-2の発現の低下が同調分裂からパターン分裂への遷移のタイミングを制御すると考えられた．<br/><br/><h2>4．補償的なG2期は細胞分裂を神経管の閉鎖と協調させるために必要である</h2><br/>　GATAおよびAP-2の機能を阻害した胚においては神経管の閉鎖の進行に遅れがみられたことから，補償的なG2期が細胞分裂を神経管の閉鎖と協調させるために重要であることが考えられた．なぜ同調分裂からパターン分裂への遷移のタイミングは神経管の閉鎖と協調する必要があるのだろうか？　この点を明らかにするため，神経管の閉鎖にともない神経板と表皮の境界に集積するアクチン線維<a href="#R4"><sup>4,6)</sup></a> に注目した．その結果，GATAおよびAP-2の機能の阻害により補償的なG2期を失わせた胚においては，アクチン線維の集積が神経管の閉鎖のタイミングにて起こらなかった．一般に，細胞分裂期においては形態形成運動に必要なアクチン線維が細胞質分裂のために再編成されることにより形態形成運動が阻害される<a href="#R2"><sup>2)</sup></a>．非同調な細胞分裂が異時的に早く起こると，表皮細胞においてアクチン線維が継続的に細胞分裂のために再編成され，結果として，神経管の閉鎖における形態形成運動を阻害すると考えられた．そのため，表皮細胞はS期のパターンを補償するG2期の制御により神経管の閉鎖の開始の直前まで同調分裂を維持しているのだろう．<br/><br/><h2>おわりに</h2><br/>　この研究においては，同調分裂がパターン分裂へと遷移する過程におけるS期およびG2期のそれぞれの寄与を解析することにより，S期が細胞分裂のパターンを準備し，G2期がパターン分裂の生じるタイミングを制御していることが明らかにされた．今回，明らかにされた細胞分裂のパターンの制御は，これまでよく調べられてきたG2期からM期への移行にもとづく制御<a href="#R9"><sup>9,10)</sup></a> とは大きく異なり，ひとつまえの細胞周期から細胞分裂のパターンを準備することが可能であった．そのような制御は，細胞分裂のタイミングの正確さが要求される神経管の閉鎖における形態形成運動に発生プログラムが最適化された結果として獲得されたのかもしれない．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Budirahardja, Y. & Gonczy, P.</span>: <span class="ti">Coupling the cell cycle to development.</span> <span class='so'>Development, 136, 2861-2872 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19666818" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Duncan, T. & Su, T. T.</span>: <span class="ti">Embryogenesis: coordinating cell division with gastrulation.</span> <span class='so'>Curr. Biol., 14, R305-R307 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15084299" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Nicol, D. & Meinertzhagen, I. A.</span>: <span class="ti">Development of the central nervous system of the larva of the ascidian, <em>Ciona intestinalis</em> L. II. Neural plate morphogenesis and cell lineages during neurulation.</span> <span class='so'>Dev. Biol., 130, 737-766 (1988)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/3197930" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Hashimoto, H., Robin, F. B., Sherrard, K. M. et al.</span>: <span class="ti">Sequential contraction and exchange of apical junctions drives zippering and neural tube closure in a simple chordate.</span> <span class='so'>Dev. Cell, 32, 241-255 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25625209" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Copp, A. J., Stanier, P. & Greene, N. D.</span>: <span class="ti">Neural tube defects: recent advances, unsolved questions, and controversies.</span> <span class='so'>Lancet Neurol., 12, 799-810 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23790957" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Ogura, Y., Sakaue-Sawano, A. & Nakagawa, M.</span>: <span class="ti">Coordination of mitosis and morphogenesis: role of a prolonged G2 phase during chordate neurulation.</span> <span class='so'>Development, 138, 577-587 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21205801" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Rothbacher, U., Bertrand, V., Lamy, C. et al.</span>: <span class="ti">A combinatorial code of maternal GATA, Ets and β-catenin-TCF transcription factors specifies and patterns the early ascidian ectoderm.</span> <span class='so'>Development, 134, 4023-4032 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17965050" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Luo, T., Matsuo-Takasaki, M., Thomas, M. L. et al.</span>: <span class="ti">Transcription factor AP-2 is an essential and direct regulator of epidermal development in Xenopus.</span> <span class='so'>Dev. Biol., 245, 136-144 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11969261" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Edgar, B. A., Lehman, D. A. & O’Farrell, P. H.</span>: <span class="ti">Transcriptional regulation of string (cdc25): a link between developmental programming and the cell cycle.</span> <span class='so'>Development, 120, 3131-3143 (1994)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7720557" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Di Talia, S. & Wieschaus, E. F.</span>: <span class="ti">Short-term integration of Cdc25 dynamics controls mitotic entry during <em>Drosophila</em> gastrulation.</span> <span class='so'>Dev. Cell, 22, 763-774 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22483720" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=可視化" target="_blank">可視化</a></li><br></ul><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">小椋 陽介（Yosuke Ogura）</span><br>略歴：2014年 筑波大学大学院生命環境科学研究科 修了，同年より理化学研究所多細胞システム形成研究センター 研究員．<br>研究テーマ：形態形成運動の時空間制御．<br>関心事：組織や器官が再現性よくかたちづくられるための巧妙なしくみを知りたいと考えており，とくに，形態形成運動や細胞分裂などの制御にかかわる細胞骨格の時空間制御に関心があります．<br><br><strong>笹倉 靖徳（Yasunori Sasakura）</strong><br>筑波大学生命環境系 教授．<br></div><br>© 2016 小椋陽介・笹倉靖徳 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

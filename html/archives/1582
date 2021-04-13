@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 根端において細胞分裂から細胞分化への移行を制御する新規の転写因子UPB1 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>根端において細胞分裂から細胞分化への移行を制御する新規の転写因子UPB1</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>塚越 啓央</strong><br>（米国Duke大学Department of Biology）<br>email：<a href="mailto:hironaka.tsukagoshi@duke.edu">塚越啓央</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2010.060">10.7875/first.author.2010.060</a><br><div class="reference"><br><span class="ti">Transcriptional regulation of ROS controls transition from proliferation to differentiation in the root.</span><br><span class="au">Hironaka Tsukagoshi, Wolfgang Busch & Philip N. Benfey</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21074051" target="_blank"><em>Cell</em>, <strong>143</strong>, 606-616 (2010)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　細胞分裂と細胞分化とのバランスを適切に保つことは多細胞生物の正常な成長における鍵である．高等植物においては，根と地上部の先端に存在するメリステム領域にて細胞は分裂をくり返し，一定の細胞数に達すると細胞の体積が増加し急激な細胞伸長を示す．この細胞機能の劇的な転換には多数の遺伝子の発現変動をともなう転写カスケードと転写ネットワークが関与しているものと考えられる．遺伝子の発現を上位で制御する転写因子を同定しその機能を解明することで，細胞分裂の活性を抑制し細胞伸長へと転換させる分子機構，植物器官のかたちづくりの制御機構を分子レベルで明らかにすることができ，ひいては，植物バイオマスの効率的な生産にも貢献できると考えられる．筆者らは，マイクロアレイを用いた根の詳細な遺伝子発現地図を用い，UPB1と名づけた新規の転写因子が根のメリステム領域のサイズの決定に重要な役割をはたしていることを見い出した．<em>UPB1</em>破壊株や<em>UPB1</em>過剰発現株のマイクロアレイ解析とChIP-chip解析によりUPB1の標的遺伝子をゲノムワイドに探索したところ，UPB1はペルオキシダーゼの発現を介して活性酸素種シグナルを制御していることが明らかになった．活性酸素種の染色実験からO<sub>2</sub><sup>-</sup>はメリステム領域に，H<sub>2</sub>O<sub>2</sub>は細胞伸長領域に蓄積していたが，<em>UPB1</em>破壊株ではこの分布のバランスが乱れていた．さらに，UPB1は植物ホルモンのオーキシンやサイトカイニンとは独立した転写カスケードと転写ネットワークを制御していることが示唆された．以上の結果から，少なくとも2種類の活性酸素種の根端における空間的な分布が細胞の分裂から分化への機能転換，ひいては，メリステム領域のサイズの決定に重要であり，UPB1はペルオキシダーゼの発現を制御することで根端における細胞機能の転換バランスを正常に維持しているものと結論された．<br/><br/><h2>はじめに</h2><br/>　多細胞生物では細胞分裂と細胞分化とのバランスを適切に保つことが正常な成長にきわめて重要である．動物においてはこのバランスが崩れるとがんがひき起こされると考えられる．植物では根および地上部の先端より供給される幹細胞から組織が連続的に形成されるため，このバランスが崩れることで未成熟な生育や異常な形態形成が起こる．シロイヌナズナの根端は長軸方向にメリステム領域と細胞伸長領域の2つの領域に大別される（<a href="#F1">図1</a>）．メリステム領域は細胞分裂の活性の高い細胞を供給しているが，細胞伸長領域では細胞分裂の活性は低下している．通常，メリステム領域の細胞数とサイズはほぼ一定に保たれているが，細胞伸長領域の細胞は長軸方向へ急激に肥大して根が伸長する．この過程はメリステム領域と細胞伸長領域との境界に存在する位置情報により制御されているものと考えられ，植物ホルモンであるオーキシンとサイトカイニンを介した転写因子によるこの境界領域における急激な細胞の機能転換の重要性が報告されている<a href="#R1"><sup>1)</sup></a>．しかし，植物ホルモンによる制御のみが細胞の機能転換に重要であるかどうかについては不明な点が多く，植物ホルモンとは異なる制御機構のひとつとしてレドックスシグナルがメリステム領域の活性を保つことも報告されている<a href="#R2"><sup>2,3)</sup></a>．動物においても活性酸素種の空間的な分布が細胞の静止状態と分化状態との機能転換のシグナル伝達物質としてはたらいていることが示されている<a href="#R4"><sup>4)</sup></a>．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　シロイヌナズナの根端のようす</strong><br/>野生型株と<em>UPB1</em>破壊株との比較．シロイヌナズナの根端はメリステム領域と細胞伸長領域とに大別される．緑色の矢尻は静止中心細胞，ピンク色の矢印はメリステム領域の終末，水色の矢印は細胞伸長領域の終末を示す．<em>UPB1</em>破壊株ではメリステム領域が顕著に大きくなっている．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsukagoshi-Cell-10.11.11-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　シロイヌナズナの根端のようす" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsukagoshi-Cell-10.11.11-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsukagoshi-Cell-10.11.11-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　筆者らは，この境界情報に依存した細胞機能の転換を上位で制御する転写因子を同定し解析することからこの急激な細胞機能の転換の分子機構を解明しようと試みた．以下に，UPB1と命名した根の伸長を負に制御する新規の転写因子の単離とその機能解析から，細胞伸長において活性酸素種のかかわる新規な転写ネットワークの存在を明らかにした研究を紹介する．<br/><br/><h2>1．転写因子UPB1の発見とその変異株の表現型</h2><br/>　筆者の所属する研究室では，シロイヌナズナの根を長軸方向へ12の部位に切断しおのおのの部位から抽出したRNAによる大規模なマイクロアレイ解析を2007年に完了している<a href="#R5"><sup>5)</sup></a>．この詳細な根における遺伝子発現データセットを用い，メリステム領域と細胞伸長領域との境界で遺伝子発現のピークを示す約100の転写因子の遺伝子を選抜した．これら候補遺伝子の遺伝子破壊株を入手し，根の長さやメリステム領域の細胞数を基準にスクリーニングを行い，根の伸長に顕著な異常を示す遺伝子破壊株1株を発見した．この遺伝子破壊株のメリステム領域の細胞数は野生型株よりも多く，そのため根の全体が長くなっていた（<a href="#F1">図1</a>）．一方，この遺伝子を過剰発現させるとメリステム領域は小さくなった．さらに，この遺伝子のプロモーター領域とGFPとの融合遺伝子を野生型株で発現させたところ，GFPの蛍光は根端の最外層である根冠細胞かつメリステム領域と細胞伸長領域との境界領域というきわめて局所的な部位で特異的に検出されたため，この遺伝子の産物は根のメリステム領域のサイズを負に制御している転写因子であると推測され，この遺伝子を<em>UPBEAT1</em>（<em>UPB1</em>）遺伝子と名づけた．<br/>　興味深いことに，UPB1とGFPとの融合タンパク質を<em>UPB1</em>遺伝子プロモーターの下流で発現させた形質転換株において根冠細胞での蛍光は観察されなかったが，細胞伸長領域のすべての細胞種の核でGFPの蛍光が観察された．UPB1はbHLH様のDNA結合ドメインをもち102アミノ酸残基からなる低分子であることから，UPB1は根の細胞のあいだを受動的に拡散している可能性が考えられた．そこで，YFPを3個直列につないだ分子量の大きな3YFPとUPB1との融合タンパク質を発現させたところ根冠細胞においても蛍光が観察された．これらの結果は，UPB1が細胞分裂領域の根冠細胞から細胞伸長領域の細胞へと輸送されて，根冠細胞と一次根の細胞間コミュニケーションをつかさどる転写因子として機能している可能性を示唆した．<br/><br/><h2>2．UPB1によって制御される遺伝子の同定と直接の標的遺伝子の探索</h2><br/>　UPB1の制御する遺伝子の同定を目的に，<em>UPB1</em>破壊株，<em>UPB1</em>過剰発現株および野生型株のメリステム領域と細胞伸長領域についてマイクロアレイ解析を行った．メリステム領域では<em>UPB1</em>破壊株と野生型株とのあいだで遺伝子発現の変動はほとんど検出されなかったが，細胞伸長領域では多数の遺伝子の発現が統計的に有意な変動を示した．一方，<em>UPB1</em>過剰発現株と野生型株とのあいだではメリステム領域での遺伝子発現の変化が顕著であった．これはUPB1がおもに細胞伸長領域で機能していることを示唆していた．また，細胞壁合成系遺伝子群，フェニルプロパノイド合成系遺伝子群といった細胞伸長にかかわる遺伝子が有意に脱抑制されていることも示された．もっとも顕著な脱抑制をうけていたのはペルオキシダーゼ遺伝子群であった．興味深いことに，オーキシンやサイトカイニンといったメリステム領域のサイズの決定に重要な役割をはたす植物ホルモン応答遺伝子群の発現の変化は有意に濃縮されてはこなかった．<br/>　UPB1とGFPとの融合遺伝子を導入した植物を用いたクロマチン免疫沈降（chromatin immunoprecipitation：ChIP）法とゲノムマイクロアレイ解析とを組み合わせたChIP-chip法により，UPB1は実際に3つのペルオキシダーゼ遺伝子のプロモーター領域に結合することがわかった．UPB1の標的となるペルオキシダーゼ遺伝子（<em>Per57</em>遺伝子）の過剰発現株を作製すると<em>UPB1</em>破壊株ほどではないが根端のメリステム領域のサイズが大きくなった．また，これとは異なるペルオキシダーゼの過剰発現株も根が長くなると報告されている<a href="#R6"><sup>6)</sup></a>．これらの結果から，UPB1は<em>Per57</em>遺伝子の発現を直接に抑制することでメリステム領域のサイズを制御しているものと考えられた．現在までに，ペルオキシダーゼとその基質である活性酸素種の細胞伸長にかかわる詳細な分子機構は報告されていないが，活性酸素種もペルオキシダーゼの活性阻害剤も同様にシロイヌナズナの伸長を阻害することから<a href="#R3"><sup>3)</sup></a>，両者は植物のサイズを規定する重要な因子であると考えられる．<br/>　UPB1によって発現の活性化される遺伝子としてサイクリンBやサイクリンDといった細胞周期に関連するタンパク質の遺伝子も有意に濃縮されたが，ChIP-chip法による解析からは細胞周期に関連する遺伝子プロモーター領域は検出されず，UPB1の直接の標的遺伝子ではない可能性が高いものと考えられた．<br/><br/><h2>3．活性酸素種の根端における分布は細胞分裂と細胞分化のバランスを保つ鍵となる</h2><br/>　活性酸素種のひとつである過酸化水素（H<sub>2</sub>O<sub>2</sub>）はメリステム領域のサイズを小さくし，H<sub>2</sub>O<sub>2</sub>のスカベンジャーであるヨウ化カリウムはメリステム領域のサイズを大きくする．しかし，これらは<em>UPB1</em>破壊株では大きな効果を示さなかった．野生型株および<em>UPB1</em>破壊株ともにペルオキシダーゼの活性阻害剤によってメリステム領域のサイズが小さくなることから，ペルオキシダーゼの活性と活性酸素種の濃度は根端のメリステム領域のサイズを規定する重要な因子であると考えられた．H<sub>2</sub>O<sub>2</sub>を染色する蛍光色素によりH<sub>2</sub>O<sub>2</sub>は根冠を除くメリステム領域ではほとんど検出されず，細胞伸長領域に蓄積していることが明らかになった．シロイヌナズナには3種類のクラスに分類されるペルオキシダーゼが存在し，UPB1がその遺伝子発現を制御するペルオキシダーゼはいずれもクラスIIIに分類された<a href="#R7"><sup>7)</sup></a>．このクラスIIIペルオキシダーゼはアポプラストに局在し，H<sub>2</sub>O<sub>2</sub>を還元する役割とともに活性酸素種を産生する機能をもちあわせている．UPB1によってその遺伝子の発現が制御されているペルオキシダーゼはいずれもメリステム領域と細胞分裂領域との境界領域で発現しており，これらのペルオキシダーゼがH<sub>2</sub>O<sub>2</sub>の量をこの境界領域で制御しているものと考えられた．<br/>　H<sub>2</sub>O<sub>2</sub>とともに，超酸化物（O<sub>2</sub><sup>-</sup>）も根の発達に重要な活性酸素種と考えられている．O<sub>2</sub><sup>-</sup>はNADPHオキシダーゼによって産生され根毛の発達の鍵となる<a href="#R8"><sup>8)</sup></a>．NADPHオキシダーゼの活性阻害剤を用いた実験から，O<sub>2</sub><sup>-</sup>もメリステム領域のサイズを適切に保つために重要であることが示唆された．H<sub>2</sub>O<sub>2</sub>と同様にO<sub>2</sub><sup>-</sup>を染色したところメリステム領域に多く蓄積していた．しかし，<em>UPB1</em>破壊株や<em>UPB1</em>過剰発現株ではこのバランスが乱れており，少なくとも2種の活性酸素種の根端における空間的な分布が細胞の分裂から伸長への転換，ひいては，メリステム領域のサイズの決定に重要な役割をはたしているものと考えられた（<a href="#F2">図2</a>）．動物においてはO<sub>2</sub><sup>-</sup>が細胞分裂を促進しH<sub>2</sub>O<sub>2</sub>が細胞の静止状態をひき起こすと考えられているが<a href="#R9"><sup>9)</sup></a>，これはこの研究の結果と相補的であり，活性酸素種を介した細胞の分裂から分化への機能転換は植物と動物とでよく保存されていた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　UPB1によって制御される根端での細胞分裂から細胞分化への機能転換</strong><br/>野生型株ではUPB1がペルオキシダーゼの発現を抑制してH<sub>2</sub>O<sub>2</sub>とO<sub>2</sub><sup>-</sup>とのバランスを適切に保ち，この2種類の活性酸素種の空間的な分布が細胞分裂から細胞分化へのバランスを保っている．一方，<em>UPB1</em>破壊株ではペルオキシダーゼの発現が脱抑制されて活性酸素種のバランスが乱れ，細胞機能の転換のバランスが乱れている．緑色の矢尻は細胞分裂と細胞分化の境界領域を，黄緑色の領域はO<sub>2</sub><sup>-</sup>の分布，ピンク色の領域はH<sub>2</sub>O<sub>2</sub>の分布を示す．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsukagoshi-Cell-10.11.11-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　UPB1によって制御される根端での細胞分裂から細胞分化への機能転換" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsukagoshi-Cell-10.11.11-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tsukagoshi-Cell-10.11.11-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　また，活性酸素種は<em>UPB1</em>遺伝子の発現を誘導することから，活性酸素種とUPB1の分子機能とのあいだにはフィードバックループが存在すると考えられた．すなわち，高濃度では細胞に有害と考えられる活性酸素種の量を適切に保持するためのホメオスタシス機構がはたらいているものと考えられた．以上のように，UPB1は活性酸素種の空間的な分布や量を正常に保つための鍵となる転写因子であることが強く示唆された．<br/>　さらに，ペルオキシダーゼはリグニンの修飾などを介して細胞壁のリモデリングにもかかわっていることが知られている<a href="#R10"><sup>10)</sup></a>．マイクロアレイ解析の結果からもリグニン合成にかかわる遺伝子の発現がUPB1によって制御されていることが示され，UPB1は細胞壁リモデリングにもペルオキシダーゼを介してかかわっているものと考えられた．これを裏づける結果として，細胞の長さについて，<em>UPB1</em>破壊株では野生型株よりも長く，<em>UPB1</em>過剰発現株では短くなった．<br/><br/><h2>4．UPB1の1次シグナルはほかの植物ホルモンの影響をうけない</h2><br/>　根端においてサイトカイニンとオーキシンとのバランスが細胞分裂から細胞分化へという機能転換を正常に保つために重要であり，そこでは2つの転写因子，SHY2とARR1が中心的な役割をはたしていると報告されている<a href="#R1"><sup>1)</sup></a>．一方，UPB1の発現はサイトカイニン処理やオーキシン処理によって顕著な影響をうけず，<em>UPB1</em>破壊株におけるSHY2やARR1の発現は野生型株と同じ程度であり，さらに，サイトカイニン処理やオーキシン処理による<em>UPB1</em>破壊株でのメリステム領域のサイズの変化は野生型株と同等であった．以上の結果は，UPB1が制御するシグナルはサイトカイニン，オーキシンといった植物ホルモンによる根端のメリステム領域のサイズ決定の機構とは独立していることを強く示唆した．<br/>　このようにメリステム領域のサイズの決定に2種類の制御機構の存在することは興味深い．ひとつの説明としては，植物ホルモンが長距離のシグナル伝達を担い，活性酸素種がより局所的なシグナル伝達を担っており，SHY2とARR1が前者の，UPB1が後者の経路を制御していることが考えられる．<br/><br/><h2>おわりに</h2><br/>　筆者らは，根端における活性酸素種を介した細胞分裂から細胞分化への細胞機能の転換バランスを制御する新しい分子機構を解明した．活性酸素種が局所的で急激な細胞機能の転換機構に植物ホルモンとは異なる1次シグナルを担っているという事実は，植物の根端における幹細胞の制御機構が非常に複雑であることを示している．今後は，UPB1をシロイヌナズナのみならず作物など広く多様な植物に応用することで，成長速度の制御のできる植物の育種に貢献できるものと考えている．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Dello Ioio, R., Nakamura, K., Moubayidin, L. et al.</span>: <span class="ti">A genetic framework for the control of cell division and differentiation in the root meristem.</span> <span class='so'>Science, 322, 1380-1384 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19039136" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Vernoux, T., Wilson, R. C., Seeley, K. A. et al.</span>: <span class="ti">The <em>ROOT MERISTEMLESS1/CADMIUM SENSITIVE2</em> gene defines a glutathione dependent pathway involved in initiation and maintenance of cell division during postembryonic root development.</span> <span class='so'>Plant Cell, 12, 97-110 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10634910" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Dunand, C., Crevecoeur, M. & Penel, C.</span>: <span class="ti">Distribution of superoxide and hydrogen peroxide in <em>Arabidopsis</em> root and their influence on root development: possible interaction with peroxidases.</span> <span class='so'>New Phytol., 174, 332-341 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17388896" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Owusu-Ansah, E. & Banerjee, U.</span>: <span class="ti">Reactive oxygen species prime <em>Drosophila</em> haematopoietic progenitors for differentiation.</span> <span class='so'>Nature, 461, 486-487 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19727075" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Brady, S. M., Orlando, D. A., Lee, J. Y. et al.</span>: <span class="ti">A high-resolution root spatiotemporal map reveals dominant expression patterns.</span> <span class='so'>Science, 318, 801-806 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17975066" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Passardi, F., Tognolli, M., De Meyer, M. et al.</span>: <span class="ti">Two cell wall associated peroxidases from <em>Arabidopsis</em> influence root elongation.</span> <span class='so'>Planta, 223, 965-974 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16284776" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Tognolli, M., Penel, C., Greppin, H. et al.</span>: <span class="ti">Analysis and expression of the class III peroxidase large gene family in <em>Arabidopsis thaliana</em>.</span> <span class='so'>Gene, 288, 129-138 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12034502" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Foreman, J., Demidchik, V., Bothwell, J. H. et al.</span>: <span class="ti">Reactive oxygen species produced by NADPH oxidase regulate plant cell growth.</span> <span class='so'>Nature, 422, 442-446 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12660786" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Sarsour, E. H., Venkataraman, S., Kalen, A. L. et al.</span>: <span class="ti">Manganese superoxide dismutase activity regulates transitions between quiescent and proliferative growth.</span> <span class='so'>Aging Cell, 7, 405-417 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18331617" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Ros Barcelo, A.</span>: <span class="ti">Lignification in plant cell walls.</span> <span class='so'>Int. Rev. Cytol., 176, 87-132 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9394918" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">塚越 啓央（Tsukagoshi Hironaka）</span><br>略歴：2006年 名古屋大学大学院生命農学研究科 修了，2007年より米国Duke大学Postdoctoral Associate．<br>研究テーマ：植物の急激な細胞機能の転換を制御する転写ネットワーク．<br>抱負：世界中のいろいろな研究者と率直な議論を交わしながら，グローバルな視野にたち未知なる現象を解明するような開拓精神を忘れない研究者でいたい．<br></div><br>© 2010 塚越 啓央 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

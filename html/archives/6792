@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> STINGによる自己および非自己に由来するDNA成分の認識と自然免疫応答の制御 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>STINGによる自己および非自己に由来するDNA成分の認識と自然免疫応答の制御</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>阿部隆之・Glen N. Barber</strong><br>（米国Miami大学Miller School of Medicine，Department of Cell Biology）<br>email：<a href="mailto:tabe@med.miami.edu">阿部隆之</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2013.038">10.7875/first.author.2013.038</a><br><div class="reference"><br><span class="ti">STING recognition of cytoplasmic DNA instigates cellular defense.</span><br><span class="au">Takayuki Abe, Ai Harashima, Tianli Xia, Hiroyasu Konno, Keiko Konno, Alejo Morales, Jeonghyun Ahn, Delia Gutman, Glen N. Barber</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23478444" target="_blank"><em>Molecular Cell</em>, <strong>50</strong>, 5-15 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　小胞体に局在する膜タンパク質として同定された<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>は，さまざまなRNAウイルスおよびDNAウイルスの感染に対する生体防御機構において重要な役割をはたす．また，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>はウイルスおよび細菌に由来するDNA成分に対する自然免疫応答の誘導に重要な役割を示すことが報告されているが，その分子機序は明らかにされていなかった．この論文において，筆者らは，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>はウイルスに由来するゲノムDNAのみならず，ISDとよばれる45～90塩基対の合成2本鎖DNA，さらに，アポトーシス細胞に由来する自己のDNA成分と複合体を形成しうることを明らかにした．<em>in vitro</em>におけるDNA相互作用領域の解析より，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>のC末端側の領域が重要であることが示された．<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>によるさまざまなDNA成分の認識は<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>の核膜の周辺領域へのダイナミックな局在の変化を誘発し，<a href="#" class="anno" data-query="TBK1" data-uniprot="Q9WUN2">TBK1</a>の活性化を介し<a href="#" class="anno" data-query="interferon" data-uniprot="">インターフェロン</a>の産生を誘導することが示された．さらに，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>は微生物に由来する非自己のDNA成分のみならず，自己のDNA成分の認識を介した慢性的な炎症性の応答の制御にも関与している可能性が示唆された．<br/><br/><h2>はじめに</h2><br/>　われわれの生体には，細菌などの微生物やウイルスの感染に対する初期の生体防御反応に関与する認識タンパク質（外来の異物に対するセンサータンパク質とも呼称される）がいくつか存在することが，近年の自然免疫学の進展から明らかにされている<a href="#R1"><sup>1-3)</sup></a>．初期のブレークスルーとしては，細菌の細胞壁を構成する脂質や，非メチル化CpGモチーフ配列をもつゲノムDNAなど，グラム陰性細菌あるいはグラム陽性細菌に由来するさまざまな構成物を特異的に認識する<a href="#" class="anno" data-query="Toll-like receptor" data-uniprot="">Toll様受容体</a>（<a href="#" class="anno" data-query="Toll-like receptor" data-uniprot="">TLR</a>：<a href="#" class="anno" data-query="Toll-like receptor" data-uniprot="">Toll-like receptor</a>）の報告があげられる．<a href="#" class="anno" data-query="Toll-like receptor" data-uniprot="">Toll様受容体</a>は細胞膜における異物の感知が主体となるが，<a href="#" class="anno" data-query="Toll-like receptor" data-uniprot="">Toll様受容体</a>ファミリーのなかでも<a href="#" class="anno" data-query="Toll-like receptor" data-uniprot="">TLR</a>7や<a href="#" class="anno" data-query="Toll-like receptor" data-uniprot="">TLR</a>9のようにウイルスに由来する核酸成分（ゲノムRNAとゲノムDNA）を認識するものも報告されている．<a href="#" class="anno" data-query="Toll-like receptor" data-uniprot="">Toll様受容体</a>による核酸成分の認識はおもに形質細胞様樹状細胞がその中心となり，核酸成分を取り込んだファゴソームとオートファゴソームとの融合の過程において<a href="#" class="anno" data-query="interferon" data-uniprot="">インターフェロン</a>の産生シグナルが伝達される．つぎに，RNAウイルスの感染におけるゲノム複製の過程などにおいて産生されるゲノムRNAに対するセンサータンパク質として，<a href="#" class="anno" data-query="RIG-I" data-uniprot="Q6Q899">RIG-I</a>および<a href="#" class="anno" data-query="MDA5" data-uniprot="Q8R5F7">MDA5</a>とよばれるタンパク質が同定された．<a href="#" class="anno" data-query="RIG-I" data-uniprot="Q6Q899">RIG-I</a>および<a href="#" class="anno" data-query="MDA5" data-uniprot="Q8R5F7">MDA5</a>は細胞質において暴露されたウイルスに由来するゲノムRNAの感知におもに関与しており，ウイルスの種によりこの2つのタンパク質による識別の異なることが報告されている．では，単純ヘルペスウイルスなどに代表されるDNAウイルスやそれらを模倣した合成DNAの導入，あるいは，自己ならびに非自己に由来するDNA成分に関与する，いわゆるDNAセンサーは存在するのか？　この残された命題に対しては，近年，<a href="#" class="anno" data-query="ZBP1" data-uniprot="O88477">ZBP1</a>，<a href="#" class="anno" data-query="IFI16" data-uniprot="Q16666">IFI16</a>，ならびに，<a href="#" class="anno" data-query="RNA helicase" data-uniprot="">RNAヘリカーゼ</a>である<a href="#" class="anno" data-query="DDX41" data-uniprot="Q91VN6">DDX41</a>など，いくつかの候補タンパク質が報告されてきた<a href="#R3"><sup>3)</sup></a>．これらのタンパク質は，DNAウイルスの感染に対する初期応答には関与するものの，特定の細胞種に限局する傾向が示唆されている．また，<a href="#" class="anno" data-query="interferon" data-uniprot="">インターフェロン</a>の産生に対する応答がB-DNAとよばれる右巻きらせん構造をもつ合成DNAの反応に依存しているため，<a href="#" class="anno" data-query="RIG-I" data-uniprot="Q6Q899">RIG-I</a>経路に依存したシグナル伝達系の部分的な関与が推察された．さらに，遺伝子改変マウスを用いた系での立証が残されているため，本質的なDNAセンサーの同定においては依然として統一した見解が得られていないという背景があった．<br/><br/><h2>1．<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>によるさまざまなDNA成分に対する自然免疫応答の誘導</h2><br/>　小胞体に局在する膜タンパク質である<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>（<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">stimulator of interferon genes</a>）がISD（IFN-stimulatory DNA）とよばれる45～90塩基対の合成2本鎖DNAの細胞への導入やDNAウイルスの感染に対する自然免疫応答において重要であることは遺伝子改変マウスを用いた系により立証されてきたが，それらの遺伝子発現の制御パターンは詳細には解析されていなかった．マイクロアレイによる網羅的な解析から，ISDの導入およびDNAウイルスの感染による<a href="#" class="anno" data-query="interferon" data-uniprot="">インターフェロン</a>の産生ならびに多くの<a href="#" class="anno" data-query="interferon" data-uniprot="">インターフェロン</a>誘導関連遺伝子の発現が<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>の発現に依存していることが明らかになった．それらの遺伝子発現の制御パターンは転写因子<a href="#" class="anno" data-query="STAT1" data-uniprot="P42225">STAT1</a>の欠損によりほとんど影響をうけなかったことから，<a href="#" class="anno" data-query="interferon" data-uniprot="">インターフェロン</a>受容体を介したオートクライン効果ならびにパラクライン効果には依存せず，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>-TBK1-IRF経路に強く依存するものであった．さらに，2本鎖DNAに由来するISDほどではないが，1本鎖DNAに由来するISDの導入も<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>に依存的な<a href="#" class="anno" data-query="interferon" data-uniprot="">インターフェロン</a>の産生誘導を示し，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>の核膜の周辺領域への局在変化も確認された．ISDの培養細胞への導入により観察された<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>依存的に発現する遺伝子の発現パターンは，I型単純ヘルペスウイルス変異株のマウス胎仔線維芽細胞への感染実験でも証明された．また，アポトーシス細胞に由来する自己DNA成分に対しても同様の知見が得られていることから<a href="#R4"><sup>4)</sup></a>，さまざまな自己および非自己のDNA成分に対する<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>依存的に発現する遺伝子の応答が慢性的な炎症反応をともなう自己免疫性疾患の誘発に関与している可能性が示唆された．<br/><br/><h2>2．<em>in vivo</em>における<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>と2本鎖DNAとの複合体の形成</h2><br/>　<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>はいかなる機序をもってDNA成分に依存的な遺伝子発現の発動に関与するのであろうか？　<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>とDNA成分との複合体の形成の可能性を検討するため，培養細胞における<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>と2本鎖DNAに由来するISDとの複合体の検出を試みた．hTERT-BJ1細胞およびマウス胎仔線維芽細胞に末端ビオチンラベルを施した2本鎖ISDを導入したのち，紫外線の照射あるいはDSS試薬により架橋固定を行った．細胞の溶解をへてプルダウンアッセイを行い，イムノブロット法により内在性の<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>の検出を試みたところ，ISDを導入した細胞にのみ<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>の発現が検出された．また，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>を欠損したマウス胎仔線維芽細胞を使用した同じ実験からも，検出されたバンドが<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>に特異的であることが立証された．つぎに，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>の各種の欠損変異体を作製し，293T細胞に発現させたのち，2本鎖DNAに由来するISDによりプルダウンを行うことにより複合体の形成にかかわる<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>の責任領域を決定した．その結果，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>の細胞質領域であるC末端側（181～379アミノ酸残基），とくに，242～290アミノ酸残基の領域がDNAとの複合体の形成に重要であることが示唆された．さらに，242～290アミノ酸残基の領域の異種間の相同性アミノ酸部位の変異体を用いた解析から，少なくとも，245番目のチロシン残基と268番目のロイシン残基がDNAとの複合体の形成，<a href="#" class="anno" data-query="interferon" data-uniprot="">インターフェロン</a>の産生誘導活性，ならびに，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>の細胞内局在の変化のすべてに重要であることが示された．<br/>　<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>とDNAとの複合体の形成に及ぼすほかのDNAセンサー候補タンパク質の影響についても検討した．2本鎖DNAに由来するISDを用いたDNAプルダウンアッセイの結果から，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>とDNAとの複合体の形成は<a href="#" class="anno" data-query="IFI16" data-uniprot="Q16666">IFI16</a>ならびに<a href="#" class="anno" data-query="DDX41" data-uniprot="Q91VN6">DDX41</a>のRNAi法によるノックダウンの影響をうけないことが示された．このことから，間接的ではあるが<a href="#" class="anno" data-query="IFI16" data-uniprot="Q16666">IFI16</a>および<a href="#" class="anno" data-query="DDX41" data-uniprot="Q91VN6">DDX41</a>は2本鎖ISDの認識プロセスには関与していない可能性が示唆された．また，<a href="#" class="anno" data-query="IFI16" data-uniprot="Q16666">IFI16</a>ならびに<a href="#" class="anno" data-query="DDX41" data-uniprot="Q91VN6">DDX41</a>のhTERT-BJ1細胞におけるノックダウンは，2本鎖DNAに由来するISDの刺激にともなう<a href="#" class="anno" data-query="interferon" data-uniprot="">インターフェロン</a>の産生誘導や，種々のDNAウイルスの感染にともなう<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>の細胞内局在の変化に影響を及ぼさなかったことから，<a href="#" class="anno" data-query="IFI16" data-uniprot="Q16666">IFI16</a>および<a href="#" class="anno" data-query="DDX41" data-uniprot="Q91VN6">DDX41</a>のDNA成分に依存的な自然免疫シグナル経路（<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>に依存した自然免疫の誘導経路）への関与は低いものと考察された．<br/><br/><h2>3．<em>in vitro</em>における<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>と2本鎖DNAとの複合体の形成</h2><br/>　<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>はDNAとの複合体の形成において宿主に由来するなんらかのタンパク質を必要とするのだろうか？　大腸菌において発現精製した<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>を用いて，<em>in vitro</em>において2本鎖DNAに由来するISDによるDNAプルダウンアッセイを行った．その結果，精製された<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>は2本鎖ISDによりプルダウンされることが示されたことから，少なくとも，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>は細胞に由来するほかのタンパク質なしでもDNAと複合体を形成しうることが示された．一方，表面プラズモン共鳴法を用いた分子間相互作用の解析からは，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>と2本鎖DNAに由来するISDとの複合体の形成において13.7μMという結合解離定数が得られた．さらに，18塩基対あるいは30塩基対の短鎖のDNAを用いた蛍光分極アッセイからも，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>と2本鎖DNAとの複合体の形成が観察された．<br/><br/><h2>4．セカンドメッセンジャーに対する<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>の応答性</h2><br/>　これまで，セカンドメッセンジャーであるサイクリックdi-GMPが骨髄に由来するマクロファージ細胞や樹状細胞に対し<a href="#" class="anno" data-query="TBK1" data-uniprot="Q9WUN2">TBK1</a>-IRF3経路に依存的に<a href="#" class="anno" data-query="interferon" data-uniprot="">インターフェロン</a>の産生を誘導することが報告されていた<a href="#R5"><sup>5)</sup></a>．その作用機序はながらく明らかにされていなかったが，近年，このサイクリックdi-GMPが<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>と結合することにより<a href="#" class="anno" data-query="interferon" data-uniprot="">インターフェロン</a>誘導性のリガンドとして機能することが報告された<a href="#R6"><sup>6)</sup></a>．今回，ビオチンラベルを施したサイクリックdi-GMPを用いて，hTERT-BJ1細胞，マウス胎仔線維芽細胞，および，マウスマクロファージ細胞株Raw264.7に対するプルダウンアッセイを行ったが，内在性の<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>の検出は認められなかった．さらに，筆者らの用いた評価系では，サイクリックdi-GMPの細胞への導入にともなう<a href="#" class="anno" data-query="interferon" data-uniprot="">インターフェロン</a>の産生誘導や<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>の細胞内局在の変化も認めなかった．これらの結果より，サイクリックdi-GMPによる自然免疫応答には細胞種について特異性のともなう可能性が示唆されたが，今後，DNAリガンドとの作用機序の相違点について検討が必要であると思われた．<br/><br/><h2>おわりに</h2><br/>　ここ10年ほどの自然免疫学の進展にはめざましいものがあり，病原微生物の初期感染における生体防御機構の理解が急速に深まっている．<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>は当初の発見より，<a href="#" class="anno" data-query="Toll-like receptor" data-uniprot="">Toll様受容体</a>に対する<a href="#" class="anno" data-query="MyD88" data-uniprot="P22366">MyD88</a>，ならびに，<a href="#" class="anno" data-query="RIG-I" data-uniprot="Q6Q899">RIG-I</a>や<a href="#" class="anno" data-query="MDA5" data-uniprot="Q8R5F7">MDA5</a>に対する<a href="#" class="anno" data-query="IPS-1" data-uniprot="Q8VCF0">IPS-1</a>のように，シグナル伝達系におけるアダプタータンパク質としての役割が示唆されていた．しかしながら，この論文で明らかにされたように，微生物に由来するDNA成分に対する直接的なセンサータンパク質としても機能する可能性が示唆された（<a href="#F1">図1</a>）．一方で，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>は単純ヘルペスウイルスなどDNAウイルスのみならず，RNAウイルスである水疱性口内炎ウイルスの感染防御にも寄与することが報告されている<a href="#R1"><sup>1)</sup></a>．RNAウイルスの感染に対する<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>の役割には不明な点が多く残されているが，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>はRNAウイルスも含めた広範なウイルスの感染に対する重要な生体防御タンパク質であることが示唆された．さらに，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>はDNA成分の感知にともない小胞体膜から核膜の周辺領域へとダイナミックな局在変化を示すが，その詳細な分子機序は明らかにされていない．今後，免疫学的な解析のみならず，細胞生物学的な視点からも考察する必要があると思われる．また，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>は，アポトーシス細胞に由来する自己DNA成分にも反応し過剰な炎症性応答を惹起する要因にもなりうることから，<a href="#" class="anno" data-query="Sting1" data-uniprot="Q3TBT3">STING</a>に依存的なシグナル伝達経路の制御は自己免疫性疾患の改善に寄与することが期待される．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　STINGによるウイルスDNAの認識とシグナル伝達経路</strong><br/>ウイルス感染ののち，細胞質において暴露されたウイルスのゲノムDNAはSTINGのC末端側の領域により感知される．ひきつづき，ゴルジ体を経由し核膜の周辺領域への局在変化をへて，TBK1の活性化を介したインターフェロン誘導シグナルが伝達される．STINGに依存的なシグナルはNF-κBを介した炎症性サイトカインの産生も誘導するが，その詳細な機構は明らかにされていない．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Abe-Molecular-Cell-13.4.11-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　STINGによるウイルスDNAの認識とシグナル伝達経路" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Abe-Molecular-Cell-13.4.11-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Abe-Molecular-Cell-13.4.11-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Ishikawa, H. & Barber, G. N.</span>: <span class="ti">STING is an endoplasmic reticulum adaptor that facilitates innate immune signalling.</span> <span class='so'>Nature, 455, 674-678 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18724357" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Ishikawa, H., Ma, Z. & Barber, G. N.</span>: <span class="ti">STING regulates intracellular DNA-mediated, type I interferon-dependent innate immunity.</span> <span class='so'>Nature, 461, 788-792 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19776740" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Christophe, J. D. & Ishii, K. J.</span>: <span class="ti">Nucleic acid sensing at the interface between innate and adaptive immunity in vaccination.</span> <span class='so'>Nat. Rev. Immunol., 12, 479-491 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22728526" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Ahn, J., Gutman, D., Saijo, S. et al.</span>: <span class="ti">STING manifests self DNA-dependent inflammatory disease.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 109, 19386-19391 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23132945" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>McWhirter, S. M., Barbalat, R., Monroe, K. M. et al.</span>: <span class="ti">A host type I interferon response is induced by cytosolic sensing of the bacterial second messenger cyclic-di-GMP.</span> <span class='so'>J. Exp. Med., 206, 1899-1911 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19652017" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Burdette, D. L., Monroe, K. M., Troha-S, K. et al.</span>: <span class="ti">STING is a direct innate immune sensor of cyclic di-GMP.</span> <span class='so'>Nature, 478, 515-518 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21947006" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">阿部 隆之（Takayuki Abe）</span><br>略歴：2002年 千葉工業大学大学院工学研究科 修了，同年 大阪大学微生物病研究所 研究員，2005年 同 助教を経て，2011年より米国Miami大学Miller School of MedicineにてResearch associate-II．<br>研究テーマ：ウイルス感染による自然免疫の誘導．<br>抱負：病原微生物に対する宿主の防御機構の全貌の解明に貢献し，治療法や予防法の開発につなげたい．<br><br><strong>Glen N. Barber</strong><br>米国Miami大学Miller School of MedicineにてProfessor．<br></div><br>© 2013 阿部隆之・Glen N. Barber Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

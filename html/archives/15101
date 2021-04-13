@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> カチオンチャネルPiezo2は肺の体積のセンサーとして呼吸を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>カチオンチャネルPiezo2は肺の体積のセンサーとして呼吸を制御する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>野々村 恵子</strong><br>（米国Scripps Research Institute，Department of Molecular and Cellular Neuroscience）<br>email：<a href="mailto:nonomura@scripps.edu">野々村恵子</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.010">10.7875/first.author.2017.010</a><br><div class="reference"><br><span class="ti">Piezo2 senses airway stretch and mediates lung inflation-induced apnoea.</span><br><span class="au">Keiko Nonomura, Seung-Hyun Woo, Rui B. Chang, Astrid Gillich, Zhaozhu Qiu, Allain G. Francisco, Sanjeev S. Ranade, Stephen D. Liberles, Ardem Patapoutian</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28002412" target="_blank"><em>Nature</em>, <strong>541</strong>, 176-181 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　呼吸において肺は膨張と収縮とをくり返す．肺の体積の変化は感覚神経により感知され，この情報は脳幹の呼吸中枢へと送られて呼吸のパターンの制御にかかわる．しかしながら，これまで，肺の体積の変化を検出するセンサーの実体およびその生理的な重要性の詳細については明らかではなかった．今回，筆者らは，マウスを用いて感覚神経に発現するカチオンチャネルPiezo2が肺の膨張を感知する機械的な受容体であることを示した．さらに，Piezo2により検出される肺の機械的な情報は，成体のマウスにおいて肺の過膨張をふせぐために必要であったことにくわえ，出生の直後の仔マウスにおいて正常な呼吸のパターンが確立されるために必要であった．この研究においては，呼吸における機械的な情報の重要性が明確にされた．<br/><br/><h2>はじめに</h2><br/>　生体において器官にくわわる圧力や張力などの機械的な力により生理機能が制御される場合がある．たとえば，血圧の変化に応じて血圧は制御されており，膀胱における圧力の上昇により排尿の行動が促される．細胞や器官はどのように機械的な力を検出するのだろうか．これまで，分子生物学の領域においては，味覚や嗅覚などに代表される化学受容体について多くが同定されてきた．これに対し，機械的な刺激に対する受容体については，いまだその分子実態がはっきりしない場合も多い．<br/>　肺はくり返しかつ幅の広い体積の変化にさらされる．成人の男性は平常時の呼吸1回あたり0.5リットルの空気を吸気し，能動的には3.5リットルの空気を吸い込むことができる．肺を含む気道には感覚神経のなかでもおもに迷走感覚神経が投射しており，これらの迷走感覚神経は肺の体積の変化を感知する機械的な受容体のほか，二酸化炭素やほかの化合物を感知する化学受容体として機能する<a href="#R1"><sup>1)</sup></a>．これらの迷走感覚神経を介した肺から脳幹の呼吸中枢へのフィードバックが呼吸の制御にかかわることは，迷走感覚神経の切断などによりに調べられてきた．多くの動物において，迷走感覚神経を切断した場合には呼吸の頻度が低下し1回あたりの吸気の量が増加する．しかしながら，これらの手法ではすべての受容体が同時に遮断されるため，それぞれの受容体を介した情報がどのように呼吸の制御にかかわるのかははっきりしなかった．<br/>　近年，筆者らの所属する研究グループにより，哺乳類の細胞において機械的なセンサーとして機能するカチオンチャネルPiezo2が同定された<a href="#R2"><sup>2)</sup></a>．Piezo2は細胞膜にかかる張力の変化などに応答して開口し（<a href="#F1">図1</a>），これまで，マウスおよびヒトにおいて皮膚の触覚および固有感覚の機械的なセンサーとしてはたらくことが示された<a href="#R3"><sup>3-6)</sup></a>．今回，筆者らは，Piezo2を欠損したマウスを解析することにより，機械的な情報による生理機能の制御においてこれまで不明であった役割が明らかにされる可能性があると考えた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　肺に投射する感覚神経に発現するPiezo2は正常な呼吸に必要である</strong><br/>Piezo2は細胞膜の伸展などにより開口するカチオンチャネルである．Piezo2は肺に投射する迷走感覚神経のNodose神経節およびJugular神経節，および，脊髄後根神経節に発現する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nonomura-Nature-17.1.17-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　肺に投射する感覚神経に発現するPiezo2は正常な呼吸に必要である" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nonomura-Nature-17.1.17-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nonomura-Nature-17.1.17-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．Piezo2ノックアウトマウスは出生の直後に呼吸不全をともない死亡する</h2><br/>　全身においてPiezo2を欠損するマウスを作製したところ，このマウスは出生ののち24時間以内に死亡した．この際，喘ぎ行動，血中における酸素の濃度の低下，吸気の回数の減少といった呼吸の異常が観察された．肺は出生のまえにはしぼんでおり出生ののちに空気が入り込み徐々にふくらむが，Piezo2ノックアウトマウスにおいてはこの過程も遅れていた．Piezo2ノックアウトマウスの胎仔期における肺の発生の過程を，肺の形態，細胞の分化などの観点から調べたが，異常は観察されなかった．これらの結果から，Piezo2が出生ののちの呼吸の確立に必要であることが示された．<br/>　哺乳類においては出生にともない，それまでの胎盤を介した酸素の取得から肺呼吸へと切り替わる．このとき，短時間のあいだに換気に必要な呼吸のパターンを確立する必要がある．この結果から，出生ののちに適切な呼吸のパターンを成立させるためには機械的な情報が必要であることが示された．<br/><br/><h2>2．感覚神経におけるPiezo2が出生ののちの呼吸の確立に必要である</h2><br/>　Piezo2が呼吸器系のどの組織に発現するかについて調べた．以前に作製されたPiezo2にGFPを連結させたレポーターマウスを解析した結果，肺を含む気管に投射する感覚神経である迷走感覚神経，三叉神経，脊髄感覚神経，および，肺の上皮細胞内の一種である神経上皮複合体においてPiezo2の発現が確認された．神経上皮複合体には感覚神経の一部が投射することが知られており，二酸化炭素の検出や機械的な刺激の検出にもかかわると考えられているが，その機能の詳細は不明であった．一方，肺のほかの細胞や，脳幹の呼吸中枢，運動神経，横隔膜といった呼吸にかかわるほかの組織においてPiezo2の発現は検出されなかった．<br/>　感覚神経におけるPiezo2が出生ののちの呼吸の成立に必要であるという仮説をたて，感覚神経においてPiezo2を欠損するマウスを作製した．迷走感覚神経の一部であるNodose神経節においてPiezo2を欠損させた場合にはマウスに出生の直後の異常は観察されなかった．これに対し，迷走感覚神経を構成するもうひとつの神経節であるJugular神経節，および，三叉神経，脊髄後根神経節においてPiezo2を欠損させた場合には，Piezo2を全身において欠損したマウスと同様に，出生ののちの致死，血中における酸素の濃度の低下，肺の拡張の不全，呼吸のパターンの異常が観察された（<a href="#F1">図1</a>）．これらの結果から，感覚神経におけるPiezo2が出生ののちの呼吸の成立に必要であることが判明した．<br/><br/><h2>3．Piezo2は肺の膨張を検出するセンサーとしてはたらく</h2><br/>　成体のマウスの呼吸におけるPiezo2の寄与について調べた．Piezo2が肺の膨張を検出するセンサーとしてはたらく可能性について検討するため，マウスが成体にまで成長してから感覚神経においてPiezo2を欠損させ，麻酔したマウスの肺に人為的に空気を注入して迷走感覚神経の活動を測定した．その結果，野生型のマウスと比べ，肺の膨張によりひき起こされる迷走感覚神経の活動が減少した．これまで，肺の膨張の検出においては迷走感覚神経のうちNodose神経節が主要なはたらきをすると考えられてきた．そこで，Nodose神経節においてPiezo2を欠損させたマウスについても同様に実験したところ，肺の膨張によりひき起こされる迷走感覚神経の活動が完全に消失した．この結果より，成体のマウスにおいては迷走感覚神経のNodose神経節に発現するPiezo2により肺の膨張が検出されることが明らかにされた．<br/><br/><h2>4．成体のマウスにおけるPiezo2による呼吸のパターンの制御</h2><br/>　成体のマウスにおいて，Piezo2を介した肺の機械的な変化の検出は呼吸の制御に必要であるかどうか調べた．自発的な呼吸のパターンを調べたところ，全身の感覚神経においてPiezo2を欠損したマウスおよびNodose神経節においてPiezo2を欠損したマウスにおいては，野生型のマウスと比べ，呼吸1回あたりの吸気の量が増加した．<br/>　ヒトを含む多くの動物において，肺に人為的に空気を送り込み膨張させた場合に呼吸が一時的に停止する反射が知られている．この反射は迷走感覚神経を介しており，肺の過膨張をふせぐはたらきをもつと考えられている．全身の感覚神経においてPiezo2を欠損したマウスおよびNodose神経節においてPiezo2を欠損したマウスにおいては，この反射は起こらず，マウスは肺の膨張するまえと同様に自発的な呼吸をつづけた（<a href="#F1">図1</a>）．これらの結果より，Piezo2は肺の過膨張をふせぐための反射をひき起こすために必要な肺の体積のセンサーであることが判明した．Piezo2を発現する迷走感覚神経を標識することにより，これらの迷走感覚神経が脳幹の呼吸中枢へと投射することも確かめられた．さらに，光の照射により対象とする神経を選択的に活性化する光遺伝学的な手法を用いて<a href="#R7"><sup>7)</sup></a>，麻酔をした成体のマウスにおいて迷走感覚神経のうちPiezo2を発現する神経を活性化したところ，すみやかな呼吸の停止が観察された．これにより，Piezo2を発現する迷走感覚神経の活性化は，呼吸の停止をひき起こすのに十分であることが確かめられた．<br/><br/><h2>おわりに</h2><br/>　今回，筆者らは，成体のマウスにおいては迷走感覚神経のNodose神経節に発現するPiezo2が肺の膨張を検出する機械的なセンサーとしてはたらき，この情報は脳幹の呼吸中枢へと送られ肺の過膨張をふせぐために機能することを明らかにした．これに対し，仔マウスにおいては，迷走感覚神経のJugular神経節，三叉神経，脊髄感覚神経に発現するPiezo2が出生の直後の正常な呼吸のパターンが成立するために必要であることがわかった．筆者らの結果により，不明な部分の多い出生ののちの呼吸の成立の過程において，気管に生じる機械的な変化が重要な情報として機能することが示された．呼吸障害については，成人においては睡眠時無呼吸症候群が存在し，乳児においても死亡の原因の上位をしめており，呼吸の制御機構の解明は重要な課題といえる．最近，ヒトにおいてPiezo2の機能欠損変異をもつ複数の症例が報告された<a href="#R5"><sup>5,6)</sup></a>．これらの患者においては，皮膚の触覚と固有感覚に顕著な異常が認められたのにくわえ，乳児期において浅い呼吸などの呼吸の障害も観察されており，場合によっては医療的な補佐をうけていた．<br/>　今回，筆者らは，Piezo2が皮膚の触覚や固有感覚だけではなく，生体において複数の機械的な変化の検出にたずさわる可能性を示した．生体には心臓，胃，膀胱など機械的な情報が重要である複数の器官があり，これらの器官におけるPiezo2の寄与についても今後の解析が待たれる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Lee, L. Y. & Yu, J.</span>: <span class="ti">Sensory nerves in lung and airways.</span> <span class='so'>Compr. Physiol., 4, 287-324 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24692141" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Ranade, S. S., Syeda, R. & Patapoutian, A.</span>: <span class="ti">Mechanically activated ion channels.</span> <span class='so'>Neuron, 87, 1162-1179 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26402601" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Ranade, S. S., Woo, S. H., Dubin, A. E. et al.</span>: <span class="ti">Piezo2 is the major transducer of mechanical forces for touch sensation in mice.</span> <span class='so'>Nature, 516, 121-125 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25471886" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Woo, S. H., Lukacs, V., de Nooij, J. C. et al.</span>: <span class="ti">Piezo2 is the principal mechanotransduction channel for proprioception.</span> <span class='so'>Nat. Neurosci., 18, 1756-1762 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26551544" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Chesler, A. T., Szczot, M., Bharucha-Goebel, D. et al.</span>: <span class="ti">The role of PIEZO2 in human mechanosensation.</span> <span class='so'>N. Engl. J. Med., 375, 1355-1364 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27653382" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Delle Vedove, A., Storbeck, M., Heller, R. et al.</span>: <span class="ti">Biallelic loss of proprioception-related PIEZO2 causes muscular atrophy with perinatal respiratory distress, arthrogryposis, and scoliosis.</span> <span class='so'>Am. J. Hum. Genet., 99, 1406-1408 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27912047" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Chang, R. B., Strochlic, D. E., Williams, E. K. et al.</span>: <span class="ti">Vagal sensory neuron subtypes that differentially control breathing.</span> <span class='so'>Cell, 161, 622-633 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25892222" target="_blank">PubMed</a>]</span></li><br></ol><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">野々村 恵子（Keiko Nonomura）</span><br>略歴：2012年 東京大学大学院薬学系研究科博士課程 修了，2013年より米国Scripps Research InstituteにてResearch Associateを経て，2017年より基礎生物学研究所 助教．<br>研究テーマ：機械的な情報により制御される生命現象．<br>抱負：生物が機械的な情報をどのように判別しアウトプットを決定するのか明らかにしたい．<br></div><br>© 2017 野々村 恵子 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

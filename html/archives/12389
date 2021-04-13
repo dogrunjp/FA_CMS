@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> オートタキシンを阻害する核酸アプタマーの結晶構造および肺線維症の治療への応用 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>オートタキシンを阻害する核酸アプタマーの結晶構造および肺線維症の治療への応用</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>加藤一希<sup>1</sup>・池田寿子<sup>2</sup>・中村義一<sup>2</sup>・濡木 理<sup>1</sup></strong><br>（<sup>1</sup>東京大学理学系研究科生物科学専攻 生物科学専攻生物化学講座構造生命科学研究室，<sup>2</sup>リボミック）<br>email：<a href="mailto:kato12353@gmail.com">加藤一希</a>，<a href="mailto:nak@ims.u-tokyo.ac.jp">中村義一</a>，<a href="mailto:nureki@bs.s.u-tokyo.ac.jp">濡木 理</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.036">10.7875/first.author.2016.036</a><br><div class="reference"><br><span class="ti">Structural basis for specific inhibition of Autotaxin by a DNA aptamer.</span><br><span class="au">Kazuki Kato, Hisako Ikeda, Shin Miyakawa, Satoshi Futakawa, Yosuke Nonaka, Masatoshi Fujiwara, Shinichi Okudaira, Kuniyuki Kano, Junken Aoki, Junko Morita, Ryuichiro Ishitani, Hiroshi Nishimasu, Yoshikazu Nakamura, Osamu Nureki</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27043297" target="_blank"><em>Nature Structural & Molecular Biology</em>, <strong>23</strong>, 395-401 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　オートタキシンは血漿に存在するリゾホスホリパーゼDで，リゾホスファチジルコリンを加水分解してリゾホスファチジン酸を産生する．リゾホスファチジン酸の過剰な産生によるリゾホスファチジン酸受容体の活性化は線維芽細胞の遊走を促進し組織の線維化をひき起こすことから，オートタキシンは特発性肺線維症を含む線維症の治療のための創薬ターゲットとして注目されている．今回，筆者らは，SELEX法を用いたスクリーニングにより，オートタキシンに対し高い親和性で結合し，かつ，オートタキシンの酵素活性を特異的に阻害するDNAアプタマーを見い出した．このアプタマーとオートタキシンとの複合体の結晶構造を決定することにより，アプタマーによるオートタキシンの阻害機構が明らかにされた．さらに，構造の情報をもとにアプタマーを改良することによりオートタキシンに対する阻害活性を増強し，肺線維症のモデルマウスに対し薬効を示すアプタマーを作製することに成功した．この研究において見い出された抗オートタキシンアプタマーは，既存の低分子阻害剤とはまったく異なる阻害機構をもつ新たなオートタキシン阻害剤として肺線維症の治療への応用が期待される．<br/><br/><h2>はじめに</h2><br/>　DNAやRNAはその塩基配列にもとづき多様なかたちをとることができる．核酸アプタマーはこの“造形力”を利用して標的となる分子に高い親和性および特異性で結合する．核酸アプタマーはランダムな配列のオリゴヌクレオチドから構成されるライブラリーからSELEX法によりスクリーニングすることができる<a href="#R1"><sup>1,2)</sup></a>．これまでに，免疫グロブリンGと結合するRNAアプタマー，ミッドカインと結合するRNAアプタマー，第IXa因子と結合するRNAアプタマー，フォンビルブランド因子と結合するDNAアプタマーなどが報告されている．核酸アプタマーは多彩な標的分子と結合できる性質にくわえ，免疫原性が低い，溶解度が高い，化学修飾が容易であるといった性質をもつことから医薬への応用が進められており，実際に，抗VEGFアプタマーであるPegaptanib（商品名Macgen）は加齢黄斑変性の治療剤として承認されている<a href="#R3"><sup>3)</sup></a>．<br/>　オートタキシンは血漿に存在するホスホリパーゼDであり，リゾホスファチジルコリンを加水分解してリゾホスファチジン酸を産生する<a href="#R4"><sup>4,5)</sup></a>．リゾホスファチジン酸はGタンパク質共役受容体であるリゾホスファチジン酸受容体LPA<sub>1</sub>～LPA<sub>6</sub>を活性化し，遊走，生存，浸潤などさまざまな細胞応答をひき起こす．オートタキシンによるリゾホスファチジン酸の産生は止血やリンパ球の遊走を含むさまざまな生理機能に関与し，また，脳や血管の発生に必須である．オートタキシンの発現の亢進は乳がんやグリオブラストーマのような悪性腫瘍の形成，神経障害性疼痛や糖尿病といった疾患に関与することが知られている．さらに，最近のノックアウトマウスを用いた研究から，オートタキシンにより産生されたリゾホスファチジン酸が線維芽細胞に発現するリゾホスファチジン酸受容体LPA<sub>1</sub>を活性化することにより細胞の遊走を促進し，肺線維症をひき起こすことが明らかにされた<a href="#R6"><sup>6)</sup></a>．とくに，特発性肺線維症は呼吸器系に支障をきたす重篤な疾患であり，患者においてオートタキシンの発現が亢進していることが報告されている<a href="#R7"><sup>7)</sup></a>．そのため，オートタキシンを標的とした阻害剤の開発が進んでいる．<br/><br/><h2>1．抗オートタキシンアプタマーの創出</h2><br/>　SELEX法を用いてオリゴヌクレオチドライブラリーからオートタキシンと結合する複数のDNAアプタマーを取得した．得られたDNAは74～75塩基の長さで，5’-CGGAACC-3’および5’-GGTC-3’をコンセンサス配列として含み，オートタキシンのヌクレオチドに対する加水分解活性を50％阻害濃度10～36 nMの強さで阻害した．なかでも，RB002はオートタキシンの活性をもっとも強く阻害したため，このRB002をリードアプタマーとした（<a href="#F1">図1</a>）．RB002の5’末端および3’末端を削除することによりオートタキシンの活性阻害に不要な配列を除き，34塩基のヌクレオチドからなるRB008を作製した（<a href="#F1">図1</a>）．<em>in vivo</em>における安定性の向上のため，RB008に反転デオキシチミン，および，9つのリボースの2’-H基に<em>O-</em>メチル化修飾をそれぞれ導入し，RB011を作製した（<a href="#F1">図1</a>）．このRB011は<em>in vitro</em>において，ヒトおよびマウスのオートタキシンのリゾホスファチジルコリンに対する加水分解活性を，それぞれ，50％阻害濃度4.4 nMおよび4.6 nMの強さで阻害した．また，RB011はヒトの血清においても，オートタキシンによるリゾホスファチジン酸の産生を効率よく阻害した．オートタキシンに対する既存の低分子阻害剤であるPF8380，HA-155，3BoAと比較したところ，RB011は<em>in vitro</em>においてオートタキシンのリゾホスファチジルコリンに対する加水分解活性をもっとも強く阻害した．さらに，オートタキシンは別名ENPP2としてENPP1～ENPP7からなるENPPファミリーに属するが，RB011はほかのENPPファミリーの加水分解活性を阻害しなかった．これらのことから，RB011はオートタキシンに対し選択的，かつ，きわめて強力な阻害剤であることが明らかにされた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　抗オートタキシンアプタマーの最適化</strong><br/>m：2’メチル化リボース，idT：反転デオキシチミン，PEG：ポリエチレングリコール，緑色の三角はメチル化リン酸基．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-Structural-Molecular-Biology-16.5.4-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　抗オートタキシンアプタマーの最適化" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-Structural-Molecular-Biology-16.5.4-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-Structural-Molecular-Biology-16.5.4-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．オートタキシンとアプタマーとの複合体の結晶構造</h2><br/>　抗オートタキシンアプタマーRB011のオートタキシンに対する阻害機構を明らかにするため，マウスのオートタキシンとRB011との複合体の結晶構造を2.0Å分解能で決定した（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=5hrt&amp;PAGEID=Summary" target="_blank">5HRT</a>，<a href="#F2">図2a</a>）．以前に報告されたように，オートタキシンは2つのSMB様ドメイン，活性部位の存在する触媒ドメイン，ヌクレアーゼ様ドメインから構成されていた<a href="#R8"><sup>8)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/2034" target="_blank">新着論文レビュー</a> でも掲載）．RBI011は末端ステム構造とステムループ構造の2つの2本鎖ステム構造，および，これらを連結するコーナージャンクションからなるL字型のヘアピン構造をとり，オートタキシンの触媒ドメインと結合していた（<a href="#F2">図2b</a>）．コーナージャンクションは，3つの塩基対により形成されるベーストリプル構造，および，4つの塩基対により形成されるベースカルテット構造をもち，これらの構造がコーナージャンクションの構造をゆがませてL字型の構造をとることに寄与していた．さらに，このL字型の構造はコーナージャンクションと結合したCa<sup>2+</sup>により安定化されていた．Ca<sup>2+</sup>と結合する塩基，あるいは，ベースカルテット構造を形成する塩基に変異を導入したアプタマーは，ATXオートタキシンに対する阻害活性を消失した．これらのことから，結晶構造において観察されたRB011のL字型の構造は，オートタキシンの加水分解活性を阻害するのに重要であることが明らかにされた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　オートタキシンと抗オートタキシンアプタマーRB011との複合体の結晶構造</strong><br/>（a）オートタキシンとRB011との複合体の全体構造．RB011はオートタキシンの触媒ドメインと結合する．<br/>（b）RB011の構造．RB011は末端ステム構造とステムループ構造，および，それらを連結するコーナージャンクションから構成される．コーナージャンクションにおいては，ベーストリプル構造，および，ベースカルテット構造が観察された．<br/>（c）活性部位の拡大図．リゾホスファチジン酸のアシル基は疎水性ポケットに収容され，リン酸基はZn<sup>2+</sup>に配位する．既存の低分子阻害剤HA155およびBoAは疎水性ポケットおよびZn<sup>2+</sup>と結合する．RB011は疎水性ポケットとは結合せず，代わりに，コリン結合部位と結合していた．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-Structural-Molecular-Biology-16.5.4-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　オートタキシンと抗オートタキシンアプタマーRB011との複合体の結晶構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-Structural-Molecular-Biology-16.5.4-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-Structural-Molecular-Biology-16.5.4-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　RB011はコーナージャンクションおよびステムループ構造を介して多数の水素結合および疎水性相互作用を形成し，触媒ドメインを広い範囲にわたり認識していた．RB011との相互作用にかかわるオートタキシンのアミノ酸残基は，異なる種のオートタキシンのあいだでは高度に保存されているが，ENPPファミリーのあいだでは保存されていない．このことから，抗オートタキシンアプタマーRB011はヒトおよびマウスのオートタキシンを認識できるが，ほかのENPPファミリーは認識できず，それゆえ，オートタキシンに対し選択的に活性を阻害することが明らかにされた．<br/><br/><h2>3．構造の情報にもとづくアプタマーの改良および肺線維症の治療への応用</h2><br/>　以前に決定されたオートタキシンとリゾホスファチジン酸との複合体の結晶構造においては，リゾホスファチジン酸のアシル基はオートタキシンの疎水性ポケットに収容され，リン酸基は活性部位と結合した2つのZn<sup>2+</sup>により認識されていた<a href="#R8"><sup>8)</sup></a>（<a href="#F2">図2c</a>）．オートタキシンと抗オートタキシンアプタマーRB011との複合体の結晶構造においては，RB011のコーナージャンクションのリン酸基骨格が，オートタキシンのリゾホスファチジルコリンのコリン骨格が結合する部位の近傍と結合していた．一方で，HA-155や3BoAなどオートタキシンの既存の低分子阻害剤は，疎水性ポケットおよびZn<sup>2+</sup>と結合することによりオートタキシンの活性を阻害する<a href="#R9"><sup>9,10)</sup></a>．すなわち，RB011はオートタキシンの基質であるリゾホスファチジルコリンのコリン結合部位と競合的に結合することにより，低分子阻害剤とは異なる機構でオートタキシンの活性を阻害することが示唆された．そこで，RB011に化学修飾を導入して疎水性ポケットとも結合させることができれば，オートタキシンに対する阻害活性をさらに向上させることができるのではないかと考え，RB011のC12とC13とのあいだのリン酸基にメチル基を導入し，RB012を作製した（<a href="#F1">図1</a>）．このRB012はオートタキシンのリゾホスファチジルコリンに対する加水分解活性を50％阻害濃度1.8 nMとRB011よりも強く阻害したことから，導入したメチル基がさらなる阻害活性の向上にはたらいていることが示唆された．生体における安定性をさらに向上させるため，RB012のリン酸基に複数のメチル基を導入し，RB014を作製した（<a href="#F1">図1</a>）．ブレオマイシンを処理して肺線維症をひき起こしたモデルマウスに対しRB014を経鼻投与したところ，オートタキシンの阻害にともなう肺胞洗浄液におけるリゾホスファチジン酸の濃度の低下が認められた．さらに，肺線維症のマーカーとなる肺胞洗浄液におけるコラーゲンの量を測定したところ，肺線維症のモデルマウスに比べ顕著な低下が認められた．これらのことから，抗オートタキシンアプタマーRB014は<em>in vivo</em>においてもオートタキシンの活性を効率的に阻害し，肺線維症のモデルマウスに対して薬効を示すことが明らかにされた．<br/><br/><h2>おわりに</h2><br/>　特発性肺線維症はときに死にいたることもある重篤な疾患であるにもかかわらず，いまだ有効な治療法が確立されていない．オートタキシンと抗オートタキシンアプタマーRB011との複合体の結晶構造から，RB011はオートタキシンのコリン結合部位を占有することにより，低分子阻害剤とは異なる機構でオートタキシンの活性を阻害することが明らかにされた．さらに，構造の情報をもとに改良をくわえた抗オートタキシンアプタマーRB012およびRB014では，コリン結合部位と疎水性ポケットの両方と結合することによりオートタキシンの強力な阻害を実現していると考えられた．<br/>　この研究においては，アカデミアと製薬企業という2つのまったく異なる強みをもつ研究機関が密に共同研究を行うことにより研究成果をあげることができたと考えている．今後，このような産学連携のオープンイノベーションがさらに加速することにより，革新的な研究成果が創出されることを期待したい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Tuerk, C. & Gold, L.</span>: <span class="ti">Systematic evolution of ligands by exponential enrichment: RNA ligands to bacteriophage T4 DNA polymerase.</span> <span class='so'>Science, 249, 505-510 (1990)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2200121" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Ellington, A. D. & Szostak, J. W.</span>: <span class="ti"><em>In vitro</em> selection of RNA molecules that bind specific ligands.</span> <span class='so'>Nature 346, 818-822 (1990)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1697402" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Ng, E. W., Shima, D. T., Calias, P. et al.</span>: <span class="ti">Pegaptanib, a targeted anti-VEGF aptamer for ocular vascular disease.</span> <span class='so'>Nat. Rev. Drug Discov., 5, 123-132 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16518379" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Umezu-Goto, M., Kishi, Y., Taira, A. et al.</span>: <span class="ti">Autotaxin has lysophospholipase D activity leading to tumor cell growth and motility by lysophosphatidic acid production.</span> <span class='so'>J. Cell Biol., 158, 227-233 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12119361" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Tokumura, A., Majima, E., Kariya, Y. et al.</span>: <span class="ti">Identification of human plasma lysophospholipase D, a lysophosphatidic acid-producing enzyme, as autotaxin, a multifunctional phosphodiesterase.</span> <span class='so'>J. Biol. Chem., 277, 39436-39442 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12176993" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Tager, A. M., LaCamera, P., Shea, B. S. et al.</span>: <span class="ti">The lysophosphatidic acid receptor LPA<sub>1</sub> links pulmonary fibrosis to lung injury by mediating fibroblast recruitment and vascular leak.</span> <span class='so'>Nat. Med., 14, 45-54 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18066075" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Oikonomou, N., Mouratis, M. A., Tzouvelekis, A. et al.</span>: <span class="ti">Pulmonary autotaxin expression contributes to the pathogenesis of pulmonary fibrosis.</span> <span class='so'>Am. J. Respir. Cell Mol. Biol., 47, 566-574 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22744859" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Nishimasu, H., Okudaira, S., Hama, K. et al.</span>: <span class="ti">Crystal structure of autotaxin and insight into GPCR activation by lipid mediators.</span> <span class='so'>Nat. Struct. Mol. Biol., 18, 205-212 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21240269" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/2034" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R9"><span class='au'>Hausmann, J., Kamtekar, S., Christodoulou, E. et al.</span>: <span class="ti">Structural basis of substrate discrimination and integrin binding by autotaxin.</span> <span class='so'>Nat. Struct. Mol. Biol., 18, 198-204 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21240271" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Kawaguchi, M., Okabe, T., Okudaira, S. et al.</span>: <span class="ti">Screening and X-ray crystal structure-based optimization of autotaxin (ENPP2) inhibitors, using a newly developed fluorescence probe.</span> <span class='so'>ACS Chem. Biol., 8, 1713-1721 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23688339" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=PDBj" target="_blank">PDBj</a></li><br></ul><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">加藤 一希（Kazuki Kato）</span><br>略歴：2015年 東京大学大学院理学系研究科博士課程 修了．<br>研究テーマ：自然免疫にかかわるタンパク質の構造生物学．<br>抱負：自分にしかできないサイエンスを追求したい．<br><br><strong>池田 寿子（Hisako Ikeda）</strong><br>リボミック 主任研究員．<br><br><strong>中村 義一（Yoshikazu Nakamura）</strong><br>リボミック 代表取締役社長．<br>研究室URL：<a href="http://www.ribomic.com/index.html" target="_blank">http://www.ribomic.com/index.html</a><br><br><strong>濡木  理（Osamu Nureki）</strong><br>東京大学大学院理学系研究科 教授．<br>研究室URL：<a href="http://www.nurekilab.net/" target="_blank">http://www.nurekilab.net/</a><br></div><br>© 2016 加藤一希・池田寿子・中村義一・濡木 理 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

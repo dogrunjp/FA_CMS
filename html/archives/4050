@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 骨髄に存在する非ミエリンSchwann細胞は造血幹細胞を休眠状態に誘導するニッチ細胞である : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>骨髄に存在する非ミエリンSchwann細胞は造血幹細胞を休眠状態に誘導するニッチ細胞である</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>山崎 聡・中内啓光</strong><br>（東京大学医科学研究所 幹細胞治療研究センター幹細胞治療分野）<br>email：<a href="mailto:y-sato4@ims.u-tokyo.ac.jp">山崎 聡</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.181">10.7875/first.author.2011.181</a><br><div class="reference"><br><span class="ti">Nonmyelinating Schwann cells maintain hematopoietic stem cell hibernation in the bone marrow niche.</span><br><span class="au">Satoshi Yamazaki, Hideo Ema, Göran Karlsson, Tomoyuki Yamaguchi, Hiroyuki Miyoshi, Seiji Shioda, Makoto M. Taketo, Stefan Karlsson, Atsushi Iwama, Hiromitsu Nakauchi</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22118468" target="_blank"><em>Cell</em>, <strong>147</strong>, 1146-1158 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　造血幹細胞は骨髄に存在して，生涯にわたり自己と造血前駆細胞とに分裂することで血液細胞を供給している．しかしながら，幹細胞の分裂が頻繁にくり返されると細胞はつきてしまい，正常な血液細胞を供給するという役割をはたせなくなる可能性が考えられる．筆者らは，このようなことが起こらないよう生体において大多数の造血幹細胞は細胞分裂が休止した休眠状態にあることを報告している．また，休眠状態の造血幹細胞は骨髄の“微小環境”（ニッチ）において存在しつづけていると考えられており，骨髄から外にでた造血幹細胞はすぐに増殖因子のシグナルをうけ活性化する．これらのことから，骨髄ニッチが造血幹細胞の休眠状態の維持に関与しているものと考えられた．しかし，骨髄ニッチや造血幹細胞が骨髄環境のどこにあり，どのような分子機構により造血幹細胞を休眠状態に誘導しているのか，その詳細は不確定であった．筆者らは，造血幹細胞の休眠状態を維持するための機構を詳細に解析した結果，骨髄における神経系細胞の一種であるグリア細胞が潜在型TGFβを活性化する細胞であり，活性型TGFβを介したシグナルにより造血幹細胞が休眠状態に誘導されることを明らかにした．また，神経系細胞と造血系細胞とはそれぞれ独立して生体を維持しているものと考えられていたが，骨髄ニッチを介し互いの細胞の関係が強く結びついていることも明らかにした．<br/><br/><h2>はじめに</h2><br/>　血液はヒトの体重の約8％をしめ，全身に酸素を運ぶ赤血球，感染防御にはたらく白血球など，さまざまな血液細胞が存在する．しかし，分化した血液細胞には寿命が短いものが存在するため，造血幹細胞は生涯にわたり血液細胞を供給しつづけている．臨床の現場で白血病の治療として行われる骨髄移植は，高い再生能力をもつ造血幹細胞の移植による造血系の再生医療である．また，造血幹細胞にも自らのゲノムが突然変異を起こさないため，また，細胞がつきないようなくふうのあるものと考えられている．以前に筆者らは，そのくふうのひとつが休眠状態の維持機構であり，造血幹細胞は骨髄ニッチとよばれる微小環境において休眠状態で存在しつづけていると報告した<a href="#R1"><sup>1)</sup></a>．また，造血幹細胞において細胞周期や老化を抑制する転写因子などの解析も報告されつつある<a href="#R2"><sup>2,3)</sup></a>．しかし，骨髄ニッチに造血幹細胞が存在しているのかどうか，また，骨髄ニッチがどのような分子機構により造血幹細胞を休眠状態にしているのか，その詳細は不明であった．この研究では，骨髄に存在する造血幹細胞の休眠状態の維持にかかわるシグナルを手がかりに，骨髄ニッチを構成する細胞を明らかにした．そして，そのニッチを構成する細胞のひとつとして，骨髄に存在する非ミエリンSchwann細胞を見い出した．<br/><br/><h2>1．TGFβによる造血幹細胞の休眠状態の維持</h2><br/>　筆者らは，造血幹細胞の休眠状態に着目し，骨髄ニッチには造血幹細胞を休眠させるはたらきがあるという仮説をたてて，造血幹細胞の細胞分裂を抑制するタンパク質をスクリーニングした．その結果，TGFβ（transforming growth factor β）が造血幹細胞の細胞分裂を強力に抑制することが明らかになった．さらに，TGFβ型受容体2をノックアウトしたマウスにおいて造血幹細胞の機能を競合的な骨髄移植法により解析したところ，TGF受容体2ノックアウトマウスの造血幹細胞は野生型マウスと比較して細胞周期の亢進していることが明らかになった．また，移植ののちに生着する末梢の血液細胞も，時間を経過するほど著しく低下することが確認された．これらの実験により，生体の造血幹細胞におけるTGFβシグナルの機能が示された．<br/><br/><h2>2．骨髄に存在するTGFβを活性化する細胞の同定</h2><br/>　生体に存在するほとんどのTGFβは不活性型TGFβ（潜在型TGFβ）として存在していることが明らかになっている<a href="#R4"><sup>4)</sup></a>．また，筆者らは，造血幹細胞はそれ自体では潜在型TGFβを活性化できないことを報告している<a href="#R5"><sup>5)</sup></a>．では，骨髄において潜在型TGFβが活性型に変換されるのはどのような場所（細胞）であるのかを，抗latency associated peptide（LAP）抗体と抗活性型TGFβ抗体を用いてマウスの骨髄切片を免疫染色することにより解析した．その結果，抗LAP抗体では巨核球を含めさまざまな細胞が染色された一方で，抗活性型TGFβ抗体で染色されたのは血管内皮細胞様の細長い細胞であった．さまざまな抗体を用いて染色してみたところ，活性型TGFβ陽性細胞は血管内皮細胞のマーカーであるVEカドヘリンに陽性の細胞とは異なる細胞であったが，その近傍に存在していることが確認された（<a href="#F1">図1a</a>）．また，間葉系幹細胞のマーカーであるPDGF受容体に陽性の細胞<a href="#R6"><sup>6,7)</sup></a> とも異なる細胞であった．おもしろいことに，活性型TGFβ陽性細胞は神経系細胞の一種であるグリア細胞のマーカーであるGFAP（glial fibrillary acidic protein，グリア線維酸性タンパク質）やS100betaなどにより強く染色された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　骨髄における活性型TGFβ陽性細胞およびGFAP陽性細胞の局在</strong><br/>（a）活性型TGFβ陽性細胞は，血管内皮細胞のマーカーであるVEカドヘリンに陽性の細胞とは異なる細胞であるが，これらは互いに近傍に存在していた．青色：DAPI染色，緑色：VEカドヘリン，赤色：活性型TGFβ．<br/>（b）GFAP陽性細胞の近くに造血幹細胞が存在する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakauchi-Cell-11.11.23-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　骨髄における活性型TGFβ陽性細胞およびGFAP陽性細胞の局在" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakauchi-Cell-11.11.23-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakauchi-Cell-11.11.23-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．骨髄に存在するGFAP陽性細胞は非ミエリンSchwann細胞である</h2><br/>　骨髄に存在する非常に細長いGFAP陽性細胞がチロシンヒドロキシラーゼ陽性細胞とほぼ同様に免疫染色されたことから，このGFAP陽性細胞は神経細胞をとりまくグリア細胞ではないかと考えた．そこで，より詳細にGFAP陽性細胞の形態を解析するため，輪切りにした骨髄切片を作製して免疫染色を行った．その結果，神経のマーカーをおおうようにGFAP陽性細胞の存在することが認められた．また，このGFPA陽性細胞は非常に細く，また，大きなミエリンが認められなかったため，組織学的に非ミエリンSchwann細胞であると示唆された．<br/><br/><h2>4．造血幹細胞はGFAP陽性細胞の近傍に存在している</h2><br/>　骨髄に存在する造血幹細胞の非常に少ないこと（3万個に1個程度の頻度）が骨髄ニッチの研究を非常に困難にしている原因のひとつである<a href="#R8"><sup>8)</sup></a>．そこで，画像解析装置の一種であるArrayScanという機器を導入し造血幹細胞が骨髄のどの場所に存在するかを迅速かつ客観的に解析した．その結果，造血幹細胞のマーカーに陽性の細胞がGFAPを発現しているSchwann細胞の非常に近い場所に存在していることが確認できた（<a href="#F1">図1b</a>）．<br/>　骨髄に存在するGFAP陽性細胞が神経細胞を支持するSchwann細胞であることが示され，また，造血幹細胞がSchwann細胞の非常に近い場所に存在することが確認された．つぎに，神経を遮断してWaller変性を起こすことによりこのGFAP陽性細胞を死滅することができないだろうかどうかと考えた．まず，骨髄に入り込む自律神経を遮断した．神経遮断の数日後に骨髄の切片を作製し，遮断していない骨髄と遮断した骨髄におけるGFAP陽性細胞を定量した．その結果，神経を遮断した骨髄において有意にGFAP陽性細胞と活性型TGFβ陽性細胞の減少が確認された．<br/><br/><h2>5．神経遮断による造血幹細胞の減少と細胞周期の亢進</h2><br/>　神経を遮断することにより，骨髄においてGFAP陽性細胞が減少すると同時に，活性型TGFβ陽性細胞も減少することが確認された．では，骨髄においてSchwann細胞が減少した場合，骨髄の造血幹細胞の数にはどのような変化があるのか，フローサイトメーターにより解析した．その結果，神経遮断を行った骨髄では行わなかった骨髄と比較して造血幹細胞の画分が顕著に減少していることが確認された．また，神経を遮断したのちBrdUを1週間あたえつづけ，造血幹細胞がどのくらいBrdUを取り込んでいるかどうかを解析した結果，神経遮断を行ったマウスの造血幹細胞は神経遮断を行っていないマウスに比べBrdUの取り込みが有意に亢進していた．また，神経遮断を行うと同時に活性型TGFβを投与し，さらに，BrdUを1週間あたえつづけた結果，やはり，活性型TGFβを投与したマウスでは投与していないマウスに比べ造血幹細胞におけるBrdUの取り込みが低下していることが示された．<br/>　以上の結果から，骨髄において非ミエリンSchwann細胞は，潜在型TGFβを活性型TGFβへと変換することにより造血幹細胞の休眠状態を誘導する骨髄ニッチ細胞として存在することが明らかになった（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　骨髄に存在するSchwann細胞は潜在型TGFβを活性化する能力をもち造血幹細胞の休眠状態を誘導する</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakauchi-Cell-11.11.23-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　骨髄に存在するSchwann細胞は潜在型TGFβを活性化する能力をもち造血幹細胞の休眠状態を誘導する" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakauchi-Cell-11.11.23-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakauchi-Cell-11.11.23-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　造血幹細胞ニッチにはさまざまな報告と多くの見解が存在する．骨芽細胞ニッチの報告をスタートに<a href="#R9"><sup>9,10)</sup></a>，ここ数年，骨髄における微小環境の研究が急進展している．また，血液においてだけでなく“ニッチ”という場所の重要性が考えられている．近年，白血病幹細胞などのがん幹細胞もニッチにおいて休眠状態にあることが放射線治療や化学療法に対する抵抗性との関係から指摘されており，これが白血病の再発の原因である可能性が高いものと考えられている．このように，造血幹細胞ニッチに関する研究は，造血のしくみを理解するうえのみならず，医学的にもきわめて重要な研究課題といえる．<br/>　今回の研究から，骨髄ニッチに神経細胞の関与していることがはじめて明らかになり，将来，白血病の再発を抑えるまったく新しい治療法のみつかる可能性が考えられる．また，生体には造血幹細胞のほかにもさまざまな幹細胞が存在する．今回，発見された神経系細胞による幹細胞の制御機構はほかの幹細胞にもあてはまる可能性があり，今後の展開が期待される．さらに，神経系細胞が造血を制御することの生理的な意味や，疾患との関連性を明らかにすることもこれからの課題である．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Yamazaki, S., Iwama, A., Takayanagi, S. et al.</span>: <span class="ti">Cytokine signals modulated via lipid rafts mimic niche signals and induce hibernation in hematopoietic stem cells.</span> <span class='so'>EMBO J., 25, 3515-3523 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16858398" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Miyamoto, T., Ito, K., Ohmura, M. et al.</span>: <span class="ti">Foxo3a is essential for maintenance of the hematopoietic stem cell pool.</span> <span class='so'>Cell Stem Cell, 1, 101-112 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18371339" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Tothova, Z., Kollipara, R., Huntly, B. J. et al.</span>: <span class="ti">FoxOs are critical mediators of hematopoietic stem cell resistance to physiologic oxidative stress.</span> <span class='so'>Cell, 128, 325-339 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17254970" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Annes, J. P., Munger, J. S. & Rifkin, D. B.</span>: <span class="ti">Making sense of latent TGFβ activation.</span> <span class='so'>J. Cell Sci., 116, 217-224 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12482908" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Yamazaki, S., Iwama, A., Takayanagi, S. et al.</span>: <span class="ti">TGF-β as a candidate bone marrow niche signal to induce hematopoietic stem cell hibernation.</span> <span class='so'>Blood, 113, 1250-1256 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18945958" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Morikawa, S., Mabuchi, Y., Niibe, K. et al.</span>: <span class="ti">Development of mesenchymal stem cells partially originate from the neural crest.</span> <span class='so'>Biochem. Biophys. Res. Commun., 379, 1114-1119 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19161980" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Omatsu, Y., Sugiyama, T., Kohara, H. et al.</span>: <span class="ti">The essential functions of adipo-osteogenic progenitors as the hematopoietic stem cell and progenitor cells niche.</span> <span class='so'>Immunity, 24, 384-399 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20850355" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Osawa, M., Hanada K., Hamada, H. et al.</span>: <span class="ti">Long-term lymphohematopoietic reconstitution by a single CD34-low/negative hematopoietic stem cell.</span> <span class='so'>Science, 273, 242-245 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8662508" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Calvi, L. M., Adams, G. B., Weibrecht, K. W. et al.</span>: <span class="ti">Osteoblastic cells regulate the haematopoietic stem cell niche.</span> <span class='so'>Nature, 425, 841-846 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14574413" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Zhang, J., Grindley, J. C., Yin, T. et al.</span>: <span class="ti">PTEN maintains hematopoietic stem cells and acts in lineage choice and leukaemia prevention.</span> <span class='so'>Nature, 441, 518-522 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16633340" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">山崎  聡（Satoshi Yamazaki）</span><br>略歴：2008年より科学技術振興機構ERATO中内幹細胞制御プロジェクト 研究員．<br>関心事：料理．<br><br><strong>中内 啓光（Hiromitsu Nakauchi）</strong><br>東京大学医科学研究所 教授．<br>研究室URL：<a href="http://stemcell-u-tokyo.org/sct/" target="_blank">http://stemcell-u-tokyo.org/sct/</a><br></div><br>© 2011 山崎 聡・中内啓光 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

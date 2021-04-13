@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 染色体の構造の形成にかかわるコヒーシンのサブコンプレックスの構造 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>染色体の構造の形成にかかわるコヒーシンのサブコンプレックスの構造</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>原 幸大・Hongtao Yu</strong><br>（米国Texas大学Southwestern Medical Center，Department of Pharmacology）<br>email：<a href="mailto:khara@u-shizuoka-ken.ac.jp">原 幸大</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2014.118">10.7875/first.author.2014.118</a><br><div class="reference"><br><span class="ti">Structure of cohesin subcomplex pinpoints direct shugoshin-Wapl antagonism in centromeric cohesion.</span><br><span class="au">Kodai Hara, Ge Zheng, Qianhui Qu, Hong Liu, Zhuqing Ouyang, Zhe Chen, Diana R Tomchick, Hongtao Yu</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25173175" target="_blank"><em>Nature Structural & Molecular Biology</em>, <strong>21</strong>, 864-870 (2014)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ゲノムDNAの複製と姉妹染色分体の正確な分配は，生物の正常な細胞分裂において重要であり，これらの機構の崩壊は細胞のがん化や重篤な遺伝性疾患をひき起こす．コヒーシン複合体とその制御タンパク質は，姉妹染色分体の構造の形成と適切な染色体分配において重要な役割をもつ．コヒーシンがM期に特異的なキナーゼによりリン酸化されると，コヒーシンにはWaplがリクルートされる．Waplはクロマチンからコヒーシンを解離させ，染色体の腕部を形成する．一方で，セントロメア領域では，脱リン酸化酵素であるPP2AとSgo1との複合体がコヒーシンにリクルートされることによりコヒーシンの脱リン酸化が促進され，Waplによるクロマチンからのコヒーシンの解離が阻害される．その結果，姉妹染色分体の接着が維持され，染色体のくびれた構造が形成される．今回，筆者らは，コヒーシンのサブコンプレックスであるSA2-Scc1複合体のX線結晶構造解析を行い，分解能2.85Åでの構造決定に成功した．さらに，Sgo1がSA2-Scc1複合体と相互作用することによりWaplとコヒーシンとの結合を阻害し，セントロメアの構造を形成することが明らかにされた．<br/><br/><h2>はじめに</h2><br/>　真核生物において，コヒーシンは姉妹染色分体の接着，複製，修復，転写などを制御することによりゲノムの恒常性を維持している<a href="#R1"><sup>1)</sup></a>．コヒーシンあるいはその制御タンパク質の異常は，細胞のがん化や個体の分化の異常につながる<a href="#R2"><sup>2,3)</sup></a>．ヒトの体細胞においてコヒーシンはSmc1-Smc3複合体とSA1-Scc1複合体あるいはSA2-Scc1複合体からなるリング構造を形成している<a href="#R1"><sup>1)</sup></a>．<br/>　クロマチンとコヒーシンとの相互作用のダイナミクスはいくつかの制御タンパク質により制御されている<a href="#R4"><sup>4)</sup></a>．M期の終期では，コヒーシンはコヒーシンローダーであるScc2-Scc4複合体によりクロマチンにロードされる．G1期では，クロマチンに結合したコヒーシンがPds5とWaplとの協同的なはたらきによりクロマチンから解離する．S期には，sororinがPds5を介してコヒーシンと結合し，WaplとPds5との結合を阻害することによりコヒーシンとクロマチンとの結合を維持する<a href="#R5"><sup>5)</sup></a>．前中期では，M期に特異的なキナーゼであるCdk1，Plk1，AuroraBがコヒーシンおよびsororinをリン酸化し，Waplによるクロマチンからのコヒーシンの解離をひき起こすことにより染色体の腕部が形成される<a href="#R6"><sup>6)</sup></a>．セントロメア領域のコヒーシンは，脱リン酸化酵素であるPP2AとSgo1との複合体によりキナーゼおよびWaplから保護されている<a href="#R7"><sup>7,8)</sup></a>．PP2A-Sgo1複合体はコヒーシンおよびsororinを脱リン酸化することによりセントロメア領域における姉妹染色分体の接着を維持している<a href="#R9"><sup>9)</sup></a>．中期から後期にかけて，キネトコアと微小管との適切な結合がそれぞれの姉妹染色分体のキネトコアのあいだに張力を生み出し，スピンドルチェックポイントを不活性化させ，そののち，セパラーゼを活性化させる<a href="#R10"><sup>10)</sup></a>．<br/>　SA2-Scc1複合体はコヒーシンおよびさまざまな制御タンパク質，Scc2-Scc4複合体，Pds5，Wapl，Sgo1との結合を仲介するが<a href="#R9"><sup>9,11,12)</sup></a>，SA2-Scc1複合体の構造および制御タンパク質との相互作用についてはあまり理解されていない．今回，筆者らは，SA2-Scc1複合体と制御タンパク質との相互作用の分子機構を構造生物学的に解明するため，SA2-Scc1複合体のX線結晶構造解析を行った．また，SA2-Scc1複合体においてSgo1およびWaplとの結合領域のマッピングに成功し，Sgo1とWaplとのコヒーシンへの競合的な相互作用が示された．さらに，Sgo1がコヒーシンと相互作用しコヒーシンとWaplとの結合を阻害することが，セントロメア領域における姉妹染色分体の接着のために重要であることが明らかにされた．<br/><br/><h2>1．コヒーシンのサブコンプレックスであるSA2-Scc1複合体の全体構造</h2><br/>　コヒーシンおよびその制御タンパク質の構造解析は，タンパク質発現系の構築および結晶の調製の困難さのため，あまり進んでいない．現在までに，Smc3-Smc1複合体，Smc1-Scc1複合体と制御タンパク質Wapl，PP2A-Sgo1複合体に関連した構造が報告されているものの，SA1あるいはSA2に関する構造情報は得られていない．そこで，SA2とScc1との相互作用領域をマッピングし，昆虫細胞を用いた共発現系を用いることにより，SA2-Scc1複合体の調製に成功した．そののち，セレノメチオニン置換タンパク質を作製し単波長異常分散法を用いることにより，SA2-Scc1複合体の分解能2.85Åでの構造解析に成功した（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=4pju&amp;PAGEID=Summary" target="_blank">4PJU</a>）．<br/>　SA2-Scc1複合体の全体構造は，ドラゴン（SA2）のうえにドラゴンライダー（Scc1）がまたがったようなかたちをしていた（<a href="#F1">図1a</a>）．SA2の構造は7つのαヘリックスからなるN末端ドメイン（ドラゴンヘッド）と17個のHEATリピートを含んでいた．興味深いことに，HEATリピート1およびHEATリピート2はほかのHEATリピートより長く，ドラゴンの突き出た鼻（ドラゴンスノウト）のようなかたちをしていた．また，HEATリピート9とHEATリピート10においてSA2は折れ曲がった構造を形成していた．Scc1は4つのαヘリックスをもち，N末端からC末端にかけて4つの結合部位（部位I～部位IV）においてSA2と相互作用していた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　SA2-Scc1複合体の全体構造と相互作用</strong><br/>（a）SA2-Scc1複合体の全体構造．SA2は7つのαヘリックス（Nα1～Nα7）と17個のHEATリピート（R1～R17）をもつ．Scc1は4つのαヘリックス（αA～αD）をもつ．SA2とScc1は部位I～部位IVにおいて相互作用していた．<br/>（b）部位IVにおける，SA2のAsp793，Scc1のPro376，Scc1のAla377の水素結合．赤色の点線は水素結合を示す．<br/>（c）部位IIにおける，SA2-Scc1複合体と2-モルホリノエタンスルホン酸との相互作用．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hara-Nature-Structural-Molecular-Biology-14.10.6-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　SA2-Scc1複合体の全体構造と相互作用" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hara-Nature-Structural-Molecular-Biology-14.10.6-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hara-Nature-Structural-Molecular-Biology-14.10.6-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．SA2とScc1との相互作用</h2><br/>　SA2はScc1と幅広い相互作用領域をもっていたが，これらの相互作用において機能的に重要なアミノ酸残基を特定するため，さまざまな変異体を用いて相互作用を解析した．その結果，部位IVに位置するSA2のAsp793にLysを導入した変異体のみがScc1との相互作用を欠損した．Asp793は，Scc1のαCとαDとをつなぐループに位置するPro376およびAla377の主鎖と水素結合を形成していた（<a href="#F1">図1b</a>）．また，このSA2変異体は姉妹染色分体の接着を低下させたことから，SA2-Scc1複合体の形成がコヒーシンの機能的なリング構造を構築するうえで重要であることが示された．SA2がScc1と結合することによりSmc3およびSmc1のATPase活性を抑制し，コヒーシンとクロマチンとの結合を維持させているのかもしれない．<br/><br/><h2>3．コヒーシンにおけるSgo1およびWaplとの結合部位の同定</h2><br/>　Thr346のリン酸化されたSgo1は，M期においてセントロメア領域のコヒーシンと結合して姉妹染色分体の接着を形成する<a href="#R9"><sup>9)</sup></a>．しかし，コヒーシンとリン酸化Sgo1とが物理的に相互作用しているかどうかは不明であった．そこで，リン酸化Sgo1とSA2-Scc1複合体との相互作用領域を同定した．SA2-Scc1複合体とリン酸化Sgo1との相互作用の分子機構を解明するため，共結晶化法やソーキング法などさまざまな結晶学的な手法を用いてSA2，Scc1，リン酸化Sgo1からなる三者複合体の構造解析を試みたが，構造解析に適した結晶を得ることはできなかった．しかし，試行錯誤のなかで，結晶化溶液に含まれる2-モルホリノエタンスルホン酸が部位IIに結合した構造を得ることに成功した（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=4pjw&amp;PAGEID=Summary" target="_blank">4PJW</a>，<a href="#F1">図1c</a>）．2-モルホリノエタンスルホン酸のスルホ基はSA2のTyr297，Arg298，Tyr331と水素結合を形成しており，リン酸基とよく似たかたちをしていたことから，これらの残基はThy346のリン酸化されたSgo1と結合するためのアクセプターとして機能すると思われた．実際に，これらの残基の変異体は姉妹染色分体の接着を低下させたことから，Sgo1との結合ポケットの形成に関与していることが示唆された．また興味深いことに，SA2のTyr297およびArg298は真核生物において保存されたFVHRYRDモチーフに位置しており，コヒーシンローダーであるScc2-Scc4複合体の結合部位でもある．FVHRYRDモチーフの変異体は<em>in vitro</em>において環状DNAへのコヒーシンのロードを部分的に阻害し，さらに，出芽酵母においては姉妹染色分体の接着の欠損をひき起こすことが報告されている<a href="#R11"><sup>11)</sup></a>．そこで，FVHRYRDモチーフの変異体がヒトでも同様にコヒーシンのロードを阻害するかどうか調べたが，阻害は起こらなかった．Scc2-Scc4複合体はSA2を含むいくつかのコヒーシンのサブユニットと相互作用することから，ヒトではSA2とScc2-Scc4複合体との相互作用を阻害してもコヒーシンのロードが起こるのだろう．<br/>　Sgo1とコヒーシンとの結合を阻害するSA2の変異体を用いて，Waplとコヒーシンとの相互作用を解析した．その結果，この変異体は同様にWaplとコヒーシンとの結合の阻害をひき起こした．さらに，この変異体における変異アミノ酸残基がセントロメア領域および染色体の腕部の形成に重要であったことから，Sgo1のコヒーシンとの結合部位とWaplのコヒーシンとの結合部位とはオーバーラップしていることが明らかになった．<br/><br/><h2>4．セントロメア領域での姉妹染色分体の接着の形成におけるSgo1の2つの機能</h2><br/>　これまで提案されてきたSgo1の機能は，脱リン酸化酵素であるPP2Aをセントロメア領域のコヒーシンにリクルートし，sororinをCdk1によるリン酸化から保護することによりPds5-sororin複合体を安定化させ，WaplとPds5との結合を阻害する，というものであった．そこで，Sgo1とWaplとのコヒーシンへの競合的な相互作用の機能を調べるため，sororin 9A変異体を用いて解析した．sororin 9A変異体はCdk1などによりリン酸化されない変異体である<a href="#R9"><sup>9)</sup></a>．sororin 9A変異体を発現させた細胞をNocodazoleあるいはMG132を用いて，それぞれ，前中期あるいは中期において細胞周期を停止させた．その結果，興味深いことに，前中期において細胞周期を停止させた細胞では姉妹染色分体の接着に変化はみられなかったが，中期において細胞周期を停止させた細胞では姉妹染色分体の接着が減少した．これは，前中期におけるPP2A-Sgo1複合体によるsororinの脱リン酸化だけでは姉妹染色分体の接着を維持できない，すなわち，中期から後期にかけてSgo1がコヒーシンと結合しWaplとコヒーシンとの結合を阻害することが，姉妹染色分体の接着を形成するうえで重要な，Sgo1の第2の機能であることを裏づけた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　セントロメア領域での姉妹染色分体の接着の形成におけるSgo1の2つの役割</strong><br/>1）脱リン酸化酵素PP2Aをコヒーシンにリクルートし，sororinをCdk1によるリン酸化から保護（脱リン酸化）してPds5-sororin複合体を安定化させることにより，WaplとPds5との結合を阻害する．2）SA2-Scc1複合体（コヒーシン）と結合し，Waplとコヒーシンとの結合を阻害する．<br/>Ac：アセチル化，P：リン酸化．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hara-Nature-Structural-Molecular-Biology-14.10.6-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　セントロメア領域での姉妹染色分体の接着の形成におけるSgo1の2つの役割" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hara-Nature-Structural-Molecular-Biology-14.10.6-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hara-Nature-Structural-Molecular-Biology-14.10.6-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　SA2-Scc1複合体の構造決定，生化学的なアプローチ，細胞生物学的なアプローチにより，Sgo1がコヒーシンと結合してWaplとコヒーシンとの結合を競合的に阻害することが，セントロメアの構造の形成に重要であることが明らかにされた．一方で，SA2-Scc1複合体とSgo1あるいはWaplとの三者複合体の構造，および，それらの相互作用の分子機構はなお不明である．また，Pds5-sororin複合体あるいはPds5-Wapl複合体による姉妹染色分体の接着およびその阻害の機構，Sgo1によるセパラーゼに対するセントロメア構造の保護の機構の解明も，今後の重要な課題である．コヒーシンのさまざまなサブコンプレックスの構造解析，および，電子顕微鏡などを用いたコヒーシンと制御タンパク質とのインタクトな超分子複合体の構造解析や相互作用の解析により，コヒーシンの魅力的なリング構造による染色体のダイナミクスが明らかにされていくであろう．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Nasmyth, K. & Haering, C. H.</span>: <span class="ti">Cohesin: its roles and mechanisms.</span> <span class='so'>Annu. Rev. Genet., 43, 525-558 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19886810" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Solomon, D. A., Kim, T., Diaz-Martinez, L. A. et al.</span>: <span class="ti">Mutational inactivation of STAG2 causes aneuploidy in human cancer.</span> <span class='so'>Science, 333, 1039-1043 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21852505" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Remeseiro, S., Cuadrado, A. & Losada, A.</span>: <span class="ti">Cohesin in development and disease.</span> <span class='so'>Development, 140, 3715-3718 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23981654" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Peters, J. M., Tedeschi, A. & Schmitz, J.</span>: <span class="ti">The cohesin complex and its roles in chromosomome biology.</span> <span class='so'>Genes Dev., 22, 3089-3114 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19056890" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Nishiyama, T., Laudurner, R., Schmitz, J. et al.</span>: <span class="ti">Sororin mediates sister chromatid cohesion by antagonizing Wapl.</span> <span class='so'>Cell, 143, 737-749 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21111234" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/1814" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R6"><span class='au'>Nishiyama, T., Sykora, M. M., Huis ln ‘t Veld, P. J. et al.</span>: <span class="ti">Aurora B and Cdk1 mediate Wapl activation and release of acetylated cohesin from chromosomes by phosphorylating Sororin.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 110, 13404-13409 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23901111" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Kitajima, T. S., Sakuno, T., Ishiguro, K. et al.</span>: <span class="ti">Shugoshin collaborates with protein phosphatase 2A to protect cohesin.</span> <span class='so'>Nature, 441, 46-52 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16541025" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Riedel, C. G., Katis, V. L., Katou, Y. et al.</span>: <span class="ti">Protein phosphatase 2A protects centromeric sister chromatid cohesion during meiosis I.</span> <span class='so'>Nature, 441, 53-61 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16541024" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Liu, H., Rankin, S. & Yu, H.</span>: <span class="ti">Phosphorylation-enabled binding of SGO1-PP2A to cohesin protects sororin and centromeric cohesion during mitosis.</span> <span class='so'>Nat. Cell Biol., 15, 40-49 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23242214" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Foley, E. A. & Kapoor, T. M.</span>: <span class="ti">Microtubule attachment and spindle assembly checkpoint signaling at the kinetochore.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 14, 25-37 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23258294" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Murayama, Y. & Uhlmann, F.</span>: <span class="ti">Biochemical reconstitution of topological DNA binding by the cohesin ring.</span> <span class='so'>Nature, 505, 367-371 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24291789" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/8060" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R12"><span class='au'>Shintomi, K. & Hirano, T.</span>: <span class="ti">Releasing cohesin from chromosome arms in early mitosis: opposing actions of Wapl-Pds5 and Sgo1.</span> <span class='so'>Genes Dev., 23, 2224-2236 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19696148" target="_blank">PubMed</a>]</span></li><br></ol><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">原  幸大（Kodai Hara）</span><br>略歴：2010年 横浜市立大学大学院国際総合科学研究科 修了，同年 米国Minnesota大学 博士研究員，2011年 米国Texas大学 博士研究員を経て，2014年より静岡県立大学薬学部 助教．<br>研究テーマ：DNA損傷に対する耐性および疾患に関連するタンパク質の構造生物学．<br>抱負：染色体の恒常性を維持するタンパク質の構造と機能を明らかにしたい．<br><br><strong>Hongtao Yu</strong><br>米国Texas大学Southwestern Medical Center教授<br>研究室URL：<a href="http://www4.utsouthwestern.edu/yulab/index.htm" target="_blank">http://www4.utsouthwestern.edu/yulab/index.htm</a><br></div><br>© 2014 原 幸大・Hongtao Yu Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

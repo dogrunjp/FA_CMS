@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> シナプス小胞の放出と取り込みとのバランスをささえるcGMP依存性プロテインキナーゼに依存したシナプス逆行性の制御機構 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>シナプス小胞の放出と取り込みとのバランスをささえるcGMP依存性プロテインキナーゼに依存したシナプス逆行性の制御機構</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>江口工学・高橋智幸</strong><br>（沖縄科学技術大学院大学 細胞分子シナプス機能ユニット）<br>email：<a href="mailto:eguchi@oist.jp">江口工学</a>，<a href="mailto:ttakahas@mail.doshisha.ac.jp">高橋智幸</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.060">10.7875/first.author.2012.060</a><br><div class="reference"><br><span class="ti">Maturation of a PKG-dependent retrograde mechanism for exoendocytic coupling of synaptic vesicles.</span><br><span class="au">Kohgaku Eguchi, Setsuko Nakanishi, Hiroshi Takagi, Zacharie Taoufiq, Tomoyuki Takahashi</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22578503" target="_blank"><em>Neuron</em>, <strong>74</strong>, 517-529 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　ニューロンとニューロンとが接するシナプスにおいて，シナプス前末端に集積するシナプス小胞には神経伝達物質が高濃度に蓄積されており，このシナプス小胞がシナプス前末端膜と融合することで神経伝達物質が放出されることはよく知られている．神経伝達物質を放出したのち，シナプス前末端膜に融合したシナプス小胞はエンドサイトーシスによりシナプス前末端に取り込まれ，神経伝達物質を充填したうえでシナプス伝達に再利用される．シナプスが長時間にわたり高頻度の伝達を維持するためにはシナプス小胞の放出と取り込みとのバランスをとるしくみが必要だと考えられるが，その詳細は明らかではない．今回，筆者らは，ラットの脳幹にある聴覚中継シナプスcalyx of Heldにおいて，シナプス小胞の放出と取り込みとのバランスをとるためのシナプス逆行性の制御機構が存在することを明らかにした．この制御機構は，1）神経伝達物質であるグルタミン酸によるシナプス後膜におけるNMDA受容体の活性化，2）NOの産生と放出，3）シナプス前末端におけるcGMP依存性プロテインキナーゼの活性化，4）ホスファチジルイノシトールビスリン酸の動員，5）エンドサイトーシスの加速，という一連の反応により起こることをつきとめた．このシナプス逆行性の制御機構は，生後2週齢よりあと，cGMP依存性プロテインキナーゼの発現の上昇にともない出現し，高頻度の入力を高い信頼性をもって伝達するシナプス伝達機能の生後発達に貢献している．<br/><br/><h2>はじめに</h2><br/>　ニューロンのあいだの情報伝達は，シナプス前末端からの神経伝達物質の放出と，シナプス後細胞における神経伝達物質の受容により行われる（<a href="#F1">図1</a>）．神経伝達物質はシナプス前末端にあるシナプス小胞に蓄積されており，活動電位のシナプス前末端への到達を引き金に，シナプス小胞がシナプス前末端膜と融合することで，その内部の神経伝達物質をシナプス間隙へと放出する（エキソサイトーシス）．シナプス前末端膜に融合したシナプス小胞はそののちシナプス前末端へと取り込まれ（エンドサイトーシス），新たなシナプス小胞として再利用される<a href="#R1"><sup>1,2)</sup></a>．高頻度のシナプス伝達が行われると多数のシナプス小胞が放出されまた取り込まれるが，このようなシナプス伝達を長時間にわたり維持するためには，放出されたシナプス小胞をその量に応じてすばやく取り込み再利用に備えることが必要となる．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　シナプスにおけるニューロンのあいだの情報伝達</strong><br/>シナプス前末端にはシナプス小胞とよばれる小胞があり，このなかに神経伝達物質が詰め込まれている．活動電位がシナプス前末端に到達すると，シナプス小胞がシナプス前末端膜と融合することで，なかの神経伝達物質は放出される（エキソサイトーシス）．シナプス後膜にある受容体は神経伝達物質を受け取り，電気信号へと変換することで情報の受け渡しがなされる．シナプス前末端膜に融合したシナプス小胞は再びシナプス前末端へと取り込まれ（エンドサイトーシス），新たなシナプス小胞として再形成され神経伝達物質を詰め込まれ再利用される．エキソサイトーシスされるシナプス小胞の量とエンドサイトーシスされるシナプス小胞の量とのバランスを制御することで，持続的なシナプス伝達が行われている．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Neuron-12.5.9-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　シナプスにおけるニューロンのあいだの情報伝達" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Neuron-12.5.9-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Neuron-12.5.9-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　哺乳動物の脳幹に存在する聴覚中継シナプスcalyx of Heldはグルタミン酸作動性の巨大シナプスとして知られ，前シナプスにおける分子機構の研究に広く用いられている<a href="#R3"><sup>3-6)</sup></a>．このcalyx of Heldシナプスは聴覚の獲得期である生後2週において劇的な変化をとげ，高速かつ高信頼性のシナプスに分化する<a href="#R4"><sup>4,5)</sup></a>．筆者らは，このcalyx of Heldシナプスを用い，膜容量測定法によりシナプス前末端におけるシナプス小胞のエキソサイトーシスおよびエンドサイトーシスの制御機構を調べた．<br/><br/><h2>1．シナプス前末端のcGMP依存性プロテインキナーゼは生後発達に依存してシナプス小胞のエンドサイトーシスを制御する</h2><br/>　シナプス前末端に発現する種々のプロテインキナーゼは，シナプス伝達関連タンパク質をリン酸化することによりその機能を修飾し制御していると考えられている．その制御機構を調べるため，プロテインキナーゼの阻害剤をパッチピペットからcalyx of Heldシナプスのシナプス前末端に直接に注入し，シナプス小胞のエキソサイトーシスおよびエンドサイトーシスに対する効果を調べた．その結果，生後13～14日目のラットのcalyx of Heldシナプスにおいて，cGMP依存性プロテインキナーゼの阻害剤がエンドサイトーシスを有意に遅らせることがわかった．一方で，生後発達よりまえ（生後7～9日目）のcalyx of HeldシナプスではcGMP依存性プロテインキナーゼの阻害剤は作用を示さなかった．これらの結果は，シナプス前末端においてcGMP依存性プロテインキナーゼがシナプス小胞のエンドサイトーシスを加速していること，また，その機構は生後発達とともに出現することを示唆していた．<br/><br/><h2>2．NOによるシナプス逆行性のシグナルはシナプス前末端のcGMP依存性プロテインキナーゼを活性化する</h2><br/>　cGMP依存性プロテインキナーゼはcGMPにより活性化するが，このcGMPの合成酵素である可溶性グアニル酸シクラーゼは細胞膜透過型のセカンドメッセンジャーである一酸化窒素（NO）により活性化することが知られている．また，calyx of Heldシナプスにおいて，そのシナプス後細胞であるMNTBニューロンがNOを産生し放出することが報告されている<a href="#R6"><sup>6)</sup></a>．そこで，シナプス後細胞から放出されたNOがシナプス逆行性にシナプス前末端へと到達し，cGMP依存性プロテインキナーゼを活性化している可能性を検討した．NOスカベンジャーであるPTIOを細胞外に潅流してシナプス後細胞から放出されるNOを除去したところ，シナプス前末端におけるシナプス小胞のエンドサイトーシスは有意に遅くなった．このPTIOによるシナプス小胞のエンドサイトーシスの阻害効果は，シナプス前末端にcGMPを注入することによりレスキューされた．これらの結果から，シナプス後細胞から放出されたNOが細胞膜を透過してシナプス逆行性にシナプス前末端へと到達し，可溶性グアニル酸シクラーゼを活性化してcGMPを生成，これにより活性化したcGMP依存性プロテインキナーゼがシナプス小胞のエンドサイトーシスを加速することが明らかになった．<br/>　また，NMDA型グルタミン酸受容体の阻害剤であるD-AP5を細胞外に潅流すると，シナプス小胞のエンドサイトーシスに対しPTIOと同様の作用を示すことが明らかにされた．calyx of HeldシナプスではNMDA受容体から流入したCa<sup>2+</sup>がNOの産生を促進することが知られていることから<a href="#R6"><sup>6)</sup></a>，シナプス前末端から放出されたグルタミン酸がNMDA受容体を介してシナプス後細胞からのNOの放出を促進することで，シナプス小胞のエンドサイトーシスをシナプス逆行性に加速していると結論された．<br/><br/><h2>3．cGMP依存性プロテインキナーゼはホスファチジルイノシトールビスリン酸を介してシナプス小胞のエンドサイトーシスを制御する</h2><br/>　リン脂質の一種であるホスファチジルイノシトールビスリン酸は，AP-2やダイナミンなどシナプス小胞のエンドサイトーシスに関連するタンパク質と結合しその機能を制御していると考えられている<a href="#R7"><sup>7,8)</sup></a>．cGMP依存性プロテインキナーゼがこのホスファチジルイノシトールビスリン酸の代謝を制御することでエンドサイトーシスを加速しているのではないかと考え，その検証を行った．ホスファチジルイノシトールビスリン酸の前駆体であるホスファチジルイノシトールリン酸の合成酵素の阻害薬PAOは，ホスファチジルイノシトールリン酸の合成を阻害することでホスファチジルイノシトールビスリン酸の濃度を下げるはたらきがある．このPAOをシナプス前末端に注入したところ，cGMP依存性プロテインキナーゼ阻害剤と同様に，シナプス小胞のエンドサイトーシスが遅くなった．また，cGMP依存性プロテインキナーゼ阻害剤とともにシナプス前末端にホスファチジルイノシトールビスリン酸を注入したところ，cGMP依存性プロテインキナーゼ阻害剤によるエンドサイトーシスの阻害作用は消失した．以上の結果から，シナプス前末端においてcGMP依存性プロテインキナーゼがホスファチジルイノシトールビスリン酸の量を制御することでエンドサイトーシスを加速していることが示唆された．<br/>　cGMP依存性プロテインキナーゼがホスファチジルイノシトールビスリン酸の量を制御していることは免疫組織化学的な手法によっても示された．免疫染色法により可視化されたcalyx of Heldシナプスのシナプス前末端におけるホスファチジルイノシトールビスリン酸の量は，cGMP依存性プロテインキナーゼ阻害剤およびNOスカベンジャーであるPTIOにより有意に減少した．この結果は，ラットの脳幹におけるホスファチジルイノシトールビスリン酸のELISA法による定量によっても同様に示された．これらの結果から，シナプス前末端においてcGMP依存性プロテインキナーゼがホスファチジルイノシトールビスリン酸の合成を促進あるいは分解を抑制することによりその濃度を制御し，その結果，シナプス小胞のエンドサイトーシスが加速していることが示唆された．<br/><br/><h2>4．NOとcGMP依存性プロテインキナーゼによるエンドサイトーシスの制御が高頻度のシナプス伝達の維持に寄与する</h2><br/>　以上の結果から，シナプス前末端におけるシナプス小胞のエンドサイトーシスが，NO-cGMP依存性プロテインキナーゼ-ホスファチジルイノシトールビスリン酸を介して，シナプス後細胞からのシナプス逆行性の制御をうけていることが明らかになった．つぎに，このシナプス逆行性の制御がシナプス伝達にどのように関与しているかを調べた．シナプス前末端にホールセルパッチクランプを行い，電流注入により活動電位を発生させた．また同時に，細胞外記録によりシナプス後細胞の活動電位をモニターした．シナプス前末端における活動電位の発生頻度を100 Hzとし50秒間にわたり刺激をつづけたところ，シナプス後細胞の活動電位の追従率（シナプス前末端の活動電位に応じてシナプス後細胞が発火する割合）は徐々に減衰し，50秒後には約70％となった．つぎに，パッチピペットをとおしてシナプス前末端にcGMP依存性プロテインキナーゼ阻害剤を注入したところ，活動電位の追従率の減衰は刺激開始20秒後から阻害剤のない場合と比べ速く進むようになり，50秒後には約45％となった．この結果は，cGMP依存性プロテインキナーゼ阻害剤によりシナプス小胞のエンドサイトーシスが遅くなることでシナプス小胞の再形成が阻害され，その枯渇が生じたことによると考えられた．以上より，cGMP依存性プロテインキナーゼによるシナプス小胞のエンドサイトーシスの加速がシナプス小胞の枯渇を防ぐことにより，高頻度のシナプス伝達の維持に寄与しているものと結論された．<br/><br/><h2>おわりに</h2><br/>　今回の研究により，シナプス前末端におけるシナプス小胞のエンドサイトーシスはシナプス後細胞からのシナプス逆行性の制御をうけており，この制御により高頻度かつ高信頼性のシナプス伝達が可能となっていることが明らかになった（<a href="#F2">図2</a>）．また，この機構は生後発達とともに出現することから，シナプスの成熟に深く関与していることも示唆された．このシナプス逆行性の制御はシナプス前末端から放出されたグルタミン酸がシナプス後細胞のNMDA受容体により受容されることにはじまる．したがって，このNMDA受容体-NO-cGMP依存性プロテインキナーゼ経路は，シナプス前末端から放出されたグルタミン酸の量，すなわち，エキソサイトーシスされたシナプス小胞の数に応じて作用しシナプス前末端におけるシナプス小胞のエンドサイトーシスを制御している．この研究により，ニューロンがシナプス小胞のエンドサイトーシスをエキソサイトーシスと同調させ，シナプス伝達を持続するしくみが示された．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　NOによるシナプス小胞のエンドサイトーシスのシナプス逆行性の制御</strong><br/>シナプス前末端から放出された神経伝達物質（グルタミン酸）は，シナプス後膜においてNMDA受容体に結合する．グルタミン酸を受け取ったNMDA受容体はシナプス後細胞へCa<sup>2+</sup>を流入させ，このCa<sup>2+</sup>はカルモジュリンを，カルモジュリンはNO合成酵素を活性化しNOを産生する．NOはシナプス後膜およびシナプス前末端膜を透過しシナプス前末端において水溶性グアニル酸シクラーゼ（sGC）を活性化する．活性化した水溶性グアニル酸シクラーゼはcGMPを産生し，このcGMPはcGMP依存性プロテインキナーゼ（PKG）を活性化する．活性化したcGMP依存性プロテインキナーゼはホスファチジルイノシトールビスリン酸（PIP<sub>2</sub>）の量を制御し，シナプス小胞のエンドサイトーシスを加速する．このようにして，NO-cGMP依存性プロテインキナーゼ-ホスファチジルイノシトールビスリン酸経路によるシナプス小胞のエンドサイトーシスのシナプス逆行性の制御が行われている．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Neuron-12.5.9-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　NOによるシナプス小胞のエンドサイトーシスのシナプス逆行性の制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Neuron-12.5.9-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Neuron-12.5.9-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Sudhof, T. C.</span>: <span class="ti">The synaptic vesicle cycle.</span> <span class='so'>Annu. Rev. Neurosci., 27, 509-547 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15217342" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Royle, S. J. & Lagnado, L.</span>: <span class="ti">Clathrin-mediated endocytosis at the synaptic terminal: bridging the gap between physiology and molecules.</span> <span class='so'>Traffic, 11, 1489-1497 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20633242" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Nakamura, Y. & Takahashi, T.</span>: <span class="ti">Developmental changes in potassium currents at the rat calyx of Held presynaptic terminal.</span> <span class='so'>J. Physiol., 581, 1101-1112 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17331991" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Renden, R. & von Gersdorrff, H.</span>: <span class="ti">Synaptic vesicle endocytosis at a CNS nerve terminal: faster kinetics at physiological temperatures and increased endocytotic capacity during maturation.</span> <span class='so'>J. Neurophysiol., 98, 3349-3359 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17942618" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Yamashita, T., Eguchi, K., Saitoh, N. et al.</span>: <span class="ti">Developmental shift to a mechanism of synaptic vesicle endocytosis requiring nanodomain Ca<sup>2+</sup>.</span> <span class='so'>Nat. Neurosci., 13, 838-844 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20562869" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Steinert, J. R., Kopp-Scheinpflug, C., Baker, C. et al.</span>: <span class="ti">Nitric oxide is a volume transmitter regulating postsynaptic excitability at a glutamatergic synapse.</span> <span class='so'>Neuron, 60, 642-656 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19038221" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Cremona, O. & De Camilli, P.</span>: <span class="ti">Phosphoinositides in membrane traffic at the synapse.</span> <span class='so'>J. Cell Sci., 114, 1041-1052 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11228149" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Jung, N. & Haucke, V.</span>: <span class="ti">Clathrin-mediated endocytosis at synapses.</span> <span class='so'>Traffic, 8, 1129-1136 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17547698" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">江口 工学（Kohgaku Eguchi）</span><br>略歴：2007年 九州工業大学大学院生命体工学研究科 修了，同年より沖縄科学技術大学院大学 博士研究員．<br>研究テーマ：calyx of Heldシナプスにおけるシナプス伝達の制御機構．<br><br><strong>高橋 智幸（Tomoyuki Takahashi）</strong><br>同志社大学大学院脳科学研究科 教授．沖縄科学技術大学院大学 教授 兼任．<br></div><br>© 2012 江口工学・高橋智幸 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

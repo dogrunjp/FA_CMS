@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 脱ユビキチン化酵素USP15はR-SMADのモノユビキチン化を介してTGFβシグナルを制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>脱ユビキチン化酵素USP15はR-SMADのモノユビキチン化を介してTGFβシグナルを制御する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>乾 雅史・Andrea Manfrin・Stefano Piccolo</strong><br>（イタリアPadua大学，Department of Medical Biotechnologies，Section of Histology and Embryology）<br>email：<a href="mailto:minu@bio.unipd.it">乾 雅史</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.160">10.7875/first.author.2011.160</a><br><div class="reference"><br><span class="ti">USP15 is a deubiquitylating enzyme for receptor-activated SMADs.</span><br><span class="au">Masafumi Inui, Andrea Manfrin, Anant Mamidi, Graziano Martello, Leonardo Morsut, Sandra Soligo, Elena Enzo, Stefano Moro, Simona Polo, Sirio Dupont, Michelangelo Cordenonsi, Stefano Piccolo</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21947082" target="_blank"><em>Nature Cell Biology</em>, <strong>13</strong>, 1368–1375 (2011)</span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　TGFβシグナルは細胞内メッセンジャーであるR-Smadのユビキチン化により抑制的に制御されている．これまで，複数のユビキチンリガーゼとそれによるR-Smadのポリユビキチン化および分解の促進が報告されてきたが，それらと拮抗する脱ユビキチン化酵素が存在するかどうかは不明であった．この論文において，筆者らは，TGFβシグナルあるいはBMPシグナルの伝達に不可欠なR-Smadの脱ユビキチン化酵素としてUSP15を同定した．R-Smadはタンパク質分解にはかかわらないモノユビキチン化によりそのDNA結合活性が抑制され，USP15がこのモノユビキチン化修飾を除去することはTGFβシグナルあるいはBMPシグナルによる標的遺伝子の発現，また，細胞の分化や運動に必須であった．この論文は，R-Smadのモノユビキチン化とUSP15による脱ユビキチン化というTGFβの新しい可逆的な制御機構を明らかにした．<br/><br/><h2>はじめに</h2><br/>　TGFβスーパーファミリーはTGFβサブファミリーおよびBMPサブファミリーからなり，胚の発生および成体のホメオスタシスにおけるシグナル伝達において広範かつ重要なはたらきをしている<a href="#R1"><sup>1)</sup></a>．脊椎動物の初期胚における中胚葉の誘導作用，成体の上皮組織における細胞増殖の抑制作用などがよく知られており，後者の異常は腫瘍の形成の一因でもある．細胞膜にある受容体にリガンドが結合すると，受容体は細胞内メッセンジャーであるR-Smad（receptor-activated Smad，TGFβシグナルはSmad2およびSmad3，BMPシグナルはSmad1，Smad5，Smad8）のC末端をリン酸化し，リン酸化により活性化されたR-SmadはCo-Smad（Smad4）と複合体を形成して核に移行し，配列に特異的なDNA結合を介して標的遺伝子の転写を制御する<a href="#R1"><sup>1)</sup></a>．このようなシンプルなカスケードにより多様な作用を誘導するため，TGFβシグナルは複数の分子機構によりその強度，持続性，標的特異性が制御されており，R-Smadのユビキチン化もそのひとつとして知られていた<a href="#R2"><sup>2,3)</sup></a>．<br/>　ユビキチン化はリン酸化とならんでもっとも一般的な翻訳後修飾であり，おもな作用機序として複数のユビキチンが鎖状に付加されること（ポリユビキチン化）によりプロテアソームに依存的なタンパク質分解の促進されることが知られているが，近年，ユビキチン化はその重合のしかたや付加される数により分解の促進にとどまらない機能的なタンパク質修飾としての役割をはたすことが知られるようになった<a href="#R4"><sup>4)</sup></a>．また，タンパク質分解にはかかわらないユビキチン化に対しそれを逆転する脱ユビキチン化酵素についても，その生化学的あるいは生物学的な役割について注目が集まっている<a href="#R5"><sup>5)</sup></a>．<br/>　R-Smadのユビキチン化については，これまでおもにユビキチンリガーゼの機能やポリユビキチン化，タンパク質分解によるTGFβシグナルの制御について報告されてきたが，単一のユビキチンが付加されるモノユビキチン化に代表されるタンパク質分解にはかかわらない修飾やその可逆性については知られていない．この論文にさきだち，筆者らの研究室は，Smad4のモノユビキチン化と脱ユビキチン化酵素FAM/USP9Xによる脱ユビキチン化がSmad複合体の形成に重要であることを示した<a href="#R6"><sup>6)</sup></a>．今回の論文は，R-Smadのモノユビキチン化とその脱ユビキチン化酵素であるUSP15による脱ユビキチン化によりSmad複合体のDNAへの結合が制御されていることを明らかにし，可逆的なユビキチン化によるTGFβシグナルの制御の重要性を明らかにした．<br/><br/><h2>1．USP15はTGFβシグナルおよびBMPシグナルの伝達に必要である</h2><br/>　TGFβシグナルおよびBMPシグナルの伝達に必要な脱ユビキチン化酵素を同定するため，siRNAスクリーニングを行った（<a href="#F1">図1</a>）．75の既知のあるいは推定された脱ユビキチン化酵素の遺伝子のノックダウンがTGFβシグナルあるいはBMPシグナルのレポーターにあたえる影響を調べた結果，さきに述べたFAM/USP9XとUSP15 <a href="#R7"><sup>7)</sup></a> が同定された．FAM/USP9Xについては既報のため，USP15に着目してその機能を解析した．まず，USP15のTGFβシグナル伝達あるいはBMPシグナル伝達に対する必要性を，1）内在性の標的遺伝子の発現調節，2）細胞レベルでのシグナル応答，3）個体レベルで内在性のシグナルに介在する現象，の3つのレベルで検証した．哺乳類培養細胞へのsiRNAトランスフェクションによる一過性のUSP15ノックダウン実験により，TGFβによるp21およびPAI1の発現誘導，また，BMPによるSmad7およびID2の発現誘導が阻害されることが確認された．また，同様のノックダウン実験により，BMP誘導性の間葉性幹細胞の骨芽細胞への分化，TGFβ誘導性の細胞増殖の抑制および細胞移動の阻害が観察された．アフリカツメガエルの原腸胚においてモルフォリノアンチセンスオリゴヌクレオチドを用いてUSP15の生合成を阻害した結果，TGFβ依存性の汎中胚葉マーカーXbra，背側中胚葉マーカーChordin，および，BMP依存性の腹側中胚葉マーカーSizzledのmRNAレベルでの発現が顕著に低下した．以上の結果から，USP15は生体においてTGFβシグナルおよびBMPシグナルの伝達に必要なタンパク質であり，その役割は種をこえて保存されていることが示された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　脱ユビキチン化酵素のsiRNAスクリーニングの概要</strong><br/>ヒトのゲノムに存在する脱ユビキチン化酵素の75の遺伝子に対するsiRNAライブラリーを作製し，培養細胞にトランスフェクションして，TGFβ1あるいはBMP2に応答するレポーターにあたえる影響を観察した．TGFβシグナルおよびBMPシグナルの両方のレポーターの活性化に必要な脱ユビキチン化酵素として，USP15とFAM/USP9Xを同定した．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Inui-Nature-Cell-Biology-11.11.7-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　脱ユビキチン化酵素のsiRNAスクリーニングの概要" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Inui-Nature-Cell-Biology-11.11.7-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Inui-Nature-Cell-Biology-11.11.7-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．USP15はR-Smadに対する脱ユビキチン化酵素である</h2><br/>　USP15がどのようにTGFβシグナルおよびBMPシグナルの伝達に関与するのか検討した．USP15は脱ユビキチン化酵素なのでユビキチン化を介して基質の安定性を制御している可能性が考えられたが，USP15の機能亢進および機能欠損はTGFβ受容体，R-Smad，Smad4のタンパク質レベルでの発現，あるいは，R-Smadのリン酸化には影響をあたえなかった．一方で，USP15とR-Smadとが生化学的に結合することが示されたため，USP15はR-Smadのユビキチン化を介してその機能を制御しているのではないかと仮定し，<em>in vivo</em>におけるR-Smadのユビキチン化のパターンを観察した．興味深いことに，用いた実験条件においてR-Smadはおもにモノユビキチン化されており，これまでに報告されていたポリユビキチン化はユビキチンリガーゼを過剰発現した条件のみで観察された．USP15の過剰発現はR-Smadのモノユビキチン化を抑制し，その機能欠損はモノユビキチン化を促進した．この活性はUSP15の酵素活性に依存的であること，また，精製されたタンパク質においてもみられたことから，R-SmadはUSP15の基質であることが示された．ユビキチンリガーゼの過剰発現のもとではUSP15の機能亢進あるいは機能欠損はR-Smadのポリユビキチン化とタンパク質安定性に影響した．このことは，USP15は細胞のユビキチン化活性に応じてモノユビキチン化した基質およびポリユビキチン化した基質の両方を脱ユビキチン化し，R-Smadの機能および安定性を制御しうることを示していた．<br/><br/><h2>3．R-Smadのモノユビキチン化は核において起こる</h2><br/>　このモノユビキチン化あるいは脱ユビキチン化がいつどこで起こるのかを検討した．細胞を細胞質と核とに分画したところ，ユビキチン化されたR-Smadは核画分に濃縮されており，R-Smadに核移行シグナルを付加することでユビキチン化は促進され，核外移行シグナルを付加することでユビキチン化は抑制された．また，TGFβリガンドあるいはBMPリガンドの添加によりR-Smadの核への移行を誘導するとそのユビキチン化が促進され，リン酸化されたR-Smadもモノユビキチン化されていることが観察された．以上の結果は，R-Smadのユビキチン化は核において起こり，また，TGFβシグナルにより促進されることを示していた．興味深いことに，このTGFβシグナルによるユビキチン化の促進はSmad4を欠損した細胞や転写の抑制を起こす薬剤を処理した細胞では起こらないことがわかり，R-Smadのユビキチン化はその転写活性にリンクしている可能性が示唆された．一方，脱ユビキチン化についても同様に細胞分画やリン酸化Smadについて検討し，R-Smadの脱ユビキチン化は細胞における局在やR-Smadのリン酸化の状態によらずに起こるものと結論した．<br/><br/><h2>4．USP15はR-SmadのDNAへの結合を制御する</h2><br/>　USP15はTGFβシグナルの伝達に必須であり，生化学的にはおもにR-Smadのモノユビキチン化を制御した．この2つの観察はどのように結びつくのであろうか．この疑問に答えるため，USP15の機能欠損（すなわち，R-Smadのモノユビキチン化の促進）がTGFβシグナル伝達カスケードにおいてどの段階に影響をあたえるのかを観察した．USP15の機能欠損はTGFβシグナルによるR-Smadの核への移行およびSmad複合体の形成には影響をあたえなかった一方で，内在性のSmad3-Smad4複合体がDNAのSmad結合配列に結合することを阻害した．この結果は，R-Smadのモノユビキチン化はDNAへの結合を阻害することを示唆していた．この可能性をタンパク質構造の視点から検証するため，Smad3において進化的に保存されたリジン残基の変異体を作製し，33番目，53番目，81番目のリジン残基の変異体ではSmad3のモノユビキチン化が抑制されることを観察した．81番目のリジン残基と33番目のリジン残基はSmad3とDNAとの結合面に位置し，データベースに存在する立体構造情報を用いたコンピューターシミュレーションの結果，33番目のリジン残基あるいは81番目のリジン残基がモノユビキチン化したSmad3はDNAとの安定な結合のできないことが示唆されて，USP15の機能欠損実験の結果を支持する知見が得られた．これらの結果をより直接的および生化学的に検証するため，モノユビキチン化されたSmad3精製物と修飾されていないSmad3精製物の混合物をSmad結合配列と結合させた結果，ユビキチン修飾のされていないSmad3のみがDNAと結合することが示された．以上の結果から，R-SmadのDNA結合ドメインがモノユビキチン化されるとDNAとの結合が阻害されること，USP15はこのモノユビキチン化修飾を除去することによりTGFβシグナルを制御するものと結論した．<br/>　このモノユビキチン化はおもに核において起こり，また，TGFβシグナルにより促進された．これはR-Smadのモノユビキチン化によるDNAとの解離がシグナル伝達の終結の分子機構としてはたらく可能性を示唆していた．この仮説を検証するため，既知のR-Smadのユビキチンリガーゼを精製して<em>in vitro</em>ユビキチン化系を構築した．この系をあらかじめDNAと結合させたSmad3に対し作用させたところ，Smad3とDNAとの解離と同時に，ユビキチン化されたSmad3を反応上清に検出した．内在性のSmad複合体がTGFβ標的遺伝子のプロモーター配列へ結合するのにUSP15が必要であることを示すためクロマチン免疫沈降解析を行った．予想されたとおり，USP15の機能欠損はTGFβシグナルにより誘導されるSmad複合体の<em>p21</em>遺伝子プロモーター，<em>JunB</em>遺伝子プロモーター，<em>PAI1</em>遺伝子プロモーターへの結合を阻害した．<br/><br/><h2>おわりに</h2><br/>　筆者らは，R-Smadの脱ユビキチン化酵素USP15をTGFβシグナルおよびBMPシグナルの伝達に必要な新しいタンパク質として同定した．R-Smadは既知のポリユビキチン化による不安定化にくわえ，モノユビキチン化によるDNA結合能の制御をうけており，USP15はこのモノユビキチン化を除去することによりR-Smadの転写活性化能を回復することが示された（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　USP15によるR-Smadの制御</strong><br/>TGFβシグナルあるいはBMPシグナルの標的遺伝子のプロモーターに結合したR-Smadは，ユビキチンリガーゼによりモノユビキチン化されることでDNAから解離するが，USP15はこれを逆転する（転写の再活性化）．DNAに結合していないR-SmadのUSP15による脱ユビキチン化は，シグナルに応答できるR-Smadの量を抑制している（シグナル応答能の促進）と考えられる．ユビキチンリガーゼ活性の高い細胞ではR-Smadはポリユビキチン化されるが，USP15はこれを抑制する（タンパク質の安定化）．<br/>Ub：ユビキチン化．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Inui-Nature-Cell-Biology-11.11.7-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　USP15によるR-Smadの制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Inui-Nature-Cell-Biology-11.11.7-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Inui-Nature-Cell-Biology-11.11.7-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　この研究分野においては，R-SmadのユビキチンリガーゼがTGFβシグナルにとり重要な抑制タンパク質であることから，Smadはタンパク質分解により制御されていると考えられてきたが，一方で，R-Smadは細胞の全体でみると安定でつねに一定量のタンパク質が存在するという相反する事実があり，この2つの知見がどのように一致するのかがこれまで議論されてきた<a href="#R3"><sup>3,8)</sup></a>．今回，筆者らが発見したモノユビキチン化とUSP15によるR-Smadの制御機構は，ユビキチンリガーゼがR-Smadの安定性に影響することなくその活性を制御することの可能であることを示唆し，この疑問にひとつの解をあたえることになった．<br/>　USP15はユビキチンリガーゼの活性が高い状況ではR-Smadのポリユビキチン化とタンパク質安定性を制御した．この分子機構は，生体においてユビキチンリガーゼと脱ユビキチン化酵素の発現バランスが前者にかたむいた場合，あるいは，R-Smadのユビキチン化を促進するほかのシグナル伝達系やキナーゼが活性化された場合などにはたらいている可能性がある<a href="#R9"><sup>9,10)</sup></a>．<br/>　最後に，この研究はユビキチン系によるTGFβシグナルの新しい可逆的な制御ステップを明らかにしたことで，細胞や組織においてTGFβシグナルがどのように伝達されるかだけでなく，どのように抑制され終結されるかが重要であることがあらためて示した．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Wu, M. Y. & Hill, C. S.</span>: <span class="ti">TGF-β superfamily signaling in embryonic development and homeostasis.</span> <span class='so'>Dev. Cell, 16, 329-343 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19289080" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Itoh, S. & ten Dijke, P. .</span>: <span class="ti">Negative regulation of TGF-β receptor/Smad signal transduction.</span> <span class='so'>Curr. Opin. Cell Biol., 19, 176-184 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17317136" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Lonn, P., Moren, A., Raja, E. et al.</span>: <span class="ti">Regulating the stability of TGFβ receptors and Smads.</span> <span class='so'>Cell Res 19, 21-35 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19030025" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Chen, Z. J. & Sun, L. J.</span>: <span class="ti">Nonproteolytic functions of ubiquitin in cell signaling.</span> <span class='so'>Mol. Cell, 33, 275-86 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19217402" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Nijman, S. M., Luna-Vargas, M. P., Velds, A. et al.</span>: <span class="ti">A genomic and functional inventory of deubiquitinating enzymes.</span> <span class='so'>Cell, 123, 773-786 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16325574" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Dupont, S., Mamidi, A., Cordenonsi, M. et al.</span>: <span class="ti">FAM/USP9x, a deubiquitinating enzyme essential for TGFβ signaling, controls Smad4 monoubiquitination.</span> <span class='so'>Cell, 136, 123-135 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19135894" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Hetfeld, B. K., Helfrich, A., Kapelari, B. et al.</span>: <span class="ti">The zinc finger of the CSN-associated deubiquitinating enzyme USP15 is essential to rescue the E3 ligase Rbx1.</span> <span class='so'>Curr. Biol., 15, 1217-1221 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16005295" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Inman, G. J., Nicolas, F. J. & Hill, C. S.</span>: <span class="ti">Nucleocytoplasmic shuttling of Smads 2, 3, and 4 permits sensing of TGF-β receptor activity.</span> <span class='so'>Mol. Cell, 10, 283-294 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12191474" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Fuentealba, L. C., Eivers, E., Ikeda, A. et al.</span>: <span class="ti">Integrating patterning signals: Wnt/GSK3 regulates the duration of the BMP/Smad1 signal.</span> <span class='so'>Cell, 131, 980-993 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18045539" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Gao, S., Alarcon, C., Sapkota, G. et al.</span>: <span class="ti">Ubiquitin ligase Nedd4L targets activated Smad2/3 to limit TGF-β signaling.</span> <span class='so'>Mol. Cell, 36, 457-468 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19917253" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">乾  雅史（Masafumi Inui）</span><br>略歴：2006年 東京大学大学院理学系研究科博士課程 修了，同年よりイタリアPadua大学 博士研究員．<br>研究テーマ：TGFβシグナルの伝達制御機構およびその初期発生における役割．<br>関心事：エピジェネティクス，非コードRNA，リプログラミングなどの新しい知見をふまえて，細胞や組織の分化と可塑性の意味を考え直してみたい．<br><br><strong>Andrea Manfrin</strong><br>イタリアPadua大学Ph.D Student．<br><br><strong>Stefano Piccolo</strong><br>イタリアPadua大学Professor．<br>研究室URL：<a href="http://www.bio.unipd.it/piccolo/" target="_blank">http://www.bio.unipd.it/piccolo/</a><br></div><br>© 2011 乾 雅史・Andrea Manfrin・Stefano Piccolo Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

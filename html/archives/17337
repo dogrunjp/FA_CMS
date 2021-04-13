@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 結晶構造から明らかにされたトリオースリン酸/リン酸輸送体における基質特異性の基盤 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>結晶構造から明らかにされたトリオースリン酸/リン酸輸送体における基質特異性の基盤</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>李 勇燦・濡木 理</strong><br>（東京大学大学院理学系研究科 生物科学専攻生物化学講座構造生命科学研究室）<br>email：<a href="mailto:nureki@bs.s.u-tokyo.ac.jp">濡木 理</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2017.120">10.7875/first.author.2017.120</a><br><div class="reference"><br><span class="ti">Structure of the triose-phosphate/phosphate translocator reveals the basis of substrate specificity.</span><br><span class="au">Yongchan Lee, Tomohiro Nishizawa, Mizuki Takemoto, Kaoru Kumazaki, Keitaro Yamashita, Kunio Hirata, Ayumi Minoda, Satoru Nagatoishi, Kouhei Tsumoto, Ryuichiro Ishitani, Osamu Nureki</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28970497" target="_blank"><em>Nature Plants</em>, <strong>3</strong>, 825-832 (2017)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　トリオースリン酸/リン酸輸送体は葉緑体の内包膜に局在し，トリオースリン酸と3-ホスホグリセリン酸あるいはリン酸との交換輸送により，葉緑体からの光合成産物の運び出しにおいて重要な役割を担う．この研究において，筆者らは，トリオースリン酸/リン酸輸送体と基質である3-ホスホグリセリン酸あるいはリン酸との複合体の結晶構造を決定した．トリオースリン酸/リン酸輸送体は10回膜貫通型のDMTスーパーファミリーのフォールドをとっていた．基質は中央のポケットに結合しており，3-ホスホグリセリン酸とリン酸に共通するリン酸基は保存されたArgおよびLysにより認識されていた．過去に報告されたDMTスーパーファミリーに属する輸送体の外向き開状態との構造の比較，および，分子動力学法によるシミュレーションから，膜貫通ヘリックスの束が基質との結合に依存して動くことにより交換輸送が達成されることが示唆された．今回の結果から，葉緑体の内包膜における光合成産物の輸送機構がはじめて明らかにされた．<br/><br/><h2>はじめに</h2><br/>　光合成生物は大気中の二酸化炭素を固定することにより生態系に有機炭素源を供給する．葉緑体をもつ植物や藻類において，固定された炭素はジヒドロキシアセトンリン酸やグリセルアルデヒド-3-リン酸などトリオースリン酸のかたちで葉緑体から細胞質へと運び出される<a href="#R1"><sup>1)</sup></a>．このトリオースリン酸の運び出しを担うのはトリオースリン酸/リン酸輸送体とよばれる膜輸送体である．トリオースリン酸/リン酸輸送体は葉緑体の内包膜に局在し<a href="#R2"><sup>2)</sup></a>，トリオースリン酸とリン酸あるいは3-ホスホグリセリン酸との1対1の交換輸送により葉緑体から有機炭素骨格あるいはエネルギーを運び出す<a href="#R3"><sup>3)</sup></a>．このようなトリオースリン酸/リン酸輸送体の機能は真核生物における光合成の代謝には欠かせないものであり，1960年代ごろからくわしく調べられてきた．<br/>　トリオースリン酸/リン酸輸送体はプラスチド型リン酸輸送体ファミリーに分類される<a href="#R4"><sup>4)</sup></a>．このファミリーは植物や藻類などのすべての光合成をする真核生物に保存されているほか，2次プラスチドをもつアピコンプレクサ類などにもみられる．プラスチド型リン酸輸送体ファミリーは4種類のサブタイプに分類されており，トリオースリン酸/リン酸輸送体，グルコース-6-リン酸/リン酸輸送体，ホスホエノールピルビン酸/リン酸輸送体，キシルロース-5-リン酸/リン酸輸送体はそれぞれ異なる糖リン酸を輸送することによりさまざまな代謝経路に関与する．プラスチド型リン酸輸送体ファミリーはすべて厳密な1対1の交換輸送を触媒するアンチポーターであり，これにより葉緑体と細胞質とのあいだでリン酸の総量を維持しながらの有機炭素骨格およびエネルギーの効率的な輸送が可能になる．このような重要性にもかかわらず，トリオースリン酸/リン酸輸送体がどのように基質を認識し交換輸送をするのか，その詳細な分子機構は不明であった．<br/><br/><h2>1．トリオースリン酸/リン酸輸送体の結晶化および構造の決定</h2><br/>　立体構造解析のためさまざまな植物あるいは藻類に由来するトリオースリン酸/リン酸輸送体の網羅的な発現スクリーニングを実施した結果，好熱性紅藻の一種である<em>Galdieria sulphuraria</em>に由来するトリオースリン酸/リン酸輸送体が高い安定性を示すことが見い出された．また，リポソームを用いた輸送活性の測定により，このトリオースリン酸/リン酸輸送体は植物に由来するトリオースリン酸/リン酸輸送体と同様の基質特異性をもつことが確認された．精製されたトリオースリン酸/リン酸輸送体を用いて脂質キュービック相法による結晶化スクリーニングを実施したところ，基質である3-ホスホグリセリン酸あるいはリン酸の存在する条件において結晶が得られた．これらの結晶から，トリオースリン酸/リン酸輸送体と3-ホスホグリセリン酸との複合体の構造を2.2Åの分解能で（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=5y79&amp;PAGEID=Summary" target="_blank">5Y79</a>），また，トリオースリン酸/リン酸輸送体とリン酸との複合体の構造を2.1Åの分解能で（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=5y78&amp;PAGEID=Summary" target="_blank">5Y78</a>），それぞれ決定した（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　トリオースリン酸/リン酸輸送体の結晶構造および基質の認識機構</strong><br/>（a）トリオースリン酸/リン酸輸送体と3-ホスホグリセリン酸との複合体の全体の構造．3-ホスホグリセリン酸を球モデルで示した．水色のボックスは，（b）および（c）に対応する．<br/>（b）3-ホスホグリセリン酸の結合様式．<br/>（c）リン酸の結合様式．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-Plants-17.10.5-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　トリオースリン酸/リン酸輸送体の結晶構造および基質の認識機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-Plants-17.10.5-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-Plants-17.10.5-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　トリオースリン酸/リン酸輸送体は10本の膜貫通ヘリックスからなり，N末端およびC末端はストロマの側（内側）に位置していた．このトポロジーは，過去に予測された6～9本の膜貫通ヘリックスからなるトポロジーとは異なっていた<a href="#R5"><sup>5)</sup></a>．トリオースリン酸/リン酸輸送体の構造は疑似2回対称を含み，膜間腔の側（外側）からみると，N末端側の5回膜貫通領域は反時計回りに，C末端側の5回膜貫通領域は時計回りに並んでいた．このフォールドは，最近，明らかにされたDMTスーパーファミリーに属する輸送体YddGのフォールドと同じであり<a href="#R6"><sup>6)</sup></a>，DMTスーパーファミリーに属する遠縁のタンパク質が共通のフォールドをもつことが裏づけられた．一方で，基質結合部位が膜の外側に開いたYddGの“外向き開状態”の構造とは異なり，トリオースリン酸/リン酸輸送体は基質結合部位が膜の両側から閉ざされた“閉塞状態”の構造をとっていた．<br/><br/><h2>2．3-ホスホグリセリン酸およびリン酸の認識</h2><br/>　結晶構造において，基質である3-ホスホグリセリン酸およびリン酸は8本の膜貫通ヘリックスによりかこまれた基質結合ポケットに捕捉されていた（<a href="#F1">図1</a>）．3-ホスホグリセリン酸およびリン酸のリン酸基はLys204，Lys362，Arg363とのイオン性の結合，および，Tyr339との水素結合により同様に認識されていた．3-ホスホグリセリン酸との複合体の構造においては，リン酸の認識にくわえ，グリセリン酸基がHis185およびTyr339との水素結合により認識されていた．リン酸との複合体の構造においては，3つの水分子がグリセリン酸基と置き換わることによりHis185およびTyr339と水素結合を形成し，グリセリン酸基を模倣するように配置されていた．これらの水分子は水素結合ネットワークを形成することによりリン酸基の間接的な認識に関与すると考えられた．観察された相互作用が輸送において重要であるかどうか検証するため，基質の認識にかかわるアミノ酸残基の変異体を作製し輸送活性を測定した．その結果，His185，Lys204，Tyr339，Lys362，Arg363の5つのアミノ酸残基の変異体すべてにおいて輸送活性が失われたことから，これらのアミノ酸残基が輸送に重要であることが裏づけられた．<br/>　3-ホスホグリセリン酸の結合様式から，似た化学構造をもつトリオースリン酸も同様に結合することが推測された．実際に，トリオースリン酸を結晶構造にあてはめると基質結合ポケットにうまくおさまり，C1位およびC2位に付加された酸素原子はそれぞれHis185およびTyr339と水素結合を形成できる距離に位置した．このことから，トリオースリン酸/リン酸輸送体はトリオースリン酸，3-ホスホグリセリン酸，リン酸の3つの基質をひとつの結合ポケットにより同様に認識することが明らかにされた．一方で，この結合ポケットは2つ以上のリン酸基を同時に収容することはできない．このことは，葉緑体の包膜がピロリン酸やビスリン酸化合物に対して低い透過性を示すことと合致した<a href="#R1"><sup>1)</sup></a>．<br/><br/><h2>3．プラスチド型リン酸輸送体ファミリーにおける基質特異性の違い</h2><br/>　プラスチド型リン酸輸送体ファミリーはサブタイプごとに基質選択性が異なる．そこで，立体構造にもとづきサブタイプのあいだにおける基質結合ポケットの配列の保存性について調べたところ，リン酸基を直接的に認識するLys204，Tyr339，Lys362，Arg363の4つのアミノ酸残基は高度に保存されていることがわかった．また，これらのアミノ酸残基にくわえ，リン酸基の近傍にあるアミノ酸残基もほとんどが保存されていた．その一方で，リン酸基から離れたアミノ酸残基，すなわち，有機炭素基の近傍にあるアミノ酸残基は保存されておらず多様性に富んでいた．したがって，プラスチド型リン酸輸送体ファミリーにおいては保存された残基によりリン酸基が同様に認識される一方，多様性に富んだアミノ酸残基により有機炭素基が認識されることで，基質選択性の違いが生じると考えられた．<br/>　基質選択性の構造基盤についてよりくわしく知るため，シロイヌナズナに由来する代表的な4つのプラスチド型リン酸輸送体ファミリータンパク質，トリオースリン酸/リン酸輸送体，ホスホエノールピルビン酸/リン酸輸送体，グルコース-6-リン酸/リン酸輸送体，キシルロース-5-リン酸/リン酸輸送体についてホモロジーモデルを作成した．トリオースリン酸/リン酸輸送体のモデル構造においては3-ホスホグリセリン酸の認識にかかわるHis184，Lys203，Tyr338，Lys359，Arg360が完全に保存されていたことから，植物のもつトリオースリン酸/リン酸輸送体も<em>G</em>. <em>sulphuraria</em>に由来するトリオースリン酸/リン酸輸送体と同様に基質を認識することが示唆された．一方，ホスホエノールピルビン酸/リン酸輸送体のモデル構造においてはPhe262がAsn262と置き換わりポケットの形状が変化することにより分枝したメチレン基をもつホスホエノールピルビン酸を好んで収容する環境が形成されていた．グルコース-6-リン酸/リン酸輸送体はプラスチド型リン酸輸送体ファミリーの基質のなかではもっとも大きい六炭糖リン酸を輸送する．グルコース-6-リン酸/リン酸輸送体のモデル構造はもっとも大きいポケットをもちこのこととよく一致した．一方，キシルロース-5-リン酸/リン酸輸送体のモデル構造はグルコース-6-リン酸/リン酸輸送体よりは小さいが，五炭糖リン酸を収容するのに十分な長く伸びたポケットをもちその基質選択性とよく一致した．このように，トリオースリン酸/リン酸輸送体の結晶構造はプラスチド型リン酸輸送体ファミリーの基質特異性を理解するための鋳型となるであろう．<br/><br/><h2>4．1対1の交換輸送の基盤</h2><br/>　過去の研究から，トリオースリン酸/リン酸輸送体による交換輸送は基質結合ポケットが膜の両側に交互に露出される“交互アクセス機構”により達成されると推測されていた<a href="#R7"><sup>7)</sup></a>．しかしながら，結晶構造において基質結合ポケットは膜のどちら側にも露出されておらず，2つのゲートにより溶媒から隔離されていた．外側のゲートは膜貫通ヘリックス3および膜貫通ヘリックス4にあるPhe192およびIle197からなり，内側のゲートは膜貫通ヘリックス8および膜貫通ヘリックス9にあるLeu347，Phe352，Pro355からなっていた．これらのゲートが交互アクセスの過程においてどのように動くのかを知るため，外向き開状態のYddGと構造を比較した結果，膜貫通ヘリックス3および膜貫通ヘリックス4が30度ほど傾くような構造の違いが明らかにされた（<a href="#F2">図2</a>）．したがって，これらの膜貫通ヘリックスは“ロッカースイッチ”<a href="#R8"><sup>8)</sup></a> 様の構造変化を起こすことにより外側のゲートを開閉すると示唆された．構造の対称性から，膜貫通ヘリックス8および膜貫通ヘリックス9も同様の構造変化を起こすと考えられた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　トリオースリン酸/リン酸輸送体におけるロッカースイッチ様の構造変化</strong><br/>（a）トリオースリン酸/リン酸輸送体においてゲートを形成する膜貫通ヘリックス．ゲートの形成にかかわるアミノ酸残基およびリン酸を球モデルで示した．<br/>（b）YddGにおいてゲートを形成する膜貫通ヘリックス．予想される構造変化を青色の矢印で示した．<br/>数字は，膜貫通ヘリックスを示す．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-Plants-17.10.5-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　トリオースリン酸/リン酸輸送体におけるロッカースイッチ様の構造変化" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-Plants-17.10.5-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nureki-Nature-Plants-17.10.5-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　この構造変化についてさらにくわしく調べるため，基質の存在下および非存在下において分子動力学法によるシミュレーションを実施した．すると，基質の存在下においては大きな構造変化は起こらなかった一方，基質の非存在下においては自発的な構造変化が起こり，トリオースリン酸/リン酸輸送体は外向き開状態あるいは内向き開状態へと遷移した．この構造変化はYddGとの構造の比較より推測されたモデルと合致しており，膜貫通ヘリックスの束がロッカースイッチ様の構造変化を起こすことによるゲート機構が強く支持された．<br/>　シミュレーションにおいて基質の存在下あるいは非存在下で異なる挙動を示したことから，トリオースリン酸/リン酸輸送体の構造変化が基質に依存して起こることが示唆された．すなわち，基質の非存在下においてはゲートを形成する膜貫通ヘリックスにある正に帯電したアミノ酸残基Lys204，Lys362，Arg363の静電的な反発により，トリオースリン酸/リン酸輸送体は外向き開状態あるいは内向き開状態を好む．逆に，基質であるトリオースリン酸あるいはリン酸が結合すると，正に帯電した残基は静電的な引力により内側へと引き寄せられ，トリオースリン酸/リン酸輸送体は閉塞状態へと遷移する．このような基質に依存的な構造変化により，トリオースリン酸/リン酸輸送体は厳密な1対1の交換輸送を達成するのであろう．<br/><br/><h2>おわりに</h2><br/>　今回の研究により，葉緑体からの光合成産物の運び出しを担う膜輸送体であるトリオースリン酸/リン酸輸送体の立体構造がはじめて明らかにされた．2種類の基質との複合体の結晶構造から，光合成産物の認識および1対1の交換輸送機構についての構造的な知見が得られた．今回の構造は，プラスチド型リン酸輸送体ファミリーの理解につながるのみならず，将来，農作物の改良にむけた葉緑体の機能改変<a href="#R9"><sup>9,10)</sup></a> のための基盤になることが期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Heldt, H. W. & Rapley, L.</span>: <span class="ti">Specific transport of inorganic phosphate, 3-phosphoglycerate and dihydroxyacetonephosphate, and of dicarboxylates across the inner membrane of spinach chloroplasts.</span> <span class='so'>FEBS Lett., 10, 143-148 (1970)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11945379" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Flugge, U. -I., Weber, A., Fischer, K. et al.</span>: <span class="ti">The major chloroplast envelope polypeptide is the phosphate translocator and not the protein import receptor.</span> <span class='so'>Nature, 353, 364-367 (1991)</span></li><br><li id="R3"><span class='au'>Stocking, C. R. & Larson, S.</span>: <span class="ti">A chloroplast cytoplasmic shuttle and the reduction of extraplastid NAD.</span> <span class='so'>Biochem. Biophys. Res. Commun., 37, 278-282 (1969)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/4390456" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Weber, A. P. & Linka, N.</span>: <span class="ti">Connecting the plastid: transporters of the plastid envelope and their role in linking plastidial with cytosolic metabolism.</span> <span class='so'>Annu. Rev. Plant Biol., 62, 53-77 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21526967" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Weber, A. P., Schwacke, R. & Flugge, U. -I.</span>: <span class="ti">Solute transporters of the plastid envelope membrane.</span> <span class='so'>Annu. Rev. Plant Biol., 56, 133-164 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15862092" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Tsuchiya, H., Doki, S., Takemoto, M. et al.</span>: <span class="ti">Structural basis for amino acid export by DMT superfamily transporter YddG.</span> <span class='so'>Nature, 534, 417-420 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27281193" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Gross, A., Bruckner, G., Heldt, H. W. et al.</span>: <span class="ti">Comparison of the kinetic properties, inhibition and labelling of the phosphate translocators from maize and spinach mesophyll chloroplasts.</span> <span class='so'>Planta, 180, 262-271 (1990)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24201955" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Drew, D. & Boudker, O.</span>: <span class="ti">Shared molecular mechanisms of membrane transporters.</span> <span class='so'>Annu. Rev. Biochem., 85, 543-572 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27023848" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Zhang, L., Hausler, R., Greiten, C. et al.</span>: <span class="ti">Overriding the co-limiting import of carbon and energy into tuber amyloplasts increases the starch content and yield of transgenic potato plants.</span> <span class='so'>Plant Biotechnol. J., 6, 453-464 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18363632" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Cho, M. H., Jang, A., Bhoo, S. H. et al.</span>: <span class="ti">Manipulation of triose phosphate/phosphate translocator and cytosolic fructose-1,6-bisphosphatase, the key components in photosynthetic sucrose synthesis, enhances the source capacity of transgenic <em>Arabidopsis</em> plants.</span> <span class='so'>Photosynth. Res., 111, 261-268 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22297909" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=PDB" target="_blank">PDB</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アミノ酸" target="_blank">アミノ酸配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アラインメント" target="_blank">アラインメント</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">李  勇燦（Yongchan Lee）</span><br>略歴：東京大学大学院理学系研究科博士課程 在学中．<br>研究テーマ：膜輸送体の構造および機能．<br>関心事：クライオ電子顕微鏡．かしこいモノ取りの手法を日々考えている．<br><br><strong>濡木  理（Osamu Nureki）</strong><br>東京大学大学院理学系研究科 教授．<br>研究室URL：<a href="http://www.nurekilab.net/" target="_blank">http://www.nurekilab.net/</a><br></div><br>© 2017 李 勇燦・濡木 理 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

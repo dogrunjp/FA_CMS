@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ES細胞あるいはiPS細胞に由来する心筋細胞の代謝の特性を利用した大量精製法の確立 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>ES細胞あるいはiPS細胞に由来する心筋細胞の代謝の特性を利用した大量精製法の確立</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>遠山周吾・福田恵一</strong><br>（慶應義塾大学医学部 内科学教室循環器内科）<br>email：<a href="mailto:shugotohyama@gmail.com">遠山周吾</a>，<a href="mailto:kfukuda@a2.keio.jp">福田恵一</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.150">10.7875/first.author.2012.150</a><br><div class="reference"><br><span class="ti">Distinct metabolic flow enables large-scale purification of mouse and human pluripotent stem cell-derived cardiomyocytes.</span><br><span class="au">Shugo Tohyama, Fumiyuki Hattori, Motoaki Sano, Takako Hishiki, Yoshiko Nagahata, Tomomi Matsuura, Hisayuki Hashimoto, Tomoyuki Suzuki, Hiromi Yamashita, Yusuke Satoh, Toru Egashira, Tomohisa Seki, Naoto Muraoka, Hiroyuki Yamakawa, Yasuyuki Ohgino, Tomofumi Tanaka, Masatoshi Yoichi, Shinsuke Yuasa, Mitsushige Murata, Makoto Suematsu, Keiichi Fukuda</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23168164" target="_blank"><em>Cell Stem Cell</em>, <strong>12</strong>, 127-137 (2013)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　末期の心不全に対する新たな治療法として再生医療が注目されている．ES細胞およびiPS細胞は細胞移植治療における魅力的な細胞源であるが，臨床への応用を実現させるためには大量の心筋細胞を得ること，および，腫瘍形成の原因となる未分化な幹細胞を除去することが必要不可欠となる．しかしこれまで，遺伝子を改変することなく心筋細胞のみを大量に精製する方法は報告されていない．筆者らは，メタボローム解析およびトランスクリプトーム解析から心筋細胞とES細胞を含めた非心筋細胞との代謝の違いを明らかにすることにより，心筋細胞のみが生存可能で未分化細胞や非心筋細胞が生存不可能な代謝環境を構築することに成功した．この方法により選別されたヒトのES細胞に由来する心筋細胞の純度は最大で99％であり，免疫不全マウスの精巣に移植しても腫瘍は形成されなかった．この方法は遺伝子改変を用いず蛍光セルソーターも不要であるため，ES細胞あるいはiPS細胞に由来する心筋細胞を大量に精製するのに適しており，今後，ヒトの心臓再生医療への応用が期待できる．<br/><br/><h2>はじめに</h2><br/>　末期の心不全は循環器領域におけるさまざまな疾患の終末像であり，現在，心臓移植が唯一の治療法である．しかしながら，移植治療に関して臓器の提供が不足しているという根本的な問題に変化はなく，いまだ十分な治療法とはなりえていない．近年，幹細胞を用いた心臓再生医療が注目をあびている．ES細胞（embryonic stem cell，胚性幹細胞）やiPS細胞<a href="#R1"><sup>1)</sup></a>（induced pluripotent stem cell，人工多能性幹細胞）は高い増殖能と多彩な細胞に分化できる多能性をもつことから，細胞移植治療において魅力的な細胞源である．ヒトのES細胞およびiPS細胞はさまざまな細胞に分化する能力をもつが，同時に，分化させた細胞集団に未分化な幹細胞が残存しており，これらが移植されることにより腫瘍化する危険性が知られている<a href="#R2"><sup>2)</sup></a>．したがって，腫瘍形成の原因である未分化な幹細胞を除去し心筋細胞のみを選別する技術が必要であった．心筋細胞の選別に関しては遺伝子の改変により心筋細胞に特異的に蛍光タンパク質を発現させるなどの方法が行われてきたが<a href="#R3"><sup>3,4)</sup></a>，ヒトへの細胞移植に際しては安全性および安定性の面で問題があった．この問題を克服するため，筆者らあるいはほかのグループは，以前，ミトコンドリアに特異的な蛍光色素<a href="#R5"><sup>5)</sup></a> や抗体<a href="#R6"><sup>6,7)</sup></a> により心筋細胞を識別し，FACS（fluorescence activated cell sorting，蛍光セルソーター）を用いて選別する方法を確立し報告した．しかし，再生医療の実現のためには数億個もの大量の心筋細胞が必要とされているため<a href="#R8"><sup>8)</sup></a>，複雑かつ時間のかかるFACSを用いた系ではヒトへの臨床応用に際し不向きであると考えた．すなわち，心筋細胞のみを効率よく大量に選別する方法の確立が必要であると考えられた（<a href="#F1">図1</a>）．そこで，心筋細胞のみが生存可能で，未分化な幹細胞や非心筋細胞が生存不可能な培養環境をつくりだすことにより，簡便かつ大量に心筋細胞を選別することができるのではないかと考え，この研究を行った．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　目標とする心筋細胞の精製法</strong><br/>（a）これまでの心筋細胞の精製法は蛍光色素や抗体とFACSを組み合わせる系が主流であったが，工程が複雑かつ長時間かかるため，数億個の心筋細胞を得るには不向きであった．<br/>（b）効率よく大量の心筋細胞を精製するため，心筋細胞のみ生存可能な環境を構築し培地の組成を変えるだけで心筋細胞のみを精製することを目標に研究を行った．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukuda-Cell-Stem-Cell-12.12.7-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　目標とする心筋細胞の精製法" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukuda-Cell-Stem-Cell-12.12.7-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukuda-Cell-Stem-Cell-12.12.7-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．オミクス解析を利用した増殖細胞と心筋細胞との代謝の比較</h2><br/>　最終的に選別したい細胞である心筋細胞と，除去したい細胞である未分化な幹細胞（ES細胞）との代謝を比較するため，マウスのES細胞と新生仔の心筋細胞におけるトランスクリプトーム解析およびメタボローム解析を行った<a href="#R9"><sup>9,10)</sup></a>．その結果，ES細胞においてはグルコースを活発に利用し，解糖系を亢進させることで生じる乳酸を細胞外へと排出していることがわかった．また，心筋細胞に比べ，増殖する際に必要となるアミノ酸や核酸を多く合成していることも明らかになった．一方，心筋細胞ではミトコンドリアにおける酸化的リン酸化により効率よくエネルギーを得ていることが示唆された．さらに，ES細胞以外の増殖細胞として骨格筋細胞株や肝細胞株における代謝を解析するため同様にメタボローム解析を行ったところ，ES細胞と同様に，解糖系やペントースリン酸経路の代謝が亢進しており，ミトコンドリアにおけるTCA回路は心筋細胞に比べ活用されていないことがわかった．以上の結果として，ES細胞を含む増殖細胞と心筋細胞との代謝の違いが明らかになった（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ES細胞などの増殖細胞と心筋細胞との代謝の差異</strong><br/>（a）ES細胞などの増殖細胞ではグルコースを活発に利用し，解糖系を亢進させることにより生じる乳酸を細胞外へと泄出し，さらに，アミノ酸や核酸を多く合成していた．<br/>（b）心筋細胞はミトコンドリアにおける酸化的リン酸化により効率よくエネルギーを得ていることが示された．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukuda-Cell-Stem-Cell-12.12.7-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ES細胞などの増殖細胞と心筋細胞との代謝の差異" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukuda-Cell-Stem-Cell-12.12.7-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Fukuda-Cell-Stem-Cell-12.12.7-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．無グルコース乳酸添加培地により心筋細胞のみを選別する</h2><br/>　ES細胞を含む増殖細胞と心筋細胞との代謝の違いをもとに，ES細胞やそのほかの増殖細胞にとり必須であるグルコースを培地から除去し，心筋細胞にとりエネルギー源として知られている乳酸<a href="#R11"><sup>11)</sup></a> を添加することにより，心筋細胞のみを選別できるのではないかと考え“無グルコース乳酸添加”培地を作製した．さまざまな細胞を無グルコース乳酸非添加培地あるいは無グルコース乳酸添加培地にて培養したときの生存率を観察したところ，マウスES細胞の単一細胞培養および増殖細胞であるマウス胎仔線維芽細胞の単一細胞培養ではグルコースがないと乳酸の有無にかぎらず細胞はすみやかに死滅した．そのほか，マウス胎仔神経細胞，ヒトリンパ球，骨格筋細胞株，肝細胞株，腎細胞株においても同様の結果であった．一方で，ラット新生仔心筋細胞は無グルコース培地にて培養したときに比べ乳酸を添加することにより生存率が著しく上昇することが示され，無グルコース乳酸添加培地は心筋細胞のみが生存可能な環境であることが示唆された．<br/>　実際に，ヒトES細胞に由来する胚様体を無グルコース乳酸添加培地において約1週間培養すると心筋細胞のみが効率よく選別されることが確認された．免疫染色およびFACS解析の結果，αアクチニン陽性細胞率すなわち心筋細胞の精製率は最大で99％（平均98.3％）であった．ヒトES細胞やヒトiPS細胞に由来するほかの細胞株においても同様に心筋細胞のみを選別できることも確認された．さらに，免疫染色の結果，残りのαアクチニン陰性細胞は平滑筋細胞や幼若な心筋細胞である可能性が示唆された．マウスES細胞においても同様の方法により心筋細胞の選別が可能であった．<br/><br/><h2>3．心筋細胞は乳酸をATP合成および核酸やアミノ酸の合成に利用することができる</h2><br/>　無グルコース乳酸添加培地において心筋細胞のみが生存可能な分子機構を調べるため乳酸の取り込み能を評価したところ，心筋細胞はES細胞や胎仔線維芽細胞をはじめとする非心筋細胞に比べ高い乳酸の取り込み能をもつことが確認された．また，無グルコース乳酸添加培地にて培養した際のATP濃度に関しても心筋細胞でのみ維持されることがわかり，心筋細胞は乳酸を活発に取り込みATPを産生し維持することが示唆された．さらに，トランスポーターにおける乳酸取り込み阻害薬を投与すると無グルコース乳酸添加培地における心筋細胞の生存率が低下したため，やはり，乳酸の取り込みが心筋細胞の生存に重要であることが確認された．<br/>　乳酸が心筋細胞やES細胞を含む非心筋細胞においてどのように代謝されているかを調べるため，乳酸の安定同位体を用いてメタボローム解析を行った．その結果，心筋細胞ではES細胞を含む非心筋細胞に比べTCA回路において乳酸を活発に利用していることがわかった．電子顕微鏡による所見やミトコンドリア蛍光色素を用いた細胞観察の結果，その一因として，心筋細胞における発達し豊富なミトコンドリアの存在が考えられた．さらに興味深いことに，心筋細胞においては，解糖系の上流の代謝産物やペントースリン酸経路，核酸やグルタチオンの合成経路の代謝産物においても乳酸に由来する代謝産物が検出され，乳酸は核酸やアミノ酸といったバイオマスの合成にも寄与していることが明らかになった．<br/><br/><h2>4．精製されたヒトES細胞に由来する心筋細胞は腫瘍を形成しない</h2><br/>　精製されたヒトES細胞に由来する心筋細胞における電気生理学的な解析を行うため微小電極法を行ったところ，ペースメーカー型，心房型，心室型といったさまざまな活動電位の波形を示す心筋細胞の含まれていることがわかった．また，β刺激薬やアセチルコリンへの反応も良好であり，正常な電気生理学的な特徴をもつことが示された．<br/>　精製されたヒトES細胞に由来する心筋細胞における腫瘍形成能を評価するため，2×10 <sup>5</sup>の心筋細胞を免疫不全マウスの精巣に移植した．対照としてヒトES細胞を約1000細胞，あるいは，ヒトES細胞に由来する非精製の心筋細胞を2×10<sup>5</sup>細胞を同様に移植したところ，精製された心筋細胞ではまったく腫瘍が形成されなかったのに対し，ヒトES細胞では90％，非精製の心筋細胞では40％の確率で腫瘍が形成された．その原因として，非精製の心筋細胞にはOCT3/4やTRA1-60といった未分化マーカー陽性細胞が混在していたのに対し，精製された心筋細胞ではそれら未分化な細胞が除去されていることが確認された．<br/><br/><h2>おわりに</h2><br/>　ES細胞あるいはiPS細胞のヒトへの臨床応用をめざす際には，いかに効率よくかつ安価に大量の精製された心筋細胞を回収するかが重要である．筆者らは，遺伝子改変やFACSなど複雑な技術を用いることなく，細胞における代謝の特性を利用し培地の組成を変えるという安価かつ単純な方法により，腫瘍化のリスクがきわめて低い安全な心筋細胞を大量に得ることを可能にした．この研究により，心臓再生医療におけるボトルネックであった移植心筋細胞における“量”と“質”の問題を克服することができると考えている．今後は，ES細胞あるいはiPS細胞に由来する心筋細胞を大量に回収し精製して大型動物の心不全モデルへの細胞移植を行い，安全性や有効性を評価することによりヒトへの臨床応用へとつなげることが大いに期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Takahashi, K., Tanabe, K., Ohnuki, M. et al.</span>: <span class="ti">Induction of pluripotent stem cells from adult human fibroblasts by defined factors.</span> <span class='so'>Cell, 131, 861-872 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18035408" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Miura, K., Okada, Y., Aoi, T. et al.</span>: <span class="ti">Variation in the safety of induced pluripotent stem cell lines.</span> <span class='so'>Nat. Biotechnol., 27, 743-745 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19590502" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Klug, M. G., Soonpaa, M. H., Koh, G. Y. et al.</span>: <span class="ti">Genetically selected cardiomyocytes from differentiating embronic stem cells form stable intracardiac grafts.</span> <span class='so'>J. Clin. Invest., 98, 216-224 (1996)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8690796" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Hidaka, K., Lee, J. K., Kim, H. S. et al.</span>: <span class="ti">Chamber-specific differentiation of nkx2.5-positive cardiac precursor cells from murine embryonic stem cells.</span> <span class='so'>FASEB J., 17, 740-742 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12594186" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Hattori, F., Chen, H., Yamashita, H. et al.</span>: <span class="ti">Nongenetic method for purifying stem cell-derived cardiomyocytes.</span> <span class='so'>Nat. Methods, 7, 61-66 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19946277" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Dubois, N. C., Craft, A. M., Sharma, P. et al.</span>: <span class="ti">SIRPA is a specific cell-surface marker for isolating cardiomyocytes derived from human pluripotent stem cells.</span> <span class='so'>Nat. Biotechnol., 29, 1011-1018 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22020386" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Uosaki, H., Fukushima, H., Takeuchi, A. et al.</span>: <span class="ti">Efficient and scalable purification of cardiomyocytes from human embryonic and induced pluripotent stem cells by vcam1 surface expression.</span> <span class='so'>PLoS One, 6, e23657 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21876760" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Hattori, F., Fukuda, K.</span>: <span class="ti">Strategies for replacing myocytes with induced pluripotent stem in clinical protocols.</span> <span class='so'>Transplant. Rev., 26, 223-232 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22172453" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Shintani, T., Iwabuchi, T., Soga, T. et al.</span>: <span class="ti">Cystathionine β-synthase as a carbon monoxide-sensitive regulator of bile excretion.</span> <span class='so'>Hepatology, 49, 141-150 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19085910" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Endo, J., Sano, M., Katayama, T. et al.</span>: <span class="ti">Metabolic remodeling induced by mitochondrial aldehyde stress stimulates tolerance to oxidative stress in the heart.</span> <span class='so'>Circ. Res., 105, 1118-1127 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19815821" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Werner, J. C., Sicard, R. E.</span>: <span class="ti">Lactate metabolism of isolated, perfused fetal, and newborn pig hearts.</span> <span class='so'>Pediatr. Res., 22, 552-556 (1987)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/3684382" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">遠山 周吾（Shugo Tohyama）</span><br>略歴：慶應義塾大学大学院医学研究科博士課程 在学中．<br>研究テーマ：代謝を生かした心臓再生医療．<br>抱負：ヒトのES細胞あるいはiPS細胞を用いた心臓再生医療を臨床へ応用することが目標です．<br><br><strong>福田 恵一（Keiichi Fukuda）</strong><br>慶應義塾大学医学部 教授．<br>研究室URL：<a href="http://cardioweb.cpnet.med.keio.ac.jp/" target="_blank">http://cardioweb.cpnet.med.keio.ac.jp/</a><br></div><br>© 2012 遠山周吾・福田恵一 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

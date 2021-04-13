@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> DNA損傷に依存するクロマチンのユビキチン化のOTUB1による通常とは異なる抑制 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>DNA損傷に依存するクロマチンのユビキチン化のOTUB1による通常とは異なる抑制</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>中田 慎一郎</strong><br>（慶應義塾大学医学部 総合医科研究センター咸臨丸プロジェクト）<br>email：<a href="mailto:snakada@z3.keio.jp">中田慎一郎</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2010.024">10.7875/first.author.2010.024</a><br><div class="reference"><br><span class="ti">Non-canonical inhibition of DNA damage-dependent ubiquitination by OTUB1.</span><br><span class="au">Shinichiro Nakada, Ikue Tai, Stephanie Panier, Abdallah Al-Hakim, Shun-ichiro Iemura, Yu-Chi Juang, Lara O’Donnell, Ayako Kumakubo, Meagan Munro, Frank Sicheri, Anne-Claude Gingras, Tohru Natsume, Toshio Suda, Daniel Durocher</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/20725033" target="_blank"><em>Nature</em>, <strong>466</strong>, 941-946 (2010)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　DNA損傷のなかでもっとも危険なDNA 2本鎖損傷では，ユビキチンリガーゼであるRNF8やRNF168などによるクロマチンのユビキチン化を介したシグナル伝達系により，DNA修復や細胞周期チェックポイントの制御が行われている．ここでは，脱ユビキチン化酵素OTUB1によるクロマチンのユビキチン化の抑制機構を報告する．OTUB1は，RNF168とともにはたらくユビキチン結合酵素UBC13と結合し，ユビキチン鎖の切断ではなく，ユビキチンのイソペプチド結合をさまたげることによってユビキチン鎖の形成を抑制している．また，DNA損傷応答の最上流タンパク質であるATMが阻害された際に減弱するDNA損傷応答がOTUB1の発現抑制により回復することから，OTUB1とUBC13との結合はDNA損傷応答を増強するための薬剤ターゲットとなる可能性が示唆される．<br/><br/><h2>はじめに</h2><br/>　ユビキチン化は重要なタンパク質の翻訳後修飾である．ユビキチン化反応は，ATP依存的に行われるユビキチン活性化酵素（E1）へのユビキチンのチオエステル結合，ユビキチン結合酵素（E2）へのユビキチンの転移（このときも，チオエステル結合），そして，ユビキチンリガーゼ（E3）を介した基質へのユビキチンの転移（このときは，イソペプチド結合），というカスケードによって行われる．多くのユビキチンリガーゼ自体にはユビキチンの転移は行われない．ユビキチンには7つのリジン残基が含まれており，このうちのひとつにほかのユビキチンのC末端がイソペプチド結合することをくり返すことによってユビキチン鎖が形成される．最近，ユビキチンのどのリジン残基が使われるかによりユビキチン鎖の役割が異なっていることがわかってきた．<br/>　DNA損傷応答にかかわる遺伝子変異は，放射線高感受性の高発がん性遺伝性疾患，たとえば，家族性乳がん（責任遺伝子は，<em>BRCA1</em>遺伝子と<em>BRCA2</em>遺伝子）や毛細血管拡張性運動失調症（責任遺伝子は，<em>ATM</em>遺伝子）の原因となることが知られている．DNA 2本鎖損傷部位ではクロマチン結合タンパク質のリン酸化とユビキチン化が起こり，DNA修復や細胞周期チェックポイント制御のためのシグナル伝達が行われる．リン酸化はおもにセリン-スレオニンキナーゼであるATMタンパク質によって行われており，ユビキチン化はユビキチン結合酵素UBC13と，ユビキチンリガーゼRNF8 <a href="#R1"><sup>1-3)</sup></a> およびRNF168 <a href="#R4"><sup>4,5)</sup></a> により行われている．DNA損傷部位の周囲で形成されるユビキチン鎖は，プロテアソーム系での分解の目印となるLys48結合型ユビキチン鎖とは異なるLys63結合型ユビキチン鎖であり，このユビキチン鎖には，RAP80，Abraxas，BRCA1からなるタンパク質複合体が結合する．また，Lys63結合型ユビキチン鎖が付加される基質としてヒストンH2Aが知られている．ヒストンのユビキチン化にともなってクロマチンの立体構造の変化が起こると考えられており，これにより，メチル化ヒストンH4への53BP1の結合が促進される．DNA損傷部位へのBRCA1や53BP1のリクルートがうまくいかないと，DNA修復や細胞周期チェックポイントに異常が生じる（<a href="#F1">図1</a>）．<br/><br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　DNA損傷応答におけるクロマチンのユビキチン化</strong><br/>DNA 2本鎖損傷の周辺のクロマチンでは，ユビキチン結合酵素UBC13とユビキチンリガーゼRNF168とによってLys63結合型ユビキチン鎖がつくられ，つづいて，BRCA1や53BP1がDNA損傷部位に集積してDNA修復や細胞周期チェックポイントを制御する．<br/>Ub：ユビキチン．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakada-Nature-10.8.19-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　DNA損傷応答におけるクロマチンのユビキチン化" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakada-Nature-10.8.19-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakada-Nature-10.8.19-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/>　DNA損傷のないとき（あるいは，DNA修復ののち）にはクロマチンのユビキチン化は抑制されなければならないが，その分子機構についてはほとんど解明されていなかった．そこで筆者らは，このユビキチン化の抑制機構の解明のための研究を行った．<br/><br/><h2>1．OTUB1はRNF168依存性のDNA損傷応答を制御している</h2><br/>　DNA損傷に依存したクロマチンのユビキチン化の抑制タンパク質を発見するため，まず，ユビキチン化抑制タンパク質としてもっとも可能性の高い脱ユビキチン化酵素を対象としたsiRNAスクリーニングを行った．脱ユビキチン化酵素の触媒ドメインは，その構造から，USPドメイン，UCHドメイン，OTUドメイン，MJDドメイン，JAMMドメインの5つに分類される<a href="#R6"><sup>6)</sup></a>．まず，このなかのOTUファミリーを対象とした．siRNAを遺伝子導入した骨肉腫由来細胞株U2OSに3 Gyの放射線を照射し，細胞内でのユビキチン鎖形成の経時変化を結合型ユビキチンに対する抗体FK2を用いた蛍光免疫染色法によりモニターした．<br/>　このスクリーニングにより，OTUB1の発現を抑制した細胞ではDNA損傷依存的に形成されるユビキチン鎖が長時間にわたって持続することが見い出された．さらに，OTUB1特異的なsiRNAを遺伝子導入した細胞ではクロマチンのユビキチン化に依存して生じる53BP1の電離放射線誘発フォーカス（ionizing radiation induced foci）も持続的に観察された．一方，遺伝子導入によりOTUB1を一過的に過剰発現させた場合には，ヒストンH2AXのリン酸化や，MDC1，RNF8，RNF168のDNA損傷部位への再局在は影響されず，結合型ユビキチンの形成および53BP1の電離放射線誘発フォーカスの形成が阻害された．これらの結果より，OTUB1はRNF168のかかわるクロマチンのユビキチン化を抑制していることが示された．<br/><br/><h2>2．OTUB1はUBC13と結合して脱ユビキチン化活性に非依存的にクロマチンのユビキチン化を抑制する</h2><br/>　最近，OTUB1は脱ユビキチン化酵素としてLys48結合型ユビキチン鎖に強い特異性をもつことが報告され<a href="#R7"><sup>7,8)</sup></a>，OTUB1がDNA損傷応答において形成されるLys63結合型ユビキチン鎖の切断を行っていることに疑念が生じた．そこで，OTUドメインの脱活性中心Cys91をSerに置換した変異体OTUB1（C91S）の過剰発現がDNA損傷応答を阻害できるのかどうかを調べた．すると，驚いたことに，OTUB1（C91S）変異体はクロマチンのユビキチン化も53BP1の電離放射線誘発フォーカスの形成も阻害した．一方，OTUサブファミリーのなかでOTUB1と構造が非常に似ているOTUB2や，OTUB2とは相同性のないN末端の46アミノ酸残基を欠いた変異体OTUB1ΔN，OTUドメインの触媒3つ組残基Asp88，Cys91，His265をそれぞれAla，Ser，Alaと置換した変異体OTUB1（ASA）の過剰発現では，クロマチンのユビキチン化は阻害されなかった．<br/>　この免疫染色から得た結果がユビキチンリガーゼRNF168に依存したヒストンのユビキチン化を反映したものであるかどうかを確認するため，293T細胞にRNF168とユビキチンを過剰発現させてヒストンをユビキチン化する<em>in vitro</em>ユビキチン化アッセイを行った．RNF168およびユビキチンとともに，野生型OTUB1，OTUB1（C91S）変異体，OTUB1ΔN変異体，あるいは，OTUB1（ASA）変異体を過剰発現させると，やはり，野生型OTUB1とOTUB1（C91S）変異体だけがヒストンのユビキチン化を阻害した．これらの結果を総合すると，DNA損傷依存性ユビキチン化はOTUB1により抑制されるが，これは，クロマチンにおけるユビキチン鎖の切断とは異なる機構によるものと考えられた．<br/>　OTUB1が直接に結合してその機能を制御しているタンパク質を同定するため，免疫沈降-液体クロマトグラフィー-タンデム質量分析計（IP-LC-MS/MS）を用いてOTUB1結合タンパク質を検索した．その解析結果から，OTUB1は，UBE2Dファミリー，UBE2Eファミリー，UBC13（UBE2N）といったユビキチン結合酵素や，ユビキチン自体と複合体を形成していることが判明した．そこで，RNF168とともにクロマチンのユビキチン化を担っていることが知られているユビキチン結合酵素UBC13に焦点をあてて解析を進めた．<br/>　OTUB1およびその変異体とUBC13との結合を免疫沈降法で解析したところ，クロマチンのユビキチン化を阻害できる野生型OTUB1とOTUB1（C91S）変異体はUBC13と結合し，クロマチンのユビキチン化を阻害できないOTUB1ΔN変異体とOTUB1（ASA）変異体はUBC13とは結合しないことが判明した．さらに，組換えタンパク質のみを用いたプルダウンアッセイによりOTUB1とUBC13とは直接に結合することが示された．だだし，プルダウンアッセイの結果は免疫沈降の結果とはやや異なっていて，免疫沈降ではUBC13との結合が検出されなかったOTUB1ΔN変異体も，弱いながらUBC13と結合することが示された．OTUB1（ASA）変異体はプルダウンアッセイにおいてもUBC13とは結合しなかった．<br/>　最近の報告で，OTUB1のN末端にはOTUドメインとは異なる第2のユビキチン結合部位があることが示されていたため<a href="#R8"><sup>8)</sup></a>，OTUB1のN末端にはUBC13に結合したユビキチンと結合する（ユビキチン化反応の中間体として，ユビキチンはUBC13のCys87にチオエステル結合する）のではないかと考え，ユビキチンの結合したUBC13をもちいてOTUB1によるプルダウンアッセイを行った．結果は予想を肯定するもので，野生型OTUB1はユビキチンが結合していないUBC13よりもユビキチンが結合したUBC13と強く結合し，OTUB1ΔN変異体はユビキチンが結合したUBC13とは結合しなかった．<br/>　つぎに，組換えタンパク質のみを用いてRNF168とUBC13とによるユビキチン鎖の形成反応を<em>in vitro</em>で再現し，OTUB1とUBC13との結合が直接，ユビキチン鎖の形成を阻害するのかどうかを確認した．このアッセイでは，ユビキチン活性化酵素，UBC13，および，UBC13とヘテロ複合体を形成するユビキチン結合酵素バリアントUEV1aのみでも短いユビキチン鎖が形成され，さらに，RNF168を添加することによりユビキチン鎖の伸長反応が促進されて長いユビキチン鎖が形成された．野生型OTUB1はRNF168存在下であっても非存在下であってもユビキチン鎖の形成を完全に阻害した．これに対し，UBC13と結合しないOTUB1（ASA）変異体はユビキチン鎖の形成を阻害しなかった．<br/>　これらの結果を総合すると，OTUB1はユビキチンの結合したUBC13と結合し，ユビキチン鎖の形成を阻害していると結論できた．<br/><br/><h2>3．OTUB1はユビキチン鎖の形成におけるイソペプチド結合を阻害する</h2><br/>　では，OTUB1はどのようにしてユビキチン鎖の形成を抑制しているのだろうか．理論上，3つの可能性，つまりOTUB1が，1）UBC13とユビキチンとのチオエステル結合の形成（ユビキチンの結合）を阻害する，2）UBC13にチオエステル結合したユビキチンの解離（ユビキチンの解離）を阻害する．3）UBC13から解離したユビキチンがほかのユビキチンにイソペプチド結合するのを阻害する，があるので，それぞれの可能性について検証実験を行った．<br/>　まず，ユビキチン活性化酵素UBE1，UBC13とユビキチンをATP存在化でインキュベーションし，UBC13にユビキチンを結合させるという実験を行った．還元剤なしの条件でSDS-ポリアクリルアミドゲル電気泳動を行い抗UBC13抗体によりウェスタンブロットを行うと，UBC13のほかに，UBC13よりもユビキチン1分子分だけ泳動距離が短い位置にバンドが観察された．このバンドは還元剤処理により消失することから，UBC13にユビキチンがチオエステル結合したものであることが示された．組換えOTUB1をくわえてこのアッセイを行ってもユビキチンの結合したUBC13が検出された．つまり，OTUB1はUBC13へのユビキチン結合を阻害していないことが示された．この結果は，ユビキチンの結合したUBC13とOTUB1とが結合するというデータとあいいれるものだった．<br/>　つぎに，同様の方法でUBC13にビオチン化ユビキチンを結合し，ユビキチン結合酵素バリアントUEV1aと過剰量のビオチン化されていないユビキチンを添加した．OTUB1ΔN変異体が存在する条件でこの反応を進めるとUBC13からビオチン化ユビキチンの解離が進み，一方で，ユビキチン2分子結合体の生成が進んだ．これに対し，野生型OTUB1あるいはOTUB1（C91S）変異体が存在するときには，UBC13からのビオチン化ユビキチンの解離は進むものの，ユビキチン2分子結合体の形成は認められなかった．OTUB1ΔN変異体は脱ユビキチン活性を保っており，OTUB1（C91S）変異体は脱ユビキチン活性を失っていることから，OTUB1のユビキチン2分子結合体の形成阻害はユビキチン鎖の切断とは異なる機構によるものと結論づけられた．<br/><br/><h2>4．OTUB1はUBE2D/UBE2EサブファミリーのOTUB1と結合しその機能を抑制する</h2><br/>　さらに，OTUB1が前述のIP-LC-MS/MSにより検出されたUBE2D/UBE2Eサブファミリーのユビキチン活性化酵素の機能も抑制するかどうかを調べた．免疫沈降法により，OTUB1は細胞内でUBE2D2と結合することが示された．さらに，組換えタンパク質を用いたプルダウンアッセイにより，UBC13の場合と同様に，OTUB1はユビキチンの結合したUBE2D2により強い親和性をもつことが示された．<em>in vitro</em>ユビキチン化アッセイでは，脱ユビキチン活性をもたないOTUB1（C91S）変異体がUBE2D2とユビキチンリガーゼTRAF6とによるユビキチン鎖の形成を抑制し，さらに，UBE2D3とTRAF6，UBE2D2とユビキチンリガーゼIpaHによるユビキチン鎖の形成を抑制することが示された．一方，IP-LC-MS/MSでは検出されなかったユビキチン結合酵素UBE2L3とユビキチンリガーゼSMURFによるユビキチン鎖の形成はOTUB1により抑制されなかった．これらの結果から，OTUB1は少なくとも<em>in vitro</em>において，UBC13に対するのと同じ機構でUBE2D/2Eサブファミリーユビキチン結合酵素の機能を抑制することがわかった．<br/><br/><h2>5．OTUB1のノックダウンによりATM阻害により生じる相同組換えの異常が回復する</h2><br/>　ATMはDNA損傷応答の最上流ではたらくキナーゼであり，これを薬剤により阻害するとDNA損傷応答シグナル伝達系が減弱し，53BP1の電離放射線誘発フォーカスが小さくなる<a href="#R9"><sup>9)</sup></a>．また，DNA修復のひとつである相同組換えの効率が低下する<a href="#R10"><sup>10)</sup></a>．ATM阻害を行う細胞であらかじめOTUB1のノックダウンを行っておくと，53BP1の電離放射線誘発フォーカスの大きさが回復し，さらに，相同組換えの効率も回復した．逆に，OTUB1を過剰発現させた細胞では相同組換えの効率が低下した．これは，OTUB1の過剰発現によりBRCA1の電離放射線誘発フォーカスの形成が阻害されたことによるものと考えられた．<br/><br/><h2>おわりに</h2><br/>　OTUB1によるDNA損傷依存性のクロマチンのユビキチン化の抑制は，ユビキチン鎖の分解ではなく，UBC13依存性のユビキチン鎖形成の直接阻害であった（<a href="#F2">図2</a>）．この阻害機構にはOTUB1の脱ユビキチン活性は必要ない．OTUB1とUBC13との結合にはOTUドメインとN末端に存在の予想されているユビキチン結合ドメインが必要であると考えられる．電離放射線誘発フォーカス減少のようすやOTUB1の機能から，OTUB1はDNA損傷応答におけるユビキチン化の閾値を設定しているものと考えられる．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　OTUB1によるユビキチン化反応の抑制</strong><br/>（a）OTUB1が脱ユビキチン化酵素であることから予想される機構．<br/>（b）OTUB1とUBC13との結合によるユビキチン鎖形成の抑制．<br/>OTUB1は脱ユビキチン化酵素なのでクロマチンにおいてユビキチン鎖を切断しているものと予想されたが，実際には，UBC13と結合することでユビキチン鎖の形成自体を抑制していた．<br/>Ub：ユビキチン．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakada-Nature-10.8.19-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　OTUB1によるユビキチン化反応の抑制" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakada-Nature-10.8.19-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Nakada-Nature-10.8.19-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　脱ユビキチン活性に非依存的に発揮されるOTUB1の機能は，脱ユビキチン化酵素の新しい機能を示唆するものである．脱ユビキチン化酵素のなかには脱ユビキチン活性を発揮する構造をもっていないもののあることが知られており<a href="#R11"><sup>11)</sup></a>，これらの脱ユビキチン化酵素にも新たな機能が備わっているのかもしれない．<br/>　また，OTUB1とUBC13の結合を阻害することで，たとえば，毛細血管拡張性運動失調症のようにDNA損傷応答が減弱している疾患のDNA損傷応答を回復させることが期待でき，OTUB1とUBC13の相互作用は将来的な薬剤ターゲットとなりうる．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Kolas, N. K., Chapman, J. R., Nakada, S. et al.</span>: <span class="ti">Orchestration of the DNA-damage response by the RNF8 ubiquitin ligase.</span> <span class='so'>Science, 318, 1637-1640 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18006705" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Huen, M. S., Grant, R., Manke, I. et al.</span>: <span class="ti">RNF8 transduces the DNA-damage signal via histone ubiquitylation and checkpoint protein assembly.</span> <span class='so'>Cell, 131, 901-914 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18001825" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Mailand, N., Bekker-Jensen, S., Faustrup, H. et al.</span>: <span class="ti">RNF8 ubiquitylates histones at DNA double-strand breaks and promotes assembly of repair proteins.</span> <span class='so'>Cell, 131, 887-900 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18001824" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Stewart, G. S., Panier, S., Townsend, K. et al.</span>: <span class="ti">The RIDDLE syndrome protein mediates a ubiquitin-dependent signaling cascade at sites of DNA damage.</span> <span class='so'>Cell, 136, 420-434 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19203578" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Doil, C., Mailand, N., Bekker-Jensen, S. et al.</span>: <span class="ti">RNF168 binds and amplifies ubiquitin conjugates on damaged chromosomes to allow accumulation of repair proteins.</span> <span class='so'>Cell, 136, 435-446 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19203579" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Nijman, S. M., Luna-Vargas, M. P., Velds, A. et al.</span>: <span class="ti">A genomic and functional inventory of deubiquitinating enzymes.</span> <span class='so'>Cell, 123, 773-786 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16325574" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Edelmann, M. J., Iphofer, A., Akutsu, M. et al.</span>: <span class="ti">Structural basis and specificity of human otubain 1-mediateddeubiquitination.</span> <span class='so'>Biochem. J., 418, 379-390 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18954305" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Wang, T., Yin, L., Cooper, E. M. et al.</span>: <span class="ti">Evidence for bidentate substrate binding as the basis for the K48linkage specificity of otubain 1.</span> <span class='so'>J. Mol. Biol., 386, 1011-1023 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19211026" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Galanty, Y., Belotserkovskaya, R., Coates, J. et al.</span>: <span class="ti">Mammalian SUMO E3-ligases PIAS1 and PIAS4 promoteresponses to DNA double-strand breaks.</span> <span class='so'>Nature, 462, 935-939 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20016603" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Beucher, A., Birraux, J., Tchouandong, L. et al.</span>: <span class="ti">ATM and Artemis promote homologous recombination ofradiation-induced DNA double-strand breaks in G2.</span> <span class='so'>EMBO J., 28, 3413-3427 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19779458" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Hanna, J., Hathaway, N. A., Tone, Y. et al.</span>: <span class="ti">Deubiquitinating enzyme Ubp6 functions noncatalytically to delayproteasomal degradation.</span> <span class='so'>Cell, 127, 99-111 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17018280" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">中田 慎一郎（Shinichiro Nakada）</span><br>略歴：2005年 東京医科歯科大学大学大学院医歯学総合研究科 修了，2006年 カナダMount Sinai Hospital Post Doctoral Fellowを経て，2009年より慶應義塾大学医学部 特別研究講師．<br>研究テーマ：DNA損傷応答，染色体不安定性．<br>関心事：発がん予防法開発への分子生物学的な根拠の提示．<br></div><br>© 2010 中田 慎一郎 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> LynはToll様受容体-MyD88シグナル伝達経路において転写因子IRF5を抑制することにより自己免疫疾患の発症を阻止する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>LynはToll様受容体-MyD88シグナル伝達経路において転写因子IRF5を抑制することにより自己免疫疾患の発症を阻止する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>藩 龍馬・田村智彦</strong><br>（横浜市立大学大学院医学研究科 免疫学教室）<br>email：<a href="mailto:tatban@yokohama-cu.ac.jp">藩 龍馬</a>，<a href="mailto:tamurat@yokohama-cu.ac.jp">田村智彦</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.089">10.7875/first.author.2016.089</a><br><div class="reference"><br><span class="ti">Lyn kinase suppresses the transcriptional activity of IRF5 in the TLR-MyD88 pathway to restrain the development of autoimmunity.</span><br><span class="au">Tatsuma Ban, Go R. Sato, Akira Nishiyama, Ai Akiyama, Marie Takasuna, Marina Umehara, Shinsuke Suzuki, Motohide Ichino, Satoko Matsunaga, Ayuko Kimura, Yayoi Kimura, Hideyuki Yanai, Sadakazu Miyashita, Junro Kuromitsu, Kappei Tsukahara, Kentaro Yoshimatsu, Itaru Endo, Tadashi Yamamoto, Hisashi Hirano, Akihide Ryo, Tadatsugu Taniguchi, Tomohiko Tamura</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27521268" target="_blank"><em>Immunity</em>, <strong>45</strong>, 319-332 (2016) </a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　IRF5は自然免疫応答において重要な転写因子である一方，自己免疫疾患である全身性エリテマトーデスの発症に関与することがヒトおよびマウスにおいて知られている．SrcファミリーキナーゼのひとつであるLynはヒトにおいて全身性エリテマトーデスとの関連が報告されており，Lynノックアウトマウスは全身性エリテマトーデスと類似した病態を発症する．今回，筆者らは，LynはIRF5と結合してToll様受容体-MyD88シグナル伝達経路においてIRF5のユビキチン化およびリン酸化を阻害し，それによりキナーゼ活性に依存することなくIRF5を抑制することを示した．一方で，LynはMyD88の下流においてはたらく別の転写因子であるNF-κBは抑制しなかった．さらに，Lynを欠損した樹状細胞においてToll様受容体を刺激したときの過剰なサイトカインの産生，および，Lynノックアウトマウスにおける全身性エリテマトーデス様の病態の発症は<em>Irf5</em>遺伝子の片方の対立遺伝子の欠損により抑制された．この研究により，LynはToll様受容体-MyD88-IRF5シグナル伝達経路における選択的な抑制タンパク質であることが示され，IRF5を精密に制御することが免疫系における恒常性の維持に重要であることが明らかにされた．<br/><br/><h2>はじめに</h2><br/>　自然免疫応答はあとにつづく獲得免疫応答をひき起こすなど病原体に対する生体防御応答において必須の役割を担う．しかし，自然免疫応答の過剰な活性化は自己に対する反応につながり自己免疫疾患をひき起こす．IRFファミリータンパク質のひとつであるIRF5はToll様受容体により惹起される自然免疫応答の活性化において重要な転写因子である<a href="#R1"><sup>1,2)</sup></a>．IRF5はToll様受容体の下流においてアダプタータンパク質であるMyD88と会合したのち，TRAF6によるユビキチン化やIKKβによるリン酸化などの翻訳後修飾をうける<a href="#R3"><sup>3,4)</sup></a>．これにより活性型となったIRF5は細胞質から核へと移行しI型インターフェロンや炎症性サイトカインの遺伝子の発現を誘導する．<br/>　IRF5の活性化が自然免疫応答において重要である一方，<em>IRF5</em>遺伝子の多型が自己免疫疾患，とくに難病である全身性エリテマトーデスの感受性と関連することがゲノムワイド関連解析により明らかにされている<a href="#R5"><sup>5)</sup></a>．全身性エリテマトーデスの発症のリスクとなる<em>IRF5</em>遺伝子の変異のいくつかによりIRF5の発現が上昇することや，全身性エリテマトーデスの患者の単球においてIRF5が活性化することが報告されている<a href="#R6"><sup>6)</sup></a>．さらに，全身性エリテマトーデスのモデルマウスを用いた複数の研究により，全身性エリテマトーデスの発症にはIRF5が必要であることが示されている<a href="#R6"><sup>6)</sup></a>．したがって，IRF5は全身性エリテマトーデスの治療において標的となるタンパク質の候補のひとつである．しかし，IRF5を制御する機構，とくにその抑制については不明であった．この機構を明らかにすることは，IRF5の関連する自己免疫疾患の病態の理解および効果的な治療法の開発につながる可能性がある．<br/><br/><h2>1．LynはIRF5と結合することにより選択的に抑制する</h2><br/>　IRF5の制御機構を明らかにするため，IRF5と結合するキナーゼをスクリーニングした．コムギ胚芽抽出液による無細胞タンパク質合成系とアルファスクリーンとよばれる無作為なスクリーニング法とを組み合わせ，IRF5とさまざまなキナーゼとの結合を網羅的に解析した．その結果，Lynを含む複数のSrcファミリーキナーゼがIRF5と結合することが判明した．さらに候補をしぼるため，これらのキナーゼをコードする遺伝子の主要な免疫細胞における発現量をImmGenデータベースから検索した結果，ほかのSrcファミリーキナーゼの遺伝子とは異なり，<em>Lyn</em>遺伝子と<em>Irf5</em>遺伝子の発現パターンは類似しており，ともに樹状細胞，単球，マクロファージ，B細胞において高発現していた．<br/>　この結果にくわえ，IRF5およびLynはいずれも全身性エリテマトーデスと関係性のあることから，LynとIRF5との結合の生物学的な意義について検討した．IRF5による転写の活性化に対しLynのおよぼす影響についてルシフェラーゼアッセイにより解析したところ，MyD88シグナル伝達経路においてIRF5による転写の活性化はLynの発現量に依存して抑制された．対照的に，LynはMyD88シグナル伝達経路においてNF-κBによる転写の活性化は抑制されなかった．ウェスタンブロット法により，LynはIRF5およびMyD88の発現量に影響しないことが示された．これらの結果により，LynはMyD88シグナル伝達経路においてIRF5を選択的に抑制することが示された．<br/><br/><h2>2．Lynを欠損した樹状細胞においてIRF5に依存的な自然免疫応答が過剰に活性化する</h2><br/>　全身性エリテマトーデスの発症における樹状細胞の役割については多くの研究がなされている<a href="#R7"><sup>7)</sup></a>．古典的な樹状細胞と形質細胞様樹状細胞の両方がI型インターフェロンおよび炎症性サイトカインの産生に関与しており，これらが自己反応性のT細胞およびB細胞，あるいは，樹状細胞それ自体の活性化をひき起こす．また，樹状細胞に特異的なLynノックアウトマウスにおいて全身性エリテマトーデス様の病態が発症するが，これは樹状細胞がToll様受容体-MyD88シグナルに対し過剰に反応するためだと考えられている<a href="#R8"><sup>8)</sup></a>．<br/>　自然免疫応答におけるLynとIRF5との関係について，骨髄に由来する樹状細胞を用いて解析した．骨髄に由来する樹状細胞は古典的な樹状細胞と形質細胞様樹状細胞の両方を含み，IRF5に依存的な自然免疫応答の検証に適することが知られている<a href="#R9"><sup>9)</sup></a>．Toll様受容体を刺激したときの野生型の骨髄に由来する樹状細胞におけるI型インターフェロンおよび炎症性サイトカインの産生は，IRF5の欠損により減弱したのに対しLynの欠損により亢進した．さらに，Lynを欠損した骨髄に由来する樹状細胞におけるこのような過剰な自然免疫応答，とくにI型インターフェロンの過剰な産生は，LynとIRF5の二重欠損により顕著に減弱した．同様の結果は，Toll様受容体を刺激したときのI型インターフェロンおよび炎症性サイトカインのmRNAレベルでの発現の経時変化からも得られた．対照的に，骨髄に由来する樹状細胞においてNF-κBに依存して誘導されるIκBαのmRNAレベルでの発現はLynの欠損により亢進せず，Lynによる影響は選択的であることが示された．これらの結果により，樹状細胞の自然免疫応答におけるIRF5に依存的なシグナル伝達経路をLynは選択的に抑制することが示された．<br/><br/><h2>3．IRF5の抑制にLynのキナーゼ活性は必要ない</h2><br/>　LynがIRF5を抑制する分子機構について検討した．Lynはチロシンキナーゼであるため，Lynのキナーゼ活性がIRF5の抑制に必要かどうか検討した．質量分析法により，Lynは実際にIRF5のTyr313およびTyr335をリン酸化することが判明した．しかし，キナーゼ活性をもたないLynの変異体はMyD88シグナル伝達経路を介したIRF5の活性化を抑制した．また，Lynによるリン酸化部位に変異を導入したIRF5であってもその活性化はLynにより抑制された．これらの結果から，Lynはそのキナーゼ活性に依存しない分子機構によりIRF5を抑制することが示された．<br/><br/><h2>4．LynはIRF5と結合してそのユビキチン化およびリン酸化を阻害する</h2><br/>　以上の結果から，LynとIRF5との結合そのものがLynによるIRF5の抑制に重要であるのではないかと考えた．共免疫沈降法による解析により，スクリーニングの結果と一致して，LynとIRF5は結合することが示された．この結合はMyD88の共発現により増強されたことから，Lyn，IRF5，MyD88の三者複合体の形成が示唆された．また，キナーゼ活性をもたないLynの変異体もIRF5と結合した．Lynのドメイン欠損変異体を作製し共免疫沈降法により解析した結果，LynとIRF5との結合にはLynのユニークドメインおよびキナーゼドメインが重要であることがわかった．ユニークドメインあるいはキナーゼドメインを欠損したLynの変異体はMyD88シグナル伝達経路を介したIRF5による転写の活性化を抑制できなかった．すなわち，LynによるIRF5の抑制能はLynのIRF5との結合能と相関した．また，LynとIRF5との結合にはIRF5のDNA結合ドメインおよびIRF相互作用ドメインが重要であった．LynはIRF5のIRF相互作用ドメインに存在するTyr313およびTyr335をリン酸化することから，LynのキナーゼドメインとIRF5のIRF相互作用ドメインは近接することが示唆された．したがって，LynとIRF5との結合はLynがIRF5の活性化を抑制するのに必要であり，それぞれ2つの結合部位を介し結合すると考えられた．<br/>　IRF5の活性化には翻訳後修飾であるユビキチン化およびリン酸化が重要である．LynによるIRF5の抑制の分子機構についてさらに検討するためそのユビキチン化およびリン酸化について解析した結果，MyD88シグナル伝達経路を介したIRF5のユビキチン化およびリン酸化はいずれもLynにより阻害されることが判明した．LynがIRF5のユビキチン化およびリン酸化を阻害する分子機構について追求するため，不明であったIRF5のユビキチン化とリン酸化との関係について検討した．IRF5のユビキチン化あるいはリン酸化に重要な部位の変異体を作製して解析した結果，ユビキチン化はリン酸化に依存せず，一方で，リン酸化はユビキチン化に依存していた．したがって，IRF5の活性化においてユビキチン化はリン酸化の上流において起こり，Lynはユビキチン化およびリン酸化を抑制することが示された．<br/><br/><h2>5．Lynノックアウトマウスにおける全身性エリテマトーデス様の病態は<em>Irf5</em>遺伝子の片方の対立遺伝子の欠損により改善する</h2><br/>　全身性エリテマトーデス様の病態を発症することが知られているLynノックアウトマウスを用いて，<em>in vitro</em>において検証されたLynによるIRF5の抑制の分子機構が<em>in vivo</em>においてもはたらいているか検討した．マウスから単離した樹状細胞およびB細胞を用いてIRF5の活性化の状態を解析した結果，Lynを欠損した樹状細胞においてIRF5はリン酸化され，また，IRF5は核へと移行していた．すなわち，Lynが欠損するとIRF5は樹状細胞において恒常的に活性化することが示唆された．今回の方法ではLynを欠損したB細胞においてIRF5の活性化は検出されなかったが，B細胞のサブセットのなかに病原性をもつ少数の細胞が存在し，その細胞においてIRF5が活性化している可能性が考えられた．<br/>　Lynノックアウトマウスにおける全身性エリテマトーデス様の病態を解析した結果，抗DNA抗体の産生や糸球体腎炎などの症状はIRF5の欠損により顕著に抑制された．したがって，Lynノックアウトマウスにおける全身性エリテマトーデス様の病態の発症にIRF5は必要であることが示された．さらに，これらの症状はLynノックアウトマウスにおいて<em>Irf5</em>遺伝子の片方の対立遺伝子を欠損させただけで抑制された．これらの結果から，<em>Irf5</em>遺伝子の片方の対立遺伝子の欠損はLynノックアウトマウスにおける全身性エリテマトーデス様の病態の発症の抑制に十分であることが示された．<br/><br/><h2>6．<em>Irf5</em>遺伝子の片方の対立遺伝子の欠損がLynを欠損した樹状細胞あるいはB細胞におよぼす影響</h2><br/>　マウスが全身性エリテマトーデス様の病態を発症するには樹状細胞あるいはB細胞のどちらかでLynが欠損すれば十分であることが報告されていたことから<a href="#R8"><sup>8,10)</sup></a>，Lynを欠損した樹状細胞あるいはB細胞における異常とIRF5の量との関係について検討した．Lynを欠損した骨髄に由来する樹状細胞に対しToll様受容体を刺激したときの過剰なI型インターフェロンの産生は<em>Irf5</em>遺伝子の片方の対立遺伝子の欠損により正常化した．B細胞においては，Lynの欠損によりB細胞受容体シグナル伝達経路の異常による形質芽球および形質細胞の蓄積，および，MyD88に依存的な病原性免疫グロブリンGへのクラススイッチの生じることが報告されている<a href="#R11"><sup>11,12)</sup></a>．実際に，Lynノックアウトマウスの脾臓における形質芽球および形質細胞の割合は野生型のマウスと比較して有意に高かった．この割合は，<em>Irf5</em>遺伝子の片方の対立遺伝子の欠損したLynノックアウトマウスおよび<em>Irf5</em>遺伝子の両方の対立遺伝子の欠損したLynノックアウトマウスにおいても保持されており，LynノックアウトマウスにおけるB細胞受容体シグナル伝達経路の異常はIRF5に非依存的に生じることが示唆された．一方で，Lynノックアウトマウスの血清において増加していた総免疫グロブリンGの量および免疫グロブリンG2cサブクラスの量は，<em>Irf5</em>遺伝子の片方の対立遺伝子の欠損により正常化した．これらの結果と，<em>Irf5</em>遺伝子の片方の対立遺伝子の欠損したLynノックアウトマウスにおいて抗DNA抗体の産生が消失したことをあわせて考えると，<em>Irf5</em>遺伝子の片方の対立遺伝子の欠損は免疫グロブリンG2cへのクラススイッチを完全に消失させることなくLynを欠損したB細胞による自己抗体の産生を選択的に改善することが示唆された．以上の結果により，IRF5の発現量が十分な場合にのみLynの欠損による異常，すなわち，樹状細胞における過剰なToll様受容体の応答およびB細胞における自己抗体の産生がひき起こされることが示された．<br/><br/><h2>おわりに</h2><br/>　今回の研究により，Toll様受容体-MyD88シグナル伝達経路においてIRF5と直接に結合しその活性化を選択的に抑制するタンパク質としてLynが同定された．LynはIRF5と結合してそのユビキチン化およびリン酸化をLynのキナーゼ活性に非依存的に抑制することによりIRF5が過剰に活性化するのをふせいでおり，この精密な制御機構が免疫系における恒常性を維持する役割の一端を担うと考えられた（<a href="#F1">図1a</a>）．LynによるIRF5の制御機構が破綻すると，樹状細胞においてIRF5が過剰に活性化し，I型インターフェロンおよび炎症性サイトカインが産生される．これらにより自己反応性のT細胞およびB細胞が活性化され，B細胞からは自己抗体が分泌される．自己抗体は免疫複合体を形成しさらに樹状細胞を刺激する．このような悪循環により全身性エリテマトーデスが発症すると考えられた（<a href="#F1">図1b</a>）．この研究においては，LynノックアウトマウスにおいてIRF5は構成的に活性化しており，IRF5の量を半分に減らすだけでLynノックアウトマウスにおける全身性エリテマトーデス様の病態の発症は阻止されることが示された．すなわち，IRF5の質（活性）あるいは量を選択的に制御することができれば，副作用が少なくて効果の高い全身性エリテマトーデスの新たな治療法になることが期待される．今後の課題としては，全身性エリテマトーデスの発症ののちIRF5を抑制しても症状が改善するのかどうかをコンディショナルノックアウトマウスを用いて解析することや，全身性エリテマトーデスの患者の病勢とIRF5の活性化の状態との関連を検討することなどがあげられる．これらの課題に取り組みながら，IRF5の質や量を選択的に制御する方法を開発したいと考えている．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Lynを介したIRF5の制御による免疫系における恒常性の維持およびその破綻による全身性エリテマトーデスの発症</strong><br/>（a）Toll様受容体-MyD88シグナル伝達経路において，LynはIRF5とそれぞれ2箇所の結合部位を介して結合し，IRF5のユビキチン化およびリン酸化を阻害することによりIRF5の過剰な活性化を抑制する．この精密な制御機構が免疫系における恒常性の維持の一端を担う．<br/>（b）Lynが欠損するとIRF5が過剰に活性化し，古典的な樹状細胞および形質細胞様樹状細胞においてI型インターフェロンや炎症性サイトカインの産生が亢進し，それにより自己反応性のB細胞による自己抗体の産生が促進される．自己抗体は免疫複合体を形成し，これがさらに樹状細胞を刺激する．このような悪循環により全身性エリテマトーデスが発症する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tamura-Immunity-16.8.16-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Lynを介したIRF5の制御による免疫系における恒常性の維持およびその破綻による全身性エリテマトーデスの発症" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tamura-Immunity-16.8.16-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Tamura-Immunity-16.8.16-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Takaoka, A., Yanai, H., Kondo, S. et al.</span>: <span class="ti">Integral role of IRF-5 in the gene induction programme activated by Toll-like receptors.</span> <span class='so'>Nature, 434, 243-249 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15665823" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Tamura, T., Yanai, H., Savitsky, D. et al.</span>: <span class="ti">The IRF family transcription factors in immunity and oncogenesis.</span> <span class='so'>Annu. Rev. Immunol., 26, 535-584 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18303999" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Balkhi, M. Y., Fitzgerald, K. A. & Pitha, P. M.</span>: <span class="ti">Functional regulation of MyD88-activated interferon regulatory factor 5 by K63-linked polyubiquitination.</span> <span class='so'>Mol. Cell. Biol., 28, 7296-7308 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18824541" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Hayden, M. S. & Ghosh, S.</span>: <span class="ti">Innate sense of purpose for IKKβ.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 111, 17348-17349 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25427798" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Harley, I. T., Kaufman, K. M., Langefeld, C. D. et al.</span>: <span class="ti">Genetic susceptibility to SLE: new insights from fine mapping and genome-wide association studies.</span> <span class='so'>Nat. Rev. Genet., 10, 285-290 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19337289" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Eames, H. L., Corbin, A. L. & Udalova, I. A.</span>: <span class="ti">Interferon regulatory factor 5 in human autoimmunity and murine models of autoimmune disease.</span> <span class='so'>Transl. Res., 167, 167-182 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26207886" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Baccala, R., Hoebe, K., Kono, D. H. et al.</span>: <span class="ti">TLR-dependent and TLR-independent pathways of type I interferon induction in systemic autoimmunity.</span> <span class='so'>Nat. Med., 13, 543-551 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17479100" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Lamagna, C., Scapini, P., van Ziffle, J. A. et al.</span>: <span class="ti">Hyperactivated MyD88 signaling in dendritic cells, through specific deletion of Lyn kinase, causes severe autoimmunity and inflammation.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 110, E3311-E3320 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23940344" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Yasuda, K., Nundel, K., Watkins, A. A. et al.</span>: <span class="ti">Phenotype and function of B cells and dendritic cells from interferon regulatory factor 5-deficient mice with and without a mutation in DOCK2.</span> <span class='so'>Int. Immunol., 25, 295-306 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23291967" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Lamagna, C., Hu, Y., DeFranco, A. L. et al.</span>: <span class="ti">B cell-specific loss of Lyn kinase leads to autoimmunity.</span> <span class='so'>J. Immunol., 192, 919-928 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24376269" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Hua, Z., Gross, A. J., Lamagna, C. et al.</span>: <span class="ti">Requirement for MyD88 signaling in B cells and dendritic cells for germinal center anti-nuclear antibody production in Lyn-deficient mice.</span> <span class='so'>J. Immunol., 192, 875-885 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24379120" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Nishizumi, H., Taniuchi, I., Yamanashi, Y. et al.</span>: <span class="ti">Impaired proliferation of peripheral B cells and indication of autoimmune disease in <em>lyn</em>-deficient mice.</span> <span class='so'>Immunity, 3, 549-560 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7584145" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=GEO" target="_blank">GEO</a></li><br></ul><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">藩  龍馬（Tatsuma Ban）</span><br>略歴：2012年 東京大学大学院医学系研究科博士課程 修了，同年 横浜市立大学大学院医学研究科 博士研究員を経て，2013年より同 助教．<br>研究テーマ：転写因子IRF5を軸とした自己免疫疾患の発症の機構の解明および治療法の開発．<br>関心事：1細胞解析を用いた病態の発症の機構の解明．<br><br><strong>田村 智彦（Tomohiko Tamura）</strong><br>横浜市立大学大学院医学研究科 教授．<br>研究室URL：<a href="http://www-user.yokohama-cu.ac.jp/~immunol/" target="_blank">http://www-user.yokohama-cu.ac.jp/~immunol/</a><br></div><br>© 2016 藩 龍馬・田村智彦 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

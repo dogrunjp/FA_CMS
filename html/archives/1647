@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> ReelinシグナルとStk25による神経極性およびゴルジ体の形態の制御 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>ReelinシグナルとStk25による神経極性およびゴルジ体の形態の制御</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>松木 亨・Brian W. Howell</strong><br>（米国New York州立大学Upstate Medical University，Department of Neuroscience and Physiology）<br>email：<a href="mailto:matsukit@upstate.edu">松木 亨</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2010.067">10.7875/first.author.2010.067</a><br><div class="reference"><br><span class="ti">Reelin and Stk25 have opposing roles in neuronal polarization and dendritic Golgi deployment.</span><br><span class="au">Tohru Matsuki, Russell T. Matthews, Jonathan A. Cooper, Marcel P. van der Brug, Mark R. Cookson, John A. Hardy, Eric C. Olson, Brian W. Howell</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21111240" target="_blank"><em>Cell</em>, <strong>143</strong>, 826-836 (2010)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　Reelin-Dab1シグナル伝達系は脳の層構造の形成や樹状突起の伸長など多くの神経発達イベントに重要で，その主要な構成タンパク質であるDab1の変異マウスではさまざまな発達障害の生じることが知られている．これまで筆者らは，細胞極性の制御への関与が示唆されていたStk25がReelin-Dab1シグナル伝達系の修飾タンパク質であることを見い出していた．したがって，神経極性の制御においてReelin-Dab1シグナル伝達系およびStk25の関与する機構の解明は，軸索や樹状突起の形成をも含む神経極性の制御機構を理解するために重要である．この研究で筆者らは，Stk25が神経極性の制御において中心的な役割を担うLKB1シグナル伝達系およびゴルジ体タンパク質GM130と相互作用し，ゴルジ体の形態制御とともに軸索の形成に関与することを明らかにした．一方，Reelin-Dab1シグナル伝達系はこれら2つの機構においてStk25と拮抗作用を示すことがわかった．以上の結果は，Reelin-Dab1シグナル伝達機構の解明とともに，Stk25の関与する神経極性の制御機構の解明に貢献するだけでなく，ニューロンの発達におけるゴルジ体の重要性を示すものでもあった．<br/><br/><h2>はじめに</h2><br/>　神経伝達物質を介し行われるシグナル伝達は脳の担う機能のなかでももっとも重要なもののひとつである．この機能をおもに担うニューロンは極性を示す典型的な細胞のひとつであり，通常，1本の軸索と複数の樹状突起とをもつ<a href="#R1"><sup>1)</sup></a>．樹状突起によって受信された神経伝達シグナルはニューロンにおいて統合，処理され，軸索から標的細胞へと神経伝達物質を放出することでシグナル伝達が制御されている．ニューロンの発達過程における未分化の神経突起からの軸索や樹状突起の形成機構に関してはこれまでにも多くの報告がなされてきた．それらに関する知見から，<em>in vitro</em>，<em>in vivo</em>ともに，未分化状態の神経突起が分化する際にはまず軸索の形成が生じ，ついで，樹状突起の形成の生じることがわかっている<a href="#R2"><sup>2)</sup></a>．このような神経極性の制御機構においてゴルジ体は軸索となる神経突起のそばに位置しており，軸索の決定ののちは先端樹状突起へと分化する神経突起の近傍へと細胞質を移動する現象が報告されている<a href="#R3"><sup>3)</sup></a>．そのため，神経極性の制御におけるゴルジ体の関与が示唆されている．<br/>　Reelin-Dab1シグナル伝達系は脳の発達期においてニューロンの位置決定に重要な役割をはたしているだけでなく<a href="#R4"><sup>4)</sup></a>，樹状突起の伸長や<a href="#R5"><sup>5,6)</sup></a>，長期増強の誘導および維持など<a href="#R7"><sup>7)</sup></a>，さまざまな生理現象に重要である．一方，Stk25はste20様キナーゼファミリーに属するセリン・スレオニンキナーゼであり細胞移動や細胞極性の制御に関与することが示唆されている<a href="#R8"><sup>8)</sup></a>．また，細胞極性の制御機構において機能するタンパク質としてLKB1がよく知られており，STRADα，Mo25とともに複合体を形成して神経極性を制御している<a href="#R9"><sup>9)</sup></a>．<br/><br/><h2>1．Stk25は神経極性を制御する</h2><br/>　Stk25は細胞極性と移動に関与することがHeLa細胞を用いた研究から示唆されていたことにくわえ，Ste20様キナーゼファミリーに属するタンパク質のなかには細胞極性の制御に関与するものが複数あることがわかっていた．そこで，Stk25の神経極性の制御における関与を明らかにするため，レンチウイルスを使用して海馬初代培養ニューロンにおいてStk25をノックダウンまたは過剰発現させた．その結果，Stk25のノックダウンによりニューロンに軸索の形成障害が現われた（<a href="#F1">図1</a>）．興味深いことに，Stk25をニューロンに過剰発現させるとキナーゼ活性の有無にかかわらず複数の軸索の形成が誘導された（<a href="#F1">図1</a>）．しかし，軸索の長さ自体には変化がみられなかったことから，Stk25は軸索の形成機構に関与していると示唆された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Reelin-Dab1シグナル伝達系とStk25による軸索の形成制御</strong><br/>ニューロンにおける軸索の形成機構において，内在性のStk25のみが発現している場合には単一の軸索が形成される．この時期にStk25の発現が抑制されるとニューロンは軸索を形成することができない．一方，Stk25の過剰発現はニューロンに複数の軸索の形成を誘導する．さらに，Stk25の過剰発現によって誘導される複数の軸索の形成はReelin-Dab1シグナル伝達系によって抑制される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuki-Cell-10.11.24-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Reelin-Dab1シグナル伝達系とStk25による軸索の形成制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuki-Cell-10.11.24-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuki-Cell-10.11.24-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．Reelin-Dab1シグナル伝達系は複数の軸索の形成を防いでいる</h2><br/>　Stk25は，大脳皮質，海馬，小脳においておもにReelin-Dab1シグナル応答性のニューロンで発現がみられること，Dab1ノックアウトマウスにおける修飾タンパク質として同定されていることから，Reelin-Dab1シグナル伝達系が軸索の形成に関与しているのかどうかを初代培養ニューロンを用いて確認した．その結果，Dab1をノックアウトしたニューロンでは野生型ニューロンに比べ複数の軸索の形成されている割合の高いことがわかった．さらに，Dab1をノックアウトしたニューロンにおいてStk25をノックダウンすると複数の軸索をもつニューロンの割合の低下することも明らかになった．興味深いことに，Stk25の過剰発現による複数の軸索の形成はReelinを添加した培地を用いて培養を行うことで阻害され，正常細胞のレベルにまで低下することがわかった．これらの一連の結果から，Reelin-Dab1シグナル伝達系とStk25とは軸索の形成機構において拮抗的に作用していることがわかった（<a href="#F1">図1</a>）．<br/><br/><h2>3．Stk25は生体で軸索の形成と樹状突起の非対称性を制御している</h2><br/>　つぎに，Stk25が生体でも軸索の形成を制御しているのかどうか確認するため，マウス胎仔の海馬CA1錐体細胞においてStk25をノックダウンして生後7日目の錐体細胞における軸索の起始部の有無を確認した．その結果，Stk25をノックダウンした錐体細胞のうち約40％の細胞において軸索の起始部のみられないことがわかった．初代培養ニューロンで得られた結果とあわせることで，Stk25は錐体細胞の軸索の形成に関与していることがわかった．一方，正常なCA1錐体細胞では細胞体から太い先端樹状突起と複数の細い基底樹状突起とが伸長している．興味深いことに，Stk25をノックダウンした錐体細胞では基底樹状突起の直径が先端樹状突起のように太くなり，樹状突起の非対称性の低下していることがわかった．さらに，Stk25をノックダウンした錐体細胞では先端樹状突起が野生型の錐体細胞に比べ有意に長く伸びていることも明らかになった．以上の結果から，Stk25は正常な軸索の形成と非対称性をともなう樹状突起の形成に必要なことがわかった．<br/><br/><h2>4．Stk25はSTRADαと相互作用してLKB1シグナル伝達系により細胞極性を制御する</h2><br/>　Stk25の神経極性の制御における役割はLKB1シグナル伝達系の示す役割と非常に似ていることがわかった．すなわち，LKB1シグナル伝達系は細胞極性の制御において中心的な役割を担っており，その阻害は軸索の形成障害や大脳皮質におけるニューロンの移動障害を誘導する<a href="#R9"><sup>9)</sup></a>．そこで，Stk25とLKB1シグナル伝達系との関連性について調べるため，LKB1シグナル伝達系の各構成タンパク質とStk25との結合実験を行った．その結果，Stk25はSTRADαと直接に結合することがわかった．LKB1の関与する細胞極性の制御機構にはLKB1シグナル伝達系の構成タンパク質のひとつであるSTRADαの発現の必要なことがわかっている．そこで，Stk25の細胞極性の制御への影響を調べるため，STRADαの発現を調節できるW4細胞を用いて細胞極性の誘導実験を行った．その結果，Stk25をノックダウンしたW4細胞ではLKB1とSTRADαとがともに発現していても細胞極性の制御のできないことがわかった．ニューロンではLKB1をノックダウンすると軸索の形成不全の誘導されることがわかっているが，Stk25の過剰発現によってLKB1ノックダウンによる軸索の形成不全の回復することがわかった．以上の結果から，Stk25はLKB1シグナル伝達系の下流ではたらき，軸索の形成を制御していることがわかった．<br/><br/><h2>5．GM130はStk25と相互作用して軸索の形成を制御している</h2><br/>　野生型Stk25はゴルジ体タンパク質であるGM130と直接に結合し，それらの細胞での局在も一致する．しかし，キナーゼ活性を失ったStk25変異体は野生型とは異なり細胞質の全体に局在することが報告されていた<a href="#R8"><sup>8)</sup></a>．しかし，この研究の結果から，Stk25のキナーゼ活性は神経極性の制御に必要ではないことがわかったため，GM130との結合についてあらためて確認した．その結果，キナーゼ活性の有無に関係なくStk25はGM130に直接に結合することが明らかとなった．HeLa細胞で示されたStk25の細胞での局在性がニューロンにおいても同様であるかどうか調べるため，Stk25に特異的な抗体を用いてニューロンにおける局在を確認した．その結果，ニューロンにおける内在性Stk25もまたおもにゴルジ体に局在していることがわかった．そこで，GM130の神経極性の制御への関与を調べるため内在性のGM130をノックダウンしたところ，Stk25やLKB1をノックダウンした場合と同じように軸索の形成不全を生じることがわかった．一方，GM130をノックダウンした細胞にStk25を強制発現しても軸索の形成不全を解消できないことから，GM130はStk25の下流で神経極性の制御に関与しているものと推測された．<br/><br/><h2>6．Stk25，GM130，LKB1はともにゴルジ体の局在を制御している</h2><br/>　ニューロンの発達において細胞質におけるゴルジ体の位置は軸索の決定に関与すると示唆される<a href="#R3"><sup>3)</sup></a>．そのため，ゴルジ体の形態制御は神経発生において重要であるものと考えられる．また，Stk25またはGM130のノックダウンはゴルジ体の断片化を誘導することもわかっている<a href="#R8"><sup>8,10)</sup></a>．そこで，Stk25，GM130，LKB1のゴルジ体の形態制御への影響を調べるため，ニューロンにおいてそれぞれをノックダウン，または，Stk25の過剰発現を行った．その結果，それぞれをノックダウンするとニューロンのゴルジ体が断片化を起こすことがわかった．とくに，LKB1のノックダウンにより誘導されるゴルジ体の断片化はStk25の過剰発現により回復することがわかった．一方，正常なCA1錐体細胞ではゴルジ体は先端樹状突起の近傍に局在しているが，Stk25をノックダウンするとゴルジ体は断片化を生じるとともに細胞質の全域に分散して局在することがわかった．以上の結果から，Stk25，LKB1，GM130がゴルジ体の正常な形態形成に必要であることがわかった．<br/><br/><h2>7．Reelin-Dab1シグナル伝達系はゴルジ体の形態を制御している</h2><br/>　さきに述べたように，Stk25とReelin-Dab1シグナル伝達系とは軸索の形成機構において拮抗的にはたらいている．そこで，Stk25とReelin-Dab1シグナル伝達系のゴルジ体の形態形成および維持への影響を生体において調べるため，ReelinノックアウトマウスまたはDab1ノックアウトマウスおよび野生型マウスの新生仔の海馬CA1錐体細胞におけるゴルジ体の形態観察を行った．この結果，野生型マウスのゴルジ体は先端樹状突起内に長く伸長しているのに対して，ReelinノックアウトマウスまたはDab1ノックアウトマウスではゴルジ体の伸長が弱く樹状突起への伸長の十分にみられない錐体細胞も多くみられた．この結果から，Reelin-Dab1シグナル伝達系は生体で直接的あるいは間接的にゴルジ体の伸長を制御していることが示唆された．そこで，Reelin-Dab1シグナル伝達系のゴルジ体の伸長機構の制御への関与を調べるため，海馬初代培養ニューロンを用いてReelin刺激によるゴルジ体の構造変化を調べた．その結果，驚くべきことに，30分間のReelin刺激によりゴルジ体は樹状突起内に長く伸長することがわかった．一連の実験結果から，ゴルジ体の先端樹状突起内への伸長はReelin-Dab1シグナル伝達系に応答した現象であることが明らかとなった．そこで，Reelin-Dab1シグナル伝達系とStk25のゴルジ体の構造への影響を調べるため，Stk25を過剰発現させたニューロンをReelinを含む培地で培養した．この結果，キナーゼ活性の有無にかかわらずStk25を過剰発現させたニューロンのゴルジ体は萎縮した形態を示すことがわかった．また，このようなゴルジ体の構造の変化はReelinを含む培地で培養することにより抑制され，Stk25の過剰発現の有無にかかわらずゴルジ体は正常な構造をとることがわかった．以上の結果から，ゴルジ体の伸長あるいは萎縮にみられる構造変化は生体で拮抗的にはたらくReelin-Dab1シグナル伝達系とStk25とのバランスによって決定される現象であると示唆された（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　ReelinシグナルとStk25によるゴルジ体の伸長機構</strong><br/>錐体細胞がReelinシグナルを受け取るとゴルジ体は先端樹状突起内に深く伸長する．一方，Stk25はゴルジ体の伸長を抑制する方向にはたらく．そのため，ゴルジ体の伸長はStk25の発現量とReelinシグナルのバランスに影響をうける．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuki-Cell-10.11.24-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　ReelinシグナルとStk25によるゴルジ体の伸長機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuki-Cell-10.11.24-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Matsuki-Cell-10.11.24-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　今回，Reelin-Dab1シグナル伝達系およびStk25がゴルジ体の形態の制御および神経極性の制御にはたす役割の一端が明らかになった．しかしながら，神経極性の制御機構にはゴルジ体の移動機構などまだ多くの不明な点が残されており，今後の研究の課題である．Reelin-Dab1シグナル伝達系およびStk25を軸にゴルジ体の神経極性の制御にはたす役割についてより研究を進めることによって，ニューロンの発達のみならず脳の発達機構についてより理解の進むものと期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Arimura, N. & Kaibuchi, K.</span>: <span class="ti">Neuronal polarity: from extracellular signals to intracellular mechanisms.</span> <span class='so'>Nat. Rev. Neurosci., 8, 194-205 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17311006" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Barnes, A. P. & Polleux, F.</span>: <span class="ti">Establishment of axon-dendrite polarity in developing neurons.</span> <span class='so'>Annu. Rev. Neurosci., 32, 347-381 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19400726" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>de Anda, F. C., Pollarolo, G., Da Silva, J. S. et al.</span>: <span class="ti">Centrosome localization determines neuronal polarity.</span> <span class='so'>Nature, 436, 704-708 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16079847" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Howell, B. W., Hawkes, R., Soriano, P. et al.</span>: <span class="ti">Neuronal position in the developing brain is regulated by mouse disabled-1.</span> <span class='so'>Nature, 389, 733-737 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9338785" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Niu, S., Renfro, A., Quattrocchi, C. C. et al.</span>: <span class="ti">Reelin promotes hippocampal dendrite development through the VLDLR/ApoER2-Dab1 pathway.</span> <span class='so'>Neuron, 41, 71-84 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14715136" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Matsuki, T., Pramatarova, A. & Howell, B. W.</span>: <span class="ti">Reduction of Crk and CrkL expression blocks reelin-induced dendritogenesis.</span> <span class='so'>J. Cell Sci., 121, 1869-1875 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18477607" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Weeber, E. J., Beffert, U., Jones, C. et al.</span>: <span class="ti">Reelin and ApoE receptors cooperate to enhance hippocampal synaptic plasticity and learning.</span> <span class='so'>J. Biol. Chem., 277, 39944-39952 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12167620" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Preisinger, C., Short, B., De Corte, V. et al.</span>: <span class="ti">YSK1 is activated by the Golgi matrix protein GM130 and plays a role in cell migration through its substrate 14-3-3ζ.</span> <span class='so'>J. Cell Biol., 164, 1009-1020 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15037601" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Shelly, M., Cancedda, L., Heilshorn, S. et al.</span>: <span class="ti">LKB1/STRAD promotes axon initiation during neuronal polarization.</span> <span class='so'>Cell, 129, 565-577 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17482549" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Puthenveedu, M. A., Bachert, C., Puri, S. et al.</span>: <span class="ti">GM130 and GRASP65-dependent lateral cisternal fusion allows uniform Golgi-enzyme distribution.</span> <span class='so'>Nat. Cell Biol., 8, 238-248 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16489344" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">松木  亨（Tohru Matsuki）</span><br>略歴：2000年 大阪大学大学院理学研究科博士後期課程 修了，同年 理化学研究所脳科学総合研究センター 研究員．2004年 米国NIH客員研究員を経て，2008年より米国New York州立大学Upstate Medical UniversityにてPostdoctoral Associate．<br>研究テーマ：シグナル伝達系の研究をとおし脳形成の分子機構を理解する．<br>抱負：生命を理解するための根幹となる研究を心がけたい．<br><br><strong>Brian W. Howell</strong><br>米国New York州立大学Upstate Medical UniversityにてAssistant Professor．<br></div><br>© 2010 松木 亨・Brian W. Howell Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

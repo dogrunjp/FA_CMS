@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Regnase-1とRoquinは時空間的に異なる分子機構により共通のmRNAの分解を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>Regnase-1とRoquinは時空間的に異なる分子機構により共通のmRNAの分解を制御する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>三野享史・竹内 理</strong><br>（京都大学ウイルス研究所 感染防御研究分野）<br>email：<a href="mailto:tmino@virus.kyoto-u.ac.jp">三野享史</a>，<a href="mailto:otake@virus.kyoto-u.ac.jp">竹内 理</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.069">10.7875/first.author.2015.069</a><br><div class="reference"><br><span class="ti">Regnase-1 and Roquin regulate a common element in inflammatory mRNAs by spatiotemporally distinct mechanisms.</span><br><span class="au">Takashi Mino, Yasuhiro Murakawa, Akira Fukao, Alexis Vandenbon, Hans-Hermann Wessels, Daisuke Ori, Takuya Uehata, Sarang Tartey, Shizuo Akira, Yutaka Suzuki, Carola G. Vinuesa, Uwe Ohler, Daron M. Standley, Markus Landthaler, Toshinobu Fujiwara, Osamu Takeuchi</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26000482" target="_blank"><em>Cell</em>, <strong>161</strong>, 1058-1073 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　RNA結合タンパク質であるRegnase-1およびRoquinは，ともに炎症性サイトカインをはじめとした炎症に関連するタンパク質をコードするmRNAを分解し免疫系を制御する．しかしながら，これまで，Regnase-1とRoquinの関係性についてはわかっていなかった．この研究において，筆者らは，Regnase-1とRoquinは時空間的に異なる分子機構により共通のmRNAの分解を制御することを解明した．Regnase-1とRoquinは同じステムループ構造をもつmRNAを分解するが，Roquinはストレス顆粒などに局在し翻訳が不活性化した状態のmRNAを分解するのに対し，Regnase-1は粗面小胞体に多く存在しUPF1のヘリカーゼ活性に依存して翻訳が活性化した状態のmRNAを分解していた．Regnase-1とRoquinはそれぞれ炎症の早期と後期において機能するが，mRNAの分解において重複性をもっていた．したがって，Regnase-1とRoquinが共通したmRNAを異なる分子機構により分解することにより，炎症に関連するタンパク質の発現を厳密に制御していることが明らかにされた．<br/><br/><h2>はじめに</h2><br/>　細菌やウイルスなどの病原体が体内に侵入すると，最初にマクロファージなど自然免疫を担当する細胞により認識される<a href="#R1"><sup>1)</sup></a>．マクロファージはToll様受容体を介したシグナル伝達により炎症性サイトカインを産生し炎症を惹起する．炎症は病原体の排除に重要な免疫反応であるが，過剰あるいは慢性化した炎症は敗血症性ショック，自己免疫疾患などさまざまな疾病の原因になる．そのため，生体において炎症は厳密に制御されており，その破綻は炎症性疾患の発症に関連すると考えられる．炎症性サイトカインは炎症の制御において中心的な役割をはたしており，病原体による免疫系への刺激に対する炎症性サイトカインの発現は，転写および転写後制御により厳密に制御されている．なかでも，mRNAの安定性や翻訳を制御する転写後制御は炎症性サイトカインの産生を制御する重要な過程のひとつであり，炎症など免疫応答の開始や終結の制御において重要である<a href="#R2"><sup>2,3)</sup></a>．これまで，筆者らは，RNA分解酵素Regnase-1（Zc3h12aあるいはMcpip1ともよばれる）が炎症性サイトカインをコードするmRNAを分解することにより，過剰な免疫応答を抑制する炎症性サイトカインの産生に対するブレーキ役を担うことを見い出した<a href="#R4"><sup>4,5)</sup></a>．また，Regnase-1はマクロファージなど自然免疫を担当する細胞だけでなく，獲得免疫を担当するT細胞においてもc-Rel，Icos，Ox40などをコードするmRNAを分解することによりT細胞の過剰な活性化を抑制していることを報告した<a href="#R6"><sup>6)</sup></a>．<br/>　これに対し，RoquinはROQドメインを介しIcosやTnfなどをコードするmRNAの3’側非翻訳領域に存在するステムループ構造と結合し，脱アデニル化酵素複合体であるCCR4-NOT複合体をリクルートすることによりこれらを分解する．Roquinはマウスにおける突然変異誘発スクリーニングにより同定され，その変異マウスはIcosやTnfなどをコードするmRNAの過剰な産生により濾胞性T細胞が増加し自己免疫疾患を発症する<a href="#R7"><sup>7-9)</sup></a>．<br/>　これまで，Regnase-1の標的となるmRNAの特異性や作用機構，および，Regnase-1とRoquinの制御機構の関係性についてはわかっていなかった．この研究において，筆者らは，2つの異なるRNA結合タンパク質Regnase-1とRoquinが時空間的に異なる分子機構により炎症性サイトカインをコードする共通のmRNAの分解を制御していることを解明した．<br/>　なお，Regnase-1およびRoquinを含むRNA結合タンパク質と自然免疫については，<a href="http://leading.lifesciencedb.jp/2-e013/" target="_blank">竹内  理, 領域融合レビュー, <strong>2</strong>, e013 (2013)</a> も参照されたい．<br/><br/><h2>1．Regnase-1とRoquinは共通のステムループ構造を認識する</h2><br/>　Regnase-1の標的となるmRNAの特異性を検証するため，Regnase-1と結合するmRNAをRNA免疫沈降-塩基配列決定法（RIP-seq法）により網羅的に同定するとともに，Regnase-1の結合領域をHITS-CLIP法により網羅的に同定した．その結果，Regnase-1は炎症にかかわるタンパク質をコードする多くのmRNAに対し，3’側非翻訳領域に存在するステムループ構造と結合することがわかった．くわえて，Regnase-1に結合するステムループ構造のループ部分はUAU/UGU配列をもっていた．興味深いことに，このステムループ構造は以前に報告されていたRoquinが認識するステムループ構造と類似していた<a href="#R10"><sup>10)</sup></a>．そこで，Regnase-1とRoquinの標的となるmRNAの配列が重複しているかどうかを検討するため，Roquinと結合するmRNAをRIP-seq法により網羅的に同定し，Regnase-1と結合するmRNAとRoquinと結合するmRNAの相関をGSEA法により統計的に解析した．その結果，Regnase-1と結合するmRNAとRoquinと結合するmRNAは統計的に有意に重複していることがわかった．さらに，標的となるステムループ構造をもつmRNAはRegnase-1によってもRoquinによっても分解が誘導されたことから，Regnase-1とRoquinは同じステムループ構造をもつmRNAを分解していることがわかった．つまり，これらの結果から，この特徴的なステムループ構造がRegnase-1とRoquinという2つの異なるタンパク質により共通して読みとられるシス配列であることが示唆された．<br/><br/><h2>2．Regnase-1とRoquinは異なる空間においてmRNAを分解する</h2><br/>　同じステムループ構造を認識して共通のmRNAを標的とするRegnase-1とRoquinがどのような関係性をもって炎症に関連するタンパク質をコードするmRNAの分解を制御しているのか検討した．細胞における局在について検討したところ，RoquinはRNAの分解にかかわる酵素が豊富で多くのRNA結合タンパク質が存在することの知られるストレス顆粒やPボディに局在したのに対し，Regnase-1は粗面小胞体に多く存在しリボソームと共局在していた．さらに，Regnase-1は翻訳が活発なポリソーム画分に存在したのに対し，Roquinは翻訳が活発でない非ポリソーム画分に存在していた．このRegnase-1とRoquinの細胞における局在の違いから，機能する空間あるいは場，また，標的となるmRNAの翻訳の状態が異なることが示唆された．実際に，Regnase-1のノックダウンはポリソーム画分において標的となるmRNAを増加させ，Roquinのノックダウンは非ポリソーム画分において標的となるmRNAを増加させた．この結果から，Regnase-1は翻訳の活発なmRNAを分解し，Roquinは翻訳されていないmRNAを分解していることが示唆された．<br/><br/><h2>3．Regnase-1は翻訳およびUPF1に依存的にmRNAを分解する</h2><br/>　Regnase-1によるmRNAの分解に翻訳が必要かどうかを検討した．タンパク質合成阻害剤にて処理することによりRegnase-1によるmRNAの分解は阻害され，また，Regnase-1は翻訳の起こらないmRNAを分解できなかったことから，Regnase-1は翻訳に依存してmRNAを分解していることがわかった．また，Regnase-1は翻訳の終結反応と共役してRNAを分解しており，Regnase-1によるmRNAの分解には終結反応の生じる終止コドンとRegnase-1の認識部位であるステムループ構造とが20塩基以上離れていることが必要であった．<br/>　Regnase-1によるmRNAの分解の作用機構について検証するため，iTRAQ法を用いてRegnase-1と結合するタンパク質を網羅的に解析した．その結果，多くのリボソームタンパク質にくわえ，RNAヘリカーゼであるUPF1がRegnase-1の結合タンパク質として同定された．また，リボソーム結合アッセイにより，Regnase-1は<em>in vitro</em>においてリボソームと直接的に結合することも証明された．また，Regnase-1は翻訳に依存してUPF1と直接的に結合し，UPF1に依存してmRNAを分解していた．その際，UPF1のヘリカーゼ活性がRegnase-1によるmRNAの分解に必要であった．Regnase-1と標的となるmRNAとの結合は翻訳を必要としなかったことから，翻訳に依存してUPF1がRegnase-1と結合し，mRNAとタンパク質との複合体のリモデリングを誘導することによりRegnase-1が標的となるmRNAを切断する可能性が考えられた．これに対し，RoquinによるmRNAの分解はUPF1を必要としなかった．異常なmRNAを翻訳により検出して分解する品質管理機構としてナンセンス変異依存性mRNA分解機構（nonsense-mediated mRNA decay：NMD）がよく知られているが，UPF1はこの機構に必須な制御タンパク質でもある．Regnase-1によるmRNAの分解においても翻訳およびUPF1が必要であることから，Regnase-1による炎症に関連するタンパク質をコードするmRNAの分解機構と異常なmRNAを分解するナンセンス変異依存性mRNA分解機構の共通性が示された．炎症性サイトカインなどをコードするmRNAは長時間にわたり存在すると過剰な炎症につながることから，転写された段階において異常なmRNAと類似した機構により分解されるよう運命づけられているのかもしれない．<br/><br/><h2>4．Regnase-1とRoquinはそれぞれ炎症の早期と後期において機能する</h2><br/>　Regnase-1とRoquinは生物学的に異なる役割を担っているのかどうかを検討するため，Regnase-1を欠損したマクロファージおよびRoquinの変異したマクロファージに対しリポ多糖による免疫系への刺激をくわえた．その結果，Regnase-1欠損マクロファージでは刺激ののち早期において，Roquin変異マクロファージでは刺激ののちやや後期において，標的となるmRNAの発現量が増加していた．このことから，異なる分子機構により作用するRegnase-1とRoquinがそれぞれ炎症の早期と後期において機能していることが示された．さらに，Regnase-1とRoquinの二重変異マウスに由来する線維芽細胞において標的となるmRNAの量を解析した結果，それぞれ単独の変異をもつ線維芽細胞よりも大きく増加していた．また，マクロファージにおける結果と同様に線維芽細胞においても，Regnase-1あるいはRoquinの単独の変異は刺激ののち，それぞれ炎症の早期と後期において標的となるmRNAの量を増加させていた．この結果から，Regnase-1とRoquinはmRNAの分解において重複性をもち，この重複したmRNAの安定性の制御が正常な遺伝子発現において重要であることが示された．<br/><br/><h2>おわりに</h2><br/>　この研究において，Regnase-1はRoquinと共通のステムループ構造を認識し，UPF1に依存的に翻訳の終結反応と共役し，翻訳の過程にあるmRNAを分解していることが明らかにされた．しかしながら，Regnase-1がUPF1に依存してどのようにmRNAを分解しているのか，まだ十分には明らかにされていない．また，Regnase-1とRoquinはマクロファージなどの自然免疫を担当する細胞だけではなく，獲得免疫を担当するT細胞においても重要な役割を担うため，T細胞におけるRegnase-1とRoquinによるmRNAの安定性の制御も重要であると考えられる．<br/>　また，Regnase-1とRoquinは共通のステムループ構造を認識するが，時空間的に異なるmRNAの分解の制御タンパク質として機能することにより，炎症を厳密に制御していることが解明された（<a href="#F1">図1</a>）．転写は核のみで起こるのに対し，mRNAは細胞においてさまざまな場所に局在するため，それぞれのオルガネラなどにおいて異なる制御をうけていると考えられる．この研究は，同じシス配列が異なるRNA結合タンパク質により時空間的に異なる制御をうけていることを示したまったく新しい例であると考えている．mRNAにははっきりしたシス配列があまりみつからないことを考えると，同じ配列を使いまわすような時空間的な制御は，もしかするとmRNAの制御において一般的な機構なのかもしれない．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　Regnase-1およびRoquinによる炎症に関連するタンパク質をコードするmRNAの分解機構のモデル</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takeuchi-Cell-15.5.21-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　Regnase-1およびRoquinによる炎症に関連するタンパク質をコードするmRNAの分解機構のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takeuchi-Cell-15.5.21-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takeuchi-Cell-15.5.21-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　今後，ヒトの自己免疫疾患や炎症性疾患におけるRegnase-1およびRoquinの機能を検討することにより，これらの疾患の病態の解明につながることが期待される．また，Regnase-1およびRoquinの機能を変化させることは，自己免疫疾患や炎症性疾患などの創薬における標的になる可能性がある．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Takeuchi, O. & Akira, S.</span>: <span class="ti">Pattern recognition receptors and inflammation.</span> <span class='so'>Cell, 140, 805-820 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20303872" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Anderson, P.</span>: <span class="ti">Post-transcriptional regulons coordinate the initiation and resolution of inflammation.</span> <span class='so'>Nat. Rev. Immunol., 10, 24-35 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20029446" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Kafasla, P., Skliris, A. & Kontoyiannis, D. L.</span>: <span class="ti">Post-transcriptional coordination of immunological responses by RNA-binding proteins.</span> <span class='so'>Nat. Immunol., 15, 492-502 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24840980" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Matsushita, K., Takeuchi, O., Standley, D. M. et al.</span>: <span class="ti">Zc3h12a is an RNase essential for controlling immune responses by regulating mRNA decay.</span> <span class='so'>Nature, 458, 1185-1190 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19322177" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Iwasaki, H., Takeuchi, O., Teraguchi, S. et al.</span>: <span class="ti">The IκB kinase complex regulates the stability of cytokine-encoding mRNA induced by TLR-IL-1R by controlling degradation of regnase-1.</span> <span class='so'>Nat. Immunol., 12, 1167-1175 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22037600" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/3905" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R6"><span class='au'>Uehata, T., Iwasaki, H., Vandenbon, A. et al.</span>: <span class="ti">Malt1-induced cleavage of Regnase-1 in CD4<sup>+</sup> helper T cells regulates immune activation.</span> <span class='so'>Cell, 153, 1036-1049 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23706741" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/7259" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R7"><span class='au'>Vinuesa, C. G., Cook, M. C., Angelucci, C. et al.</span>: <span class="ti">A RING-type ubiquitin ligase family member required to repress follicular helper T cells and autoimmunity.</span> <span class='so'>Nature, 435, 452-458 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15917799" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Yu, D., Tan, A. H., Hu, X. et al.</span>: <span class="ti">Roquin represses autoimmunity by limiting inducible T-cell co-stimulator messenger RNA.</span> <span class='so'>Nature, 450, 299-303 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18172933" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Linterman, M. A., Rigby, R. J., Wong, R. K. et al.</span>: <span class="ti">Follicular helper T cells are required for systemic autoimmunity.</span> <span class='so'>J. Exp. Med., 206, 561-576 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19221396" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Leppek, K., Schott, J., Reitter, S. et al.</span>: <span class="ti">Roquin promotes constitutive mRNA decay via a conserved class of stem-loop recognition motifs.</span> <span class='so'>Cell, 153, 869-881 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23663784" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">三野 享史（Takashi Mino）</span><br>略歴：2009年 京都大学大学院工学研究科博士後期課程 修了，同年 米国California大学San Diego校 博士研究員，2010年 大阪大学免疫学フロンティア研究センター 特任研究員を経て，2012年より京都大学ウイルス研究所 助教．<br>研究テーマ：自然免疫における転写後制御．<br>関心事：翻訳と共役したmRNAの分解の機構．<br><br><strong>竹内  理（Osamu Takeuchi）</strong><br>京都大学ウイルス研究所 教授．<br>研究室URL：<a href="http://www.virus.kyoto-u.ac.jp/Lab/Takeuchi_HP/" target="_blank">http://www.virus.kyoto-u.ac.jp/Lab/Takeuchi_HP/</a><br></div><br>© 2015 三野享史・竹内 理 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

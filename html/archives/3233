@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 線虫C. elegansの行動の可塑性を制御する全身性の温度シグナルの同定 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>線虫<em>C</em>. <em>elegans</em>の行動の可塑性を制御する全身性の温度シグナルの同定</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>杉 拓磨・森 郁恵</strong><br>（名古屋大学大学院理学研究科 生命理学専攻分子神経生物学グループ）<br>email：<a href="mailto:t.sugi@hs3.ecs.kyoto-u.ac.jp">杉 拓磨</a>，<a href="mailto:m46920a@nucc.cc.nagoya-u.ac.jp">森 郁恵</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2011.115">10.7875/first.author.2011.115</a><br><div class="reference"><br><span class="ti">Regulation of behavioral plasticity by systemic temperature signaling in <em>Caenorhabditis elegans</em>.</span><br><span class="au">Takuma Sugi, Yukuo Nishida, Ikue Mori</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/21706021" target="_blank"><em>Nature Neuroscience</em>, <strong>14</strong>, 984-992 (2011)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　動物が環境からの刺激を記憶し，行動を変化させる分子機構の解明は，神経科学分野におけるきわめて重要な課題である．線虫<em>Caenorhabditis elegans</em>は一定の温度で飼育されるとその飼育温度を快適な温度として記憶するため，温度勾配のうえにおくと過去の飼育温度へむかうという習性を示す．この温度走性行動は温度の受容と記憶の分子機構を解明するためのすぐれたモデル系であることが知られる．今回，筆者らは，温度記憶が形成される過程をゲノムワイドなマイクロアレイ解析，分子遺伝学的な手法とイメージング技術により解析した．その結果，<em>C</em>. <em>elegans</em>は飼育温度を記憶する際に，転写因子であるHSF-1を介して周囲の温度を全身で受容していることを見い出した．さらに，この温度の受容は遺伝子の発現変化をひき起こし，その結果，温度シグナルは女性ホルモンであるエストロゲンを介して神経回路の温度感知ニューロンに記憶として蓄積されることが示された．この研究から，温度記憶が形成される際の分子機構の一端が明らかになったものと考えられる．<br/><br/><h2>はじめに</h2><br/>　線虫<em>C</em>. <em>elegans</em>は302個のニューロンからなる神経系をもち，温度走性とよばれる行動を行う<a href="#R1"><sup>1)</sup></a>．たとえば，23℃で飼育された<em>C</em>. <em>elegans</em>は餌のない17℃から23℃までの温度勾配のうえにおかれた場合，1時間後には23℃付近へと移動する（<a href="#F1">図1</a>）．さらに，23℃を記憶していた<em>C</em>. <em>elegans</em>を新たな温度である17℃で飼育すると，約4時間で新たな温度17℃の記憶を獲得し，温度勾配のうえで17℃付近へと移動するようになる<a href="#R2"><sup>2-4)</sup></a>．また，筆者らの過去のレーザーによるニューロンの破壊実験から，温度走性行動に必要なニューロンが明らかにされており，温度走性行動はきわめてシンプルな神経回路を基盤とすることが知られていた<a href="#R5"><sup>5)</sup></a>．これらのことから，<em>C</em>. <em>elegans</em>の温度走性行動は温度の受容と記憶の分子機構を解析することに適したモデル系と考えられている．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　線虫<em>C</em>. <em>elegans</em>の温度走性行動</strong><br/><em>C</em>. <em>elegans</em>は一定の温度（ここでは，23℃）で飼育されたのち温度勾配のある環境におかれると，1時間後には飼育された温度の付近に移動するという行動をとる．そのため，この行動は温度の感知と記憶のしくみの解明のすぐれたモデル系と考えられる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mori-Nature-Neuroscience-11.7.27-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　線虫<em>C</em>. <em>elegans</em>の温度走性行動" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mori-Nature-Neuroscience-11.7.27-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mori-Nature-Neuroscience-11.7.27-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　記憶の形成の分子機構については，これまでの哺乳類からショウジョウバエ，アメフラシをモデル系とした研究により遺伝子発現の調節がきわめて重要であることが知られている<a href="#R6"><sup>6)</sup></a>．しかし，記憶の実体を担うタンパク質についてはいまだ不明な点も多い．今回，筆者らは，温度走性行動において本質的なはたらきをするタンパク質を同定するため，23℃を記憶していた<em>C</em>. <em>elegans</em>が新たな飼育温度17℃の記憶を獲得する前後でゲノムワイドなマイクロアレイ解析を行い，温度記憶の形成過程でどのような遺伝子の発現が変化するのかを解析した．<br/><br/><h2>1．転写因子HSF-1は<em>C</em>. <em>elegans</em>の全身のさまざまな組織において温度を感知する</h2><br/>　17℃を記憶する前後で発現の変化する遺伝子を調べた結果，79個の遺伝子に有意な発現の変化がみられた．これらの遺伝子を精査した結果，一過性の熱ショックに反応して発現の変化することが知られる熱ショックタンパク質の遺伝子が複数，含まれていた．このことから，熱ショックタンパク質の遺伝子の上流で転写因子としてその発現を調節することの知られるHSF-1（heat shock factor 1）に着目した<a href="#R7"><sup>7)</sup></a>．HSF-1はその名のとおり，飼育温度から30℃～35℃の有害な温度域への一過的な温度ジャンプにより構造変化を起こし直接に反応することが知られる．しかしながら，マイクロアレイ解析の結果と<em>C</em>. <em>elegans</em>の飼育温度域（15℃～25℃）をあわせて考えると，HSF-1は飼育温度域における温度の変化にも反応するのではないかと考えられた．このことをリアルタイムPCR法やレポーターGFPの蛍光観察により確認した結果，予想どおり，HSF-1は飼育温度域での温度の変化を直接に感知していることが示された．そこで，HSF-1の機能低下型変異体の温度走性行動を確認したところ，飼育された温度に移動しないという異常がみられた．さらに驚くべきことに，HSF-1を神経系だけでなく筋肉や腸に発現させた場合にもこの異常は正常に回復した．このことは，HSF-1が全身のさまざまな組織において温度を感知していることを示していた．<br/><br/><h2>2．HSF-1による温度シグナルは温度受容ニューロンAFDの活性を調節する</h2><br/>　では，温度記憶の過程でHSF-1が温度の変化に反応して生み出したシグナルはどのように温度走性を変化させるのだろうか？　この疑問に答え，HSF-1と温度走性をつかさどる神経回路との関係性を調べる目的で，神経回路内のニューロンの活動測定を行った．ニューロンの活動はCa<sup>2+</sup>の流入と相関のあることから，HSF-1機能低下型変異体の個々のニューロンにCa<sup>2+</sup>インジケーターであるカメレオンを発現させ，イメージング実験を行った．その結果，野生株と比べHSF-1機能低下型変異体では，温度受容ニューロンとして知られるAFDニューロンの温度上昇に対する神経活性の大きさや反応温度域が異常であることが示された．このことから，HSF-1による温度シグナルはAFDニューロンを細胞非自律的に制御している可能性が示された．<br/><br/><h2>3．エストロゲンシグナル伝達経路はHSF-1による温度感知の下流で温度受容ニューロンAFDを制御する</h2><br/>　筆者らの過去の生理学的な実験から，温度受容ニューロンAFDは温度を感知するだけでなく，感知した温度の記憶もしている可能性が示されていた<a href="#R8"><sup>8)</sup></a>．さらに，マイクロアレイ解析においてHSF-1の下流で発現の変化していた遺伝子のなかに，女性ホルモンであるエストロゲンの合成にかかわる遺伝子が含まれていた．また，近年の研究から，エストロゲン受容体をノックアウトしたマウスは空間の位置記憶に異常を示すことが報告されており<a href="#R9"><sup>9)</sup></a>，エストロゲンシグナル伝達経路が記憶にかかわる可能性が知られていたことから，筆者らは，<em>C</em>. <em>elegans</em>へのエストロゲンの投与実験を行った．その結果，エストロゲンはAFDニューロンに作用し<em>C</em>. <em>elegans</em>の温度の記憶を変化させる効果がみられた．さらに，<em>C</em>. <em>elegans</em>のエストロゲン受容体様タンパク質NHR-69を欠損した変異体とHSF-1の機能低下型変異体とを用い，この2つの遺伝学的な上下関係について解析を行った．その結果，NHR-69はHSF-1の温度シグナルの下流でAFDニューロンにおいて機能している可能性が示された．さらに，Ca<sup>2+</sup>イメージングによるAFDニューロンの神経活動の測定から，NHR-69はAFDニューロンの神経活動に大きく影響を及ぼすことが示された．<br/>　以上の結果から，1）<em>C</em>. <em>elegans</em>は温度記憶の獲得の過程で，熱ショックタンパク質の遺伝子の上流ではたらく転写因子HSF-1を介して全身で周囲の温度を感じ，その感知はエストロゲンの合成を介して神経回路においてAFDニューロンの記憶の変化を導くこと，2）<em>C</em>. <em>elegans</em>は温度の勾配がある土壌において0.01℃/cmの微小な温度の違いを感知できるAFDニューロンを使い，獲得した記憶と照合しながら目的の温度へとむかうという可能性が考えられた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　転写因子HSF-1による全身性の温度の感知と神経回路における温度記憶の制御</strong><br/>温度記憶の過程において，熱ショックタンパク質の遺伝子の上流ではたらく転写因子HSF-1は<em>C</em>. <em>elegans</em>の全身のさまざまな細胞で機能し温度を感知する．その温度の感知は遺伝子発現の変化をひき起こし，その結果，温度シグナルはエストロゲンをつうじて神経回路において温度受容ニューロンAFDの記憶の変化を導く．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mori-Nature-Neuroscience-11.7.27-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　転写因子HSF-1による全身性の温度の感知と神経回路における温度記憶の制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mori-Nature-Neuroscience-11.7.27-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Mori-Nature-Neuroscience-11.7.27-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　この研究から，<em>C</em>. <em>elegans</em>の温度記憶の過程にひそむ分子機構の一端を明らかにすることができた．これまで，神経科学分野では“環境刺激は感覚ニューロンの膜タンパク質により受容される”というのが一般的な概念であった．しかし，この論文により，“感覚ニューロンだけでなく，非神経系の体細胞も温度を受容し，記憶の変化とそれにともなう行動の変化をひき起こす”という新たな概念がもたらされた．熱ショックタンパク質やエストロゲン受容体はヒトまで高度に保存されたタンパク質であることから，今回，発見された分子機構と同様のしくみが哺乳類にも備わっている可能性がある．今後の展望としては，温度記憶がどのように神経回路において成立し，維持されるのかを明らかにすることが必要不可欠である．最近，筆者らは，別の論文において，記憶を担う代表的な転写因子CREBの<em>C</em>. <em>elegans</em>におけるオルソログの機能する細胞を探索した結果，CREBのオルソログはたったひとつ，AFDニューロンでのみ機能することを見い出した<a href="#R10"><sup>10)</sup></a>．つまり，<em>C</em>. <em>elegans</em>のすべてのニューロンのなかでも，AFDニューロンはCREBを介した温度記憶をもつ唯一のニューロンであることが示されたのである．今後，HSF-1により受容された温度情報がAFDニューロンにおいてどのようにCREBを介し記憶として成立し，維持されるのかについて解明が期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Mori, I., Sasakura, H. & Kuhara, A.</span>: <span class="ti">Worm thermotaxis: a model system for analyzing thermosensation and neural plasticity.</span> <span class='so'>Curr. Opin. Neurobiol., 17, 712-719 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18242074" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Hedgecock, E. M. & Russell, R. L.</span>: <span class="ti">Normal and mutant thermotaxis in the nematode <em>Caenorhabditis elegans</em>.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 72, 4061-4065 (1975)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/1060088" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Mohri, A., Kodama, E., Kimura, K. D. et al.</span>: <span class="ti">Genetic control of temperature preference in the nematode <em>Caenorhabditis elegans</em>.</span> <span class='so'>Genetics, 169, 1437-1450 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15654086" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Ito, H., Inada, H. & Mori, I.</span>: <span class="ti">Quantitative analysis of thermotaxis in the nematode <em>Caenorhabditis elegans</em>.</span> <span class='so'>J. Neurosci. Methods, 154, 45-52 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16417923" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Mori, I. & Ohshima, Y.</span>: <span class="ti">Neural regulation of thermotaxis in <em>Caenorhabditis elegans</em>.</span> <span class='so'>Nature, 376, 344-348 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7630402" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Kandel, E. R.</span>: <span class="ti">The molecular biology of memory storage: a dialogue between genes and synapses.</span> <span class='so'>Science, 294, 1030-1038 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11691980" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Akerfelt, M., Morimoto, R. I. & Sistonen, L.</span>: <span class="ti">Heat shock factors: integrators of cell stress, development and lifespan.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 11, 545-555 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20628411" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Kimura, K. D., Miyawaki, A., Matsumoto, K. et al.</span>: <span class="ti">The <em>C</em>. <em>elegans</em> thermosensory neuron AFD responds to warming.</span> <span class='so'>Curr. Biol., 14, 1291-1295 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15268861" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Liu, F., Day, M., Muniz, L. C. et al.</span>: <span class="ti">Activation of estrogen receptor-β regulates hippocampal synaptic plasticity and improves memory.</span> <span class='so'>Nat. Neurosci., 11, 334-343 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18297067" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Nishida, Y., Sugi, T., Nonomura, M. et al.</span>: <span class="ti">Identification of the AFD neuron as the site of action of the CREB protein in <em>Caenorhabditis elegans</em> thermotaxis.</span> <span class='so'>EMBO Rep., 12, 855-862 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21738224" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">杉  拓磨（Takuma Sugi）</span><br>略歴：2007年 京都大学大学院生命科学研究科博士後期課程 修了，同年 名古屋大学大学院理学研究科 研究員を経て，2011年より京都大学大学院工学研究科 研究員．<br>研究テーマ：記憶を制御する核内リモデリング機構の解析．<br>抱負：現在，<em>C</em>. <em>elegans</em>の振動の記憶をモデル系に，エピジェネティックな遺伝子発現の調節機構の解析を行っており，記憶の実体をとらえることを目標にしています．<br><br><strong>森  郁恵（Ikue Mori）</strong><br>名古屋大学大学院理学研究科 教授．<br>研究室URL：<a href="http://elegans.bio.nagoya-u.ac.jp/~lab/japanese/index.html" target="_blank">http://elegans.bio.nagoya-u.ac.jp/~lab/japanese/index.html</a><br></div><br>© 2011 杉 拓磨・森 郁恵 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

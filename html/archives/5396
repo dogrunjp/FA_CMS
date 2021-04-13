@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Helicobacter pyloriに由来するがんタンパク質CagAの立体構造-機能解析から明らかにされた病原シグナルの増強機構 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1><em>Helicobacter pylori</em>に由来するがんタンパク質CagAの立体構造-機能解析から明らかにされた病原シグナルの増強機構</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>林 剛瑠<sup>1</sup>・千田俊哉<sup>2</sup>・畠山昌則<sup>1</sup></strong><br>（<sup>1</sup>東京大学大学院医学系研究科 微生物学教室，<sup>2</sup>産業技術総合研究所バイオメディシナル情報研究センター タンパク質構造情報解析チーム）<br>email：<a href="mailto:thaya@m.u-tokyo.ac.jp">林 剛瑠</a>，<a href="mailto:toshiya-senda@aist.go.jp">千田俊哉</a>，<a href="mailto:mhata@m.u-tokyo.ac.jp">畠山昌則</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.098">10.7875/first.author.2012.098</a><br><div class="reference"><br><span class="ti">Tertiary structure-function analysis reveals the pathogenic signaling potentiation mechanism of <em>Helicobacter pylori</em> oncogenic effector CagA.</span><br><span class="au">Takeru Hayashi, Miki Senda, Hiroko Morohashi, Hideaki Higashi, Masafumi Horio, Yui Kashiba, Lisa Nagase, Daisuke Sasaya, Tomohiro Shimizu, Nagarajan Venugopalan, Hiroyuki Kumeta, Nobuo N. Noda, Fuyuhiko Inagaki, Toshiya Senda, Masanori Hatakeyama</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22817985" target="_blank"><em>Cell Host & Microbe</em>, <strong>12</strong>, 20-33 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　<em>Helicobacter pylori</em>の産生するCagAは胃がんの発症に深く関与することが知られている．CagAはヒトの胃上皮細胞に侵入し，がんタンパク質SHP2や細胞極性制御タンパク質PAR1など，さまざまなタンパク質を標的として細胞内シグナルを脱制御する．これまで，CagAの分子細胞生物学的な解析が精力的に進められる一方，その構造生物学的な知見はまったく得られていなかった．筆者らは，CagAが病原活性を発揮する構造基盤を明らかにすることを目的とし，その立体構造解析を行った．その結果，CagAのN末端側の約70％に相当する領域の結晶構造を決定し，C末端側の約30％は天然変性領域であることを見い出した．CagAのN末端側の領域はドメインI～ドメインIIIより構成され，ドメインIIはCagAの細胞膜への局在に必須であった．ドメインIIIはC末端側の領域と分子内において相互作用し，この相互作用の形成はCagAと細胞内における多様な標的タンパク質との複合体の形成を促進することにより，CagAの病原活性を制御する重要な分子機構であることが明らかになった．<br/><br/><h2>はじめに</h2><br/>　胃がんは全世界における部位別のがん死亡者数の第2位をしめ，毎年，約70万人がこの悪性腫瘍により命を落としていると累計されている．なかでも，わが国は胃がんの最多発国であり，毎年，5万人が胃がんにより死亡している．<em>Helicobacter pylori</em>（ピロリ菌）の慢性感染は消化性潰瘍，萎縮性胃炎などさまざまな胃粘膜の病変の発症に関連し，とくに，<em>cagA</em>遺伝子陽性のピロリ菌の感染は胃がんの発症と強く相関することから，近年，胃がんの発症におけるCagAタンパク質の役割に大きな注目があつまっている．くわえて，トランスジェニックマウスを用いた解析からCagAはマウスにおいて単独で発がん活性をもつことが示されており<a href="#R1"><sup>1)</sup></a>，細菌に由来するがんタンパク質として認知されている．CagAはピロリ菌の菌体において産生されたのち，ピロリ菌に由来するIV型分泌機構を介してヒトの細胞に侵入し細胞膜の内面に局在する．そののち，CagAはC末端領域に複数個くり返し存在するEPIYA（Glu-Pro-Ile-Tyr-Ala）配列ならびにCM（CagA-multimerization）配列（<a href="#F1">図1</a>）を介して，がんタンパク質SHP2や細胞極性制御タンパク質PAR1を含む多彩な細胞内における標的タンパク質と相互作用し，異常な細胞増殖シグナルの生成や上皮細胞の極性の破壊をひき起こす<a href="#R2"><sup>2-4)</sup></a>．また，CagA-PAR1複合体の形成はCagAとSHP2との相互作用を安定化することによりSHP2の機能的な脱制御を促進する<a href="#R3"><sup>3,5)</sup></a>．このようなCagAの発がん活性を理解するうえで，その立体構造の解明はきわめて重要な意義をもつ．しかしながら，CagAは分子量が大きい（約130 kDa）うえタンパク質分解をうけやすく，アミノ酸配列の比較ではほかの既知のタンパク質との相同性がまったくみられないことから，その立体構造の解析は困難をきわめていた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　ピロリ菌CagAのドメイン構造</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatakeyama-Cell-Host-Microbe-12.7.18-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　ピロリ菌CagAのドメイン構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatakeyama-Cell-Host-Microbe-12.7.18-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatakeyama-Cell-Host-Microbe-12.7.18-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．ピロリ菌CagAのドメイン構造の推定と生物物理化学的な解析</h2><br/>　この研究の開始当初は，1186残基からなる全長のCagA（135 kDa）の結晶構造の解析を念頭にプロジェクトを進めていたが，その結晶はまったく得られなかった．そこで，精製したCagAを用いてプロテアーゼ限定分解解析を行い，N末端側の約70％に相当する1～876残基領域CagA(1-876) と，EPIYA配列およびCM配列を含むC末端側の約30％に相当する877～1186残基領域CagA(877-1186) を，それぞれCagAのおもなドメインと推定した（<a href="#F1">図1</a>）．さらに，CagA(1-876) を用いて，再度，プロテアーゼ限定分解解析を行い，N末端の1～260残基領域CagA(1-260) と261～829残基領域CagA(261-829) をサブドメインと推定した．<br/>　この結果をもとに，組換えCagA(1-876) 断片ならびにCagA(877-1186) 断片を精製し，構造解析に用いる精製タンパク質としての妥当性を評価した．AGSヒト胃上皮細胞においてCagAを発現させるとSHP2の異常な活性化に依存して細胞が伸長し，ハミングバード表現型とよばれる特徴的な細胞形態の変化が誘導されることが知られている．この活性はCagAのC末端側の領域により担われる．そこで，マイクロインジェクション法により精製CagA断片をAGS細胞に導入したところ，精製CagA(877-1186) 断片はハミングバード誘導活性を保持する一方，精製CagA(1-876) 断片ではその活性はまったくみられなかった．このことから，CagA本来の生物活性を保持したCagA(877-1186) 断片の精製が確認された．この結果をふまえ<sup>1</sup>H-NMR解析を行ったところ，精製CagA(877-1186) は一定の高次構造を形成していないことがわかった．すなわち，CagAのC末端領域はCagAの病原活性を保持しながら，定まった構造を保持しない“天然変性領域”であることが示された．<br/><br/><h2>2．重複配列を介したCagAの分子内におけるN末端領域とC末端領域との相互作用</h2><br/>　CagAとPAR1との相互作用はCagAのもつCM配列に依存し，CM配列をもたないCagA(1-876) はPAR1とは結合しない．しかしながら，このCagA(1-876) をもたないCagA(877-1186) では全長のCagAと比較してPAR1との結合能の有意な低下がみられた．この結果から，C末端領域のもつCagAの病原活性に，N末端領域が間接的になんらかの影響を及ぼしていることが推察された．これまでに，人工的に断片化したCagAのN末端の断片とC末端の断片とを極性化させたMDCKイヌ腎上皮細胞に共発現させると，両方の断片が結合し共局在することが報告されている<a href="#R6"><sup>6)</sup></a>．今回，試験管内での結合実験から，このN末端領域とC末端領域との相互作用は，異なる2つのCagA分子間での相互作用ではなく，1つのCagA分子の全長において形成される分子内での相互作用であることを見い出した．<br/>　そこで，分子内におけるN末端領域とC末端領域との相互作用がCagAの活性に影響を及ぼすと考え，まず，この分子内相互作用の責任領域を探索した．欠失変異体を用いた結合解析の結果，CagAのN末端側の残基554～617と残基708～821，C末端側の残基998～1038が分子内におけるN末端領域とC末端領域との相互作用に必要であることがわかった．つぎに，全長CagAから残基998～1038を内部欠失させた変異CagAをAGS細胞に導入したところ，この変異CagAでは野生型と比較してSHP2結合能ならびにハミングバード誘導活性が顕著に低下していた．残基998～1038はSHP2やPAR1の直接の結合部位であるEPIYA配列やCM配列を含まないため，この領域の内部欠失によるCagAの活性低下は分子内におけるN末端領域とC末端領域との相互作用の欠損によるものと考えられた．さらに興味深いことに，N末端領域とC末端領域の相互作用の責任領域において，残基782～820と残基998～1038の配列はアミノ酸配列の比較で54％，塩基配列の比較では70％という非常に高い相同性を保持しており，CagAの進化の過程で分子内（遺伝子内）での重複が生じたことにより生まれた配列と考えられた．以上をふまえ，残基782～820ならびに残基998～1038をそれぞれN末端結合配列ならびにC末端結合配列と命名した（<a href="#F1">図1</a>）．互いに相同性を示すN末端結合配列とC末端結合配列を介した分子内におけるN末端領域とC末端領域との相互作用により，CagAの病原活性が制御されていることが明らかになった．<br/><br/><h2>3．CagAのN末端領域の構造決定</h2><br/>　プロテアーゼ限定分解解析から推定したドメイン構造をもとに，CagAのN末端領域のX線結晶構造解析を行った．CagA(261-829) ならびにCagA(1-876) の結晶は分解能が非常に低く，当初，得られた電子密度からのアミノ酸残基の帰属はきわめて困難であった．そこで，おもにロイシン残基からメチオニン残基への1アミノ酸置換をのべ41箇所にわたり導入した変異体を用いてこれをセレノメチオニン化し，そのうち25箇所のアミノ酸置換部位のセレン原子を検出することにより，立体構造における残基マッピングを行った．また，この過程と並行して，結晶の最適なソーキングの条件をスクリーニングした結果，トレハロースとエリスリトールを2段階で組み合わせることにより結晶の分解能の改善に成功した．最終的に，全体のアミノ酸残基の帰属に成功し，CagA(1-876)（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=4dvy&amp;PAGEID=Summary" target="_blank">4DVY</a>）とCagA(261-829)（PDB ID：<a href="http://service.pdbj.org/mine/Detail2?PDBID=4dvz&amp;PAGEID=Summary" target="_blank">4DVZ</a>）の結晶構造を決定した．CagAのN末端領域はドメインI～ドメインIIIの異なる3つのドメインから構成され，まったく新規のフォールディングをとっていた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　CagA(1-876) の結晶構造</strong><br/>ドメインI（残基24～221）を青色，ドメインII（残基303～644）を黄色，ドメインIII（残基645～824）を赤色で示した．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatakeyama-Cell-Host-Microbe-12.7.18-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　CagA(1-876) の結晶構造" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatakeyama-Cell-Host-Microbe-12.7.18-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatakeyama-Cell-Host-Microbe-12.7.18-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>4．分子内におけるN末端領域とC末端領域との相互作用によるCagAの活性制御とその構造基盤</h2><br/>　CagA(1-876) ならびにCagA(261-829) の結晶はそれぞれ<em>P</em>4<sub>1</sub>2<sub>1</sub>2ならびに<em>P</em>3<sub>1</sub>21という異なる空間群であったにもかかわらず，両方とも，結晶において隣接した分子のあいだの2本のαヘリックスが相互作用することで同様の4ヘリックス束を形成していた．この結果から，CagAがホモ二量体を形成する可能性が考えられたが，静的光散乱解析および試験管内での相互作用解析では溶液において精製CagAは単量体として存在していることが示され，CagAの二量体化は結晶のパッキングによるものと考えられた．一方，興味深いことに，結晶における分子間4ヘリックス束の形成領域は，CagAの分子内におけるN末端領域とC末端領域との相互作用の責任領域として同定したN末端結合配列と完全に重複していた．このN末端結合配列どうしの相互作用の表面はおのおの9つの疎水性残基から構成されており，これらの疎水性残基は相同配列であるC末端結合配列においても保存されていた．このことから，結晶においてN末端結合配列どうしの相互作用により形成される4ヘリックス束は，全長CagAにおけるN末端結合配列とC末端結合配列との相互作用を模倣した構造であることが推察された．すなわち，天然変性領域に位置するC末端結合配列は，CagA分子内においてN末端結合配列と相互作用することにより変性状態からαヘリックス構造への構造変化が誘起されることが予想された．<br/>　この仮説を検証するため，N末端結合配列とC末端結合配列との相互作用の中心に位置すると考えられる2つの疎水性残基Leu792およびLeu812をアルギニン残基に置換したところこの相互作用は失われた．この変異CagAではPAR1との相互作用が不安定化しSHP2との結合能が低下した結果，ハミングバード誘導活性が低下した．さらに，円二色性スペクトル解析から，全長CagAにおいてN末端領域にあるLeu812をアルギニン残基と置換することによりC末端領域におけるαヘリックスの含有量が顕著に減少することが明らかになった．これは，CagAの分子内におけるN末端結合配列とC末端結合配列との相互作用が阻害されたことにより，C末端領域のαヘリックスの含量が低下した結果と考えられた．<br/>　以上をまとめると，N末端結合配列とC末端結合配列とを介したCagAの分子内相互作用は，天然変性構造をとるCagAのC末端領域に構造的な制約をくわえ，C末端領域の投げ輪（ラリアート）様の構造の形成によるCagA-PAR1-SHP2複合体の安定化をとおし，CagAの病原活性に大きな影響をあたえているものと考えられた（<a href="#F3">図3</a>）．<br/><br/><a name="F3"></a><div id="fig3-caption-text" style="display: none;"><strong>図3　ピロリ菌のCagAの立体構造にもとづく機能制御の機構</strong><br/>ピロリ菌の菌体において産生されたCagAはヒトの胃上皮細胞に注入され，塩基性パッチとホスファチジルセリンとの相互作用を介して細胞膜の内面に局在する．天然変性構造をとるCagAのC末端領域にあるC末端結合配列は，ドメインIIIのN末端結合配列と分子内において相互作用することによりαヘリックス構造への折りたたみが誘導され，C末端領域の全体として投げ輪（ラリアート）様の構造が形成される．このラリアート様構造の形成により，CagAはPAR1およびSHP2と効率よく相互作用し，細胞内シグナルの脱制御が促進されるものと考えられる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatakeyama-Cell-Host-Microbe-12.7.18-Fig.3.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure3" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図3　ピロリ菌のCagAの立体構造にもとづく機能制御の機構" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatakeyama-Cell-Host-Microbe-12.7.18-Fig.3.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hatakeyama-Cell-Host-Microbe-12.7.18-Fig.3.jpg" alt="figure3" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig3-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig3-caption').innerHTML = document.getElementById('fig3-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>5．塩基性パッチを介したCagAの細胞膜への局在</h2><br/>　筆者らの研究室における先行研究により，CagAはN末端領域にあるArg-X-Arg（R-X-R）モチーフを介して細胞膜に存在するホスファチジルセリンと結合することにより，CagAの活性を発揮する場である細胞膜の内面に付着することが示されている<a href="#R7"><sup>7)</sup></a>．CagAの結晶構造から，R-X-Rモチーフとその周辺領域は塩基性残基に富んだ局所面（塩基性パッチ）を形成していることがわかった．これらの塩基性残基をアラニン残基に置換した変異CagAではホスファチジルセリンとの結合能が低下し細胞膜への局在が失われたことから，CagAの細胞膜への局在にはR-X-Rモチーフを含む塩基性パッチのもつ正味の負電荷が必要であることが示唆された．また，CagAの直接的な生物活性を担うC末端領域は，立体構造において塩基性パッチの反対側に位置していた．したがって，塩基性パッチを介したCagAの細胞膜への結合において，CagAは多様な標的タンパク質との相互作用に適した分子配向をとっているものと考えられた（<a href="#F3">図3</a>）．<br/><br/><h2>おわりに</h2><br/>　この研究は，ピロリ菌のCagAの立体構造を包括的に明らかにしたはじめてのものであり，CagAはN末端側にある高次構造の形成領域とC末端側にある天然変性領域から構成されていることを示した．近年，天然変性領域はその構造的な柔軟性から多種多様な分子と相互作用しうる領域として注目をあびている<a href="#R8"><sup>8,9)</sup></a>．実際に，CagAのC末端領域は細胞内のさまざまな標的タンパク質との相互作用を直接に媒介するEPIYA配列やCM配列を含んでおり，C末端領域の柔軟性は足場あるいはハブタンパク質としてはたらくCagAの重要な構造基盤であると考えられた．これまで見い出されてきたCagAの生物活性の多くは，そのC末端領域に依存した標的タンパク質との相互作用によるものであった．今回，筆者らは，分子内におけるN末端領域とC末端領域との相互作用がCagAの病原活性を制御していることを示し，細胞膜への結合を含め，CagAのN末端領域がC末端領域の機能制御ドメインとしてはたらくことを明らかにした．さらに，結晶構造解析ならびに生化学的な解析から，N末端結合配列とC末端結合配列との相互作用によりCagAの病原活性が促進される分子機構，ならびに，CagAが活性を発揮する場となる細胞膜への局在の構造基盤を示した（<a href="#F3">図3</a>）．最近の研究から，CagAのN末端領域を介し，がん抑制タンパク質であるRUNX3やp53の脱制御がひき起こされること<a href="#R10"><sup>10,11)</sup></a>，ならびに，インテグリンβ1と相互作用してCagAの細胞内への移行にかかわること<a href="#R12"><sup>12)</sup></a> が示唆されており，C末端領域にとどまらずCagAの全長にわたりその多彩な機能が明らかにされつつある．この研究で得られたCagAの構造的な知見は，ピロリ菌のCagAによる多様な細胞内シグナルの脱制御の機構への理解を深めるばかりでなく，発症機構および予防から治療にいたる今後の胃がん研究の基盤情報となることが期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Ohnishi, N., Yuasa, H., Tanaka, S. et al.</span>: <span class="ti">Transgenic expression of <em>Helicobacter pylori</em> CagA induces gastrointestinal and hematopoietic neoplasms in mouse.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 105, 1003-1008 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18192401" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Higashi, H., Tsutsumi, R., Muto, S. et al.</span>: <span class="ti">SHP-2 tyrosine phosphatase as an intracellular target of <em>Helicobacter pylori</em> CagA protein.</span> <span class='so'>Science, 295, 683-686 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11743164" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Saadat, I., Higashi, H., Obuse, C. et al.</span>: <span class="ti"><em>Helicobacter pylori</em> CagA targets PAR1/MARK kinase to disrupt epithelial cell polarity.</span> <span class='so'>Nature, 447, 330-333 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17507984" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Backert, S., Tegtmeyer, N., Selbach, S.</span>: <span class="ti">The versatility of <em>Helicobacter pylori</em> CagA effector protein functions: The master key hypothesis.</span> <span class='so'>Helicobacter, 15, 163-176 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20557357" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Nagase, L., Murata-Kamiya, N. & Hatakeyama, M.</span>: <span class="ti">Potentiation of <em>Helicobacter pylori</em> CagA protein virulence through homodimerization.</span> <span class='so'>J. Biol. Chem., 286, 33622-33631 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21813645" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Bagnoli, F., Buti, L., Tompkins, L. et al.</span>: <span class="ti"><em>Helicobacter pylori</em> CagA induces a transition from polarized to invasive phenotypes in MDCK cells.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 201, 16339-16344 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16258069" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Murata-Kamiya, N., Kikuchi, K., Hayashi, T. et al.</span>: <span class="ti"><em>Helicobacter pylori</em> exploits host membrane phosphatidylserine for delivery, localization, and pathophysiological action of the CagA oncoprotein.</span> <span class='so'>Cell Host Microbe, 7, 399-411 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20478541" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Dunker, A. K., Silman, I., Uversky, V. N. et al.</span>: <span class="ti">Function and structure of inherently disordered proteins.</span> <span class='so'>Curr. Opin. Struct. Biol., 18, 756-764 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18952168" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Dyson, H. J. & Wright, P. E.</span>: <span class="ti">Intrinsically unstructured proteins and their functions.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 6, 197-208 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15738986" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Tsang, Y. H., Lamb, A., Romero-Gallo, J. et al.</span>: <span class="ti"><em>Helicobacter pylori</em> CagA targets gastric tumor suppressor RUNX3 for proteasome-mediated degradation.</span> <span class='so'>Oncogene, 29, 5643-5650 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20676134" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Buti, L., Spooner, E., Van den Veen, A. G. et al.</span>: <span class="ti"><em>Helicobacter pylori</em> cytotoxin-associated gene A (CagA) subverts the apoptosis-stimulating protein of p53 (ASPP2) tumor suppressor pathway of the host.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 108, 9238-9243 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21562218" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Jimenez-Soto, L. F., Kutter, S., Sewald, X. et al.</span>: <span class="ti"><em>Helicobacter pylori</em> type IV secretion apparatus exploits β1 integrin in a novel RGD-independent manner.</span> <span class='so'>PLoS Pathog., 5, e1000684 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19997503" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">林  剛瑠（Takeru Hayashi）</span><br>略歴：北海道大学大学院理学院博士課程 在学中．<br>研究テーマ：ピロリ菌のCagAを起点とした胃がんの発がん機構における分子構造基盤．<br><br><strong>千田 俊哉（Toshiya Senda）</strong><br>産業技術総合研究所バイオメディシナル情報研究センター 主任研究員．<br><br><strong>畠山 昌則（Masanori Hatakeyama）</strong><br>東京大学大学院医学系研究科 教授．<br>研究室URL：<a href="http://www.microbiol.m.u-tokyo.ac.jp/" target="_blank">http://www.microbiol.m.u-tokyo.ac.jp</a><br></div><br>© 2012 林 剛瑠・千田俊哉・畠山昌則 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

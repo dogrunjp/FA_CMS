@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> R-Rasによる腫瘍内血管の機能および構造の制御 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>R-Rasによる腫瘍内血管の機能および構造の制御</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>沢田淳子・小松正信</strong><br>（米国Sanford-Burnham Medical Research Institute at Lake Nona）<br>email：<a href="mailto:jsawada@sanfordburnham.org">沢田淳子</a>，<a href="mailto:mkomatsu@sanfordburnham.org">小松正信</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.110">10.7875/first.author.2012.110</a><br><div class="reference"><br><span class="ti">Small GTPase R-Ras regulates integrity and functionality of tumor blood vessels.</span><br><span class="au">Junko Sawada, Takeo Urakami, Fangfei Li, Akane Urakami, Weiquan Zhu, Minoru Fukuda, Dean Y. Li, Erkki Ruoslahti, Masanobu Komatsu</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22897853" target="_blank"><em>Cancer Cell</em>, <strong>22</strong>, 235-249 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　腫瘍においては血管の構築が過剰に誘導されるが，それらの慢性的かつ無秩序に誘導された血管は機能および構造が不完全であり，腫瘍微小環境における血液還流の減少，血液の血管外への漏出，酸素や栄養分の送達の低下が顕著である．これら血管の機能異常は抗がん剤の腫瘍へのデリバリーを低下させるとともに，腫瘍微小環境における低酸素状態に起因する放射線治療の効果低減をひき起こすなど，腫瘍の治療を困難にする大きな原因のひとつである．筆者らは，低分子量Gタンパク質R-Rasが腫瘍において機能的な血管の構築に重要であることを発見した．R-Rasノックアウトマウスでは腫瘍において異常な血管が顕著に増加する．逆に，新生あるいは増生した血管にR-Rasの発現を誘導すると，血液還流の改善，血液の漏出の低下，血管のバリア機能の改善，血管周皮細胞の血管壁への結合の増加がみられた．R-Rasは腫瘍に存在する血管の機能および構造の改善を目的とした治療の重要な標的となることが示唆された．<br/><br/><h2>はじめに</h2><br/>　腫瘍に存在する血管は構造的にも機能的にも異常であることは古くからよく知られている<a href="#R1"><sup>1,2)</sup></a>．VEGF（vascular endothelial growth factor，血管内皮細胞増殖因子）をはじめとする血管の増殖因子は腫瘍細胞から慢性的かつ大量に産生され，血管の無秩序な新生あるいは増生を誘導する．それら腫瘍に存在する血管の多くは蛇行，拡張，嚢状などの異常な構造をとり，血液の血管外への漏出が顕著である．また，血管周皮細胞は血管の正常な機能において重要な役割をはたすが，その血管壁への結合性が低下する．さらに，これらの機能および構造の異常は腫瘍における血液還流と酸素の送達の低下をもたらし，抗がん剤のデリバリー低下，放射線治療の効果低減の原因ともなり，がんの効果的な治療において大きな障害となっている．VEGFを標的とした臨床治験は，血管の正常化を期待した抗がん剤との併用療法として大きな期待のもとに開始されたが<a href="#R3"><sup>3)</sup></a>，その効果は腫瘍の種類によりまちまちであり，ときには腫瘍の悪性度を増加させてしまうといった結果が報告された<a href="#R4"><sup>4,5)</sup></a>．VEGFを標的とした治療の限界とむずかしさを認識させられるとともに，腫瘍における血管の異常化あるいは正常化の分子機構の解明が最重要な課題とされている．<br/>　低分子量Gタンパク質であるR-Rasは典型的ながん遺伝子であるK-RasやH-Rasのホモログであるが，その機能はまったく異にする．R-Rasは分化した血管平滑細胞，血管内皮細胞，血管周皮細胞に強く発現し，その発現は分化あるいは成熟化の状態を反映しており，未成熟の血管や病的に増生する血管ではほとんど発現していない<a href="#R6"><sup>6)</sup></a>．また，R-Rasは細胞の増殖および遊走性を抑制する古典的な血管新生阻害薬とは異なり，血管内皮細胞の細胞死は誘導せず，それに代わり，アポトーシスを抑制し細胞の生存と血管内皮細胞の静止状態を維持する<a href="#R6"><sup>6)</sup></a>．つまり，R-Rasは血管の成熟や正常な機能の維持に深く関与していることが示唆される．筆者らは，R-Rasが成体における血管の構築とその正常な機能の維持において重要であり，腫瘍に存在する血管ではR-Rasの発現量が慢性的に低下しているため，その機能や構造が損なわれていることを解明した．<br/><br/><h2>1．R-Rasノックアウトマウスは腫瘍において血管の構造および機能の異常を生じる</h2><br/>　R-Rasが腫瘍における血管の構造と機能に関与しているのかどうかを調べるため，R-Rasノックアウトマウスに対し数種類の腫瘍を皮下投与した．成熟した機能的な正常の血管は血管周皮細胞がとりまきその機能に寄与しているが，腫瘍に存在する血管においては血管周皮細胞の包囲は減少する<a href="#R7"><sup>7)</sup></a>．R-Rasノックアウトマウスでは血管周皮細胞の血管壁からの解離が顕著であり，血管周皮細胞の血管壁への接着被覆面は顕著に減少した（<a href="#F1">図1</a>）．さらに，血管基底膜の主要構成タンパク質であるIV型コラーゲンが劇的に減少した．また，R-Rasノックアウトマウスの腫瘍に存在する血管は蛇行，拡張，嚢状などの異常構造が顕著であり，血管内皮細胞どうしの接着に重要な役割をはたすVE-カドヘリンの減少が観察された．血管内皮細胞におけるVEGF受容体2およびαVβ3インテグリンの発現は新生あるいは増殖する異常な血管の形成と相関するが<a href="#R8"><sup>8,9)</sup></a>，R-Rasノックアウトマウスの腫瘍に存在する血管ではそれらの発現は有意に増加した．さらに，血管の機能解析において，R-Rasノックアウトマウスの腫瘍における血液の漏出が顕著であり，機能的な血管が減少していること，これら血管の機能の低下のため低酸素状態が顕著であることを検出した．また，野生型マウスの腫瘍に存在する血管でのR-Rasの発現は機能的な血管に限局していることを確認した．これらの結果は，R-Rasが腫瘍に存在する血管において機能的な血管の形成に重要な役割をはたすことを意味した．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　R-Rasによる腫瘍に存在する血管の正常化</strong><br/>R-Rasを欠損した状況では腫瘍に存在する血管の構造および機能に障害が起こる．これらの血管は血管周皮細胞による支持が乏しく，未成熟かつ脆弱であり，VEGF受容体2とαVβ3インテグリンの発現が高い．これらの構造的な異常は血液の漏出，血液還流の低下，腫瘍における低酸素状態と密接に関連している．反対に，R-Rasの発現増強は，血管周皮細胞による血管の支持を増加させ，VE-カドヘリンを安定化し，血管の構造と血管内皮細胞のバリア機能を改善し血液の還流を改善する．したがって，R-Rasは腫瘍において病的に新生あるいは増生する血管の正常化を促進する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Komatsu-Cancer-Cell-12.8.13-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　R-Rasによる腫瘍に存在する血管の正常化" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Komatsu-Cancer-Cell-12.8.13-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Komatsu-Cancer-Cell-12.8.13-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．ヒトの腫瘍に存在する血管ではR-Rasの発現が減少している</h2><br/>　腫瘍に存在する血管でのR-Rasの発現が実際に減少しているのかどうかを，ヒト乳がんの組織標本マイクロアレイにより調べた．正常な組織標本と比較すると，75％以上の乳がん標本において腫瘍に存在する血管でのR-Rasの発現が半分以下に減少していることがわかった．これらの結果は，実際のヒトの腫瘍組織において血管でのR-Rasの発現の低いことが異常な血管の形成に寄与していることを示唆した．<br/><br/><h2>3．R-Rasの発現増強は血管の構造および機能の異常を改善する</h2><br/>　R-Rasが血管の異常構造の改善をもたらすかどうかをマトリゲルプラグモデルを用いて調べた．マウスの非上皮性悪性腫瘍の細胞間マトリックスの抽出物であるマトリゲルをVEGFとともにマウスに皮下投与すると，マトリゲルプラグにおいて血管の形成が誘導される．R-Rasノックアウトマウスのマトリゲルプラグにレンチウイルスを用いて活性型のR-RasであるR-Ras38Vの発現を誘導すると，血管周皮細胞による血管壁の接着被覆は野生型マウスと同じレベルにまで回復し，血管の構造の正常化が誘導された．また，マトリゲルプラグにおいて新生した血管での還流効率がR-Rasシグナルとともに改善した．これらの結果は，R-Rasが新生あるいは増生した血管の機能を正常化することを意味した．<br/>　R-Rasの末梢血管における発現は血管内皮細胞と血管周皮細胞の両方に認められる．どちらの細胞のR-Ras発現が血管の構造および機能の改善に寄与するのかを調べるため，テトラサイクリン誘導発現系を用いて血管内皮細胞にのみR-Rasを発現させその効果を検討した．その結果，マトリゲルプラグにおいて新生した血管の密度は血管内皮細胞におけるR-Rasの発現により大きく減少し，また，血液の還流効率が有意に改善した．さらに，血管周皮細胞による血管壁への接着被覆が増加した．<br/>　血管周皮細胞におけるR-Rasの効果を調べるため，マウスより血管周皮細胞を初代培養し，<em>in vitro</em>においてR-Rasの遺伝子導入を行い，その血管周皮細胞をマトリゲルとともにR-Rasノックアウトマウスに皮下投与した．R-Rasノックアウトマウスのマトリゲルプラグは血液の過度の漏出のため80％以上が血液色を示すが，R-Rasを発現する血管周皮細胞の投与によりこれが33％にまで改善された．さらに，マトリゲルプラグの組織標本では投与したR-Rasを発現する血管周皮細胞が新生した血管壁に密接に結合していた．<br/>　以上の結果，血管内皮細胞および血管周皮細胞の双方におけるR-Rasの発現が新生した血管の構造の正常化と，それにともなう血管の機能改善を誘導することが証明された（<a href="#F1">図1</a>）．<br/><br/><h2>4．R-RasはVE-カドヘリンのエンドサイトーシスを抑制することにより血管内皮細胞どうしの接着斑を強化する</h2><br/>　R-Rasによる血管の機能および構造の改善における分子機構を調べるため，血管内皮細胞の<em>in vitro</em>培養およびR-Rasの遺伝子導入を行った．活性型R-Rasを血管内皮細胞に発現させてもVE-カドヘリンの発現量に変化は認められなかったが，細胞膜への局在が劇的に増加した．VEGFの刺激によるVE-カドヘリンのエンドサイトーシスは<a href="#R10"><sup>10)</sup></a>，R-Rasの発現により有意に減少した．血管内皮細胞におけるVE-カドヘリンの安定性に重要な役割をはたすVE-カドヘリンのリン酸化をウェスタンブロット法により調べると，658番目および731番目のチロシン残基のリン酸化には変化が認められなかったが，665番目のセリン残基のリン酸化はR-Rasの発現により有意に減少した．さらに，R-Rasの発現を増強した血管内皮細胞のバリア機能は大きく向上した．また，<em>in vivo</em>においてテトラサイクリン誘導発現系によりR-Rasの発現を誘導したマトリゲルプラグにおいて新生した血管では，VEカドヘリンが血管内皮細胞どうしの結合部位において強く検出された．これらの結果は，R-Rasが血管内皮細胞においてVE-カドヘリンのエンドサイトーシスを抑制することにより，細胞間におけるVE-カドヘリンの局在を増加させ，接着斑（adherant junction）の安定化をもたらし血管のバリア機能を改善することを示唆した．<br/><br/><h2>おわりに</h2><br/>　今回の研究により，腫瘍における血管の機能および構造の正常化について重要な分子機構が解明された．R-Rasによる腫瘍に存在する血管の制御は，典型的なVEGF阻害薬とは異なり新生した血管の破壊を誘導せず，代わって，R-Rasはこれら新生した血管を安定化し機能および構造を改善する．それゆえ，R-Rasの血管における発現の増加により抗がん剤のデリバリーの効率向上を強く期待できるとともに，腫瘍微小環境における低酸素状態を回避でき，放射線治療の効果向上が望め，低酸素による悪性度あるいは転移性の高い腫瘍の発生を避けられることが想定される．また，R-Rasは成熟したあるいは機能的な血管のバイオマーカーともなり，ドラッグスクリーニングやその評価系にも応用が可能であろう．R-Rasを介した血管の正常化の分子機構の解明が，今後の腫瘍の研究，治療，診断に貢献することを期待したい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Ferrara, N.</span>: <span class="ti">VEGF and the quest for tumour angiogenesis factors.</span> <span class='so'>Nat. Rev. Cancer, 2, 795-803 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12360282" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Jain, R. K.</span>: <span class="ti">Normalization of tumor vasculature: an emerging concept in antiangiogenic therapy.</span> <span class='so'>Science, 307, 58-62 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15637262" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Carmeliet, P. & Jain, R. K.</span>: <span class="ti">Principles and mechanisms of vessel normalization for cancer and other angiogenic diseases.</span> <span class='so'>Nat. Rev. Drug Discov., 10, 417-427 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21629292" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Ebos, J. M., Lee, C. R., Cruz-Munoz, W. et al.</span>: <span class="ti">Accelerated metastasis after short-term treatment with a potent inhibitor of tumor angiogenesis.</span> <span class='so'>Cancer Cell, 15, 232-239 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19249681" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Paez-Ribes, M., Allen, E., Hudock, J. et al.</span>: <span class="ti">Antiangiogenic therapy elicits malignant progression of tumors to increased local invasion and distant metastasis.</span> <span class='so'>Cancer Cell, 15, 220-231 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19249680" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Komatsu, M. & Ruoslahti, E.</span>: <span class="ti">R-Ras is a global regulator of vascular regeneration that suppresses intimal hyperplasia and tumor angiogenesis.</span> <span class='so'>Nat. Med., 11, 1346-1350 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16286923" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Jain, R. K.</span>: <span class="ti">Molecular regulation of vessel maturation.</span> <span class='so'>Nat. Med., 9, 685-693 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12778167" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Heidenreich, R., Kappel, A. & Breier, G.</span>: <span class="ti">Tumor endothelium-specific transgene expression directed by vascular endothelial growth factor receptor-2 (Flk-1) promoter/enhancer sequences.</span> <span class='so'>Cancer Res., 60, 6142-6147 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11085538" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Kappel, A., Ronicke, V., Damert, A. et al.</span>: <span class="ti">Identification of vascular endothelial growth factor (VEGF) receptor-2 (Flk-1) promoter/enhancer sequences sufficient for angioblast and endothelial cell-specific transcription in transgenic mice.</span> <span class='so'>Blood, 93, 4284-4292 (1999)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/10361126" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Gavard, J. & Gutkind, J. S.</span>: <span class="ti">VEGF controls endothelial-cell permeability by promoting the β-arrestin-dependent endocytosis of VE-cadherin.</span> <span class='so'>Nat. Cell Biol., 8, 1223-1234 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17060906" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">沢田 淳子（Junko Sawada）</span><br>略歴：2005年 岐阜大学大学院連合獣医学研究科 修了，2006年 米国Alabama大学Birmingham校 研究員を経て，2008年より米国Sanford-Burnham Medical Research Institute at Lake Nona研究員．<br><br><strong>小松 正信（Masanobu Komatsu）</strong><br>米国Sanford-Burnham Medical Research Institute at Lake Nonaにてprincipal investigator．<br></div><br>© 2012 沢田淳子・小松正信 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

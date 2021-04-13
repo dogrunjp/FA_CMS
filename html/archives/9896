@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> DNAメチル基転移酵素Dnmt3aを介した代謝と共役するエピジェネティクスは破骨細胞の分化の制御にかかわる : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>DNAメチル基転移酵素Dnmt3aを介した代謝と共役するエピジェネティクスは破骨細胞の分化の制御にかかわる</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>西川恵三・石井 優</strong><br>（大阪大学免疫学フロンティア研究センター 免疫細胞生物学研究室）<br>email：<a href="mailto:nishi@ifrec.osaka-u.ac.jp">西川恵三</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.035">10.7875/first.author.2015.035</a><br><div class="reference"><br><span class="ti">DNA methyltransferase 3a regulates osteoclast differentiation by coupling to an <em>S</em>-adenosylmethionine-producing metabolic pathway.</span><br><span class="au">Keizo Nishikawa, Yoriko Iwamoto, Yasuhiro Kobayashi, Fumiki Katsuoka, Shin-ichi Kawaguchi, Tadayuki Tsujita, Takashi Nakamura, Shigeaki Kato, Masayuki Yamamoto, Hiroshi Takayanagi, Masaru Ishii</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25706873" target="_blank"><em>Nature Medicine</em>, <strong>21</strong>, 281-287 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　細胞をとりまく外部の環境からの刺激は，細胞の生存や増殖にくわえて，細胞分化の制御においても重要な役割を担う．細胞の運命がいつどうやって決定されるのかは幹細胞生物学における重要な課題であり，これまでに，さまざまなサイトカインやホルモンの作用が明らかにされている．骨において恒常性の維持にかかわる破骨細胞においては，ストローマ細胞，骨芽細胞，骨細胞の発現するリガンドRANKLにより増殖および細胞分化が，サイトカインM-CSFにより生存が制御されている．一方で，細胞の周囲の栄養環境も細胞に影響をあたえている．栄養素を取り込み，代謝経路をつうじ産生されるエネルギーやさまざまな代謝産物は，多くの細胞において共通のはたらきをもち細胞の活動において基幹的な役割をもつと考えられている．これとは対照的に，細胞の運命決定にかかわる代謝経路の役割はほとんど明らかにされていない．この研究において，筆者らは，メチオニンの代謝経路の産物である<em>S</em>-アデノシルメチオニンが細胞分化にかかわる新たな生物学的な役割をもつことを明らかにした．さまざまなメチル基転移酵素に対しメチル基の供与体としてはたらく<em>S</em>-アデノシルメチオニンの産生は，破骨細胞の分化にともないいちじるしく亢進した．そして，<em>S</em>-アデノシルメチオニンはDNAメチル基転移酵素Dnmt3aを介した破骨細胞の分化の制御機構に対し律速的に作用していた．このように，代謝経路により細胞におけるエピジェネティクスが巧妙に制御されることにより細胞分化が規定される，新たな分子機構が明らかにされた．<br/><br/><h2>はじめに</h2><br/>　脊椎動物の身体の支持やカルシウムの制御において重要な役割をもつ骨は，古い骨が吸収され新しい骨に置き換わることによりつねに新陳代謝をくり返している<a href="#R1"><sup>1,2)</sup></a>．骨の吸収は単球/マクロファージ系前駆細胞から分化した破骨細胞により担われる．この破骨細胞の形態学的な特徴のひとつとして，ミトコンドリアを豊富にもつことが古くから知られている<a href="#R3"><sup>3)</sup></a>．破骨細胞におけるミトコンドリアの増加は，破骨細胞への分化の過程においてその生合成が転写のレベルで亢進することにより誘導される<a href="#R4"><sup>4)</sup></a>．ミトコンドリアは酸素を消費する好気的な代謝の中心であり，重要なエネルギー産生器官として知られている．実際に，破骨細胞はその分化にともない好気的な代謝が高まる．このような破骨細胞の代謝様式の変化のもつ意義は，破骨細胞の骨吸収の機能にともなうエネルギー需要の高まりに適応する機構であると推測されているだけで，じつは，ほとんど明らかにされていなかった．<br/><br/><h2>1．破骨細胞における好気的な代謝のもつ新たな役割</h2><br/>　破骨細胞への分化にともない誘導される細胞における代謝状態の変化を詳細に明らかにするため，キャピラリー電気泳動-質量分析法を用いて細胞において変動する代謝産物を同定した．その結果，メチオニンの代謝産物である<em>S</em>-アデノシルメチオニンが破骨細胞の分化にともない増加することを見い出した．ミトコンドリアの電子伝達系に対する阻害剤を用いて解析したところ，<em>S</em>-アデノシルメチオニンの産生においては破骨細胞における好気的な代謝が重要であることが明らかにされた．破骨細胞の分化に対する<em>S</em>-アデノシルメチオニンの産生の亢進の重要性を明らかにするため，<em>S</em>-アデノシルメチオニン合成酵素の阻害剤を用い解析した．その結果，細胞における<em>S</em>-アデノシルメチオニンの量の低下にくわえ，破骨細胞の分化が抑制された．これらの結果から，好気的な代謝を介し産生される<em>S</em>-アデノシルメチオニンが，破骨細胞の分化の制御において重要であることが示唆された．<br/><br/><h2>2．破骨細胞の分化と細胞における代謝とを結びつけるエピジェネティックな制御</h2><br/>　これまでの研究により，<em>S</em>-アデノシルメチオニンはメチル基転移酵素に対しメチル基の供与体としてはたらくことが明らかにされていた．そこで，<em>S</em>-アデノシルメチオニンが破骨細胞の分化をどのように制御するかを明らかにする手がかりとして，破骨細胞の分化の過程において取得したトランスクリプトームのデータを用いて，破骨細胞の分化にともない発現の誘導されるメチル基転移酵素を解析した．その結果，DNAのシトシンにメチル基を転移するDNAメチル基転移酵素Dnmt3aの発現が破骨細胞の分化にともない顕著に誘導されることを見い出した．これまで，Dnmt3aは胚の発生，また，ニューロンや造血幹細胞の分化にかかわる役割が知られていた一方で，骨代謝における機能は不明であった．そこで，破骨細胞において特異的にDnmt3aを欠損したコンディショナルノックアウトマウスを作出し，骨代謝におけるDnmt3aの重要性について検討した．その結果，破骨細胞に特異的なDnmt3aノックアウトマウスでは破骨細胞の数が減少し骨量がいちじるしく増加した．この結果は，Dnmt3aが破骨細胞の分化を制御していることを示唆した．詳細な解析により，Dnmt3aはそれ自体のもつDNAメチル基転移活性を介したDNAメチル化により標的遺伝子の発現を抑制すること，なかでも，破骨細胞の分化の抑制にかかわる転写因子Irf8の発現を抑制することにより破骨細胞の分化の促進にかかわることが明らかにされた．通常，破骨細胞の前駆細胞では<em>Irf8</em>遺伝子の高い発現が観察される．これに対し，破骨細胞の前駆細胞において<em>S</em>-アデノシルメチオニンの存在のもとDnmt3aを過剰に発現させたところ，<em>Irf8</em>遺伝子の発現が抑制された．これらの結果から，Dnmt3aと<em>S</em>-アデノシルメチオニンとの協調的な作用により<em>Irf8</em>遺伝子の発現が抑制されることが示唆された．<br/><br/><h2>3．破骨細胞におけるエピジェネティックな制御を標的とした骨粗鬆症の治療</h2><br/>　近年のがん治療薬の開発の研究において，創薬の標的としてエピジェネティックな制御を利用する試みが注目されている．そこで，破骨細胞の分化にかかわるDNAメチル化の制御が新たな創薬の標的となるかどうかを検討した．破骨細胞の異常が病因とされる骨代謝疾患のひとつに骨粗鬆症がある．そこで，卵巣の摘出により骨粗鬆症を発症させた骨粗鬆症モデルマウスを実験に用いた．この骨粗鬆症モデルマウスでは破骨細胞が増加し骨量の減少が観察される．これに対し，破骨細胞に特異的なDnmt3aノックアウトマウスにおいて卵巣を摘出したところ，骨粗鬆症の病態の発症に対し抵抗性を示した．この結果から，Dnmt3aは骨粗鬆症の治療における創薬の標的になると考えられたことから，薬物を用いた治療実験を行った．実際には，Dnmt3aの酵素活性を阻害する化合物を探索し，3,3’-二没食子酸テアフラビンが強い阻害活性をもつことを見い出した．そこで，骨粗鬆症モデルマウスに対し3,3’-二没食子酸テアフラビンを投与したところ，骨粗鬆症の病態が有意に改善された（<a href="#F1">図1</a>）．これらの結果から，骨粗鬆症に対する薬剤の開発において，破骨細胞におけるエピジェネティックな制御を標的とした創薬は有効なアプローチのひとつになると考えられた<a href="#R5"><sup>5)</sup></a>．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　骨粗鬆症モデルマウスにおける薬物による治療効果</strong><br/>骨粗鬆症モデルマウスに対し3,3’-二没食子酸テアフラビンを投与することにより，破骨細胞の増加と骨量の低下に対する阻害効果が観察された．<br/>矢印は破骨細胞を示す．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishii-Nature-Medicine-15.3.5-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　骨粗鬆症モデルマウスにおける薬物による治療効果" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishii-Nature-Medicine-15.3.5-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishii-Nature-Medicine-15.3.5-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>おわりに</h2><br/>　がん細胞においてみられる嫌気性の解糖系を介したエネルギーの産生が高まるという特有の代謝様式は<a href="#R6"><sup>6)</sup></a>，がんの発生の原因ではなく結果に起因すると考えられている．これに対し，今回，明らかにされた，細胞における代謝と共役するエピジェネティックな制御が細胞分化の制御にかかわるという知見は，細胞における代謝が細胞の運命決定に能動的にかかわることを示唆した（<a href="#F2">図2</a>）．これまで，破骨細胞の分化にはリガンドRANKLおよびサイトカインM-CSFなどの外部からの刺激で必要十分であるとする<em>in vitro</em>の培養系において確立された知見があった．しかしながら，栄養素などが限定された骨髄の環境において，細胞分化を促進するための十分な栄養環境を細胞が探しあてる適応機構として代謝経路が利用されていることは合目的であると考えられる．一方で，この機構の重要性は細胞分化にかぎった話ではないかもしれない．マクロファージやT細胞にはさまざまなサブセットが存在するが，異なるサブセットのあいだの細胞運命の決定については明確ではなく，近年，分化した状態でも“可塑性”があり形質が変化することが明らかにされている．興味深いことに，サブセットのなかには嫌気性と好気性といった対照的な代謝状態をもつものがある．このようなファジーな細胞系列の運命決定においても，その細胞のおかれている環境とそれに応じた代謝状態とがなんらかの役割をもつかどうかは，今後の重要な課題になると考えられる．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　破骨細胞の分化の制御にかかわる代謝および転写の制御</strong><br/>破骨細胞における好気的な代謝により増加した<em>S</em>-アデノシルメチオニンの産生に応じて，DNAメチル基転移酵素Dnmt3aによるDNAメチル化が進行することにより転写因子Irf8の発現が抑制され，破骨細胞の分化が促進される．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishii-Nature-Medicine-15.3.5-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　破骨細胞の分化の制御にかかわる代謝および転写の制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishii-Nature-Medicine-15.3.5-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ishii-Nature-Medicine-15.3.5-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Takayanagi, H.</span>: <span class="ti">Osteoimmunology: shared mechanisms and crosstalk between the immune and bone systems.</span> <span class='so'>Nat. Rev. Immunol., 7, 292-304 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17380158" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Nakashima, T., Hayashi, M., Fukunaga, T. et al.</span>: <span class="ti">Evidence for osteocyte regulation of bone homeostasis through RANKL expression.</span> <span class='so'>Nat. Med., 17, 1231-1234 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21909105" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Ch’uan, C. H.</span>: <span class="ti">Mitochondria in osteoclasts.</span> <span class='so'>Anat. Rec., 49, 397-401 (1931)</span></li><br><li id="R4"><span class='au'>Ishii, K. A., Fumoto, T., Iwai, K. et al.</span>: <span class="ti">Coordination of PGC-1β and iron uptake in mitochondrial biogenesis and osteoclast activation.</span> <span class='so'>Nat. Med., 15, 259-266 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19252502" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Ivashkiv, L. B.</span>: <span class="ti">Metabolic-epigenetic coupling in osteoclast differentiation.</span> <span class='so'>Nat. Med., 21, 212-213 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25742453" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Warburg, O.</span>: <span class="ti">On the origin of cancer cells.</span> <span class='so'>Science, 123, 309-314 (1956)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/13298683" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">西川 恵三（Keizo Nishikawa）</span><br>略歴：2005年 筑波大学大学院人間総合科学研究科 修了，同年 東京医科歯科大学大学院医歯学総合研究科 研究員，2010年 医薬基盤研究所 研究員，2011年 大阪大学免疫学フロンティア研究センター 助教を経て，2015年より同 准教授．<br>研究テーマ：骨代謝疾患に関する免疫薬理学的な研究．<br><br><strong>石井  優（Masaru Ishii）</strong><br>大阪大学大学院医学系研究科 教授．<br>研究室URL：<a href="http://www.icb.med.osaka-u.ac.jp/index.html" target="_blank">http://www.icb.med.osaka-u.ac.jp/index.html</a><br></div><br>© 2015 西川恵三・石井 優 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

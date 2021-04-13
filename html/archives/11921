@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> レム睡眠とノンレム睡眠との切り替えを担うニューロンの同定により明らかにされたレム睡眠の役割 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>レム睡眠とノンレム睡眠との切り替えを担うニューロンの同定により明らかにされたレム睡眠の役割</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>林  悠<sup>1</sup>・柏木光昭<sup>1</sup>・糸原重美<sup>2</sup></strong><br>（<sup>1</sup>筑波大学国際統合睡眠医科学研究機構，<sup>2</sup>理化学研究所脳科学総合研究センター 行動遺伝学技術開発チーム）<br>email：<a href="mailto:hayashi.yu.fp@u.tsukuba.ac.jp">林  悠</a>，<a href="mailto:sitohara@brain.riken.jp">糸原重美</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.132">10.7875/first.author.2015.132</a><br><div class="reference"><br><span class="ti">Cells of a common developmental origin regulate REM/non-REM sleep and wakefulness in mice.</span><br><span class="au">Yu Hayashi, Mitsuaki Kashiwagi, Kosuke Yasuda, Reiko Ando, Mika Kanuka, Kazuya Sakai, Shigeyoshi Itohara</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26494173" target="_blank"><em>Science</em>, <strong>350</strong>, 957-961 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　哺乳類の睡眠はレム睡眠とノンレム睡眠という2つの独立したステージからなる．レム睡眠において夢をみることがよく知られているが，その役割は脳科学における最大の謎のひとつであった．また，レム睡眠とノンレム睡眠はそれぞれ特徴的な脳の活動をともなうが，そのあいだをすばやく切り替える機構についてもよくわかっていなかった．今回，筆者らは，マウスの胎生期において特定の細胞系譜を遺伝学的に標識し，生後にその神経活動を化学遺伝学的に操作するという新規のアプローチにより，レム睡眠からノンレム睡眠への切り替えを担うニューロンを同定した．さらに，同じ細胞系譜から生じ隣接する位置へと移動するニューロンが睡眠から覚醒への切り替えを担うことも明らかにされた．そして，レム睡眠からノンレム睡眠への切り替えを担うニューロンの下流においてはたらく抑制性のニューロンも同定された．これらの発見を生かし，従来とはまったく異なる，外部からの刺激によらないレム睡眠の操作法を確立したことにより，レム睡眠には記憶の形成や脳の機能の回復において重要な神経活動とされる除波をノンレム睡眠において誘発する役割のあることが明らかにされた．この作用を介し，レム睡眠が脳の発達や学習に貢献している可能性が示唆された．<br/><br/><h2>はじめに</h2><br/>　レム睡眠およびノンレム睡眠がみられるのは鳥類や哺乳類など発達した大脳をもつ脊椎動物のみである．したがって，レム睡眠およびノンレム睡眠は脳の高等な機能にかかわると考えられてきた．レム睡眠は新生児期<a href="#R1"><sup>1)</sup></a> や学習の直後に多い<a href="#R2"><sup>2)</sup></a> ことが知られていたが，レム睡眠を強制的な覚醒により阻害する実験では刺激そのものによるストレスが生じてしまうなど，レム睡眠を有効に阻害する方法がなかったため，その具体的な役割はわかっていなかった．<br/>　また，レム睡眠とノンレム睡眠との切り替えの機構を解き明かそうと数多くの研究がなされてきた．これまでに，脳幹の橋被蓋野とよばれる領域がノンレム睡眠からレム睡眠への切り替えに重要であることが示唆されていたが<a href="#R3"><sup>3-5)</sup></a>，その反対の，レム睡眠からノンレム睡眠への切り替えの機構についてはよくわかっていなかった．おもに用いられてきた薬理学的な実験では細胞種や厳密な領域に対する特異性を欠くこともあり，複数の研究グループにより，レム睡眠とノンレム睡眠との切り替えに関する異なるモデルが提唱されてきたが，いずれも決定的な証拠はなかった．<br/>　脳幹は明確な神経核の構造を欠き複雑なうえ，機能的にも多様なニューロンのあつまりである．これまでの技術では，特定の機能をもつニューロンのみを解析することは困難であった．今回，筆者らは，ニューロンの機能はその発生学的な起源とリンクするという仮説にたち，発生学的な手法と化学遺伝学的な手法とを組み合わせ，特定の細胞系譜に由来するニューロンのみを標識して操作し睡眠の制御への関与について検討した．その結果，レム睡眠からノンレム睡眠への切り替えを担うニューロンの同定に成功した．また，これらの新たに同定したニューロンの操作により，刺激に依存しない新規なレム睡眠の阻害法を確立し，レム睡眠の機能についても解析した．<br/><br/><h2>1．レム睡眠からノンレム睡眠への切り替えを担うニューロンの同定</h2><br/>　脳幹はヘテロな性質および機能をもつニューロンのあつまりであり，正確な機能の解析や評価は困難であった．そこで，発生学的な手法により特定の細胞系譜に由来するニューロンのみを標識し操作することにより，特定の機能をもつニューロンを抽出することを試みた．ここで注目した小脳菱脳唇は胎生期に一過的に現われる神経上皮で，小脳の顆粒細胞の発生学的な起源としてよく知られている．一方，近年，小脳菱脳唇の一部の細胞が大きく移動して脳幹の橋のグルタミン酸作動性ニューロンへと分化することが報告された<a href="#R6"><sup>6,7)</sup></a>．そこで，これらの小脳菱脳唇に由来する脳幹のニューロンが睡眠の覚醒に関与しているかどうか検討した．<br/>　これらのニューロンを特異的に操作するため，胎生期において小脳菱脳唇の神経前駆細胞を遺伝学的に標識し，出生ののち，その標識に依存してニューロンの活動の人為的な操作を可能にするような遺伝子を発現させた．具体的には，小脳菱脳唇のマーカー遺伝子である<em>Atoh1</em>遺伝子のプロモーターの制御のもとでタモキシフェンに依存的なCreを発現するマウスを作製した．このマウスを，Creに依存して転写因子tTAを発現するマウスと交配し，小脳菱脳唇から脳幹の細胞が生じる胎生期10.5日目にタモキシフェンを投与した．これにより，小脳菱脳唇の神経前駆細胞およびその子孫の細胞はtTAを発現するようになる．そして，成体になったのち，人工的にデザインされたGタンパク質共役受容体DREADD-hM3DqをtTAに依存して発現するアデノ随伴ウイルスベクターを局所に注入し，これらのニューロンのみを操作することを可能にした．このDREADD-hM3DqはリガンドであるCNOを腹腔内投与することにより一過的に神経興奮をひき起こす<a href="#R8"><sup>8)</sup></a>．<br/>　小脳菱脳唇に由来する脳幹のニューロンは，その分布からおおまかに2つ，正中線の近くに位置するものと遠くに位置するものとに分けられた（<a href="#F1">図1</a>）．正中線に近いニューロンは外背側被蓋核から内側傍小脳脚核にかけて分布していた．一方，正中線から遠いニューロンは外側傍小脳脚核を中心に分布していた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　共通の発生学的な起源に由来するニューロンによる睡眠と覚醒およびレム睡眠とノンレム睡眠の制御</strong><br/>胎生期に小脳菱脳唇において生じた神経前駆細胞のうち，脳幹橋の正中線の近くに移動したニューロンはレム睡眠からノンレム睡眠への切り替えを，正中線から遠くに移動したニューロンは睡眠から覚醒への切り替えを制御する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Itohara-Science-15.11.20-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　共通の発生学的な起源に由来するニューロンによる睡眠と覚醒およびレム睡眠とノンレム睡眠の制御" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Itohara-Science-15.11.20-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Itohara-Science-15.11.20-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　正中線の近くに位置するニューロンにDREADD-hM3Dqを発現させ，CNOの投与により活性化させたのち，睡眠と覚醒のサイクルを観察した．その結果，レム睡眠が強く抑制され，代わりに，ノンレム睡眠が増加した．一方，覚醒の量に影響はみられなかった．したがって，正中線の近くに位置するニューロンはレム睡眠からノンレム睡眠の切り替えを担うことが判明した．<br/><br/><h2>2．睡眠から覚醒への切り替えを担うニューロンも同一の発生学的な起源から生じる</h2><br/>　小脳菱脳唇に由来する脳幹のニューロンのうち，正中線から遠くに位置するニューロンを活性化させたところ，さきの結果とは対照的に，睡眠そのものの量が大幅に減少し覚醒が強く誘導された．ほかの研究グループから，この近辺のグルタミン酸作動性ニューロンが覚醒を促進することが報告されていたが<a href="#R9"><sup>9)</sup></a>，同定された正中線から遠いニューロンと同一のニューロンである可能性が高いと考えられた．以上のことから，小脳菱脳唇は，レム睡眠とノンレム睡眠，覚醒と睡眠など，さまざまな脳の状態の切り替えを担うニューロンの共通の発生学的な起源であることが判明した．<br/><br/><h2>3．レム睡眠からノンレム睡眠の切り替えを担うGABA作動性ニューロンの同定</h2><br/>　正中線の近くに位置するニューロンがどのような機構によりレム睡眠を制御しているのか調べるため，その投射先を調べたところ，軸索を吻側へと伸ばし中脳深部核の背側の領域へと投射していた．この領域には古典的な薬理学的な実験からレム睡眠を抑制するニューロンの存在が示唆されていたが，どのような細胞種がかかわるかについては不明であった<a href="#R4"><sup>4,10)</sup></a>．この領域の抑制性のGABA作動性ニューロンに注目し，DREADD-hM3Dqを発現させて神経活動を誘導したところ，正中線に近いニューロンを活性化したときと同様に，ノンレム睡眠が増加しレム睡眠が抑制された．反対に，神経活動を抑制するDREADD-hM4Diを発現させて神経活動を抑制したところ，レム睡眠が誘導された．これらの結果から，正中線の近くに位置するニューロンは，中脳深部核の背側部のGABA作動性ニューロンをつうじてレム睡眠を制御していることが強く示唆された．<br/><br/><h2>4．レム睡眠はノンレム睡眠における徐波の発生に寄与する</h2><br/>　レム睡眠の役割はほとんど不明である．これまでのレム睡眠の機能に関する研究においては，対象がレム睡眠に入るとただちに外部から刺激をくわえ，覚醒させることによりレム睡眠を強制的に終了させる方法が広く用いられてきた．しかしながら，この方法では，レム睡眠だけでなくノンレム睡眠の量も大幅に減少させてしまう点や，対象に大きなストレスがかかる点などから，その結果は解釈がむずかしく，純粋にレム睡眠が減少したためとはいえないという問題があった．一方，レム睡眠を制御する中枢に対する化学遺伝学的な操作によりレム睡眠を阻害することが可能になったことから，この新規に確立されたレム睡眠の阻害法を用いてレム睡眠の機能について検討した．<br/>　レム睡眠を阻害されたマウスにはいっけん影響はないようにみえたが，時間がたつにつれ，睡眠そのものの質に影響が現われた．具体的には，ノンレム睡眠において生じる徐波とよばれる脳の活動がしだいに低下した．徐波とは周波数4 Hz以下のゆっくりとした脳波であり，大脳皮質のニューロンの膜電位が同調してゆっくり振動することにより生じる．深いノンレム睡眠の際に生じやすく，神経の可塑性に貢献することが知られている<a href="#R11"><sup>11,12)</sup></a>．今回のレム睡眠の阻害実験では，この徐波はしだいに減弱したが，レム睡眠の操作の効果がきれてふたたび正常なレム睡眠に入ると，その直後に，ノンレム睡眠における徐波の成分ももとのレベルに回復した．反対に，レム睡眠を人為的に増加させるとノンレム睡眠における徐波は強まった．また，レム睡眠を操作していない自然な睡眠においても，レム睡眠の長さとそれにつづくノンレム睡眠における徐波の成分とのあいだには正の相関関係があった．これらの結果をあわせて，レム睡眠がノンレム睡眠における徐波の発生に寄与していることが明らかにされた．マウスでは睡眠のあいだ頻繁に短い覚醒がみられるが，これらの覚醒については，レム睡眠のような徐波を促進する効果は確認されなかった．したがって，レム睡眠と覚醒は大脳の活動が活発となるという点においては共通するが，徐波の誘導に関しては効果が異なると考えられた．<br/><br/><h2>おわりに</h2><br/>　今回，筆者らは，レム睡眠からノンレム睡眠への切り替えの起こる機構，および，レム睡眠が徐波の発生に関与するというその生理的な意義の一端について明らかにした．レム睡眠が誘導する徐波には，記憶の定着を促進する効果<a href="#R11"><sup>11)</sup></a> やシナプスの結合を強める効果<a href="#R12"><sup>12)</sup></a> のあることが知られている．今回の結果をふまえると，レム睡眠が徐波の発生をつうじて記憶の定着に関与している可能性が示唆される．今後，レム睡眠の操作の可能なマウスにおいて学習能力や記憶力を検証することにより，レム睡眠が記憶や学習にどのように寄与するのかについてさらなる解明が期待される．<br/>　なお，今回の筆者らの報告とほぼ同じ時期に，米国の研究グループにより，延髄に存在するGABA作動性ニューロンが，筆者らにより同定された中脳深部核のGABA作動性ニューロンと同一と考えられるニューロンに投射し，レム睡眠を制御しているという報告が発表された<a href="#R13"><sup>13)</sup></a>．筆者らの結果とあわせると，中脳深部核のGABA作動性ニューロンはレム睡眠からノンレム睡眠への切り替えにおいて中枢的な役割を担うことが推察される．<br/>　一方，ノンレム睡眠からレム睡眠への切り替えに関しては，どのような細胞種が重要なのか詳細は不明なままである．ネコの橋被蓋野の青斑下核という領域にアセチルコリン受容体の作動薬を注入するとレム睡眠が強く誘導されることが知られている<a href="#R3"><sup>3)</sup></a>．このレム睡眠の誘導にかかわる青斑下核のニューロンのアイデンティティの解明は今後の重要な課題のひとつである．<br/>　また，今回の研究においては，レム睡眠からノンレム睡眠への切り替えを担うニューロンがどの神経前駆細胞に由来するのかを調べることにより，その発生学的な起源として小脳菱脳唇が同定された．興味深いことに，この小脳菱脳唇の神経前駆細胞からは，レム睡眠とノンレム睡眠との切り替えを担うニューロンだけでなく，睡眠から覚醒への切り替えを担うニューロンも生じることが判明した．この研究から，小脳菱脳唇から脳の状態の切り替えを担うスイッチとなる多様なニューロンを生じることがはじめて明らかにされた．小脳菱脳唇はレム睡眠およびノンレム睡眠のみられない硬骨魚類においても保存されており，今回の発見は，睡眠と覚醒だけの単純な脳の状態しかもたない生物から，レム睡眠やノンレム睡眠といったより複雑な脳の状態をもつ生物が進化した歴史の理解にもつながると期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Roffwarg, H. P., Muzio, J. N. & Dement, W. C.</span>: <span class="ti">Ontogenetic development of the human sleep-dream cycle.</span> <span class='so'>Science, 152, 604-619 (1966)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17779492" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Smith, C. & Rose, G. M.</span>: <span class="ti">Posttraining paradoxical sleep in rats is increased after spatial learning in the Morris water maze.</span> <span class='so'>Behav. Neurosci., 111, 1197-1204 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9438789" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Vanni-Mercier, G., Sakai, K., Lin, J. S. et al.</span>: <span class="ti">Mapping of cholinoceptive brainstem structures responsible for the generation of paradoxical sleep in the cat.</span> <span class='so'>Arch. Ital. Biol., 127, 133-164 (1989)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2774793" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Lu, J., Sherman, D., Devor, M. et al.</span>: <span class="ti">A putative flip-flop switch for control of REM sleep.</span> <span class='so'>Nature, 441, 589-594 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16688184" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Boissard, R., Gervasoni, D., Schmidt, M. H. et al.</span>: <span class="ti">The rat ponto-medullary network responsible for paradoxical sleep onset and maintenance: a combined microinjection and functional neuroanatomical study.</span> <span class='so'>Eur. J. Neurosci., 16, 1959-1973 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12453060" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Machold, R. & Fishell, G.</span>: <span class="ti">Math1 is expressed in temporally discrete pools of cerebellar rhombic-lip neural progenitors.</span> <span class='so'>Neuron, 48, 17-24 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16202705" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Wang, V. Y., Rose, M. F. & Zoghbi, H. Y.</span>: <span class="ti"><em>Math1</em> expression redefines the rhombic lip derivatives and reveals novel lineages within the brainstem and cerebellum.</span> <span class='so'>Neuron, 48, 31-43 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16202707" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Armbruster, B. N., Li, X., Pausch, M. H. et al.</span>: <span class="ti">Evolving the lock to fit the key to create a family of G protein-coupled receptors potently activated by an inert ligand.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 104, 5163-5168 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17360345" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Kaur, S., Pedersen, N. P., Yokota, S. et al.</span>: <span class="ti">Glutamatergic signaling from the parabrachial nucleus plays a critical role in hypercapnic arousal.</span> <span class='so'>J. Neurosci., 33, 7627-7640 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23637157" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Crochet, S., Onoe, H. & Sakai, K.</span>: <span class="ti">A potent non-monoaminergic paradoxical sleep inhibitory system: a reverse microdialysis and single-unit recording study.</span> <span class='so'>Eur. J. Neurosci., 24, 1404-1412 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16987225" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Marshall, L., Helgadottir, H., Molle, M. et al.</span>: <span class="ti">Boosting slow oscillations during sleep potentiates memory.</span> <span class='so'>Nature, 444, 610-613 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17086200" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Chauvette, S., Seigneur, J. & Timofeev, I.</span>: <span class="ti">Sleep oscillations in the thalamocortical system induce long-term neuronal plasticity.</span> <span class='so'>Neuron, 75, 1105-1113 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22998877" target="_blank">PubMed</a>]</span></li><br><li id="R13"><span class='au'>Weber, F., Chung, S., Beier, K. T. et al.</span>: <span class="ti">Control of REM sleep by ventral medulla GABAergic neurons.</span> <span class='so'>Nature, 526, 435-438 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26444238" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">林   悠（Yu Hayashi）</span><br>略歴：2008年 東京大学大学院理学系研究科博士課程 修了．同年 理化学研究所脳科学総合研究センター 基礎科学特別研究員を経て，2013年より筑波大学国際統合睡眠医科学研究機構 助教．<br>研究テーマ：睡眠の意義，機構，進化．<br>抱負：なぜ眠るのか，なぜ夢をみるのかについて明らかにしたい．<br><br><strong>柏木 光昭（Mitsuaki Kashiwagi）</strong><br>筑波大学大学院人間総合科学研究科修士課程 在学中．<br><br><strong>糸原 重美（Shigeyoshi Itohara）</strong><br>理化学研究所脳科学総合研究センター チームリーダー．<br></div><br>© 2015 林  悠・柏木光昭・糸原重美 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

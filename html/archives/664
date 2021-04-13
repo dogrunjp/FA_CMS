@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Rim2αはインスリン顆粒開口分泌におけるドッキングとプライミングを決定づける : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>Rim2αはインスリン顆粒開口分泌におけるドッキングとプライミングを決定づける</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>安田貴雄<sup>1</sup>・清野 進<sup>1,2</sup></strong><br>（<sup>1</sup>神戸大学大学院医学研究科 細胞分子医学，<sup>2</sup>神戸大学大学院医学研究科 糖尿病・内分泌内科学）<br>email：<a href="mailto: seino@med.kobe-u.ac.jp">清野 進</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2010.008">10.7875/first.author.2010.008</a><br><div class="reference"><br><span class="ti">Rim2α determines docking and priming states in insulin granule exocytosis.</span><br><span class="au">Takao Yasuda, Tadao Shibasaki, Kohtaro Minami, Harumi Takahashi, Akira Mizoguchi, Yoshitsugu Uriu, Tomohiro Numata, Yasuo Mori, Jun-ichi Miyazaki, Takashi Miki, Susumu Seino</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/20674857" target="_blank"><em>Cell Metabolism</em>, <strong>12</strong>, 117-129 (2010)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　インスリンは血糖維持においてもっとも重要なホルモンであり，膵β細胞で合成・分泌される．インスリンの分泌はさまざまな細胞内シグナルによって制御されているが，その詳細にはいまだ不明な点が多い．最近，筆者らは，膵β細胞に発現するエキソサイトーシス関連タンパク質のひとつRim2αを欠損させた膵β細胞の解析から，Rim2αがインスリン顆粒のエキソサイトーシスにおいてドッキングとプライミングを決定づける重要なタンパク質であることを明らかにした．また，Rim2αノックアウトマウスにおいて，消化管ホルモンであるグルコース依存性インスリン分泌刺激ポリペプチド（GIP），成長ホルモン，アドレナリンの分泌も低下していたことから，Rim2αはこれらのホルモンのエキソサイトーシスにも同様な役割をはたしていることが示唆された．<br/><br/><h2>はじめに</h2><br/>　インスリンは血糖降下作用をもつ唯一のホルモンであり，膵β細胞で合成・分泌される．2型糖尿病では，膵β細胞からのインスリン分泌障害やインスリンの標的組織である肝臓，筋肉，脂肪などにおけるインスリンの作用障害の認められることが特徴である．膵β細胞内シグナルによるインスリン分泌の調節機構を明らかにすることは，糖尿病の原因や病態の解明のみならず，新たな糖尿病治療薬の開発につながるものと期待される．<br/>　生理的に重要な分泌刺激であるグルコースによるインスリン分泌において，グルコースは糖輸送担体を介して膵β細胞に取り込まれ，そこで代謝されてATPが産生される．産生されたATPによりATP感受性K<sup>+</sup>チャネルが閉鎖し，細胞膜の脱分極，電位依存性Ca<sup>2+</sup>チャネル（voltage-dependent Ca<sup>2+</sup> channel：VDCC）の開口によるCa<sup>2+</sup>の流入をへて，インスリン顆粒のエキソサイトーシス（開口分泌）が惹起される（<a href="#F1">図1</a>）．一方，インクレチンとよばれる消化管ホルモンは膵β細胞内のcAMP濃度を上昇させ，プロテインキナーゼA依存性経路とプロテインキナーゼA非依存性経路を介してグルコースによるインスリン分泌を増強する<a href="#R1"><sup>1)</sup></a>．後者は，Epac2（あるいは，cAMP-GEFⅡ）とよばれるcAMPセンサーによって担われている．筆者らは，以前，Epac2と結合するタンパク質としてRim2を同定した<a href="#R2"><sup>2)</sup></a>．Rim（Rab3-interacting molecule）は低分子量Gタンパク質であるRab3の標的タンパク質であり，さまざまなエキソサイトーシス関連タンパク質と結合するスキャフォールド（足場）タンパク質である<a href="#R3"><sup>3)</sup></a>．RimにはRim1とRim2の2つのアイソフォームがあり，Rim1はおもに脳で発現しており，海馬のシナプスにおける神経伝達物質放出の増強作用に関与し，記憶の長期増強（long-term potentiation：LTP）に重要なタンパク質であることが明らかとなっている<a href="#R4"><sup>4)</sup></a>．Rim2（現在は，Rim2αとよばれる）はおもに膵β細胞，下垂体を含む内分泌細胞に発現し，ホルモンの調節性エキソサイトーシスにかかわるものと推測されているが，その分子機構は不明である<a href="#R2"><sup>2,5,6)</sup></a>．ここでは最近，筆者らが明らかにした，インスリン分泌におけるRim2αの役割について概説する．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　インスリン分泌における主要な細胞内シグナル</strong><br/>グルコースによるインスリン分泌がもっとも基本的な分泌機構である．グルコースの代謝によるATP産生，ATP感受性K<sup>+</sup>チャネル（K<sub>ATP</sub>）の閉鎖，細胞膜の脱分極，細胞内Ca<sup>2+</sup>量の増加により，インスリン顆粒のエキソサイトーシスが惹起される．また，インクレチンとよばれる消化管ホルモンは細胞内cAMP濃度を上昇させ，プロテインキナーゼA依存性ならびにプロテインキナーゼA非依存性経路によりインスリン分泌を増強する．後者には，Epac2を介する分子機構が関与する．<br/>PKA：プロテインキナーゼA，VDCC：電位依存性Ca<sup>2+</sup>チャネル．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Seino-Cell-Metabolism-10.8.3-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　インスリン分泌における主要な細胞内シグナル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Seino-Cell-Metabolism-10.8.3-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Seino-Cell-Metabolism-10.8.3-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>1．Rim2αノックアウトマウスにおけるインスリン分泌</h2><br/>　Rim2には，ジンクフィンガードメイン，PDZドメイン，C<sub>2</sub>Aドメイン，C<sub>2</sub>Bドメインで構成されるRim2α，PDZドメイン以降で構成されるRim2β，C<sub>2</sub>Bドメインのみで構成されるRim2γ，の3つのバリアントが存在する．当初，筆者らが同定したRim2は，現在ではRim2αとよばれている．膵β細胞ではおもにRim2αが発現している．筆者らは，Rim2αのインスリン分泌における役割を詳細に検討する目的でRim2αノックアウトマウスを作製した．このRim2αノックアウトマウスに経口糖負荷試験を行った結果，糖負荷後の血糖値は野生型マウスに比べて高く，また，血清インスリン値は有意に低下していた．また，Rim2αノックアウトマウスから単離した膵島では高濃度グルコースや高濃度K<sup>+</sup>刺激によるインスリン分泌が低下していた．さらに，cAMP刺激によるインスリン分泌の増強効果も低下していた．したがって，Rim2αはインスリン分泌において重要なタンパク質であることが明らかとなった．<br/><br/><h2>2．Rim2αのインスリン分泌顆粒動態に及ぼす効果</h2><br/>　インスリン顆粒のエキソサイトーシスは，分泌顆粒の細胞膜へのリクルート，ドッキング，プライミング，および，膜融合をへて起こるものと想定されている．インスリンを蛍光タンパク質Venusで標識し膵β細胞に発現させることでインスリン顆粒を可視化し，全反射型蛍光顕微鏡（total internal reflection fluorescence microscopy：TIRFM）を用いて細胞内のインスリン顆粒の動態を解析することで，エキソサイトーシスの様式は3種類に分類されている<a href="#R7"><sup>7,8)</sup></a>．すなわち，1）あらかじめ細胞膜にドッキングしていた顆粒が刺激により細胞膜に融合する様式（old face），2）刺激によってはじめて細胞膜にリクルートされた顆粒が瞬時に細胞膜に融合する様式（restless newcomer），3）刺激によってはじめて細胞膜にリクルートされた顆粒が一時的にドッキングしたのち細胞膜に融合する様式（resting newcomer），の3種類である．Rim2αノックアウトマウスの初代培養膵β細胞では，細胞膜にドッキングしたインスリン顆粒の数が顕著に低下し，高濃度K<sup>+</sup>刺激による，あらかじめ細胞膜にドッキングしていた顆粒（old face）に由来する分泌がほとんど認められなかった．高濃度グルコースによるインスリン分泌は急峻で一過性の第1相と持続性の第2相とを示すが，インスリン顆粒の膜融合も同様に二相性を示し，刺激によってはじめて細胞膜にリクルートされ瞬時に細胞膜に融合した顆粒（restless newcomer）がその大部分を担っていた．Rim2αノックアウトマウスの膵β細胞では第1相が著しく低下し，第2相も有意に低下していた．<br/><br/><h2>3．Rim2α欠損膵β細胞株の樹立と機能解析</h2><br/>　Rim2αノックアウトマウスの膵β細胞を用いてRim2αのインスリン分泌における詳細な役割を検討しようと試みたが，量的な問題から困難であったため，膵β細胞に特異的に腫瘍を形成するIT6マウスと<a href="#R9"><sup>9)</sup></a>，Rim2αノックアウトマウスとを交配し，腫瘍組織からRim2αを欠損した膵β細胞株を樹立した．エキソサイトーシス関連タンパク質の発現量や細胞内局在をRim2α欠損膵β細胞株とRim2αを発現する野生型膵β細胞株で比較したが，ほとんど差は認められなかった．しかしながら，Rim2α欠損膵β細胞株では高濃度グルコースや高濃度K<sup>+</sup>刺激によるインスリン分泌は著明に低下していた．また，全反射型蛍光顕微鏡による解析から，細胞膜にドッキングしたインスリン顆粒の数が顕著に低下していることが明らかになった．一方，Rim2α欠損膵β細胞株にアデノウイルスを用いて野生型Rim2αを発現させると，細胞膜にドッキングしたインスリン顆粒の数やインスリン分泌が回復した．以上より，Rim2αはインスリン顆粒のエキソサイトーシスにおけるドッキングおよびインスリン分泌反応に必要であることが明らかとなった．また，Rim2α欠損膵β細胞株はRim2αのインスリン分泌の役割を解明するツールとして有用であることが示された．<br/><br/><h2>4．インスリン顆粒のドッキングとプライミングにおけるRim2αの役割</h2><br/>　Rim2αは，エキソサイトーシスに関連するタンパク質であるRab3AやMunc13-1とN末端領域で結合することから，Rim2αとRab3AやMunc13-1との結合がインスリン顆粒のエキソサイトーシスに影響を及ぼす可能性が考えられた．<br/>　Rim2αがRab3AやMunc13-1と結合することがインスリン顆粒のエキソサイトーシスのどのステップに関与するかを検証するため，それぞれのタンパク質と結合しないRim2α変異体を作製し，Rim2α欠損膵β細胞株に発現させた．Rab3Aと結合しないRim2α変異体を発現させると，細胞膜にドッキングしたインスリン顆粒の数は回復しなかったが，高濃度グルコース刺激によるインスリン分泌は回復した．一方で，高濃度K<sup>+</sup>刺激によるインスリン分泌は野生型Rim2αを発現させたときより増加した．このことより，Rim2αとRab3Aとの結合はインスリン顆粒のドッキングに必要であるが，ドッキング自体はインスリン分泌に必須ではないことが明らかとなった．また，この結果は，グルコースによるエキソサイトーシスはほとんどドッキングをせず刺激によってはじめて細胞膜にリクルートされ瞬時に細胞膜に融合した顆粒（restless newcomer）によりひき起こされることを示した全反射型蛍光顕微鏡による解析結果と一致する<a href="#R7"><sup>7)</sup></a>．ドッキングは顆粒の膜融合を阻止する状態，すなわち，ブレーキの状態と考えられる．<br/>　つぎに，Munc13-1と結合しないRim2α変異体を発現させると，細胞膜にドッキングしたインスリン顆粒の数は回復したが，高濃度グルコースや高濃度K<sup>+</sup>刺激によるインスリン分泌は回復しなかった．この事実は，Munc13-1とRim2αとの結合はインスリン顆粒のドッキングには必要ないことを示していた．しかしながら，Rim2α欠損膵β細胞株を内因性のMunc13-1を直接に活性化させるホルボールエステルにより刺激すると高濃度グルコース刺激によるインスリン分泌が回復したことより，Rim2αとMunc13-1との結合はドッキング以降に必要であることが示された．<br/>　ドッキングのステップ以降にはプライミングと膜融合のステップがあり，プライミングにはSNAREタンパク質のひとつSyntaxin1の構造変化が重要である．Syntaxin1は閉じた状態から開いた状態へと構造変化するとインスリン顆粒膜にある別のSNAREタンパク質と複合体を形成し，インスリン顆粒を細胞膜に融合させることができるものと考えられ，その過程にMunc13-1の関与が想定されている．恒常的に開いた状態としたSyntaxin1変異体をRim2α欠損膵β細胞株に発現させると高濃度グルコースや高濃度K<sup>+</sup>刺激によるインスリン分泌が回復したことから，Syntaxin1が開いた状態になればRim2αを欠損していてもインスリン顆粒は膜融合するものと考えられた．つまり，この結果は，Rim2αとMunc13-1との結合がSyntaxin1の構造変化に重要であることを示していた．<br/>　以上の結果より，Rim2αはRab3Aを介してインスリン顆粒のドッキングに，Munc13-1を介してプライミングに，それぞれ必要であることが明らかとなった．<br/><br/><h2>5．Rim2αを介したEpac2によるインスリン分泌の増強経路</h2><br/>　Rim2αはEpac2と結合するタンパク質として同定された<a href="#R2"><sup>2)</sup></a>．Epac2はcAMP誘導性プロテインキナーゼA非依存性のインスリン分泌増強にかかわるタンパク質であり，Rim2αとEpac2との結合はcAMP誘導性のインスリン分泌の増強に重要であるものと考えられている<a href="#R5"><sup>5)</sup></a>．そこで，Epac2と結合しないRim2α変異体をRim2α欠損膵β細胞株に発現させると，高濃度グルコース刺激によるインスリン分泌は回復したにもかかわらず，Epac特異的cAMPアナログ刺激によるインスリン分泌増強は認められなかった．したがって，Rim2αはcAMP誘導性Epac2依存性のインスリン分泌の増強に必須のタンパク質であることが明らかとなった．<br/><br/><h2>6．Rim2αノックアウトマウスにおけるホルモン分泌</h2><br/>　Rim2αは内分泌組織や細胞に広く発現することから，種々のホルモン分泌にかかわっている可能性が考えられた<a href="#R2"><sup>2)</sup></a>．実際，Rim2αノックアウトマウスでは，インスリン分泌増強作用をもつ消化管ホルモンであるグルコース依存性インスリン分泌刺激ポリペプチド（glucose-dependent insulinotropic polypeptide：GIP）の血清レベルが著しく低下していた．また，低血糖で誘導される成長ホルモン分泌の低下（Rim2αノックアウトマウスは低体長を示す）や，アドレナリン分泌の低下も認められた．以上の結果から，Rim2αは血糖維持に関与するこれらのホルモンのエキソサイトーシスにおいても同様の役割をはたしている可能性がある．<br/><br/><h2>おわりに</h2><br/>　神経伝達物質のエキソサイトーシスの研究から，エキソサイトーシスには，シナプス小胞の細胞膜へのリクルート，ドッキング，プライミング，膜融合の4つのステップが重要であるものと考えられている．ドッキングは細胞膜に結合している状態として定義されており，プライミングはドッキングと膜融合のあいだの過程であると想定されているが，その分子機構は不明であった．今回，インスリン顆粒のエキソサイトーシスの解析から，Rim2αはRab3Aと結合することによりドッキングを，Munc13-1との結合から解離することによりプライミングを，それぞれ決定づけるタンパク質であることがはじめて明らかになった（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　インスリン顆粒エキソサイトーシスにおけるRim2αの役割</strong><br/>インスリン顆粒はRim2αとRab3Aとの結合により細胞膜にドッキングする．非刺激時にはRim2αとMunc13-1とは結合しているが，グルコース刺激によりMunc13-1は解離し，Syntaxin1の構造変化を誘導してこれを開いた状態（活性型）にする．その結果，インスリン顆粒膜と細胞膜上のSNAREタンパク質とが複合体VAMP2-SNAP25-Syntaxin1を形成し（プライミング），Ca<sup>2+</sup>の流入によって膜融合が起こるものと考えられる．<br/>VDCC：電位依存性Ca<sup>2+</sup>チャネル．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Seino-Cell-Metabolism-10.8.3-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　インスリン顆粒エキソサイトーシスにおけるRim2αの役割" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Seino-Cell-Metabolism-10.8.3-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Seino-Cell-Metabolism-10.8.3-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　また，Rim2αと結合するEpac2はcAMP刺激によりRap1を活性化し，分泌顆粒プールのサイズの増加をさせるものと考えられている．Rim2αとRap1とがどのように協調してcAMP誘導性Epac2依存性のインスリン分泌増強にかかわっているのかは，今後，詳細に検討する必要がある．<br/>　さらに，神経細胞におけるRim1αのはたらきと同様に<a href="#R10"><sup>10)</sup></a>，筆者らは，Rim2αが電位依存性Ca<sup>2+</sup>チャネルの活性化の持続にも関与し，膵β細胞内へのCa<sup>2+</sup>流入量を調節していることも明らかにしている．このように，Rim2αはインスリン分泌において非常に重要なタンパク質であることが明らかとなった．<br/>　今回の発見をきっかけに，エキソサイトーシスの分子機構の解明が進み，また，インスリン分泌不全をともなう糖尿病の原因や病態の解明につながることを期待したい．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Seino, S. & Shibasaki, T.</span>: <span class="ti">PKA-dependent and PKA-independent pathways for cAMP-regulated exocytosis.</span> <span class='so'>Physiol. Rev., 85, 1303-1342 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16183914" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Ozaki, N., Shibasaki, T., Kashima, Y. et al.</span>: <span class="ti">cAMP-GEFII is a direct target of cAMP in regulated exocytosis.</span> <span class='so'>Nat. Cell Biol., 2, 805-811 (2000)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11056535" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Schoch, S., Castillo, P. E., Jo, T. et al.</span>: <span class="ti">RIM1α forms a protein scaffold for regulating neurotransmitter release at the active zone.</span> <span class='so'>Nature, 415, 321-326 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11797009" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Castillo, P. E., Schoch, S., Schmitz, F. et al.</span>: <span class="ti">RIM1α is required for presynaptic long-term potentiation.</span> <span class='so'>Nature, 415, 327-330 (2002)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11797010" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Kashima, Y., Miki, T., Shibasaki, T. et al.</span>: <span class="ti">Critical role of cAMP-GEFII･Rim2 complex in incretin-potentiated insulin secretion.</span> <span class='so'>J. Biol. Chem., 276, 46046-46053 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11598134" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Shibasaki, T., Sunaga, Y., Fujimoto, K. et al.</span>: <span class="ti">Interaction of ATP sensor, cAMP sensor, Ca<sup>2+</sup> sensor, and voltage-dependent Ca<sup>2+</sup> channel in insulin granule exocytosis.</span> <span class='so'>J. Biol. Chem., 279, 7956-7961 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14660679" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Shibasaki, T., Takahashi, H., Miki, T. et al.</span>: <span class="ti">Essential role of Epac2/Rap1 signaling in regulation of insulin granule dynamics by cAMP.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 104, 19333-19338 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18040047" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Seino, S., Takahashi, H., Fujimoto, W. et al.</span>: <span class="ti">Roles of cAMP signaling in insulin granule exocytosis.</span> <span class='so'>Diabetes Obes. Metab., 11, 180-188 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19817800" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Miyazaki, J., Araki, K., Yamato, E. et al.</span>: <span class="ti">Establishment of a pancreatic β cell line that retains glucose-inducible insulin secretion: special reference to expression of glucose transporter isoforms.</span> <span class='so'>Endocrinology, 127, 126-132 (1990)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/2163307" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Kiyonaka, S., Wakamori, M., Miki, T. et al.</span>: <span class="ti">RIM1 confers sustained activity and neurotransmitter vesicle anchoring to presynaptic Ca<sup>2+</sup> channels.</span> <span class='so'>Nat. Neurosci., 10, 691-701 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17496890" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">安田貴雄（Yasuda Takao）</span><br>略歴：神戸大学大学院医学研究科 博士課程 在学中．2010年 博士（医学）．<br>研究テーマ：インスリン顆粒のエキソサイトーシス機構におけるRim2αの役割．<br>抱負：大学生のころ，1型糖尿病の子どもたちのサマーキャンプに参加し，糖尿病の研究におけるインスリン分泌機構の解明というテーマにたいへん興味をもちました．このことを明らかにすることで，将来的に，1型糖尿病の原因や病態の解明，糖尿病治療薬の開発につながる発見ができるよう，日々，研究に邁進したいと思います．<br><br><strong>清野 進（Seino Susumu）</strong><br>神戸大学大学院医学研究科 教授．<br>研究室URL：<a href="http://www.med.kobe-u.ac.jp/phys1/" target="_blank">http://www.med.kobe-u.ac.jp/phys1/</a><br></div><br>© 2010 安田貴雄・清野 進 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

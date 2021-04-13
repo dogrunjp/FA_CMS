@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> がん細胞は感覚受容の分子機構をハイジャックすることにより酸化ストレスに対する耐性を亢進させる : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>がん細胞は感覚受容の分子機構をハイジャックすることにより酸化ストレスに対する耐性を亢進させる</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>高橋重成<sup>1</sup>・森 泰生<sup>2</sup>・Joan S. Brugge <sup>1</sup></strong><br>（<sup>1</sup>米国Harvard Medical School，Department of Cell Biology，<sup>2</sup>京都大学大学院工学研究科 合成・生物化学専攻分子生物化学分野）<br>email：<a href="mailto:nobuaki_takahashi@hms.harvard.edu">高橋重成</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2018.062">10.7875/first.author.2018.062</a><br><div class="reference"><br><span class="ti">Cancer cells co-opt the neuronal redox-sensing channel TRPA1 to promote oxidative-stress tolerance.</span><br><span class="au">Nobuaki Takahashi, Hsing-Yu Chen, Isaac S. Harris, Daniel G. Stover, Laura M. Selfors, Roderick T. Bronson, Thomas Deraedt, Karen Cichowski, Alana L. Welm, Yasuo Mori, Gordon B. Mills, Joan S. Brugge</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/29805077" target="_blank"><em>Cancer Cell</em>, <strong>33</strong>, 985-1003.e7 (2018)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　がん細胞は本来は細胞が生存できないようなさまざまなストレスにさらされており，厳しい環境においても増殖あるいは生存できるような変化，すなわち，ストレス応答能を発がんの過程において獲得している．がん細胞は通常の細胞に比べ高いレベルの活性酸素種にさらされているため，酸化ストレスに対する耐性はがん細胞にとり欠くことのできない重要な機能である．また，放射線治療や一部の化学療法は活性酸素種を発生させることによりがん細胞を攻撃するため，酸化ストレスに対する耐性は治療への抵抗性とも深くかかわる．しかし，がん細胞がどのような機構により酸化ストレスに対する耐性を示すのか，その詳細は明らかにされていない．この研究において，筆者らは，おもに感覚神経において活性酸素種のセンサーとして機能するCa<sup>2+</sup>透過型の陽イオンチャネルであるTRPA1について，多くのがん細胞において発現が上昇しており，酸化ストレスに対する耐性を亢進させることにより，がんの増殖および治療への抵抗性をひき起こすことを明らかにした．この発見により，これまで知られていた活性酸素種を消去する抗酸化系にくわえ，TRPA1を介した酸化ストレスに対する耐性という新たな機能の存在が示された．<br/><br/><h2>はじめに</h2><br/>　好気性生物は生命の維持に必要なエネルギーを得るためミトコンドリアにおいてたえず酸素を消費する．これらの酸素の一部は代謝の過程において反応性の高い活性酸素種に変換されるため，これを消去する抗酸化系は好気性生物にとり欠くことのできない機能である．とくに，がん細胞は高い増殖性などさまざまな理由から，通常の細胞に比べ高いレベルの活性酸素種にさらされている．くわえて，細胞外マトリックスからの遊離はさらなる活性酸素種の産生をひき起こすため，がん細胞の特徴である足場に非依存的な増殖においてはとりわけ酸化ストレスに対する耐性が重要である<a href="#R1"><sup>1)</sup></a>．<br/>　近年，発がんおよびがんの転移の過程において抗酸化系が必須であることがあいついで報告され<a href="#R2"><sup>2,3)</sup></a>，がんの分野における酸化ストレスに対する耐性にさらなる注目があつまっている．しかし，抗酸化系を標的にしたがんの治療法は通常の細胞に対する毒性が高く，臨床試験においても良好な結果は得られていない．<br/>　抗酸化系における重要な制御タンパク質として，酸化ストレスにより発現の誘導される転写因子NRF2があげられる．NRF2は1997年に同定され<a href="#R4"><sup>4)</sup></a>，さまざまな抗酸化タンパク質の発現を誘導する．また，近年，NRF2は抗酸化タンパク質のみならず，解糖系にかかわるタンパク質の発現を誘導することが明らかにされ<a href="#R5"><sup>5)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/5262" target="_blank">新着論文レビュー</a> でも掲載），代謝の観点からも注目されている．NRF2それ自体は酸化のセンサーとして機能するわけではなく，NRF2結合タンパク質であるKEAP1がセンサーとしてはたらきNRF2の活性を制御する．ここ数年，NRF2の恒常的な活性化をひき起こす<em>NFE2L2</em>遺伝子あるいは<em>KEAP1</em>遺伝子の変異および欠損がさまざまながんにおいて高頻度に認められることが明らかにされ，また，NRF2は発がんおよびがんの増殖に必須であることが明らかにされたため，がんの分野において非常に注目されている．<br/>　われわれのからだにはKEAP1-NRF2系のほかにも酸化ストレスを感知あるいは応答するいくつかの系が備わっている．筆者らの研究グループは，細胞の内外のさまざまな環境の変化を感知するCa<sup>2+</sup>透過型の陽イオンチャネルであるTRPチャネルの一部が，細胞における酸化のセンサーとして機能することを明らかにした<a href="#R6"><sup>6,7)</sup></a>（文献<a href="#R7"><sup>7)</sup></a> は <a href="http://first.lifesciencedb.jp/archives/3598" target="_blank">新着論文レビュー</a> でも掲載）．なかでも，おもに感覚神経や迷走神経の末梢側の神経終末に発現するTRPA1は酸化に対しもっとも高い感受性を示し<a href="#R7"><sup>7)</sup></a>，活性酸素種を含む内因性の炎症に関連する物質およびワサビの辛み成分であるアリルイソチオシアネート<a href="#R8"><sup>8)</sup></a> などの外因性の物質を感知し，疼痛，咳，呼吸活動の変化などの生体防御応答をひき起こす．また，TRPA1はいくつかの抗がん剤によっても活性化し，抗がん剤の投与にともなう疼痛にも関与する<a href="#R9"><sup>9,10)</sup></a>．ごく最近，TRPA1を含むいくつかのTRPチャネルの発現が一部のがんにおいて上昇していることが報告された<a href="#R11"><sup>11)</sup></a>．しかし，がんにおけるTRPチャネルの存在意義については事実上まったく明らかにされていなかった．細胞へのCa<sup>2+</sup>の流入にともないひき起こされるCa<sup>2+</sup>シグナルは増殖をはじめとするさまざまな細胞応答を惹起することが知られているため，酸化に感受性をもつTRPチャネルに着目したがんの研究はきわめて重要な課題であると考えられた．<br/><br/><h2>1．TRPA1の発現はさまざまながんにおいて上昇している</h2><br/>　米国におけるがんゲノムに関する大型のプロジェクトであるThe Cancer Genome Atlas（TCGA）から公開されているデータにもとづき，28種類すべてのTRPチャネルのmRNAレベルでの発現をさまざまながんにおいて解析した結果，乳がん，腎がん，肺がんなどいくつかのがんにおいてTRPA1の発現がもっとも上昇していることが明らかにされた．また，ヒトの乳がんおよび肺がんに由来する切片を用いた免疫組織染色法により，TRPA1の発現はタンパク質のレベルでも上昇していることが確認された．さらに，TRPA1はさまざまながん細胞株においても高く発現し，TRPA1を特異的に活性化するアリルイソチオシアネートを用いたCa<sup>2+</sup>イメージング法により，TRPA1がこれらの細胞株において機能的に発現していることが明らかにされた．<br/><br/><h2>2．TRPA1は細胞外マトリックスの遊離にともない産生される活性酸素種により活性化されアポトーシスを抑制する</h2><br/>　以前に，筆者らの研究グループは，がん細胞を3次元培養した際に形成される球状の密集体の内部の細胞外マトリックスから遊離した細胞においては，活性酸素種が高レベルで蓄積していることを見い出していた<a href="#R1"><sup>1)</sup></a>．そこで，TRPA1を高発現しているがん細胞を3次元培養し，活性酸素種およびCa<sup>2+</sup>をイメージングしたところ，TRPA1は活性酸素種の産生量には変化をおよぼさない一方，活性酸素種によるチャネルの活性化を介して細胞にCa<sup>2+</sup>を流入させることが見い出された．<br/>　TRPA1を介した細胞におけるCa<sup>2+</sup>濃度の上昇がどのような細胞応答をひき起こすかを検討した．その結果，TRPA1は球状の密集体の内部においてひき起こされるアポトーシスをいちじるしく抑制することが明らかにされた．また，TRPA1のノックダウン，あるいは，TRPA1の阻害剤を処理したうえ，長期間にわたりがん細胞を3次元培養すると，内部に空洞をもつ球状の構造になった．以上のように，TRPA1は細胞外マトリックスの遊離にともない産生される活性酸素種により活性化し，細胞へのCa<sup>2+</sup>の流入をひき起こすことにより，アノイキス（anoikis，足場の欠損によるアポトーシス）を抑制することが示された（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　TRPA1を介したアノイキスの抑制機構のモデル</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Cancer-Cell-18.5.24-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　TRPA1を介したアノイキスの抑制機構のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Cancer-Cell-18.5.24-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Cancer-Cell-18.5.24-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．TRPA1の阻害剤の投与はがんの増殖を抑制し抗がん剤の効果を向上させる</h2><br/>　TRPA1のノックダウン，あるいは，経口投与の可能なTRPA1の阻害剤であるAM-0902ががんの増殖におよぼす影響について，患者に由来する異種移植マウスモデルにより評価した結果，TRPA1のノックダウンあるいはTRPA1の阻害剤はアポトーシスを亢進させがんの大きさを有意に減少させることが見い出された．<br/>　一部の化学療法は活性酸素種を発生させることによりがん細胞を攻撃するため，抗がん剤によるTRPA1の活性化は治療に対する抵抗性にかかわる可能性が考えられた．そこで，TRPA1がプラチナ製剤の一種であるカルボプラチンに対する抵抗性に関与するかどうか調べた結果，TRPA1のノックダウンあるいはTRPA1の阻害剤はカルボプラチンによるアポトーシスを亢進させ，がんの大きさのさらなる低下をひき起こすことが見い出された．<br/>　免疫組織染色法および生化学的な手法によりがんにおける酸化の状態を評価した結果，TRPA1はがんにおける酸化の状態およびカルボプラチンによる活性酸素種の産生の増加に影響をおよぼさないこと明らかにされた．以上より，TRPA1は抗酸化系とは独立して，抗アポトーシスを介した酸化ストレスに対する耐性を亢進させることがわかった．<br/><br/><h2>4．TRPA1を介した細胞へのCa<sup>2+</sup>の流入はRAS-ERK-AKT-mTORシグナル伝達経路の活性化を介し抗アポトーシスタンパク質の発現を誘導する</h2><br/>　逆相タンパク質アレイ法を用いた網羅的な解析の結果，TRPA1を介した細胞へのCa<sup>2+</sup>の流入がRAS-ERK-AKT-mTORシグナル伝達経路を活性化することが明らかにされた．くわえて，抗アポトーシスタンパク質であるMCL-1の発現も上昇させた．<br/>　特異的な阻害剤および遺伝子のノックダウン法を用いた個別のアッセイにより，細胞へのCa<sup>2+</sup>の流入はCa<sup>2+</sup>感受性キナーゼであるPYK2の活性化を介しRAS-ERK-AKT-mTORシグナル伝達経路を活性化させることが見い出された．また，ヒトの乳がんにおいても，TRPA1の発現量とRAS-ERK-AKT-mTORシグナル伝達経路の活性化およびMCL-1の発現量とのあいだに正の相関がみられた．<br/><br/><h2>5．がん細胞においてNRF2はTRPA1の発現を直接的に誘導する</h2><br/>　酸化ストレスがTRPA1の発現を誘導するかどうか検討した．TRPA1の発現のレベルの低いがん細胞株に活性酸素種の一種であるH<sub>2</sub>O<sub>2</sub>を処理したところ，TRPA1の発現が上昇した．ヒトの乳がんおよび肺がんにおいてTRPA1の発現と強い相関の認められる遺伝子を探索したところ，NRF2により制御される一連の抗酸化タンパク質をコードする遺伝子がヒットした．つまり，活性酸素種によるNRF2の活性化によりTRPA1の発現が誘導される可能性が示唆された．実際に，NRF2のノックダウンにより，活性酸素種によるTRPA1の発現の誘導は劇的に低下した．<br/>　肺がんや頭頸部がんのおよそ20～30%において，NRF2の恒常的な活性化をひき起こす遺伝子の変異および欠損が認められる（乳がんにおいては，ほとんど認められていない）．<em>NFE2L2</em>遺伝子あるいは<em>KEAP1</em>遺伝子に変異の認められる肺がんや頭頸部がんにおいては，これらの遺伝子に変異の認められないがんと比べ，TRPA1の発現量が有意に増大していた．さらに，TRPA1を高発現する肺がん細胞株のすべてにおいて，NRF2の恒常的な活性化をひき起こす<em>KEAP1</em>遺伝子の変異が認められた．つまり，NRF2の恒常的な活性化がこれらの肺がん細胞株におけるTRPA1の発現に必須である可能性が示唆された．実際に，これらの肺がん細胞株においてNRF2をノックダウンしたところ，TRPA1の発現は劇的に低下した．以上より，活性酸素種によるNRF2の活性化にくわえ，<em>NFE2L2</em>遺伝子あるいは<em>KEAP1</em>遺伝子の変異にともなうNRF2の恒常的な活性化もTRPA1の発現を制御することが示された．さきに述べたとおり，乳がんにおいてNRF2の恒常的な活性化をひき起こす遺伝子の変異はほとんど認められないが，10%～20%の乳がんにおいて<em>TRPA1</em>遺伝子の増幅が確認されており（肺がんにおいては，ほとんど認められていない），乳がんにおいては<em>TRPA1</em>遺伝子の増幅がその発現の誘導に重要であると思われた（<a href="#F2">図2</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　乳がんおよび肺がんにおけるTRPA1の発現の誘導のモデル</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Cancer-Cell-18.5.24-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　乳がんおよび肺がんにおけるTRPA1の発現の誘導のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Cancer-Cell-18.5.24-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Takahashi-Cancer-Cell-18.5.24-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　NRF2が直接的にTRPA1の発現を誘導するのかどうか，ChIP-seq法による解析の結果，<em>TRPA1</em>遺伝子の上流および下流の2箇所にNRF2の結合が認められた．そこで，CRISPR-Cas9法によるゲノム編集によりこのNRF2結合部位に変異を導入し，NRF2との結合およびTRPA1の発現におよぼす影響について評価した．その結果，NRF2結合部位の変異はNRF2との結合を減弱させただけでなく，H<sub>2</sub>O<sub>2</sub>によるTRPA1の発現の誘導およびNRF2の恒常的な活性化にともなうTRPA1の発現の誘導を劇的に抑制させた．以上の結果より，NRF2はTRPA1の発現を直接的に制御することが示された．<br/>　NRF2は抗酸化系を亢進することが知られているが，今回の発見により，TRPA1を介した酸化ストレスに対する耐性という抗酸化系に非依存的な機能までも亢進することが明らかにされた．このように，がん細胞は抗酸化系による活性酸素種の消去および酸化ストレスに対する耐性という2つの機能を亢進させることにより，厳しい酸化ストレスのもとにおいても増殖あるいは生存できるような戦略をとるものと思われた（<a href="#F2">図2</a>）．<br/><br/><h2>おわりに</h2><br/>　PubMedにてCa<sup>2+</sup>，channel，cancerというキーワードでここ10年間の論文数を調べると約300報しか存在しない．一方，同じ膜タンパク質である受容体，たとえば，growth factor receptorについて検索すると6万5千報もの論文が存在する．このように，Ca<sup>2+</sup>は細胞においてセカンドメッセンジャーとしてさまざまな細胞応答をひき起こすことが知られる一方，がんの分野においてはこれまであまり注目されていなかった．今回の研究を期に，イオンチャネルとがんという新たな研究領域の発展に貢献できたらと願っている．<br/>　今回の発見は，TRPA1を標的としたがんの新たな治療法の確立に貢献する可能性がある．TRPA1の阻害剤は疼痛および喘息の新規の治療薬として米国において臨床試験中であり，現在のところ，中枢神経系を含めたおもだった副作用は報告されていない．そのため，TRPA1を標的とした新規のがん治療薬は臨床へと迅速に応用されるかもしれない．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Schafer, Z. T., Grassian, A. R., Song, L. et al.</span>: <span class="ti">Antioxidant and oncogene rescue of metabolic defects caused by loss of matrix attachment.</span> <span class='so'>Nature, 461, 109-113 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19693011" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Harris, I. S., Treloar, A. E., Inoue, S. et al.</span>: <span class="ti">Glutathione and thioredoxin antioxidant pathways synergize to drive cancer initiation and progression.</span> <span class='so'>Cancer Cell, 27, 211-222 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25620030" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Piskounova, E., Agathocleous, M., Murphy, M. M. et al.</span>: <span class="ti">Oxidative stress inhibits distant metastasis by human melanoma cells.</span> <span class='so'>Nature, 527, 186-191 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26466563" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Itoh, K., Chiba, T., Takahashi, S. et al.</span>: <span class="ti">An Nrf2/small Maf heterodimer mediates the induction of phase II detoxifying enzyme genes through antioxidant response elements.</span> <span class='so'>Biochem. Biophys. Res. Commun., 236, 313-322 (1997)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9240432" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Mitsuishi, Y., Taguchi, K., Kawatani, Y. et al.</span>: <span class="ti">Nrf2 redirects glucose and glutamine into anabolic pathways in metabolic reprogramming.</span> <span class='so'>Cancer Cell, 22, 66-79 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22789539" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/5262" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R6"><span class='au'>Yoshida, T., Inoue, R., Morii, T. et al.</span>: <span class="ti">Nitric oxide activates TRP channels by cysteine S-nitrosylation.</span> <span class='so'>Nat. Chem. Biol., 2, 596-607 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16998480" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Takahashi, N., Kuwaki, T., Kiyonaka, S. et al.</span>: <span class="ti">TRPA1 underlies a sensing mechanism for O<sub>2</sub>.</span> <span class='so'>Nat. Chem. Biol., 7, 701-711 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21873995" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/3598" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R8"><span class='au'>Jordt, S. E., Bautista, D. M., Chuang, H. H. et al.</span>: <span class="ti">Mustard oils and cannabinoids excite sensory nerve fibres through the TRP channel ANKTM1.</span> <span class='so'>Nature, 427, 260-265 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/14712238" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Nassini, R., Gees, M., Harrison, S. et al.</span>: <span class="ti">Oxaliplatin elicits mechanical and cold allodynia in rodents via TRPA1 receptor stimulation.</span> <span class='so'>Pain, 152, 1621-1631 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21481532" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Miyake, T., Nakamura, S., Zhao, M. et al.</span>: <span class="ti">Cold sensitivity of TRPA1 is unveiled by the prolyl hydroxylation blockade-induced sensitization to ROS.</span> <span class='so'>Nat. Commun., 7, 12840 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27628562" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Park, Y. R., Chun, J. N., So, I. et al.</span>: <span class="ti">Data-driven analysis of TRP channels in cancer: linking variation in gene expression to clinical significance.</span> <span class='so'>Cancer Genomics Proteomics, 13, 83-90 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26708603" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=GEO" target="_blank">GEO</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=Ensembl" target="_blank">Ensembl</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=RNA-seq" target="_blank">RNA-seq</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=ChIP-seq" target="_blank">ChIP-seq</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=R" target="_blank">R</a></li><br><li><a href="http://togotv.dbcls.jp/ja/?search=The Cancer Genome Atlas" target="_blank">The Cancer Genome Atlas</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">高橋 重成（Nobuaki Takahashi）</span><br>略歴：2010年 京都大学大学院工学研究科博士課程 修了，同年 京都大学先端医工学研究ユニット 特定助教，2014年 米国Harvard Medical School博士研究員を経て，2015年より同Instructor．<br><br><strong>森  泰生（Yasuo Mori）</strong><br>京都大学大学院工学研究科 教授．<br><br><strong>Joan S. Brugge</strong><br>米国Harvard Medical SchoolにてProfessor．<br>研究室URL：<a href="https://brugge.med.harvard.edu/" target="_blank">https://brugge.med.harvard.edu/</a><br></div><br>© 2018 高橋重成・森 泰生・Joan S. Brugge Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

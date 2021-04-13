@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> CNS2エンハンサーは濾胞性ヘルパーT細胞によるインターロイキン4に依存性の液性免疫応答を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>CNS2エンハンサーは濾胞性ヘルパーT細胞によるインターロイキン4に依存性の液性免疫応答を制御する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>原田陽介・久保允人</strong><br>（東京理科大学生命科学研究所 分子病態学研究部門）<br>email：<a href="mailto:yohsuke@rs.noda.tus.ac.jp">原田陽介</a>，<a href="mailto:raysolfc@rcai.riken.jp">久保允人</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2012.042">10.7875/first.author.2012.042</a><br><div class="reference"><br><span class="ti">The 3' enhancer CNS2 is a critical regulator of interleukin-4-mediated humoral immunity in follicular helper T cells.</span><br><span class="au">Yohsuke Harada, Shinya Tanaka, Yasutaka Motomura, Yasuyo Harada, Shin-ichiro Ohno, Shinji Ohno, Yusuke Yanagi, Hiromasa Inoue, Masato Kubo</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22365664" target="_blank"><em>Immunity</em>, <strong>36</strong>, 188-200 (2012)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　2型ヘルパーT細胞により産生されるインターロイキン4はB細胞に作用して抗体の産生，とくに，免疫グロブリンG1あるいは免疫グロブリンEへのクラススイッチを誘導する重要なサイトカインであり，また，2型ヘルパーT細胞によるインターロイキン4の産生は免疫グロブリンEの産生に必須であることからアレルギー病態の形成に深くかかわるサイトカインとも考えられている．しかしながら，免疫グロブリンG1や免疫グロブリンEがどこでどのようにつくられるのかという，ごくあたりまえのことも明らかにされていないのが現状である．B細胞が抗体をつくる場としてB細胞の濾胞，とくに，胚中心が想定されており，このB細胞の濾胞に局在するT細胞として濾胞性ヘルパーT細胞の存在が注目されている．濾胞性ヘルパーT細胞も2型ヘルパーT細胞と同様にインターロイキン4を産生するヘルパーT細胞である．では，濾胞性ヘルパーT細胞は2型ヘルパーT細胞とどこが違うのだろうか．また，濾胞性ヘルパーT細胞から産生されたインターロイキン4は2型ヘルパーT細胞から産生されたインターロイキン4とどのような役割の違いがあるのだろうか．今回，筆者らは，この疑問に答えるべく，インターロイキン4遺伝子の発現制御にかかわるさまざまな非転写ゲノム領域を欠失させた遺伝子改変マウスを作製し，その領域とインターロイキン4遺伝子の発現および抗体の産生との関係性を調べた．その結果，インターロイキン4遺伝子に存在するCNS2という進化的に非常によく保存されたエンハンサー領域が濾胞性ヘルパーT細胞において特異的にはたらくことにより，抗体の産生にはたらくインターロイキン4の発現を制御していることを明らかにした．また，アレルギー反応に関与するインターロイキン4の発現と抗体の産生に関与するインターロイキン4の発現とはまったく異なる分子機構により制御されていることがわかった．<br/><br/><h2>はじめに</h2><br/>　T細胞から産生されるインターロイキン4はT細胞に依存性の液性免疫に重要なサイトカインであり，B細胞の増殖と生存，そして，免疫グロブリンG1あるいは免疫グロブリンEへのクラススイッチを誘導することが知られている<a href="#R1"><sup>1)</sup></a>．インターロイキン4を産生するおもなT細胞サブセットとしてはこれまで2型ヘルパーT細胞が知られ，この細胞が液性免疫を担うヘルパーT細胞として認識されていた<a href="#R2"><sup>2)</sup></a>．しかし，近年の研究から，新たなT細胞サブセットとして濾胞性ヘルパーT細胞（follicular helper T cell：Tfh）が同定され，この細胞がB細胞への作用に特化したT細胞として認識されるようになってきた<a href="#R3"><sup>3,4)</sup></a>．濾胞性ヘルパーT細胞はB細胞の濾胞に移行し，インターロイキン4，インターロイキン21，インターフェロンγを産生することでB細胞の増殖，クラススイッチ，抗体産生細胞やメモリー細胞への分化を制御しているものと考えられている．これらB細胞の機能分化は胚中心とよばれる場所で起こるが，濾胞性ヘルパーT細胞のない環境では胚中心の形成は阻害されることがわかっている<a href="#R5"><sup>5,6)</sup></a>．濾胞性ヘルパーT細胞は2型ヘルパーT細胞と同様にインターロイキン4を産生するが，2型ヘルパーT細胞への分化とインターロイキン4遺伝子の発現制御に必須である転写因子GATA3の発現レベルは2型ヘルパーT細胞に比べ非常に低い<a href="#R7"><sup>7)</sup></a>．また，2型ヘルパーT細胞はGATA3に依存的にインターロイキン5とインターロイキン13を産生するが，濾胞性ヘルパーT細胞はこれらのサイトカインをほとんど産生しない．これらの事実から，濾胞性ヘルパーT細胞におけるインターロイキン4遺伝子の転写制御の機構は2型ヘルパーT細胞とは異なることが示唆されていた．また，2型ヘルパーT細胞から産生されるインターロイキン4と濾胞性ヘルパーT細胞から産生されるインターロイキン4にどのような役割の違いがあるのかもいまのところ不明である．今回の筆者らの研究から，インターロイキン4遺伝子の3’側に存在するCNS2とよばれるエンハンサー領域が濾胞性ヘルパーT細胞におけるインターロイキン4遺伝子の発現に必須であり，濾胞性ヘルパーT細胞から産生されるインターロイキン4が液性免疫応答に重要な役割をはたしていることが明らかになった．<br/><br/><h2>1．CNS2領域は免疫グロブリンG1と免疫グロブリンEの産生を制御する</h2><br/>　多くの遺伝子の転写はクロマチンの構造変化をともなうヒストンの修飾やDNAメチル化などのエピジェネティックな制御により制御されている．クロマチンの構造変化にともないDNaseIに高感受性を示す部位（hypersensitive site：HS）が出現するが，インターロイキン4遺伝子にはこれまで複数のDNaseI高感受性部位が報告されている<a href="#R8"><sup>8)</sup></a>．このような部位には転写因子が結合しやすく，また，これらの多くが保存された非コード配列（conserved non-coding sequence：CNS）と一致しているため，これらDNaseI高感受性部位がインターロイキン4遺伝子の転写制御にかかわっていることが考えられた．筆者らはこれまでに，インターロイキン4遺伝子の転写制御を解析する目的で，その制御にかかわると考えられるさまざまな非転写ゲノム領域を欠損させた複数の遺伝子改変マウスを作製してきた．そして，これら遺伝子改変マウスの解析から，インターロイキン4遺伝子の第2イントロンに存在するHS2領域が2型ヘルパーT細胞におけるGATA3に依存性の転写に必須であることを明らかにした<a href="#R9"><sup>9)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/1800" target="_blank">新着論文レビュー</a> でも掲載）．一方，インターロイキン4遺伝子の3’側に存在するCNS2領域の欠損は2型ヘルパーT細胞におけるインターロイキン4遺伝子の発現にはほとんど影響がなかった．また，2型ヘルパーT細胞によりひき起こされるアレルギー性喘息はHS2ノックアウトマウスでは症状が顕著に減弱したが，CNS2ノックアウトマウスではわずかに亢進していた．しかしながら，HS2ノックアウトマウスとCNS2ノックアウトマウスの血清における抗体の濃度を測定したところ，免疫グロブリンG1と免疫グロブリンEの産生量がともに顕著に減弱していた．これらの結果から，インターロイキン4遺伝子のHS2領域は2型ヘルパーT細胞型のアレルギー反応と抗体の産生の両方に重要であるが，CNS2領域は2型ヘルパーT細胞型のアレルギー反応には関与しないが抗体の産生に対し重要な役割を担っていることが示唆された．<br/><br/><h2>2．CNS2領域が活性化した細胞は濾胞性ヘルパーT細胞と同様の性質を示す</h2><br/>　なぜ，CNS2領域の欠損は2型ヘルパーT細胞型のアレルギー反応に影響がないにもかかわらず，抗体の産生に大きな影響を及ぼすのだろうか．この疑問を解決するため，CNS2領域がどのような細胞において活性化されているのかをCNS2-GFPレポーターマウスを用いて検討することにした．このレポーターマウスではCNS2領域の活性化をGFPの発現を指標として可視化することが可能である<a href="#R10"><sup>10)</sup></a>．まず，CNS2領域は2型ヘルパーT細胞において活性化されていなかったが，この結果は，2型ヘルパーT細胞からのインターロイキン4遺伝子の発現はCNS2領域の活性化をともなわないことを示唆していた．つぎに，このレポーターマウスからさまざまなリンパ組織を取り出しCNS2領域の活性化しているCD4陽性T細胞の割合を調べたところ，パイエル板において突出して高い割合にて存在していることが明らかになった．パイエル板は腸管の微生物相から継続的に抗原の刺激を受け取っており，濾胞性ヘルパーT細胞の分化と胚中心の形成が恒常的に誘導されている．このパイエル板に存在する濾胞性ヘルパーT細胞について調べたところ，その半分近くでCNS2領域が活性化していた．また，CNS2領域の活性化したT細胞は，T細胞領域にはほとんどみられず，B細胞の濾胞および胚中心に多く存在していることがわかった．CNS2領域の活性化した細胞は濾胞性ヘルパーT細胞に特徴的なBcl6，CXCR5，PD-1，ICOS，インターロイキン4，インターロイキン21などの発現が高く，一方，2型ヘルパーT細胞に特徴的なGATA3，インターロイキン5，インターロイキン13の発現はナイーブT細胞と同じ程度であった．これらの結果から，パイエル板に存在するCNS2領域の活性化したT細胞は，2型ヘルパーT細胞というより濾胞性ヘルパーT細胞であることがわかった．<br/><br/><h2>3．濾胞性ヘルパーT細胞におけるCNS2領域の活性化はクラススイッチに必要である</h2><br/>　CNS2領域が濾胞性ヘルパーT細胞において活性化されていることが明らかになったため，濾胞性ヘルパーT細胞におけるCNS2領域の役割をCNS2ノックアウトマウスを用いて調べることにした．CNS2ノックアウトマウスに由来するT細胞をT細胞を欠損したマウスに移入したところ，濾胞性ヘルパーT細胞に正常に分化しBcl6やインターロイキン21などの発現は野生型マウスと変わりなかった．しかし，インターロイキン4遺伝子の発現はCNS2を欠損した濾胞性ヘルパーT細胞において顕著に減弱していた．また，B細胞による胚中心の形成の誘導には影響はなかったが，免疫グロブリンG1と免疫グロブリンEの産生が減少していた．以上の結果は，CNS2領域が濾胞性ヘルパーT細胞におけるインターロイキン4遺伝子の発現を制御していること，そして，濾胞性ヘルパーT細胞から供給されるインターロイキン4が免疫グロブリンG1あるいは免疫グロブリンEへのクラススイッチに必須であることを示していた．<br/><br/><h2>4．CNS2領域の活性化した濾胞性ヘルパーT細胞はナイーブCD4陽性T細胞から発生する</h2><br/>　CNS2領域の活性化したT細胞は胸腺にも存在している<a href="#R10"><sup>10)</sup></a>．この結果から，CNS2領域の活性化した濾胞性ヘルパーT細胞は胸腺において分化する可能性と，ほかのヘルパーT細胞サブセットと同様に末梢においてナイーブCD4陽性T細胞から分化する可能性の2つが考えられた．そこで，CNS2領域の活性化していないナイーブCD4陽性T細胞をT細胞を欠損したマウスに移入し，パイエル板においてCNS2領域の活性化した濾胞性ヘルパーT細胞が分化しうるかどうかを検討した．CNS2-GFPレポーターマウスに由来するCNS2領域の活性化していないCD4陽性T細胞は，パイエル板においてその一部がCNS2領域の活性化したT細胞に分化していることが観察された．この結果は，CNS2領域の活性化した濾胞性ヘルパーT細胞は，腸管の微生物相からの刺激によりナイーブCD4陽性T細胞から分化する可能性を示唆していた．<br/>　そこで，CNS2領域の活性化した濾胞性ヘルパーT細胞は抗原の刺激により分化するのかどうかを検討した．マウスを卵白アルブミンで免疫し，卵白アルブミンに特異的なT細胞受容体をもつナイーブT細胞からCNS2領域の活性化したT細胞が出現するかどうかを経時的に観察した．免疫ののち3日目にはCNS2領域の活性化したT細胞が出現しはじめ，7日目には約75％の濾胞性ヘルパーT細胞においてCNS2領域が活性化していた．これらの結果から，CNS2領域の活性化した濾胞性ヘルパーT細胞はナイーブCD4陽性T細胞から抗原の刺激により分化することが明らかになった．<br/><br/><h2>おわりに</h2><br/>　2型ヘルパーT細胞の産生するインターロイキン4が免疫グロブリンG1，そして，アレルギーに関与する免疫グロブリンEの産生を誘導するということが，これまで長らくこの研究分野におけるドグマであった．しかし，濾胞性ヘルパーT細胞の登場により，B細胞の濾胞の外に存在する2型ヘルパーT細胞から産生されるインターロイキン4がこれらの免疫グロブリンの産生の制御を行っているのか，または，B細胞の濾胞の内部に存在する濾胞性ヘルパーT細胞から産生されるインターロイキン4がその役割を担っているのか，という新たな疑問が生じてきた．また，インターロイキン4遺伝子の発現制御の機構はこれまで2型ヘルパーT細胞を材料として詳細な解析が行われてきたが，その中心的な役割を担う転写因子GATA3の発現は濾胞性ヘルパーT細胞においては低く，濾胞性ヘルパーT細胞におけるインターロイキン4遺伝子の発現制御は2型ヘルパーT細胞とは異なるものと考えられていた．今回の研究から，濾胞性ヘルパーT細胞は2型ヘルパーT細胞とは異なり，インターロイキン4遺伝子のもつCNS2領域をエンハンサーとしてその発現を制御していること，また，免疫グロブリンG1および免疫グロブリンEの産生の誘導は2型ヘルパーT細胞よりも濾胞性ヘルパーT細胞によりおもに担われていることが示唆された（<a href="#F1">図1</a>）．この研究により，抗体の産生を制御する新たな分子機構が明らかになったが，この発見は効率的なワクチンや新規の抗アレルギー薬の開発にも貢献することが期待される．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　抗体の産生におけるインターロイキン4遺伝子のもつCNS2領域の役割</strong><br/>T細胞領域において樹状細胞により抗原の提示をうけた抗原に特異的なT細胞は，その一部が転写因子Bcl6，さらに，ケモカイン受容体CXCR5を発現することによりB細胞の濾泡に移行し濾胞性ヘルパーT細胞（Tfh細胞）となる．濾胞性ヘルパーT細胞の一部はインターロイキン4遺伝子のもつCNS2領域を活性化させ胚中心においてインターロイキン4遺伝子を発現する．産生されたインターロイキン4を受け取ったB細胞では免疫グロブリンG1（IgG1）あるいは免疫グロブリンE（IgE）へのクラススイッチが誘導され，さらに，免疫グロブリンG1あるいは免疫グロブリンEを産生する細胞へと分化していく．<br/>IL-4：インターロイキン4．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kubo-Immunity-12.2.23-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　抗体の産生におけるインターロイキン4遺伝子のもつCNS2領域の役割" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kubo-Immunity-12.2.23-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kubo-Immunity-12.2.23-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Snapper, C. M., Finkelman, F. D. & Paul, W. E.</span>: <span class="ti">Regulation of IgG1 and IgE production by interleukin 4.</span> <span class='so'>Immunol. Rev., 102, 51-75 (1988)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/3284816" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Coffman, R. L., Lebman, D. A. & Rothman, P.</span>: <span class="ti">Mechanism and regulation of immunoglobulin isotype switching.</span> <span class='so'>Adv. Immunol., 54, 229-270 (1993)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8379463" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Crotty, S.</span>: <span class="ti">Follicular helper CD4 T cells (TFH).</span> <span class='so'>Annu. Rev. Immunol., 29, 621-663 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21314428" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>King, C.</span>: <span class="ti">New insights into the differentiation and function of T follicular helper cells.</span> <span class='so'>Nat. Rev. Immunol., 9, 757-766 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19855402" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Nurieva, R. I., Chung, Y., Martinez, G. J. et al.</span>: <span class="ti">Bcl6 mediates the development of T follicular helper cells.</span> <span class='so'>Science, 325, 1001-1005 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19628815" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Johnston, R. J., Poholek A. C., DiToro, D. et al.</span>: <span class="ti">Bcl6 and Blimp-1 are reciprocal and antagonistic regulators of T follicular helper cell differentiation.</span> <span class='so'>Science, 325, 1006-1010 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19608860" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Yusuf, I., Kageyama, R., Monticelli, L. et al.</span>: <span class="ti">Germinal center T follicular helper cell IL-4 production is dependent on signaling lymphocytic activation molecule receptor (CD150).</span> <span class='so'>J. Immunol., 185, 190-202 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20525889" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Agarwal, S. & Rao, A.</span>: <span class="ti">Modulation of chromatin structure regulates cytokine gene expression during T cell differentiation.</span> <span class='so'>Immunity, 9, 765-775 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9881967" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Tanaka, S., Motomura, Y., Suzuki, Y. et al.</span>: <span class="ti">The enhancer HS2 critically regulates GATA-3-mediated <em>Il4</em> transcription in T<sub>H</sub>2 cells.</span> <span class='so'>Nat. Immunol., 12, 77-85 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21131966" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/1800" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R10"><span class='au'>Tanaka, S., Tsukada, J., Suzuki, W. et al.</span>: <span class="ti">The interleukin-4 enhancer CNS-2 is regulated by Notch signals and controls initial expression in NKT cells and memory-type CD4 T cells.</span> <span class='so'>Immunity, 24, 689-701 (2006)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16782026" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">原田 陽介（Yohsuke Harada）</span><br>略歴：2000年 北海道大学大学院薬学研究科博士課程 修了，同年 東京理科大学生命科学研究所 助手，2004年 米国La Jolla Institute for Allergy and Immunology博士研究員を経て，2010年より東京理科大学生命科学研究所 助教．<br>研究テーマ：T細胞による液性免疫の制御機構．<br><br><strong>久保 允人（Masato Kubo）</strong><br>東京理科大学生命科学研究所 教授．理化学研究所免疫アレルギー科学総合研究センター 客員主幹研究員 兼任．<br>研究室URL：<a href="http://www.rs.noda.tus.ac.jp/~ribsjm/kubolab/" target="_blank">http://www.rs.noda.tus.ac.jp/~ribsjm/kubolab/</a><br></div><br>© 2012 原田陽介・久保允人 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

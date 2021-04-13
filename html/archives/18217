@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> サブプレートニューロンから移動ニューロンへのシナプス伝達は大脳新皮質におけるニューロンの放射状移動を制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>サブプレートニューロンから移動ニューロンへのシナプス伝達は大脳新皮質におけるニューロンの放射状移動を制御する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>前田信明・丸山千秋</strong><br>（東京都医学総合研究所 神経回路形成プロジェクト）<br>email：<a href="mailto:maeda-nb@igakuken.or.jp">前田信明</a>，<a href="mailto:maruyama-ck@igakuken.or.jp">丸山千秋</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2018.053">10.7875/first.author.2018.053</a><br><div class="reference"><br><span class="ti">Synaptic transmission from subplate neurons controls radial migration of neocortical neurons.</span><br><span class="au">Chiaki Ohtaka-Maruyama, Mayumi Okamoto, Kentaro Endo, Minori Oshima, Noe Kaneko, Kei Yura, Haruo Okado, Takaki Miyata, Nobuaki Maeda</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/29674592" target="_blank"><em>Science</em>, <strong>360</strong>, 313-317 (2018)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　大脳新皮質の6層の構造は，その深部で生まれた多数の興奮性ニューロンが表層にむかい順に移動をくり返すことにより形成される．生まれた直後のニューロンは多数の突起を伸長し，多極性移動とよばれる方向性の定まらないゆっくりした移動を示す．そののち，この多極性ニューロンは，突然，双極性の形態に変換し，脳表にむかいすみやかに移動するようになる．この研究において，筆者らは，大脳新皮質においてもっとも早く生まれ成熟するサブプレートニューロンが，そののちに生まれる移動ニューロンの双極性の形態への変換を制御することを見い出した．この際，サブプレートニューロンは移動ニューロンに一過的にグルタミン酸作動性シナプスを形成し，NMDA受容体を介したシナプス伝達により双極性の形態への変換をひき起こすことが示唆された．<br/><br/><h2>はじめに</h2><br/>　大脳新皮質は運動制御，言語機能，思考など脳の高次機能をつかさどる領域であり，6つの細胞層から構成される．大脳新皮質の興奮性ニューロンは，脳室帯に存在する神経幹細胞である放射状グリアが分裂して生まれる．大脳新皮質の6層の構造は，このようにして生まれた多数の興奮性ニューロンが順に移動をくり返すことにより形成される<a href="#R1"><sup>1,2)</sup></a>（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　大脳新皮質におけるニューロンの放射状移動</strong><br/>放射状グリアが分裂して生まれた興奮性ニューロンは，まず，多極性移動によりゆっくり移動する．そののち，サブプレート層の直下に到達すると多極性-双極性変換が起こり，ロコモーションにより脳表にむかいすばやく移動する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Maeda-Science-18.4.20-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　大脳新皮質におけるニューロンの放射状移動" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Maeda-Science-18.4.20-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Maeda-Science-18.4.20-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　生まれた直後のニューロンは多数の突起を激しく伸縮させており，多極性ニューロンとよばれている．多極性ニューロンは，まず，明確な方向性を欠いた“多極性移動”という移動様式で脳室下帯から中間帯へとゆっくりと移動する．そののち，多極性ニューロンは，突然，先導突起および軸索を伸ばした双極性の形態に変化し（多極性-双極性変換），“ロコモーション”とよばれるすばやい移動様式で脳表にむかい移動するようになる．この際，移動ニューロンは形態のみならず接着性も変化させ，放射状グリアの突起である放射状グリア線維に接着しこれを足場として移動する．ロコモーションをおえたニューロンは皮質板に集積するが，あとから生まれたニューロンはさきに皮質板に到達したニューロンをのりこえていく．このようにして，早生まれのニューロンは大脳新皮質の深部に，遅生まれのニューロンはより表層部に分布する“inside-out”のパターンが形成される．このような一連の移動の過程はニューロンの放射状移動とよばれている<a href="#R1"><sup>1,2)</sup></a>．<br/>　近年，ニューロンの放射状移動に寄与する多くの遺伝子が同定され，そのうちのいくつかは滑脳症や敷石様皮質異形成など脳の奇形の原因遺伝子であることが明らかにされた<a href="#R3"><sup>3)</sup></a>．また，ニューロンの放射状移動の軽微な異常は統合失調症や自閉症の発病因子になることが示唆されている<a href="#R4"><sup>4,5)</sup></a>．したがって，ニューロンの放射状移動の分子機構の解明は，基礎科学において重要であるのみならず，これらの精神疾患あるいは神経疾患の病因の解明のためにも重要である．筆者らは，マウスの大脳新皮質をモデルとして，子宮内胎仔電気穿孔法，切片培養，電子顕微鏡による観察，イメージング技術など，種々の手法を用いてニューロンの放射状移動の分子機構を解析している．<br/>　なお，大脳新皮質における層構造の形成については，<a href="http://leading.lifesciencedb.jp/6-e004/" target="_blank">仲嶋 一範, 領域融合レビュー, <strong>6</strong>, e004 (2017)</a> も参照されたい．<br/><br/><h2>1．子宮内胎仔電気穿孔法による多極性-双極性変換の解析</h2><br/>　近年，子宮内胎仔電気穿孔法を用いて移動ニューロンを蛍光タンパク質により標識すると同時に，さまざまな遺伝子をノックダウンあるいはノックアウトしその影響を解析するという手法がさかんに使われるようになった．これまで，種々の細胞骨格関連タンパク質，転写因子，細胞外マトリックス関連タンパク質などのノックダウンあるいはノックアウトが実施されているが，その多くにおいて，多極性移動にとどまりロコモーションに移行しないという共通の表現型が観察されている<a href="#R2"><sup>2,6,7)</sup></a>．このことから，多極性-双極性変換は多数の遺伝子により厳密に制御されるきわめて重要な現象であることが示唆される．そこで，ニューロンの放射状移動の過程においてとくに多極性-双極性変換に注目し，その分子機構の解析を開始した．<br/>　まず，マウスの大脳を切片培養し，GFPにより標識した移動ニューロンのふるまいをタイムラプス撮影により詳細に観察した．その結果，多極性移動において脳表にむかいゆっくりと移動する多極性ニューロンは，サブプレート層の直下に到達するといったん移動を停止し，そこに約12時間とどまることが観察された（<a href="#F1">図1</a>）．そののち，突然，移動ニューロンは先導突起を伸長し，ロコモーションに移行した．このことから，多極性ニューロンはこの休止期にサブプレート層からなんらかのシグナルをうけとって双極性へと変換するのではないかと推測された．サブプレート層は皮質板と中間帯とにはさまれた領域であり，主としてコンドロイチン硫酸プロテオグリカンなどの細胞外マトリックスの成分，軸索束，サブプレートニューロンから構成される<a href="#R8"><sup>8-10)</sup></a>．サブプレートニューロンは大脳新皮質においてもっとも早く生まれ成熟するニューロンであり，大脳新皮質と視床のあいだの神経連絡の形成に寄与することが知られている．また，サブプレートニューロンは大脳新皮質の形成期に一過的に存在し生後は消失することから，大脳新皮質の発達の制御に特化したニューロンと考えられている<a href="#R8"><sup>8,9)</sup></a>．そこで，サブプレートニューロンがニューロンの放射状移動をも制御し，多極性-双極性変換をひき起こすシグナルを発するのではないかという作業仮説をたてた．<br/><br/><h2>2．サブプレートニューロンと移動ニューロンとのあいだのシナプスの発見</h2><br/>　移動ニューロンとサブプレートニューロンとのあいだの相互作用の実体を明らかにするため，同一の大脳の切片において，両者を異なる蛍光タンパク質により標識することを試みた．Lpar1-EGFPマウスの大脳新皮質においては一部のサブプレートニューロンがGFPを発現する．したがって，このトランスジェニックマウスを利用して胎生14日目に子宮内胎仔電気穿孔法によりRFPをコードする遺伝子を導入すると，RFP陽性の移動ニューロンとGFP陽性のサブプレートニューロンを同一の大脳の切片において観察できるようになる．この方法を適用した胎生16日目の胎仔から大脳の切片を作製しタイムラプス撮影により観察すると，サブプレートニューロンが中間帯にむかいさかんに軸索様の突起を伸ばすようすが観察された．さらに，この軸索様の突起は，サブプレート層の直下において移動ニューロンとからみあうように相互作用していた（<a href="#F2">図2</a>）．サブプレートニューロンの軸索様の突起にはen passantシナプスを思い起こさせる膨大部（varicosity）が多く存在したことから，移動ニューロンにシナプスが形成されるのではないかと推測した．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　多極性-双極性変換のモデル</strong><br/>サブプレート層の直下において，サブプレートニューロンは多極性の移動ニューロンとグルタミン酸作動性シナプスを形成する．シナプス伝達ののち多極性-双極性変換が起こり，ロコモーションが開始する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Maeda-Science-18.4.20-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　多極性-双極性変換のモデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Maeda-Science-18.4.20-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Maeda-Science-18.4.20-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　電子顕微鏡を用いて観察したところ，予想どおり，サブプレート層の直下の移動ニューロンの周囲にシナプス様の接着構造が検出された．この接着構造には，移動ニューロン側にシナプス後肥厚部と思われる膜肥厚部が存在し，その対側にはシナプス前部の活性帯と思われる膜肥厚部と平均して直径43 nmのシナプス小胞が観察された．さらに，この構造がサブプレートニューロンの突起と移動ニューロンとのあいだで形成されることが二重免疫電顕法を用いて確認された．このような接着構造は移動ニューロンの周囲に多く観察されたが，シナプス小胞はその20～30％にしか検出されず，そのほかは，あたかも形成あるいは変性の途上のシナプスであるかのような様相を示した．このことから，このシナプスは永続的なものではなく，サブプレートニューロンと移動ニューロンとのあいだに一過的に形成されて機能するものと推測された．<br/><br/><h2>3．サブプレートニューロンの神経活動</h2><br/>　胎生16日の時点において，サブプレートニューロンが移動ニューロンにシナプスを形成することが形態学的に明らかにされたが，このシナプスは実際に活動しているのだろうか．この疑問に答えるため，サブプレートニューロンの神経活動のイメージングを試みた．マウスのサブプレートニューロンは胎生10日目に脳室帯において生まれる．したがって，この時期に子宮内胎仔電気穿孔法を用いて蛍光タンパク質の遺伝子を導入すると，サブプレートニューロンが選択的に標識される．この際，同時にさまざまな機能タンパク質の発現プラスミドを導入すれば，サブプレートニューロンの神経活動の操作やイメージングが可能になる．この方法を用いてサブプレートニューロンにGCaMPをコードする遺伝子を導入した．胎生15日目に大脳を採取しCa<sup>2+</sup>イメージングを実施したところ，この時点ですでに，サブプレートニューロンは活発なCa<sup>2+</sup>スパイクを発生することが明らかにされた．さらに，Syp-pHluorinをコードする遺伝子をサブプレートニューロンに導入し，胎生16日目の大脳の切片を用いてエキソサイトーシスをイメージングした．Syp-pHluorinのシグナルは中間帯の上部からサブプレート層にかけて検出され，サブプレートニューロンはこの領域で活発にエキソサイトーシスを起こすことが示唆された．このシグナルは100 mM KClによる脱分極刺激により増強されたことから，シナプス伝達が特異的に検出されたものと判断された．また，この高K<sup>+</sup>条件においては，多数の顆粒状シグナルがサブプレート層の直下の細胞をおおうように分布した．この領域に存在する細胞はほとんどが多極性ニューロンであることから，このシグナルはサブプレートニューロンが多極性の移動ニューロンに形成したシナプスの活動が反映されたものと考えた．<br/>　さらに，移動ニューロンにGCaMPをコードする遺伝子を導入してCa<sup>2+</sup>イメージングを実施したが，この場合は，サブプレート層とその直下において細胞内Ca<sup>2+</sup>濃度の大きな上昇が検出された．また，このようなCa<sup>2+</sup>シグナルは，移動ニューロンが多極性-双極性変換を起こしロコモーションを開始する時期に選択的に検出された．以上のような観察から，サブプレートニューロンから多極性ニューロンへのシナプス伝達により，多極性ニューロンの細胞内Ca<sup>2+</sup>濃度が上昇し多極性-双極性変換が起こると推測された（<a href="#F2">図2</a>）．<br/><br/><h2>4．シナプス伝達によるニューロンの移動の制御</h2><br/>　このようなシナプス伝達の機能的な意義を明らかにすることを試みた．そのためには，サブプレートニューロンの神経活動を抑制するとともに，そのサブプレートニューロンの近傍に存在する移動ニューロンのふるまいを観察する必要がある．さきに述べた方法を用いてサブプレートニューロンにGFPをコードする遺伝子などを導入したのち，さらに同一の胎仔を用いて胎生14日目にRFPをコードする遺伝子を導入すると，今度は移動ニューロンが標識される．このように，同一の胎仔に2回にわたり電気穿孔法による遺伝子の導入をくり返すことにより，サブプレートニューロンと移動ニューロンとを異なる蛍光タンパク質で標識すると同時に，サブプレートニューロンの神経活動を選択的に抑制することが可能になる．<br/>　この二重電気穿孔法を用いてサブプレートニューロンに内向き整流性K<sup>+</sup>チャネルであるKir2.1を導入し，移動ニューロンに対する影響を観察した．サブプレートニューロンにKir2.1を過剰に発現させると興奮が抑制され，その結果，シナプス伝達が阻害されることが期待される．胎生17日目に大脳新皮質を観察すると，RFP陽性の移動ニューロンは，GFP陽性のサブプレートニューロンの分布するサブプレート層の直下に集積し，サブプレート層への侵入が阻害されていた．同様の表現型は，サブプレートニューロンにテタヌス毒素軽鎖を発現させ神経伝達物質の放出を抑制した場合にも観察された．これらの結果から，移動ニューロンがサブプレート層をのりこえるためには，サブプレートニューロンからシナプス入力をうける必要のあることが示唆された．<br/>　サブプレートニューロンはどのような神経伝達物質を用いてシナプス伝達をするのであろうか．免疫組織化学法により，サブプレートニューロンが移動ニューロンに形成するシナプス終末は，小胞性グルタミン酸トランスポーターであるVGLUT2に陽性であることが見い出された．このことから，このシナプスはグルタミン酸作動性であることが示唆された．そこで，移動ニューロンはどのようなグルタミン酸受容体を発現するのか，マイクロアレイを用いて解析した．その結果，多くのグルタミン酸受容体サブユニットの発現が確認されたが，なかでも，NMDA受容体の発現が移動にともない顕著に上昇することが明らかにされた．そこで，NMDA受容体の必須サブユニットであるNR1を移動ニューロンにおいて特異的にノックアウトしたところ，やはり，サブプレート層の直下において移動が阻害された．逆に，ケージドグルタミン酸を用いてサブプレート層の直下の多極性ニューロンの周囲にグルタミン酸を局所的に投与すると，多極性ニューロンはすみやかに双極性に変換されロコモーションを開始した．<br/>　以上のことから，以下のようなモデルが提唱された（<a href="#F2">図2</a>）．すなわち，サブプレート層の直下において，移動ニューロンはNMDA受容体を介してサブプレートニューロンからシナプス入力をうける．そして，それがきっかけとなり，多極性-双極性変換およびロコモーションがひき起こされると考えられた．今後，NMDA受容体の活性化の下流においてどのような現象が起こるのかという点が重要になるが，容易に想像できるのは，多極性-双極性変換にともなう細胞骨格の再編成であろう．さらに，移動ニューロンがサブプレート層を突破するためには，豊富な細胞外マトリックスを分解し接着性を変化させる必要があるかもしれない．また，Ca<sup>2+</sup>シグナルにより多数の遺伝子の発現も変化することが予想される．現在，これらの問題をひとつひとつ解析しているところである．<br/><br/><h2>おわりに</h2><br/>　これまで，シナプスは神経回路において成熟したニューロンどうしがシグナルをやりとりする場であると考えられてきた．この研究は，このような観念をくつがえし，未熟なニューロンの極性の変換をひき起こすためシナプスが一過的に形成されることを示した．発達期の脳においては，ニューロンの新生，移動，軸索の伸長，シナプスの形成など，多様な現象がさまざまな部位において同時に進行する．これらの過程は互いに同調して進行する必要があるが，その分子機構はほとんど明らかにされていない．この研究においては，サブプレートニューロンの神経活動が移動ニューロンの移動様式の変換のタイミングを制御することが明らかにされた．電子顕微鏡による観察により，胎生16日の時点ですでにサブプレートニューロンの周囲に成熟したシナプスが形成されることが見い出されたが，このシナプスを介して視床からの軸索がサブプレートニューロンを発火させる可能性が考えられる（<a href="#F2">図2</a>）．この場合，視床から大脳新皮質への投射による神経活動が大脳新皮質におけるニューロンの移動に影響をおよぼすことになるだろう．また，サブプレートニューロンは，このほかにもさまざまなニューロンからシナプス入力をうけることが知られており，これらの入力がサブプレートニューロンを発火させる可能性もある<a href="#R8"><sup>8)</sup></a>．これまで，サブプレートニューロンは，大脳新皮質においてもっとも早く成熟するニューロンとして，複雑化していく発達期の神経回路を組織化する司令塔的な役割をはたすと考えられてきた<a href="#R8"><sup>8)</sup></a>．今回，見い出された一過性のシナプスは，大脳新皮質において，ニューロンの移動と神経回路の形成という2つのプロセスを同調させる機能をはたすのかもしれない．今後，このような現象がほかの領域でも普遍的に起こる可能性を検討する必要があるだろう．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Rakic, P.</span>: <span class="ti">Mode of cell migration to the superficial layers of fetal monkey neocortex.</span> <span class='so'>J. Comp. Neurol., 145, 61-83 (1972)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/4624784" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Ohtaka-Maruyama, C. & Okado, H.</span>: <span class="ti">Molecular pathways underlying projection neuron production and migration during cerebral cortical development.</span> <span class='so'>Front. Neurosci., 9, 447 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26733777" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Kato, M.</span>: <span class="ti">Genotype-phenotype correlation in neuronal migration disorders and cortical dysplasias.</span> <span class='so'>Front. Neurosci., 9, 181 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26052266" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Fukuda, T. & Yanagi, S.</span>: <span class="ti">Psychiatric behaviors associated with cytoskeletal defects in radial neuronal migration.</span> <span class='so'>Cell. Mol. Life Sci., 74, 3533-3552 (2017)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/28516224" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Reiner, O., Karzbrun, E., Kshirsagar, A. et al.</span>: <span class="ti">Regulation of neuronal migration, an emerging topic in autism spectrum disorders.</span> <span class='so'>J. Neurochem., 136, 440-456 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26485324" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Ohtaka-Maruyama, C., Hirai, S., Miwa, A. et al.</span>: <span class="ti">RP58 regulates the multipolar-bipolar transition of newborn neurons in the developing cerebral cortex.</span> <span class='so'>Cell Rep., 3, 458-471 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23395638" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Ishii, M. & Maeda, N.</span>: <span class="ti">Oversulfated chondroitin sulfate plays critical roles in the neuronal migration in the cerebral cortex.</span> <span class='so'>J. Biol. Chem., 283, 32610-32620. (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18819920" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Kanold, P. O. & Luhmann, H. J.</span>: <span class="ti">The subplate and early cortical circuits.</span> <span class='so'>Annu. Rev. Neurosci., 33, 23-48 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20201645" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Allendoerfer, K. L. & Shatz, C. J.</span>: <span class="ti">The subplate, a transient neocortical structure: its role in the development of connections between thalamus and cortex.</span> <span class='so'>Annu. Rev. Neurosci., 17, 185-218 (1994)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8210173" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Maeda, N.</span>: <span class="ti">Proteoglycans and neuronal migration in the cerebral cortex during development and disease.</span> <span class='so'>Front. Neurosci., 9, 98 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25852466" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=NCBI" target="_blank">NCBI</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アミノ酸" target="_blank">アミノ酸配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=アラインメント" target="_blank">アラインメント</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=パスウェイ解析" target="_blank">パスウェイ解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=ChIP-seq" target="_blank">ChIP-seq</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">前田 信明（Nobuaki Maeda）</span><br>略歴：1988年 大阪大学大学院理学研究科博士後期課程 修了，同年 大阪大学蛋白質研究所 研究員，基礎生物学研究所 助手，同 助教授，東京都神経科学総合研究所 部門長を経て，2011年より東京都医学総合研究所 プロジェクトリーダー．<br>研究テーマ：細胞外マトリックスによる神経回路の形成の制御．<br>研究室URL：<a href="http://www.igakuken.or.jp/regeneration/" target="_blank">http://www.igakuken.or.jp/regeneration/</a><br><br><strong>丸山 千秋（Chiaki Ohtaka-Maruyama）</strong><br>東京都医学総合研究所 副参事研究員．<br></div><br>© 2018 前田信明・丸山千秋 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

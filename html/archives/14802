@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> マウスにおいて多能性幹細胞から卵母細胞を再構築する培養系の確立 : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>マウスにおいて多能性幹細胞から卵母細胞を再構築する培養系の確立</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>日下部央里絵・林 克彦</strong><br>（九州大学大学院医学研究院 ヒトゲノム幹細胞医学分野）<br>email：<a href="mailto:hikabe@hgs.med.kyushu-u.ac.jp">日下部央里絵</a>，<a href="mailto:hayashik@hgs.med.kyushu-u.ac.jp">林 克彦</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2016.110">10.7875/first.author.2016.110</a><br><div class="reference"><br><span class="ti">Reconstitution <em>in vitro</em> of the entire cycle of the mouse female germ line.</span><br><span class="au">Orie Hikabe, Nobuhiko Hamazaki, Go Nagamatsu, Yayoi Obata, Yuji Hirao, Norio Hamada, So Shimamoto, Takuya Imamura, Kinichi Nakashima, Mitinori Saitou, Katsuhiko Hayashi</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27750280" target="_blank"><em>Nature</em>, <strong>539</strong>, 299-303 (2016)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　雌の生殖系列は全能性を賦与する能力をもつ卵へと分化するため独自の形成過程をたどるが，その機構には不明な点が多い．多能性幹細胞を用い卵の形成過程を培養下において再現することは，この機構にせまる有用なツールを提供するほか，体外における培養による卵の供給源ともなり，生殖生物学や再生医療の発展において重要な意義をもつ．今回，筆者らは，マウスのES細胞およびiPS細胞から培養下において機能的な卵を作出する培養系を構築した．この培養系により得られた卵は受精により正常に発生して個体になり，得られた個体は妊孕性をもつ成体になった．また，ES細胞に由来する卵を受精させて培養した胚盤胞からふたたびES細胞を樹立し，このES細胞から次世代の卵を分化させた．これにより，雌の体内において起こる生殖細胞系列の分化の過程を培養下においてすべて再構築することが可能になった．今後，この培養系により卵の形成機構の解明が進むと同時に，さまざまな種への応用への礎となることが期待される．<br/><br/><h2>はじめに</h2><br/>　生殖生物学において，配偶子の形成を培養下において再現することは大きな意義をもつ．とくに，多能性幹細胞を起点とした機能的な卵の形成過程の再構築は長く研究の対象であった<a href="#R1"><sup>1)</sup></a>．マウスにおける卵の起源は，胎生6.5日目ごろに生じる始原生殖細胞である<a href="#R2"><sup>2)</sup></a>．そののち始原生殖細胞は生殖巣へと移動し，雌においては減数分裂期に入る．卵巣において未熟な卵母細胞は減数分裂の前期で停止した状態でとどまり，個体の性成熟とともに一部の卵母細胞が成熟卵へと成長する．以前に，筆者らは，この過程を再現するため多能性幹細胞から始原生殖細胞様細胞を分化させ，生殖巣の体細胞とともに雌の体内に移植して機能的な卵を得た<a href="#R3"><sup>3,4)</sup></a>．しかし，この実験系において体外における培養により作製されたのは始原生殖細胞であり，のちの卵の形成過程の大部分は体内において進行していた．そこで，マウスの多能性幹細胞を用い，卵の形成のすべての過程を培養において再現することをめざした．<br/><br/><h2>1．マウスのES細胞から卵母細胞を分化させる培養系を構築した</h2><br/>　卵の形成過程は長時間にわたることから，これを再現するにあたり，培養系を<em>in vitro</em>分化期間，<em>in vitro</em>成長期間，<em>in vitro</em>成熟期間の3つに分割し，それぞれの培養期間において，2次卵胞構造，卵核胞期卵，第2減数分裂中期卵を得るための培養系を開発した．起点となる雌のES細胞としては，始原生殖細胞および卵母細胞への分化をモニターできるよう，それぞれのマーカーをもつBVSCH18細胞を用いた<a href="#R5"><sup>5)</sup></a>．BVSCH18細胞から始原生殖細胞様細胞を分化させたのち，雌性生殖巣体細胞との凝集塊からなる再構成卵巣を形成させ，コラーゲンをコートした培養膜においた．<em>in vitro</em>分化期間においては，胎仔の卵巣を用いた予備実験の結果をもとに，前半の4日間をaMEM，残りの17日間をStemPro34を基礎とした培地で培養した．また，先行研究を参考に，<em>in vitro</em>分化期間の開始7日目から10日目まで，卵胞構造の形成を促進するためエストロゲン阻害剤ICI 182780 <a href="#R6"><sup>6)</sup></a> を添加した．これらの結果，多くの卵母細胞の分化が認められた．再構成卵巣における生殖細胞の継時的な変化を免疫染色により観察したところ，<em>in vitro</em>分化期間の開始5日目から始原生殖細胞様細胞のクラスターが形成され，5日目～9日目には減数分裂の進行とともにそれらが断片化し，そののち約11日目には卵胞構造が観察された．これらの分化の過程は，形態的および時系列的に胚における卵母細胞の分化の様式をおおむね踏襲していた．21日目の卵胞においては顆粒膜細胞の機能的なマーカー遺伝子である<em>Foxl2</em>遺伝子の発現が認められ，これらが卵胞として機能していることが示唆された．減数分裂の正確性は配偶子の質に直結するが，この培養系により得られた卵母細胞において相同染色体の不対合が頻繁に起こった．この染色体の不対合の割合は生体の卵巣を用いた器官培養においても生体内と比べ高くなる傾向にあるため，原因の一部は培養条件にあると考えられた．染色体の不対合をもつ卵母細胞がそののちどのように分化するかは不明であるが，<em>in vitro</em>分化期間の開始から3週間のちには多くの2次卵胞が分化した．<br/>　卵胞の発達をともなう卵母細胞の成長はゴナドトロピンに依存して制御されることが知られているが，なかでも卵胞刺激ホルモンは顆粒膜細胞の増殖および成熟に中心的な役割をはたす．このことから，つぎの<em>in vitro</em>成長期間においては培地に卵胞刺激ホルモンを添加した．しかしながら，再構成卵巣のなかで卵胞が密集した状態のまま培養を継続しても卵胞の発達は進行しなかった．この理由として，再構成卵巣の中心部に卵胞刺激ホルモンのシグナルが十分にとどかないことや，卵胞が成長するためのスペースが足りないことが考えられたので，再構成卵巣の個々の卵胞を単離した．その結果，顆粒膜細胞は増殖をはじめ卵丘卵母細胞複合体を形成した．<em>in vitro</em>成長期間において11日間にわたり培養することにより，十分に成長した卵核胞期卵をもつ卵丘卵母細胞複合体がひとつの再構成卵巣あたり55個ほど形成された．<br/>　これらの卵核胞期卵は<em>in vitro</em>成熟期間における培養により約29％が第2減数分裂中期卵へと成熟した．こうして得られた第2減数分裂中期卵の直径は卵巣から採取したものと同等であり，インプリント遺伝子メチル化可変領域のDNAメチル化の状態も同等であった．一方，この培養系により得られた第2減数分裂中期卵の染色体の異数性の頻度は，生体内の卵と比べやや上昇する傾向にあった．<br/>　これらの実験により，卵母細胞における欠陥の頻度はやや上昇したものの，構築された培養系によりES細胞から多数の第2減数分裂中期卵が産生された（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　卵の形成過程および体外における培養による再構築</strong><br/>マウスにおいては，胎生6.5日目ごろの胚に始原生殖細胞が生じる．卵巣へ移動した始原生殖細胞は卵原細胞として増殖したのち減数分裂に入り，出生の前後に原始卵胞になる．出生ののち，卵母細胞は卵胞構造とともに発達し，受精の可能な第2減数分裂中期卵にいたる．この研究において構築された体外における培養においては，生体内における過程をほぼ踏襲した卵母細胞の分化が認められた．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hayashi-Nature-16.11.10-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　卵の形成過程および体外における培養による再構築" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hayashi-Nature-16.11.10-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hayashi-Nature-16.11.10-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>2．ES細胞に由来する卵母細胞系列における遺伝子の発現は生体内のものと同様である</h2><br/>　培養系における卵の形成について評価するため，卵母細胞系列における遺伝子の発現動態をRNA-seq法により解析した．培養系に由来するものとしてはES細胞，始原生殖細胞様細胞（再構成卵巣の作製まえ），再構成卵巣を作製したのち3日目の始原生殖細胞様細胞，2次卵胞の卵母細胞，第2減数分裂中期卵を用い，対照として，胎生12.5日目の雌の始原生殖細胞，生後8日齢から採取した2次卵胞の卵母細胞，成体から採取した第2減数分裂中期卵を用いた．RNA-seq法により得られたデータを主成分分析したところ，培養系において得られた卵母細胞系列の分化の過程における遺伝子発現の変化は生体内の遺伝子の発現をほぼ踏襲することが示唆された．また，卵母細胞においてその成長の過程でLTRトランスポゾンの一部の発現が一過性に上昇することが知られているが<a href="#R7"><sup>7,8)</sup></a>，培養系の卵母細胞系列においても同様の上昇が認められた．これらの結果から，卵母細胞に特異的な遺伝子発現が培養下において忠実に再現されていることが示唆された．一方で，遺伝子発現はまったく同一というわけではなく，とくに第2減数分裂中期卵においては，ES細胞に由来するものと生体内のものとのあいだに4倍以上の発現量の差をもつ遺伝子が424個も認められた．ES細胞に由来する第2減数分裂中期卵において高発現していた遺伝子は，生体内においては卵母細胞の成長のあいだに発現が低下する遺伝子であり，ES細胞に由来する第2減数分裂中期卵において発現の低かった遺伝子は，生体内においては卵母細胞のあいだに発現が上昇する遺伝子であった．このことから，<em>in vitro</em>成長期間および<em>in vitro</em>成熟期間における卵母細胞の成長が，一部もしくはすべての卵母細胞において損なわれている可能性が示唆された．遺伝子オントロジー解析の結果，ES細胞に由来する第2減数分裂中期卵において高発現している遺伝子はミトコンドリアの機能にかかわるものであった．これらの遺伝子の誤制御は培養系において得られた第2減数分裂中期卵のポテンシャルの違いを示唆するのかもしれない．<br/>　この培養系により得られた卵母細胞系列においてもっとも重要なのは，それらが個体までの発生能を維持しているかどうかである．そこで，ES細胞から培養系において得た第2減数分裂中期卵の発生能について調べるため，野生型の精子を用いて体外受精を行った．その結果，ES細胞に由来する第2減数分裂中期卵のうち約半数は前核が認められる受精卵になり，また，その約半数は2細胞期胚へと分化した．これらを仮親へ移植した結果，3.5％が個体にまで発生した．得られた個体の胎盤の重量は野生型のマウスと比較するとやや重い傾向がみられたが，個体そのものは野生型のマウスと同等に成長した．さらに，これらの個体は雌雄ともに妊孕性をもち，明らかな異常のみられることなく，少なくとも11カ月は生存した．このことから，ES細胞を起点として体外における培養により作製された卵は発生能をもつことが示された．その一方で，移植した2細胞期胚が産仔まで発生する割合は，通常の体外受精により得られる2細胞期胚の発生率より低いことも明らかにされた．胚の発生の停止は着床前胚から妊娠後期まで多様に観察されたことから，発生の異常の原因は多岐にわたると考えられた．その原因の一部は，染色体の異数性や異常な遺伝子発現なのかもしれない．<br/><br/><h2>3．再現性の検討およびiPS細胞からの卵の分化</h2><br/>　この培養系の再現性について確かめるため，これまでとは異なるES細胞株であるBVSC H14細胞，胎仔線維芽細胞から樹立した2株のiPS細胞，10週齢のマウスの尻尾の線維芽細胞から樹立した2株のiPS細胞，計5株を用いて卵を分化させた．BVSC H14細胞はさきに用いたBVSCH18細胞とほぼ同様の卵の分化が認められ，これらの卵は発生能をもっていた．胎仔線維芽細胞に由来するiPS細胞についても同様に卵の分化が認められた．これらの卵も発生能をもっていたが，移植した2細胞期胚のうち個体にまで発生したものは0.3％とES細胞に比べ低かった．これらの実験により得られた新生仔は，早期に死ぬことなくすべての個体が成体にまで成長した．成体の尻尾の線維芽細胞に由来するiPS細胞からも同様に発生能をもつ卵が得られた．これらの卵を野生型の精子と受精させて発生した2細胞期胚を仮親に移植したところ，0.4～0.9％の割合で産仔が得られた．得られた8匹の新生仔のうち，2匹は出生日に里親に食殺されたものの，それ以外の6匹は成体にまで成長した．これらの個体に腫瘍の形成などの異常は認められなかった．また，妊孕性をもつことも確認された．これらのことから，構築された体外における培養は多くの多能性細胞株に対し再現よく適用が可能なことが示された．<br/><br/><h2>4．体外における培養による第2世代の卵の作製</h2><br/>　体外において分化させたES細胞であるBVSC H18細胞に由来する第2減数分裂中期卵を受精させて胚盤胞まで培養し，それらの胚盤胞からふたたびES細胞を樹立した．このES細胞を野生型のマウスの胚盤胞にもどしたところ，キメラ胎仔の始原生殖細胞を含め複数の組織に寄与した．また，このES細胞から体外における培養により第2世代目の卵を作製した．これらはもとのES細胞から数えて2サイクル目の減数分裂に入ったことになる．以上の結果から，培養下において雌性生殖細胞系列の世代サイクルが再構成されたことが示された．<br/><br/><h2>おわりに</h2><br/>　今回，筆者らは，ES細胞およびiPS細胞から個体への発生能をもつ卵母細胞を培養下において作出する培養系を構築した（<a href="#F1">図1</a>）．この培養系の制約のひとつは，卵胞構造を再構築するにあたり胎仔から生殖巣体細胞を採取する必要があることである．今後，ヒトの始原生殖細胞様細胞<a href="#R9"><sup>9,10)</sup></a> を用いた配偶子の形成を進める際に，ヒトでは入手の困難な生殖巣体細胞をどのように代替するかは重要な課題である．この問題を克服するひとつの可能性として，多能性幹細胞から体細胞を分化させることが考えられる．今回，構築された培養系は，卵の形成機構を明らかにするための重要なプラットフォームとなりうる．また，ほかの種における類似の培養系を発展させるための糸口ともなるであろう．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Hubner, K., Fuhrmann, G., Christenson, L. K. et al.</span>: <span class="ti">Derivation of oocytes from mouse embryonic stem cells.</span> <span class='so'>Science, 300, 1251-1256 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12730498" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Ohinata, Y., Payer, B., O’Carroll, D. et al.</span>: <span class="ti">Blimp1 is a critical determinant of the germ cell lineage in mice.</span> <span class='so'>Nature, 436, 207-213 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15937476" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Hayashi, K., Ohta, H., Kurimoto, K. et al.</span>: <span class="ti">Reconstitution of the mouse germ cell specification pathway in culture by pluripotent stem cells.</span> <span class='so'>Cell, 146, 519-532 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21820164" target="_blank">PubMed</a>]</span></li><br> <li id="R4"><span class='au'>Hayashi, K., Ogushi, S., Kurimoto, K. et al.</span>: <span class="ti">Offspring from oocytes derived from in vitro primordial germ cell-like cells in mice.</span> <span class='so'>Science, 338, 971-975 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23042295" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Ohinata, Y., Sano, M., Shigeta, M. et al.</span>: <span class="ti">A comprehensive, non-invasive visualization of primordial germ cell development in mice by the <em>Prdm1</em>-mVenus and <em>Dppa3</em>-ECFP double transgenic reporter.</span> <span class='so'>Reproduction, 136, 503-514 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18583473" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Morohaku, K., Tanimoto, R., Sasaki, K. et al.</span>: <span class="ti">Complete in vitro generation of fertile oocytes from mouse primordial germ cells.</span> <span class='so'>Proc. Natl Acad. Sci. USA, 113, 9021-9026 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/27457928" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Peaston, A. E., Evsikov, A. V., Graber, J. H. et al.</span>: <span class="ti">Retrotransposons regulate host genes in mouse oocytes and preimplantation embryos.</span> <span class='so'>Dev. Cell, 7, 597-606 (2004)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15469847" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Veselovska, L., Smallwood, S. A., Saadeh, H. et al.</span>: <span class="ti">Deep sequencing and de novo assembly of the mouse oocyte transcriptome define the contribution of transcription to the DNA methylation landscape.</span> <span class='so'>Genome Biol., 16, 209 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26408185" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Irie, N., Weinberger, L., Tang, W. W. et al.</span>: <span class="ti">SOX17 is a critical specifier of human primordial germ cell fate.</span> <span class='so'>Cell, 160, 253-268 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25543152" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Sasaki, K., Yokobayashi, S., Nakamura, T. et al.</span>: <span class="ti">Robust in vitro induction of human germ cell fate from pluripotent stem cells.</span> <span class='so'>Cell Stem Cell, 17, 178-194 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26189426" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=GEO" target="_blank">GEO</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=UCSC" target="_blank">UCSC</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=KEGG" target="_blank">KEGG</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=DDBJ" target="_blank">DDBJ</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=RNA-seq" target="_blank">RNA-seq</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=Bioconductor" target="_blank">Bioconductor</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">日下部 央里絵（Orie Hikabe）</span><br>略歴：九州大学大学院医学系学府博士課程 在学中．<br>研究テーマ：生殖細胞の発生．<br>関心事：霊長類における生殖細胞の形成機構．<br><br><strong>林  克彦（Katsuhiko Hayashi）</strong><br>九州大学大学院医学研究院 教授．<br></div><br>© 2016 日下部央里絵・林 克彦 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

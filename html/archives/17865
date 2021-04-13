@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 転写の一時停止を空間的に分離することによりスプライシングと転写伸長チェックポイントとの関係を理解する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>転写の一時停止を空間的に分離することによりスプライシングと転写伸長チェックポイントとの関係を理解する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>鈴木 洋・Phillip A. Sharp</strong><br>（米国Massachusetts Institute of Technology，David H. Koch Institute for Integrative Cancer Research）<br>email：<a href="mailto:hisuzuki@mit.edu">鈴木 洋</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2018.019">10.7875/first.author.2018.019</a><br><div class="reference"><br><span class="ti">Transcriptional pause sites delineate stable nucleosome-associated premature polyadenylation suppressed by U1 snRNP.</span><br><span class="au">Anthony C. Chiu, Hiroshi I. Suzuki, Xuebing Wu, Dig B. Mahat, Andrea J. Kriz, Phillip A. Sharp</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/29398447" target="_blank"><em>Molecular Cell</em>, <strong>69</strong>, 648-663.e7 (2018)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　転写において中心的なRNA合成酵素であるRNAポリメラーゼIIは，多くのプロモーター領域においてRNAの合成を双方向性に開始する．RNAポリメラーゼIIはプロモーター領域の近傍で一時停止し，そののち，タンパク質をコードする遺伝子の方向（センス方向）に優先的に伸長することにより長いmRNAを合成する．一方で，アンチセンス方向への転写はすぐに終結し，合成された短い非コードRNAはRNAエキソソームにより分解される．転写伸長の制御は遺伝子の発現の制御において重要であるが，転写開始および開始伸長の動態と転写の方向性を規定するゲノムの情報の関係性については不明であった．この研究において，筆者らは，転写開始点の近傍における転写の一時停止と，より下流においてRNAポリメラーゼIIがCpGアイランドを過ぎて最初の安定なヌクレオソームを通過するときの転写の一時停止とを空間的に分離し，多くのプロモーター領域において，ポリアデニル化シグナルによるセンス方向での早期の転写終結が最初の安定なヌクレオソームのすぐ下流において起こることを明らかにした．早期の転写終結により産生されたポリA鎖をもつ短いRNAは，アンチセンス方向に合成された短い非コードRNAと同様にRNAエキソソームにより分解され，U1 snRNPはこの早期の転写終結を抑制し下流への転写伸長を促進した．さらに，DSIFやNELFといった転写の一時停止を促進するタンパク質，P-TEFbやがん遺伝子産物であるMycといった転写の一時停止を解除するタンパク質は，この2種類の転写の一時停止に対し別々に寄与することも明らかにされた．以上の結果から，転写の方向性に影響をおよぼすゲノムの情報，すなわち，ポリアデニル化シグナル，U1 snRNP認識配列，CpGアイランドおよびヌクレオソームの分布を反映した転写伸長チェックポイントの存在が提案された．<br/><br/><h2>はじめに</h2><br/>　転写において中心的なRNA合成酵素であるRNAポリメラーゼIIは，多くのプロモーター領域においてRNAの合成を双方向性に開始する<a href="#R1"><sup>1)</sup></a>．この双方向性の転写は多くの種において観察され，タンパク質をコードする遺伝子においては，センス方向に遺伝子のmRNAが，アンチセンス方向には多くの場合1 kbより短い上流非コードRNAが合成される．また，エンハンサー領域においてはエンハンサーRNAが双方向性に合成される．これらの非コードRNAはRNAエキソソームにより分解され，通常，その発現量は遺伝子のmRNAよりも少ない<a href="#R2"><sup>2)</sup></a>．<br/>　遺伝子のmRNAの末端に起こるポリA鎖の付加はポリアデニル化シグナルによりひき起こされ，代表的なポリアデニル化シグナルはAAUAAAである．ポリアデニル化シグナルから10～30 bp下流においてRNAの切断およびポリA鎖の付加が起こり転写は終結する（<a href="#F1">図1a</a>）．このポリアデニル化シグナルはタンパク質をコードする遺伝子以外の領域においては高い頻度で分布しており，遺伝子間のどの部位で転写が起こってもすみやかにポリアデニル化シグナルによる転写終結がひき起こされる．mRNA遺伝子はその全長mRNAの合成を可能にするため，進化の過程において，転写ユニットの全体におけるポリアデニル化シグナルの頻度が低下し，また，プロモーター領域の近傍における5’側スプライス部位の頻度が上昇している<a href="#R3"><sup>3)</sup></a>．スプライソソームを構成するU1 snRNPは5’側スプライス部位を認識し，近傍のポリアデニル化シグナルによる転写終結を抑制し，転写伸長と成熟mRNAの産生を促進する<a href="#R3"><sup>3,4)</sup></a>．つまり，プロモーター領域を起点としたポリアデニル化シグナルとU1 snRNP認識配列の非対称的な分布が転写の方向性を制御すると考えられている<a href="#R3"><sup>3,4)</sup></a>（<a href="#F1">図1b</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　RNAポリメラーゼIIによる転写</strong><br/>（a）RNAポリメラーゼIIの動態．<br/>（b）双方向性の転写およびポリアデニル化シグナルとU1 snRNP認識配列の非対称的な分布．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Molecular-Cell-18.2.15-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　RNAポリメラーゼIIによる転写" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Molecular-Cell-18.2.15-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Molecular-Cell-18.2.15-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　RNAエキソソームは上流非コードRNAやエンハンサーRNAの分解を制御することは知られているが，センス方向の転写における役割については不明な点が多い．また，双方向性の転写の制御はクロマチンのリモデリングやヒストンの修飾とも密接に関係することが知られている．プロモーター領域の近傍におけるクロマチンのリモデリングやヒストンの修飾はRNAポリメラーゼIIの動態そのものに影響をおよぼすことが知られており，これがプロモーター領域の近傍におけるRNAポリメラーゼIIの一時停止（転写のポージング）である（<a href="#F1">図1a</a>）．これまでに，転写の一時停止を制御する分子機構が提案されているが，ポリアデニル化シグナルとU1 snRNP認識配列の非対称的な分布による転写伸長の動態の制御と転写の一時停止との関係性は不明であった．この研究において，筆者らは，RNAエキソソームのコンディショナルノックアウト系を構築し，これらの関係性について詳細に探索した．<br/><br/><h2>1．RNAエキソソームの標的となる非コードRNAの同定</h2><br/>　RNAエキソソームの標的となるRNAを網羅的に同定するため，マウスのES細胞において，CRISPR-Cas9系を用いてRNAエキソソーム複合体の主要な構成タンパク質であるExosc3のコンディショナルノックアウト系を構築した．マウスのES細胞において<em>Exosc3</em>遺伝子は生存に必須であり，<em>Exosc3</em>遺伝子を除去したのちRNAシークエンシングおよび2Pシークエンシングを実施した．2PシークエンシングはポリA鎖をもつRNAを濃縮しポリA鎖の付加する部位を網羅的に同定および定量する手法である．<br/>　RNAシークエンシングにより，既報のとおり，RNAエキソソームの除去により上流非コードRNAおよびエンハンサーRNAの量が増加することが確認された．また，<em>de novo</em>にトランスクリプトームを構築することにより，RNAエキソソームにより分解される新規の長鎖非コードRNAが同定され，現在，知られている非コードRNAのカタログは完全ではないことも示唆された．さらに，2Pシークエンシングにおいても，RNAエキソソームの除去により上流非コードRNAおよびエンハンサーRNAについてポリアデニル化されたRNAが増加することが確認された．<br/><br/><h2>2．第1イントロンにおけるポリアデニル化シグナルによる早期の転写終結</h2><br/>　2Pシークエンシングにより，約3500という多くの遺伝子について，転写開始点からセンス方向に約800 bp下流をピークとして，RNAエキソソームの除去によりポリアデニル化された短いRNAが劇的に増加することが明らかにされた．この部位は，転写開始点の近傍において低いポリアデニル化シグナルの頻度が遺伝子内のレベルにもどる部位と合致した．RNAエキソソームの標的となるこの短いRNAへのポリA鎖の付加は第1イントロンに限局してみられた．さらに，転写終結にともないRNAの切断およびポリアデニル化をひき起こすタンパク質がこの短いRNAの産生にもかかわることが確認され，これらの短いRNAはプロモーター領域の近傍におけるポリアデニル化シグナルによる早期の転写終結の産物であると結論づけた（<a href="#F2">図2</a>）．また，この短いRNAの不安定化に核内ポリA鎖結合タンパク質が部分的に関与することも明らかにされた．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　この研究のまとめ</strong><br/>CpGアイランドが長い遺伝子の場合，転写開始点の近傍における転写の一時停止と第1ヌクレオソームの近傍における転写の一時停止を空間的に分離して解析することができる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Molecular-Cell-18.2.15-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　この研究のまとめ" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Molecular-Cell-18.2.15-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Suzuki-Molecular-Cell-18.2.15-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　U1 snRNPの抑制はプロモーター領域の近傍におけるセンス方向でのポリアデニル化シグナルによる未成熟な転写終結をひき起こすことが知られているが，RNAエキソソームの除去とU1 snRNPの抑制を組み合わせて比較することにより，U1 snRNPが第1イントロンにおけるポリアデニル化シグナルによる早期の転写終結を強く抑制することが確認された．これまでの報告と合致して，U1 snRNPの効果はセンス方向でのみみられ，U1 snRNPは第1イントロンだけではなく転写ユニットの全体にわたりポリアデニル化による転写終結を抑制した．対照的に，RNAエキソソームの効果は第1イントロンに限局された．<br/><br/><h2>3．ポリアデニル化シグナルによる早期の転写終結は最初の安定なヌクレオソームのすぐ下流において起こる</h2><br/>　第1イントロンにおけるポリアデニル化シグナルによる早期の転写終結は，ヒストンH3のLys4のトリメチル化といったヒストンの修飾やヒストンH2AのバリアントであるH2A.Zの濃縮したCpGアイランドの端，および，安定なヌクレオソームの分布する濃度が低い領域の端において高い頻度でみられた．そこで，複数のMNase-seq法のデータのあいだのばらつきの解析と，ケミカルマッピングにより得られたヌクレオソームの中心対称軸の情報とを統合することにより，マウスのES細胞において安定なヌクレオソームの中心対称軸のカタログを作成し，早期の転写終結の起こる部位との関係性をさらに詳細に検討した．安定なヌクレオソームはCpGアイランドの端から両方向に高い頻度で分布することが確認された．<br/>　この解析により，早期の転写終結はセンス方向およびアンチセンス方向の両方向において，転写開始点からみて最初の安定なヌクレオソーム（第1ヌクレオソーム）のすぐ下流で起こることが判明した（<a href="#F2">図2</a>）．ヌクレオソームの配置はゲノムにおけるAA/TT/TAジヌクレオチドの周期的な分布に強く影響をうけるが，AA/TT/TAジヌクレオチドの分布と早期の転写終結におけるポリアデニル化シグナルの分布はよく相関することも見い出された．このことから，ゲノムの塩基配列の特徴が安定なヌクレオソームの配置およびポリアデニル化シグナルによる早期の転写終結の部位の決定の両者に強く影響をおよぼすことが示唆された．<br/><br/><h2>4．ポリアデニル化シグナルによる早期の転写終結とクロマチンのリモデリング</h2><br/>　ヌクレオソームの構築はChd1，Chd4，Ep400といったさまざまなクロマチンリモデリングタンパク質により制御される<a href="#R5"><sup>5)</sup></a>．Chd1はプロモーター領域の近傍のヌクレオソームを通過するときのRNAポリメラーゼIIの動態を制御することが知られている<a href="#R6"><sup>6)</sup></a>．第1ヌクレオソームの近傍においてクロマチンリモデリングタンパク質の分布について調べた結果，さまざまなクロマチンリモデリングタンパク質がセンス方向の第1ヌクレオソームとアンチセンス方向の第1ヌクレオソームに非対称的に集積し，ポリアデニル化シグナルによる早期の転写終結の起こる遺伝子においてはChd1，Chd2，Chd9がより強く結合することが明らかにされた．<br/>　RNAポリメラーゼIIは転写開始点の直下の約50～100 bpの位置で一時停止することが知られており，DSIFやNELFといった転写の一時停止を促進するタンパク質と，P-TEFbといった転写の一時停止を解除するタンパク質による制御をうける．一方で，転写の一時停止はプロモーター領域の近傍のヌクレオソームを通過する際にも起こることが知られている．これらの現象は，プロモーター領域の近傍における転写の一時停止として記載されることも多い<a href="#R7"><sup>7)</sup></a>．ここで，安定なヌクレオソームの分布の情報を考慮することにより，とくに，センス方向およびアンチセンス方向の第1ヌクレオソームが離れている場合には，転写開始点の近傍における転写の一時停止と，第1ヌクレオソームの近傍における転写の一時停止とを空間的に分離することにより，転写伸長を制御するタンパク質の分布の状況を詳細に比較することが可能になった．NELFやDSIFは転写開始点の近傍にもっぱら集積するのに対し，P-TEFbの構成タンパク質であるCdk9は転写開始点の近傍から第1ヌクレオソームまでより幅広く分布し，さらに，P-TEFbと相互作用する転写伸長因子複合体も転写開始点の近傍から第1ヌクレオソームのあいだに幅広く分布していた．ポリアデニル化シグナルによる早期の転写終結が起こる遺伝子においては，これら転写の一時停止を制御するタンパク質がより強く結合しており，クロマチンリモデリングタンパク質の分布のパターンとあわせて，早期の転写終結が起こる遺伝子においてはクロマチンのリモデリングおよび転写の一時停止の制御がより活発であることが示唆された．<br/>　また，RNAポリメラーゼIIのC末端ドメインのリン酸化の状態を解析したところ，早期の転写終結の起こる部位を通過する際にSer2のリン酸化が強く上昇し，その前後においてRNAポリメラーゼIIの動態が大きく変わることも示唆された．この結果は，Cdk9がRNAポリメラーゼIIのC末端ドメインに対する代表的なリン酸化酵素であることとよく合致した．<br/><br/><h2>5．ポリアデニル化シグナルによる早期の転写終結と転写の一時停止</h2><br/>　早期の転写終結と転写の一時停止との関係性についてさらに調べるために，RNAポリメラーゼIIについてのChIP-seq法による解析，および，合成された直後の新生RNAを網羅的に解析するGRO-seq法による解析についてデータを再解析した．安定なヌクレオソームの分布の情報を考慮することにより，センス方向およびアンチセンス方向の第1ヌクレオソームが離れている場合について，転写の一時停止を制御するタンパク質が転写開始点の近傍における転写の一時停止および第1ヌクレオソームの近傍における転写の一時停止にどのように関与するかを解析することが可能になった．その結果，転写の一時停止を制御するタンパク質の分布のパターンと合致して，DSIFあるいはNELFをノックダウンした場合には転写開始点の近傍のみで転写の一時停止が解除されたのに対し，Cdk9の阻害剤であるフラボピリドールの処理では両方の部位において転写の一時停止が起こり，とくに，第1ヌクレオソームの前後におけるRNAポリメラーゼIIの分布が強く影響されることが明らかにされた（<a href="#F2">図2</a>）．さらに，早期の転写終結の起こる遺伝子においては，フラボピリドールによる第1ヌクレオソームにおける転写の一時停止がより強く起こることが見い出され，この部位が転写伸長の制御において重要なチェックポイントであることが示唆された．<br/>　ヒトの細胞におけるGRO-seq法による解析のデータの再解析においても，転写開始点の近傍における転写の一時停止，および，CpGアイランドの端における転写の一時停止が確認されたことから，第1ヌクレオソームの近傍における早期の転写終結は種をこえて共通する機構であることが示唆された．<br/><br/><h2>6．がん遺伝子産物Mycによる第1ヌクレオソームにおける転写の一時停止の制御</h2><br/>　<em>Myc</em>遺伝子は重要ながん遺伝子であるが，その産物は転写の一時停止を解除する機能をもつことが報告されている<a href="#R8"><sup>8)</sup></a>．そこで，Mycと早期の転写終結および2つのタイプの転写の一時停止との関係について検討した．ポリアデニル化シグナルによる早期の転写終結の起こる遺伝子のプロモーター領域においては，より高い頻度でMycが結合していた．Mycの阻害剤を用いた転写の一時停止の解析により，P-TEFbと同様に，Mycも転写開始点の近傍における転写の一時停止および第1ヌクレオソームの近傍における転写の一時停止の両者を制御し，早期の転写終結の起こる遺伝子においてはMycによる影響がより大きいことも明らかにされた．転写の一時停止とMycによる遺伝子の発現の制御との関係について調べたところ，Mycの抑制による転写開始点の近傍における転写の一時停止の変化とMycの除去による遺伝子の発現の変化とのあいだに相関はみられなかったのに対し，第1ヌクレオソームの近傍における転写の一時停止の変化と遺伝子の発現の変化とのあいだには相関がみられた．具体的には，フラボピリドールおよびMycの阻害剤により第1ヌクレオソームの近傍において転写の一時停止が起こり，かつ，早期の転写終結の起こる遺伝子においてはMycの除去による発現の低下がもっとも強くみられた．さらに，第1ヌクレオソームの近傍において転写の一時停止の変化がみられる遺伝子は，Mycの標的となる遺伝子の特徴であるRNAのプロセシング，DNAの代謝，クロマチンの修飾といった機能と密接に関係していた．これらのことから，早期の転写終結の起こる部位における転写の一時停止の制御が，Mycの標的となる遺伝子の発現の制御において重要な役割をもつことが示唆された．<br/><br/><h2>おわりに</h2><br/>　この研究により，多くのプロモーター領域について，通常はRNAエキソソームにより分解される新規のポリA鎖をもつ短いRNAがセンス方向で合成されることが明らかにされた．これまで，同様のRNAはアンチセンス方向については確認されていたがセンス方向についてはくわしく解析されておらず，両方向でポリアデニル化シグナルによる未成熟なRNAの転写終結が起こっていることになる．CpGアイランドの端における転写の一時停止，また，センス方向での未成熟なRNAの転写終結は報告されていたが<a href="#R9"><sup>9,10)</sup></a>，この研究により，その位置関係の全体像が明らかにされた．このポリアデニル化シグナルによる早期の転写終結はU1 snRNPにより抑制されるが，センス方向での転写開始点の近傍におけるスプライシングのシグナルが第1イントロンにおける早期の転写終結を抑制し，また，第1イントロンのスプライシングと下流への転写伸長を可能にすることになる．いいかえると，スプライシングのシグナルが両方向での早期の転写終結からセンス方向への転写伸長を振り分ける方向性を決定するともいえるだろう．<br/>　ポリアデニル化シグナルの頻度は，遺伝子内においては遺伝子間に比べ低いが，遺伝子内では均等に分布する．しかしながら，第1ヌクレオソームの近傍においてのみポリアデニル化シグナルによる転写終結が起こっており，ポリアデニル化シグナルによる転写終結と転写の一時停止の位置関係を考慮すると，第1ヌクレオソームの近傍における転写の一時停止によりRNAポリメラーゼIIが一時停止し，ポリアデニル化シグナルによるRNAの切断およびポリアデニル化の頻度が上昇すると考えられる．そして，このチェックポイントを通過してからは，RNAポリメラーゼIIのC末端ドメインのSer2のリン酸化の亢進とともに，全長mRNAの産生にむけてRNAポリメラーゼIIの転写伸長能は上昇し，転写終結の頻度は低下すると考えられる．<br/>　この研究におけるもうひとつの重要な結論は，転写の一時停止を制御するさまざまなタンパク質は転写開始点の近傍における転写の一時停止と第1ヌクレオソームの近傍における転写の一時停止に対し別々に寄与することである．とくに，第1ヌクレオソームの近傍における転写の一時停止がP-TEFbやMycにより制御され，Mycの標的となる遺伝子の発現と相関していたことから，ポリアデニル化シグナルによる早期の転写終結が遺伝子の発現を制御する重要な転写伸長チェックポイントであることが示唆される．Mycの結合および早期の転写終結はCpGアイランドをもつ遺伝子において高い頻度でみられ，CpGアイランドをもつ遺伝子が細胞の増殖の制御に重要であることを考慮すると，この転写伸長チェックポイントの理解がMycによる発がんの機構を理解し抑制するうえで重要なのかもしれない．また，この転写伸長チェックポイントはがんにおいてみられる転写制御タンパク質あるいはスプライシング制御タンパク質の異常の生物学的な意義を理解するうえでも重要であることが推察される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Seila, A. C., Calabrese, J. M., Levine, S. S. et al.</span>: <span class="ti">Divergent transcription from active promoters.</span> <span class='so'>Science, 322, 1849-1851 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19056940" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Kilchert, C., Wittmann, S. & Vasiljeva, L.</span>: <span class="ti">The regulation and functions of the nuclear RNA exosome complex.</span> <span class='so'>Nat. Rev. Mol. Cell Biol., 17, 227-239 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26726035" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Almada, A. E., Wu, X., Kriz, A. J. et al.</span>: <span class="ti">Promoter directionality is controlled by U1 snRNP and polyadenylation signals.</span> <span class='so'>Nature, 499, 360-363 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23792564" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Kaida, D., Berg, M. G., Younis, I. et al.</span>: <span class="ti">U1 snRNP protects pre-mRNAs from premature cleavage and polyadenylation.</span> <span class='so'>Nature, 468, 664-668 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20881964" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>de Dieuleveult, M., Yen, K., Hmitou, I. et al.</span>: <span class="ti">Genome-wide nucleosome specificity and function of chromatin remodellers in ES cells.</span> <span class='so'>Nature, 530, 113-116 (2016)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26814966" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Skene, P. J., Hernandez, A. E., Groudine, M. et al.</span>: <span class="ti">The nucleosomal barrier to promoter escape by RNA polymerase II is overcome by the chromatin remodeler Chd1.</span> <span class='so'>Elife, 3, e02042 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24737864" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Adelman, K. & Lis, J. T.</span>: <span class="ti">Promoter-proximal pausing of RNA polymerase II: emerging roles in metazoans.</span> <span class='so'>Nat. Rev. Genet., 13, 720-731 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22986266" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Rahl, P. B., Lin, C. Y., Seila, A. C. et al.</span>: <span class="ti">c-Myc regulates transcriptional pause release.</span> <span class='so'>Cell, 141, 432-445 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20434984" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Nojima, T., Gomes, T., Grosso, A. R. F. et al.</span>: <span class="ti">Mammalian NET-seq reveals genome-wide nascent transcription coupled to RNA processing.</span> <span class='so'>Cell, 161, 526-540 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25910207" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/10127" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R10"><span class='au'>Kellner, W. A., Bell, J. S. & Vertino, P. M.</span>: <span class="ti">GC skew defines distinct RNA polymerase pause sites in CpG island promoters.</span> <span class='so'>Genome Res., 25, 1600-1609 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/26275623" target="_blank">PubMed</a>]</span></li><br></ol><br><h2>活用したデータベースにかかわるキーワードと統合TVへのリンク</h2><br><ul><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=GEO" target="_blank">GEO</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=CRISPR" target="_blank">CRISPR</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=塩基配列" target="_blank">塩基配列解析</a></li><br><li><a href="http://togotv.dbcls.jp/ja/tags.html?tag=RNA-seq" target="_blank">RNA-seq</a></li><br></ul><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">鈴木  洋（Hiroshi I. Suzuki）</span><br>略歴：2010年 東京大学大学院医学研究科 早期修了，同年 同 特任助教を経て，2014年より米国Massachusetts Institute of Technology客員研究員．<br>関心事：miRNAの作動原理シミュレーションにもとづくRNA合成生物学のがん免疫療法への応用についても研究しています．ご興味のある方はご連絡ください．<br><br><strong>Phillip A. Sharp</strong><br>米国Massachusetts Institute of TechnologyにてInstitute Professor．<br>研究室URL：<a href="http://web.mit.edu/sharplab/" target="_blank">http://web.mit.edu/sharplab/</a><br></div><br>© 2018 鈴木 洋・Phillip A. Sharp Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

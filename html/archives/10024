@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> BRAF阻害剤は逆説的に薬剤抵抗性の腫瘍微小環境をつくりだす : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>BRAF阻害剤は逆説的に薬剤抵抗性の腫瘍微小環境をつくりだす</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>平田 英周</strong><br>（英国Cancer Research UK London Research Institute，Tumor Cell Biology Laboratory）<br>email：<a href="mailto:eishu.hirata@crick.ac.uk">平田英周</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.044">10.7875/first.author.2015.044</a><br><div class="reference"><br><span class="ti">Intravital imaging reveals how BRAF inhibition generates drug-tolerant microenvironments with high integrin β1/FAK signaling.</span><br><span class="au">Eishu Hirata, Maria Romina Girotti, Amaya Viros, Steven Hooper, Bradley Spencer-Dene, Michiyuki Matsuda, James Larkin, Richard Marais, Erik Sahai</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/25873177" target="_blank"><em>Cancer Cell</em>, <strong>27</strong>, 574-588 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　この研究において，筆者らは，バイオセンサーによる生体内イメージング技術を用いてBRAF阻害剤に対するメラノーマ細胞の応答および薬剤耐性と腫瘍微小環境とのかかわりについて明らかにした．生体においてBRAFに変異をもつメラノーマ細胞はBRAF阻害剤に対しいったん応答したが，腫瘍間質細胞が高密度に存在する領域においてはそののちにERKの再活性化が認められた．このERKの再活性化はBRAF阻害剤によるメラノーマ関連線維芽細胞の逆説的な活性化と関連しており，細胞外マトリックスの産生およびリモデリングの亢進によりメラノーマ細胞におけるインテグリンβ1-FAKシグナル伝達経路が増強され，ERKの再活性化およびBRAF阻害剤に対する耐性がひき起こされることがわかった．この薬剤耐性の機構を裏づけるように，フィブロネクチンに富む3～12 kPaの硬さをもつ基質のうえで培養することによりメラノーマ細胞はBRAF阻害剤に対する耐性を示した．また，BRAFおよびFAKの共阻害によりERKの再活性化の消失および相乗的な腫瘍の増殖の抑制が認められた．これらの結果から，生体においてBRAF阻害剤によるメラノーマ関連線維芽細胞の逆説的な活性化が薬剤耐性環境をつくりだすというモデルを提唱し，がんの標的治療においては薬剤の腫瘍間質細胞への影響を考慮する必要のあることを指摘した．<br/><br/><h2>はじめに</h2><br/>　プロテインキナーゼをコードするがん遺伝子の発見から，その選択的な阻害はがんに対する化学療法（標的治療）の切り札として期待され，実際に，Abl，EGFR，BRAFなどに対する選択的な阻害剤は臨床において大きな成果をあげている．しかしながら，EGFRあるいはBRAFに対する阻害剤はいずれも数カ月におよぶ良好な初期応答ののち薬剤に耐性を示すクローンが優勢となり，多くの症例において治癒を得ることなく再増悪する<a href="#R1"><sup>1,2)</sup></a>．EGFRに変異をもつ肺がんにおいては標的治療を開始するまえからごく少数の薬剤耐性クローンの存在が確認されているが<a href="#R3"><sup>3,4)</sup></a>，BRAFに変異をもつメラノーマ（悪性黒色腫）においては薬剤耐性の獲得の遺伝学的な機序はいまだ明らかにされていない．また，BRAF阻害剤に対するメラノーマの初期応答は症例ごとに大きく異なるが<a href="#R5"><sup>5,6)</sup></a>，この差異が治療を開始するまえの薬剤耐性クローンの有無に規定されているという報告はない．外因性の機構として線維芽細胞の産生するHGFが薬剤耐性の原因として報告されているが<a href="#R7"><sup>7)</sup></a>，遺伝学的に安定な腫瘍間質細胞がBRAF阻害剤の選択圧のもとどのようにしてメラノーマにおいて薬剤耐性クローンを生みだすのか，その分子機構は依然として不明である．<br/>　BRAFはRas-Raf-MEK-ERKシグナル伝達経路においてはたらいているが，筆者らは，生細胞にて核におけるERKの活性をモニターするバイオセンサーを用い<a href="#R8"><sup>8)</sup></a>，BRAF阻害剤に対するメラノーマ細胞の応答を生体において1細胞のレベルで定量化することに成功した．また，全身に赤色蛍光タンパク質を発現するトランスジェニックマウスを用いることにより薬剤応答における腫瘍微小環境の役割について明らかにした．<br/><br/><h2>1．BRAF阻害剤に対するメラノーマ細胞の不均一な応答</h2><br/>　生体においてBRAF阻害剤に対するメラノーマ細胞の応答を経時的に観察するため，ERKバイオセンサーを安定的に発現するマウスのメラノーマ細胞株を樹立した<a href="#R9"><sup>9)</sup></a>．これらの細胞株は<em>in vitro</em>においてすみやかにBRAF阻害剤（PLX4720）に応答し，ERKの活性および細胞増殖の抑制が認められたが，同じ系統のマウスの皮下に移植するとBRAF阻害剤に対し耐性を示すことがわかった．この予想外の結果から，生体における腫瘍微小環境に薬剤耐性にかかわるなんらかの外因性の因子が存在する可能性を考えた．薬剤応答の詳細な時系列評価のためマウスの背部にイメージングウィンドウを設置し，BRAF阻害剤の投与の前後でのメラノーマ細胞におけるERKの活性を測定したところ，投与の4時間のちにはERKの活性は低下していたが，そののち，再活性化が認められた．BRAF阻害剤を24時間ごとに投与してもそれ以降はERKの活性は低下しなかったことから，メラノーマ細胞はすでに薬剤に適応しているものと考えられた．メラノーマ細胞におけるERKの再活性化と腫瘍間質細胞との関連を調べるため，赤色蛍光タンパク質を全身の細胞に発現するマウスの皮下にメラノーマ細胞株を移植し同様に実験したところ，腫瘍間質細胞の密度の高い部分ではBRAF阻害剤のくり返しの投与によってもERKの活性は抑制されないことがわかった．これらの結果から，メラノーマ細胞におけるERKの再活性化に寄与する腫瘍間質細胞に由来する因子の存在が考えられた．<br/><br/><h2>2．メラノーマ関連線維芽細胞によるERKの再活性化</h2><br/>　メラノーマの組織には血管内皮細胞，好中球，リンパ球，マクロファージ，線維芽細胞など多様な間質細胞が存在する．これらのどれがERKの再活性化に寄与しているかを同定するため，腫瘍標本を免疫染色学的に検討した．その結果，メラノーマ細胞がERKの高い活性を示す領域にはマクロファージおよび線維芽細胞の集積が認められた．驚くべきことに，<em>in vitro</em>において作製したメラノーマ細胞とメラノーマ関連線維芽細胞の共培養スフェロイドはBRAF阻害剤に対し耐性を示した．メラノーマ細胞はマクロファージとの共培養では薬剤耐性を示さなかった．これらの結果から，メラノーマ関連線維芽細胞が薬剤耐性に寄与する主たる腫瘍間質細胞であると考えられた．このメラノーマ細胞とメラノーマ関連線維芽細胞の共培養スフェロイドにおけるメラノーマ細胞のERKの活性を経時的に測定したところ，BRAF阻害剤の投与ののちのすみやかな低下ののち，12時間以内にゆるやかな再活性化が認められ，生体において観察されたERK活性のダイナミズムが<em>in vitro</em>においても再現された．さらに，BRAF阻害剤の投与の12時間のち，この共培養スフェロイドにふたたびBRAF阻害剤を投与したところ，メラノーマ細胞におけるERK活性の低下は認められなかった．これらの結果から，生体において観察されたメラノーマ細胞のBRAF阻害剤に対する初期応答および適応は，メラノーマ関連線維芽細胞の介在によりひき起こされているものと考えられた．<br/><br/><h2>3．BRAF阻害剤によるメラノーマ関連線維芽細胞の活性化</h2><br/>　このBRAF阻害剤に対するメラノーマ細胞のすみやかな適応は，これまでに報告されていた薬剤耐性の機構とは明らかに異なっており，BRAF阻害剤がメラノーマ関連線維芽細胞になんらかの影響を及ぼし，これがゆるやかな適応を誘導しているのではないかと考えた．そこで，メラノーマ細胞とメラノーマ関連線維芽細胞の共培養スフェロイドのメラノーマ関連線維芽細胞にもERKバイオセンサーを導入しBRAF阻害剤に対する応答を観察したところ，メラノーマ関連線維芽細胞におけるERKの逆説的な活性化が認められた．また，これと連動して，メラノーマ関連線維芽細胞におけるミオシン軽鎖のリン酸化および細胞収縮力の増強，細胞外マトリックスのリモデリングの亢進が認められ，マイクロアレイにより一連の細胞外マトリックスをコードする遺伝子の発現の上昇が認められた．これらの結果は，BRAF阻害剤によりメラノーマ細胞関連線維芽細胞がよりがんの進展に関連する表現型<a href="#R10"><sup>10)</sup></a> を呈するようになることを示唆した．<br/><br/><h2>4．細胞外マトリックスからのシグナルによるメラノーマ細胞における薬剤耐性</h2><br/>　細胞外マトリックスのリモデリングとメラノーマ細胞の薬剤耐性との関連について調べるため，特定の細胞外マトリックスによりおおわれ硬さの規定されたゲルのうえでメラノーマ細胞を培養し，BRAF阻害剤に対する応答を調べた．その結果，メラノーマ細胞はフィブロネクチンに富む3～12 kPaの硬さをもつ基質のうえで培養することにより，BRAF阻害剤に対する耐性を示した．この薬剤耐性はメラノーマ細胞におけるインテグリンβ1-FAKシグナル伝達経路の活性化と連動しており，siRNAによるインテグリンβ1あるいはFAKのノックダウンにより薬剤耐性は消失した．また，メラノーマ細胞とメラノーマ関連線維芽細胞の共培養スフェロイドに対しBRAFとともにFAKあるいはSrcを阻害することにより，ERKの再活性化の消失およびより効果的な細胞死が誘導された．<br/><br/><h2>5．BRAFとFAKの共阻害による相乗的な腫瘍の増殖の抑制</h2><br/>　皮下にメラノーマ細胞を移植したマウスにBRAF阻害剤およびFAK阻害剤を投与したところ，これらの併用により相乗的な腫瘍の増殖の抑制が認められた．また，腫瘍標本の詳細な検討の結果，BRAF阻害剤の単独での投与では豊富な細胞外マトリックスにかこまれたメラノーマ細胞が伸展した形態を呈していた一方，BRAF阻害剤とFAK阻害剤の併用ではこの伸展した形態は消失していた．以上の結果から，BRAFを阻害されたメラノーマ細胞は，生体においてもインテグリンβ1-FAKシグナル伝達経路を補填的なシグナル伝達経路として利用することにより細胞死からのがれているものと推測され（<a href="#F1">図1</a>），このシグナル伝達経路を阻害することで相乗的な腫瘍の増殖の抑制効果が得られたものと考えられた．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　BRAF阻害剤を投与する前後の線維芽細胞およびメラノーマ細胞におけるシグナルの状態</strong><br/>（a）BRAF阻害剤を投与するまえのメラノーマ細胞．変異BRAFに依存して増殖する．<br/>（b）BRAF阻害剤を投与したあとのメラノーマ細胞．BRAF阻害剤の投与により変異BRAFを介するシグナルを失うが，同時に，線維芽細胞が活性化され細胞外マトリックスの産生およびリモデリングが亢進し，その結果，メラノーマ細胞はインテグリンβ1-FAK-Srcシグナル伝達経路を介してERKを再活性化し，生存し増殖をつづける．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirata-Cancer-Cell-15.4.13-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　BRAF阻害剤を投与する前後の線維芽細胞およびメラノーマ細胞におけるシグナルの状態" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirata-Cancer-Cell-15.4.13-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirata-Cancer-Cell-15.4.13-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>6．BRAF阻害剤に感受性のメラノーマ細胞は薬剤耐性環境において増殖する</h2><br/>　以上の結果は，生体においてBRAF阻害剤に対し耐性を示すマウスのメラノーマ細胞を用いて得られたものであった．しかしながら，実際の臨床においては多くのメラノーマは良好な初期応答を示す<a href="#R5"><sup>5,6)</sup></a>．これらのケースにおいても残存する腫瘍塊は同様の分子機構により形成されているのではないかと考えた．そこで，BRAF阻害剤に対し<em>in vitro</em>および<em>in vivo</em>において良好な初期応答を示すヒトのメラノーマ細胞株にERKバイオセンサーを導入し，ヌードマウスの皮下に移植してBRAF阻害剤に対する応答を観察した．その結果，良好な初期応答を示したものの腫瘍は消失せず，約10日で直径2～4 mmの腫瘍塊を形成したが，これらの生存している細胞は対照と比較して同等のERK活性を示した．また，腫瘍組織学的には劇的な変化が認められ，メラノーマ関連線維芽細胞およびコラーゲン線維やフィブロネクチンなどの細胞外マトリックスからなる巣状の構造にかこまれた内部に，高いインテグリンβ1活性を示す伸展した形態を呈す細胞が観察された．これらの細胞を切り出し<em>in vitro</em>において培養したところ，BRAF阻害剤に対し親株の細胞と同じ程度の感受性を示し，この段階では内因性の薬剤耐性は獲得しておらず，BRAF阻害剤に感受性の細胞がこの特殊な腫瘍微小環境に保護されて生存しているものと考えられた．また，これらの結果と一致するように，BRAF阻害剤とFAK阻害剤の併用によりマウスの皮下の腫瘍はより良好に縮小した．<br/>　驚くべきことに，BRAF阻害剤を単独にて投与したマウスは腫瘍の大きさは良好に縮小していたにもかかわらず，腫瘍の悪性度を示すKi-67染色率は対照とほぼ同じであった．この結果は，いっけん静的な状態にあるメラノーマ細胞が実際には腫瘍微小環境に形成されたいわゆる“safe haven”において増殖をつづけ，この“safe haven”から逸脱して死滅する細胞とのあいだでバランスをとっている可能性を示唆しており，全体としては増殖を示さないメラノーマが薬剤の選択圧のなかで遺伝学的な薬剤耐性を獲得する分子機構を考察するうえできわめて示唆に富んでいた（<a href="#F2">図2</a>）．一方，BRAF阻害剤とFAK阻害剤を併用したマウスは腫瘍の内部に好中球の浸潤をともなう腫瘍の壊死像が認められ，Ki-67染色率も低下していた．このことから，BRAF阻害剤とFAK阻害剤の併用により“safe haven”において生存し増殖するメラノーマ細胞を根絶あるいは減少させることにより，メラノーマに対する治癒あるいはより長期間にわたり腫瘍の大きさは良好に縮小すると期待された．そこで，より厳密なモデルを用いて長期間の薬剤投与実験を行ったところ，BRAF阻害剤の単独での投与では腫瘍の大きさは約50日間にわたり良好に縮小したのち再増大が認められたのに対し，BRAF阻害剤とFAK阻害剤の併用では治療の開始から120日のちにも腫瘍の再増大は認められなかった．以上の結果から，BRAFに変異をもつメラノーマに対する治療においては，BRAF阻害剤とFAK阻害剤を併用することにより，BRAF阻害剤の単独での投与よりも腫瘍の大きさを長期間にわたり維持できる可能性が示唆された．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　メラノーマ細胞の薬剤耐性における“safe haven”モデル</strong><br/>活性化された線維芽細胞が形成する薬剤抵抗性の腫瘍微小環境がBRAF阻害剤からメラノーマ細胞を保護し，メラノーマ細胞はこの内部で増殖をつづける．一方，この“safe haven”から逸脱したメラノーマ細胞は死滅する．この増殖と死滅のバランスにより，いっけん腫瘍の大きさは変化していないようにみえるが，実際には腫瘍は“safe haven”の内部で増殖をつづけており，やがて，内因性に薬剤耐性をもつクローンが出現する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirata-Cancer-Cell-15.4.13-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　メラノーマ細胞の薬剤耐性における“safe haven”モデル" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirata-Cancer-Cell-15.4.13-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Hirata-Cancer-Cell-15.4.13-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　これらマウスにおける実験にて得られた知見が実際の臨床においても認められるかどうかを確認するため，BRAF阻害剤の投与を開始する前後の同一の症例のメラノーマの腫瘍標本を解析した．その結果，再増悪の際の細胞外マトリックスの劇的なリモデリングおよび細胞の形態の変化を示す症例が確認され，“safe haven”モデルが実際の臨床にもあてはまることが強く示唆された．<br/><br/><h2>おわりに</h2><br/>　標的治療における薬剤耐性の克服はがんの臨床における最大の関心事のひとつである．BRAFに変異をもつメラノーマはBRAF阻害剤に対し幅広い初期応答を示すが，筆者らは，この初期応答の多様性を説明しうるメラノーマ細胞の薬剤への適応の過程とその動的な分子機構を見い出した．この分子機構は2つの重要な要因，すなわち，BRAF阻害剤によるメラノーマ関連線維芽細胞の逆説的な活性化，および，インテグリンβ1-FAKシグナル伝達経路を介した細胞接着に依存性かつBRAFに非依存性のERKの再活性化からなり，BRAF阻害剤とFAK阻害剤の併用により腫瘍の大きさはより良好に維持されることが示された．BRAF阻害剤により形成されメラノーマ細胞の生存の場になる“safe haven”の存在は，がん化学療法における腫瘍微小環境の重要性をあらためて示し，また，各種のがん標的治療においてはその正常な細胞への影響，とくに，腫瘍関連間質細胞への影響を考慮する必要性のあることを強く示唆した．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Poulikakos, P. I. & Rosen, N.</span>: <span class="ti">Mutant BRAF melanomas: dependence and resistance.</span> <span class='so'>Cancer Cell, 19, 11-15 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21251612" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Kobayashi, S., Boggon, T. J., Dayaram, T. et al.</span>: <span class="ti">EGFR mutation and resistance of non-small-cell lung cancer to gefitinib.</span> <span class='so'>N. Engl. J. Med., 352, 786-792 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/15728811" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Maheswaran, S., Sequist, L. V., Nagrath, S. et al.</span>: <span class="ti">Detection of mutations in EGFR in circulating lung-cancer cells.</span> <span class='so'>N. Engl. J. Med., 359, 366-377 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18596266" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Turke, A. B., Zejnullahu, K., Wu, Y. L. et al.</span>: <span class="ti">Preexistence and clonal selection of MET amplification in EGFR mutant NSCLC.</span> <span class='so'>Cancer Cell, 17, 77-88 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20129249" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Chapman, P. B., Hauschild, A., Robert, C. et al.</span>: <span class="ti">Improved survival with vemurafenib in melanoma with BRAF V600E mutation.</span> <span class='so'>N. Engl. J. Med., 364, 2507-2516 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21639808" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Sosman, J. A., Kim, K. B., Schuchter, L. et al.</span>: <span class="ti">Survival in BRAF V600-mutant advanced melanoma treated with vemurafenib.</span> <span class='so'>N. Engl. J. Med., 366, 707-714 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22356324" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Straussman, R., Morikawa, T., Shee, K. et al.</span>: <span class="ti">Tumour micro-environment elicits innate resistance to RAF inhibitors through HGF secretion.</span> <span class='so'>Nature, 487, 500-504 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22763439" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Komatsu, N., Aoki, K., Yamada, M. et al.</span>: <span class="ti">Development of an optimized backbone of FRET biosensors for kinases and GTPases.</span> <span class='so'>Mol. Biol. Cell, 22, 4647-4656 (2011)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21976697" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Dhomen, N., Reis-Filho, J. S., da Rocha Dias, S. et al.</span>: <span class="ti">Oncogenic Braf induces melanocyte senescence and melanoma in mice.</span> <span class='so'>Cancer Cell, 15, 294-303 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19345328" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Calvo, F., Ege, N., Grande-Garcia, A. et al.</span>: <span class="ti">Mechanotransduction and YAP-dependent matrix remodelling is required for the generation and maintenance of cancer-associated fibroblasts.</span> <span class='so'>Nat. Cell Biol., 15, 637-646 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23708000" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">平田 英周（Eishu Hirata）</span><br>略歴：2010年 京都大学大学院医学研究科 修了，京都大学大学院生命科学研究科 助教を経て，2011年より英国Cancer Research UK London Research Institute（現Francis-Crick Institute）研究員．<br>研究テーマ：薬剤耐性と腫瘍微小環境．<br>関心事：外科的な治癒の得られないがんに対し，画期的な治療法を開発すること．<br></div><br>© 2015 平田 英周 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

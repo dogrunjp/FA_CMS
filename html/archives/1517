@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> 抗原抗体反応にpH依存性を付与することによりin vivoにおける抗体による抗原の遮断効果が延長する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>抗原抗体反応にpH依存性を付与することにより<em>in vivo</em>における抗体による抗原の遮断効果が延長する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>井川智之・服部有宏</strong><br>（中外製薬 ゲノム抗体医薬研究部）<br>email：<a href="mailto:igawatmy@chugai-pharm.co.jp">井川智之</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2010.054">10.7875/first.author.2010.054</a><br><div class="reference"><br><span class="ti">Antibody recycling by engineered pH-dependent antigen binding improves the duration of antigen neutralization.</span><br><span class="au">Tomoyuki Igawa, Shinya Ishii, Tatsuhiko Tachibana, Atsuhiko Maeda, Yoshinobu Higuchi, Shin Shimaoka, Chifumi Moriyama, Tomoyuki Watanabe ,Ryoko Takubo, Yoshiaki Doi, Tetsuya Wakabayashi, Akira Hayasaka, Shoujiro Kadono, Takuya Miyazaki, Kenta Haraya, Yasuo Sekimori, Tetsuo Kojima, Yoshiaki Nabuchi, Yoshinori Aso, Yoshiki Kawabe, Kunihiro Hattori</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/20953198" target="_blank"><em>Nature Biotechnology</em>, <strong>28</strong>, 1203-1207 (2010)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　抗体医薬品の多くは標的抗原と特異的に結合することにより抗原を介して惹起される作用を選択的に遮断することで効果を発揮する．従来の抗体は1分子の抗体が抗原と1度だけ結合し，その作用を1回しか遮断することができない．そこで，筆者らは，抗IL-6受容体抗体であるtocilizumabに対してアミノ酸置換による改変を行い，pH 7.4でIL-6受容体に強く結合しpH 6.0においてすみやかに解離するpH依存的な結合を示す抗体を作製した．マウスを用いた試験の結果，この抗体はpH 7.4の血液中において抗原と強く結合して効果を発揮し，エンドソームに取り込まれるとpH 6.0のエンドソーム内において抗原を解離させることで抗原をリソソームで分解させ，さらに，抗原を解離したこの抗体は細胞外へとリサイクルされることで血液中において新たな抗原とふたたび結合できることが示唆された．カニクイザルを用いた試験において，IL-6受容体への結合親和性を増強した抗体ではその遮断効果の持続性の向上は限定的であったが，pH依存的な結合を示す抗体においては持続性の顕著な向上が認められた．このことから，抗体抗原反応にpH依存性を付与することにより抗体医薬品の投与頻度や用量を低減することが可能であるものと考えられた．<br/><br/><h2>はじめに</h2><br/>　モノクローナル抗体は標的抗原への強い親和性をもちその作用を選択的に阻害できることから，これまでに多くの抗体医薬品が上市されている<a href="#R1"><sup>1)</sup></a>．しかし，これまでの抗体医薬品では，抗体が生体に投与され血漿中に存在している期間において免疫グロブリンG型の抗体がもつ2つの抗原認識部位はそれぞれ1分子の抗原としか結合することができなかった．すなわち，従来の抗体においては1分子の抗体は抗原と1度だけ結合し，その作用を1回しか遮断することができなかった．一方で，標的とする抗原は生体において連続的に産生されている．そのため，抗原に対する親和性がいかに強い抗体であっても，投与した抗原認識部位の量（抗体の投与量）をこえる量の抗原が産生された時点で抗体による抗原の遮断効果はなくなって（消失して）しまう．そのため，抗体医薬品の投与量および投与頻度の低減には限界があった．<br/>　筆者らは，1つの抗原認識部位が複数回にわたり抗原に結合することで1分子の抗体がくり返しその作用を遮断することができればこの限界を克服することが可能であると考えた．そこで，この研究では，インターロイキン6（IL-6）の作用を遮断することで関節リウマチの治療薬として高い治療効果を示す抗ヒトIL-6受容体抗体tocilizumab <a href="#R2"><sup>2)</sup></a> にアミノ酸置換による改変をくわえることによって，1分子の抗体をIL-6受容体へくり返し結合させその遮断効果の持続性を改善することを目的とした．<br/>　tocilizumabは可溶型IL-6受容体と膜型IL-6受容体の両方に結合することでIL-6の炎症性シグナルを遮断し関節リウマチの治療効果を発揮する<a href="#R3"><sup>3)</sup></a>．この研究では，抗体工学的な手法を用いてtocilizumabに対しIL-6受容体との抗原抗体反応にpH依存性を付与することにより，血漿中の中性条件下（pH 7.4）ではIL-6受容体に強く結合し，エンドソーム内の酸性条件下（pH 6.0）ではIL-6受容体からすみやかに解離するような抗体の作製を試みた．このようなpH依存的な結合を示す抗体は，血漿中ではIL-6受容体に強く結合することで遮断効果を発揮し，エンドソーム内ではIL-6受容体をすみやかに解離することでIL-6受容体をリソソームにより分解させ，一方で，IL-6受容体を解離した抗体は細胞表面あるいは血漿中にリサイクルされ新たなIL-6受容体とふたたび結合することができるものと考えられた．このような抗体が創製できれば1分子の抗体がくり返しIL-6受容体に結合することでIL-6受容体の遮断効果のより持続することが期待された．<br/><br/><h2>1．pH依存的にIL-6受容体と結合する抗IL-6受容体抗体の作製</h2><br/>　天然には血漿中の中性pHとエンドソーム内の酸性pHの違いを利用したpH依存的なタンパク質間相互作用が知られており，その多くがヒスチジン残基の性質を利用している<a href="#R4"><sup>4)</sup></a>．ヒスチジン残基の<em>pK</em><sub>a</sub>は6.0～6.5であることから，血漿中のpH 7.4ではヒスチジン残基は中性であるのに対してエンドソーム内のpH 5.5～6.0ではプロトンが付加され正電荷をもつ．このようなヒスチジン残基の静電的な性質の変化を利用することで抗原抗体反応にもpH依存性を付与することが可能であると考えられた（<a href="#F1">図1</a>）．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　抗原抗体反応へのpH依存性の付与</strong><br/>pH 7.4においては中性のヒスチジン残基を介して抗体と抗原とは高親和性で結合し，pH 6.0においてはプロトン化したヒスチジン残基によって抗体と抗原との親和性が低下し抗原は抗体から解離する．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Igawa-Nature-Biotechnology-10.11.8-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　抗原抗体反応へのpH依存性の付与" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Igawa-Nature-Biotechnology-10.11.8-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Igawa-Nature-Biotechnology-10.11.8-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　そこで，IL-6受容体の結合にかかわると推測されるtocilizumabのアミノ酸残基をひとつずつヒスチジン残基に置換して改変抗体を調製し，中性条件下および酸性条件下でのIL-6受容体との結合を評価することでIL-6受容体との結合にpH依存性を付与するようなヒスチジン残基への置換部位を同定した．これらの改変を組み合わせることによりIL-6受容体にpH依存的に結合する抗IL-6受容体抗体PH2が得られた．このPH2は中性条件下のpH 7.4においてtocilizumabよりも約3倍も強く結合し，かつ，pH 7.4とpH 6.0における<em>K</em><sub>D</sub>比が22倍というpH依存性（tocilizumabの<em>K</em><sub>D</sub>比は2倍）をもっていた．PH2はpH 7.4においてIL-6受容体に結合したのち，pH 6.0条件下になるとすみやかにIL-6受容体から解離することが確認された．<br/><br/><h2>2．pH依存的な結合を示す抗IL-6受容体抗体のヒトIL-6受容体トランスジェニックマウスを用いた<em>in vivo</em>評価</h2><br/>　ヒトIL-6受容体トランスジェニックマウス<a href="#R5"><sup>5)</sup></a> を用いて，tocilizumabとpH依存的にIL-6受容体に結合する抗体PH2の<em>in vivo</em>における効果を検証した．このトランスジェニックマウスにヒトIL-6を投与するとIL-6受容体へのシグナルを介して血清アミロイドAが誘導される．25 mg/kgの用量でtocilizumabあるいはPH2を投与し，これらの抗体の薬物動態と血清アミロイドA産生の抑制効果（IL-6受容体の遮断効果）を評価した．その結果，pH依存的にIL-6受容体に結合するPH2はtocilizumabと比較して長い血漿中滞留性を示し，血清アミロイドAの産生をより長期間にわたり抑制することが確認された．<br/><br/><h2>3．pH依存的な結合を示す抗IL-6受容体抗体の膜型IL-6受容体および可溶型IL-6受容体に対する作用</h2><br/>　IL-6受容体には可溶型IL-6受容体と膜型IL-6受容体の2つのタイプが存在し，tocilizumabは両方のタイプに結合する．そこで，可溶型IL-6受容体および膜型IL-6受容体に対してpH依存的な結合がそれぞれどのように影響するかを検証した．<br/>　一般に，抗原の血漿中滞留性は抗体に比べれば短く消失が早いが，血漿中滞留性が長い抗体が抗原に結合すると抗体がキャリアとしてはたらくため抗原の消失が著しく遅くなることが知られている<a href="#R6"><sup>6)</sup></a>．実際，正常マウスにヒト可溶型IL-6受容体のみを投与するとヒト可溶型IL-6受容体はすみやかに消失したが，99％以上がtocilizumabと結合した状態でヒト可溶型IL-6受容体を正常マウスに投与したところその消失は大幅に遅延した．tocilizumabは可溶型IL-6受容体に結合したのち，複合体の状態で細胞に非特異的に取り込まれ，そののち，エンドソームにおいてFcRnという抗体のリサイクルに関与する分子に結合しそのまま複合体の状態で血漿中にリサイクルされる．そのため，可溶型IL-6受容体はtocilizumabに結合した状態で血漿中に長期間にわたり滞留し，tocilizumabの1つの抗原結合部位は1つの可溶型IL-6受容体としか結合することができない（<a href="#F2">図2a</a>）．一方，pH依存的に結合する抗IL-6受容体抗体PH2と結合した状態で投与したところ，tocilizumabと結合した状態で投与した場合と比較して，ヒト可溶型IL-6受容体の消失は大幅に促進された．pH依存的なIL-6受容体への結合能をもつPH2は，可溶型IL-6受容体に結合したのち，複合体の状態で細胞に非特異的に取り込まれ，そののち，酸性条件下のエンドソームにおいて可溶型IL-6受容体を解離するものと考えられた．解離した可溶型IL-6受容体はFcRnに結合することができないためリソソームに移行して分解されるが，抗体はFcRnによって血漿中にリサイクルされ，ふたたび別の可溶型IL-6受容体に結合するものと考えられた（<a href="#F2">図2b</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　通常の抗体tocilizumabとpH依存的な結合を示す抗IL-6受容体抗体PH2の可溶型IL-6受容体および膜型IL-6受容体に対する推定作用</strong><br/>（a）tocilizumabは可溶型IL-6受容体に結合した状態で非特異的にエンドソームに取り込まれると，可溶型IL-6受容体に結合したままFcRnによって細胞表面にリサイクルされるため，抗体は新たな可溶型IL-6受容体と結合することができない．<br/>（b）PH2は可溶型IL-6受容体に結合した状態で非特異的にエンドソームに取り込まれると，可溶型IL-6受容体を解離しFcRnによって細胞表面にリサイクルされるため，抗体は新たな可溶型IL-6受容体と結合することができる．<br/>（c）tocilizumabは膜型IL-6受容体と結合した状態でインターナリゼーションされ，そのままリソソームで分解される．<br/>（d）PH2は膜型IL-6受容体と結合した状態でインターナリゼーションされると，エンドソーム内で膜型IL-6受容体から解離し細胞表面にリサイクルされるため，抗体は新たな膜型IL-6受容体と結合することができる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Igawa-Nature-Biotechnology-10.11.8-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　通常の抗体tocilizumabとpH依存的な結合を示す抗IL-6受容体抗体PH2の可溶型IL-6受容体および膜型IL-6受容体に対する推定作用" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Igawa-Nature-Biotechnology-10.11.8-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Igawa-Nature-Biotechnology-10.11.8-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　つぎに，膜型IL-6受容体に関してであるが，tocilizumabは膜型IL-6受容体に結合することでその作用を遮断し，そののち，膜型IL-6受容体のインターナライゼーションにより血漿中から消失する．実際，ヒトIL-6受容体トランスジェニックマウスにtocilizumabを投与するとヒトIL-6受容体を発現しない正常マウスに投与した場合に比べ（tocilizumabはヒトおよびカニクイザルのIL-6受容体に結合するが，マウスのIL-6受容体には結合しない），tocilizumabは血漿中からすみやかに消失する．tocilizumabは膜型IL-6受容体に結合すると膜型IL-6受容体との複合体のままインターナライゼーションによりエンドソームに取り込まれ，そののち，リソソームに移行し分解される（膜型IL-6受容体依存的な消失）．そのため，tocilizumabの1つの抗原結合部位は1つの膜型IL-6受容体としか結合することができない（<a href="#F2">図2c</a>）．一方，pH依存的にIL-6受容体に結合するPH2はヒトIL-6受容体トランスジェニックマウスにおいてtocilizumabよりすぐれた血漿中滞留性を示した．PH2はインターナライゼーションののち，エンドソームにおいて膜型IL-6受容体から解離するものと考えられた．膜型IL-6受容体はそのままリソソームで分解されるのに対して，膜型IL-6受容体から解離したPH2はFcRnを介して細胞表面にリサイクルされ，ふたたび別の膜型IL-6受容体に結合することが可能であるものと考えられた（<a href="#F2">図2d</a>）．<br/>　以上より，tocilizumabは可溶型IL-6受容体および膜型IL-6受容体にいちどしか結合できないのに対して，pH依存的なIL-6受容体への結合能をもつPH2は血漿中での結合とエンドソーム内での解離をくり返すことによって，1分子の抗体がくり返しIL-6受容体と結合し，その遮断効果をより長期間にわたって持続できることが示唆された．<br/><br/><h2>4．pH依存的な結合を示す抗IL-6受容体抗体のカニクイザルを用いた薬物動態・薬力学評価</h2><br/>　抗体による抗原の遮断効果を増強する一般的な方法は抗原に対する親和性を向上させることである<a href="#R7"><sup>7)</sup></a>．そこで，tocilizumabに対しIL-6受容体への親和性を向上させる改変を導入した高親和性抗IL-6受容体抗体と，tocilizumabに対しpH依存的にIL-6受容体に結合する改変を導入したpH依存的な結合を示す抗IL-6受容体抗体PH2の2種類の抗体を<em>in vivo</em>において比較評価した．tocilizumabのIL-6受容体に対する親和性を100倍向上させた抗IL-6受容体抗体AMを作製し（pH依存的なIL-6受容体への結合能はない），さらに，tocilizumab，PH2およびAMに対して，抗体の非特異的な消失（IL-6受容体を介さない抗体の一般的な消失経路）を低減させるためFcRnへの結合を増強させる改変<a href="#R8"><sup>8)</sup></a> を導入したtocilizumab-FcRn，PH2-FcRnおよびAM-FcRnを作製した．<br/>　tocilizumab，tocilizumab-FcRn，AM-FcRnおよびPH2-FcRnをカニクイザルの静脈に1 mg/kgで投与し，これらの抗体の薬物動態とC反応性タンパク質産生の抑制効果（IL-6受容体の遮断効果）を評価した<a href="#R9"><sup>9)</sup></a>．その結果，pH依存的にIL-6受容体に結合するPH2-FcRnはtocilizumabと比較して血漿中滞留性とC反応性タンパク質産生の阻害（IL-6受容体の遮断）の持続性を大幅に向上することができた．一方，抗体の非特異的な消失を低減させただけのtocilizumab-FcRn，および，さらにIL-6受容体への親和性を100倍向上させたAM-FcRnによる持続性の向上は限定的であった．抗体の非特異的な消失を低減させ，かつ，IL-6受容体ときわめて高い親和性をもつAM-FcRnはIL-6受容体を遮断できる期間が8日間であったことから，1 mg/kgで投与した抗体に匹敵する量のIL-6受容体は生体では約8日間で産生されているものと考えられた．それに対して，pH依存的にIL-6受容体に結合するPH2-FcRnはIL-6受容体を16日間にわたり遮断したことから，少なくとも1つの抗体が2回以上はIL-6受容体に結合することができているものと考えられた．<br/>　tocilizumabによるIL-6受容体の阻害が有効な関節リウマチなどの慢性疾患では，長い投与間隔で皮下注射により投与できることが望ましい．そこで，tocilizumabあるいはPH2-FcRnを2 mg/kgの投与量でカニクイザルに皮下投与したところ，tocilizumabは約1週間しかIL-6受容体を遮断することができなかったのに対してPH2-FcRnは4週間以上も遮断することができた．このことから，PH2-FcRnは4週間に1回の投与間隔により関節リウマチへの治療効果を発揮することができるものと期待された．<br/><br/><h2>おわりに</h2><br/>　従来の抗体では1分子の抗体が抗原と1回だけ結合し，その作用を1回しか遮断することができなかったため，生体での産生量の多い抗原を標的とする場合は高い投与量・短い投与間隔が必要であった．筆者らは，抗原抗体反応にpH依存性を付与することにより，エンドソームにおいて抗体から抗原を解離させ，抗原のみをリソソームで分解させ抗体を血漿中にリサイクルさせてふたたび新たな抗原と結合可能とすることで，ひとつの抗原結合部位がくり返し抗原と結合することを可能とする技術を確立した．1分子の抗体が抗原にくり返し結合することにより，通常の抗体では達成することができない効果を発揮することが可能となる．この技術はIL-6受容体のみならずほかの疾患関連抗原に対しても適用することが可能であり，単独あるいはほかの抗体工学技術<a href="#R10"><sup>10)</sup></a> と組み合わせて適用することより通常の抗体医薬品よりも付加価値の高い抗体医薬品の創製が期待される．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Chan, A. C. & Carter, P. J.</span>: <span class="ti">Therapeutic antibodies for autoimmunity and inflammation.</span> <span class='so'>Nat. Rev. Immunol., 10, 301-316 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20414204" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Mircic, M. & Kavanaugh, A.</span>: <span class="ti">The clinical efficacy of tocilizumab in rheumatoid arthritis.</span> <span class='so'>Drugs Today, 45, 189-197 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19436841" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Ohsugi, Y. & Kishimoto, T.</span>: <span class="ti">The recombinant humanized anti-IL-6 receptor antibody tocilizumab, an innovative drug for the treatment of rheumatoid arthritis.</span> <span class='so'>Expert Opin. Biol. Ther., 8, 669-681 (2008)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/18407769" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Burmeister, W. P., Huber, A. H. & Bjorkman, P. J.</span>: <span class="ti">Crystal structure of the complex of rat neonatal Fc receptor with Fc.</span> <span class='so'>Nature, 372, 379-383 (1994)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7969498" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Hirota, H., Yoshida, K., Kishimoto, T. et al.</span>: <span class="ti">Continuous activation of gp130, a signal-transducing receptor component for interleukin 6-related cytokines, causes myocardial hypertrophy in mice.</span> <span class='so'>Proc. Natl. Acad. Sci. USA, 92, 4862-4866 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7539136" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Finkelman, F. D., Madden, K. B., Morris, S. C. et al.</span>: <span class="ti">Anti-cytokine antibodies as carrier proteins. Prolongation of in vivo effects of exogenous cytokines by injection of cytokine-anti-cytokine antibody complexes.</span> <span class='so'>J. Immunol., 151, 1235-1244 (1993)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/8393043" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Bostrom, J., Lee, C. V., Haber, L. et al.</span>: <span class="ti">Improving antibody binding affinity and specificity for therapeutic development.</span> <span class='so'>Methods Mol. Biol., 525, 353-376 (2009)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/19252851" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Deng, R., Loyet, K. M., Lien, S. et al.</span>: <span class="ti">Pharmacokinetics of humanized monoclonal anti-tumor necrosis factor-α antibody and its neonatal Fc receptor variants in mice and cynomolgus monkeys.</span> <span class='so'>Drug Metab. Dispos., 38, 600-605 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20071453" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Shinkura, H., Imazeki, I., Yamazaki, M. et al.</span>: <span class="ti">In vivo blocking effects of a humanized antibody to human interleukin-6 receptor on interleukin-6 function in primates.</span> <span class='so'>Anticancer Res., 18, 1217-1221 (1998)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/9615791" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Beck, A., Wurch, T., Bailly, C. et al.</span>: <span class="ti">Strategies and challenges for the next generation of therapeutic antibodies.</span> <span class='so'>Nat. Rev. Immunol., 10, 345-352 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20414207" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">井川 智之（Tomoyuki Igawa）</span><br>略歴：2001年 東京大学大学院工学系研究科 修了，同年 中外製薬 動態物性研究所，2005年 同 前臨床研究部を経て，2007年より同 ゲノム抗体医薬研究部 研究員．<br>研究テーマ：抗体医薬品の研究開発．<br>抱負：革新的な医薬品を創製するための価値のある抗体エンジニアリング技術を築くこと．<br><br><strong>服部 有宏（Kunihiro Hattori）</strong><br>中外製薬 ゲノム抗体医薬研究部 部長．<br></div><br>© 2010 井川智之・服部有宏 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

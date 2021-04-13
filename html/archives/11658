@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> Rhoシグナル伝達経路による転写共役因子YAPおよびTAZの活性化はヒトのES細胞の維持培養に必要である : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>Rhoシグナル伝達経路による転写共役因子YAPおよびTAZの活性化はヒトのES細胞の維持培養に必要である</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>大串 雅俊</strong><br>（理化学研究所発生・再生科学総合研究センター ヒト幹細胞研究支援ユニット）<br>email：<a href="mailto:mohgushi@cdb.riken.jp">大串雅俊</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.105">10.7875/first.author.2015.105</a><br><div class="reference"><br><span class="ti">Rho-signaling-directed YAP/TAZ activity underlies the long-term survival and expansion of human embryonic stem cells.</span><br><span class="au">Masatoshi Ohgushi, Maki Minaguchi, Yoshiki Sasai</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26321201" target="_blank"><em>Cell Stem Cell</em>, <strong>17</strong>, 448-461 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　がん細胞のようにほぼ無限に拡大培養のできる形質を不死性とよぶことがある．ES細胞も同様の不死性を示すが，さまざまな遺伝子変異をもつがん細胞とは異なり，ゲノムの正常性を維持していると考えられる．この研究においては，ゲノムの異常によらない不死性をES細胞の特徴のひとつととらえ，その分子機構について解析した．その結果，ヒトのES細胞の生存はRhoシグナル伝達経路による転写共役因子YAPおよびTAZの活性化に依存すること，核に蓄積したYAPおよびTAZは多能性幹細胞に不死性を付与することが明らかにされた．すなわち，ES細胞の不死性は，Rhoを介する生存シグナルと多能性幹細胞に特有の分子ネットワークとが核においてYAPおよびTAZを介して相互作用することにより顕在化する，内在的なプログラムを基盤とした形質であることが示唆された．<br/><br/><h2>はじめに</h2><br/>　ヒトを含むほぼすべて多細胞生物の生存には一定の限界がある．このような生存の限界は個々の細胞のレベルにおいても規定されており，現在では，遺伝プログラムとして細胞の分裂の回数が決められていること，また，時間の経過にともなうDNA障害の蓄積が細胞に寿命を付与することが知られている<a href="#R1"><sup>1)</sup></a>．遺伝子の異常の蓄積をへて結果的に寿命を規定するしくみを回避する形質を獲得した細胞ががん細胞であり，増殖を停止すべき状況あるいは生存しえないはずの環境においても増えつづけることにより細胞の社会の恒常性をみだす．このことから，細胞の不死化は生命の原則を逸脱した異常な形質であると考えられてきた．<br/>　一方で，生体の外でも生存し増殖しつづけることのできるというがん細胞の特性は，細胞生物学の進展に大きく寄与した．本来であれば，生命現象の研究においては正常な細胞を対象とすることが望ましい．しかし，さきに述べたとおり，ゲノムの正常性を維持した細胞を生体の外で増やしつづけることはそう簡単ではないという現実があった．<br/>　ところが，それが可能な細胞も実在する．ES細胞（embryonic stem cell，胚性幹細胞）やiPS細胞（induced pluripotent stem cell，人工多能性幹細胞）などの多能性幹細胞はその一例である（<a href="#F1">図1</a>）．とくに，ES細胞は遺伝子の導入などをともなうことなく樹立される細胞で，体細胞への分化にともない寿命を規定するプログラムに従うようになる．つまり，ES細胞の不死性は細胞の分化に相関した可塑性を備えており，がん細胞の不死性とは本質的に異なり，正常な細胞の営みとして成立することが示唆されている．それでは，ゲノムの異常によらない不死性を可能にする分子機構とはどのようなものなのだろうか．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　ES細胞は初期胚の多能性の組織より株化された正常な細胞である</strong><br/>正常な細胞は<em>in vitro</em>においては細胞死や細胞老化を起こしやすいため維持培養がむずかしいが，がん遺伝子の導入などによる形質転換により株化することができる．一方で，ES細胞は形質転換をともなうことなく株化でき，ゲノムの正常性を維持したまま不死性の形質を獲得していると考えられる．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ohgushi-Cell-Stem-Cell-15.10.1-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　ES細胞は初期胚の多能性の組織より株化された正常な細胞である" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ohgushi-Cell-Stem-Cell-15.10.1-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ohgushi-Cell-Stem-Cell-15.10.1-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/>　筆者らは，ヒトのES細胞の特性を解析するなかで，分散したヒトのES細胞においてはRho→ROCK→ミオシン経路の過剰な活性化を起因とする細胞死が誘導されることを見い出し，細胞間接着装置によるRhoの活性の制御がヒトのES細胞の生存の維持に必須であることを報告した<a href="#R2"><sup>2,3)</sup></a>．また，同じ時期に，Rhoシグナル伝達経路は細胞間接着の状況に応じて細胞死の促進と生存の維持というまったく別の役割をはたすことを見い出した．この研究においては，コロニーとして生存し増殖するヒトのES細胞において，Rhoシグナル伝達経路の担う役割について調べた．<br/><br/><h2>1．ヒトのES細胞の生存および増殖は特異的なRhoシグナル伝達経路に依存する</h2><br/>　ヒトのES細胞は分散処理により死滅してしまうため，維持培養がむずかしく扱いにくい細胞とされてきた．この状況は，ROCK阻害剤がヒトのES細胞の分散培養を可能にするという発見により大きく改善された<a href="#R2"><sup>2)</sup></a>．そののち筆者らは，分散したヒトのES細胞における細胞死の分子機構を解析し<a href="#R3"><sup>3)</sup></a>，現在では，ROCK阻害剤は世界中の研究室において幹細胞の研究に日常的に使用されている．<br/>　ROCK阻害剤が細胞死の抑制に効く以上，その上流のタンパク質であるRhoの阻害も同様の効果を示すはずと考えてRho阻害剤の作用について検討したところ，予想とは逆に，Rho阻害剤を培地に添加しただけで大部分のヒトのES細胞は死滅してしまった．Rhoファミリータンパク質は細胞分裂など細胞のさまざまな活動に関与する多機能タンパク質であることから，グローバルなRhoの阻害が毒性を示すことは十分にありうると考え，当初はこの結果をあまり重視していなかった．しかしながら，RhoのアイソフォームであるRhoA，RhoB，RhoCの選択的なノックダウンを試みたところ，RhoCのノックダウンによりヒトのES細胞は死滅することがわかった．ほかのアイソフォームでは相補できないRhoシグナル伝達経路がヒトのES細胞の生存に機能しているのではと考え，その詳細について検討した．<br/>　上流の特異的なタンパク質の特定をめざしたRNAiスクリーニングにより，Rho活性化タンパク質のひとつであるAKAP-Lbcが同定された．RhoCと同様に，AKAP-LbcをノックダウンするとヒトのES細胞は死滅した．AKAP-Lbcは白血病の患者において同定されたがん遺伝子にコードされ<a href="#R4"><sup>4)</sup></a>，Rhoシグナル伝達経路やプロテインキナーゼAの機能を制御することが報告されていた．このタンパク質の同定により，選択的に活性化されるRhoシグナル伝達経路がヒトのES細胞の生存の維持を担うという仮説が裏づけられた．<br/>　以前の実験の結果とあわせて考えると，コロニー培養においてはAKAP-Lbc→Rho経路が生存の維持にはたらく一方で，分散培養においてはABRという別のRho活性化タンパク質がはたらき細胞死を導くという，細胞間接着の状態に応じた異なるRhoシグナル伝達経路の役割が考えられた．<br/><br/><h2>2．転写共役因子YAPおよびTAZによるヒトのES細胞の生存の維持</h2><br/>　AKAP-Lbc→Rho経路の下流における実行タンパク質について調べるためトランスクリプトーム解析を実施したところ，AKAP-Lbcのノックダウンにより転写共役因子であるYAPおよびTAZの標的遺伝子の発現レベルが低下することがわかった<a href="#R5"><sup>5)</sup></a>．YAPおよびそのホモログであるTAZをノックダウンしたところ，RhoCあるいはAKAP-Lbcのノックダウンの場合と同じく，ヒトのES細胞の生存はいちじるしく阻害された．また，TAZの核への移行を人為的に促進することによりAKAP-Lbcへの依存性がキャンセルされたことから，TAZおよびYAPの機能の不全がAKAP-Lbc→Rho経路の抑制による細胞死のおもな原因であると結論づけた．<br/>　Rhoシグナル伝達経路とYAPおよびTAZの活性とをつなぐ分子機構について検討した．まず，YAPおよびTAZの活性を制御する上流のシグナル伝達経路としてHippo→LATS経路に注目した<a href="#R5"><sup>5)</sup></a>．検討の結果，LATSはヒトのES細胞においても活性化しており，TAZの核への移行と拮抗する効果をもつものの，LATSのノックダウンによりYAPおよびTAZの不活性化をキャンセルすることはできなかった．つづいて，AKAP-Lbc→Rho経路の阻害がとくに基底面の近傍におけるアクチンの動態に劇的な変化を起こすことをうけ，アクチン骨格とYAPおよびTAZとの関連について検討した<a href="#R6"><sup>6)</sup></a>．アクチンの動態の活性化にはたらくタンパク質であるコフィリンのノックダウンにより，AKAP-Lbc→Rho経路の阻害によるYAPおよびTAZの不活性化がキャンセルされること，また，細胞死が部分的にレスキューされることがわかった．このことから，ヒトのES細胞では，AKAP-Lbc→Rho→アクチンという分子カスケードの下流においてYAPおよびTAZの核への蓄積が誘導されていることが示唆された（<a href="#F2">図2a</a>）．<br/><br/><a name="F2"></a><div id="fig2-caption-text" style="display: none;"><strong>図2　Rhoシグナル伝達経路は核においてYAPおよびTAZを介して多能性幹細胞に特有の分子ネットワークとリンクする</strong><br/>（a）AKAP-Lbc→Rho→アクチンという分子カスケードの下流において，YAPおよびTAZの核への蓄積が誘導される．<br/>（b）内在性のプログラムとしての不死性は，多能性幹細胞に特有の分子ネットワークと密接にリンクしている．<br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ohgushi-Cell-Stem-Cell-15.10.1-Fig.2.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure2" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図2　Rhoシグナル伝達経路は核においてYAPおよびTAZを介して多能性幹細胞に特有の分子ネットワークとリンクする" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ohgushi-Cell-Stem-Cell-15.10.1-Fig.2.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Ohgushi-Cell-Stem-Cell-15.10.1-Fig.2.jpg" alt="figure2" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig2-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig2-caption').innerHTML = document.getElementById('fig2-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>3．多能性と生存シグナルとの関連</h2><br/>　ヒトのES細胞がAKAP-Lbc→Rho経路に依存的に生存することが明らかにされた一方で，ノックアウトマウスの表現型からAKAP-LbcおよびRhoCは多能性の組織の形成に必須ではないことがわかっていた<a href="#R7"><sup>7,8)</sup></a>．AKAP-Lbc→Rho経路は生体の外での生存および増殖という株化した多能性幹細胞ならではの現象に関与するのではと考え，細胞種のあいだでAKAP-Lbcへの依存性について検討した．その結果，ES細胞あるいはiPS細胞とは異なり，HeLa細胞などのがんに由来する細胞や株化していない正常なヒトの線維芽細胞はAKAP-Lbcに依存性を示さなかった．ES細胞を機能性の体細胞である網膜色素上皮細胞に分化させるとAKAP-Lbcへの依存性を喪失した一方，ヒトの線維芽細胞を初期化して作製したiPS細胞株はAKAP-Lbcに依存性を示すようになった．さらに，ヒトの線維芽細胞の初期化の過程においてAKAP-Lbcをノックダウンすると，iPS細胞様のコロニーの出現が劇的に減少した．これらの結果は，AKAP-Lbc→Rho経路は多能性幹細胞という細胞の状態を背景とした場合にのみ，細胞の生存および増殖を促進するプログラム（すなわち，不死性）を起動するという仮説を支持するものと考えられた．<br/><br/><h2>おわりに</h2><br/>　この研究においては，ヒトのES細胞の生存をささえる分子基盤のひとつとして，Rhoシグナル伝達経路を介したYAPおよびTAZの活性の亢進を同定した．主要ながんの抑制機構として知られている細胞間接着→Hippo経路→YAPおよびTAZの不活性化→増殖の抑制という分子機構が，ヒトのES細胞においては機能していないことは興味深い．AKAP-Lbc→Rho経路の役割のひとつは，密集した細胞塊という生存および増殖にはむいていない環境においても正常な細胞として増えつづけるための“場の調整”であると考えられた．この場の調整は可逆的なプロセスであり，細胞の状態に応じて自由に変動できる可塑性と，長期間にわたりその可塑性を保ちつづける頑強性を備えていた．また，内在性のプログラムとしての不死性は多能性幹細胞に特有の分子ネットワークと密接にリンクした形質であることが示唆されており（<a href="#F2">図2b</a>），細胞がもつ潜在的な生存能の理解とその応用へむけた重要な知見となるだろう．<br/>　近年，細胞の移植による再生医療への期待が高まっているが，ES細胞やiPS細胞から有用な細胞を分化させて治療や創薬に応用するという戦略は，<em>in vitro</em>における生存能および増殖能，ゲノムの恒常性の維持などヒトの多能性幹細胞のもつ特性が前提になっている．生体の外における正常な細胞の維持培養が内包するメリットとデメリットを適切に把握するためにも，ヒトの多能性幹細胞への理解をより深めることは重要ではないだろうか．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Schmitt, C. A.</span>: <span class="ti">Senescence, apoptosis and therapy-cutting the lifelines of cancer.</span> <span class='so'>Nat. Rev. Cancer, 3, 286-295 (2003)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/12671667" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Watanabe, K., Ueno, M., Kamiya, D. et al.</span>: <span class="ti">A ROCK inhibitor permits survival of dissociated human embryonic stem cells.</span> <span class='so'>Nat. Biotechnol., 25, 681-686 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17529971" target="_blank">PubMed</a>]</span></li><br><li id="R3"><span class='au'>Ohgushi, M., Matsumura, M., Eiraku, M. et al.</span>: <span class="ti">Molecular pathway and cell state responsible for dissociation-induced apoptosis in human pluripotent stem cells.</span> <span class='so'>Cell Stem Cell, 7, 225-239 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20682448" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Zheng, Y., Olson, M. F., Hall, A. et al.</span>: <span class="ti">Direct involvement of the small GTP-binding protein Rho in <em>lbc</em> oncogene function.</span> <span class='so'>J. Biol. Chem., 270, 9031-9034 (1995)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/7721814" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>Yu, F. X. & Guan, K. L.</span>: <span class="ti">The Hippo pathway: regulators and regulations.</span> <span class='so'>Genes Dev., 27, 355-371 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23431053" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Halder, G., Dupont, S. & Piccolo, S.</span>: <span class="ti">Transduction of mechanical and cytoskeletal cues by YAP and TAZ.</span> <span class='so'>Nat. Rev. Mol. Cell. Biol., 13, 591-600 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22895435" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Mayers, C. M., Wadell, J., McLean, K. et al.</span>: <span class="ti">The Rho guanine nucleotide exchange factor AKAP13 (BRX) is essential for cardiac development in mice.</span> <span class='so'>J. Biol. Chem., 285, 12344-12354 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/20139090" target="_blank">PubMed</a>]</span></li><br><li id="R8"><span class='au'>Hakem, A., Sanchez-Sweatman, O., You-Ten, A. et al.</span>: <span class="ti">RhoC is dispensable for embryogenesis and tumor initiation but essential for metastasis.</span> <span class='so'>Genes Dev., 19, 1974-1979 (2005)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/16107613" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">大串 雅俊（Masatoshi Ohgushi）</span><br>略歴：京都大学大学院生命科学研究科博士課程 修了，2007年より理化学研究所発生・再生科学総合研究センター（現 多細胞システム形成研究センター）．<br>研究テーマ：ヒトのES細胞の特性．<br>抱負：ヒトの多能性幹細胞を用いた基礎研究を継続すべく，つぎの研究環境を模索中．<br></div><br>© 2015 大串 雅俊 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>

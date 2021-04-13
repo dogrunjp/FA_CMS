@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="follow, all">
+    <meta name="language" content="en, sv">
+
+    <title> カゼインキナーゼ2はベージュ脂肪細胞における熱の産生およびエネルギーの消費を負に制御する : ライフサイエンス 新着論文レビュー</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon_64_shin.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon_64_shin.ico">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://first.lifesciencedb.jp/feed">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://first.lifesciencedb.jp/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://first.lifesciencedb.jp/feed/atom">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" id="style-maintenance-css" href="./css/style-maintenance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+    <link rel="stylesheet" id="toc-screen-css" href="./css/screen.min.css" type="text/css" media="all">
+
+    <!-- for modal window -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./webfonts-css/fa-solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+
+</head>
+
+<body class="drawer drawer--left">
+
+
+<!-- drawer menu -->
+
+<nav class="drawer-nav">
+    <div class="inner">
+        <ul class="drawer-menu l_sidebarwidgeted">
+
+            <li class="widget widget_search">
+                <form id="searchform" class="searchform">
+                    <label class="screen-reader-text">検索:</label>
+                    <input type="text" ref="search_val" id="search_val" maxlength="20"/>
+                    <input type="button" id="searchsubmit" value="検索"/>
+                </form>
+            </li>
+
+            <drawer-journal></drawer-journal>
+            <drawer-category></drawer-category>
+            <drawer-date></drawer-date>
+
+            <li class="drawer-nav-menu">
+                <ul class="nav-menu">
+                    <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                    <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                    <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                    <li class="page_item"><a href="./editor">編集人</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="wrap">
+    <div id="nav">
+        <div class="nav-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger drawer-opener">
+                <span class="drawer-opener-pc"><i class="fa fa-search"></i></span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="./index.htm">ホーム</a></li>
+                <li class="page_item"><a href="./about">「新着論文レビュー」とは</a></li>
+                <li class="page_item"><a href="https://leading.lifesciencedb.jp/">領域融合レビュー</a></li>
+                <li class="page_item"><a href="./copyright">著作権・クレジット・ロゴについて</a></li>
+                <li class="page_item"><a href="./editor">編集人</a></li>
+                <li class="page_item"><a href="./link">DBCLSからの成果発信</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="masthead">
+        <h1><a href="./"><img src="images/logo_shin_yoko.png" height="153" width="515" alt="ライフサイエンス新着論文レビュー" title="ライフサイエンス新着論文レビュー"></a></h1>
+    </div>
+
+    <div id="content">
+
+        <div id="contentleft">
+            <div class="article">
+                <h1>カゼインキナーゼ2はベージュ脂肪細胞における熱の産生およびエネルギーの消費を負に制御する</h1>
+                <div class="article_thumb"></div>
+
+                <div class="article_thumb">
+                    <strong>篠田幸作<sup>1</sup>・石濱 泰<sup>2</sup>・梶村真吾<sup>1</sup></strong><br>（<sup>1</sup>米国California大学San Francisco校UCSF Diabetes Center，<sup>2</sup>京都大学大学院薬学研究科 製剤機能解析学分野）<br>email：<a href="mailto:skajimura@diabetes.ucsf.edu">梶村真吾</a><br>DOI: <a href="http://dx.doi.org/10.7875/first.author.2015.141">10.7875/first.author.2015.141</a><br><div class="reference"><br><span class="ti">Phosphoproteomics identifies CK2 as a negative regulator of beige adipocyte thermogenesis and energy expenditure.</span><br><span class="au">Kosaku Shinoda, Kana Ohyama, Yutaka Hasegawa, Hsin-Yi Chang, Mayu Ogura, Ayaka Sato, Haemin Hong, Takashi Hosono, Louis Z. Sharp, David W. Scheel, Mark Graham, Yasushi Ishihama, Shingo Kajimura</span><br><span class="so"><a href="http://www.ncbi.nlm.nih.gov/pubmed/26525534" target="_blank"><em>Cell Metabolism</em>, <strong>22</strong>, 997-1008 (2015)</a></span></div><br><br><!--more--><br><br><h2>要 約</h2><br/>　哺乳類は2つの異なる脂肪細胞，白色脂肪細胞と褐色脂肪細胞をもつ．白色脂肪細胞は余剰なエネルギーを中性脂肪として貯蓄するのに対し，褐色脂肪細胞はミトコンドリア内膜に存在するUCP1を介してエネルギーを消費し熱を産生する機能をもつ．褐色脂肪細胞における熱の産生は，寒冷への曝露により交感神経から分泌されたアドレナリンがβアドレナリン受容体と結合することにより誘導される．βアドレナリン受容体は褐色脂肪細胞および白色脂肪細胞に同等に発現しているにもかかわらず，アドレナリンは白色脂肪細胞において脂肪の分解を誘導し，褐色脂肪細胞において熱の産生を誘導する．しかし，この褐色脂肪細胞に特異的なアドレナリンによる熱の産生を誘導する機構は明らかにされていない．そこで，筆者らは，リン酸化プロテオミクス法を用いて白色脂肪細胞および褐色脂肪細胞におけるシグナル伝達経路について解析したところ，アドレナリンの刺激により白色脂肪細胞でのみカゼインキナーゼ2が活性化した．一方，カゼインキナーゼ2の活性は肥満モデルマウスの白色脂肪細胞において顕著に亢進していた．そこで，カゼインキナーゼ2の阻害剤およびアンチセンスオリゴヌクレオチドを用いて白色脂肪細胞におけるカゼインキナーゼ2の活性を阻害したところ，βアドレナリン受容体への刺激に依存的な熱の産生が誘導された．カゼインキナーゼ2の阻害による白色脂肪細胞における熱の産生の誘導はUCP1に依存的であり，マウスにおいて，高脂肪食により誘導された肥満およびインスリン抵抗性が改善された．以上の結果から，カゼインキナーゼ2は脂肪組織における熱の産生の亢進を介した抗肥満薬の標的になる可能性が示唆された．<br/><br/><h2>はじめに</h2><br/>　マウスには少なくとも2つの褐色脂肪細胞のあることが知られる．肩甲骨の付近に存在する褐色脂肪細胞は胎仔期に骨格筋細胞と共通のMyf5陽性筋前駆細胞から発生し，古典的な褐色脂肪細胞とよばれる．一方，成体の皮下の白色脂肪組織に散在的に出現するUCP1陽性細胞は白色脂肪細胞が褐色化するという古典的な褐色脂肪細胞とは異なる細胞系譜をたどり，白色と褐色の中間色からベージュ脂肪細胞とよばれる．マウスの古典的な褐色脂肪細胞とベージュ脂肪細胞とを比較すると，古典的な褐色脂肪細胞の分化は胎仔期に完成するのに対し，ベージュ脂肪細胞の分化は寒冷への曝露や一部の糖尿病治療薬の投与などの刺激に応じて誘導されるという高い可塑性を維持している<a href="#R1"><sup>1-3)</sup></a>．ヒトにおいては，中高齢者および肥満症の患者の多くは褐色脂肪組織を失っている一方，褐色脂肪組織をもたないヒトでも長期にわたる寒冷への曝露により褐色脂肪組織の分化が誘導される<a href="#R4"><sup>4-6)</sup></a>．また，筆者らにより，褐色脂肪細胞株のトランスクリプトーム解析によってヒトの成人の褐色脂肪細胞の多くはベージュ脂肪細胞であることが明らかにされた<a href="#R7"><sup>7)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/9964" target="_blank">新着論文レビュー</a> でも掲載）．よって，ベージュ脂肪細胞の分化および熱の産生にはたらくシグナル伝達経路を理解することにより全身におけるエネルギーの消費を亢進させる方法が確立されれば，肥満に対する新しい治療法に発展する可能性がある．この研究においては，リン酸化プロテオミクス法により寒冷に曝露された白色脂肪細胞において選択的に活性化するキナーゼとしてカゼインキナーゼ2を同定し，そのエネルギー代謝にかかわる機能について検討した．<br/><br/><h2>1．カゼインキナーゼ2は寒冷への曝露や肥満状態において白色脂肪細胞に選択的に活性化する</h2><br/>　寒冷に曝露された脂肪細胞におけるシグナル伝達経路を解き明かすことにより熱の産生の機構が明らかにされるのではないかと考えた．そこで，白色脂肪細胞，褐色脂肪細胞，白色脂肪細胞に転写因子PRDM16を発現させることにより分化させたベージュ脂肪細胞の3種の脂肪細胞を用意し，ノルアドレナリンの刺激の前後の複数の点において回収し，リン酸化プロテオーム解析に供した<a href="#R8"><sup>8)</sup></a>．リン酸化プロテオミクス法では，どのタンパク質のどのアミノ酸残基がリン酸化されているかについて膨大な情報が得られる．得られた情報をデータベースに登録されたキナーゼによるリン酸化モチーフと照合することにより，おのおのの脂肪細胞において活性化しているキナーゼを予測した．その結果，熱の産生との関係が既知であるERK，プロテインキナーゼAなどとならんで，カゼインキナーゼ2が，白色脂肪細胞と褐色脂肪細胞とのあいだ，および，白色脂肪細胞とベージュ脂肪細胞とのあいだで，統計的に有意に異なるプロファイルを示すことがわかった．カゼインキナーゼ2の活性はノルアドレナリンの刺激により白色脂肪細胞に選択的に上昇した．また，肥満は褐色脂肪細胞における熱の産生を負に制御することが知られているが，カゼインキナーゼ2の活性は肥満モデルマウスの白色脂肪細胞において顕著に上昇していた．これらの生理的あるいは病理的な刺激のもとでのカゼインキナーゼ2の活性の変化から，カゼインキナーゼ2は熱の産生における負の制御タンパク質ではないかという仮説をたてた．<br/><br/><h2>2．カゼインキナーゼ2はベージュ脂肪細胞において熱の産生を制御する</h2><br/>　カゼインキナーゼ2が脂肪細胞において熱の産生を負に制御するという仮説を検証するため，RNAi法によるノックダウンによりその機能について調べた．カゼインキナーゼ2はα1，α2，βの3つのサブユニットからなるヘテロ複合体を形成する．マウスの鼠蹊部の皮下の脂肪組織から採取した白色脂肪細胞においてカゼインキナーゼ2のキナーゼ活性を担うα1サブユニットあるいはα2サブユニットをノックダウンしたところ，熱産生遺伝子の発現のいちじるしい上昇およびcAMPにより誘導される細胞呼吸量の上昇が認められた．さらに，カゼインキナーゼ2のATP競合性の酵素活性阻害剤であるCX-4945を<a href="#R9"><sup>9)</sup></a>，野生型のマウスに5日間にわたり経口投与したところ，皮下の脂肪組織においてベージュ脂肪細胞の分化の誘導および熱産生遺伝子の発現の上昇が認められた．全身の酸素消費量を測定したところ，寒冷への曝露のもとCX-4945を投与したマウスは対照となるマウスより8～10％も多くエネルギーを消費することがわかった．このエネルギーの消費の亢進は温熱的な中性域およびUCP1ノックアウトマウスにおいては認められなかったことから，カゼインキナーゼ2による熱の産生の抑制はベージュ脂肪細胞および褐色脂肪細胞を介することが示唆された．<br/><br/><h2>3．カゼインキナーゼ2の阻害はヒストンデアセチラーゼを介してベージュ脂肪細胞の分化および熱の産生の遺伝子プログラムを制御する</h2><br/>　カゼインキナーゼ2が熱の産生の遺伝子プログラムを抑制する分子機構について探るため，リン酸化プロテオミクス法を用いて白色脂肪細胞におけるカゼインキナーゼ2の基質を網羅的に同定した（<a href="#F1">図1</a>）．白色脂肪細胞から抽出した全タンパク質を脱リン酸化し，そののち，試験管内においてカゼインキナーゼ2と反応させ，その反応生成物をリン酸化プロテオミクス法に供した．その結果，約800種類のタンパク質がカゼインキナーゼ2と直接に結合する基質であることがわかった．この<em>in vitro</em>における実験の結果と脂肪細胞における結果とを照らしあわせたところ，カゼインキナーゼ2の直接的な基質の候補としてクラス1ヒストンデアセチラーゼが同定された．クラス1ヒストンデアセチラーゼであるHDAC1のSer421およびSer423はヒストンデアセチラーゼ活性および複合体の形成に必要であり，また，進化的によく保存されたリン酸化部位であることが報告されている<a href="#R10"><sup>10)</sup></a>．さらに，クラス1ヒストンデアセチラーゼであるHDAC3のノックアウトマウスにおいて，脂肪組織におけるミトコンドリアの生合成および酸化的リン酸化が上昇することが報告されている<a href="#R11"><sup>11)</sup></a>．そこで，マウスの鼠蹊部に由来する白色脂肪細胞をクラス1ヒストンデアセチラーゼの選択的な酵素活性阻害剤Mocetinostatと共培養したところ，カゼインキナーゼ2の阻害剤によるベージュ脂肪細胞の分化および熱産生遺伝子の発現の上昇が有意に消失した．以上の結果から，カゼインキナーゼ2の阻害の効果の多くはクラス1ヒストンデアセチラーゼの脱リン酸化を介することが推測された．<br/><br/><a name="F1"></a><div id="fig1-caption-text" style="display: none;"><strong>図1　白色脂肪細胞におけるカゼインキナーゼ2の基質の網羅的な同定</strong><br/><a href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kajimura-Cell-Metabolism-15.12.1-Fig.1.jpg" target="_blank">[Download]</a></div>
+                        <div id="figure1" class="hs-figure">
+                            <div class="hs-figure-box">
+                                <a class="highslide" title="図1　白色脂肪細胞におけるカゼインキナーゼ2の基質の網羅的な同定" href="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kajimura-Cell-Metabolism-15.12.1-Fig.1.jpg" target="_blank">
+                                    <img src="https://dbarchive.biosciencedbc.jp/data/first_authors/data/Fig/Kajimura-Cell-Metabolism-15.12.1-Fig.1.jpg" alt="figure1" width="200px" />
+                                </a>
+                            </div>
+                            <div id="fig1-caption" class="hs-figure-caption"></div>
+                        </div>
+
+                        <script type="text/javascript">document.getElementById('fig1-caption').innerHTML = document.getElementById('fig1-caption-text').innerHTML;</script>
+                        <div style='clear:both;'></div>
+                        <br/><br/><br/><h2>4．カゼインキナーゼ2の阻害は肥満およびインスリン抵抗性を改善する</h2><br/>　カゼインキナーゼ2の阻害が<em>in vivo</em>における代謝におよぼす効果について調べるため，カゼインキナーゼ2の酵素活性阻害剤であるCX-4945およびアンチセンスオリゴヌクレオチドの2つの阻害法を用いて検討した．アンチセンスオリゴヌクレオチドは標的となる相補的なRNAと結合することによりその翻訳を阻害する．おだやかな低温域および室温域において野生型マウスに高脂肪食を負荷し，カゼインキナーゼ2のα1サブユニットを標的とするアンチセンスオリゴヌクレオチドを週2回投与した．その結果，アンチセンスオリゴヌクレオチドの投与は体重の増加を抑制し，その効果は低温域においてさらに増強された．一方，摂餌や運動の量に影響はなかった．また，白色脂肪組織の重量が有意に減少した一方，除脂肪体重に影響はなかった．<br/>　カゼインキナーゼ2の阻害がマウスの糖代謝にあたえる影響について検討するため，グルコース負荷試験およびインスリン負荷試験を行った．グルコース負荷試験においては，カゼインキナーゼ2を標的とするアンチセンスオリゴヌクレオチドの投与およびCX-4945の投与により糖代謝の改善が認められ，また，インスリン負荷試験においてもインスリン抵抗性の改善が認められた．さらに，対照となるマウスと比較して空腹時の血中インスリン値も有意に低下した．近年，褐色脂肪細胞と脂肪肝との関連が示唆されているとおり<a href="#R12"><sup>12)</sup></a>（<a href="http://first.lifesciencedb.jp/archives/8040" target="_blank">新着論文レビュー</a> でも掲載），カゼインキナーゼ2の阻害により肝臓におけるトリアシルグリセロールの量も有意に低下した．これらの結果から，カゼインキナーゼ2の阻害は，脂肪組織における熱の産生の機構を誘導するとともに，糖代謝および脂肪代謝を改善することが示唆された．<br/><br/><h2>おわりに</h2><br/>　脂肪細胞の種類に特異的なシグナル伝達経路をリン酸化プロテオーム法を用いて網羅的に解析することにより，ベージュ脂肪細胞の分化およびエネルギーの消費を負に制御するキナーゼとしてカゼインキナーゼ2が同定された．カゼインキナーゼ2の阻害による熱の産生の誘導は寒冷への曝露によりさらに増強されたことから，カゼインキナーゼ2を標的とするアンチセンスオリゴヌクレオチドとβアドレナリン受容体アゴニストの共投与により，エネルギーの消費の相乗的な亢進が期待される．近年，アンチセンスオリゴヌクレオチドの治療への応用がマウスのみならず，霊長類およびヒトにおいて活発に検討されていることからも<a href="#R13"><sup>13,14)</sup></a>，カゼインキナーゼ2は代謝疾患，とくに，肥満や2型糖尿病における標的になる可能性が示唆される．今後のより仔細な分子機構の研究により，心血管系への副作用の少ない抗肥満薬が開発されることを期待している．<br/><br/><h2>文 献</h2><br><ol><br><li id="R1"><span class='au'>Bostrom, P., Wu, J., Jedrychowski, M. P. et al.</span>: <span class="ti">A PGC1-α-dependent myokine that drives brown-fat-like development of white fat and thermogenesis.</span> <span class='so'>Nature, 481, 463-468 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22237023" target="_blank">PubMed</a>]</span></li><br><li id="R2"><span class='au'>Ohno, H., Shinoda, K., Spiegelman, B. M. et al.</span>: <span class="ti">PPARγ agonists induce a white-to-brown fat conversion through stabilization of PRDM16 protein.</span> <span class='so'>Cell Metab., 15, 395-404 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22405074" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/4629" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R3"><span class='au'>Wu, J., Bostrom, P., Sparks, L. M. et al.</span>: <span class="ti">Beige adipocytes are a distinct type of thermogenic fat cell in mouse and human.</span> <span class='so'>Cell, 150, 366-376 (2012)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/22796012" target="_blank">PubMed</a>]</span></li><br><li id="R4"><span class='au'>Lee, P., Smith, S., Linderman, J. et al.</span>: <span class="ti">Temperature-acclimated brown adipose tissue modulates insulin sensitivity in humans.</span> <span class='so'>Diabetes, 63, 3686-3698 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24954193" target="_blank">PubMed</a>]</span></li><br><li id="R5"><span class='au'>van der Lans, A. A., Hoeks, J., Brans, B. et al.</span>: <span class="ti">Cold acclimation recruits human brown fat and increases nonshivering thermogenesis.</span> <span class='so'>J. Clin. Invest., 123, 3395-3403 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23867626" target="_blank">PubMed</a>]</span></li><br><li id="R6"><span class='au'>Yoneshiro, T., Aita, S., Matsushita, M. et al.</span>: <span class="ti">Recruited brown adipose tissue as an antiobesity agent in humans.</span> <span class='so'>J. Clin. Invest., 123, 3404-3048 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23867622" target="_blank">PubMed</a>]</span></li><br><li id="R7"><span class='au'>Shinoda, K., Luijten, I. H., Hasegawa, Y. et al.</span>: <span class="ti">Genetic and functional characterization of clonally derived adult human brown adipocytes.</span> <span class='so'>Nat. Med., 21, 389-394 (2015)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25774848" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/9964" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R8"><span class='au'>Sugiyama, N., Masuda, T., Shinoda, K. et al.</span>: <span class="ti">Phosphopeptide enrichment by aliphatic hydroxy acid-modified metal oxide chromatography for nano-LC-MS/MS in proteomics applications.</span> <span class='so'>Mol. Cell. Proteomics, 6, 1103-1109 (2007)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/17322306" target="_blank">PubMed</a>]</span></li><br><li id="R9"><span class='au'>Siddiqui-Jain, A., Drygin, D., Streiner, N. et al.</span>: <span class="ti">CX-4945, an orally bioavailable selective inhibitor of protein kinase CK2, inhibits prosurvival and angiogenic signaling and exhibits antitumor efficacy.</span> <span class='so'>Cancer Res., 70, 10288-10298 (2010)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/21159648" target="_blank">PubMed</a>]</span></li><br><li id="R10"><span class='au'>Pflum, M. K., Tong, J. K., Lane, W. S. et al.</span>: <span class="ti">Histone deacetylase 1 phosphorylation promotes enzymatic activity and complex formation.</span> <span class='so'>J. Biol. Chem., 276, 47733-47741 (2001)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/11602581" target="_blank">PubMed</a>]</span></li><br><li id="R11"><span class='au'>Galmozzi, A., Mitro, N., Ferrari, A. et al.</span>: <span class="ti">Inhibition of class I histone deacetylases unveils a mitochondrial signature and enhances oxidative metabolism in skeletal muscle and adipose tissue.</span> <span class='so'>Diabetes, 62, 732-742 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23069623" target="_blank">PubMed</a>]</span></li><br><li id="R12"><span class='au'>Ohno, H., Shinoda, K., Ohyama, K. et al.</span>: <span class="ti">EHMT1 controls brown adipose cell fate and thermogenesis through the PRDM16 complex.</span> <span class='so'>Nature, 504, 163-167 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24196706" target="_blank">PubMed</a>] [<a href="http://first.lifesciencedb.jp/archives/8040" target="_blank">新着論文レビュー</a>]</span></li><br><li id="R13"><span class='au'>Choi, J. H., Choi, S. S., Kim, E. S. et al.</span>: <span class="ti">Thrap3 docks on phosphoserine 273 of PPARγ and controls diabetic gene programming.</span> <span class='so'>Genes Dev., 28, 2361-2369 (2014)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/25316675" target="_blank">PubMed</a>]</span></li><br><li id="R14"><span class='au'>Graham, M. J., Lee, R. G., Bell, T. A. 3rd et al.</span>: <span class="ti">Antisense oligonucleotide inhibition of apolipoprotein C-III reduces plasma triglycerides in rodents, nonhuman primates, and humans.</span> <span class='so'>Circ. Res., 112, 1479-1490 (2013)[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23542898" target="_blank">PubMed</a>]</span></li><br></ol><br><br><br><div class="au-profile"><br><h2>著者プロフィール</h2><br><span class="author">篠田 幸作（Kosaku Shinoda）</span><br>略歴：2012年 慶應義塾大学大学院政策・メディア研究科 修了，2011年より米国California大学San Francisco校 研究員．<br>研究テーマ：ベージュ脂肪細胞のゲノミクスおよびバイオインフォマティクス．<br>関心事：サッカー，サンフランシスコジャイアンツ，スペイン語の習得．<br><br><strong>石濱  泰（Yasushi Ishihama）</strong><br>京都大学大学院薬学研究科 教授．<br><br><strong>梶村 真吾（Shingo Kajimura）</strong><br>米国California大学San Francisco校Assistant Professor．<br>研究室URL：<a href="http://kajimuralab.ucsf.edu/" target="_blank">http://kajimuralab.ucsf.edu/</a><br></div><br>© 2015 篠田幸作・石濱 泰・梶村真吾 Licensed under <a href="http://creativecommons.org/licenses/by/2.1/jp/" target="_blank">CC 表示 2.1 日本</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- begin r_sidebar -->
+
+        <div id="r_sidebar">
+            <ul class="l_sidebarwidgeted">
+
+
+                <li class="widget widget_text"><h2 class="widgettitle">このサイトについて</h2>
+                    <div class="textwidget">
+                        <a href="https://dbcls.rois.ac.jp/" class="img_item">
+                            <img alt="DBCLS" style="border-width:0"
+                                 height="71" width="158"
+                                 src="images/logo_en_c.png"
+                                 class="logo">
+                        </a>
+                        <p class="about_text">
+                            トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について，
+                            論文の著者自身の執筆による日本語のレビューを，だれでも自由に閲覧・利用できるよう，いち早く公開します．
+                            くわしくは、 「新着論文レビュー」とは をご覧ください．
+                        </p>
+                        <a href="https://togotv.dbcls.jp/20110301.html#p01" class="img_item">
+                            <img src="./images/togotv20110301_small-1.png">
+                        </a>
+                        <div class="caption">
+                            <a href="https://togotv.dbcls.jp/">統合TV</a>にて<a href="https://togotv.dbcls.jp/20110301.html#p01">解説動画</a>を公開しました
+                        </div>
+                        <a href="http://leading.lifesciencedb.jp/"><img src="images/logo_riyo_yoko_400.png" width="200"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <h2 class="widgettitle">概念とその関連性による検索 (β版)</h2>
+                    <div class="textwidget"><p><a href="http://navi.first.lifesciencedb.jp/stanza/top#A">生体構造</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#B">生物種</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#C">疾患</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#D">化合物または薬</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#E">分析、診断、治療に関する技術または装置</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#F">精神医学または心理学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#G">現象または作用</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#H">分野もしくは職業</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#I">人類学、教育、社会または社会現象</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#L">情報科学</a><br/>
+                        <a href="http://navi.first.lifesciencedb.jp/stanza/top#N">保健</a></p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Hovercardに表示するDB選択 -->
+                    <h2>関連記事を表示</h2>
+                    <div>
+                        <form>
+                            <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        </form>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- end r_sidebar -->
+
+    </div>
+
+    <!-- The main column ends  -->
+
+</div>
+<!-- end wrap -->
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+
+<!-- begin footer -->
+<div class="bottom_indexes"></div>
+
+
+<div id="footer">
+    <ul id="footer-navi">
+        <li><a href="/">トップにもどる</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/">DBCLS</a></li>
+        <li><a href="https://biosciencedbc.jp/">NBDC</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/policy.html">サイトポリシー</a></li>
+        <li><a href="https://dbcls.rois.ac.jp/contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+
+
+<!-- .modal-profile -->
+<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <span class="modal-title"></span>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //.modal-profile -->
+
+
+<script type="text/javascript" src="./js/jquery.hovercard.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script src="./js/card.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+<script type="riot/tag" src="js/drawer-category.tag"></script>
+<script type="riot/tag" src="js/drawer-journal.tag"></script>
+<script type="riot/tag" src="js/drawer-date.tag"></script>
+
+
+<script type="text/javascript">
+    //
+    Array.prototype.uni = function () {
+        return [...new Set(this)]
+    };
+
+    function selected_db() {
+        var dbs = [];
+        $('.selected_db:checked').each(function () {
+            dbs.push($(this).val());
+        });
+        dbs = dbs.uni();
+        var selected = cards.filter(function (e, i, a) {
+            return dbs.includes(e.dbname)
+        });
+        return selected
+    }
+
+    $(document).ready(function () {
+        $('#search_val').keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault()
+                var url = "./search.htm?val=" + $("#search_val").val();
+                location.href = url
+            }
+        });
+        $("#searchsubmit").click(function () {
+            var url = "./search.htm?val=" + $("#search_val").val();
+            location.href = url
+        });
+
+        $('.drawer').drawer();
+        $('.drawer').on('drawer.opened', function () {
+            $('body,html').css({"overflow": "hidden", "height": "100%"});
+        });
+        $('.drawer').on('drawer.closed', function () {
+            $('body,html').css({"overflow": "visible", "height": "auto"});
+        });
+
+        riot.compile(function () {
+            tags = riot.mount("*");
+        });
+
+        $('a.highslide').click(function (event) {　// a.thumb内のhtmlをmodal-bodyに挿入
+            event.preventDefault();
+            var content = $('.modal-body'); //.modal-body初期化
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title); // h3を定義
+            content.html($(this).html());　//.modal-bodyにthisを挿入
+            $('.modal-body img').width("100%"); //modalのimageのサイズを変更
+            $(".modal-profile").modal({show: true});　//modalを表示
+        });
+
+        // キーワドのアノテーションon,off切り替え
+        $(document).on('change','#prop', function () {
+            var prop = $('#prop').prop('checked');
+            if(!prop){
+                $('.anno').css({'color': '#333333', 'font-weight': 'normal'});
+                $(".hc-details:visible").each(function (e) {
+                    $(this).closest(".hc-preview").find(".hc-details").eq(0).stop(true, true).fadeOut(300, function () {
+                        $(this).closest(".hc-preview").css("z-index", "0");
+                    });
+                });
+            }else{
+                $('.anno').css({'color': '#337ab7', 'font-weight': 'bold'});
+            }
+        })
+
+    });
+
+
+</script>
+
+<script type="text/javascript"
+        src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+        style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>
+
+</body>
+</html>
