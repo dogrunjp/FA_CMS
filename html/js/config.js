@@ -41,6 +41,20 @@ var cards = [
         "max_lines": 1
     },
     {
+        "dbname": "uniprot",
+        "request_type": "link",
+        "title": function (kw) {
+            var base_url = "https://www.uniprot.org/uniprot/";
+            return '<div class="hc-lines"><h3><a href=' + base_url+kw + ' target="_blank">  UniProtを表示する </a></h3></div>'
+        },
+        "get_url":function () {
+            return []
+        },
+        "ajax_conf": {"type": "GET", "dataType": "text"},
+        "views": "",
+        "max_lines": 1
+    },
+    {
         "dbname": "fa",
         "request_type": "sparql",
         "title": function () {
