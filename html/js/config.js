@@ -45,7 +45,7 @@ var cards = [
         "request_type": "link",
         "title": function (kw) {
             var base_url = "https://www.uniprot.org/uniprot/";
-            return '<div class="hc-lines"><h3><a href=' + base_url+kw + ' target="_blank">  UniProtを表示する </a></h3></div>'
+            return '<div class="hc-lines"><h3><a href=' + base_url+kw + ' target="_blank">  UniProtのエントリ' + kw + 'を表示する </a></h3></div>'
         },
         "get_url":function () {
             return []
