@@ -182,7 +182,7 @@ class RenderPage:
                 for i in range(1, len_lst + 1):
                     figs["fig"+str(i)] = {"caption": entry["Fig{}_caption".format(str(i))], "img": entry["Fig{}_jpg".format(str(i))]}
 
-                # 本文（entry["post_content"]）を<要約＞パート、<文献＞パートで分割する。本文部分をtxtに。
+                # 本文（entry["post_content"]）を<要約＞パート、<文献＞パートで分割する。本文部分doc[2]をtxtに代入。
                 doc = split_entry(entry["Post_Content"])
                 txt = doc[2]
                 # Annotationしない場合はコンテンツ全体を取得
@@ -210,7 +210,6 @@ class RenderPage:
                 # htmlにアノテーションのためのタグを付加
                 txt = add_annotation.add_annotation(keyword_work, txt)
 
-
                 # 一時置換したタグをリストcaptionsから復元する
                 for i in range(len(caps)):
                     idx = i + 1
@@ -229,6 +228,14 @@ class RenderPage:
                 else:
                     pass
                 """
+                # annotationがあればtemplateにフォームを追加
+                # keyword_work がから出ないならばformを追加する。からであるなら空白を追加
+                if len(keyword_work) != 0:
+                    template = "fa_detail_anno.html"
+                else:
+                    template = "fa_detail.html"
+
+                # templateを指定
                 tmpl = env.get_template(template)
                 htm = tmpl.render(item=entry)
                 write_static_file(entry, htm, wks_conf["output_path"])
@@ -587,7 +594,7 @@ def test_get_addclass():
     f.close()
     kws = get_keywords(conf)
 
-    keyword_work = [(x[1], x[2], x[3]) for x in kws if str(x[0]) == "18929"]
+    keyword_work = [(x[1], x[2], x[3]) for x in kws if str(x[0]) == "hoge.html.html"]
     txt = """
 PD-1やCTLA-4に対する...LAG-3は
 PD-1およびCTLA-4に..さまざまな..，
