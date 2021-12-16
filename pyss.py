@@ -165,7 +165,6 @@ class RenderPage:
     def render(self, contents, template, name, path, img_p, wks_conf):
         env = Environment(loader=FileSystemLoader(conf["template_path"], encoding="utf8"))
         env.filters['format_tag'] = format_tag  # 空白文字除去のためのテンプレートフィルターを定義
-
         if len(contents) != 0:
             for entry in contents:
                 entry["filename"] = entry[name]
@@ -206,6 +205,8 @@ class RenderPage:
                 # Hover card用のannotation追加
                 # keywordsはFA_URLの数字部分(FA_IDではなく)と一致するセットだけフィルターして渡す。また削除フラグに1が入っていた場合その語は使用しない。
                 keyword_work = [(x[1], x[2], x[3]) for x in self.keywords if str(x[0]) == str(entry["FA_URL"].split("/")[-1])]
+                uniprot_ids = [x[2] for x in keyword_work if x[2]]
+                entry["uniprotids"] = uniprot_ids
 
                 # htmlにアノテーションのためのタグを付加
                 txt = add_annotation.add_annotation(keyword_work, txt)
@@ -560,7 +561,7 @@ def convert2https(u):
 def update_controller():
     f = open(config_yaml, 'r', encoding='utf-8')
     global conf
-    conf = yaml.load(f)
+    conf = yaml.safe_load(f)
     f.close()
 
     # config.yamlに複数のwksが登録されていた場合処理を繰り返す
@@ -582,7 +583,7 @@ def update_controller():
 def test_get_keywords():
     f = open(config_yaml, 'r', encoding='utf-8')
     global conf
-    conf = yaml.load(f)
+    conf = yaml.safe_load(f)
     f.close()
     words = get_keywords(conf)
 
@@ -590,7 +591,7 @@ def test_get_keywords():
 def test_get_addclass():
     f = open(config_yaml, 'r', encoding='utf-8')
     global conf
-    conf = yaml.load(f)
+    conf = yaml.safe_load(f)
     f.close()
     kws = get_keywords(conf)
 
@@ -607,7 +608,7 @@ MHCクラスII分子とヘルパーT細胞の活性化を、インスリンB鎖�
 def test_kws():
     f = open(config_yaml, 'r', encoding='utf-8')
     global conf
-    conf = yaml.load(f)
+    conf = yaml.safe_load(f)
     f.close()
     kws = get_keywords(conf)
     kws = [(x[1], x[2], x[3]) for x in kws]
