@@ -50,14 +50,11 @@
                 hcImg = '<img class="hc-pic" src="' + options.cardImgSrc + '" />';
             }
 
-            //generate details span with html provided by the user
-            var hcCloseBtn = $('<span></span>', {
-               class: "hc-close"
-            }).html('<i class="far fa-window-close"></i>');
+      
             var hcTitle = $('<h3></h3>', {
                 text: obj.text(),
                 class: "hc-title"
-            }).append(hcCloseBtn);
+            });
             var hcDetails = $('<div></div>', {
                 class: "hc-inner"
             }).html(hcImg + options.detailsHTML);
@@ -102,7 +99,7 @@
                 });
             }
             //CLOSE
-            obj.siblings(".hc-details").find(".hc-close").on("click", function(e){
+            obj.siblings(".hc-details").on("mouseleave", function(e){
                 $this = $(this).closest(".hc-preview");
                 hcClose($this);
             });
