@@ -219,8 +219,28 @@ class RenderPage:
                 # 画像部分のテキストをHTMLに置き換え
                 body = replace_figures(txt, figs, path, img_p, caps)
 
-                # 分解した記事を結合
-                entry["Post_Content"] = doc[0] + doc[1] + body + doc[3] + doc[4]
+                doc_genes = ""
+                if len(keyword_work) != 0:
+                    doc_genes = """
+                    <h2>この論文に出現する遺伝子・タンパク質のUniprot ID</h2>
+                        <div class="gene_list">
+                        {0}
+                        </div>
+                        <ul class="gene_list">
+                        <li><a href="#" id="dl_uniprot_ids">Download</a></li>
+                        <li><a href="#">クリップボードにコピー</a></li>
+                        </ul>
+                    """
+                    gu_lst = ["{0}({1})".format(x[0], x[2]) for x in keyword_work]
+                    gu = ",  ".join(gu_lst)
+                    print(gu_lst, gu)
+
+                    # アノテーションを加えて、分解した記事に遺伝子・Uniprot情報を追加し結合
+                    entry["Post_Content"] = doc[0] + doc_genes.format(gu) + doc[1] + body + doc[3] + doc[4]
+                else:
+                    # アノテーションを加えて、分解した記事をそのまま結合
+                    entry["Post_Content"] = doc[0] + doc[1] + body + doc[3] + doc[4]
+
 
                 # entry["post_content"]にスプレッドシートのextra項目を結合する
                 """
