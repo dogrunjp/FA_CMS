@@ -100,7 +100,7 @@
             //CLOSE
             obj.siblings(".hc-details").on("mouseleave", function(e){
                 $this = $(this).closest(".hc-preview");
-                //hcClose($this);
+                hcClose($this);
             });
 
 

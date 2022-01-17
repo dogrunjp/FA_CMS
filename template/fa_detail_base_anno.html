@@ -311,7 +311,7 @@
             const elem = document.createElement('a');
             const file = new Blob(data, { type: 'text/plain'});
             elem.href = URL.createObjectURL(file);
-            elem.download = 'Uniprot_ids.txt';
+            elem.download = 'firstauthors_' + {% block faid %}{% endblock %} + '_Uniprot_iDs.txt';
             elem.click()
         }
 

@@ -229,9 +229,10 @@ class RenderPage:
                         <ul class="gene_list">
                         <li><a href="#"dl_uniprot_ids" id="dl_uniprot_ids">Uniprot ID一覧をテキストファイルでダウンロードする</a></li>
                         <li><a href="#copy_uniprot_ids" id="copy_uniprot_ids">Uniprot ID一覧をクリップボードにコピーする</a></li>
+                        <li><a href="https://togoid.dbcls.jp/">TogoIDで関連するIDを変換する</a></li>
                         </ul>
                     """
-                    gu_lst = ["{0}({1})".format(x[0], x[2]) for x in keyword_work]
+                    gu_lst = ["{0}(<a href='https://www.uniprot.org/uniprot/{1}'>{1}</a>)".format(x[0], x[2]) if x[2] else "{0}".format(x[0]) for x in keyword_work]
                     gu = ",  ".join(gu_lst)
 
                     # アノテーションを加えて、分解した記事に遺伝子・Uniprot情報を追加し結合
