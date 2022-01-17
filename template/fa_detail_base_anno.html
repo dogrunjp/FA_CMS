@@ -167,7 +167,7 @@
                     <!-- Hovercardに表示するDB選択 -->
                     <h2>関連記事を表示</h2>
                     <ul>
-                        <li><a id="dl_uniprot_ids">関連するUniprotIDをダウンロードする</a></li>
+                        <li><a id="dl_uniprot_ids"a id="dl_uniprot_ids">関連するUniprotIDをダウンロードする</a></li>
 
                     </ul>
                     <div>
@@ -315,10 +315,18 @@
             elem.click()
         }
 
-
+        const uniprot_ids = {% block uniprotids %}{% endblock %}
         $('a#dl_uniprot_ids').on('click',()=>{
-            const data = {% block uniprotids %}{% endblock %}.map(el => el + '\n')
+            const data = uniprot_ids.map(el => el + '\n')
             dluniprotids(data)
+        });
+
+        $('a#copy_uniprot_ids').on('click', (e)=>{
+            e.preventDefault();
+            const text = uniprot_ids.map(el => el)
+            navigator.clipboard.writeText(text).then(e =>{
+                alert("Uniprot IDをクリップボードにコピーしました")
+            })
         });
 
 

@@ -423,3 +423,15 @@ def test_bs4(kws, txt):
 - 現状（2018-10）ではスプレッドシートの見出し語候補から、dictionary=Geneで一般語フラグと削除フラグが立っていない語を取得している。
 - 取得はpyss.get_keywords(config): keyword_list
 
+## 更新操作&コマンド
+
+- アップデートする記事にGoogle docsのFA_MasterFileの"update"からむの値に何かを入力する（ex. testなど）
+- ステージング環境にページを生成する：　$ sudo python3 pyss.py -u
+- htmlファイルを同期する： $ sudo python3 pyss.py -s
+- html以外のファイルを同期する: $ sudo python3 pyss.py -b
+
+* htmlは拡張子をつけないため、htmlファイルとして扱うようにS3にアップする際に設定を追加するためhtmlのみ別処理となる
+
+
+## 確認
+- test server: http://fa-render.dbcls.jp

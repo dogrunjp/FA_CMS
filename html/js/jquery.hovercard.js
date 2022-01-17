@@ -50,7 +50,6 @@
                 hcImg = '<img class="hc-pic" src="' + options.cardImgSrc + '" />';
             }
 
-      
             var hcTitle = $('<h3></h3>', {
                 text: obj.text(),
                 class: "hc-title"
@@ -101,7 +100,7 @@
             //CLOSE
             obj.siblings(".hc-details").on("mouseleave", function(e){
                 $this = $(this).closest(".hc-preview");
-                hcClose($this);
+                //hcClose($this);
             });
 
 

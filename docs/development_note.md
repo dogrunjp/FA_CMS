@@ -75,3 +75,9 @@ git gc --aggressive --prune=now
 で、git push -f
 
 [Git リポジトリに上がっているファイルを履歴ごと消すには？](https://qiita.com/go_astrayer/items/6e39d3ab16ae8094496c)
+
+
+## jinja2で定義されるリストを複数回テンプレートで使いたい場合
+
+{% block hoge %}{% endblock %} はイテレータであるため、複数回使うのは無理。
+直接この変数を使うのではなく別の変数に代入して使えば良い
