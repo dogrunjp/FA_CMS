@@ -232,7 +232,7 @@ class RenderPage:
                         <li><a href="https://togoid.dbcls.jp/">TogoIDで関連するIDを変換する</a></li>
                         </ul>
                         <div><form>
-                        <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> キーワードをアノテーションする</div>
+                        <div class="selected_list"><input type="checkbox" id="prop" class="selected_db" name="targetdb" value="refex" checked> 遺伝子･タンパク質のアノテーションを表示する</div>
                         </form></div>
                     """
                     gu_lst = ["{0}(<a href='https://www.uniprot.org/uniprot/{1}'>{1}</a>)".format(x[0], x[2]) if x[2] else "{0}".format(x[0]) for x in keyword_work]
