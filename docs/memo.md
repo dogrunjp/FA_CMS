@@ -425,10 +425,10 @@ def test_bs4(kws, txt):
 
 ## 更新操作&コマンド
 
-- アップデートする記事にGoogle docsのFA_MasterFileの"update"からむの値に何かを入力する（ex. testなど）
+- アップデートする記事にGoogle docsのFA_MasterFileの"update"カラムに何かを入力する（ex. testなど値が入力されていれば何でもよい）
 - ステージング環境にページを生成する：　$ sudo python3 pyss.py -u
 - htmlファイルを同期する： $ sudo python3 pyss.py -s
-- html以外のファイルを同期する: $ sudo python3 pyss.py -b
+- html以外のファイルを同期する: $ sudo python3 pyss.py -b　　// JS等含めて全て更新する場合、こちらを先に更新する
 
 * htmlは拡張子をつけないため、htmlファイルとして扱うようにS3にアップする際に設定を追加するためhtmlのみ別処理となる
 
